@@ -1,0 +1,122 @@
+<DOC>
+<DOCNO>org.eclipse.swt.dnd.DropTargetEvent.java </DOCNO>
+<text>
+<class>
+drop target event
+</class>
+<method>
+drop target event
+update event
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ dnd
+ org
+ eclipse
+ swt
+ events
+typed event
+ org
+ eclipse
+ swt
+ widgets
+ widget
+drop target event
+typed event
+
+
+ detail
+ operations
+ feedback
+ widget
+ item
+transfer data
+current data type
+transfer data
+data types
+serial version uid
+drop target event
+dnd event
+
+
+ data
+
+ data
+
+
+
+
+
+
+ detail
+
+ detail
+current data type
+
+data type
+data types
+
+data types
+ operations
+
+ operations
+ feedback
+
+ feedback
+ item
+
+ item
+update event
+dnd event
+
+
+ widget
+ widget
+
+ time
+ time
+
+ data
+ data
+
+
+
+
+
+
+
+ detail
+ detail
+
+data type
+current data type
+
+data types
+data types
+
+ operations
+ operations
+
+ feedback
+ feedback
+
+ item
+ item
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+the drop target event  contains  the  event  information  passed  the  methods  the drop target listener
+the  cordinate  the  cursor  relative  the  code  display  code
+the  cordinate  the  cursor  relative  the  code  display  code
+the  operation  being  performed  see  dnd  drop  none  see  dnd  drop  move  see  dnd  drop  copy  see  dnd  drop  link
+bitwise  ing  the  operations  that  the drag source  can  support  dnd  drop  move  dnd  drop  copy  dnd  drop  link  the  detail  value  must  member  this  list  dnd  drop  none  see  dnd  drop  none  see  dnd  drop  move  see  dnd  drop  copy  see  dnd  drop  link
+bitwise  ing  the  drag  under  effect  feedback  displayed  the  user  dnd  feedback  select  dnd  feedback  scroll  dnd  feedback  expand  value  dnd  feedback  none  indicates  that  drag  under  effect  will  displayed  feedback  effects  will  only  applied  they  are  applicable  the  default  value  dnd  feedback  select  see  dnd  feedback  select  see  dnd  feedback  insert  before  see  dnd  feedback  insert  after  see  dnd  feedback  scroll  see  dnd  feedback  expand
+the  associated  control  table  tree  this  field  contains  the  item  located  the  cursor  coordinates
+the  type  data  that  will  dropped
+list  the  types  data  that  the drag source  capable  providing  the current data type  must  member  this  list
+constructs  new  instance  this  class  based  the  information  the  given  untyped  event  param  the  untyped  event  containing  the  information
+</comments>
+</text>
+</DOC>

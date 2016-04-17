@@ -1,0 +1,165 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.ole.win32.IDispatch.java </DOCNO>
+<text>
+<class>
+ dispatch
+</class>
+<method>
+ dispatch
+get names
+get type info
+get type info count
+ invoke
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ internal
+ win
+ dispatch
+ unknown
+ dispatch
+ address
+ address
+get names
+ guid
+ riid
+ string
+rgsz names
+ names
+ lcid
+ disp
+ buffer
+ size
+rgsz names
+ length
+ heap
+
+get process heap
+ names
+
+heap alloc
+ heap
+
+heap zero memory
+ size
+mem tracker
+ size
+
+
+ size
+
+name size
+rgsz names
+
+ length
+ buffer
+name size
+rgsz names
+
+get chars
+name size
+ buffer
+ name
+
+heap alloc
+ heap
+
+heap zero memory
+ buffer
+ length
+
+move memory
+ name
+ buffer
+ buffer
+ length
+ com
+move memory
+ names
+
+ name
+mem tracker
+
+ name
+ com
+vtbl call
+ address
+ guid
+ names
+ names
+ lcid
+ disp
+
+
+mem tracker
+ length
+
+
+heap free
+ heap
+mem tracker
+
+
+heap free
+ heap
+ names
+get type info
+ info
+ lcid
+ info
+ com
+vtbl call
+ address
+ info
+ lcid
+ info
+get type info count
+ pctinfo
+ com
+vtbl call
+ address
+ pctinfo
+ invoke
+disp member
+ guid
+ riid
+ lcid
+ flags
+ dispparams
+disp params
+var result
+ excepinfo
+excep info
+arg err
+ com
+vtbl call
+ address
+disp member
+ riid
+ lcid
+ flags
+disp params
+var result
+excep info
+arg err
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+create  array  hold  the  addresses
+add  the  address  each  string  the  array
+create  null  terminated  array  char  for  each  string
+get  the  address  the  start  the  array  char
+copy  the  address  the  array  addresses
+keep  track  the  global  memory  can  free 
+free  the  memory
+</comments>
+</text>
+</DOC>

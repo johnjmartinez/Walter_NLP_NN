@@ -1,0 +1,230 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.FileFormat.java </DOCNO>
+<text>
+<class>
+file format
+</class>
+<method>
+bit invert data
+file format
+load from byte stream
+load from stream
+ load
+ save
+unload into byte stream
+unload into stream
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+ java
+
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+file format
+ string
+format package
+ string
+format suffix
+ string
+ formats
+data input stream
+input stream
+data output stream
+output stream
+image loader
+ loader
+ compression
+bit invert data
+ data
+start index
+end index
+
+start index
+
+end index
+
+ data
+
+ data
+
+start index
+ data
+file format
+data input stream
+ stream
+image data
+load from byte stream
+image data
+load from stream
+data input stream
+ stream
+input stream
+ stream
+load from byte stream
+ exception
+
+ swt
+ error
+ swt
+ error
+
+image data
+ load
+input stream
+
+image loader
+ loader
+file format
+file format
+data input stream
+ stream
+data input stream
+
+ supported
+
+
+ formats
+ length
+
+ formats
+
+ class
+ clazz
+ class
+for name
+format package
+ formats
+
+format suffix
+file format
+file format
+ clazz
+new instance
+file format
+file format
+ stream
+ supported
+class not found exception
+
+ formats
+
+ exception
+
+ supported
+ swt
+ error
+ swt
+error unsupported format
+file format
+ loader
+ loader
+file format
+load from stream
+ stream
+ save
+output stream
+
+ format
+image loader
+ loader
+ format
+ format
+ formats
+ length
+ swt
+ error
+ swt
+error unsupported format
+ formats
+ format
+ swt
+ error
+ swt
+error unsupported format
+image data
+ data
+ loader
+ data
+data output stream
+ stream
+data output stream
+
+file format
+file format
+ class
+ clazz
+ class
+for name
+format package
+ formats
+ format
+format suffix
+file format
+file format
+ clazz
+new instance
+ exception
+
+ swt
+ error
+ swt
+error unsupported format
+ format
+ swt
+image bmp rle
+ data
+ depth
+file format
+ compression
+file format
+ compression
+file format
+unload into stream
+ data
+ stream
+unload into byte stream
+image data
+ image
+unload into stream
+image data
+ image
+data output stream
+ stream
+output stream
+ stream
+unload into byte stream
+ image
+output stream
+ close
+ exception
+
+output stream
+ close
+ exception
+
+ swt
+ error
+ swt
+ error
+
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+non  nls 
+non  nls 
+non  nls  non  nls  non  nls  non  nls  non  nls  non  nls  non  nls  non  nls 
+destructively  bit  invert  data  the  given  byte  array
+return  whether  not  the  specified  input  stream  represents  supported  file  format
+not  currently  support  writing  multi  image  files  use  the  first  image  data  the  loader  array
+</comments>
+</text>
+</DOC>

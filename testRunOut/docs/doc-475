@@ -1,0 +1,2239 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Composite.java </DOCNO>
+<text>
+<class>
+ composite
+</class>
+<method>
+ composite
+ composite
+_get children
+_get tab list
+ changed
+check buffered
+check subclass
+compute tab list
+compute size
+create handle
+find menus
+fix children
+fix tab list
+get children
+get children count
+get layout
+get tab list
+hooks keys
+get layout deferred
+layout deferred
+ layout
+ layout
+ layout
+ layout
+mark layout
+minimum size
+release children
+release widget
+remove control
+resize children
+resize children
+resize embedded handle
+set fixed focus
+set focus
+set layout
+set layout deferred
+set tab list
+set resize children
+set tab group focus
+tool tip text
+translate mnemonic
+translate traversal
+update font
+update layout
+widget style
+ erasebkgnd
+ getdlgcode
+ getfont
+ lbuttondown
+ notify
+ parentnotify
+ paint
+ printclient
+ setfont
+ size
+ syscolorchange
+ syscommand
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ composite
+ scrollable
+ layout
+ layout
+ font
+ windowpos
+ lpwp
+ control
+tab list
+layout count
+ composite
+ composite
+ composite
+ parent
+ style
+ parent
+ style
+ control
+_get children
+ count
+hwnd child
+
+get window
+ handle
+
+ child
+hwnd child
+ control
+hwnd child
+ count
+hwnd child
+
+get window
+hwnd child
+
+ hwndnext
+ control
+ children
+ control
+ count
+ index
+hwnd child
+
+get window
+ handle
+
+ child
+hwnd child
+ control
+ control
+ display
+get control
+hwnd child
+ control
+ control
+ children
+ index
+ control
+hwnd child
+
+get window
+hwnd child
+
+ hwndnext
+ count
+ index
+ children
+ control
+new children
+ control
+ index
+ system
+ arraycopy
+ children
+new children
+ index
+new children
+ control
+_get tab list
+tab list
+tab list
+ count
+
+
+tab list
+ length
+
+tab list
+
+ disposed
+ count
+ count
+tab list
+ length
+tab list
+ control
+new list
+ control
+ count
+ index
+
+
+tab list
+ length
+
+tab list
+
+ disposed
+new list
+ index
+tab list
+
+tab list
+new list
+tab list
+ changed
+ control
+ changed
+check widget
+ changed
+ error
+ swt
+error invalid argument
+
+
+ changed
+ length
+
+ control
+ control
+ changed
+
+ control
+ error
+ swt
+error invalid argument
+ control
+ disposed
+ error
+ swt
+error invalid argument
+ ancestor
+ composite
+ composite
+ control
+ parent
+ composite
+ ancestor
+ composite
+ ancestor
+ composite
+ composite
+ parent
+ ancestor
+ error
+ swt
+error invalid parent
+
+
+ changed
+ length
+
+ control
+ child
+ changed
+
+ composite
+ composite
+ child
+ parent
+ child
+ composite
+ layout
+ composite
+ layout
+flush cache
+ child
+ composite
+ state
+layout changed
+ child
+ composite
+ composite
+ child
+ parent
+check buffered
+
+ win
+ state
+ canvas
+check buffered
+check subclass
+ control
+compute tab list
+ control
+ result
+compute tab list
+ result
+ length
+ result
+ control
+ list
+tab list
+_get tab list
+_get children
+
+
+ list
+ length
+
+ control
+ child
+ list
+
+ control
+child list
+ child
+compute tab list
+child list
+ length
+ control
+new result
+ control
+ result
+ length
+child list
+ length
+ system
+ arraycopy
+ result
+new result
+ result
+ length
+ system
+ arraycopy
+child list
+new result
+ result
+ length
+child list
+ length
+ result
+new result
+ result
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+ point
+ size
+ layout
+ hint
+ swt
+ default
+ hint
+ swt
+ default
+ changed
+ state
+layout changed
+ state
+layout changed
+ size
+ layout
+compute size
+ hint
+ hint
+ changed
+ size
+ point
+ hint
+ hint
+ size
+minimum size
+ hint
+ hint
+ changed
+ size
+
+ size
+
+default width
+ size
+
+ size
+
+default height
+ hint
+ swt
+ default
+ size
+
+ hint
+ hint
+ swt
+ default
+ size
+
+ hint
+ rectangle
+ trim
+compute trim
+ size
+
+ size
+
+ point
+ trim
+ width
+ trim
+ height
+create handle
+create handle
+ state
+ canvas
+ menu
+find menus
+ control
+ control
+ control
+ menu
+ menu
+ result
+find menus
+ control
+ control
+ children
+_get children
+
+
+ children
+ length
+
+ control
+ child
+ children
+
+ menu
+menu list
+ child
+find menus
+ control
+menu list
+ length
+ menu
+new result
+ menu
+ result
+ length
+menu list
+ length
+ system
+ arraycopy
+ result
+new result
+ result
+ length
+ system
+ arraycopy
+menu list
+new result
+ result
+ length
+menu list
+ length
+ result
+new result
+ result
+fix children
+ shell
+new shell
+ shell
+old shell
+ decorations
+new decorations
+ decorations
+old decorations
+ menu
+ menus
+fix children
+new shell
+old shell
+new decorations
+old decorations
+ menus
+ control
+ children
+_get children
+
+
+ children
+ length
+
+ children
+
+fix children
+new shell
+old shell
+new decorations
+old decorations
+ menus
+fix tab list
+ control
+ control
+tab list
+ count
+
+
+tab list
+ length
+
+tab list
+
+ control
+ count
+ count
+ control
+new list
+ length
+tab list
+ length
+ count
+ length
+new list
+ control
+ length
+ index
+
+
+tab list
+ length
+
+tab list
+
+ control
+new list
+ index
+tab list
+
+tab list
+new list
+ control
+get children
+check widget
+_get children
+get children count
+ count
+hwnd child
+
+get window
+ handle
+
+ child
+hwnd child
+ count
+hwnd child
+
+get window
+hwnd child
+
+ hwndnext
+ count
+ layout
+get layout
+check widget
+ layout
+ control
+get tab list
+check widget
+ control
+tab list
+_get tab list
+tab list
+ count
+ control
+ list
+_get children
+
+
+ list
+ length
+
+ list
+
+tab group
+ count
+tab list
+ control
+ count
+ index
+
+
+ list
+ length
+
+ list
+
+tab group
+tab list
+ index
+ list
+
+tab list
+hooks keys
+ hooks
+ swt
+key down
+ hooks
+ swt
+ key
+get layout deferred
+check widget
+layout count
+layout deferred
+check widget
+layout count
+ parent
+layout deferred
+ layout
+check widget
+ layout
+ layout
+ changed
+check widget
+ layout
+ layout
+ changed
+ layout
+ changed
+ all
+check widget
+ layout
+ all
+mark layout
+ changed
+ all
+update layout
+ all
+ layout
+ control
+ changed
+check widget
+ changed
+ error
+ swt
+error invalid argument
+
+
+ changed
+ length
+
+ control
+ control
+ changed
+
+ control
+ error
+ swt
+error invalid argument
+ control
+ disposed
+ error
+ swt
+error invalid argument
+ ancestor
+ composite
+ composite
+ control
+ parent
+ composite
+ ancestor
+ composite
+ ancestor
+ composite
+ composite
+ parent
+ ancestor
+ error
+ swt
+error invalid parent
+update count
+ composite
+ update
+ composite
+
+
+ changed
+ length
+
+ control
+ child
+ changed
+
+ composite
+ composite
+ child
+ parent
+ child
+ composite
+ layout
+ composite
+ state
+layout needed
+ composite
+ layout
+flush cache
+ child
+ composite
+ state
+layout changed
+update count
+ update
+ length
+ composite
+new update
+ composite
+ update
+ length
+ system
+ arraycopy
+ update
+new update
+ update
+ length
+ update
+new update
+ child
+ update
+update count
+ composite
+ composite
+ child
+ parent
+
+update count
+
+
+ update
+
+update layout
+mark layout
+ changed
+ all
+ layout
+ state
+layout needed
+ changed
+ state
+layout changed
+ all
+ control
+ children
+_get children
+
+
+ children
+ length
+
+ children
+
+mark layout
+ changed
+ all
+ point
+minimum size
+ hint
+ hint
+ changed
+ control
+ children
+_get children
+ width
+ height
+
+
+ children
+ length
+
+ rectangle
+ rect
+ children
+
+get bounds
+ width
+ math
+ max
+ width
+ rect
+
+ rect
+ width
+ height
+ math
+ max
+ height
+ rect
+
+ rect
+ height
+ point
+ width
+ height
+release children
+ control
+ children
+_get children
+
+
+ children
+ length
+
+ control
+ child
+ children
+
+ child
+ disposed
+ child
+release resources
+release widget
+release children
+release widget
+ state
+ canvas
+ style
+ swt
+ embedded
+hwnd child
+
+get window
+ handle
+
+ child
+hwnd child
+ thread
+
+get window thread process
+hwnd child
+ thread
+
+get current thread
+
+set parent
+hwnd child
+ layout
+tab list
+ lpwp
+remove control
+ control
+ control
+fix tab list
+ control
+resize children
+resize children
+ lpwp
+ windowpos
+current lpwp
+ lpwp
+ lpwp
+resize children
+current lpwp
+resize children
+current lpwp
+ lpwp
+resize children
+ defer
+ windowpos
+ pwp
+ pwp
+ hdwp
+ defer
+ hdwp
+
+begin defer window pos
+ pwp
+ length
+ hdwp
+
+
+ pwp
+ length
+
+ windowpos
+
+ pwp
+
+
+ defer
+ hdwp
+defer window pos
+ hdwp
+
+ hwnd
+
+
+
+
+
+
+
+
+
+ flags
+ hdwp
+set window pos
+
+ hwnd
+
+
+
+
+
+
+
+
+
+ flags
+ defer
+
+end defer window pos
+ hdwp
+resize embedded handle
+embedded handle
+ width
+ height
+embedded handle
+ process
+ thread
+
+get window thread process
+embedded handle
+ process
+ thread
+
+get current thread
+ process
+
+get current process
+ display
+msg hook
+
+ win
+ display
+get msg callback
+ callback
+ display
+ display
+get msg proc
+ display
+get msg callback
+get address
+ display
+get msg proc
+ error
+ swt
+error more callbacks
+ display
+msg hook
+
+set windows hook
+
+ getmessage
+ display
+get msg proc
+
+get library handle
+ thread
+
+post thread message
+ thread
+
+ null
+ flags
+
+swp nozorder
+
+swp drawframe
+
+swp noactivate
+
+swp asyncwindowpos
+
+set window pos
+embedded handle
+ width
+ height
+ flags
+set fixed focus
+check widget
+ control
+ children
+_get children
+
+
+ children
+ length
+
+ control
+ child
+ children
+
+ child
+set radio focus
+
+
+ children
+ length
+
+ control
+ child
+ children
+
+ child
+set fixed focus
+set fixed focus
+set focus
+check widget
+ control
+ children
+_get children
+
+
+ children
+ length
+
+ control
+ child
+ children
+
+ child
+set radio focus
+
+
+ children
+ length
+
+ control
+ child
+ children
+
+ child
+set focus
+set focus
+set layout
+ layout
+ layout
+check widget
+ layout
+ layout
+set layout deferred
+ defer
+ defer
+layout count
+layout deferred
+update layout
+layout count
+set tab list
+ control
+tab list
+check widget
+tab list
+
+
+tab list
+ length
+
+ control
+ control
+tab list
+
+ control
+ error
+ swt
+error invalid argument
+ control
+ disposed
+ error
+ swt
+error invalid argument
+ control
+ parent
+ error
+ swt
+error invalid parent
+ control
+new list
+ control
+tab list
+ length
+ system
+ arraycopy
+tab list
+new list
+tab list
+ length
+tab list
+new list
+tab list
+tab list
+set resize children
+ resize
+ resize
+resize children
+ count
+get children count
+ count
+ lpwp
+ lpwp
+ windowpos
+ count
+set tab group focus
+tab item
+set tab item focus
+take focus
+ style
+ swt
+ focus
+ state
+ canvas
+take focus
+hooks keys
+ style
+ swt
+ embedded
+take focus
+take focus
+set tab item focus
+ control
+ children
+_get children
+
+
+ children
+ length
+
+ control
+ child
+ children
+
+ child
+tab item
+ child
+set radio focus
+
+
+ children
+ length
+
+ control
+ child
+ children
+
+ child
+tab item
+ child
+set tab item focus
+ string
+tool tip text
+ nmttdispinfo
+ hdr
+ hdr
+ flags
+
+ttf idishwnd
+ hwnd
+ hdr
+ from
+ hwnd
+ control
+ control
+ display
+get control
+ hwnd
+ control
+ control
+tool tip text
+translate mnemonic
+ event
+ event
+ control
+ control
+translate mnemonic
+ event
+ control
+ control
+ control
+ children
+_get children
+
+
+ children
+ length
+
+ control
+ child
+ children
+
+ child
+translate mnemonic
+ event
+ control
+translate traversal
+ msg
+ msg
+ state
+ canvas
+ style
+ swt
+ embedded
+translate traversal
+ msg
+update font
+ font
+old font
+ font
+new font
+ control
+ children
+_get children
+
+
+ children
+ length
+
+ control
+ control
+ children
+
+ control
+ disposed
+ control
+update font
+old font
+new font
+ changed
+update font
+old font
+new font
+ changed
+ layout
+ changed
+update layout
+ resize
+ all
+layout deferred
+ state
+layout needed
+ changed
+ state
+layout changed
+ state
+layout needed
+layout changed
+ resize
+set resize children
+ layout
+ layout
+ changed
+ resize
+set resize children
+ all
+ control
+ children
+_get children
+
+
+ children
+ length
+
+ children
+
+update layout
+ resize
+ all
+widget style
+widget style
+
+ clipchildren
+ lresult
+ erasebkgnd
+ param
+ param
+ lresult
+ result
+ erasebkgnd
+ param
+ param
+ result
+ result
+ state
+ canvas
+ style
+ swt
+ background
+ lresult
+ zero
+ result
+ lresult
+ getdlgcode
+ param
+ param
+ lresult
+ result
+ getdlgcode
+ param
+ param
+ result
+ result
+ state
+ canvas
+ flags
+hooks keys
+ flags
+
+dlgc wantallkeys
+
+dlgc wantarrows
+
+dlgc wanttab
+ style
+ swt
+ focus
+ flags
+
+dlgc static
+
+get window
+ handle
+
+ child
+ flags
+
+dlgc static
+ flags
+ lresult
+ flags
+ result
+ lresult
+ getfont
+ param
+ param
+ lresult
+ result
+ getfont
+ param
+ param
+ result
+ result
+ code
+call window proc
+ handle
+
+ getfont
+ param
+ param
+ code
+ lresult
+ code
+ font
+ font
+default font
+ lresult
+ font
+ lresult
+ lbuttondown
+ param
+ param
+ lresult
+ result
+ lbuttondown
+ param
+ param
+ state
+ canvas
+ style
+ swt
+ focus
+hooks keys
+
+get window
+ handle
+
+ child
+set focus
+ result
+ lresult
+ notify
+ param
+ param
+
+ win
+ nmhdr
+ hdr
+ nmhdr
+
+move memory
+ hdr
+ param
+ nmhdr
+ sizeof
+ hdr
+ code
+
+ttn show
+
+ttn pop
+hwnd parent
+ hdr
+hwnd from
+hwnd parent
+
+get parent
+hwnd parent
+hwnd parent
+ bits
+
+get window long
+hwnd parent
+
+gwl exstyle
+ bits
+
+ topmost
+hwnd parent
+ display
+lock active window
+ flags
+
+swp noactivate
+
+swp nomove
+
+swp nosize
+hwnd insert after
+ hdr
+ code
+
+ttn show
+
+hwnd topmost
+
+hwnd notopmost
+set window pos
+ hdr
+hwnd from
+hwnd insert after
+ flags
+ display
+lock active window
+
+ttn getdispinfoa
+
+ttn getdispinfow
+ nmttdispinfo
+ lpnmtdi
+ hdr
+ code
+
+ttn getdispinfoa
+ lpnmtdi
+ nmttdispinfoa
+
+move memory
+ nmttdispinfoa
+ lpnmtdi
+ param
+ nmttdispinfoa
+ sizeof
+ lpnmtdi
+ nmttdispinfow
+
+move memory
+ nmttdispinfow
+ lpnmtdi
+ param
+ nmttdispinfow
+ sizeof
+ string
+ string
+tool tip text
+ lpnmtdi
+ string
+ shell
+ shell
+get shell
+ string
+ display
+ with
+ string
+ length
+ string
+ length
+ chars
+ length
+ string
+get chars
+ length
+ chars
+ hwnd
+ hdr
+ from
+ hwnd
+ lpnmtdi
+ flags
+
+ttf idishwnd
+ control
+ control
+ display
+get control
+ hwnd
+ control
+ control
+get style
+ swt
+right left
+ lpnmtdi
+ flags
+
+ttf rtlreading
+ lpnmtdi
+ flags
+
+ttf rtlreading
+ hdr
+ code
+
+ttn getdispinfoa
+ bytes
+ chars
+ length
+
+wide char multi byte
+
+ acp
+ chars
+ chars
+ length
+ bytes
+ bytes
+ length
+ shell
+set tool tip text
+ lpnmtdi
+ bytes
+
+move memory
+ param
+ nmttdispinfoa
+ lpnmtdi
+ nmttdispinfoa
+ sizeof
+ shell
+set tool tip text
+ lpnmtdi
+ chars
+
+move memory
+ param
+ nmttdispinfow
+ lpnmtdi
+ nmttdispinfow
+ sizeof
+ lresult
+ zero
+ notify
+ param
+ param
+ lresult
+ parentnotify
+ param
+ param
+ state
+ canvas
+ style
+ swt
+ embedded
+ param
+
+ create
+ rect
+ rect
+ rect
+
+get client rect
+ handle
+ rect
+resize embedded handle
+ param
+ rect
+ right
+ rect
+ left
+ rect
+ bottom
+ rect
+ top
+ parentnotify
+ param
+ param
+ lresult
+ paint
+ param
+ param
+ state
+ canvas
+ paint
+ param
+ param
+old bits
+new bits
+
+ win
+old bits
+
+get window long
+ handle
+
+gwl style
+new bits
+old bits
+
+ clipsiblings
+
+ clipchildren
+new bits
+old bits
+
+set window long
+ handle
+
+gwl style
+new bits
+ paintstruct
+
+ paintstruct
+ hooks
+ swt
+ paint
+rgn data
+ complex
+expose region
+ rgn
+ style
+ swt
+merge paints
+ swt
+double buffered
+ rgn
+
+create rect rgn
+ complex
+
+get update rgn
+ handle
+ rgn
+
+ complexregion
+ style
+ swt
+merge paints
+ complex
+ bytes
+
+get region data
+ rgn
+rgn data
+ bytes
+expose region
+
+get region data
+ rgn
+ bytes
+rgn data
+ data
+ data
+ data
+ data
+
+
+ data
+ hwnd
+ handle
+
+
+
+win 32_new
+ data
+ width
+
+ right
+
+ left
+ height
+
+ bottom
+
+ top
+ width
+ height
+
+ paint
+ image
+ image
+ style
+ swt
+double buffered
+ image
+ image
+ display
+ width
+ height
+ paint
+
+
+
+ image
+ style
+ swt
+right left
+
+set foreground
+get foreground
+
+set background
+get background
+
+set font
+get font
+ style
+ swt
+ background
+ paint
+copy area
+ image
+
+ left
+
+ top
+
+fill rectangle
+ width
+ height
+
+offset rgn
+ rgn
+
+ left
+
+ top
+
+select clip rgn
+
+ handle
+ rgn
+
+set meta rgn
+
+ handle
+
+set window org
+
+ handle
+
+ left
+
+ top
+ event
+ event
+ event
+ event
+
+
+ complex
+expose region
+ rect
+ rect
+ rect
+ count
+rgn data
+
+
+ count
+
+
+set rect
+ rect
+rgn data
+
+rgn data
+
+rgn data
+
+rgn data
+
+ style
+ swt
+double buffered
+ swt
+ background
+draw background
+
+ handle
+ rect
+ event
+
+ rect
+ left
+ event
+
+ rect
+ top
+ event
+ width
+ rect
+ right
+ rect
+ left
+ event
+ height
+ rect
+ bottom
+ rect
+ top
+ event
+ count
+ count
+
+send event
+ swt
+ paint
+ event
+ disposed
+ style
+ swt
+double buffered
+ swt
+ background
+ rect
+ rect
+ rect
+
+set rect
+ rect
+
+ left
+
+ top
+
+ right
+
+ bottom
+draw background
+
+ handle
+ rect
+ event
+
+
+ left
+ event
+
+
+ top
+ event
+ width
+ width
+ event
+ height
+ height
+send event
+ swt
+ paint
+ event
+ event
+
+ style
+ swt
+double buffered
+
+ dispose
+ disposed
+ paint
+draw image
+ image
+
+ left
+
+ top
+ image
+ dispose
+
+ paint
+
+ dispose
+ rgn
+
+delete object
+ rgn
+
+
+begin paint
+ handle
+
+ style
+ swt
+ background
+ rect
+ rect
+ rect
+
+set rect
+ rect
+
+ left
+
+ top
+
+ right
+
+ bottom
+draw background
+
+ rect
+
+end paint
+ handle
+
+
+ win
+new bits
+old bits
+ disposed
+
+set window long
+ handle
+
+gwl style
+old bits
+ lresult
+ zero
+ lresult
+ printclient
+ param
+ param
+ lresult
+ result
+ printclient
+ param
+ param
+ result
+ result
+ state
+ canvas
+force resize
+ saved
+
+ save
+ param
+ rect
+ rect
+ rect
+
+get client rect
+ handle
+ rect
+ style
+ swt
+ background
+draw background
+ param
+ rect
+ hooks
+ swt
+ paint
+ filters
+ swt
+ paint
+ data
+ data
+ data
+ data
+ device
+ display
+
+
+
+win 32_new
+ param
+ data
+ event
+ event
+ event
+ event
+
+
+ event
+
+ rect
+ left
+ event
+
+ rect
+ top
+ event
+ width
+ rect
+ right
+ rect
+ left
+ event
+ height
+ rect
+ bottom
+ rect
+ top
+send event
+ swt
+ paint
+ event
+ event
+
+
+ dispose
+
+ restore
+ param
+ saved
+ result
+ lresult
+ setfont
+ param
+ param
+ setfont
+ font
+ param
+ param
+ lresult
+ size
+ param
+ param
+set resize children
+ lresult
+ result
+ size
+ param
+ param
+ disposed
+ result
+ layout
+mark layout
+update layout
+set resize children
+
+window visible
+ handle
+ state
+ canvas
+ style
+ swt
+redraw resize
+ hooks
+ swt
+ paint
+
+invalidate rect
+ handle
+
+comctl 32_ major
+
+app themed
+find theme control
+hwnd child
+
+get window
+ handle
+
+ child
+hwnd child
+ flags
+
+rdw erase
+
+rdw invalidate
+
+rdw allchildren
+
+redraw window
+hwnd child
+ flags
+hwnd child
+
+get window
+hwnd child
+
+ hwndnext
+ state
+ canvas
+ style
+ swt
+ embedded
+resize embedded handle
+
+get window
+ handle
+
+ child
+ param
+ param
+ result
+ lresult
+ syscolorchange
+ param
+ param
+hwnd child
+
+get window
+ handle
+
+ child
+hwnd child
+
+send message
+hwnd child
+
+ syscolorchange
+hwnd child
+
+get window
+hwnd child
+
+ hwndnext
+ lresult
+ syscommand
+ param
+ param
+ lresult
+ result
+ syscommand
+ param
+ param
+ result
+ result
+ param
+ result
+
+ win
+ cmd
+ param
+ cmd
+
+ hscroll
+
+ vscroll
+show bar
+horizontal bar
+horizontal bar
+get visible
+show bar
+vertical bar
+vertical bar
+get visible
+ code
+call window proc
+ handle
+
+ syscommand
+ param
+ param
+show bar
+horizontal bar
+horizontal bar
+get visible
+show bar
+vertical bar
+vertical bar
+get visible
+ flags
+
+rdw frame
+
+rdw invalidate
+
+rdw updatenow
+
+redraw window
+ handle
+ flags
+ code
+ lresult
+ zero
+ lresult
+ code
+ result
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  controls  which  are  capable  containing  other  controls  styles  background  focus  merge  paints  redraw  resize  radio  group  embedded  double  buffered  events  none  note  the  code  background  code  code  focus  code  code  merge  paints  code  and  code  redraw  resize  code  styles  are  intended  for  use  with  code  canvas  code  they  can  used  with  code  composite  code  you  are  drawing  your  own  but  their  behavior  undefined  they  are  used  with  subclasses  code  composite  code  other  than  code  canvas  code  this  class  may  subclassed  custom  control  implementors  who  are  building  controls  that  are  constructed  from  aggregates  other  controls  see  canvas
+prevents  uninitialized  instances  from  being  created  outside  the  package
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  widget  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  widget  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  background  see  swt  focus  see  swt  merge  paints  see  swt  redraw  resize  see  swt  radio  group  see  widget get style
+clears  any  data  that  has  been  cached  layout  for  all  widgets  that  are  the  parent  hierarchy  the  changed  control  and  including  the  receiver  ancestor  does  not  have  layout  skipped  param  changed  array  controls  that  changed  state  and  require  recalculation  size  exception illegal argument exception  error  invalid  argument  the  changed  array  null  any  its  controls  are  null  have  been  disposed  error  invalid  parent  any  control  changed  not  the  widget  tree  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+nothing  subclassing  allowed
+returns  possibly  empty  array  containing  the  receiver  children  children  are  returned  the  order  that  they  are  drawn  note  this  not  the  actual  structure  used  the  receiver  maintain  its  list  children  modifying  the  array  will  not  affect  the  receiver  return  array  children  see  control move above  see  control move below  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+note  the  current  implementation  will  count  non  registered  children
+returns  layout  which  associated  with  the  receiver  null  one  has  not  been  set  return  the  receiver  layout  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+gets  the  possibly  empty  tabbing  order  for  the  control  return tab list  the  ordered  list  controls  representing  the  tab  order  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see set tab list
+returns  code  true  code  the  receiver  has  deferred  the  performing  layout  and  code  false  code  otherwise  return  the  receiver  deferred  layout  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see set layout deferred  boolean  see layout deferred  since 
+returns  code  true  code  the  receiver  any  ancestor  and  including  the  receiver  nearest  ancestor  shell  has  deferred  the  performing  layouts  otherwise  code  false  code  returned  return  the  receiver  deferred  layout  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see set layout deferred  boolean  see get layout deferred  since 
+the  receiver  has  layout  asks  the  layout  lay  out  that  set  the  size  and  location  the  receiver  children  the  receiver  does  not  have  layout  nothing  this  equivalent  calling  code  layout  true  code  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+the  receiver  has  layout  asks  the  layout  lay  out  that  set  the  size  and  location  the  receiver  children  the  argument  code  true  code  the  layout  must  not  rely  any  information  has  cached  about  the  immediate  children  code  false  code  the  layout  may  potentially  optimize  the  work  doing  assuming  that  none  the  receiver  children  has  changed  state  since  the  last  layout  the  receiver  does  not  have  layout  nothing  child  resized  result  call  layout  the  resize  event  will  invoke  the  layout  the  child  the  layout  will  cascade  down  through  all  child  widgets  the  receiver  widget  tree  until  child  encountered  that  does  not  resize  note  that  layout  due  resize  will  not  flush  any  cached  information  same  code  layout  false  code  param  changed  code  true  code  the  layout  must  flush  its  caches  and  code  false  code  otherwise  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+the  receiver  has  layout  asks  the  layout  lay  out  that  set  the  size  and  location  the  receiver  children  the  changed  argument  code  true  code  the  layout  must  not  rely  any  information  has  cached  about  its  children  code  false  code  the  layout  may  potentially  optimize  the  work  doing  assuming  that  none  the  receiver  children  has  changed  state  since  the  last  layout  the  all  argument  code  true  code  the  layout  will  cascade  down  through  all  child  widgets  the  receiver  widget  tree  regardless  whether  the  child  has  changed  size  the  changed  argument  applied  all  layouts  the  all  argument  code  false  code  the  layout  will  not  cascade  down  through  all  child  widgets  the  receiver  widget  tree  however  child  resized  result  call  layout  the  resize  event  will  invoke  the  layout  the  child  note  that  layout  due  resize  will  not  flush  any  cached  information  same  code  layout  false  code  param  changed  code  true  code  the  layout  must  flush  its  caches  and  code  false  code  otherwise  param  all  code  true  code  all  children  the  receiver  widget  tree  should  laid  out  and  code  false  code  otherwise  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+forces  lay  out  that  sets  the  size  and  location  all  widgets  that  are  the  parent  hierarchy  the  changed  control  and  including  the  receiver  the  layouts  the  hierarchy  must  not  rely  any  information  cached  about  the  changed  control  any  its  ancestors  the  layout  may  potentially  optimize  the  work  doing  assuming  that  none  the  peers  the  changed  control  have  changed  state  since  the  last  layout  ancestor  does  not  have  layout  skip  param  changed  control  that  has  had  state  change  which  requires  recalculation  its  size  exception illegal argument exception  error  invalid  argument  the  changed  array  null  any  its  controls  are  null  have  been  disposed  error  invalid  parent  any  control  changed  not  the  widget  tree  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+this  code  intentionally  commented  all  widgets  that  are  created  swt  have  clipsiblings  ensure  that  application  code  does  not  draw  outside  the  control
+int  count  parent get children count
+count 
+int  bits get window long  handle  gwl  style
+bits  clipsiblings  flags  swp  nocopybits
+
+sets  the  layout  which  associated  with  the  receiver  the  argument  which  may  null  param  layout  the  receiver  new  layout  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+the  argument  code  true  code  causes  subsequent  layout  operations  the  receiver  any  its  children  ignored  layout  any  kind  can  occur  the  receiver  any  its  children  until  the  flag  set  false  layout  operations  that  occurred  while  the  flag  was  code  true  code  are  remembered  and  when  the  flag  set  code  false  code  the  layout  operations  are  performed  optimized  manner  nested  calls  this  method  are  stacked  param  defer  the  new  defer  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  layout  boolean  see  layout  control  since 
+sets  the  tabbing  order  for  the  specified  controls  match  the  order  that  they  occur  the  argument  list  param tab list  the  ordered  list  controls  representing  the  tab  order  null  exception illegal argument exception  error  invalid  argument  widget  the tab list  null  has  been  disposed  error  invalid  parent  widget  the tab list  not  the  same  widget  tree  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+call  layout  directly  that  subclasses  that  reimplement  this  method  instead  using  layout  will  set  the  size  and  location  their  children  when  the  font  changes
+force  clipping  children  setting  clipchildren
+return  zero  indicate  that  the  background  was  not  erased
+set  focus  for  canvas  with  children
+feature  windows  when  the  tool  tip  control  created  the  parent  the  tool  tip  the  shell set parent  used  reparent  the  tool  bar  into  new  shell  the  tool  tip  not  reparented  and  pops  underneath  the  new  shell  the  fix  make  sure  the  tool  tip  topmost  window
+bug  windows  and  setting  the  tool  tip  the  top  most  window  using  hwnd  topmost  can  result  parent  dialog  shell  being  moved  behind  its  parent  the  dialog  has  sibling  that  currently  top  the  fix  lock  the  order  the  active  window  feature  windows  using set window pos  with  hwnd  notopmost  clear  the  topmost  state  window  whose  parent  already  topmost  clears  the  topmost  state  the  parent  the  fix  check  the  parent  already  top  and  neither  set  clear  the  topmost  status  the  tool  tip
+bug  windows  for  some  reason  the  tool  bar  control  sends  both  ttn  getdispinfow  and  ttn  getdispinfoa  get  the  tool  tip  text  and  the  tab  folder  control  sends  only  ttn  getdispinfow  the  fix  handle  only  ttn  getdispinfow  even  though  should  never  sent  windows  note  because  the  size  nmttdispinfo  differs  between  windows  and  guard  against  the  case  where  the  wrong  kind  message  occurs  inlining  the  memory  moves  and  the  unicode  conversion  code
+ensure  that  the  orientation  the  tool  tip  matches  the  orientation  the  control
+set  the  clipping  bits
+paint  the  control  and  the  background
+get  the  damage
+create  the  paint 
+send  the  paint  event
+possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  paint  event  this  happens  attempt  give  back  the  paint  anyways  because  this  scarce  windows  resource
+widget  could  disposed  this  point
+dispose  the  paint 
+restore  the  clipping  bits
+possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  paint  event  this  happens  don  attempt  restore  the  style
+begin  deferred  window  positioning
+resize  and  layout
+possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  resize  event  this  happens  end  the  processing  the  windows  message  returning  the  result  the  size  message
+end  deferred  window  positioning
+damage  the  widget  cause  repaint
+resize  the  embedded  window
+check  see  the  command  system  command  user  menu  item  that  was  added  the  system  menu
+bug  windows  when  vertical  horizontal  scroll  bar  hidden  shown  while  the  opposite  scroll  bar  being  scrolled  the  user  with  hscroll  code  linedown  the  scroll  bar  does  not  redraw  properly  the  fix  detect  this  case  and  redraw  the  non  client  area
+return  the  result
+</comments>
+</text>
+</DOC>

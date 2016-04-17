@@ -1,0 +1,45 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.StyledTextPrintOptions.java </DOCNO>
+<text>
+<class>
+styled text print options
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+styled text print options
+ string
+page tag
+ string
+ separator
+ string
+ header
+ string
+ footer
+ string
+job name
+print text foreground
+print text background
+print text font style
+print line background
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+use styled text print options  specify  printing  options  for  the styled text  print  printer styled text print options  api  the  following  example  prints  right  aligned  page  number  the  footer  sets  the  job  name  example  and  prints  line  background  colors  but  other  formatting  pre styled text print options  options  new styled text print options  options  footer  page  options job name  example  options print line background  true  runnable  runnable styled text  print  new  printer  options  runnable  run  pre  since 
+page  number  placeholder  constant  for  use  code  header  code  and  code  footer  code  value  code  page  code
+separator  constant  for  use  code  header  code  and  code  footer  code  value  code  code
+formatted  text  print  the  header  each  page  left  center  right  left  center  right  page  cdata  header  and  footer  are  defined  three  separate  regions  for  arbitrary  text  the  page  number  placeholder  page  code styled text print options  page  tag  code  the  three  regions  are  left  aligned  centered  and  right  aligned  they  are  separated  tab  character  code styled text print options  separator  code
+formatted  text  print  the  footer  each  page  left  center  right  left  center  right  page  cdata  header  and  footer  are  defined  three  separate  regions  for  arbitrary  text  the  page  number  placeholder  page  code styled text print options  page  tag  code  the  three  regions  are  left  aligned  centered  and  right  aligned  they  are  separated  tab  character  code styled text print options  separator  code
+name  the  print  job
+print  the  text  foreground  color  default  value  code  false  code
+print  the  text  background  color  default  value  code  false  code
+print  the  font  styles  default  value  code  false  code
+print  the  line  background  color  default  value  code  false  code
+</comments>
+</text>
+</DOC>

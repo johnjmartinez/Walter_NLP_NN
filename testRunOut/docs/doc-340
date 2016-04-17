@@ -1,0 +1,37 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.ControlListener.java </DOCNO>
+<text>
+<class>
+control listener
+</class>
+<method>
+control moved
+control resized
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+control listener
+swt event listener
+control moved
+control event
+
+control resized
+control event
+
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+classes  which  implement  this  interface  provide  methods  that  deal  with  the  events  that  are  generated  moving  and  resizing  controls  after  creating  instance  class  that  implements  this  interface  can  added  control  using  the  code add control listener  code  method  and  removed  using  the  code remove control listener  code  method  when  control  moved  resized  the  appropriate  method  will  invoked  see control adapter  see control event
+sent  when  the  location  control  changes  relative  its  parent  relative  the  display  for  code  shell  code  param  event  containing  information  about  the  move
+sent  when  the  size  width  height  control  changes  param  event  containing  information  about  the  resize
+</comments>
+</text>
+</DOC>

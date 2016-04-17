@@ -1,0 +1,37 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.MenuListener.java </DOCNO>
+<text>
+<class>
+menu listener
+</class>
+<method>
+menu hidden
+menu shown
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+menu listener
+swt event listener
+menu hidden
+menu event
+
+menu shown
+menu event
+
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+classes  which  implement  this  interface  provide  methods  that  deal  with  the  hiding  and  showing  menus  after  creating  instance  class  that  implements  this  interface  can  added  menu  using  the  code add menu listener  code  method  and  removed  using  the  code remove menu listener  code  method  when  the  menu  hidden  shown  the  appropriate  method  will  invoked  see menu adapter  see menu event
+sent  when  menu  hidden  param  event  containing  information  about  the  menu  operation
+sent  when  menu  shown  param  event  containing  information  about  the  menu  operation
+</comments>
+</text>
+</DOC>

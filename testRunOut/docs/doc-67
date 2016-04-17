@@ -1,0 +1,267 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.Pattern.java </DOCNO>
+<text>
+<class>
+ pattern
+</class>
+<method>
+ pattern
+ pattern
+ dispose
+ disposed
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ internal
+ gdip
+ org
+ eclipse
+ swt
+ internal
+ win
+ pattern
+ resource
+ handle
+ pattern
+ device
+ device
+ image
+ image
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ image
+ swt
+ error
+ swt
+error null argument
+ image
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ device
+ device
+ device
+check gdip
+gdip image
+ image
+create gdip image
+ img
+gdip image
+ width
+ gdip
+image get width
+ img
+ height
+ gdip
+image get height
+ img
+ handle
+ gdip
+texture brush _new
+ img
+ gdip
+wrap mode tile
+ width
+ height
+ gdip
+bitmap _delete
+ img
+gdip image
+ heap
+
+get process heap
+
+heap free
+ heap
+gdip image
+ handle
+ swt
+ error
+ swt
+error handles
+ device
+ tracking
+ device
+new object
+ pattern
+ device
+ device
+
+
+
+
+ color
+ color
+ color
+ color
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ color
+ swt
+ error
+ swt
+error null argument
+ color
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ color
+ swt
+ error
+ swt
+error null argument
+ color
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ device
+ device
+ device
+check gdip
+color ref
+ color
+ handle
+ rgb
+color ref
+color ref
+color ref
+fore color
+ gdip
+color _new
+ rgb
+color ref
+ color
+ handle
+ rgb
+color ref
+color ref
+color ref
+back color
+ gdip
+color _new
+ rgb
+ point
+
+ point
+
+
+
+
+
+
+ point
+
+ point
+
+
+
+
+
+
+ handle
+ gdip
+linear gradient brush _new
+
+
+fore color
+back color
+ gdip
+color _delete
+fore color
+ gdip
+color _delete
+back color
+ handle
+ swt
+ error
+ swt
+error handles
+ device
+ tracking
+ device
+new object
+ dispose
+ handle
+ device
+ disposed
+ type
+ gdip
+brush get type
+ handle
+ type
+ gdip
+brush type solid color
+ gdip
+solid brush _delete
+ handle
+ gdip
+brush type hatch fill
+ gdip
+hatch brush _delete
+ handle
+ gdip
+brush type linear gradient
+ gdip
+linear gradient brush _delete
+ handle
+ gdip
+brush type texture fill
+ gdip
+texture brush _delete
+ handle
+ handle
+ device
+ tracking
+ device
+dispose object
+ device
+ disposed
+ handle
+ string
+ string
+ disposed
+ handle
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  represent  patterns  use  while  drawing  patterns  can  specified  either  bitmaps  gradients  application  code  must  explicitly  invoke  the  code  pattern  dispose  code  method  release  the  operating  system  resources  managed  each  instance  when  those  instances  are  longer  required  since 
+the  resource  for  the  pattern  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code 
+constructs  new  pattern  given  image  drawing  with  the  resulting  pattern  will  cause  the  image  tiled  over  the  resulting  area  param  device  the  device  which  allocate  the  pattern  param  image  the  image  that  the  pattern  will  draw  exception illegal argument exception  error  null  argument  the  device  null  and  there  current  device  the  image  null  error  invalid  argument  the  image  has  been  disposed  exception swt error  error  handles  handle  for  the  pattern  could  not  obtained  see  dispose
+constructs  new  pattern  that  represents  linear  two  color  gradient  drawing  with  the  pattern  will  cause  the  resulting  area  tiled  with  the  gradient  specified  the  arguments  param  device  the  device  which  allocate  the  pattern  param  the  coordinate  the  starting  corner  the  gradient  param  the  coordinate  the  starting  corner  the  gradient  param  the  coordinate  the  ending  corner  the  gradient  param  the  coordinate  the  ending  corner  the  gradient  param  color  the  starting  color  the  gradient  param  color  the  ending  color  the  gradient  exception illegal argument exception  error  null  argument  the  device  null  and  there  current  device  either  color  color  null  error  invalid  argument  either  color  color  has  been  disposed  exception swt error  error  handles  handle  for  the  pattern  could  not  obtained  see  dispose
+todo  how  about  alpha
+disposes  the  operating  system  resources  associated  with  the  pattern  applications  must  dispose  all  patterns  that  they  allocate
+returns  code  true  code  the  pattern  has  been  disposed  and  code  false  code  otherwise  this  method  gets  the  dispose  state  for  the  pattern  when  pattern  has  been  disposed  error  invoke  any  other  method  using  the  pattern  return  code  true  code  when  the  pattern  disposed  and  code  false  code  otherwise
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  receiver
+</comments>
+</text>
+</DOC>

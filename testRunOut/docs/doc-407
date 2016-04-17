@@ -1,0 +1,298 @@
+<DOC>
+<DOCNO>org.eclipse.swt.dnd.FileTransfer.java </DOCNO>
+<text>
+<class>
+file transfer
+</class>
+<method>
+file transfer
+get instance
+java native
+native java
+get type ids
+get type names
+check file
+ validate
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ dnd
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ internal
+ win
+file transfer
+byte array transfer
+file transfer
+ _instance
+file transfer
+ string
+ hdrop
+ hdropid
+ com
+ hdrop
+ string
+hdrop separator
+file transfer
+file transfer
+get instance
+ _instance
+java native
+ object
+ object
+transfer data
+transfer data
+check file
+ object
+supported type
+transfer data
+ dnd
+ error
+ dnd
+error invalid data
+ string
+file names
+ string
+ object
+string buffer
+all files
+string buffer
+
+
+file names
+ length
+
+all files
+ append
+file names
+
+all files
+ append
+hdrop separator
+ tchar
+ buffer
+ tchar
+all files
+ string
+ dropfiles
+ dropfiles
+ dropfiles
+ dropfiles
+ files
+ dropfiles
+ sizeof
+ dropfiles
+
+ dropfiles
+
+ dropfiles
+
+ dropfiles
+ wide
+
+ unicode
+byte count
+ buffer
+ length
+ tchar
+ sizeof
+new ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ dropfiles
+ sizeof
+byte count
+
+move memory
+new ptr
+ dropfiles
+ dropfiles
+ sizeof
+
+move memory
+new ptr
+ dropfiles
+ sizeof
+ buffer
+byte count
+transfer data
+ stgmedium
+ stgmedium
+transfer data
+ stgmedium
+ tymed
+ com
+tymed hglobal
+transfer data
+ stgmedium
+union field
+new ptr
+transfer data
+ stgmedium
+unk for release
+transfer data
+ result
+ com
+
+ object
+native java
+transfer data
+transfer data
+supported type
+transfer data
+transfer data
+data object
+data object
+data object
+data object
+transfer data
+data object
+data object
+add ref
+ formatetc
+ formatetc
+ formatetc
+ formatetc
+ format
+ com
+ hdrop
+ formatetc
+ ptd
+ formatetc
+ aspect
+ com
+dvaspect content
+ formatetc
+ lindex
+ formatetc
+ tymed
+ com
+tymed hglobal
+ stgmedium
+ stgmedium
+ stgmedium
+ stgmedium
+ tymed
+ com
+tymed hglobal
+transfer data
+ result
+data object
+get data
+ formatetc
+ stgmedium
+data object
+ release
+transfer data
+ result
+ com
+
+ count
+
+drag query file
+ stgmedium
+union field
+ string
+file names
+ string
+ count
+
+
+ count
+
+ size
+
+drag query file
+ stgmedium
+union field
+
+ tchar
+lpsz file
+ tchar
+ size
+
+drag query file
+ stgmedium
+union field
+
+lpsz file
+ size
+file names
+
+lpsz file
+ string
+lpsz file
+ strlen
+
+drag finish
+ stgmedium
+union field
+file names
+get type ids
+ hdropid
+ string
+get type names
+ string
+ hdrop
+check file
+ object
+ object
+ object
+ object
+ string
+ string
+ object
+ length
+ string
+ strings
+ string
+ object
+
+
+ strings
+ length
+
+ strings
+
+ strings
+
+ length
+ validate
+ object
+ object
+check file
+ object
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+the  class  code file transfer  code  provides  platform  specific  mechanism  for  converting  list  files  represented  java  code  string  code  platform  specific  representation  the  data  and  vice  versa  each  code  string  code  the  array  contains  the  absolute  path  for  single  file  directory  see  code  transfer  code  for  additional  information  example  java  code  string  code  containing  list  files  shown  below  code  pre  file  file  new  file  temp  file  file  file  new  file  temp  file  string file data  new  string file data  file get absolute path file data  file get absolute path  code  pre
+non  nls 
+non  nls 
+returns  the  singleton  instance  the file transfer  class  return  the  singleton  instance  the file transfer  class
+this  implementation  code java native  code  converts  list  file  names  represented  java  code  string  code  platform  specific  representation  each  code  string  code  the  array  contains  the  absolute  path  for  single  file  directory  for  additional  information  see  code  transfer java native  code  param  object  java  code  string  code  containing  the  file  names  converted  param transfer data  empty  code transfer data  code  object  this  object  will  filled  return  with  the  platform  specific  format  the  data
+each  name  null  terminated
+there  extra  null  terminator  the  very  end
+allocate  the  memory  because  the  caller drop target  has  not  handed 
+the  caller  this  method  must  release  the  data  when  done  with 
+this  implementation  code native java  code  converts  platform  specific  representation  list  file  names  java  code  string  code  each  string  the  array  contains  the  absolute  path  for  single  file  directory  for  additional  information  see  code  transfer native java  code  param transfer data  the  platform  specific  representation  the  data  been  converted  return  java  code  string  code  containing  list  file  names  the  conversion  was  successful  otherwise  null
+get  file  names  from data object
+how  many  files  are  there
+how  long  the  name
+get  file  name  and  append  string
+frees  data  associated  with  hdrop  data
+</comments>
+</text>
+</DOC>

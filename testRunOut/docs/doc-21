@@ -1,0 +1,7310 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.CTabFolder.java </DOCNO>
+<text>
+<class>
+tab folder
+</class>
+<method>
+tab folder
+handle event
+handle event
+check style
+fill region
+add tab folder listener
+add tab folder listener
+add selection listener
+ antialias
+compute trim
+create item
+destroy item
+draw background
+draw background
+draw body
+draw chevron
+draw maximize
+draw minimize
+draw tab area
+get border visible
+get client area
+get item
+get item
+get item count
+get items
+_find mnemonic
+get minimized
+get minimize visible
+get minimum characters
+get maximized
+get maximize visible
+get mru visible
+get right item edge
+get selection
+get selection background
+get selection foreground
+get selection index
+get simple
+get single
+get style
+get tab height
+get tab position
+get top right
+get unselected close visible
+get unselected image visible
+ index
+init accessible
+get name
+get help
+get keyboard shortcut
+get child point
+get location
+get child count
+get default action
+get focus
+get role
+get selection
+get state
+get children
+handle event
+handle event
+key down
+ dispose
+drag detect
+ focus
+ mnemonic
+mouse double click
+mouse hover
+ mouse
+page traversal
+ paint
+ resize
+ traverse
+redraw tabs
+remove tab folder listener
+remove tab folder listener
+remove selection listener
+set background
+set background
+set background
+set background
+set border visible
+set button bounds
+set font
+set foreground
+set insert mark
+set insert mark
+set item location
+set item size
+set maximize visible
+set layout
+set maximized
+set minimize visible
+set minimized
+set minimum characters
+set mru visible
+set selection
+set selection
+set selection
+set selection background
+set selection background
+set selection background
+set selection background
+set selection foreground
+set simple
+set single
+set tab height
+set tab position
+set top right
+set top right
+set unselected close visible
+set unselected image visible
+show item
+show list
+widget selected
+show selection
+hide tool tip
+show tool tip
+update items
+update items
+update tab height
+_get tool tip
+update tool tip
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ accessibility
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+tab folder
+ composite
+margin width
+margin height
+min tab width
+ rgb
+border inside rgb
+ rgb
+ rgb
+border middle rgb
+ rgb
+ rgb
+border outside rgb
+ rgb
+ client
+ client
+ bottom
+ single
+ simple
+fixed tab height
+ swt
+ default
+tab height
+min chars
+tab item
+ items
+tab item
+first index
+selected index
+ priority
+ mru
+tab folder listener
+folder listeners
+tab folder listener
+tab folder listener
+tab listeners
+tab folder listener
+ image
+selection image
+ color
+selection gradient colors
+selection gradient percents
+selection gradient vertical
+ color
+selection foreground
+ color
+selection background
+ image
+ image
+ color
+gradient colors
+gradient percents
+gradient vertical
+show unselected image
+ color
+border color
+show close
+show unselected close
+ rectangle
+chevron rect
+ rectangle
+chevron image state
+ normal
+show chevron
+ menu
+show menu
+show min
+ rectangle
+min rect
+ rectangle
+ minimized
+min image state
+ normal
+show max
+ rectangle
+max rect
+ rectangle
+ maximized
+max image state
+ normal
+ control
+top right
+ rectangle
+top right rect
+ rectangle
+top right alignment
+ swt
+ right
+border left
+border right
+border top
+border bottom
+highlight _margin
+highlight _header
+ curve
+curve width
+curve indent
+ dispose
+ point
+old size
+ font
+old font
+tool tip events
+ swt
+mouse exit
+ swt
+mouse hover
+ swt
+mouse move
+ swt
+mouse down
+ swt
+drag detect
+ listener
+tool tip listener
+ shell
+tool tip shell
+ label
+tool tip label
+default width
+default height
+button size
+top left corner
+top right corner
+bottom left corner
+bottom right corner
+simple top left corner
+simple top right corner
+simple bottom left corner
+simple bottom right corner
+selection foreground
+ swt
+color list foreground
+selection background
+ swt
+color list background
+border color
+ swt
+color widget normal shadow
+ foreground
+ swt
+color widget foreground
+ background
+ swt
+color widget background
+button border
+ swt
+color widget dark shadow
+button fill
+ swt
+color list background
+ none
+ normal
+ hot
+ selected
+ rgb
+close fill
+ rgb
+tab folder
+ composite
+ parent
+ style
+ parent
+check style
+ parent
+ style
+set layout
+tab folder layout
+ style
+get style
+old font
+get font
+ bottom
+ style
+ swt
+ bottom
+show close
+ style
+ swt
+ close
+ single
+ style
+ swt
+ single
+border left
+border right
+ style
+ swt
+ border
+border top
+ bottom
+border left
+border bottom
+ bottom
+border left
+highlight _header
+ style
+ swt
+ flat
+highlight _margin
+ style
+ swt
+ flat
+ display
+ display
+get display
+selection foreground
+ display
+get system color
+selection foreground
+selection background
+ display
+get system color
+selection background
+border color
+ display
+get system color
+border color
+update tab height
+init accessible
+ listener
+ listener
+ listener
+handle event
+ event
+ event
+ event
+ type
+ swt
+ dispose
+ dispose
+ swt
+drag detect
+drag detect
+ event
+ swt
+ focus
+ focus
+ event
+ swt
+focus out
+ focus
+ event
+ swt
+key down
+key down
+ event
+ swt
+mouse double click
+mouse double click
+ event
+ swt
+mouse down
+ mouse
+ event
+ swt
+mouse exit
+ mouse
+ event
+ swt
+mouse hover
+mouse hover
+ event
+ swt
+mouse move
+ mouse
+ event
+ swt
+ mouse
+ mouse
+ event
+ swt
+ paint
+ paint
+ event
+ swt
+ resize
+ resize
+ swt
+ traverse
+ traverse
+ event
+folder events
+ swt
+ dispose
+ swt
+drag detect
+ swt
+ focus
+ swt
+focus out
+ swt
+key down
+ swt
+mouse double click
+ swt
+mouse down
+ swt
+mouse exit
+ swt
+mouse hover
+ swt
+mouse move
+ swt
+ mouse
+ swt
+ paint
+ swt
+ resize
+ swt
+ traverse
+
+
+folder events
+ length
+
+add listener
+folder events
+
+ listener
+tool tip listener
+ listener
+handle event
+ event
+ event
+ event
+ type
+ swt
+mouse hover
+ swt
+mouse move
+update tool tip
+ event
+
+ event
+
+ swt
+mouse exit
+ swt
+mouse down
+hide tool tip
+check style
+ composite
+ parent
+ style
+ mask
+ swt
+ close
+ swt
+ top
+ swt
+ bottom
+ swt
+ flat
+ swt
+left right
+ swt
+right left
+ swt
+ single
+ swt
+ multi
+ style
+ style
+ mask
+ style
+ swt
+ top
+ style
+ style
+ swt
+ bottom
+ style
+ swt
+ multi
+ style
+ style
+ swt
+ single
+ style
+ swt
+redraw resize
+ string
+ platform
+ swt
+get platform
+ equals
+ platform
+ equals
+ platform
+ style
+ style
+ swt
+right left
+ style
+ parent
+get style
+ swt
+ mirrored
+ style
+ swt
+left right
+ style
+ style
+ swt
+ background
+fill region
+
+
+ region
+ region
+ region
+ clipping
+ region
+
+get clipping
+ clipping
+ region
+ intersect
+ clipping
+
+set clipping
+ region
+
+fill rectangle
+ region
+get bounds
+
+set clipping
+ clipping
+ clipping
+ dispose
+add tab folder listener
+tab folder listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+tab folder listener
+new listeners
+tab folder listener
+folder listeners
+ length
+ system
+ arraycopy
+folder listeners
+new listeners
+folder listeners
+ length
+folder listeners
+new listeners
+folder listeners
+folder listeners
+ length
+ listener
+add tab folder listener
+tab folder listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+tab folder listener
+new tab listeners
+tab folder listener
+tab listeners
+ length
+ system
+ arraycopy
+tab listeners
+new tab listeners
+tab listeners
+ length
+tab listeners
+new tab listeners
+tab listeners
+tab listeners
+ length
+ listener
+show close
+show close
+update items
+ redraw
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+ antialias
+ shape
+ rgb
+line rgb
+ rgb
+inner rgb
+ rgb
+outer rgb
+
+
+ simple
+ equals
+ swt
+get platform
+get display
+get depth
+outer rgb
+ index
+ left
+ old
+ bottom
+get size
+
+ outer
+ shape
+ length
+
+
+ shape
+ length
+
+ left
+ index
+ shape
+ length
+ left
+ bottom
+ old
+ shape
+ index
+ old
+ shape
+ index
+ old
+ shape
+ index
+ outer
+ index
+ shape
+ index
+ left
+ outer
+ index
+ shape
+ index
+ rgb
+ from
+line rgb
+ rgb
+
+outer rgb
+ red
+ from
+ red
+
+ red
+ from
+ red
+ green
+ from
+ green
+
+ green
+ from
+ green
+ blue
+ from
+ blue
+
+ blue
+ from
+ blue
+ color
+ color
+ color
+get display
+ red
+ green
+ blue
+
+set foreground
+ color
+
+draw polyline
+ outer
+ color
+ dispose
+inner rgb
+ inner
+ shape
+ length
+ index
+ left
+ old
+ bottom
+get size
+
+
+
+ shape
+ length
+
+ left
+ index
+ shape
+ length
+ left
+ bottom
+ old
+ shape
+ index
+ old
+ shape
+ index
+ old
+ shape
+ index
+ inner
+ index
+ shape
+ index
+ left
+ inner
+ index
+ shape
+ index
+ rgb
+ from
+line rgb
+ rgb
+
+inner rgb
+ red
+ from
+ red
+
+ red
+ from
+ red
+ green
+ from
+ green
+
+ green
+ from
+ green
+ blue
+ from
+ blue
+
+ blue
+ from
+ blue
+ color
+ color
+ color
+get display
+ red
+ green
+ blue
+
+set foreground
+ color
+
+draw polyline
+ inner
+ color
+ dispose
+ rectangle
+compute trim
+
+
+ width
+ height
+check widget
+ trim
+
+margin width
+highlight _margin
+border left
+trim width
+ width
+border left
+border right
+margin width
+highlight _margin
+ minimized
+ trim
+ bottom
+
+border top
+
+highlight _header
+tab height
+border top
+trim height
+border top
+border bottom
+tab height
+highlight _header
+ rectangle
+ trim
+ trim
+trim width
+trim height
+ trim
+ bottom
+
+margin height
+highlight _margin
+border top
+
+margin height
+highlight _header
+tab height
+border top
+trim height
+ height
+border top
+border bottom
+margin height
+tab height
+highlight _header
+highlight _margin
+ rectangle
+ trim
+ trim
+trim width
+trim height
+create item
+tab item
+ item
+ index
+ index
+ index
+get item count
+ swt
+ error
+ swt
+error invalid range
+ item
+ parent
+tab item
+new items
+tab item
+ items
+ length
+ system
+ arraycopy
+ items
+new items
+ index
+new items
+ index
+ item
+ system
+ arraycopy
+ items
+ index
+new items
+ index
+ items
+ length
+ index
+ items
+new items
+selected index
+ index
+selected index
+new priority
+ priority
+ length
+ next
+priority index
+ priority
+ length
+
+
+ priority
+ length
+
+ mru
+ priority
+
+ index
+priority index
+ next
+new priority
+ next
+ priority
+
+ index
+ priority
+
+ priority
+
+new priority
+priority index
+ index
+ priority
+new priority
+ items
+ length
+update tab height
+update items
+ redraw
+update items
+redraw tabs
+destroy item
+tab item
+ item
+ dispose
+ index
+ index
+ item
+ index
+ items
+ length
+ items
+tab item
+ priority
+first index
+selected index
+ control
+ control
+ item
+get control
+ control
+ control
+ disposed
+ control
+set visible
+hide tool tip
+set button bounds
+ redraw
+tab item
+new items
+tab item
+ items
+ length
+ system
+ arraycopy
+ items
+new items
+ index
+ system
+ arraycopy
+ items
+ index
+new items
+ index
+ items
+ length
+ index
+ items
+new items
+new priority
+ priority
+ length
+ next
+
+
+ priority
+ length
+
+ priority
+
+ index
+new priority
+ next
+ priority
+
+ index
+ priority
+
+ priority
+
+ priority
+new priority
+selected index
+ index
+ control
+ control
+ item
+get control
+selected index
+next selection
+ mru
+ priority
+ math
+ max
+ index
+set selection
+next selection
+ control
+ control
+ disposed
+ control
+set visible
+selected index
+ index
+selected index
+update items
+redraw tabs
+draw background
+
+
+ shape
+ selected
+ color
+default background
+ selected
+selection background
+get background
+ image
+ image
+ selected
+selection image
+ image
+ color
+ colors
+ selected
+selection gradient colors
+gradient colors
+ percents
+ selected
+selection gradient percents
+gradient percents
+ vertical
+ selected
+selection gradient vertical
+gradient vertical
+ point
+ size
+get size
+ width
+ size
+
+ height
+tab height
+highlight _header
+
+border left
+
+ width
+
+ bottom
+ size
+
+border bottom
+ height
+border top
+draw background
+
+ shape
+
+
+ width
+ height
+default background
+ image
+ colors
+ percents
+ vertical
+draw background
+
+
+ shape
+
+
+ width
+ height
+ color
+default background
+ image
+ image
+ color
+ colors
+ percents
+ vertical
+ region
+ clipping
+ region
+
+get clipping
+ clipping
+ region
+ region
+ region
+ region
+ add
+ shape
+ region
+ intersect
+ clipping
+
+set clipping
+ region
+ image
+
+set background
+default background
+
+fill rectangle
+
+
+ width
+ height
+ rectangle
+image rect
+ image
+get bounds
+
+draw image
+ image
+image rect
+
+image rect
+
+image rect
+ width
+image rect
+ height
+
+
+ width
+ height
+ colors
+ colors
+ length
+ color
+ background
+ colors
+ colors
+default background
+
+set background
+ background
+
+fill rectangle
+
+
+ width
+ height
+ vertical
+ bottom
+ pos
+ percents
+ percents
+ length
+ pos
+ percents
+ percents
+ length
+ height
+
+set background
+default background
+
+fill rectangle
+
+
+ width
+ pos
+ color
+last color
+ colors
+ colors
+ length
+last color
+last color
+default background
+
+ percents
+ length
+
+
+
+set foreground
+last color
+last color
+ colors
+
+last color
+last color
+default background
+
+set background
+last color
+gradient height
+ percents
+
+ height
+
+fill gradient rectangle
+
+
+ pos
+ width
+gradient height
+ pos
+gradient height
+ color
+last color
+ colors
+last color
+last color
+default background
+ pos
+
+
+ percents
+ length
+
+
+set foreground
+last color
+last color
+ colors
+
+last color
+last color
+default background
+
+set background
+last color
+gradient height
+ percents
+
+ height
+
+fill gradient rectangle
+
+
+ pos
+ width
+gradient height
+ pos
+gradient height
+ pos
+ height
+
+set background
+default background
+
+fill rectangle
+
+ pos
+ width
+ height
+ pos
+
+ height
+get size
+
+ color
+last color
+ colors
+last color
+last color
+default background
+ pos
+
+
+ percents
+ length
+
+
+set foreground
+last color
+last color
+ colors
+
+last color
+last color
+default background
+
+set background
+last color
+gradient width
+ percents
+
+ width
+ pos
+
+fill gradient rectangle
+
+ pos
+
+gradient width
+ height
+ pos
+gradient width
+ pos
+ width
+
+set background
+default background
+
+fill rectangle
+
+ pos
+
+ width
+ pos
+ height
+get style
+ swt
+ background
+default background
+ equals
+get background
+
+set background
+default background
+
+fill rectangle
+
+
+ width
+ height
+
+set clipping
+ clipping
+ clipping
+ dispose
+ region
+ dispose
+draw body
+ event
+ event
+
+
+ event
+
+ point
+ size
+get size
+ minimized
+ width
+ size
+
+border left
+border right
+highlight _margin
+ height
+ size
+
+border top
+border bottom
+tab height
+highlight _header
+highlight _margin
+highlight _margin
+ shape
+ bottom
+
+border left
+
+border top
+
+ size
+
+border right
+
+ size
+
+border bottom
+tab height
+highlight _header
+ shape
+
+
+
+
+
+
+
+highlight _margin
+
+
+highlight _margin
+
+highlight _margin
+
+highlight _margin
+
+highlight _margin
+
+highlight _margin
+
+
+
+
+border left
+
+border top
+tab height
+highlight _header
+
+ size
+
+border right
+
+ size
+
+border bottom
+ shape
+
+
+
+highlight _margin
+
+
+highlight _margin
+
+highlight _margin
+
+highlight _margin
+
+highlight _margin
+
+highlight _margin
+
+
+
+
+
+
+
+selected index
+selection gradient colors
+selection gradient colors
+ length
+selection gradient vertical
+draw background
+
+ shape
+selected index
+gradient colors
+gradient colors
+ length
+gradient vertical
+draw background
+
+ shape
+
+set background
+selected index
+get background
+selection background
+
+fill polygon
+ shape
+get style
+ swt
+ background
+
+set background
+get background
+
+fill rectangle
+ client
+margin width
+ client
+margin height
+ width
+ height
+get style
+ swt
+ background
+ height
+border top
+tab height
+highlight _header
+border bottom
+ size
+
+ height
+
+set background
+get parent
+get background
+
+fill rectangle
+ height
+ size
+
+ size
+
+ height
+border left
+
+set foreground
+border color
+
+border left
+
+ size
+
+border right
+
+ bottom
+border top
+border top
+tab height
+
+ bottom
+ size
+
+tab height
+border bottom
+ size
+
+border bottom
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+ bottom
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+draw chevron
+
+
+chevron rect
+ width
+chevron rect
+ height
+ display
+ display
+get display
+ point
+ dpi
+ display
+get dpi
+font height
+ dpi
+
+font data
+
+get font
+get font data
+
+set height
+font height
+ font
+
+ font
+ display
+
+ height
+
+get font data
+get height
+ display
+get dpi
+
+ indent
+ math
+ max
+chevron rect
+ height
+ height
+
+chevron rect
+
+
+chevron rect
+
+ indent
+ count
+ single
+ count
+selected index
+ items
+ length
+ items
+ length
+show count
+show count
+ priority
+ length
+ items
+ priority
+show count
+ showing
+show count
+ count
+ items
+ length
+show count
+ string
+chevron string
+ count
+ string
+ value
+ count
+chevron image state
+ normal
+ color
+chevron border
+ single
+get selection foreground
+get foreground
+
+set foreground
+chevron border
+
+set font
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+
+draw string
+chevron string
+
+
+ hot
+
+set foreground
+ display
+get system color
+button border
+
+set background
+ display
+get system color
+button fill
+
+set font
+
+
+fill round rectangle
+chevron rect
+
+chevron rect
+
+chevron rect
+ width
+chevron rect
+ height
+
+draw round rectangle
+chevron rect
+
+chevron rect
+
+chevron rect
+ width
+chevron rect
+ height
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+
+draw string
+chevron string
+
+
+ selected
+
+set foreground
+ display
+get system color
+button border
+
+set background
+ display
+get system color
+button fill
+
+set font
+
+
+fill round rectangle
+chevron rect
+
+chevron rect
+
+chevron rect
+ width
+chevron rect
+ height
+
+draw round rectangle
+chevron rect
+
+chevron rect
+
+chevron rect
+ width
+chevron rect
+ height
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+
+draw string
+chevron string
+
+
+
+ dispose
+draw maximize
+
+
+max rect
+ width
+max rect
+ height
+ display
+ display
+get display
+
+max rect
+
+tab folder
+button size
+
+max rect
+
+
+set foreground
+ display
+get system color
+button border
+
+set background
+ display
+get system color
+button fill
+max image state
+ normal
+ maximized
+
+fill rectangle
+
+
+
+draw rectangle
+
+
+
+draw line
+
+
+
+
+
+fill rectangle
+
+
+
+fill rectangle
+
+
+
+draw rectangle
+
+
+
+draw rectangle
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+ hot
+
+fill round rectangle
+max rect
+
+max rect
+
+max rect
+ width
+max rect
+ height
+
+draw round rectangle
+max rect
+
+max rect
+
+max rect
+ width
+max rect
+ height
+ maximized
+
+fill rectangle
+
+
+
+draw rectangle
+
+
+
+draw line
+
+
+
+
+
+fill rectangle
+
+
+
+fill rectangle
+
+
+
+draw rectangle
+
+
+
+draw rectangle
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+ selected
+
+fill round rectangle
+max rect
+
+max rect
+
+max rect
+ width
+max rect
+ height
+
+draw round rectangle
+max rect
+
+max rect
+
+max rect
+ width
+max rect
+ height
+ maximized
+
+fill rectangle
+
+
+
+draw rectangle
+
+
+
+draw line
+
+
+
+
+
+fill rectangle
+
+
+
+fill rectangle
+
+
+
+draw rectangle
+
+
+
+draw rectangle
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+draw minimize
+
+
+min rect
+ width
+min rect
+ height
+ display
+ display
+get display
+
+min rect
+
+button size
+
+min rect
+
+
+set foreground
+ display
+get system color
+button border
+
+set background
+ display
+get system color
+button fill
+min image state
+ normal
+ minimized
+
+fill rectangle
+
+
+
+draw rectangle
+
+
+
+fill rectangle
+
+
+
+fill rectangle
+
+
+
+draw rectangle
+
+
+
+draw rectangle
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+ hot
+
+fill round rectangle
+min rect
+
+min rect
+
+min rect
+ width
+min rect
+ height
+
+draw round rectangle
+min rect
+
+min rect
+
+min rect
+ width
+min rect
+ height
+ minimized
+
+fill rectangle
+
+
+
+draw rectangle
+
+
+
+fill rectangle
+
+
+
+fill rectangle
+
+
+
+draw rectangle
+
+
+
+draw rectangle
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+ selected
+
+fill round rectangle
+min rect
+
+min rect
+
+min rect
+ width
+min rect
+ height
+
+draw round rectangle
+min rect
+
+min rect
+
+min rect
+ width
+min rect
+ height
+ minimized
+
+fill rectangle
+
+
+
+draw rectangle
+
+
+
+fill rectangle
+
+
+
+fill rectangle
+
+
+
+draw rectangle
+
+
+
+draw rectangle
+
+
+
+draw line
+
+
+
+
+
+draw line
+
+
+
+
+draw tab area
+ event
+ event
+
+
+ event
+
+ point
+ size
+get size
+ shape
+tab height
+
+border left
+
+ size
+
+border right
+
+ bottom
+ size
+
+border bottom
+highlight _header
+border top
+highlight _header
+
+ bottom
+ size
+
+border bottom
+border top
+border left
+ bottom
+
+ shape
+
+
+
+
+
+
+
+
+selected index
+selection gradient colors
+selection gradient colors
+ length
+selection gradient vertical
+draw background
+
+ shape
+selected index
+gradient colors
+gradient colors
+ length
+gradient vertical
+draw background
+
+ shape
+
+set background
+selected index
+get background
+selection background
+
+fill polygon
+ shape
+border left
+
+set foreground
+border color
+
+draw polyline
+ shape
+
+ math
+ max
+border left
+
+ bottom
+ size
+
+border bottom
+tab height
+border top
+ width
+ size
+
+border left
+border right
+ height
+tab height
+ bottom
+ left
+ simple
+simple bottom left corner
+bottom left corner
+ right
+ simple
+simple bottom right corner
+bottom right corner
+ shape
+ left
+ length
+ right
+ length
+ index
+ shape
+ index
+
+ shape
+ index
+
+highlight _header
+
+
+ left
+ length
+
+ shape
+ index
+
+ left
+
+ shape
+ index
+
+ height
+ left
+
+border left
+ shape
+ index
+
+
+ right
+ length
+
+ shape
+ index
+
+ width
+ right
+
+ shape
+ index
+
+ height
+ right
+
+border left
+ shape
+ index
+ shape
+ index
+
+ width
+ shape
+ index
+
+highlight _header
+ left
+ simple
+simple top left corner
+top left corner
+ right
+ simple
+simple top right corner
+top right corner
+ shape
+ left
+ length
+ right
+ length
+ index
+ shape
+ index
+
+ shape
+ index
+
+ height
+highlight _header
+
+
+ left
+ length
+
+ shape
+ index
+
+ left
+
+ shape
+ index
+
+ left
+
+
+
+ right
+ length
+
+ shape
+ index
+
+ width
+ right
+
+ shape
+ index
+
+ right
+
+ shape
+ index
+
+ width
+ shape
+ index
+
+ height
+highlight _header
+ selected
+ single
+selected index
+draw background
+
+ shape
+ selected
+ region
+
+ region
+
+ add
+ rectangle
+
+
+ width
+ height
+
+ subtract
+ shape
+
+set background
+get parent
+get background
+fill region
+
+
+
+ dispose
+ single
+
+
+ items
+ length
+
+
+selected index
+ event
+get bounds
+ intersects
+ items
+
+get bounds
+ items
+
+ paint
+
+selected index
+tab item
+ item
+ items
+selected index
+ item
+ paint
+
+
+border left
+
+ bottom
+ size
+
+border bottom
+tab height
+border top
+tab height
+
+ size
+
+border right
+
+set foreground
+border color
+
+draw line
+
+
+
+
+draw chevron
+
+draw minimize
+
+draw maximize
+
+border left
+ rgb
+ outside
+get parent
+get background
+get rgb
+ antialias
+ shape
+border color
+get rgb
+ outside
+
+
+set foreground
+border color
+
+draw polyline
+ shape
+get border visible
+check widget
+border left
+ rectangle
+get client area
+check widget
+ minimized
+ rectangle
+ client
+ client
+ point
+ size
+get size
+ width
+ size
+
+border left
+border right
+margin width
+highlight _margin
+ height
+ size
+
+border top
+border bottom
+margin height
+highlight _margin
+highlight _header
+ height
+tab height
+ rectangle
+ client
+ client
+ width
+ height
+tab item
+get item
+ index
+ index
+ index
+ items
+ length
+ swt
+ error
+ swt
+error invalid range
+ items
+ index
+tab item
+get item
+ point
+
+ items
+ length
+ point
+ size
+get size
+ size
+
+border left
+border right
+show chevron
+chevron rect
+ contains
+
+
+
+ priority
+ length
+
+tab item
+ item
+ items
+ priority
+
+ rectangle
+ rect
+ item
+get bounds
+ rect
+ contains
+
+ item
+get item count
+ items
+ length
+tab item
+get items
+tab item
+tab items
+tab item
+ items
+ length
+ system
+ arraycopy
+ items
+tab items
+ items
+ length
+tab items
+_find mnemonic
+ string
+ string
+ string
+ index
+ length
+ string
+ length
+ index
+ length
+ string
+ char
+ index
+ index
+ index
+ length
+ string
+ char
+ index
+ string
+ char
+ index
+ index
+ index
+ length
+get minimized
+check widget
+ minimized
+get minimize visible
+check widget
+show min
+get minimum characters
+check widget
+min chars
+get maximized
+check widget
+ maximized
+get maximize visible
+check widget
+show max
+get mru visible
+check widget
+ mru
+get right item edge
+
+get size
+
+border right
+show min
+
+button size
+show max
+
+button size
+show chevron
+
+button size
+top right
+top right alignment
+ swt
+ fill
+ point
+right size
+top right
+compute size
+ swt
+ default
+ swt
+ default
+
+right size
+
+ math
+ max
+
+tab item
+get selection
+selected index
+ items
+selected index
+ color
+get selection background
+check widget
+selection background
+ color
+get selection foreground
+check widget
+selection foreground
+get selection index
+selected index
+get simple
+check widget
+ simple
+get single
+check widget
+ single
+get style
+ style
+get style
+ style
+ swt
+ top
+ swt
+ bottom
+ style
+ bottom
+ swt
+ bottom
+ swt
+ top
+ style
+ swt
+ single
+ swt
+ multi
+ style
+ single
+ swt
+ single
+ swt
+ multi
+border left
+ style
+ swt
+ border
+ style
+get tab height
+check widget
+fixed tab height
+ swt
+ default
+fixed tab height
+tab height
+get tab position
+check widget
+ bottom
+ swt
+ bottom
+ swt
+ top
+ control
+get top right
+check widget
+top right
+get unselected close visible
+check widget
+show unselected close
+get unselected image visible
+check widget
+show unselected image
+ index
+tab item
+ item
+check widget
+ item
+ swt
+ error
+ swt
+error null argument
+
+
+ items
+ length
+
+ items
+
+ item
+
+init accessible
+ accessible
+ accessible
+get accessible
+ accessible
+add accessible listener
+accessible adapter
+get name
+accessible event
+
+ string
+ name
+ child
+
+ child
+ child
+ child
+ items
+ length
+ name
+ items
+ child
+get text
+ index
+ name
+ index
+ index
+ name
+ name
+ substring
+ index
+ name
+ substring
+ index
+
+ result
+ name
+get help
+accessible event
+
+ string
+ help
+ child
+
+ child
+ child
+ acc
+childid self
+ help
+get tool tip text
+ child
+ child
+ items
+ length
+ help
+ items
+ child
+get tool tip text
+
+ result
+ help
+get keyboard shortcut
+accessible event
+
+ string
+ shortcut
+ child
+
+ child
+ child
+ child
+ items
+ length
+ string
+ text
+ items
+ child
+get text
+ text
+ mnemonic
+_find mnemonic
+ text
+ mnemonic
+ shortcut
+ mnemonic
+
+ result
+ shortcut
+ accessible
+add accessible control listener
+accessible control adapter
+get child point
+accessible control event
+
+ point
+test point
+ control
+
+
+
+
+ child
+ acc
+childid none
+
+
+ items
+ length
+
+ items
+
+get bounds
+ contains
+test point
+ child
+
+ child
+ acc
+childid none
+ rectangle
+ location
+get bounds
+ location
+ height
+ location
+ height
+get client area
+ height
+ location
+ contains
+test point
+ child
+ acc
+childid self
+
+ child
+ child
+get location
+accessible control event
+
+ rectangle
+ location
+ child
+
+ child
+ child
+ acc
+childid self
+ location
+get bounds
+ child
+ child
+ items
+ length
+ location
+ items
+ child
+get bounds
+ location
+ point
+
+ display
+ location
+
+ location
+
+
+
+
+
+
+
+
+
+
+ width
+ location
+ width
+
+ height
+ location
+ height
+get child count
+accessible control event
+
+
+ detail
+ items
+ length
+get default action
+accessible control event
+
+ string
+ action
+ child
+
+ child
+ child
+ child
+ items
+ length
+ action
+ swt
+get message
+
+ result
+ action
+get focus
+accessible control event
+
+ child
+ acc
+childid none
+focus control
+selected index
+ child
+ acc
+childid self
+ child
+selected index
+
+ child
+ child
+get role
+accessible control event
+
+ role
+ child
+
+ child
+ child
+ acc
+childid self
+ role
+ acc
+role tabfolder
+ child
+ child
+ items
+ length
+ role
+ acc
+role tabitem
+
+ detail
+ role
+get selection
+accessible control event
+
+
+ child
+selected index
+ acc
+childid none
+selected index
+get state
+accessible control event
+
+ state
+ child
+
+ child
+ child
+ acc
+childid self
+ state
+ acc
+state normal
+ child
+ child
+ items
+ length
+ state
+ acc
+state selectable
+focus control
+ state
+ acc
+state focusable
+selected index
+ child
+ state
+ acc
+state selected
+focus control
+ state
+ acc
+state focused
+
+ detail
+ state
+get children
+accessible control event
+
+ object
+ children
+ object
+ items
+ length
+
+
+ items
+ length
+
+ children
+
+ integer
+
+
+ children
+ children
+add listener
+ swt
+ selection
+ listener
+handle event
+ event
+ event
+focus control
+selected index
+ accessible
+set focus
+ acc
+childid self
+ accessible
+set focus
+selected index
+add listener
+ swt
+ focus
+ listener
+handle event
+ event
+ event
+selected index
+ accessible
+set focus
+ acc
+childid self
+ accessible
+set focus
+selected index
+key down
+ event
+ event
+ event
+key code
+ swt
+arrow left
+ swt
+arrow right
+ count
+ items
+ length
+ count
+selected index
+lead key
+get style
+ swt
+right left
+ swt
+arrow right
+ swt
+arrow left
+ offset
+ event
+key code
+lead key
+ index
+ mru
+ index
+selected index
+ offset
+ visible
+ items
+ length
+ idx
+ current
+
+
+ items
+ length
+
+ items
+
+ showing
+
+selected index
+ current
+ idx
+ visible
+ idx
+
+ current
+ offset
+ current
+ offset
+ idx
+ index
+ visible
+ current
+ offset
+show chevron
+tab folder event
+
+tab folder event
+
+ widget
+
+ time
+ event
+ time
+
+
+chevron rect
+
+
+
+chevron rect
+
+
+ width
+chevron rect
+ width
+
+ height
+chevron rect
+ height
+
+ doit
+
+
+folder listeners
+ length
+
+folder listeners
+
+show list
+
+
+ doit
+ disposed
+show list
+chevron rect
+ index
+ index
+ count
+set selection
+ index
+force focus
+ dispose
+ dispose
+hide tool tip
+show menu
+show menu
+ disposed
+show menu
+ dispose
+show menu
+ length
+ items
+ length
+
+
+ length
+
+ items
+
+ items
+
+ dispose
+selection gradient colors
+selection gradient percents
+selection image
+selection background
+selection foreground
+drag detect
+ event
+ event
+ consume
+chevron rect
+ contains
+ event
+
+ event
+
+min rect
+ contains
+ event
+
+ event
+
+max rect
+ contains
+ event
+
+ event
+
+ consume
+
+
+ items
+ length
+
+ items
+
+close rect
+ contains
+ event
+
+ event
+
+ consume
+ consume
+ event
+ type
+ swt
+ none
+ focus
+ event
+ event
+check widget
+selected index
+ redraw
+set selection
+ mnemonic
+ event
+ event
+ key
+ event
+ character
+
+
+ items
+ length
+
+ items
+
+ mnemonic
+_find mnemonic
+ items
+
+get text
+ mnemonic
+ character
+upper case
+ key
+ character
+upper case
+ mnemonic
+set selection
+
+mouse double click
+ event
+ event
+ event
+ button
+ event
+state mask
+ swt
+ button
+ event
+state mask
+ swt
+ button
+ event
+
+ event
+
+ item
+get item
+ point
+ event
+
+ event
+
+
+ item
+notify listeners
+ swt
+default selection
+
+mouse hover
+ event
+ event
+show tool tip
+ event
+
+ event
+
+ mouse
+ event
+ event
+
+ event
+
+
+ event
+
+ event
+ type
+ swt
+mouse exit
+min image state
+ normal
+min image state
+ normal
+ redraw
+min rect
+
+min rect
+
+min rect
+ width
+min rect
+ height
+max image state
+ normal
+max image state
+ normal
+ redraw
+max rect
+
+max rect
+
+max rect
+ width
+max rect
+ height
+chevron image state
+ normal
+chevron image state
+ normal
+ redraw
+chevron rect
+
+chevron rect
+
+chevron rect
+ width
+chevron rect
+ height
+
+
+ items
+ length
+
+tab item
+ item
+ items
+
+
+selected index
+ item
+close image state
+ none
+ item
+close image state
+ none
+ redraw
+ item
+close rect
+
+ item
+close rect
+
+ item
+close rect
+ width
+ item
+close rect
+ height
+
+selected index
+ item
+close image state
+ normal
+ item
+close image state
+ normal
+ redraw
+ item
+close rect
+
+ item
+close rect
+
+ item
+close rect
+ width
+ item
+close rect
+ height
+ swt
+mouse down
+min rect
+ contains
+
+
+ event
+ button
+min image state
+ selected
+ redraw
+min rect
+
+min rect
+
+min rect
+ width
+min rect
+ height
+ update
+max rect
+ contains
+
+
+ event
+ button
+max image state
+ selected
+ redraw
+max rect
+
+max rect
+
+max rect
+ width
+max rect
+ height
+ update
+chevron rect
+ contains
+
+
+ event
+ button
+chevron image state
+ hot
+chevron image state
+ hot
+chevron image state
+ selected
+ redraw
+chevron rect
+
+chevron rect
+
+chevron rect
+ width
+chevron rect
+ height
+ update
+tab item
+ item
+ single
+selected index
+ rectangle
+ bounds
+ items
+selected index
+get bounds
+ bounds
+ contains
+
+
+ item
+ items
+selected index
+
+
+ items
+ length
+
+ rectangle
+ bounds
+ items
+
+get bounds
+ bounds
+ contains
+
+
+ item
+ items
+
+ item
+ item
+close rect
+ contains
+
+
+ event
+ button
+ item
+close image state
+ selected
+ redraw
+ item
+close rect
+
+ item
+close rect
+
+ item
+close rect
+ width
+ item
+close rect
+ height
+ update
+ index
+ index
+ item
+ item
+ showing
+set selection
+ index
+ swt
+mouse move
+ close
+ minimize
+ maximize
+ chevron
+min rect
+ contains
+
+
+ minimize
+min image state
+ selected
+min image state
+ hot
+min image state
+ hot
+ redraw
+min rect
+
+min rect
+
+min rect
+ width
+min rect
+ height
+max rect
+ contains
+
+
+ maximize
+max image state
+ selected
+max image state
+ hot
+max image state
+ hot
+ redraw
+max rect
+
+max rect
+
+max rect
+ width
+max rect
+ height
+chevron rect
+ contains
+
+
+ chevron
+chevron image state
+ selected
+chevron image state
+ hot
+chevron image state
+ hot
+ redraw
+chevron rect
+
+chevron rect
+
+chevron rect
+ width
+chevron rect
+ height
+min image state
+ normal
+ minimize
+min image state
+ normal
+ redraw
+min rect
+
+min rect
+
+min rect
+ width
+min rect
+ height
+max image state
+ normal
+ maximize
+max image state
+ normal
+ redraw
+max rect
+
+max rect
+
+max rect
+ width
+max rect
+ height
+chevron image state
+ normal
+ chevron
+chevron image state
+ normal
+ redraw
+chevron rect
+
+chevron rect
+
+chevron rect
+ width
+chevron rect
+ height
+
+
+ items
+ length
+
+tab item
+ item
+ items
+
+ close
+ item
+get bounds
+ contains
+
+
+ close
+ item
+close rect
+ contains
+
+
+ item
+close image state
+ selected
+ item
+close image state
+ hot
+ item
+close image state
+ hot
+ redraw
+ item
+close rect
+
+ item
+close rect
+
+ item
+close rect
+ width
+ item
+close rect
+ height
+ item
+close image state
+ normal
+ item
+close image state
+ normal
+ redraw
+ item
+close rect
+
+ item
+close rect
+
+ item
+close rect
+ width
+ item
+close rect
+ height
+
+selected index
+ item
+close image state
+ none
+ close
+ item
+close image state
+ none
+ redraw
+ item
+close rect
+
+ item
+close rect
+
+ item
+close rect
+ width
+ item
+close rect
+ height
+
+selected index
+ item
+close image state
+ normal
+ close
+ item
+close image state
+ normal
+ redraw
+ item
+close rect
+
+ item
+close rect
+
+ item
+close rect
+ width
+ item
+close rect
+ height
+ swt
+ mouse
+ event
+ button
+chevron rect
+ contains
+
+
+ selected
+chevron image state
+ selected
+ selected
+tab folder event
+
+tab folder event
+
+ widget
+
+ time
+ event
+ time
+
+
+chevron rect
+
+
+
+chevron rect
+
+
+ width
+chevron rect
+ width
+
+ height
+chevron rect
+ height
+
+ doit
+
+
+folder listeners
+ length
+
+folder listeners
+
+show list
+
+
+ doit
+ disposed
+show list
+chevron rect
+min rect
+ contains
+
+
+ selected
+min image state
+ selected
+min image state
+ hot
+ redraw
+min rect
+
+min rect
+
+min rect
+ width
+min rect
+ height
+ selected
+tab folder event
+
+tab folder event
+
+ widget
+
+ time
+ event
+ time
+
+
+folder listeners
+ length
+
+ minimized
+folder listeners
+
+ restore
+
+folder listeners
+
+ minimize
+
+max rect
+ contains
+
+
+ selected
+max image state
+ selected
+max image state
+ hot
+ redraw
+max rect
+
+max rect
+
+max rect
+ width
+max rect
+ height
+ selected
+tab folder event
+
+tab folder event
+
+ widget
+
+ time
+ event
+ time
+
+
+folder listeners
+ length
+
+ maximized
+folder listeners
+
+ restore
+
+folder listeners
+
+ maximize
+
+tab item
+ item
+ single
+selected index
+ rectangle
+ bounds
+ items
+selected index
+get bounds
+ bounds
+ contains
+
+
+ item
+ items
+selected index
+
+
+ items
+ length
+
+ rectangle
+ bounds
+ items
+
+get bounds
+ bounds
+ contains
+
+
+ item
+ items
+
+ item
+ item
+close rect
+ contains
+
+
+ selected
+ item
+close image state
+ selected
+ item
+close image state
+ hot
+ redraw
+ item
+close rect
+
+ item
+close rect
+
+ item
+close rect
+ width
+ item
+close rect
+ height
+ selected
+tab folder event
+
+tab folder event
+
+ widget
+
+ time
+ event
+ time
+
+ item
+ item
+
+ doit
+
+
+folder listeners
+ length
+
+tab folder listener
+ listener
+folder listeners
+
+ listener
+ close
+
+
+
+tab listeners
+ length
+
+tab folder listener
+ listener
+tab listeners
+
+ listener
+item closed
+
+
+ doit
+ item
+ dispose
+ display
+ display
+get display
+ point
+
+ display
+get cursor location
+
+ display
+ map
+
+
+
+
+tab item
+next item
+get item
+
+next item
+next item
+close rect
+ contains
+
+next item
+close image state
+ selected
+next item
+close image state
+ hot
+next item
+close image state
+ hot
+ redraw
+next item
+close rect
+
+next item
+close rect
+
+next item
+close rect
+ width
+next item
+close rect
+ height
+next item
+close image state
+ normal
+next item
+close image state
+ normal
+ redraw
+next item
+close rect
+
+next item
+close rect
+
+next item
+close rect
+ width
+next item
+close rect
+ height
+page traversal
+ event
+ event
+ count
+ items
+ length
+ count
+ index
+selected index
+ index
+ index
+ offset
+ event
+ detail
+ swt
+traverse page next
+ mru
+ index
+selected index
+ offset
+ count
+ count
+ visible
+ items
+ length
+ idx
+ current
+
+
+ items
+ length
+
+ items
+
+ showing
+
+selected index
+ current
+ idx
+ visible
+ idx
+
+ current
+ offset
+ current
+ offset
+ idx
+ index
+ visible
+ current
+ offset
+show chevron
+tab folder event
+
+tab folder event
+
+ widget
+
+ time
+ event
+ time
+
+
+chevron rect
+
+
+
+chevron rect
+
+
+ width
+chevron rect
+ width
+
+ height
+chevron rect
+ height
+
+ doit
+
+
+folder listeners
+ length
+
+folder listeners
+
+show list
+
+
+ doit
+ disposed
+show list
+chevron rect
+set selection
+ index
+ paint
+ event
+ event
+ font
+ font
+get font
+old font
+old font
+ equals
+ font
+old font
+ font
+update tab height
+update items
+ redraw
+
+
+ event
+
+ font
+ font
+
+get font
+ color
+ background
+
+get background
+ color
+ foreground
+
+get foreground
+draw body
+ event
+
+set font
+ font
+
+set foreground
+ foreground
+
+set background
+ background
+draw tab area
+ event
+
+set font
+ font
+
+set foreground
+ foreground
+
+set background
+ background
+ resize
+update items
+redraw tabs
+ point
+ size
+get size
+old size
+ redraw
+ bottom
+ size
+
+old size
+
+ redraw
+
+ math
+ min
+ size
+
+old size
+
+ size
+
+old size
+
+
+border right
+highlight _margin
+ simple
+
+
+ math
+ min
+ size
+
+old size
+
+ size
+
+old size
+
+
+border bottom
+highlight _margin
+
+ math
+ max
+ size
+
+old size
+
+
+ math
+ max
+ size
+
+old size
+
+ redraw
+
+
+
+
+ redraw
+
+
+
+
+old size
+ size
+ traverse
+ event
+ event
+ event
+ detail
+ swt
+traverse escape
+ swt
+traverse return
+ swt
+traverse tab next
+ swt
+traverse tab previous
+ event
+ doit
+ swt
+traverse mnemonic
+ event
+ doit
+ mnemonic
+ event
+ event
+ doit
+ event
+ detail
+ swt
+traverse none
+ swt
+traverse page next
+ swt
+traverse page previous
+ event
+ doit
+page traversal
+ event
+ event
+ detail
+ swt
+traverse none
+redraw tabs
+ point
+ size
+get size
+ bottom
+ redraw
+ size
+
+border bottom
+tab height
+highlight _header
+ size
+
+border bottom
+tab height
+highlight _header
+ redraw
+ size
+
+border top
+tab height
+highlight _header
+remove tab folder listener
+tab folder listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+folder listeners
+ length
+ index
+
+
+folder listeners
+ length
+
+ listener
+folder listeners
+
+ index
+
+ index
+folder listeners
+ length
+folder listeners
+tab folder listener
+tab folder listener
+new tab listeners
+tab folder listener
+folder listeners
+ length
+ system
+ arraycopy
+folder listeners
+new tab listeners
+ index
+ system
+ arraycopy
+folder listeners
+ index
+new tab listeners
+ index
+folder listeners
+ length
+ index
+folder listeners
+new tab listeners
+remove tab folder listener
+tab folder listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+tab listeners
+ length
+ index
+
+
+tab listeners
+ length
+
+ listener
+tab listeners
+
+ index
+
+ index
+tab listeners
+ length
+tab listeners
+tab folder listener
+tab folder listener
+new tab listeners
+tab folder listener
+tab listeners
+ length
+ system
+ arraycopy
+tab listeners
+new tab listeners
+ index
+ system
+ arraycopy
+tab listeners
+ index
+new tab listeners
+ index
+tab listeners
+ length
+ index
+tab listeners
+new tab listeners
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+remove listener
+ swt
+ selection
+ listener
+remove listener
+ swt
+default selection
+ listener
+set background
+ color
+ color
+set background
+ color
+ redraw
+set background
+ color
+ colors
+ percents
+set background
+ colors
+ percents
+set background
+ color
+ colors
+ percents
+ vertical
+check widget
+ colors
+ percents
+ percents
+ length
+ colors
+ length
+ swt
+ error
+ swt
+error invalid argument
+
+
+ percents
+ length
+
+ percents
+
+ percents
+
+ swt
+ error
+ swt
+error invalid argument
+
+ percents
+
+ percents
+
+ swt
+ error
+ swt
+error invalid argument
+get display
+get depth
+ colors
+ color
+ colors
+ colors
+ length
+ percents
+ image
+gradient colors
+ colors
+gradient colors
+ length
+ colors
+ length
+ same
+
+
+gradient colors
+ length
+
+gradient colors
+
+ same
+ colors
+
+ same
+gradient colors
+
+ equals
+ colors
+
+ same
+ same
+
+
+gradient percents
+ length
+
+ same
+gradient percents
+
+ percents
+
+ same
+ same
+gradient vertical
+ vertical
+ image
+ colors
+gradient colors
+gradient percents
+gradient vertical
+set background
+ color
+gradient colors
+ color
+ colors
+ length
+
+
+ colors
+ length
+
+gradient colors
+
+ colors
+
+gradient percents
+ percents
+ length
+
+
+ percents
+ length
+
+gradient percents
+
+ percents
+
+gradient vertical
+ vertical
+set background
+gradient colors
+gradient colors
+ length
+ redraw
+set background
+ image
+ image
+check widget
+ image
+ image
+ image
+gradient colors
+gradient percents
+ image
+ image
+ redraw
+set border visible
+ show
+check widget
+border left
+ show
+border left
+border right
+ show
+border top
+ bottom
+border left
+border bottom
+ bottom
+border left
+ rectangle
+rect before
+get client area
+update items
+ rectangle
+rect after
+get client area
+rect before
+ equals
+rect after
+notify listeners
+ swt
+ resize
+ event
+ redraw
+set button bounds
+ point
+ size
+get size
+ old
+ old
+old width
+old height
+ old
+max rect
+
+ old
+max rect
+
+old width
+max rect
+ width
+old height
+max rect
+ height
+max rect
+
+max rect
+
+max rect
+ width
+max rect
+ height
+show max
+max rect
+
+ size
+
+border right
+button size
+border right
+max rect
+
+max rect
+
+ bottom
+ size
+
+border bottom
+tab height
+tab height
+button size
+border top
+tab height
+button size
+max rect
+ width
+button size
+max rect
+ height
+button size
+ old
+max rect
+
+old width
+max rect
+ width
+ old
+max rect
+
+old height
+max rect
+ height
+ left
+ math
+ min
+ old
+max rect
+
+ right
+ math
+ max
+ old
+old width
+max rect
+
+max rect
+ width
+ top
+ bottom
+ size
+
+border bottom
+tab height
+border top
+ redraw
+ left
+ top
+ right
+ left
+tab height
+ old
+min rect
+
+ old
+min rect
+
+old width
+min rect
+ width
+old height
+min rect
+ height
+min rect
+
+min rect
+
+min rect
+ width
+min rect
+ height
+show min
+min rect
+
+ size
+
+border right
+max rect
+ width
+button size
+border right
+min rect
+
+min rect
+
+ bottom
+ size
+
+border bottom
+tab height
+tab height
+button size
+border top
+tab height
+button size
+min rect
+ width
+button size
+min rect
+ height
+button size
+ old
+min rect
+
+old width
+min rect
+ width
+ old
+min rect
+
+old height
+min rect
+ height
+ left
+ math
+ min
+ old
+min rect
+
+ right
+ math
+ max
+ old
+old width
+min rect
+
+min rect
+ width
+ top
+ bottom
+ size
+
+border bottom
+tab height
+border top
+ redraw
+ left
+ top
+ right
+ left
+tab height
+ old
+top right rect
+
+ old
+top right rect
+
+old width
+top right rect
+ width
+old height
+top right rect
+ height
+top right rect
+
+top right rect
+
+top right rect
+ width
+top right rect
+ height
+top right
+top right alignment
+ swt
+ fill
+right edge
+ size
+
+border right
+max rect
+ width
+min rect
+ width
+ simple
+border right
+show max
+show min
+right edge
+ single
+ items
+ length
+selected index
+top right rect
+
+border left
+top right rect
+ width
+right edge
+top right rect
+
+tab item
+ item
+ items
+selected index
+ item
+
+ item
+ width
+button size
+right edge
+top right rect
+
+ item
+
+ item
+ width
+button size
+top right rect
+ width
+right edge
+top right rect
+
+show chevron
+ items
+ length
+top right rect
+
+border left
+tab item
+ item
+ items
+ items
+ length
+top right rect
+
+ item
+
+ item
+ width
+ simple
+ items
+ length
+selected index
+top right rect
+
+curve width
+curve indent
+top right rect
+ width
+ math
+ max
+right edge
+top right rect
+
+top right rect
+
+ bottom
+ size
+
+border bottom
+tab height
+border top
+top right rect
+ height
+tab height
+ swt
+ right
+ point
+top right size
+top right
+compute size
+ swt
+ default
+tab height
+right edge
+ size
+
+border right
+max rect
+ width
+min rect
+ width
+ simple
+border right
+show max
+show min
+right edge
+top right rect
+
+right edge
+top right size
+
+top right rect
+ width
+top right size
+
+top right rect
+
+ bottom
+ size
+
+border bottom
+tab height
+border top
+top right rect
+ height
+tab height
+top right
+set bounds
+top right rect
+ old
+top right rect
+
+old width
+top right rect
+ width
+ old
+top right rect
+
+old height
+top right rect
+ height
+ left
+ math
+ min
+ old
+top right rect
+
+ right
+ math
+ max
+ old
+old width
+top right rect
+
+top right rect
+ width
+ top
+ bottom
+ size
+
+border bottom
+tab height
+border top
+ redraw
+ left
+ top
+ right
+ left
+tab height
+ old
+chevron rect
+
+ old
+chevron rect
+
+old width
+chevron rect
+ width
+old height
+chevron rect
+ height
+chevron rect
+
+chevron rect
+
+chevron rect
+ height
+chevron rect
+ width
+ single
+selected index
+ items
+ length
+chevron rect
+ width
+button size
+chevron rect
+ height
+button size
+chevron rect
+
+ bottom
+ size
+
+border bottom
+tab height
+tab height
+chevron rect
+ height
+border top
+tab height
+chevron rect
+ height
+selected index
+chevron rect
+
+ size
+
+border right
+min rect
+ width
+max rect
+ width
+top right rect
+ width
+chevron rect
+ width
+tab item
+ item
+ items
+selected index
+
+ size
+
+border right
+min rect
+ width
+max rect
+ width
+chevron rect
+ width
+top right rect
+ width
+
+top right rect
+ width
+chevron rect
+
+ math
+ min
+ item
+
+ item
+ width
+
+border right
+chevron rect
+
+show chevron
+chevron rect
+ width
+button size
+chevron rect
+ height
+button size
+
+last index
+
+ priority
+ length
+ items
+ priority
+
+ showing
+last index
+ math
+ max
+last index
+ priority
+
+last index
+last index
+first index
+tab item
+last item
+ items
+last index
+
+last item
+
+last item
+ width
+ simple
+last index
+selected index
+
+curve width
+curve indent
+chevron rect
+
+ math
+ min
+
+get right item edge
+chevron rect
+
+ bottom
+ size
+
+border bottom
+tab height
+tab height
+chevron rect
+ height
+border top
+tab height
+chevron rect
+ height
+ old
+chevron rect
+
+old width
+chevron rect
+ width
+ old
+chevron rect
+
+old height
+chevron rect
+ height
+ left
+ math
+ min
+ old
+chevron rect
+
+ right
+ math
+ max
+ old
+old width
+chevron rect
+
+chevron rect
+ width
+ top
+ bottom
+ size
+
+border bottom
+tab height
+border top
+ redraw
+ left
+ top
+ right
+ left
+tab height
+set font
+ font
+ font
+check widget
+ font
+ font
+ equals
+get font
+set font
+ font
+old font
+get font
+update tab height
+update items
+ redraw
+set foreground
+ color
+ color
+set foreground
+ color
+ redraw
+set insert mark
+tab item
+ item
+ after
+check widget
+set insert mark
+ index
+ after
+check widget
+ index
+ index
+get item count
+ swt
+ error
+ swt
+error invalid argument
+set item location
+ changed
+ items
+ length
+ point
+ size
+get size
+
+ bottom
+ math
+ max
+border bottom
+ size
+
+border bottom
+tab height
+border top
+ single
+ default
+get display
+get bounds
+ width
+
+
+ items
+ length
+
+tab item
+ item
+ items
+
+
+selected index
+first index
+selected index
+ old
+ item
+
+ old
+ item
+
+ item
+
+border left
+ item
+
+
+ item
+ showing
+show close
+ item
+show close
+ item
+close rect
+
+border left
+tab item
+left margin
+ item
+close rect
+
+ bottom
+ size
+
+border bottom
+tab height
+tab height
+button size
+border top
+tab height
+button size
+ item
+
+ old
+ item
+
+ old
+ changed
+ item
+
+ default
+ item
+ showing
+right item edge
+get right item edge
+max width
+right item edge
+border left
+ width
+
+
+ priority
+ length
+
+tab item
+ item
+ items
+ priority
+
+ width
+ item
+ width
+ item
+ showing
+
+ item
+ width
+ width
+max width
+ simple
+ priority
+
+selected index
+ width
+curve width
+curve indent
+
+ default
+get display
+get bounds
+ width
+first index
+ items
+ length
+
+
+ items
+ length
+
+tab item
+ item
+ items
+
+ item
+ showing
+ item
+
+ default
+ changed
+ item
+
+ default
+first index
+ math
+ min
+first index
+
+ item
+
+
+ item
+
+
+ changed
+ item
+
+
+ item
+
+
+
+selected index
+ edge
+ math
+ min
+ item
+
+ item
+ width
+right item edge
+ item
+close rect
+
+ edge
+tab item
+right margin
+button size
+ item
+close rect
+
+ item
+
+ item
+ width
+tab item
+right margin
+button size
+ item
+close rect
+
+ bottom
+ size
+
+border bottom
+tab height
+tab height
+button size
+border top
+tab height
+button size
+
+
+ item
+ width
+ simple
+
+selected index
+
+curve width
+curve indent
+ changed
+set item size
+ changed
+ disposed
+ changed
+ point
+ size
+get size
+ size
+
+ size
+
+ changed
+ client
+border left
+margin width
+highlight _margin
+ bottom
+ client
+border top
+highlight _margin
+margin height
+ client
+border top
+tab height
+highlight _header
+margin height
+show chevron
+ single
+show chevron
+selected index
+tab item
+ tab
+ items
+selected index
+
+
+
+ width
+ tab
+preferred width
+
+
+ dispose
+ width
+ math
+ min
+ width
+get right item edge
+border left
+ tab
+ height
+tab height
+ tab
+ width
+ width
+ changed
+ tab
+shortened text
+ tab
+shortened text width
+ tab
+ height
+tab height
+ tab
+ width
+ width
+ tab
+close rect
+ width
+ tab
+close rect
+ height
+show close
+ tab
+show close
+ tab
+close rect
+ width
+button size
+ tab
+close rect
+ height
+button size
+ changed
+ items
+ length
+ changed
+ widths
+
+
+
+tab area width
+ size
+
+border left
+border right
+show min
+tab area width
+button size
+show max
+tab area width
+button size
+top right alignment
+ swt
+ right
+top right
+ point
+right size
+top right
+compute size
+ swt
+ default
+ swt
+ default
+tab area width
+right size
+
+ simple
+tab area width
+curve width
+curve indent
+tab area width
+ math
+ max
+tab area width
+min width
+min widths
+ items
+ length
+
+
+ priority
+ length
+
+ index
+ priority
+
+min widths
+ index
+ items
+ index
+preferred width
+
+ index
+selected index
+min width
+min widths
+ index
+min width
+tab area width
+min width
+tab area width
+show chevron
+ items
+ length
+show chevron
+tab area width
+button size
+ widths
+min widths
+ index
+selected index
+selected index
+tab area width
+ widths
+ index
+ widths
+ index
+ math
+ max
+tab area width
+max width
+max widths
+ items
+ length
+
+
+ items
+ length
+
+max widths
+
+ items
+
+preferred width
+
+
+selected index
+max width
+max widths
+
+max width
+tab area width
+ widths
+max widths
+ extra
+tab area width
+min width
+ items
+ length
+ large
+total width
+
+
+ items
+ length
+
+max widths
+
+min widths
+
+ extra
+total width
+min widths
+
+ extra
+ large
+total width
+max widths
+
+total width
+tab area width
+ extra
+ large
+tab area width
+total width
+ large
+ extra
+ widths
+ items
+ length
+
+
+ items
+ length
+
+ widths
+
+ math
+ min
+max widths
+
+min widths
+
+ extra
+
+ dispose
+
+
+ items
+ length
+
+tab item
+ tab
+ items
+
+ width
+ widths
+
+ tab
+ height
+tab height
+ tab
+ width
+ width
+ changed
+ tab
+shortened text
+ tab
+shortened text width
+ tab
+ height
+tab height
+ tab
+ width
+ width
+ tab
+close rect
+ width
+ tab
+close rect
+ height
+show close
+ tab
+show close
+
+selected index
+show unselected close
+ tab
+close rect
+ width
+button size
+ tab
+close rect
+ height
+button size
+ changed
+set maximize visible
+ visible
+check widget
+show max
+ visible
+show max
+ visible
+update items
+ redraw
+set layout
+ layout
+ layout
+check widget
+set maximized
+ maximize
+check widget
+ maximized
+ maximize
+ maximize
+ minimized
+set minimized
+ maximized
+ maximize
+ redraw
+max rect
+
+max rect
+
+max rect
+ width
+max rect
+ height
+set minimize visible
+ visible
+check widget
+show min
+ visible
+show min
+ visible
+update items
+ redraw
+set minimized
+ minimize
+check widget
+ minimized
+ minimize
+ minimize
+ maximized
+set maximized
+ minimized
+ minimize
+ redraw
+min rect
+
+min rect
+
+min rect
+ width
+min rect
+ height
+set minimum characters
+ count
+check widget
+ count
+ swt
+ error
+ swt
+error invalid range
+min chars
+ count
+min chars
+ count
+update items
+redraw tabs
+set mru visible
+ show
+check widget
+ mru
+ show
+ mru
+ show
+ mru
+ idx
+first index
+ next
+
+first index
+
+ items
+ length
+
+ priority
+ next
+
+
+
+ idx
+
+ priority
+ next
+
+update items
+redraw tabs
+set selection
+tab item
+ item
+check widget
+ item
+ swt
+ error
+ swt
+error null argument
+ index
+ index
+ item
+set selection
+ index
+set selection
+ index
+check widget
+ index
+ index
+ items
+ length
+tab item
+ selection
+ items
+ index
+selected index
+ index
+show item
+ selection
+old index
+selected index
+selected index
+ index
+old index
+ items
+old index
+close image state
+ none
+ selection
+close image state
+ normal
+ selection
+ showing
+ control
+ control
+ selection
+ control
+ control
+ control
+ disposed
+ control
+set bounds
+get client area
+ control
+set visible
+old index
+ control
+ items
+old index
+ control
+ control
+ control
+ disposed
+ control
+set visible
+show item
+ selection
+ redraw
+set selection
+ index
+ notify
+old selected index
+selected index
+set selection
+ index
+ notify
+selected index
+old selected index
+selected index
+ event
+ event
+ event
+ event
+ item
+get item
+selected index
+notify listeners
+ swt
+ selection
+ event
+set selection background
+ color
+ color
+check widget
+selection background
+ color
+ color
+ color
+get display
+get system color
+selection background
+selection background
+ color
+selected index
+ redraw
+set selection background
+ color
+ colors
+ percents
+set selection background
+ colors
+ percents
+set selection background
+ color
+ colors
+ percents
+ vertical
+check widget
+ colors
+ percents
+ percents
+ length
+ colors
+ length
+ swt
+ error
+ swt
+error invalid argument
+
+
+ percents
+ length
+
+ percents
+
+ percents
+
+ swt
+ error
+ swt
+error invalid argument
+
+ percents
+
+ percents
+
+ swt
+ error
+ swt
+error invalid argument
+get display
+get depth
+ colors
+ color
+ colors
+ colors
+ length
+ percents
+selection image
+selection gradient colors
+ colors
+selection gradient colors
+ length
+ colors
+ length
+ same
+
+
+selection gradient colors
+ length
+
+selection gradient colors
+
+ same
+ colors
+
+ same
+selection gradient colors
+
+ equals
+ colors
+
+ same
+ same
+
+
+selection gradient percents
+ length
+
+ same
+selection gradient percents
+
+ percents
+
+ same
+ same
+selection gradient vertical
+ vertical
+selection image
+ colors
+selection gradient colors
+selection gradient percents
+selection gradient vertical
+set selection background
+ color
+selection gradient colors
+ color
+ colors
+ length
+
+
+ colors
+ length
+
+selection gradient colors
+
+ colors
+
+selection gradient percents
+ percents
+ length
+
+
+ percents
+ length
+
+selection gradient percents
+
+ percents
+
+selection gradient vertical
+ vertical
+set selection background
+selection gradient colors
+selection gradient colors
+ length
+selected index
+ redraw
+set selection background
+ image
+ image
+check widget
+ image
+selection image
+ image
+selection gradient colors
+selection gradient percents
+selection image
+ image
+selected index
+ redraw
+set selection foreground
+ color
+ color
+check widget
+selection foreground
+ color
+ color
+ color
+get display
+get system color
+selection foreground
+selection foreground
+ color
+selected index
+ redraw
+set simple
+ simple
+check widget
+ simple
+ simple
+ simple
+ simple
+ rectangle
+rect before
+get client area
+update items
+ rectangle
+rect after
+get client area
+rect before
+ equals
+rect after
+notify listeners
+ swt
+ resize
+ event
+ redraw
+set single
+ single
+check widget
+ single
+ single
+ single
+ single
+ single
+
+
+ items
+ length
+
+
+selected index
+ items
+
+close image state
+ normal
+ items
+
+close image state
+ none
+ rectangle
+rect before
+get client area
+update items
+ rectangle
+rect after
+get client area
+rect before
+ equals
+rect after
+notify listeners
+ swt
+ resize
+ event
+ redraw
+set tab height
+ height
+check widget
+ height
+ swt
+ error
+ swt
+error invalid argument
+fixed tab height
+ height
+update tab height
+set tab position
+ position
+check widget
+ position
+ swt
+ top
+ position
+ swt
+ bottom
+ swt
+ error
+ swt
+error invalid argument
+ bottom
+ position
+ swt
+ bottom
+ bottom
+ position
+ swt
+ bottom
+border top
+ bottom
+border left
+border bottom
+ bottom
+border right
+update tab height
+ rectangle
+rect before
+get client area
+update items
+ rectangle
+rect after
+get client area
+rect before
+ equals
+rect after
+notify listeners
+ swt
+ resize
+ event
+ redraw
+set top right
+ control
+ control
+set top right
+ control
+ swt
+ right
+set top right
+ control
+ control
+ alignment
+check widget
+ alignment
+ swt
+ right
+ alignment
+ swt
+ fill
+ swt
+ error
+ swt
+error invalid argument
+ control
+ control
+get parent
+ swt
+ error
+ swt
+error invalid argument
+top right
+ control
+top right alignment
+ alignment
+update items
+ redraw
+set unselected close visible
+ visible
+check widget
+show unselected close
+ visible
+show unselected close
+ visible
+update items
+ redraw
+set unselected image visible
+ visible
+check widget
+show unselected image
+ visible
+show unselected image
+ visible
+update items
+ redraw
+show item
+tab item
+ item
+check widget
+ item
+ swt
+ error
+ swt
+error null argument
+ item
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ index
+ index
+ item
+ index
+ swt
+ error
+ swt
+error invalid argument
+ idx
+
+
+ priority
+ length
+
+ priority
+
+ index
+ idx
+
+ mru
+new priority
+ priority
+ length
+ system
+ arraycopy
+ priority
+new priority
+ idx
+ system
+ arraycopy
+ priority
+ idx
+new priority
+ idx
+ priority
+ length
+ idx
+new priority
+ index
+ priority
+new priority
+ item
+ showing
+update items
+ index
+redraw tabs
+show list
+ rectangle
+ rect
+ items
+ length
+show chevron
+show menu
+show menu
+ disposed
+show menu
+ menu
+menu item
+ items
+show menu
+get items
+
+
+ items
+ length
+
+ items
+
+ dispose
+ string
+
+
+
+ items
+ length
+
+tab item
+ tab
+ items
+
+ tab
+ showing
+menu item
+ item
+menu item
+show menu
+ swt
+ none
+ item
+set text
+ tab
+get text
+ item
+set image
+ tab
+get image
+ item
+set data
+
+ tab
+ item
+add selection listener
+selection adapter
+widget selected
+selection event
+
+menu item
+menu item
+menu item
+
+ widget
+ index
+ index
+tab item
+menu item
+get data
+
+tab folder
+set selection
+ index
+
+ rect
+
+
+ rect
+
+ rect
+ height
+ point
+ location
+get display
+ map
+
+
+show menu
+set location
+ location
+
+ location
+
+show menu
+set visible
+show selection
+check widget
+selected index
+show item
+get selection
+hide tool tip
+tool tip shell
+
+
+tool tip events
+ length
+
+remove listener
+tool tip events
+
+tool tip listener
+tool tip shell
+ dispose
+tool tip shell
+tool tip label
+show tool tip
+
+
+tool tip shell
+tool tip shell
+ shell
+get shell
+ swt
+ top
+ swt
+ tool
+tool tip label
+ label
+tool tip shell
+ swt
+ center
+ display
+ display
+tool tip shell
+get display
+tool tip label
+set foreground
+ display
+get system color
+ swt
+color info foreground
+tool tip label
+set background
+ display
+get system color
+ swt
+color info background
+
+
+tool tip events
+ length
+
+add listener
+tool tip events
+
+tool tip listener
+update tool tip
+
+
+tool tip shell
+set visible
+hide tool tip
+update items
+update items
+selected index
+update items
+show index
+ single
+ mru
+show index
+first index
+show index
+ priority
+show index
+max width
+get right item edge
+border left
+ simple
+max width
+curve width
+curve indent
+ width
+ widths
+ items
+ length
+
+
+
+
+ priority
+
+show index
+
+ widths
+
+ items
+
+preferred width
+
+
+selected index
+ width
+ widths
+
+ width
+max width
+ width
+max width
+ width
+
+show index
+
+
+ widths
+
+ widths
+
+ items
+
+preferred width
+
+
+selected index
+ width
+ widths
+
+ width
+max width
+first index
+
+first index
+ priority
+
+show index
+
+ items
+ length
+
+ widths
+
+ items
+
+preferred width
+
+
+selected index
+ width
+ widths
+
+ width
+max width
+ width
+max width
+
+ priority
+
+
+ widths
+
+ widths
+
+ items
+
+preferred width
+
+
+selected index
+ width
+ widths
+
+ width
+max width
+first index
+
+
+ dispose
+first index
+ priority
+ index
+
+first index
+
+ items
+ length
+
+ priority
+ index
+
+
+
+first index
+
+ priority
+ index
+
+old show chevron
+show chevron
+ changed
+set item size
+ changed
+set item location
+set button bounds
+ changed
+show chevron
+old show chevron
+ changed
+tool tip shell
+ point
+
+get display
+get cursor location
+
+ control
+
+update tool tip
+
+
+
+
+hide tool tip
+ changed
+update tab height
+ force
+old height
+tab height
+fixed tab height
+ swt
+ default
+tab height
+fixed tab height
+fixed tab height
+temp height
+
+
+
+ items
+ length
+temp height
+
+text extent
+tab item
+ flags
+
+tab item
+top margin
+tab item
+bottom margin
+
+
+ items
+ length
+
+temp height
+ math
+ max
+temp height
+ items
+
+preferred height
+
+
+ dispose
+tab height
+temp height
+ force
+tab height
+old height
+old size
+ bottom
+
+tab height
+ curve
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+curve width
+
+curve indent
+curve width
+
+tab height
+ curve
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+curve width
+
+curve indent
+curve width
+notify listeners
+ swt
+ resize
+ event
+ string
+_get tool tip
+
+
+show min
+min rect
+ contains
+
+
+ minimized
+ swt
+get message
+ swt
+get message
+show max
+max rect
+ contains
+
+
+ maximized
+ swt
+get message
+ swt
+get message
+show chevron
+chevron rect
+ contains
+
+
+ swt
+get message
+tab item
+ item
+get item
+ point
+
+
+ item
+ item
+ showing
+show close
+ item
+show close
+ item
+close rect
+ contains
+
+
+ swt
+get message
+ item
+get tool tip text
+update tool tip
+
+
+ string
+ tooltip
+_get tool tip
+
+
+ tooltip
+ tooltip
+ equals
+tool tip label
+get text
+tool tip label
+set text
+ tooltip
+ point
+label size
+tool tip label
+compute size
+ swt
+ default
+ swt
+ default
+label size
+
+label size
+
+tool tip label
+set size
+label size
+tool tip shell
+ pack
+ rectangle
+ area
+tool tip shell
+get client area
+tool tip label
+set size
+ area
+ width
+ area
+ height
+ point
+cursor location
+get display
+get cursor location
+cursor height
+ point
+ size
+tool tip shell
+get size
+ rectangle
+ rect
+get monitor
+get bounds
+ point
+
+ point
+cursor location
+
+cursor location
+
+cursor height
+
+
+ math
+ max
+
+
+ rect
+
+
+
+ size
+
+ rect
+
+ rect
+ width
+
+
+ rect
+
+ rect
+ width
+ size
+
+
+
+ size
+
+ rect
+
+ rect
+ height
+
+
+cursor location
+
+ size
+
+tool tip shell
+set location
+
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  implement  the  notebook  user  interface  metaphor  allows  the  user  select  notebook  page  from  set  pages  the  item  children  that  may  added  instances  this  class  must  type  code tab item  code  code  control  code  children  are  created  and  then  set  into  tab  item  using  code tab item set control  code  note  that  although  this  class  subclass  code  composite  code  does  not  make  sense  set  layout  styles  close  top  bottom  flat  border  single  multi  events  selection tab folder  note  only  one  the  styles  top  and  bottom  may  specified  important  this  class  not  intended  subclassed 
+margin width  specifies  the  number  pixels  horizontal  margin  that  will  placed  along  the  left  and  right  edges  the  form  the  default  value 
+margin height  specifies  the  number  pixels  vertical  margin  that  will  placed  along  the  top  and  bottom  edges  the  form  the  default  value 
+multiple  the  tab  height  that  specifies  the  minimum  width  which  tab  will  compressed  before  scrolling  arrows  are  used  navigate  the  tabs  note  this  field  badly  named  and  can  not  fixed  for  backwards  compatability  should  not  capitalized  deprecated  this  field  longer  used  see set minimum characters  int
+color  innermost  line  drop  shadow  border  note  this  field  badly  named  and  can  not  fixed  for  backwards  compatability  should  capitalized  deprecated  drop  shadow  border  longer  drawn 
+color  middle  line  drop  shadow  border  note  this  field  badly  named  and  can  not  fixed  for  backwards  compatability  should  capitalized  deprecated  drop  shadow  border  longer  drawn 
+color  outermost  line  drop  shadow  border  note  this  field  badly  named  and  can  not  fixed  for  backwards  compatability  should  capitalized  deprecated  drop  shadow  border  longer  drawn 
+sizing  positioning
+item  management
+index  the  left  most  visible  tab
+external  listener  management
+support  for  deprecated  listener  mechanism
+selected  item  appearance
+unselected  item  appearance
+close  min  max  and  chevron  buttons
+borders  and  shapes
+when  disposing tab folder  don  try  layout  the  items 
+change  the  selection  each  child  destroyed
+keep  track  size  changes  order  redraw  only  affected  area
+  resize
+  tooltip
+internal  constants
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  widget  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  widget  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  top  see  swt  bottom  see  swt  flat  see  swt  border  see  swt  single  see  swt  multi  see get style
+show min  style  swt  min  conflicts  with  swt  top
+show max  style  swt  max  conflicts  with  swt  bottom
+set  default  colors
+add  all  listeners
+fall  through
+top  and  bottom  are  mutually  exlusive
+top  the  default
+single  and  multi  are  mutually  exlusive
+multi  the  default
+reduce  the  flash  not  redrawing  the  entire  area  resize  event
+temporary  code
+the  default  background  carbon  and  some  gtk  themes  not  solid  color  but  texture  show  the  correct  default  background  must  allow  the  operating  system  draw  and  therefore  can  not  use  the  background  style  the  background  style  not  required  platforms  that  use  double  buffering  which  true  both  these  cases
+non  nls  non  nls 
+temporary  code
+right  left  orientation  windows  all  calls  that  use  brush  are  drawing  offset  one  pixel  this  results  some  parts  the tab folder  not  drawing  correctly  alleviate  some  the  appearance  problems  allow  the  draw  the  background  this  does  not  draw  correctly  but  the  result  less  obviously  wrong
+note  region  passed  this  function  will  modified
+adds  the  listener  the  collection  listeners  who  will  notified  when  tab  item  closed  minimized  maximized  restored  show  the  list  items  that  are  not  currently  visible  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  see tab folder listener  see remove tab folder listener tab folder listener  since 
+add  array
+adds  the  listener  the  collection  listeners  who  will  notified  when  tab  item  closed  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  see tab folder listener  see remove tab folder listener tab folder listener  deprecated  use add tab folder listener tab folder listener
+add  array
+display  close  button  backwards  compatible
+adds  the  listener  receive  events  param  listener  the  listener  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+don  perform  anti  aliasing  mac  because  the  platform
+already  does  the  simple  style  also  does  not  require  anti  aliasing
+non  nls 
+don  perform  anti  aliasing  low  resolution  displays
+move  the  selection  this  item  selected
+draw  the  background  image  shape
+draw  gradient
+horizontal  gradient
+draw  solid  background  using  default  background  shape
+fill  body
+draw  highlight  margin
+horizontal  gradient  show  gradient  across  the  whole  area
+draw  client  area
+draw  pixel  border  around  outside
+  left
+  right
+  top
+  bottom
+draw  chevron  10x
+non  nls 
+ 
+ 
+horizontal  gradient  show  gradient  across  the  whole  area
+draw  pixel  border
+draw  tab  header
+fill  background
+fill  parent  background  for  non  rectangular  shape
+draw  the  unselected  tabs
+draw  selected  tab
+selected  tab  draw  line  across  bottom  all  tabs
+draw  buttons
+draw  border  line
+returns  code  true  code  the  receiver  border  visible  return  the  receiver  border  visibility  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+return  the  tab  that  located  the  specified  index  param  index  the  index  the  tab  item  return  the  item  the  specified  index  exception illegal argument exception  error  invalid  range  the  index  out  range  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+ check widget
+gets  the  item  point  the  widget  param  the  point  coordinates  relative  the tab folder  return  the  item  point  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+ check widget
+return  the  number  tabs  the  folder  return  the  number  tabs  the  folder  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+ check widget
+return  the  tab  items  return  the  tab  items  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+ check widget
+returns  code  true  code  the  receiver  minimized  return  the  receiver  minimized  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  code  true  code  the  minimize  button  visible  return  the  visibility  the  minimized  button  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  the  number  characters  that  will  appear  fully  compressed  tab  return  number  characters  that  will  appear  fully  compressed  tab  since 
+returns  code  true  code  the  receiver  maximized  return  the  receiver  maximized  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  code  true  code  the  maximize  button  visible  return  the  visibility  the  maximized  button  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  code  true  code  the  receiver  displays  most  recently  used  tabs  and  code  false  code  otherwise  when  there  not  enough  horizontal  space  show  all  the  tabs  default  tabs  are  shown  sequentially  from  left  right  order  their  index  when  the  mru  visibility  turned  the  tabs  that  are  visible  will  the  tabs  most  recently  selected  tabs  will  still  maintain  their  left  right  order  based  index  but  only  the  most  recently  selected  tabs  are  visible  for  example  consider tab folder  that  contains  tab  tab  tab  and  tab  order  index  the  user  selects  tab  and  then  tab  the tab folder  now  compressed  that  only  two  tabs  are  visible  default  tab  and  tab  will  shown  tab  since  currently  selected  and  tab  because  the  previous  item  index  order  mru  visibility  enabled  the  two  visible  tabs  will  tab  and  tab  that  order  from  left  right  return  the  receiver  header  visibility  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+return  the  selected  tab  item  empty  array  there  selection  return  the  selected  tab  item  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+ check widget
+returns  the  receiver  selection  background  color  return  the  selection  background  color  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  the  receiver  selection  foreground  color  return  the  selection  foreground  color  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+return  the  index  the  selected  tab  item  there  selection  return  the  index  the  selected  tab  item  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+ check widget
+returns  code  true  code  the tab folder  rendered  with  simple  traditional  shape  return  code  true  code  the tab folder  rendered  with  simple  shape  since 
+returns  code  true  code  the tab folder  only  displys  the  selected  tab  and  code  false  code  the tab folder  displays  multiple  tabs  return  code  true  code  the tab folder  only  displys  the  selected  tab  and  code  false  code  the tab folder  displays  multiple  tabs  since 
+returns  the  height  the  tab  return  the  height  the  tab  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+for  line  drawn  across  top  tab
+returns  the  position  the  tab  possible  values  are  swt  top  swt  bottom  return  the  position  the  tab  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+returns  the  control  the  top  right  corner  the  tab  folder  typically  this  close  button  composite  with  menu  and  close  button  return  the  control  the  top  right  corner  the  tab  folder  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  since 
+returns  code  true  code  the  close  button  appears  when  the  user  hovers  over  unselected  tabs  return  code  true  code  the  close  button  appears  unselected  tabs  since 
+returns  code  true  code  image  appears  unselected  tabs  return  code  true  code  image  appears  unselected  tabs  since 
+return  the  index  the  specified  tab  the  tab  not  the  receiver  param  item  the  tab  item  for  which  the  index  required  return  the  index  the  specified  tab  item  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+non  nls 
+non  nls 
+usually  when  item  disposed destroy item  will  change  the  size  the  items  array  reset  the  bounds  all  the  tabs  and  manage  the  widget  associated  with  the  tab  since  the  whole  folder  being  disposed  this  not  necessary  for  speed  the  dispose  flag  used  skip  over  this  part  the  item  dispose
+handle  case  where  default  font  changes
+useful  for  debugging  paint  problems
+
+point  size get size
+set background get display get system color  swt  color  green
+fill rectangle  size  size 
+
+rounded  top  right  corner
+removes  the  listener  param  listener  the  listener  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  see add tab folder listener tab folder listener  since 
+removes  the  listener  param  listener  the  listener  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  deprecated  see remove tab folder close listener tab folder listener
+removes  the  listener  param  listener  the  listener  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+specify  gradient  colours  drawn  the  background  the  unselected  tabs  for  example  draw  gradient  that  varies  from  dark  blue  blue  and  then  white  use  the  following  call set background  pre  cfolder set background  new  color  display get system color  swt  color  dark  blue  display get system color  swt  color  blue  display get system color  swt  color  white  display get system color  swt  color  white  new  int  100  pre  param  colors  array  color  that  specifies  the  colors  appear  the  gradient  order  appearance  left  right  the  value  code  null  code  clears  the  background  gradient  the  value  code  null  code  can  used  inside  the  array  color  specify  the  background  color  param  percents  array  integers  between  and  100  specifying  the  percent  the  width  the  widget  which  the  color  should  change  the  size  the  percents  array  must  one  less  than  the  size  the  colors  array  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  since 
+specify  gradient  colours  drawn  the  background  the  unselected  tab  for  example  draw  vertical  gradient  that  varies  from  dark  blue  blue  and  then  white  use  the  following  call set background  pre  cfolder set background  new  color  display get system color  swt  color  dark  blue  display get system color  swt  color  blue  display get system color  swt  color  white  display get system color  swt  color  white  new  int  100  true  pre  param  colors  array  color  that  specifies  the  colors  appear  the  gradient  order  appearance  left  right  the  value  code  null  code  clears  the  background  gradient  the  value  code  null  code  can  used  inside  the  array  color  specify  the  background  color  param  percents  array  integers  between  and  100  specifying  the  percent  the  width  the  widget  which  the  color  should  change  the  size  the  percents  array  must  one  less  than  the  size  the  colors  array  param  vertical  indicate  the  direction  the  gradient  true  vertical  and  false  horizontal  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  since 
+don  use  gradients  low  color  displays
+are  these  settings  the  same  before
+store  the  new  settings
+refresh  with  the  new  settings
+set  the  image  drawn  the  background  the  unselected  tab  image  stretched  compressed  cover  entire  unselected  tab  area  param  image  the  image  drawn  the  background  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+toggle  the  visibility  the  border  param  show  true  the  border  should  displayed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+max  button
+min  button
+top  right  control
+fill  size  item  compressed
+fill  size  chevron  showing
+chevron  button
+display  insert  marker  before  after  the  specified  tab  item  value  null  will  clear  the  mark  param  item  the  item  with  which  the  mark  associated  null  param  after  true  the  mark  should  displayed  after  the  specified  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+display  insert  marker  before  after  the  specified  tab  item  value  will  clear  the  mark  param  index  the  index  the  item  with  which  the  mark  associated  null  param  after  true  the  mark  should  displayed  after  the  specified  item  exception illegal argument exception  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+off  screen
+off  screen
+first  try  the  minimum  tab  size  full  compression
+full  compression  required  and  chevron
+compression  required
+determine  compression  for  each  item
+marks  the  receiver  maximize  button  visible  the  argument  code  true  code  and  marks  invisible  otherwise  param  visible  the  new  visibility  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+display  maximize  button
+sets  the  layout  which  associated  with  the  receiver  the  argument  which  may  null  note  layout  can  set  this  control  because  already  manages  the  size  and  position  its  children  param  layout  the  receiver  new  layout  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  maximized  state  the  receiver  param  maximize  the  new  maximized  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+marks  the  receiver  minimize  button  visible  the  argument  code  true  code  and  marks  invisible  otherwise  param  visible  the  new  visibility  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+display  maximize  button
+sets  the  minimized  state  the  receiver  param  minimize  the  new  minimized  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+sets  the  minimum  number  characters  that  will  displayed  fully  compressed  tab  param  count  the  minimum  number  characters  that  will  displayed  fully  compressed  tab  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  range  the  count  less  than  zero  since 
+when  there  not  enough  horizontal  space  show  all  the  tabs  default  tabs  are  shown  sequentially  from  left  right  order  their  index  when  the  mru  visibility  turned  the  tabs  that  are  visible  will  the  tabs  most  recently  selected  tabs  will  still  maintain  their  left  right  order  based  index  but  only  the  most  recently  selected  tabs  are  visible  for  example  consider tab folder  that  contains  tab  tab  tab  and  tab  order  index  the  user  selects  tab  and  then  tab  the tab folder  now  compressed  that  only  two  tabs  are  visible  default  tab  and  tab  will  shown  tab  since  currently  selected  and  tab  because  the  previous  item  index  order  mru  visibility  enabled  the  two  visible  tabs  will  tab  and  tab  that  order  from  left  right  param  show  the  new  visibility  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+set  the  selection  the  tab  the  specified  item  param  item  the  tab  item  selected  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+set  the  selection  the  tab  the  specified  index  param  index  the  index  the  tab  item  selected  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  receiver  selection  background  color  the  color  specified  the  argument  the  default  system  color  for  the  control  the  argument  null  param  color  the  new  color  null  exception illegal argument exception  error  invalid  argument  the  argument  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+specify  gradient  colours  draw  the  background  the  selected  tab  for  example  draw  gradient  that  varies  from  dark  blue  blue  and  then  white  use  the  following  call set background  pre  cfolder set background  new  color  display get system color  swt  color  dark  blue  display get system color  swt  color  blue  display get system color  swt  color  white  display get system color  swt  color  white  new  int  100  pre  param  colors  array  color  that  specifies  the  colors  appear  the  gradient  order  appearance  left  right  the  value  code  null  code  clears  the  background  gradient  the  value  code  null  code  can  used  inside  the  array  color  specify  the  background  color  param  percents  array  integers  between  and  100  specifying  the  percent  the  width  the  widget  which  the  color  should  change  the  size  the  percents  array  must  one  less  than  the  size  the  colors  array  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+specify  gradient  colours  draw  the  background  the  selected  tab  for  example  draw  vertical  gradient  that  varies  from  dark  blue  blue  and  then  white  use  the  following  call set background  pre  cfolder set background  new  color  display get system color  swt  color  dark  blue  display get system color  swt  color  blue  display get system color  swt  color  white  display get system color  swt  color  white  new  int  100  true  pre  param  colors  array  color  that  specifies  the  colors  appear  the  gradient  order  appearance  left  right  the  value  code  null  code  clears  the  background  gradient  the  value  code  null  code  can  used  inside  the  array  color  specify  the  background  color  param  percents  array  integers  between  and  100  specifying  the  percent  the  width  the  widget  which  the  color  should  change  the  size  the  percents  array  must  one  less  than  the  size  the  colors  array  param  vertical  indicate  the  direction  the  gradient  true  vertical  and  false  horizontal  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  since 
+don  use  gradients  low  color  displays
+are  these  settings  the  same  before
+store  the  new  settings
+refresh  with  the  new  settings
+set  the  image  drawn  the  background  the  selected  tab  image  stretched  compressed  cover  entire  selection  tab  area  param  image  the  image  drawn  the  background  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+set  the  foreground  color  the  selected  tab  param  color  the  color  the  text  displayed  the  selected  tab  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  shape  that  the tab folder  will  use  render  itself  param  simple  code  true  code  the tab folder  should  render  itself  simple  traditional  style  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+sets  the  number  tabs  that  the tab folder  should  display  param  single  code  true  code  only  the  selected  tab  should  displayed  otherwise  multiple  tabs  will  shown  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+specify  fixed  height  for  the  tab  items  height  specified  the  default  height  the  height  the  text  the  image  whichever  greater  specifying  height  will  revert  the  default  height  param  height  the  pixel  value  the  height  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  called  with  height  less  than 
+specify  whether  the  tabs  should  appear  along  the  top  the  folder  along  the  bottom  the  folder  param  position  code  swt  top  code  for  tabs  along  the  top  code  swt  bottom  code  for  tabs  along  the  bottom  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  position  value  not  either  swt  top  swt  bottom  since 
+set  the  control  that  appears  the  top  right  corner  the  tab  folder  typically  this  close  button  composite  with  menu  and  close  button  the top right  control  optional  setting  the  top  right  control  null  will  remove  from  the  tab  folder  param  control  the  control  displayed  the  top  right  corner  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  control  not  child  this tab folder  since 
+set  the  control  that  appears  the  top  right  corner  the  tab  folder  typically  this  close  button  composite  with  menu  and  close  button  the top right  control  optional  setting  the  top  right  control  null  will  remove  from  the  tab  folder  the  alignment  parameter  sets  the  layout  the  control  the  tab  area  code  swt  right  code  will  cause  the  control  positioned  the  far  right  the  folder  and  will  have  its  default  size  code  swt  fill  code  will  size  the  control  fill  all  the  available  space  the  right  the  last  tab  there  available  space  the  control  will  not  visible  param  control  the  control  displayed  the  top  right  corner  null  param  alignment  code  swt  right  code  code  swt  fill  code  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  control  not  child  this tab folder  since 
+specify  whether  the  close  button  appears  when  the  user  hovers  over  unselected  tabs  param  visible  code  true  code  makes  the  close  button  appear  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+display  close  button  when  mouse  hovers
+specify  whether  the  image  appears  unselected  tabs  param  visible  code  true  code  makes  the  image  appear  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+display  image  unselected  items
+shows  the  item  the  item  already  showing  the  receiver  this  method  simply  returns  otherwise  the  items  are  scrolled  until  the  item  visible  param  item  the  item  shown  exception illegal argument exception  error  null  argument  the  item  null  error  invalid  argument  the  item  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see tab folder show selection  since 
+move  front  mru  order
+non  nls 
+shows  the  selection  the  selection  already  showing  the  receiver  this  method  simply  returns  otherwise  the  items  are  scrolled  until  the  selection  visible  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see tab folder show item tab item  since 
+make  sure  selected  item  will  showing
+for  line  drawn  across  top  tab
+non  nls 
+non  nls  non  nls 
+non  nls  non  nls 
+non  nls 
+non  nls 
+some  platforms  there  minimum  size  for  shell  which  may  greater  than  the  label  size  avoid  having  the  background  the  tip  shell  showing  around  the  label  force  the  label  fill  the  entire  client  area
+position  the  tooltip  and  ensure  that  not  located  off  the  screen
+assuming  cursor  21x  because  this  the  size 
+the  arrow  cursor  windows
+</comments>
+</text>
+</DOC>

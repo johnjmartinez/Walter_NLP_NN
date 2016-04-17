@@ -1,0 +1,1514 @@
+<DOC>
+<DOCNO>org.eclipse.swt.ole.win32.OleControlSite.java </DOCNO>
+<text>
+<class>
+ole control site
+</class>
+<method>
+ole control site
+add event listener
+get default event sink guid
+add event listener
+add event listener
+add object references
+add property listener
+connect property change sink
+create com interfaces
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+disconnect event sinks
+disconnect property change sink
+dispose com interfaces
+get background
+get font
+get foreground
+get license info
+get site property
+get window
+ invoke
+control info changed
+ focus
+focus out
+ focus
+ deactivate
+query interface
+ release
+release object interfaces
+remove event listener
+remove event listener
+remove event listener
+remove event listener
+remove property listener
+set background
+set font
+set foreground
+set site property
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ ole
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ole control site
+ole client site
+com object
+ole control site
+com object
+ dispatch
+ole property change sink
+ole property change sink
+ole event sink
+ole event sink
+ole event sink
+ guid
+ole event sink guid
+ guid
+ole event sink unknown
+ controlinfo
+current control info
+site property ids
+ variant
+site property values
+ variant
+ole control site
+ composite
+ parent
+ style
+ string
+ prog
+ parent
+ style
+app clsid
+get class
+ prog
+app clsid
+ ole
+ error
+ ole
+error invalid classid
+ licinfo
+get license info
+app clsid
+ licinfo
+temp storage
+create temp storage
+ address
+ result
+ com
+ole create
+app clsid
+ com
+iidi unknown
+ com
+olerender draw
+temp storage
+get address
+ address
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot create object
+ result
+obj unknown
+ unknown
+ address
+ppv object
+ result
+ com
+get class object
+app clsid
+ com
+clsctx inproc handler
+ com
+clsctx inproc server
+ com
+iidi class factory
+ppv object
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot access classfactory
+ result
+class factory
+class factory
+class factory
+ppv object
+ppv object
+ result
+class factory
+create instance lic
+ com
+iidi unknown
+ licinfo
+ppv object
+class factory
+ release
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot create licensed object
+ result
+ com
+sys free string
+ licinfo
+obj unknown
+ unknown
+ppv object
+ppv object
+obj unknown
+query interface
+ com
+iidi persist storage
+ppv object
+ com
+
+persist storage
+ persist
+persist storage
+ppv object
+temp storage
+create temp storage
+ persist
+init new
+temp storage
+get address
+ persist
+ release
+add object references
+set site property
+ com
+dispid ambient usermode
+ variant
+set site property
+ com
+dispid ambient uidead
+ variant
+ com
+ole run
+obj unknown
+get address
+ ole
+
+ state
+state running
+swt error
+
+ dispose
+dispose com interfaces
+
+add event listener
+ event
+ole listener
+ listener
+ listener
+ ole
+ error
+ swt
+error null argument
+ guid
+ riid
+get default event sink guid
+obj unknown
+ riid
+add event listener
+obj unknown
+get address
+ riid
+ event
+ listener
+ guid
+get default event sink guid
+ unknown
+ unknown
+ppv object
+ unknown
+query interface
+ com
+iidi provide class info
+ppv object
+ com
+
+provide class info
+ pci
+provide class info
+ppv object
+ guid
+ riid
+ guid
+ result
+ pci
+get guid
+ com
+guidkind default source disp iid
+ riid
+ pci
+ release
+ result
+ com
+
+ riid
+ unknown
+query interface
+ com
+iidi provide class info
+ppv object
+ com
+
+provide class info
+ pci
+provide class info
+ppv object
+
+
+ result
+ pci
+get class info
+
+ pci
+ release
+ result
+ com
+
+
+type info
+class info
+type info
+
+type attr
+ result
+class info
+get type attr
+type attr
+ result
+ com
+
+type attr
+ typeattr
+type attribute
+ typeattr
+ com
+move memory
+type attribute
+type attr
+ typeattr
+ sizeof
+class info
+release type attr
+type attr
+impl mask
+ com
+impltypeflag fdefault
+ com
+impltypeflag fsource
+ com
+impltypeflag frestricted
+impl bits
+ com
+impltypeflag fdefault
+ com
+impltypeflag fsource
+
+
+type attribute
+impl types
+
+impl type flags
+class info
+get impl type flags
+
+impl type flags
+ com
+
+impl type flags
+impl mask
+impl bits
+ref type
+class info
+get ref type impl type
+
+ref type
+ com
+
+class info
+get ref type info
+ref type
+
+class info
+ release
+
+type info
+event info
+type info
+
+type attr
+ result
+event info
+get type attr
+type attr
+ guid
+ riid
+ result
+ com
+
+type attr
+ riid
+ guid
+ com
+move memory
+ riid
+type attr
+ guid
+ sizeof
+event info
+release type attr
+type attr
+event info
+ release
+ riid
+add event listener
+ole automation
+ automation
+ event
+ole listener
+ listener
+ listener
+ automation
+ ole
+ error
+ swt
+error null argument
+ address
+ automation
+get address
+ unknown
+ unknown
+ unknown
+ address
+ guid
+ riid
+get default event sink guid
+ unknown
+ riid
+add event listener
+ address
+ riid
+ event
+ listener
+add event listener
+ iunknown
+ guid
+ guid
+ event
+ole listener
+ listener
+ listener
+ iunknown
+ guid
+ ole
+ error
+ swt
+error null argument
+ index
+
+
+ole event sink guid
+ length
+
+ com
+equal guid
+ole event sink guid
+
+ guid
+ iunknown
+ole event sink unknown
+
+ index
+
+ index
+ole event sink
+ index
+add listener
+ event
+ listener
+old length
+ole event sink
+ length
+ole event sink
+new ole event sink
+ole event sink
+old length
+ guid
+new ole event sink guid
+ guid
+old length
+new ole event sink unknown
+old length
+ system
+ arraycopy
+ole event sink
+new ole event sink
+old length
+ system
+ arraycopy
+ole event sink guid
+new ole event sink guid
+old length
+ system
+ arraycopy
+ole event sink unknown
+new ole event sink unknown
+old length
+ole event sink
+new ole event sink
+ole event sink guid
+new ole event sink guid
+ole event sink unknown
+new ole event sink unknown
+ole event sink
+old length
+ole event sink
+ iunknown
+ guid
+ole event sink guid
+old length
+ guid
+ole event sink unknown
+old length
+ iunknown
+ole event sink
+old length
+add ref
+ole event sink
+old length
+ connect
+ole event sink
+old length
+add listener
+ event
+ listener
+add object references
+add object references
+connect property change sink
+ppv object
+obj unknown
+query interface
+ com
+iidi ole control
+ppv object
+ com
+
+ole control
+obj ole control
+ole control
+ppv object
+current control info
+ controlinfo
+obj ole control
+get control info
+current control info
+obj ole control
+ release
+add property listener
+ property
+ole listener
+ listener
+ listener
+ swt
+ error
+ swt
+error null argument
+ole property change sink
+add listener
+ property
+ listener
+connect property change sink
+ole property change sink
+ole property change sink
+ole property change sink
+add ref
+ole property change sink
+ connect
+obj unknown
+create com interfaces
+create com interfaces
+ole control site
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+control info changed
+ method
+ args
+ focus
+ args
+ dispatch
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+ invoke
+ args
+ args
+ args
+ args
+ args
+ args
+ args
+ args
+disconnect event sinks
+
+
+ole event sink
+ length
+
+ole event sink
+ sink
+ole event sink
+
+ sink
+ disconnect
+ sink
+ release
+ole event sink
+ole event sink
+ole event sink guid
+ guid
+ole event sink unknown
+disconnect property change sink
+ole property change sink
+ole property change sink
+ disconnect
+obj unknown
+ole property change sink
+ release
+ole property change sink
+dispose com interfaces
+dispose com interfaces
+ole control site
+ole control site
+ dispose
+ole control site
+ dispatch
+ dispatch
+ dispose
+ dispatch
+ color
+get background
+obj unknown
+ole automation
+ole object
+ole automation
+ variant
+var back color
+ole object
+get property
+ com
+dispid backcolor
+ole object
+ dispose
+var back color
+color ref
+ com
+ole translate color
+var back color
+get int
+get display
+ palette
+color ref
+ com
+
+ color
+win 32_new
+get display
+color ref
+get background
+ font
+get font
+obj unknown
+ole automation
+ole object
+ole automation
+ variant
+var disp font
+ole object
+get property
+ com
+dispid font
+ole object
+ dispose
+var disp font
+ole automation
+disp font
+var disp font
+get automation
+ variant
+face name
+disp font
+get property
+ com
+dispid font name
+ variant
+ height
+disp font
+get property
+ com
+dispid font size
+ variant
+ italic
+disp font
+get property
+ com
+dispid font italic
+ variant
+ bold
+disp font
+get property
+ com
+dispid font bold
+disp font
+ dispose
+face name
+ height
+ italic
+ bold
+ style
+ bold
+get int
+ italic
+get int
+ font
+ font
+ font
+get shell
+get display
+face name
+get string
+ height
+get int
+ style
+ font
+get font
+ color
+get foreground
+obj unknown
+ole automation
+ole object
+ole automation
+ variant
+var fore color
+ole object
+get property
+ com
+dispid forecolor
+ole object
+ dispose
+var fore color
+color ref
+ com
+ole translate color
+var fore color
+get int
+get display
+ palette
+color ref
+ com
+
+ color
+win 32_new
+get display
+color ref
+get foreground
+get license info
+ guid
+ clsid
+ppv object
+ com
+get class object
+ clsid
+ com
+clsctx inproc handler
+ com
+clsctx inproc server
+ com
+iidi class factory
+ppv object
+ com
+
+class factory
+class factory
+class factory
+ppv object
+ licinfo
+ licinfo
+ licinfo
+class factory
+get lic info
+ licinfo
+ com
+
+class factory
+ release
+bstr key
+ licinfo
+ licinfo
+runtime key avail
+class factory
+request lic key
+bstr key
+ com
+
+class factory
+ release
+bstr key
+class factory
+ release
+ variant
+get site property
+ disp
+
+
+site property ids
+ length
+
+site property ids
+
+ disp
+site property values
+
+get window
+ phwnd
+ phwnd
+ com
+ invalidarg
+ frame
+ com
+move memory
+ phwnd
+ com
+ notimpl
+ com
+move memory
+ phwnd
+ handle
+ com
+
+ invoke
+disp member
+ riid
+ lcid
+ flags
+disp params
+var result
+excep info
+arg err
+var result
+ flags
+ com
+dispatch propertyget
+excep info
+ com
+move memory
+excep info
+arg err
+ com
+move memory
+arg err
+ com
+disp membernotfound
+ variant
+ result
+get site property
+disp member
+ result
+var result
+ result
+get data
+var result
+ com
+
+disp member
+ com
+dispid ambient supportsmnemonics
+ com
+dispid ambient showgrabhandles
+ com
+dispid ambient showhatching
+var result
+ com
+move memory
+var result
+excep info
+ com
+move memory
+excep info
+arg err
+ com
+move memory
+arg err
+ com
+ false
+ com
+dispid ambient offlineifnotconnected
+ com
+dispid ambient backcolor
+ com
+dispid ambient forecolor
+ com
+dispid ambient font
+ com
+dispid ambient localeid
+ com
+dispid ambient silent
+ com
+dispid ambient messagereflect
+var result
+ com
+move memory
+var result
+excep info
+ com
+move memory
+excep info
+arg err
+ com
+move memory
+arg err
+ com
+ notimpl
+var result
+ com
+move memory
+var result
+excep info
+ com
+move memory
+excep info
+arg err
+ com
+move memory
+arg err
+ com
+disp membernotfound
+control info changed
+ppv object
+obj unknown
+query interface
+ com
+iidi ole control
+ppv object
+ com
+
+ole control
+obj ole control
+ole control
+ppv object
+current control info
+ controlinfo
+obj ole control
+get control info
+current control info
+obj ole control
+ release
+ com
+
+ focus
+ event
+
+obj ole place object
+ verb
+ ole
+oleiverb uiactivate
+focus control
+ phwnd
+obj ole place object
+get window
+ phwnd
+ phwnd
+
+set focus
+ phwnd
+focus out
+ event
+
+obj ole place object
+obj ole place object
+ deactivate
+ focus
+got focus
+ com
+
+ deactivate
+ undoable
+ state
+state inplaceactive
+ com
+
+query interface
+ riid
+ppv object
+ result
+query interface
+ riid
+ppv object
+ result
+ com
+
+ result
+ riid
+ppv object
+ com
+ invalidarg
+ guid
+ guid
+ guid
+ com
+move memory
+ guid
+ riid
+ guid
+ sizeof
+ com
+equal guid
+ guid
+ com
+iidi ole control site
+ com
+move memory
+ppv object
+ole control site
+get address
+add ref
+ com
+
+ com
+equal guid
+ guid
+ com
+iidi dispatch
+ com
+move memory
+ppv object
+ dispatch
+get address
+add ref
+ com
+
+ com
+move memory
+ppv object
+ com
+ nointerface
+ release
+ result
+ release
+ result
+
+
+site property ids
+ length
+
+site property values
+
+ dispose
+site property ids
+site property values
+ variant
+ result
+release object interfaces
+disconnect event sinks
+disconnect property change sink
+release object interfaces
+remove event listener
+ event
+ole listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+ guid
+ riid
+get default event sink guid
+obj unknown
+ riid
+remove event listener
+obj unknown
+get address
+ riid
+ event
+ listener
+remove event listener
+ole automation
+ automation
+ guid
+ guid
+ event
+ole listener
+ listener
+check widget
+ automation
+ listener
+ guid
+ swt
+ error
+ swt
+error null argument
+remove event listener
+ automation
+get address
+ guid
+ event
+ listener
+remove event listener
+ole automation
+ automation
+ event
+ole listener
+ listener
+check widget
+ automation
+ listener
+ swt
+ error
+ swt
+error null argument
+ address
+ automation
+get address
+ unknown
+ unknown
+ unknown
+ address
+ guid
+ riid
+get default event sink guid
+ unknown
+ riid
+remove event listener
+ address
+ riid
+ event
+ listener
+remove event listener
+ iunknown
+ guid
+ guid
+ event
+ole listener
+ listener
+ listener
+ guid
+ swt
+ error
+ swt
+error null argument
+
+
+ole event sink
+ length
+
+ com
+equal guid
+ole event sink guid
+
+ guid
+ iunknown
+ole event sink unknown
+
+ole event sink
+
+remove listener
+ event
+ listener
+ole event sink
+
+has listeners
+ole event sink
+
+ disconnect
+ole event sink
+
+ release
+old length
+ole event sink
+ length
+old length
+ole event sink
+ole event sink
+ole event sink guid
+ guid
+ole event sink unknown
+ole event sink
+new ole event sink
+ole event sink
+old length
+ system
+ arraycopy
+ole event sink
+new ole event sink
+
+ system
+ arraycopy
+ole event sink
+
+new ole event sink
+
+old length
+
+ole event sink
+new ole event sink
+ guid
+new ole event sink guid
+ guid
+old length
+ system
+ arraycopy
+ole event sink guid
+new ole event sink guid
+
+ system
+ arraycopy
+ole event sink guid
+
+new ole event sink guid
+
+old length
+
+ole event sink guid
+new ole event sink guid
+new ole event sink unknown
+old length
+ system
+ arraycopy
+ole event sink unknown
+new ole event sink unknown
+
+ system
+ arraycopy
+ole event sink unknown
+
+new ole event sink unknown
+
+old length
+
+ole event sink unknown
+new ole event sink unknown
+remove property listener
+ property
+ole listener
+ listener
+ listener
+ swt
+ error
+ swt
+error null argument
+ole property change sink
+remove listener
+ property
+ listener
+set background
+ color
+ color
+set background
+ color
+obj unknown
+ole automation
+ole object
+ole automation
+ole object
+set property
+ com
+dispid backcolor
+ variant
+ color
+ handle
+ole object
+ dispose
+set font
+ font
+ font
+set font
+ font
+obj unknown
+ole automation
+ole object
+ole automation
+ variant
+var disp font
+ole object
+get property
+ com
+dispid font
+ole object
+ dispose
+var disp font
+ole automation
+disp font
+var disp font
+get automation
+font data
+ fdata
+ font
+get font data
+disp font
+set property
+ com
+dispid font name
+ variant
+ fdata
+get name
+disp font
+set property
+ com
+dispid font size
+ variant
+ fdata
+get height
+disp font
+set property
+ com
+dispid font italic
+ variant
+ fdata
+get style
+ swt
+ italic
+disp font
+set property
+ com
+dispid font bold
+ variant
+ fdata
+get style
+ swt
+ bold
+disp font
+ dispose
+set foreground
+ color
+ color
+set foreground
+ color
+obj unknown
+ole automation
+ole object
+ole automation
+ole object
+set property
+ com
+dispid forecolor
+ variant
+ color
+ handle
+ole object
+ dispose
+set site property
+ disp
+ variant
+ value
+
+
+site property ids
+ length
+
+site property ids
+
+ disp
+site property values
+
+site property values
+
+ dispose
+ value
+site property values
+
+ value
+old length
+site property ids
+ length
+new site property ids
+old length
+ variant
+new site property values
+ variant
+old length
+ system
+ arraycopy
+site property ids
+new site property ids
+
+ system
+ arraycopy
+site property ids
+
+new site property ids
+
+old length
+
+ system
+ arraycopy
+site property values
+new site property values
+
+ system
+ arraycopy
+site property values
+
+new site property values
+
+old length
+
+site property ids
+new site property ids
+site property values
+new site property values
+old length
+site property ids
+ length
+new site property ids
+old length
+ variant
+new site property values
+ variant
+old length
+ system
+ arraycopy
+site property ids
+new site property ids
+old length
+ system
+ arraycopy
+site property values
+new site property values
+old length
+new site property ids
+old length
+ disp
+new site property values
+old length
+ value
+site property ids
+new site property ids
+site property values
+new site property values
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+ole control site  provides  site  manage  embedded  active  control  within  container  addition  the  behaviour  provided ole client site  this  object  provides  the  following  events  from  the  active  control  notification  property  changes  from  the  active  control  simplified  access  well  known  properties  the  active  control  font  background  color  expose  ambient  properties  the  container  the  active  control  this  object  implements  the  ole  interfaces ole control site  dispatch  and property notify sink  note  that  although  this  class  subclass  code  composite  code  does  not  make  sense  add  code  control  code  children  set  layout  styles  border  events  dispose  move  resize 
+interfaces  for  this  container
+supporting  property  change  attributes
+supporting  event  sink  attributes
+supporting  information  for  the  control  com  object
+create ole control site  child  widget  using  style  bits  select  particular  look  set  properties  param  parent  composite  widget  must ole frame  param  style  the  bitwise  ing  widget  styles  param  prog  the  unique  program  identifier  which  has  been  registered  for  this  active  control  the  value  the  prog  key  the  value  the version independent prog  key  specified  the  registry  for  this  control  for  example  the version independent prog  for  internet  explorer  shell  explorer  exception illegal argument exception  error  null  argument  when  the  parent  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  invalid  classid  when  the  prog  does  not  map  registered  clsid  error  cannot  create  object  when  failed  create  ole  object  error  cannot  access  classfactory  when  class  factory  could  not  found  error  cannot  create  licensed  object  when  failed  create  licensed  ole  object 
+check  for  licensing
+open  storage  object
+create  ole  object  with  storage  object
+prepare  the class factory
+create  com  object
+prepare  storage  medium
+init  sinks
+init  site  properties
+adds  the  listener  receive  events  param  event  the  the  event  param  listener  the  listener  exception illegal argument exception  error  null  argument  when  listener  null 
+get  event  sink  from provide class info
+get  event  sink  from provide class info
+adds  the  listener  receive  events  since  param  automation  the  automation  object  that  provides  the  event  notification  param  event  the  the  event  param  listener  the  listener  exception illegal argument exception  error  null  argument  when  listener  null 
+have  connected  this  kind  event  sink  before
+get  property  change  notification  from  control
+get  access  the  control  object
+ask  the  control  for  its  info  case  users
+need  act 
+adds  the  listener  receive  events  param  property  the  identifier  the  property  param  listener  the  listener  exception illegal argument exception  error  null  argument  when  listener  null 
+register  each  the  interfaces  that  this  object  implements
+method lock place active  not  implemented
+method get extended control  not  implemented
+method transform coords  not  implemented
+method  translate  accelerator  not  implemented
+method show property frame  not  implemented
+method get type info count  not  implemented
+method get type info  not  implemented
+method get names  not  implemented
+are  getting  the  ole  color  should  change  this  the  colorref  value
+variant char set disp font get property  com  dispid  font  charset
+are  getting  the  ole  color  should  change  this  the  colorref  value
+get  the  control  site  property  specified  the disp member  since 
+copy  the  window  handle  into  the  memory  passed 
+indicate  false  result
+not  implemented
+ask  the  control  for  its  info  case  users
+need  act 
+controls  don  need  anything  for
+border  space  menubars
+removes  the  listener  param  event  the  event  identifier  param  listener  the  listener  exception illegal argument exception  error  null  argument  when  listener  null 
+removes  the  listener  since  deprecated  use ole control site remove event listener ole automation  int ole listener  param  automation  the  automation  object  that  provides  the  event  notification  param  guid  the  identifier  the  events  com  interface  param  event  the  event  identifier  param  listener  the  listener  exception illegal argument exception  error  null  argument  when  listener  null 
+removes  the  listener  since  param  automation  the  automation  object  that  provides  the  event  notification  param  event  the  event  identifier  param  listener  the  listener  exception illegal argument exception  error  null  argument  when  listener  null 
+free  resources  associated  with  event  sink
+removes  the  listener  param  listener  the  listener  exception illegal argument exception  error  null  argument  when  listener  null 
+set  the  background  the  active  control
+set  the  font  the  active  control
+disp font set property  com  dispid  font  charset  new  variant  fdata get charset
+set  the  foreground  the  active  control
+sets  the  control  site  property  specified  the disp member  new  value  the  value  will  disposed  the  control  site  when  longer  required  using  variant  dispose  passing  value  null  will  clear  the  disp  value  param  disp  the  the  property  specified  the  idl  the  active  control  param  value  the  new  value  for  the  property  expressed  variant  since 
+</comments>
+</text>
+</DOC>

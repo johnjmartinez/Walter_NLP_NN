@@ -1,0 +1,570 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.ViewForm.java </DOCNO>
+<text>
+<class>
+view form
+</class>
+<method>
+view form
+handle event
+check style
+compute trim
+get client area
+get content
+get top center
+get top left
+get top right
+ dispose
+ paint
+ resize
+set content
+set layout
+set selection background
+set top center
+set top left
+set top right
+set border visible
+set top center separate
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+view form
+ composite
+margin width
+margin height
+horizontal spacing
+vertical spacing
+ rgb
+border inside rgb
+ rgb
+ rgb
+border middle rgb
+ rgb
+ rgb
+border outside rgb
+ rgb
+ control
+top left
+ control
+top center
+ control
+top right
+ control
+ content
+separate top center
+show border
+ separator
+border top
+border bottom
+border left
+border right
+ highlight
+ point
+old size
+ color
+selection background
+ offscreen
+border color
+ swt
+color widget normal shadow
+selection background
+ swt
+color list background
+view form
+ composite
+ parent
+ style
+ parent
+check style
+ style
+set layout
+view form layout
+set border visible
+ style
+ swt
+ border
+ listener
+ listener
+ listener
+handle event
+ event
+
+
+ type
+ swt
+ dispose
+ dispose
+ swt
+ paint
+ paint
+
+
+ swt
+ resize
+ resize
+ events
+ swt
+ dispose
+ swt
+ paint
+ swt
+ resize
+
+
+ events
+ length
+
+add listener
+ events
+
+ listener
+check style
+ style
+ mask
+ swt
+ flat
+ swt
+left right
+ swt
+right left
+ style
+ mask
+ swt
+redraw resize
+ rectangle
+compute trim
+
+
+ width
+ height
+check widget
+ trim
+
+border left
+ highlight
+ trim
+
+border top
+ highlight
+trim width
+ width
+border left
+border right
+ highlight
+trim height
+ height
+border top
+border bottom
+ highlight
+ rectangle
+ trim
+ trim
+trim width
+trim height
+ rectangle
+get client area
+check widget
+ rectangle
+client area
+get client area
+client area
+
+border left
+client area
+
+border top
+client area
+ width
+border left
+border right
+client area
+ height
+border top
+border bottom
+client area
+ control
+get content
+ content
+ control
+get top center
+top center
+ control
+get top left
+top left
+ control
+get top right
+top right
+ dispose
+top left
+top center
+top right
+ content
+old size
+selection background
+ paint
+
+
+ color
+ foreground
+
+get foreground
+ point
+ size
+get size
+ color
+ border
+get display
+get system color
+border color
+show border
+
+set foreground
+ border
+
+draw rectangle
+ size
+
+ size
+
+ highlight
+
+
+
+ size
+
+
+ size
+
+ shape
+
+
+
+
+
+
+
+
+
+
+ highlight
+
+ highlight
+
+ highlight
+
+ highlight
+
+ highlight
+
+ highlight
+
+ highlight
+
+ highlight
+
+ highlight
+
+
+ highlight
+ color
+highlight color
+get display
+get system color
+ swt
+color list selection
+
+set background
+highlight color
+
+fill polygon
+ shape
+ separator
+
+set foreground
+ border
+
+draw line
+border left
+ highlight
+ separator
+ size
+
+border left
+border right
+ highlight
+ separator
+
+set foreground
+ foreground
+ resize
+ point
+ size
+get size
+old size
+old size
+
+old size
+
+ redraw
+ width
+old size
+
+ size
+
+ width
+ size
+
+old size
+
+border right
+ highlight
+old size
+
+ size
+
+ width
+border right
+ highlight
+ redraw
+ size
+
+ width
+ width
+ size
+
+ height
+old size
+
+ size
+
+ height
+ size
+
+old size
+
+border bottom
+ highlight
+old size
+
+ size
+
+ height
+border bottom
+ highlight
+ redraw
+ size
+
+ height
+ size
+
+ height
+old size
+ size
+set content
+ control
+ content
+check widget
+ content
+ content
+get parent
+ swt
+ error
+ swt
+error invalid argument
+ content
+ content
+ disposed
+ content
+set bounds
+ offscreen
+ offscreen
+ content
+ content
+ layout
+set layout
+ layout
+ layout
+check widget
+set selection background
+ color
+ color
+check widget
+selection background
+ color
+ color
+ color
+get display
+get system color
+selection background
+selection background
+ color
+ redraw
+set top center
+ control
+top center
+check widget
+top center
+top center
+get parent
+ swt
+ error
+ swt
+error invalid argument
+top center
+top center
+ disposed
+ point
+ size
+top center
+get size
+top center
+set location
+ offscreen
+ size
+
+ offscreen
+ size
+
+top center
+top center
+ layout
+set top left
+ control
+
+check widget
+
+
+get parent
+ swt
+ error
+ swt
+error invalid argument
+top left
+top left
+ disposed
+ point
+ size
+top left
+get size
+top left
+set location
+ offscreen
+ size
+
+ offscreen
+ size
+
+top left
+
+ layout
+set top right
+ control
+
+check widget
+
+
+get parent
+ swt
+ error
+ swt
+error invalid argument
+top right
+top right
+ disposed
+ point
+ size
+top right
+get size
+top right
+set location
+ offscreen
+ size
+
+ offscreen
+ size
+
+top right
+
+ layout
+set border visible
+ show
+check widget
+show border
+ show
+show border
+ show
+show border
+border left
+border top
+border right
+border bottom
+get style
+ swt
+ flat
+ highlight
+border bottom
+border top
+border left
+border right
+ highlight
+ layout
+ redraw
+set top center separate
+ show
+check widget
+separate top center
+ show
+ layout
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  implement  composite  that  positions  and  sizes  children  and  allows  programmatic  control  layout  and  border  parameters view form  used  the  workbench  lay  out  view  label  menu  toolbar  local  bar  note  that  although  this  class  subclass  code  composite  code  does  not  make  sense  set  layout  styles  border  flat  events  none  important  this  class  not  intended  subclassed 
+margin width  specifies  the  number  pixels  horizontal  margin  that  will  placed  along  the  left  and  right  edges  the  form  the  default  value 
+margin height  specifies  the  number  pixels  vertical  margin  that  will  placed  along  the  top  and  bottom  edges  the  form  the  default  value 
+horizontal spacing  specifies  the  number  pixels  between  the  right  edge  one  cell  and  the  left  edge  its  neighbouring  cell  the  right  the  default  value 
+vertical spacing  specifies  the  number  pixels  between  the  bottom  edge  one  cell  and  the  top  edge  its  neighbouring  cell  underneath  the  default  value 
+color  innermost  line  drop  shadow  border  note  this  field  badly  named  and  can  not  fixed  for  backwards  compatability  should  capitalized  deprecated
+color  middle  line  drop  shadow  border  note  this  field  badly  named  and  can  not  fixed  for  backwards  compatability  should  capitalized  deprecated
+color  outermost  line  drop  shadow  border  note  this  field  badly  named  and  can  not  fixed  for  backwards  compatability  should  capitalized  deprecated
+swt  widgets
+configuration  and  state  info
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  widget  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  widget  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  border  see  swt  flat  see get style
+protected  void check subclass
+string  name get class get name
+string valid name view form  class get name
+valid name  equals  name
+swt  error  swt  error  invalid  subclass
+
+
+returns  the  content  area  return  the  control  the  content  area  the  pane  null
+ check widget
+returns  control  that  appears  the  top  center  the  pane  typically  this  toolbar  return  the  control  the  top  center  the  pane  null
+ check widget
+returns  the  control  that  appears  the  top  left  corner  the  pane  typically  this  label  such  label  return  the  control  the  top  left  corner  the  pane  null
+ check widget
+returns  the  control  the  top  right  corner  the  pane  typically  this  close  button  composite  with  menu  and  close  button  return  the  control  the  top  right  corner  the  pane  null
+ check widget
+sets  the  content  setting  the  content  null  will  remove  from  the  pane  however  the  creator  the  content  must  dispose  the  content  param  content  the  control  displayed  the  content  area  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  control  not  child  this view form 
+sets  the  layout  which  associated  with  the  receiver  the  argument  which  may  null  note  layout  can  set  this  control  because  already  manages  the  size  and  position  its  children  param  layout  the  receiver  new  layout  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+set  the  control  that  appears  the  top  center  the  pane  typically  this  toolbar  the top center  optional  setting  the top center  null  will  remove  from  the  pane  however  the  creator  the top center  must  dispose  the top center  param top center  the  control  displayed  the  top  center  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  control  not  child  this view form 
+set  the  control  that  appears  the  top  left  corner  the  pane  typically  this  label  such  label  the top left  optional  setting  the  top  left  control  null  will  remove  from  the  pane  however  the  creator  the  control  must  dispose  the  control  param  the  control  displayed  the  top  left  corner  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  control  not  child  this view form 
+set  the  control  that  appears  the  top  right  corner  the  pane  typically  this  close  button  composite  with  menu  and  close  button  the top right  optional  setting  the  top  right  control  null  will  remove  from  the  pane  however  the  creator  the  control  must  dispose  the  control  param  the  control  displayed  the  top  right  corner  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  control  not  child  this view form 
+specify  whether  the  border  should  displayed  not  param  show  true  the  border  should  displayed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+true  the top center  will  always  appear  separate  line  itself  otherwise  the top center  will  appear  the  top  row  there  room  and  will  moved  the  second  row  required  param  show  true  the top center  will  always  appear  separate  line  itself  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,101 @@
+<DOC>
+<DOCNO>org.eclipse.swt.layout.RowData.java </DOCNO>
+<text>
+<class>
+row data
+</class>
+<method>
+row data
+row data
+row data
+get name
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ layout
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+row data
+ width
+ swt
+ default
+ height
+ swt
+ default
+ exclude
+row data
+row data
+ width
+ height
+ width
+ width
+ height
+ height
+row data
+ point
+ point
+ point
+
+ point
+
+ string
+get name
+ string
+ string
+get class
+get name
+ index
+ string
+last index
+ index
+ string
+ string
+ substring
+ index
+ string
+ length
+ string
+ string
+ string
+ string
+get name
+ width
+ swt
+ default
+ string
+ width
+ height
+ swt
+ default
+ string
+ height
+ exclude
+ string
+ exclude
+ string
+ string
+ trim
+ string
+ string
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+each  control  controlled  code row layout  code  can  have  its  initial  width  and  height  specified  setting  code row data  code  object  into  the  control  the  following  code  uses  code row data  code  object  change  the  initial  size  code  button  code  code  shell  code  pre  display  display  new  display  shell  shell  new  shell  display  shell set layout  new row layout  button  button  new  button  shell  swt  push  button set text  button  button set layout data  new row data  pre  see row layout
+width  specifies  the  desired  width  pixels  this  value  the  hint  passed  into  control compute size  int  int  boolean  determine  the  preferred  size  the  control  the  default  value  swt  default  see  org  eclipse  swt  widgets  control compute size  int  int  boolean
+height  specifies  the  preferred  height  pixels  this  value  the  hint  passed  into  control compute size  int  int  boolean  determine  the  preferred  size  the  control  the  default  value  swt  default  see  org  eclipse  swt  widgets  control compute size  int  int  boolean
+exclude  informs  the  layout  ignore  this  control  when  sizing  and  positioning  controls  this  value  code  true  code  the  size  and  position  the  control  will  not  managed  the  layout  this  value  code  false  code  the  size  and  position  the  control  will  computed  and  assigned  the  default  value  code  false  code  since 
+constructs  new  instance row data  using  default  values
+constructs  new  instance row data  according  the  parameters  value  swt  default  indicates  that  minimum  width  minumum  height  specified  param  width  minimum  width  for  the  control  param  height  minimum  height  for  the  control
+constructs  new  instance row data  according  the  parameter  value  swt  default  indicates  that  minimum  width  minumum  height  specified  param  point  point  whose  coordinate  specifies  minimum  width  for  the  control  and  coordinate  specifies  minimum  height  for  the  control
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
+</comments>
+</text>
+</DOC>

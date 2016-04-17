@@ -1,0 +1,70 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.MouseEvent.java </DOCNO>
+<text>
+<class>
+mouse event
+</class>
+<method>
+mouse event
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ widgets
+ event
+mouse event
+typed event
+ button
+state mask
+
+
+serial version uid
+mouse event
+ event
+
+
+
+
+
+
+
+
+ button
+
+ button
+state mask
+
+state mask
+ string
+ string
+ string
+ string
+ string
+ string
+ substring
+ string
+ length
+ button
+state mask
+
+
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  sent  whenever  mouse  related  actions  occur  this  includes  mouse  buttons  being  pressed  and  released  the  mouse  pointer  being  moved  and  the  mouse  pointer  crossing  widget  boundaries  note  the  code  button  code  field  integer  that  represents  the  mouse  button  number  this  not  the  same  the  code  swt  code  mask  constants  code  butto  code  see mouse listener  see mouse move listener  see mouse track listener
+the  button  that  was  pressed  released  for  the  first  button  for  the  second  button  and  for  the  third  button  etc
+the  state  the  keyboard  modifier  keys  the  time  the  event  was  generated
+the  widget  relative  coordinate  the  pointer  the  time  the  mouse  button  was  pressed  released
+the  widget  relative  coordinate  the  pointer  the  time  the  mouse  button  was  pressed  released
+constructs  new  instance  this  class  based  the  information  the  given  untyped  event  param  the  untyped  event  containing  the  information
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
+remove  trailing
+</comments>
+</text>
+</DOC>

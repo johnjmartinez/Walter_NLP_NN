@@ -1,0 +1,437 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.ScrolledComposite.java </DOCNO>
+<text>
+<class>
+scrolled composite
+</class>
+<method>
+scrolled composite
+handle event
+handle event
+handle event
+check style
+get always show scroll bars
+get content
+ scroll
+need scroll
+need scroll
+get origin
+set origin
+set origin
+set always show scroll bars
+set content
+set expand horizontal
+set expand vertical
+set layout
+set min height
+set min size
+set min size
+set min width
+ scroll
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+scrolled composite
+ composite
+ control
+ content
+ listener
+content listener
+min height
+min width
+expand horizontal
+expand vertical
+always show scroll
+scrolled composite
+ composite
+ parent
+ style
+ parent
+check style
+ style
+set layout
+scrolled composite layout
+scroll bar
+ bar
+get horizontal bar
+ bar
+ bar
+add listener
+ swt
+ selection
+ listener
+handle event
+ event
+
+ scroll
+scroll bar
+ bar
+get vertical bar
+ bar
+ bar
+add listener
+ swt
+ selection
+ listener
+handle event
+ event
+
+ scroll
+content listener
+ listener
+handle event
+ event
+
+
+ type
+ swt
+ resize
+ layout
+check style
+ style
+ mask
+ swt
+ scroll
+ swt
+ scroll
+ swt
+ border
+ swt
+left right
+ swt
+right left
+ style
+ mask
+get always show scroll bars
+always show scroll
+ control
+get content
+ content
+ scroll
+ content
+ point
+ location
+ content
+get location
+scroll bar
+ bar
+get horizontal bar
+ selection
+ bar
+get selection
+ content
+set location
+ selection
+ location
+
+need scroll
+ rectangle
+content rect
+ visible
+scroll bar
+ bar
+get horizontal bar
+ bar
+ rectangle
+host rect
+get bounds
+ border
+get border width
+host rect
+ width
+ border
+scroll bar
+ bar
+get vertical bar
+ visible
+ bar
+host rect
+ width
+ bar
+get size
+
+expand horizontal
+content rect
+ width
+host rect
+ width
+expand horizontal
+min width
+host rect
+ width
+need scroll
+ rectangle
+content rect
+ visible
+scroll bar
+ bar
+get vertical bar
+ bar
+ rectangle
+host rect
+get bounds
+ border
+get border width
+host rect
+ height
+ border
+scroll bar
+ bar
+get horizontal bar
+ visible
+ bar
+host rect
+ height
+ bar
+get size
+
+expand vertical
+content rect
+ height
+host rect
+ height
+expand vertical
+min height
+host rect
+ height
+ point
+get origin
+check widget
+ content
+ point
+ point
+ location
+ content
+get location
+ point
+ location
+
+ location
+
+set origin
+ point
+ origin
+set origin
+ origin
+
+ origin
+
+set origin
+
+
+check widget
+ content
+scroll bar
+ bar
+get horizontal bar
+ bar
+ bar
+set selection
+
+
+ bar
+get selection
+
+scroll bar
+ bar
+get vertical bar
+ bar
+ bar
+set selection
+
+
+ bar
+get selection
+
+ content
+set location
+
+
+set always show scroll bars
+ show
+check widget
+ show
+always show scroll
+always show scroll
+ show
+scroll bar
+ bar
+get horizontal bar
+ bar
+always show scroll
+ bar
+set visible
+scroll bar
+ bar
+get vertical bar
+ bar
+always show scroll
+ bar
+set visible
+ layout
+set content
+ control
+ content
+check widget
+ content
+ content
+ disposed
+ content
+remove listener
+ swt
+ resize
+content listener
+ content
+set bounds
+ rectangle
+ content
+ content
+scroll bar
+ bar
+get vertical bar
+scroll bar
+ bar
+get horizontal bar
+ content
+ bar
+ bar
+set maximum
+ bar
+set thumb
+ bar
+set selection
+ bar
+ bar
+set maximum
+ bar
+set thumb
+ bar
+set selection
+ content
+set location
+ layout
+ content
+add listener
+ swt
+ resize
+content listener
+ bar
+ bar
+set visible
+always show scroll
+ bar
+ bar
+set visible
+always show scroll
+set expand horizontal
+ expand
+check widget
+ expand
+expand horizontal
+expand horizontal
+ expand
+ layout
+set expand vertical
+ expand
+check widget
+ expand
+expand vertical
+expand vertical
+ expand
+ layout
+set layout
+ layout
+ layout
+check widget
+set min height
+ height
+set min size
+min width
+ height
+set min size
+ point
+ size
+ size
+set min size
+set min size
+ size
+
+ size
+
+set min size
+ width
+ height
+check widget
+ width
+min width
+ height
+min height
+min width
+ math
+ max
+ width
+min height
+ math
+ max
+ height
+ layout
+set min width
+ width
+set min size
+ width
+min height
+ scroll
+ content
+ point
+ location
+ content
+get location
+scroll bar
+ bar
+get vertical bar
+ selection
+ bar
+get selection
+ content
+set location
+ location
+
+ selection
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+scrolled composite  provides  scrollbars  and  will  scroll  its  content  when  the  user  uses  the  scrollbars  there  are  two  ways  use  the scrolled composite  set  the  size  the  control  that  being  scrolled  and  the scrolled composite  will  show  scrollbars  when  the  contained  control  can  not  fully  seen  the  second  way  imitates  the  way  browser  would  work  set  the  minimum  size  the  control  and  the scrolled composite  will  show  scroll  bars  the  visible  area  less  than  the  minimum  size  the  control  and  will  expand  the  size  the  control  the  visible  area  greater  than  the  minimum  size  this  requires  invoking  both set min width set min height  and set expand horizontal set expand vertical  code  pre  public  static  void  main  string  args  display  display  new  display  color  red  display get system color  swt  color  red  color  blue  display get system color  swt  color  blue  shell  shell  new  shell  display  shell set layout  new fill layout  set  the  size  the  scrolled  content  method  final scrolled composite  new scrolled composite  shell  swt  scroll  swt  scroll  swt  border  final  composite  new  composite  swt  none set content set background  red grid layout  layout  new grid layout  layout num columns set layout  layout  button  new  button  swt  push set text  first  button set size compute size  swt  default  swt  default  set  the  minimum  width  and  height  the  scrolled  content  method  final scrolled composite  new scrolled composite  shell  swt  scroll  swt  scroll  swt  border set expand horizontal  true set expand vertical  true  final  composite  new  composite  swt  none set content set background  blue  layout  new grid layout  layout num columns set layout  layout  button  new  button  swt  push set text  first  button set min size compute size  swt  default  swt  default  button  add  new  button  shell  swt  push  add set text  add  children  final  int  index  new  int  add add listener  swt  selection  new  listener  public  void handle event  event  index  button  button  new  button  swt  push  button set text  button  index  reset  size  content  children  can  seen  method set size compute size  swt  default  swt  default  layout  button  new  button  swt  push  button set text  button  index  reset  the  minimum  width  and  height  children  can  seen  method set min size compute size  swt  default  swt  default  layout  shell  open  while  shell  disposed  display read and dispatch  display  sleep  display  dispose  pre  code  styles  scroll  scroll 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  widget  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  widget  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  scroll  see  swt  scroll  see get style
+returns  the  always  show  scrollbars  flag  true  the  scrollbars  are  always  shown  even  they  are  not  required  false  the  scrollbars  are  only  visible  when  some  part  the  composite  needs  scrolled  seen  the  scroll  and  scroll  style  bits  are  also  required  enable  scrollbars  the  horizontal  and  vertical  directions  return  the  always  show  scrollbars  flag  value
+ check widget
+get  the  content  that  being  scrolled  return  the  control  displayed  the  content  area
+ check widget
+return  the  point  the  content  that  currenly  appears  the  top  left  corner  the  scrolled  composite  return  the  point  the  content  that  currenly  appears  the  top  left  corner  the  scrolled  composite  content  has  been  set  this  returns  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+scrolls  the  content  that  the  specified  point  the  content  the  top  left  corner  content  has  been  set  nothing  will  occur  negative  values  will  ignored  values  greater  than  the  maximum  scroll  distance  will  result  scrolling  the  end  the  scrollbar  param  origin  the  point  the  content  appear  the  top  left  corner  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  value  origin  outside  content  since 
+scrolls  the  content  that  the  specified  point  the  content  the  top  left  corner  content  has  been  set  nothing  will  occur  negative  values  will  ignored  values  greater  than  the  maximum  scroll  distance  will  result  scrolling  the  end  the  scrollbar  param  the  coordinate  the  content  appear  the  top  left  corner  param  the  coordinate  the  content  appear  the  top  left  corner  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+set  the  always  show  scrollbars  flag  true  the  scrollbars  are  always  shown  even  they  are  not  required  false  the  scrollbars  are  only  visible  when  some  part  the  composite  needs  scrolled  seen  the  scroll  and  scroll  style  bits  are  also  required  enable  scrollbars  the  horizontal  and  vertical  directions  param  show  true  show  the  scrollbars  even  when  not  required  false  show  scrollbars  only  when  required  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+set  the  content  that  will  scrolled  param  content  the  control  displayed  the  content  area  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+configure  the scrolled composite  resize  the  content  object  wide  the scrolled composite  when  the  width  the scrolled composite  greater  than  the  minimum  width  specified set min width  the scrolled composite  less  than  the  minimum  width  the  content  will  not  resized  and  instead  the  horizontal  scroll  bar  will  used  view  the  entire  width  expand  false  this  behaviour  turned  off  default  this  behaviour  turned  off  param  expand  true  expand  the  content  control  fill  available  horizontal  space  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+configure  the scrolled composite  resize  the  content  object  tall  the scrolled composite  when  the  height  the scrolled composite  greater  than  the  minimum  height  specified set min height  the scrolled composite  less  than  the  minimum  height  the  content  will  not  resized  and  instead  the  vertical  scroll  bar  will  used  view  the  entire  height  expand  false  this  behaviour  turned  off  default  this  behaviour  turned  off  param  expand  true  expand  the  content  control  fill  available  vertical  space  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  layout  which  associated  with  the  receiver  the  argument  which  may  null  note  layout  can  set  this  control  because  already  manages  the  size  and  position  its  children  param  layout  the  receiver  new  layout  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+specify  the  minimum  height  which  the scrolled composite  will  begin  scrolling  the  content  with  the  vertical  scroll  bar  this  value  only  relevant set expand vertical  true  has  been  set  param  height  the  minimum  height  for  default  height  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+specify  the  minimum  width  and  height  which  the scrolled composite  will  begin  scrolling  the  content  with  the  horizontal  scroll  bar  this  value  only  relevant set expand horizontal  true  and set expand vertical  true  have  been  set  param  size  the  minimum  size  null  for  the  default  size  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+specify  the  minimum  width  and  height  which  the scrolled composite  will  begin  scrolling  the  content  with  the  horizontal  scroll  bar  this  value  only  relevant set expand horizontal  true  and set expand vertical  true  have  been  set  param  width  the  minimum  width  for  default  width  param  height  the  minimum  height  for  default  height  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+specify  the  minimum  width  which  the scrolled composite  will  begin  scrolling  the  content  with  the  horizontal  scroll  bar  this  value  only  relevant set expand horizontal  true  has  been  set  param  width  the  minimum  width  for  default  width  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,34 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.win32.NMCUSTOMDRAW.java </DOCNO>
+<text>
+<class>
+ nmcustomdraw
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ win
+ nmcustomdraw
+ nmhdr
+draw stage
+ hdc
+ left
+ top
+ right
+ bottom
+item spec
+item state
+iteml param
+ sizeof
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+rect 
+</comments>
+</text>
+</DOC>

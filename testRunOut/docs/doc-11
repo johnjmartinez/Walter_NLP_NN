@@ -1,0 +1,216 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.CTabFolderLayout.java </DOCNO>
+<text>
+<class>
+tab folder layout
+</class>
+<method>
+compute size
+flush cache
+ layout
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+tab folder layout
+ layout
+ point
+compute size
+ composite
+ composite
+ hint
+ hint
+flush cache
+tab folder
+ folder
+tab folder
+ composite
+tab item
+ items
+ folder
+ items
+ tab
+
+
+
+ folder
+
+
+ items
+ length
+
+ folder
+ single
+ tab
+ math
+ max
+ tab
+ items
+
+preferred width
+
+ tab
+ items
+
+preferred width
+
+
+ folder
+selected index
+
+ dispose
+ tab
+ folder
+show max
+ tab
+tab folder
+button size
+ folder
+show min
+ tab
+tab folder
+button size
+ folder
+ single
+ tab
+tab folder
+button size
+ folder
+top right
+ point
+
+ folder
+top right
+compute size
+ swt
+ default
+ folder
+tab height
+flush cache
+ tab
+
+
+ folder
+ single
+ folder
+ simple
+ tab
+ folder
+curve width
+ folder
+curve indent
+ control
+ control
+
+
+ items
+ length
+
+ control
+ control
+ items
+
+get control
+ control
+ control
+ disposed
+ point
+ size
+ control
+compute size
+ hint
+ hint
+flush cache
+ control
+ math
+ max
+ control
+ size
+
+ control
+ math
+ max
+ control
+ size
+
+min width
+ math
+ max
+ tab
+ control
+min height
+ folder
+ minimized
+ control
+min width
+min width
+tab folder
+default width
+min height
+min height
+tab folder
+default height
+ hint
+ swt
+ default
+min width
+ hint
+ hint
+ swt
+ default
+min height
+ hint
+ point
+min width
+min height
+flush cache
+ control
+ control
+ layout
+ composite
+ composite
+flush cache
+tab folder
+ folder
+tab folder
+ composite
+ folder
+selected index
+ control
+ control
+ folder
+ items
+ folder
+selected index
+get control
+ control
+ control
+ disposed
+ control
+set bounds
+ folder
+get client area
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  class  provides  the  layout  for tab folder  see tab folder
+preferred  width  tab  area  show  all  tabs
+  chevron
+preferred  size  controls  tab  items
+resize  content
+</comments>
+</text>
+</DOC>

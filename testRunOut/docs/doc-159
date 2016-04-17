@@ -1,0 +1,62 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.ole.win32.IOleDocumentView.java </DOCNO>
+<text>
+<class>
+ole document view
+</class>
+<method>
+ole document view
+set place site
+set rect
+ show
+ activate
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ internal
+ win
+ rect
+ole document view
+ unknown
+ole document view
+ address
+ address
+set place site
+ site
+ com
+vtbl call
+ address
+ site
+set rect
+ rect
+prc view
+ com
+vtbl call
+ address
+prc view
+ show
+ show
+ com
+vtbl call
+ address
+ show
+ activate
+ activate
+ com
+vtbl call
+ address
+ activate
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

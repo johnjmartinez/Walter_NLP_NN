@@ -1,0 +1,457 @@
+<DOC>
+<DOCNO>org.eclipse.swt.awt.SWT_AWT.java </DOCNO>
+<text>
+<class>
+swt awt
+</class>
+<method>
+get awt handle
+load library
+initialize swing
+new frame
+handle event
+ run
+ run
+ run
+ run
+ run
+ run
+new shell
+component resized
+ run
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ awt
+ java
+ lang
+ reflect
+ constructor
+ java
+ lang
+ reflect
+ field
+ java
+ lang
+ reflect
+ method
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ rectangle
+ org
+ eclipse
+ swt
+ widgets
+ shell
+ org
+ eclipse
+ swt
+ widgets
+ composite
+ org
+ eclipse
+ swt
+ widgets
+ display
+ org
+ eclipse
+ swt
+ widgets
+ listener
+ org
+ eclipse
+ swt
+ widgets
+ event
+ org
+ eclipse
+ swt
+ internal
+ library
+ java
+ awt
+event queue
+ java
+ awt
+ canvas
+ java
+ awt
+ frame
+ java
+ awt
+ dimension
+ java
+ awt
+ toolkit
+ java
+ awt
+ event
+component adapter
+ java
+ awt
+ event
+component event
+ java
+ awt
+ event
+window event
+ java
+ awt
+ event
+focus event
+swt awt
+ string
+embedded frame class
+ loaded
+swing initialized
+get awt handle
+ canvas
+ canvas
+load library
+ loaded
+ loaded
+ toolkit
+get default toolkit
+ system
+load library
+ throwable
+
+ library
+load library
+initialize swing
+swing initialized
+swing initialized
+ class
+empty class
+ class
+ object
+empty object
+ object
+ class
+ clazz
+ class
+for name
+ method
+ method
+ clazz
+get method
+empty class
+ method
+ method
+ invoke
+ clazz
+empty object
+ throwable
+
+ frame
+new frame
+ composite
+ parent
+ parent
+ swt
+ error
+ swt
+error null argument
+ parent
+get style
+ swt
+ embedded
+ swt
+ error
+ swt
+error invalid argument
+ handle
+ parent
+ handle
+ class
+ clazz
+ string
+class name
+embedded frame class
+embedded frame class
+ clazz
+ class
+for name
+class name
+ throwable
+
+ swt
+ error
+ swt
+error not implemented
+
+ constructor
+ constructor
+ constructor
+ clazz
+get constructor
+ class
+ throwable
+
+ constructor
+ clazz
+get constructor
+ class
+ throwable
+
+ swt
+ error
+ swt
+error not implemented
+
+initialize swing
+ object
+ value
+ value
+ constructor
+new instance
+ object
+ integer
+ handle
+ throwable
+
+ swt
+ error
+ swt
+error not implemented
+
+ frame
+ frame
+ frame
+ value
+ frame
+add notify
+ listener
+ listener
+ listener
+handle event
+ event
+
+
+ type
+ swt
+ dispose
+ parent
+set visible
+event queue
+invoke later
+ runnable
+ run
+ frame
+ dispose
+ swt
+ activate
+event queue
+invoke later
+ runnable
+ run
+ library
+java version
+ library
+java version
+ frame
+dispatch event
+window event
+ frame
+window event
+window activated
+ frame
+dispatch event
+focus event
+ frame
+focus event
+focus gained
+ frame
+dispatch event
+window event
+ frame
+window event
+window activated
+ frame
+dispatch event
+window event
+ frame
+window event
+window gained focus
+ swt
+ deactivate
+event queue
+invoke later
+ runnable
+ run
+ library
+java version
+ library
+java version
+ frame
+dispatch event
+window event
+ frame
+window event
+window deactivated
+ frame
+dispatch event
+focus event
+ frame
+focus event
+focus lost
+ frame
+dispatch event
+window event
+ frame
+window event
+window lost focus
+ frame
+dispatch event
+window event
+ frame
+window event
+window deactivated
+ parent
+add listener
+ swt
+ activate
+ listener
+ parent
+add listener
+ swt
+ deactivate
+ listener
+ parent
+add listener
+ swt
+ dispose
+ listener
+ parent
+get display
+async exec
+ runnable
+ run
+ parent
+ disposed
+ rectangle
+client area
+ parent
+get client area
+event queue
+invoke later
+ runnable
+ run
+ frame
+set size
+client area
+ width
+client area
+ height
+ frame
+ validate
+event queue
+invoke later
+ runnable
+ run
+ class
+ clazz
+ class
+for name
+ field
+ field
+ clazz
+get declared field
+ field
+set accessible
+ field
+ set
+ frame
+get peer
+ frame
+get graphics configuration
+ throwable
+
+ frame
+ shell
+new shell
+ display
+ display
+ canvas
+ parent
+ display
+ swt
+ error
+ swt
+error null argument
+ parent
+ swt
+ error
+ swt
+error null argument
+ handle
+load library
+ handle
+get awt handle
+ parent
+ throwable
+
+ swt
+ error
+ swt
+error not implemented
+
+ handle
+ swt
+ error
+ swt
+error invalid argument
+ shell
+ shell
+ shell
+win 32_new
+ display
+ handle
+ parent
+add component listener
+component adapter
+component resized
+component event
+
+ display
+sync exec
+ runnable
+ run
+ dimension
+ dim
+ parent
+get size
+ shell
+set size
+ dim
+ width
+ dim
+ height
+ shell
+set visible
+ shell
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+swt  imports
+awt  imports
+this  class  provides  bridge  between  swt  and  awt  that  possible  embedded  awt  components  swt  and  vice  versa  since 
+the  name  the  embedded  frame  class  the  default  class  name  for  the  platform  will  used  code  null  code
+note  that  the  jawt  library  loaded  explicitily  because  cannot  found  the  library  loader  all  exceptions  are  caught  because  the  library  may  have  been  loaded  already
+initialize  the  default  focus  traversal  policy
+creates  new  code  java  awt  frame  code  this  frame  the  root  for  the  awt  components  that  will  embedded  within  the  composite  order  for  the  embedding  succeed  the  composite  must  have  been  created  with  the  swt  embedded  style  important  jdk  the  embedded  frame  does  not  receive  mouse  events  when  lightweight  component  added  child  the  embedded  frame  the  cursor  does  not  change  order  work  around  both  these  problems  strongly  recommended  that  heavyweight  component  such  code  java  awt  panel  code  added  the  frame  the  root  all  components  param  parent  the  parent  code  composite  code  the  new  code  java  awt  frame  code  return  code  java  awt  frame  code  the  parent  the  embedded  awt  components  exception illegal argument exception  error  null  argument  the  parent  null  error  invalid  argument  the  parent  composite  does  not  have  the  swt  embedded  style  since 
+some  have  implemented  the  embedded  frame  constructor  take  integer  and  other  take  long  handle  this  binary  incompatability  use  reflection  create  the  embedded  frame
+this  necessary  make  lightweight  components  directly  added  the  frame  receive  mouse  events  properly
+generate  the  appropriate  events  activate  and  deactivate  the  embedded  frame  this  needed  order  make  keyboard  focus  work  properly  for  lightweights
+temporary  code  for  some  reason  the  graphics  configuration  the  embedded  frame  not  initialized  properly  this  causes  exception  when  the  depth  the  screen  changed
+creates  new  code  shell  code  this  shell  the  root  for  the  swt  widgets  that  will  embedded  within  the  awt  canvas  param  display  the  display  for  the  new  shell  param  parent  the  parent  code  java  awt  canvas  code  the  new  shell  return  code  shell  code  the  parent  the  embedded  swt  widgets  exception illegal argument exception  error  null  argument  the  display  null  error  null  argument  the  parent  null  error  invalid  argument  the  parent  peer  not  created  since 
+</comments>
+</text>
+</DOC>

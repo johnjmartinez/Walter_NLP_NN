@@ -1,0 +1,678 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.TrayItem.java </DOCNO>
+<text>
+<class>
+tray item
+</class>
+<method>
+tray item
+add selection listener
+check subclass
+create icon
+create widget
+get tool tip text
+get visible
+message proc
+ recreate
+release child
+release widget
+remove selection listener
+set image
+set tool tip text
+set visible
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+ win
+tray item
+ item
+ tray
+ parent
+
+ image
+ image
+ string
+tool tip text
+ visible
+tray item
+ tray
+ parent
+ style
+ parent
+ style
+ parent
+ parent
+ parent
+create item
+ parent
+get item count
+create widget
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+check subclass
+valid subclass
+ error
+ swt
+error invalid subclass
+ image
+create icon
+ image
+ image
+image data
+ data
+ image
+get image data
+ data
+ alpha
+ data
+alpha data
+image data
+ mask
+ data
+get transparency mask
+ image
+ display
+ data
+ mask
+ width
+ data
+ width
+ height
+ data
+ height
+ mask
+ bitmap
+
+
+ get
+dst hdc
+
+create compatible
+
+old dst bitmap
+
+ win
+
+win 32_ version
+
+ version
+ bitmap
+ display
+create 32bit dib
+ image
+ handle
+ data
+ alpha
+ data
+alpha data
+ data
+transparent pixel
+ mask
+
+create bitmap
+ width
+ height
+old dst bitmap
+
+select object
+dst hdc
+ mask
+
+pat blt
+dst hdc
+ width
+ height
+
+ blackness
+ mask
+ display
+create mask from alpha
+ data
+ width
+ height
+ bitmap
+
+create compatible bitmap
+
+ width
+ height
+old dst bitmap
+
+select object
+dst hdc
+ bitmap
+src hdc
+
+create compatible
+
+old src bitmap
+
+select object
+src hdc
+ image
+ handle
+
+pat blt
+dst hdc
+ width
+ height
+
+ blackness
+
+bit blt
+dst hdc
+ width
+ height
+src hdc
+
+ srcinvert
+
+select object
+src hdc
+ mask
+
+bit blt
+dst hdc
+ width
+ height
+src hdc
+
+ srcand
+
+select object
+src hdc
+ image
+ handle
+
+bit blt
+dst hdc
+ width
+ height
+src hdc
+
+ srcinvert
+
+select object
+src hdc
+old src bitmap
+
+ delete
+src hdc
+
+select object
+dst hdc
+old dst bitmap
+
+ delete
+dst hdc
+
+ release
+
+ iconinfo
+ info
+ iconinfo
+ info
+ icon
+ info
+hbm color
+ bitmap
+ info
+hbm mask
+ mask
+ icon
+
+create icon indirect
+ info
+ icon
+ swt
+ error
+ swt
+error handles
+
+delete object
+ bitmap
+
+delete object
+ mask
+ image
+win 32_new
+ display
+ swt
+ icon
+ icon
+create widget
+
+ win
+ notifyicondata
+icon data
+
+ unicode
+ notifyicondata
+ notifyicondataw
+ notifyicondataa
+icon data
+ size
+ notifyicondata
+ sizeof
+icon data
+
+
+ display
+next tray
+icon data
+ wnd
+ display
+hwnd message
+icon data
+ flags
+
+nif message
+icon data
+callback message
+ display
+swt trayiconmsg
+
+shell notify icon
+
+nim add
+icon data
+ string
+get tool tip text
+check widget
+tool tip text
+get visible
+check widget
+ visible
+message proc
+ hwnd
+ msg
+ param
+ param
+ param
+
+ lbuttondown
+ hooks
+ swt
+ selection
+
+set foreground window
+ hwnd
+post event
+ swt
+ selection
+
+ lbuttondblclk
+
+ rbuttondblclk
+ hooks
+ swt
+default selection
+
+set foreground window
+ hwnd
+post event
+ swt
+default selection
+
+ rbuttonup
+ hooks
+ swt
+menu detect
+
+set foreground window
+ hwnd
+send event
+ swt
+menu detect
+ disposed
+ display
+wake thread
+ recreate
+create widget
+ visible
+set visible
+ text
+ length
+set text
+ text
+ image
+set image
+ image
+tool tip text
+set tool tip text
+tool tip text
+release child
+release child
+ parent
+destroy item
+release widget
+release widget
+ image
+ image
+ dispose
+ image
+tool tip text
+
+ win
+ notifyicondata
+icon data
+
+ unicode
+ notifyicondata
+ notifyicondataw
+ notifyicondataa
+icon data
+ size
+ notifyicondata
+ sizeof
+icon data
+
+
+icon data
+ wnd
+ display
+hwnd message
+
+shell notify icon
+
+nim delete
+icon data
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ selection
+ listener
+event table
+ unhook
+ swt
+default selection
+ listener
+set image
+ image
+ image
+check widget
+ image
+ image
+ disposed
+ error
+ swt
+error invalid argument
+set image
+ image
+
+ win
+ image
+ image
+ dispose
+ image
+ icon
+ image
+ icon
+ image
+ icon
+ icon
+ type
+ swt
+ bitmap
+ image
+create icon
+ image
+ icon
+ image
+ handle
+ swt
+ icon
+ icon
+ icon
+ handle
+ notifyicondata
+icon data
+
+ unicode
+ notifyicondata
+ notifyicondataw
+ notifyicondataa
+icon data
+ size
+ notifyicondata
+ sizeof
+icon data
+
+
+icon data
+ wnd
+ display
+hwnd message
+icon data
+ icon
+ icon
+icon data
+ flags
+
+nif icon
+
+shell notify icon
+
+nim modify
+icon data
+set tool tip text
+ string
+ value
+check widget
+tool tip text
+ value
+
+ win
+ notifyicondata
+icon data
+
+ unicode
+ notifyicondata
+ notifyicondataw
+ notifyicondataa
+ tchar
+ buffer
+ tchar
+tool tip text
+tool tip text
+ length
+
+shell 32_ major
+
+ unicode
+ tip
+ notifyicondataw
+icon data
+ tip
+ length
+ math
+ min
+ length
+ buffer
+ length
+ system
+ arraycopy
+ buffer
+ chars
+ tip
+ length
+ tip
+ notifyicondataa
+icon data
+ tip
+ length
+ math
+ min
+ length
+ buffer
+ length
+ system
+ arraycopy
+ buffer
+ bytes
+ tip
+ length
+icon data
+ size
+ notifyicondata
+ sizeof
+icon data
+
+
+icon data
+ wnd
+ display
+hwnd message
+icon data
+ flags
+
+nif tip
+
+shell notify icon
+
+nim modify
+icon data
+set visible
+ visible
+check widget
+ visible
+ visible
+ visible
+send event
+ swt
+ show
+ disposed
+ visible
+ visible
+
+ win
+ notifyicondata
+icon data
+
+ unicode
+ notifyicondata
+ notifyicondataw
+ notifyicondataa
+icon data
+ size
+ notifyicondata
+ sizeof
+icon data
+
+
+icon data
+ wnd
+ display
+hwnd message
+
+shell 32_ major
+ visible
+icon data
+ flags
+
+nif message
+icon data
+callback message
+ display
+swt trayiconmsg
+
+shell notify icon
+
+nim add
+icon data
+set image
+ image
+set tool tip text
+tool tip text
+
+shell notify icon
+
+nim delete
+icon data
+icon data
+ flags
+
+nif state
+icon data
+ state
+ visible
+
+nis hidden
+icon data
+state mask
+
+nis hidden
+
+shell notify icon
+
+nim modify
+icon data
+ visible
+send event
+ swt
+ hide
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  represent  icons  that  can  placed  the  system  tray  task  bar  status  area  styles  none  events default selection menu detect  selection  important  this  class  not  intended  subclassed  since 
+constructs  new  instance  this  class  given  its  parent  which  must  code  tray  code  and  style  value  describing  its  behavior  and  appearance  the  item  added  the  end  the  items  maintained  its  parent  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  see  widget check subclass  see  widget get style
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  receiver  selected  sending  one  the  messages  defined  the  code selection listener  code  interface  code widget selected  code  called  when  the  receiver  selected  code widget default selected  code  called  when  the  receiver  double  clicked  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener  see selection event
+icons  need  black  pixels  where  the  mask  transparent
+returns  the  receiver  tool  tip  text  null  has  not  been  set  return  the  receiver  tool  tip  text  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  true  code  the  receiver  visible  and  code  false  code  otherwise  return  the  receiver  visibility  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  when  the  user  clicks  the  tray  icon  another  application  may  the  foreground  window  this  means  that  the  event  loop  not  running  and  can  cause  problems  for  example  menu  shown  when  the  user  clicks  outside  the  menu  cancel  the  menu  not  hidden  until  event  processed  another  application  the  foreground  window  then  the  menu  not  hidden  the  fix  force  the  tray  icon  message  window  the  foreground  when  sending  event
+widget  could  disposed  this  point
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  receiver  selected  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener
+sets  the  receiver  image  param  image  the  new  image  exception illegal argument exception  error  invalid  argument  the  image  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  receiver  tool  tip  text  the  argument  which  may  null  indicating  that  tool  tip  text  should  shown  param  value  the  new  tool  tip  text  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+note  that  the  size  the  tip  field  different  version  shell  dll
+makes  the  receiver  visible  the  argument  code  true  code  and  makes  invisible  otherwise  param  visible  the  new  visibility  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  show  event  this  happens  just  return
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,59 @@
+<DOC>
+<DOCNO>org.eclipse.swt.browser.WindowEvent.java </DOCNO>
+<text>
+<class>
+window event
+</class>
+<method>
+window event
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ browser
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ graphics
+window event
+typed event
+ required
+ browser
+ browser
+ point
+ location
+ point
+ size
+address bar
+menu bar
+status bar
+tool bar
+serial version uid
+window event
+ widget
+
+
+</identifier>
+<comments>
+copyright  2003  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+code window event  code  sent  link  browser  when  new  window  needs  created  when  existing  window  needs  closed  this  notification  occurs  when  javascript  command  such  code  window  open  code  code  window  close  code  gets  executed  code  browser  code  the  following  example  shows  how  code window event  code  are  typically  handled  code  pre  public  static  void  main  string  args  display  display  new  display  shell  shell  new  shell  display  shell set text  main  window  shell set layout  new fill layout  browser  browser  new  browser  shell  swt  none  initialize  display  browser  shell  open  browser set url  http  www  eclipse  org  while  shell  disposed  display read and dispatch  display  sleep  display  dispose  static  void  initialize  final  display  display  browser  browser  browser add open window listener  new open window listener  public  void  open window event  event  certain  platforms  can  provide  default  full  browser  simply  return  that  case  the  application  prefers  the  default  full  browser  the  embedded  one  set  below  event  required  return  embed  the  new  window  shell  shell  new  shell  display  shell set text  new  window  shell set layout  new fill layout  browser  browser  new  browser  shell  swt  none  initialize  display  browser  event  browser  browser  browser add visibility window listener  new visibility window listener  public  void  hide window event  event  browser  browser  browser  event  widget  shell  shell  browser get shell  shell set visible  false  public  void  show window event  event  browser  browser  browser  event  widget  shell  shell  browser get shell  event  location  null  shell set location  event  location  event  size  null  point  size  event  size  shell set size  shell compute size  size  size  event address bar  event menu bar  event status bar  event tool bar  create  widgets  for  the  address  bar  menu  bar  status  bar  and  tool  bar  leave  enough  space  the  shell  accomodate  browser  the  size  given  event  size  shell  open  browser add close window listener  new close window listener  public  void  close window event  event  browser  browser  browser  event  widget  shell  shell  browser get shell  shell  close  pre  code  the  following  notifications  are  emitted  when  the  user  selects  hyperlink  that  targets  new  window  the  result  javascript  that  executes  window  open  main  browser  user  selects  link  that  opens  new  window  javascript  requests  new  window open window listener  open  notified  application  creates  new  shell  and  second  browser  inside  that  shell  application  registers window listener  that  second  browser  such visibility window listener  application  returns  the  second  browser  the  host  for  the  new  window  content  second  browser visibility window listener  show  notified  application  sets  navigation  tool  bar  status  bar  menu  bar  and  shell  size  application  makes  the  shell  hosting  the  second  browser  visible  user  now  sees  the  new  window  see close window listener  see open window listener  see visibility window listener  since 
+specifies  whether  the  platform  requires  the  user  provide  code  browser  code  handle  the  new  window  since 
+code  browser  code  provided  the  application
+requested  location  for  the  code  shell  code  hosting  the  code  browser  code  code  null  code  location  has  been  requested
+requested  code  browser  code  size  the  client  area  the  code  shell  code  hosting  the  code  browser  code  should  large  enough  accomodate  that  size  code  null  code  size  has  been  requested
+specifies  whether  the  code  shell  code  hosting  the  code  browser  code  should  display  address  bar  since 
+specifies  whether  the  code  shell  code  hosting  the  code  browser  code  should  display  menu  bar  since 
+specifies  whether  the  code  shell  code  hosting  the  code  browser  code  should  display  status  bar  since 
+specifies  whether  the  code  shell  code  hosting  the  code  browser  code  should  display  tool  bar  since 
+</comments>
+</text>
+</DOC>

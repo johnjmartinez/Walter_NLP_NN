@@ -1,0 +1,8996 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.GC.java </DOCNO>
+<text>
+<class>
+
+</class>
+<method>
+
+
+
+check style
+copy area
+copy area
+copy area
+create gdip brush
+create gdip font
+create gdip font
+create gdip pen
+destroy gdip brush
+ dispose
+draw arc
+draw focus
+draw image
+draw image
+draw image
+draw icon
+draw bitmap
+draw bitmap alpha
+draw bitmap transparent clipping
+draw bitmap mask
+draw bitmap transparent
+draw bitmap
+draw line
+draw oval
+draw path
+draw point
+draw polygon
+draw polyline
+draw rectangle
+draw rectangle
+draw round rectangle
+draw round rectangle gdip
+draw string
+draw string
+draw text
+draw text
+draw text
+ equals
+fill arc
+fill gradient rectangle
+fill oval
+fill path
+fill polygon
+fill rectangle
+fill rectangle
+fill round rectangle
+fill round rectangle gdip
+ flush
+get advance width
+get advanced
+get alpha
+get antialias
+get background
+get background pattern
+get char width
+get clipping
+get clipping
+get code page
+get fill rule
+get font
+get font metrics
+get foreground
+get foreground pattern
+get interpolation
+get line cap
+get line dash
+get line join
+get line style
+get line width
+get style
+get text antialias
+get transform
+get xor mode
+init gdip
+ init
+hash code
+ clipped
+ disposed
+measure space
+set advanced
+set antialias
+set alpha
+set background
+set background pattern
+set clipping
+set clipping
+set clipping
+set clipping
+set clipping
+set fill rule
+set font
+set foreground
+set foreground pattern
+set interpolation
+set line cap
+set line dash
+set line join
+set line style
+set line width
+set pen
+set xor mode
+set text antialias
+set transform
+string extent
+text extent
+text extent
+ string
+win 32_new
+win 32_new
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+ org
+ eclipse
+ swt
+ internal
+ gdip
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+
+ resource
+ handle
+ drawable
+ drawable
+ data
+ data
+line dot zero
+line dash zero
+line dashdot zero
+line dashdotdot zero
+
+
+ drawable
+ drawable
+ drawable
+ swt
+ none
+
+ drawable
+ drawable
+ style
+ drawable
+ swt
+ error
+ swt
+error null argument
+ data
+ data
+ data
+ data
+ style
+check style
+ style
+
+ drawable
+internal _new
+ data
+ device
+ device
+ data
+ device
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ device
+ data
+ device
+ device
+ init
+ drawable
+ data
+
+ device
+ tracking
+ device
+new object
+check style
+ style
+ style
+ swt
+left right
+ style
+ swt
+right left
+ style
+ swt
+left right
+ swt
+right left
+copy area
+ image
+ image
+
+
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ image
+ swt
+ error
+ swt
+error null argument
+ image
+ type
+ swt
+ bitmap
+ image
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ device
+ device
+ data
+ device
+
+ device
+internal _new
+ rectangle
+ rect
+ image
+get bounds
+mem hdc
+
+create compatible
+
+old bitmap
+
+select object
+mem hdc
+ image
+ handle
+
+bit blt
+mem hdc
+ rect
+ width
+ rect
+ height
+ handle
+
+
+
+ srccopy
+
+select object
+mem hdc
+old bitmap
+
+ delete
+mem hdc
+ device
+internal _dispose
+
+copy area
+ src
+ src
+ width
+ height
+ dest
+ dest
+copy area
+ src
+ src
+ width
+ height
+ dest
+ dest
+copy area
+ src
+ src
+ width
+ height
+ dest
+ dest
+ paint
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ hwnd
+ data
+ hwnd
+ hwnd
+
+bit blt
+ handle
+ dest
+ dest
+ width
+ height
+ handle
+ src
+ src
+
+ srccopy
+ rect
+lprc clip
+ hrgn
+
+create rect rgn
+
+get clip rgn
+ handle
+ hrgn
+lprc clip
+ rect
+
+get rgn box
+ hrgn
+lprc clip
+
+delete object
+ hrgn
+ rect
+lprc scroll
+ rect
+
+set rect
+lprc scroll
+ src
+ src
+ src
+ width
+ src
+ height
+ flags
+ paint
+
+ invalidate
+
+ erase
+ res
+
+scroll window
+ hwnd
+ dest
+ src
+ dest
+ src
+lprc scroll
+lprc clip
+ flags
+ res
+
+ win
+
+bit blt
+ handle
+ dest
+ dest
+ width
+ height
+ handle
+ src
+ src
+
+ srccopy
+ paint
+ delta
+ dest
+ src
+ delta
+ dest
+ src
+ disjoint
+ dest
+ width
+ src
+ src
+ width
+ dest
+ dest
+ height
+ src
+ src
+ height
+ dest
+ disjoint
+
+invalidate rect
+ hwnd
+lprc scroll
+ delta
+ new
+ dest
+ delta
+ delta
+ new
+ dest
+ width
+
+set rect
+lprc scroll
+ new
+ src
+ new
+ math
+ abs
+ delta
+ src
+ height
+
+invalidate rect
+ hwnd
+lprc scroll
+ delta
+ new
+ dest
+ delta
+ delta
+ new
+ dest
+ height
+
+set rect
+lprc scroll
+ src
+ new
+ src
+ width
+ new
+ math
+ abs
+ delta
+
+invalidate rect
+ hwnd
+lprc scroll
+create gdip brush
+color ref
+
+get color
+ handle
+ rgb
+color ref
+color ref
+color ref
+ color
+ gdip
+color _new
+ data
+ alpha
+ rgb
+ color
+ swt
+ error
+ swt
+error handles
+ brush
+ gdip
+solid brush _new
+ color
+ brush
+ swt
+ error
+ swt
+error handles
+ gdip
+color _delete
+ color
+ brush
+create gdip font
+create gdip font
+ handle
+
+get current object
+ handle
+
+obj font
+create gdip font
+
+ font
+ font
+ gdip
+font _new
+
+ font
+ font
+ swt
+ error
+ swt
+error handles
+ gdip
+font available
+ font
+ gdip
+font _delete
+ font
+ logfont
+log font
+
+ unicode
+ logfont
+ logfontw
+ logfonta
+
+get object
+ font
+ logfont
+ sizeof
+log font
+ size
+ math
+ abs
+log font
+ height
+ style
+ gdip
+font style regular
+log font
+ weight
+ style
+ gdip
+font style bold
+log font
+ italic
+ style
+ gdip
+font style italic
+ chars
+
+ unicode
+ chars
+ logfontw
+log font
+face name
+ chars
+
+ facesize
+ bytes
+ logfonta
+log font
+face name
+
+multi byte wide char
+
+ acp
+
+ precomposed
+ bytes
+ bytes
+ length
+ chars
+ chars
+ length
+ index
+ index
+ chars
+ length
+ chars
+ index
+ index
+ string
+ name
+ string
+ chars
+ index
+ compatibility
+equals ignore case
+ name
+ name
+ buffer
+ name
+ length
+ name
+get chars
+ name
+ length
+ buffer
+ font
+ gdip
+font _new
+ buffer
+ size
+ style
+ gdip
+unit pixel
+ font
+ swt
+ error
+ swt
+error handles
+ font
+create gdip pen
+ style
+color ref
+ width
+ size
+ pen
+
+get current object
+ handle
+
+obj pen
+ size
+
+get object
+ pen
+ logpen
+ logpen
+ sizeof
+ logpen
+log pen
+ logpen
+
+get object
+ pen
+ logpen
+ sizeof
+log pen
+color ref
+log pen
+lopn color
+ width
+log pen
+
+ style
+log pen
+lopn style
+ width
+ style
+
+endcap flat
+
+join miter
+ extlogpen
+log pen
+ extlogpen
+ size
+ extlogpen
+ sizeof
+
+get object
+ pen
+ size
+log pen
+ heap
+
+get process heap
+ ptr
+
+heap alloc
+ heap
+
+heap zero memory
+ size
+
+get object
+ pen
+ size
+ ptr
+
+move memory
+log pen
+ ptr
+ extlogpen
+ sizeof
+
+heap free
+ heap
+ ptr
+color ref
+log pen
+elp color
+ width
+log pen
+elp width
+ style
+log pen
+elp pen style
+ rgb
+color ref
+color ref
+color ref
+ color
+ gdip
+color _new
+ data
+ alpha
+ rgb
+ pen
+ gdip
+pen _new
+ color
+ math
+ max
+ width
+ gdip
+color _delete
+ color
+ data
+foreground pattern
+ gdip
+pen set brush
+ pen
+ data
+foreground pattern
+ handle
+ dashes
+dash style
+ gdip
+dash style solid
+ style
+
+style mask
+
+ solid
+
+ dot
+dash style
+ gdip
+dash style dot
+ width
+ dashes
+line dot zero
+
+ dash
+dash style
+ gdip
+dash style dash
+ width
+ dashes
+line dash zero
+
+ dashdot
+dash style
+ gdip
+dash style dash dot
+ width
+ dashes
+line dashdot zero
+
+ dashdotdot
+dash style
+ gdip
+dash style dash dot dot
+ width
+ dashes
+line dashdotdot zero
+
+ userstyle
+ data
+ dashes
+ dashes
+ data
+ dashes
+ length
+
+
+ data
+ dashes
+ length
+
+ dash
+ data
+ dashes
+
+ math
+ max
+ width
+ dashes
+
+ dash
+ dashes
+
+ data
+ dashes
+ length
+ dash
+ dashes
+ gdip
+pen set dash pattern
+ pen
+ dashes
+ dashes
+ length
+ gdip
+pen set dash style
+ pen
+ gdip
+dash style custom
+ gdip
+pen set dash style
+ pen
+dash style
+join style
+ style
+
+join mask
+
+join miter
+join style
+ gdip
+line join miter
+
+join bevel
+join style
+ gdip
+line join bevel
+
+join round
+join style
+ gdip
+line join round
+ gdip
+pen set line join
+ pen
+join style
+dash cap
+ gdip
+dash cap flat
+cap style
+ style
+
+endcap mask
+
+endcap flat
+cap style
+ gdip
+line cap flat
+
+endcap round
+cap style
+ gdip
+line cap round
+dash cap
+ gdip
+dash cap round
+
+endcap square
+cap style
+ gdip
+line cap square
+ gdip
+pen set line cap
+ pen
+cap style
+cap style
+dash cap
+ pen
+destroy gdip brush
+ brush
+ type
+ gdip
+brush get type
+ brush
+ type
+ gdip
+brush type solid color
+ gdip
+solid brush _delete
+ brush
+ gdip
+brush type hatch fill
+ gdip
+hatch brush _delete
+ brush
+ gdip
+brush type linear gradient
+ gdip
+linear gradient brush _delete
+ brush
+ gdip
+brush type texture fill
+ gdip
+texture brush _delete
+ brush
+ dispose
+ handle
+ data
+ device
+ disposed
+ data
+gdip graphics
+ gdip
+graphics _delete
+ data
+gdip graphics
+ data
+gdip pen
+ gdip
+pen _delete
+ data
+gdip pen
+ data
+gdip brush
+destroy gdip brush
+ data
+gdip brush
+ data
+gdip brush
+ data
+gdip pen
+ data
+gdip graphics
+ data
+ pen
+null pen
+
+get stock object
+
+null pen
+
+select object
+ handle
+null pen
+
+delete object
+ data
+ pen
+ data
+ pen
+ data
+ brush
+null brush
+
+get stock object
+
+null brush
+
+select object
+ handle
+null brush
+
+delete object
+ data
+ brush
+ data
+ brush
+null bitmap
+ data
+null bitmap
+null bitmap
+
+select object
+ handle
+null bitmap
+ data
+null bitmap
+ image
+ image
+ data
+ image
+ image
+ image
+ mem
+ device
+ device
+ data
+ device
+ drawable
+ drawable
+internal _dispose
+ handle
+ data
+ drawable
+ handle
+ data
+ image
+ data
+
+ device
+ tracking
+ device
+dispose object
+ data
+ device
+ data
+draw arc
+
+
+ width
+ height
+start angle
+arc angle
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ width
+
+
+ width
+ width
+ width
+ height
+
+
+ height
+ height
+ height
+ width
+ height
+arc angle
+gdip graphics
+ data
+gdip graphics
+gdip graphics
+init gdip
+ data
+line width
+ data
+line width
+ gdip
+graphics set pixel offset mode
+gdip graphics
+ gdip
+pixel offset mode none
+ gdip
+graphics draw arc
+gdip graphics
+ data
+gdip pen
+
+
+ width
+ height
+start angle
+arc angle
+ data
+line width
+ data
+line width
+ gdip
+graphics set pixel offset mode
+gdip graphics
+ gdip
+pixel offset mode half
+
+ win
+arc angle
+start angle
+arc angle
+arc angle
+arc angle
+arc angle
+arc angle
+ points
+arc angle
+ cte
+
+ width
+ cte
+
+ height
+ index
+
+
+arc angle
+
+ points
+ index
+ compatibility
+ cos
+start angle
+
+ width
+ cte
+ points
+ index
+ cte
+ compatibility
+ sin
+start angle
+
+ height
+
+ polyline
+ handle
+ points
+ points
+ length
+
+
+
+
+ tmp
+ negative
+arc angle
+arc angle
+
+
+
+ width
+
+
+
+ height
+ negative
+arc angle
+arc angle
+arc angle
+start angle
+ negative
+ tmp
+start angle
+start angle
+arc angle
+arc angle
+ tmp
+
+ compatibility
+ cos
+start angle
+ width
+
+ width
+
+ compatibility
+ sin
+start angle
+ height
+
+ height
+
+ compatibility
+ cos
+arc angle
+ width
+
+ width
+
+ compatibility
+ sin
+arc angle
+ height
+
+ height
+null brush
+
+get stock object
+
+null brush
+old brush
+
+select object
+ handle
+null brush
+
+ arc
+ handle
+
+
+
+ width
+
+ height
+
+
+
+
+
+select object
+ handle
+old brush
+draw focus
+
+
+ width
+ height
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ rect
+ rect
+ rect
+
+set rect
+ rect
+
+
+
+ width
+
+ height
+
+draw focus rect
+ handle
+ rect
+draw image
+ image
+ image
+
+
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ image
+ swt
+ error
+ swt
+error null argument
+ image
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+draw image
+ image
+
+
+draw image
+ image
+ image
+ src
+ src
+src width
+src height
+ dest
+ dest
+dest width
+dest height
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+src width
+src height
+dest width
+dest height
+ src
+ src
+src width
+src height
+dest width
+dest height
+ swt
+ error
+ swt
+error invalid argument
+ image
+ swt
+ error
+ swt
+error null argument
+ image
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+draw image
+ image
+ src
+ src
+src width
+src height
+ dest
+ dest
+dest width
+dest height
+draw image
+ image
+src image
+ src
+ src
+src width
+src height
+ dest
+ dest
+dest width
+dest height
+ simple
+ data
+gdip graphics
+gdip image
+src image
+create gdip image
+ img
+gdip image
+img width
+ gdip
+image get width
+ img
+img height
+ gdip
+image get height
+ img
+ simple
+src width
+dest width
+img width
+src height
+dest height
+img height
+ src
+src width
+img width
+ src
+src height
+img height
+ swt
+ error
+ swt
+error invalid argument
+ simple
+ src
+ src
+src width
+dest width
+dest width
+img width
+src height
+dest height
+dest height
+img height
+ simple
+ gdip
+graphics draw image
+ data
+gdip graphics
+ img
+ dest
+ dest
+ rect
+ rect
+ rect
+ rect
+
+ dest
+ rect
+
+ dest
+ rect
+ width
+dest width
+ rect
+ height
+dest height
+ gdip
+graphics draw image
+ data
+gdip graphics
+ img
+ rect
+ src
+ src
+src width
+src height
+ gdip
+unit pixel
+ gdip
+bitmap _delete
+ img
+gdip image
+ heap
+
+get process heap
+
+heap free
+ heap
+gdip image
+src image
+ type
+ swt
+ bitmap
+draw bitmap
+src image
+ src
+ src
+src width
+src height
+ dest
+ dest
+dest width
+dest height
+ simple
+ swt
+ icon
+draw icon
+src image
+ src
+ src
+src width
+src height
+ dest
+ dest
+dest width
+dest height
+ simple
+ swt
+ error
+ swt
+error unsupported format
+draw icon
+ image
+src image
+ src
+ src
+src width
+src height
+ dest
+ dest
+dest width
+dest height
+ simple
+ technology
+
+get device caps
+ handle
+
+ technology
+draw icon
+ flags
+
+ normal
+
+ win
+
+win 32_ version
+
+ version
+ flags
+
+ nomirror
+
+ win
+
+win 32_ version
+
+ version
+draw icon
+
+get layout
+ handle
+
+layout rtl
+ simple
+ technology
+
+ rasprinter
+draw icon
+
+draw icon
+ handle
+ dest
+ dest
+src image
+ handle
+ flags
+ iconinfo
+src icon info
+ iconinfo
+
+ win
+ image
+get icon info
+src image
+src icon info
+
+get icon info
+src image
+ handle
+src icon info
+ bitmap
+src icon info
+hbm color
+ bitmap
+ bitmap
+src icon info
+hbm mask
+ bitmap
+
+ bitmap
+
+get object
+ bitmap
+ bitmap
+ sizeof
+
+icon width
+
+ width
+icon height
+
+ height
+ bitmap
+src icon info
+hbm mask
+icon height
+ simple
+src width
+dest width
+icon width
+src height
+dest height
+icon height
+ failed
+ src
+src width
+icon width
+ src
+src height
+icon height
+ failed
+ simple
+ src
+ src
+src width
+dest width
+src height
+dest height
+src width
+icon width
+src height
+icon height
+draw icon
+draw bitmap mask
+src image
+src icon info
+hbm color
+src icon info
+hbm mask
+ src
+ src
+src width
+src height
+ dest
+ dest
+dest width
+dest height
+ simple
+icon width
+icon height
+ simple
+ technology
+
+ rasprinter
+
+draw icon
+ handle
+ dest
+ dest
+src image
+ handle
+ flags
+ iconinfo
+new icon info
+ iconinfo
+new icon info
+ icon
+src hdc
+
+create compatible
+ handle
+dst hdc
+
+create compatible
+ handle
+src color
+ src
+src color
+src icon info
+hbm color
+src color
+src color
+src icon info
+hbm mask
+src color
+icon height
+old src bitmap
+
+select object
+src hdc
+src color
+new icon info
+hbm color
+
+create compatible bitmap
+src hdc
+dest width
+dest height
+new icon info
+hbm color
+ swt
+ error
+ swt
+error handles
+old dest bitmap
+
+select object
+dst hdc
+new icon info
+hbm color
+ stretch
+ simple
+src width
+dest width
+src height
+dest height
+ stretch
+
+ win
+
+set stretch blt mode
+dst hdc
+
+ coloroncolor
+
+stretch blt
+dst hdc
+dest width
+dest height
+src hdc
+ src
+src color
+src width
+src height
+
+ srccopy
+
+bit blt
+dst hdc
+dest width
+dest height
+src hdc
+ src
+src color
+
+ srccopy
+
+select object
+src hdc
+src icon info
+hbm mask
+new icon info
+hbm mask
+
+create bitmap
+dest width
+dest height
+new icon info
+hbm mask
+ swt
+ error
+ swt
+error handles
+
+select object
+dst hdc
+new icon info
+hbm mask
+ stretch
+
+stretch blt
+dst hdc
+dest width
+dest height
+src hdc
+ src
+ src
+src width
+src height
+
+ srccopy
+
+bit blt
+dst hdc
+dest width
+dest height
+src hdc
+ src
+ src
+
+ srccopy
+ technology
+
+ rasprinter
+
+select object
+src hdc
+new icon info
+hbm color
+
+select object
+dst hdc
+new icon info
+hbm mask
+draw bitmap transparent clipping
+src hdc
+dst hdc
+dest width
+dest height
+ dest
+ dest
+dest width
+dest height
+dest width
+dest height
+
+select object
+src hdc
+old src bitmap
+
+select object
+dst hdc
+old dest bitmap
+
+select object
+src hdc
+old src bitmap
+
+select object
+dst hdc
+old dest bitmap
+ icon
+
+create icon indirect
+new icon info
+ icon
+ swt
+ error
+ swt
+error handles
+
+draw icon
+ handle
+ dest
+ dest
+ icon
+dest width
+dest height
+ flags
+
+destroy icon
+ icon
+
+delete object
+new icon info
+hbm mask
+
+delete object
+new icon info
+hbm color
+
+ delete
+dst hdc
+
+ delete
+src hdc
+
+delete object
+src icon info
+hbm mask
+src icon info
+hbm color
+
+delete object
+src icon info
+hbm color
+ failed
+ swt
+ error
+ swt
+error invalid argument
+draw bitmap
+ image
+src image
+ src
+ src
+src width
+src height
+ dest
+ dest
+dest width
+dest height
+ simple
+ bitmap
+
+ bitmap
+
+get object
+src image
+ handle
+ bitmap
+ sizeof
+
+img width
+
+ width
+img height
+
+ height
+ simple
+src width
+dest width
+img width
+src height
+dest height
+img height
+ src
+src width
+img width
+ src
+src height
+img height
+ swt
+ error
+ swt
+error invalid argument
+ simple
+ src
+ src
+src width
+dest width
+dest width
+img width
+src height
+dest height
+dest height
+img height
+must restore
+
+ mem
+src image
+ mem
+ mem
+ mem
+ disposed
+ mem
+ flush
+must restore
+ data
+ data
+ mem
+ data
+ data
+null bitmap
+
+select object
+ mem
+ handle
+ data
+null bitmap
+ data
+null bitmap
+src image
+ alpha
+src image
+alpha data
+draw bitmap alpha
+src image
+ src
+ src
+src width
+src height
+ dest
+ dest
+dest width
+dest height
+ simple
+
+img width
+img height
+src image
+transparent pixel
+draw bitmap transparent
+src image
+ src
+ src
+src width
+src height
+ dest
+ dest
+dest width
+dest height
+ simple
+
+img width
+img height
+draw bitmap
+src image
+ src
+ src
+src width
+src height
+ dest
+ dest
+dest width
+dest height
+ simple
+
+img width
+img height
+must restore
+old bitmap
+
+select object
+ mem
+ handle
+src image
+ handle
+ mem
+ data
+null bitmap
+old bitmap
+draw bitmap alpha
+ image
+src image
+ src
+ src
+src width
+src height
+ dest
+ dest
+dest width
+dest height
+ simple
+ bitmap
+
+img width
+img height
+src image
+ alpha
+src image
+ alpha
+draw bitmap
+src image
+ src
+ src
+src width
+src height
+ dest
+ dest
+dest width
+dest height
+ simple
+
+img width
+img height
+
+ win
+
+win 32_ version
+
+ version
+fix alpha
+dst bitmap
+
+get current object
+ handle
+
+obj bitmap
+dst bitmap
+ bitmap
+ dst
+ bitmap
+
+get object
+dst bitmap
+ bitmap
+ sizeof
+ dst
+fix alpha
+ dst
+ planes
+ dst
+bits pixel
+dst dib
+old dst bitmap
+dst hdc
+ handle
+ dst
+ dest
+ dst
+ dest
+fix alpha
+dst dib
+ image
+create dib
+dest width
+dest height
+dst dib
+ swt
+ error
+ swt
+error handles
+dst hdc
+
+create compatible
+ handle
+old dst bitmap
+
+select object
+dst hdc
+dst dib
+
+bit blt
+dst hdc
+dest width
+dest height
+ handle
+ dest
+ dest
+
+ srccopy
+ dst
+ dst
+ blendfunction
+ blend
+ blendfunction
+ blend
+ blend
+
+src over
+src hdc
+
+create compatible
+ handle
+old src bitmap
+
+select object
+src hdc
+src image
+ handle
+src image
+ alpha
+ blend
+source constant alpha
+src image
+ alpha
+
+alpha blend
+dst hdc
+ dst
+ dst
+dest width
+dest height
+src hdc
+ src
+ src
+src width
+src height
+ blend
+mem dib
+ image
+create dib
+src width
+src height
+mem dib
+ swt
+ error
+ swt
+error handles
+mem hdc
+
+create compatible
+ handle
+old mem bitmap
+
+select object
+mem hdc
+mem dib
+ bitmap
+ dib
+ bitmap
+
+get object
+mem dib
+ bitmap
+ sizeof
+ dib
+
+bit blt
+mem hdc
+src width
+src height
+src hdc
+ src
+ src
+
+ srccopy
+src data
+ dib
+width bytes
+ dib
+ height
+
+move memory
+src data
+ dib
+ bits
+src data
+ length
+ apinc
+img width
+src width
+
+ src
+img width
+ src
+
+alpha data
+src image
+alpha data
+
+
+src height
+
+
+
+src width
+
+ alpha
+alpha data
+
+src data
+
+src data
+
+ alpha
+src data
+
+src data
+
+ alpha
+src data
+
+src data
+
+ alpha
+src data
+
+ alpha
+
+
+ apinc
+
+move memory
+ dib
+ bits
+src data
+src data
+ length
+ blend
+source constant alpha
+ blend
+alpha format
+
+src alpha
+
+alpha blend
+dst hdc
+ dst
+ dst
+dest width
+dest height
+mem hdc
+src width
+src height
+ blend
+
+select object
+mem hdc
+old mem bitmap
+
+ delete
+mem hdc
+
+delete object
+mem dib
+fix alpha
+
+bit blt
+ handle
+ dest
+ dest
+dest width
+dest height
+dst hdc
+
+ srccopy
+
+select object
+dst hdc
+old dst bitmap
+
+ delete
+dst hdc
+
+delete object
+dst dib
+
+select object
+src hdc
+old src bitmap
+
+ delete
+src hdc
+ rectangle
+ rect
+get clipping
+ rect
+ rect
+ intersection
+ rectangle
+ dest
+ dest
+dest width
+dest height
+ rect
+ empty
+
+ src
+ rect
+
+ dest
+src width
+dest width
+
+ src
+ rect
+
+ rect
+ width
+ dest
+src width
+dest width
+
+ src
+ rect
+
+ dest
+src height
+dest height
+
+ src
+ rect
+
+ rect
+ height
+ dest
+src height
+dest height
+ dest
+ rect
+
+ dest
+ rect
+
+dest width
+ rect
+ width
+dest height
+ rect
+ height
+ src
+
+ src
+
+src width
+ math
+ max
+
+
+src height
+ math
+ max
+
+
+src hdc
+
+create compatible
+ handle
+old src bitmap
+
+select object
+src hdc
+src image
+ handle
+mem hdc
+
+create compatible
+ handle
+mem dib
+ image
+create dib
+ math
+ max
+src width
+dest width
+ math
+ max
+src height
+dest height
+mem dib
+ swt
+ error
+ swt
+error handles
+old mem bitmap
+
+select object
+mem hdc
+mem dib
+ bitmap
+ dib
+ bitmap
+
+get object
+mem dib
+ bitmap
+ sizeof
+ dib
+size bytes
+ dib
+width bytes
+ dib
+ height
+
+bit blt
+mem hdc
+dest width
+dest height
+ handle
+ dest
+ dest
+
+ srccopy
+dest data
+size bytes
+
+move memory
+dest data
+ dib
+ bits
+size bytes
+
+bit blt
+mem hdc
+src width
+src height
+src hdc
+ src
+ src
+
+ srccopy
+src data
+size bytes
+
+move memory
+src data
+ dib
+ bits
+size bytes
+ alpha
+src image
+ alpha
+has alpha channel
+src image
+ alpha
+has alpha channel
+ apinc
+img width
+src width
+ spinc
+ dib
+width bytes
+src width
+
+ src
+img width
+ src
+
+alpha data
+src image
+alpha data
+
+
+src height
+
+
+
+src width
+
+src data
+
+alpha data
+
+
+
+ apinc
+
+ spinc
+
+move memory
+ dib
+ bits
+src data
+size bytes
+
+ win
+dest width
+src width
+dest height
+src height
+
+ win
+
+ win
+temp hdc
+
+create compatible
+ handle
+temp dib
+ image
+create dib
+dest width
+dest height
+temp dib
+ swt
+ error
+ swt
+error handles
+old temp bitmap
+
+select object
+temp hdc
+temp dib
+ simple
+src width
+dest width
+src height
+dest height
+
+ win
+
+set stretch blt mode
+mem hdc
+
+ coloroncolor
+
+stretch blt
+temp hdc
+dest width
+dest height
+mem hdc
+src width
+src height
+
+ srccopy
+
+bit blt
+temp hdc
+dest width
+dest height
+mem hdc
+
+ srccopy
+
+bit blt
+mem hdc
+dest width
+dest height
+temp hdc
+
+ srccopy
+
+select object
+temp hdc
+old temp bitmap
+
+delete object
+temp dib
+
+ delete
+temp hdc
+ simple
+src width
+dest width
+src height
+dest height
+
+ win
+
+set stretch blt mode
+mem hdc
+
+ coloroncolor
+
+stretch blt
+mem hdc
+dest width
+dest height
+mem hdc
+src width
+src height
+
+ srccopy
+
+bit blt
+mem hdc
+dest width
+dest height
+mem hdc
+
+ srccopy
+
+move memory
+src data
+ dib
+ bits
+size bytes
+ dpinc
+ dib
+width bytes
+dest width
+
+
+
+dest height
+
+
+
+dest width
+
+has alpha channel
+ alpha
+src data
+
+dest data
+
+src data
+
+dest data
+
+ alpha
+dest data
+
+src data
+
+dest data
+
+ alpha
+dest data
+
+src data
+
+dest data
+
+ alpha
+
+
+ dpinc
+
+move memory
+ dib
+ bits
+dest data
+size bytes
+
+bit blt
+ handle
+ dest
+ dest
+dest width
+dest height
+mem hdc
+
+ srccopy
+
+select object
+mem hdc
+old mem bitmap
+
+ delete
+mem hdc
+
+delete object
+mem dib
+
+select object
+src hdc
+old src bitmap
+
+ delete
+src hdc
+draw bitmap transparent clipping
+src hdc
+mask hdc
+ src
+ src
+src width
+src height
+ dest
+ dest
+dest width
+dest height
+ simple
+img width
+img height
+ rgn
+
+create rect rgn
+
+
+img height
+
+
+
+img width
+
+
+get pixel
+mask hdc
+
+
+temp rgn
+
+create rect rgn
+
+
+
+
+
+combine rgn
+ rgn
+ rgn
+temp rgn
+
+ rgn
+
+delete object
+temp rgn
+dest width
+src width
+dest height
+src height
+ bytes
+
+get region data
+ rgn
+rgn data
+ bytes
+
+get region data
+ rgn
+ bytes
+rgn data
+ xform
+dest width
+src width
+dest height
+src height
+tmp rgn
+
+ext create region
+ xform
+ bytes
+rgn data
+
+delete object
+ rgn
+ rgn
+tmp rgn
+
+offset rgn
+ rgn
+ dest
+ dest
+ clip
+
+create rect rgn
+ result
+
+get clip rgn
+ handle
+ clip
+ result
+
+combine rgn
+ rgn
+ rgn
+ clip
+
+rgn and
+
+select clip rgn
+ handle
+ rgn
+ rop
+
+ win
+ rop
+
+get rop
+ handle
+ rop
+
+set rop
+ handle
+
+ copypen
+
+set rop
+ handle
+ rop
+ rop
+ rop
+
+ xorpen
+
+ srcinvert
+
+ srccopy
+ simple
+src width
+dest width
+src height
+dest height
+ mode
+
+ win
+ mode
+
+set stretch blt mode
+ handle
+
+ coloroncolor
+
+stretch blt
+ handle
+ dest
+ dest
+dest width
+dest height
+src hdc
+ src
+ src
+src width
+src height
+ rop
+
+ win
+
+set stretch blt mode
+ handle
+ mode
+
+bit blt
+ handle
+ dest
+ dest
+dest width
+dest height
+src hdc
+ src
+ src
+ rop
+
+select clip rgn
+ handle
+ result
+ clip
+
+delete object
+ clip
+
+delete object
+ rgn
+draw bitmap mask
+ image
+src image
+src color
+src mask
+ src
+ src
+src width
+src height
+ dest
+ dest
+dest width
+dest height
+ simple
+img width
+img height
+ offscreen
+src color
+ src
+src color
+src color
+src mask
+src color
+img height
+src hdc
+
+create compatible
+ handle
+old src bitmap
+
+select object
+src hdc
+src color
+dest hdc
+ handle
+
+ dest
+
+ dest
+temp hdc
+temp bitmap
+old temp bitmap
+old color
+old text color
+ offscreen
+temp hdc
+
+create compatible
+ handle
+temp bitmap
+
+create compatible bitmap
+ handle
+dest width
+dest height
+old temp bitmap
+
+select object
+temp hdc
+temp bitmap
+
+bit blt
+temp hdc
+dest width
+dest height
+ handle
+ dest
+ dest
+
+ srccopy
+dest hdc
+temp hdc
+
+
+old color
+
+set color
+ handle
+old text color
+
+set text color
+ handle
+ simple
+src width
+dest width
+src height
+dest height
+ mode
+
+ win
+ mode
+
+set stretch blt mode
+ handle
+
+ coloroncolor
+
+stretch blt
+dest hdc
+
+
+dest width
+dest height
+src hdc
+ src
+src color
+src width
+src height
+
+ srcinvert
+
+select object
+src hdc
+src mask
+
+stretch blt
+dest hdc
+
+
+dest width
+dest height
+src hdc
+ src
+ src
+src width
+src height
+
+ srcand
+
+select object
+src hdc
+src color
+
+stretch blt
+dest hdc
+
+
+dest width
+dest height
+src hdc
+ src
+src color
+src width
+src height
+
+ srcinvert
+
+ win
+
+set stretch blt mode
+ handle
+ mode
+
+bit blt
+dest hdc
+
+
+dest width
+dest height
+src hdc
+ src
+src color
+
+ srcinvert
+
+set text color
+dest hdc
+
+select object
+src hdc
+src mask
+
+bit blt
+dest hdc
+
+
+dest width
+dest height
+src hdc
+ src
+ src
+
+ srcand
+
+select object
+src hdc
+src color
+
+bit blt
+dest hdc
+
+
+dest width
+dest height
+src hdc
+ src
+src color
+
+ srcinvert
+ offscreen
+
+bit blt
+ handle
+ dest
+ dest
+dest width
+dest height
+temp hdc
+
+ srccopy
+
+select object
+temp hdc
+old temp bitmap
+
+ delete
+temp hdc
+
+delete object
+temp bitmap
+
+set color
+ handle
+old color
+
+set text color
+ handle
+old text color
+
+select object
+src hdc
+old src bitmap
+
+ delete
+src hdc
+draw bitmap transparent
+ image
+src image
+ src
+ src
+src width
+src height
+ dest
+ dest
+dest width
+dest height
+ simple
+ bitmap
+
+img width
+img height
+trans blue
+trans green
+trans red
+ dib
+
+ bits
+ bitmap
+src image
+ handle
+src hdc
+
+create compatible
+ handle
+old src bitmap
+
+select object
+src hdc
+ bitmap
+original colors
+
+bits pixel
+ dib
+
+ win
+ bits
+
+move memory
+ bits
+
+ bits
+old value
+ bits
+ mask
+
+bits pixel
+ bits
+src image
+transparent pixel
+
+bits pixel
+ bits
+ mask
+
+move memory
+
+ bits
+ bits
+ color
+
+get pixel
+src hdc
+ bits
+old value
+
+move memory
+
+ bits
+ bits
+trans blue
+ color
+trans green
+ color
+trans red
+ color
+max colors
+
+bits pixel
+old colors
+max colors
+
+get dib color table
+src hdc
+max colors
+old colors
+ offset
+src image
+transparent pixel
+fix palette
+
+
+old colors
+ length
+
+
+ offset
+old colors
+ offset
+old colors
+
+old colors
+ offset
+old colors
+
+old colors
+ offset
+old colors
+
+fix palette
+fix palette
+new colors
+old colors
+ length
+trans red
+trans green
+trans blue
+new colors
+ offset
+trans blue
+new colors
+ offset
+trans green
+new colors
+ offset
+trans red
+
+set dib color table
+src hdc
+max colors
+new colors
+original colors
+old colors
+trans blue
+old colors
+ offset
+trans green
+old colors
+ offset
+trans red
+old colors
+ offset
+num colors
+
+bits pixel
+ bitmapinfoheader
+bmi header
+ bitmapinfoheader
+bmi header
+ size
+ bitmapinfoheader
+ sizeof
+bmi header
+ planes
+
+ planes
+bmi header
+bit count
+
+bits pixel
+ bmi
+ bitmapinfoheader
+ sizeof
+num colors
+
+move memory
+ bmi
+bmi header
+ bitmapinfoheader
+ sizeof
+
+ win
+ swt
+ error
+ swt
+error not implemented
+
+get bits
+src hdc
+src image
+ handle
+ bmi
+
+dib rgb colors
+ offset
+ bitmapinfoheader
+ sizeof
+src image
+transparent pixel
+trans red
+ bmi
+ offset
+trans green
+ bmi
+ offset
+trans blue
+ bmi
+ offset
+ pixel
+src image
+transparent pixel
+
+bits pixel
+trans blue
+ pixel
+trans green
+ pixel
+trans red
+ pixel
+trans blue
+ pixel
+trans green
+ pixel
+trans red
+ pixel
+trans blue
+ pixel
+trans green
+ pixel
+trans red
+ pixel
+transparent color
+trans blue
+trans green
+trans red
+
+ win
+
+transparent image
+ handle
+ dest
+ dest
+dest width
+dest height
+src hdc
+ src
+ src
+src width
+src height
+transparent color
+original colors
+
+ win
+
+win 32_ version
+
+ version
+ mode
+
+set stretch blt mode
+ handle
+
+ coloroncolor
+
+transparent blt
+ handle
+ dest
+ dest
+dest width
+dest height
+src hdc
+ src
+ src
+src width
+src height
+transparent color
+
+set stretch blt mode
+ handle
+ mode
+mask hdc
+
+create compatible
+ handle
+mask bitmap
+
+create bitmap
+img width
+img height
+old mask bitmap
+
+select object
+mask hdc
+mask bitmap
+
+set color
+src hdc
+transparent color
+
+bit blt
+mask hdc
+img width
+img height
+src hdc
+
+ srccopy
+original colors
+
+set dib color table
+src hdc
+
+bits pixel
+original colors
+
+get device caps
+ handle
+
+ technology
+
+ rasprinter
+draw bitmap transparent clipping
+src hdc
+mask hdc
+ src
+ src
+src width
+src height
+ dest
+ dest
+dest width
+dest height
+ simple
+img width
+img height
+temp hdc
+
+create compatible
+ handle
+temp bitmap
+
+create compatible bitmap
+ handle
+dest width
+dest height
+old temp bitmap
+
+select object
+temp hdc
+temp bitmap
+
+bit blt
+temp hdc
+dest width
+dest height
+ handle
+ dest
+ dest
+
+ srccopy
+ simple
+src width
+dest width
+src height
+dest height
+
+ win
+
+set stretch blt mode
+temp hdc
+
+ coloroncolor
+
+stretch blt
+temp hdc
+dest width
+dest height
+src hdc
+ src
+ src
+src width
+src height
+
+ srcinvert
+
+stretch blt
+temp hdc
+dest width
+dest height
+mask hdc
+ src
+ src
+src width
+src height
+
+ srcand
+
+stretch blt
+temp hdc
+dest width
+dest height
+src hdc
+ src
+ src
+src width
+src height
+
+ srcinvert
+
+bit blt
+temp hdc
+dest width
+dest height
+src hdc
+ src
+ src
+
+ srcinvert
+
+bit blt
+temp hdc
+dest width
+dest height
+mask hdc
+ src
+ src
+
+ srcand
+
+bit blt
+temp hdc
+dest width
+dest height
+src hdc
+ src
+ src
+
+ srcinvert
+
+bit blt
+ handle
+ dest
+ dest
+dest width
+dest height
+temp hdc
+
+ srccopy
+
+select object
+temp hdc
+old temp bitmap
+
+ delete
+temp hdc
+
+delete object
+temp bitmap
+
+select object
+mask hdc
+old mask bitmap
+
+ delete
+mask hdc
+
+delete object
+mask bitmap
+
+select object
+src hdc
+old src bitmap
+ bitmap
+src image
+ handle
+
+delete object
+ bitmap
+
+ delete
+src hdc
+draw bitmap
+ image
+src image
+ src
+ src
+src width
+src height
+ dest
+ dest
+dest width
+dest height
+ simple
+ bitmap
+
+img width
+img height
+src hdc
+
+create compatible
+ handle
+old src bitmap
+
+select object
+src hdc
+src image
+ handle
+ rop
+
+ win
+ rop
+
+get rop
+ handle
+ rop
+
+set rop
+ handle
+
+ copypen
+
+set rop
+ handle
+ rop
+ rop
+ rop
+
+ xorpen
+
+ srcinvert
+
+ srccopy
+ simple
+src width
+dest width
+src height
+dest height
+ mode
+
+ win
+ mode
+
+set stretch blt mode
+ handle
+
+ coloroncolor
+
+stretch blt
+ handle
+ dest
+ dest
+dest width
+dest height
+src hdc
+ src
+ src
+src width
+src height
+ rop
+
+ win
+
+set stretch blt mode
+ handle
+ mode
+
+bit blt
+ handle
+ dest
+ dest
+dest width
+dest height
+src hdc
+ src
+ src
+ rop
+
+select object
+src hdc
+old src bitmap
+
+ delete
+src hdc
+draw line
+
+
+
+
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+gdip graphics
+ data
+gdip graphics
+gdip graphics
+init gdip
+ data
+line width
+ data
+line width
+ gdip
+graphics set pixel offset mode
+gdip graphics
+ gdip
+pixel offset mode none
+ gdip
+graphics draw line
+gdip graphics
+ data
+gdip pen
+
+
+
+
+ data
+line width
+ data
+line width
+ gdip
+graphics set pixel offset mode
+gdip graphics
+ gdip
+pixel offset mode half
+
+ win
+ points
+
+
+
+
+
+ polyline
+ handle
+ points
+ points
+ length
+
+ move
+ handle
+
+
+
+ line
+ handle
+
+
+ data
+line width
+
+set pixel
+ handle
+
+
+
+get text color
+ handle
+draw oval
+
+
+ width
+ height
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+gdip graphics
+ data
+gdip graphics
+gdip graphics
+init gdip
+ data
+line width
+ data
+line width
+ gdip
+graphics set pixel offset mode
+gdip graphics
+ gdip
+pixel offset mode none
+ gdip
+graphics draw ellipse
+gdip graphics
+ data
+gdip pen
+
+
+ width
+ height
+ data
+line width
+ data
+line width
+ gdip
+graphics set pixel offset mode
+gdip graphics
+ gdip
+pixel offset mode half
+null brush
+
+get stock object
+
+null brush
+old brush
+
+select object
+ handle
+null brush
+
+ ellipse
+ handle
+
+
+
+ width
+
+ height
+
+select object
+ handle
+old brush
+draw path
+ path
+ path
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ path
+ swt
+ error
+ swt
+error null argument
+ path
+ handle
+ swt
+ error
+ swt
+error invalid argument
+init gdip
+gdip graphics
+ data
+gdip graphics
+ data
+line width
+ data
+line width
+ gdip
+graphics set pixel offset mode
+gdip graphics
+ gdip
+pixel offset mode none
+ gdip
+graphics draw path
+gdip graphics
+ data
+gdip pen
+ path
+ handle
+ data
+line width
+ data
+line width
+ gdip
+graphics set pixel offset mode
+gdip graphics
+ gdip
+pixel offset mode half
+draw point
+
+
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+
+set pixel
+ handle
+
+
+
+get text color
+ handle
+draw polygon
+point array
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+point array
+ swt
+ error
+ swt
+error null argument
+gdip graphics
+ data
+gdip graphics
+gdip graphics
+init gdip
+ data
+line width
+ data
+line width
+ gdip
+graphics set pixel offset mode
+gdip graphics
+ gdip
+pixel offset mode none
+ gdip
+graphics draw polygon
+gdip graphics
+ data
+gdip pen
+point array
+point array
+ length
+ data
+line width
+ data
+line width
+ gdip
+graphics set pixel offset mode
+gdip graphics
+ gdip
+pixel offset mode half
+null brush
+
+get stock object
+
+null brush
+old brush
+
+select object
+ handle
+null brush
+
+ polygon
+ handle
+point array
+point array
+ length
+
+select object
+ handle
+old brush
+draw polyline
+point array
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+point array
+ swt
+ error
+ swt
+error null argument
+gdip graphics
+ data
+gdip graphics
+gdip graphics
+init gdip
+ data
+line width
+ data
+line width
+ gdip
+graphics set pixel offset mode
+gdip graphics
+ gdip
+pixel offset mode none
+ gdip
+graphics draw lines
+gdip graphics
+ data
+gdip pen
+point array
+point array
+ length
+ data
+line width
+ data
+line width
+ gdip
+graphics set pixel offset mode
+gdip graphics
+ gdip
+pixel offset mode half
+
+ polyline
+ handle
+point array
+point array
+ length
+ length
+point array
+ length
+ length
+ data
+line width
+
+set pixel
+ handle
+point array
+ length
+point array
+ length
+
+get text color
+ handle
+draw rectangle
+
+
+ width
+ height
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+gdip graphics
+ data
+gdip graphics
+gdip graphics
+init gdip
+ data
+line width
+ data
+line width
+ gdip
+graphics set pixel offset mode
+gdip graphics
+ gdip
+pixel offset mode none
+ gdip
+graphics draw rectangle
+gdip graphics
+ data
+gdip pen
+
+
+ width
+ height
+ data
+line width
+ data
+line width
+ gdip
+graphics set pixel offset mode
+gdip graphics
+ gdip
+pixel offset mode half
+ old
+
+select object
+ handle
+
+get stock object
+
+null brush
+
+ rectangle
+ handle
+
+
+
+ width
+
+ height
+
+select object
+ handle
+ old
+draw rectangle
+ rectangle
+ rect
+ rect
+ swt
+ error
+ swt
+error null argument
+draw rectangle
+ rect
+
+ rect
+
+ rect
+ width
+ rect
+ height
+draw round rectangle
+
+
+ width
+ height
+arc width
+arc height
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ data
+gdip graphics
+init gdip
+draw round rectangle gdip
+ data
+gdip graphics
+ data
+gdip pen
+
+
+ width
+ height
+arc width
+arc height
+
+ win
+ width
+ height
+arc width
+arc height
+draw rectangle
+
+
+ width
+ height
+ width
+
+ width
+ width
+ width
+ height
+
+ height
+ height
+ height
+arc width
+arc width
+arc width
+arc height
+arc height
+arc height
+arc width
+ width
+arc width
+ width
+arc height
+ height
+arc height
+ height
+arc width
+ width
+draw line
+
+arc width
+
+
+ width
+arc width
+
+draw line
+
+arc width
+
+ height
+
+ width
+arc width
+
+ height
+arc height
+ height
+draw line
+
+
+arc height
+
+
+ height
+arc height
+draw line
+
+ width
+
+arc height
+
+ width
+
+ height
+arc height
+arc width
+arc height
+draw arc
+
+
+arc width
+arc height
+draw arc
+
+ width
+arc width
+
+arc width
+arc height
+draw arc
+
+ width
+arc width
+
+ height
+arc height
+arc width
+arc height
+draw arc
+
+
+ height
+arc height
+arc width
+arc height
+null brush
+
+get stock object
+
+null brush
+old brush
+
+select object
+ handle
+null brush
+
+round rect
+ handle
+
+
+
+ width
+
+ height
+arc width
+arc height
+
+select object
+ handle
+old brush
+draw round rectangle gdip
+gdip graphics
+ brush
+
+
+ width
+ height
+arc width
+arc height
+
+
+
+
+
+ width
+
+ height
+ naw
+arc width
+ nah
+arc height
+
+
+
+
+
+
+
+
+
+
+
+
+ naw
+ naw
+ naw
+ nah
+ nah
+ nah
+ naw
+ naw
+ nah
+ nah
+ data
+line width
+ data
+line width
+ gdip
+graphics set pixel offset mode
+gdip graphics
+ gdip
+pixel offset mode none
+
+ naw
+
+ nah
+ gdip
+graphics draw arc
+gdip graphics
+ brush
+
+
+ naw
+ nah
+ gdip
+graphics draw line
+gdip graphics
+ brush
+
+ naw
+
+
+
+ naw
+
+ gdip
+graphics draw arc
+gdip graphics
+ brush
+
+
+ naw
+
+ naw
+ nah
+ gdip
+graphics draw line
+gdip graphics
+ brush
+
+
+
+ nah
+
+
+
+
+ nah
+ gdip
+graphics draw arc
+gdip graphics
+ brush
+
+
+ naw
+
+
+ nah
+ naw
+ nah
+ gdip
+graphics draw line
+gdip graphics
+ brush
+
+ naw
+
+
+
+
+ naw
+
+
+ gdip
+graphics draw arc
+gdip graphics
+ brush
+
+
+
+ nah
+ naw
+ nah
+ gdip
+graphics draw line
+gdip graphics
+ brush
+
+
+ nah
+
+
+
+ nah
+ gdip
+graphics draw arc
+gdip graphics
+ brush
+
+
+ naw
+
+ gdip
+graphics draw line
+gdip graphics
+ brush
+
+ naw
+
+
+
+ naw
+
+ gdip
+graphics draw arc
+gdip graphics
+ brush
+
+
+ naw
+
+ naw
+
+ gdip
+graphics draw line
+gdip graphics
+ brush
+
+ naw
+
+
+
+
+ naw
+
+
+
+ nah
+ gdip
+graphics draw arc
+gdip graphics
+ brush
+
+
+
+ nah
+ gdip
+graphics draw line
+gdip graphics
+ brush
+
+
+
+ nah
+
+
+
+
+ nah
+ gdip
+graphics draw arc
+gdip graphics
+ brush
+
+
+
+ nah
+
+ nah
+ gdip
+graphics draw line
+gdip graphics
+ brush
+
+
+ nah
+
+
+
+ nah
+ gdip
+graphics draw arc
+gdip graphics
+ brush
+
+
+
+
+ data
+line width
+ data
+line width
+ gdip
+graphics set pixel offset mode
+gdip graphics
+ gdip
+pixel offset mode half
+draw string
+ string
+ string
+
+
+draw string
+ string
+
+
+draw string
+ string
+ string
+
+
+ transparent
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ string
+ swt
+ error
+ swt
+error null argument
+ length
+ string
+ length
+ length
+ buffer
+ length
+ string
+get chars
+ length
+ buffer
+ data
+gdip graphics
+init gdip
+ transparent
+ font
+create gdip font
+ point
+
+ point
+
+
+
+
+
+
+ brush
+ gdip
+pen get brush
+ data
+gdip pen
+ format
+ gdip
+string format clone
+ gdip
+string format generic typographic
+ gdip
+string format set format flags
+ format
+ gdip
+string format get format flags
+ format
+ gdip
+string format flags measure trailing spaces
+ transparent
+ rect
+ bounds
+ rect
+ gdip
+graphics measure string
+ data
+gdip graphics
+ buffer
+ length
+ font
+
+ format
+ bounds
+ gdip
+graphics fill rectangle
+ data
+gdip graphics
+ data
+gdip brush
+ bounds
+
+ bounds
+
+ math
+ round
+ bounds
+ width
+ math
+ round
+ bounds
+ height
+ gdip
+graphics draw string
+ data
+gdip graphics
+ buffer
+ length
+ font
+
+ format
+ brush
+ gdip
+string format _delete
+ format
+destroy gdip brush
+ brush
+ gdip
+font _delete
+ font
+ rop
+
+ win
+ rop
+
+set rop
+ handle
+
+ copypen
+
+set rop
+ handle
+ rop
+ rop
+
+get rop
+ handle
+old mode
+
+set mode
+ handle
+ transparent
+
+ transparent
+
+ opaque
+ rop
+
+ xorpen
+
+ext text out
+ handle
+
+
+ buffer
+ length
+ foreground
+
+get text color
+ handle
+ transparent
+ size
+ size
+ size
+
+get text extent point
+ handle
+ buffer
+ length
+ size
+ width
+ size
+
+ height
+ size
+
+ bitmap
+
+create compatible bitmap
+ handle
+ width
+ height
+ bitmap
+ swt
+ error
+ swt
+error handles
+ mem
+
+create compatible
+ handle
+old bitmap
+
+select object
+ mem
+ bitmap
+
+pat blt
+ mem
+ width
+ height
+
+ blackness
+
+set mode
+ mem
+
+ transparent
+
+set text color
+ mem
+ foreground
+
+select object
+ mem
+
+get current object
+ handle
+
+obj font
+
+ext text out
+ mem
+ buffer
+ length
+
+bit blt
+ handle
+
+
+ width
+ height
+ mem
+
+ srcinvert
+
+select object
+ mem
+old bitmap
+
+ delete
+ mem
+
+delete object
+ bitmap
+ background
+
+get color
+ handle
+
+set text color
+ handle
+ foreground
+ background
+
+ext text out
+ handle
+
+
+ buffer
+ length
+
+set text color
+ handle
+ foreground
+
+set mode
+ handle
+old mode
+draw text
+ string
+ string
+
+
+draw text
+ string
+
+
+ swt
+draw delimiter
+ swt
+draw tab
+draw text
+ string
+ string
+
+
+ transparent
+ flags
+ swt
+draw delimiter
+ swt
+draw tab
+ transparent
+ flags
+ swt
+draw transparent
+draw text
+ string
+
+
+ flags
+draw text
+ string
+ string
+
+
+ flags
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ string
+ swt
+ error
+ swt
+error null argument
+ string
+ length
+ data
+gdip graphics
+init gdip
+ flags
+ swt
+draw transparent
+ length
+ string
+ length
+ buffer
+ length
+ string
+get chars
+ length
+ buffer
+ font
+create gdip font
+ point
+
+ point
+
+
+
+
+
+
+ brush
+ gdip
+pen get brush
+ data
+gdip pen
+ format
+ gdip
+string format clone
+ gdip
+string format generic typographic
+ gdip
+string format set format flags
+ format
+ gdip
+string format get format flags
+ format
+ gdip
+string format flags measure trailing spaces
+ tabs
+ flags
+ swt
+draw tab
+measure space
+ font
+ format
+ gdip
+string format set tab stops
+ format
+ tabs
+ length
+ tabs
+ gdip
+string format set hotkey prefix
+ format
+ flags
+ swt
+draw mnemonic
+ gdip
+hotkey prefix show
+ gdip
+hotkey prefix none
+ flags
+ swt
+draw transparent
+ rect
+ bounds
+ rect
+ gdip
+graphics measure string
+ data
+gdip graphics
+ buffer
+ length
+ font
+
+ format
+ bounds
+ gdip
+graphics fill rectangle
+ data
+gdip graphics
+ data
+gdip brush
+ bounds
+
+ bounds
+
+ math
+ round
+ bounds
+ width
+ math
+ round
+ bounds
+ height
+ gdip
+graphics draw string
+ data
+gdip graphics
+ buffer
+ length
+ font
+
+ format
+ brush
+ gdip
+string format _delete
+ format
+destroy gdip brush
+ brush
+ gdip
+font _delete
+ font
+ tchar
+ buffer
+ tchar
+get code page
+ string
+ length
+ buffer
+ length
+ length
+ rect
+ rect
+ rect
+ limit
+
+ win
+
+set rect
+ rect
+
+
+ limit
+ limit
+ format
+
+ left
+ flags
+ swt
+draw delimiter
+ format
+
+ singleline
+ flags
+ swt
+draw tab
+ format
+
+ expandtabs
+ flags
+ swt
+draw mnemonic
+ format
+
+ noprefix
+ rop
+
+ win
+ rop
+
+set rop
+ handle
+
+ copypen
+
+set rop
+ handle
+ rop
+ rop
+
+get rop
+ handle
+old mode
+
+set mode
+ handle
+ flags
+ swt
+draw transparent
+
+ transparent
+
+ opaque
+ rop
+
+ xorpen
+
+draw text
+ handle
+ buffer
+ length
+ rect
+ format
+ foreground
+
+get text color
+ handle
+ flags
+ swt
+draw transparent
+
+draw text
+ handle
+ buffer
+ buffer
+ length
+ rect
+ format
+
+ calcrect
+ width
+ rect
+ right
+ rect
+ left
+ height
+ rect
+ bottom
+ rect
+ top
+ bitmap
+
+create compatible bitmap
+ handle
+ width
+ height
+ bitmap
+ swt
+ error
+ swt
+error handles
+ mem
+
+create compatible
+ handle
+old bitmap
+
+select object
+ mem
+ bitmap
+
+pat blt
+ mem
+ width
+ height
+
+ blackness
+
+set mode
+ mem
+
+ transparent
+
+set text color
+ mem
+ foreground
+
+select object
+ mem
+
+get current object
+ handle
+
+obj font
+
+set rect
+ rect
+
+draw text
+ mem
+ buffer
+ length
+ rect
+ format
+
+bit blt
+ handle
+
+
+ width
+ height
+ mem
+
+ srcinvert
+
+select object
+ mem
+old bitmap
+
+ delete
+ mem
+
+delete object
+ bitmap
+ background
+
+get color
+ handle
+
+set text color
+ handle
+ foreground
+ background
+
+draw text
+ handle
+ buffer
+ length
+ rect
+ format
+
+set text color
+ handle
+ foreground
+
+set mode
+ handle
+old mode
+ equals
+ object
+ object
+ object
+ object
+
+ handle
+
+ object
+ handle
+fill arc
+
+
+ width
+ height
+start angle
+arc angle
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ width
+
+
+ width
+ width
+ width
+ height
+
+
+ height
+ height
+ height
+ width
+ height
+arc angle
+ data
+gdip graphics
+init gdip
+ gdip
+graphics fill pie
+ data
+gdip graphics
+ data
+gdip brush
+
+
+ width
+ height
+start angle
+arc angle
+
+ win
+arc angle
+start angle
+arc angle
+arc angle
+arc angle
+draw segments
+arc angle
+arc angle
+draw segments
+ points
+arc angle
+draw segments
+ cte
+
+ width
+ cte
+
+ height
+ index
+draw segments
+
+
+arc angle
+
+ points
+ index
+ compatibility
+ cos
+start angle
+
+ width
+ cte
+ points
+ index
+ cte
+ compatibility
+ sin
+start angle
+
+ height
+draw segments
+ points
+ points
+ points
+ length
+ cte
+ points
+ points
+ points
+ length
+ cte
+null pen
+
+get stock object
+
+null pen
+old pen
+
+select object
+ handle
+null pen
+
+ polygon
+ handle
+ points
+ points
+ length
+
+select object
+ handle
+old pen
+
+
+
+
+ tmp
+ negative
+arc angle
+arc angle
+
+
+
+ width
+
+
+
+ height
+ negative
+arc angle
+arc angle
+arc angle
+start angle
+ negative
+ tmp
+start angle
+start angle
+arc angle
+arc angle
+ tmp
+
+ compatibility
+ cos
+start angle
+ width
+
+ width
+
+ compatibility
+ sin
+start angle
+ height
+
+ height
+
+ compatibility
+ cos
+arc angle
+ width
+
+ width
+
+ compatibility
+ sin
+arc angle
+ height
+
+ height
+null pen
+
+get stock object
+
+null pen
+old pen
+
+select object
+ handle
+null pen
+
+ pie
+ handle
+
+
+
+ width
+
+ height
+
+
+
+
+
+select object
+ handle
+old pen
+fill gradient rectangle
+
+
+ width
+ height
+ vertical
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ width
+ height
+from color
+
+get text color
+ handle
+from color
+
+clr invalid
+from color
+
+get sys color
+
+color windowtext
+ color
+
+get color
+ handle
+ color
+
+clr invalid
+ color
+
+get sys color
+
+color window
+swap colors
+ width
+
+ width
+ width
+ width
+ vertical
+swap colors
+ height
+
+ height
+ height
+ height
+ vertical
+swap colors
+swap colors
+
+from color
+from color
+ color
+ color
+
+ rop
+
+ win
+ rop
+
+set rop
+ handle
+
+ copypen
+
+set rop
+ handle
+ rop
+ rop
+
+get rop
+ handle
+ rgb
+from rgb
+ rgb
+from color
+from color
+from color
+ rgb
+ rgb
+ rgb
+ color
+ color
+ color
+from rgb
+ red
+ rgb
+ red
+from rgb
+ green
+ rgb
+ green
+from rgb
+ blue
+ rgb
+ blue
+ rop
+ rop
+
+ xorpen
+
+ patinvert
+
+ patcopy
+
+pat blt
+ handle
+
+
+ width
+ height
+ rop
+ data
+gdip graphics
+init gdip
+ point
+
+ point
+
+ point
+
+
+
+
+
+
+ vertical
+
+
+
+
+
+
+
+
+ height
+
+
+
+
+ width
+
+
+
+
+ rgb
+from color
+from color
+from color
+from color
+ gdip
+color _new
+ data
+ alpha
+ rgb
+from color
+ swt
+ error
+ swt
+error handles
+ rgb
+ color
+ color
+ color
+ color
+ gdip
+color _new
+ data
+ alpha
+ rgb
+ color
+ swt
+ error
+ swt
+error handles
+ brush
+ gdip
+linear gradient brush _new
+
+
+from color
+ color
+ gdip
+graphics fill rectangle
+ data
+gdip graphics
+ brush
+
+
+ width
+ height
+ gdip
+linear gradient brush _delete
+ brush
+ gdip
+color _delete
+from color
+ gdip
+color _delete
+ color
+
+ win
+ rop
+
+ xorpen
+
+get device caps
+ handle
+
+ technology
+
+ rasprinter
+ heap
+
+get process heap
+ mesh
+
+heap alloc
+ heap
+
+heap zero memory
+gradient rect
+ sizeof
+ trivertex
+ sizeof
+ vertex
+ mesh
+gradient rect
+ sizeof
+gradient rect
+gradient rect
+gradient rect
+gradient rect
+upper left
+gradient rect
+lower right
+
+move memory
+ mesh
+gradient rect
+gradient rect
+ sizeof
+ trivertex
+ trivertex
+ trivertex
+ trivertex
+
+
+ trivertex
+
+
+ trivertex
+ red
+from rgb
+ red
+from rgb
+ red
+ trivertex
+ green
+from rgb
+ green
+from rgb
+ green
+ trivertex
+ blue
+from rgb
+ blue
+from rgb
+ blue
+ trivertex
+ alpha
+
+move memory
+ vertex
+ trivertex
+ trivertex
+ sizeof
+ trivertex
+
+
+ width
+ trivertex
+
+
+ height
+ trivertex
+ red
+ rgb
+ red
+ rgb
+ red
+ trivertex
+ green
+ rgb
+ green
+ rgb
+ green
+ trivertex
+ blue
+ rgb
+ blue
+ rgb
+ blue
+ trivertex
+ alpha
+
+move memory
+ vertex
+ trivertex
+ sizeof
+ trivertex
+ trivertex
+ sizeof
+ success
+
+gradient fill
+ handle
+ vertex
+ mesh
+ vertical
+
+gradient fill rect
+
+gradient fill rect
+
+heap free
+ heap
+ mesh
+ success
+ depth
+
+get device caps
+ handle
+
+ bitspixel
+bit resolution
+ depth
+ depth
+image data
+fill gradient rectangle
+ data
+ device
+
+
+ width
+ height
+ vertical
+from rgb
+ rgb
+bit resolution
+bit resolution
+bit resolution
+fill oval
+
+
+ width
+ height
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ data
+gdip graphics
+init gdip
+ gdip
+graphics fill ellipse
+ data
+gdip graphics
+ data
+gdip brush
+
+
+ width
+ height
+null pen
+
+get stock object
+
+null pen
+old pen
+
+select object
+ handle
+null pen
+
+ ellipse
+ handle
+
+
+
+ width
+
+ height
+
+select object
+ handle
+old pen
+fill path
+ path
+ path
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ path
+ swt
+ error
+ swt
+error null argument
+ path
+ handle
+ swt
+ error
+ swt
+error invalid argument
+init gdip
+ mode
+
+get poly fill mode
+ handle
+
+ winding
+ gdip
+fill mode winding
+ gdip
+fill mode alternate
+ gdip
+graphics path set fill mode
+ path
+ handle
+ mode
+ gdip
+graphics fill path
+ data
+gdip graphics
+ data
+gdip brush
+ path
+ handle
+fill polygon
+point array
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+point array
+ swt
+ error
+ swt
+error null argument
+ data
+gdip graphics
+init gdip
+ mode
+
+get poly fill mode
+ handle
+
+ winding
+ gdip
+fill mode winding
+ gdip
+fill mode alternate
+ gdip
+graphics fill polygon
+ data
+gdip graphics
+ data
+gdip brush
+point array
+point array
+ length
+ mode
+null pen
+
+get stock object
+
+null pen
+old pen
+
+select object
+ handle
+null pen
+
+ polygon
+ handle
+point array
+point array
+ length
+
+select object
+ handle
+old pen
+fill rectangle
+
+
+ width
+ height
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ data
+gdip graphics
+init gdip
+ gdip
+graphics fill rectangle
+ data
+gdip graphics
+ data
+gdip brush
+
+
+ width
+ height
+ rop
+
+ win
+ rop
+
+set rop
+ handle
+
+ copypen
+
+set rop
+ handle
+ rop
+ rop
+
+get rop
+ handle
+ rop
+ rop
+
+ xorpen
+
+ patinvert
+
+ patcopy
+
+pat blt
+ handle
+
+
+ width
+ height
+ rop
+fill rectangle
+ rectangle
+ rect
+ rect
+ swt
+ error
+ swt
+error null argument
+fill rectangle
+ rect
+
+ rect
+
+ rect
+ width
+ rect
+ height
+fill round rectangle
+
+
+ width
+ height
+arc width
+arc height
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ data
+gdip graphics
+init gdip
+fill round rectangle gdip
+ data
+gdip graphics
+ data
+gdip brush
+
+
+ width
+ height
+arc width
+arc height
+null pen
+
+get stock object
+
+null pen
+old pen
+
+select object
+ handle
+null pen
+
+round rect
+ handle
+
+
+
+ width
+
+ height
+arc width
+arc height
+
+select object
+ handle
+old pen
+fill round rectangle gdip
+gdip graphics
+ brush
+
+
+ width
+ height
+arc width
+arc height
+
+
+
+
+
+ width
+
+ height
+ naw
+arc width
+ nah
+arc height
+
+
+
+
+
+
+
+
+
+
+
+
+ naw
+ naw
+ naw
+ nah
+ nah
+ nah
+ naw
+ naw
+ nah
+ nah
+
+ naw
+
+ nah
+ gdip
+graphics fill pie
+gdip graphics
+ brush
+
+
+ naw
+ nah
+ gdip
+graphics fill rectangle
+gdip graphics
+ brush
+
+ naw
+
+
+ naw
+ nah
+ gdip
+graphics fill pie
+gdip graphics
+ brush
+
+
+ naw
+
+ naw
+ nah
+ gdip
+graphics fill rectangle
+gdip graphics
+ brush
+
+
+ nah
+
+
+ nah
+ gdip
+graphics fill pie
+gdip graphics
+ brush
+
+
+ naw
+
+
+ nah
+ naw
+ nah
+ gdip
+graphics fill rectangle
+gdip graphics
+ brush
+
+ naw
+
+
+ nah
+
+ naw
+ nah
+ gdip
+graphics fill pie
+gdip graphics
+ brush
+
+
+
+ nah
+ naw
+ nah
+ gdip
+graphics fill pie
+gdip graphics
+ brush
+
+
+ naw
+
+ gdip
+graphics fill rectangle
+gdip graphics
+ brush
+
+ naw
+
+
+ naw
+
+ gdip
+graphics fill pie
+gdip graphics
+ brush
+
+
+ naw
+
+ naw
+
+
+ nah
+ gdip
+graphics fill pie
+gdip graphics
+ brush
+
+
+
+ nah
+ gdip
+graphics fill rectangle
+gdip graphics
+ brush
+
+
+ nah
+
+
+ nah
+ gdip
+graphics fill pie
+gdip graphics
+ brush
+
+
+
+ nah
+
+ nah
+ gdip
+graphics fill pie
+gdip graphics
+ brush
+
+
+
+
+ flush
+ data
+gdip graphics
+ gdip
+graphics flush
+ data
+gdip graphics
+ hdc
+ gdip
+graphics get hdc
+ data
+gdip graphics
+ gdip
+graphics release hdc
+ data
+gdip graphics
+ hdc
+get advance width
+
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+
+ win
+ size
+ size
+ size
+
+get text extent point
+ handle
+
+ size
+ size
+
+ tch
+
+
+ tchar
+ buffer
+ tchar
+get code page
+
+ tch
+ buffer
+ tchar
+ width
+
+get char width
+ handle
+ tch
+ tch
+ width
+ width
+get advanced
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ data
+gdip graphics
+get alpha
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ data
+ alpha
+get antialias
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ data
+gdip graphics
+ swt
+ default
+ mode
+ gdip
+graphics get smoothing mode
+ data
+gdip graphics
+ mode
+ gdip
+smoothing mode default
+ swt
+ default
+ gdip
+smoothing mode high speed
+ gdip
+smoothing mode none
+ swt
+ off
+ gdip
+smoothing mode anti alias
+ gdip
+smoothing mode anti alias
+ gdip
+smoothing mode high quality
+ swt
+
+ swt
+ default
+ color
+get background
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ color
+
+get color
+ handle
+ color
+
+clr invalid
+ color
+
+get sys color
+
+color window
+ color
+win 32_new
+ data
+ device
+ color
+ pattern
+get background pattern
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ data
+background pattern
+get char width
+
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+
+ win
+ tch
+
+
+ tchar
+ buffer
+ tchar
+get code page
+
+ tch
+ buffer
+ tchar
+ width
+
+get char abc widths
+ handle
+ tch
+ tch
+ width
+ width
+ textmetric
+ lptm
+
+ unicode
+ textmetric
+ textmetricw
+ textmetrica
+
+get text metrics
+ handle
+ lptm
+ size
+ size
+ size
+
+get text extent point
+ handle
+
+ size
+ size
+
+ lptm
+ overhang
+ rectangle
+get clipping
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ data
+gdip graphics
+ rect
+ rect
+ rect
+ gdip
+graphics get clip bounds
+ data
+gdip graphics
+ rect
+ rectangle
+ rect
+
+ rect
+
+ rect
+ width
+ rect
+ height
+ rect
+ rect
+ rect
+
+get clip box
+ handle
+ rect
+ rectangle
+ rect
+ left
+ rect
+ top
+ rect
+ right
+ rect
+ left
+ rect
+ bottom
+ rect
+ top
+get clipping
+ region
+ region
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ region
+ swt
+ error
+ swt
+error null argument
+ region
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ data
+gdip graphics
+ rgn
+ gdip
+region _new
+ gdip
+graphics get clip
+ data
+gdip graphics
+ rgn
+ matrix
+ gdip
+matrix _new
+ identity
+ gdip
+matrix _new
+ gdip
+graphics get transform
+ data
+gdip graphics
+ matrix
+ gdip
+graphics set transform
+ data
+gdip graphics
+ identity
+ rgn
+ gdip
+region get hrgn
+ rgn
+ data
+gdip graphics
+ gdip
+graphics set transform
+ data
+gdip graphics
+ matrix
+ gdip
+matrix _delete
+ identity
+ gdip
+matrix _delete
+ matrix
+
+combine rgn
+ region
+ handle
+ rgn
+
+rgn copy
+ gdip
+region _delete
+ rgn
+ point
+
+ point
+
+get window org
+ handle
+
+ result
+
+get clip rgn
+ handle
+ region
+ handle
+ result
+ rect
+ rect
+ rect
+
+get clip box
+ handle
+ rect
+
+set rect rgn
+ region
+ handle
+ rect
+ left
+ rect
+ top
+ rect
+ right
+ rect
+ bottom
+
+offset rgn
+ region
+ handle
+
+
+
+
+
+ win
+meta rgn
+
+create rect rgn
+
+get meta rgn
+ handle
+meta rgn
+
+offset rgn
+meta rgn
+
+
+
+
+
+combine rgn
+ region
+ handle
+meta rgn
+ region
+ handle
+
+rgn and
+
+delete object
+meta rgn
+ flags
+
+win 32_ version
+
+ version
+ flags
+
+get layout
+ handle
+ hwnd
+ data
+ hwnd
+ hwnd
+ data
+
+ flags
+
+layout rtl
+sys rgn
+
+create rect rgn
+
+get random rgn
+ handle
+sys rgn
+
+ sysrgn
+
+ win
+
+map window points
+ hwnd
+
+
+offset rgn
+sys rgn
+
+
+
+
+
+combine rgn
+ region
+ handle
+sys rgn
+ region
+ handle
+
+rgn and
+
+delete object
+sys rgn
+get code page
+
+ unicode
+
+ acp
+
+
+
+get text charset
+ handle
+
+translate charset info
+
+
+
+tci srccharset
+
+get fill rule
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+
+ win
+ swt
+fill even odd
+
+get poly fill mode
+ handle
+
+ winding
+ swt
+fill winding
+ swt
+fill even odd
+ font
+get font
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ font
+
+get current object
+ handle
+
+obj font
+ font
+win 32_new
+ data
+ device
+ font
+font metrics
+get font metrics
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ textmetric
+ lptm
+
+ unicode
+ textmetric
+ textmetricw
+ textmetrica
+
+get text metrics
+ handle
+ lptm
+font metrics
+win 32_new
+ lptm
+ color
+get foreground
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ color
+
+get text color
+ handle
+ color
+
+clr invalid
+ color
+
+get sys color
+
+color windowtext
+ color
+win 32_new
+ data
+ device
+ color
+ pattern
+get foreground pattern
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ data
+foreground pattern
+get interpolation
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ data
+gdip graphics
+ swt
+ default
+ mode
+ gdip
+graphics get interpolation mode
+ data
+gdip graphics
+ mode
+ gdip
+interpolation mode default
+ swt
+ default
+ gdip
+interpolation mode nearest neighbor
+ swt
+ none
+ gdip
+interpolation mode bilinear
+ gdip
+interpolation mode low quality
+ swt
+ low
+ gdip
+interpolation mode bicubic
+ gdip
+interpolation mode high quality bilinear
+ gdip
+interpolation mode high quality bicubic
+ gdip
+interpolation mode high quality
+ swt
+ high
+ swt
+ default
+get line cap
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ style
+ size
+ pen
+
+get current object
+ handle
+
+obj pen
+ size
+
+get object
+ pen
+ logpen
+ logpen
+ sizeof
+ logpen
+log pen
+ logpen
+
+get object
+ pen
+ logpen
+ sizeof
+log pen
+ style
+log pen
+lopn style
+
+endcap flat
+ extlogpen
+log pen
+ extlogpen
+ size
+ extlogpen
+ sizeof
+
+get object
+ pen
+ size
+log pen
+ heap
+
+get process heap
+ ptr
+
+heap alloc
+ heap
+
+heap zero memory
+ size
+
+get object
+ pen
+ size
+ ptr
+
+move memory
+log pen
+ ptr
+ extlogpen
+ sizeof
+
+heap free
+ heap
+ ptr
+ style
+log pen
+elp pen style
+
+endcap mask
+ cap
+ swt
+cap round
+ style
+
+endcap round
+ cap
+ swt
+cap round
+
+endcap flat
+ cap
+ swt
+cap flat
+
+endcap square
+ cap
+ swt
+cap square
+ cap
+get line dash
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ data
+ dashes
+ dashes
+ data
+ dashes
+ length
+ system
+ arraycopy
+ data
+ dashes
+ dashes
+ dashes
+ length
+ dashes
+get line join
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ style
+ size
+ pen
+
+get current object
+ handle
+
+obj pen
+ size
+
+get object
+ pen
+ logpen
+ logpen
+ sizeof
+ logpen
+log pen
+ logpen
+
+get object
+ pen
+ logpen
+ sizeof
+log pen
+ style
+log pen
+lopn style
+
+join miter
+ extlogpen
+log pen
+ extlogpen
+ size
+ extlogpen
+ sizeof
+
+get object
+ pen
+ size
+log pen
+ heap
+
+get process heap
+ ptr
+
+heap alloc
+ heap
+
+heap zero memory
+ size
+
+get object
+ pen
+ size
+ ptr
+
+move memory
+log pen
+ ptr
+ extlogpen
+ sizeof
+
+heap free
+ heap
+ ptr
+ style
+log pen
+elp pen style
+
+join mask
+ join
+ swt
+join round
+ style
+
+join miter
+ join
+ swt
+join miter
+
+join round
+ join
+ swt
+join round
+
+join bevel
+ join
+ swt
+join bevel
+ join
+get line style
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ style
+ size
+ pen
+
+get current object
+ handle
+
+obj pen
+ size
+
+get object
+ pen
+ logpen
+ logpen
+ sizeof
+ logpen
+log pen
+ logpen
+
+get object
+ pen
+ logpen
+ sizeof
+log pen
+ style
+log pen
+lopn style
+ extlogpen
+log pen
+ extlogpen
+ size
+ extlogpen
+ sizeof
+
+get object
+ pen
+ size
+log pen
+ heap
+
+get process heap
+ ptr
+
+heap alloc
+ heap
+
+heap zero memory
+ size
+
+get object
+ pen
+ size
+ ptr
+
+move memory
+log pen
+ ptr
+ extlogpen
+ sizeof
+
+heap free
+ heap
+ ptr
+ style
+log pen
+elp pen style
+
+style mask
+ style
+
+ solid
+ swt
+line solid
+
+ dash
+ swt
+line dash
+
+ dot
+ swt
+line dot
+
+ dashdot
+ swt
+line dashdot
+
+ dashdotdot
+ swt
+line dashdotdot
+
+ userstyle
+ swt
+line custom
+ swt
+line solid
+get line width
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ size
+ pen
+
+get current object
+ handle
+
+obj pen
+ size
+
+get object
+ pen
+ logpen
+ logpen
+ sizeof
+ logpen
+log pen
+ logpen
+
+get object
+ pen
+ logpen
+ sizeof
+log pen
+log pen
+
+ extlogpen
+log pen
+ extlogpen
+ size
+ extlogpen
+ sizeof
+
+get object
+ pen
+ size
+log pen
+ heap
+
+get process heap
+ ptr
+
+heap alloc
+ heap
+
+heap zero memory
+ size
+
+get object
+ pen
+ size
+ ptr
+
+move memory
+log pen
+ ptr
+ extlogpen
+ sizeof
+
+heap free
+ heap
+ ptr
+log pen
+elp width
+get style
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ data
+ style
+get text antialias
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ data
+gdip graphics
+ swt
+ default
+ mode
+ gdip
+graphics get text rendering hint
+ data
+gdip graphics
+ mode
+ gdip
+text rendering hint system default
+ swt
+ default
+ gdip
+text rendering hint single bit per pixel
+ gdip
+text rendering hint single bit per pixel grid fit
+ swt
+ off
+ gdip
+text rendering hint anti alias
+ gdip
+text rendering hint anti alias grid fit
+ gdip
+text rendering hint clear type grid fit
+ swt
+
+ swt
+ default
+get transform
+ transform
+ transform
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ transform
+ swt
+ error
+ swt
+error null argument
+ transform
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+gdip graphics
+ data
+gdip graphics
+gdip graphics
+ gdip
+graphics get transform
+gdip graphics
+ transform
+ handle
+ transform
+set elements
+get xor mode
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ rop
+
+ win
+ rop
+
+set rop
+ handle
+
+ copypen
+
+set rop
+ handle
+ rop
+ rop
+
+get rop
+ handle
+ rop
+
+ xorpen
+init gdip
+ draw
+ fill
+ data
+ device
+check gdip
+gdip graphics
+ data
+gdip graphics
+gdip graphics
+ rgn
+
+create rect rgn
+ result
+
+get clip rgn
+ handle
+ rgn
+ point
+
+ point
+
+get window org
+ handle
+
+
+offset rgn
+ rgn
+
+
+
+
+
+select clip rgn
+ handle
+gdip graphics
+ data
+gdip graphics
+ gdip
+graphics _new
+ handle
+gdip graphics
+ swt
+ error
+ swt
+error handles
+ gdip
+graphics set pixel offset mode
+gdip graphics
+ gdip
+pixel offset mode half
+ result
+set clipping
+ rgn
+
+delete object
+ rgn
+ draw
+ data
+gdip pen
+ data
+gdip pen
+create gdip pen
+ fill
+ data
+gdip brush
+ data
+gdip brush
+create gdip brush
+ init
+ drawable
+ drawable
+ data
+ data
+
+ foreground
+ data
+ foreground
+ foreground
+
+get text color
+
+ foreground
+
+set text color
+
+ foreground
+new pen
+
+create pen
+
+ solid
+ foreground
+
+select object
+
+new pen
+ data
+ pen
+
+delete object
+ data
+ pen
+ data
+ pen
+new pen
+ background
+ data
+ background
+ background
+
+get color
+
+ background
+
+set color
+
+ background
+new brush
+
+create solid brush
+ background
+
+select object
+
+new brush
+ data
+ brush
+
+delete object
+ data
+ brush
+ data
+ brush
+new brush
+ font
+ data
+ font
+ font
+
+select object
+
+ font
+ palette
+ data
+ device
+ palette
+ palette
+
+select palette
+
+ palette
+
+realize palette
+
+ image
+ image
+ data
+ image
+ image
+ data
+null bitmap
+
+select object
+
+ image
+ handle
+ image
+ mem
+ layout
+ data
+ layout
+ layout
+
+ win
+
+win 32_ version
+
+ version
+ flags
+
+get layout
+
+ flags
+
+layout rtl
+ layout
+
+layout rtl
+ flags
+
+layout rtl
+
+set layout
+
+ flags
+ layout
+ data
+ style
+ swt
+right left
+ data
+ style
+ swt
+ mirrored
+ drawable
+ drawable
+ data
+ data
+ handle
+
+hash code
+ handle
+ clipped
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ region
+
+create rect rgn
+ result
+
+get clip rgn
+ handle
+ region
+
+delete object
+ region
+ result
+ disposed
+ handle
+measure space
+ font
+ format
+ point
+
+ point
+ rect
+ bounds
+ rect
+ gdip
+graphics measure string
+ data
+gdip graphics
+ font
+
+ format
+ bounds
+ bounds
+ width
+set advanced
+ advanced
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ advanced
+ data
+gdip graphics
+ advanced
+init gdip
+swt exception
+
+ foreground
+
+get text color
+ handle
+ background
+
+get color
+ handle
+ data
+gdip graphics
+ gdip
+graphics _delete
+ data
+gdip graphics
+ data
+gdip pen
+ gdip
+pen _delete
+ data
+gdip pen
+ data
+gdip brush
+destroy gdip brush
+ data
+gdip brush
+ data
+gdip graphics
+ data
+gdip brush
+ data
+gdip pen
+ data
+ alpha
+ data
+background pattern
+ data
+foreground pattern
+set clipping
+
+set text color
+ handle
+ foreground
+
+set color
+ handle
+ background
+ data
+ pen
+
+select object
+ handle
+ data
+ pen
+ data
+ brush
+
+select object
+ handle
+ data
+ brush
+set antialias
+ antialias
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ data
+gdip graphics
+ antialias
+ swt
+ default
+ mode
+ antialias
+ swt
+ default
+ mode
+ gdip
+smoothing mode default
+ swt
+ off
+ mode
+ gdip
+smoothing mode none
+ swt
+
+ mode
+ gdip
+smoothing mode anti alias
+ swt
+ error
+ swt
+error invalid argument
+init gdip
+ gdip
+graphics set smoothing mode
+ data
+gdip graphics
+ mode
+set alpha
+ alpha
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ data
+gdip graphics
+ alpha
+init gdip
+ data
+ alpha
+ alpha
+ data
+gdip pen
+ gdip
+pen _delete
+ data
+gdip pen
+ data
+gdip pen
+ data
+gdip brush
+destroy gdip brush
+ data
+gdip brush
+ data
+gdip brush
+set background
+ color
+ color
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ color
+ swt
+ error
+ swt
+error null argument
+ color
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ data
+background pattern
+ data
+gdip brush
+destroy gdip brush
+ data
+gdip brush
+ data
+gdip brush
+ data
+background pattern
+
+get color
+ handle
+ color
+ handle
+ data
+ background
+ color
+ handle
+
+set color
+ handle
+ color
+ handle
+new brush
+
+create solid brush
+ color
+ handle
+
+select object
+ handle
+new brush
+ data
+ brush
+
+delete object
+ data
+ brush
+ data
+ brush
+new brush
+ data
+gdip brush
+destroy gdip brush
+ data
+gdip brush
+ data
+gdip brush
+set background pattern
+ pattern
+ pattern
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ pattern
+ pattern
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ data
+gdip graphics
+ pattern
+init gdip
+ data
+gdip brush
+destroy gdip brush
+ data
+gdip brush
+ pattern
+ data
+gdip brush
+ gdip
+brush clone
+ pattern
+ handle
+ data
+gdip brush
+ data
+background pattern
+ pattern
+set clipping
+clip rgn
+ rgn
+clip rgn
+gdip graphics
+ data
+gdip graphics
+gdip graphics
+ rgn
+ region
+ gdip
+region _new
+ rgn
+ gdip
+graphics set clip
+gdip graphics
+ region
+ gdip
+combine mode replace
+ gdip
+region _delete
+ region
+ gdip
+graphics reset clip
+gdip graphics
+ point
+
+ rgn
+
+ point
+
+get window org
+ handle
+
+
+offset rgn
+ rgn
+
+
+
+
+
+select clip rgn
+ handle
+ rgn
+ rgn
+
+offset rgn
+ rgn
+
+
+
+
+ rgn
+ rgn
+clip rgn
+
+delete object
+ rgn
+set clipping
+
+
+ width
+ height
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ rgn
+
+create rect rgn
+
+
+
+ width
+
+ height
+set clipping
+ rgn
+
+delete object
+ rgn
+set clipping
+ path
+ path
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ path
+ path
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+set clipping
+ path
+init gdip
+ mode
+
+get poly fill mode
+ handle
+
+ winding
+ gdip
+fill mode winding
+ gdip
+fill mode alternate
+ gdip
+graphics path set fill mode
+ path
+ handle
+ mode
+ gdip
+graphics set clip
+ data
+gdip graphics
+ path
+ handle
+set clipping
+ rectangle
+ rect
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ rect
+set clipping
+set clipping
+ rect
+
+ rect
+
+ rect
+ width
+ rect
+ height
+set clipping
+ region
+ region
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ region
+ region
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+set clipping
+ region
+ region
+ handle
+set fill rule
+ rule
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+
+ win
+ mode
+
+ alternate
+ rule
+ swt
+fill winding
+ mode
+
+ winding
+ swt
+fill even odd
+ mode
+
+ alternate
+ swt
+ error
+ swt
+error invalid argument
+
+set poly fill mode
+ handle
+ mode
+set font
+ font
+ font
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ font
+
+select object
+ handle
+ data
+ device
+system font
+ font
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+
+select object
+ handle
+ font
+ handle
+set foreground
+ color
+ color
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ color
+ swt
+ error
+ swt
+error null argument
+ color
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ data
+foreground pattern
+ data
+gdip pen
+ gdip
+pen _delete
+ data
+gdip pen
+ data
+gdip pen
+ data
+foreground pattern
+
+get text color
+ handle
+ color
+ handle
+ data
+ foreground
+ color
+ handle
+
+set text color
+ handle
+ color
+ handle
+set pen
+ color
+ handle
+ data
+ dashes
+set foreground pattern
+ pattern
+ pattern
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ pattern
+ pattern
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ data
+gdip graphics
+ pattern
+init gdip
+ pattern
+ data
+gdip pen
+ gdip
+pen set brush
+ data
+gdip pen
+ pattern
+ handle
+ data
+gdip pen
+ gdip
+pen _delete
+ data
+gdip pen
+ data
+gdip pen
+ data
+foreground pattern
+ pattern
+set interpolation
+ interpolation
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ data
+gdip graphics
+ interpolation
+ swt
+ default
+ mode
+ interpolation
+ swt
+ default
+ mode
+ gdip
+interpolation mode default
+ swt
+ none
+ mode
+ gdip
+interpolation mode nearest neighbor
+ swt
+ low
+ mode
+ gdip
+interpolation mode low quality
+ swt
+ high
+ mode
+ gdip
+interpolation mode high quality
+ swt
+ error
+ swt
+error invalid argument
+init gdip
+ gdip
+graphics set interpolation mode
+ data
+gdip graphics
+ mode
+set line cap
+ cap
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+cap style
+ cap
+ swt
+cap round
+cap style
+
+endcap round
+ swt
+cap flat
+cap style
+
+endcap flat
+ swt
+cap square
+cap style
+
+endcap square
+ swt
+ error
+ swt
+error invalid argument
+set pen
+cap style
+ data
+ dashes
+set line dash
+ dashes
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ dashes
+ dashes
+ length
+ data
+ dashes
+ dashes
+ length
+
+
+ dashes
+ length
+
+ dash
+ dashes
+
+ dash
+ swt
+ error
+ swt
+error invalid argument
+ data
+ dashes
+
+ dash
+ data
+ dashes
+set pen
+ data
+ dashes
+
+ solid
+
+ userstyle
+ data
+ dashes
+set line join
+ join
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+join style
+ join
+ swt
+join miter
+join style
+
+join miter
+ swt
+join round
+join style
+
+join round
+ swt
+join bevel
+join style
+
+join bevel
+ swt
+ error
+ swt
+error invalid argument
+set pen
+join style
+ data
+ dashes
+set line style
+line style
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ style
+line style
+ swt
+line solid
+ style
+
+ solid
+ swt
+line dash
+ style
+
+ dash
+ swt
+line dot
+ style
+
+ dot
+ swt
+line dashdot
+ style
+
+ dashdot
+ swt
+line dashdotdot
+ style
+
+ dashdotdot
+ swt
+line custom
+ style
+ data
+ dashes
+
+ solid
+
+ userstyle
+ swt
+ error
+ swt
+error invalid argument
+
+set mode
+ handle
+ style
+
+ solid
+
+ opaque
+
+ transparent
+set pen
+ style
+ data
+ dashes
+set line width
+line width
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+set pen
+line width
+ data
+ dashes
+set pen
+new color
+new width
+line style
+cap style
+join style
+ dashes
+ext pen
+ changed
+ style
+ color
+ width
+ size
+ pen
+
+get current object
+ handle
+
+obj pen
+ size
+
+get object
+ pen
+ logpen
+ logpen
+ sizeof
+ logpen
+log pen
+ logpen
+
+get object
+ pen
+ logpen
+ sizeof
+log pen
+ color
+log pen
+lopn color
+ width
+log pen
+
+ style
+log pen
+lopn style
+ width
+new width
+line style
+
+ userstyle
+cap style
+cap style
+
+endcap flat
+join style
+join style
+
+join miter
+ extlogpen
+log pen
+ extlogpen
+ size
+ extlogpen
+ sizeof
+
+get object
+ pen
+ size
+log pen
+ heap
+
+get process heap
+ ptr
+
+heap alloc
+ heap
+
+heap zero memory
+ size
+
+get object
+ pen
+ size
+ ptr
+
+move memory
+log pen
+ ptr
+ extlogpen
+ sizeof
+
+heap free
+ heap
+ ptr
+ color
+log pen
+elp color
+ width
+log pen
+elp width
+ style
+log pen
+elp pen style
+ext pen
+new width
+ dashes
+ style
+
+endcap mask
+
+endcap flat
+ style
+
+join mask
+
+join miter
+ style
+
+endcap mask
+
+join mask
+
+type mask
+ext pen
+new color
+new color
+ color
+ color
+new color
+ changed
+new width
+new width
+ width
+ width
+new width
+ changed
+line style
+ style
+
+style mask
+line style
+ style
+
+style mask
+
+ userstyle
+ style
+ style
+
+style mask
+line style
+ changed
+cap style
+ style
+
+endcap mask
+cap style
+ style
+ style
+
+endcap mask
+cap style
+ changed
+join style
+ style
+
+join mask
+join style
+ style
+ style
+
+join mask
+join style
+ changed
+ changed
+ style
+
+style mask
+
+ userstyle
+ dashes
+new pen
+
+ win
+ext pen
+ width
+ style
+
+style mask
+
+ userstyle
+ logbrush
+log brush
+ logbrush
+log brush
+ style
+
+ solid
+log brush
+ color
+ color
+new pen
+
+ext create pen
+ style
+
+ geometric
+ math
+ max
+ width
+log brush
+ dashes
+ dashes
+ length
+ dashes
+new pen
+
+create pen
+ style
+ width
+ color
+
+select object
+ handle
+new pen
+ data
+ pen
+
+delete object
+ data
+ pen
+ data
+ pen
+new pen
+ data
+line width
+ width
+ data
+gdip pen
+ gdip
+pen _delete
+ data
+gdip pen
+ data
+gdip pen
+set xor mode
+ xor
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+
+set rop
+ handle
+ xor
+
+ xorpen
+
+ copypen
+set text antialias
+ antialias
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ data
+gdip graphics
+ antialias
+ swt
+ default
+text mode
+ antialias
+ swt
+ default
+text mode
+ gdip
+text rendering hint system default
+ swt
+ off
+text mode
+ gdip
+text rendering hint single bit per pixel grid fit
+ swt
+
+ type
+
+system parameters info
+
+spi getfontsmoothingtype
+ type
+ type
+
+ fontsmoothingcleartype
+text mode
+ gdip
+text rendering hint clear type grid fit
+text mode
+ gdip
+text rendering hint anti alias grid fit
+ swt
+ error
+ swt
+error invalid argument
+init gdip
+ gdip
+graphics set text rendering hint
+ data
+gdip graphics
+text mode
+set transform
+ transform
+ transform
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ transform
+ transform
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ data
+gdip graphics
+ transform
+init gdip
+ transform
+ gdip
+graphics set transform
+ data
+gdip graphics
+ transform
+ handle
+ identity
+ gdip
+matrix _new
+ gdip
+graphics set transform
+ data
+gdip graphics
+ identity
+ gdip
+matrix _delete
+ identity
+ point
+string extent
+ string
+ string
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ string
+ swt
+ error
+ swt
+error null argument
+ length
+ string
+ length
+ data
+gdip graphics
+ font
+create gdip font
+ point
+
+ point
+ rect
+ bounds
+ rect
+ buffer
+ length
+ buffer
+ length
+ string
+get chars
+ length
+ buffer
+ buffer
+ format
+ gdip
+string format clone
+ gdip
+string format generic typographic
+ gdip
+string format set format flags
+ format
+ gdip
+string format get format flags
+ format
+ gdip
+string format flags measure trailing spaces
+ gdip
+graphics measure string
+ data
+gdip graphics
+ buffer
+ buffer
+ length
+ font
+
+ format
+ bounds
+ gdip
+string format _delete
+ format
+ gdip
+font _delete
+ font
+ point
+ length
+ math
+ round
+ bounds
+ width
+ math
+ round
+ bounds
+ height
+ size
+ size
+ size
+ length
+
+get text extent point
+ handle
+ size
+ point
+ size
+
+ buffer
+ length
+ string
+get chars
+ length
+ buffer
+
+get text extent point
+ handle
+ buffer
+ length
+ size
+ point
+ size
+
+ size
+
+ point
+text extent
+ string
+ string
+text extent
+ string
+ swt
+draw delimiter
+ swt
+draw tab
+ point
+text extent
+ string
+ string
+ flags
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ string
+ swt
+ error
+ swt
+error null argument
+ data
+gdip graphics
+ font
+create gdip font
+ point
+
+ point
+ rect
+ bounds
+ rect
+ buffer
+ length
+ string
+ length
+ length
+ buffer
+ length
+ string
+get chars
+ length
+ buffer
+ buffer
+ format
+ gdip
+string format clone
+ gdip
+string format generic typographic
+ gdip
+string format set format flags
+ format
+ gdip
+string format get format flags
+ format
+ gdip
+string format flags measure trailing spaces
+ tabs
+ flags
+ swt
+draw tab
+measure space
+ font
+ format
+ gdip
+string format set tab stops
+ format
+ tabs
+ length
+ tabs
+ gdip
+string format set hotkey prefix
+ format
+ flags
+ swt
+draw mnemonic
+ gdip
+hotkey prefix show
+ gdip
+hotkey prefix none
+ gdip
+graphics measure string
+ data
+gdip graphics
+ buffer
+ buffer
+ length
+ font
+
+ format
+ bounds
+ gdip
+string format _delete
+ format
+ gdip
+font _delete
+ font
+ point
+ length
+ math
+ round
+ bounds
+ width
+ math
+ round
+ bounds
+ height
+ string
+ length
+ size
+ size
+ size
+
+get text extent point
+ handle
+ size
+ point
+ size
+
+ rect
+ rect
+ rect
+ tchar
+ buffer
+ tchar
+get code page
+ string
+ format
+
+ left
+
+ calcrect
+ flags
+ swt
+draw delimiter
+ format
+
+ singleline
+ flags
+ swt
+draw tab
+ format
+
+ expandtabs
+ flags
+ swt
+draw mnemonic
+ format
+
+ noprefix
+
+draw text
+ handle
+ buffer
+ buffer
+ length
+ rect
+ format
+ point
+ rect
+ right
+ rect
+ bottom
+ string
+ string
+ disposed
+ handle
+
+win 32_new
+ drawable
+ drawable
+ data
+ data
+
+
+
+
+ drawable
+internal _new
+ data
+
+ init
+ drawable
+ data
+
+
+
+win 32_new
+
+ data
+ data
+
+
+
+
+ init
+ data
+
+
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+class  code  code  where  all  the  drawing  capabilities  that  are  supported  swt  are  located  instances  are  used  draw  either  code  image  code  code  control  code  directly  code  display  code  styles  left  right  right  left  the  swt  drawing  coordinate  system  the  two  dimensional  space  with  the  origin  the  top  left  corner  the  drawing  area  and  with  values  increasing  the  right  and  downward  respectively  application  code  must  explicitly  invoke  the  code  dispose  code  method  release  the  operating  system  resources  managed  each  instance  when  those  instances  are  longer  required  this  particularly  important  windows  and  windows  where  the  operating  system  has  limited  number  device  contexts  available  note  only  one  left  right  and  right  left  may  specified  see  org  eclipse  swt  events paint event
+the  handle  the  device  context  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code 
+prevents  uninitialized  instances  from  being  created  outside  the  package
+constructs  new  instance  this  class  which  has  been  configured  draw  the  specified  drawable  sets  the  foreground  and  background  color  the  match  those  the  drawable  you  must  dispose  the  graphics  context  when  longer  required  param  drawable  the  drawable  draw  exception illegal argument exception  error  null  argument  the  drawable  null  error  null  argument  there  current  device  error  invalid  argument  the  drawable  image  that  not  bitmap  icon  the  drawable  image  printer  that  already  selected  into  another  graphics  context  exception swt error  error  handles  handle  could  not  obtained  for  creation 
+constructs  new  instance  this  class  which  has  been  configured  draw  the  specified  drawable  sets  the  foreground  and  background  color  the  match  those  the  drawable  you  must  dispose  the  graphics  context  when  longer  required  param  drawable  the  drawable  draw  param  style  the  style  construct  exception illegal argument exception  error  null  argument  the  drawable  null  error  null  argument  there  current  device  error  invalid  argument  the  drawable  image  that  not  bitmap  icon  the  drawable  image  printer  that  already  selected  into  another  graphics  context  exception swt error  error  handles  handle  could  not  obtained  for  creation  since 
+copies  rectangular  area  the  receiver  the  specified  position  into  the  image  which  must  type  code  swt  bitmap  code  param  image  the  image  copy  into  param  the  coordinate  the  receiver  the  area  copied  param  the  coordinate  the  receiver  the  area  copied  exception illegal argument exception  error  null  argument  the  image  null  error  invalid  argument  the  image  not  bitmap  has  been  disposed  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+get  the  hdc  for  the  device
+copy  the  bitmap  area
+release  the  hdc  for  the  device
+copies  rectangular  area  the  receiver  the  source  position  onto  the  receiver  the  destination  position  param  src  the  coordinate  the  receiver  the  area  copied  param  src  the  coordinate  the  receiver  the  area  copied  param  width  the  width  the  area  copy  param  height  the  height  the  area  copy  param  dest  the  coordinate  the  receiver  the  area  copy  param  dest  the  coordinate  the  receiver  the  area  copy  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+copies  rectangular  area  the  receiver  the  source  position  onto  the  receiver  the  destination  position  param  src  the  coordinate  the  receiver  the  area  copied  param  src  the  coordinate  the  receiver  the  area  copied  param  width  the  width  the  area  copy  param  height  the  height  the  area  copy  param  dest  the  coordinate  the  receiver  the  area  copy  param  dest  the  coordinate  the  receiver  the  area  copy  param  paint  code  true  code  paint  events  will  generated  for  old  and  obscured  areas  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+feature  win  the  function window from  not  part  the  win  sdk  the  fix  remember  the  hwnd
+feature  win scroll window  does  not  accept  combined  vertical  and  horizontal  scrolling  the  fix bit blt  and  invalidate  the  appropriate  source  area
+non  nls 
+non  nls 
+feature  windows  the  default  end  caps  endcap  round  and  the  default  line  join  join  round  which  are  different  from  other  platforms  the  fix  change  these  values  when  line  width  widened
+disposes  the  operating  system  resources  associated  with  the  graphics  context  applications  must  dispose  all  which  they  allocate
+select  stock  pen  and  brush  objects  and  free  resources
+put  back  the  original  bitmap  into  the  device  context  this  will  ensure  that  have  not  left  bitmap  selected  when  delete  the  hdc
+dispose  the  hdc
+draws  the  outline  circular  elliptical  arc  within  the  specified  rectangular  area  the  resulting  arc  begins  code start angle  code  and  extends  for  code arc angle  code  degrees  using  the  current  color  angles  are  interpreted  such  that  degrees  the  clock  position  positive  value  indicates  counter  clockwise  rotation  while  negative  value  indicates  clockwise  rotation  the  center  the  arc  the  center  the  rectangle  whose  origin  code  code  code  code  and  whose  size  specified  the  code  width  code  and  code  height  code  arguments  the  resulting  arc  covers  area  code  width  code  pixels  wide  code  height  code  pixels  tall  param  the  coordinate  the  upper  left  corner  the  arc  drawn  param  the  coordinate  the  upper  left  corner  the  arc  drawn  param  width  the  width  the  arc  drawn  param  height  the  height  the  arc  drawn  param start angle  the  beginning  angle  param arc angle  the  angular  extent  the  arc  relative  the  start  angle  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+feature  win  the  function  arc  not  present  the  win  sdk  the  fix  emulate  arc  drawing  using  polyline
+compute  arc  with  simple  linear  interpolation
+swap  angles
+draws  rectangle  based  the  specified  arguments  which  has  the  appearance  the  platform  focus  rectangle  the  platform  supports  such  notion  and  otherwise  draws  simple  rectangle  the  receiver  foreground  color  param  the  coordinate  the  rectangle  param  the  coordinate  the  rectangle  param  width  the  width  the  rectangle  param  height  the  height  the  rectangle  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see draw rectangle  int  int  int  int
+draws  the  given  image  the  receiver  the  specified  coordinates  param  image  the  image  draw  param  the  coordinate  where  draw  param  the  coordinate  where  draw  exception illegal argument exception  error  null  argument  the  image  null  error  invalid  argument  the  image  has  been  disposed  error  invalid  argument  the  given  coordinates  are  outside  the  bounds  the  image  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  exception swt error  error  handles  handles  are  available  perform  the  operation 
+copies  rectangular  area  from  the  source  image  into  potentially  different  sized  rectangular  area  the  receiver  the  source  and  destination  areas  are  differing  sizes  then  the  source  area  will  stretched  shrunk  fit  the  destination  area  copied  the  copy  fails  any  part  the  source  rectangle  lies  outside  the  bounds  the  source  image  any  the  width  height  arguments  are  negative  param  image  the  source  image  param  src  the  coordinate  the  source  image  copy  from  param  src  the  coordinate  the  source  image  copy  from  param src width  the  width  pixels  copy  from  the  source  param src height  the  height  pixels  copy  from  the  source  param  dest  the  coordinate  the  destination  copy  param  dest  the  coordinate  the  destination  copy  param dest width  the  width  pixels  the  destination  rectangle  param dest height  the  height  pixels  the  destination  rectangle  exception illegal argument exception  error  null  argument  the  image  null  error  invalid  argument  the  image  has  been  disposed  error  invalid  argument  any  the  width  height  arguments  are  negative  error  invalid  argument  the  source  rectangle  not  contained  within  the  bounds  the  source  image  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  exception swt error  error  handles  handles  are  available  perform  the  operation 
+todo  cache  bitmap
+simple  case  stretching  entire  icon
+get  the  icon  info
+get  the  icon  width  and  height
+draw  the  icon
+simple  case  stretching  entire  icon
+create  the  icon  info  and  hdc 
+blt  the  color  bitmap
+blt  the  mask  bitmap
+destroy  the  new  icon  src  and  mask  and  hdc 
+free  icon  info
+simple  cases
+feature  windows alpha blend  alters  the  alpha  channel  the  destination  bit  depth  bitmap  the  fix  draw  temporary  bit  depth  bitmap  first  and  then  draw  the  temporary  bitmap
+check  clipping
+optimization  recalculate  src  and  dest  rectangles  that  only  the  clipping  area  drawn
+create  resources
+get  the  background  pixels
+get  the  foreground  pixels
+merge  the  alpha  channel  place
+scale  the  foreground  pixels  with  alpha
+bug  win  and  win stretch blt  does  not  correctly  stretch  when  the  source  and  destination  are  the  same  the  workaround  stretch  temporary  hdc  and  blit  back  into  the  original  hdc  note  that  win stretch blt  correctly  compresses  the  image  when  the  source  and  destination  are  the  same
+compose  the  pixels
+draw  the  composed  pixels
+free  resources
+create  clipping  region  from  the  mask
+stretch  the  clipping  mask  needed
+find  the  rgb  values  for  the  transparent  pixel
+palette  based  dibsection
+palette  based  bitmap
+set  the  few  fields  necessary  get  the  rgb  data  out
+direct  color  image
+note  win transparent image  uses  the  first  entry  palette  based  image  when  there  are  multiple  entries  that  have  the  same  transparent  color
+create  the  mask  for  the  source  image
+most  printers  not  support bit blt  draw  the  source  bitmap  transparently  using  clipping
+draw  the  source  bitmap  transparently  using  invert  and  mask  invert
+draws  line  using  the  foreground  color  between  the  points  code  code  code  code  and  code  code  code  code  param  the  first  point  coordinate  param  the  first  point  coordinate  param  the  second  point  coordinate  param  the  second  point  coordinate  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+draws  the  outline  oval  using  the  foreground  color  within  the  specified  rectangular  area  the  result  circle  ellipse  that  fits  within  the  rectangle  specified  the  code  code  code  code  code  width  code  and  code  height  code  arguments  the  oval  covers  area  that  code  width  code  pixels  wide  and  code  height  code  pixels  tall  param  the  coordinate  the  upper  left  corner  the  oval  drawn  param  the  coordinate  the  upper  left  corner  the  oval  drawn  param  width  the  width  the  oval  drawn  param  height  the  height  the  oval  drawn  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+check  performance  impact  always  setting  null  brush  the  user  has  not
+set  the  background  color  may  not  have  this  work
+draws  the  path  described  the  parameter  param  path  the  path  draw  exception illegal argument exception  error  null  argument  the  parameter  null  error  invalid  argument  the  parameter  has  been  disposed  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see  path  since 
+draws  pixel  using  the  foreground  color  the  specified  point  code  code  code  code  note  that  the  receiver  line  attributes  not  affect  this  operation  param  the  point  coordinate  param  the  point  coordinate  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+draws  the  closed  polygon  which  defined  the  specified  array  integer  coordinates  using  the  receiver  foreground  color  the  array  contains  alternating  and  values  which  are  considered  represent  points  which  are  the  vertices  the  polygon  lines  are  drawn  between  each  consecutive  pair  and  between  the  first  pair  and  last  pair  the  array  param point array  array  alternating  and  values  which  are  the  vertices  the  polygon  exception illegal argument exception  error  null  argument point array  null  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+draws  the  polyline  which  defined  the  specified  array  integer  coordinates  using  the  receiver  foreground  color  the  array  contains  alternating  and  values  which  are  considered  represent  points  which  are  the  corners  the  polyline  lines  are  drawn  between  each  consecutive  pair  but  not  between  the  first  pair  and  last  pair  the  array  param point array  array  alternating  and  values  which  are  the  corners  the  polyline  exception illegal argument exception  error  null  argument  the  point  array  null  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+draws  the  outline  the  rectangle  specified  the  arguments  using  the  receiver  foreground  color  the  left  and  right  edges  the  rectangle  are  code  code  and  code  width  code  the  top  and  bottom  edges  are  code  code  and  code  height  code  param  the  coordinate  the  rectangle  drawn  param  the  coordinate  the  rectangle  drawn  param  width  the  width  the  rectangle  drawn  param  height  the  height  the  rectangle  drawn  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+draws  the  outline  the  specified  rectangle  using  the  receiver  foreground  color  the  left  and  right  edges  the  rectangle  are  code  rect  code  and  code  rect  rect  width  code  the  top  and  bottom  edges  are  code  rect  code  and  code  rect  rect  height  code  param  rect  the  rectangle  draw  exception illegal argument exception  error  null  argument  the  rectangle  null  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+draws  the  outline  the  round  cornered  rectangle  specified  the  arguments  using  the  receiver  foreground  color  the  left  and  right  edges  the  rectangle  are  code  code  and  code  width  code  the  top  and  bottom  edges  are  code  code  and  code  height  code  the  roundness  the  corners  specified  the  code arc width  code  and  code arc height  code  arguments  which  are  respectively  the  width  and  height  the  ellipse  used  draw  the  corners  param  the  coordinate  the  rectangle  drawn  param  the  coordinate  the  rectangle  drawn  param  width  the  width  the  rectangle  drawn  param  height  the  height  the  rectangle  drawn  param arc width  the  width  the  arc  param arc height  the  height  the  arc  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+bug  win  ppc  certain  devices round rect  does  not  draw  all  the  pixels  the  workaround  draw  round  rectangle  using  lines  and  arcs
+draws  the  given  string  using  the  receiver  current  font  and  foreground  color  tab  expansion  carriage  return  processing  will  performed  the  background  the  rectangular  area  where  the  string  being  drawn  will  filled  with  the  receiver  background  color  param  string  the  string  drawn  param  the  coordinate  the  top  left  corner  the  rectangular  area  where  the  string  drawn  param  the  coordinate  the  top  left  corner  the  rectangular  area  where  the  string  drawn  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+draws  the  given  string  using  the  receiver  current  font  and  foreground  color  tab  expansion  carriage  return  processing  will  performed  code  transparent  code  code  true  code  then  the  background  the  rectangular  area  where  the  string  being  drawn  will  not  modified  otherwise  will  filled  with  the  receiver  background  color  param  string  the  string  drawn  param  the  coordinate  the  top  left  corner  the  rectangular  area  where  the  string  drawn  param  the  coordinate  the  top  left  corner  the  rectangular  area  where  the  string  drawn  param  transparent  code  true  code  the  background  will  transparent  otherwise  will  opaque  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+tchar  buffer  new  tchar get code page  string  false
+draws  the  given  string  using  the  receiver  current  font  and  foreground  color  tab  expansion  and  carriage  return  processing  are  performed  the  background  the  rectangular  area  where  the  text  being  drawn  will  filled  with  the  receiver  background  color  param  string  the  string  drawn  param  the  coordinate  the  top  left  corner  the  rectangular  area  where  the  text  drawn  param  the  coordinate  the  top  left  corner  the  rectangular  area  where  the  text  drawn  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+draws  the  given  string  using  the  receiver  current  font  and  foreground  color  tab  expansion  and  carriage  return  processing  are  performed  code  transparent  code  code  true  code  then  the  background  the  rectangular  area  where  the  text  being  drawn  will  not  modified  otherwise  will  filled  with  the  receiver  background  color  param  string  the  string  drawn  param  the  coordinate  the  top  left  corner  the  rectangular  area  where  the  text  drawn  param  the  coordinate  the  top  left  corner  the  rectangular  area  where  the  text  drawn  param  transparent  code  true  code  the  background  will  transparent  otherwise  will  opaque  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+draws  the  given  string  using  the  receiver  current  font  and  foreground  color  tab  expansion  line  delimiter  and  mnemonic  processing  are  performed  according  the  specified  flags  code  flags  code  includes  code  draw  transparent  code  then  the  background  the  rectangular  area  where  the  text  being  drawn  will  not  modified  otherwise  will  filled  with  the  receiver  background  color  the  parameter  code  flags  code  may  combination  draw  delimiter  draw  multiple  lines  draw  tab  expand  tabs  draw  mnemonic  underline  the  mnemonic  character  draw  transparent  transparent  background  param  string  the  string  drawn  param  the  coordinate  the  top  left  corner  the  rectangular  area  where  the  text  drawn  param  the  coordinate  the  top  left  corner  the  rectangular  area  where  the  text  drawn  param  flags  the  flags  specifing  how  process  the  text  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+feature  windows  for  some  reason draw text  the  maximum  value  for  the  bottom  and  right  coordinates  for  the  rect  that  used  position  the  text  different  between  windows  versions  this  value  larger  than  the  maximum  nothing  drawn  windows  the  limit  fff  windows  and  2000  ffffff  and  fffffff  the  fix  use  the  the  smaller  limit  for  windows  and  the  larger  limit  the  other  windows  platforms
+compares  the  argument  the  receiver  and  returns  true  they  represent  the  same  object  using  class  specific  comparison  param  object  the  object  compare  with  this  object  return  code  true  code  the  object  the  same  this  object  and  code  false  code  otherwise  see hash code
+fills  the  interior  circular  elliptical  arc  within  the  specified  rectangular  area  with  the  receiver  background  color  the  resulting  arc  begins  code start angle  code  and  extends  for  code arc angle  code  degrees  using  the  current  color  angles  are  interpreted  such  that  degrees  the  clock  position  positive  value  indicates  counter  clockwise  rotation  while  negative  value  indicates  clockwise  rotation  the  center  the  arc  the  center  the  rectangle  whose  origin  code  code  code  code  and  whose  size  specified  the  code  width  code  and  code  height  code  arguments  the  resulting  arc  covers  area  code  width  code  pixels  wide  code  height  code  pixels  tall  param  the  coordinate  the  upper  left  corner  the  arc  filled  param  the  coordinate  the  upper  left  corner  the  arc  filled  param  width  the  width  the  arc  filled  param  height  the  height  the  arc  filled  param start angle  the  beginning  angle  param arc angle  the  angular  extent  the  arc  relative  the  start  angle  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see draw arc
+feature  win  the  function  pie  not  present  the  win  sdk  the  fix  emulate  using  polygon
+compute  arc  with  simple  linear  interpolation
+swap  angles
+fills  the  interior  the  specified  rectangle  with  gradient  sweeping  from  left  right  top  bottom  progressing  from  the  receiver  foreground  color  its  background  color  param  the  coordinate  the  rectangle  filled  param  the  coordinate  the  rectangle  filled  param  width  the  width  the  rectangle  filled  may  negative  inverts  direction  gradient  horizontal  param  height  the  height  the  rectangle  filled  may  negative  inverts  direction  gradient  vertical  param  vertical  true  sweeps  from  top  bottom  else  sweeps  from  left  right  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see draw rectangle  int  int  int  int
+use gradient fill  supported  only  windows  2000  and  newer
+bug  windows  windows  2000  when  the  device  printer gradient fill  swaps  red  and  blue  color  components  causing  the  gradient  printed  the  wrong  color  windows  when  the  device  printer gradient fill  does  not  fill  completely  the  right  edge  the  rectangle  the  fix  not  use gradient fill  for  printer  devices
+fills  the  interior  oval  within  the  specified  rectangular  area  with  the  receiver  background  color  param  the  coordinate  the  upper  left  corner  the  oval  filled  param  the  coordinate  the  upper  left  corner  the  oval  filled  param  width  the  width  the  oval  filled  param  height  the  height  the  oval  filled  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see draw oval
+assumes  that  user  sets  the  background  color
+fills  the  path  described  the  parameter  param  path  the  path  fill  exception illegal argument exception  error  null  argument  the  parameter  null  error  invalid  argument  the  parameter  has  been  disposed  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see  path  since 
+fills  the  interior  the  closed  polygon  which  defined  the  specified  array  integer  coordinates  using  the  receiver  background  color  the  array  contains  alternating  and  values  which  are  considered  represent  points  which  are  the  vertices  the  polygon  lines  are  drawn  between  each  consecutive  pair  and  between  the  first  pair  and  last  pair  the  array  param point array  array  alternating  and  values  which  are  the  vertices  the  polygon  exception illegal argument exception  error  null  argument point array  null  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see draw polygon
+fills  the  interior  the  rectangle  specified  the  arguments  using  the  receiver  background  color  param  the  coordinate  the  rectangle  filled  param  the  coordinate  the  rectangle  filled  param  width  the  width  the  rectangle  filled  param  height  the  height  the  rectangle  filled  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see draw rectangle  int  int  int  int
+fills  the  interior  the  specified  rectangle  using  the  receiver  background  color  param  rect  the  rectangle  filled  exception illegal argument exception  error  null  argument  the  rectangle  null  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see draw rectangle  int  int  int  int
+fills  the  interior  the  round  cornered  rectangle  specified  the  arguments  using  the  receiver  background  color  param  the  coordinate  the  rectangle  filled  param  the  coordinate  the  rectangle  filled  param  width  the  width  the  rectangle  filled  param  height  the  height  the  rectangle  filled  param arc width  the  width  the  arc  param arc height  the  height  the  arc  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see draw round rectangle
+note  flush  does  not  flush  the  output  the  underline  hdc  this  done  calling get hdc  followed release hdc
+returns  the  advance  width  the  specified  character  the  font  which  currently  selected  into  the  receiver  the  advance  width  defined  the  horizontal  distance  the  cursor  should  move  after  printing  the  character  the  selected  font  param  the  character  measure  return  the  distance  the  direction  move  past  the  character  before  painting  the  next  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  code  true  code  receiver  using  the  operating  system  advanced  graphics  subsystem  otherwise  code  false  code  returned  indicate  that  normal  graphics  are  use  advanced  graphics  may  not  installed  for  the  operating  system  this  case  code  false  code  always  returned  some  operating  system  have  only  one  graphics  subsystem  this  subsystem  supports  advanced  graphics  then  code  true  code  always  returned  any  graphics  operation  such  alpha  antialias  patterns  interpolation  paths  clipping  transformation  has  caused  the  receiver  switch  from  regular  advanced  graphics  mode  code  true  code  returned  the  receiver  has  been  explicitly  switched  advanced  mode  and  this  mode  supported  code  true  code  returned  return  the  advanced  value  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see set advanced  since 
+returns  the  receiver  alpha  value  return  the  alpha  value  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+returns  the  receiver  anti  aliasing  setting  value  which  will  one  code  swt  default  code  code  swt  off  code  code  swt  code  note  that  this  controls  anti  aliasing  for  all  non  text  drawing  operations  return  the  anti  aliasing  setting  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see get text antialias  since 
+returns  the  background  color  return  the  receiver  background  color  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  background  pattern  the  default  value  code  null  code  return  the  receiver  background  pattern  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see  pattern  since 
+returns  the  width  the  specified  character  the  font  selected  into  the  receiver  the  width  defined  the  space  taken  the  actual  character  not  including  the  leading  and  tailing  whitespace  overhang  param  the  character  measure  return  the  width  the  character  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+get char abc widths  only  succeeds  truetype  fonts
+wasn  truetype  font
+returns  the  bounding  rectangle  the  receiver  clipping  region  clipping  region  set  the  return  value  will  rectangle  which  covers  the  entire  bounds  the  object  the  receiver  drawing  return  the  bounding  rectangle  the  clipping  region  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+sets  the  region  managed  the  argument  the  current  clipping  region  the  receiver  param  region  the  region  fill  with  the  clipping  region  exception illegal argument exception  error  null  argument  the  region  null  error  invalid  argument  the  region  disposed  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  receiver  fill  rule  which  will  one  code  swt  fill  even  odd  code  code  swt  fill  winding  code  return  the  receiver  fill  rule  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+returns  the  font  currently  being  used  the  receiver  draw  and  measure  text  return  the  receiver  font  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns font metrics  which  contains  information  about  the  font  currently  being  used  the  receiver  draw  and  measure  text  return  font  metrics  for  the  receiver  font  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  receiver  foreground  color  return  the  color  used  for  drawing  foreground  things  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  foreground  pattern  the  default  value  code  null  code  return  the  receiver  foreground  pattern  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see  pattern  since 
+returns  the  receiver  interpolation  setting  which  will  one  code  swt  default  code  code  swt  none  code  code  swt  low  code  code  swt  high  code  return  the  receiver  interpolation  setting  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+returns  the  receiver  line  cap  style  which  will  one  the  constants  code  swt  cap  flat  code  code  swt  cap  round  code  code  swt  cap  square  code  return  the  cap  style  used  for  drawing  lines  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+returns  the  receiver  line  dash  style  the  default  value  code  null  code  return  the  lin  dash  style  used  for  drawing  lines  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+returns  the  receiver  line  join  style  which  will  one  the  constants  code  swt  join  miter  code  code  swt  join  round  code  code  swt  join  bevel  code  return  the  join  style  used  for  drawing  lines  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+returns  the  receiver  line  style  which  will  one  the  constants  code  swt  line  solid  code  code  swt  line  dash  code  code  swt  line  dot  code  code  swt  line  dashdot  code  code  swt  line  dashdotdot  code  return  the  style  used  for  drawing  lines  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  width  that  will  used  when  drawing  lines  for  all  the  figure  drawing  operations  that  code draw line  code  code draw rectangle  code  code draw polyline  code  and  forth  return  the  receiver  line  width  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  receiver  style  information  note  that  the  value  which  returned  this  method  may  not  match  the  value  which  was  provided  the  constructor  when  the  receiver  was  created  this  can  occur  when  the  underlying  operating  system  does  not  support  particular  combination  requested  styles  return  the  style  bits  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+returns  the  receiver  text  drawing  anti  aliasing  setting  value  which  will  one  code  swt  default  code  code  swt  off  code  code  swt  code  note  that  this  controls  anti  aliasing  only  for  text  drawing  operations  return  the  anti  aliasing  setting  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see get antialias  since 
+sets  the  parameter  the  transform  that  currently  being  used  the  receiver  param  transform  the  destination  copy  the  transform  into  exception illegal argument exception  error  null  argument  the  parameter  null  error  invalid  argument  the  parameter  has  been  disposed  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see  transform  since 
+returns  code  true  code  this  drawing  the  mode  where  the  resulting  color  the  destination  the  exclusive  the  color  values  the  source  and  the  destination  and  code  false  code  drawing  the  mode  where  the  destination  color  being  replaced  with  the  source  color  value  return  code  true  code  true  the  receiver  xor  mode  and  false  otherwise  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+feature  gdi  the  gdi  clipping  set  with  graphics set clip  always  intersected  with  the  gdi  clipping  the  time  the  gdi  graphics  created  this  means  that  the  clipping  cannot  reset  the  fix  clear  the  clipping  before  the  gdi  graphics  created  and  reset  afterwards
+returns  integer  hash  code  for  the  receiver  any  two  objects  that  return  code  true  code  when  passed  code  equals  code  must  return  the  same  value  for  this  method  return  the  receiver  hash  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see  equals
+returns  code  true  code  the  receiver  has  clipping  region  set  into  and  code  false  code  otherwise  this  method  returns  false  the  receiver  will  draw  all  available  space  the  destination  returns  true  will  draw  only  the  area  that  covered  the  region  that  can  accessed  with  code get clipping  region  code  return  code  true  code  the  has  clipping  region  and  code  false  code  otherwise  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  code  true  code  the  has  been  disposed  and  code  false  code  otherwise  this  method  gets  the  dispose  state  for  the  when  has  been  disposed  error  invoke  any  other  method  using  the  return  code  true  code  when  the  disposed  and  code  false  code  otherwise
+sets  the  receiver  always  use  the  operating  system  advanced  graphics  subsystem  for  all  graphics  operations  the  argument  code  true  code  the  argument  code  false  code  the  advanced  graphics  subsystem  longer  used  advanced  graphics  state  cleared  and  the  normal  graphics  subsystem  used  from  now  normally  the  advanced  graphics  subsystem  invoked  automatically  when  any  one  the  alpha  antialias  patterns  interpolation  paths  clipping  transformation  operations  the  receiver  requested  when  the  receiver  switched  into  advanced  mode  the  advanced  graphics  subsystem  performs  both  advanced  and  normal  graphics  operations  because  the  two  subsystems  are  different  their  output  may  differ  switching  advanced  graphics  before  any  graphics  operations  are  performed  ensures  that  the  output  consistent  advanced  graphics  may  not  installed  for  the  operating  system  this  case  this  operation  does  nothing  some  operating  system  have  only  one  graphics  subsystem  switching  from  normal  advanced  graphics  does  nothing  however  switching  from  advanced  normal  graphics  will  always  clear  the  advanced  graphics  state  even  for  operating  systems  that  have  only  one  graphics  subsystem  param  advanced  the  new  advanced  graphics  state  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see set alpha  see set antialias  see set background pattern  see set clipping  path  see set foreground pattern  see set interpolation  see set text antialias  see set transform  see get advanced  since 
+sets  the  receiver  anti  aliasing  value  the  parameter  which  must  one  code  swt  default  code  code  swt  off  code  code  swt  code  note  that  this  controls  anti  aliasing  for  all  non  text  drawing  operations  param  antialias  the  anti  aliasing  setting  exception illegal argument exception  error  invalid  argument  the  parameter  not  one  code  swt  default  code  code  swt  off  code  code  swt  code  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see set text antialias  since 
+sets  the  receiver  alpha  value  param  alpha  the  alpha  value  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+sets  the  background  color  the  background  color  used  for  fill  operations  and  the  background  color  when  text  drawn  param  color  the  new  background  color  for  the  receiver  exception illegal argument exception  error  null  argument  the  color  null  error  invalid  argument  the  color  has  been  disposed  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+sets  the  background  pattern  the  default  value  code  null  code  param  pattern  the  new  background  pattern  exception illegal argument exception  error  invalid  argument  the  parameter  has  been  disposed  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see  pattern  since 
+sets  the  area  the  receiver  which  can  changed  drawing  operations  the  rectangular  area  specified  the  arguments  param  the  coordinate  the  clipping  rectangle  param  the  coordinate  the  clipping  rectangle  param  width  the  width  the  clipping  rectangle  param  height  the  height  the  clipping  rectangle  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+sets  the  area  the  receiver  which  can  changed  drawing  operations  the  path  specified  the  argument  param  path  the  clipping  path  exception illegal argument exception  error  invalid  argument  the  path  has  been  disposed  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see  path  since 
+sets  the  area  the  receiver  which  can  changed  drawing  operations  the  rectangular  area  specified  the  argument  specifying  code  null  code  for  the  rectangle  reverts  the  receiver  clipping  area  its  original  value  param  rect  the  clipping  rectangle  code  null  code  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+sets  the  area  the  receiver  which  can  changed  drawing  operations  the  region  specified  the  argument  specifying  code  null  code  for  the  region  reverts  the  receiver  clipping  area  its  original  value  param  region  the  clipping  region  code  null  code  exception illegal argument exception  error  invalid  argument  the  region  has  been  disposed  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+sets  the  receiver  fill  rule  the  parameter  which  must  one  code  swt  fill  even  odd  code  code  swt  fill  winding  code  param  rule  the  new  fill  rule  exception illegal argument exception  error  invalid  argument  the  rule  not  one  code  swt  fill  even  odd  code  code  swt  fill  winding  code  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+sets  the  font  which  will  used  the  receiver  draw  and  measure  text  the  argument  the  argument  null  then  default  font  appropriate  for  the  platform  will  used  instead  param  font  the  new  font  for  the  receiver  null  indicate  default  font  exception illegal argument exception  error  invalid  argument  the  font  has  been  disposed  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+sets  the  foreground  color  the  foreground  color  used  for  drawing  operations  including  when  text  drawn  param  color  the  new  foreground  color  for  the  receiver  exception illegal argument exception  error  null  argument  the  color  null  error  invalid  argument  the  color  has  been  disposed  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+sets  the  foreground  pattern  the  default  value  code  null  code  param  pattern  the  new  foreground  pattern  exception illegal argument exception  error  invalid  argument  the  parameter  has  been  disposed  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see  pattern  since 
+sets  the  receiver  interpolation  setting  the  parameter  which  must  one  code  swt  default  code  code  swt  none  code  code  swt  low  code  code  swt  high  code  param  interpolation  the  new  interpolation  setting  exception illegal argument exception  error  invalid  argument  the  rule  not  one  code  swt  default  code  code  swt  none  code  code  swt  low  code  code  swt  high  code  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+sets  the  receiver  line  cap  style  the  argument  which  must  one  the  constants  code  swt  cap  flat  code  code  swt  cap  round  code  code  swt  cap  square  code  param  cap  the  cap  style  used  for  drawing  lines  exception illegal argument exception  error  invalid  argument  the  style  not  valid  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+sets  the  receiver  line  dash  style  the  argument  the  default  value  code  null  code  the  argument  not  code  null  code  the  receiver  line  style  set  code  swt  line  custom  code  otherwise  set  code  swt  line  solid  code  param  dashes  the  dash  style  used  for  drawing  lines  exception illegal argument exception  error  invalid  argument  any  the  values  the  array  less  than  equal  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+sets  the  receiver  line  join  style  the  argument  which  must  one  the  constants  code  swt  join  miter  code  code  swt  join  round  code  code  swt  join  bevel  code  param  join  the  join  style  used  for  drawing  lines  exception illegal argument exception  error  invalid  argument  the  style  not  valid  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+sets  the  receiver  line  style  the  argument  which  must  one  the  constants  code  swt  line  solid  code  code  swt  line  dash  code  code  swt  line  dot  code  code  swt  line  dashdot  code  code  swt  line  dashdotdot  code  param line style  the  style  used  for  drawing  lines  exception illegal argument exception  error  invalid  argument  the  style  not  valid  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+sets  the  width  that  will  used  when  drawing  lines  for  all  the  figure  drawing  operations  that  code draw line  code  code draw rectangle  code  code draw polyline  code  and  forth  note  that  line  width  zero  used  hint  indicate  that  the  fastest  possible  line  drawing  algorithms  should  used  this  means  that  the  output  may  different  from  line  width  one  param line width  the  width  line  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+feature  windows  the  default  end  caps  endcap  round  and  the  default  line  join  join  round  which  are  different  from  other  platforms  the  fix  change  these  values  when  line  width  widened
+feature  windows  windows  does  not  honour  line  styles  other  then  solid  for  pens  wider  than  pixel  created  with create pen  the  fix  use ext create pen  instead
+feature  windows  geometric  pens  cannot  have  zero  width
+the  argument  code  true  code  puts  the  receiver  drawing  mode  where  the  resulting  color  the  destination  the  exclusive  the  color  values  the  source  and  the  destination  and  the  argument  code  false  code  puts  the  receiver  drawing  mode  where  the  destination  color  replaced  with  the  source  color  value  note  that  this  mode  fundamentally  unsupportable  certain  platforms  notably  carbon  mac  clients  that  want  their  code  run  all  platforms  need  avoid  this  method  param  xor  code  true  code  then  xor  mode  used  otherwise  source  copy  mode  used  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  deprecated  this  functionality  not  supported  some  platforms
+sets  the  receiver  text  anti  aliasing  value  the  parameter  which  must  one  code  swt  default  code  code  swt  off  code  code  swt  code  note  that  this  controls  anti  aliasing  only  for  all  text  drawing  operations  param  antialias  the  anti  aliasing  setting  exception illegal argument exception  error  invalid  argument  the  parameter  not  one  code  swt  default  code  code  swt  off  code  code  swt  code  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see set antialias  since 
+sets  the  transform  that  currently  being  used  the  receiver  the  argument  code  null  code  the  current  transform  set  the  identity  transform  param  transform  the  transform  set  exception illegal argument exception  error  invalid  argument  the  parameter  has  been  disposed  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see  transform  since 
+returns  the  extent  the  given  string  tab  expansion  carriage  return  processing  will  performed  the  extent  string  the  width  and  height  the  rectangular  area  would  cover  drawn  particular  font  this  case  the  current  font  the  receiver  param  string  the  string  measure  return  point  containing  the  extent  the  string  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+get text extent point  handle  space  space  length  size
+tchar  buffer  new  tchar get code page  string  false
+returns  the  extent  the  given  string  tab  expansion  and  carriage  return  processing  are  performed  the  extent  string  the  width  and  height  the  rectangular  area  would  cover  drawn  particular  font  this  case  the  current  font  the  receiver  param  string  the  string  measure  return  point  containing  the  extent  the  string  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  extent  the  given  string  tab  expansion  line  delimiter  and  mnemonic  processing  are  performed  according  the  specified  flags  which  can  combination  draw  delimiter  draw  multiple  lines  draw  tab  expand  tabs  draw  mnemonic  underline  the  mnemonic  character  draw  transparent  transparent  background  the  extent  string  the  width  and  height  the  rectangular  area  would  cover  drawn  particular  font  this  case  the  current  font  the  receiver  param  string  the  string  measure  param  flags  the  flags  specifing  how  process  the  text  return  point  containing  the  extent  the  string  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+get text extent point  handle  space  space  length  size
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  receiver
+invokes  platform  specific  functionality  allocate  new  graphics  context  important  this  method  not  part  the  public  api  for  code  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  drawable  the  drawable  for  the  receiver  param  data  the  data  for  the  receiver  return  new  code  code
+invokes  platform  specific  functionality  wrap  graphics  context  important  this  method  not  part  the  public  api  for  code  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  the  windows  hdc  param  data  the  data  for  the  receiver  return  new  code  code
+</comments>
+</text>
+</DOC>

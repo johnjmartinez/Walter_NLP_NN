@@ -1,0 +1,77 @@
+<DOC>
+<DOCNO>org.eclipse.swt.printing.PrinterData.java </DOCNO>
+<text>
+<class>
+printer data
+</class>
+<method>
+printer data
+printer data
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ printing
+ org
+ eclipse
+ swt
+ graphics
+printer data
+device data
+ string
+ driver
+ string
+ name
+ scope
+all pages
+start page
+end page
+print file
+ string
+file name
+copy count
+ collate
+all pages
+page range
+ selection
+other data
+printer data
+printer data
+ string
+ driver
+ string
+ name
+ driver
+ driver
+ name
+ name
+ string
+ string
+ driver
+ name
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  descriptions  print  job  terms  the  printer  and  the  scope  and  type  printing  that  desired  for  example  the  number  pages  and  copies  can  specified  well  whether  not  the  print  job  should  file  application  code  does  not  need  explicitly  release  the  resources  managed  each  instance  when  those  instances  are  longer  required  and  thus  code  dispose  code  method  provided  see  printer  see  printer get printer list  see print dialog  open
+the  printer  driver  windows  systems  this  the  name  the  driver  often  winspool  window  systems  this  the  name  display  connection  the  xprt  server  the  default 
+the  name  the  printer  windows  systems  this  the  name  the  device  window  systems  this  the  printer  name
+the  scope  the  print  job  expressed  one  the  following  values  code  all  pages  code  print  all  pages  the  current  document  code  page  range  code  print  the  range  pages  specified start page  and end page  code  selection  code  print  the  current  selection 
+the  start  page  page  range  used  when  scope  page  range
+the  end  page  page  range  used  when  scope  page  range
+whether  not  the  print  job  should  file
+the  name  the  file  print print file  true  note  that  this  field  ignored print file  false
+the  number  copies  print  note  that  this  field  may  controlled  the  printer  driver  other  words  the  printer  itself  may  capable  printing  multiple  copies  and  the  value  this  field  will  always 
+whether  not  the  printer  should  collate  the  printed  paper  note  that  this  field  may  controlled  the  printer  driver  other  words  the  printer  itself  may  capable  doing  the  collation  and  the  value  this  field  will  always  false
+code  scope  code  field  value  indicating  that  all  pages  should  printed
+code  scope  code  field  value  indicating  that  the  range  pages  specified start page  and end page  should  printed
+code  scope  code  field  value  indicating  that  the  current  selection  should  printed
+private  platform  specific  data  windows  this  contains  copy  the  devmode  struct  returned  from  the  code print dialog  code  this  field  not  currently  used  the  window  system
+constructs  instance  this  class  that  can  used  print  the  default  printer  see  printer get default printer data
+constructs  instance  this  class  with  the  given  printer  driver  and  printer  name  param  driver  the  printer  driver  for  the  printer  param  name  the  name  the  printer  see  driver  see  name
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  receiver
+non  nls  non  nls  non  nls  non  nls 
+</comments>
+</text>
+</DOC>

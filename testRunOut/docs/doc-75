@@ -1,0 +1,189 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.FontMetrics.java </DOCNO>
+<text>
+<class>
+font metrics
+</class>
+<method>
+font metrics
+ equals
+get ascent
+get average char width
+get descent
+get height
+get leading
+hash code
+win 32_new
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+ win
+font metrics
+ textmetric
+ handle
+font metrics
+ equals
+ object
+ object
+ object
+ object
+font metrics
+ textmetric
+ metric
+font metrics
+ object
+ handle
+ handle
+ height
+ metric
+ height
+ handle
+ ascent
+ metric
+ ascent
+ handle
+ descent
+ metric
+ descent
+ handle
+internal leading
+ metric
+internal leading
+ handle
+external leading
+ metric
+external leading
+ handle
+ave char width
+ metric
+ave char width
+ handle
+max char width
+ metric
+max char width
+ handle
+ weight
+ metric
+ weight
+ handle
+ overhang
+ metric
+ overhang
+ handle
+digitized aspect
+ metric
+digitized aspect
+ handle
+digitized aspect
+ metric
+digitized aspect
+ handle
+ italic
+ metric
+ italic
+ handle
+ underlined
+ metric
+ underlined
+ handle
+struck out
+ metric
+struck out
+ handle
+pitch and family
+ metric
+pitch and family
+ handle
+char set
+ metric
+char set
+get ascent
+ handle
+ ascent
+ handle
+internal leading
+get average char width
+ handle
+ave char width
+get descent
+ handle
+ descent
+get height
+ handle
+ height
+get leading
+ handle
+internal leading
+hash code
+ handle
+ height
+ handle
+ ascent
+ handle
+ descent
+ handle
+internal leading
+ handle
+external leading
+ handle
+ave char width
+ handle
+max char width
+ handle
+ weight
+ handle
+ overhang
+ handle
+digitized aspect
+ handle
+digitized aspect
+ handle
+ italic
+ handle
+ underlined
+ handle
+struck out
+ handle
+pitch and family
+ handle
+char set
+font metrics
+win 32_new
+ textmetric
+ handle
+font metrics
+font metrics
+font metrics
+font metrics
+ handle
+ handle
+font metrics
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  provide  measurement  information  about  fonts  including  ascent  descent  height  leading  space  between  rows  and  average  character  width  code font metrics  code  are  obtained  from  code  code  using  the  code get font metrics  code  method  see get font metrics
+windows  handle  win  textmetric  struct  photon  handle  photon font query info  struct  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code 
+prevents  instances  from  being  created  outside  the  package
+compares  the  argument  the  receiver  and  returns  true  they  represent  the  same  object  using  class  specific  comparison  param  object  the  object  compare  with  this  object  return  code  true  code  the  object  the  same  this  object  and  code  false  code  otherwise  see hash code
+handle first char  metric first char
+handle last char  metric last char
+handle default char  metric default char
+handle break char  metric break char
+returns  the  ascent  the  font  described  the  receiver  font  ascent  the  distance  from  the  baseline  the  top  actual  characters  not  including  any  the  leading  area  measured  pixels  return  the  ascent  the  font
+returns  the  average  character  width  measured  pixels  the  font  described  the  receiver  return  the  average  character  width  the  font
+returns  the  descent  the  font  described  the  receiver  font  descent  the  distance  from  the  baseline  the  bottom  actual  characters  not  including  any  the  leading  area  measured  pixels  return  the  descent  the  font
+returns  the  height  the  font  described  the  receiver  measured  pixels  font  height  the  sum  its  ascent  descent  and  leading  area  return  the  height  the  font  see get ascent  see get descent  see get leading
+returns  the  leading  area  the  font  described  the  receiver  font  leading  area  the  space  above  its  ascent  which  may  include  accents  other  marks  return  the  leading  space  the  font
+returns  integer  hash  code  for  the  receiver  any  two  objects  that  return  code  true  code  when  passed  code  equals  code  must  return  the  same  value  for  this  method  return  the  receiver  hash  see  equals
+handle first char  handle last char  handle default char  handle break char
+invokes  platform  specific  functionality  allocate  new  font  metrics  important  this  method  not  part  the  public  api  for  code font metrics  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  handle  the  code  textmetric  code  containing  information  about  font  return  new  font  metrics  object  containing  the  specified  code  textmetric  code
+</comments>
+</text>
+</DOC>

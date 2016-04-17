@@ -1,0 +1,31 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.CTabFolderListener.java </DOCNO>
+<text>
+<class>
+tab folder listener
+</class>
+<method>
+item closed
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ internal
+tab folder listener
+swt event listener
+item closed
+tab folder event
+ event
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+classes  which  implement  this  interface  provide  method  that  deals  with  events  generated  the tab folder  after  creating  instance  class  that  implements  this  interface  can  added tab folder  using  the  code add tab folder listener  code  method  and  removed  using  the  code remove tab folder listener  code  method  when  tab  item  closed  the item closed  method  will  invoked  see tab folder event
+sent  when  the  user  clicks  the  close  button  item  the tab folder  the  item  being  closed  specified  the  event  item  field  setting  the  event  doit  field  false  will  stop  the tab item  from  closing  when  the tab item  closed  disposed  the  contents  the tab item  see tab item set control  will  made  not  visible  when  the tab item  closed  param  event  event  indicating  the  item  being  closed  see tab item set control
+</comments>
+</text>
+</DOC>

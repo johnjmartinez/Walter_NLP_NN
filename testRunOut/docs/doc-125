@@ -1,0 +1,31 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.PngFileReadState.java </DOCNO>
+<text>
+<class>
+png file read state
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+png file read state
+ object
+read ihdr
+read plte
+read idat
+read iend
+read trns
+read pixel data
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+non  critical  chunks
+set  true  after  ida  have  been  read
+</comments>
+</text>
+</DOC>

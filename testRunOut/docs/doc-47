@@ -1,0 +1,596 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.SashFormLayout.java </DOCNO>
+<text>
+<class>
+sash form layout
+</class>
+<method>
+compute size
+flush cache
+ layout
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+sash form layout
+ layout
+ point
+compute size
+ composite
+ composite
+ hint
+ hint
+flush cache
+sash form
+sash form
+sash form
+ composite
+ control
+ array
+sash form
+get controls
+ width
+ height
+ array
+ length
+ hint
+ swt
+ default
+ width
+ hint
+ hint
+ swt
+ default
+ height
+ hint
+ point
+ width
+ height
+ vertical
+sash form
+get orientation
+ swt
+ vertical
+max index
+max value
+
+
+ array
+ length
+
+ vertical
+ point
+ size
+ array
+
+compute size
+ hint
+ swt
+ default
+flush cache
+ size
+
+max value
+max index
+
+max value
+ size
+
+ width
+ math
+ max
+ width
+ size
+
+ point
+ size
+ array
+
+compute size
+ swt
+ default
+ hint
+flush cache
+ size
+
+max value
+max index
+
+max value
+ size
+
+ height
+ math
+ max
+ height
+ size
+
+ ratios
+ array
+ length
+ total
+
+
+ array
+ length
+
+ object
+ data
+ array
+
+get layout data
+ data
+ data
+sash form data
+ ratios
+
+sash form data
+ data
+ weight
+ data
+sash form data
+ array
+
+set layout data
+ data
+sash form data
+ data
+ weight
+ ratios
+
+ total
+ ratios
+
+ ratios
+max index
+ sashwidth
+sash form
+ sashes
+ length
+sash form
+sash width
+sash form
+ sashes
+get border width
+sash form
+sash width
+ vertical
+ height
+ total
+max value
+ ratios
+max index
+ array
+ length
+ sashwidth
+ width
+ total
+max value
+ ratios
+max index
+ array
+ length
+ sashwidth
+ width
+sash form
+get border width
+ height
+sash form
+get border width
+ hint
+ swt
+ default
+ width
+ hint
+ hint
+ swt
+ default
+ height
+ hint
+ point
+ width
+ height
+flush cache
+ control
+ control
+ layout
+ composite
+ composite
+flush cache
+sash form
+sash form
+sash form
+ composite
+ rectangle
+ area
+sash form
+get client area
+ area
+ width
+ area
+ height
+ control
+new controls
+sash form
+get controls
+sash form
+ controls
+ length
+new controls
+ length
+sash form
+ controls
+new controls
+ control
+ controls
+sash form
+ controls
+sash form
+max control
+sash form
+max control
+ disposed
+
+
+ controls
+ length
+
+ controls
+
+sash form
+max control
+ controls
+
+set bounds
+ controls
+
+set bounds
+ area
+sash form
+ sashes
+ length
+ controls
+ length
+ sash
+new sashes
+ sash
+ controls
+ length
+ system
+ arraycopy
+sash form
+ sashes
+new sashes
+sash form
+ sashes
+ length
+
+sash form
+ sashes
+ length
+
+new sashes
+ length
+
+new sashes
+
+ sash
+sash form
+sash form
+sash style
+new sashes
+
+set background
+sash form
+ background
+new sashes
+
+set foreground
+sash form
+ foreground
+new sashes
+
+add listener
+ swt
+ selection
+sash form
+sash listener
+sash form
+ sashes
+new sashes
+sash form
+ sashes
+ length
+ controls
+ length
+ controls
+ length
+
+
+sash form
+ sashes
+ length
+
+sash form
+ sashes
+
+ dispose
+sash form
+ sashes
+ sash
+ sash
+new sashes
+ sash
+ controls
+ length
+ system
+ arraycopy
+sash form
+ sashes
+new sashes
+new sashes
+ length
+
+ controls
+ length
+
+sash form
+ sashes
+ length
+
+sash form
+ sashes
+
+ dispose
+sash form
+ sashes
+new sashes
+ controls
+ length
+ sash
+ sashes
+sash form
+ sashes
+ ratios
+ controls
+ length
+ total
+
+
+ controls
+ length
+
+ object
+ data
+ controls
+
+get layout data
+ data
+ data
+sash form data
+ ratios
+
+sash form data
+ data
+ weight
+ data
+sash form data
+ controls
+
+set layout data
+ data
+sash form data
+ data
+ weight
+ ratios
+
+ total
+ ratios
+
+ sashwidth
+ sashes
+ length
+sash form
+sash width
+ sashes
+get border width
+sash form
+sash width
+sash form
+get orientation
+ swt
+ horizontal
+ width
+ ratios
+ area
+ width
+ sashes
+ length
+ sashwidth
+ total
+
+ area
+
+ controls
+set bounds
+
+ area
+
+ width
+ area
+ height
+
+ width
+
+
+ controls
+ length
+
+ sashes
+
+set bounds
+
+ area
+
+ sashwidth
+ area
+ height
+
+ sashwidth
+ width
+ ratios
+
+ area
+ width
+ sashes
+ length
+ sashwidth
+ total
+ controls
+
+set bounds
+
+ area
+
+ width
+ area
+ height
+
+ width
+ controls
+ length
+ sashes
+ sashes
+ length
+set bounds
+
+ area
+
+ sashwidth
+ area
+ height
+
+ sashwidth
+ width
+ area
+ width
+
+ controls
+ controls
+ length
+set bounds
+
+ area
+
+ width
+ area
+ height
+ height
+ ratios
+ area
+ height
+ sashes
+ length
+ sashwidth
+ total
+
+ area
+
+ controls
+set bounds
+ area
+
+
+ area
+ width
+ height
+
+ height
+
+
+ controls
+ length
+
+ sashes
+
+set bounds
+ area
+
+
+ area
+ width
+ sashwidth
+
+ sashwidth
+ height
+ ratios
+
+ area
+ height
+ sashes
+ length
+ sashwidth
+ total
+ controls
+
+set bounds
+ area
+
+
+ area
+ width
+ height
+
+ height
+ controls
+ length
+ sashes
+ sashes
+ length
+set bounds
+ area
+
+
+ area
+ width
+ sashwidth
+
+ sashwidth
+ height
+ area
+ height
+
+ controls
+ controls
+ length
+set bounds
+ area
+
+
+ area
+ width
+ height
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  class  provides  the  layout  for sash form  see sash form
+determine  control  sizes
+get  the  ratios
+keep  just  the  right  number  sashes
+get  the  ratios
+</comments>
+</text>
+</DOC>

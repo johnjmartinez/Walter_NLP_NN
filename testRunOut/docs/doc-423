@@ -1,0 +1,30 @@
+<DOC>
+<DOCNO>org.eclipse.swt.browser.ProgressAdapter.java </DOCNO>
+<text>
+<class>
+progress adapter
+</class>
+<method>
+ changed
+ completed
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ browser
+progress adapter
+progress listener
+ changed
+progress event
+ event
+ completed
+progress event
+ event
+</identifier>
+<comments>
+copyright  2003  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  adapter  class  provides  default  implementations  for  the  methods  described  the  link progress listener  interface  classes  that  wish  deal  with  link progress event  can  extend  this  class  and  override  only  the  methods  which  they  are  interested  since 
+</comments>
+</text>
+</DOC>

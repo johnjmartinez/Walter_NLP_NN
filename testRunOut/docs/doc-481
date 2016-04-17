@@ -1,0 +1,1813 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.CoolBar.java </DOCNO>
+<text>
+<class>
+cool bar
+</class>
+<method>
+cool bar
+call window proc
+check style
+check subclass
+compute size
+create handle
+create item
+create widget
+destroy item
+get margin
+find theme control
+get item
+get item count
+get item order
+get items
+get item sizes
+get last index row
+last item row
+get locked
+get wrap indices
+ index
+resize preferred width
+resize maximum width
+release widget
+remove control
+set background pixel
+set foreground pixel
+set item colors
+set item layout
+set item order
+set item sizes
+set locked
+set wrap indices
+widget style
+window class
+window proc
+ command
+ erasebkgnd
+ notify
+ setredraw
+ size
+notify child
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+cool bar
+ composite
+cool item
+ items
+cool item
+original items
+ locked
+ignore resize
+bar proc
+ tchar
+bar class
+ tchar
+
+ rebarclassname
+ initcommoncontrolsex
+ icex
+ initcommoncontrolsex
+ icex
+ size
+ initcommoncontrolsex
+ sizeof
+ icex
+ icc
+
+icc cool classes
+
+init common controls
+ icex
+ wndclass
+wnd class
+ wndclass
+
+get class info
+bar class
+wnd class
+bar proc
+wnd class
+lpfn wnd proc
+separator width
+max width
+cool bar
+ composite
+ parent
+ style
+ parent
+check style
+ style
+call window proc
+ hwnd
+ msg
+ param
+ param
+ handle
+
+call window proc
+bar proc
+ hwnd
+ msg
+ param
+ param
+check style
+ style
+ style
+ swt
+ focus
+ style
+ swt
+ scroll
+ swt
+ scroll
+check subclass
+valid subclass
+ error
+ swt
+error invalid subclass
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+ width
+ height
+ border
+get border width
+new width
+ hint
+ swt
+ default
+ hint
+ border
+new height
+ hint
+ swt
+ default
+ hint
+ border
+ count
+
+send message
+ handle
+
+ getbandcount
+ count
+ignore resize
+ redraw
+
+window visible
+ handle
+
+comctl 32_ major
+ redraw
+
+update window
+ handle
+
+def window proc
+ handle
+
+ setredraw
+ redraw
+draw count
+ redraw
+
+update window
+ handle
+
+send message
+ handle
+
+ setredraw
+ rect
+old rect
+ rect
+
+get window rect
+ handle
+old rect
+old width
+old rect
+ right
+old rect
+ left
+old height
+old rect
+ bottom
+old rect
+ top
+ flags
+
+swp noactivate
+
+swp nomove
+
+swp noredraw
+
+swp nozorder
+set window pos
+ handle
+new width
+new height
+ flags
+ rect
+ rect
+ rect
+
+send message
+ handle
+
+ getrect
+ count
+ rect
+ height
+ math
+ max
+ height
+ rect
+ bottom
+set window pos
+ handle
+old width
+old height
+ flags
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+ band
+ mask
+
+rbbim idealsize
+
+rbbim style
+row width
+ separator
+ style
+ swt
+ flat
+separator width
+
+
+ count
+
+
+send message
+ handle
+
+ getbandinfo
+
+ band
+ band
+ style
+
+rbbs break
+ width
+ math
+ max
+ width
+row width
+ separator
+row width
+row width
+ band
+ ideal
+get margin
+
+ separator
+ width
+ math
+ max
+ width
+row width
+ separator
+ redraw
+
+comctl 32_ major
+
+def window proc
+ handle
+
+ setredraw
+
+send message
+ handle
+
+ setredraw
+ignore resize
+ width
+ width
+default width
+ height
+ height
+default height
+ hint
+ swt
+ default
+ width
+ hint
+ hint
+ swt
+ default
+ height
+ hint
+ height
+ border
+ width
+ border
+ point
+ width
+ height
+create handle
+create handle
+ state
+ canvas
+ font
+
+get stock object
+
+system font
+
+send message
+ handle
+
+ setfont
+ font
+create item
+cool item
+ item
+ index
+ count
+
+send message
+ handle
+
+ getbandcount
+ index
+ index
+ count
+ error
+ swt
+error invalid range
+
+
+ items
+ length
+ items
+
+
+
+ items
+ length
+cool item
+new items
+cool item
+ items
+ length
+ system
+ arraycopy
+ items
+new items
+ items
+ length
+ items
+new items
+ heap
+
+get process heap
+ text
+
+heap alloc
+ heap
+
+heap zero memory
+ tchar
+ sizeof
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+ band
+ mask
+
+rbbim text
+
+rbbim style
+
+ rbbim
+ band
+ style
+
+rbbs variableheight
+
+rbbs gripperalways
+ item
+ style
+ swt
+drop down
+ band
+ style
+
+rbbs usechevron
+ band
+ text
+ text
+ band
+
+
+last index
+get last index row
+ index
+fix last
+ index
+last index
+fix last
+ band
+ mask
+
+rbbim size
+ band
+
+max width
+ index
+ count
+get item
+set wrap
+
+send message
+ handle
+
+ insertband
+ index
+ band
+ error
+ swt
+error item not added
+fix last
+resize preferred width
+last index
+
+heap free
+ heap
+ text
+ items
+ item
+
+
+ item
+ length
+original items
+ length
+cool item
+new originals
+cool item
+ length
+ system
+ arraycopy
+original items
+new originals
+ index
+ system
+ arraycopy
+original items
+ index
+new originals
+ index
+ length
+ index
+new originals
+ index
+ item
+original items
+new originals
+create widget
+create widget
+ items
+cool item
+original items
+cool item
+destroy item
+cool item
+ item
+ index
+
+send message
+ handle
+
+ idtoindex
+ item
+
+ count
+
+send message
+ handle
+
+ getbandcount
+ count
+last index
+get last index row
+ index
+ index
+last index
+resize maximum width
+last index
+ control
+ control
+ item
+ control
+was visible
+ control
+ control
+ disposed
+ control
+get visible
+cool item
+next item
+ item
+get wrap
+ index
+ count
+next item
+get item
+ index
+ignore resize
+next item
+get wrap
+
+send message
+ handle
+
+ deleteband
+ index
+ error
+ swt
+error item not removed
+ items
+ item
+
+ item
+
+ignore resize
+next item
+set wrap
+ignore resize
+was visible
+ control
+set visible
+ index
+ index
+original items
+ length
+original items
+ index
+ item
+ index
+ length
+original items
+ length
+cool item
+new originals
+cool item
+ length
+ system
+ arraycopy
+original items
+new originals
+ index
+ system
+ arraycopy
+original items
+ index
+new originals
+ index
+ length
+ index
+original items
+new originals
+get margin
+ index
+ margin
+
+comctl 32_ major
+ margins
+ margins
+ margins
+
+send message
+ handle
+
+ getbandmargins
+ margins
+ margin
+ margins
+left width
+ margins
+right width
+ rect
+ rect
+ rect
+
+send message
+ handle
+
+ getbandborders
+ index
+ rect
+ style
+ swt
+ flat
+ margin
+ rect
+ left
+ margin
+ rect
+ left
+ rect
+ right
+ margin
+ control
+find theme control
+cool item
+get item
+ index
+check widget
+ count
+
+send message
+ handle
+
+ getbandcount
+ index
+ index
+ count
+ error
+ swt
+error invalid range
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+ band
+ mask
+
+ rbbim
+
+send message
+ handle
+
+ getbandinfo
+ index
+ band
+ items
+ band
+
+get item count
+check widget
+
+send message
+ handle
+
+ getbandcount
+get item order
+check widget
+ count
+
+send message
+ handle
+
+ getbandcount
+ indices
+ count
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+ band
+ mask
+
+ rbbim
+
+
+ count
+
+
+send message
+ handle
+
+ getbandinfo
+
+ band
+cool item
+ item
+ items
+ band
+
+ index
+ index
+original items
+ length
+original items
+ index
+ item
+ index
+ index
+original items
+ length
+ error
+ swt
+error cannot get item
+ indices
+
+ index
+ indices
+cool item
+get items
+check widget
+ count
+
+send message
+ handle
+
+ getbandcount
+cool item
+ result
+cool item
+ count
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+ band
+ mask
+
+ rbbim
+
+
+ count
+
+
+send message
+ handle
+
+ getbandinfo
+
+ band
+ result
+
+ items
+ band
+
+ result
+ point
+get item sizes
+check widget
+ count
+
+send message
+ handle
+
+ getbandcount
+ point
+ sizes
+ point
+ count
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+ band
+ mask
+
+rbbim childsize
+ separator
+ style
+ swt
+ flat
+separator width
+ margins
+ margins
+ margins
+
+
+ count
+
+ rect
+ rect
+ rect
+
+send message
+ handle
+
+ getrect
+
+ rect
+
+send message
+ handle
+
+ getbandinfo
+
+ band
+
+comctl 32_ major
+
+send message
+ handle
+
+ getbandmargins
+ margins
+ rect
+ left
+ margins
+left width
+ rect
+ right
+ margins
+right width
+last item row
+
+ rect
+ right
+ separator
+ sizes
+
+ point
+ rect
+ right
+ rect
+ left
+ band
+ child
+ sizes
+get last index row
+ index
+ count
+
+send message
+ handle
+
+ getbandcount
+ count
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+ band
+ mask
+
+rbbim style
+
+ index
+
+ count
+
+
+send message
+ handle
+
+ getbandinfo
+
+ band
+ band
+ style
+
+rbbs break
+
+ count
+last item row
+ index
+ count
+
+send message
+ handle
+
+ getbandcount
+ index
+ count
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+ band
+ mask
+
+rbbim style
+
+send message
+ handle
+
+ getbandinfo
+ index
+ band
+ band
+ style
+
+rbbs break
+get locked
+check widget
+ locked
+get wrap indices
+check widget
+cool item
+ items
+get items
+ indices
+ items
+ length
+ count
+
+
+ items
+ length
+
+ items
+
+get wrap
+ indices
+ count
+
+ result
+ count
+ system
+ arraycopy
+ indices
+ result
+ count
+ result
+ index
+cool item
+ item
+check widget
+ item
+ error
+ swt
+error null argument
+ item
+ disposed
+ error
+ swt
+error invalid argument
+
+send message
+ handle
+
+ idtoindex
+ item
+
+resize preferred width
+ index
+ count
+
+send message
+ handle
+
+ getbandcount
+ index
+ index
+ count
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+ band
+ mask
+
+rbbim idealsize
+
+send message
+ handle
+
+ getbandinfo
+ index
+ band
+ rect
+ rect
+ rect
+
+send message
+ handle
+
+ getbandborders
+ index
+ rect
+ band
+
+ band
+ ideal
+ rect
+ left
+ style
+ swt
+ flat
+ band
+
+ rect
+ right
+ band
+ mask
+
+rbbim size
+
+send message
+ handle
+
+ setbandinfo
+ index
+ band
+resize maximum width
+ index
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+ band
+ mask
+
+rbbim size
+ band
+
+max width
+
+send message
+ handle
+
+ setbandinfo
+ index
+ band
+release widget
+
+
+ items
+ length
+
+cool item
+ item
+ items
+
+ item
+ item
+ disposed
+ item
+release resources
+ items
+release widget
+remove control
+ control
+ control
+remove control
+ control
+
+
+ items
+ length
+
+cool item
+ item
+ items
+
+ item
+ item
+ control
+ control
+ item
+set control
+set background pixel
+ pixel
+ background
+ pixel
+ background
+ pixel
+ pixel
+ pixel
+default background
+
+send message
+ handle
+
+ setbkcolor
+ pixel
+set item colors
+
+send message
+ handle
+
+ gettextcolor
+ pixel
+
+window visible
+ handle
+
+ win
+
+invalidate rect
+ handle
+ flags
+
+rdw erase
+
+rdw frame
+
+rdw invalidate
+
+rdw allchildren
+
+redraw window
+ handle
+ flags
+set foreground pixel
+ pixel
+ foreground
+ pixel
+ foreground
+ pixel
+ pixel
+ pixel
+default foreground
+
+send message
+ handle
+
+ settextcolor
+ pixel
+set item colors
+ pixel
+
+send message
+ handle
+
+ getbkcolor
+set item colors
+fore color
+back color
+ count
+
+send message
+ handle
+
+ getbandcount
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+ band
+ mask
+
+rbbim colors
+ band
+clr fore
+fore color
+ band
+clr back
+back color
+
+
+ count
+
+
+send message
+ handle
+
+ setbandinfo
+
+ band
+set item layout
+item order
+wrap indices
+ point
+ sizes
+check widget
+set redraw
+set item order
+item order
+set wrap indices
+wrap indices
+set item sizes
+ sizes
+set redraw
+set item order
+item order
+item order
+ error
+ swt
+error null argument
+item count
+
+send message
+ handle
+
+ getbandcount
+item order
+ length
+item count
+ error
+ swt
+error invalid argument
+ set
+item count
+
+
+item order
+ length
+
+ index
+item order
+
+ index
+ index
+item count
+ error
+ swt
+error invalid range
+ set
+ index
+ error
+ swt
+error invalid argument
+ set
+ index
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+
+
+item order
+ length
+
+
+original items
+item order
+
+
+ index
+
+send message
+ handle
+
+ idtoindex
+
+ index
+
+last item src row
+get last index row
+ index
+last item dst row
+get last index row
+
+ index
+last item src row
+resize preferred width
+ index
+
+last item dst row
+resize preferred width
+
+
+send message
+ handle
+
+ moveband
+ index
+
+ index
+last item src row
+ index
+resize maximum width
+ index
+
+last item dst row
+resize maximum width
+
+set item sizes
+ point
+ sizes
+ sizes
+ error
+ swt
+error null argument
+ count
+
+send message
+ handle
+
+ getbandcount
+ sizes
+ length
+ count
+ error
+ swt
+error invalid argument
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+ band
+ mask
+
+ rbbim
+
+
+ count
+
+
+send message
+ handle
+
+ getbandinfo
+
+ band
+ items
+ band
+
+set size
+ sizes
+
+
+ sizes
+
+
+set locked
+ locked
+check widget
+ locked
+ locked
+ count
+
+send message
+ handle
+
+ getbandcount
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+ band
+ mask
+
+rbbim style
+
+
+ count
+
+
+send message
+ handle
+
+ getbandinfo
+
+ band
+ locked
+ band
+ style
+
+rbbs nogripper
+ band
+ style
+
+rbbs nogripper
+
+send message
+ handle
+
+ setbandinfo
+
+ band
+set wrap indices
+ indices
+check widget
+ indices
+ indices
+ count
+get item count
+
+
+ indices
+ length
+
+ indices
+
+ indices
+
+ count
+ error
+ swt
+error invalid range
+set redraw
+cool item
+ items
+get items
+
+
+ items
+ length
+
+cool item
+ item
+ items
+
+ item
+get wrap
+resize preferred width
+
+ item
+set wrap
+resize maximum width
+ count
+
+
+ indices
+ length
+
+ index
+ indices
+
+ index
+ index
+ items
+ length
+cool item
+ item
+ items
+ index
+ item
+set wrap
+resize maximum width
+ index
+set redraw
+widget style
+ bits
+widget style
+
+ccs nodivider
+
+ccs noresize
+ bits
+
+rbs varheight
+
+rbs dblclktoggle
+ style
+ swt
+ flat
+ bits
+
+rbs bandborders
+ bits
+ tchar
+window class
+bar class
+window proc
+bar proc
+ lresult
+ command
+ param
+ param
+ lresult
+ result
+ command
+ param
+ param
+ result
+ result
+ lresult
+ zero
+ lresult
+ erasebkgnd
+ param
+ param
+ lresult
+ result
+ erasebkgnd
+ param
+ param
+ result
+ result
+
+comctl 32_ major
+draw background
+ param
+ lresult
+ notify
+ param
+ param
+ lresult
+ result
+ notify
+ param
+ param
+ result
+ result
+ lresult
+ zero
+ lresult
+ setredraw
+ param
+ param
+ lresult
+ result
+ setredraw
+ param
+ param
+ result
+ result
+
+comctl 32_ major
+ lresult
+ zero
+ rectangle
+ rect
+get bounds
+ code
+call window proc
+ handle
+
+ setredraw
+ param
+ param
+
+def window proc
+ handle
+
+ setredraw
+ param
+ param
+ rect
+ equals
+get bounds
+ parent
+ redraw
+ rect
+
+ rect
+
+ rect
+ width
+ rect
+ height
+ lresult
+ code
+ lresult
+ size
+ param
+ param
+ignore resize
+ code
+call window proc
+ handle
+
+ size
+ param
+ param
+ code
+ lresult
+ zero
+ lresult
+ code
+ size
+ param
+ param
+ lresult
+notify child
+ param
+ param
+ nmhdr
+ hdr
+ nmhdr
+
+move memory
+ hdr
+ param
+ nmhdr
+ sizeof
+ hdr
+ code
+
+rbn childsize
+ nmrebarchildsize
+ lprbcs
+ nmrebarchildsize
+
+move memory
+ lprbcs
+ param
+ nmrebarchildsize
+ sizeof
+ lprbcs
+ band
+cool item
+ item
+ items
+ lprbcs
+
+ control
+ control
+ item
+ control
+ control
+ width
+ lprbcs
+child _right
+ lprbcs
+child _left
+ height
+ lprbcs
+child _bottom
+ lprbcs
+child _top
+ control
+set bounds
+ lprbcs
+child _left
+ lprbcs
+child _top
+ width
+ height
+
+rbn heightchange
+ignore resize
+ point
+ size
+get size
+ border
+get border width
+ height
+
+send message
+ handle
+
+ getbarheight
+set size
+ size
+
+ height
+ border
+
+rbn chevronpushed
+ nmrebarchevron
+ lpnm
+ nmrebarchevron
+
+move memory
+ lpnm
+ param
+ nmrebarchevron
+ sizeof
+cool item
+ item
+ items
+ lpnm
+
+ item
+ event
+ event
+ event
+ event
+ detail
+ swt
+ arrow
+ event
+
+ lpnm
+ left
+ event
+
+ lpnm
+ bottom
+ item
+post event
+ swt
+ selection
+ event
+
+ customdraw
+
+comctl 32_ major
+ background
+ style
+ swt
+ flat
+ nmcustomdraw
+ nmcd
+ nmcustomdraw
+
+move memory
+ nmcd
+ param
+ nmcustomdraw
+ sizeof
+ nmcd
+draw stage
+
+cdds preerase
+ lresult
+
+cdrf notifyposterase
+
+cdds posterase
+draw background
+ nmcd
+ hdc
+notify child
+ param
+ param
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  provide  area  for  dynamically  positioning  the  items  they  contain  the  item  children  that  may  added  instances  this  class  must  type  code cool item  code  note  that  although  this  class  subclass  code  composite  code  does  not  make  sense  add  code  control  code  children  set  layout  styles  flat  events  none  important  this  class  not  intended  subclassed 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  see  widget check subclass  see  widget get style
+even  though  legal  create  this  widget  with  scroll  bars  they  serve  useful  purpose  because  they  not  automatically  scroll  the  widget  client  area  the  fix  clear  the  swt  style
+feature  windows  when  the  control  created  does  not  use  the  default  system  font  new  hfont  created  and  destroyed  when  the  control  destroyed  this  means  that  program  that  queries  the  font  from  this  control  uses  the  font  another  control  and  then  destroys  this  control  will  have  the  font  unexpectedly  destroyed  the  other  control  the  fix  assign  the  font  ourselves  each  time  the  control  created  the  control  will  not  destroy  font  that  did  not  create
+feature  windows  when  inserting  item  end  row  sometimes  windows  will  begin  place  the  item  the  right  side  the  cool  bar  the  fix  resize  the  new  items  the  maximum  size  and  then  resize  the  next  last  item  the  ideal  size
+feature  windows  possible  that  the  item  index  zero  has  the  rbbs  break  flag  set  when  new  item  inserted  position  zero  the  previous  item  position  zero  moves  new  line  the  fix  detect  this  case  and  clear  the  rbbs  break  flag  the  previous  item  before  inserting  the  new  item
+insert  the  item
+resize  the  next  last  item  the  ideal  size
+feature  windows  the  last  item  row  given  its  ideal  size  will  placed  the  far  right  hand  edge  the  coolbar  preferred  that  the  last  item  appear  next  the  second  last  item  the  fix  size  the  last  item  each  row  that  occupies  all  the  available  space  the  right  the  row
+feature  windows  when  windows  removed  rebar  band  makes  the  band  child  invisible  the  fix  show  the  child
+when  wrapped  item  being  deleted  make  the  next  item  the  row  wrapped  order  preserve  the  row  order  avoid  unnecessary  layout  temporarily  ignore  size  the  next  item  wrapped  then  row  will  deleted  and  the  size  necessary
+restore  the  visible  state  tof  the  control
+bug  windows  when  the  style  bit  rbs  bandborders  not  set  the  rectangle  returned  rbs  bandborders  four  pixels  too  small  the  fix  add  four  pixels  the  result
+returns  the  item  that  currently  displayed  the  given  zero  relative  index  throws  exception  the  index  out  range  param  index  the  visual  index  the  item  return  return  the  item  the  given  visual  index  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  number  items  contained  the  receiver  return  the  number  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  array  zero  relative  ints  that  map  the  creation  order  the  receiver  items  the  order  which  they  are  currently  being  displayed  specifically  the  indices  the  returned  array  represent  the  current  visual  order  the  items  and  the  contents  the  array  represent  the  creation  order  the  items  note  this  not  the  actual  structure  used  the  receiver  maintain  its  list  items  modifying  the  array  will  not  affect  the  receiver  return  the  current  visual  order  the  receiver  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  array  code cool item  code  the  order  which  they  are  currently  being  displayed  note  this  not  the  actual  structure  used  the  receiver  maintain  its  list  items  modifying  the  array  will  not  affect  the  receiver  return  the  receiver  items  their  current  visual  order  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  array  points  whose  and  coordinates  describe  the  widths  and  heights  respectively  the  items  the  receiver  the  order  which  they  are  currently  being  displayed  return  the  receiver  item  sizes  their  current  visual  order  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  whether  not  the  receiver  locked  when  coolbar  locked  its  items  cannot  repositioned  return  true  the  coolbar  locked  false  otherwise  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  array  ints  that  describe  the  zero  relative  indices  any  item  the  receiver  that  will  begin  new  row  the  0th  visible  item  always  begins  the  first  row  therefore  does  not  count  wrap  index  return  array  containing  the  receiver  wrap  indices  empty  array  all  items  are  one  row  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+searches  the  receiver  items  the  order  they  are  currently  being  displayed  starting  the  first  item  index  until  item  found  that  equal  the  argument  and  returns  the  index  that  item  item  found  returns  param  item  the  search  item  return  the  visual  order  index  the  search  item  the  item  not  found  exception illegal argument exception  error  null  argument  the  item  null  error  invalid  argument  the  item  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  windows  when  getbandborders  sent  with  index  out  range  windows  the  fix  ensure  the  index  range
+feature  windows  for  some  reason  windows  does  not  fully  erase  the  coolbar  area  and  coolbar  items  when  you  set  the  background  the  fix  invalidate  the  coolbar  area
+sets  the  receiver  item  order  wrap  indices  and  item  sizes  all  once  this  method  typically  used  restore  the  displayed  state  the  receiver  previously  stored  state  the  item  order  the  order  which  the  items  the  receiver  should  displayed  given  terms  the  zero  relative  ordering  when  the  items  were  added  the  wrap  indices  are  the  indices  all  item  the  receiver  that  will  begin  new  row  the  indices  are  given  the  order  specified  the  item  order  the  0th  item  always  begins  the  first  row  therefore  does  not  count  wrap  index  wrap  indices  null  empty  the  items  will  placed  one  line  the  sizes  are  specified  array  points  whose  and  coordinates  describe  the  new  widths  and  heights  respectively  the  receiver  items  the  order  specified  the  item  order  param item order  array  indices  that  describe  the  new  order  display  the  items  param wrap indices  array  wrap  indices  null  param  sizes  array  containing  the  new  sizes  for  each  the  receiver  items  visual  order  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  exception illegal argument exception  error  null  argument  item  order  sizes  null  error  invalid  argument  item  order  sizes  not  the  same  length  the  number  items 
+sets  the  order  that  the  items  the  receiver  should  displayed  the  given  argument  which  described  terms  the  zero  relative  ordering  when  the  items  were  added  param item order  the  new  order  display  the  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  exception illegal argument exception  error  null  argument  the  item  order  null  error  invalid  argument  the  item  order  not  the  same  length  the  number  items 
+ensure  that item order  does  not  contain  any  duplicates
+move  the  item
+sets  the  width  and  height  the  receiver  items  the  ones  specified  the  argument  which  array  points  whose  and  coordinates  describe  the  widths  and  heights  respectively  the  order  which  the  items  are  currently  being  displayed  param  sizes  array  containing  the  new  sizes  for  each  the  receiver  items  visual  order  exception illegal argument exception  error  null  argument  the  array  sizes  null  error  invalid  argument  the  array  sizes  not  the  same  length  the  number  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  whether  not  the  receiver  locked  when  coolbar  locked  its  items  cannot  repositioned  param  locked  lock  the  coolbar  true  otherwise  unlock  the  coolbar  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+sets  the  indices  all  item  the  receiver  that  will  begin  new  row  the  indices  are  given  the  order  which  they  are  currently  being  displayed  the  0th  item  always  begins  the  first  row  therefore  does  not  count  wrap  index  indices  null  empty  the  items  will  placed  one  line  param  indices  array  wrap  indices  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  when  the  coolbar  window  proc  processes  command  forwards  this  message  its  parent  this  done  that  children  this  control  that  send  this  message  type  their  parent  will  notify  not  only  this  control  but  also  the  parent  this  control  which  typically  the  application  window  and  the  window  that  looking  for  the  message  the  control  did  not  forward  the  message  applications  would  have  subclass  the  control  window  see  the  message  because  the  control  window  subclassed  swt  the  message  delivered  twice  once  swt  and  once  when  the  message  forwarded  the  window  proc  the  fix  avoid  calling  the  window  proc  for  this  control
+feature  windows  for  some  reason  windows  does  not  fully  erase  the  area  that  the  cool  bar  occupies  when  the  size  the  cool  bar  larger  than  the  space  occupied  the  cool  bar  items  the  fix  erase  the  cool  bar  background  note  versions  windows  prior  for  some  reason  the  cool  bar  draws  separators  erasebkgnd  therefore  essential  run  the  cool  bar  window  proc  after  the  background  has  been  erased  this  work  around  unnecessary  because  the  background  drawn  using  customdraw
+feature  windows  when  the  cool  bar  window  proc  processes  notify  forwards  this  message  its  parent  this  done  that  children  this  control  that  send  this  message  type  their  parent  will  notify  not  only  this  control  but  also  the  parent  this  control  which  typically  the  application  window  and  the  window  that  looking  for  the  message  the  control  did  not  forward  the  message  applications  would  have  subclass  the  control  window  see  the  message  because  the  control  window  subclassed  swt  the  message  delivered  twice  once  swt  and  once  when  the  message  forwarded  the  window  proc  the  fix  avoid  calling  the  window  proc  for  this  control
+feature  windows  when  redraw  turned  off  the  rebar  control  does  not  call  the  default  window  proc  this  means  that  the  rebar  will  redraw  and  children  the  rebar  will  also  redraw  the  fix  call  both  the  rebar  window  proc  and  the  default  window  proc  note  the  rebar  control  can  resize  itself  setredraw  when  redraw  turned  off  the  default  window  proc  this  can  leave  pixel  corruption  the  parent  the  fix  detect  the  size  change  and  damage  the  previous  area  the  parent  note  version  comctl  dll  when  setredraw  off  cannot  detect  that  the  size  has  changed  causing  pixel  corruption  the  fix  disallow  setredraw  not  running  the  default  window  proc  the  rebar  window  proc
+bug  windows  when  windows  sets  the  size  the  rebar  band  child  and  the  child  combo  box  the  size  the  drop  down  portion  the  combo  box  resized  zero  the  fix  set  the  size  the  control  the  current  size  after  the  rebar  has  already  resized  the  control  not  combo  this  does  nothing  the  control  combo  the  drop  down  portion  recalculated
+bug  windows  versions  windows  prior  drawing  the  background  color  customdraw  erases  the  separators  the  fix  draw  the  background  erasebkgnd
+</comments>
+</text>
+</DOC>

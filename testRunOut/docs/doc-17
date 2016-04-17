@@ -1,0 +1,293 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.TableEditor.java </DOCNO>
+<text>
+<class>
+table editor
+</class>
+<method>
+table editor
+control moved
+control resized
+compute bounds
+ dispose
+get column
+get item
+set column
+set item
+set editor
+ resize
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+table editor
+control editor
+ table
+ table
+table item
+ item
+ column
+control listener
+column listener
+table editor
+ table
+ table
+ table
+ table
+ table
+column listener
+control listener
+control moved
+control event
+
+ resize
+control resized
+control event
+
+ resize
+grab vertical
+ rectangle
+compute bounds
+ item
+ column
+ item
+ disposed
+ rectangle
+ rectangle
+ cell
+ item
+get bounds
+ column
+ rectangle
+ rect
+ item
+get image bounds
+ column
+ cell
+
+ rect
+
+ rect
+ width
+ cell
+ width
+ rect
+ width
+ rectangle
+ area
+ table
+get client area
+ cell
+
+ area
+
+ area
+ width
+ cell
+
+ cell
+ width
+ area
+
+ area
+ width
+ cell
+ width
+ area
+
+ area
+ width
+ cell
+
+ rectangle
+editor rect
+ rectangle
+ cell
+
+ cell
+
+minimum width
+minimum height
+grab horizontal
+editor rect
+ width
+ math
+ max
+ cell
+ width
+minimum width
+grab vertical
+editor rect
+ height
+ math
+ max
+ cell
+ height
+minimum height
+horizontal alignment
+ swt
+ right
+editor rect
+
+ cell
+ width
+editor rect
+ width
+horizontal alignment
+ swt
+ left
+editor rect
+
+ cell
+ width
+editor rect
+ width
+vertical alignment
+ swt
+ bottom
+editor rect
+
+ cell
+ height
+editor rect
+ height
+vertical alignment
+ swt
+ top
+editor rect
+
+ cell
+ height
+editor rect
+ height
+editor rect
+ dispose
+ column
+ column
+ table
+get column count
+table column
+table column
+ table
+get column
+ column
+table column
+remove control listener
+column listener
+column listener
+ table
+ item
+ column
+ dispose
+get column
+ column
+table item
+get item
+ item
+set column
+ column
+column count
+ table
+get column count
+column count
+ column
+ column
+ resize
+ column
+ column
+column count
+table column
+table column
+ table
+get column
+ column
+table column
+remove control listener
+column listener
+ column
+ column
+ column
+ table
+get column count
+ column
+ column
+table column
+table column
+ table
+get column
+ column
+table column
+add control listener
+column listener
+ resize
+set item
+table item
+ item
+ item
+ item
+ resize
+set editor
+ control
+ editor
+table item
+ item
+ column
+set item
+ item
+set column
+ column
+set editor
+ editor
+ resize
+ table
+ disposed
+ item
+ item
+ disposed
+column count
+ table
+get column count
+column count
+ column
+column count
+ column
+ column
+column count
+ resize
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+table editor  manager  for  control  that  appears  above  cell  table  and  tracks  with  the  moving  and  resizing  that  cell  can  used  display  text  widget  above  cell  table  that  the  user  can  edit  the  contents  that  cell  can  also  used  display  button  that  can  launch  dialog  for  modifying  the  contents  the  associated  cell  here  example  using table editor  code  pre  final  table  table  new  table  shell  swt  full  selection  swt  hide  selection table column  column  new table column  table  swt  none table column  column  new table column  table  swt  none  for  int table item  item  new table item  table  swt  none  item set text  new  string  item  edit  this  value  column  pack  column  pack  final table editor  editor  new table editor  table  the  editor  must  have  the  same  size  the  cell  and  must  not  any  smaller  than  pixels  editor horizontal alignment  swt  left  editor grab horizontal  true  editor minimum width  editing  the  second  column  final  int  editablecolumn  table add selection listener  new selection adapter  public  void widget selected selection event  clean  any  previous  editor  control  control old editor  editor get editor old editor  null old editor  dispose  identify  the  selected  row table item  item table item  item  item  null  return  the  control  that  will  the  editor  must  child  the  table  text new editor  new  text  table  swt  none new editor set text  item get text  editablecolumn new editor add modify listener  new modify listener  public  void modify text modify event  text  text  text  editor get editor  editor get item set text  editablecolumn  text get text new editor select all new editor set focus  editor set editor new editor  item  editablecolumn  pre  code
+creates table editor  for  the  specified  table  param  table  the  table  control  above  which  this  editor  will  displayed
+consistent  with  older  versions  swt grab vertical  defaults  true
+nothing  cell  the  right  answer
+default  center
+nothing  cell  the  right  answer
+default  center
+removes  all  associations  between  the table editor  and  the  cell  the  table  the  table  and  the  editor  control  are  not  disposed
+returns  the  zero  based  index  the  column  the  cell  being  tracked  this  editor  return  the  zero  based  index  the  column  the  cell  being  tracked  this  editor
+returns  the table item  for  the  row  the  cell  being  tracked  this  editor  return  the table item  for  the  row  the  cell  being  tracked  this  editor
+sets  the  zero  based  index  the  column  the  cell  being  tracked  this  editor  param  column  the  zero  based  index  the  column  the  cell  being  tracked  this  editor
+separately  handle  the  case  where  the  table  has table columns
+this  situation  there  single  default  column
+specify  the  control  that  displayed  and  the  cell  the  table  that  positioned  above  note  the  control  provided  the  editor  must  created  with  its  parent  being  the  table  control  specified  the table editor  constructor  param  editor  the  control  that  displayed  above  the  cell  being  edited  param  item  the table item  for  the  row  the  cell  being  tracked  this  editor  param  column  the  zero  based  index  the  column  the  cell  being  tracked  this  editor
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,51 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.TraverseEvent.java </DOCNO>
+<text>
+<class>
+traverse event
+</class>
+<method>
+traverse event
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ widgets
+traverse event
+key event
+ detail
+serial version uid
+traverse event
+ event
+
+
+ detail
+
+ detail
+ string
+ string
+ string
+ string
+ string
+ string
+ substring
+ string
+ length
+ detail
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  sent  result  widget  traversal  actions  the  traversal  event  allows  fine  control  over  keyboard  traversal  control  both  implement  traversal  and  override  the  default  traversal  behavior  defined  the  system  this  achieved  using  two  fields  code  detail  code  and  code  doit  code  when  control  traversed  traverse  event  sent  the  detail  describes  the  type  traversal  and  the  doit  indicates  the  default  behavior  the  system  for  example  when  right  arrow  key  pressed  text  control  the  detail  field  code  traverse  arrow  next  code  and  the  doit  field  code  false  code  indicating  that  the  system  will  not  traverse  the  next  tab  item  and  the  arrow  key  will  delivered  the  text  control  the  same  key  pressed  radio  button  the  doit  field  will  code  true  code  indicating  that  traversal  proceed  the  next  tab  item  possibly  another  radio  button  the  group  and  that  the  arrow  key  not  delivered  the  radio  button  how  can  the  traversal  event  used  implement  traversal  when  tab  key  pressed  canvas  the  detail  field  will  code  traverse  tab  next  code  and  the  doit  field  will  code  false  code  the  default  behavior  the  system  provide  traversal  for  canvas  controls  this  means  that  default  canvas  key  listener  will  see  every  key  that  user  types  including  traversal  keys  understand  why  this  important  understand  that  only  the  widget  implementor  can  decide  which  traversal  appropriate  for  the  widget  returning  the  code  traverse  tab  next  code  example  text  widget  implemented  canvas  would  typically  want  use  the  tab  key  insert  tab  character  into  the  widget  list  widget  implementation  the  other  hand  would  like  the  system  default  traversal  behavior  using  only  the  doit  flag  both  implementations  are  possible  the  text  widget  implementor  sets  doit  code  false  code  ensuring  that  the  system  will  not  traverse  and  that  the  tab  key  will  delivered  key  listeners  the  list  widget  implementor  sets  doit  code  true  code  indicating  that  the  system  should  perform  tab  traversal  and  that  the  key  should  not  delivered  the  list  widget  how  can  the  traversal  event  used  override  system  traversal  when  the  return  key  pressed  single  line  text  control  the  detail  field  code  traverse  return  code  and  the  doit  field  code  true  code  this  means  that  the  return  key  will  processed  the  default  button  not  the  text  widget  the  text  widget  has  default  selection  listener  will  not  run  because  the  return  key  will  processed  the  default  button  imagine  that  the  text  control  being  used  place  editor  and  return  used  dispose  the  widget  setting  doit  code  false  code  will  stop  the  system  from  activating  the  default  button  but  the  key  will  delivered  the  text  control  running  the  key  and  selection  listeners  for  the  text  how  can  code  traverse  return  code  implemented  that  the  default  button  will  not  activated  and  the  text  widget  will  not  see  the  return  key  this  achieved  setting  doit  code  true  code  and  the  detail  code  traverse  none  code  note  widget  implementor  will  typically  implement  traversal  using  only  the  doit  flag  either  enable  disable  system  traversal  see traverse listener
+the  traversal  type  link  org  eclipse  swt  swt  traverse  none  link  org  eclipse  swt  swt  traverse  escape  link  org  eclipse  swt  swt  traverse  return  link  org  eclipse  swt  swt  traverse  tab  next  link  org  eclipse  swt  swt  traverse  tab  previous  link  org  eclipse  swt  swt  traverse  arrow  next  link  org  eclipse  swt  swt  traverse  arrow  previous  link  org  eclipse  swt  swt  traverse  mnemonic  link  org  eclipse  swt  swt  traverse  page  next  link  org  eclipse  swt  swt  traverse  page  previous  setting  this  field  will  change  the  type  traversal  for  example  setting  the  detail  code  traverse  none  code  causes  traversal  action  taken  when  used  conjuction  with  the  code  doit  code  field  the  traversal  detail  field  can  useful  when  overriding  the  default  traversal  mechanism  for  control  for  example  setting  the  doit  field  code  false  code  will  cancel  the  operation  and  allow  the  traversal  key  stroke  delivered  the  control  setting  the  doit  field  code  true  code  indicates  that  the  traversal  described  the  detail  field  performed
+constructs  new  instance  this  class  based  the  information  the  given  untyped  event  param  the  untyped  event  containing  the  information
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
+remove  trailing
+</comments>
+</text>
+</DOC>

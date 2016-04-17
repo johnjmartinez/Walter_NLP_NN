@@ -1,0 +1,330 @@
+<DOC>
+<DOCNO>org.eclipse.swt.dnd.TextTransfer.java </DOCNO>
+<text>
+<class>
+text transfer
+</class>
+<method>
+text transfer
+get instance
+java native
+native java
+get type ids
+get type names
+check text
+ validate
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ dnd
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ internal
+ win
+text transfer
+byte array transfer
+text transfer
+ _instance
+text transfer
+ string
+ unicodetext
+ string
+ text
+ unicodetextid
+ com
+ unicodetext
+ textid
+ com
+ text
+text transfer
+text transfer
+get instance
+ _instance
+java native
+ object
+ object
+transfer data
+transfer data
+check text
+ object
+supported type
+transfer data
+ dnd
+ error
+ dnd
+error invalid data
+transfer data
+ result
+ com
+ fail
+ string
+ string
+ string
+ object
+transfer data
+ type
+ com
+ unicodetext
+char count
+ string
+ length
+ chars
+char count
+ string
+get chars
+char count
+ chars
+byte count
+ chars
+ length
+new ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+byte count
+
+move memory
+new ptr
+ chars
+byte count
+transfer data
+ stgmedium
+ stgmedium
+transfer data
+ stgmedium
+ tymed
+ com
+tymed hglobal
+transfer data
+ stgmedium
+union field
+new ptr
+transfer data
+ stgmedium
+unk for release
+transfer data
+ result
+ com
+
+ com
+ text
+ count
+ string
+ length
+ chars
+ count
+ string
+get chars
+ count
+ chars
+code page
+
+get acp
+cch multi byte
+
+wide char multi byte
+code page
+ chars
+cch multi byte
+transfer data
+ stgmedium
+ stgmedium
+transfer data
+ result
+ com
+ stgmedium
+multi byte str
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+cch multi byte
+
+wide char multi byte
+code page
+ chars
+multi byte str
+cch multi byte
+transfer data
+ stgmedium
+ stgmedium
+transfer data
+ stgmedium
+ tymed
+ com
+tymed hglobal
+transfer data
+ stgmedium
+union field
+multi byte str
+transfer data
+ stgmedium
+unk for release
+transfer data
+ result
+ com
+
+ object
+native java
+transfer data
+transfer data
+supported type
+transfer data
+transfer data
+data object
+data object
+ data
+data object
+transfer data
+data object
+ data
+add ref
+ formatetc
+ formatetc
+transfer data
+ formatetc
+ stgmedium
+ stgmedium
+ stgmedium
+ stgmedium
+ tymed
+ com
+tymed hglobal
+transfer data
+ result
+ data
+get data
+ formatetc
+ stgmedium
+ data
+ release
+transfer data
+ result
+ com
+
+ mem
+ stgmedium
+union field
+transfer data
+ type
+ unicodetextid
+ size
+
+global size
+ mem
+ size
+ chars
+ size
+ ptr
+
+global lock
+ mem
+ ptr
+
+move memory
+ chars
+ ptr
+ size
+ length
+ chars
+ length
+
+
+ chars
+ length
+
+ chars
+
+ length
+
+ string
+ chars
+ length
+
+global unlock
+ mem
+ textid
+multi byte str
+
+global lock
+ mem
+multi byte str
+code page
+
+get acp
+cch wide char
+
+multi byte wide char
+code page
+
+ precomposed
+multi byte str
+cch wide char
+wide char str
+cch wide char
+
+multi byte wide char
+code page
+
+ precomposed
+multi byte str
+wide char str
+wide char str
+ length
+ string
+wide char str
+
+global unlock
+ mem
+
+global free
+ mem
+get type ids
+ unicodetextid
+ textid
+ string
+get type names
+ string
+ unicodetext
+ text
+check text
+ object
+ object
+ object
+ object
+ string
+ string
+ object
+ length
+ validate
+ object
+ object
+check text
+ object
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+the  class  code text transfer  code  provides  platform  specific  mechanism  for  converting  plain  text  represented  java  code  string  code  platform  specific  representation  the  data  and  vice  versa  example  java  code  string  code  containing  plain  text  shown  below  code  pre  string text data  hello  world  code  pre  see  transfer
+non  nls 
+non  nls 
+returns  the  singleton  instance  the text transfer  class  return  the  singleton  instance  the text transfer  class
+this  implementation  code java native  code  converts  plain  text  represented  java  code  string  code  platform  specific  representation  param  object  java  code  string  code  containing  text  param transfer data  empty  code transfer data  code  object  this  object  will  filled  return  with  the  platform  specific  format  the  data  see  transfer java native
+this  implementation  code native java  code  converts  platform  specific  representation  plain  text  java  code  string  code  param transfer data  the  platform  specific  representation  the  data  converted  return  java  code  string  code  containing  text  the  conversion  was  successful  otherwise  null  see  transfer native java
+ensure byte count  multiple  bytes
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,632 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Group.java </DOCNO>
+<text>
+<class>
+ group
+</class>
+<method>
+ group
+call window proc
+check style
+check subclass
+compute size
+compute trim
+create handle
+get client area
+get name text
+get text
+mnemonic hit
+mnemonic match
+set text
+widget style
+window class
+window proc
+ erasebkgnd
+ nchittest
+ mousemove
+ printclient
+ size
+color child
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ group
+ composite
+client inset
+group proc
+ tchar
+group class
+ tchar
+
+ win
+ wndclass
+wnd class
+ wndclass
+
+ win
+
+get class info
+group class
+wnd class
+group proc
+wnd class
+lpfn wnd proc
+ tchar
+ button
+ tchar
+
+get class info
+ button
+wnd class
+group proc
+wnd class
+lpfn wnd proc
+ instance
+
+get module handle
+
+get class info
+ instance
+group class
+wnd class
+ heap
+
+get process heap
+wnd class
+ instance
+ instance
+wnd class
+ style
+
+ hredraw
+
+ vredraw
+byte count
+group class
+ length
+ tchar
+ sizeof
+lpsz class name
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+lpsz class name
+group class
+byte count
+wnd class
+lpsz class name
+lpsz class name
+
+register class
+wnd class
+ group
+ composite
+ parent
+ style
+ parent
+check style
+ style
+call window proc
+ hwnd
+ msg
+ param
+ param
+ handle
+ msg
+
+ lbuttondown
+
+ lbuttondblclk
+
+def window proc
+ hwnd
+ msg
+ param
+ param
+
+call window proc
+group proc
+ hwnd
+ msg
+ param
+ param
+check style
+ style
+ style
+ swt
+ focus
+ style
+ swt
+ scroll
+ swt
+ scroll
+check subclass
+valid subclass
+ error
+ swt
+error invalid subclass
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+ point
+ size
+compute size
+ hint
+ hint
+ changed
+ length
+
+get window text length
+ handle
+ length
+ tchar
+ buffer
+ tchar
+get code page
+ length
+
+get window text
+ handle
+ buffer
+ length
+new font
+old font
+
+
+ get
+ handle
+new font
+
+send message
+ handle
+
+ getfont
+new font
+old font
+
+select object
+
+new font
+ rect
+ rect
+ rect
+ flags
+
+ calcrect
+
+ singleline
+
+draw text
+
+ buffer
+ length
+ rect
+ flags
+new font
+
+select object
+
+old font
+
+ release
+ handle
+
+ size
+
+ math
+ max
+ size
+
+ rect
+ right
+ rect
+ left
+client inset
+ size
+ rectangle
+compute trim
+
+
+ width
+ height
+check widget
+ rectangle
+ trim
+compute trim
+
+
+ width
+ height
+new font
+old font
+
+
+ get
+ handle
+new font
+
+send message
+ handle
+
+ getfont
+new font
+old font
+
+select object
+
+new font
+ textmetric
+
+
+ unicode
+ textmetric
+ textmetricw
+ textmetrica
+
+get text metrics
+
+
+new font
+
+select object
+
+old font
+
+ release
+ handle
+
+ trim
+
+client inset
+ trim
+
+
+ height
+ trim
+ width
+client inset
+ trim
+ height
+
+ height
+client inset
+ trim
+create handle
+create handle
+ state
+ canvas
+ rectangle
+get client area
+check widget
+force resize
+ rect
+ rect
+ rect
+
+get client rect
+ handle
+ rect
+new font
+old font
+
+
+ get
+ handle
+new font
+
+send message
+ handle
+
+ getfont
+new font
+old font
+
+select object
+
+new font
+ textmetric
+
+
+ unicode
+ textmetric
+ textmetricw
+ textmetrica
+
+get text metrics
+
+
+new font
+
+select object
+
+old font
+
+ release
+ handle
+
+
+client inset
+
+
+ height
+ width
+ rect
+ right
+client inset
+ height
+ rect
+ bottom
+
+client inset
+ rectangle
+
+
+ width
+ height
+ string
+get name text
+get text
+ string
+get text
+check widget
+ length
+
+get window text length
+ handle
+ length
+ tchar
+ buffer
+ tchar
+get code page
+ length
+
+get window text
+ handle
+ buffer
+ length
+ buffer
+ string
+ length
+mnemonic hit
+ key
+set focus
+mnemonic match
+ key
+ mnemonic
+find mnemonic
+get text
+ mnemonic
+ character
+upper case
+ key
+ character
+upper case
+ mnemonic
+set text
+ string
+ string
+check widget
+ string
+ error
+ swt
+error null argument
+ tchar
+ buffer
+ tchar
+get code page
+ string
+
+set window text
+ handle
+ buffer
+widget style
+widget style
+
+ groupbox
+
+ clipchildren
+
+ clipsiblings
+ tchar
+window class
+group class
+window proc
+group proc
+ lresult
+ erasebkgnd
+ param
+ param
+ lresult
+ result
+ erasebkgnd
+ param
+ param
+ result
+ result
+
+comctl 32_ major
+
+app themed
+find theme control
+ result
+draw background
+ param
+ lresult
+ one
+ lresult
+ nchittest
+ param
+ param
+ lresult
+ result
+ nchittest
+ param
+ param
+ result
+ result
+ code
+call window proc
+ handle
+
+ nchittest
+ param
+ param
+ code
+
+ httransparent
+ code
+
+ htclient
+ lresult
+ code
+ lresult
+ mousemove
+ param
+ param
+ lresult
+ result
+ mousemove
+ param
+ param
+ result
+ result
+ lresult
+ zero
+ lresult
+ printclient
+ param
+ param
+ lresult
+ result
+ printclient
+ param
+ param
+ result
+ result
+
+comctl 32_ major
+
+app themed
+ saved
+
+ save
+ param
+ code
+call window proc
+ handle
+
+ printclient
+ param
+ param
+
+ restore
+ param
+ saved
+ lresult
+ code
+ result
+ lresult
+ size
+ param
+ param
+ lresult
+ result
+ size
+ param
+ param
+
+ win
+ result
+
+invalidate rect
+ handle
+ result
+ lresult
+color child
+ param
+ param
+ lresult
+ result
+color child
+ param
+ param
+
+comctl 32_ major
+
+app themed
+ control
+ control
+find theme control
+ control
+
+set mode
+ param
+
+ transparent
+ rect
+ rect
+ rect
+
+get client rect
+ control
+ handle
+ rect
+
+map window points
+ control
+ handle
+ handle
+ rect
+ control
+draw theme background
+ param
+ rect
+ lresult
+
+get stock object
+
+null brush
+ result
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  provide  etched  border  with  optional  title  shadow  styles  are  hints  and  may  not  honoured  the  platform  create  group  with  the  default  shadow  style  for  the  platform  not  specify  shadow  style  styles  shadow  etched  shadow  etched  out  shadow  shadow  out  shadow  none  events  none  note  only  one  the  above  styles  may  specified  important  this  class  not  intended  subclassed 
+feature  windows  the  group  box  window  class  uses  the  hredraw  and  vredraw  style  bits  force  full  redraw  the  control  and  all  children  when  resized  this  causes  flashing  the  fix  register  new  window  class  without  these  bits  and  implement  special  code  that  damages  only  the  exposed  area  feature  win  certain  devices  defining  new  window  class  which  looks  like  button  causes create window  crash  the  workaround  use  the  class  button  directly
+heap free  heap lpsz class name
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  shadow  etched  see  swt  shadow  etched  out  see  swt  shadow  see  swt  shadow  out  see  swt  shadow  none  see  widget check subclass  see  widget get style
+feature  windows  when  the  user  clicks  the  group  box  label  the  group  box  takes  focus  this  unwanted  the  fix  avoid  calling  the  group  box  window  proc
+even  though  legal  create  this  widget  with  scroll  bars  they  serve  useful  purpose  because  they  not  automatically  scroll  the  widget  client  area  the  fix  clear  the  swt  style
+the  group  has  text  and  the  text  wider  than  the  client  area  pad  the  width  the  text  not  clipped
+returns  the  receiver  text  which  the  string  that  the  used  the  title  the  text  has  not  previously  been  set  returns  empty  string  return  the  text  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  receiver  text  which  the  string  that  will  displayed  the  receiver  title  the  argument  which  may  not  null  the  string  may  include  the  mnemonic  character  mnemonics  are  indicated  amp  that  causes  the  next  character  the  mnemonic  when  the  user  presses  key  sequence  that  matches  the  mnemonic  focus  assgned  the  first  child  the  group  most  platforms  the  mnemonic  appears  underlined  but  may  emphasised  platform  specific  manner  the  mnemonic  indicator  character  amp  can  escaped  doubling  the  string  causing  single  amp  displayed  param  string  the  new  text  exception illegal argument exception  error  null  argument  the  text  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  windows  when  get  called  with  dcx  intersectupdate  the  hdc  that  returned  does  not  include  the  current  update  region  this  was  confirmed  under  debug  windows  when  get  complained  about  invalid  flags  therefore  not  easily  possible  get  hdc  from  outside  paint  that  includes  the  current  damage  and  clips  children  because  the  receiver  has  children  and  draws  frame  and  label  necessary  that  the  receiver  always  draw  clipped  the  current  damaged  area  the  fix  force  the  receiver  fully  clipped  including  clipchildren  and  clipsiblings  the  default  style  bits
+feaure  windows  group  boxes  not  erase  the  background  before  drawing  the  fix  fill  the  background  note  this  work  around  causes  flashing  and  not  necessary  when  parent  has  theme
+feature  windows  the  window  proc  for  the  group  box  returns  httransparent  indicating  that  mouse  messages  should  not  delivered  the  receiver  and  any  children  normally  group  boxes  windows  not  have  children  and  this  the  correct  behavior  for  this  case  because  allow  children  answer  htclient  allow  mouse  messages  delivered  the  children
+feature  windows  version  comctl  dll  every  time  the  mouse  moves  the  group  title  redraws  this  only  happens  when  nchittest  returns  htclient  the  fix  avoid  calling  the  group  window  proc
+feature  windows  version  comctl  dll  when  printclient  sent  from  child  group  control  parent  group  the  parent  group  clears  the  font  from  the  hdc  normally  group  boxes  windows  not  have  children  this  behavior  undefined  when  the  parent  group  not  group  there  problem  the  fix  save  and  restore  the  current  font
+</comments>
+</text>
+</DOC>

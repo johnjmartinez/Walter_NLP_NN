@@ -1,0 +1,242 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.JPEGQuantizationTable.java </DOCNO>
+<text>
+<class>
+jpeg quantization table
+</class>
+<method>
+jpeg quantization table
+jpeg quantization table
+default chrominance table
+default luminance table
+get quantization tables keys
+get quantization tables values
+ scale
+ signature
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+jpeg quantization table
+jpeg variable size segment
+default luminance table
+default chrominance table
+jpeg quantization table
+ reference
+ reference
+jpeg quantization table
+data input stream
+byte stream
+byte stream
+jpeg quantization table
+default chrominance table
+ data
+default chrominance table
+ length
+ system
+ arraycopy
+default chrominance table
+ data
+ data
+ length
+jpeg quantization table
+ data
+jpeg quantization table
+default luminance table
+ data
+default luminance table
+ length
+ system
+ arraycopy
+default luminance table
+ data
+ data
+ length
+jpeg quantization table
+ data
+get quantization tables keys
+ keys
+keys index
+total length
+get segment length
+ ofs
+total length
+
+ reference
+ ofs
+
+ reference
+ ofs
+
+ ofs
+total length
+ ofs
+total length
+keys index
+ keys
+ length
+new keys
+ keys
+ length
+ system
+ arraycopy
+ keys
+new keys
+ keys
+ length
+ keys
+new keys
+ keys
+keys index
+
+keys index
+new keys
+keys index
+ system
+ arraycopy
+ keys
+new keys
+keys index
+new keys
+get quantization tables values
+ values
+values index
+total length
+get segment length
+ ofs
+total length
+
+
+ reference
+ ofs
+
+
+
+
+ length
+
+
+
+ reference
+ ofs
+
+ ofs
+total length
+
+
+
+ length
+
+ idx
+
+
+
+ reference
+ ofs
+ idx
+ reference
+ ofs
+ idx
+ ofs
+total length
+values index
+ values
+ length
+new values
+ values
+ length
+ system
+ arraycopy
+ values
+new values
+ values
+ length
+ values
+new values
+ values
+values index
+
+values index
+new values
+values index
+ system
+ arraycopy
+ values
+new values
+values index
+new values
+ scale
+quality factor
+ factor
+quality factor
+ factor
+ factor
+ factor
+ factor
+ factor
+ factor
+ factor
+ factor
+ factor
+total length
+get segment length
+ ofs
+total length
+
+ reference
+ ofs
+
+
+ ofs
+
+ ofs
+
+ temp
+ reference
+
+ factor
+ temp
+ temp
+ temp
+ temp
+ reference
+
+ temp
+ ofs
+total length
+
+ ofs
+
+ ofs
+
+ temp
+ reference
+
+ reference
+
+ factor
+ temp
+ temp
+ temp
+ temp
+ reference
+
+ temp
+ reference
+
+ temp
+ ofs
+total length
+ signature
+jpeg file format
+ dqt
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+int  reference  ofs 
+</comments>
+</text>
+</DOC>

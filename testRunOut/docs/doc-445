@@ -1,0 +1,753 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.TreeColumn.java </DOCNO>
+<text>
+<class>
+tree column
+</class>
+<method>
+tree column
+tree column
+add control listener
+add selection listener
+check style
+check subclass
+get alignment
+get name text
+get parent
+get resizable
+get width
+ pack
+release child
+release widget
+remove control listener
+remove selection listener
+set alignment
+set image
+set resizable
+set text
+set width
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ events
+tree column
+ item
+ tree
+ parent
+ resizable
+tree column
+ tree
+ parent
+ style
+ parent
+check style
+ style
+ resizable
+ parent
+ parent
+ parent
+create item
+ parent
+get column count
+tree column
+ tree
+ parent
+ style
+ index
+ parent
+check style
+ style
+ resizable
+ parent
+ parent
+ parent
+create item
+ index
+add control listener
+control listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ resize
+typed listener
+add listener
+ swt
+ move
+typed listener
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+check style
+ style
+check bits
+ style
+ swt
+ left
+ swt
+ center
+ swt
+ right
+check subclass
+valid subclass
+ error
+ swt
+error invalid subclass
+get alignment
+check widget
+ style
+ swt
+ left
+ swt
+ left
+ style
+ swt
+ center
+ swt
+ center
+ style
+ swt
+ right
+ swt
+ right
+ swt
+ left
+ string
+get name text
+get text
+ tree
+get parent
+check widget
+ parent
+get resizable
+check widget
+ resizable
+get width
+check widget
+ index
+ parent
+ index
+ index
+hwnd header
+ parent
+hwnd header
+hwnd header
+ hditem
+ item
+ hditem
+ item
+ mask
+
+hdi width
+
+send message
+hwnd header
+
+hdm getitem
+ index
+ item
+ item
+ cxy
+ pack
+check widget
+ index
+ parent
+ index
+ index
+column width
+ hwnd
+ parent
+ handle
+
+
+ get
+ hwnd
+old font
+new font
+
+send message
+ hwnd
+
+ getfont
+new font
+old font
+
+select object
+
+new font
+
+ parent
+get code page
+ rect
+ rect
+ rect
+ flags
+
+ calcrect
+
+ noprefix
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif param
+ item
+
+send message
+ hwnd
+
+tvm getnextitem
+
+tvgn root
+ item
+ item
+
+send message
+ hwnd
+
+tvm getnextitem
+
+tvgn nextvisible
+ item
+ item
+ item
+ item
+
+send message
+ hwnd
+
+tvm getitem
+ item
+tree item
+ item
+ parent
+ items
+ item
+ param
+ index
+ rect
+ left
+ item
+ handle
+
+send message
+ hwnd
+
+tvm getitemrect
+ rect
+column width
+ math
+ max
+column width
+ rect
+ right
+image width
+text width
+ image
+ image
+ item
+ images
+ item
+ images
+ index
+ image
+ rectangle
+ bounds
+ image
+get bounds
+image width
+ bounds
+ width
+ string
+ string
+ item
+ strings
+ item
+ strings
+ index
+ string
+ tchar
+ buffer
+ tchar
+
+ string
+
+draw text
+
+ buffer
+ buffer
+ length
+ rect
+ flags
+text width
+ rect
+ right
+ rect
+ left
+column width
+ math
+ max
+column width
+image width
+text width
+ tree
+ inset
+ tchar
+ buffer
+ tchar
+
+ text
+
+draw text
+
+ buffer
+ buffer
+ length
+ rect
+ flags
+header width
+ rect
+ right
+ rect
+ left
+ tree
+header margin
+ image
+ margin
+hwnd header
+ parent
+hwnd header
+hwnd header
+
+comctl 32_ version
+
+ version
+ margin
+
+send message
+hwnd header
+
+hdm getbitmapmargin
+ margin
+
+get system metrics
+
+ cxedge
+ rectangle
+ bounds
+ image
+get bounds
+header width
+ bounds
+ width
+ margin
+new font
+
+select object
+
+old font
+
+ release
+ hwnd
+
+set width
+ math
+ max
+header width
+column width
+release child
+release child
+ parent
+destroy item
+release widget
+release widget
+ parent
+remove control listener
+control listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ move
+ listener
+event table
+ unhook
+ swt
+ resize
+ listener
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ selection
+ listener
+event table
+ unhook
+ swt
+default selection
+ listener
+set alignment
+ alignment
+check widget
+ alignment
+ swt
+ left
+ swt
+ right
+ swt
+ center
+ index
+ parent
+ index
+ index
+ index
+ style
+ swt
+ left
+ swt
+ right
+ swt
+ center
+ style
+ alignment
+ swt
+ left
+ swt
+ right
+ swt
+ center
+hwnd header
+ parent
+hwnd header
+hwnd header
+ hditem
+ item
+ hditem
+ item
+ mask
+
+hdi format
+
+hdi image
+
+send message
+hwnd header
+
+hdm getitem
+ index
+ item
+ item
+ fmt
+
+hdf justifymask
+ style
+ swt
+ left
+ swt
+ left
+ item
+ fmt
+
+hdf left
+ style
+ swt
+ center
+ swt
+ center
+ item
+ fmt
+
+hdf center
+ style
+ swt
+ right
+ swt
+ right
+ item
+ fmt
+
+hdf right
+
+send message
+hwnd header
+
+hdm setitem
+ index
+ item
+ index
+ hwnd
+ parent
+ handle
+ rect
+ rect
+ rect
+item rect
+ rect
+
+get client rect
+ hwnd
+ rect
+
+send message
+hwnd header
+
+hdm getitemrect
+ index
+item rect
+ rect
+ left
+item rect
+ left
+ rect
+ right
+item rect
+ right
+
+invalidate rect
+ hwnd
+ rect
+set image
+ image
+ image
+check widget
+ image
+ image
+ disposed
+ error
+ swt
+error invalid argument
+ index
+ parent
+ index
+ index
+set image
+ image
+hwnd header
+ parent
+hwnd header
+hwnd header
+ hditem
+ item
+ hditem
+ item
+ mask
+
+hdi format
+
+hdi image
+
+send message
+hwnd header
+
+hdm getitem
+ index
+ item
+ image
+ item
+ fmt
+
+lvcfmt image
+ item
+ image
+ parent
+image index
+ image
+ item
+ fmt
+
+lvcfmt image
+
+send message
+hwnd header
+
+hdm setitem
+ index
+ item
+set resizable
+ resizable
+check widget
+ resizable
+ resizable
+set text
+ string
+ string
+check widget
+ string
+ error
+ swt
+error null argument
+ index
+ parent
+ index
+ index
+set text
+ string
+ heap
+
+get process heap
+ tchar
+ buffer
+ tchar
+ parent
+get code page
+fix mnemonic
+ string
+byte count
+ buffer
+ length
+ tchar
+ sizeof
+psz text
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+psz text
+ buffer
+byte count
+hwnd header
+ parent
+hwnd header
+hwnd header
+ hditem
+ item
+ hditem
+ item
+ mask
+
+hdi text
+ item
+psz text
+psz text
+ result
+
+send message
+hwnd header
+
+hdm setitem
+ index
+ item
+psz text
+
+heap free
+ heap
+psz text
+ result
+ error
+ swt
+error cannot set text
+set width
+ width
+check widget
+ index
+ parent
+ index
+ index
+hwnd header
+ parent
+hwnd header
+hwnd header
+ hditem
+ item
+ hditem
+ item
+ mask
+
+hdi width
+ item
+ cxy
+ width
+
+send message
+hwnd header
+
+hdm setitem
+ index
+ item
+ parent
+set scroll width
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  represent  column  tree  widget  styles  left  right  center  events  move  resize  selection  note  only  one  the  styles  left  right  and  center  may  specified  important  this  class  not  intended  subclassed  since 
+constructs  new  instance  this  class  given  its  parent  which  must  code  tree  code  and  style  value  describing  its  behavior  and  appearance  the  item  added  the  end  the  items  maintained  its  parent  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  left  see  swt  right  see  swt  center  see  widget check subclass  see  widget get style
+constructs  new  instance  this  class  given  its  parent  which  must  code  tree  code  style  value  describing  its  behavior  and  appearance  and  the  index  which  place  the  items  maintained  its  parent  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  param  index  the  index  store  the  receiver  its  parent  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  left  see  swt  right  see  swt  center  see  widget check subclass  see  widget get style
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  control  moved  resized  sending  one  the  messages  defined  the  code control listener  code  interface  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see control listener  see remove control listener
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  control  selected  sending  one  the  messages  defined  the  code selection listener  code  interface  code widget selected  code  called  when  the  column  header  selected  code widget default selected  code  not  called  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener  see selection event
+returns  value  which  describes  the  position  the  text  image  the  receiver  the  value  will  one  code  left  code  code  right  code  code  center  code  return  the  alignment  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  parent  which  must  code  tree  code  return  the  receiver  parent  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+gets  the  resizable  attribute  column  that  not  resizable  cannot  dragged  the  user  but  may  resized  the  programmer  return  the  resizable  attribute  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+gets  the  width  the  receiver  return  the  width  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+causes  the  receiver  resized  its  preferred  size  for  composite  this  involves  computing  the  preferred  size  from  its  layout  there  one  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  control  moved  resized  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see control listener  see add control listener
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  control  selected  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener
+controls  how  text  and  images  will  displayed  the  receiver  the  argument  should  one  code  left  code  code  right  code  code  center  code  param  alignment  the  new  alignment  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  resizable  attribute  column  that  not  resizable  cannot  dragged  the  user  but  may  resized  the  programmer  param  resizable  the  resize  attribute  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  windows  when  column  header  contains  mnemonic  character  windows  does  not  measure  the  text  properly  this  causes  always  appear  the  end  the  text  the  fix  remove  mnemonic  characters  and  replace  doubled  mnemonics  with  spaces
+sets  the  width  the  receiver  param  width  the  new  width  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+</comments>
+</text>
+</DOC>

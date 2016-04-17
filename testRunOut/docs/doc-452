@@ -1,0 +1,45 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Layout.java </DOCNO>
+<text>
+<class>
+ layout
+</class>
+<method>
+compute size
+flush cache
+ layout
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ graphics
+ layout
+ point
+compute size
+ composite
+ composite
+ hint
+ hint
+flush cache
+flush cache
+ control
+ control
+ layout
+ composite
+ composite
+flush cache
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+layout  controls  the  position  and  size  the  children  composite  widget  this  class  the  abstract  base  class  for  layouts  see  composite set layout  layout
+computes  and  returns  the  size  the  specified  composite  client  area  according  this  layout  this  method  computes  the  size  that  the  client  area  the  composite  must  order  position  all  children  their  preferred  size  inside  the  composite  according  the  layout  algorithm  encoded  this  layout  when  width  height  hint  supplied  used  constrain  the  result  for  example  width  hint  provided  that  less  than  the  width  the  client  area  the  layout  may  choose  wrap  and  increase  height  clip  overlap  otherwise  constrain  the  children  param  composite  composite  widget  using  this  layout  param  hint  width  code  swt  default  code  for  preferred  size  param  hint  height  code  swt  default  code  for  preferred  size  param flush cache  code  true  code  means  flush  cached  layout  values  return  point  containing  the  computed  size  width  height  see  layout  see  control get border width  see  control get bounds  see  control get size  see  control  pack  boolean  see compute trim get client area  for  controls  that  implement  them
+instruct  the  layout  flush  any  cached  values  associated  with  the  control  specified  the  argument  code  control  code  param  control  control  managed  this  layout  return  true  the  layout  has  flushed  all  cached  information  associated  with  control  since 
+lays  out  the  children  the  specified  composite  according  this  layout  this  method  positions  and  sizes  the  children  composite  using  the  layout  algorithm  encoded  this  layout  children  the  composite  are  positioned  the  client  area  the  composite  the  position  the  composite  not  altered  this  method  when  the  flush  cache  hint  true  the  layout  instructed  flush  any  cached  values  associated  with  the  children  typically  layout  will  cache  the  preferred  sizes  the  children  avoid  the  expense  computing  these  values  each  time  the  widget  laid  out  when  layout  triggered  explicitly  the  programmer  the  flush  cache  hint  true  when  layout  triggered  resize  either  caused  the  programmer  the  user  the  hint  false  param  composite  composite  widget  using  this  layout  param flush cache  code  true  code  means  flush  cached  layout  values
+</comments>
+</text>
+</DOC>

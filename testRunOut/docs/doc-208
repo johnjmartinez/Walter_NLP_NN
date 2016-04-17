@@ -1,0 +1,27 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.win32.BLENDFUNCTION.java </DOCNO>
+<text>
+<class>
+ blendfunction
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ win
+ blendfunction
+ blend
+blend flags
+source constant alpha
+alpha format
+ sizeof
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,32 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.SWTEventObject.java </DOCNO>
+<text>
+<class>
+swt event object
+</class>
+<method>
+swt event object
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ java
+ util
+event object
+swt event object
+event object
+serial version uid
+swt event object
+ object
+ source
+ source
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  class  the  cross  platform  version  the  java  util event object  class  part  our  effort  provide  support  for  both  and  platforms  under  this  scheme  classes  need  extend swt event object  instead  java  util event object  note  java  util event object  not  part  cdc  and  cldc 
+constructs  new  instance  this  class  param  source  the  object  which  fired  the  event
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,40 @@
+<DOC>
+<DOCNO>org.eclipse.swt.browser.ProgressEvent.java </DOCNO>
+<text>
+<class>
+progress event
+</class>
+<method>
+progress event
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ browser
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ events
+progress event
+typed event
+ current
+ total
+serial version uid
+progress event
+ widget
+
+
+</identifier>
+<comments>
+copyright  2003  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+code progress event  code  sent  link  browser  link progress listener  when  progress  made  during  the  loading  the  current  url  when  the  loading  the  current  url  has  been  completed  since 
+current  value
+total  value
+</comments>
+</text>
+</DOC>

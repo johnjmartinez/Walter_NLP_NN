@@ -1,0 +1,60 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.ImageLoaderEvent.java </DOCNO>
+<text>
+<class>
+image loader event
+</class>
+<method>
+image loader event
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+swt event object
+image loader event
+swt event object
+image data
+image data
+increment count
+end image
+serial version uid
+image loader event
+image loader
+ source
+image data
+image data
+increment count
+end image
+ source
+image data
+image data
+increment count
+increment count
+end image
+end image
+ string
+ string
+ source
+image data
+increment count
+end image
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  sent  result  the  incremental  loading  image  data  notes  the  number  events  which  will  sent  when  loading  images  not  constant  varies  image  type  and  for  jpeg  images  varies  from  image  image  for  image  sources  which  contain  multiple  images  the  code end image  code  flag  the  event  will  set  true  after  each  individual  image  loaded  see image loader  see image loader listener
+the  code end image  code  flag  false  then  this  partially  complete  copy  the  current  code image data  code  otherwise  this  completely  loaded  code image data  code
+the  zero  based  count  image  data  increments  this  equivalent  the  number  events  that  have  been  generated  while  loading  particular  image
+this  flag  true  then  the  current  image  data  has  been  completely  loaded  otherwise  the  image  data  only  partially  loaded  and  further image loader  events  will  occur  unless  exception  thrown
+constructs  new  instance  this  class  given  the  event  source  and  the  values  store  its  fields  param  source  the image loader  that  was  loading  when  the  event  occurred  param image data  the  image  data  for  the  event  param increment count  the  image  data  increment  for  the  event  param end image  the  end  image  flag  for  the  event
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
+non  nls  non  nls  non  nls  non  nls  non  nls 
+</comments>
+</text>
+</DOC>

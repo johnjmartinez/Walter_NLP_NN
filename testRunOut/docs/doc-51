@@ -1,0 +1,32 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.BidiSegmentListener.java </DOCNO>
+<text>
+<class>
+bidi segment listener
+</class>
+<method>
+line get segments
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+bidi segment listener
+swt event listener
+line get segments
+bidi segment event
+ event
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  listener  interface  may  implemented  order  receive bidi segment events  see bidi segment event
+this  method  called  when  line  needs  reordered  for  measuring  rendering  bidi  locale  the  following  event  fields  are  used  event line offset  line  start  offset  input  event line text  line  text  input  event  segments  text  segments  that  should  reordered  separately  output  param  event  the  given  event  separately  output  see bidi segment event
+</comments>
+</text>
+</DOC>

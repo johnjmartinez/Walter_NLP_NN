@@ -1,0 +1,886 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.GIFFileFormat.java </DOCNO>
+<text>
+<class>
+gif file format
+</class>
+<method>
+gray ramp
+file format
+load from byte stream
+ read
+get extensions
+read extension
+read comment extension
+read plain text extension
+read graphics control extension
+read application extension
+read image block
+read palette
+unload into byte stream
+write graphics control block
+write image block
+write palette
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ java
+
+gif file format
+file format
+ string
+ signature
+screen width
+screen height
+background pixel
+bits per pixel
+default depth
+disposal method
+delay time
+transparent pixel
+repeat count
+gif application extension block
+gif graphics control block
+gif plain text block
+gif comment block
+gif extension block
+gif image block
+gif trailer
+palette data
+gray ramp
+num grays
+
+num grays
+ rgb
+ colors
+ rgb
+num grays
+
+
+num grays
+
+ intensity
+
+
+ colors
+
+ rgb
+ intensity
+ intensity
+ intensity
+palette data
+ colors
+file format
+data input stream
+ stream
+ signature
+ stream
+ read
+ signature
+ stream
+ unread
+ signature
+ string
+ signature
+ equals
+ exception
+
+image data
+load from byte stream
+signature bytes
+version bytes
+ block
+input stream
+ read
+signature bytes
+ signature
+ string
+signature bytes
+ signature
+ equals
+ swt
+ error
+ swt
+error invalid image
+input stream
+ read
+version bytes
+input stream
+ read
+ block
+ exception
+
+ swt
+ error
+ swt
+ error
+
+screen width
+ block
+ block
+ loader
+logical screen width
+screen width
+screen height
+ block
+ block
+ loader
+logical screen height
+screen height
+bit field
+ block
+background pixel
+ block
+bits per pixel
+bit field
+default depth
+bit field
+palette data
+ palette
+bit field
+ palette
+read palette
+default depth
+background pixel
+default depth
+bits per pixel
+ loader
+background pixel
+background pixel
+get extensions
+
+ read
+image data
+ images
+image data
+
+gif image block
+image data
+ image
+read image block
+ palette
+ loader
+has listeners
+ loader
+notify listeners
+image loader event
+ loader
+ image
+image data
+old images
+ images
+ images
+image data
+old images
+ length
+ system
+ arraycopy
+old images
+ images
+old images
+ length
+ images
+ images
+ length
+ image
+
+input stream
+ read
+
+input stream
+ unread
+
+ exception
+
+ swt
+ error
+ swt
+ error
+
+get extensions
+
+ read
+ images
+ read
+input stream
+ read
+ exception
+
+ swt
+ error
+ swt
+ error
+
+get extensions
+
+ read
+
+gif image block
+
+gif trailer
+
+
+gif extension block
+read extension
+ swt
+ error
+ swt
+error invalid image
+
+ read
+
+gif image block
+
+gif trailer
+input stream
+ unread
+
+ exception
+
+ swt
+ error
+ swt
+ error
+
+read extension
+ extension
+ read
+ extension
+gif comment block
+read comment extension
+ extension
+gif plain text block
+read plain text extension
+ extension
+gif graphics control block
+read graphics control extension
+ extension
+gif application extension block
+read application extension
+ext size
+input stream
+ read
+ext size
+ swt
+ error
+ swt
+error invalid image
+ ext
+ext size
+input stream
+ read
+ ext
+ext size
+ ext
+ exception
+
+ swt
+ error
+ swt
+ error
+
+read comment extension
+ comment
+ block
+ size
+input stream
+ read
+ size
+input stream
+ read
+ block
+ size
+old comment
+ comment
+ comment
+old comment
+ length
+ size
+ system
+ arraycopy
+old comment
+ comment
+old comment
+ length
+ system
+ arraycopy
+ block
+ comment
+old comment
+ length
+ size
+ size
+input stream
+ read
+ comment
+ exception
+
+ swt
+ error
+ swt
+ error
+
+read plain text extension
+input stream
+ read
+ info
+input stream
+ read
+ info
+ text
+ block
+ size
+input stream
+ read
+ size
+input stream
+ read
+ block
+ size
+old text
+ text
+ text
+old text
+ length
+ size
+ system
+ arraycopy
+old text
+ text
+old text
+ length
+ system
+ arraycopy
+ block
+ text
+old text
+ length
+ size
+ size
+input stream
+ read
+ text
+ exception
+
+ swt
+ error
+ swt
+ error
+
+read graphics control extension
+input stream
+ read
+control block
+input stream
+ read
+control block
+bit field
+control block
+disposal method
+bit field
+delay time
+control block
+control block
+bit field
+color index
+control block
+color index
+default depth
+transparent pixel
+color index
+transparent pixel
+input stream
+ read
+control block
+ exception
+
+ swt
+ error
+ swt
+ error
+
+read application extension
+input stream
+ read
+application bytes
+input stream
+ read
+application bytes
+ string
+ application
+ string
+application bytes
+authentication bytes
+input stream
+ read
+authentication bytes
+ string
+ authentication
+ string
+authentication bytes
+ data
+ block
+ size
+input stream
+ read
+ size
+input stream
+ read
+ block
+ size
+old data
+ data
+ data
+old data
+ length
+ size
+ system
+ arraycopy
+old data
+ data
+old data
+ length
+ system
+ arraycopy
+ block
+ data
+old data
+ length
+ size
+ size
+input stream
+ read
+ application
+ equals
+ authentication
+ equals
+ data
+repeat count
+ data
+ data
+ loader
+repeat count
+repeat count
+ data
+ exception
+
+ swt
+ error
+ swt
+ error
+
+image data
+read image block
+palette data
+default palette
+ depth
+palette data
+ palette
+ block
+input stream
+ read
+ block
+ exception
+
+ swt
+ error
+ swt
+ error
+
+ left
+ block
+ block
+ top
+ block
+ block
+ width
+ block
+ block
+ height
+ block
+ block
+bit field
+ block
+ interlaced
+bit field
+bit field
+ depth
+bit field
+ palette
+read palette
+ depth
+ depth
+default depth
+ palette
+default palette
+ depth
+ depth
+ depth
+ depth
+ depth
+ depth
+ palette
+ palette
+gray ramp
+ depth
+initial code size
+initial code size
+input stream
+ read
+ exception
+
+ swt
+ error
+ swt
+ error
+
+initial code size
+ swt
+ error
+ swt
+error invalid image
+image data
+ image
+image data
+internal _new
+ width
+ height
+ depth
+ palette
+transparent pixel
+ swt
+image gif
+ left
+ top
+disposal method
+delay time
+lzw codec
+ codec
+lzw codec
+ codec
+ decode
+input stream
+ loader
+ image
+ interlaced
+initial code size
+ image
+palette data
+read palette
+num colors
+ bytes
+num colors
+input stream
+ read
+ bytes
+ bytes
+ length
+ swt
+ error
+ swt
+error invalid image
+ exception
+
+ swt
+ error
+ swt
+ error
+
+ rgb
+ colors
+ rgb
+num colors
+
+
+num colors
+
+ colors
+
+ rgb
+ bytes
+
+ bytes
+
+ bytes
+
+palette data
+ colors
+unload into byte stream
+image data
+ image
+ image
+ depth
+ image
+ depth
+ image
+ depth
+ swt
+ error
+ swt
+error unsupported depth
+bit field
+ image
+ depth
+ image
+ depth
+output stream
+ write
+output stream
+ write
+output stream
+write short
+ image
+ width
+output stream
+write short
+ image
+ height
+output stream
+write byte
+bit field
+output stream
+write byte
+output stream
+write byte
+ exception
+
+ swt
+ error
+ swt
+ error
+
+write palette
+ image
+ palette
+ image
+ depth
+ image
+transparent pixel
+ image
+disposal method
+ image
+delay time
+write graphics control block
+ image
+write image block
+ image
+output stream
+ write
+ exception
+
+ swt
+ error
+ swt
+ error
+
+write graphics control block
+image data
+ image
+output stream
+ write
+gif extension block
+output stream
+ write
+gif graphics control block
+output stream
+ write
+ block
+ block
+ block
+ block
+ block
+ image
+transparent pixel
+ block
+ block
+ block
+ block
+ block
+ image
+transparent pixel
+ image
+disposal method
+ block
+ block
+ image
+disposal method
+ image
+delay time
+ block
+ image
+delay time
+ block
+ image
+delay time
+output stream
+ write
+ block
+output stream
+ write
+ exception
+
+ swt
+ error
+ swt
+ error
+
+write image block
+image data
+ image
+output stream
+ write
+gif image block
+ block
+ block
+ image
+
+ block
+ image
+
+ block
+ image
+
+ block
+ image
+
+ block
+ image
+ width
+ block
+ image
+ width
+ block
+ image
+ height
+ block
+ image
+ height
+ block
+output stream
+ write
+ block
+output stream
+ write
+ image
+ depth
+ exception
+
+ swt
+ error
+ swt
+ error
+
+lzw codec
+ encode
+output stream
+ image
+write palette
+palette data
+ palette
+ depth
+ bytes
+ depth
+ offset
+
+
+ palette
+ colors
+ length
+
+ rgb
+ color
+ palette
+ colors
+
+ bytes
+ offset
+ color
+ red
+ bytes
+ offset
+ color
+ green
+ bytes
+ offset
+ color
+ blue
+ offset
+output stream
+ write
+ bytes
+ exception
+
+ swt
+ error
+ swt
+ error
+
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+answer  palette  containing num grays  shades  gray  ranging  from  black  white
+non  nls 
+load  the  gif  image  stored  the  input  stream  return  array image data  representing  the  image 
+non  nls 
+aspect  block 
+global  palette
+sorted bit field 
+global  palette
+sorted  false
+read  the  byte  terminator  the  end  the  image
+read  the  terminator  earlier
+read  and  return  the  next  block  extension  identifier  from  the  file
+read  extensions  until  image  descriptor  appears  the  future  care  about  the  extensions  they  should  properly  grouped  with  the  image  data  before  which  they  appeared  right  now  the  interesting  parts  some  extensions  are  kept  but  the  rest  discarded  throw  error  error  occurs
+read  control  extension  return  the  extension  block  data
+otherwise  don  recognize  the  block  the
+field  size  correct  can  just  skip  over
+the  block  contents
+have  just  read  the  comment  extension  identifier  from  the  input  stream  read  the  rest  the  comment  and  return  gif  comment  blocks  are  variable  size
+have  just  read  the plain text  extension  identifier  from  the  input  stream  read  the  plain  text  info  and  text  and  return  the  text  gif  plain  text  blocks  are  variable  size
+read  size  block 
+read  the  text  information  width  height  colors
+read  the  text
+have  just  read  the graphics control  extension  identifier  from  the  input  stream  read  the  control  information  store  and  return 
+read  size  block 
+read  the  control  block
+store  the  user  input  field
+user input bit field 
+store  the  disposal  method
+store  the  delay  time
+store  the  transparent  color
+work  around  customer  has  gif  that  specifies  invalid  color  index  that  larger  than  the  number  entries  the  palette  detect  this  case  and  ignore  the  specified  color  index
+read  block  terminator
+have  just  read  the  application  extension  identifier  from  the  input  stream  read  the  rest  the  extension  look  for  and  store  number  repeats  and  return  the  data
+read  size  block 
+read  application  identifier
+read  authentication  code
+read  application  data
+look  for  the  netscape  repeat  count  field  for  animated  gif
+non  nls  non  nls 
+return device independent image  representing  the  image  block  the  current  position  the  input  stream  throw  error  error  occurs
+boolean  sorted bit field 
+local  palette
+local  palette
+promote  depth  next  highest  supported  value
+read  palette  from  the  input  stream
+write  the  specified  device  independent  image  the  output  stream
+write  out graphics control block  describe  the  specified  device  independent  image
+size  block
+block  terminator
+write  the  specified  device  independent  image  the  current  position  the  output  stream
+interlace  sort  local  palette
+write  the  specified  palette  the  output  stream
+</comments>
+</text>
+</DOC>

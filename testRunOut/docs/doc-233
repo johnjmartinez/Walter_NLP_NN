@@ -1,0 +1,7902 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.win32.OS.java </DOCNO>
+<text>
+<class>
+
+</class>
+<method>
+ version
+call window proc
+char upper
+char lower
+choose color
+choose font
+create accelerator table
+ create
+create font indirect
+create font indirect
+create window
+def mdi child proc
+def frame proc
+def window proc
+dispatch message
+drag query file
+draw state
+draw text
+enum font families
+enum font families
+enum system locales
+enum system language groups
+expand environment strings
+extract icon
+ext text out
+find window
+format message
+get char abc widths
+get character placement
+get char width
+get class info
+get class name
+get clipboard format name
+get key name text
+get locale info
+get menu item info
+get message
+get module handle
+get monitor info
+get object
+get object
+get object
+get object
+get object
+get object
+get object
+get open file name
+get profile string
+get prop
+get save file name
+get text extent point
+get text metrics
+get version
+get window long
+get window text
+get window text length
+global add atom
+imm get composition font
+imm set composition font
+imm get composition string
+insert menu
+insert menu item
+load bitmap
+load cursor
+load icon
+load image
+load image
+load library
+load string
+map virtual key
+message box
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+peek message
+post message
+post thread message
+print dlg
+reg enum key
+register class
+register clipboard format
+register window message
+reg open key
+reg query info key
+reg query value
+reg query value
+remove prop
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+set menu item info
+set prop
+set window long
+set windows hook
+set window text
+browse for folder
+shell execute
+shell notify icon
+get path from list
+start doc
+system parameters info
+system parameters info
+system parameters info
+system parameters info
+translate accelerator
+unregister class
+key scan
+abort doc
+activate keyboard layout
+adjust window rect
+alpha blend
+ arc
+begin defer window pos
+begin paint
+begin path
+bit blt
+bring window top
+ call
+call next hook
+call window proc
+call window proc
+char lower
+char lower
+char upper
+char upper
+check menu item
+choose color
+choose color
+choose font
+choose font
+client screen
+close clipboard
+close theme data
+create instance
+combine rgn
+command bar add adornments
+command bar create
+command bar destroy
+command bar draw menu bar
+command bar height
+command bar insert menubar
+command bar show
+comm dlg extended error
+copy image
+create accelerator table
+create accelerator table
+create bitmap
+create caret
+create compatible bitmap
+create compatible
+create cursor
+create dcw
+create dca
+create dib section
+create font indirect
+create font indirect
+create font indirect
+create font indirect
+create icon indirect
+create menu
+create palette
+create pattern brush
+create pen
+create polygon rgn
+create popup menu
+create rect rgn
+create solid brush
+create stream global
+create window
+create window
+defer window pos
+def mdi child proc
+def mdi child proc
+def frame proc
+def frame proc
+def window proc
+def window proc
+ delete
+delete menu
+delete object
+destroy accelerator table
+destroy caret
+destroy cursor
+destroy icon
+destroy menu
+destroy window
+dispatch message
+dispatch message
+drag detect
+drag finish
+drag query file
+drag query file
+draw edge
+draw focus rect
+draw frame control
+draw icon
+draw menu bar
+draw state
+draw state
+draw text
+draw text
+draw theme background
+ ellipse
+enable menu item
+enable scroll bar
+enable window
+enum system language groups
+enum system language groups
+enum system locales
+enum system locales
+end defer window pos
+end doc
+end page
+end paint
+end path
+enum display monitors
+enum font families
+enum font families
+enum font families
+enum font families
+equal rect
+equal rgn
+exclude clip rect
+expand environment strings
+expand environment strings
+ext create pen
+ext create region
+ext text out
+ext text out
+extract icon
+extract icon
+fill rect
+fill path
+find window
+find window
+format message
+format message
+free library
+gdi set batch limit
+get acp
+get active window
+get color
+get capture
+get caret pos
+get char abc widths
+get char abc widths
+get character placement
+get character placement
+get char width
+get char width
+get class info
+get class info
+get class name
+get class name
+get client rect
+get clipboard data
+get clipboard format name
+get clipboard format name
+get clip box
+get clip rgn
+get combo box info
+get current object
+get current process
+get current thread
+get cursor
+get cursor pos
+ get
+ get
+get desktop window
+get device caps
+get dialog base units
+get dib color table
+get bits
+get dlg item
+get double click time
+get focus
+get font language info
+get foreground window
+get gui thread info
+get icon info
+get keyboard layout list
+get keyboard layout
+get key state
+get keyboard state
+get key name text
+get key name text
+get last active popup
+get last error
+get layout
+get library handle
+get locale info
+get locale info
+get menu
+get menu bar info
+get menu default item
+get menu info
+get menu item count
+get menu item info
+get menu item info
+get menu item rect
+get message
+get message
+get message pos
+get message time
+get meta rgn
+get text charset
+get tick count
+get module handle
+get module handle
+get monitor info
+get monitor info
+get nearest palette index
+get object
+get object
+get object
+get object
+get object
+get object
+get object
+get object
+get object
+get object
+get object
+get object
+get object
+get object
+get open file name
+get open file name
+get palette entries
+get parent
+get pixel
+get poly fill mode
+get proc address
+get process heap
+get profile string
+get profile string
+get prop
+get prop
+get random rgn
+get region data
+get rgn box
+get rop
+get save file name
+get save file name
+get scroll info
+get stock object
+get sys color
+get sys color brush
+get system default language
+get system menu
+get system metrics
+get system palette entries
+get text color
+get text extent point
+get text extent point
+get text metrics
+get text metrics
+get update rect
+get update rgn
+get version
+get version
+get window
+get window long
+get window long
+get window org
+get window placement
+get window rect
+get window rgn
+get window text
+get window text
+get window text length
+get window text length
+get window thread process
+get world transform
+global add atom
+global add atom
+global alloc
+global free
+global lock
+global size
+global unlock
+gradient fill
+heap alloc
+heap free
+hide caret
+iid from string
+image list add
+image list add masked
+image list create
+image list destroy
+image list get icon
+image list get icon size
+image list get image count
+image list remove
+image list replace
+image list replace icon
+image list set icon size
+imm associate context
+imm create context
+imm destroy context
+imm disable text frame service
+imm get composition font
+imm get composition font
+imm get composition string
+imm get composition string
+imm get context
+imm get conversion status
+imm get default ime wnd
+imm get open status
+imm release context
+imm set composition font
+imm set composition font
+imm set composition window
+imm set conversion status
+imm set open status
+init common controls
+init common controls
+insert menu
+insert menu
+insert menu item
+insert menu item
+intersect clip rect
+intersect rect
+invalidate rect
+invalidate rgn
+app themed
+dbcs lead byte
+hung app window
+ iconic
+ ppc
+
+window enabled
+window visible
+ zoomed
+kill timer
+ line
+load bitmap
+load bitmap
+load cursor
+load cursor
+load icon
+load icon
+load image
+load image
+load image
+load image
+load string
+load string
+load library
+load library
+local free
+map virtual key
+map virtual key
+map window points
+map window points
+message beep
+message box
+message box
+monitor from window
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+ move
+msg wait for multiple objects
+multi byte wide char
+multi byte wide char
+notify win event
+offset rect
+offset rgn
+ole initialize
+ole uninitialize
+open clipboard
+open theme data
+pat blt
+peek message
+peek message
+ pie
+ polygon
+ polyline
+post message
+post message
+post thread message
+post thread message
+ primarylangid
+print dlg
+print dlg
+ rect
+ region
+realize palette
+ rectangle
+rect region
+redraw window
+reg close key
+register class
+register class
+register window message
+register window message
+reg enum key
+register clipboard format
+register clipboard format
+reg open key
+reg query info key
+reg query value
+reg query value
+reg enum key
+reg open key
+reg query info key
+reg query value
+reg query value
+release capture
+ release
+remove menu
+remove prop
+remove prop
+ restore
+round rect
+ save
+screen client
+script break
+script get properties
+script cache get height
+script pto
+script free cache
+script get font properties
+script get logical widths
+script itemize
+script layout
+script place
+script shape
+script text out
+script xto
+scroll window
+select clip rgn
+select object
+select palette
+send input
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+send message
+set active window
+set color
+set mode
+set capture
+set caret pos
+set clipboard data
+set cursor
+set cursor pos
+set dib color table
+set error mode
+set focus
+set foreground window
+set graphics mode
+set layout
+set menu
+set menu default item
+set menu info
+set menu item info
+set menu item info
+set meta rgn
+set palette entries
+set parent
+set pixel
+set poly fill mode
+set rect
+set rect rgn
+set rop
+set scroll info
+set stretch blt mode
+set prop
+set prop
+set text align
+set text color
+set timer
+set window long
+set window long
+set window org
+set window placement
+set window pos
+set window rgn
+set window text
+set window text
+set windows hook
+set windows hook
+set world transform
+browse for folder
+browse for folder
+create menu bar
+handle setting change
+recognize gesture
+send back focus window
+sip preference
+shell execute
+shell execute
+shell notify icon
+shell notify icon
+get malloc
+get path from list
+get path from list
+set app key wnd assoc
+show caret
+show owned popups
+show scroll bar
+show window
+sip get info
+start doc
+start doc
+start page
+stretch blt
+stroke path
+system parameters info
+system parameters info
+system parameters info
+system parameters info
+system parameters info
+system parameters info
+system parameters info
+system parameters info
+ ascii
+ unicode
+track mouse event
+track popup menu
+translate accelerator
+translate accelerator
+translate charset info
+translate mdi sys accel
+translate message
+transparent blt
+transparent image
+unhook windows hook
+unregister class
+unregister class
+update window
+validate rect
+key scan
+key scan
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+wait message
+wide char multi byte
+wide char multi byte
+window from
+window from point
+ strlen
+ wcslen
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ internal
+
+ platform
+ library
+load library
+win 32s
+ win
+ win
+ win
+ ppc
+ hpc
+
+ locale
+ unicode
+win 32_ major
+win 32_ minor
+win 32_ version
+comctl 32_ major
+comctl 32_ minor
+comctl 32_ version
+shell 32_ major
+shell 32_ minor
+shell 32_ version
+ver platform win 32s
+ver platform win 32_ windows
+ver platform win 32_
+ver platform win 32_
+ osversioninfo
+ info
+ osversioninfow
+ info
+version info size
+ osversioninfow
+ sizeof
+
+get version
+ osversioninfow
+ info
+ info
+ osversioninfoa
+ info
+version info size
+ osversioninfoa
+ sizeof
+
+get version
+ osversioninfoa
+ info
+ osversioninfo
+ sizeof
+ info
+version info size
+win 32s
+ info
+ platform
+ver platform win 32s
+ win
+ info
+ platform
+ver platform win 32_ windows
+ win
+ info
+ platform
+ver platform win 32_
+ win
+ info
+ platform
+ver platform win 32_
+
+
+ ppc
+ ppc
+ hpc
+ win
+ ppc
+
+win 32_ major
+ info
+major version
+win 32_ minor
+ info
+minor version
+win 32_ version
+ version
+win 32_ major
+win 32_ minor
+ unicode
+win 32s
+ win
+dbcs enabled
+
+get system metrics
+
+ dbcsenabled
+imm enabled
+
+get system metrics
+
+ immenabled
+ locale
+dbcs enabled
+imm enabled
+
+ win
+
+win 32_ version
+
+ version
+ lang
+
+get system default language
+primary lang
+
+ primarylangid
+ lang
+primary lang
+
+lang korean
+
+imm disable text frame service
+ dllversioninfo
+ dvi
+ dllversioninfo
+ dvi
+ size
+ dllversioninfo
+ sizeof
+ dvi
+major version
+ dvi
+minor version
+ tchar
+lib file name
+ tchar
+ module
+
+load library
+lib file name
+ module
+ string
+ name
+proc name
+ name
+ length
+
+
+proc name
+ length
+
+proc name
+
+ name
+ char
+
+dll get version
+
+get proc address
+ module
+proc name
+dll get version
+
+ call
+dll get version
+ dvi
+
+free library
+ module
+comctl 32_ major
+ dvi
+major version
+comctl 32_ minor
+ dvi
+minor version
+comctl 32_ version
+ version
+comctl 32_ major
+comctl 32_ minor
+ dllversioninfo
+ dvi
+ dllversioninfo
+ dvi
+ size
+ dllversioninfo
+ sizeof
+ dvi
+major version
+ tchar
+lib file name
+ tchar
+ module
+
+load library
+lib file name
+ module
+ string
+ name
+proc name
+ name
+ length
+
+
+proc name
+ length
+
+proc name
+
+ name
+ char
+
+dll get version
+
+get proc address
+ module
+proc name
+dll get version
+
+ call
+dll get version
+ dvi
+
+free library
+ module
+shell 32_ major
+ dvi
+major version
+shell 32_ minor
+ dvi
+minor version
+shell 32_ version
+ version
+shell 32_ major
+shell 32_ minor
+sys color index flag
+
+ win
+abs downdisabled
+abs downnormal
+abs downpressed
+abs leftdisabled
+abs leftnormal
+abs leftpressed
+abs rightdisabled
+abs rightnormal
+abs rightpressed
+abs updisabled
+abs upnormal
+abs uppressed
+src over
+src alpha
+ alternate
+bdr sunkeninner
+bffm initialized
+bffm setselection
+ unicode
+bffm validatefailed
+ unicode
+bffm validatefailedw
+bffm validatefaileda
+ bottom
+ right
+bif editbox
+bif newdialogstyle
+bif returnonlyfsdirs
+bif validate
+ bitspixel
+ bitfields
+ rgb
+ blackness
+bcm first
+bcm getidealsize
+bcm first
+bcm getimagelist
+bcm first
+bcm setimagelist
+bcm first
+button imagelist align left
+button imagelist align right
+button imagelist align center
+ click
+ getcheck
+ setcheck
+ setimage
+ setstyle
+ clicked
+ doubleclicked
+ checkbox
+bst checked
+bst unchecked
+ bitmap
+ center
+ checkbox
+ defpushbutton
+ flat
+ groupbox
+ icon
+ left
+ notify
+ ownerdraw
+ pushbutton
+ pushlike
+ radiobutton
+ right
+ solid
+btns autosize
+btns button
+btns check
+btns checkgroup
+btns dropdown
+btns group
+btns sep
+btns showtext
+cbn editchange
+cbn killfocus
+cbn selchange
+cbn setfocus
+cbs autohscroll
+cbs dropdown
+cbs dropdownlist
+cbs checkednormal
+cbs mixednormal
+cbs nointegralheight
+cbs simple
+cbs uncheckednormal
+ addstring
+ deletestring
+ err
+ errspace
+ findstringexact
+ getcount
+ getcursel
+ getdroppedcontrolrect
+ getdroppedstate
+ geteditsel
+ getitemheight
+ getlbtext
+ getlbtextlen
+ insertstring
+ limittext
+ resetcontent
+ selectstring
+ setcursel
+ seteditsel
+ showdropdown
+ccm first
+ccm setbkcolor
+ccm setversion
+ccs nodivider
+ccs noresize
+ccs vert
+ anycolor
+ enablehook
+ rgbinit
+cdds posterase
+cdds postpaint
+cdds preerase
+cdds prepaint
+cdds item
+cdds itempostpaint
+cdds item
+cdds postpaint
+cdds itemprepaint
+cdds item
+cdds prepaint
+cdds subitem
+cdrf dodefault
+cdrf newfont
+cdrf notifyitemdraw
+cdrf notifyposterase
+cdrf notifypostpaint
+cdrf notifysubitemdraw
+cfe autocolor
+cfe italic
+cfe strikeout
+cfe underline
+cfm bold
+cfm charset
+cfm color
+cfm face
+cfm italic
+cfm size
+cfm strikeout
+cfm underline
+cfm weight
+cfs point
+cfs rect
+ effects
+ inittologfontstruct
+ screenfonts
+ text
+ unicodetext
+ usestyle
+clr default
+clr invalid
+clsctx inproc server
+ coloroncolor
+color ddkshadow
+sys color index flag
+color dface
+sys color index flag
+color dhighlight
+sys color index flag
+color dhilight
+sys color index flag
+color dlight
+sys color index flag
+color dshadow
+sys color index flag
+color activecaption
+sys color index flag
+color btnface
+sys color index flag
+color btnhighlight
+sys color index flag
+color btnshadow
+sys color index flag
+color btntext
+sys color index flag
+color captiontext
+sys color index flag
+color gradientactivecaption
+sys color index flag
+color gradientinactivecaption
+sys color index flag
+color graytext
+sys color index flag
+color highlight
+sys color index flag
+color highlighttext
+sys color index flag
+color inactivecaption
+sys color index flag
+color inactivecaptiontext
+sys color index flag
+color infobk
+sys color index flag
+color infotext
+sys color index flag
+color menu
+sys color index flag
+color menutext
+sys color index flag
+color scrollbar
+sys color index flag
+color window
+sys color index flag
+color windowframe
+sys color index flag
+color windowtext
+sys color index flag
+ complexregion
+ acp
+ utf
+ installed
+ bytealignwindow
+ dblclks
+ dropshadow
+ globalclass
+ hredraw
+ vredraw
+ usedefault
+dcx cache
+dcx clipchildren
+dcx clipsiblings
+default charset
+default gui font
+dfcs buttoncheck
+dfcs checked
+dfcs flat
+dfcs inactive
+dfcs pushed
+dfcs scrolldown
+dfcs scrollleft
+dfcs scrollright
+dfcs scrollup
+dfc button
+dfc scroll
+dib rgb colors
+disp exception
+ normal
+ nomirror
+dlgc button
+dlgc hassetsel
+dlgc static
+dlgc wantallkeys
+dlgc wantarrows
+dlgc wantchars
+dlgc wanttab
+ setdefid
+dss disabled
+ dstinvert
+dst bitmap
+dst icon
+ calcrect
+ center
+ editcontrol
+ expandtabs
+ endellipsis
+ left
+ noprefix
+ rasprinter
+ right
+ singleline
+ vcenter
+ wordbreak
+ecoop and
+ ecoop
+eco autohscroll
+edge etched
+edge sunken
+ canundo
+ charfrompos
+ displayband
+ getfirstvisibleline
+ getlimittext
+ getline
+ getlinecount
+ getmargins
+ getpasswordchar
+ getscrollpos
+ getsel
+ limittext
+ linefromchar
+ lineindex
+ linelength
+ linescroll
+ posfromchar
+ replacesel
+ scrollcaret
+ setbkgndcolor
+ setlimittext
+ setoptions
+ setparaformat
+ setpasswordchar
+ setreadonly
+ setsel
+ settabstops
+ undo
+align ltr
+align rtl
+ change
+error more items
+esb disable both
+esb enable both
+ autohscroll
+ autovscroll
+ center
+ multiline
+ nohidesel
+ password
+ readonly
+ right
+eto clipped
+event object focus
+event object locationchange
+event object selectionwithin
+event object valuechange
+ falt
+ fcontrol
+ fontsmoothingcleartype
+fnerr invalidfilename
+format message allocate buffer
+format message from system
+format message ignore inserts
+ fshift
+ fvirtkey
+gcs compstr
+gcs resultstr
+ advanced
+gmdi usedisabled
+gmem fixed
+gmem zeroinit
+ contextmenu
+ gptr
+gradient fill rect
+gradient fill rect
+gtl numbytes
+gtl numchars
+gtl precise
+ default
+gui _16 bittask
+gui caretblinking
+gui inmenumode
+gui inmovesize
+gui popupmenumode
+gui systemmenumode
+gwl exstyle
+ gwl
+gwl style
+gwl userdata
+gwl wndproc
+ child
+ hwndfirst
+ hwndlast
+ hwndnext
+ hwndprev
+ owner
+hbmmenu callback
+hcf highcontraston
+hdf center
+hdf justifymask
+hdf image
+hdf left
+hdf right
+hdi image
+hdi order
+hdi text
+hdi width
+hdi format
+hdm first
+hdm deleteitem
+hdm first
+hdm getbitmapmargin
+hdm first
+hdm getitemcount
+hdm getitema
+hdm first
+hdm getitemw
+hdm first
+hdm getitem
+ unicode
+hdm getitemw
+hdm getitema
+hdm getitemrect
+hdm first
+hdm insertitema
+hdm first
+hdm insertitemw
+hdm first
+hdm insertitem
+ unicode
+hdm insertitemw
+hdm insertitema
+hdm layout
+hdm first
+hdm setimagelist
+hdm first
+hdm setitema
+hdm first
+hdm setitemw
+hdm first
+hdm setitem
+ unicode
+hdm setitemw
+hdm setitema
+hdn first
+hdn begindrag
+hdn first
+hdn begintrack
+ unicode
+hdn begintrackw
+hdn begintracka
+hdn dividerdblclicka
+hdn first
+hdn dividerdblclickw
+hdn first
+hdn dividerdblclick
+ unicode
+hdn dividerdblclickw
+hdn dividerdblclicka
+hdn enddrag
+hdn first
+hdn itemchanged
+ unicode
+hdn itemchangedw
+hdn itemchangeda
+hdn itemchangingw
+hdn first
+hdn itemchanginga
+hdn first
+hdn itemclickw
+hdn first
+hdn itemclicka
+hdn first
+hdn itemdblclickw
+hdn first
+hdn itemdblclicka
+hdn first
+hdn itemdblclick
+ unicode
+hdn itemdblclickw
+hdn itemdblclicka
+hds buttons
+hds fulldrag
+hds hidden
+heap zero memory
+helpinfo menuitem
+hicf arrowkeys
+hinst commctrl
+hkey classes root
+hkey current user
+hkey local machine
+ horzres
+ htborder
+ htcaption
+ htclient
+ hterror
+ hthscroll
+ htmenu
+ htnowhere
+ htsysmenu
+ httransparent
+ htvscroll
+hwnd bottom
+hwnd top
+hwnd topmost
+hwnd notopmost
+icc cool classes
+icm notopen
+icon big
+icon small
+ imagecallback
+ imagenone
+ idabort
+idb std small color
+idc appstarting
+idc arrow
+idc cross
+idc hand
+idc help
+idc ibeam
+ idc
+idc size
+idc sizeall
+idc sizenesw
+idc sizens
+idc sizenwse
+idc sizewe
+idc uparrow
+idc wait
+ idno
+ idok
+ idretry
+ idyes
+ilc color
+ilc color
+ilc color
+ilc color
+ilc color
+ilc color
+ilc mask
+ilc mirror
+ild normal
+image bitmap
+image cursor
+image icon
+ime cmode fullshape
+ime cmode katakana
+ime cmode native
+ime cmode roman
+ infinite
+input keyboard
+input mouse
+key enumerate sub keys
+key notify
+key query value
+key read
+keyeventf keyup
+max url length
+lang korean
+lang neutral
+lang user default
+layout rtl
+lbn dblclk
+lbn selchange
+lbs extendedsel
+lbs multiplesel
+lbs nointegralheight
+lbs notify
+ addstring
+ deletestring
+ err
+ errspace
+ findstringexact
+ getcaretindex
+ getcount
+ getcursel
+ gethorizontalextent
+ getitemheight
+ getitemrect
+ getsel
+ getselcount
+ getselitems
+ gettext
+ gettextlen
+ gettopindex
+ initstorage
+ insertstring
+ resetcontent
+ selitemrange
+ selitemrangeex
+ setcaretindex
+ setcursel
+ sethorizontalextent
+ setsel
+ settopindex
+ facesize
+lgrpid arabic
+lgrpid hebrew
+lgrpid installed
+lif itemindex
+lif state
+lis focused
+lis enabled
+ getidealheight
+ setitem
+ getitem
+lcid supported
+locale idefaultansicodepage
+locale sdecimal
+locale siso 3166 ctryname
+locale siso 639 langname
+locale user default
+ logpixelsx
+ logpixelsy
+lpstr textcallback
+ defaultcolor
+ shared
+lvcfmt center
+lvcfmt image
+lvcfmt left
+lvcfmt right
+lvcf fmt
+lvcf image
+lvcfmt justifymask
+lvcf text
+lvcf width
+lvht onitem
+lvht onitemicon
+lvht onitemlabel
+lvht onitemstateicon
+lvif image
+lvif indent
+lvif state
+lvif text
+lvir bounds
+lvir icon
+lvir label
+lvir selectbounds
+lvis drophilited
+lvis focused
+lvis selected
+lvis stateimagemask
+lvm approximateviewrect
+lvm deleteallitems
+lvm deletecolumn
+lvm deleteitem
+lvm ensurevisible
+lvm first
+lvm getbkcolor
+lvm getcolumn
+ unicode
+lvm getcolumnorderarray
+lvm first
+lvm getcolumnwidth
+lvm getcountperpage
+lvm getextendedlistviewstyle
+lvm getheader
+lvm getimagelist
+lvm getitem
+ unicode
+lvm getitemw
+lvm getitema
+lvm getitemcount
+lvm getitemrect
+lvm getitemstate
+lvm getnextitem
+lvm getselectedcount
+lvm getstringwidth
+ unicode
+lvm getsubitemrect
+lvm gettextcolor
+lvm gettooltips
+lvm gettopindex
+lvm hittest
+lvm insertcolumn
+ unicode
+lvm insertitem
+ unicode
+lvm redrawitems
+lvm first
+lvm scroll
+lvm setbkcolor
+lvm setcallbackmask
+lvm first
+lvm setcolumn
+ unicode
+lvm setcolumnorderarray
+lvm first
+lvm setcolumnwidth
+lvm setextendedlistviewstyle
+lvm setimagelist
+lvm setitem
+ unicode
+lvm setitemcount
+lvm first
+lvm setitemstate
+lvm settextbkcolor
+lvm settextcolor
+lvni focused
+lvni selected
+lvn begindrag
+lvn beginrdrag
+lvn columnclick
+lvn first
+lvn getdispinfoa
+lvn first
+lvn getdispinfow
+lvn first
+lvn itemactivate
+lvn itemchanged
+lvn marqueebegin
+lvn odfinditema
+lvn first
+lvn odfinditemw
+lvn first
+lvscw autosize
+lvscw autosize useheader
+lvsicf noinvalidateall
+lvsicf noscroll
+lvsil small
+lvsil state
+lvs fullrowselect
+lvs gridlines
+lvs headerdragdrop
+lvs labeltip
+lvs oneclickactivate
+lvs subitemimages
+lvs trackselect
+lvs twoclickactivate
+lvs nocolumnheader
+lvs noscroll
+lvs ownerdata
+lvs report
+lvs shareimagelists
+lvs showselalways
+lvs singlesel
+max linkid text
+max path
+ noactivate
+ abortretryignore
+ applmodal
+ iconerror
+ iconinformation
+ iconquestion
+ iconwarning
+
+ okcancel
+ precomposed
+ retrycancel
+ rtlreading
+ systemmodal
+ taskmodal
+ yesno
+ yesnocancel
+mdis allchildstyles
+mfs checked
+mfs disabled
+mfs grayed
+mft radiocheck
+mft rightjustify
+mft rightorder
+mft separator
+mft string
+ bycommand
+ byposition
+ checked
+ disabled
+ enabled
+ grayed
+ hilite
+ popup
+ separator
+ sysmenu
+ unchecked
+miim bitmap
+miim data
+ miim
+miim state
+miim submenu
+miim type
+mim style
+ control
+ lbutton
+ mbutton
+ rbutton
+ shift
+ xbutton
+ xbutton
+ text
+mnc close
+mns checkorbmp
+monitor defaulttonearest
+monitorinfof primary
+mouseeventf absolute
+mouseeventf leftdown
+mouseeventf leftup
+mouseeventf middledown
+mouseeventf middleup
+mouseeventf move
+mouseeventf rightdown
+mouseeventf rightup
+mwmo inputavailable
+nif icon
+nif info
+nif message
+nif state
+nif tip
+niif error
+niif info
+niif none
+niif warning
+nim add
+nim delete
+nim modify
+nis hidden
+ first
+ click
+ customdraw
+ first
+ dblclk
+ recognizegesture
+ first
+ releasedcapture
+ first
+ return
+notifyicondataa size
+notifyicondataw size
+notifyicondata size
+ unicode
+notifyicondataw size
+notifyicondataa size
+ notsrccopy
+ nullregion
+null brush
+null pen
+ numreserved
+objid caret
+objid client
+objid menu
+objid window
+obj bitmap
+obj font
+obj pen
+obm checkboxes
+ods selected
+odt menu
+ofn allowmultiselect
+ofn explorer
+ofn hidereadonly
+ofn nochangedir
+oic bang
+oic hand
+oic information
+oic ques
+oic winlogo
+ opaque
+ patcopy
+ patinvert
+pbm getpos
+pbm getrange
+pbm setbarcolor
+pbm setbkcolor
+pbm setmarquee
+
+ user
+pbm setpos
+pbm setrange
+pbm stepit
+pbs marquee
+pbs smooth
+pbs vertical
+ allpages
+ collate
+ pagenums
+ printtofile
+ returndc
+ selection
+ usedevmodecopiesandcollate
+pfm tabstops
+ physicalheight
+ physicaloffsetx
+ physicaloffsety
+ physicalwidth
+ planes
+ noremove
+ noyield
+ hotkey
+ key
+ mousemove
+ mousebutton
+ mouse
+ mousemove
+ mousebutton
+ input
+ key
+ mouse
+ postmessage
+ timer
+ paint
+ sendmessage
+ allinput
+ mousemove
+ mousebutton
+ key
+ postmessage
+ timer
+ paint
+ sendmessage
+ input
+ input
+ postmessage
+ postmessage
+ hotkey
+ timer
+ paint
+ paint
+ sendmessage
+ sendmessage
+ remove
+ string
+progress class
+ dash
+ dashdot
+ dashdotdot
+ dot
+endcap flat
+endcap square
+endcap round
+endcap mask
+ geometric
+join bevel
+join mask
+join miter
+join round
+ solid
+style mask
+type mask
+ userstyle
+ copypen
+ xorpen
+ rastercaps
+raster fonttype
+rbbim child
+rbbim childsize
+rbbim colors
+rbbim headersize
+ rbbim
+rbbim idealsize
+rbbim size
+rbbim style
+rbbim text
+rbbs break
+rbbs gripperalways
+rbbs nogripper
+rbbs usechevron
+rbbs variableheight
+rbn first
+rbn childsize
+rbn first
+rbn chevronpushed
+rbn first
+rbn heightchange
+rbs dblclktoggle
+rbs bandborders
+rbs varheight
+ deleteband
+ getbandborders
+ getbandcount
+ getbandinfo
+ unicode
+ getbandmargins
+ getbarheight
+ getbkcolor
+ getrect
+ gettextcolor
+ idtoindex
+ insertband
+ unicode
+ moveband
+ setbandinfo
+ unicode
+ setbkcolor
+ settextcolor
+ bitblt
+ palette
+rdw allchildren
+rdw erase
+rdw frame
+rdw invalidate
+rdw updatenow
+read control
+ string
+ rebarclassname
+rgn and
+rgn copy
+rgn diff
+rgn error
+ rgn
+sbp arrowbtn
+sbs horz
+sbs vert
+ both
+ bottom
+ ctl
+ endscroll
+ horz
+ linedown
+ lineup
+ pagedown
+ pageup
+ thumbposition
+ thumbtrack
+ top
+ vert
+scf all
+scf default
+scf selection
+ close
+ hscroll
+ keymenu
+ maximize
+ minimize
+ nextwindow
+ restore
+ size
+ tasklist
+ vscroll
+sem failcriticalerrors
+ rtf
+shcmbf hidden
+shcmbm overridekey
+shcmbm setsubmenu
+shcmbm getsubmenu
+shmbof nodefault
+shmbof notify
+shrg returncmd
+sif all
+sif disablenoscroll
+sif page
+sif pos
+sif range
+sif trackpos
+sip down
+ sip
+ sipf
+size restored
+size minimized
+size maximized
+ sizepalette
+ cmonitors
+ cxborder
+ cxcursor
+ cxedge
+ cxhscroll
+ cxicon
+ cyicon
+ cxvirtualscreen
+ cyvirtualscreen
+ cxsmicon
+ cysmicon
+ cxscreen
+ xvirtualscreen
+ yvirtualscreen
+ cxvscroll
+ cyborder
+ cycursor
+ cyhscroll
+ cymenu
+ cxmintrack
+ cymintrack
+ cyscreen
+ cyvscroll
+ dbcsenabled
+ immenabled
+spi getfontsmoothingtype
+spi gethighcontrast
+spi getworkarea
+spi getnonclientmetrics
+spi getwheelscrolllines
+spi setsipinfo
+ srcand
+ srccopy
+ srcinvert
+ srcpaint
+ bitmap
+ center
+ centerimage
+ icon
+ left
+ leftnowordwrap
+ notify
+ ownerdraw
+ realsizeimage
+ right
+standard rights read
+std copy
+std cut
+std filenew
+std fileopen
+std filesave
+std paste
+stm getimage
+stm setimage
+swp asyncwindowpos
+swp drawframe
+swp noactivate
+swp nocopybits
+swp nomove
+swp noredraw
+swp nosize
+swp nozorder
+ erase
+ hide
+ invalidate
+ minimize
+ parentopening
+ restore
+ win
+ scrollchildren
+ show
+ showmaximized
+ win
+ showminimized
+ showminnoactive
+ showna
+ shownoactivate
+ synchronize
+ sysrgn
+system font
+
+tabp body
+tbif command
+tbif state
+tbif image
+tbif lparam
+tbif size
+tbif style
+tbif text
+ getextendedstyle
+tbm getlinesize
+tbm getpagesize
+tbm getpos
+tbm getrangemax
+tbm getrangemin
+tbm getthumbrect
+tbm setlinesize
+tbm setpagesize
+tbm setpos
+tbm setrangemax
+tbm setrangemin
+tbm setticfreq
+tbn dropdown
+tbn first
+tbn hotitemchange
+tbstate checked
+tbstate pressed
+tbstyle customerase
+tbstyle dropdown
+tbstate enabled
+tbstyle autosize
+tbstyle doublebuffer
+tbstyle drawddarrows
+tbstyle hideclippedbuttons
+tbstyle mixedbuttons
+tbstyle flat
+tbstyle list
+tbstyle tooltips
+tbstyle transparent
+tbstyle wrapable
+tbs autoticks
+tbs both
+tbs downisleft
+tbs horz
+tbs vert
+ addstring
+ unicode
+ autosize
+ buttoncount
+ buttonstructsize
+ commandtoindex
+ deletebutton
+ endtrack
+ getbutton
+ getbuttoninfo
+ unicode
+ getbuttonsize
+ getbuttontext
+ unicode
+ getdisabledimagelist
+ gethotimagelist
+ gethotitem
+ getimagelist
+ getitemrect
+ getpadding
+ getrows
+ getstate
+ gettooltips
+ insertbutton
+ unicode
+ loadimages
+ mapaccelerator
+ unicode
+ setbitmapsize
+ setbuttoninfo
+ unicode
+ setbuttonsize
+ setdisabledimagelist
+ setextendedstyle
+ sethotimagelist
+ sethotitem
+ setimagelist
+ setparent
+ setrows
+ setstate
+ thumbposition
+tcif image
+tcif text
+tci srccharset
+tci srccodepage
+tcm adjustrect
+tcm deleteitem
+tcm getcursel
+tcm getitemcount
+tcm getitemrect
+tcm gettooltips
+tcm insertitem
+ unicode
+tcm setcursel
+tcm setimagelist
+tcm setitem
+ unicode
+tcn selchange
+tcn selchanging
+tcs bottom
+tcs focusnever
+tcs multiline
+tcs tabs
+tcs tooltips
+ technology
+tme hover
+tme leave
+tme query
+tmpf vector
+ string
+ toolbarclassname
+ string
+tooltips class
+tpm leftalign
+tpm leftbutton
+tpm rightbutton
+tpm rightalign
+ string
+trackbar class
+ transparent
+ttf idishwnd
+ttf subclass
+ttf rtlreading
+ttm addtool
+ unicode
+ttm deltool
+ unicode
+ttm gettoolinfo
+ unicode
+ttm gettoolinfoa
+ttm gettoolinfow
+ttm setmaxtipwidth
+ttm update
+ttn first
+ttn getdispinfo
+ unicode
+ttn getdispinfow
+ttn getdispinfoa
+ttn pop
+ttn first
+ttn show
+ttn first
+tts alwaystip
+ first
+tve collapse
+tve expand
+tvgn caret
+tvgn child
+tvgn drophilited
+tvgn firstvisible
+tvgn lastvisible
+tvgn next
+tvgn nextvisible
+tvgn parent
+tvgn previousvisible
+tvgn root
+tvht onitem
+tvht onitembutton
+tvht onitemicon
+tvht onitemlabel
+tvht onitemstateicon
+tvif handle
+tvif image
+tvif param
+tvif selectedimage
+tvif state
+tvif text
+tvis drophilited
+tvis expanded
+tvis selected
+tvis stateimagemask
+tvi first
+tvi last
+tvi root
+tvm deleteitem
+tvm ensurevisible
+tvm expand
+tvm getbkcolor
+tvm getcount
+tvm getimagelist
+tvm getitem
+ unicode
+tvm getitemheight
+tvm getitemrect
+tvm getnextitem
+tvm gettextcolor
+tvm gettooltips
+ first
+tvm getvisiblecount
+ first
+tvm hittest
+tvm insertitem
+ unicode
+tvm mapaccidtohtreeitem
+ first
+tvm maphtreeitemtoaccid
+ first
+tvm selectitem
+tvm setbkcolor
+tvm setimagelist
+tvm setinsertmark
+tvm setitem
+ unicode
+tvm settextcolor
+tvn begindragw
+tvn begindraga
+tvn beginrdragw
+tvn beginrdraga
+tvn first
+tvn getdispinfoa
+tvn first
+tvn getdispinfow
+tvn first
+tvn itemexpandeda
+tvn first
+tvn itemexpandedw
+tvn first
+tvn itemexpandingw
+tvn itemexpandinga
+tvn selchangedw
+tvn selchangeda
+tvn selchangingw
+tvn selchanginga
+tvsil normal
+tvsil state
+tvs disabledragdrop
+tvs fullrowselect
+tvs hasbuttons
+tvs haslines
+tvs linesatroot
+tvs nohscroll
+tvs notooltips
+tvs showselalways
+udm getaccel
+udm getrange
+udm getpos
+udm getpos
+udm setaccel
+udm setrange
+udm setpos
+udm setpos
+udn deltapos
+uds wrap
+uis initialize
+ string
+updown class
+usp script not font
+ vertres
+ back
+ cancel
+ capital
+ control
+ decimal
+ delete
+ divide
+ down
+ end
+ escape
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ home
+ insert
+ lbutton
+ left
+ mbutton
+ menu
+ multiply
+
+ next
+ numlock
+ numpad
+ numpad
+ numpad
+ numpad
+ numpad
+ numpad
+ numpad
+ numpad
+ numpad
+ numpad
+ pause
+ prior
+ rbutton
+ return
+ right
+ scroll
+ separator
+ shift
+ snapshot
+ space
+ subtract
+ tab
+
+ xbutton
+ xbutton
+ add
+ app
+ app
+ app
+ app
+ app
+ app
+ string
+ header
+ string
+ link
+ string
+ listview
+ string
+ tabcontrol
+ string
+ treeview
+ winding
+ getmessage
+ msgfilter
+ foregroundidle
+wheel delta
+wheel pagescroll
+ activate
+ activateapp
+ app
+ cancelmode
+ capturechanged
+ changeuistate
+ char
+ clear
+ close
+ command
+ contextmenu
+ copy
+ create
+ ctlcolorbtn
+ ctlcolordlg
+ ctlcoloredit
+ ctlcolorlistbox
+ ctlcolormsgbox
+ ctlcolorscrollbar
+ ctlcolorstatic
+ cut
+ deadchar
+ destroy
+ drawitem
+ endsession
+ enteridle
+ erasebkgnd
+ getdlgcode
+ getfont
+ getobject
+ getminmaxinfo
+ help
+ hotkey
+ hscroll
+ime char
+ime composition
+ initdialog
+ initmenupopup
+ inputlangchange
+ keydown
+ keyfirst
+ keylast
+ keyup
+ killfocus
+ lbuttondblclk
+ lbuttondown
+ lbuttonup
+ mbuttondblclk
+ mbuttondown
+ mbuttonup
+ measureitem
+ menuchar
+ menuselect
+ mouseactivate
+ mousefirst
+ mousehover
+ mouseleave
+ mousemove
+ mousewheel
+ mouselast
+ move
+ ncactivate
+ nccalcsize
+ nchittest
+ nclbuttondown
+ notify
+ null
+ paint
+ palettechanged
+ parentnotify
+ paste
+ printclient
+ queryendsession
+ querynewpalette
+ queryopen
+ rbuttondblclk
+ rbuttondown
+ rbuttonup
+ setcursor
+ setfocus
+ setfont
+ seticon
+ setredraw
+ settext
+ settingchange
+ showwindow
+ size
+ syschar
+ syscolorchange
+ syscommand
+ syskeydown
+ syskeyup
+ timer
+ undo
+ user
+ vscroll
+ windowposchanged
+ windowposchanging
+ border
+ caption
+ child
+ clipchildren
+ clipsiblings
+ disabled
+ captionokbtn
+ clientedge
+ dlgmodalframe
+ layoutrtl
+ leftscrollbar
+ mdichild
+ noinheritlayout
+ right
+ rtlreading
+ staticedge
+ toolwindow
+ topmost
+ transparent
+ hscroll
+ maximizebox
+ win
+ minimizebox
+ win
+ overlapped
+ win
+ border
+ caption
+ overlappedwindow
+ popup
+ sysmenu
+ tabstop
+ thickframe
+ visible
+ vscroll
+ xbuttondown
+ xbuttonup
+ xbuttondblclk
+ xbutton
+ xbutton
+ version
+ major
+ minor
+ major
+ minor
+call window proc
+prev wnd func
+ wnd
+ msg
+ param
+ param
+ unicode
+call window proc
+prev wnd func
+ wnd
+ msg
+ param
+ param
+call window proc
+prev wnd func
+ wnd
+ msg
+ param
+ param
+char upper
+
+ unicode
+char upper
+
+char upper
+
+char lower
+
+ unicode
+char lower
+
+char lower
+
+choose color
+ choosecolor
+ lpcc
+ unicode
+choose color
+ lpcc
+choose color
+ lpcc
+choose font
+ choosefont
+choose font
+ unicode
+choose font
+choose font
+choose font
+choose font
+create accelerator table
+ lpaccl
+ entries
+ unicode
+create accelerator table
+ lpaccl
+ entries
+create accelerator table
+ lpaccl
+ entries
+ create
+ tchar
+lpsz driver
+ tchar
+lpsz device
+lpsz output
+init data
+ unicode
+lpsz driver
+lpsz driver
+lpsz driver
+ chars
+lpsz device
+lpsz device
+lpsz device
+ chars
+create dcw
+lpsz driver
+lpsz device
+lpsz output
+init data
+lpsz driver
+lpsz driver
+lpsz driver
+ bytes
+lpsz device
+lpsz device
+lpsz device
+ bytes
+create dca
+lpsz driver
+lpsz device
+lpsz output
+init data
+create font indirect
+ lplf
+ unicode
+create font indirect
+ lplf
+create font indirect
+ lplf
+create font indirect
+ logfont
+ lplf
+ unicode
+create font indirect
+ logfontw
+ lplf
+create font indirect
+ logfonta
+ lplf
+create window
+ style
+ tchar
+class name
+ tchar
+window name
+ style
+
+
+ width
+ height
+wnd parent
+ menu
+ instance
+ createstruct
+ param
+ unicode
+class name
+class name
+class name
+ chars
+window name
+window name
+window name
+ chars
+create window
+ style
+class name
+window name
+ style
+
+
+ width
+ height
+wnd parent
+ menu
+ instance
+ param
+class name
+class name
+class name
+ bytes
+window name
+window name
+window name
+ bytes
+create window
+ style
+class name
+window name
+ style
+
+
+ width
+ height
+wnd parent
+ menu
+ instance
+ param
+def mdi child proc
+ wnd
+ msg
+ param
+ param
+ unicode
+def mdi child proc
+ wnd
+ msg
+ param
+ param
+def mdi child proc
+ wnd
+ msg
+ param
+ param
+def frame proc
+ wnd
+wnd mdi client
+ msg
+ param
+ param
+ unicode
+def frame proc
+ wnd
+wnd mdi client
+ msg
+ param
+ param
+def frame proc
+ wnd
+wnd mdi client
+ msg
+ param
+ param
+def window proc
+ wnd
+ msg
+ param
+ param
+ unicode
+def window proc
+ wnd
+ msg
+ param
+ param
+def window proc
+ wnd
+ msg
+ param
+ param
+dispatch message
+ msg
+ lpmsg
+ unicode
+dispatch message
+ lpmsg
+dispatch message
+ lpmsg
+drag query file
+ drop
+ file
+ tchar
+lpsz file
+ cch
+ unicode
+lpsz file
+lpsz file
+lpsz file
+ chars
+drag query file
+ drop
+ file
+lpsz file
+ cch
+lpsz file
+lpsz file
+lpsz file
+ bytes
+drag query file
+ drop
+ file
+lpsz file
+ cch
+draw state
+ hdc
+ hbr
+output func
+ data
+ data
+
+
+
+
+ flags
+ unicode
+draw state
+ hdc
+ hbr
+output func
+ data
+ data
+
+
+
+
+ flags
+draw state
+ hdc
+ hbr
+output func
+ data
+ data
+
+
+
+
+ flags
+draw text
+
+ tchar
+ string
+ count
+ rect
+ rect
+ format
+ unicode
+ string
+ string
+ string
+ chars
+draw text
+
+ string
+ count
+ rect
+ format
+ string
+ string
+ string
+ bytes
+draw text
+
+ string
+ count
+ rect
+ format
+enum font families
+ hdc
+ tchar
+lpsz family
+enum font fam proc
+ param
+ unicode
+lpsz family
+lpsz family
+lpsz family
+ chars
+enum font families
+ hdc
+lpsz family
+enum font fam proc
+ param
+lpsz family
+lpsz family
+lpsz family
+ bytes
+enum font families
+ hdc
+lpsz family
+enum font fam proc
+ param
+enum font families
+ hdc
+ logfont
+ logfont
+enum font fam proc
+ param
+ flags
+ unicode
+enum font families
+ hdc
+ logfontw
+ logfont
+enum font fam proc
+ param
+ flags
+enum font families
+ hdc
+ logfonta
+ logfont
+enum font fam proc
+ param
+ flags
+enum system locales
+locale enum proc
+ flags
+ unicode
+enum system locales
+locale enum proc
+ flags
+enum system locales
+locale enum proc
+ flags
+enum system language groups
+lang group enum proc
+ flags
+ param
+ unicode
+enum system language groups
+lang group enum proc
+ flags
+ param
+enum system language groups
+lang group enum proc
+ flags
+ param
+expand environment strings
+ tchar
+ src
+ tchar
+ dst
+ size
+ unicode
+ src
+ src
+ src
+ chars
+ dst
+ dst
+ dst
+ chars
+expand environment strings
+ src
+ dst
+ size
+ src
+ src
+ src
+ bytes
+ dst
+ dst
+ dst
+ bytes
+expand environment strings
+ src
+ dst
+ size
+extract icon
+ tchar
+lpsz file
+icon index
+phicon large
+phicon small
+ icons
+ unicode
+lpsz file
+lpsz file
+lpsz file
+ chars
+extract icon
+lpsz file
+icon index
+phicon large
+phicon small
+ icons
+lpsz file
+lpsz file
+lpsz file
+ bytes
+extract icon
+lpsz file
+icon index
+phicon large
+phicon small
+ icons
+ext text out
+ hdc
+
+
+ options
+ rect
+ lprc
+ tchar
+ string
+ count
+
+ unicode
+ string
+ string
+ string
+ chars
+ext text out
+ hdc
+
+
+ options
+ lprc
+ string
+ count
+
+ string
+ string
+ string
+ bytes
+ext text out
+ hdc
+
+
+ options
+ lprc
+ string
+ count
+
+find window
+ tchar
+class name
+ tchar
+window name
+ unicode
+class name
+class name
+class name
+ chars
+window name
+window name
+window name
+ chars
+find window
+class name
+window name
+class name
+class name
+class name
+ bytes
+window name
+window name
+window name
+ bytes
+find window
+class name
+window name
+format message
+ flags
+ source
+ message
+ language
+ buffer
+ size
+ arguments
+ unicode
+format message
+ flags
+ source
+ message
+ language
+ buffer
+ size
+ arguments
+format message
+ flags
+ source
+ message
+ language
+ buffer
+ size
+ arguments
+get char abc widths
+ hdc
+first char
+last char
+ lpabc
+ unicode
+get char abc widths
+ hdc
+first char
+last char
+ lpabc
+get char abc widths
+ hdc
+first char
+last char
+ lpabc
+get character placement
+ hdc
+ tchar
+ string
+ count
+max extent
+gcp results
+ results
+ flags
+ unicode
+ string
+ string
+ string
+ chars
+get character placement
+ hdc
+ string
+ count
+max extent
+ results
+ flags
+ string
+ string
+ string
+ bytes
+get character placement
+ hdc
+ string
+ count
+max extent
+ results
+ flags
+get char width
+ hdc
+first char
+last char
+ lpabc
+ unicode
+get char width
+ hdc
+first char
+last char
+ lpabc
+get char width
+ hdc
+first char
+last char
+ lpabc
+get class info
+ instance
+ tchar
+class name
+ wndclass
+wnd class
+ unicode
+class name
+class name
+class name
+ chars
+get class info
+ instance
+class name
+wnd class
+class name
+class name
+class name
+ bytes
+get class info
+ instance
+class name
+wnd class
+get class name
+ wnd
+ tchar
+class name
+max count
+ unicode
+class name
+class name
+class name
+ chars
+get class name
+ wnd
+class name
+max count
+class name
+class name
+class name
+ bytes
+get class name
+ wnd
+class name
+max count
+get clipboard format name
+ format
+ tchar
+lpsz format name
+cch max count
+ unicode
+lpsz format name
+lpsz format name
+lpsz format name
+ chars
+get clipboard format name
+ format
+lpsz format name
+cch max count
+lpsz format name
+lpsz format name
+lpsz format name
+ bytes
+get clipboard format name
+ format
+lpsz format name
+cch max count
+get key name text
+ param
+ tchar
+ string
+ size
+ unicode
+ string
+ string
+ string
+ chars
+get key name text
+ param
+ string
+ size
+ string
+ string
+ string
+ bytes
+get key name text
+ param
+ string
+ size
+get locale info
+ locale
+ type
+ tchar
+ data
+cch data
+ unicode
+ data
+ data
+ data
+ chars
+get locale info
+ locale
+ type
+ data
+cch data
+ data
+ data
+ data
+ bytes
+get locale info
+ locale
+ type
+ data
+cch data
+get menu item info
+ menu
+ item
+ position
+ menuiteminfo
+ lpmii
+ unicode
+get menu item info
+ menu
+ item
+ position
+ lpmii
+get menu item info
+ menu
+ item
+ position
+ lpmii
+get message
+ msg
+ msg
+ wnd
+msg filter min
+msg filter max
+ unicode
+get message
+ msg
+ wnd
+msg filter min
+msg filter max
+get message
+ msg
+ wnd
+msg filter min
+msg filter max
+get module handle
+ tchar
+module name
+ unicode
+module name
+module name
+module name
+ chars
+get module handle
+module name
+module name
+module name
+module name
+ bytes
+get module handle
+module name
+get monitor info
+ hmonitor
+ monitorinfo
+ lpmi
+ unicode
+get monitor info
+ hmonitor
+ lpmi
+get monitor info
+ hmonitor
+ lpmi
+get object
+ hgdiobj
+ buffer
+ bitmap
+lpv object
+ unicode
+get object
+ hgdiobj
+ buffer
+lpv object
+get object
+ hgdiobj
+ buffer
+lpv object
+get object
+ hgdiobj
+ buffer
+ dibsection
+lpv object
+ unicode
+get object
+ hgdiobj
+ buffer
+lpv object
+get object
+ hgdiobj
+ buffer
+lpv object
+get object
+ hgdiobj
+ buffer
+ extlogpen
+lpv object
+ unicode
+get object
+ hgdiobj
+ buffer
+lpv object
+get object
+ hgdiobj
+ buffer
+lpv object
+get object
+ hgdiobj
+ buffer
+ logbrush
+lpv object
+ unicode
+get object
+ hgdiobj
+ buffer
+lpv object
+get object
+ hgdiobj
+ buffer
+lpv object
+get object
+ hgdiobj
+ buffer
+ logfont
+lpv object
+ unicode
+get object
+ hgdiobj
+ buffer
+ logfontw
+lpv object
+get object
+ hgdiobj
+ buffer
+ logfonta
+lpv object
+get object
+ hgdiobj
+ buffer
+ logpen
+lpv object
+ unicode
+get object
+ hgdiobj
+ buffer
+lpv object
+get object
+ hgdiobj
+ buffer
+lpv object
+get object
+ hgdiobj
+ buffer
+lpv object
+ unicode
+get object
+ hgdiobj
+ buffer
+lpv object
+get object
+ hgdiobj
+ buffer
+lpv object
+get open file name
+ openfilename
+ lpofn
+ unicode
+get open file name
+ lpofn
+get open file name
+ lpofn
+get profile string
+ tchar
+app name
+ tchar
+key name
+ tchar
+ default
+ tchar
+returned string
+ size
+ unicode
+app name
+app name
+app name
+ chars
+key name
+key name
+key name
+ chars
+ default
+ default
+ default
+ chars
+returned string
+returned string
+returned string
+ chars
+get profile string
+app name
+key name
+ default
+returned string
+ size
+app name
+app name
+app name
+ bytes
+key name
+key name
+key name
+ bytes
+ default
+ default
+ default
+ bytes
+returned string
+returned string
+returned string
+ bytes
+get profile string
+app name
+key name
+ default
+returned string
+ size
+get prop
+ wnd
+ string
+ unicode
+get prop
+ wnd
+ string
+get prop
+ wnd
+ string
+get save file name
+ openfilename
+ lpofn
+ unicode
+get save file name
+ lpofn
+get save file name
+ lpofn
+get text extent point
+ hdc
+ tchar
+ string
+ string
+ size
+ size
+ unicode
+ string
+ string
+ string
+ chars
+get text extent point
+ hdc
+ string
+ string
+ size
+ string
+ string
+ string
+ bytes
+get text extent point
+ hdc
+ string
+ string
+ size
+get text metrics
+ hdc
+ textmetric
+ lptm
+ unicode
+get text metrics
+ hdc
+ textmetricw
+ lptm
+get text metrics
+ hdc
+ textmetrica
+ lptm
+get version
+ osversioninfo
+version info
+ unicode
+get version
+ osversioninfow
+version info
+get version
+ osversioninfoa
+version info
+get window long
+ wnd
+ index
+ unicode
+get window long
+ wnd
+ index
+get window long
+ wnd
+ index
+get window text
+ wnd
+ tchar
+ string
+max count
+ unicode
+ string
+ string
+ string
+ chars
+get window text
+ wnd
+ string
+max count
+ string
+ string
+ string
+ bytes
+get window text
+ wnd
+ string
+max count
+get window text length
+ wnd
+ unicode
+get window text length
+ wnd
+get window text length
+ wnd
+global add atom
+ tchar
+ string
+ unicode
+ string
+ string
+ string
+ chars
+global add atom
+ string
+ string
+ string
+ string
+ bytes
+global add atom
+ string
+imm get composition font
+ imc
+ logfont
+ lplf
+ unicode
+imm get composition font
+ imc
+ logfontw
+ lplf
+imm get composition font
+ imc
+ logfonta
+ lplf
+imm set composition font
+ imc
+ logfont
+ lplf
+ unicode
+imm set composition font
+ imc
+ logfontw
+ lplf
+imm set composition font
+ imc
+ logfonta
+ lplf
+imm get composition string
+ imc
+ index
+ tchar
+ buf
+buf len
+ unicode
+ buf
+ buf
+ buf
+ chars
+imm get composition string
+ imc
+ index
+ buf
+buf len
+ buf
+ buf
+ buf
+ bytes
+imm get composition string
+ imc
+ index
+ buf
+buf len
+insert menu
+ menu
+ position
+ flags
+new item
+ tchar
+new item
+ unicode
+new item
+new item
+new item
+ chars
+insert menu
+ menu
+ position
+ flags
+new item
+new item
+new item
+new item
+new item
+ bytes
+insert menu
+ menu
+ position
+ flags
+new item
+new item
+insert menu item
+ menu
+ item
+ position
+ menuiteminfo
+ lpmii
+ unicode
+insert menu item
+ menu
+ item
+ position
+ lpmii
+insert menu item
+ menu
+ item
+ position
+ lpmii
+load bitmap
+ instance
+bitmap name
+ unicode
+load bitmap
+ instance
+bitmap name
+load bitmap
+ instance
+bitmap name
+load cursor
+ instance
+cursor name
+ unicode
+load cursor
+ instance
+cursor name
+load cursor
+ instance
+cursor name
+load icon
+ instance
+icon name
+ unicode
+load icon
+ instance
+icon name
+load icon
+ instance
+icon name
+load image
+ hinst
+ tchar
+lpsz name
+ type
+ desired
+ desired
+ load
+ unicode
+lpsz name
+lpsz name
+lpsz name
+ chars
+load image
+ hinst
+lpsz name
+ type
+ desired
+ desired
+ load
+lpsz name
+lpsz name
+lpsz name
+ bytes
+load image
+ hinst
+lpsz name
+ type
+ desired
+ desired
+ load
+load image
+ hinst
+lpsz name
+ type
+ desired
+ desired
+ load
+ unicode
+load image
+ hinst
+lpsz name
+ type
+ desired
+ desired
+ load
+load image
+ hinst
+lpsz name
+ type
+ desired
+ desired
+ load
+load library
+ tchar
+lib file name
+ unicode
+lib file name
+lib file name
+lib file name
+ chars
+load library
+lib file name
+lib file name
+lib file name
+lib file name
+ bytes
+load library
+lib file name
+load string
+ hinst
+
+ tchar
+ buffer
+buffer max
+ unicode
+ buffer
+ buffer
+ buffer
+ chars
+load string
+ hinst
+
+ buffer
+buffer max
+ buffer
+ buffer
+ buffer
+ bytes
+load string
+ hinst
+
+ buffer
+buffer max
+map virtual key
+ code
+map type
+ unicode
+map virtual key
+ code
+map type
+map virtual key
+ code
+map type
+message box
+ wnd
+ tchar
+ text
+ tchar
+ caption
+ type
+ unicode
+ text
+ text
+ text
+ chars
+ caption
+ caption
+ caption
+ chars
+message box
+ wnd
+ text
+ caption
+ type
+ text
+ text
+ text
+ bytes
+ caption
+ caption
+ caption
+ bytes
+message box
+ wnd
+ text
+ caption
+ type
+move memory
+ destination
+ tchar
+ source
+ length
+ unicode
+ source
+ source
+ source
+ chars
+move memory
+ destination
+ source
+ length
+ source
+ source
+ source
+ bytes
+move memory
+ destination
+ source
+ length
+move memory
+ tchar
+ destination
+ source
+ length
+ unicode
+ destination
+ destination
+ destination
+ chars
+move memory
+ destination
+ source
+ length
+ destination
+ destination
+ destination
+ bytes
+move memory
+ destination
+ source
+ length
+move memory
+ destination
+ logfont
+ source
+ length
+ unicode
+move memory
+ destination
+ logfontw
+ source
+ length
+move memory
+ destination
+ logfonta
+ source
+ length
+move memory
+ logfont
+ destination
+ source
+ length
+ unicode
+move memory
+ logfontw
+ destination
+ source
+ length
+move memory
+ logfonta
+ destination
+ source
+ length
+move memory
+ destination
+ nmttdispinfo
+ source
+ length
+ unicode
+move memory
+ destination
+ nmttdispinfow
+ source
+ length
+move memory
+ destination
+ nmttdispinfoa
+ source
+ length
+move memory
+ nmttdispinfo
+ destination
+ source
+ length
+ unicode
+move memory
+ nmttdispinfow
+ destination
+ source
+ length
+move memory
+ nmttdispinfoa
+ destination
+ source
+ length
+move memory
+ textmetric
+ destination
+ source
+ length
+ unicode
+move memory
+ textmetricw
+ destination
+ source
+ length
+move memory
+ textmetrica
+ destination
+ source
+ length
+peek message
+ msg
+ msg
+ wnd
+msg filter min
+msg filter max
+remove msg
+ unicode
+peek message
+ msg
+ wnd
+msg filter min
+msg filter max
+remove msg
+peek message
+ msg
+ wnd
+msg filter min
+msg filter max
+remove msg
+post message
+ wnd
+ msg
+ param
+ param
+ unicode
+post message
+ wnd
+ msg
+ param
+ param
+post message
+ wnd
+ msg
+ param
+ param
+post thread message
+ thread
+ msg
+ param
+ param
+ unicode
+post thread message
+ thread
+ msg
+ param
+ param
+post thread message
+ thread
+ msg
+ param
+ param
+print dlg
+ printdlg
+ lppd
+ unicode
+print dlg
+ lppd
+print dlg
+ lppd
+reg enum key
+ key
+ index
+ tchar
+ name
+lpc name
+ reserved
+ tchar
+ class
+lpc class
+ filetime
+lpft last write time
+ unicode
+ name
+ name
+ name
+ chars
+ class
+ class
+ class
+ chars
+reg enum key
+ key
+ index
+ name
+lpc name
+ reserved
+ class
+lpc class
+lpft last write time
+ name
+ name
+ name
+ bytes
+ class
+ class
+ class
+ bytes
+reg enum key
+ key
+ index
+ name
+lpc name
+ reserved
+ class
+lpc class
+lpft last write time
+register class
+ wndclass
+wnd class
+ unicode
+register class
+wnd class
+register class
+wnd class
+register clipboard format
+ tchar
+lpsz format
+ unicode
+lpsz format
+lpsz format
+lpsz format
+ chars
+register clipboard format
+lpsz format
+lpsz format
+lpsz format
+lpsz format
+ bytes
+register clipboard format
+lpsz format
+register window message
+ tchar
+ string
+ unicode
+ string
+ string
+ string
+ chars
+register window message
+ string
+ string
+ string
+ string
+ bytes
+register window message
+ string
+reg open key
+ key
+ tchar
+sub key
+ options
+sam desired
+phk result
+ unicode
+sub key
+sub key
+sub key
+ chars
+reg open key
+ key
+sub key
+ options
+sam desired
+phk result
+sub key
+sub key
+sub key
+ bytes
+reg open key
+ key
+sub key
+ options
+sam desired
+phk result
+reg query info key
+ key
+ class
+lpcb class
+ reserved
+sub keys
+lpcb max sub key len
+lpcb max class len
+lpc values
+lpcb max value name len
+lpcb max value len
+lpcb security descriptor
+lpft last write time
+ unicode
+reg query info key
+ key
+ class
+lpcb class
+ reserved
+sub keys
+lpcb max sub key len
+lpcb max class len
+lpc values
+lpcb max value name len
+lpcb max value len
+lpcb security descriptor
+lpft last write time
+reg query info key
+ key
+ class
+lpcb class
+ reserved
+sub keys
+lpcb max sub key len
+lpcb max class len
+lpc values
+lpcb max value name len
+lpcb max value len
+lpcb security descriptor
+lpft last write time
+reg query value
+ key
+ tchar
+value name
+ reserved
+ type
+ tchar
+ data
+lpcb data
+ unicode
+value name
+value name
+value name
+ chars
+ data
+ data
+ data
+ chars
+reg query value
+ key
+value name
+ reserved
+ type
+ data
+lpcb data
+value name
+value name
+value name
+ bytes
+ data
+ data
+ data
+ bytes
+reg query value
+ key
+value name
+ reserved
+ type
+ data
+lpcb data
+reg query value
+ key
+ tchar
+value name
+ reserved
+ type
+ data
+lpcb data
+ unicode
+value name
+value name
+value name
+ chars
+reg query value
+ key
+value name
+ reserved
+ type
+ data
+lpcb data
+value name
+value name
+value name
+ bytes
+reg query value
+ key
+value name
+ reserved
+ type
+ data
+lpcb data
+remove prop
+ wnd
+ string
+ unicode
+remove prop
+ wnd
+ string
+remove prop
+ wnd
+ string
+send message
+ wnd
+ msg
+ param
+ tchar
+ param
+ unicode
+ param
+ param
+ param
+ chars
+send message
+ wnd
+ msg
+ param
+ param
+ param
+ param
+ param
+ bytes
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ size
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ litem
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ lvcolumn
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ lvhittestinfo
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ lvitem
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ margins
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ rebarbandinfo
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ rect
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ tbbutton
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ tbbuttoninfo
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ tcitem
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ toolinfo
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ tvhittestinfo
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ tvinsertstruct
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ tvitem
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ udaccel
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ hditem
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ hdlayout
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+button imagelist
+ param
+ unicode
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+set menu item info
+ menu
+ item
+ position
+ menuiteminfo
+ lpmii
+ unicode
+set menu item info
+ menu
+ item
+ position
+ lpmii
+set menu item info
+ menu
+ item
+ position
+ lpmii
+set prop
+ wnd
+ string
+ data
+ unicode
+set prop
+ wnd
+ string
+ data
+set prop
+ wnd
+ string
+ data
+set window long
+ wnd
+ index
+new long
+ unicode
+set window long
+ wnd
+ index
+new long
+set window long
+ wnd
+ index
+new long
+set windows hook
+ hook
+ lpfn
+ mod
+ thread
+ unicode
+set windows hook
+ hook
+ lpfn
+ mod
+ thread
+set windows hook
+ hook
+ lpfn
+ mod
+ thread
+set window text
+ wnd
+ tchar
+ string
+ unicode
+ string
+ string
+ string
+ chars
+set window text
+ wnd
+ string
+ string
+ string
+ string
+ bytes
+set window text
+ wnd
+ string
+browse for folder
+ browseinfo
+ lpbi
+ unicode
+browse for folder
+ lpbi
+browse for folder
+ lpbi
+shell execute
+ shellexecuteinfo
+exec info
+ unicode
+shell execute
+exec info
+shell execute
+exec info
+shell notify icon
+ message
+ notifyicondata
+ data
+ unicode
+shell notify icon
+ message
+ notifyicondataw
+ data
+shell notify icon
+ message
+ notifyicondataa
+ data
+get path from list
+ pidl
+ tchar
+psz path
+ unicode
+psz path
+psz path
+psz path
+ chars
+get path from list
+ pidl
+psz path
+psz path
+psz path
+psz path
+ bytes
+get path from list
+ pidl
+psz path
+start doc
+ hdc
+ docinfo
+ lpdi
+ unicode
+start doc
+ hdc
+ lpdi
+start doc
+ hdc
+ lpdi
+system parameters info
+ action
+ param
+ rect
+ param
+win ini
+ unicode
+system parameters info
+ action
+ param
+ param
+win ini
+system parameters info
+ action
+ param
+ param
+win ini
+system parameters info
+ action
+ param
+ highcontrast
+ param
+win ini
+ unicode
+system parameters info
+ action
+ param
+ param
+win ini
+system parameters info
+ action
+ param
+ param
+win ini
+system parameters info
+ action
+ param
+ nonclientmetrics
+ param
+win ini
+ unicode
+system parameters info
+ action
+ param
+ nonclientmetricsw
+ param
+win ini
+system parameters info
+ action
+ param
+ nonclientmetricsa
+ param
+win ini
+system parameters info
+ action
+ param
+ param
+win ini
+ unicode
+system parameters info
+ action
+ param
+ param
+win ini
+system parameters info
+ action
+ param
+ param
+win ini
+translate accelerator
+ wnd
+acc table
+ msg
+ msg
+ unicode
+translate accelerator
+ wnd
+acc table
+ msg
+translate accelerator
+ wnd
+acc table
+ msg
+unregister class
+ tchar
+class name
+ instance
+ unicode
+class name
+class name
+class name
+ chars
+unregister class
+class name
+ instance
+class name
+class name
+class name
+ bytes
+unregister class
+class name
+ instance
+key scan
+
+ unicode
+key scan
+
+key scan
+
+abort doc
+ hdc
+activate keyboard layout
+ hkl
+ flags
+adjust window rect
+ rect
+ rect
+ style
+ menu
+ style
+alpha blend
+hdc dest
+origin dest
+origin dest
+width dest
+height dest
+hdc src
+origin src
+origin src
+width src
+height src
+ blendfunction
+blend function
+ arc
+ hdc
+left rect
+top rect
+right rect
+bottom rect
+start arc
+start arc
+end arc
+end arc
+begin defer window pos
+num windows
+begin paint
+ wnd
+ paintstruct
+ paint
+begin path
+ hdc
+bit blt
+hdc dest
+ dest
+ dest
+ width
+ height
+hdc src
+ src
+ src
+ rop
+bring window top
+ wnd
+ call
+ address
+ dllversioninfo
+ arg
+call next hook
+ hhk
+ code
+ param
+ param
+call window proc
+prev wnd func
+ wnd
+ msg
+ param
+ param
+call window proc
+prev wnd func
+ wnd
+ msg
+ param
+ param
+char lower
+
+char lower
+
+char upper
+
+char upper
+
+check menu item
+ hmenu
+check item
+ check
+choose color
+ choosecolor
+ lpcc
+choose color
+ choosecolor
+ lpcc
+choose font
+ choosefont
+choose font
+choose font
+ choosefont
+choose font
+client screen
+ wnd
+ point
+ point
+close clipboard
+close theme data
+ theme
+create instance
+ rclsid
+unk outer
+cls context
+ riid
+ ppv
+combine rgn
+hrgn dest
+hrgn src
+hrgn src
+combine mode
+command bar add adornments
+ hwnd
+ flags
+ reserved
+command bar create
+ inst
+hwnd parent
+cmd bar
+command bar destroy
+ hwnd
+command bar draw menu bar
+ hwnd
+ button
+command bar height
+ hdnw
+command bar insert menubar
+ hwnd
+ inst
+psz menu
+ button
+command bar show
+ hwnd
+ show
+comm dlg extended error
+copy image
+ image
+ type
+ desired
+ desired
+ flags
+create accelerator table
+ lpaccl
+ entries
+create accelerator table
+ lpaccl
+ entries
+create bitmap
+ width
+ height
+ planes
+bits per pel
+lpv bits
+create caret
+ wnd
+ bitmap
+ width
+ height
+create compatible bitmap
+ hdc
+ width
+ height
+create compatible
+ hdc
+create cursor
+ inst
+hot spot
+hot spot
+ width
+ height
+and plane
+xor plane
+create dcw
+lpsz driver
+lpsz device
+lpsz output
+init data
+create dca
+lpsz driver
+lpsz device
+lpsz output
+init data
+create dib section
+ hdc
+ pbmi
+ usage
+ppv bits
+ section
+ offset
+create font indirect
+ lplf
+create font indirect
+ lplf
+create font indirect
+ logfontw
+ lplf
+create font indirect
+ logfonta
+ lplf
+create icon indirect
+ iconinfo
+ lplf
+create menu
+create palette
+log palette
+create pattern brush
+color ref
+create pen
+pen style
+ width
+ color
+create polygon rgn
+ lppt
+ points
+poly fill mode
+create popup menu
+create rect rgn
+ left
+ top
+ right
+ bottom
+create solid brush
+color ref
+create stream global
+ global
+delete release
+ ppstm
+create window
+ style
+class name
+window name
+ style
+
+
+ width
+ height
+wnd parent
+ menu
+ instance
+ createstruct
+ param
+create window
+ style
+class name
+window name
+ style
+
+
+ width
+ height
+wnd parent
+ menu
+ instance
+ createstruct
+ param
+defer window pos
+win pos info
+ wnd
+wnd insert after
+
+
+
+
+ flags
+def mdi child proc
+ wnd
+ msg
+ param
+ param
+def mdi child proc
+ wnd
+ msg
+ param
+ param
+def frame proc
+ wnd
+wnd mdi client
+ msg
+ param
+ param
+def frame proc
+ wnd
+wnd mdi client
+ msg
+ param
+ param
+def window proc
+ wnd
+ msg
+ param
+ param
+def window proc
+ wnd
+ msg
+ param
+ param
+ delete
+ hdc
+delete menu
+ menu
+ position
+ flags
+delete object
+gdi obj
+destroy accelerator table
+ accel
+destroy caret
+destroy cursor
+ cursor
+destroy icon
+ icon
+destroy menu
+ menu
+destroy window
+ wnd
+dispatch message
+ msg
+ lpmsg
+dispatch message
+ msg
+ lpmsg
+drag detect
+ hwnd
+ point
+
+drag finish
+ drop
+drag query file
+ drop
+ file
+lpsz file
+ cch
+drag query file
+ drop
+ file
+lpsz file
+ cch
+draw edge
+ hdc
+ rect
+ qrc
+ edge
+grf flags
+draw focus rect
+
+ rect
+ rect
+draw frame control
+ hdc
+ rect
+ lprc
+ type
+ state
+draw icon
+ hdc
+ left
+ top
+ icon
+ width
+ width
+istep ani cur
+hbr flicker free draw
+ flags
+draw menu bar
+ wnd
+draw state
+ hdc
+ hbr
+output func
+ data
+ data
+
+
+
+
+ flags
+draw state
+ hdc
+ hbr
+output func
+ data
+ data
+
+
+
+
+ flags
+draw text
+
+ string
+ count
+ rect
+ rect
+ format
+draw text
+
+ string
+ count
+ rect
+ rect
+ format
+draw theme background
+ theme
+ hdc
+ part
+ state
+ rect
+ rect
+ rect
+clip rect
+ ellipse
+ hdc
+left rect
+top rect
+right rect
+bottom rect
+enable menu item
+ menu
+enable item
+ enable
+enable scroll bar
+ wnd
+ bflags
+ arrows
+enable window
+ wnd
+ enable
+enum system language groups
+lang group enum proc
+ flags
+ param
+enum system language groups
+lang group enum proc
+ flags
+ param
+enum system locales
+locale enum proc
+ flags
+enum system locales
+locale enum proc
+ flags
+end defer window pos
+win pos info
+end doc
+ hdc
+end page
+ hdc
+end paint
+ wnd
+ paintstruct
+ paint
+end path
+ hdc
+enum display monitors
+ hdc
+ rect
+lprc clip
+lpfn enum
+ data
+enum font families
+ hdc
+lpsz family
+enum font fam proc
+ param
+enum font families
+ hdc
+lpsz family
+enum font fam proc
+ param
+enum font families
+ hdc
+ logfontw
+ logfont
+enum font fam proc
+ param
+ flags
+enum font families
+ hdc
+ logfonta
+ logfont
+enum font fam proc
+ param
+ flags
+equal rect
+ rect
+ lprc
+ rect
+ lprc
+equal rgn
+src rgn
+src rgn
+exclude clip rect
+ hdc
+left rect
+top rect
+right rect
+bottom rect
+expand environment strings
+ src
+ dst
+ size
+expand environment strings
+ src
+ dst
+ size
+ext create pen
+pen style
+ width
+ logbrush
+ lplb
+style count
+ style
+ext create region
+ xform
+ count
+rgn data
+ext text out
+ hdc
+
+
+ options
+ rect
+ lprc
+ string
+ count
+
+ext text out
+ hdc
+
+
+ options
+ rect
+ lprc
+ string
+ count
+
+extract icon
+lpsz file
+icon index
+phicon large
+phicon small
+ icons
+extract icon
+lpsz file
+icon index
+phicon large
+phicon small
+ icons
+fill rect
+
+ rect
+ lprc
+ hbr
+fill path
+ hdc
+find window
+class name
+window name
+find window
+class name
+window name
+format message
+ flags
+ source
+ message
+ language
+ buffer
+ size
+ arguments
+format message
+ flags
+ source
+ message
+ language
+ buffer
+ size
+ arguments
+free library
+lib module
+gdi set batch limit
+ limit
+get acp
+get active window
+get color
+
+get capture
+get caret pos
+ point
+ point
+get char abc widths
+ hdc
+first char
+last char
+ lpabc
+get char abc widths
+ hdc
+first char
+last char
+ lpabc
+get character placement
+ hdc
+ string
+ count
+max extent
+gcp results
+ results
+ flags
+get character placement
+ hdc
+ string
+ count
+max extent
+gcp results
+ results
+ flags
+get char width
+ hdc
+first char
+last char
+ buffer
+get char width
+ hdc
+first char
+last char
+ buffer
+get class info
+ instance
+class name
+ wndclass
+wnd class
+get class info
+ instance
+class name
+ wndclass
+wnd class
+get class name
+ wnd
+class name
+max count
+get class name
+ wnd
+class name
+max count
+get client rect
+ wnd
+ rect
+ rect
+get clipboard data
+ format
+get clipboard format name
+ format
+lpsz format name
+cch max count
+get clipboard format name
+ format
+lpsz format name
+cch max count
+get clip box
+ hdc
+ rect
+ lprc
+get clip rgn
+ hdc
+ hrgn
+get combo box info
+hwnd combo
+ comboboxinfo
+ pcbi
+get current object
+ hdc
+object type
+get current process
+get current thread
+get cursor
+get cursor pos
+ point
+ point
+ get
+ hwnd
+ get
+ wnd
+hrgn clip
+ flags
+get desktop window
+get device caps
+ hdc
+ index
+get dialog base units
+get dib color table
+ hdc
+start index
+ entries
+ colors
+get bits
+ hdc
+ hbmp
+start scan
+scan lines
+lpv bits
+ lpbi
+ usage
+get dlg item
+ dlg
+dlg item
+get double click time
+get focus
+get font language info
+ hdc
+get foreground window
+get gui thread info
+ thread
+ guithreadinfo
+ lpgui
+get icon info
+ icon
+ iconinfo
+ piconinfo
+get keyboard layout list
+ buff
+ list
+get keyboard layout
+ thread
+get key state
+virt key
+get keyboard state
+key state
+get key name text
+ param
+ string
+ size
+get key name text
+ param
+ string
+ size
+get last active popup
+ wnd
+get last error
+get layout
+ hdc
+get library handle
+get locale info
+ locale
+ type
+ data
+cch data
+get locale info
+ locale
+ type
+ data
+cch data
+get menu
+ wnd
+get menu bar info
+ wnd
+ object
+ item
+ menubarinfo
+ pmbi
+get menu default item
+ menu
+ pos
+gmdi flags
+get menu info
+ hmenu
+ menuinfo
+ lpcmi
+get menu item count
+ menu
+get menu item info
+ menu
+ item
+ position
+ menuiteminfo
+ lpmii
+get menu item info
+ menu
+ item
+ position
+ menuiteminfo
+ lpmii
+get menu item rect
+ wnd
+ menu
+ item
+ rect
+lprc item
+get message
+ msg
+ msg
+ wnd
+msg filter min
+msg filter max
+get message
+ msg
+ msg
+ wnd
+msg filter min
+msg filter max
+get message pos
+get message time
+get meta rgn
+ hdc
+ hrgn
+get text charset
+ hdc
+get tick count
+get module handle
+module name
+get module handle
+module name
+get monitor info
+ hmonitor
+ monitorinfo
+ lpmi
+get monitor info
+ hmonitor
+ monitorinfo
+ lpmi
+get nearest palette index
+ pal
+ color
+get object
+ hgdiobj
+ buffer
+ bitmap
+lpv object
+get object
+ hgdiobj
+ buffer
+ bitmap
+lpv object
+get object
+ hgdiobj
+ buffer
+ dibsection
+lpv object
+get object
+ hgdiobj
+ buffer
+ dibsection
+lpv object
+get object
+ hgdiobj
+ buffer
+ extlogpen
+lpv object
+get object
+ hgdiobj
+ buffer
+ extlogpen
+lpv object
+get object
+ hgdiobj
+ buffer
+ logbrush
+lpv object
+get object
+ hgdiobj
+ buffer
+ logbrush
+lpv object
+get object
+ hgdiobj
+ buffer
+ logfonta
+lpv object
+get object
+ hgdiobj
+ buffer
+ logfontw
+lpv object
+get object
+ hgdiobj
+ buffer
+ logpen
+lpv object
+get object
+ hgdiobj
+ buffer
+ logpen
+lpv object
+get object
+ hgdiobj
+ buffer
+lpv object
+get object
+ hgdiobj
+ buffer
+lpv object
+get open file name
+ openfilename
+ lpofn
+get open file name
+ openfilename
+ lpofn
+get palette entries
+ palette
+start index
+ entries
+log palette
+get parent
+ wnd
+get pixel
+ hdc
+
+
+get poly fill mode
+ hdc
+get proc address
+ module
+proc name
+get process heap
+get profile string
+app name
+key name
+ default
+returned string
+ size
+get profile string
+app name
+key name
+ default
+returned string
+ size
+get prop
+ wnd
+ string
+get prop
+ wnd
+ string
+get random rgn
+ hdc
+ hrgn
+ num
+get region data
+ rgn
+ count
+rgn data
+get rgn box
+ hrgn
+ rect
+ lprc
+get rop
+ hdc
+get save file name
+ openfilename
+ lpofn
+get save file name
+ openfilename
+ lpofn
+get scroll info
+ hwnd
+ flags
+ scrollinfo
+ info
+get stock object
+ object
+get sys color
+ index
+get sys color brush
+ index
+get system default language
+get system menu
+ wnd
+ revert
+get system metrics
+ index
+get system palette entries
+ hdc
+start index
+ entries
+ lppe
+get text color
+
+get text extent point
+ hdc
+ string
+ string
+ size
+ size
+get text extent point
+ hdc
+ string
+ string
+ size
+ size
+get text metrics
+ hdc
+ textmetricw
+ lptm
+get text metrics
+ hdc
+ textmetrica
+ lptm
+get update rect
+ wnd
+ rect
+ rect
+ erase
+get update rgn
+ wnd
+ rgn
+ erase
+get version
+ osversioninfow
+version info
+get version
+ osversioninfoa
+version info
+get window
+ wnd
+ cmd
+get window long
+ wnd
+ index
+get window long
+ wnd
+ index
+get window org
+ hdc
+ point
+ point
+get window placement
+ wnd
+ windowplacement
+ lpwndpl
+get window rect
+ wnd
+ rect
+ rect
+get window rgn
+ wnd
+ rgn
+get window text
+ wnd
+ string
+max count
+get window text
+ wnd
+ string
+max count
+get window text length
+ wnd
+get window text length
+ wnd
+get window thread process
+ wnd
+lpdw process
+get world transform
+ hdc
+ xform
+global add atom
+ string
+global add atom
+ string
+global alloc
+ flags
+ bytes
+global free
+ mem
+global lock
+ mem
+global size
+ mem
+global unlock
+ mem
+gradient fill
+ hdc
+ vertex
+num vertex
+ mesh
+num mesh
+ mode
+heap alloc
+ heap
+ flags
+ bytes
+heap free
+ heap
+ flags
+ mem
+hide caret
+ wnd
+iid from string
+ lpsz
+ lpiid
+image list add
+ himl
+hbm image
+hbm mask
+image list add masked
+ himl
+hbm image
+ mask
+image list create
+
+
+ flags
+ initial
+ grow
+image list destroy
+ himl
+image list get icon
+ himl
+
+ flags
+image list get icon size
+ himl
+
+
+image list get image count
+ himl
+image list remove
+ himl
+
+image list replace
+ himl
+
+hbm image
+hbm mask
+image list replace icon
+ himl
+
+ hicon
+image list set icon size
+ himl
+
+
+imm associate context
+ wnd
+ imc
+imm create context
+imm destroy context
+ imc
+imm disable text frame service
+ thread
+imm get composition font
+ imc
+ logfontw
+ lplf
+imm get composition font
+ imc
+ logfonta
+ lplf
+imm get composition string
+ imc
+ index
+ buf
+buf len
+imm get composition string
+ imc
+ index
+ buf
+buf len
+imm get context
+ wnd
+imm get conversion status
+ imc
+lpfdw conversion
+lpfdw sentence
+imm get default ime wnd
+ wnd
+imm get open status
+ imc
+imm release context
+ wnd
+ imc
+imm set composition font
+ imc
+ logfontw
+ lplf
+imm set composition font
+ imc
+ logfonta
+ lplf
+imm set composition window
+ imc
+ compositionform
+comp form
+imm set conversion status
+ imc
+fdw conversion
+ sentence
+imm set open status
+ imc
+ open
+init common controls
+init common controls
+ initcommoncontrolsex
+init ctrls
+insert menu
+ menu
+ position
+ flags
+new item
+new item
+insert menu
+ menu
+ position
+ flags
+new item
+new item
+insert menu item
+ menu
+ item
+ position
+ menuiteminfo
+ lpmii
+insert menu item
+ menu
+ item
+ position
+ menuiteminfo
+ lpmii
+intersect clip rect
+ hdc
+left rect
+top rect
+right rect
+bottom rect
+intersect rect
+ rect
+lprc dst
+ rect
+lprc src
+ rect
+lprc src
+invalidate rect
+ wnd
+ rect
+ rect
+ erase
+invalidate rgn
+ wnd
+ rgn
+ erase
+app themed
+dbcs lead byte
+test char
+hung app window
+ wnd
+ iconic
+ wnd
+ ppc
+
+window enabled
+ wnd
+window visible
+ wnd
+ zoomed
+ wnd
+kill timer
+ wnd
+ event
+ line
+ hdc
+
+
+load bitmap
+ instance
+bitmap name
+load bitmap
+ instance
+bitmap name
+load cursor
+ instance
+cursor name
+load cursor
+ instance
+cursor name
+load icon
+ instance
+icon name
+load icon
+ instance
+icon name
+load image
+ hinst
+lpsz name
+ type
+ desired
+ desired
+ load
+load image
+ hinst
+lpsz name
+ type
+ desired
+ desired
+ load
+load image
+ hinst
+lpsz name
+ type
+ desired
+ desired
+ load
+load image
+ hinst
+lpsz name
+ type
+ desired
+ desired
+ load
+load string
+ hinst
+
+ buffer
+buffer max
+load string
+ hinst
+
+ buffer
+buffer max
+load library
+lib file name
+load library
+lib file name
+local free
+ mem
+map virtual key
+ code
+map type
+map virtual key
+ code
+map type
+map window points
+wnd from
+ wnd
+ point
+ points
+ points
+map window points
+wnd from
+ wnd
+ rect
+ points
+ points
+message beep
+ type
+message box
+ wnd
+ text
+ caption
+ type
+message box
+ wnd
+ text
+ caption
+ type
+monitor from window
+ hwnd
+ flags
+move memory
+ destination
+source ptr
+ length
+move memory
+ destination
+ source
+ length
+move memory
+ destination
+ accel
+ source
+ length
+move memory
+ destination
+ bitmapinfoheader
+ source
+ length
+move memory
+ destination
+ source
+ length
+move memory
+ destination
+ source
+ length
+move memory
+ destination
+ source
+ length
+move memory
+ destination
+ source
+ length
+move memory
+ destination
+gradient rect
+ source
+ length
+move memory
+ destination
+ logfontw
+ source
+ length
+move memory
+ destination
+ logfonta
+ source
+ length
+move memory
+ destination
+ measureitemstruct
+ source
+ length
+move memory
+ destination
+ minmaxinfo
+ source
+ length
+move memory
+ destination
+ msg
+ source
+ length
+move memory
+ destination
+ udaccel
+ source
+ length
+move memory
+ destination
+ nmttdispinfow
+ source
+ length
+move memory
+ destination
+ nmttdispinfoa
+ source
+ length
+move memory
+ destination
+ rect
+ source
+ length
+move memory
+ destination
+ trivertex
+ source
+ length
+move memory
+ destination
+ windowpos
+ source
+ length
+move memory
+ bitmapinfoheader
+ destination
+ source
+ length
+move memory
+ drawitemstruct
+ destination
+ source
+ length
+move memory
+ extlogpen
+ destination
+ source
+ length
+move memory
+ hditem
+ destination
+ source
+ length
+move memory
+ helpinfo
+ destination
+ source
+ length
+move memory
+ logfontw
+ destination
+ source
+ length
+move memory
+ logfonta
+ destination
+ source
+ length
+move memory
+ measureitemstruct
+ destination
+ source
+ length
+move memory
+ minmaxinfo
+ destination
+ source
+ length
+move memory
+ point
+ destination
+ source
+ length
+move memory
+ nmhdr
+ destination
+ source
+ length
+move memory
+ nmrginfo
+ destination
+ source
+ length
+move memory
+ nmcustomdraw
+ destination
+ source
+ length
+move memory
+ nmlvcustomdraw
+ destination
+ source
+ length
+move memory
+ nmtbhotitem
+ destination
+ source
+ length
+move memory
+ nmtvcustomdraw
+ destination
+ source
+ length
+move memory
+ nmupdown
+ destination
+ source
+ length
+move memory
+ destination
+ nmlvcustomdraw
+ source
+ length
+move memory
+ destination
+ nmtvcustomdraw
+ source
+ length
+move memory
+ destination
+ nmlvdispinfo
+ source
+ length
+move memory
+ destination
+ nmtvdispinfo
+ source
+ length
+move memory
+ nmlvdispinfo
+ destination
+ source
+ length
+move memory
+ nmtvdispinfo
+ destination
+ source
+ length
+move memory
+ nmlvfinditem
+ destination
+ source
+ length
+move memory
+ nmheader
+ destination
+ source
+ length
+move memory
+ nmlink
+ destination
+ source
+ length
+move memory
+ nmlistview
+ destination
+ source
+ length
+move memory
+ nmrebarchildsize
+ destination
+ source
+ length
+move memory
+ nmrebarchevron
+ destination
+ source
+ length
+move memory
+ nmtoolbar
+ destination
+ source
+ length
+move memory
+ nmttdispinfow
+ destination
+ source
+ length
+move memory
+ nmttdispinfoa
+ destination
+ source
+ length
+move memory
+ textmetricw
+ destination
+ source
+ length
+move memory
+ textmetrica
+ destination
+ source
+ length
+move memory
+ tvitem
+ destination
+ source
+ length
+move memory
+ windowpos
+ destination
+ source
+ length
+move memory
+ msg
+ destination
+ source
+ length
+move memory
+ udaccel
+ destination
+ source
+ length
+move memory
+ destination
+ dropfiles
+ source
+ length
+move memory
+ destination
+source ptr
+ length
+move memory
+ destination
+source ptr
+ length
+move memory
+ destination
+source ptr
+ length
+move memory
+destination ptr
+ source
+ length
+move memory
+destination ptr
+ source
+ length
+move memory
+destination ptr
+ source
+ length
+move memory
+script item
+ destination
+source ptr
+ length
+move memory
+script logattr
+ destination
+source ptr
+ length
+move memory
+script properties
+ destination
+source ptr
+ length
+move memory
+ destination
+ keybdinput
+ source
+ length
+move memory
+ destination
+ mouseinput
+ source
+ length
+ move
+ hdc
+
+
+ point
+msg wait for multiple objects
+ count
+ handles
+ milliseconds
+wake mask
+ flags
+multi byte wide char
+code page
+ flags
+multi byte str
+cch multi byte
+wide char str
+cch wide char
+multi byte wide char
+code page
+ flags
+multi byte str
+cch multi byte
+wide char str
+cch wide char
+notify win event
+ event
+ hwnd
+ object
+ child
+offset rect
+ rect
+ lprc
+
+
+offset rgn
+ hrgn
+ offset
+ offset
+ole initialize
+ reserved
+ole uninitialize
+open clipboard
+wnd new owner
+open theme data
+ hwnd
+psz class list
+pat blt
+ hdc
+
+
+
+
+ rop
+peek message
+ msg
+ msg
+ wnd
+msg filter min
+msg filter max
+remove msg
+peek message
+ msg
+ msg
+ wnd
+msg filter min
+msg filter max
+remove msg
+ pie
+ hdc
+left rect
+top rect
+right rect
+bottom rect
+start arc
+start arc
+end arc
+end arc
+ polygon
+ hdc
+ points
+ points
+ polyline
+ hdc
+ points
+ points
+post message
+ wnd
+ msg
+ param
+ param
+post message
+ wnd
+ msg
+ param
+ param
+post thread message
+ thread
+ msg
+ param
+ param
+post thread message
+ thread
+ msg
+ param
+ param
+ primarylangid
+ lgid
+print dlg
+ printdlg
+ lppd
+print dlg
+ printdlg
+ lppd
+ rect
+ rect
+ rect
+ point
+
+ region
+ hrgn
+
+
+realize palette
+
+ rectangle
+ hdc
+left rect
+top rect
+right rect
+bottom rect
+rect region
+ hrgn
+ rect
+ lprc
+redraw window
+ wnd
+ rect
+lprc update
+hrgn update
+ flags
+reg close key
+ key
+register class
+ wndclass
+wnd class
+register class
+ wndclass
+wnd class
+register window message
+ string
+register window message
+ string
+reg enum key
+ key
+ index
+ name
+lpc name
+ reserved
+ class
+lpc class
+ filetime
+lpft last write time
+register clipboard format
+lpsz format
+register clipboard format
+lpsz format
+reg open key
+ key
+sub key
+ options
+sam desired
+phk result
+reg query info key
+ key
+ class
+lpcb class
+ reserved
+sub keys
+lpcb max sub key len
+lpcb max class len
+lpc values
+lpcb max value name len
+lpcb max value len
+lpcb security descriptor
+lpft last write time
+reg query value
+ key
+value name
+ reserved
+ type
+ data
+lpcb data
+reg query value
+ key
+value name
+ reserved
+ type
+ data
+lpcb data
+reg enum key
+ key
+ index
+ name
+lpc name
+ reserved
+ class
+lpc class
+ filetime
+lpft last write time
+reg open key
+ key
+sub key
+ options
+sam desired
+phk result
+reg query info key
+ key
+ class
+lpcb class
+ reserved
+sub keys
+lpcb max sub key len
+lpcb max class len
+lpc values
+lpcb max value name len
+lpcb max value len
+lpcb security descriptor
+lpft last write time
+reg query value
+ key
+value name
+ reserved
+ type
+ data
+lpcb data
+reg query value
+ key
+value name
+ reserved
+ type
+ data
+lpcb data
+release capture
+ release
+ wnd
+
+remove menu
+ menu
+ position
+ flags
+remove prop
+ wnd
+ string
+remove prop
+ wnd
+ string
+ restore
+ hdc
+ saved
+round rect
+ hdc
+left rect
+top rect
+right rect
+bottom rect
+ width
+ height
+ save
+ hdc
+screen client
+ wnd
+ point
+ point
+script break
+pwc chars
+ chars
+script analysis
+ psa
+ psla
+script get properties
+
+num scripts
+script cache get height
+ hdc
+ psc
+ height
+script pto
+
+ trailing
+ chars
+ glyphs
+log clust
+ psva
+ advance
+script analysis
+ psa
+
+script free cache
+ psc
+script get font properties
+ hdc
+ psc
+script fontproperties
+ sfp
+script get logical widths
+script analysis
+ psa
+ chars
+ glyphs
+glyph width
+log clust
+ psva
+
+script itemize
+pwc chars
+ chars
+max items
+script control
+ control
+script state
+ state
+ items
+ items
+script layout
+ runs
+ level
+visual logical
+logical visual
+script place
+ hdc
+ psc
+ glyphs
+ glyphs
+ psva
+script analysis
+ psa
+ advance
+ goffset
+ abc
+script shape
+ hdc
+ psc
+pwc chars
+ chars
+max glyphs
+script analysis
+ psa
+out glyphs
+log clust
+ psva
+ glyphs
+script text out
+ hdc
+ psc
+
+
+ options
+ rect
+ lprc
+script analysis
+ psa
+pwc reserved
+ reserved
+ glyphs
+ glyphs
+ advance
+ justify
+ goffset
+script xto
+
+ chars
+ glyphs
+log clust
+ psva
+ advance
+script analysis
+ psa
+
+ trailing
+scroll window
+ wnd
+
+
+ rect
+prc scroll
+ rect
+prc clip
+hrgn update
+ rect
+prc update
+ flags
+select clip rgn
+ hdc
+ hrgn
+select object
+
+hgdi obj
+select palette
+
+ hpal
+force background
+send input
+ inputs
+ inputs
+ size
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ lvcolumn
+ param
+send message
+ wnd
+ msg
+ param
+ lvhittestinfo
+ param
+send message
+ wnd
+ msg
+ param
+ litem
+ param
+send message
+ wnd
+ msg
+ param
+ lvitem
+ param
+send message
+ wnd
+ msg
+ param
+ margins
+ param
+send message
+ wnd
+ msg
+ param
+ rebarbandinfo
+ param
+send message
+ wnd
+ msg
+ param
+ rect
+ param
+send message
+ wnd
+ msg
+ param
+ tbbutton
+ param
+send message
+ wnd
+ msg
+ param
+ tbbuttoninfo
+ param
+send message
+ wnd
+ msg
+ param
+ tcitem
+ param
+send message
+ wnd
+ msg
+ param
+ toolinfo
+ param
+send message
+ wnd
+ msg
+ param
+ tvhittestinfo
+ param
+send message
+ wnd
+ msg
+ param
+ tvinsertstruct
+ param
+send message
+ wnd
+ msg
+ param
+ tvitem
+ param
+send message
+ wnd
+ msg
+ param
+ udaccel
+ param
+send message
+ wnd
+ msg
+ param
+ hditem
+ param
+send message
+ wnd
+ msg
+ param
+ hdlayout
+ param
+send message
+ wnd
+ msg
+ param
+button imagelist
+ param
+send message
+ wnd
+ msg
+ param
+ size
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ param
+send message
+ wnd
+ msg
+ param
+ lvcolumn
+ param
+send message
+ wnd
+ msg
+ param
+ lvhittestinfo
+ param
+send message
+ wnd
+ msg
+ param
+ litem
+ param
+send message
+ wnd
+ msg
+ param
+ lvitem
+ param
+send message
+ wnd
+ msg
+ param
+ margins
+ param
+send message
+ wnd
+ msg
+ param
+ rebarbandinfo
+ param
+send message
+ wnd
+ msg
+ param
+ rect
+ param
+send message
+ wnd
+ msg
+ param
+ tbbutton
+ param
+send message
+ wnd
+ msg
+ param
+ tbbuttoninfo
+ param
+send message
+ wnd
+ msg
+ param
+ tcitem
+ param
+send message
+ wnd
+ msg
+ param
+ toolinfo
+ param
+send message
+ wnd
+ msg
+ param
+ tvhittestinfo
+ param
+send message
+ wnd
+ msg
+ param
+ tvinsertstruct
+ param
+send message
+ wnd
+ msg
+ param
+ tvitem
+ param
+send message
+ wnd
+ msg
+ param
+ udaccel
+ param
+send message
+ wnd
+ msg
+ param
+ hditem
+ param
+send message
+ wnd
+ msg
+ param
+ hdlayout
+ param
+send message
+ wnd
+ msg
+ param
+button imagelist
+ param
+send message
+ wnd
+ msg
+ param
+ size
+ param
+set active window
+ wnd
+set color
+ hdc
+color ref
+set mode
+ hdc
+ mode
+set capture
+ wnd
+set caret pos
+
+
+set clipboard data
+ format
+ mem
+set cursor
+ cursor
+set cursor pos
+
+
+set dib color table
+ hdc
+start index
+ entries
+ colors
+set error mode
+ mode
+set focus
+ wnd
+set foreground window
+ wnd
+set graphics mode
+ hdc
+ mode
+set layout
+ hdc
+ layout
+set menu
+ wnd
+ menu
+set menu default item
+ menu
+ item
+ pos
+set menu info
+ hmenu
+ menuinfo
+ lpcmi
+set menu item info
+ menu
+ item
+ position
+ menuiteminfo
+ lpmii
+set menu item info
+ menu
+ item
+ position
+ menuiteminfo
+ lpmii
+set meta rgn
+ hdc
+set palette entries
+ pal
+ start
+ entries
+ lppe
+set parent
+wnd child
+wnd new parent
+set pixel
+ hdc
+
+
+ color
+set poly fill mode
+ hdc
+poly fill mode
+set rect
+ rect
+ lprc
+ left
+ top
+ right
+ bottom
+set rect rgn
+ hrgn
+left rect
+top rect
+right rect
+bottom rect
+set rop
+ hdc
+draw mode
+set scroll info
+ hwnd
+ flags
+ scrollinfo
+ info
+ redraw
+set stretch blt mode
+ hdc
+stretch mode
+set prop
+ wnd
+ string
+ data
+set prop
+ wnd
+ string
+ data
+set text align
+ hdc
+ mode
+set text color
+ hdc
+color ref
+set timer
+ wnd
+ event
+ elapse
+timer func
+set window long
+ wnd
+ index
+new long
+set window long
+ wnd
+ index
+new long
+set window org
+ hdc
+
+
+ point
+ point
+set window placement
+ wnd
+ windowplacement
+ lpwndpl
+set window pos
+ wnd
+wnd insert after
+
+
+
+
+ flags
+set window rgn
+ wnd
+ rgn
+ redraw
+set window text
+ wnd
+ string
+set window text
+ wnd
+ string
+set windows hook
+ hook
+ lpfn
+ mod
+ thread
+set windows hook
+ hook
+ lpfn
+ mod
+ thread
+set world transform
+ hdc
+ xform
+browse for folder
+ browseinfo
+ lpbi
+browse for folder
+ browseinfo
+ lpbi
+create menu bar
+ shmenubarinfo
+ pmb
+handle setting change
+ hwnd
+ param
+ param
+ shactivateinfo
+ psai
+recognize gesture
+ shrginfo
+ shrg
+send back focus window
+ msg
+
+
+sip preference
+ hwnd
+
+shell execute
+ shellexecuteinfo
+exec info
+shell execute
+ shellexecuteinfo
+exec info
+shell notify icon
+ message
+ notifyicondataa
+ data
+shell notify icon
+ message
+ notifyicondataw
+ data
+get malloc
+ malloc
+get path from list
+ pidl
+psz path
+get path from list
+ pidl
+psz path
+set app key wnd assoc
+
+ hwnd
+show caret
+ wnd
+show owned popups
+ wnd
+ show
+show scroll bar
+ wnd
+ bar
+ show
+show window
+ wnd
+cmd show
+sip get info
+ sipinfo
+sip info
+start doc
+ hdc
+ docinfo
+ lpdi
+start doc
+ hdc
+ docinfo
+ lpdi
+start page
+ hdc
+stretch blt
+hdc dest
+origin dest
+origin dest
+width dest
+height dest
+hdc src
+origin src
+origin src
+width src
+height src
+ rop
+stroke path
+ hdc
+system parameters info
+ action
+ param
+ highcontrast
+ param
+win ini
+system parameters info
+ action
+ param
+ highcontrast
+ param
+win ini
+system parameters info
+ action
+ param
+ rect
+ param
+win ini
+system parameters info
+ action
+ param
+ rect
+ param
+win ini
+system parameters info
+ action
+ param
+ nonclientmetricsw
+ param
+win ini
+system parameters info
+ action
+ param
+ nonclientmetricsa
+ param
+win ini
+system parameters info
+ action
+ param
+ param
+win ini
+system parameters info
+ action
+ param
+ param
+win ini
+ ascii
+virt key
+scan code
+key state
+ char
+ flags
+ unicode
+virt key
+scan code
+key state
+pwsz buff
+cch buff
+ flags
+track mouse event
+ trackmouseevent
+event track
+track popup menu
+ menu
+ flags
+
+
+ reserved
+ wnd
+ rect
+prc rect
+translate accelerator
+ wnd
+acc table
+ msg
+ msg
+translate accelerator
+ wnd
+acc table
+ msg
+ msg
+translate charset info
+ src
+
+ flags
+translate mdi sys accel
+wnd client
+ msg
+ msg
+translate message
+ msg
+ lpmsg
+transparent blt
+hdc dest
+origin dest
+origin dest
+width dest
+height dest
+hdc src
+origin src
+origin src
+width src
+height src
+ transparent
+transparent image
+hdc dest
+ dst
+ dst
+ dst
+ dst
+ src
+ src
+ src
+ src
+ src
+transparent color
+unhook windows hook
+ hhk
+unregister class
+class name
+ instance
+unregister class
+class name
+ instance
+update window
+ wnd
+validate rect
+ wnd
+ rect
+ rect
+key scan
+
+key scan
+
+vtbl call
+ number
+ vtbl
+vtbl call
+ number
+ vtbl
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ arg
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ arg
+ arg
+ arg
+ arg
+wait message
+wide char multi byte
+code page
+ flags
+wide char str
+cch wide char
+multi byte str
+cch multi byte
+default char
+used default char
+wide char multi byte
+code page
+ flags
+wide char str
+cch wide char
+multi byte str
+cch multi byte
+default char
+used default char
+window from
+
+window from point
+ point
+ point
+ strlen
+
+ wcslen
+ string
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+non  nls 
+swt  windows  flags
+flags  for  window  api get version
+get  the  windows  version  and  the  flags
+try  the  unicode  version get version  first  and  then  the  ansi  version  the  unicode  version  present  all  versions  windows  but  not  implemented  win  note  the  value  osversioninfo  sizeof  cannot  static  final  because  relies  the  windows  platform  version  initialized  and  unicode  has  not  been  calculated  must  initialized  here  after  the  platform  determined  order  for  the  value  correct
+get  the  dbcs  flag
+bug  windows  korean  windows  when  the  text  services  framework  support  for  legacy  applications  enabled  certain  legacy  calls  segment  fault  for  example  when imm set composition window  used  move  the  composition  window  outside  the  client  area  windows  crashes  the  fix  disable  legacy  support
+get  the  comctl  dll  version
+non  nls 
+non  nls 
+get  the  shell  dll  version
+non  nls 
+non  nls 
+flag  used  win
+note  there  bug  jvm  where  loading  class  with  large  number  constants  causes  segment  fault  occur  sometime  later  after  the  class  loaded  the  fix  break  the  class  into  hierarchy  classes  that  each  contain  smaller  number  constants  this  fix  not  necessary  this  time  but  required  when  all  constants  are  uncommented  have  not  done  the  research  determine  the  limit
+  constants
+public  static  final  int  event  object  selection  8006
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+public  static  final  int  geticon 
+ansi  unicode  wrappers
+  natives
+returns  the  instance  handle  the  swt  library
+</comments>
+</text>
+</DOC>

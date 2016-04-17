@@ -1,0 +1,344 @@
+<DOC>
+<DOCNO>org.eclipse.swt.ole.win32.OlePropertyChangeSink.java </DOCNO>
+<text>
+<class>
+ole property change sink
+</class>
+<method>
+ole property change sink
+add listener
+add ref
+ connect
+create com interfaces
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ disconnect
+dispose com interfaces
+notify listener
+ changed
+request edit
+query interface
+ release
+remove listener
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ ole
+ win
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ole property change sink
+ole control site
+control site
+com object
+ unknown
+com object
+property notify sink
+ref count
+property cookie
+ole event table
+event table
+ole property change sink
+ole control site
+control site
+control site
+control site
+create com interfaces
+add listener
+ property
+ole listener
+ listener
+ listener
+ ole
+ error
+ swt
+error null argument
+event table
+event table
+ole event table
+event table
+ hook
+ property
+ listener
+add ref
+ref count
+ref count
+ connect
+ unknown
+obj unknown
+ppv object
+obj unknown
+query interface
+ com
+iidi connection point container
+ppv object
+ com
+
+connection point container
+ cpc
+connection point container
+ppv object
+ cpc
+find connection point
+ com
+iidi property notify sink
+ppv object
+ com
+
+connection point
+
+connection point
+ppv object
+ cookie
+
+ advise
+property notify sink
+get address
+ cookie
+ com
+
+property cookie
+ cookie
+
+ release
+ cpc
+ release
+create com interfaces
+ unknown
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+property notify sink
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+ changed
+ args
+ method
+ args
+request edit
+ args
+ disconnect
+ unknown
+obj unknown
+property cookie
+obj unknown
+ppv object
+obj unknown
+query interface
+ com
+iidi connection point container
+ppv object
+ com
+
+connection point container
+ cpc
+connection point container
+ppv object
+ cpc
+find connection point
+ com
+iidi property notify sink
+ppv object
+ com
+
+connection point
+
+connection point
+ppv object
+
+ unadvise
+property cookie
+ com
+
+property cookie
+
+ release
+ cpc
+ release
+dispose com interfaces
+ unknown
+ unknown
+ dispose
+ unknown
+property notify sink
+property notify sink
+ dispose
+property notify sink
+notify listener
+event type
+ole event
+ event
+ event
+ ole
+ error
+ swt
+error null argument
+event table
+ event
+ type
+event type
+ event
+ widget
+control site
+event table
+send event
+ event
+ changed
+ disp
+event table
+event table
+ hooks
+ disp
+ com
+
+ole event
+ event
+ole event
+ event
+ detail
+ ole
+property changed
+notify listener
+ disp
+ event
+ com
+
+request edit
+ disp
+event table
+event table
+ hooks
+ disp
+ com
+
+ole event
+ event
+ole event
+ event
+ doit
+ event
+ detail
+ ole
+property changing
+notify listener
+ disp
+ event
+ event
+ doit
+ com
+
+ com
+ false
+query interface
+ riid
+ppv object
+ riid
+ppv object
+ com
+ invalidarg
+ guid
+ guid
+ guid
+ com
+move memory
+ guid
+ riid
+ guid
+ sizeof
+ com
+equal guid
+ guid
+ com
+iidi unknown
+ com
+move memory
+ppv object
+ unknown
+get address
+add ref
+ com
+
+ com
+equal guid
+ guid
+ com
+iidi property notify sink
+ com
+move memory
+ppv object
+property notify sink
+get address
+add ref
+ com
+
+ com
+move memory
+ppv object
+ com
+ nointerface
+ release
+ref count
+ref count
+dispose com interfaces
+ref count
+remove listener
+ property
+ole listener
+ listener
+ listener
+ ole
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ property
+ listener
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+private  unknown obj unknown
+set  property  change  notification  sink
+register  each  the  interfaces  that  this  object  implements
+disconnect  property  notification  sink
+notify  listeners  event  this  method  notifies  all  listeners  that  event  has  occurred  param event type  the  desired  swt  event  param  event  the  event  data  exception illegal argument exception  error  null  argument  when  handler  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+</comments>
+</text>
+</DOC>

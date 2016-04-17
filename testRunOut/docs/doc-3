@@ -1,0 +1,72 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.StyledTextContent.java </DOCNO>
+<text>
+<class>
+styled text content
+</class>
+<method>
+add text change listener
+get char count
+get line
+get line offset
+get line count
+get line delimiter
+get offset line
+get text range
+remove text change listener
+replace text range
+set text
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+styled text content
+add text change listener
+text change listener
+ listener
+get char count
+ string
+get line
+line index
+get line offset
+ offset
+get line count
+ string
+get line delimiter
+get offset line
+line index
+ string
+get text range
+ start
+ length
+remove text change listener
+text change listener
+ listener
+replace text range
+ start
+replace length
+ string
+ text
+set text
+ string
+ text
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+clients  may  implement  the styled text content  interface  provide  custom  store  for  the styled text  widget  content  the styled text  widget  interacts  with  its styled text content  order  access  and  update  the  text  that  being  displayed  and  edited  the  widget  custom  content  implementation  can  set  the  widget  using  the styled text set content  api
+called styled text  add  itself  observer  content  changes  see text change listener  for  description  the  listener  methods  that  are  called  when  text  changes  occur  param  listener  the  listener  exception illegal argument exception  error  null  argument  when  listener  null 
+return  the  number  characters  the  content  return  the  number  characters  the  content
+return  the  line  the  given  line  index  without  delimiters  param line index  index  the  line  return  does  not  include  delimiters  preceeding  lines  index  the  first  line  the  content  return  the  line  text  without  delimiters
+return  the  line  index  the  given  character  offset  param  offset  offset  the  line  return  the  first  character  the  document  offset  offset get length  valid  and  should  answer  the  number  lines  return  the  line  index  the  first  line  index  the  character  offset  delimiter  character  answer  the  line  index  the  line  that  delimited  for  example  text  and  delimiter  then get line offset get line offset get line offset get line offset get line offset 
+return  the  number  lines  should  answer  when  text  specified  the styled text  widget  relies  this  behavior  for  drawing  the  cursor  return  the  number  lines  for  example  text  value get line count  null 
+return  the  line  delimiter  that  should  used  the styled text  widget  when  inserting  new  lines  new  lines  entered  using  key  strokes  and  paste  operations  use  this  line  delimiter  implementors  may  use  system get property  line  separator  return  the  platform  line  delimiter  return  the  line  delimiter  that  should  used  the styled text  widget  when  inserting  new  lines
+return  the  character  offset  the  first  character  the  given  line  note  when  there  text  lines get offset line  valid  call  that  should  return  param line index  index  the  line  the  first  line  index  return  offset  offset  the  first  character  the  line  the  first  character  the  document  offset  the  return  value  should  include  line  delimiters  for  example  text  ntest  and  delimiter  then get offset line get offset line get offset line 
+returns  string  representing  the  content  the  given  range  param  start  the  start  offset  the  text  return  offset  the  first  character  the  document  param  length  the  length  the  text  return  return  the  text  the  given  range
+remove  the  specified  text  changed  listener  param  listener  the  listener  exception illegal argument exception  error  null  argument  when  listener  null 
+replace  the  text  with new text  starting  position  start  for  length replace length  implementors  have  notify  the text change listeners  that  were  added  using  code add text change listener  code  before  and  after  the  content  changed  code text changing event  code  has  sent  the text changing  method  before  the  content  changed  and  code text changed event  code  has  sent  the text changed  method  after  the  content  has  changed  the  text  change  that  occurs  after  the  code text changing event  code  has  been  sent  has  consistent  with  the  data  provided  the  code text changing event  code  this  data  will  cached  the  widget  and  will  used  when  the  code text changed event  code  received  the  code text changing event  code  should  set  follows  event  start  start  the  replaced  text  event new text  text  that  going  inserted  empty  string  text  will  inserted  event replace char count  length  text  that  going  replaced  event new char count  length  text  that  going  inserted  event replace line count  number  lines  that  are  going  replaced  event new line count  number  new  lines  that  are  going  inserted  note new line count  the  number  inserted  lines  and replace line count  the  number  deleted  lines  based  the  change  that  occurs  visually  for  example replace text new text replace line count new line count  param  start  start  offset  text  replace  none  the  offsets  include  delimiters  preceeding  lines  offset  the  first  character  the  document  param replace length  length  text  replace  param  text  text  replace  see text change listener
+set  text  text  implementors  have  send  code text changed event  code  the text set  method  the text change listeners  that  were  added  using  code add text change listener  code  param  text  the  new  text  see text change listener
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,218 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.StyleRange.java </DOCNO>
+<text>
+<class>
+style range
+</class>
+<method>
+style range
+style range
+style range
+ equals
+hash code
+ unstyled
+ similar
+ clone
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+cloneable compatibility
+style range
+cloneable compatibility
+ start
+ length
+ color
+ foreground
+ color
+ background
+font style
+ swt
+ normal
+ underline
+ strikeout
+style range
+style range
+ start
+ length
+ color
+ foreground
+ color
+ background
+ start
+ start
+ length
+ length
+ foreground
+ foreground
+ background
+ background
+style range
+ start
+ length
+ color
+ foreground
+ color
+ background
+font style
+ start
+ start
+ length
+ length
+ foreground
+ foreground
+ background
+ background
+font style
+font style
+ equals
+ object
+ object
+style range
+ style
+ object
+ object
+style range
+ style
+style range
+ object
+ start
+ style
+ start
+ length
+ style
+ length
+ similar
+ style
+hash code
+ code
+ start
+ length
+ foreground
+ code
+ foreground
+hash code
+ background
+ code
+ background
+hash code
+ code
+font style
+ unstyled
+ foreground
+ background
+font style
+ swt
+ normal
+ underline
+ strikeout
+ similar
+style range
+ style
+ foreground
+ foreground
+ equals
+ style
+ foreground
+ style
+ foreground
+ background
+ background
+ equals
+ style
+ background
+ style
+ background
+font style
+ style
+font style
+ underline
+ style
+ underline
+ strikeout
+ style
+ strikeout
+ object
+ clone
+style range
+ style
+style range
+ start
+ length
+ foreground
+ background
+font style
+ style
+ underline
+ underline
+ style
+ strikeout
+ strikeout
+ style
+ string
+ string
+string buffer
+ buf
+string buffer
+ buf
+ append
+ start
+ length
+ foreground
+ background
+font style
+ swt
+ bold
+ buf
+ append
+ swt
+ italic
+ buf
+ append
+ swt
+ bold
+ swt
+ italic
+ buf
+ append
+ buf
+ append
+ underline
+ buf
+ append
+ strikeout
+ buf
+ append
+ buf
+ string
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+style  start  offset  based  from  the  document  start
+style  length
+may  swt  normal  swt  italic  swt  bold
+create  new  style  range  param  start  start  offset  the  style  param  length  length  the  style  param  foreground  foreground  color  the  style  null  none  param  background  background  color  the  style  null  none
+create  new  style  range  param  start  start  offset  the  style  param  length  length  the  style  param  foreground  foreground  color  the  style  null  none  param  background  background  color  the  style  null  none  param font style  font  style  the  style  may  swt  normal  swt  italic  swt  bold
+compares  the  argument  the  receiver  and  returns  true  they  represent  the  same  object  using  class  specific  comparison  param  object  the  object  compare  with  this  object  return  code  true  code  the  object  the  same  this  object  and  code  false  code  otherwise  see hash code
+returns  integer  hash  code  for  the  receiver  any  two  objects  that  return  code  true  code  when  passed  code  equals  code  must  return  the  same  value  for  this  method  return  the  receiver  hash  see  equals  object
+returns  whether  not  the  receiver  unstyled  does  not  have  any  style  attributes  specified  return  true  the  receiver  unstyled  false  otherwise
+compares  the  specified  object  this style range  and  answer  the  two  are  similar  the  object  must  instance style range  and  have  the  same  field  values  for  except  for  start  and  length  param  style  the  object  compare  with  this  object  return  true  the  objects  are  similar  false  otherwise
+answers  new style range  with  the  same  values  this style range  return  shallow  copy  this style range
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
+</comments>
+</text>
+</DOC>

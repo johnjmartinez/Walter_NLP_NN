@@ -1,0 +1,52 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.ShellListener.java </DOCNO>
+<text>
+<class>
+shell listener
+</class>
+<method>
+shell activated
+shell closed
+shell deactivated
+shell deiconified
+shell iconified
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+shell listener
+swt event listener
+shell activated
+shell event
+
+shell closed
+shell event
+
+shell deactivated
+shell event
+
+shell deiconified
+shell event
+
+shell iconified
+shell event
+
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+classes  which  implement  this  interface  provide  methods  that  deal  with  changes  state  code  shell  code  after  creating  instance  class  that  implements  this  interface  can  added  shell  using  the  code add shell listener  code  method  and  removed  using  the  code remove shell listener  code  method  when  the  state  the  shell  changes  the  appropriate  method  will  invoked  see shell adapter  see shell event
+sent  when  shell  becomes  the  active  window  param  event  containing  information  about  the  activation
+sent  when  shell  closed  param  event  containing  information  about  the  close
+sent  when  shell  stops  being  the  active  window  param  event  containing  information  about  the  deactivation
+sent  when  shell  minimized  param  event  containing  information  about  the  minimization
+sent  when  shell  minimized  param  event  containing  information  about  the  minimization
+</comments>
+</text>
+</DOC>

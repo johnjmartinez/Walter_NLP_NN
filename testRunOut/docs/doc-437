@@ -1,0 +1,3071 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Widget.java </DOCNO>
+<text>
+<class>
+ widget
+</class>
+<method>
+ widget
+ widget
+add listener
+add dispose listener
+call window proc
+check bits
+check orientation
+check opened
+check parent
+check subclass
+check widget
+destroy widget
+defer window pos
+ dispose
+ error
+ filters
+find item
+fix mnemonic
+get data
+get data
+get display
+get menu
+get name
+get name text
+get style
+ hooks
+ disposed
+ listening
+valid subclass
+valid thread
+map event
+ new
+notify listeners
+post event
+post event
+release child
+release handle
+release resources
+release widget
+remove listener
+remove listener
+remove dispose listener
+send event
+send event
+send event
+send event
+send key event
+send key event
+send mouse event
+send mouse event
+set data
+set data
+send focus event
+set input state
+set key state
+set window pos
+show menu
+ string
+capture changed
+ char
+context menu
+ime char
+key down
+ key
+kill focus
+button dbl clk
+button down
+ button
+button dbl clk
+button down
+ button
+mouse hover
+mouse leave
+mouse move
+mouse wheel
+ paint
+button dbl clk
+button down
+ button
+set focus
+sys char
+sys key down
+sys key
+button dbl clk
+button down
+ button
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ events
+ widget
+ style
+ state
+ display
+ display
+event table
+event table
+ object
+ data
+ disposed
+ canvas
+keyed data
+ disabled
+ hidden
+layout needed
+layout changed
+default width
+default height
+ major
+ minor
+
+ win
+
+comctl 32_ version
+
+ version
+ major
+ minor
+ system
+ out
+ println
+ major
+ minor
+ system
+ out
+ println
+
+comctl 32_ major
+
+comctl 32_ minor
+
+init common controls
+ widget
+ widget
+ widget
+ parent
+ style
+check subclass
+check parent
+ parent
+ style
+ style
+ display
+ parent
+ display
+add listener
+event type
+ listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+event table
+event table
+ hook
+event type
+ listener
+add dispose listener
+dispose listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ dispose
+typed listener
+call window proc
+ hwnd
+ msg
+ param
+ param
+check bits
+ style
+ int
+ int
+ int
+ int
+ int
+ int
+ mask
+ int
+ int
+ int
+ int
+ int
+ int
+ style
+ mask
+ style
+ int
+ style
+ int
+ style
+ style
+ mask
+ int
+ style
+ int
+ style
+ style
+ mask
+ int
+ style
+ int
+ style
+ style
+ mask
+ int
+ style
+ int
+ style
+ style
+ mask
+ int
+ style
+ int
+ style
+ style
+ mask
+ int
+ style
+ int
+ style
+ style
+ mask
+ int
+ style
+check orientation
+ widget
+ parent
+ style
+ swt
+ mirrored
+ style
+ swt
+left right
+ swt
+right left
+ parent
+ parent
+ style
+ swt
+left right
+ style
+ swt
+left right
+ parent
+ style
+ swt
+right left
+ style
+ swt
+right left
+ style
+check bits
+ style
+ swt
+left right
+ swt
+right left
+check opened
+check parent
+ widget
+ parent
+ parent
+ error
+ swt
+error null argument
+ parent
+ disposed
+ error
+ swt
+error invalid argument
+ parent
+check widget
+ parent
+check opened
+check subclass
+valid subclass
+ error
+ swt
+error invalid subclass
+check widget
+ display
+ display
+ display
+ display
+ error
+ swt
+error widget disposed
+ display
+ thread
+ thread
+current thread
+ error
+ swt
+error thread invalid access
+ state
+ disposed
+ error
+ swt
+error widget disposed
+destroy widget
+release handle
+defer window pos
+win pos info
+ wnd
+wnd insert after
+
+
+
+
+ flags
+
+ win
+ flags
+
+swp nosize
+ rect
+ rect
+ rect
+
+get window rect
+ wnd
+ rect
+
+ rect
+ bottom
+ rect
+ top
+
+ rect
+ right
+ rect
+ left
+ flags
+
+swp drawframe
+ flags
+
+swp nosize
+
+defer window pos
+win pos info
+ wnd
+wnd insert after
+
+
+
+
+ flags
+ dispose
+ disposed
+valid thread
+ error
+ swt
+error thread invalid access
+release child
+release widget
+destroy widget
+ error
+ code
+ swt
+ error
+ code
+ filters
+event type
+ display
+ filters
+event type
+ widget
+find item
+
+fix mnemonic
+ string
+ string
+ buffer
+ string
+ length
+ string
+get chars
+ string
+ length
+ buffer
+
+
+
+ buffer
+ length
+ buffer
+
+
+ buffer
+ length
+ buffer
+
+ buffer
+
+
+
+ buffer
+
+ buffer
+
+
+ buffer
+ length
+ buffer
+
+ buffer
+ object
+get data
+check widget
+ state
+keyed data
+ object
+ data
+ data
+ object
+get data
+ string
+ key
+check widget
+ key
+ error
+ swt
+error null argument
+ state
+keyed data
+ object
+ table
+ object
+ data
+
+
+ table
+ length
+
+ key
+ equals
+ table
+
+ table
+
+ display
+get display
+ display
+ display
+ display
+ display
+ error
+ swt
+error widget disposed
+ display
+ menu
+get menu
+ string
+get name
+ string
+ string
+get class
+get name
+ index
+ string
+last index
+ index
+ string
+ string
+ substring
+ index
+ string
+ length
+ string
+get name text
+get style
+check widget
+ style
+ hooks
+event type
+event table
+event table
+ hooks
+event type
+ disposed
+ state
+ disposed
+ listening
+event type
+check widget
+ hooks
+event type
+valid subclass
+ display
+valid class
+get class
+valid thread
+get display
+valid thread
+map event
+ hwnd
+ event
+ event
+
+ new
+ data
+ data
+notify listeners
+event type
+ event
+ event
+check widget
+ event
+ event
+ event
+send event
+event type
+ event
+post event
+event type
+send event
+event type
+post event
+event type
+ event
+ event
+send event
+event type
+ event
+release child
+release handle
+ state
+ disposed
+ display
+release resources
+release widget
+release handle
+release widget
+send event
+ swt
+ dispose
+event table
+ data
+remove listener
+event type
+ listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+event type
+ listener
+remove listener
+event type
+swt event listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+event type
+ listener
+remove dispose listener
+dispose listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ dispose
+ listener
+send event
+ event
+ event
+ display
+ display
+ event
+ display
+ display
+filter event
+ event
+event table
+event table
+send event
+ event
+send event
+event type
+send event
+event type
+send event
+event type
+ event
+ event
+send event
+event type
+ event
+send event
+event type
+ event
+ event
+ send
+event table
+ display
+ filters
+event type
+ event
+ event
+ event
+ event
+ type
+event type
+ event
+ display
+ display
+ event
+ widget
+ event
+ time
+ event
+ time
+ display
+get last event time
+ send
+send event
+ event
+ display
+post event
+ event
+send key event
+ type
+ msg
+ param
+ param
+ event
+ event
+ event
+set key state
+ event
+ type
+ param
+ param
+send key event
+ type
+ msg
+ param
+ param
+ event
+send key event
+ type
+ msg
+ param
+ param
+ event
+ event
+send event
+ type
+ event
+ disposed
+ event
+ doit
+send mouse event
+ type
+ button
+ hwnd
+ msg
+ param
+ param
+send mouse event
+ type
+ button
+ hwnd
+ msg
+ param
+ param
+send mouse event
+ type
+ button
+ count
+ detail
+ send
+ hwnd
+ msg
+ param
+ param
+ hooks
+ type
+ filters
+ type
+ event
+ event
+ event
+ event
+ button
+ button
+ event
+ detail
+ detail
+ event
+ count
+ count
+ event
+
+ param
+ event
+
+ param
+set input state
+ event
+ type
+map event
+ hwnd
+ event
+ send
+send event
+ type
+ event
+ disposed
+post event
+ type
+ event
+ event
+ doit
+set data
+ object
+ data
+check widget
+ state
+keyed data
+ object
+ data
+ data
+ data
+ data
+set data
+ string
+ key
+ object
+ value
+check widget
+ key
+ error
+ swt
+error null argument
+ index
+ object
+ table
+ state
+keyed data
+ table
+ object
+ data
+ index
+ table
+ length
+ key
+ equals
+ table
+ index
+ index
+ value
+ state
+keyed data
+ index
+ table
+ length
+ object
+new table
+ object
+ table
+ length
+ system
+ arraycopy
+ table
+new table
+ table
+ length
+ data
+ table
+new table
+ table
+ object
+ table
+ data
+ data
+ table
+ state
+keyed data
+ table
+ index
+ key
+ table
+ index
+ value
+ state
+keyed data
+ index
+ table
+ length
+ length
+ table
+ length
+ length
+ data
+ table
+ state
+keyed data
+ object
+new table
+ object
+ length
+ system
+ arraycopy
+ table
+new table
+ index
+ system
+ arraycopy
+ table
+ index
+new table
+ index
+ length
+ index
+ data
+new table
+send focus event
+ type
+send event
+ type
+set input state
+ event
+ event
+ type
+
+get key state
+
+ menu
+ event
+state mask
+ swt
+ alt
+
+get key state
+
+ shift
+ event
+state mask
+ swt
+ shift
+
+get key state
+
+ control
+ event
+state mask
+ swt
+ control
+
+get key state
+
+ lbutton
+ event
+state mask
+ swt
+ button
+
+get key state
+
+ mbutton
+ event
+state mask
+ swt
+ button
+
+get key state
+
+ rbutton
+ event
+state mask
+ swt
+ button
+
+get key state
+
+ xbutton
+ event
+state mask
+ swt
+ button
+
+get key state
+
+ xbutton
+ event
+state mask
+ swt
+ button
+ type
+ swt
+mouse down
+ swt
+mouse double click
+ event
+ button
+ event
+state mask
+ swt
+ button
+ event
+ button
+ event
+state mask
+ swt
+ button
+ event
+ button
+ event
+state mask
+ swt
+ button
+ event
+ button
+ event
+state mask
+ swt
+ button
+ event
+ button
+ event
+state mask
+ swt
+ button
+ swt
+ mouse
+ event
+ button
+ event
+state mask
+ swt
+ button
+ event
+ button
+ event
+state mask
+ swt
+ button
+ event
+ button
+ event
+state mask
+ swt
+ button
+ event
+ button
+ event
+state mask
+ swt
+ button
+ event
+ button
+ event
+state mask
+ swt
+ button
+ swt
+key down
+ swt
+ traverse
+ event
+key code
+ swt
+ alt
+ event
+state mask
+ swt
+ alt
+ event
+key code
+ swt
+ shift
+ event
+state mask
+ swt
+ shift
+ event
+key code
+ swt
+ control
+ event
+state mask
+ swt
+ control
+ swt
+ key
+ event
+key code
+ swt
+ alt
+ event
+state mask
+ swt
+ alt
+ event
+key code
+ swt
+ shift
+ event
+state mask
+ swt
+ shift
+ event
+key code
+ swt
+ control
+ event
+state mask
+ swt
+ control
+set key state
+ event
+ event
+ type
+ param
+ param
+ display
+last ascii
+ swt
+ del
+ display
+last key
+ swt
+
+ display
+last ascii
+ swt
+
+ swt
+
+ display
+last key
+ swt
+
+ display
+last ascii
+ swt
+
+ display
+last key
+ swt
+
+ display
+last ascii
+ swt
+
+ param
+ display
+last key
+ swt
+ keypad
+ display
+last virtual
+ display
+last key
+
+ delete
+ display
+last ascii
+ display
+last key
+
+ cancel
+ display
+last ascii
+ event
+key code
+ display
+translate key
+ display
+last key
+ event
+key code
+ display
+last key
+ display
+last ascii
+ display
+last null
+ event
+ character
+ display
+mbcs wcs
+ display
+last ascii
+ event
+key code
+ event
+ character
+ display
+last null
+set input state
+ event
+ type
+set window pos
+ wnd
+wnd insert after
+
+
+
+
+ flags
+
+ win
+ flags
+
+swp nosize
+ rect
+ rect
+ rect
+
+get window rect
+ wnd
+ rect
+
+ rect
+ bottom
+ rect
+ top
+
+ rect
+ right
+ rect
+ left
+ flags
+
+swp drawframe
+ flags
+
+swp nosize
+
+set window pos
+ wnd
+wnd insert after
+
+
+
+
+ flags
+show menu
+
+
+ event
+ event
+ event
+ event
+
+
+ event
+
+
+send event
+ swt
+menu detect
+ event
+ event
+ doit
+ menu
+ menu
+get menu
+ menu
+ menu
+ disposed
+
+ event
+
+
+ event
+
+ menu
+set location
+ event
+
+ event
+
+ menu
+set visible
+ string
+ string
+ string
+ string
+ disposed
+ string
+valid thread
+ string
+get name text
+get name
+ string
+ lresult
+capture changed
+ hwnd
+ param
+ param
+ display
+capture changed
+ lresult
+ char
+ hwnd
+ param
+ param
+
+ unicode
+
+ locale
+ lead
+ param
+
+dbcs lead byte
+ lead
+ display
+last ascii
+ param
+ display
+last null
+ param
+send key event
+ swt
+key down
+
+ char
+ param
+ param
+ lresult
+ one
+ lresult
+context menu
+ hwnd
+ param
+ param
+ param
+ hwnd
+
+ win
+
+
+ param
+ point
+
+ point
+
+
+
+ param
+
+
+
+ param
+
+screen client
+ hwnd
+
+ rect
+ rect
+ rect
+
+get client rect
+ hwnd
+ rect
+
+ rect
+ rect
+
+ pos
+
+get message pos
+
+ pos
+
+ pos
+show menu
+
+
+ lresult
+ zero
+ lresult
+ime char
+ hwnd
+ param
+ param
+ display
+ display
+ display
+ display
+last key
+ display
+last ascii
+ param
+ display
+last virtual
+ display
+last null
+ display
+last dead
+send key event
+ swt
+key down
+
+ime char
+ param
+ param
+ lresult
+ one
+send key event
+ swt
+ key
+
+ime char
+ param
+ param
+ display
+last key
+ display
+last ascii
+ lresult
+ one
+ lresult
+key down
+ hwnd
+ param
+ param
+ param
+
+ shift
+
+ menu
+
+ control
+
+ capital
+
+ numlock
+
+ scroll
+ param
+ display
+last ascii
+ display
+last key
+ display
+last virtual
+ display
+last null
+ display
+last dead
+
+ unicode
+
+ locale
+ lead
+ param
+
+dbcs lead byte
+ lead
+map key
+
+ win
+ param
+
+ back
+map key
+ swt
+
+
+ return
+map key
+ swt
+
+
+ delete
+map key
+ swt
+ del
+
+ escape
+map key
+ swt
+ esc
+
+ tab
+map key
+ swt
+ tab
+map key
+
+map virtual key
+ param
+
+ win
+map key
+map key
+ msg
+ msg
+ msg
+ flags
+
+ noremove
+
+ noyield
+
+ input
+
+ postmessage
+
+peek message
+ msg
+ hwnd
+
+ deadchar
+
+ deadchar
+ flags
+ display
+last dead
+ display
+last virtual
+map key
+ display
+last key
+ display
+last virtual
+ param
+map key
+ disposed
+ lresult
+ one
+ display
+last virtual
+map key
+ display
+numpad key
+ param
+ display
+last virtual
+ display
+last key
+ param
+ display
+last key
+
+ delete
+ display
+last ascii
+
+ numpad
+ display
+last key
+ display
+last key
+
+ divide
+ display
+ascii key
+ display
+last key
+ display
+last ascii
+ display
+numpad key
+ display
+last key
+ display
+last key
+
+char lower
+map key
+ param
+
+ cancel
+ display
+last virtual
+ascii key
+ display
+ascii key
+ param
+ascii key
+ascii key
+ascii key
+ param
+ param
+
+ cancel
+
+get key state
+
+ control
+
+get key state
+
+ shift
+ display
+last ascii
+ display
+shifted key
+ param
+ display
+last ascii
+ display
+last ascii
+map key
+ display
+last ascii
+
+char lower
+map key
+ display
+last ascii
+ display
+last ascii
+ display
+control key
+ display
+last ascii
+send key event
+ swt
+key down
+
+ keydown
+ param
+ param
+ lresult
+ one
+ lresult
+ key
+ hwnd
+ param
+ param
+ display
+ display
+ display
+
+ win
+
+ app
+ param
+ param
+
+ app
+ display
+last key
+ display
+last ascii
+ display
+last virtual
+ display
+last null
+ display
+last dead
+ event
+ event
+ event
+ event
+ detail
+ param
+
+ app
+ type
+ param
+ swt
+hard key
+ swt
+hard key down
+set input state
+ event
+ type
+send event
+ type
+ event
+ hooks
+ swt
+ key
+ display
+ filters
+ swt
+ key
+ display
+last key
+ display
+last ascii
+ display
+last virtual
+ display
+last null
+ display
+last dead
+map key
+
+ win
+ param
+
+ back
+map key
+ swt
+
+
+ return
+map key
+ swt
+
+
+ delete
+map key
+ swt
+ del
+
+ escape
+map key
+ swt
+ esc
+
+ tab
+map key
+ swt
+ tab
+map key
+
+map virtual key
+ param
+
+ win
+map key
+map key
+ display
+last dead
+ display
+last virtual
+map key
+ display
+numpad key
+ param
+ display
+last virtual
+ display
+last key
+ param
+ param
+
+ cancel
+ display
+last virtual
+ display
+last key
+ display
+last ascii
+ display
+last null
+ display
+last dead
+ lresult
+ result
+send key event
+ swt
+ key
+
+ keyup
+ param
+ param
+ result
+ lresult
+ one
+ display
+last key
+ display
+last ascii
+ display
+last virtual
+ display
+last null
+ display
+last dead
+ result
+ lresult
+kill focus
+ hwnd
+ param
+ param
+ code
+call window proc
+ hwnd
+
+ killfocus
+ param
+ param
+send focus event
+ swt
+focus out
+ disposed
+ lresult
+ zero
+ code
+ lresult
+ zero
+ lresult
+ code
+ lresult
+button dbl clk
+ hwnd
+ param
+ param
+send mouse event
+ swt
+mouse down
+ hwnd
+
+ lbuttondown
+ param
+ param
+send mouse event
+ swt
+mouse double click
+ hwnd
+
+ lbuttondblclk
+ param
+ param
+ result
+call window proc
+ hwnd
+
+ lbuttondblclk
+ param
+ param
+
+get capture
+ hwnd
+
+set capture
+ hwnd
+ lresult
+ result
+ lresult
+button down
+ hwnd
+ param
+ param
+ dragging
+mouse down
+drag detect
+ hooks
+ swt
+drag detect
+drag detect
+
+ win
+ point
+
+ point
+
+
+ param
+
+
+ param
+
+client screen
+ hwnd
+
+ dragging
+
+drag detect
+ hwnd
+
+mouse down
+
+get key state
+
+ lbutton
+send mouse event
+ swt
+mouse down
+ hwnd
+
+ lbuttondown
+ param
+ param
+ result
+call window proc
+ hwnd
+
+ lbuttondown
+ param
+ param
+
+ ppc
+ menu
+ menu
+get menu
+has menu
+ menu
+ menu
+ disposed
+has menu
+ hooks
+ swt
+menu detect
+
+ param
+
+ param
+ shrginfo
+ shrg
+ shrginfo
+ shrg
+ size
+ shrginfo
+ sizeof
+ shrg
+hwnd client
+ hwnd
+ shrg
+ down
+
+ shrg
+ down
+
+ shrg
+ flags
+
+shrg returncmd
+ type
+
+recognize gesture
+ shrg
+ type
+
+ contextmenu
+show menu
+
+
+mouse down
+
+get capture
+ hwnd
+
+set capture
+ hwnd
+ dragging
+ event
+ event
+ event
+ event
+
+ param
+ event
+
+ param
+post event
+ swt
+drag detect
+ event
+drag detect
+
+get key state
+
+ escape
+
+send message
+ hwnd
+
+ lbuttonup
+ param
+ param
+ lresult
+ result
+ lresult
+ button
+ hwnd
+ param
+ param
+send mouse event
+ swt
+ mouse
+ hwnd
+
+ lbuttonup
+ param
+ param
+ result
+call window proc
+ hwnd
+
+ lbuttonup
+ param
+ param
+ mask
+
+ lbutton
+
+ mbutton
+
+ rbutton
+
+ xbutton
+
+ xbutton
+ param
+ mask
+
+get capture
+ hwnd
+
+release capture
+ lresult
+ result
+ lresult
+button dbl clk
+ hwnd
+ param
+ param
+send mouse event
+ swt
+mouse down
+ hwnd
+
+ mbuttondown
+ param
+ param
+send mouse event
+ swt
+mouse double click
+ hwnd
+
+ mbuttondblclk
+ param
+ param
+ result
+call window proc
+ hwnd
+
+ mbuttondblclk
+ param
+ param
+
+get capture
+ hwnd
+
+set capture
+ hwnd
+ lresult
+ result
+ lresult
+button down
+ hwnd
+ param
+ param
+send mouse event
+ swt
+mouse down
+ hwnd
+
+ mbuttondown
+ param
+ param
+ result
+call window proc
+ hwnd
+
+ mbuttondown
+ param
+ param
+
+get capture
+ hwnd
+
+set capture
+ hwnd
+ lresult
+ result
+ lresult
+ button
+ hwnd
+ param
+ param
+send mouse event
+ swt
+ mouse
+ hwnd
+
+ mbuttonup
+ param
+ param
+ result
+call window proc
+ hwnd
+
+ mbuttonup
+ param
+ param
+ mask
+
+ lbutton
+
+ mbutton
+
+ rbutton
+
+ xbutton
+
+ xbutton
+ param
+ mask
+
+get capture
+ hwnd
+
+release capture
+ lresult
+ result
+ lresult
+mouse hover
+ hwnd
+ param
+ param
+send mouse event
+ swt
+mouse hover
+ hwnd
+
+ mousehover
+ param
+ param
+ lresult
+mouse leave
+ hwnd
+ param
+ param
+ hooks
+ swt
+mouse exit
+ filters
+ swt
+mouse exit
+ pos
+
+get message pos
+ point
+
+ point
+
+
+ pos
+
+
+ pos
+
+screen client
+ hwnd
+
+ param
+
+
+
+
+send mouse event
+ swt
+mouse exit
+ hwnd
+
+ mouseleave
+ param
+ param
+ lresult
+mouse move
+ hwnd
+ param
+ param
+ pos
+
+get message pos
+ pos
+ display
+last mouse
+ display
+capture changed
+
+ win
+mouse enter
+ hooks
+ swt
+mouse enter
+ display
+ filters
+ swt
+mouse enter
+mouse exit
+ hooks
+ swt
+mouse exit
+ display
+ filters
+ swt
+mouse exit
+mouse hover
+ hooks
+ swt
+mouse hover
+ display
+ filters
+ swt
+mouse hover
+mouse enter
+mouse exit
+mouse hover
+ trackmouseevent
+event track
+ trackmouseevent
+event track
+ size
+ trackmouseevent
+ sizeof
+event track
+ flags
+
+tme query
+event track
+hwnd track
+ hwnd
+
+track mouse event
+event track
+event track
+ flags
+event track
+ flags
+
+tme leave
+
+tme hover
+event track
+hwnd track
+ hwnd
+
+track mouse event
+event track
+mouse enter
+ msg
+ msg
+ msg
+ flags
+
+ remove
+
+ noyield
+
+ input
+
+ postmessage
+
+peek message
+ msg
+
+ mouseleave
+
+ mouseleave
+ flags
+
+translate message
+ msg
+
+dispatch message
+ msg
+send mouse event
+ swt
+mouse enter
+ hwnd
+
+ mousemove
+ param
+ param
+event track
+ flags
+
+tme hover
+
+track mouse event
+event track
+ pos
+ display
+last mouse
+ display
+last mouse
+ pos
+send mouse event
+ swt
+mouse move
+ hwnd
+
+ mousemove
+ param
+ param
+ display
+capture changed
+ lresult
+mouse wheel
+ hwnd
+ param
+ param
+ hooks
+ swt
+mouse wheel
+ filters
+ swt
+mouse wheel
+ delta
+ param
+ value
+ count
+ detail
+
+system parameters info
+
+spi getwheelscrolllines
+ value
+ value
+
+wheel pagescroll
+ detail
+ swt
+scroll page
+ count
+ delta
+
+wheel delta
+ detail
+ swt
+scroll line
+ count
+ value
+ delta
+
+wheel delta
+ point
+
+ point
+
+
+ param
+
+
+ param
+
+screen client
+ hwnd
+
+ param
+
+
+
+
+send mouse event
+ swt
+mouse wheel
+ count
+ detail
+ hwnd
+
+ mousewheel
+ param
+ param
+ lresult
+ zero
+ lresult
+ paint
+ hwnd
+ param
+ param
+ hooks
+ swt
+ paint
+ filters
+ swt
+ paint
+ result
+
+ win
+ rect
+ rect
+ rect
+
+get update rect
+ hwnd
+ rect
+ result
+call window proc
+ hwnd
+
+ paint
+ param
+ param
+
+hide caret
+ hwnd
+
+invalidate rect
+ hwnd
+ rect
+
+show caret
+ hwnd
+ paintstruct
+
+ paintstruct
+ data
+ data
+ data
+ data
+
+
+ data
+ hwnd
+ hwnd
+
+
+ new
+ data
+
+ width
+
+ right
+
+ left
+ height
+
+ bottom
+
+ top
+ width
+ height
+ event
+ event
+ event
+ event
+
+
+ event
+
+
+ left
+ event
+
+
+ top
+ event
+ width
+ width
+ event
+ height
+ height
+send event
+ swt
+ paint
+ event
+ event
+
+
+ dispose
+ rgn
+
+create rect rgn
+
+get update rgn
+ hwnd
+ rgn
+ result
+call window proc
+ hwnd
+
+ paint
+ param
+ param
+ data
+ data
+ data
+ data
+ hwnd
+ hwnd
+
+
+ new
+ data
+
+
+hide caret
+ hwnd
+ rect
+ rect
+ rect
+
+get rgn box
+ rgn
+ rect
+ width
+ rect
+ right
+ rect
+ left
+ height
+ rect
+ bottom
+ rect
+ top
+ width
+ height
+
+
+ handle
+
+select clip rgn
+
+ rgn
+
+set meta rgn
+
+ event
+ event
+ event
+ event
+
+
+ event
+
+ rect
+ left
+ event
+
+ rect
+ top
+ event
+ width
+ width
+ event
+ height
+ height
+send event
+ swt
+ paint
+ event
+ event
+
+
+ dispose
+
+show caret
+ hwnd
+
+delete object
+ rgn
+ result
+ lresult
+ zero
+ lresult
+ result
+ lresult
+button dbl clk
+ hwnd
+ param
+ param
+send mouse event
+ swt
+mouse down
+ hwnd
+
+ rbuttondown
+ param
+ param
+send mouse event
+ swt
+mouse double click
+ hwnd
+
+ rbuttondblclk
+ param
+ param
+ result
+call window proc
+ hwnd
+
+ rbuttondblclk
+ param
+ param
+
+get capture
+ hwnd
+
+set capture
+ hwnd
+ lresult
+ result
+ lresult
+button down
+ hwnd
+ param
+ param
+send mouse event
+ swt
+mouse down
+ hwnd
+
+ rbuttondown
+ param
+ param
+ result
+call window proc
+ hwnd
+
+ rbuttondown
+ param
+ param
+
+get capture
+ hwnd
+
+set capture
+ hwnd
+ lresult
+ result
+ lresult
+ button
+ hwnd
+ param
+ param
+send mouse event
+ swt
+ mouse
+ hwnd
+
+ rbuttonup
+ param
+ param
+ result
+call window proc
+ hwnd
+
+ rbuttonup
+ param
+ param
+ mask
+
+ lbutton
+
+ mbutton
+
+ rbutton
+
+ xbutton
+
+ xbutton
+ param
+ mask
+
+get capture
+ hwnd
+
+release capture
+ lresult
+ result
+ lresult
+set focus
+ hwnd
+ param
+ param
+ code
+call window proc
+ hwnd
+
+ setfocus
+ param
+ param
+send focus event
+ swt
+ focus
+ disposed
+ lresult
+ zero
+ code
+ lresult
+ zero
+ lresult
+ code
+ lresult
+sys char
+ hwnd
+ param
+ param
+ display
+ display
+ display
+ display
+last ascii
+ param
+ display
+last null
+ param
+ hooks
+ swt
+key down
+ display
+ filters
+ swt
+key down
+old key hit
+ display
+mnemonic key hit
+ display
+mnemonic key hit
+ result
+call window proc
+ hwnd
+
+ syschar
+ param
+ param
+ consumed
+ display
+mnemonic key hit
+ consumed
+send key event
+ swt
+key down
+
+ syschar
+ param
+ param
+ consumed
+ display
+mnemonic key hit
+ display
+mnemonic key hit
+old key hit
+ consumed
+ lresult
+ one
+ lresult
+ result
+ lresult
+sys key down
+ hwnd
+ param
+ param
+ param
+
+
+ param
+ param
+
+
+ param
+
+ shift
+
+ menu
+
+ control
+
+ capital
+
+ numlock
+
+ scroll
+ param
+ display
+last ascii
+ display
+last key
+ display
+last virtual
+ display
+last null
+ display
+last dead
+map key
+
+ win
+ param
+
+ back
+map key
+ swt
+
+
+ return
+map key
+ swt
+
+
+ delete
+map key
+ swt
+ del
+
+ escape
+map key
+ swt
+ esc
+
+ tab
+map key
+ swt
+ tab
+map key
+
+map virtual key
+ param
+ display
+last virtual
+map key
+ display
+numpad key
+ param
+ display
+last virtual
+ display
+last key
+ param
+ display
+last key
+
+ delete
+ display
+last ascii
+
+ numpad
+ display
+last key
+ display
+last key
+
+ divide
+ display
+last ascii
+ display
+numpad key
+ display
+last key
+ display
+last key
+
+char lower
+map key
+
+ win
+ param
+
+ return
+ display
+last ascii
+send key event
+ swt
+key down
+
+ syskeydown
+ param
+ param
+ lresult
+ one
+ lresult
+sys key
+ hwnd
+ param
+ param
+ key
+ hwnd
+ param
+ param
+ lresult
+button dbl clk
+ hwnd
+ param
+ param
+ button
+ param
+
+ xbutton
+send mouse event
+ swt
+mouse down
+ button
+ hwnd
+
+ xbuttondown
+ param
+ param
+send mouse event
+ swt
+mouse double click
+ button
+ hwnd
+
+ xbuttondblclk
+ param
+ param
+ result
+call window proc
+ hwnd
+
+ xbuttondblclk
+ param
+ param
+
+get capture
+ hwnd
+
+set capture
+ hwnd
+ lresult
+ result
+ lresult
+button down
+ hwnd
+ param
+ param
+ button
+ param
+
+ xbutton
+send mouse event
+ swt
+mouse down
+ button
+ hwnd
+
+ xbuttondown
+ param
+ param
+ result
+call window proc
+ hwnd
+
+ xbuttondown
+ param
+ param
+
+get capture
+ hwnd
+
+set capture
+ hwnd
+ lresult
+ result
+ lresult
+ button
+ hwnd
+ param
+ param
+ button
+ param
+
+ xbutton
+send mouse event
+ swt
+ mouse
+ button
+ hwnd
+
+ xbuttonup
+ param
+ param
+ result
+call window proc
+ hwnd
+
+ xbuttonup
+ param
+ param
+ mask
+
+ lbutton
+
+ mbutton
+
+ rbutton
+
+ xbutton
+
+ xbutton
+ param
+ mask
+
+get capture
+ hwnd
+
+release capture
+ lresult
+ result
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  class  the  abstract  superclass  all  user  interface  objects  widgets  are  created  disposed  and  issue  notification  listeners  when  events  occur  which  affect  them  styles  none  events  dispose  important  this  class  intended  subclassed  only  within  the  swt  implementation  however  has  not  been  marked  final  allow  those  outside  the  swt  development  team  implement  patched  versions  the  class  order  get  around  specific  limitations  advance  when  those  limitations  can  addressed  the  team  any  class  built  using  subclassing  access  the  internals  this  class  will  likely  fail  compile  run  between  releases  and  may  strongly  platform  specific  subclassing  should  not  attempted  without  intimate  and  detailed  understanding  the  workings  the  hierarchy  support  provided  for  user  written  classes  which  are  implemented  subclasses  this  class  see check subclass
+global  state  flags
+default  widths  for  widgets
+check  and  initialize  the  common  controls  dll
+non  nls  non  nls  non  nls 
+non  nls  non  nls 
+prevents  uninitialized  instances  from  being  created  outside  the  package
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  widget  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  widget  construct  exception illegal argument exception  error  null  argument  the  parent  null  error  invalid  argument  the  parent  disposed  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  see check subclass  see get style
+adds  the  listener  the  collection  listeners  who  will  notifed  when  event  the  given  type  occurs  when  the  event  does  occur  the  widget  the  listener  notified  sending  the  code handle event  code  message  param event type  the  type  event  listen  for  param  listener  the  listener  which  should  notified  when  the  event  occurs  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  listener  see remove listener
+adds  the  listener  the  collection  listeners  who  will  notifed  when  the  widget  disposed  when  the  widget  disposed  the  listener  notified  sending  the  code widget disposed  code  message  param  listener  the  listener  which  should  notified  when  the  receiver  disposed  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see dispose listener  see remove dispose listener
+returns  style  with  exactly  one  style  bit  set  out  the  specified  set  exclusive  style  bits  all  other  possible  bits  are  cleared  when  the  first  matching  bit  found  bits  that  are  not  part  the  possible  set  are  untouched  param  style  the  original  style  bits  param  int  the  0th  possible  style  bit  param  int  the  1st  possible  style  bit  param  int  the  2nd  possible  style  bit  param  int  the  3rd  possible  style  bit  param  int  the  4th  possible  style  bit  param  int  the  5th  possible  style  bit  return  the  new  style  bits
+  nothing
+throws  exception  the  specified  widget  can  not  used  parent  for  the  receiver  exception illegal argument exception  error  null  argument  the  parent  null  error  invalid  argument  the  parent  disposed  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent 
+checks  that  this  class  can  subclassed  the  swt  class  library  intended  subclassed  only  specific  controlled  points  most  notably  code  composite  code  and  code  canvas  code  when  implementing  new  widgets  this  method  enforces  this  rule  unless  overridden  important  providing  implementation  this  method  that  allows  subclass  class  which  does  not  normally  allow  subclassing  created  the  implementer  agrees  fully  responsible  for  the  fact  that  any  such  subclass  will  likely  fail  between  swt  releases  and  will  strongly  platform  specific  support  provided  for  user  written  classes  which  are  implemented  this  fashion  the  ability  subclass  outside  the  allowed  swt  classes  intended  purely  enable  those  not  the  swt  development  team  implement  patches  order  get  around  specific  limitations  advance  when  those  limitations  can  addressed  the  team  subclassing  should  not  attempted  without  intimate  and  detailed  understanding  the  hierarchy  exception swt exception  error  invalid  subclass  this  class  not  allowed  subclass 
+throws  code swt exception  code  the  receiver  can  not  accessed  the  caller  this  may  include  both  checks  the  state  the  receiver  and  more  generally  the  entire  execution  context  this  method  should  called  widget  implementors  enforce  the  standard  swt  invariants  currently  error  invoke  any  method  other  than  code  disposed  code  widget  that  has  had  its  code  dispose  code  method  called  also  error  call  widget  methods  from  any  thread  that  different  from  the  thread  that  created  the  widget  future  releases  swt  there  may  more  fewer  error  checks  and  exceptions  may  thrown  for  different  reasons  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+destroys  the  widget  the  operating  system  and  releases  the  widget  handle  the  widget  does  not  have  handle  this  method  may  hide  the  widget  mark  the  widget  destroyed  nothing  depending  the  widget  when  widget  destroyed  the  operating  system  its  descendents  are  also  destroyed  the  operating  system  this  means  that  only  necessary  call  code destroy widget  code  the  root  the  widget  tree  this  method  called  after  code release widget  code  see  dispose  see release child  see release widget  see release handle
+feature  windows  windows defer window pos  always  causes  size  message  even  when  the  new  size  the  same  the  old  size  the  fix  detect  that  the  size  has  not  changed  and  set  swp  nosize
+feature  windows  windows defer window pos  when  called  with  swp  drawframe  always  causes  size  message  even  when  swp  nosize  set  and  when  the  new  size  the  same  the  old  size  the  fix  clear  swp  drawframe  when  the  size  the  same
+disposes  the  operating  system  resources  associated  with  the  receiver  and  all  its  descendents  after  this  method  has  been  invoked  the  receiver  and  all  descendents  will  answer  code  true  code  when  sent  the  message  code  disposed  code  any  internal  connections  between  the  widgets  the  tree  will  have  been  removed  facilitate  garbage  collection  note  this  method  not  called  recursively  the  descendents  the  receiver  this  means  that  widget  implementers  can  not  detect  when  widget  being  disposed  implementing  this  method  but  should  instead  listen  for  the  code  dispose  code  event  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see add dispose listener  see remove dispose listener  see check widget
+note  valid  attempt  dispose  widget  more  than  once  this  happens  fail  silently
+does  whatever  widget  specific  cleanup  required  and  then  uses  the  code  code swt error  error  code  handle  the  error  param  code  the  descriptive  error  code  see  swt  error  int
+returns  the  application  defined  widget  data  associated  with  the  receiver  null  has  not  been  set  the  widget  data  single  unnamed  field  that  stored  with  every  widget  applications  may  put  arbitrary  objects  this  field  the  object  stored  the  widget  data  needs  notified  when  the  widget  disposed  the  application  responsibility  hook  the  dispose  event  the  widget  and  return  the  widget  data  exception swt exception  error  widget  disposed  when  the  receiver  has  been  disposed  error  thread  invalid  access  when  called  from  the  wrong  thread  see set data  object
+returns  the  application  defined  property  the  receiver  with  the  specified  name  null  has  not  been  set  applications  may  have  associated  arbitrary  objects  with  the  receiver  this  fashion  the  objects  stored  the  properties  need  notified  when  the  widget  disposed  the  application  responsibility  hook  the  dispose  event  the  widget  and  param  key  the  name  the  property  return  the  value  the  property  null  has  not  been  set  exception illegal argument exception  error  null  argument  the  key  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see set data  string  object
+returns  the  code  display  code  that  associated  with  the  receiver  widget  display  either  provided  when  created  for  example  top  level  code  shell  code  the  same  its  parent  display  return  the  receiver  display  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed 
+returns  the  name  the  widget  this  the  name  the  class  without  the  package  name  return  the  name  the  widget
+returns  short  printable  representation  for  the  contents  widget  for  example  button  may  answer  the  label  text  this  used  code  string  code  provide  more  meaningful  description  the  widget  return  the  contents  string  for  the  widget  see  string
+non  nls 
+returns  the  receiver  style  information  note  that  the  value  which  returned  this  method  may  not  match  the  value  which  was  provided  the  constructor  when  the  receiver  was  created  this  can  occur  when  the  underlying  operating  system  does  not  support  particular  combination  requested  styles  for  example  the  platform  widget  used  implement  particular  swt  widget  always  has  scroll  bars  the  result  calling  this  method  would  always  have  the  code  swt  scroll  code  and  code  swt  scroll  code  bits  set  return  the  style  bits  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  true  code  the  specified event type  hooked  and  code  false  code  otherwise  implementations  swt  can  avoid  creating  objects  and  sending  events  when  event  happens  the  operating  system  but  there  are  listeners  hooked  for  the  event  param event type  the  event  checked  return  code  true  code  when  the event type  hooked  and  code  false  code  otherwise  see  listening
+returns  code  true  code  the  widget  has  been  disposed  and  code  false  code  otherwise  this  method  gets  the  dispose  state  for  the  widget  when  widget  has  been  disposed  error  invoke  any  other  method  using  the  widget  return  code  true  code  when  the  widget  disposed  and  code  false  code  otherwise
+returns  code  true  code  there  are  any  listeners  for  the  specified  event  type  associated  with  the  receiver  and  code  false  code  otherwise  param event type  the  type  event  return  true  the  event  hooked  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  true  code  when  subclassing  allowed  and  code  false  code  otherwise  return  code  true  code  when  subclassing  allowed  and  code  false  code  otherwise
+returns  code  true  code  when  the  current  thread  the  thread  that  created  the  widget  and  code  false  code  otherwise  return  code  true  code  when  the  current  thread  the  thread  that  created  the  widget  and  code  false  code  otherwise
+notifies  all  the  receiver  listeners  for  events  the  given  type  that  one  such  event  has  occurred  invoking  their  code handle event  code  method  param event type  the  type  event  which  has  occurred  param  event  the  event  data  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+releases  the  receiver  child  widget  hierarchy  from  its  parent  when  widget  destroyed  may  necessary  remove  from  internal  data  structure  the  parent  when  widget  has  handle  may  also  necessary  for  the  parent  hide  the  widget  otherwise  indicate  that  the  widget  has  been  disposed  for  example  disposing  menu  bar  requires  that  the  menu  bar  first  released  from  the  shell  when  the  menu  bar  active  this  could  not  done  code destroy widget  code  for  the  menu  bar  because  the  parent  shell  well  other  fields  have  been  null  out  already  code release widget  code  this  method  called  first  when  widget  disposed  see  dispose  see release child  see release widget  see release handle
+releases  the  widget  handle  zero  ing  out  does  not  destroy  release  any  operating  system  resources  this  method  called  after  code release widget  code  from  code destroy widget  code  when  widget  being  destroyed  ensure  that  the  widget  marked  destroyed  case  the  act  destroying  the  widget  the  operating  system  causes  application  code  run  callback  that  could  access  the  widget  see  dispose  see release child  see release widget  see release handle
+releases  any  internal  resources  back  the  operating  system  and  clears  all  fields  except  the  widget  handle  when  widget  destroyed  resources  that  were  acquired  behalf  the  programmer  need  returned  the  operating  system  for  example  the  widget  made  copy  icon  supplied  the  programmer  this  copy  would  freed  code release widget  code  also  assist  the  garbage  collector  and  minimize  the  amount  memory  that  not  reclaimed  when  the  programmer  keeps  reference  disposed  widget  all  fields  except  the  handle  are  zero  the  handle  needed  code destroy widget  code  typically  widget  with  children  will  broadcast  this  message  all  children  that  they  too  can  release  their  resources  the  code release handle  code  method  used  part  this  broadcast  zero  the  handle  fields  the  children  without  calling  code destroy widget  code  this  scenario  the  children  are  actually  destroyed  later  when  the  operating  system  destroys  the  widget  tree  this  method  called  after  code release child  code  see  dispose  see release child  see release widget  see release handle
+removes  the  listener  from  the  collection  listeners  who  will  notifed  when  event  the  given  type  occurs  param event type  the  type  event  listen  for  param  listener  the  listener  which  should  longer  notified  when  the  event  occurs  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  listener  see add listener
+removes  the  listener  from  the  collection  listeners  who  will  notifed  when  event  the  given  type  occurs  important  this  method  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  should  never  referenced  from  application  code  param event type  the  type  event  listen  for  param  listener  the  listener  which  should  longer  notified  when  the  event  occurs  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  listener  see add listener
+removes  the  listener  from  the  collection  listeners  who  will  notifed  when  the  widget  disposed  param  listener  the  listener  which  should  longer  notified  when  the  receiver  disposed  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see dispose listener  see add dispose listener
+sets  the  application  defined  widget  data  associated  with  the  receiver  the  argument  the  widget  data  single  unnamed  field  that  stored  with  every  widget  applications  may  put  arbitrary  objects  this  field  the  object  stored  the  widget  data  needs  notified  when  the  widget  disposed  the  application  responsibility  hook  the  dispose  event  the  widget  and  param  data  the  widget  data  exception swt exception  error  widget  disposed  when  the  receiver  has  been  disposed  error  thread  invalid  access  when  called  from  the  wrong  thread  see get data
+sets  the  application  defined  property  the  receiver  with  the  specified  name  the  given  value  applications  may  associate  arbitrary  objects  with  the  receiver  this  fashion  the  objects  stored  the  properties  need  notified  when  the  widget  disposed  the  application  responsibility  hook  the  dispose  event  the  widget  and  param  key  the  name  the  property  param  value  the  new  value  for  the  property  exception illegal argument exception  error  null  argument  the  key  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see get data  string
+widget  could  disposed  this  point
+feature  windows  when  the  user  presses  ctrl  backspace  ctrl  enter  windows  sends  char  with  delete  and  instead  and  this  the  correct  platform  behavior  but  not  portable  the  fix  detect  these  cases  and  convert  the  character
+feature  windows  when  the  user  presses  either  the  enter  key  the  numeric  keypad  enter  key  windows  sends  keydown  with  param  return  both  cases  order  distinguish  between  the  keys  the  extended  key  bit  tested  the  bit  set  assume  that  the  numeric  keypad  enter  was  pressed
+feature  windows  the  virtual  key  delete  not  treated  both  virtual  key  and  ascii  key  windows  therefore  will  not  receive  char  for  this  key  the  fix  treat  delete  special  case  and  map  the  ascii  value  explictly  delete 
+feature  windows  when  the  user  presses  ctrl  pause  the  cancel  key  generated  and  char  sent  with  possibly  allow  application  look  for  ctrl  and  the  the  break  key  the  same  time  this  unexpected  and  unwanted  the  fix  detect  the  case  and  set  the  character  zero
+feature  windows  windows set window pos  always  causes  size  message  even  when  the  new  size  the  same  the  old  size  the  fix  detect  that  the  size  has  not  changed  and  set  swp  nosize
+feature  windows  windows set window pos  when  called  with  swp  drawframe  always  causes  size  message  even  when  swp  nosize  set  and  when  the  new  size  the  same  the  old  size  the  fix  clear  swp  drawframe  when  the  size  the  same
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  receiver
+non  nls 
+non  nls 
+non  nls  non  nls 
+not  report  lead  byte  key  pressed
+widget  could  disposed  this  point
+feature  windows recognize gesture  sends  undocumented  contextmenu  notification  when  the  flag  shrg  notify  parent  not  set  this  causes  the  context  menu  displayed  twice  once  the  caller recognize gesture  and  once  from  this  method  the  fix  ignore  contextmenu  notifications  all  win  platforms  note  this  only  happens  2003  previous  win  versions  did  not  support  contextmenu
+feature  windows  when  the  user  presses  ncrbuttonup  contextmenu  message  generated  this  happens  when  the  user  releases  the  mouse  over  scroll  bar  normally  window  displays  the  default  scrolling  menu  but  applications  can  process  contextmenu  display  different  menu  typically  application  does  not  want  supply  special  scroll  menu  the  fix  look  for  contextmenu  that  originated  from  mouse  event  and  display  the  menu  when  the  mouse  was  released  the  client  area
+show  the  menu
+widget  could  disposed  this  point
+ignore  repeating  modifier  keys  testing  key  down  state
+clear  last  key  and  last  ascii  because  new  key  has  been  typed
+not  report  lead  byte  key  pressed
+map  the  virtual  key
+bug  win map virtual key  returns  incorrect  values  the  fix  rely  key  mappings  table  determine  whether  the  key  event  must  sent  now  char  event  will  follow  the  key  mappings  table  maps  virtual  keys  swt  key  codes  and  does  not  contain  mappings  for  windows  virtual  keys  like  virtual  keys  that  are  both  virtual  and  ascii  are  special  case
+bug  windows  and  when  the  user  types  accent  key  such  get  accented  character  german  keyboard  the  accent  key  should  ignored  and  the  next  key  that  the  user  types  the  accented  key  the  fix  detect  the  accent  key  stroke  called  dead  key  testing  the  high  bit  the  value  returned map virtual key  further  problem  that  the  high  bit  windows  bit  while  the  high  bit  windows  bit  they  should  both  bit  when  the  user  types  accent  key  that  does  not  correspond  virtual  key map virtual key  won  set  the  high  bit  indicate  dead  key  this  happens  when  accent  key  such  the  result  modifier  such  shift  key  and map virtual key  always  returns  the  unshifted  key  the  fix  peek  for  deadchar  and  avoid  issuing  the  event
+bug  windows  somehow  the  widget  becoming  disposed  after  calling peek message  rare  cirucmstances  seems  that peek message  can  allow  swt  listeners  run  that  might  contain  application  code  that  disposes  the  widget  not  exactly  clear  how  this  can  happen peek message  only  looking  for  deadchar  not  dispatching  any  message  that  finds  removing  any  message  from  the  queue  cross  thread  messages  are  disabled  the  fix  check  for  disposed  widget  and  return  without  calling  the  window  proc
+are  going  get  char  ensure  that  last  key  has  the  correct  character  value  for  the  key  down  and  key  events  not  sufficient  ignore  the  keydown  when  know  are  going  get  char  and  compute  the  key  char  because  there  not  enough  information  the  time  get  the  char  for  example  when  the  user  types  ctrl  shift  keyboard  get  char  with  param  when  the  user  types  ctrl  shift  german  keyboard  also  get  char  with  param  the  keyboard  shift  the  german  keyboard  shift  there  way  map  param  char  the  correct  value  also  international  keyboards  the  control  key  may  down  when  the  user  has  not  entered  control  character  note  windows  keypad  keys  are  virtual  despite  the  fact  that  char  issued  windows  2000  and  they  are  not  virtual  therefore  necessary  force  numeric  keypad  keys  virtual
+feature  windows  the  virtual  key  delete  not  treated  both  virtual  key  and  ascii  key  windows  therefore  will  not  receive  char  for  this  key  the  fix  treat  delete  special  case  and  map  the  ascii  value  explictly  delete 
+possible  get  char  for  virtual  key  when  num  lock  the  user  types  home  while  num  lock  down  char  issued  with  wparm  for  the  character  are  going  get  char  need  ensure  that  the  last  key  has  the  correct  value  note  that  ctrl  home  does  not  issue  char  when  num  lock  down
+feature  windows  calling  ascii  unicode  clears  the  accented  state  such  that  the  next  char  loses  the  accent  this  makes  critical  that  the  accent  key  detected  also  these  functions  clear  the  character  that  entered  using  the  special  windows  keypad  sequence  when num lock  down  typing  alt  0231  should  gives  with  cedilla  when num lock  down
+convert last key  lower  case  because  windows  non  virtual  keys  that  are  also  ascii  keys  such  like  are  have  upper  case  values  keydown  despite  the  fact  that  the  shift  was  not  pressed
+feature  windows  the  virtual  key  cancel  treated  both  virtual  key  and  ascii  key  windows  this  means  that  char  with  wparam  will  issued  for  this  key  order  distinguish  between  this  key  and  ctrl  mark  the  key  virtual
+some  key  combinations  map  windows  ascii  keys  depending  the  keyboard  for  example  ctrl  alt  maps  german  keyboard  the  current  key  combination  special  the  correct  character  placed  param  for  processing  char  this  the  case  issue  the  key  down  event  from  inside  char
+when  the  user  types  ctrl  space  ascii  maps  this  space  normally  ascii  maps  key  different  key  both  keydown  and  char  will  issued  avoid  the  extra  swt key down  look  for  space  and  issue  the  event  from  char
+feature  windows  the  virtual  key  cancel  treated  both  virtual  key  and  ascii  key  windows  this  means  that  char  with  wparam  will  issued  for  this  key  avoid  the  extra  swt key down  look  for  cancel  and  issue  the  event  from  char
+the  control  key  not  down  this  point  then  the  key  that  was  pressed  was  accent  key  regular  key  such  shift  that  case  issue  the  key  event  from  char
+get  the  shifted  state  convert  lower  case  necessary  the  user  types  ctrl last ascii  should  not  the  user  types  ctrl  shift last ascii  should  the  user  types  ctrl  shift  the  value last ascii  will  depend  the  international  keyboard
+note  that  ctrl  ascii  nul  and  delivered  char
+widget  could  disposed  this  point
+check  for  hardware  keys
+check  the  bit  get  the  key  state
+widget  could  disposed  this  point
+the  key  not  hooked  reset  last  key  and  last  ascii  case  the  key  down  hooked
+map  the  virtual  key
+bug  win map virtual key  returns  incorrect  values  the  fix  rely  key  mappings  table  determine  whether  the  key  event  must  sent  now  char  event  will  follow  the  key  mappings  table  maps  virtual  keys  swt  key  codes  and  does  not  contain  mappings  for  windows  virtual  keys  like  virtual  keys  that  are  both  virtual  and  ascii  are  special  case
+bug  windows  and  when  the  user  types  accent  key  such  get  accented  character  german  keyboard  the  accent  key  should  ignored  and  the  next  key  that  the  user  types  the  accented  key  the  fix  detect  the  accent  key  stroke  called  dead  key  testing  the  high  bit  the  value  returned map virtual key  further  problem  that  the  high  bit  windows  bit  while  the  high  bit  windows  bit  they  should  both  bit 
+note  windows  keypad  keys  are  virtual  despite  the  fact  that  char  issued  windows  2000  and  they  are  not  virtual  therefore  necessary  force  numeric  keypad  keys  virtual
+feature  windows  the  virtual  key  cancel  treated  both  virtual  key  and  ascii  key  windows  this  means  that  char  with  wparam  will  issued  for  this  key  order  distingush  between  this  key  and  ctrl  mark  the  key  virtual
+widget  could  disposed  this  point
+widget  could  disposed  this  point
+possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  focus  deactivate  events  this  happens  end  the  processing  the  windows  message  returning  zero  the  result  the  window  proc
+feature  windows  windows  sends  the  following  messages  when  the  user  double  clicks  the  mouse  lbuttondown  mouse  down  lbuttonup  mouse  lbuttondblclk  double  click  lbuttonup  mouse  applications  that  expect  matching  mouse  down  pairs  will  not  see  the  second  mouse  down  the  fix  send  mouse  down  event
+feature  windows  possible  that  the  drag  operation  will  not  started  while  the  mouse  down  meaning  that  the  mouse  should  captured  this  can  happen  when  the  user  types  the  esc  key  cancel  the  drag  the  fix  query  the  state  the  mouse  and  capture  the  mouse  accordingly
+note  win  ppc  only  attempt  recognize  the  gesture  for  context  menu  when  the  control  contains  valid  menu  there  are  listeners  for  the menu detect  event
+feature  windows drag detect  captures  the  mouse  and  tracks  its  movement  until  the  user  releases  the  left  mouse  button  presses  the  esc  key  moves  the  mouse  outside  the  drag  rectangle  the  user  moves  the  mouse  outside  the  drag  rectangle drag detect  returns  true  and  drag  and  drop  operation  can  started  when  the  left  mouse  button  released  the  esc  key  pressed  these  events  are  consumed drag detect  that  application  code  that  matches  mouse  down  pairs  looks  for  the  esc  key  will  not  function  properly  the  fix  send  the  missing  events  when  the  drag  has  not  started  note  for  now  don  send  fake  keydown  keyup  events  for  the  esc  key  this  would  require  computing  param  the  key  and  param  the  repeat  count  scan  code  extended  key  flag  context  code  previous  key  state  flag  and  transition  state  flag  which  non  trivial
+feature  windows  windows  sends  the  following  messages  when  the  user  double  clicks  the  mouse  mbuttondown  mouse  down  mbuttonup  mouse  mlbuttondblclk  double  click  mbuttonup  mouse  applications  that  expect  matching  mouse  down  pairs  will  not  see  the  second  mouse  down  the  fix  send  mouse  down  event
+force  all  outstanding  mouseleave  messages  dispatched  before  issuing  mouse  enter  this  causes  mouse  exit  events  processed  before  mouse  enter  events  note  that  mouseleave  posted  the  event  queue track mouse event
+exit  early  don  draw  the  background
+issue  paint  event
+bug  windows  when invalidate rgn invalidate rect redraw window  with  rdw  invalidate  called  from  within  paint  invalidate  region  for  further begin paint  the  caret  not  properly  erased  causing  pixel  corruption  the  fix  hide  and  show  the  caret
+widget  could  disposed  this  point
+widget  could  disposed  this  point
+feature  windows  windows  sends  the  following  messages  when  the  user  double  clicks  the  mouse  rbuttondown  mouse  down  rbuttonup  mouse  rbuttondblclk  double  click  lbuttonup  mouse  applications  that  expect  matching  mouse  down  pairs  will  not  see  the  second  mouse  down  the  fix  send  mouse  down  event
+widget  could  disposed  this  point
+possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  focus  activate  events  this  happens  end  the  processing  the  windows  message  returning  zero  the  result  the  window  proc
+not  issue  key  down  menu  bar  mnemonic  was  invoked
+call  the  window  proc  determine  whether  system  key  mnemonic
+widget  could  disposed  this  point
+feature  windows  when  syskeydown  sent  the  user  pressed  alt  key  get  the  menu  bar  order  issue  events  for  but  ignore  other  key  presses  when  the  alt  not  down  make  sure  that  either  was  pressed  that  alt  pressed
+make  sure  syskeydown  was  sent  alt  key
+ignore  well  known  system  keys
+ignore  repeating  modifier  keys  testing  key  down  state
+clear  last  key  and  last  ascii  because  new  key  has  been  typed
+are  going  get  syschar  ignore  this  message
+bug  win map virtual key  returns  incorrect  values  the  fix  rely  key  mappings  table  determine  whether  the  key  event  must  sent  now  char  event  will  follow  the  key  mappings  table  maps  virtual  keys  swt  key  codes  and  does  not  contain  mappings  for  windows  virtual  keys  like  virtual  keys  that  are  both  virtual  and  ascii  are  special  case
+feature  windows  the  virtual  key  delete  not  treated  both  virtual  key  and  ascii  key  windows  therefore  will  not  receive  syschar  for  this  key  the  fix  treat  delete  special  case  and  map  the  ascii  value  explictly  delete 
+when  keypad  key  typed  syschar  not  issued
+convert last key  lower  case  because  windows  non  virtual  keys  that  are  also  ascii  keys  such  like  are  have  upper  case  values  syskeydown  despite  the  fact  that  the  shift  was  not  pressed
+feature  windows map virtual key  indicates  that  syschar  message  will  occur  for  alt  enter  but  this  message  never  happens  the  fix  issue  the  event  from  syskeydown  and  map  return 
+widget  could  disposed  this  point
+feature  windows  windows  sends  the  following  messages  when  the  user  double  clicks  the  mouse  xbuttondown  mouse  down  xbuttonup  mouse  xlbuttondblclk  double  click  xbuttonup  mouse  applications  that  expect  matching  mouse  down  pairs  will  not  see  the  second  mouse  down  the  fix  send  mouse  down  event
+</comments>
+</text>
+</DOC>

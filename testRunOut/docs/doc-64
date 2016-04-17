@@ -1,0 +1,3871 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.TextLayout.java </DOCNO>
+<text>
+<class>
+text layout
+style item
+</class>
+<method>
+ free
+text layout
+break run
+check item
+check layout
+compute runs
+ dispose
+ draw
+ draw
+free runs
+get alignment
+get ascent
+get bounds
+get bounds
+get descent
+get font
+get item font
+get level
+get line bounds
+get line count
+get line index
+get line metrics
+get line offsets
+get location
+get next offset
+_get offset
+get offset
+get offset
+get orientation
+get previous offset
+get segments
+get segments text
+get spacing
+get style
+get tabs
+get text
+get width
+ disposed
+ itemize
+ merge
+ reorder
+set alignment
+set ascent
+set descent
+set font
+set orientation
+set segments
+set spacing
+set style
+set tabs
+set text
+set width
+ shape
+ shape
+validade offset
+ string
+translate offset
+untranslate offset
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+text layout
+ resource
+ font
+ font
+ string
+ text
+segments text
+line spacing
+ ascent
+ descent
+ alignment
+wrap width
+ orientation
+ tabs
+ segments
+style item
+ styles
+style item
+all runs
+style item
+ runs
+line offset
+ line
+line width
+lang font link
+ltr mark
+rtl mark
+script visattr sizeof
+goffset sizeof
+clsid multi language
+iid lang font link
+
+iid from string
+char array
+clsid multi language
+
+iid from string
+char array
+iid lang font link
+style item
+text style
+ style
+ start
+ length
+line break
+soft break
+ tab
+script analysis
+ analysis
+ psc
+ glyphs
+glyph count
+ clusters
+vis attrs
+ advances
+ goffsets
+ width
+ ascent
+ descent
+ leading
+
+ psla
+fallback font
+ free
+ heap
+
+get process heap
+ psc
+
+script free cache
+ psc
+
+heap free
+ heap
+ psc
+ psc
+ glyphs
+
+heap free
+ heap
+ glyphs
+ glyphs
+glyph count
+ clusters
+
+heap free
+ heap
+ clusters
+ clusters
+vis attrs
+
+heap free
+ heap
+vis attrs
+vis attrs
+ advances
+
+heap free
+ heap
+ advances
+ advances
+ goffsets
+
+heap free
+ heap
+ goffsets
+ goffsets
+ psla
+
+heap free
+ heap
+ psla
+ psla
+fallback font
+lang font link
+
+vtbl call
+lang font link
+fallback font
+fallback font
+ width
+ ascent
+ descent
+
+line break
+soft break
+text layout
+ device
+ device
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ device
+ device
+wrap width
+ ascent
+ descent
+line spacing
+ orientation
+ swt
+left right
+ styles
+style item
+ styles
+style item
+ styles
+style item
+ text
+ ppv
+
+ole initialize
+
+create instance
+clsid multi language
+
+clsctx inproc server
+iid lang font link
+ ppv
+
+
+lang font link
+ ppv
+ device
+ tracking
+ device
+new object
+break run
+style item
+ run
+ run
+ psla
+ chars
+ run
+ length
+segments text
+get chars
+ run
+ start
+ run
+ start
+ run
+ length
+ chars
+ heap
+
+get process heap
+ run
+ psla
+
+heap alloc
+ heap
+
+heap zero memory
+script logattr
+ sizeof
+ chars
+ length
+
+script break
+ chars
+ chars
+ length
+ run
+ analysis
+ run
+ psla
+check item
+
+style item
+ item
+ item
+fallback font
+ logfont
+log font
+
+ unicode
+ logfont
+ logfontw
+ logfonta
+
+get object
+ item
+fallback font
+ logfont
+ sizeof
+log font
+ item
+ free
+
+select object
+
+get item font
+ item
+ shape
+
+ item
+check layout
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+compute runs
+
+
+ runs
+
+
+
+ handle
+ device
+internal _new
+src hdc
+
+create compatible
+
+all runs
+ itemize
+
+
+all runs
+ length
+
+style item
+ run
+all runs
+
+
+select object
+src hdc
+get item font
+ run
+ shape
+src hdc
+ run
+script logattr
+log attr
+script logattr
+script properties
+ properties
+script properties
+line width
+line start
+line count
+
+
+all runs
+ length
+
+style item
+ run
+all runs
+
+ run
+ length
+
+segments text
+ char
+ run
+ start
+
+ run
+ tab
+ tabs
+tabs length
+ tabs
+ length
+
+
+
+tabs length
+
+ tabs
+
+line width
+ run
+ width
+ tabs
+
+line width
+
+tabs length
+ tab
+ tabs
+tabs length
+last tab width
+tabs length
+ tabs
+tabs length
+ tabs
+tabs length
+ tabs
+last tab width
+ tab
+line width
+ tab
+last tab width
+ run
+ width
+ tab
+line width
+ run
+line break
+ run
+line break
+style item
+ next
+all runs
+
+ next
+ length
+segments text
+ char
+ next
+ start
+ run
+ length
+ next
+ free
+
+wrap width
+line width
+ run
+ width
+wrap width
+ run
+ tab
+ start
+
+ run
+ length
+
+script get logical widths
+ run
+ analysis
+ run
+ length
+ run
+glyph count
+ run
+ advances
+ run
+ clusters
+ run
+vis attrs
+
+ width
+max width
+wrap width
+line width
+ width
+
+ start
+max width
+ width
+
+ start
+first start
+ start
+first indice
+
+
+line start
+break run
+ run
+ start
+
+move memory
+log attr
+ run
+ psla
+ start
+script logattr
+ sizeof
+script logattr
+ sizeof
+log attr
+soft break
+log attr
+white space
+ start
+ start
+
+line start
+ run
+ tab
+log attr
+soft break
+log attr
+white space
+
+move memory
+ properties
+ device
+ scripts
+ run
+ analysis
+ script
+script properties
+ sizeof
+ lang
+ properties
+ langid
+style item
+ run
+all runs
+
+
+move memory
+ properties
+ device
+ scripts
+ run
+ analysis
+ script
+script properties
+ sizeof
+ properties
+ langid
+ lang
+ lang
+
+lang neutral
+ properties
+ langid
+
+lang neutral
+break run
+ run
+
+move memory
+log attr
+ run
+ psla
+ run
+ length
+script logattr
+ sizeof
+script logattr
+ sizeof
+log attr
+white space
+ start
+ start
+
+line start
+ run
+all runs
+
+ start
+ run
+ length
+ start
+
+line start
+ run
+ tab
+ run
+all runs
+
+ start
+
+line start
+
+first indice
+ run
+all runs
+
+ start
+ math
+ max
+first start
+break run
+ run
+ start
+ run
+ length
+
+move memory
+log attr
+ run
+ psla
+ start
+script logattr
+ sizeof
+script logattr
+ sizeof
+log attr
+white space
+ start
+ start
+ start
+ run
+ length
+style item
+new run
+style item
+new run
+ start
+ run
+ start
+ start
+new run
+ length
+ run
+ length
+ start
+new run
+ style
+ run
+ style
+new run
+ analysis
+ run
+ analysis
+ run
+ free
+ run
+ length
+ start
+
+select object
+src hdc
+get item font
+ run
+ shape
+src hdc
+ run
+
+select object
+src hdc
+get item font
+new run
+ shape
+src hdc
+new run
+style item
+new all runs
+style item
+all runs
+ length
+ system
+ arraycopy
+all runs
+new all runs
+
+ system
+ arraycopy
+all runs
+
+new all runs
+
+all runs
+ length
+
+all runs
+new all runs
+all runs
+
+new run
+
+all runs
+ length
+ run
+soft break
+ run
+line break
+line width
+ run
+ width
+ run
+line break
+line start
+
+line width
+line count
+line width
+ runs
+style item
+line count
+line offset
+line count
+ line
+line count
+line width
+line count
+line run count
+ line
+ ascent
+ math
+ max
+ ascent
+ descent
+ math
+ max
+ descent
+style item
+line runs
+style item
+all runs
+ length
+
+
+all runs
+ length
+
+style item
+ run
+all runs
+
+line runs
+line run count
+ run
+line width
+ run
+ width
+ ascent
+ math
+ max
+ ascent
+ run
+ ascent
+ descent
+ math
+ max
+ descent
+ run
+ descent
+ run
+line break
+
+all runs
+ length
+line run count
+
+all runs
+ length
+ textmetric
+ lptm
+
+ unicode
+ textmetric
+ textmetricw
+ textmetrica
+
+select object
+src hdc
+get item font
+ run
+
+get text metrics
+src hdc
+ lptm
+ run
+ ascent
+ lptm
+ ascent
+ run
+ descent
+ lptm
+ descent
+ ascent
+ math
+ max
+ ascent
+ run
+ ascent
+ descent
+ math
+ max
+ descent
+ run
+ descent
+ runs
+ line
+style item
+line run count
+ system
+ arraycopy
+line runs
+ runs
+ line
+line run count
+style item
+last run
+ runs
+ line
+line run count
+ runs
+ line
+ reorder
+ runs
+ line
+line width
+ line
+line width
+line width
+wrap width
+ alignment
+ swt
+ center
+line width
+wrap width
+line width
+ line
+ swt
+ right
+line width
+wrap width
+line width
+ line
+
+
+ runs
+ line
+ length
+
+ runs
+ line
+
+
+line width
+line width
+ runs
+ line
+
+ width
+ line
+ line
+ line
+ line
+ line
+ ascent
+ descent
+line spacing
+line offset
+ line
+last run
+ start
+last run
+ length
+line run count
+line width
+ ascent
+ math
+ max
+ ascent
+ descent
+ math
+ max
+ descent
+src hdc
+
+ delete
+src hdc
+
+ device
+internal _dispose
+
+ dispose
+ device
+free runs
+ font
+ text
+segments text
+ tabs
+ styles
+ runs
+line offset
+ line
+line width
+lang font link
+
+vtbl call
+lang font link
+lang font link
+
+ole uninitialize
+ device
+ tracking
+ device
+dispose object
+ device
+ draw
+
+
+
+
+ draw
+
+
+
+ draw
+
+
+
+
+selection start
+selection end
+ color
+selection foreground
+ color
+selection background
+check layout
+compute runs
+
+
+ swt
+ error
+ swt
+error null argument
+
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+selection foreground
+selection foreground
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+selection background
+selection background
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ length
+ text
+ length
+ length
+ hdc
+
+ handle
+has selection
+selection start
+selection end
+selection start
+selection end
+has selection
+selection start
+ math
+ min
+ math
+ max
+selection start
+ length
+selection end
+ math
+ min
+ math
+ max
+selection end
+ length
+selection foreground
+selection foreground
+ device
+get system color
+ swt
+color list selection text
+selection background
+selection background
+ device
+get system color
+ swt
+color list selection
+selection start
+translate offset
+selection start
+selection end
+translate offset
+selection end
+ foreground
+
+get text color
+ hdc
+ state
+
+ save
+ hdc
+ rect
+ rect
+ rect
+sel brush
+sel pen
+has selection
+sel brush
+
+create solid brush
+selection background
+ handle
+sel pen
+
+create pen
+
+ solid
+selection foreground
+ handle
+ rop
+
+ win
+ rop
+
+set rop
+ hdc
+
+ copypen
+
+set rop
+ hdc
+ rop
+ rop
+
+get rop
+ hdc
+ rop
+ rop
+
+ xorpen
+
+ patinvert
+
+ patcopy
+
+set mode
+ hdc
+
+ transparent
+ rectangle
+ clip
+
+get clipping
+ line
+ line
+ runs
+ length
+ line
+ draw
+
+ draw
+
+ line
+ line
+wrap width
+ alignment
+ swt
+ center
+ draw
+wrap width
+line width
+ line
+ swt
+ right
+ draw
+wrap width
+line width
+ line
+ draw
+ clip
+
+ clip
+ width
+ draw
+line width
+ line
+ clip
+
+style item
+line runs
+ runs
+ line
+ baseline
+ math
+ max
+ ascent
+
+
+line runs
+ length
+
+ baseline
+ math
+ max
+ baseline
+line runs
+
+ ascent
+line height
+ line
+ line
+ line
+ line
+ alignment
+ draw
+
+
+line runs
+ length
+
+style item
+ run
+line runs
+
+ run
+ length
+ draw
+ clip
+
+ clip
+ width
+ draw
+ run
+ width
+ clip
+
+ run
+line break
+ run
+soft break
+ end
+ run
+ start
+ run
+ length
+full selection
+has selection
+selection start
+ run
+ start
+selection end
+ end
+full selection
+
+select object
+ hdc
+sel brush
+
+pat blt
+ hdc
+ draw
+ draw
+ run
+ width
+line height
+ rop
+ run
+ style
+ run
+ style
+ background
+
+ run
+ style
+ background
+ handle
+draw run
+ draw
+ baseline
+ run
+ ascent
+ brush
+
+create solid brush
+
+old brush
+
+select object
+ hdc
+ brush
+
+pat blt
+ hdc
+ draw
+draw run
+ run
+ width
+ run
+ ascent
+ run
+ descent
+ rop
+
+select object
+ hdc
+old brush
+
+delete object
+ brush
+partial selection
+has selection
+selection start
+ end
+ run
+ start
+selection end
+partial selection
+
+select object
+ hdc
+sel brush
+sel start
+ math
+ max
+selection start
+ run
+ start
+ run
+ start
+sel end
+ math
+ min
+selection end
+ end
+ run
+ start
+ chars
+ run
+ length
+ glyphs
+ run
+glyph count
+
+
+script pto
+sel start
+ chars
+ glyphs
+ run
+ clusters
+ run
+vis attrs
+ run
+ advances
+ run
+ analysis
+
+ run
+ orientation
+ swt
+right left
+ run
+ width
+
+
+ rect
+ left
+ draw
+ run
+ rect
+ top
+ draw
+
+script pto
+sel end
+ chars
+ glyphs
+ run
+ clusters
+ run
+vis attrs
+ run
+ advances
+ run
+ analysis
+
+ run
+ orientation
+ swt
+right left
+ run
+ width
+
+
+ rect
+ right
+ draw
+ run
+ rect
+ bottom
+ draw
+line height
+
+pat blt
+ hdc
+ rect
+ left
+ rect
+ top
+ rect
+ right
+ rect
+ left
+ rect
+ bottom
+ rect
+ top
+ rop
+ draw
+ run
+ width
+ draw
+ alignment
+
+
+line runs
+ length
+
+style item
+ run
+line runs
+
+ run
+ length
+ draw
+ clip
+
+ clip
+ width
+ draw
+ run
+ width
+ clip
+
+ run
+ tab
+ run
+line break
+ run
+soft break
+ end
+ run
+ start
+ run
+ length
+
+ foreground
+full selection
+has selection
+selection start
+ run
+ start
+selection end
+ end
+full selection
+
+selection foreground
+ handle
+ run
+ style
+ run
+ style
+ foreground
+
+ run
+ style
+ foreground
+ handle
+
+set text color
+ hdc
+
+check item
+ hdc
+ run
+
+select object
+ hdc
+get item font
+ run
+draw run
+ draw
+ baseline
+ run
+ ascent
+
+script text out
+ hdc
+ run
+ psc
+ draw
+draw run
+ run
+ analysis
+ run
+ glyphs
+ run
+glyph count
+ run
+ advances
+ run
+ goffsets
+ run
+ style
+ run
+ style
+ underline
+ run
+ style
+ strikeout
+new pen
+has selection
+
+selection foreground
+ handle
+sel pen
+
+create pen
+
+ solid
+
+old pen
+
+select object
+ hdc
+new pen
+ run
+ style
+ underline
+ underline
+ draw
+ baseline
+
+ move
+ hdc
+ draw
+ underline
+
+ line
+ hdc
+ draw
+ run
+ width
+ underline
+ run
+ style
+ strikeout
+ strikeout
+draw run
+ run
+ leading
+ run
+ ascent
+
+ move
+ hdc
+ draw
+ strikeout
+
+ line
+ hdc
+ draw
+ run
+ width
+ strikeout
+
+select object
+ hdc
+old pen
+has selection
+
+selection foreground
+ handle
+
+delete object
+new pen
+partial selection
+has selection
+selection start
+ end
+ run
+ start
+selection end
+full selection
+partial selection
+
+selection foreground
+ handle
+
+set text color
+ hdc
+selection foreground
+ handle
+sel start
+ math
+ max
+selection start
+ run
+ start
+ run
+ start
+sel end
+ math
+ min
+selection end
+ end
+ run
+ start
+ chars
+ run
+ length
+ glyphs
+ run
+glyph count
+
+
+script pto
+sel start
+ chars
+ glyphs
+ run
+ clusters
+ run
+vis attrs
+ run
+ advances
+ run
+ analysis
+
+ run
+ orientation
+ swt
+right left
+ run
+ width
+
+
+ rect
+ left
+ draw
+ run
+ rect
+ top
+ draw
+
+script pto
+sel end
+ chars
+ glyphs
+ run
+ clusters
+ run
+vis attrs
+ run
+ advances
+ run
+ analysis
+
+ run
+ orientation
+ swt
+right left
+ run
+ width
+
+
+ rect
+ right
+ draw
+ run
+ rect
+ bottom
+ draw
+line height
+
+script text out
+ hdc
+ run
+ psc
+ draw
+draw run
+
+eto clipped
+ rect
+ run
+ analysis
+ run
+ glyphs
+ run
+glyph count
+ run
+ advances
+ run
+ goffsets
+ run
+ style
+ run
+ style
+ underline
+ run
+ style
+ strikeout
+old pen
+
+select object
+ hdc
+sel pen
+ run
+ style
+ underline
+ underline
+ draw
+ baseline
+
+ move
+ hdc
+ rect
+ left
+ underline
+
+ line
+ hdc
+ rect
+ right
+ underline
+ run
+ style
+ strikeout
+ strikeout
+draw run
+ run
+ leading
+ run
+ ascent
+
+ move
+ hdc
+ rect
+ left
+ strikeout
+
+ line
+ hdc
+ rect
+ right
+ strikeout
+
+select object
+ hdc
+old pen
+ draw
+ run
+ width
+
+ restore
+ hdc
+ state
+sel brush
+
+delete object
+sel brush
+sel pen
+
+delete object
+sel pen
+free runs
+all runs
+
+
+all runs
+ length
+
+style item
+ run
+all runs
+
+ run
+ free
+all runs
+ runs
+segments text
+get alignment
+check layout
+ alignment
+get ascent
+check layout
+ ascent
+ rectangle
+get bounds
+check layout
+compute runs
+ width
+wrap width
+ width
+wrap width
+ line
+ line
+ runs
+ length
+ line
+ width
+ math
+ max
+ width
+line width
+ line
+ rectangle
+ width
+ line
+ line
+ length
+ rectangle
+get bounds
+ start
+ end
+check layout
+compute runs
+ length
+ text
+ length
+ length
+ rectangle
+ start
+ end
+ rectangle
+ start
+ math
+ min
+ math
+ max
+ start
+ length
+ end
+ math
+ min
+ math
+ max
+ end
+ length
+ start
+translate offset
+ start
+ end
+translate offset
+ end
+ left
+ right
+ top
+ bottom
+line index
+ rtl
+ orientation
+ swt
+right left
+
+
+all runs
+ length
+
+style item
+ run
+all runs
+
+run end
+ run
+ start
+ run
+ length
+ run
+line break
+line index
+run end
+ start
+ run
+ start
+ end
+run lead
+ run
+
+run trail
+ run
+
+ run
+ width
+ run
+ start
+ start
+ start
+run end
+
+ run
+ tab
+
+
+script pto
+ start
+ run
+ start
+ run
+ length
+ run
+glyph count
+ run
+ clusters
+ run
+vis attrs
+ run
+ advances
+ run
+ analysis
+
+
+ rtl
+ run
+ width
+
+
+ run
+ analysis
+ rtl
+ rtl
+run trail
+ run
+
+
+run lead
+ run
+
+
+ run
+ start
+ end
+ end
+run end
+
+ run
+ width
+ run
+ tab
+
+
+script pto
+ end
+ run
+ start
+ run
+ length
+ run
+glyph count
+ run
+ clusters
+ run
+vis attrs
+ run
+ advances
+ run
+ analysis
+
+
+ rtl
+ run
+ width
+
+
+ run
+ analysis
+ rtl
+ rtl
+run lead
+ run
+
+
+run trail
+ run
+
+
+ left
+ math
+ min
+ left
+run lead
+ right
+ math
+ max
+ right
+run trail
+ top
+ math
+ min
+ top
+ line
+ run
+line break
+line index
+line index
+ bottom
+ math
+ max
+ bottom
+ line
+ run
+line break
+line index
+line index
+ rectangle
+ left
+ top
+ right
+ left
+ bottom
+ top
+get descent
+check layout
+ descent
+ font
+get font
+check layout
+ font
+get item font
+style item
+ item
+ item
+fallback font
+ item
+fallback font
+ item
+ style
+ item
+ style
+ font
+ item
+ style
+ font
+ handle
+ font
+ font
+ handle
+ device
+system font
+get level
+ offset
+check layout
+compute runs
+ length
+ text
+ length
+ offset
+ offset
+ length
+ swt
+ error
+ swt
+error invalid range
+ offset
+translate offset
+ offset
+
+
+all runs
+ length
+
+all runs
+
+ start
+ offset
+all runs
+
+ analysis
+
+bidi level
+ orientation
+ swt
+right left
+ rectangle
+get line bounds
+line index
+check layout
+compute runs
+line index
+line index
+ runs
+ length
+ swt
+ error
+ swt
+error invalid range
+
+
+ line
+line index
+ width
+line width
+line index
+ height
+ line
+line index
+
+wrap width
+ alignment
+ swt
+ center
+
+wrap width
+ width
+ swt
+ right
+
+wrap width
+ width
+ rectangle
+
+
+ width
+ height
+get line count
+check layout
+compute runs
+ runs
+ length
+get line index
+ offset
+check layout
+compute runs
+ length
+ text
+ length
+ offset
+ offset
+ length
+ swt
+ error
+ swt
+error invalid range
+ offset
+translate offset
+ offset
+ line
+ line
+ runs
+ length
+ line
+line offset
+ line
+ offset
+ line
+ runs
+ length
+font metrics
+get line metrics
+line index
+check layout
+compute runs
+line index
+line index
+ runs
+ length
+ swt
+ error
+ swt
+error invalid range
+
+ device
+internal _new
+src hdc
+
+create compatible
+
+ textmetric
+ lptm
+
+ unicode
+ textmetric
+ textmetricw
+ textmetrica
+ text
+ length
+
+select object
+src hdc
+ font
+ font
+ handle
+ device
+system font
+
+get text metrics
+src hdc
+ lptm
+ lptm
+ ascent
+ math
+ max
+ lptm
+ ascent
+ ascent
+ lptm
+ descent
+ math
+ max
+ lptm
+ descent
+ descent
+ ascent
+ ascent
+ descent
+ descent
+ leading
+ave char width
+ height
+style item
+line runs
+ runs
+line index
+
+
+line runs
+ length
+
+style item
+ run
+line runs
+
+check item
+src hdc
+ run
+
+select object
+src hdc
+get item font
+ run
+
+get text metrics
+src hdc
+ lptm
+ ascent
+ math
+ max
+ ascent
+ lptm
+ ascent
+ descent
+ math
+ max
+ descent
+ lptm
+ descent
+ height
+ math
+ max
+ height
+ lptm
+ height
+ leading
+ math
+ max
+ leading
+ lptm
+internal leading
+ave char width
+ lptm
+ave char width
+ lptm
+ ascent
+ ascent
+ lptm
+ descent
+ descent
+ lptm
+ height
+ height
+ lptm
+internal leading
+ leading
+ lptm
+ave char width
+ave char width
+line runs
+ length
+src hdc
+
+ delete
+src hdc
+ device
+internal _dispose
+
+font metrics
+win 32_new
+ lptm
+get line offsets
+check layout
+compute runs
+ offsets
+line offset
+ length
+
+
+ offsets
+ length
+
+ offsets
+
+untranslate offset
+line offset
+
+ offsets
+ point
+get location
+ offset
+ trailing
+check layout
+compute runs
+ length
+ text
+ length
+ offset
+ offset
+ length
+ swt
+ error
+ swt
+error invalid range
+ length
+segments text
+ length
+ offset
+translate offset
+ offset
+ line
+ line
+ line
+ runs
+ length
+ line
+line offset
+ line
+ offset
+ line
+ math
+ min
+ line
+ runs
+ length
+style item
+line runs
+ runs
+ line
+ point
+ result
+ offset
+ length
+ result
+ point
+line width
+ line
+ line
+ line
+ width
+
+
+line runs
+ length
+
+style item
+ run
+line runs
+
+ end
+ run
+ start
+ run
+ length
+ run
+ start
+ offset
+ offset
+ end
+ run
+ tab
+ trailing
+ offset
+ length
+ width
+ run
+ width
+ result
+ point
+ width
+ line
+ line
+run offset
+ offset
+ run
+ start
+ chars
+ run
+ length
+ glyphs
+ run
+glyph count
+
+
+script pto
+run offset
+ trailing
+ chars
+ glyphs
+ run
+ clusters
+ run
+vis attrs
+ run
+ advances
+ run
+ analysis
+
+ orientation
+ swt
+right left
+ result
+ point
+ width
+ run
+ width
+
+ line
+ line
+ result
+ point
+ width
+
+ line
+ line
+ width
+ run
+ width
+ result
+ result
+ point
+wrap width
+ alignment
+ swt
+ center
+ result
+
+wrap width
+line width
+ line
+ swt
+ right
+ result
+
+wrap width
+line width
+ line
+ result
+get next offset
+ offset
+ movement
+check layout
+_get offset
+ offset
+ movement
+_get offset
+ offset
+ movement
+ forward
+compute runs
+ length
+ text
+ length
+ offset
+ offset
+ length
+ swt
+ error
+ swt
+error invalid range
+ forward
+ offset
+ length
+ length
+ forward
+ offset
+ step
+ forward
+ movement
+ swt
+movement char
+ offset
+ step
+ length
+segments text
+ length
+ offset
+translate offset
+ offset
+script logattr
+log attr
+script logattr
+script properties
+ properties
+script properties
+
+ forward
+all runs
+ length
+ offset
+validade offset
+ offset
+ step
+style item
+ run
+all runs
+
+ run
+ start
+ offset
+ offset
+ run
+ start
+ run
+ length
+ run
+line break
+ run
+soft break
+untranslate offset
+ run
+ start
+ run
+ tab
+untranslate offset
+ run
+ start
+
+move memory
+ properties
+ device
+ scripts
+ run
+ analysis
+ script
+script properties
+ sizeof
+ complex
+ properties
+needs caret info
+ properties
+needs word breaking
+ complex
+break run
+ run
+ run
+ start
+ offset
+ offset
+ run
+ start
+ run
+ length
+ complex
+
+move memory
+log attr
+ run
+ psla
+ offset
+ run
+ start
+script logattr
+ sizeof
+script logattr
+ sizeof
+ movement
+ swt
+movement cluster
+ properties
+needs caret info
+log attr
+ invalid
+log attr
+char stop
+untranslate offset
+ offset
+untranslate offset
+ offset
+ swt
+movement word
+ properties
+needs word breaking
+log attr
+ invalid
+log attr
+word stop
+untranslate offset
+ offset
+ offset
+letter digit
+ compatibility
+letter digit
+segments text
+ char
+ offset
+previous letter digit
+ compatibility
+letter digit
+segments text
+ char
+ offset
+letter digit
+previous letter digit
+letter digit
+ compatibility
+ whitespace
+segments text
+ char
+ offset
+untranslate offset
+ offset
+ offset
+validade offset
+ offset
+ step
+
+ step
+
+
+all runs
+ length
+ offset
+ offset
+ length
+ forward
+ text
+ length
+get offset
+ point
+ point
+ trailing
+check layout
+ point
+ swt
+ error
+ swt
+error null argument
+get offset
+ point
+
+ point
+
+ trailing
+get offset
+
+
+ trailing
+check layout
+compute runs
+ trailing
+ trailing
+ length
+ swt
+ error
+ swt
+error invalid argument
+ line
+line count
+ runs
+ length
+ line
+ line
+line count
+ line
+ line
+ line
+
+ line
+ math
+ min
+ line
+ runs
+ length
+wrap width
+ alignment
+ swt
+ center
+
+wrap width
+line width
+ line
+ swt
+ right
+
+wrap width
+line width
+ line
+style item
+line runs
+ runs
+ line
+
+line width
+ line
+
+line width
+ line
+
+
+ width
+
+
+line runs
+ length
+
+style item
+ run
+line runs
+
+ run
+line break
+ run
+soft break
+untranslate offset
+ run
+ start
+ width
+ run
+ width
+
+ run
+ tab
+ trailing
+ trailing
+
+ width
+ run
+ width
+untranslate offset
+ run
+ start
+ chars
+ run
+ length
+ glyphs
+ run
+glyph count
+ run
+
+ width
+
+ trailing
+ orientation
+ swt
+right left
+ run
+ run
+ width
+ run
+
+script xto
+ run
+ chars
+ glyphs
+ run
+ clusters
+ run
+vis attrs
+ run
+ advances
+ run
+ analysis
+
+ trailing
+ trailing
+ trailing
+ trailing
+untranslate offset
+ run
+ start
+
+ width
+ run
+ width
+ trailing
+ trailing
+untranslate offset
+line offset
+ line
+get orientation
+check layout
+ orientation
+get previous offset
+ offset
+ movement
+check layout
+_get offset
+ offset
+ movement
+get segments
+check layout
+ segments
+ string
+get segments text
+ segments
+ text
+ segments
+ segments
+ length
+ segments
+ text
+ length
+ text
+ length
+ length
+ text
+ segments
+ segments
+ segments
+ length
+ text
+old chars
+ length
+ text
+get chars
+ length
+old chars
+new chars
+ length
+ segments
+char count
+segment count
+ separator
+ orientation
+ swt
+right left
+rtl mark
+ltr mark
+char count
+ length
+segment count
+ segments
+char count
+ segments
+segment count
+new chars
+char count
+segment count
+ separator
+new chars
+char count
+segment count
+old chars
+char count
+segment count
+ segments
+ segments
+segment count
+char count
+new chars
+char count
+segment count
+ separator
+ string
+new chars
+ math
+ min
+char count
+segment count
+new chars
+ length
+get spacing
+check layout
+line spacing
+text style
+get style
+ offset
+check layout
+ length
+ text
+ length
+ offset
+ offset
+ length
+ swt
+ error
+ swt
+error invalid range
+
+
+ styles
+ length
+
+ styles
+
+ start
+ offset
+ styles
+
+ style
+get tabs
+check layout
+ tabs
+ string
+get text
+check layout
+ text
+get width
+check layout
+wrap width
+ disposed
+ device
+style item
+ itemize
+segments text
+get segments text
+ length
+segments text
+ length
+script control
+script control
+script control
+script state
+script state
+script state
+max item
+ length
+ orientation
+ swt
+right left
+script state
+bidi level
+script state
+arabic num context
+ heap
+
+get process heap
+ items
+
+heap alloc
+ heap
+
+heap zero memory
+max item
+script item
+ sizeof
+ items
+ chars
+ length
+segments text
+get chars
+ length
+ chars
+
+script itemize
+ chars
+ length
+max item
+script control
+script state
+ items
+ items
+style item
+ runs
+ merge
+ items
+ items
+
+heap free
+ heap
+ items
+ runs
+style item
+ merge
+ items
+item count
+ count
+ start
+ end
+segments text
+ length
+item index
+style index
+style item
+ runs
+style item
+item count
+ styles
+ length
+script item
+script item
+script item
+ start
+ end
+style item
+ item
+style item
+ item
+ start
+ start
+ item
+ style
+ styles
+style index
+ style
+ runs
+ count
+ item
+
+move memory
+script item
+ items
+item index
+script item
+ sizeof
+script item
+ sizeof
+ item
+ analysis
+script item
+
+script item
+
+script analysis
+
+move memory
+script item
+ items
+item index
+script item
+ sizeof
+script item
+ sizeof
+item limit
+script item
+char pos
+style limit
+translate offset
+ styles
+style index
+ start
+style limit
+item limit
+style index
+ start
+style limit
+item limit
+style limit
+item index
+ start
+item limit
+ item
+ length
+ start
+ item
+ start
+style item
+ item
+style item
+ item
+ start
+ end
+
+move memory
+script item
+ items
+item count
+script item
+ sizeof
+script item
+ sizeof
+ item
+ analysis
+script item
+
+ runs
+ count
+ item
+ runs
+ length
+ count
+style item
+ result
+style item
+ count
+ system
+ arraycopy
+ runs
+ result
+ count
+ result
+ runs
+style item
+ reorder
+style item
+ runs
+ length
+ runs
+ length
+ length
+ runs
+bidi levels
+ length
+
+
+ length
+
+bidi levels
+
+ runs
+
+ analysis
+
+bidi level
+style item
+last run
+ runs
+ length
+last run
+line break
+last run
+soft break
+bidi levels
+ length
+log 2vis
+ length
+
+script layout
+ length
+bidi levels
+log 2vis
+style item
+ result
+style item
+ length
+
+
+ length
+
+ result
+log 2vis
+
+ runs
+
+ orientation
+ swt
+right left
+
+
+ length
+
+style item
+ tmp
+ result
+
+ result
+
+ result
+ length
+
+ result
+ length
+
+ tmp
+ result
+set alignment
+ alignment
+check layout
+ mask
+ swt
+ left
+ swt
+ center
+ swt
+ right
+ alignment
+ mask
+ alignment
+ alignment
+ swt
+ left
+ alignment
+ swt
+ left
+ alignment
+ swt
+ right
+ alignment
+ swt
+ right
+ alignment
+ alignment
+set ascent
+ ascent
+check layout
+ ascent
+ swt
+ error
+ swt
+error invalid argument
+ ascent
+ ascent
+free runs
+ ascent
+ ascent
+set descent
+ descent
+check layout
+ descent
+ swt
+ error
+ swt
+error invalid argument
+ descent
+ descent
+free runs
+ descent
+ descent
+set font
+ font
+ font
+check layout
+ font
+ font
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ font
+ font
+ font
+ font
+ equals
+ font
+free runs
+ font
+ font
+set orientation
+ orientation
+check layout
+ mask
+ swt
+left right
+ swt
+right left
+ orientation
+ mask
+ orientation
+ orientation
+ swt
+left right
+ orientation
+ swt
+left right
+ orientation
+ orientation
+ orientation
+ orientation
+free runs
+set segments
+ segments
+check layout
+ segments
+ segments
+ segments
+ segments
+ segments
+ length
+ segments
+ length
+
+
+
+ segments
+ length
+
+ segments
+
+ segments
+
+
+ segments
+ length
+free runs
+ segments
+ segments
+set spacing
+ spacing
+check layout
+ spacing
+ swt
+ error
+ swt
+error invalid argument
+line spacing
+ spacing
+free runs
+line spacing
+ spacing
+set style
+text style
+ style
+ start
+ end
+check layout
+ length
+ text
+ length
+ length
+ start
+ end
+ start
+ math
+ min
+ math
+ max
+ start
+ length
+ end
+ math
+ min
+ math
+ max
+ end
+ length
+ low
+ high
+ styles
+ length
+ high
+ low
+ index
+ high
+ low
+ start
+ styles
+ index
+ start
+ high
+ index
+ low
+ index
+ high
+ high
+ styles
+ length
+style item
+ item
+ styles
+ high
+ item
+ start
+ start
+ styles
+ high
+ start
+ end
+ style
+ item
+ style
+ style
+ equals
+ item
+ style
+free runs
+ count
+
+style item
+new styles
+style item
+ styles
+ length
+
+
+ styles
+ length
+
+style item
+ item
+ styles
+
+ item
+ start
+ start
+new styles
+ count
+ item
+style item
+new item
+style item
+new item
+ start
+ start
+new item
+ style
+ style
+new styles
+ count
+new item
+ styles
+
+ start
+ end
+new item
+style item
+new item
+ start
+ end
+new item
+ style
+ styles
+
+ style
+new styles
+ count
+new item
+
+ styles
+ length
+
+style item
+ item
+ styles
+
+ item
+ start
+ end
+ end
+ styles
+
+ start
+
+ styles
+
+ start
+ end
+
+ styles
+ length
+
+style item
+ item
+ styles
+
+ item
+ start
+ end
+new styles
+ count
+ item
+new styles
+ length
+ count
+ styles
+style item
+ count
+ system
+ arraycopy
+new styles
+ styles
+ count
+ styles
+new styles
+set tabs
+ tabs
+check layout
+ tabs
+ tabs
+ tabs
+ tabs
+ tabs
+ length
+ tabs
+ length
+
+
+
+ tabs
+ length
+
+ tabs
+
+ tabs
+
+
+ tabs
+ length
+free runs
+ tabs
+ tabs
+set text
+ string
+ text
+check layout
+ text
+ swt
+ error
+ swt
+error null argument
+ text
+ equals
+ text
+free runs
+ text
+ text
+ styles
+style item
+ styles
+style item
+ styles
+style item
+ styles
+ start
+ text
+ length
+set width
+ width
+check layout
+ width
+ width
+ swt
+ error
+ swt
+error invalid argument
+wrap width
+ width
+free runs
+wrap width
+ width
+ shape
+ hdc
+style item
+ run
+ chars
+glyph count
+max glyphs
+
+
+script shape
+ hdc
+ run
+ psc
+ chars
+ chars
+ length
+max glyphs
+ run
+ analysis
+ run
+ glyphs
+ run
+ clusters
+ run
+vis attrs
+glyph count
+ run
+glyph count
+glyph count
+
+
+usp script not font
+script fontproperties
+
+script fontproperties
+
+ bytes
+script fontproperties
+ sizeof
+
+script get font properties
+ hdc
+ run
+ psc
+
+ glyphs
+glyph count
+
+move memory
+ glyphs
+ run
+ glyphs
+ glyphs
+ length
+
+
+
+ glyphs
+ length
+
+ glyphs
+
+
+ default
+
+ glyphs
+ length
+ run
+ psc
+
+script free cache
+ run
+ psc
+glyph count
+
+move memory
+ run
+ psc
+glyph count
+ run
+glyph count
+ shape
+ hdc
+style item
+ run
+ buffer
+ chars
+ run
+ length
+segments text
+get chars
+ run
+ start
+ run
+ start
+ run
+ length
+ chars
+max glyphs
+ chars
+ length
+ heap
+
+get process heap
+ run
+ glyphs
+
+heap alloc
+ heap
+
+heap zero memory
+max glyphs
+ run
+ clusters
+
+heap alloc
+ heap
+
+heap zero memory
+max glyphs
+ run
+vis attrs
+
+heap alloc
+ heap
+
+heap zero memory
+max glyphs
+script visattr sizeof
+ run
+ psc
+
+heap alloc
+ heap
+
+heap zero memory
+ shape
+ hdc
+ run
+ chars
+ buffer
+max glyphs
+lang font link
+code pages
+cch code pages
+
+vtbl call
+lang font link
+ chars
+ chars
+ length
+code pages
+cch code pages
+new font
+
+vtbl call
+lang font link
+ hdc
+code pages
+ chars
+new font
+
+
+ font
+
+select object
+ hdc
+new font
+ shape
+ hdc
+ run
+ chars
+ buffer
+max glyphs
+ run
+fallback font
+new font
+
+vtbl call
+lang font link
+new font
+
+select object
+ hdc
+ font
+
+script shape
+ hdc
+ run
+ psc
+ chars
+ chars
+ length
+max glyphs
+ run
+ analysis
+ run
+ glyphs
+ run
+ clusters
+ run
+vis attrs
+ buffer
+ run
+glyph count
+ buffer
+ abc
+ run
+ advances
+
+heap alloc
+ heap
+
+heap zero memory
+ run
+glyph count
+ run
+ goffsets
+
+heap alloc
+ heap
+
+heap zero memory
+ run
+glyph count
+goffset sizeof
+
+script place
+ hdc
+ run
+ psc
+ run
+ glyphs
+ run
+glyph count
+ run
+vis attrs
+ run
+ analysis
+ run
+ advances
+ run
+ goffsets
+ abc
+ run
+ width
+ abc
+ abc
+ abc
+ textmetric
+ lptm
+
+ unicode
+ textmetric
+ textmetricw
+ textmetrica
+
+get text metrics
+ hdc
+ lptm
+ run
+ ascent
+ lptm
+ ascent
+ run
+ descent
+ lptm
+ descent
+ run
+ leading
+ lptm
+internal leading
+validade offset
+ offset
+ step
+ offset
+ step
+ segments
+ segments
+ length
+
+
+ segments
+ length
+
+translate offset
+ segments
+
+ offset
+ offset
+ step
+ offset
+ string
+ string
+ disposed
+translate offset
+ offset
+ segments
+ offset
+ segments
+ segments
+ length
+ segments
+ offset
+ length
+ text
+ length
+ length
+ offset
+ segments
+ segments
+ segments
+ length
+ offset
+
+
+ segments
+ offset
+
+ segments
+
+
+ offset
+ offset
+untranslate offset
+ offset
+ segments
+ offset
+ segments
+ segments
+ length
+ segments
+ offset
+ length
+ text
+ length
+ length
+ offset
+ segments
+ segments
+ segments
+ length
+ offset
+
+
+ segments
+ offset
+ segments
+
+
+ offset
+ offset
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+code text layout  code  graphic  object  that  represents  styled  text  instances  this  class  provide  support  for  drawing  cursor  navigation  hit  testing  text  wrapping  alignment  tab  expansion  line  breaking  etc  these  are  aspects  required  for  rendering  internationalized  text  application  code  must  explicitly  invoke  the  code text layout  dispose  code  method  release  the  operating  system  resources  managed  each  instance  when  those  instances  are  longer  required  since 
+script  cache  and  analysis
+shape  info  malloc  when  the  run  shaped
+place  info  malloc  when  the  run  placed
+ script break
+ release font
+constructs  new  instance  this  class  the  given  device  you  must  dispose  the  text  layout  when  longer  required  param  device  the  device  which  allocate  the  text  layout  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  see  dispose
+non  nls 
+feature  windows  the  fallback  font  returned  the  lang  service  can  disposed  some  other  client  running  the  same  thread  for  example  disposing  browser  widget  internally  releases  all  fonts  the  lang  cache  the  fix  use get object  detect  the  font  was  disposed  and  reshape  the  run
+compute  the  runs  itemize  shape  place  and  reorder  the  runs  break  paragraphs  into  lines  wraps  the  text  and  initialize  caches
+bug  windows  for  some  reason  uniscribe  sets  the soft break  flag  for  the  first  letter  after  letter  with  accent  this  cause  break  line  set  the  middle  word  the  fix  detect  the  case  and  ignore soft break  forcing  the  algorithm  keep  searching
+update  the  run  metrics  the  last  run  hard  break
+disposes  the  operating  system  resources  associated  with  the  text  layout  applications  must  dispose  all  allocated  text  layouts
+  release
+draws  the  receiver  text  using  the  specified  the  specified  point  param  the  draw  param  the  coordinate  the  top  left  corner  the  rectangular  area  where  the  text  drawn  param  the  coordinate  the  top  left  corner  the  rectangular  area  where  the  text  drawn  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  exception illegal argument exception  error  null  argument  the  null 
+draws  the  receiver  text  using  the  specified  the  specified  point  param  the  draw  param  the  coordinate  the  top  left  corner  the  rectangular  area  where  the  text  drawn  param  the  coordinate  the  top  left  corner  the  rectangular  area  where  the  text  drawn  param selection start  the  offset  where  the  selections  starts  indicating  selection  param selection end  the  offset  where  the  selections  ends  indicating  selection  param selection foreground  selection  foreground  null  use  the  system  default  color  param selection background  selection  background  null  use  the  system  default  color  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  exception illegal argument exception  error  null  argument  the  null 
+returns  the  receiver  horizontal  text  alignment  which  will  one  code  swt  left  code  code  swt  center  code  code  swt  right  code  return  the  alignment  used  positioned  text  horizontally  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  ascent  the  receiver  return  the  ascent  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see get descent  see set descent  int  see set ascent  int  see get line metrics  int
+returns  the  bounds  the  receiver  return  the  bounds  the  receiver  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  bounds  for  the  specified  range  characters  the  bounds  the  smallest  rectangle  that  encompasses  all  characters  the  range  the  start  and  end  offsets  are  inclusive  and  will  clamped  out  range  param  start  the  start  offset  param  end  the  end  offset  return  the  bounds  the  character  range  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  descent  the  receiver  return  the  descent  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see get ascent  see set ascent  int  see set descent  int  see get line metrics  int
+returns  the  default  font  currently  being  used  the  receiver  draw  and  measure  text  return  the  receiver  font  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  embedding  level  for  the  specified  character  offset  the  embedding  level  usually  used  determine  the  directionality  character  bidirectional  text  param  offset  the  charecter  offset  return  the  embedding  level  exception illegal argument exception  error  invalid  argument  the  character  offset  out  range  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  bounds  the  line  for  the  specified  line  index  param line index  the  line  index  return  the  line  bounds  exception illegal argument exception  error  invalid  argument  the  line  index  out  range  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  receiver  line  count  this  includes  lines  caused  wrapping  return  the  line  count  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  index  the  line  that  contains  the  specified  character  offset  param  offset  the  character  offset  return  the  line  index  exception illegal argument exception  error  invalid  argument  the  character  offset  out  range  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  font  metrics  for  the  specified  line  index  param line index  the  line  index  return  the  font  metrics  exception illegal argument exception  error  invalid  argument  the  line  index  out  range  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  line  offsets  each  value  the  array  the  offset  for  the  first  character  line  except  for  the  last  value  which  contains  the  length  the  text  return  the  line  offsets  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  location  for  the  specified  character  offset  the  code  trailing  code  argument  indicates  whether  the  offset  corresponds  the  leading  trailing  edge  the  cluster  param  offset  the  character  offset  param  trailing  the  trailing  flag  return  the  location  the  character  offset  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see get offset  point  int  see get offset  int  int  int
+returns  the  next  offset  for  the  specified  offset  and  movement  type  the  movement  one  code  swt  movement  char  code  code  swt  movement  cluster  code  code  swt  movement  word  code  param  offset  the  start  offset  param  movement  the  movement  type  return  the  next  offset  exception illegal argument exception  error  invalid  argument  the  offset  out  range  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see get previous offset  int  int
+returns  the  character  offset  for  the  specified  point  for  typical  character  the  trailing  argument  will  filled  indicate  whether  the  point  closer  the  leading  edge  the  trailing  edge  when  the  point  over  cluster  composed  multiple  characters  the  trailing  argument  will  filled  with  the  position  the  character  the  cluster  that  closest  the  point  param  point  the  point  param  trailing  the  trailing  buffer  return  the  character  offset  exception illegal argument exception  error  invalid  argument  the  trailing  length  less  than  code  code  error  null  argument  the  point  null  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see get location  int  boolean
+returns  the  character  offset  for  the  specified  point  for  typical  character  the  trailing  argument  will  filled  indicate  whether  the  point  closer  the  leading  edge  the  trailing  edge  when  the  point  over  cluster  composed  multiple  characters  the  trailing  argument  will  filled  with  the  position  the  character  the  cluster  that  closest  the  point  param  the  coordinate  the  point  param  the  coordinate  the  point  param  trailing  the  trailing  buffer  return  the  character  offset  exception illegal argument exception  error  invalid  argument  the  trailing  length  less  than  code  code  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see get location  int  boolean
+returns  the  orientation  the  receiver  return  the  orientation  style  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  previous  offset  for  the  specified  offset  and  movement  type  the  movement  one  code  swt  movement  char  code  code  swt  movement  cluster  code  code  swt  movement  word  code  param  offset  the  start  offset  param  movement  the  movement  type  return  the  previous  offset  exception illegal argument exception  error  invalid  argument  the  offset  out  range  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see get next offset  int  int
+returns  the  text  segments  offsets  the  receiver  return  the  text  segments  offsets  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  line  spacing  the  receiver  return  the  line  spacing  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+gets  the  style  the  receiver  the  specified  character  offset  param  offset  the  text  offset  return  the  style  code  null  code  not  set  exception illegal argument exception  error  invalid  argument  the  character  offset  out  range  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  tab  list  the  receiver  return  the  tab  list  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+gets  the  receiver  text  which  will  empty  string  has  never  been  set  return  the  receiver  text  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  width  the  receiver  return  the  width  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  code  true  code  the  text  layout  has  been  disposed  and  code  false  code  otherwise  this  method  gets  the  dispose  state  for  the  text  layout  when  text  layout  has  been  disposed  error  invoke  any  other  method  using  the  text  layout  return  code  true  code  when  the  text  layout  disposed  and  code  false  code  otherwise
+itemize  the  receiver  text
+outofmemory  todo  handle 
+merge  styles  ranges  and  script  items
+reorder  the  run
+feature  windows  the  orientation  rtl  uniscribe  will  resolve  the  level  line  breaks  this  can  cause  the  line  break  reorder  the  middle  the  line  the  fix  set  the  level  zero  prevent  reordered
+sets  the  text  alignment  for  the  receiver  the  alignment  controls  how  line  text  positioned  horizontally  the  argument  should  one  code  swt  left  code  code  swt  right  code  code  swt  center  code  the  default  alignment  code  swt  left  code  note  that  the  receiver  width  must  set  order  use  code  swt  right  code  code  swt  center  code  alignment  param  alignment  the  new  alignment  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see set width  int
+sets  the  ascent  the  receiver  the  ascent  distance  pixels  from  the  baseline  the  top  the  line  and  applied  all  lines  the  default  value  code  code  which  means  that  the  ascent  calculated  from  the  line  fonts  param  ascent  the  new  ascent  exception illegal argument exception  error  invalid  argument  the  ascent  less  than  code  code  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see set descent  int  see get line metrics  int
+sets  the  descent  the  receiver  the  descent  distance  pixels  from  the  baseline  the  bottom  the  line  and  applied  all  lines  the  default  value  code  code  which  means  that  the  descent  calculated  from  the  line  fonts  param  descent  the  new  descent  exception illegal argument exception  error  invalid  argument  the  descent  less  than  code  code  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see set ascent  int  see get line metrics  int
+sets  the  default  font  which  will  used  the  receiver  draw  and  measure  text  the  argument  null  then  default  font  appropriate  for  the  platform  will  used  instead  note  that  text  style  can  override  the  default  font  param  font  the  new  font  for  the  receiver  null  indicate  default  font  exception illegal argument exception  error  invalid  argument  the  font  has  been  disposed  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+sets  the  orientation  the  receiver  which  must  one  code  swt  left  right  code  code  swt  right  left  code  param  orientation  new  orientation  style  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+sets  the  offsets  the  receiver  text  segments  text  segments  are  used  override  the  default  behaviour  the  bidirectional  algorithm  bidirectional  reordering  can  happen  within  text  segment  but  not  between  two  adjacent  segments  each  text  segment  determined  two  consecutive  offsets  the  code  segments  code  arrays  the  first  element  the  array  should  always  zero  and  the  last  one  should  always  equals  length  the  text  param  segments  the  text  segments  offset  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+sets  the  line  spacing  the  receiver  the  line  spacing  the  space  left  between  lines  param  spacing  the  new  line  spacing  exception illegal argument exception  error  invalid  argument  the  spacing  negative  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+sets  the  style  the  receiver  for  the  specified  range  styles  previously  set  for  that  range  will  overwritten  the  start  and  end  offsets  are  inclusive  and  will  clamped  out  range  param  style  the  style  param  start  the  start  offset  param  end  the  end  offset  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+sets  the  receiver  tab  list  each  value  the  tab  list  specifies  the  space  pixels  from  the  origin  the  text  layout  the  respective  tab  stop  the  last  tab  stop  width  repeated  continuously  param  tabs  the  new  tab  list  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+sets  the  receiver  text  param  text  the  new  text  exception illegal argument exception  error  null  argument  the  text  null  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+sets  the  line  width  the  receiver  which  determines  how  text  should  wrapped  and  aligned  the  default  value  code  code  which  means  wrapping  disabled  param  width  the  new  width  exception illegal argument exception  error  invalid  argument  the  width  code  code  less  than  code  code  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see set alignment  int
+generate  glyphs  for  one  run
+ get str code pages
+ map font
+ release font
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  receiver
+</comments>
+</text>
+</DOC>

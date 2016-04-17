@@ -1,0 +1,268 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.ControlEditor.java </DOCNO>
+<text>
+<class>
+control editor
+</class>
+<method>
+control editor
+handle event
+handle event
+compute bounds
+ dispose
+get editor
+ layout
+ resize
+ scroll
+set editor
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+control editor
+horizontal alignment
+ swt
+ center
+grab horizontal
+minimum width
+vertical alignment
+ swt
+ center
+grab vertical
+minimum height
+ composite
+ parent
+ control
+ editor
+had focus
+ listener
+table listener
+ listener
+scrollbar listener
+control editor
+ composite
+ parent
+ parent
+ parent
+table listener
+ listener
+handle event
+ event
+
+ resize
+ parent
+add listener
+ swt
+ resize
+table listener
+scrollbar listener
+ listener
+handle event
+ event
+
+ scroll
+
+scroll bar
+ bar
+ parent
+get horizontal bar
+ bar
+ bar
+add listener
+ swt
+ selection
+scrollbar listener
+scroll bar
+ bar
+ parent
+get vertical bar
+ bar
+ bar
+add listener
+ swt
+ selection
+scrollbar listener
+ rectangle
+compute bounds
+ rectangle
+client area
+ parent
+get client area
+ rectangle
+editor rect
+ rectangle
+client area
+
+client area
+
+minimum width
+minimum height
+grab horizontal
+editor rect
+ width
+ math
+ max
+client area
+ width
+minimum width
+grab vertical
+editor rect
+ height
+ math
+ max
+client area
+ height
+minimum height
+horizontal alignment
+ swt
+ right
+editor rect
+
+client area
+ width
+editor rect
+ width
+ swt
+ left
+editor rect
+
+client area
+ width
+editor rect
+ width
+vertical alignment
+ swt
+ bottom
+editor rect
+
+client area
+ height
+editor rect
+ height
+ swt
+ top
+editor rect
+
+client area
+ height
+editor rect
+ height
+editor rect
+ dispose
+ parent
+ disposed
+ parent
+remove listener
+ swt
+ resize
+table listener
+scroll bar
+ bar
+ parent
+get horizontal bar
+ bar
+ bar
+remove listener
+ swt
+ selection
+scrollbar listener
+scroll bar
+ bar
+ parent
+get vertical bar
+ bar
+ bar
+remove listener
+ swt
+ selection
+scrollbar listener
+ parent
+ editor
+had focus
+table listener
+scrollbar listener
+ control
+get editor
+ editor
+ layout
+ resize
+ resize
+ editor
+ editor
+ disposed
+ editor
+get visible
+had focus
+ editor
+focus control
+ editor
+set bounds
+compute bounds
+had focus
+ editor
+ editor
+ disposed
+ editor
+set focus
+ scroll
+ event
+
+ editor
+ editor
+ disposed
+ editor
+set bounds
+compute bounds
+set editor
+ control
+ editor
+ editor
+ editor
+ editor
+ editor
+ resize
+ editor
+ editor
+ disposed
+ editor
+set visible
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+control editor  manager  for  control  that  appears  above  composite  and  tracks  with  the  moving  and  resizing  that  composite  can  used  display  one  control  above  another  control  this  could  used  when  editing  control  that  does  not  have  editing  capabilities  using  text  editor  for  launching  dialog  placing  button  above  control  here  example  using control editor  code  pre  canvas  canvas  new  canvas  shell  swt  border  canvas set bounds  300  300  color  color  new  color  null  255  canvas set background  color control editor  editor  new control editor  canvas  the  editor  will  button  the  bottom  right  corner  the  canvas  when  selected  will  launch  color  dialog  that  will  change  the  background  the  canvas  button  button  new  button  canvas  swt  push  button set text  select  color  button add selection listener  new selection adapter  public  void widget selected selection event color dialog  dialog  new color dialog  shell  dialog  open  rgb  rgb  dialog get rgb  rgb  null  color  null  color  dispose  color  new  color  null  rgb  canvas set background  color  editor horizontal alignment  swt  right  editor vertical alignment  swt  bottom  editor grab horizontal  false  editor grab vertical  false  point  size  button compute size  swt  default  swt  default  editor minimum width  size  editor minimum height  size  editor set editor  button  pre  code
+specifies  how  the  editor  should  aligned  relative  the  control  allowed  values  are  swt  left  swt  right  and  swt  center  the  default  value  swt  center
+specifies  whether  the  editor  should  sized  use  the  entire  width  the  control  true  means  resize  the  editor  the  same  width  the  cell  false  means  not  adjust  the  width  the  editor  the  default  value  false
+specifies  the  minimum  width  the  editor  can  have  this  used  association  with  true  value grab horizontal  the  cell  becomes  smaller  than  the minimum width  the  editor  will  not  made  smaller  than  the  minumum  width  value  the  default  value 
+specifies  how  the  editor  should  aligned  relative  the  control  allowed  values  are  swt  top  swt  bottom  and  swt  center  the  default  value  swt  center
+specifies  whether  the  editor  should  sized  use  the  entire  height  the  control  true  means  resize  the  editor  the  same  height  the  underlying  control  false  means  not  adjust  the  height  the  editor  the  default  value  false
+specifies  the  minimum  height  the  editor  can  have  this  used  association  with  true  value grab vertical  the  control  becomes  smaller  than  the minimum height  the  editor  will  not  made  smaller  than  the  minumum  height  value  the  default  value 
+creates control editor  for  the  specified  composite  param  parent  the  composite  above  which  this  editor  will  displayed
+nothing client area  the  right  answer
+default  center
+nothing client area  the  right  answer
+default  center
+removes  all  associations  between  the  editor  and  the  underlying  composite  the  composite  and  the  editor  control  are  not  disposed
+returns  the  control  that  displayed  above  the  composite  being  edited  return  the  control  that  displayed  above  the  composite  being  edited
+lays  out  the  control  within  the  underlying  composite  this  method  should  called  after  changing  one  more  fields  force  the  editor  resize  since 
+this  doesn  work  because
+resizing  the  column  takes  the  focus  away
+before  get  here
+specify  the  control  that  displayed  note  the  control  provided  the  editor  must  created  with  its  parent  being  the  composite  specified  the control editor  constructor  param  editor  the  control  that  displayed  above  the  composite  being  edited
+this  the  case  where  the  caller  setting  the  editor  blank
+set  all  the  values  accordingly
+</comments>
+</text>
+</DOC>

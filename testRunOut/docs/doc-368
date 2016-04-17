@@ -1,0 +1,415 @@
+<DOC>
+<DOCNO>org.eclipse.swt.layout.FillLayout.java </DOCNO>
+<text>
+<class>
+fill layout
+</class>
+<method>
+fill layout
+fill layout
+compute size
+compute child size
+flush cache
+get name
+ layout
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ layout
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+fill layout
+ layout
+ type
+ swt
+ horizontal
+margin width
+margin height
+ spacing
+fill layout
+fill layout
+ type
+ type
+ type
+ point
+compute size
+ composite
+ composite
+ hint
+ hint
+flush cache
+ control
+ children
+ composite
+get children
+ count
+ children
+ length
+max width
+max height
+
+
+ count
+
+ control
+ child
+ children
+
+
+ hint
+
+ hint
+ count
+ type
+ swt
+ horizontal
+ hint
+ swt
+ default
+
+ math
+ max
+ hint
+ count
+ spacing
+ count
+ type
+ swt
+ vertical
+ hint
+ swt
+ default
+
+ math
+ max
+ hint
+ count
+ spacing
+ count
+ point
+ size
+compute child size
+ child
+
+
+flush cache
+max width
+ math
+ max
+max width
+ size
+
+max height
+ math
+ max
+max height
+ size
+
+ width
+ height
+ type
+ swt
+ horizontal
+ width
+ count
+max width
+ count
+ width
+ count
+ spacing
+ height
+max height
+ width
+max width
+ height
+ count
+max height
+ count
+ height
+ count
+ spacing
+ width
+margin width
+ height
+margin height
+ hint
+ swt
+ default
+ width
+ hint
+ hint
+ swt
+ default
+ height
+ hint
+ point
+ width
+ height
+ point
+compute child size
+ control
+ control
+ hint
+ hint
+flush cache
+fill data
+ data
+fill data
+ control
+get layout data
+ data
+ data
+fill data
+ control
+set layout data
+ data
+ point
+ size
+ hint
+ swt
+ default
+ hint
+ swt
+ default
+ size
+ data
+compute size
+ control
+ hint
+ hint
+flush cache
+ trim
+ trim
+ control
+ scrollable
+ rectangle
+ rect
+ scrollable
+ control
+compute trim
+ trim
+ rect
+ width
+ trim
+ rect
+ height
+ trim
+ trim
+ control
+get border width
+
+ hint
+ swt
+ default
+ hint
+ math
+ max
+ hint
+ trim
+
+ hint
+ swt
+ default
+ hint
+ math
+ max
+ hint
+ trim
+ size
+ data
+compute size
+ control
+
+
+flush cache
+ size
+flush cache
+ control
+ control
+ object
+ data
+ control
+get layout data
+ data
+fill data
+ data
+flush cache
+ string
+get name
+ string
+ string
+get class
+get name
+ index
+ string
+last index
+ index
+ string
+ string
+ substring
+ index
+ string
+ length
+ layout
+ composite
+ composite
+flush cache
+ rectangle
+ rect
+ composite
+get client area
+ control
+ children
+ composite
+get children
+ count
+ children
+ length
+ count
+ width
+ rect
+ width
+margin width
+ height
+ rect
+ height
+margin height
+ type
+ swt
+ horizontal
+ width
+ count
+ spacing
+
+ rect
+
+margin width
+ extra
+ width
+ count
+
+ rect
+
+margin height
+cell width
+ width
+ count
+
+
+ count
+
+ control
+ child
+ children
+
+child width
+cell width
+
+child width
+ extra
+
+ count
+child width
+ extra
+ child
+set bounds
+
+
+child width
+ height
+
+child width
+ spacing
+ height
+ count
+ spacing
+
+ rect
+
+margin width
+cell height
+ height
+ count
+
+ rect
+
+margin height
+ extra
+ height
+ count
+
+
+ count
+
+ control
+ child
+ children
+
+child height
+cell height
+
+child height
+ extra
+
+ count
+child height
+ extra
+ child
+set bounds
+
+
+ width
+child height
+
+child height
+ spacing
+ string
+ string
+ string
+ string
+get name
+ string
+ type
+ swt
+ vertical
+margin width
+ string
+margin width
+margin height
+ string
+margin height
+ spacing
+ string
+ spacing
+ string
+ string
+ trim
+ string
+ string
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+code fill layout  code  the  simplest  layout  class  lays  out  controls  single  row  column  forcing  them  the  same  size  initially  the  controls  will  all  tall  the  tallest  control  and  wide  the  widest  code fill layout  code  does  not  wrap  but  you  can  specify  margins  and  spacing  you  might  use  lay  out  buttons  task  bar  tool  bar  stack  checkboxes  code  group  code  code fill layout  code  can  also  used  when  code  composite  code  only  has  one  child  for  example  code  shell  code  has  single  code  group  code  child  code fill layout  code  will  cause  the  code  group  code  completely  fill  the  code  shell  code  margins  are  example  code  first  code fill layout  code  created  and  its  type  field  set  and  then  the  layout  set  into  the  code  composite  code  note  that  code fill layout  code  children  are  always  the  same  size  and  they  fill  all  available  space  pre fill layout fill layout  new fill layout fill layout  type  swt  vertical  shell set layout fill layout  pre 
+type  specifies  how  controls  will  positioned  within  the  layout  the  default  value  horizontal  possible  values  are  horizontal  position  the  controls  horizontally  from  left  right  vertical  position  the  controls  vertically  from  top  bottom 
+margin width  specifies  the  number  pixels  horizontal  margin  that  will  placed  along  the  left  and  right  edges  the  layout  the  default  value  since 
+margin height  specifies  the  number  pixels  vertical  margin  that  will  placed  along  the  top  and  bottom  edges  the  layout  the  default  value  since 
+spacing  specifies  the  number  pixels  between  the  edge  one  cell  and  the  edge  its  neighbouring  cell  the  default  value  since 
+constructs  new  instance  this  class
+constructs  new  instance  this  class  given  the  type  param  type  the  type  fill  layout  since 
+temporary  code
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
+</comments>
+</text>
+</DOC>

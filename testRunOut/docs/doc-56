@@ -1,0 +1,121 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.BusyIndicator.java </DOCNO>
+<text>
+<class>
+busy indicator
+</class>
+<method>
+show while
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+busy indicator
+next busy
+ string
+busyid name
+ string
+busy cursor
+show while
+ display
+ display
+ runnable
+ runnable
+ runnable
+ swt
+ error
+ swt
+error null argument
+ display
+ display
+ display
+get current
+ display
+ runnable
+ run
+ integer
+ busy
+ integer
+next busy
+next busy
+ cursor
+ cursor
+ display
+get system cursor
+ swt
+cursor wait
+ shell
+ shells
+ display
+get shells
+
+
+ shells
+ length
+
+ integer
+
+ integer
+ shells
+
+get data
+busyid name
+
+ shells
+
+set cursor
+ cursor
+ shells
+
+set data
+busyid name
+ busy
+ runnable
+ run
+ shells
+ display
+get shells
+
+
+ shells
+ length
+
+ integer
+
+ integer
+ shells
+
+get data
+busyid name
+
+ busy
+ shells
+
+set cursor
+ shells
+
+set data
+busyid name
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+support  for  showing  busy  cursor  during  long  running  process
+non  nls 
+non  nls 
+runs  the  given  code  runnable  code  while  providing  busy  feedback  using  this  busy  indicator  param  display  the  display  which  the  busy  feedback  should  displayed  the  display  null  the  display  for  the  current  thread  will  used  there  display  for  the  current  thread  the  runnable  code  will  executed  and  busy  feedback  will  displayed  param  runnable  the  runnable  for  which  busy  feedback  shown  must  not  null  exception illegal argument exception  error  null  argument  the  runnable  null  see show while
+</comments>
+</text>
+</DOC>

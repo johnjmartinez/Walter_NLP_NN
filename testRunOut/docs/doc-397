@@ -1,0 +1,75 @@
+<DOC>
+<DOCNO>org.eclipse.swt.dnd.Transfer.java </DOCNO>
+<text>
+<class>
+ transfer
+</class>
+<method>
+get supported types
+supported type
+get type ids
+get type names
+java native
+native java
+register type
+ validate
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ dnd
+ org
+ eclipse
+ swt
+ internal
+ win
+ transfer
+transfer data
+get supported types
+supported type
+transfer data
+transfer data
+get type ids
+ string
+get type names
+java native
+ object
+ object
+transfer data
+transfer data
+ object
+native java
+transfer data
+transfer data
+register type
+ string
+format name
+ tchar
+format name
+ tchar
+format name
+
+register clipboard format
+format name
+ validate
+ object
+ object
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+code  transfer  code  provides  mechanism  for  converting  between  java  representation  data  and  platform  specific  representation  data  and  vice  versa  used  data  transfer  operations  such  drag  and  drop  and  clipboard  copy  paste  you  should  only  need  become  familiar  with  this  class  you  are  implementing  transfer  subclass  and  you  are  unable  subclass  the byte array transfer  class  see byte array transfer
+returns  list  the  platform  specific  data  types  that  can  converted  using  this  transfer  agent  only  the  data  type  fields  the  code transfer data  code  objects  are  filled  return  list  the  data  types  that  can  converted  using  this  transfer  agent
+returns  true  the  code transfer data  code  data  type  can  converted  using  this  transfer  agent  false  otherwise  including transfer data  code  null  code  param transfer data  platform  specific  description  data  type  only  the  data  type  fields  the  code transfer data  code  object  need  filled  return  true  the transfer data  data  type  can  converted  using  this  transfer  agent
+returns  the  platform  specfic  ids  the  data  types  that  can  converted  using  this  transfer  agent  return  the  platform  specfic  ids  the  data  types  that  can  converted  using  this  transfer  agent
+returns  the  platform  specfic  names  the  data  types  that  can  converted  using  this  transfer  agent  return  the  platform  specfic  names  the  data  types  that  can  converted  using  this  transfer  agent
+converts  java  representation  data  platform  specific  representation  the  data  successful  conversion  the transfer data  result  field  will  set  follows  windows  com  motif  gtk  photon  this  transfer  agent  unable  perform  the  conversion  the transfer data  result  field  will  set  failure  value  follows  windows  com  tymed  com  fail  motif  gtk  photon  param  object  java  representation  the  data  converted  the  type  object  that  passed  dependant  the  code  transfer  code  subclass  param transfer data  empty transfer data  object  this  object  will  filled  return  with  the  platform  specific  representation  the  data  exception  org  eclipse  swt swt exception  error  invalid  data  object  does  not  contain  data  valid  format  code  null  code 
+converts  platform  specific  representation  data  java  representation  param transfer data  the  platform  specific  representation  the  data  converted  return  java  representation  the  converted  data  the  conversion  was  successful  otherwise  null transfer data  code  null  code  then  code  null  code  returned  the  type  object  that  returned  dependant  the  code  transfer  code  subclass
+registers  name  for  data  type  and  returns  the  associated  unique  identifier  you  may  register  the  same  type  more  than  once  the  same  unique  identifier  will  returned  the  type  has  been  previously  registered  note  windows  not  call  this  method  with  pre  defined  clipboard  format  types  such  text  bitmap  because  the  pre  defined  identifier  will  not  returned  param format name  the  name  data  type  return  the  unique  identifier  associated  with  this  data  type
+look  name  the  registry
+name  not  registry  add  and  return  assigned  value
+name  already  exists  registry  return  its  assigned  value
+test  that  the  object  the  correct  format  for  this  transfer  class  param  object  java  representation  the  data  converted  return  true  object  the  correct  form  for  this  transfer  type  since 
+</comments>
+</text>
+</DOC>

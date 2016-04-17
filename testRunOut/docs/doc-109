@@ -1,0 +1,139 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.TIFFFileFormat.java </DOCNO>
+<text>
+<class>
+tiff file format
+</class>
+<method>
+file format
+load from byte stream
+unload into byte stream
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ java
+
+tiff file format
+file format
+file format
+data input stream
+ stream
+ header
+ stream
+ read
+ header
+ stream
+ unread
+ header
+ header
+ header
+ header
+ header
+ header
+ header
+ header
+ header
+ exception
+
+image data
+load from byte stream
+ header
+little endian
+image data
+ images
+image data
+tiff random file access
+ file
+tiff random file access
+input stream
+ file
+ read
+ header
+ header
+ header
+ swt
+ error
+ swt
+error invalid image
+ header
+ header
+ header
+ header
+ header
+ header
+ swt
+ error
+ swt
+error invalid image
+little endian
+ header
+ offset
+little endian
+ header
+ header
+ header
+ header
+ header
+ header
+ header
+ header
+ file
+ seek
+ offset
+tiff directory
+ directory
+tiff directory
+ file
+little endian
+ loader
+image data
+ image
+ directory
+ read
+ images
+image data
+ image
+ exception
+
+ swt
+ error
+ swt
+ error
+
+ images
+unload into byte stream
+image data
+ image
+tiff directory
+ directory
+tiff directory
+ image
+ directory
+write stream
+output stream
+ exception
+
+ swt
+ error
+ swt
+ error
+
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+baseline  tiff  decoder  revision  extension  encoding  ccitt 
+baseline  reader  only  expected  read  the  first  directory
+</comments>
+</text>
+</DOC>

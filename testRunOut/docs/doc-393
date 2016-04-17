@@ -1,0 +1,159 @@
+<DOC>
+<DOCNO>org.eclipse.swt.dnd.DND.java </DOCNO>
+<text>
+<class>
+ dnd
+</class>
+<method>
+ error
+ error
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ dnd
+ org
+ eclipse
+ swt
+ dnd
+ clipboard
+selection clipboard
+drop none
+drop copy
+drop move
+drop link
+drop target move
+drop default
+drag end
+drag set data
+drag enter
+drag leave
+drag over
+drag operation changed
+ drop
+drop accept
+drag start
+feedback none
+feedback select
+feedback insert before
+feedback insert after
+feedback scroll
+feedback expand
+error cannot init drag
+error cannot init drop
+error cannot set clipboard
+error invalid data
+ string
+init drag message
+ string
+init drop message
+ string
+cannot set clipboard message
+ string
+invalid data message
+ error
+ code
+ error
+ code
+ error
+ code
+ hresult
+ code
+ dnd
+error cannot init drag
+ string
+ msg
+ dnd
+init drag message
+ hresult
+ msg
+ hresult
+swt error
+ code
+ msg
+ dnd
+error cannot init drop
+ string
+ msg
+ dnd
+init drop message
+ hresult
+ msg
+ hresult
+swt error
+ code
+ msg
+ dnd
+error cannot set clipboard
+ string
+ msg
+ dnd
+cannot set clipboard message
+ hresult
+ msg
+ hresult
+swt error
+ code
+ msg
+ dnd
+error invalid data
+ string
+ msg
+ dnd
+invalid data message
+ hresult
+ msg
+ hresult
+swt exception
+ code
+ msg
+ swt
+ error
+ code
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+class  dnd  contains  all  the  constants  used  defining drag source drop target
+the  transfer  mechanism  for  data  that  being  cut  and  then  pasted  copied  and  then  pasted  value  see  clipboard  since 
+the  transfer  mechanism  for  clients  that  use  the  selection  mechanism  value  see  clipboard  since 
+drag  and  drop  operation  drag  drop  operation  performed  value 
+drag  and  drop  operation  copy  the  data  the  drag  source  added  the  drop  target  value 
+drag  and  drop  operation  copy  the  data  added  the  drop  target  and  the  original  data  removed  from  the  drag  source  value 
+drag  and  drop  operation  the  drop  target  makes  link  the  data  the  drag  source  value 
+drag  and  drop  operation  the  drop  target  moves  the  data  and  the  drag  source  removes  any  references  the  data  and  updates  its  display  this  not  available  all  platforms  and  only  used  when  non  swt  application  the  drop  target  this  case  the  swt  drag  source  informed  the drag finished  event  that  the  drop  target  has  moved  the  data  value  see drag source listener drag finished
+drag  and  drop  operation  during drag enter  event drag operation changed  modifier  keys  are  pressed  the  operation  set  drop  default  the  application  can  choose  what  the  default  operation  should  setting  new  value  the  operation  field  value  choosen  the  default  operation  for  the  platform  will  selected  value  see drop target listener drag enter  see drop target listener drag operation changed  since 
+drag source  event  the  drop  has  successfully  completed  has  been  terminated  such  hitting  the  esc  key  perform  cleanup  such  removing  data  move  operation  value  2000
+drag source  event  the  data  dropped  required  from  the  drag  source  value  2001
+drop target  event  the  cursor  has  entered  the  drop  target  boundaries  value  2002
+drop target  event  the  cursor  has  left  the  drop  target  boundaries  the  drop  operation  has  been  cancelled  such  hitting  ecs  the  drop  about  happen  user  has  released  the  mous  ebutotn  over  this  target  value  2003
+drop target  event  the  cursor  over  the  drop  target  value  2004
+drop target  event  the  operation  being  performed  has  changed  usually  due  the  user  changing  the  selected  modifier  keys  while  dragging  value  2005
+drop target  event  the  data  has  been  dropped  value  2006
+drop target  event  the  drop  target  given  last  chance  modify  the  drop  value  2007
+drag source  event  drag  about  begin  value  2008
+drop target  drag  under  effect  effect  shown  value 
+drop target  drag  under  effect  the  item  under  the  cursor  selected  applies  tables  and  trees  value 
+drop target  drag  under  effect  insertion  mark  shown  before  the  item  under  the  cursor  applies  trees  value 
+drop target  drag  under  effect  insertion  mark  shown  after  the  item  under  the  cursor  applies  trees  value 
+drop target  drag  under  effect  the  widget  scrolled  down  allow  the  user  drop  items  that  are  not  currently  visible  applies  tables  and  trees  value 
+drop target  drag  under  effect  the  item  currently  under  the  cursor  expanded  allow  the  user  select  drop  target  from  sub  item  applies  trees  value 
+error  code  drag  source  can  not  initialized  value  2000
+error  code  drop  target  cannot  initialized  value  2001
+error  code  data  can  not  set  system  clipboard  value  2002
+error  code  data  does  not  have  correct  format  for  type  value  2003  since 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+throws  appropriate  exception  based  the  passed  error  code  param  code  the  dnd  error  code
+throws  appropriate  exception  based  the  passed  error  code  the  code  hresult  code  argument  should  either  the  platform  specific  error  code  dnd  errors  are  reported  throwing  one  three  exceptions  java  lang illegal argument exception  thrown  whenever  one  the  api  methods  invoked  with  illegal  argument  org  eclipse  swt swt exception  extends  java  lang runtime exception  thrown  whenever  recoverable  error  happens  internally  swt  org  eclipse  swt swt error  extends  java  lang  error  thrown  whenever  non  recoverable  error  happens  internally  swt  this  method  provides  the  logic  which  maps  between  error  codes  and  one  the  above  exceptions  param  code  the  dnd  error  code  param  hresult  the  platform  specific  error  code  see swt error  see swt exception  see illegal argument exception
+failure  limit  fatal  may  occur  only  some  platforms
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+unknown  undefined  error
+</comments>
+</text>
+</DOC>

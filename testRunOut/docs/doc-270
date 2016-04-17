@@ -1,0 +1,41 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.win32.MENUITEMINFO.java </DOCNO>
+<text>
+<class>
+ menuiteminfo
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ win
+ menuiteminfo
+ size
+ mask
+ type
+ state
+
+sub menu
+hbmp checked
+hbmp unchecked
+item data
+type data
+ cch
+hbmp item
+ sizeof
+ sizeof
+
+win 32_ version
+
+ version
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+feature  windows  the hbmp item  field  requires  windows  greater  windows  passing  larger  struct  size  the  size  field  does  nothing  windows  the  menuiteminfo  calls  fail  when  the  struct  size  too  large  the  fix  ensure  that  the  correct  struct  size  used  for  the  windows  platform
+</comments>
+</text>
+</DOC>

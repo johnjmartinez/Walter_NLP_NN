@@ -1,0 +1,216 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.TIFFRandomFileAccess.java </DOCNO>
+<text>
+<class>
+tiff random file access
+</class>
+<method>
+tiff random file access
+ seek
+ read
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+ java
+
+tiff random file access
+data input stream
+input stream
+ start
+ current
+ next
+ buffers
+chunk size
+list size
+tiff random file access
+data input stream
+ stream
+input stream
+ stream
+ start
+ current
+ next
+input stream
+get position
+ buffers
+list size
+ seek
+ pos
+ exception
+ pos
+ current
+ pos
+ start
+ exception
+ current
+ pos
+ current
+ next
+
+ current
+ next
+ index
+ next
+chunk size
+ offset
+ next
+chunk size
+
+ index
+ buffers
+ length
+old buffers
+ buffers
+ buffers
+ math
+ max
+ index
+old buffers
+ length
+list size
+ system
+ arraycopy
+old buffers
+ buffers
+old buffers
+ length
+ buffers
+ index
+ buffers
+ index
+chunk size
+ cnt
+input stream
+ read
+ buffers
+ index
+ offset
+ math
+ min
+
+chunk size
+ offset
+
+ cnt
+ next
+ cnt
+ index
+ offset
+ read
+
+ exception
+ size
+
+ length
+ cached
+ math
+ min
+ size
+ next
+ current
+ missing
+ size
+ next
+ current
+dest next
+ cached
+ index
+ current
+chunk size
+ offset
+ current
+chunk size
+ cached
+ cnt
+ math
+ min
+ cached
+chunk size
+ offset
+ system
+ arraycopy
+ buffers
+ index
+ offset
+
+dest next
+ cnt
+ cached
+ cnt
+dest next
+ cnt
+ index
+ offset
+ missing
+ index
+ next
+chunk size
+ offset
+ next
+chunk size
+ missing
+ index
+ buffers
+ length
+old buffers
+ buffers
+ buffers
+ math
+ max
+ index
+old buffers
+ length
+list size
+ system
+ arraycopy
+old buffers
+ buffers
+old buffers
+ length
+ buffers
+ index
+ buffers
+ index
+chunk size
+ cnt
+input stream
+ read
+ buffers
+ index
+ offset
+ math
+ min
+ missing
+chunk size
+ offset
+ system
+ arraycopy
+ buffers
+ index
+ offset
+
+dest next
+ cnt
+ missing
+ cnt
+ next
+ cnt
+dest next
+ cnt
+ index
+ offset
+ current
+ size
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+store  required  bytes
+get  cached  bytes
+read  required  bytes
+</comments>
+</text>
+</DOC>

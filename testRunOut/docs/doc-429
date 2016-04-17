@@ -1,0 +1,648 @@
+<DOC>
+<DOCNO>org.eclipse.swt.printing.Printer.java </DOCNO>
+<text>
+<class>
+ printer
+</class>
+<method>
+get printer list
+get default printer data
+check null
+ printer
+ printer
+ create
+internal _new
+internal _dispose
+start job
+end job
+cancel job
+start page
+end page
+get dpi
+get bounds
+get client area
+compute trim
+get printer data
+check device
+ release
+ destroy
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ printing
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+ win
+ printer
+ device
+ handle
+printer data
+ data
+ created
+ tchar
+ profile
+ tchar
+app name
+ tchar
+key name
+ profile
+ tchar
+app name
+ tchar
+key name
+ tchar
+printer data
+get printer list
+ length
+ tchar
+ buf
+ tchar
+ length
+ tchar
+null buf
+ tchar
+
+
+get profile string
+ profile
+null buf
+ buf
+ length
+
+printer data
+ string
+device names
+ string
+name count
+ index
+
+
+
+
+ buf
+ tchar
+
+name count
+device names
+ length
+ string
+new names
+ string
+device names
+ length
+ system
+ arraycopy
+device names
+new names
+device names
+ length
+device names
+new names
+device names
+name count
+ buf
+ string
+ index
+
+ index
+name count
+ index
+
+printer data
+printer list
+printer data
+name count
+
+
+name count
+
+ string
+ device
+device names
+
+ string
+ driver
+
+get profile string
+ profile
+ tchar
+ device
+null buf
+ buf
+ length
+comma index
+ buf
+ tchar
+comma index
+comma index
+ length
+comma index
+comma index
+ length
+ driver
+ buf
+ string
+comma index
+printer list
+
+printer data
+ driver
+ device
+printer list
+printer data
+get default printer data
+ string
+device name
+ length
+ tchar
+ buf
+ tchar
+ length
+ tchar
+null buf
+ tchar
+
+
+get profile string
+app name
+key name
+null buf
+ buf
+ length
+
+comma index
+ buf
+ tchar
+comma index
+comma index
+ length
+comma index
+comma index
+ length
+device name
+ buf
+ string
+comma index
+ string
+ driver
+
+get profile string
+ profile
+ tchar
+device name
+null buf
+ buf
+ length
+comma index
+ buf
+ tchar
+comma index
+comma index
+ length
+comma index
+comma index
+ length
+ driver
+ buf
+ string
+comma index
+printer data
+ driver
+device name
+device data
+check null
+printer data
+ data
+ data
+ data
+printer data
+ data
+ driver
+ data
+ name
+printer data
+default printer
+get default printer data
+default printer
+ swt
+ error
+ swt
+error handles
+ data
+ driver
+default printer
+ driver
+ data
+ name
+default printer
+ name
+ data
+ printer
+ printer
+printer data
+ data
+check null
+ data
+ create
+device data
+device data
+ data
+printer data
+device data
+ tchar
+ driver
+ tchar
+ data
+ driver
+ tchar
+ device
+ tchar
+ data
+ name
+init data
+ buffer
+ data
+other data
+ heap
+
+get process heap
+ buffer
+ buffer
+ length
+init data
+
+heap alloc
+ heap
+
+heap zero memory
+ buffer
+ length
+
+move memory
+init data
+ buffer
+ buffer
+ length
+ handle
+
+ create
+ driver
+ device
+init data
+init data
+
+heap free
+ heap
+init data
+ handle
+ swt
+ error
+ swt
+error handles
+internal _new
+ data
+ data
+ handle
+ swt
+ error
+ swt
+error handles
+ data
+ created
+ swt
+ error
+ swt
+error invalid argument
+ mask
+ swt
+left right
+ swt
+right left
+ data
+ style
+ mask
+ data
+ layout
+ data
+ style
+ swt
+right left
+
+layout rtl
+ data
+ style
+ swt
+left right
+ data
+ device
+ data
+ font
+
+get current object
+ handle
+
+obj font
+ created
+ handle
+internal _dispose
+
+ data
+ data
+ data
+ created
+start job
+ string
+job name
+check device
+ docinfo
+
+ docinfo
+
+ size
+ docinfo
+ sizeof
+ heap
+
+get process heap
+lpsz doc name
+job name
+job name
+ length
+ tchar
+ buffer
+ tchar
+job name
+byte count
+ buffer
+ length
+ tchar
+ sizeof
+lpsz doc name
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+lpsz doc name
+ buffer
+byte count
+
+lpsz doc name
+lpsz doc name
+lpsz output
+ data
+print file
+ data
+file name
+ tchar
+ buffer
+ tchar
+ data
+file name
+byte count
+ buffer
+ length
+ tchar
+ sizeof
+lpsz output
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+lpsz output
+ buffer
+byte count
+
+lpsz output
+lpsz output
+
+
+start doc
+ handle
+
+lpsz doc name
+
+heap free
+ heap
+lpsz doc name
+lpsz output
+
+heap free
+ heap
+lpsz output
+
+end job
+check device
+
+end doc
+ handle
+cancel job
+check device
+
+abort doc
+ handle
+start page
+check device
+
+
+start page
+ handle
+
+
+abort doc
+ handle
+
+end page
+check device
+
+end page
+ handle
+ point
+get dpi
+check device
+ dpi
+
+get device caps
+ handle
+
+ logpixelsx
+ dpi
+
+get device caps
+ handle
+
+ logpixelsy
+ point
+ dpi
+ dpi
+ rectangle
+get bounds
+check device
+ width
+
+get device caps
+ handle
+
+ physicalwidth
+ height
+
+get device caps
+ handle
+
+ physicalheight
+ rectangle
+ width
+ height
+ rectangle
+get client area
+check device
+ width
+
+get device caps
+ handle
+
+ horzres
+ height
+
+get device caps
+ handle
+
+ vertres
+ rectangle
+ width
+ height
+ rectangle
+compute trim
+
+
+ width
+ height
+check device
+ print
+
+get device caps
+ handle
+
+ physicaloffsetx
+ print
+
+get device caps
+ handle
+
+ physicaloffsety
+print width
+
+get device caps
+ handle
+
+ horzres
+print height
+
+get device caps
+ handle
+
+ vertres
+paper width
+
+get device caps
+ handle
+
+ physicalwidth
+paper height
+
+get device caps
+ handle
+
+ physicalheight
+ trim
+paper width
+print width
+ trim
+paper height
+print height
+ rectangle
+
+ print
+
+ print
+ width
+ trim
+ height
+ trim
+printer data
+get printer data
+ data
+check device
+ handle
+ swt
+ error
+ swt
+error device disposed
+ release
+ release
+ data
+ destroy
+ handle
+
+ delete
+ handle
+ handle
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  used  print  printer  applications  create  printer  using  code  new  printer  code  and  then  draw  the  printer  using  the  usual  graphics  calls  code  printer  code  object  may  constructed  providing  code printer data  code  object  which  identifies  the  printer  code print dialog  code  presents  print  dialog  the  user  and  returns  initialized  instance  code printer data  code  alternatively  calling  code  new  printer  code  will  construct  printer  object  for  the  user  default  printer  application  code  must  explicitly  invoke  the  code  printer  dispose  code  method  release  the  operating  system  resources  managed  each  instance  when  those  instances  are  longer  required  see printer data  see print dialog
+the  handle  the  printer  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code 
+the  printer  data  describing  this  printer
+whether  not  was  created  for  this  printer
+strings  used  access  the  windows  registry
+non  nls 
+non  nls 
+non  nls 
+returns  array  code printer data  code  objects  representing  all  available  printers  return  the  list  available  printers
+use  the  character  encoding  for  the  default  locale
+non  nls 
+returns  code printer data  code  object  representing  the  default  printer  code  null  code  there  printer  available  the  system  return  the  default  printer  data  null  since 
+use  the  character  encoding  for  the  default  locale
+non  nls 
+constructs  new  printer  representing  the  default  printer  you  must  dispose  the  printer  when  longer  required  exception swt error  error  handles  there  are  valid  printers  see  device  dispose
+constructs  new  printer  given  code printer data  code  object  representing  the  desired  printer  you  must  dispose  the  printer  when  longer  required  param  data  the  printer  data  for  the  specified  printer  exception illegal argument exception  error  invalid  argument  the  specified  printer  data  does  not  represent  valid  printer  exception swt error  error  handles  there  are  valid  printers  see  device  dispose
+creates  the  printer  handle  this  method  called  internally  the  instance  creation  mechanism  the  code  device  code  class  param device data  the  device  data
+use  the  character  encoding  for  the  default  locale
+invokes  platform  specific  functionality  allocate  new  handle  important  this  method  not  part  the  public  api  for  code  printer  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  data  the  platform  specific  data  return  the  platform  specific  handle
+invokes  platform  specific  functionality  dispose  handle  important  this  method  not  part  the  public  api  for  code  printer  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  the  platform  specific  handle  param  data  the  platform  specific  data
+starts  print  job  and  returns  true  the  job  started  successfully  and  false  otherwise  this  must  the  first  method  called  initiate  print  job  followed  any  number start page end page  calls  followed end job  calling start page end page end job  before start job  will  result  undefined  behavior  param job name  the  name  the  print  job  start  return  true  the  job  started  successfully  and  false  otherwise  exception swt exception  error  device  disposed  the  receiver  has  been  disposed  see start page  see end page  see end job
+use  the  character  encoding  for  the  default  locale
+use  the  character  encoding  for  the  default  locale
+ends  the  current  print  job  exception swt exception  error  device  disposed  the  receiver  has  been  disposed  see start job  see start page  see end page
+cancels  print  job  progress  exception swt exception  error  device  disposed  the  receiver  has  been  disposed 
+starts  page  and  returns  true  the  page  started  successfully  and  false  otherwise  after  calling start job  this  method  may  called  any  number  times  along  with  matching end page  return  true  the  page  started  successfully  and  false  otherwise  exception swt exception  error  device  disposed  the  receiver  has  been  disposed  see end page  see start job  see end job
+ends  the  current  page  exception swt exception  error  device  disposed  the  receiver  has  been  disposed  see start page  see start job  see end job
+returns  point  whose  coordinate  the  horizontal  dots  per  inch  the  printer  and  whose  coordinate  the  vertical  dots  per  inch  the  printer  return  the  horizontal  and  vertical  dpi  exception swt exception  error  device  disposed  the  receiver  has  been  disposed 
+returns  rectangle  describing  the  receiver  size  and  location  for  printer  this  the  size  page  pixels  return  the  bounding  rectangle  exception swt exception  error  device  disposed  the  receiver  has  been  disposed  see get client area  see compute trim
+returns  rectangle  which  describes  the  area  the  receiver  which  capable  displaying  data  for  printer  this  the  size  the  printable  area  page  pixels  return  the  client  area  exception swt exception  error  device  disposed  the  receiver  has  been  disposed  see get bounds  see compute trim
+given  desired  client  area  for  the  receiver  described  the  arguments  returns  the  bounding  rectangle  which  would  required  produce  that  client  area  other  words  returns  rectangle  such  that  the  receiver  bounds  were  set  that  rectangle  the  area  the  receiver  which  capable  displaying  data  that  not  covered  the  trimmings  would  the  rectangle  described  the  arguments  relative  the  receiver  parent  note  that  there set bounds  for  printer  this  method  usually  used  passing  the  client  area  the  printable  area  the  printer  can  also  useful  pass  param  the  desired  coordinate  the  client  area  param  the  desired  coordinate  the  client  area  param  width  the  desired  width  the  client  area  param  height  the  desired  height  the  client  area  return  the  required  bounds  produce  the  given  client  area  exception swt exception  error  device  disposed  the  receiver  has  been  disposed  see get bounds  see get client area
+returns  code printer data  code  object  representing  the  target  printer  for  this  print  job  return printer data  object  describing  the  receiver
+checks  the  validity  this  device  exception swt exception  error  device  disposed  the  receiver  has  been  disposed 
+releases  any  internal  state  prior  destroying  this  printer  this  method  called  internally  the  dispose  mechanism  the  code  device  code  class
+destroys  the  printer  handle  this  method  called  internally  the  dispose  mechanism  the  code  device  code  class
+</comments>
+</text>
+</DOC>

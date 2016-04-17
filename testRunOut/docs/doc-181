@@ -1,0 +1,263 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.Compatibility.java </DOCNO>
+<text>
+<class>
+ compatibility
+</class>
+<method>
+ cos
+ sin
+ ceil
+ floor
+ round
+ pow
+new file input stream
+new file output stream
+ letter
+letter digit
+space char
+ whitespace
+ exec
+ exec
+get message
+get message
+ interrupt
+equals ignore case
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ java
+
+ java
+ text
+message format
+ java
+ util
+missing resource exception
+ java
+ util
+resource bundle
+ org
+ eclipse
+ swt
+ swt
+ compatibility
+
+ math
+
+ radians
+
+ cos
+ angle
+ length
+ math
+ cos
+ angle
+ radians
+ length
+ sin
+ angle
+ length
+ math
+ sin
+ angle
+ radians
+ length
+ ceil
+
+
+ math
+ ceil
+
+
+ floor
+
+
+ math
+ floor
+
+
+ round
+
+
+ math
+ round
+
+
+ pow
+
+
+
+
+
+ swt
+ error
+ swt
+error invalid range
+input stream
+new file input stream
+ string
+ filename
+ exception
+file input stream
+ filename
+output stream
+new file output stream
+ string
+ filename
+ exception
+file output stream
+ filename
+ letter
+
+ character
+ letter
+
+letter digit
+
+ character
+letter digit
+
+space char
+
+ character
+space char
+
+ whitespace
+
+ character
+ whitespace
+
+ exec
+ string
+ prog
+ java
+
+ exception
+ runtime
+get runtime
+ exec
+ prog
+ exec
+ string
+prog array
+ java
+
+ exception
+ runtime
+get runtime
+ exec
+prog array
+resource bundle
+ msgs
+ string
+get message
+ string
+ key
+ string
+ answer
+ key
+ key
+ swt
+ error
+ swt
+error null argument
+ msgs
+ msgs
+resource bundle
+get bundle
+missing resource exception
+
+ answer
+ key
+ msgs
+ answer
+ msgs
+get string
+ key
+missing resource exception
+
+ answer
+ string
+get message
+ string
+ key
+ object
+ args
+ string
+ answer
+ key
+ key
+ args
+ swt
+ error
+ swt
+error null argument
+ msgs
+ msgs
+resource bundle
+get bundle
+missing resource exception
+
+ answer
+ key
+ msgs
+message format
+ formatter
+message format
+ formatter
+apply pattern
+ msgs
+get string
+ key
+ answer
+ formatter
+ format
+ args
+missing resource exception
+
+ answer
+ interrupt
+ thread
+current thread
+ interrupt
+equals ignore case
+ string
+
+ string
+
+
+equals ignore case
+
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  class  placeholder  for  utility  methods  commonly  used  platforms  but  not  supported  some  profiles  part  our  effort  provide  support  for  both  and  platforms  important  some  the  methods  have  been  modified  from  their  parents  refer  the  description  each  method  for  specific  changes  exceptions  thrown  may  differ  since  set  exceptions  subset  one  the  range  the  mathematic  functions  subject  change 
+returns  the  constant  double
+answers  the  length  the  side  adjacent  the  given  angle  right  triangle  other  words  returns  the  integer  conversion  length  cos  angle  important  the  2me  version  has  additional  restriction  the  argument  length  must  between  32767  and  32767  inclusive  param  angle  the  angle  degrees  param  length  the  length  the  triangle  hypotenuse  return  the  integer  conversion  length  cos  angle
+answers  the  length  the  side  opposite  the  given  angle  right  triangle  other  words  returns  the  integer  conversion  length  sin  angle  important  the  2me  version  has  additional  restriction  the  argument  length  must  between  32767  and  32767  inclusive  param  angle  the  angle  degrees  param  length  the  length  the  triangle  hypotenuse  return  the  integer  conversion  length  sin  angle
+answers  the  most  negative  closest  negative  infinity  integer  value  which  greater  than  the  number  obtained  dividing  the  first  argument  the  second  argument  param  numerator  param  denominator  must  different  from  zero  return  the  ceiling  the  rational  number 
+answers  the  most  positive  closest  positive  infinity  integer  value  which  less  than  the  number  obtained  dividing  the  first  argument  the  second  argument  param  numerator  param  denominator  must  different  from  zero  return  the  floor  the  rational  number 
+answers  the  result  rounding  the  closest  integer  the  number  obtained  dividing  the  first  argument  the  second  argument  important  the  2me  version  has  additional  restriction  the  arguments  must  within  the  range  32767  inclusive  must  within  the  range  32767  inclusive  param  numerator  param  denominator  must  different  from  zero  return  the  closest  integer  the  rational  number 
+returns  raised  the  power  the  argument  param  int  value  between  and  inclusive  return  raised  the  power  the  argument  exception illegal argument exception  error  invalid  range  the  argument  not  between  and  inclusive 
+open  file  such  things  are  supported  param  filename  the  name  the  file  open  return  stream  the  file  could  opened  exception  exception
+open  file  such  things  are  supported  param  filename  the  name  the  file  open  return  stream  the  file  could  opened  exception  exception
+answers  whether  the  character  letter  param  the  character  return  true  when  the  character  letter
+answers  whether  the  character  letter  digit  param  the  character  return  true  when  the  character  letter  digit
+answers  whether  the  character  unicode  space  character  param  the  character  return  true  when  the  character  unicode  space  character
+answers  whether  the  character  whitespace  character  param  the  character  test  return  true  the  character  whitespace
+execute  program  separate  platform  process  the  underlying  platform  support  this  the  new  process  inherits  the  environment  the  caller  param  prog  the  name  the  program  execute  exception  exception  the  program  cannot  executed  exception security exception  the  current security manager  disallows  program  execution
+execute prog array  separate  platform  process  the  underlying  platform  support  this  the  new  process  inherits  the  environment  the  caller  param prog array  array  containing  the  program  execute  and  its  arguments  exception  exception  the  program  cannot  executed  exception security exception  the  current security manager  disallows  program  execution
+returns  the  nls  message  for  the  given  argument  this  only  being  called  from  swt  param  key  the  key  look  return  the  message  for  the  given  key  see  swt get message  string
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+interrupt  the  current  thread  note  that  this  not  available  cldc 
+compares  two  instances  class  string  ignoring  the  case  the  characters  and  answers  they  are  equal  param  string  param  string  return  true  the  two  instances  class  string  are  equal
+</comments>
+</text>
+</DOC>

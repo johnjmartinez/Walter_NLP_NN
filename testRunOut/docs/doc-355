@@ -1,0 +1,76 @@
+<DOC>
+<DOCNO>org.eclipse.swt.accessibility.ACC.java </DOCNO>
+<text>
+<class>
+ acc
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ accessibility
+ acc
+state normal
+state selected
+state selectable
+state multiselectable
+state focused
+state focusable
+state pressed
+state checked
+state expanded
+state collapsed
+state hottracked
+state busy
+state readonly
+state invisible
+state offscreen
+state sizeable
+state linked
+role client area
+role window
+role menubar
+role menu
+role menuitem
+role separator
+role tooltip
+role scrollbar
+role dialog
+role label
+role pushbutton
+role checkbutton
+role radiobutton
+role combobox
+role text
+role toolbar
+role list
+role listitem
+role table
+role tablecell
+role tablecolumnheader
+role tablecolumn
+role tablecolumnheader
+role tablerowheader
+role tree
+role treeitem
+role tabfolder
+role tabitem
+role progressbar
+role slider
+role link
+childid self
+childid none
+childid multiple
+text insert
+text delete
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+class  acc  contains  all  the  constants  used  defining  accessible  object  since 
+deprecated  use  role  tablecolumnheader
+</comments>
+</text>
+</DOC>

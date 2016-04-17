@@ -1,0 +1,682 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.Path.java </DOCNO>
+<text>
+<class>
+ path
+</class>
+<method>
+ path
+add arc
+add path
+add rectangle
+add string
+ close
+ contains
+ cubic
+ dispose
+get bounds
+get current point
+get path data
+ line
+ disposed
+ move
+ quad
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ internal
+ gdip
+ org
+ eclipse
+ swt
+ internal
+ win
+ path
+ resource
+ handle
+ point
+current point
+ point
+start point
+ point
+ path
+ device
+ device
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ device
+ device
+ device
+check gdip
+ handle
+ gdip
+graphics path _new
+ gdip
+fill mode alternate
+ handle
+ swt
+ error
+ swt
+error handles
+ device
+ tracking
+ device
+new object
+add arc
+
+
+ width
+ height
+start angle
+arc angle
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ width
+
+
+ width
+ width
+ width
+ height
+
+
+ height
+ height
+ height
+ width
+ height
+arc angle
+ gdip
+graphics path add arc
+ handle
+
+
+ width
+ height
+start angle
+arc angle
+ gdip
+graphics path get last point
+ handle
+current point
+add path
+ path
+ path
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ path
+ swt
+ error
+ swt
+error null argument
+ path
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ gdip
+graphics path add path
+ handle
+ path
+ handle
+current point
+
+ path
+current point
+
+current point
+
+ path
+current point
+
+add rectangle
+
+
+ width
+ height
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ rect
+ rect
+ rect
+ rect
+
+
+ rect
+
+
+ rect
+ width
+ width
+ rect
+ height
+ height
+ gdip
+graphics path add rectangle
+ handle
+ rect
+current point
+
+
+current point
+
+
+add string
+ string
+ string
+
+
+ font
+ font
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ font
+ swt
+ error
+ swt
+error null argument
+ font
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ length
+ string
+ length
+ buffer
+ length
+ string
+get chars
+ length
+ buffer
+
+ device
+internal _new
+gdip font
+
+create gdip font
+
+ font
+ handle
+ point
+ point
+ point
+ point
+
+
+ gdip
+font get size
+gdip font
+ point
+
+
+ family
+ gdip
+font family _new
+ gdip
+font get family
+gdip font
+ family
+ style
+ gdip
+font get style
+gdip font
+ size
+ gdip
+font get size
+gdip font
+ gdip
+graphics path add string
+ handle
+ buffer
+ length
+ family
+ style
+ size
+ point
+ gdip
+graphics path get last point
+ handle
+current point
+ gdip
+font family _delete
+ family
+ gdip
+font _delete
+gdip font
+ device
+internal _dispose
+
+ close
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ gdip
+graphics path close figure
+ handle
+current point
+
+start point
+
+current point
+
+start point
+
+ contains
+
+
+
+
+ outline
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+
+ swt
+ error
+ swt
+error null argument
+
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+
+init gdip
+ outline
+ mode
+
+get poly fill mode
+
+ handle
+
+ winding
+ gdip
+fill mode winding
+ gdip
+fill mode alternate
+ gdip
+graphics path set fill mode
+ handle
+ mode
+ outline
+ gdip
+graphics path outline visible
+ handle
+
+
+
+ data
+gdip pen
+
+ data
+gdip graphics
+ gdip
+graphics path visible
+ handle
+
+
+
+ data
+gdip graphics
+ cubic
+
+
+
+
+
+
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ gdip
+graphics path add bezier
+ handle
+current point
+
+current point
+
+
+
+
+
+
+
+ gdip
+graphics path get last point
+ handle
+current point
+ dispose
+ handle
+ device
+ disposed
+ gdip
+graphics path _delete
+ handle
+ handle
+ device
+ tracking
+ device
+dispose object
+ device
+get bounds
+ bounds
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ bounds
+ swt
+ error
+ swt
+error null argument
+ bounds
+ length
+ swt
+ error
+ swt
+error invalid argument
+ rect
+ rect
+ rect
+ gdip
+graphics path get bounds
+ handle
+ rect
+ bounds
+ rect
+
+ bounds
+ rect
+
+ bounds
+ rect
+ width
+ bounds
+ rect
+ height
+get current point
+ point
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ point
+ swt
+ error
+ swt
+error null argument
+ point
+ length
+ swt
+ error
+ swt
+error invalid argument
+ point
+current point
+
+ point
+current point
+
+path data
+get path data
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ count
+ gdip
+graphics path get point count
+ handle
+gdip types
+ count
+ points
+ count
+ gdip
+graphics path get path types
+ handle
+gdip types
+ count
+ gdip
+graphics path get path points
+ handle
+ points
+ count
+ types
+ count
+ index
+types index
+ index
+ count
+ type
+gdip types
+ index
+ close
+ type
+ gdip
+path point type path type mask
+ gdip
+path point type start
+ types
+types index
+ swt
+path move
+ close
+ type
+ gdip
+path point type close subpath
+ index
+ gdip
+path point type line
+ types
+types index
+ swt
+path line
+ close
+ type
+ gdip
+path point type close subpath
+ index
+ gdip
+path point type bezier
+ types
+types index
+ swt
+path cubic
+ close
+gdip types
+ index
+ gdip
+path point type close subpath
+ index
+ index
+ close
+ types
+types index
+ swt
+path close
+types index
+ types
+ length
+new types
+types index
+ system
+ arraycopy
+ types
+new types
+types index
+ types
+new types
+path data
+ result
+path data
+ result
+ types
+ types
+ result
+ points
+ points
+ result
+ line
+
+
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ gdip
+graphics path add line
+ handle
+current point
+
+current point
+
+
+
+ gdip
+graphics path get last point
+ handle
+current point
+ disposed
+ handle
+ move
+
+
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+current point
+
+start point
+
+
+current point
+
+start point
+
+
+ quad
+
+
+
+
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+
+current point
+
+
+current point
+
+
+current point
+
+
+current point
+
+
+
+
+current point
+
+
+
+
+current point
+
+ gdip
+graphics path add bezier
+ handle
+current point
+
+current point
+
+
+
+
+
+
+
+ gdip
+graphics path get last point
+ handle
+current point
+ string
+ string
+ disposed
+ handle
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  represent  paths  through  the  two  dimensional  coordinate  system  paths  not  have  continuous  and  can  described  using  lines  rectangles  arcs  cubic  quadratic  bezier  curves  glyphs  other  paths  application  code  must  explicitly  invoke  the  code  path  dispose  code  method  release  the  operating  system  resources  managed  each  instance  when  those  instances  are  longer  required  since 
+the  resource  for  the  path  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code 
+constructs  new  empty  path  param  device  the  device  which  allocate  the  path  exception illegal argument exception  error  null  argument  the  device  null  and  there  current  device  exception swt error  error  handles  handle  for  the  path  could  not  obtained  see  dispose
+adds  the  receiver  circular  elliptical  arc  that  lies  within  the  specified  rectangular  area  the  resulting  arc  begins  code start angle  code  and  extends  for  code arc angle  code  degrees  angles  are  interpreted  such  that  degrees  the  clock  position  positive  value  indicates  counter  clockwise  rotation  while  negative  value  indicates  clockwise  rotation  the  center  the  arc  the  center  the  rectangle  whose  origin  code  code  code  code  and  whose  size  specified  the  code  width  code  and  code  height  code  arguments  the  resulting  arc  covers  area  code  width  code  pixels  wide  code  height  code  pixels  tall  param  the  coordinate  the  upper  left  corner  the  arc  param  the  coordinate  the  upper  left  corner  the  arc  param  width  the  width  the  arc  param  height  the  height  the  arc  param start angle  the  beginning  angle  param arc angle  the  angular  extent  the  arc  relative  the  start  angle  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+adds  the  receiver  the  path  described  the  parameter  param  path  the  path  add  the  receiver  exception illegal argument exception  error  null  argument  the  parameter  null  error  invalid  argument  the  parameter  has  been  disposed  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+todo  expose  connect
+adds  the  receiver  the  rectangle  specified  width  and  height  param  the  coordinate  the  rectangle  add  param  the  coordinate  the  rectangle  add  param  width  the  width  the  rectangle  add  param  height  the  height  the  rectangle  add  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+adds  the  receiver  the  pattern  glyphs  generated  drawing  the  given  string  using  the  given  font  starting  the  point  param  string  the  text  use  param  the  coordinate  the  starting  point  param  the  coordinate  the  starting  point  param  font  the  font  use  exception illegal argument exception  error  null  argument  the  font  null  error  invalid  argument  the  font  has  been  disposed  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+closes  the  current  sub  path  adding  the  receiver  line  from  the  current  point  the  path  back  the  starting  point  the  sub  path  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+feature  gdi close figure  does  affect  the  last  point get last point  does  not  return  the  starting  point  the  subpath  after  calling close figure  the  fix  remember  the  subpath  starting  point  and  use  instead
+returns  code  true  code  the  specified  point  contained  the  receiver  and  false  otherwise  outline  code  true  code  the  point  checked  for  containment  the  receiver  outline  outline  code  false  code  the  point  checked  see  contained  within  the  bounds  the  closed  area  covered  the  receiver  param  the  coordinate  the  point  test  for  containment  param  the  coordinate  the  point  test  for  containment  param  the  use  when  testing  for  containment  param  outline  controls  wether  check  the  outline  contained  area  the  path  return  code  true  code  the  path  contains  the  point  and  code  false  code  otherwise  exception illegal argument exception  error  null  argument  the  null  error  invalid  argument  the  has  been  disposed  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+todo  should  use  transformation
+adds  the  receiver  cubic  bezier  curve  based  the  parameters  param  the  coordinate  the  first  control  point  the  spline  param  the  coordinate  the  first  control  the  spline  param  the  coordinate  the  second  control  the  spline  param  the  coordinate  the  second  control  the  spline  param  the  coordinate  the  end  point  the  spline  param  the  coordinate  the  end  point  the  spline  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+disposes  the  operating  system  resources  associated  with  the  path  applications  must  dispose  all  paths  that  they  allocate
+replaces  the  first  four  elements  the  parameter  with  values  that  describe  the  smallest  rectangle  that  will  completely  contain  the  receiver  the  bounding  box  param  bounds  the  array  hold  the  result  exception illegal argument exception  error  null  argument  the  parameter  null  error  invalid  argument  the  parameter  too  small  hold  the  bounding  box  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+replaces  the  first  two  elements  the  parameter  with  values  that  describe  the  current  point  the  path  param  point  the  array  hold  the  result  exception illegal argument exception  error  null  argument  the  parameter  null  error  invalid  argument  the  parameter  too  small  hold  the  end  point  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  device  independent  representation  the  receiver  return  the path data  for  the  receiver  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see path data
+adds  the  receiver  line  from  the  current  point  the  point  specified  param  the  coordinate  the  end  the  line  add  param  the  coordinate  the  end  the  line  add  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  code  true  code  the  path  has  been  disposed  and  code  false  code  otherwise  this  method  gets  the  dispose  state  for  the  path  when  path  has  been  disposed  error  invoke  any  other  method  using  the  path  return  code  true  code  when  the  path  disposed  and  code  false  code  otherwise
+sets  the  current  point  the  receiver  the  point  specified  note  that  this  starts  new  sub  path  param  the  coordinate  the  new  end  point  param  the  coordinate  the  new  end  point  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+adds  the  receiver  quadratic  curve  based  the  parameters  param  the  coordinate  the  control  point  the  spline  param  the  coordinate  the  control  point  the  spline  param  the  coordinate  the  end  point  the  spline  param  the  coordinate  the  end  point  the  spline  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  receiver
+</comments>
+</text>
+</DOC>

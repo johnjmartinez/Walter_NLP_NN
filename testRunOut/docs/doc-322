@@ -1,0 +1,32 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.KeyAdapter.java </DOCNO>
+<text>
+<class>
+key adapter
+</class>
+<method>
+key pressed
+key released
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+key adapter
+key listener
+key pressed
+key event
+
+key released
+key event
+
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  adapter  class  provides  default  implementations  for  the  methods  described  the  code key listener  code  interface  classes  that  wish  deal  with  code key event  code  can  extend  this  class  and  override  only  the  methods  which  they  are  interested  see key listener  see key event
+sent  when  key  pressed  the  system  keyboard  the  default  behavior  nothing  param  event  containing  information  about  the  key  press
+sent  when  key  released  the  system  keyboard  the  default  behavior  nothing  param  event  containing  information  about  the  key  release
+</comments>
+</text>
+</DOC>

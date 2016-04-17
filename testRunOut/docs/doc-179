@@ -1,0 +1,134 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.ole.win32.IOleObject.java </DOCNO>
+<text>
+<class>
+ole object
+</class>
+<method>
+ole object
+ advise
+ close
+ verb
+get extent
+set client site
+set extent
+set host names
+ update
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ internal
+ win
+ole object
+ unknown
+ole object
+ address
+ address
+ advise
+adv sink
+pdw connection
+ com
+vtbl call
+ address
+adv sink
+pdw connection
+ close
+save option
+ com
+vtbl call
+ address
+save option
+ verb
+ verb
+ msg
+ lpmsg
+active site
+ lindex
+hwnd parent
+ rect
+lprc pos rect
+ com
+vtbl call
+ address
+ verb
+ lpmsg
+active site
+ lindex
+hwnd parent
+lprc pos rect
+get extent
+draw aspect
+ size
+ sizel
+ com
+vtbl call
+ address
+draw aspect
+ sizel
+set client site
+client site
+ com
+vtbl call
+ address
+client site
+set extent
+draw aspect
+ size
+ sizel
+ com
+vtbl call
+ address
+draw aspect
+ sizel
+set host names
+ string
+container app
+ string
+container obj
+ buffer
+container app
+ count
+container app
+ length
+ buffer
+ count
+container app
+get chars
+ count
+ buffer
+ buffer
+container obj
+ count
+container obj
+ length
+ buffer
+ count
+container obj
+get chars
+ count
+ buffer
+ com
+vtbl call
+ address
+ buffer
+ buffer
+ update
+ com
+vtbl call
+ address
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+create  null  terminated  array  char
+create  null  terminated  array  char
+</comments>
+</text>
+</DOC>

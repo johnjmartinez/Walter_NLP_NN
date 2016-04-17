@@ -1,0 +1,942 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.ScrollBar.java </DOCNO>
+<text>
+<class>
+scroll bar
+</class>
+<method>
+scroll bar
+add selection listener
+check style
+create widget
+ dispose
+get bounds
+get enabled
+get increment
+get maximum
+get minimum
+get page increment
+get parent
+get selection
+get size
+get thumb
+get visible
+hwnd scroll bar
+ enabled
+ visible
+release child
+release widget
+remove selection listener
+scroll bar type
+set enabled
+set increment
+set maximum
+set minimum
+set page increment
+set scroll info
+set selection
+set thumb
+set values
+set visible
+scroll child
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ events
+scroll bar
+ widget
+ scrollable
+ parent
+ increment
+page increment
+scroll bar
+ scrollable
+ parent
+ style
+ parent
+check style
+ style
+ parent
+ parent
+create widget
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+check style
+ style
+check bits
+ style
+ swt
+ horizontal
+ swt
+ vertical
+create widget
+ increment
+page increment
+ dispose
+ disposed
+valid thread
+ error
+ swt
+error thread invalid access
+ hwnd
+hwnd scroll bar
+ type
+scroll bar type
+ dispose
+
+ win
+ scrollinfo
+ info
+ scrollinfo
+ info
+ size
+ scrollinfo
+ sizeof
+ info
+ mask
+
+sif range
+
+sif page
+ info
+ page
+ info
+ max
+ info
+ min
+
+set scroll info
+ hwnd
+ type
+ info
+
+show scroll bar
+ hwnd
+ type
+ rectangle
+get bounds
+ parent
+force resize
+ rect
+ rect
+ rect
+
+get client rect
+ parent
+scrolled handle
+ rect
+
+
+ width
+ height
+ style
+ swt
+ horizontal
+
+ rect
+ bottom
+ rect
+ top
+ width
+ rect
+ right
+ rect
+ left
+ height
+
+get system metrics
+
+ cyhscroll
+
+ rect
+ right
+ rect
+ left
+ width
+
+get system metrics
+
+ cxvscroll
+ height
+ rect
+ bottom
+ rect
+ top
+ rectangle
+
+
+ width
+ height
+get enabled
+check widget
+ state
+ disabled
+get increment
+check widget
+ increment
+get maximum
+check widget
+ scrollinfo
+ info
+ scrollinfo
+ info
+ size
+ scrollinfo
+ sizeof
+ info
+ mask
+
+sif range
+ hwnd
+hwnd scroll bar
+ type
+scroll bar type
+
+get scroll info
+ hwnd
+ type
+ info
+ info
+ max
+get minimum
+check widget
+ scrollinfo
+ info
+ scrollinfo
+ info
+ size
+ scrollinfo
+ sizeof
+ info
+ mask
+
+sif range
+ hwnd
+hwnd scroll bar
+ type
+scroll bar type
+
+get scroll info
+ hwnd
+ type
+ info
+ info
+ min
+get page increment
+check widget
+page increment
+ scrollable
+get parent
+check widget
+ parent
+get selection
+check widget
+ scrollinfo
+ info
+ scrollinfo
+ info
+ size
+ scrollinfo
+ sizeof
+ info
+ mask
+
+sif pos
+ hwnd
+hwnd scroll bar
+ type
+scroll bar type
+
+get scroll info
+ hwnd
+ type
+ info
+ info
+ pos
+ point
+get size
+check widget
+ parent
+force resize
+ rect
+ rect
+ rect
+
+get client rect
+ parent
+scrolled handle
+ rect
+ width
+ height
+ style
+ swt
+ horizontal
+ width
+ rect
+ right
+ rect
+ left
+ height
+
+get system metrics
+
+ cyhscroll
+ width
+
+get system metrics
+
+ cxvscroll
+ height
+ rect
+ bottom
+ rect
+ top
+ point
+ width
+ height
+get thumb
+check widget
+ scrollinfo
+ info
+ scrollinfo
+ info
+ size
+ scrollinfo
+ sizeof
+ info
+ mask
+
+sif page
+ hwnd
+hwnd scroll bar
+ type
+scroll bar type
+
+get scroll info
+ hwnd
+ type
+ info
+ info
+ page
+ info
+ page
+ info
+ page
+get visible
+check widget
+ state
+ hidden
+hwnd scroll bar
+ parent
+scrolled handle
+ enabled
+check widget
+get enabled
+ parent
+ enabled
+ visible
+check widget
+get visible
+ parent
+ visible
+release child
+release child
+ parent
+horizontal bar
+ parent
+horizontal bar
+ parent
+vertical bar
+ parent
+vertical bar
+release widget
+release widget
+ parent
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ selection
+ listener
+event table
+ unhook
+ swt
+default selection
+ listener
+scroll bar type
+ style
+ swt
+ vertical
+
+ vert
+
+ horz
+set enabled
+ enabled
+check widget
+
+ win
+ hwnd
+hwnd scroll bar
+ type
+scroll bar type
+ flags
+ enabled
+
+esb enable both
+
+esb disable both
+
+enable scroll bar
+ hwnd
+ type
+ flags
+ enabled
+ state
+ disabled
+ state
+ disabled
+set increment
+ value
+check widget
+ value
+ increment
+ value
+set maximum
+ value
+check widget
+ value
+ scrollinfo
+ info
+ scrollinfo
+ info
+ size
+ scrollinfo
+ sizeof
+ hwnd
+hwnd scroll bar
+ type
+scroll bar type
+ info
+ mask
+
+sif range
+
+sif disablenoscroll
+
+get scroll info
+ hwnd
+ type
+ info
+ value
+ info
+ min
+ info
+ page
+ info
+ max
+ value
+set scroll info
+ hwnd
+ type
+ info
+set minimum
+ value
+check widget
+ value
+ scrollinfo
+ info
+ scrollinfo
+ info
+ size
+ scrollinfo
+ sizeof
+ hwnd
+hwnd scroll bar
+ type
+scroll bar type
+ info
+ mask
+
+sif range
+
+sif disablenoscroll
+
+get scroll info
+ hwnd
+ type
+ info
+ info
+ max
+ value
+ info
+ page
+ info
+ min
+ value
+set scroll info
+ hwnd
+ type
+ info
+set page increment
+ value
+check widget
+ value
+page increment
+ value
+set scroll info
+ hwnd
+ flags
+ scrollinfo
+ info
+ redraw
+ state
+ disabled
+ hidden
+ redraw
+ result
+
+set scroll info
+ hwnd
+ flags
+ info
+ redraw
+ state
+ hidden
+
+ win
+scroll bar
+ bar
+ flags
+
+ horz
+ bar
+ parent
+get vertical bar
+
+ vert
+ bar
+ parent
+get horizontal bar
+ both
+ bar
+ bar
+get visible
+
+show scroll bar
+ hwnd
+ both
+
+ both
+ flags
+ state
+ disabled
+
+ win
+
+enable scroll bar
+ hwnd
+ flags
+
+esb disable both
+ result
+set selection
+ selection
+check widget
+ scrollinfo
+ info
+ scrollinfo
+ info
+ size
+ scrollinfo
+ sizeof
+ hwnd
+hwnd scroll bar
+ type
+scroll bar type
+ info
+ mask
+
+sif pos
+ info
+ pos
+ selection
+set scroll info
+ hwnd
+ type
+ info
+set thumb
+ value
+check widget
+ value
+ scrollinfo
+ info
+ scrollinfo
+ info
+ size
+ scrollinfo
+ sizeof
+ hwnd
+hwnd scroll bar
+ type
+scroll bar type
+ info
+ mask
+
+sif page
+
+sif range
+
+sif disablenoscroll
+
+get scroll info
+ hwnd
+ type
+ info
+ info
+ page
+ value
+ info
+ page
+ info
+ page
+set scroll info
+ hwnd
+ type
+ info
+set values
+ selection
+ minimum
+ maximum
+ thumb
+ increment
+page increment
+check widget
+ minimum
+ maximum
+ thumb
+ increment
+page increment
+ increment
+ increment
+page increment
+page increment
+ scrollinfo
+ info
+ scrollinfo
+ info
+ size
+ scrollinfo
+ sizeof
+ info
+ mask
+
+sif pos
+
+sif page
+
+sif range
+
+sif disablenoscroll
+ info
+ pos
+ selection
+ info
+ min
+ minimum
+ info
+ max
+ maximum
+ info
+ page
+ thumb
+ info
+ page
+ info
+ page
+ hwnd
+hwnd scroll bar
+ type
+scroll bar type
+set scroll info
+ hwnd
+ type
+ info
+set visible
+ visible
+check widget
+ visible
+ state
+ hidden
+ visible
+ visible
+
+ win
+ scrollinfo
+ info
+ scrollinfo
+ info
+ size
+ scrollinfo
+ sizeof
+ hwnd
+hwnd scroll bar
+ type
+scroll bar type
+ info
+ mask
+
+sif range
+
+sif page
+ visible
+ info
+ mask
+
+sif disablenoscroll
+
+get scroll info
+ hwnd
+ type
+ info
+ info
+ page
+ info
+ max
+ info
+ min
+ max
+ info
+ max
+ info
+ max
+
+set scroll info
+ hwnd
+ type
+ info
+ info
+ max
+ max
+
+set scroll info
+ hwnd
+ type
+ info
+ state
+ visible
+ state
+ hidden
+ state
+ hidden
+ hwnd
+hwnd scroll bar
+ type
+scroll bar type
+
+show scroll bar
+ hwnd
+ type
+ visible
+ state
+ disabled
+ scrollinfo
+ info
+ scrollinfo
+ info
+ size
+ scrollinfo
+ sizeof
+ info
+ mask
+
+sif range
+
+sif page
+
+get scroll info
+ hwnd
+ type
+ info
+ info
+ max
+ info
+ min
+ info
+ page
+
+enable scroll bar
+ hwnd
+ type
+
+esb enable both
+send event
+ visible
+ swt
+ show
+ swt
+ hide
+ lresult
+scroll child
+ param
+ param
+ code
+ param
+ code
+
+ endscroll
+ event
+ event
+ event
+ code
+
+ thumbposition
+ event
+ detail
+ swt
+ none
+
+ thumbtrack
+ event
+ detail
+ swt
+ drag
+
+ top
+ event
+ detail
+ swt
+ home
+
+ bottom
+ event
+ detail
+ swt
+ end
+
+ linedown
+ event
+ detail
+ swt
+arrow down
+
+ lineup
+ event
+ detail
+ swt
+ arrow
+
+ pagedown
+ event
+ detail
+ swt
+page down
+
+ pageup
+ event
+ detail
+ swt
+ page
+send event
+ swt
+ selection
+ event
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  selectable  user  interface  objects  that  represent  range  positive  numeric  values  any  given  moment  given  scroll  bar  will  have  single  selection  that  considered  its  value  which  constrained  within  the  range  values  the  scroll  bar  represents  that  between  its  minimum  and  maximum  values  typically  scroll  bars  will  made  five  areas  arrow  button  for  decrementing  the  value  page  decrement  area  for  decrementing  the  value  larger  amount  thumb  for  modifying  the  value  mouse  dragging  page  increment  area  for  incrementing  the  value  larger  amount  arrow  button  for  incrementing  the  value  based  their  style  scroll  bars  are  either  code  horizontal  code  which  have  left  facing  button  for  decrementing  the  value  and  right  facing  button  for  incrementing  code  vertical  code  which  have  upward  facing  button  for  decrementing  the  value  and  downward  facing  buttons  for  incrementing  some  platforms  the  size  the  scroll  bar  thumb  can  varied  relative  the  magnitude  the  range  values  represents  that  relative  the  difference  between  its  maximum  and  minimum  values  typically  this  used  indicate  some  proportional  value  such  the  ratio  the  visible  area  document  the  total  amount  space  that  would  take  display  swt  supports  setting  the  thumb  size  even  the  underlying  platform  does  not  but  this  case  the  appearance  the  scroll  bar  will  not  change  scroll  bars  are  created  specifying  either  code  scroll  code  code  scroll  code  both  when  creating  code  scrollable  code  they  are  accessed  from  the  code  scrollable  code  using  code get horizontal bar  code  and  code get vertical bar  code  note  scroll  bars  are  not  controls  some  platforms  scroll  bars  that  appear  part  some  standard  controls  such  text  list  have  operating  system  resources  and  are  not  children  the  control  for  this  reason  scroll  bars  are  treated  specially  create  control  that  looks  like  scroll  bar  but  has  operating  system  resources  use  code  slider  code  styles  horizontal  vertical  events  selection  note  only  one  the  styles  horizontal  and  vertical  may  specified  important  this  class  not  intended  subclassed  see  slider  see  scrollable  see  scrollable get horizontal bar  see  scrollable get vertical bar
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  horizontal  see  swt  vertical  see  widget check subclass  see  widget get style
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  receiver  value  changes  sending  one  the  messages  defined  the  code selection listener  code  interface  when  code widget selected  code  called  the  event  object  detail  field  contains  one  the  following  values  code  swt  none  code  for  the  end  drag  code  swt  drag  code  code  swt  home  code  code  swt  end  code  code  swt  arrow  down  code  code  swt  arrow  code  code  swt  page  down  code  code  swt  page  code  code widget default selected  code  not  called  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener  see selection event
+not  set  the  intial  values  the  maximum  the  thumb  these  values  normally  default  100  and  but  may  have  been  set  already  the  widget  that  owns  the  scroll  bar  for  example  scroll  bar  that  created  for  list  widget  setting  these  defaults  would  override  the  initial  values  provided  the  list  widget
+not  currently  used
+ check widget
+returns  code  true  code  the  receiver  enabled  and  code  false  code  otherwise  disabled  control  typically  not  selectable  from  the  user  interface  and  draws  with  inactive  grayed  look  return  the  receiver  enabled  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  enabled
+returns  the  amount  that  the  receiver  value  will  modified  when  the  down  right  left  arrows  are  pressed  return  the  increment  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  maximum  value  which  the  receiver  will  allow  return  the  maximum  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  minimum  value  which  the  receiver  will  allow  return  the  minimum  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  amount  that  the  receiver  value  will  modified  when  the  page  increment  decrement  areas  are  selected  return  the  page  increment  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  parent  which  must  scrollable  return  the  receiver  parent  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  single  selection  that  the  receiver  value  return  the  selection  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  point  describing  the  receiver  size  the  coordinate  the  result  the  width  the  receiver  the  coordinate  the  result  the  height  the  receiver  return  the  receiver  size  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+answers  the  size  the  receiver  thumb  relative  the  difference  between  its  maximum  and  minimum  values  return  the  thumb  value  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see scroll bar
+returns  code  true  code  the  receiver  visible  and  code  false  code  otherwise  one  the  receiver  ancestors  not  visible  some  other  condition  makes  the  receiver  not  visible  this  method  may  still  indicate  that  considered  visible  even  though  may  not  actually  showing  return  the  receiver  visibility  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  true  code  the  receiver  enabled  and  all  the  receiver  ancestors  are  enabled  and  code  false  code  otherwise  disabled  control  typically  not  selectable  from  the  user  interface  and  draws  with  inactive  grayed  look  return  the  receiver  enabled  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see get enabled
+returns  code  true  code  the  receiver  visible  and  all  the  receiver  ancestors  are  visible  and  code  false  code  otherwise  return  the  receiver  visibility  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see get visible
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  receiver  value  changes  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener
+this  line  intentionally  commented  there  should  only  ever  horizontal  and  vertical  scroll  bars  the  commented  code  reminds  that  this  the  case  and  that  the  default  style  horizontal
+style  swt  horizontal  return  horz
+enables  the  receiver  the  argument  code  true  code  and  disables  otherwise  disabled  control  typically  not  selectable  from  the  user  interface  and  draws  with  inactive  grayed  look  param  enabled  the  new  enabled  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+this  line  intentionally  commented  currently  always  show  scrollbar  being  enabled  and  visible
+win  error  swt  error  not  implemented
+sets  the  amount  that  the  receiver  value  will  modified  when  the  down  right  left  arrows  are  pressed  the  argument  which  must  least  one  param  value  the  new  increment  must  greater  than  zero  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  maximum  this  value  negative  less  than  equal  the  minimum  the  value  ignored  necessary  first  the  thumb  and  then  the  selection  are  adjusted  fit  within  the  new  range  param  value  the  new  maximum  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  minimum  value  this  value  negative  greater  than  equal  the  maximum  the  value  ignored  necessary  first  the  thumb  and  then  the  selection  are  adjusted  fit  within  the  new  range  param  value  the  new  minimum  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  amount  that  the  receiver  value  will  modified  when  the  page  increment  decrement  areas  are  selected  the  argument  which  must  least  one  param  value  the  page  increment  must  greater  than  zero  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  windows  for  some  reason  when set scroll info  used  with  sif  pos  and  the  scroll  bar  hidden  the  opposite  scroll  bar  incorrectly  made  visible  that  the  next  time  the  parent  resized  another  scroll  bar  operation  performed  the  opposite  scroll  bar  draws  the  fix  hide  both  scroll  bars
+bug  windows  for  some  reason  when  the  widget  standard  scroll  bar  and set scroll info  called  with  sif  range  sif  page  the  widget  incorrectly  made  visible  that  the  next  time  the  parent  resized  another  scroll  bar  operation  performed  the  scroll  bar  draws  the  fix  hide  the  scroll  bar  again  when  already  hidden
+this  line  intentionally  commented  currently  always  show  scrollbar  being  enabled  and  visible
+win  error  swt  error  not  implemented
+feature  windows  using  sif  disablenoscroll set scroll info  can  change  enabled  and  disabled  state  the  scroll  bar  causing  scroll  bar  that  was  disabled  the  application  become  enabled  the  fix  disable  the  scroll  bar  again  when  the  application  has  disabled  the  scroll  bar
+this  line  intentionally  commented  currently  always  show  scrollbar  being  enabled  and  visible
+win  error  swt  error  not  implemented
+sets  the  single  selection  that  the  receiver  value  the  argument  which  must  greater  than  equal  zero  param  selection  the  new  selection  must  zero  greater  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  size  the  receiver  thumb  relative  the  difference  between  its  maximum  and  minimum  values  this  new  value  will  ignored  less  than  one  and  will  clamped  exceeds  the  receiver  current  range  param  value  the  new  thumb  value  which  must  least  one  and  not  larger  than  the  size  the  current  range  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  receiver  selection  minimum  value  maximum  value  thumb  increment  and  page  increment  all  once  note  this  equivalent  setting  the  values  individually  using  the  appropriate  methods  but  may  implemented  more  efficient  fashion  some  platforms  param  selection  the  new  selection  value  param  minimum  the  new  minimum  value  param  maximum  the  new  maximum  value  param  thumb  the  new  thumb  value  param  increment  the  new  increment  value  param page increment  the  new page increment  value  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+marks  the  receiver  visible  the  argument  code  true  code  and  marks  invisible  otherwise  one  the  receiver  ancestors  not  visible  some  other  condition  makes  the  receiver  not  visible  marking  visible  may  not  actually  cause  displayed  param  visible  the  new  visibility  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+windows  use  sif  disablenoscroll  show  and  hide  the  scroll  bar  when  the  page  size  equal  the  range
+bug  windows  when  the  only  changed  flag set scroll info  sif  disablenoscroll  windows  does  not  update  the  scroll  bar  state  the  fix  increase  and  then  decrease  the  maximum  causing  windows  honour  the  flag
+this  line  intentionally  commented  currently  always  show  scrollbar  being  enabled  and  visible
+win  error  swt  error  not  implemented
+set  the  state  bits  before  calling show scroll bar  because  hiding  and  showing  the  scroll  bar  can  cause  size  messages  when  the  client  area  resized  setting  the  state  before  the  call  means  that  code  that  runs  during  size  that  queries  the  visibility  the  scroll  bar  will  get  the  correct  value
+bug  windows  for  some  reason  when  the  widget  standard  scroll  bar  and set scroll info  called  with  sif  range  sif  page  while  the  widget  not  visible  the  widget  incorrectly  disabled  even  though  the  values  for  sif  range  and  sif  page  when  set  for  visible  scroll  bar  would  not  disable  the  scroll  bar  the  fix  enable  the  scroll  bar  when  not  disabled  the  application  and  the  current  scroll  bar  ranges  would  cause  the  scroll  bar  enabled  had  they  been  set  when  the  scroll  bar  was  visible
+widget  could  disposed  this  point
+nothing  when  scrolling  ending
+send  the  event  because  hscroll  and  vscroll  are  sent  from  modal  message  loop  windows  that  active  when  the  user  scrolling
+the  widget  could  destroyed  this  point
+</comments>
+</text>
+</DOC>

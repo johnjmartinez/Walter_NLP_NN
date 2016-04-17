@@ -1,0 +1,740 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.TableColumn.java </DOCNO>
+<text>
+<class>
+table column
+</class>
+<method>
+table column
+table column
+add control listener
+add selection listener
+check style
+check subclass
+get alignment
+get name text
+get parent
+get moveable
+get resizable
+get width
+ pack
+release child
+release widget
+remove control listener
+remove selection listener
+set alignment
+set image
+set moveable
+set resizable
+set text
+set width
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ events
+table column
+ item
+ table
+ parent
+ resizable
+ moveable
+table column
+ table
+ parent
+ style
+ parent
+check style
+ style
+ resizable
+ parent
+ parent
+ parent
+create item
+ parent
+get column count
+table column
+ table
+ parent
+ style
+ index
+ parent
+check style
+ style
+ resizable
+ parent
+ parent
+ parent
+create item
+ index
+add control listener
+control listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ resize
+typed listener
+add listener
+ swt
+ move
+typed listener
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+check style
+ style
+check bits
+ style
+ swt
+ left
+ swt
+ center
+ swt
+ right
+check subclass
+valid subclass
+ error
+ swt
+error invalid subclass
+get alignment
+check widget
+ style
+ swt
+ left
+ swt
+ left
+ style
+ swt
+ center
+ swt
+ center
+ style
+ swt
+ right
+ swt
+ right
+ swt
+ left
+ string
+get name text
+get text
+ table
+get parent
+check widget
+ parent
+get moveable
+check widget
+ moveable
+get resizable
+check widget
+ resizable
+get width
+check widget
+ index
+ parent
+ index
+ index
+ hwnd
+ parent
+ handle
+
+send message
+ hwnd
+
+lvm getcolumnwidth
+ index
+ pack
+check widget
+ index
+ parent
+ index
+ index
+ hwnd
+ parent
+ handle
+old width
+
+send message
+ hwnd
+
+lvm getcolumnwidth
+ index
+ tchar
+ buffer
+ tchar
+ parent
+get code page
+ text
+header width
+
+send message
+ hwnd
+
+lvm getstringwidth
+ buffer
+ table
+header margin
+ image
+ margin
+
+comctl 32_ version
+
+ version
+hwnd header
+
+send message
+ hwnd
+
+lvm getheader
+ margin
+
+send message
+hwnd header
+
+hdm getbitmapmargin
+ margin
+
+get system metrics
+
+ cxedge
+ rectangle
+ rect
+ image
+get bounds
+header width
+ rect
+ width
+ margin
+ parent
+ignore resize
+
+send message
+ hwnd
+
+lvm setcolumnwidth
+ index
+
+lvscw autosize
+column width
+
+send message
+ hwnd
+
+lvm getcolumnwidth
+ index
+ index
+ parent
+image list
+column width
+ parent
+ style
+ swt
+ check
+state list
+
+send message
+ hwnd
+
+lvm getimagelist
+
+lvsil state
+state list
+
+
+
+image list get icon size
+state list
+
+
+column width
+
+header width
+column width
+ image
+ rect
+ rect
+fix width
+ index
+ parent
+get column count
+fix width
+ rect
+ rect
+
+get window rect
+ hwnd
+ rect
+
+update window
+ hwnd
+ flags
+
+swp noactivate
+
+swp nomove
+
+swp noredraw
+
+swp nozorder
+set window pos
+ hwnd
+ rect
+ bottom
+ rect
+ top
+ flags
+
+send message
+ hwnd
+
+lvm setcolumnwidth
+ index
+
+lvscw autosize useheader
+fix width
+ flags
+
+swp noactivate
+
+swp nomove
+
+swp nozorder
+set window pos
+ hwnd
+ rect
+ right
+ rect
+ left
+ rect
+ bottom
+ rect
+ top
+ flags
+
+send message
+ hwnd
+
+lvm setcolumnwidth
+ index
+header width
+ index
+
+send message
+ hwnd
+
+lvm setcolumnwidth
+ index
+column width
+ parent
+ignore resize
+new width
+
+send message
+ hwnd
+
+lvm getcolumnwidth
+ index
+old width
+new width
+send event
+ swt
+ resize
+ disposed
+ moved
+ order
+ parent
+get column order
+table column
+ columns
+ parent
+get columns
+
+
+ order
+ length
+
+table column
+ column
+ columns
+ order
+
+ moved
+ column
+ disposed
+ column
+send event
+ swt
+ move
+ column
+ moved
+release child
+release child
+ parent
+destroy item
+release widget
+release widget
+ parent
+remove control listener
+control listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ move
+ listener
+event table
+ unhook
+ swt
+ resize
+ listener
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ selection
+ listener
+event table
+ unhook
+ swt
+default selection
+ listener
+set alignment
+ alignment
+check widget
+ alignment
+ swt
+ left
+ swt
+ right
+ swt
+ center
+ index
+ parent
+ index
+ index
+ index
+ style
+ swt
+ left
+ swt
+ right
+ swt
+ center
+ style
+ alignment
+ swt
+ left
+ swt
+ right
+ swt
+ center
+ hwnd
+ parent
+ handle
+ lvcolumn
+ column
+ lvcolumn
+ column
+ mask
+
+lvcf fmt
+
+lvcf image
+
+send message
+ hwnd
+
+lvm getcolumn
+ index
+ column
+ column
+ fmt
+
+lvcfmt justifymask
+ fmt
+ style
+ swt
+ left
+ swt
+ left
+ fmt
+
+lvcfmt left
+ style
+ swt
+ center
+ swt
+ center
+ fmt
+
+lvcfmt center
+ style
+ swt
+ right
+ swt
+ right
+ fmt
+
+lvcfmt right
+ column
+ fmt
+ fmt
+
+send message
+ hwnd
+
+lvm setcolumn
+ index
+ column
+set image
+ image
+ image
+check widget
+ image
+ image
+ disposed
+ error
+ swt
+error invalid argument
+ index
+ parent
+ index
+ index
+set image
+ image
+ hwnd
+ parent
+ handle
+ lvcolumn
+ column
+ lvcolumn
+ column
+ mask
+
+lvcf fmt
+
+lvcf image
+
+send message
+ hwnd
+
+lvm getcolumn
+ index
+ column
+ image
+ column
+ fmt
+
+lvcfmt image
+ column
+ image
+ parent
+image index
+ image
+ column
+ fmt
+
+lvcfmt image
+
+send message
+ hwnd
+
+lvm setcolumn
+ index
+ column
+set moveable
+ moveable
+check widget
+ moveable
+ moveable
+ parent
+update moveable
+set resizable
+ resizable
+check widget
+ resizable
+ resizable
+set text
+ string
+ string
+check widget
+ string
+ error
+ swt
+error null argument
+ index
+ parent
+ index
+ index
+set text
+ string
+ hwnd
+ parent
+ handle
+ lvcolumn
+ column
+ lvcolumn
+ column
+ mask
+
+lvcf fmt
+
+send message
+ hwnd
+
+lvm getcolumn
+ index
+ column
+ heap
+
+get process heap
+ tchar
+ buffer
+ tchar
+ parent
+get code page
+fix mnemonic
+ string
+byte count
+ buffer
+ length
+ tchar
+ sizeof
+psz text
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+psz text
+ buffer
+byte count
+ column
+ mask
+
+lvcf text
+ column
+psz text
+psz text
+ result
+
+send message
+ hwnd
+
+lvm setcolumn
+ index
+ column
+psz text
+
+heap free
+ heap
+psz text
+ result
+ error
+ swt
+error cannot set text
+set width
+ width
+check widget
+ index
+ parent
+ index
+ index
+ hwnd
+ parent
+ handle
+
+send message
+ hwnd
+
+lvm setcolumnwidth
+ index
+ width
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  represent  column  table  widget  styles  left  right  center  events  move  resize  selection  note  only  one  the  styles  left  right  and  center  may  specified  important  this  class  not  intended  subclassed 
+constructs  new  instance  this  class  given  its  parent  which  must  code  table  code  and  style  value  describing  its  behavior  and  appearance  the  item  added  the  end  the  items  maintained  its  parent  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  left  see  swt  right  see  swt  center  see  widget check subclass  see  widget get style
+constructs  new  instance  this  class  given  its  parent  which  must  code  table  code  style  value  describing  its  behavior  and  appearance  and  the  index  which  place  the  items  maintained  its  parent  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  param  index  the  index  store  the  receiver  its  parent  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  left  see  swt  right  see  swt  center  see  widget check subclass  see  widget get style
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  control  moved  resized  sending  one  the  messages  defined  the  code control listener  code  interface  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see control listener  see remove control listener
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  control  selected  sending  one  the  messages  defined  the  code selection listener  code  interface  code widget selected  code  called  when  the  column  header  selected  code widget default selected  code  not  called  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener  see selection event
+returns  value  which  describes  the  position  the  text  image  the  receiver  the  value  will  one  code  left  code  code  right  code  code  center  code  return  the  alignment  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  parent  which  must  code  table  code  return  the  receiver  parent  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+gets  the  moveable  attribute  column  that  not  moveable  cannot  reordered  the  user  dragging  the  header  but  may  reordered  the  programmer  return  the  moveable  attribute  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  table get column order  see  table set column order  int  see table column set moveable  boolean  see  swt  move  since 
+gets  the  resizable  attribute  column  that  not  resizable  cannot  dragged  the  user  but  may  resized  the  programmer  return  the  resizable  attribute  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+gets  the  width  the  receiver  return  the  width  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+causes  the  receiver  resized  its  preferred  size  for  composite  this  involves  computing  the  preferred  size  from  its  layout  there  one  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  windows  when  lvm  setcolumnwidth  used  with  lvscw  autosize  where  each  item  has  imagecallback  but  there  are  images  the  table  the  size  computed  lvm  setcolumnwidth  too  small  for  the  first  column  causing  long  items  clipped  with  the  fix  increase  the  column  width  small  amount
+bug  windows  when  lvm  setcolumnwidth  used  with  lvscw  autosize  for  table  with  state  image  list  the  column  width  does  not  include  space  for  the  state  icon  the  fix  increase  the  column  width  the  width  the  image  list
+feature  windows  when  lvscw  autosize  useheader  used  with  lvm  setcolumnwidth  resize  the  last  column  the  last  column  expanded  fill  the  client  area  the  fix  resize  the  table  small  set  the  column  width  and  then  restore  the  table  its  original  size
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  control  moved  resized  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see control listener  see add control listener
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  control  selected  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener
+controls  how  text  and  images  will  displayed  the  receiver  the  argument  should  one  code  left  code  code  right  code  code  center  code  param  alignment  the  new  alignment  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  moveable  attribute  column  that  moveable  can  reordered  the  user  dragging  the  header  column  that  not  moveable  cannot  dragged  the  user  but  may  reordered  the  programmer  param  moveable  the  moveable  attribute  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  table set column order  int  see  table get column order  see table column get moveable  see  swt  move  since 
+sets  the  resizable  attribute  column  that  resizable  can  resized  the  user  dragging  the  edge  the  header  column  that  not  resizable  cannot  dragged  the  user  but  may  resized  the  programmer  param  resizable  the  resize  attribute  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  windows  for  some  reason  when  the  title  column  changed  after  the  column  has  been  created  the  alignment  must  also  reset  the  text  does  not  draw  the  fix  query  and  then  set  the  alignment
+bug  windows  when  column  header  contains  mnemonic  character  windows  does  not  measure  the  text  properly  this  causes  always  appear  the  end  the  text  the  fix  remove  mnemonic  characters  and  replace  doubled  mnemonics  with  spaces
+sets  the  width  the  receiver  param  width  the  new  width  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+</comments>
+</text>
+</DOC>

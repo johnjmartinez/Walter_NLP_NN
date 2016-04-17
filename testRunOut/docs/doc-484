@@ -1,0 +1,362 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.DirectoryDialog.java </DOCNO>
+<text>
+<class>
+directory dialog
+</class>
+<method>
+directory dialog
+directory dialog
+browse callback proc
+get filter path
+get message
+ open
+set filter path
+set message
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+directory dialog
+ dialog
+ string
+ message
+filter path
+ string
+directory path
+directory dialog
+ shell
+ parent
+ parent
+ swt
+primary modal
+directory dialog
+ shell
+ parent
+ style
+ parent
+ style
+check subclass
+browse callback proc
+ hwnd
+ msg
+ param
+ data
+ msg
+
+bffm initialized
+filter path
+filter path
+ length
+ tchar
+ buffer
+ tchar
+filter path
+ replace
+
+send message
+ hwnd
+
+bffm setselection
+ buffer
+ title
+ title
+ length
+ tchar
+ buffer
+ tchar
+ title
+
+set window text
+ hwnd
+ buffer
+
+bffm validatefaileda
+
+bffm validatefailedw
+ length
+
+ unicode
+
+ wcslen
+ param
+
+ strlen
+ param
+ tchar
+ buffer
+ tchar
+ length
+byte count
+ buffer
+ length
+ tchar
+ sizeof
+
+move memory
+ buffer
+ param
+byte count
+directory path
+ buffer
+ string
+ length
+ string
+get filter path
+filter path
+ string
+get message
+ message
+ string
+ open
+
+ win
+ swt
+ error
+ swt
+error not implemented
+ heap
+
+get process heap
+hwnd owner
+ parent
+hwnd owner
+ parent
+ handle
+lpsz title
+ message
+ length
+ string
+ string
+ message
+ string
+ index
+ length
+ string
+ length
+ buffer
+ length
+ index
+
+
+ length
+
+
+ string
+ char
+
+
+ buffer
+ index
+ buffer
+ index
+
+ string
+ string
+ buffer
+ index
+ tchar
+ buffer
+ tchar
+ string
+byte count
+ buffer
+ length
+ tchar
+ sizeof
+lpsz title
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+lpsz title
+ buffer
+byte count
+ callback
+ callback
+ callback
+ address
+ callback
+get address
+ address
+ swt
+ error
+ swt
+error more callbacks
+ shell
+old modal
+ display
+ display
+ parent
+get display
+ style
+ swt
+application modal
+ swt
+system modal
+old modal
+ display
+get modal dialog shell
+ display
+set modal dialog shell
+ parent
+directory path
+ browseinfo
+ lpbi
+ browseinfo
+ lpbi
+hwnd owner
+hwnd owner
+ lpbi
+lpsz title
+lpsz title
+ lpbi
+ flags
+
+bif newdialogstyle
+
+bif returnonlyfsdirs
+
+bif editbox
+
+bif validate
+ lpbi
+ lpfn
+ address
+old error mode
+
+set error mode
+
+sem failcriticalerrors
+old ignore
+ display
+ignore msg filter
+
+comctl 32_ major
+ display
+ignore msg filter
+item list
+
+browse for folder
+ lpbi
+
+comctl 32_ major
+ display
+ignore msg filter
+old ignore
+
+set error mode
+old error mode
+ style
+ swt
+application modal
+ swt
+system modal
+ display
+set modal dialog shell
+old modal
+ success
+item list
+ success
+ tchar
+ buffer
+ tchar
+
+max path
+
+get path from list
+item list
+ buffer
+directory path
+ buffer
+ string
+ buffer
+ strlen
+filter path
+directory path
+ callback
+ dispose
+lpsz title
+
+heap free
+ heap
+lpsz title
+ malloc
+
+get malloc
+ malloc
+
+
+
+vtbl call
+ malloc
+item list
+ success
+directory path
+set filter path
+ string
+ string
+filter path
+ string
+set message
+ string
+ string
+ string
+ error
+ swt
+error null argument
+ message
+ string
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  allow  the  user  navigate  the  file  system  and  select  directory  styles  none  events  none  important  this  class  intended  subclassed  only  within  the  swt  implementation 
+non  nls  non  nls 
+constructs  new  instance  this  class  given  only  its  parent  param  parent  shell  which  will  the  parent  the  new  instance  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  shell  which  will  the  parent  the  new  instance  param  style  the  style  dialog  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass 
+use  the  character  encoding  for  the  default  locale
+use  the  character  encoding  for  the  default  locale
+use  the  character  encoding  for  the  default  locale
+returns  the  path  which  the  dialog  will  use  filter  the  directories  shows  return  the  filter  path  see set filter path
+returns  the  dialog  message  which  description  the  purpose  for  which  was  opened  this  message  will  visible  the  dialog  while  open  return  the  message
+makes  the  dialog  visible  and  brings  the  front  the  display  return  string  describing  the  absolute  path  the  selected  directory  null  the  dialog  was  cancelled  error  occurred  exception swt exception  error  widget  disposed  the  dialog  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  dialog 
+get  the  owner  hwnd  for  the  dialog
+copy  the  message  memory
+use  the  character  encoding  for  the  default  locale
+create  the browse callback proc
+non  nls 
+make  the  parent  shell  temporary  modal
+bug  windows  some  hardware  configurations browse for folder  causes  warning  dialogs  with  the  message  there  disk  the  drive  please  insert  disk  into  device  harddisk  this  possibly  caused browse for folder  calling  internally get volume information  msdn  for get volume information  says  you  are  attempting  obtain  information  about  floppy  drive  that  does  not  have  floppy  disk  rom  drive  that  does  not  have  compact  disc  the  system  displays  message  box  asking  the  user  insert  floppy  disk  compact  disc  respectively  prevent  the  system  from  displaying  this  message  box  call  the set error mode  function  with  sem  failcriticalerrors  the  fix  save  and  restore  the  error  mode  using set error mode  with  the  sem  failcriticalerrors  flag  around browse for folder
+bug  windows  when  msgfilter  hook  used  run  code  during  the  message  loop  for browse for folder  running  code  the  hook  can  cause  specifically set window text  for  static  controls  seemed  make  the  problem  happen  the  fix  ignore  the  hook  while  the  directory  dialog  open  note  this  only  happens  versions  the  comctl  dll  earlier  than 
+clear  the  temporary  dialog  modal  parent
+use  the  character  encoding  for  the  default  locale
+free  the browse callback proc
+free  the  memory
+free  the  pointer  the  itemidlist
+void  free  struct  malloc  this  void 
+this  code  intentionally  commented  some  platforms  the  owner  window  repainted  right  away  when  dialog  window  exits  this  behavior  currently  unspecified
+hwnd owner update window hwnd owner
+return  the  directory  path
+sets  the  path  that  the  dialog  will  use  filter  the  directories  shows  the  argument  which  may  null  the  string  null  then  the  operating  system  default  filter  path  will  used  note  that  the  path  string  platform  dependent  for  convenience  either  can  used  path  separator  param  string  the  filter  path
+sets  the  dialog  message  which  description  the  purpose  for  which  was  opened  this  message  will  visible  the  dialog  while  open  param  string  the  message  exception illegal argument exception  error  null  argument  the  string  null 
+</comments>
+</text>
+</DOC>

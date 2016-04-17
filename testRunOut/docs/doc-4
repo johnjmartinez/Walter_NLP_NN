@@ -1,0 +1,315 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.PrintRenderer.java </DOCNO>
+<text>
+<class>
+print renderer
+</class>
+<method>
+print renderer
+ dispose
+ dispose
+draw line break selection
+get bidi segments
+get client area
+get content
+ get
+get horizontal pixel
+get logical line offset
+get orientation
+get selection background
+get selection foreground
+get line background data
+get line style data
+get selection
+get word wrap
+full line selection
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ java
+ util
+ hashtable
+ org
+ eclipse
+ swt
+ swt
+ org
+ eclipse
+ swt
+ graphics
+print renderer
+styled text renderer
+styled text content
+logical content
+wrapped content
+ content
+ rectangle
+client area
+
+
+ hashtable
+line backgrounds
+ hashtable
+line styles
+ hashtable
+bidi segments
+print renderer
+ device
+ device
+ font
+regular font
+
+
+styled text content
+logical content
+ hashtable
+line backgrounds
+ hashtable
+line styles
+ hashtable
+bidi segments
+tab length
+ rectangle
+client area
+ device
+regular font
+logical content
+logical content
+line backgrounds
+line backgrounds
+line styles
+line styles
+bidi segments
+bidi segments
+client area
+client area
+
+
+calculate line height
+set tab length
+tab length
+ content
+wrapped content
+logical content
+ content
+wrap lines
+ dispose
+ content
+ dispose
+ dispose
+
+
+draw line break selection
+ string
+ line
+line offset
+ paint
+ paint
+
+
+get bidi segments
+line offset
+ string
+line text
+line length
+line text
+ length
+logical line offset
+get logical line offset
+line offset
+ segments
+bidi segments
+ get
+ integer
+logical line offset
+ segments
+ segments
+line length
+logical line index
+logical content
+get line offset
+line offset
+logical line length
+logical content
+get line
+logical line index
+ length
+line offset
+logical line offset
+line length
+logical line length
+line offset delta
+line offset
+logical line offset
+new segment count
+new segments
+ segments
+ length
+
+
+ segments
+ length
+
+new segments
+
+ math
+ max
+ segments
+
+line offset delta
+new segments
+
+line length
+new segments
+
+line length
+new segment count
+
+new segments
+
+new segment count
+ segments
+new segment count
+
+new index
+
+new segments
+ length
+new index
+new segment count
+
+
+new segments
+
+ segments
+new index
+new segments
+
+ segments
+ rectangle
+get client area
+client area
+styled text content
+get content
+ content
+
+ get
+
+get horizontal pixel
+get logical line offset
+visual line offset
+logical line index
+logical content
+get line offset
+visual line offset
+logical content
+get offset line
+logical line index
+get orientation
+ mask
+ swt
+right left
+ swt
+left right
+
+get style
+ mask
+ color
+get selection background
+ color
+get selection foreground
+styled text event
+get line background data
+line offset
+ string
+ line
+logical line offset
+get logical line offset
+line offset
+styled text event
+line backgrounds
+ get
+ integer
+logical line offset
+styled text event
+get line style data
+line offset
+ string
+ line
+logical line offset
+get logical line offset
+line offset
+styled text event
+logical line event
+styled text event
+line styles
+ get
+ integer
+logical line offset
+logical line event
+styled text event
+ clone
+styled text event
+styled text content
+logical line event
+ data
+ clone
+ detail
+logical line event
+ detail
+ clone
+ styles
+logical line event
+ styles
+ clone
+ text
+logical line event
+ text
+logical line event
+get line style data
+ clone
+line offset
+ line
+logical line event
+ point
+get selection
+ point
+get word wrap
+full line selection
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+print renderer  renders  the  content styled text  widget  printer  device  print  rendering  may  occur  non  thread  therefore  all  requests  for  styles  content  and  any  other  information  normally  stored  the styled text  widget  are  served  from  cached  data  caching  also  guarantees  immutable  data  for  threaded  printing
+logical  unwrapped  content
+wrapped  content
+printer  client  area
+printer  there  can  only  one  for  each  printer  device
+line  background  colors  used  during  rendering
+line  styles  colors  used  during  rendering
+bidi  segments  used  during  rendering  bidi  platforms
+creates  instance  class print renderer  class  param  device  device  render  param regular font  font  use  for  regular  text  param  printer  use  for  rendering  there  can  only  one  for  each  printer  device  any  given  time  param logical content styled text content  print  param line backgrounds  line  background  colors  use  during  rendering  param line styles  line  styles  colors  use  during  rendering  param bidi segments  bidi  segments  use  during  rendering  bidi  platforms  param left margin  margin  the  left  the  text  param tab length  length  characters  tab  character  param client area  the  printer  client  area
+wrap lines  requires  tab  width  known
+disposes  the  resource  created  the  receiver
+nothing print renderer  does  not  create  see styled text renderer  dispose
+not  print  the  selection  see styled text renderer draw line selection background
+returns  from  cache  the  text  segments  that  should  treated  they  had  different  direction  than  the  surrounding  text  use  cached  data  param line offset  offset  the  first  character  the  line  based  from  the  beginning  the  document  param  line  text  the  line  specify  bidi  segments  for  return  text  segments  that  should  treated  they  had  different  direction  than  the  surrounding  text  only  the  start  index  segment  specified  relative  the  start  the  line  always  starts  with  and  ends  with  the  line  length  exception illegal argument exception  error  invalid  argument  the  segment  indices  returned  the  listener  not  start  with  are  not  ascending  order  exceed  the  line  length  have  duplicates 
+cached  bidi  segments  are  for  logical  lines
+make  sure  that  returned  segments  match  requested  line  since
+line  wrapping  may  require  either  entire  part  logical
+line  bidi  segments
+returns  the  printer  client  area  return  the  visible  client  area  that  can  used  for  rendering  see styled text renderer get client area
+returns  the  class styled text content  class  use  for  line  offset  calculations  this  the  wrapped  content  calculated  the  constructor  from  the  logical  printing  content  return  the  class styled text content  class  use  for  line  offset  calculations
+returns  the  printer  use  for  rendering  and  measuring  there  can  only  one  for  each  printer  device  any  given  time  return  the  printer  use  for  rendering  and  measuring
+returns  scrolling  does  not  affect  printing  text  wrapped  for  printing  return  see styled text renderer get horizontal pixel
+returns  the  start  offset  the  line  the  given  offset  param visual line offset  offset  that  may  anywhere  within  line  return  the  start  offset  the  line  the  given  offset  relative  the  start  the  document
+return  cached  line  background  data  see styled text renderer get line background data
+return  cached  line  style  background  data  see styled text renderer get line style data
+selection  not  printed  return  point  see styled text renderer get selection
+printed  content  always  wrapped  return  true  see styled text renderer get word wrap
+selection  not  printed  returns  false  return  false  see styled text renderer full line selection
+</comments>
+</text>
+</DOC>

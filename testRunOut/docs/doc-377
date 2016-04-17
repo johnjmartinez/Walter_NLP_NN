@@ -1,0 +1,352 @@
+<DOC>
+<DOCNO>org.eclipse.swt.ole.win32.OleEventSink.java </DOCNO>
+<text>
+<class>
+ole event sink
+</class>
+<method>
+ole event sink
+ connect
+add listener
+add ref
+create com interfaces
+ method
+ method
+ method
+ method
+ disconnect
+dispose com interfaces
+ invoke
+notify listener
+query interface
+ release
+remove listener
+has listeners
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ ole
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ole event sink
+ole control site
+ widget
+com object
+ dispatch
+ref count
+ unknown
+obj unknown
+event cookie
+ guid
+event guid
+ole event table
+event table
+ole event sink
+ole control site
+ widget
+ unknown
+ guid
+ riid
+ widget
+ widget
+event guid
+ riid
+obj unknown
+ unknown
+ unknown
+create com interfaces
+ connect
+ppv object
+obj unknown
+query interface
+ com
+iidi connection point container
+ppv object
+ com
+
+connection point container
+ cpc
+connection point container
+ppv object
+
+ cpc
+find connection point
+event guid
+
+ com
+
+connection point
+
+connection point
+
+ cookie
+
+ advise
+ dispatch
+get address
+ cookie
+ com
+
+event cookie
+ cookie
+
+ release
+ cpc
+ release
+add listener
+ event
+ole listener
+ listener
+ listener
+ ole
+ error
+ swt
+error null argument
+event table
+event table
+ole event table
+event table
+ hook
+ event
+ listener
+add ref
+ref count
+ref count
+create com interfaces
+ dispatch
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+ invoke
+ args
+ args
+ args
+ args
+ args
+ args
+ args
+ args
+ disconnect
+event cookie
+obj unknown
+ppv object
+obj unknown
+query interface
+ com
+iidi connection point container
+ppv object
+ com
+
+connection point container
+ cpc
+connection point container
+ppv object
+ cpc
+find connection point
+event guid
+ppv object
+ com
+
+connection point
+
+connection point
+ppv object
+
+ unadvise
+event cookie
+ com
+
+event cookie
+
+ release
+ cpc
+ release
+dispose com interfaces
+ dispatch
+ dispatch
+ dispose
+ dispatch
+ invoke
+disp member
+ riid
+ lcid
+ flags
+disp params
+var result
+excep info
+arg err
+event table
+event table
+ hooks
+disp member
+ com
+
+ variant
+event info
+disp params
+ dispparams
+disp params
+ dispparams
+ com
+move memory
+disp params
+disp params
+ dispparams
+ sizeof
+event info
+ variant
+disp params
+ args
+ size
+ variant
+ sizeof
+ offset
+disp params
+ args
+ size
+
+
+disp params
+ args
+
+event info
+
+ variant
+event info
+
+set data
+disp params
+ rgvarg
+ offset
+ offset
+ offset
+ size
+ole event
+ event
+ole event
+ event
+ arguments
+event info
+notify listener
+disp member
+ event
+ com
+
+notify listener
+event type
+ole event
+ event
+ event
+ ole
+ error
+ swt
+error null argument
+event table
+ event
+ type
+event type
+ event
+ widget
+ widget
+event table
+send event
+ event
+query interface
+ riid
+ppv object
+ riid
+ppv object
+ com
+ invalidarg
+ guid
+ guid
+ guid
+ com
+move memory
+ guid
+ riid
+ guid
+ sizeof
+ com
+equal guid
+ guid
+ com
+iidi unknown
+ com
+equal guid
+ guid
+ com
+iidi dispatch
+ com
+equal guid
+ guid
+event guid
+ com
+move memory
+ppv object
+ dispatch
+get address
+add ref
+ ole
+
+ com
+move memory
+ppv object
+ com
+ nointerface
+ release
+ref count
+ref count
+dispose com interfaces
+ref count
+remove listener
+ event
+ole listener
+ listener
+ listener
+ ole
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ event
+ listener
+has listeners
+event table
+has entries
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+method get type info count  not  implemented
+method get type info  not  implemented
+method get names  not  implemented
+disconnect  event  sink
+construct  array  the  parameters  that  are  passed 
+note  parameters  are  passed  reverse  order  here  will  correct  the  order
+notify  listeners  event  this  method  notifies  all  listeners  that  event  has  occurred  param event type  the  desired  swt  event  param  event  the  event  data  exception illegal argument exception  error  null  argument  when  handler  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+</comments>
+</text>
+</DOC>

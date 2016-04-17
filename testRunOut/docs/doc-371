@@ -1,0 +1,965 @@
+<DOC>
+<DOCNO>org.eclipse.swt.ole.win32.OleAutomation.java </DOCNO>
+<text>
+<class>
+ole automation
+</class>
+<method>
+ole automation
+ole automation
+ dispose
+get address
+get help file
+get documentation
+get property description
+get function description
+get type info attributes
+get name
+get names
+get names
+get last error
+get property
+get property
+get property
+ invoke
+ invoke
+ invoke
+ invoke
+invoke reply
+invoke reply
+invoke reply
+manage excepinfo
+set property
+set property
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ ole
+ win
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ internal
+ win
+ole automation
+ dispatch
+obj dispatch
+ string
+exception description
+type info
+obj type info
+ole automation
+ dispatch
+ idispatch
+ idispatch
+ ole
+ error
+ ole
+error invalid interface address
+obj dispatch
+ idispatch
+obj dispatch
+add ref
+ ppv
+ result
+obj dispatch
+get type info
+ com
+locale user default
+ ppv
+ result
+ ole
+
+obj type info
+type info
+ ppv
+obj type info
+add ref
+ole automation
+ole client site
+client site
+client site
+ ole
+ error
+ ole
+error invalid interface address
+obj dispatch
+client site
+get automation object
+ ppv
+ result
+obj dispatch
+get type info
+ com
+locale user default
+ ppv
+ result
+ ole
+
+obj type info
+type info
+ ppv
+obj type info
+add ref
+ dispose
+obj dispatch
+obj dispatch
+ release
+obj dispatch
+obj type info
+obj type info
+ release
+obj type info
+get address
+obj dispatch
+get address
+ string
+get help file
+ disp
+obj type info
+ string
+ file
+ string
+
+obj type info
+get documentation
+ disp
+ file
+
+ ole
+
+ file
+ string
+get documentation
+ disp
+obj type info
+ string
+ doc
+ string
+
+obj type info
+get documentation
+ disp
+ doc
+
+ ole
+
+ doc
+ole property description
+get property description
+ index
+obj type info
+var desc
+
+obj type info
+get var desc
+ index
+var desc
+
+ ole
+
+ vardesc
+ vardesc
+ vardesc
+ com
+move memory
+ vardesc
+var desc
+ vardesc
+ sizeof
+ole property description
+ data
+ole property description
+ data
+
+ vardesc
+ memid
+ data
+ name
+get name
+ vardesc
+ memid
+ data
+ type
+ vardesc
+elemdesc var _tdesc _vt
+ data
+ type
+ ole
+ ptr
+
+ com
+move memory
+
+ vardesc
+elemdesc var _tdesc _union
+ data
+ type
+
+ data
+ flags
+ vardesc
+var flags
+ data
+ kind
+ vardesc
+ varkind
+ data
+ description
+get documentation
+ vardesc
+ memid
+ data
+help file
+get help file
+ vardesc
+ memid
+obj type info
+release var desc
+var desc
+ data
+ole function description
+get function description
+ index
+obj type info
+func desc
+
+obj type info
+get func desc
+ index
+func desc
+
+ ole
+
+ funcdesc
+ funcdesc
+ funcdesc
+ com
+move memory
+ funcdesc
+func desc
+ funcdesc
+ sizeof
+ole function description
+ data
+ole function description
+ data
+
+ funcdesc
+ memid
+ data
+optional arg count
+ funcdesc
+params opt
+ data
+invoke kind
+ funcdesc
+ invkind
+ data
+func kind
+ funcdesc
+ funckind
+ data
+ flags
+ funcdesc
+func flags
+ data
+calling convention
+ funcdesc
+ callconv
+ data
+ documentation
+get documentation
+ funcdesc
+ memid
+ data
+help file
+get help file
+ funcdesc
+ memid
+ string
+ names
+get names
+ funcdesc
+ memid
+ funcdesc
+ params
+ names
+ length
+ data
+ name
+ names
+ data
+ args
+ole parameter description
+ funcdesc
+ params
+
+
+ data
+ args
+ length
+
+ data
+ args
+
+ole parameter description
+ names
+ length
+
+ data
+ args
+
+ name
+ names
+
+
+ com
+move memory
+
+ funcdesc
+lprgelemdesc param
+
+
+ ole
+ ptr
+ typedesc
+ com
+move memory
+ typedesc
+ funcdesc
+lprgelemdesc param
+
+
+ com
+move memory
+
+ typedesc
+
+
+ com
+ byref
+ data
+ args
+
+ type
+
+param flags
+ com
+move memory
+param flags
+ funcdesc
+lprgelemdesc param
+
+ data
+ args
+
+ flags
+param flags
+ data
+return type
+ funcdesc
+elemdesc func _tdesc _vt
+ data
+return type
+ ole
+ ptr
+
+ com
+move memory
+
+ funcdesc
+elemdesc func _tdesc _union
+ data
+return type
+
+obj type info
+release func desc
+func desc
+ data
+ typeattr
+get type info attributes
+obj type info
+type attr
+
+obj type info
+get type attr
+type attr
+
+ ole
+
+ typeattr
+ typeattr
+ typeattr
+ com
+move memory
+ typeattr
+type attr
+ typeattr
+ sizeof
+obj type info
+release type attr
+type attr
+ typeattr
+ string
+get name
+ disp
+obj type info
+ string
+ name
+ string
+
+obj type info
+get documentation
+ disp
+ name
+
+ ole
+
+ name
+ string
+get names
+ disp
+max size
+obj type info
+ string
+ string
+ names
+ string
+max size
+ count
+
+obj type info
+get names
+ disp
+ names
+max size
+ count
+
+ ole
+
+ string
+new names
+ string
+ count
+ system
+ arraycopy
+ names
+new names
+ count
+new names
+ string
+get names
+ string
+ names
+ rgdispid
+ names
+ length
+ result
+obj dispatch
+get names
+ guid
+ names
+ names
+ length
+ com
+locale user default
+ rgdispid
+ result
+ com
+
+ rgdispid
+ string
+get last error
+exception description
+ variant
+get property
+disp member
+ variant
+var result
+ variant
+ result
+ invoke
+disp member
+ com
+dispatch propertyget
+var result
+ result
+ ole
+
+var result
+ variant
+get property
+disp member
+ variant
+ rgvarg
+ variant
+var result
+ variant
+ result
+ invoke
+disp member
+ com
+dispatch propertyget
+ rgvarg
+var result
+ result
+ ole
+
+var result
+ variant
+get property
+disp member
+ variant
+ rgvarg
+rgdispid named args
+ variant
+var result
+ variant
+ result
+ invoke
+disp member
+ com
+dispatch propertyget
+ rgvarg
+rgdispid named args
+var result
+ result
+ ole
+
+var result
+ variant
+ invoke
+disp member
+ variant
+var result
+ variant
+ result
+ invoke
+disp member
+ com
+dispatch method
+var result
+ result
+ com
+
+var result
+ variant
+ invoke
+disp member
+ variant
+ rgvarg
+ variant
+var result
+ variant
+ result
+ invoke
+disp member
+ com
+dispatch method
+ rgvarg
+var result
+ result
+ com
+
+var result
+ variant
+ invoke
+disp member
+ variant
+ rgvarg
+rgdispid named args
+ variant
+var result
+ variant
+ result
+ invoke
+disp member
+ com
+dispatch method
+ rgvarg
+rgdispid named args
+var result
+ result
+ com
+
+var result
+ invoke
+disp member
+ flags
+ variant
+ rgvarg
+rgdispid named args
+ variant
+var result
+obj dispatch
+ com
+ fail
+ dispparams
+disp params
+ dispparams
+ rgvarg
+ rgvarg
+ length
+disp params
+ args
+ rgvarg
+ length
+disp params
+ rgvarg
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ variant
+ sizeof
+ rgvarg
+ length
+ offset
+
+ rgvarg
+ length
+
+
+ rgvarg
+
+get data
+disp params
+ rgvarg
+ offset
+ offset
+ variant
+ sizeof
+rgdispid named args
+rgdispid named args
+ length
+disp params
+named args
+rgdispid named args
+ length
+disp params
+rgdispid named args
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+rgdispid named args
+ length
+ offset
+
+rgdispid named args
+ length
+
+
+ com
+move memory
+disp params
+rgdispid named args
+ offset
+rgdispid named args
+
+ offset
+ excepinfo
+excep info
+ excepinfo
+arg err
+var result address
+var result
+var result address
+
+global alloc
+
+gmem fixed
+
+gmem zeroinit
+ variant
+ sizeof
+ result
+obj dispatch
+ invoke
+disp member
+ guid
+ com
+locale user default
+ flags
+disp params
+var result address
+excep info
+arg err
+var result address
+var result
+set data
+var result address
+ com
+variant clear
+var result address
+
+global free
+var result address
+disp params
+rgdispid named args
+
+global free
+disp params
+rgdispid named args
+disp params
+ rgvarg
+ offset
+
+ length
+ rgvarg
+ length
+
+ length
+
+ com
+variant clear
+disp params
+ rgvarg
+ offset
+ offset
+ variant
+ sizeof
+
+global free
+disp params
+ rgvarg
+manage excepinfo
+ result
+excep info
+ result
+invoke reply
+disp member
+ result
+ invoke
+disp member
+ com
+dispatch method
+ result
+ com
+
+ ole
+ error
+ ole
+error action not performed
+ result
+invoke reply
+disp member
+ variant
+ rgvarg
+ result
+ invoke
+disp member
+ com
+dispatch method
+ rgvarg
+ result
+ com
+
+ ole
+ error
+ ole
+error action not performed
+ result
+invoke reply
+disp member
+ variant
+ rgvarg
+rgdispid named args
+ result
+ invoke
+disp member
+ com
+dispatch method
+ rgvarg
+rgdispid named args
+ result
+ com
+
+ ole
+ error
+ ole
+error action not performed
+ result
+manage excepinfo
+ result
+ excepinfo
+excep info
+ result
+ com
+
+exception description
+ result
+ com
+disp exception
+excep info
+bstr description
+ size
+ com
+sys string byte len
+excep info
+bstr description
+ buffer
+ size
+ com
+move memory
+ buffer
+excep info
+bstr description
+ size
+exception description
+ string
+ buffer
+exception description
+excep info
+ code
+exception description
+excep info
+ code
+excep info
+ scode
+exception description
+excep info
+ scode
+exception description
+ result
+excep info
+bstr description
+ com
+sys free string
+excep info
+bstr description
+excep info
+bstr help file
+ com
+sys free string
+excep info
+bstr help file
+excep info
+bstr source
+ com
+sys free string
+excep info
+bstr source
+set property
+disp member
+ variant
+ rgvarg
+ variant
+ rgvarg
+ variant
+ rgvarg
+rgdispid named args
+ com
+dispid propertyput
+ flags
+ com
+dispatch propertyput
+ rgvarg
+get type
+ com
+ byref
+ com
+ byref
+ flags
+ com
+dispatch propertyputref
+ variant
+var result
+ variant
+ result
+ invoke
+disp member
+ flags
+ rgvarg
+rgdispid named args
+var result
+ result
+ com
+
+set property
+disp member
+ variant
+ rgvarg
+rgdispid named args
+ com
+dispid propertyput
+ flags
+ com
+dispatch propertyput
+
+
+ rgvarg
+ length
+
+ rgvarg
+
+get type
+ com
+ byref
+ com
+ byref
+ flags
+ com
+dispatch propertyputref
+ variant
+var result
+ variant
+ result
+ invoke
+disp member
+ flags
+ rgvarg
+rgdispid named args
+var result
+ result
+ com
+
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+ole automation  provides  generic  mechanism  for  accessing  functionality  that  specific  particular  active  control  ole  document  the  ole  document  active  control  must  support  the  dispatch  interface  order  provide ole automation  support  the  additional  functionality  provided  the  ole  object  specified  its  idl  file  the  additional  methods  can  either  get  property  values  code get property  code  set  property  values  code set property  code  invoke  method  code  invoke  code  code invoke reply  code  arguments  are  passed  around  the  form  code  variant  code  objects  here  sample  idl  fragment  pre  interface  control  dispatch  propget  hresult max file count  retval  out  int  propput  hresult max file count  int  hresult add file  bstr file name  pre  example  how  interact  with  this  extended  functionality  shown  below  code  pre ole automation  automation  new ole automation control site  look  the  the max file count  parameter  int  rgdispid  automation get names  new  string max file count  int max file count  rgdispid  set  the  property max file count  100  automation set property max file count  new  variant  100  system  out  println  max  file  count  was  successfully  set  get  the  new  value  the max file count  parameter  variant var result  automation get property max file count var result  null  system  out  println  max  file  count var result get int  invoke  the add file  method  look  the  the add file  method  and  its  parameter  rgdispid  automation get names  new  string add file file name  int disp member  rgdispid  int rgdispid named args  new  int  rgdispid  convert  arguments  variant  objects  variant  rgvarg  new  variant  string file name  testfile  rgvarg  new  variant file name  call  the  method  variant var result  automation  invoke disp member  rgvarg rgdispid named args  check  the  return  value var result  null var result get int  ole  system  out  println  failed  add  file file name  automation  dispose  pre  code
+creates ole automation  object  for  the  specified  client  param client site  the  site  for  the  ole  document  active  control  whose  additional  functionality  you  need  access  exception illegal argument exception  error  invalid  interface  address  when  called  with  invalid  client  site 
+disposes  the  automation  object  this  method  releases  the  dispatch  interface  the  ole  document  active  control  not  use  the ole automation  object  after  has  been  disposed
+returns  the  positive  integer  values  that  are  associated  with  the  specified  names  the  dispatch  implementor  you  are  trying  get  the  names  the  parameters  method  the  first  string  the  names  array  must  the  name  the  method  followed  the  names  the  parameters  param  names  array  names  for  which  you  require  the  identifiers  return  positive  integer  values  that  are  associated  with  the  specified  names  the  same  order  the  names  where  provided  null  the  names  are  unknown
+returns  description  the  last  error  encountered  return  description  the  last  error  encountered
+returns  the  value  the  property  specified  the disp member  param disp member  the  the  property  specified  the  idl  the  active  control  the  value  for  the  can  obtained  using ole automation get names  return  the  value  the  property  specified  the disp member  null
+returns  the  value  the  property  specified  the disp member  param disp member  the  the  property  specified  the  idl  the  active  control  the  value  for  the  can  obtained  using ole automation get names  param  rgvarg  array  arguments  for  the  method  all  arguments  are  considered  read  only  unless  the  variant  reference  variant  type  return  the  value  the  property  specified  the disp member  null  since 
+returns  the  value  the  property  specified  the disp member  param disp member  the  the  property  specified  the  idl  the  active  control  the  value  for  the  can  obtained  using ole automation get names  param  rgvarg  array  arguments  for  the  method  all  arguments  are  considered  read  only  unless  the  variant  reference  variant  type  param rgdispid named args  array  identifiers  for  the  arguments  specified  rgvarg  the  parameter  must  the  same  order  their  corresponding  values  all  arguments  must  have  identifier  identifiers  can  obtained  using ole automation get names  return  the  value  the  property  specified  the disp member  null  since 
+invokes  method  the  ole  object  the  method  has  parameters  param disp member  the  the  method  specified  the  idl  the  active  control  the  value  for  the  can  obtained  using ole automation get names  return  the  result  the  method  null  the  method  failed  give  result  information
+invokes  method  the  ole  object  the  method  has  optional  parameters  param disp member  the  the  method  specified  the  idl  the  active  control  the  value  for  the  can  obtained  using ole automation get names  param  rgvarg  array  arguments  for  the  method  all  arguments  are  considered  read  only  unless  the  variant  reference  variant  type  return  the  result  the  method  null  the  method  failed  give  result  information
+invokes  method  the  ole  object  the  method  has  optional  parameters  not  necessary  specify  all  the  optional  parameters  only  include  the  parameters  for  which  you  are  providing  values  param disp member  the  the  method  specified  the  idl  the  active  control  the  value  for  the  can  obtained  using ole automation get names  param  rgvarg  array  arguments  for  the  method  all  arguments  are  considered  read  only  unless  the  variant  reference  variant  type  param rgdispid named args  array  identifiers  for  the  arguments  specified  rgvarg  the  parameter  must  the  same  order  their  corresponding  values  all  arguments  must  have  identifier  identifiers  can  obtained  using ole automation get names  return  the  result  the  method  null  the  method  failed  give  result  information
+get  the  dispatch  interface  for  the  control
+create  dispparams  structure  for  the  input  parameters
+store  arguments  rgvarg
+arguments  have  ids  store  the  ids rgdispid named args
+invoke  the  method
+free  the  dispparams  resources
+save  error  string  and  cleanup  excepinfo
+invokes  method  the  ole  object  the  method  has  parameters  the  early  days  ole  the  dispatch  interface  was  not  well  defined  and  some  applications  mainly  word  did  not  support  return  value  for  these  applications  call  this  method  instead  calling  code  public  void  invoke  int disp member  code  param disp member  the  the  method  specified  the  idl  the  active  control  the  value  for  the  can  obtained  using ole automation get names  exception swt exception  error  action  not  performed  when  method  invocation  fails 
+invokes  method  the  ole  object  the  method  has  optional  parameters  the  early  days  ole  the  dispatch  interface  was  not  well  defined  and  some  applications  mainly  word  did  not  support  return  value  for  these  applications  call  this  method  instead  calling  code  public  void  invoke  int disp member  variant  rgvarg  code  param disp member  the  the  method  specified  the  idl  the  active  control  the  value  for  the  can  obtained  using ole automation get names  param  rgvarg  array  arguments  for  the  method  all  arguments  are  considered  read  only  unless  the  variant  reference  variant  type  exception swt exception  error  action  not  performed  when  method  invocation  fails 
+invokes  method  the  ole  object  the  method  has  optional  parameters  not  necessary  specify  all  the  optional  parameters  only  include  the  parameters  for  which  you  are  providing  values  the  early  days  ole  the  dispatch  interface  was  not  well  defined  and  some  applications  mainly  word  did  not  support  return  value  for  these  applications  call  this  method  instead  calling  code  public  void  invoke  int disp member  variant  rgvarg  int rgdispid named args  code  param disp member  the  the  method  specified  the  idl  the  active  control  the  value  for  the  can  obtained  using ole automation get names  param  rgvarg  array  arguments  for  the  method  all  arguments  are  considered  read  only  unless  the  variant  reference  variant  type  param rgdispid named args  array  identifiers  for  the  arguments  specified  rgvarg  the  parameter  must  the  same  order  their  corresponding  values  all  arguments  must  have  identifier  identifiers  can  obtained  using ole automation get names  exception swt exception  error  action  not  performed  when  method  invocation  fails 
+non  nls 
+extract  exception  info
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+cleanup  excepinfo  struct
+sets  the  property  specified  the disp member  new  value  param disp member  the  the  property  specified  the  idl  the  active  control  the  value  for  the  can  obtained  using ole automation get names  param  rgvarg  the  new  value  the  property  return  true  the  operation  was  successful
+sets  the  property  specified  the disp member  new  value  param disp member  the  the  property  specified  the  idl  the  active  control  the  value  for  the  can  obtained  using ole automation get names  param  rgvarg  array  arguments  for  the  method  all  arguments  are  considered  read  only  unless  the  variant  reference  variant  type  return  true  the  operation  was  successful  since 
+</comments>
+</text>
+</DOC>

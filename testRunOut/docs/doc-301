@@ -1,0 +1,812 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.gdip.Gdip.java </DOCNO>
+<text>
+<class>
+ gdip
+</class>
+<method>
+gdiplus startup
+gdiplus shutdown
+bitmap _new
+bitmap _new
+bitmap _new
+bitmap _delete
+brush clone
+brush get type
+color _new
+color _delete
+font _new
+font _new
+font _delete
+font get family
+font get size
+font get style
+font available
+font family _new
+font family _delete
+font family get family name
+graphics _new
+graphics _delete
+graphics draw arc
+graphics draw ellipse
+graphics draw image
+graphics draw image
+graphics draw line
+graphics draw lines
+graphics draw path
+graphics draw polygon
+graphics draw rectangle
+graphics draw string
+graphics draw string
+graphics fill ellipse
+graphics fill path
+graphics flush
+graphics fill pie
+graphics fill polygon
+graphics fill rectangle
+graphics get clip bounds
+graphics get clip bounds
+graphics get clip
+graphics get hdc
+graphics release hdc
+graphics get interpolation mode
+graphics get smoothing mode
+graphics get text rendering hint
+graphics get transform
+graphics measure string
+graphics measure string
+graphics reset clip
+graphics set clip
+graphics set clip
+graphics set clip
+graphics set compositing quality
+graphics set pixel offset mode
+graphics set smoothing mode
+graphics set transform
+graphics set interpolation mode
+graphics set text rendering hint
+graphics path _new
+graphics path _delete
+graphics path add arc
+graphics path add bezier
+graphics path add line
+graphics path add path
+graphics path add rectangle
+graphics path add string
+graphics path close figure
+graphics path get bounds
+graphics path get last point
+graphics path get path points
+graphics path get path types
+graphics path get point count
+graphics path outline visible
+graphics path visible
+graphics path set fill mode
+hatch brush _new
+image get width
+image get height
+hatch brush _delete
+linear gradient brush _new
+linear gradient brush _delete
+linear gradient brush set wrap mode
+matrix _new
+matrix _delete
+matrix get elements
+matrix invert
+matrix identity
+matrix multiply
+matrix rotate
+matrix scale
+matrix shear
+matrix transform points
+matrix transform points
+matrix translate
+matrix set elements
+path gradient brush _new
+path gradient brush _delete
+path gradient brush set center color
+path gradient brush set center point
+path gradient brush set surround colors
+path gradient brush set graphics path
+pen _new
+pen _delete
+pen get brush
+pen set brush
+pen set dash pattern
+pen set dash style
+pen set line cap
+pen set line join
+point _new
+point _delete
+region _new
+region _new
+region _delete
+region get hrgn
+solid brush _new
+solid brush _delete
+string format _delete
+string format clone
+string format generic default
+string format generic typographic
+string format get format flags
+string format set hotkey prefix
+string format set format flags
+string format set tab stops
+texture brush _new
+texture brush _delete
+texture brush set transform
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ gdip
+ org
+ eclipse
+ swt
+ internal
+ gdip
+ platform
+ library
+load library
+brush type solid color
+brush type hatch fill
+brush type texture fill
+brush type path gradient
+brush type linear gradient
+combine mode replace
+combine mode intersect
+combine mode union
+combine mode xor
+combine mode exclude
+combine mode complement
+fill mode alternate
+fill mode winding
+dash cap flat
+dash cap round
+dash cap triangle
+dash style solid
+dash style dash
+dash style dot
+dash style dash dot
+dash style dash dot dot
+dash style custom
+font style regular
+font style bold
+font style italic
+font style bold italic
+font style underline
+font style strikeout
+flush intention flush
+flush intention sync
+hotkey prefix none
+hotkey prefix show
+hotkey prefix hide
+line join miter
+line join bevel
+line join round
+line cap flat
+line cap square
+line cap round
+matrix order prepend
+matrix order append
+quality mode default
+quality mode low
+quality mode high
+interpolation mode default
+quality mode default
+interpolation mode low quality
+quality mode low
+interpolation mode high quality
+quality mode high
+interpolation mode bilinear
+quality mode high
+interpolation mode bicubic
+quality mode high
+interpolation mode nearest neighbor
+quality mode high
+interpolation mode high quality bilinear
+quality mode high
+interpolation mode high quality bicubic
+quality mode high
+path point type start
+path point type line
+path point type bezier
+path point type path type mask
+path point type path dash mode
+path point type path marker
+path point type close subpath
+path point type bezier
+pixel format indexed
+pixel format gdi
+pixel format alpha
+pixel format alpha
+pixel format extended
+pixel format canonical
+pixel format 1bpp indexed
+pixel format indexed
+pixel format gdi
+pixel format 4bpp indexed
+pixel format indexed
+pixel format gdi
+pixel format 8bpp indexed
+pixel format indexed
+pixel format gdi
+pixel format 16bpp gray scale
+pixel format extended
+pixel format 16bpp rgb 555
+pixel format gdi
+pixel format 16bpp rgb 565
+pixel format gdi
+pixel format 16bpp argb 1555
+pixel format alpha
+pixel format gdi
+pixel format 24bpp rgb
+pixel format gdi
+pixel format 32bpp rgb
+pixel format gdi
+pixel format 32bpp argb
+pixel format alpha
+pixel format gdi
+pixel format canonical
+pixel format 32bpp pargb
+pixel format alpha
+pixel format alpha
+pixel format gdi
+pixel format 48bpp rgb
+pixel format extended
+pixel format 64bpp argb
+pixel format alpha
+pixel format canonical
+pixel format extended
+pixel format 64bpp pargb
+pixel format alpha
+pixel format alpha
+pixel format extended
+pixel format max
+pixel offset mode none
+quality mode high
+pixel offset mode half
+quality mode high
+smoothing mode default
+quality mode default
+smoothing mode high speed
+quality mode low
+smoothing mode high quality
+quality mode high
+smoothing mode none
+smoothing mode anti alias
+smoothing mode anti alias
+smoothing mode anti alias
+smoothing mode anti alias
+string format flags direction right left
+string format flags direction vertical
+string format flags fit black box
+string format flags display format control
+string format flags font fallback
+string format flags measure trailing spaces
+string format flags wrap
+string format flags line limit
+string format flags clip
+text rendering hint system default
+text rendering hint single bit per pixel grid fit
+text rendering hint single bit per pixel
+text rendering hint anti alias grid fit
+text rendering hint anti alias
+text rendering hint clear type grid fit
+unit pixel
+wrap mode tile
+wrap mode tile flip
+wrap mode tile flip
+wrap mode tile flip
+wrap mode clamp
+gdiplus startup
+ token
+gdiplus startup input
+ input
+ output
+gdiplus shutdown
+ token
+bitmap _new
+ hbm
+ hpal
+bitmap _new
+ hicon
+bitmap _new
+ width
+ height
+ stride
+ format
+ scan
+bitmap _delete
+ bitmap
+brush clone
+ brush
+brush get type
+ brush
+color _new
+ argb
+color _delete
+ color
+font _new
+ hdc
+ hfont
+font _new
+family name
+ size
+ style
+ unit
+font collection
+font _delete
+ font
+font get family
+ font
+ family
+font get size
+ font
+font get style
+ font
+font available
+ font
+font family _new
+font family _delete
+ family
+font family get family name
+ family
+ name
+ language
+graphics _new
+ hdc
+graphics _delete
+ graphics
+graphics draw arc
+ graphics
+ pen
+
+
+ width
+ height
+start angle
+sweep angle
+graphics draw ellipse
+ graphics
+ pen
+
+
+ width
+ height
+graphics draw image
+ graphics
+ image
+
+
+graphics draw image
+ graphics
+ image
+ rect
+dest rect
+ srcx
+ srcy
+ srcwidth
+ srcheight
+src unit
+image attributes
+ callback
+callback data
+graphics draw line
+ graphics
+ pen
+
+
+
+
+graphics draw lines
+ graphics
+ pen
+ points
+ count
+graphics draw path
+ graphics
+ pen
+ path
+graphics draw polygon
+ graphics
+ pen
+ points
+ count
+graphics draw rectangle
+ graphics
+ pen
+
+
+ width
+ height
+graphics draw string
+ graphics
+ string
+ length
+ font
+ point
+ origin
+ brush
+graphics draw string
+ graphics
+ string
+ length
+ font
+ point
+ origin
+ format
+ brush
+graphics fill ellipse
+ graphics
+ brush
+
+
+ width
+ height
+graphics fill path
+ graphics
+ brush
+ path
+graphics flush
+ graphics
+ intention
+graphics fill pie
+ graphics
+ brush
+
+
+ width
+ height
+start angle
+sweep angle
+graphics fill polygon
+ graphics
+ brush
+ points
+ count
+fill mode
+graphics fill rectangle
+ graphics
+ brush
+
+
+ width
+ height
+graphics get clip bounds
+ graphics
+ rect
+ rect
+graphics get clip bounds
+ graphics
+ rect
+ rect
+graphics get clip
+ graphics
+ region
+graphics get hdc
+ graphics
+graphics release hdc
+ graphics
+ hdc
+graphics get interpolation mode
+ graphics
+graphics get smoothing mode
+ graphics
+graphics get text rendering hint
+ graphics
+graphics get transform
+ graphics
+ matrix
+graphics measure string
+ graphics
+ string
+ length
+ font
+ point
+ origin
+ rect
+bounding box
+graphics measure string
+ graphics
+ string
+ length
+ font
+ point
+ origin
+ format
+ rect
+bounding box
+graphics reset clip
+ graphics
+graphics set clip
+ graphics
+ hrgn
+combine mode
+graphics set clip
+ graphics
+ path
+graphics set clip
+ graphics
+ rect
+ rect
+graphics set compositing quality
+ graphics
+compositing quality
+graphics set pixel offset mode
+ graphics
+pixel offset mode
+graphics set smoothing mode
+ graphics
+smoothing mode
+graphics set transform
+ graphics
+ matrix
+graphics set interpolation mode
+ graphics
+ mode
+graphics set text rendering hint
+ graphics
+ mode
+graphics path _new
+brush mode
+graphics path _delete
+ path
+graphics path add arc
+ path
+
+
+ width
+ height
+start angle
+sweep angle
+graphics path add bezier
+ path
+
+
+
+
+
+
+
+
+graphics path add line
+ path
+
+
+
+
+graphics path add path
+ path
+adding path
+ connect
+graphics path add rectangle
+ path
+ rect
+ rect
+graphics path add string
+ path
+ string
+ length
+ family
+ style
+ size
+ point
+ origin
+ format
+graphics path close figure
+ path
+graphics path get bounds
+ path
+ rect
+ bounds
+ matrix
+ pen
+graphics path get last point
+ path
+ point
+last point
+graphics path get path points
+ path
+ points
+ count
+graphics path get path types
+ path
+ types
+ count
+graphics path get point count
+ path
+graphics path outline visible
+ path
+
+
+ pen
+
+graphics path visible
+ path
+
+
+
+graphics path set fill mode
+ path
+ fillmode
+hatch brush _new
+hatch style
+fore color
+back color
+image get width
+ image
+image get height
+ image
+hatch brush _delete
+ brush
+linear gradient brush _new
+ point
+ point
+ point
+ point
+ color
+ color
+linear gradient brush _delete
+ brush
+linear gradient brush set wrap mode
+ brush
+wrap mode
+matrix _new
+
+
+
+
+
+
+matrix _delete
+ matrix
+matrix get elements
+ matrix
+
+matrix invert
+ matrix
+matrix identity
+ metrix
+matrix multiply
+ matrix
+ matrix
+ order
+matrix rotate
+ matrix
+ angle
+ order
+matrix scale
+ matrix
+ scale
+ scale
+ order
+matrix shear
+ matrix
+ shear
+ shear
+ order
+matrix transform points
+ matrix
+ point
+ pts
+ count
+matrix transform points
+ matrix
+ pts
+ count
+matrix translate
+ matrix
+ offset
+ offset
+ order
+matrix set elements
+ matrix
+
+
+
+
+
+
+path gradient brush _new
+ path
+path gradient brush _delete
+ brush
+path gradient brush set center color
+ brush
+ color
+path gradient brush set center point
+ brush
+ point
+
+path gradient brush set surround colors
+ brush
+ colors
+ count
+path gradient brush set graphics path
+ brush
+ path
+pen _new
+ color
+ width
+pen _delete
+ pen
+pen get brush
+ pen
+pen set brush
+ pen
+ brush
+pen set dash pattern
+ pen
+dash array
+ count
+pen set dash style
+ pen
+dash style
+pen set line cap
+ pen
+start cap
+end cap
+dash cap
+pen set line join
+ pen
+line join
+point _new
+
+
+point _delete
+ point
+region _new
+ rgn
+region _new
+region _delete
+ region
+region get hrgn
+ region
+ graphics
+solid brush _new
+ color
+solid brush _delete
+ pen
+string format _delete
+ format
+string format clone
+ format
+string format generic default
+string format generic typographic
+string format get format flags
+ format
+string format set hotkey prefix
+ format
+hotkey prefix
+string format set format flags
+ format
+ flags
+string format set tab stops
+ format
+first tab offset
+ count
+tab stops
+texture brush _new
+ image
+wrap mode
+ dst
+ dst
+dst width
+dst height
+texture brush _delete
+ brush
+texture brush set transform
+ brush
+ matrix
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+non  nls 
+gdi plus  constants
+gdi plus  natives
+</comments>
+</text>
+</DOC>

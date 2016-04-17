@@ -1,0 +1,36 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.ole.win32.VARDESC.java </DOCNO>
+<text>
+<class>
+ vardesc
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ vardesc
+ memid
+lpstr schema
+ inst
+elemdesc var _tdesc _union
+elemdesc var _tdesc _vt
+elemdesc var _paramdesc _pparamdescex
+elemdesc var _paramdesc param flags
+var flags
+ varkind
+ sizeof
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+elemdesc elemdesc var
+typedesc elemdesc var  tdesc
+paramdesc elemdesc func  paramdesc
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,1793 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Button.java </DOCNO>
+<text>
+<class>
+ button
+</class>
+<method>
+ button
+_set image
+add selection listener
+call window proc
+check style
+ click
+compute size
+default background
+default foreground
+enable widget
+get alignment
+get default
+get image
+get name text
+get selection
+get text
+tab item
+mnemonic hit
+mnemonic match
+release widget
+remove selection listener
+select radio
+set alignment
+set default
+set fixed focus
+set image
+set radio focus
+set radio selection
+set saved focus
+set selection
+set text
+widget style
+window class
+window proc
+ getdlgcode
+ killfocus
+ lbuttondown
+ lbuttonup
+ setfocus
+ syscolorchange
+color child
+command child
+draw child
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ events
+ button
+ control
+ string
+ text
+ image
+ image
+ image
+image list
+image list
+ignore mouse
+button proc
+ tchar
+button class
+ tchar
+ scrollbar
+check width
+check height
+icon width
+icon height
+ bitmap
+
+load bitmap
+
+obm checkboxes
+ bitmap
+check width
+
+get system metrics
+
+ win
+
+ cxsmicon
+
+ cxvscroll
+check height
+
+get system metrics
+
+ win
+
+ cysmicon
+
+ cyvscroll
+ bitmap
+ bitmap
+ bitmap
+
+get object
+ bitmap
+ bitmap
+ sizeof
+ bitmap
+
+delete object
+ bitmap
+check width
+ bitmap
+ width
+check height
+ bitmap
+ height
+ wndclass
+wnd class
+ wndclass
+
+get class info
+button class
+wnd class
+button proc
+wnd class
+lpfn wnd proc
+ button
+ composite
+ parent
+ style
+ parent
+check style
+ style
+_set image
+ image
+ image
+
+comctl 32_ major
+
+app themed
+
+send message
+ handle
+
+bcm setimagelist
+image list
+image list
+ dispose
+image list
+ image
+image list
+image list
+ style
+ swt
+right left
+image list
+ add
+ image
+button imagelist
+button image list
+button imagelist
+button image list
+ himl
+image list
+get handle
+ style
+ swt
+ left
+button image list
+ align
+
+button imagelist align left
+ style
+ swt
+ center
+button image list
+ align
+
+button imagelist align center
+ style
+ swt
+ right
+button image list
+ align
+
+button imagelist align right
+ tchar
+ buffer
+ tchar
+get code page
+
+set window text
+ handle
+ buffer
+
+send message
+ handle
+
+bcm setimagelist
+button image list
+ tchar
+ buffer
+ tchar
+get code page
+ text
+
+set window text
+ handle
+ buffer
+
+send message
+ handle
+
+bcm setimagelist
+ image
+ image
+ dispose
+ image
+ image
+image bits
+image type
+ image
+ image
+ type
+ swt
+ bitmap
+ rectangle
+ rect
+ image
+get bounds
+image data
+ data
+ image
+get image data
+ data
+get transparency type
+ swt
+transparency pixel
+ rect
+ width
+icon width
+ rect
+ height
+icon height
+ image
+ image
+ display
+ data
+ data
+get transparency mask
+ image
+ image
+ handle
+image bits
+
+ icon
+image type
+
+image icon
+ swt
+transparency alpha
+ image
+ image
+ display
+ rect
+ width
+ rect
+ height
+
+
+
+ image
+
+set background
+get background
+
+fill rectangle
+ rect
+
+draw image
+ image
+
+ dispose
+ image
+ image
+ handle
+image bits
+
+ bitmap
+image type
+
+image bitmap
+ swt
+transparency none
+ image
+ image
+ handle
+image bits
+
+ bitmap
+image type
+
+image bitmap
+ swt
+ icon
+ image
+ image
+ handle
+image bits
+
+ icon
+image type
+
+image icon
+ style
+ swt
+right left
+
+ win
+
+win 32_ version
+
+ version
+ rectangle
+ rect
+ image
+get bounds
+
+
+ get
+ handle
+dst hdc
+
+create compatible
+
+ bitmap
+
+create compatible bitmap
+
+ rect
+ width
+ rect
+ height
+old bitmap
+
+select object
+dst hdc
+ bitmap
+
+set layout
+dst hdc
+
+layout rtl
+image type
+
+image bitmap
+src hdc
+
+create compatible
+
+old src bitmap
+
+select object
+src hdc
+ image
+
+set layout
+dst hdc
+
+bit blt
+dst hdc
+ rect
+ width
+ rect
+ height
+src hdc
+
+ srccopy
+
+select object
+src hdc
+old src bitmap
+
+ delete
+src hdc
+new brush
+
+create solid brush
+get background pixel
+old brush
+
+select object
+dst hdc
+new brush
+
+pat blt
+dst hdc
+ rect
+ width
+ rect
+ height
+
+ patcopy
+
+draw icon
+dst hdc
+ image
+
+ normal
+
+select object
+dst hdc
+old brush
+
+delete object
+new brush
+
+select object
+dst hdc
+old bitmap
+
+ delete
+dst hdc
+
+ release
+ handle
+
+ image
+ image
+ dispose
+ image
+ image
+win 32_new
+ display
+ swt
+ bitmap
+ bitmap
+image bits
+
+ bitmap
+image type
+
+image bitmap
+ image
+ bitmap
+new bits
+
+get window long
+ handle
+
+gwl style
+old bits
+new bits
+new bits
+
+ bitmap
+
+ icon
+new bits
+image bits
+new bits
+old bits
+
+set window long
+ handle
+
+gwl style
+new bits
+
+send message
+ handle
+
+ setimage
+image type
+ image
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+call window proc
+ hwnd
+ msg
+ param
+ param
+ handle
+
+call window proc
+button proc
+ hwnd
+ msg
+ param
+ param
+check style
+ style
+ style
+check bits
+ style
+ swt
+ push
+ swt
+ arrow
+ swt
+ check
+ swt
+ radio
+ swt
+ toggle
+ style
+ swt
+ push
+ swt
+ toggle
+check bits
+ style
+ swt
+ center
+ swt
+ left
+ swt
+ right
+ style
+ swt
+ check
+ swt
+ radio
+check bits
+ style
+ swt
+ left
+ swt
+ right
+ swt
+ center
+ style
+ swt
+ arrow
+ style
+ swt
+ focus
+check bits
+ style
+ swt
+
+ swt
+ down
+ swt
+ left
+ swt
+ right
+ style
+ click
+ignore mouse
+
+send message
+ handle
+
+ click
+ignore mouse
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+ border
+get border width
+ width
+ height
+ style
+ swt
+ arrow
+ style
+ swt
+
+ swt
+ down
+ width
+
+get system metrics
+
+ cxvscroll
+ height
+
+get system metrics
+
+ cyvscroll
+ width
+
+get system metrics
+
+ cxhscroll
+ height
+
+get system metrics
+
+ cyhscroll
+ hint
+ swt
+ default
+ width
+ hint
+ hint
+ swt
+ default
+ height
+ hint
+ width
+ border
+ height
+ border
+ point
+ width
+ height
+ extra
+has image
+
+comctl 32_ major
+
+app themed
+button imagelist
+button image list
+button imagelist
+
+send message
+ handle
+
+bcm getimagelist
+button image list
+has image
+button image list
+ himl
+ bits
+
+get window long
+ handle
+
+gwl style
+has image
+ bits
+
+ bitmap
+
+ icon
+has image
+old font
+
+
+ get
+ handle
+new font
+
+send message
+ handle
+
+ getfont
+new font
+old font
+
+select object
+
+new font
+ textmetric
+ lptm
+
+ unicode
+ textmetric
+ textmetricw
+ textmetrica
+
+get text metrics
+
+ lptm
+ length
+ text
+ length
+ length
+ height
+ lptm
+ height
+ extra
+ math
+ max
+ lptm
+ave char width
+ tchar
+ buffer
+ tchar
+get code page
+ text
+ rect
+ rect
+ rect
+ flags
+
+ calcrect
+
+ singleline
+
+draw text
+
+ buffer
+ rect
+ flags
+ width
+ rect
+ right
+ rect
+ left
+ height
+ rect
+ bottom
+ rect
+ top
+new font
+
+select object
+
+old font
+
+ release
+ handle
+
+ image
+ rectangle
+ rect
+ image
+get bounds
+ width
+ rect
+ width
+ height
+ rect
+ height
+ extra
+ style
+ swt
+ check
+ swt
+ radio
+ width
+check width
+ extra
+ height
+ math
+ max
+ height
+check height
+ style
+ swt
+ push
+ swt
+ toggle
+ width
+ height
+ hint
+ swt
+ default
+ width
+ hint
+ hint
+ swt
+ default
+ height
+ hint
+ width
+ border
+ height
+ border
+ point
+ width
+ height
+default background
+ style
+ swt
+ push
+ swt
+ toggle
+
+get sys color
+
+color btnface
+default background
+default foreground
+
+get sys color
+
+color btntext
+enable widget
+ enabled
+enable widget
+ enabled
+ style
+ swt
+right left
+
+comctl 32_ major
+
+app themed
+ bits
+
+get window long
+ handle
+
+gwl style
+has image
+ bits
+
+ bitmap
+
+ icon
+has image
+ string
+ string
+ enabled
+ text
+ text
+ tchar
+ buffer
+ tchar
+get code page
+ string
+
+set window text
+ handle
+ buffer
+get alignment
+check widget
+ style
+ swt
+ arrow
+ style
+ swt
+
+ swt
+
+ style
+ swt
+ down
+ swt
+ down
+ style
+ swt
+ left
+ swt
+ left
+ style
+ swt
+ right
+ swt
+ right
+ swt
+
+ style
+ swt
+ left
+ swt
+ left
+ style
+ swt
+ center
+ swt
+ center
+ style
+ swt
+ right
+ swt
+ right
+ swt
+ left
+get default
+ style
+ swt
+ push
+ bits
+
+get window long
+ handle
+
+gwl style
+ bits
+
+ defpushbutton
+ image
+get image
+check widget
+ image
+ string
+get name text
+get text
+get selection
+check widget
+ style
+ swt
+ check
+ swt
+ radio
+ swt
+ toggle
+ state
+
+send message
+ handle
+
+ getcheck
+ state
+
+bst checked
+ string
+get text
+check widget
+ style
+ swt
+ arrow
+ text
+tab item
+tab item
+mnemonic hit
+
+set focus
+ style
+ swt
+ radio
+ click
+mnemonic match
+ key
+ mnemonic
+find mnemonic
+get text
+ mnemonic
+ character
+upper case
+ key
+ character
+upper case
+ mnemonic
+release widget
+release widget
+image list
+image list
+ dispose
+image list
+ image
+ image
+ dispose
+ image
+ text
+ image
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ selection
+ listener
+event table
+ unhook
+ swt
+default selection
+ listener
+select radio
+ control
+ children
+ parent
+_get children
+
+
+ children
+ length
+
+ control
+ child
+ children
+
+ child
+ child
+set radio selection
+set selection
+set alignment
+ alignment
+check widget
+ style
+ swt
+ arrow
+ style
+ swt
+
+ swt
+ down
+ swt
+ left
+ swt
+ right
+ style
+ swt
+
+ swt
+ down
+ swt
+ left
+ swt
+ right
+ style
+ alignment
+ swt
+
+ swt
+ down
+ swt
+ left
+ swt
+ right
+
+invalidate rect
+ handle
+ alignment
+ swt
+ left
+ swt
+ right
+ swt
+ center
+ style
+ swt
+ left
+ swt
+ right
+ swt
+ center
+ style
+ alignment
+ swt
+ left
+ swt
+ right
+ swt
+ center
+ bits
+
+get window long
+ handle
+
+gwl style
+ bits
+
+ left
+
+ center
+
+ right
+ style
+ swt
+ left
+ bits
+
+ left
+ style
+ swt
+ center
+ bits
+
+ center
+ style
+ swt
+ right
+ bits
+
+ right
+
+set window long
+ handle
+
+gwl style
+ bits
+
+comctl 32_ major
+
+app themed
+image list
+button imagelist
+button image list
+button imagelist
+button image list
+ himl
+image list
+get handle
+ style
+ swt
+ left
+button image list
+ align
+
+button imagelist align left
+ style
+ swt
+ center
+button image list
+ align
+
+button imagelist align center
+ style
+ swt
+ right
+button image list
+ align
+
+button imagelist align right
+
+send message
+ handle
+
+bcm setimagelist
+button image list
+
+invalidate rect
+ handle
+set default
+ value
+ style
+ swt
+ push
+hwnd shell
+menu shell
+ handle
+ bits
+
+get window long
+ handle
+
+gwl style
+ value
+ bits
+
+ defpushbutton
+
+send message
+hwnd shell
+
+ setdefid
+ handle
+ bits
+
+ defpushbutton
+
+send message
+hwnd shell
+
+ setdefid
+
+send message
+ handle
+
+ setstyle
+ bits
+set fixed focus
+ style
+ swt
+ radio
+get selection
+set fixed focus
+set image
+ image
+ image
+check widget
+ image
+ image
+ disposed
+ error
+ swt
+error invalid argument
+_set image
+ image
+ image
+set radio focus
+ style
+ swt
+ radio
+get selection
+set focus
+set radio selection
+ value
+ style
+ swt
+ radio
+get selection
+ value
+set selection
+ value
+post event
+ swt
+ selection
+set saved focus
+ style
+ swt
+ radio
+get selection
+set saved focus
+set selection
+ selected
+check widget
+ style
+ swt
+ check
+ swt
+ radio
+ swt
+ toggle
+ flags
+ selected
+
+bst checked
+
+bst unchecked
+ bits
+
+get window long
+ handle
+
+gwl style
+
+send message
+ handle
+
+ setcheck
+ flags
+
+set window long
+ handle
+
+gwl style
+ bits
+set text
+ string
+ string
+check widget
+ string
+ error
+ swt
+error null argument
+ style
+ swt
+ arrow
+
+comctl 32_ major
+
+app themed
+
+send message
+ handle
+
+bcm setimagelist
+image list
+image list
+ dispose
+image list
+new bits
+
+get window long
+ handle
+
+gwl style
+old bits
+new bits
+new bits
+
+ bitmap
+
+ icon
+new bits
+old bits
+
+set window long
+ handle
+
+gwl style
+new bits
+ text
+ string
+ style
+ swt
+right left
+
+comctl 32_ major
+
+app themed
+ string
+
+window enabled
+ handle
+ text
+ text
+ tchar
+ buffer
+ tchar
+get code page
+ string
+
+set window text
+ handle
+ buffer
+widget style
+ bits
+widget style
+ style
+ swt
+ flat
+ bits
+
+ flat
+ style
+ swt
+ arrow
+ bits
+
+ ownerdraw
+ style
+ swt
+ left
+ bits
+
+ left
+ style
+ swt
+ center
+ bits
+
+ center
+ style
+ swt
+ right
+ bits
+
+ right
+ style
+ swt
+ push
+ bits
+
+ pushbutton
+
+ tabstop
+ style
+ swt
+ check
+ bits
+
+ checkbox
+
+ tabstop
+ style
+ swt
+ radio
+ bits
+
+ radiobutton
+ style
+ swt
+ toggle
+ bits
+
+ pushlike
+
+ checkbox
+
+ tabstop
+ bits
+
+ pushbutton
+
+ tabstop
+ tchar
+window class
+button class
+window proc
+button proc
+ lresult
+ getdlgcode
+ param
+ param
+ lresult
+ result
+ getdlgcode
+ param
+ param
+ result
+ result
+ style
+ swt
+ arrow
+ lresult
+
+dlgc static
+ result
+ lresult
+ killfocus
+ param
+ param
+ lresult
+ result
+ killfocus
+ param
+ param
+ style
+ swt
+ push
+get default
+menu shell
+set default button
+ result
+ lresult
+ lbuttondown
+ param
+ param
+ignore mouse
+ lbuttondown
+ param
+ param
+ lresult
+ lbuttonup
+ param
+ param
+ignore mouse
+ lbuttonup
+ param
+ param
+ lresult
+ setfocus
+ param
+ param
+ bits
+ style
+ swt
+ radio
+ bits
+
+get window long
+ handle
+
+gwl style
+ lresult
+ result
+ setfocus
+ param
+ param
+ style
+ swt
+ radio
+
+set window long
+ handle
+
+gwl style
+ bits
+ style
+ swt
+ push
+menu shell
+set default button
+ result
+ lresult
+ syscolorchange
+ param
+ param
+ lresult
+ result
+ syscolorchange
+ param
+ param
+ result
+ result
+ image
+_set image
+ image
+ result
+ lresult
+color child
+ param
+ param
+ lresult
+ result
+color child
+ param
+ param
+
+comctl 32_ major
+
+app themed
+ control
+ control
+find theme control
+ control
+
+set mode
+ param
+
+ transparent
+ rect
+ rect
+ rect
+
+get client rect
+ control
+ handle
+ rect
+
+map window points
+ control
+ handle
+ handle
+ rect
+ control
+draw theme background
+ param
+ rect
+ lresult
+
+get stock object
+
+null brush
+ result
+ lresult
+command child
+ param
+ param
+ code
+ param
+ code
+
+ clicked
+
+ doubleclicked
+ style
+ swt
+ check
+ swt
+ toggle
+set selection
+get selection
+ style
+ swt
+ radio
+ parent
+get style
+ swt
+radio group
+set selection
+get selection
+select radio
+post event
+ swt
+ selection
+command child
+ param
+ param
+ lresult
+draw child
+ param
+ param
+ style
+ swt
+ arrow
+draw child
+ param
+ param
+ drawitemstruct
+ struct
+ drawitemstruct
+
+move memory
+ struct
+ param
+ drawitemstruct
+ sizeof
+ rect
+ rect
+ rect
+
+set rect
+ rect
+ struct
+ left
+ struct
+ top
+ struct
+ right
+ struct
+ bottom
+
+comctl 32_ major
+
+app themed
+ theme
+
+open theme data
+ handle
+ scrollbar
+ state
+
+abs leftnormal
+ style
+ swt
+
+ swt
+ down
+ swt
+ left
+ swt
+ right
+ swt
+
+ state
+
+abs upnormal
+ swt
+ down
+ state
+
+abs downnormal
+ swt
+ left
+ state
+
+abs leftnormal
+ swt
+ right
+ state
+
+abs rightnormal
+get enabled
+ state
+
+abs updisabled
+
+abs upnormal
+ struct
+item state
+
+ods selected
+ state
+
+abs uppressed
+
+abs upnormal
+
+draw theme background
+ theme
+ struct
+
+
+sbp arrowbtn
+ state
+ rect
+
+close theme data
+ theme
+ state
+
+dfcs scrollleft
+ style
+ swt
+
+ swt
+ down
+ swt
+ left
+ swt
+ right
+ swt
+
+ state
+
+dfcs scrollup
+ swt
+ down
+ state
+
+dfcs scrolldown
+ swt
+ left
+ state
+
+dfcs scrollleft
+ swt
+ right
+ state
+
+dfcs scrollright
+get enabled
+ state
+
+dfcs inactive
+ style
+ swt
+ flat
+ swt
+ flat
+ state
+
+dfcs flat
+ struct
+item state
+
+ods selected
+ state
+
+dfcs pushed
+
+draw frame control
+ struct
+
+ rect
+
+dfc scroll
+ state
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  represent  selectable  user  interface  object  that  issues  notification  when  pressed  and  released  styles  arrow  check  push  radio  toggle  flat  down  left  right  center  events  selection  note  only  one  the  styles  arrow  check  push  radio  and  toggle  may  specified  note  only  one  the  styles  left  right  and  center  may  specified  note  only  one  the  styles  down  left  and  right  may  specified  when  the  arrow  style  specified  important  this  class  intended  subclassed  only  within  the  swt  implementation 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  arrow  see  swt  check  see  swt  push  see  swt  radio  see  swt  toggle  see  swt  flat  see  swt  left  see  swt  right  see  swt  center  see  widget check subclass  see  widget get style
+fall  through
+feature  windows  the  button  control  mirrors  its  image  when  the  flag  layoutrtl  set  this  behaviour  not  desirable  swt  the  fix  set  mirrored  version  real  image  the  button
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  control  selected  sending  one  the  messages  defined  the  code selection listener  code  interface  code widget selected  code  called  when  the  control  selected  code widget default selected  code  not  called  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener  see selection event
+feature  windows  click  sends  fake  lbuttondown  and  lbuttonup  order  click  the  button  this  causes  the  application  get  unexpected  mouse  events  the  fix  ignore  mouse  events  when  they  are  caused  click
+bug  windows  when  button  control  right  left  and  disabled  the  first  pixel  the  text  clipped  the  fix  append  space  the  text
+returns  value  which  describes  the  position  the  text  image  the  receiver  the  value  will  one  code  left  code  code  right  code  code  center  code  unless  the  receiver  code  arrow  code  button  which  case  the  alignment  will  indicate  the  direction  the  arrow  one  code  left  code  code  right  code  code  code  code  down  code  return  the  alignment  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  image  has  one  null  does  not  return  the  receiver  image  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  true  code  the  receiver  selected  and  false  otherwise  when  the  receiver  type  code  check  code  code  radio  code  selected  when  checked  when  type  code  toggle  code  selected  when  pushed  the  receiver  any  other  type  this  method  returns  false  return  the  selection  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  text  which  will  empty  string  has  never  been  set  the  receiver  code  arrow  code  button  return  the  receiver  text  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+temporary  code
+style  swt  push  return  true
+feature  windows  when  radio  button  gets  focus  selects  the  button  setfocus  therefore  not  necessary  click  the  button  send  events  because  this  has  already  happened  setfocus
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  control  selected  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener
+this  code  intentionally  commented  when  two  groups  radio  buttons  with  the  same  parent  are  separated  another  control  the  correct  behavior  should  that  the  two  groups  act  independently  this  consistent  with  radio  tool  and  menu  items  the  commented  code  implements  this  behavior
+int  index 
+control  children  parent get children
+while  index  children  length  children  index  this  index
+int  index 
+while  children set radio selection  false 
+int  index 
+while  children  length  children set radio selection  false 
+set selection  true
+controls  how  text  images  and  arrows  will  displayed  the  receiver  the  argument  should  one  code  left  code  code  right  code  code  center  code  unless  the  receiver  code  arrow  code  button  which  case  the  argument  indicates  the  direction  the  arrow  one  code  left  code  code  right  code  code  code  code  down  code  param  alignment  the  new  alignment  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  when  radio  button  gets  focus  selects  the  button  setfocus  the  fix  not  assign  focus  unselected  radio  button
+sets  the  receiver  image  the  argument  which  may  code  null  code  indicating  that  image  should  displayed  param  image  the  image  display  the  receiver  may  code  null  code  exception illegal argument exception  error  invalid  argument  the  image  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  when  radio  button  gets  focus  selects  the  button  setfocus  the  previous  saved  focus  widget  was  radio  button  allowing  the  shell  automatically  restore  the  focus  the  previous  radio  button  will  unexpectedly  check  that  button  the  fix  not  assign  focus  unselected  radio  button
+sets  the  selection  state  the  receiver  type  code  check  code  code  radio  code  code  toggle  code  when  the  receiver  type  code  check  code  code  radio  code  selected  when  checked  when  type  code  toggle  code  selected  when  pushed  param  selected  the  new  selection  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  when  setcheck  used  set  the  checked  state  radio  check  button  sets  the  tabstop  style  this  undocumented  and  unwanted  the  fix  save  and  restore  the  window  style  bits
+sets  the  receiver  text  this  method  sets  the  button  label  the  label  may  include  the  mnemonic  character  but  must  not  contain  line  delimiters  mnemonics  are  indicated  amp  that  causes  the  next  character  the  mnemonic  when  the  user  presses  key  sequence  that  matches  the  mnemonic  selection  event  occurs  most  platforms  the  mnemonic  appears  underlined  but  may  emphasised  platform  specific  manner  the  mnemonic  indicator  character  amp  can  escaped  doubling  the  string  causing  single  amp  displayed  param  string  the  new  text  exception illegal argument exception  error  null  argument  the  text  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  windows  when  button  control  right  left  and  disabled  the  first  pixel  the  text  clipped  the  fix  append  space  the  text
+feature  windows  when  windows  sets  focus  radio  button  sets  the  tabstop  style  this  undocumented  and  unwanted  the  fix  save  and  restore  the  window  style  bits
+note  the  normal  hot  pressed  and  disabled  state  computed  relying  the  fact  that  the  increment  between  the  direction  states  invariant  always  separated 
+</comments>
+</text>
+</DOC>

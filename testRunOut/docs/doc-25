@@ -1,0 +1,2076 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.CCombo.java </DOCNO>
+<text>
+<class>
+ combo
+</class>
+<method>
+ combo
+handle event
+handle event
+check style
+ add
+ add
+add modify listener
+add selection listener
+arrow event
+clear selection
+combo event
+compute size
+create popup
+ deselect
+deselect all
+drop down
+get associated label
+get children
+get editable
+get item
+get item count
+get item height
+get items
+get mnemonic
+get selection
+get selection index
+get style
+get text
+get text height
+get text limit
+get visible item count
+handle focus
+ index
+ index
+init accessible
+get name
+get keyboard shortcut
+get help
+get name
+get keyboard shortcut
+get help
+get caret offset
+get child point
+get location
+get child count
+get role
+get state
+get value
+get role
+get default action
+ dropped
+focus control
+internal layout
+list event
+popup event
+ redraw
+ redraw
+ remove
+ remove
+ remove
+remove all
+remove modify listener
+remove selection listener
+ select
+set background
+set editable
+set enabled
+set focus
+set font
+set foreground
+set item
+set items
+set layout
+set selection
+set text
+set text limit
+set tool tip text
+set visible
+set visible item count
+strip mnemonic
+text event
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ accessibility
+ combo
+ composite
+ text
+ text
+ list
+ list
+visible item count
+ shell
+ popup
+ button
+ arrow
+has focus
+ listener
+ listener
+ filter
+ color
+ foreground
+ background
+ font
+ font
+ combo
+ composite
+ parent
+ style
+ parent
+ style
+check style
+ style
+text style
+ swt
+ single
+ style
+ swt
+read only
+text style
+ swt
+read only
+ style
+ swt
+ flat
+text style
+ swt
+ flat
+ text
+ text
+text style
+arrow style
+ swt
+ arrow
+ swt
+ down
+ style
+ swt
+ flat
+arrow style
+ swt
+ flat
+ arrow
+ button
+arrow style
+ listener
+ listener
+handle event
+ event
+ event
+ popup
+ event
+ widget
+popup event
+ event
+ text
+ event
+ widget
+text event
+ event
+ list
+ event
+ widget
+list event
+ event
+ arrow
+ event
+ widget
+arrow event
+ event
+ combo
+ event
+ widget
+combo event
+ event
+get shell
+ event
+ widget
+handle focus
+ swt
+focus out
+ filter
+ listener
+handle event
+ event
+ event
+ shell
+ shell
+ control
+ event
+ widget
+get shell
+ shell
+ combo
+get shell
+handle focus
+ swt
+focus out
+combo events
+ swt
+ dispose
+ swt
+ move
+ swt
+ resize
+
+
+combo events
+ length
+
+add listener
+combo events
+
+ listener
+text events
+ swt
+key down
+ swt
+ key
+ swt
+ modify
+ swt
+mouse down
+ swt
+ mouse
+ swt
+ traverse
+ swt
+ focus
+
+
+text events
+ length
+
+ text
+add listener
+text events
+
+ listener
+arrow events
+ swt
+ selection
+ swt
+ focus
+
+
+arrow events
+ length
+
+ arrow
+add listener
+arrow events
+
+ listener
+create popup
+init accessible
+check style
+ style
+ mask
+ swt
+ border
+ swt
+read only
+ swt
+ flat
+ swt
+left right
+ swt
+right left
+ style
+ mask
+ add
+ string
+ string
+check widget
+ string
+ swt
+ error
+ swt
+error null argument
+ list
+ add
+ string
+ add
+ string
+ string
+ index
+check widget
+ string
+ swt
+ error
+ swt
+error null argument
+ list
+ add
+ string
+ index
+add modify listener
+modify listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ modify
+typed listener
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+arrow event
+ event
+ event
+ event
+ type
+ swt
+ focus
+handle focus
+ swt
+ focus
+ swt
+ selection
+drop down
+ dropped
+clear selection
+check widget
+ text
+clear selection
+ list
+deselect all
+combo event
+ event
+ event
+ event
+ type
+ swt
+ dispose
+ popup
+ popup
+ disposed
+ list
+remove listener
+ swt
+ dispose
+ listener
+ popup
+ dispose
+ shell
+ shell
+get shell
+ shell
+remove listener
+ swt
+ deactivate
+ listener
+ display
+ display
+get display
+ display
+remove filter
+ swt
+ focus
+ filter
+ popup
+ text
+ list
+ arrow
+ swt
+ move
+drop down
+ swt
+ resize
+internal layout
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+ width
+ height
+ string
+ items
+ list
+get items
+text width
+
+
+
+ text
+ spacer
+
+string extent
+
+
+
+ items
+ length
+
+text width
+ math
+ max
+
+string extent
+ items
+
+
+text width
+
+ dispose
+ point
+text size
+ text
+compute size
+ swt
+ default
+ swt
+ default
+ changed
+ point
+arrow size
+ arrow
+compute size
+ swt
+ default
+ swt
+ default
+ changed
+ point
+list size
+ list
+compute size
+ hint
+ swt
+ default
+ changed
+border width
+get border width
+ height
+ math
+ max
+ hint
+ math
+ max
+text size
+
+arrow size
+
+border width
+ width
+ math
+ max
+ hint
+ math
+ max
+text width
+ spacer
+arrow size
+
+border width
+list size
+
+ point
+ width
+ height
+create popup
+ string
+ items
+selection index
+ popup
+ shell
+get shell
+ swt
+ trim
+ swt
+ top
+ style
+get style
+list style
+ swt
+ single
+ swt
+ scroll
+ style
+ swt
+ flat
+list style
+ swt
+ flat
+ style
+ swt
+right left
+list style
+ swt
+right left
+ style
+ swt
+left right
+list style
+ swt
+left right
+ list
+ list
+ popup
+list style
+ font
+ list
+set font
+ font
+ foreground
+ list
+set foreground
+ foreground
+ background
+ list
+set background
+ background
+popup events
+ swt
+ close
+ swt
+ paint
+ swt
+ deactivate
+
+
+popup events
+ length
+
+ popup
+add listener
+popup events
+
+ listener
+list events
+ swt
+ mouse
+ swt
+ selection
+ swt
+ traverse
+ swt
+key down
+ swt
+ key
+ swt
+ focus
+ swt
+ dispose
+
+
+list events
+ length
+
+ list
+add listener
+list events
+
+ listener
+ items
+ list
+set items
+ items
+selection index
+ list
+set selection
+selection index
+ deselect
+ index
+check widget
+ list
+ deselect
+ index
+deselect all
+check widget
+ list
+deselect all
+drop down
+ drop
+ drop
+ dropped
+ drop
+ popup
+set visible
+ disposed
+ arrow
+focus control
+ text
+set focus
+get shell
+ popup
+get parent
+ string
+ items
+ list
+get items
+selection index
+ list
+get selection index
+ list
+remove listener
+ swt
+ dispose
+ listener
+ popup
+ dispose
+ popup
+ list
+create popup
+ items
+selection index
+ point
+ size
+get size
+item count
+ list
+get item count
+item count
+item count
+visible item count
+ math
+ min
+visible item count
+item count
+item height
+ list
+get item height
+item count
+ point
+list size
+ list
+compute size
+ swt
+ default
+item height
+ list
+set bounds
+ math
+ max
+ size
+
+list size
+
+list size
+
+ index
+ list
+get selection index
+ index
+ list
+set top index
+ index
+ display
+ display
+get display
+ rectangle
+list rect
+ list
+get bounds
+ rectangle
+parent rect
+ display
+ map
+get parent
+get bounds
+ point
+combo size
+get size
+ rectangle
+display rect
+get monitor
+get client area
+ width
+ math
+ max
+combo size
+
+list rect
+ width
+ height
+list rect
+ height
+
+parent rect
+
+
+parent rect
+
+combo size
+
+
+ height
+display rect
+
+display rect
+ height
+
+parent rect
+
+ height
+ popup
+set bounds
+
+
+ width
+ height
+ popup
+set visible
+ list
+set focus
+ label
+get associated label
+ control
+ siblings
+get parent
+get children
+
+
+ siblings
+ length
+
+ siblings
+
+ combo
+
+ siblings
+
+ label
+ label
+ siblings
+
+ control
+get children
+check widget
+ control
+get editable
+check widget
+ text
+get editable
+ string
+get item
+ index
+check widget
+ list
+get item
+ index
+get item count
+check widget
+ list
+get item count
+get item height
+check widget
+ list
+get item height
+ string
+get items
+check widget
+ list
+get items
+get mnemonic
+ string
+ string
+ index
+ length
+ string
+ length
+ index
+ length
+ string
+ char
+ index
+ index
+ index
+ length
+ string
+ char
+ index
+ string
+ char
+ index
+ index
+ index
+ length
+ point
+get selection
+check widget
+ text
+get selection
+get selection index
+check widget
+ list
+get selection index
+get style
+ style
+get style
+ style
+ swt
+read only
+ text
+get editable
+ style
+ swt
+read only
+ style
+ string
+get text
+check widget
+ text
+get text
+get text height
+check widget
+ text
+get line height
+get text limit
+check widget
+ text
+get text limit
+get visible item count
+check widget
+visible item count
+handle focus
+ type
+ disposed
+ type
+ swt
+ focus
+has focus
+get editable
+ text
+select all
+has focus
+ shell
+ shell
+get shell
+ shell
+remove listener
+ swt
+ deactivate
+ listener
+ shell
+add listener
+ swt
+ deactivate
+ listener
+ display
+ display
+get display
+ display
+remove filter
+ swt
+ focus
+ filter
+ display
+add filter
+ swt
+ focus
+ filter
+ event
+
+ event
+notify listeners
+ swt
+ focus
+
+ swt
+focus out
+has focus
+ control
+focus control
+get display
+get focus control
+focus control
+ arrow
+focus control
+ list
+focus control
+ text
+has focus
+ shell
+ shell
+get shell
+ shell
+remove listener
+ swt
+ deactivate
+ listener
+ display
+ display
+get display
+ display
+remove filter
+ swt
+ focus
+ filter
+ event
+
+ event
+notify listeners
+ swt
+focus out
+
+ index
+ string
+ string
+check widget
+ string
+ swt
+ error
+ swt
+error null argument
+ list
+ index
+ string
+ index
+ string
+ string
+ start
+check widget
+ string
+ swt
+ error
+ swt
+error null argument
+ list
+ index
+ string
+ start
+init accessible
+accessible adapter
+accessible adapter
+accessible adapter
+get name
+accessible event
+
+ string
+ name
+ label
+ label
+get associated label
+ label
+ name
+strip mnemonic
+ label
+get text
+
+ result
+ name
+get keyboard shortcut
+accessible event
+
+ string
+ shortcut
+ label
+ label
+get associated label
+ label
+ string
+ text
+ label
+get text
+ text
+ mnemonic
+get mnemonic
+ text
+ mnemonic
+ shortcut
+ mnemonic
+
+ result
+ shortcut
+get help
+accessible event
+
+
+ result
+get tool tip text
+get accessible
+add accessible listener
+accessible adapter
+ text
+get accessible
+add accessible listener
+accessible adapter
+ list
+get accessible
+add accessible listener
+accessible adapter
+ arrow
+get accessible
+add accessible listener
+accessible adapter
+get name
+accessible event
+
+
+ result
+ dropped
+ swt
+get message
+ swt
+get message
+get keyboard shortcut
+accessible event
+
+
+ result
+get help
+accessible event
+
+
+ result
+get tool tip text
+get accessible
+add accessible text listener
+accessible text adapter
+get caret offset
+accessible text event
+
+
+ offset
+ text
+get caret position
+get accessible
+add accessible control listener
+accessible control adapter
+get child point
+accessible control event
+
+ point
+test point
+ control
+
+
+
+
+get bounds
+ contains
+test point
+
+ child
+ acc
+childid self
+get location
+accessible control event
+
+ rectangle
+ location
+get bounds
+ point
+
+ display
+ location
+
+ location
+
+
+
+
+
+
+
+
+
+
+ width
+ location
+ width
+
+ height
+ location
+ height
+get child count
+accessible control event
+
+
+ detail
+get role
+accessible control event
+
+
+ detail
+ acc
+role combobox
+get state
+accessible control event
+
+
+ detail
+ acc
+state normal
+get value
+accessible control event
+
+
+ result
+get text
+ text
+get accessible
+add accessible control listener
+accessible control adapter
+get role
+accessible control event
+
+
+ detail
+ text
+get editable
+ acc
+role text
+ acc
+role label
+ arrow
+get accessible
+add accessible control listener
+accessible control adapter
+get default action
+accessible control event
+
+
+ result
+ dropped
+ swt
+get message
+ swt
+get message
+ dropped
+ popup
+get visible
+focus control
+check widget
+ text
+focus control
+ arrow
+focus control
+ list
+focus control
+ popup
+focus control
+focus control
+internal layout
+ changed
+ dropped
+drop down
+ rectangle
+ rect
+get client area
+ width
+ rect
+ width
+ height
+ rect
+ height
+ point
+arrow size
+ arrow
+compute size
+ swt
+ default
+ height
+ changed
+ text
+set bounds
+ width
+arrow size
+
+ height
+ arrow
+set bounds
+ width
+arrow size
+
+arrow size
+
+arrow size
+
+list event
+ event
+ event
+ event
+ type
+ swt
+ dispose
+get shell
+ popup
+get parent
+ string
+ items
+ list
+get items
+selection index
+ list
+get selection index
+ popup
+ list
+create popup
+ items
+selection index
+ swt
+ focus
+handle focus
+ swt
+ focus
+ swt
+ mouse
+ event
+ button
+drop down
+ swt
+ selection
+ index
+ list
+get selection index
+ index
+ text
+set text
+ list
+get item
+ index
+ text
+select all
+ list
+set selection
+ index
+ event
+
+ event
+
+ time
+ event
+ time
+
+state mask
+ event
+state mask
+
+ doit
+ event
+ doit
+notify listeners
+ swt
+ selection
+
+ event
+ doit
+
+ doit
+ swt
+ traverse
+ event
+ detail
+ swt
+traverse return
+ swt
+traverse escape
+ swt
+traverse arrow previous
+ swt
+traverse arrow next
+ event
+ doit
+ event
+
+ event
+
+ time
+ event
+ time
+
+ detail
+ event
+ detail
+
+ doit
+ event
+ doit
+
+ character
+ event
+ character
+
+key code
+ event
+key code
+notify listeners
+ swt
+ traverse
+
+ event
+ doit
+
+ doit
+ event
+ detail
+
+ detail
+ swt
+ key
+ event
+
+ event
+
+ time
+ event
+ time
+
+ character
+ event
+ character
+
+key code
+ event
+key code
+
+state mask
+ event
+state mask
+notify listeners
+ swt
+ key
+
+ swt
+key down
+ event
+ character
+ swt
+ esc
+drop down
+ event
+state mask
+ swt
+ alt
+ event
+key code
+ swt
+ arrow
+ event
+key code
+ swt
+arrow down
+drop down
+ event
+ character
+ swt
+
+drop down
+ event
+
+ event
+
+ time
+ event
+ time
+
+state mask
+ event
+state mask
+notify listeners
+ swt
+default selection
+
+ disposed
+ event
+
+ event
+
+ time
+ event
+ time
+
+ character
+ event
+ character
+
+key code
+ event
+key code
+
+state mask
+ event
+state mask
+notify listeners
+ swt
+key down
+
+popup event
+ event
+ event
+ event
+ type
+ swt
+ paint
+ rectangle
+list rect
+ list
+get bounds
+ color
+ black
+get display
+get system color
+ swt
+color black
+ event
+
+set foreground
+ black
+ event
+
+draw rectangle
+list rect
+ width
+list rect
+ height
+ swt
+ close
+ event
+ doit
+drop down
+ swt
+ deactivate
+drop down
+ redraw
+ redraw
+ text
+ redraw
+ arrow
+ redraw
+ popup
+ visible
+ list
+ redraw
+ redraw
+
+
+ width
+ height
+ all
+ redraw
+
+
+ width
+ height
+ remove
+ index
+check widget
+ list
+ remove
+ index
+ remove
+ start
+ end
+check widget
+ list
+ remove
+ start
+ end
+ remove
+ string
+ string
+check widget
+ string
+ swt
+ error
+ swt
+error null argument
+ list
+ remove
+ string
+remove all
+check widget
+ text
+set text
+ list
+remove all
+remove modify listener
+modify listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+remove listener
+ swt
+ modify
+ listener
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+remove listener
+ swt
+ selection
+ listener
+remove listener
+ swt
+default selection
+ listener
+ select
+ index
+check widget
+ index
+ list
+deselect all
+ text
+set text
+ index
+ index
+ list
+get item count
+ index
+get selection index
+ text
+set text
+ list
+get item
+ index
+ text
+select all
+ list
+ select
+ index
+ list
+show selection
+set background
+ color
+ color
+set background
+ color
+ background
+ color
+ text
+ text
+set background
+ color
+ list
+ list
+set background
+ color
+ arrow
+ arrow
+set background
+ color
+set editable
+ editable
+check widget
+ text
+set editable
+ editable
+set enabled
+ enabled
+set enabled
+ enabled
+ popup
+ popup
+set visible
+ text
+ text
+set enabled
+ enabled
+ arrow
+ arrow
+set enabled
+ enabled
+set focus
+check widget
+ text
+set focus
+set font
+ font
+ font
+set font
+ font
+ font
+ font
+ text
+set font
+ font
+ list
+set font
+ font
+internal layout
+set foreground
+ color
+ color
+set foreground
+ color
+ foreground
+ color
+ text
+ text
+set foreground
+ color
+ list
+ list
+set foreground
+ color
+ arrow
+ arrow
+set foreground
+ color
+set item
+ index
+ string
+ string
+check widget
+ list
+set item
+ index
+ string
+set items
+ string
+ items
+check widget
+ list
+set items
+ items
+ text
+get editable
+ text
+set text
+set layout
+ layout
+ layout
+check widget
+set selection
+ point
+ selection
+check widget
+ selection
+ swt
+ error
+ swt
+error null argument
+ text
+set selection
+ selection
+
+ selection
+
+set text
+ string
+ string
+check widget
+ string
+ swt
+ error
+ swt
+error null argument
+ index
+ list
+ index
+ string
+ index
+ list
+deselect all
+ text
+set text
+ string
+ text
+set text
+ string
+ text
+select all
+ list
+set selection
+ index
+ list
+show selection
+set text limit
+ limit
+check widget
+ text
+set text limit
+ limit
+set tool tip text
+ string
+ string
+check widget
+set tool tip text
+ string
+ arrow
+set tool tip text
+ string
+ text
+set tool tip text
+ string
+set visible
+ visible
+set visible
+ visible
+ visible
+ popup
+set visible
+set visible item count
+ count
+check widget
+ count
+visible item count
+ count
+ string
+strip mnemonic
+ string
+ string
+ index
+ length
+ string
+ length
+ index
+ length
+ string
+ char
+ index
+ index
+ index
+ length
+ string
+ string
+ char
+ index
+ string
+ substring
+ index
+ string
+ substring
+ index
+ length
+ index
+ index
+ length
+ string
+text event
+ event
+ event
+ event
+ type
+ swt
+ focus
+handle focus
+ swt
+ focus
+ swt
+key down
+ event
+ character
+ swt
+
+drop down
+ event
+
+ event
+
+ time
+ event
+ time
+
+state mask
+ event
+state mask
+notify listeners
+ swt
+default selection
+
+ disposed
+ event
+key code
+ swt
+ arrow
+ event
+key code
+ swt
+arrow down
+ event
+ doit
+ event
+state mask
+ swt
+ alt
+ dropped
+ dropped
+ text
+select all
+ dropped
+set focus
+drop down
+ dropped
+old index
+get selection index
+ event
+key code
+ swt
+ arrow
+ select
+ math
+ max
+old index
+ select
+ math
+ min
+old index
+get item count
+old index
+get selection index
+ event
+
+ event
+
+ time
+ event
+ time
+
+state mask
+ event
+state mask
+notify listeners
+ swt
+ selection
+
+ disposed
+ event
+
+ event
+
+ time
+ event
+ time
+
+ character
+ event
+ character
+
+key code
+ event
+key code
+
+state mask
+ event
+state mask
+notify listeners
+ swt
+key down
+
+ swt
+ key
+ event
+
+ event
+
+ time
+ event
+ time
+
+ character
+ event
+ character
+
+key code
+ event
+key code
+
+state mask
+ event
+state mask
+notify listeners
+ swt
+ key
+
+ swt
+ modify
+ list
+deselect all
+ event
+
+ event
+
+ time
+ event
+ time
+notify listeners
+ swt
+ modify
+
+ swt
+mouse down
+ event
+ button
+ text
+get editable
+ dropped
+ dropped
+ text
+select all
+ dropped
+set focus
+drop down
+ dropped
+ swt
+ mouse
+ event
+ button
+ text
+get editable
+ text
+select all
+ swt
+ traverse
+ event
+ detail
+ swt
+traverse return
+ swt
+traverse arrow previous
+ swt
+traverse arrow next
+ event
+ doit
+ event
+
+ event
+
+ time
+ event
+ time
+
+ detail
+ event
+ detail
+
+ doit
+ event
+ doit
+
+ character
+ event
+ character
+
+key code
+ event
+key code
+notify listeners
+ swt
+ traverse
+
+ event
+ doit
+
+ doit
+ event
+ detail
+
+ detail
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+the  combo  class  represents  selectable  user  interface  object  that  combines  text  field  and  list  and  issues  notification  when  item  selected  from  the  list  note  that  although  this  class  subclass  code  composite  code  does  not  make  sense  add  children  set  layout  styles  border  read  only  flat  events  selection 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  widget  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  widget  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  border  see  swt  read  only  see  swt  flat  see  widget get style
+adds  the  argument  the  end  the  receiver  list  param  string  the  new  item  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  add  string  int
+adds  the  argument  the  receiver  list  the  given  zero  relative  index  note  add  item  the  end  the  list  use  the  result  calling  code get item count  code  the  index  use  code  add  string  code  param  string  the  new  item  param  index  the  index  for  the  item  exception illegal argument exception  error  null  argument  the  string  null  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  add  string
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  receiver  text  modified  sending  one  the  messages  defined  the  code modify listener  code  interface  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see modify listener  see remove modify listener
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  receiver  selection  changes  sending  one  the  messages  defined  the  code selection listener  code  interface  code widget selected  code  called  when  the  combo  list  selection  changes  code widget default selected  code  typically  called  when  enter  pressed  the  combo  text  area  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener  see selection event
+sets  the  selection  the  receiver  text  field  empty  selection  starting  just  before  the  first  character  the  text  field  editable  this  has  the  effect  placing  the  beam  the  start  the  text  note  clear  the  selected  items  the  receiver  list  use  code deselect all  code  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see deselect all
+non  nls 
+create  shell  and  list
+deselects  the  item  the  given  zero  relative  index  the  receiver  list  the  item  the  index  was  already  deselected  remains  deselected  indices  that  are  out  range  are  ignored  param  index  the  index  the  item  deselect  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+deselects  all  selected  items  the  receiver  list  note  clear  the  selection  the  receiver  text  field  use  code clear selection  code  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see clear selection
+return  the  label  immediately  preceding  the  receiver  the  order  null  none
+gets  the  editable  state  return  whether  not  the  reciever  editable  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  the  item  the  given  zero  relative  index  the  receiver  list  throws  exception  the  index  out  range  param  index  the  index  the  item  return  return  the  item  the  given  index  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  number  items  contained  the  receiver  list  return  the  number  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  height  the  area  which  would  used  display  one  the  items  the  receiver  list  return  the  height  one  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  array  code  string  code  which  are  the  items  the  receiver  list  note  this  not  the  actual  structure  used  the  receiver  maintain  its  list  items  modifying  the  array  will  not  affect  the  receiver  return  the  items  the  receiver  list  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  point  code  whose  coordinate  the  start  the  selection  the  receiver  text  field  and  whose  coordinate  the  end  the  selection  the  returned  values  are  zero  relative  empty  selection  indicated  the  the  and  coordinates  having  the  same  value  return  point  representing  the  selection  start  and  end  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  zero  relative  index  the  item  which  currently  selected  the  receiver  list  item  selected  return  the  index  the  selected  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  string  containing  copy  the  contents  the  receiver  text  field  return  the  receiver  text  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  height  the  receivers  text  field  return  the  text  height  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  maximum  number  characters  that  the  receiver  text  field  capable  holding  this  has  not  been  changed  code set text limit  code  will  the  constant  code  combo  limit  code  return  the  text  limit  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+gets  the  number  items  that  are  visible  the  drop  down  portion  the  receiver  list  return  the  number  items  that  are  visible  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+searches  the  receiver  list  starting  the  first  item  index  until  item  found  that  equal  the  argument  and  returns  the  index  that  item  item  found  returns  param  string  the  search  item  return  the  index  the  item  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+searches  the  receiver  list  starting  the  given  zero  relative  index  until  item  found  that  equal  the  argument  and  returns  the  index  that  item  item  found  the  starting  index  out  range  returns  param  string  the  search  item  param  start  the  zero  relative  index  which  begin  the  search  return  the  index  the  item  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+non  nls 
+non  nls  non  nls 
+non  nls 
+non  nls  non  nls 
+escape  key  cancels  popup  list
+enter  causes  default  selection
+this  point  the  widget  may  have  been  disposed
+not  continue
+draw  black  rectangle  around  list
+removes  the  item  from  the  receiver  list  the  given  zero  relative  index  param  index  the  index  for  the  item  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+removes  the  items  from  the  receiver  list  which  are  between  the  given  zero  relative  start  and  end  indices  inclusive  param  start  the  start  the  range  param  end  the  end  the  range  exception illegal argument exception  error  invalid  range  either  the  start  end  are  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+searches  the  receiver  list  starting  the  first  item  until  item  found  that  equal  the  argument  and  removes  that  item  from  the  list  param  string  the  item  remove  exception illegal argument exception  error  null  argument  the  string  null  error  invalid  argument  the  string  not  found  the  list  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+removes  all  the  items  from  the  receiver  list  and  clear  the  contents  receiver  text  field  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+non  nls 
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  receiver  text  modified  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see modify listener  see add modify listener
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  receiver  selection  changes  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener
+selects  the  item  the  given  zero  relative  index  the  receiver  list  the  item  the  index  was  already  selected  remains  selected  indices  that  are  out  range  are  ignored  param  index  the  index  the  item  select  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+non  nls 
+sets  the  editable  state  param  editable  the  new  editable  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+sets  the  text  the  item  the  receiver  list  the  given  zero  relative  index  the  string  argument  this  equivalent  code  remove  code  ing  the  old  item  the  index  and  then  code  add  code  ing  the  new  item  that  index  param  index  the  index  for  the  item  param  string  the  new  text  for  the  item  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  receiver  list  the  given  array  items  param  items  the  array  items  exception illegal argument exception  error  null  argument  the  items  array  null  error  invalid  argument  item  the  items  array  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+non  nls 
+sets  the  layout  which  associated  with  the  receiver  the  argument  which  may  null  note  layout  can  set  this  control  because  already  manages  the  size  and  position  its  children  param  layout  the  receiver  new  layout  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  selection  the  receiver  text  field  the  range  specified  the  argument  whose  coordinate  the  start  the  selection  and  whose  coordinate  the  end  the  selection  param  selection  point  representing  the  new  selection  start  and  end  exception illegal argument exception  error  null  argument  the  point  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  contents  the  receiver  text  field  the  given  string  note  the  text  field  code  combo  code  typically  only  capable  displaying  single  line  text  thus  setting  the  text  string  containing  line  breaks  other  special  characters  will  probably  cause  display  incorrectly  param  string  the  new  text  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  maximum  number  characters  that  the  receiver  text  field  capable  holding  the  argument  param  limit  new  text  limit  exception illegal argument exception  error  cannot  zero  the  limit  zero  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  number  items  that  are  visible  the  drop  down  portion  the  receiver  list  param  count  the  new  number  items  visible  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+this  point  the  widget  may  have  been  disposed
+not  continue
+this  point  the  widget  may  have  been  disposed
+not  continue
+further  work  need  add  support  for  incremental  search 
+pop  list  characters  typed  text  widget
+the  enter  causes  default  selection  and
+the  arrow  keys  are  used  manipulate  the  list  contents 
+not  use  them  for  traversal
+</comments>
+</text>
+</DOC>

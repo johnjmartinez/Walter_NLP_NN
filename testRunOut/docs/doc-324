@@ -1,0 +1,37 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.MouseAdapter.java </DOCNO>
+<text>
+<class>
+mouse adapter
+</class>
+<method>
+mouse double click
+mouse down
+ mouse
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+mouse adapter
+mouse listener
+mouse double click
+mouse event
+
+mouse down
+mouse event
+
+ mouse
+mouse event
+
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  adapter  class  provides  default  implementations  for  the  methods  described  the  code mouse listener  code  interface  classes  that  wish  deal  with  code mouse event  code  which  occur  mouse  buttons  are  pressed  and  released  can  extend  this  class  and  override  only  the  methods  which  they  are  interested  see mouse listener  see mouse event
+sent  when  mouse  button  pressed  twice  within  the  operating  system  specified  double  click  period  the  default  behavior  nothing  param  event  containing  information  about  the  mouse  double  click  see  org  eclipse  swt  widgets  display get double click time
+sent  when  mouse  button  pressed  the  default  behavior  nothing  param  event  containing  information  about  the  mouse  button  press
+sent  when  mouse  button  released  the  default  behavior  nothing  param  event  containing  information  about  the  mouse  button  release
+</comments>
+</text>
+</DOC>

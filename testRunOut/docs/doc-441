@@ -1,0 +1,493 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Scale.java </DOCNO>
+<text>
+<class>
+ scale
+</class>
+<method>
+ scale
+add selection listener
+call window proc
+check style
+compute size
+create handle
+default foreground
+get increment
+get maximum
+get minimum
+get page increment
+get selection
+remove selection listener
+set background pixel
+set increment
+set maximum
+set minimum
+set page increment
+set selection
+widget style
+window class
+window proc
+scroll child
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ events
+ scale
+ control
+track bar proc
+ tchar
+track bar class
+ tchar
+
+trackbar class
+ wndclass
+wnd class
+ wndclass
+
+get class info
+track bar class
+wnd class
+track bar proc
+wnd class
+lpfn wnd proc
+ instance
+
+get module handle
+ heap
+
+get process heap
+wnd class
+ instance
+ instance
+wnd class
+ style
+
+ globalclass
+wnd class
+ style
+
+ dblclks
+byte count
+track bar class
+ length
+ tchar
+ sizeof
+lpsz class name
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+lpsz class name
+track bar class
+byte count
+wnd class
+lpsz class name
+lpsz class name
+
+register class
+wnd class
+ scale
+ composite
+ parent
+ style
+ parent
+check style
+ style
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+call window proc
+ hwnd
+ msg
+ param
+ param
+ handle
+
+call window proc
+track bar proc
+ hwnd
+ msg
+ param
+ param
+check style
+ style
+check bits
+ style
+ swt
+ horizontal
+ swt
+ vertical
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+ border
+get border width
+ width
+ border
+ height
+ border
+ rect
+ rect
+ rect
+
+send message
+ handle
+
+tbm getthumbrect
+ rect
+ style
+ swt
+ horizontal
+ width
+
+get system metrics
+
+ cxhscroll
+ scroll
+
+get system metrics
+
+ cyhscroll
+ height
+ rect
+ top
+ scroll
+ scroll
+ scroll
+
+get system metrics
+
+ cxvscroll
+ width
+ rect
+ left
+ scroll
+ scroll
+ height
+
+get system metrics
+
+ cyvscroll
+ hint
+ swt
+ default
+ width
+ hint
+ border
+ hint
+ swt
+ default
+ height
+ hint
+ border
+ point
+ width
+ height
+create handle
+create handle
+
+send message
+ handle
+
+tbm setrangemax
+
+send message
+ handle
+
+tbm setpagesize
+
+send message
+ handle
+
+tbm setticfreq
+default foreground
+
+get sys color
+
+color btnface
+get increment
+check widget
+
+send message
+ handle
+
+tbm getlinesize
+get maximum
+check widget
+
+send message
+ handle
+
+tbm getrangemax
+get minimum
+check widget
+
+send message
+ handle
+
+tbm getrangemin
+get page increment
+check widget
+
+send message
+ handle
+
+tbm getpagesize
+get selection
+check widget
+
+send message
+ handle
+
+tbm getpos
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ selection
+ listener
+event table
+ unhook
+ swt
+default selection
+ listener
+set background pixel
+ pixel
+ background
+ pixel
+set background pixel
+ pixel
+
+post message
+ handle
+
+ setfocus
+set increment
+ increment
+check widget
+ increment
+ minimum
+
+send message
+ handle
+
+tbm getrangemin
+ maximum
+
+send message
+ handle
+
+tbm getrangemax
+ increment
+ maximum
+ minimum
+
+send message
+ handle
+
+tbm setlinesize
+ increment
+set maximum
+ value
+check widget
+ minimum
+
+send message
+ handle
+
+tbm getrangemin
+ minimum
+ minimum
+ value
+
+send message
+ handle
+
+tbm setrangemax
+ value
+set minimum
+ value
+check widget
+ maximum
+
+send message
+ handle
+
+tbm getrangemax
+ value
+ value
+ maximum
+
+send message
+ handle
+
+tbm setrangemin
+ value
+set page increment
+page increment
+check widget
+page increment
+ minimum
+
+send message
+ handle
+
+tbm getrangemin
+ maximum
+
+send message
+ handle
+
+tbm getrangemax
+page increment
+ maximum
+ minimum
+
+send message
+ handle
+
+tbm setpagesize
+page increment
+
+send message
+ handle
+
+tbm setticfreq
+page increment
+set selection
+ value
+check widget
+
+send message
+ handle
+
+tbm setpos
+ value
+widget style
+ bits
+widget style
+
+ tabstop
+
+tbs both
+
+tbs autoticks
+ style
+ swt
+ horizontal
+ bits
+
+tbs horz
+
+tbs downisleft
+ bits
+
+tbs vert
+ tchar
+window class
+track bar class
+window proc
+track bar proc
+ lresult
+scroll child
+ param
+ param
+ code
+ param
+ code
+
+ endtrack
+
+ thumbposition
+ event
+ event
+ event
+send event
+ swt
+ selection
+ event
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  the  receiver  represent  selectable  user  interface  object  that  present  range  continuous  numeric  values  styles  horizontal  vertical  events  selection  note  only  one  the  styles  horizontal  and  vertical  may  specified  important  this  class  intended  subclassed  only  within  the  swt  implementation 
+feature  windows  the  track  bar  window  class  does  not  include  dblclks  this  mean  that  these  controls  will  not  get  double  click  messages  such  lbuttondblclk  the  fix  register  new  window  class  with  dblclks  note  screen  readers  look  for  the  exact  class  name  the  control  order  provide  the  correct  kind  assistance  therefore  critical  that  the  new  window  class  have  the  same  name  possible  register  local  window  class  with  the  same  name  global  class  since  bits  that  affect  the  class  are  being  changed  possible  that  other  native  code  other  than  swt  could  create  control  with  this  class  name  and  fail  unexpectedly
+heap free  heap lpsz class name
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  horizontal  see  swt  vertical  see  widget check subclass  see  widget get style
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  receiver  value  changes  sending  one  the  messages  defined  the  code selection listener  code  interface  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener
+returns  the  amount  that  the  receiver  value  will  modified  when  the  down  right  left  arrows  are  pressed  return  the  increment  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  maximum  value  which  the  receiver  will  allow  return  the  maximum  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  minimum  value  which  the  receiver  will  allow  return  the  minimum  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  amount  that  the  receiver  value  will  modified  when  the  page  increment  decrement  areas  are  selected  return  the  page  increment  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  selection  which  the  receiver  position  return  the  selection  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  receiver  value  changes  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener
+bug  windows  changing  the  background  color  the  scale  widget  and  calling invalidate rect  still  draws  with  the  old  color  the  fix  post  fake  setfocus  event  cause  redraw  with  the  new  background  color  note  this  setfocus  message  causes  recursion  when set background  called  from  within  the  focus  event  listener
+sets  the  amount  that  the  receiver  value  will  modified  when  the  down  right  left  arrows  are  pressed  the  argument  which  must  least  one  param  increment  the  new  increment  must  greater  than  zero  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  maximum  value  that  the  receiver  will  allow  this  new  value  will  ignored  not  greater  than  the  receiver  current  minimum  value  the  new  maximum  applied  then  the  receiver  selection  value  will  adjusted  necessary  fall  within  its  new  range  param  value  the  new  maximum  which  must  greater  than  the  current  minimum  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  minimum  value  that  the  receiver  will  allow  this  new  value  will  ignored  negative  not  less  than  the  receiver  current  maximum  value  the  new  minimum  applied  then  the  receiver  selection  value  will  adjusted  necessary  fall  within  its  new  range  param  value  the  new  minimum  which  must  nonnegative  and  less  than  the  current  maximum  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  amount  that  the  receiver  value  will  modified  when  the  page  increment  decrement  areas  are  selected  the  argument  which  must  least  one  param page increment  the  page  increment  must  greater  than  zero  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  selection  which  the  receiver  value  the  argument  which  must  greater  than  equal  zero  param  value  the  new  selection  must  zero  greater  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+nothing  when  scrolling  ending
+this  code  intentionally  commented  the  event  detail  field  not  currently  supported  all  platforms
+switch  code
+case  top  event  detail  swt  home  break
+case  bottom  event  detail  swt  end  break
+case  linedown  event  detail  swt  arrow  down  break
+case  lineup  event  detail  swt  arrow  break
+case  pagedown  event  detail  swt  page  down  break
+case  pageup  event  detail  swt  page  break
+
+send  the  event  because  hscroll  and  vscroll  are  sent  from  modal  message  loop  windows  that  active  when  the  user  scrolling
+widget  could  disposed  this  point
+</comments>
+</text>
+</DOC>

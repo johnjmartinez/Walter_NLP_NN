@@ -1,0 +1,189 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.PngDecodingDataStream.java </DOCNO>
+<text>
+<class>
+png decoding data stream
+</class>
+<method>
+png decoding data stream
+assert image data end
+get next idat bits
+get next idat bit
+get next chunk
+get next idat byte
+update adler
+get next decoded byte
+ error
+read compressed data header
+check adler
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+ org
+ eclipse
+ swt
+png decoding data stream
+png idat chunk
+current chunk
+png chunk reader
+chunk reader
+current byte
+next byte index
+next bit index
+png block reader
+block reader
+adler value
+ prime
+max bit
+png decoding data stream
+png idat chunk
+idat chunk
+png chunk reader
+chunk reader
+current chunk
+idat chunk
+chunk reader
+chunk reader
+next byte index
+next bit index
+max bit
+adler value
+block reader
+png block reader
+read compressed data header
+block reader
+read next block header
+assert image data end
+block reader
+assert compressed data end
+get next idat bits
+ length
+ value
+
+
+ length
+
+ value
+get next idat bit
+
+ value
+get next idat bit
+next bit index
+max bit
+current byte
+get next idat byte
+next bit index
+ mask
+next bit index
+next bit index
+current byte
+ mask
+png idat chunk
+get next chunk
+png chunk
+ chunk
+chunk reader
+read next chunk
+ chunk
+ error
+ chunk
+get chunk type
+png chunk
+chunk idat
+ error
+png idat chunk
+ chunk
+get next idat byte
+next byte index
+current chunk
+get length
+current chunk
+get next chunk
+next byte index
+next byte
+current chunk
+get data byte offset
+next byte index
+next byte index
+next bit index
+max bit
+next byte
+update adler
+ value
+ low
+adler value
+ high
+adler value
+value int
+ value
+ low
+ low
+value int
+ prime
+ high
+ low
+ high
+ prime
+adler value
+ high
+ low
+get next decoded byte
+next decoded byte
+block reader
+get next byte
+update adler
+next decoded byte
+next decoded byte
+ error
+ swt
+ error
+ swt
+error invalid image
+read compressed data header
+header byte
+get next idat byte
+header byte
+get next idat byte
+ number
+header byte
+header byte
+ number
+ error
+compression method
+header byte
+compression method
+ error
+window size hint
+header byte
+window size hint
+ error
+window size
+window size hint
+block reader
+set window size
+window size
+ dictionary
+header byte
+ dictionary
+ error
+check adler
+stored adler
+get next idat byte
+get next idat byte
+get next idat byte
+get next idat byte
+stored adler
+adler value
+ error
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  method  should  called  when  the  image  decoder  thinks  that  all  the  compressed  image  data  has  been  read  this  method  will  ensure  that  the  next  data  value  end  block  marker  there  are  more  blocks  after  this  one  the  method  will  read  them  and  ensure  that  they  are  empty
+int compression level header byte 
+</comments>
+</text>
+</DOC>

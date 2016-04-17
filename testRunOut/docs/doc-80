@@ -1,0 +1,34 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.Drawable.java </DOCNO>
+<text>
+<class>
+ drawable
+</class>
+<method>
+internal _new
+internal _dispose
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ drawable
+internal _new
+ data
+ data
+internal _dispose
+ handle
+ data
+ data
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+implementers  code  drawable  code  can  have  graphics  context  created  for  them  and  then  they  can  drawn  sending  messages  their  associated  swt  images  and  device  objects  such  the  display  device  and  the  printer  device  are  drawables  important  this  class  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  should  never  referenced  from  application  code  see  device  see  image  see 
+invokes  platform  specific  functionality  allocate  new  handle  important  this  method  not  part  the  public  api  for  code  drawable  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  data  the  platform  specific  data  return  the  platform  specific  handle
+  long
+invokes  platform  specific  functionality  dispose  handle  important  this  method  not  part  the  public  api  for  code  drawable  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  handle  the  platform  specific  handle  param  data  the  platform  specific  data
+  long
+</comments>
+</text>
+</DOC>

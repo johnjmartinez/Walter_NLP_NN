@@ -1,0 +1,204 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.PngHuffmanTables.java </DOCNO>
+<text>
+<class>
+png huffman tables
+</class>
+<method>
+get dynamic tables
+get fixed tables
+get fixed literal table
+get fixed distance table
+png huffman tables
+png huffman tables
+read lengths
+get next literal value
+get next distance value
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+png huffman tables
+png huffman table
+literal table
+png huffman table
+distance table
+png huffman table
+fixed literal table
+png huffman table
+fixed distance table
+literal table size
+fixed literal lengths
+distance table size
+fixed distance lengths
+length code table size
+length code order
+png huffman tables
+get dynamic tables
+png decoding data stream
+ stream
+png huffman tables
+ stream
+png huffman tables
+get fixed tables
+png huffman tables
+png huffman table
+get fixed literal table
+fixed literal table
+fixed literal table
+png huffman table
+fixed literal lengths
+fixed literal table
+png huffman table
+get fixed distance table
+fixed distance table
+fixed distance table
+png huffman table
+fixed distance lengths
+fixed distance table
+png huffman tables
+literal table
+get fixed literal table
+distance table
+get fixed distance table
+png huffman tables
+png decoding data stream
+ stream
+ literals
+png block reader
+first length code
+ stream
+get next idat bits
+ distances
+png block reader
+first distance code
+ stream
+get next idat bits
+code length codes
+png block reader
+first code length code
+ stream
+get next idat bits
+code length codes
+png block reader
+last code length code
+ stream
+ error
+length codes
+length code table size
+
+
+code length codes
+
+length codes
+length code order
+
+ stream
+get next idat bits
+png huffman table
+code lengths table
+png huffman table
+length codes
+literal lengths
+read lengths
+ stream
+ literals
+code lengths table
+literal table size
+distance lengths
+read lengths
+ stream
+ distances
+code lengths table
+distance table size
+literal table
+png huffman table
+literal lengths
+distance table
+png huffman table
+distance lengths
+read lengths
+png decoding data stream
+ stream
+num lengths
+png huffman table
+lengths table
+table size
+ lengths
+table size
+ index
+ index
+num lengths
+ value
+lengths table
+get next value
+ stream
+ value
+ lengths
+ index
+ value
+ index
+ value
+ count
+ stream
+get next idat bits
+
+
+ count
+
+ lengths
+ index
+ lengths
+ index
+ index
+ value
+ count
+ stream
+get next idat bits
+
+
+ count
+
+ lengths
+ index
+ index
+ value
+ count
+ stream
+get next idat bits
+
+
+ count
+
+ lengths
+ index
+ index
+ stream
+ error
+ lengths
+get next literal value
+png decoding data stream
+ stream
+literal table
+get next value
+ stream
+get next distance value
+png decoding data stream
+ stream
+distance table
+get next value
+ stream
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+tricky  tricky  tricky  the  length  codes  are  stored  very  odd  order  for  the  order  see  the  definition  the  static  field length code order  also  the  data  may  not  contain  values  for  all  the  codes  may  just  contain  values  for  the  first  number  codes  the  table  should  size length code table size  regardless  the  number  values  actually  given  the  table
+literal  value
+repeat  the  previous  code  times
+repeat  times
+repeat  138  times
+</comments>
+</text>
+</DOC>

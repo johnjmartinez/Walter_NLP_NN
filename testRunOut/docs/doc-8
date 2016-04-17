@@ -1,0 +1,1389 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.CLabel.java </DOCNO>
+<text>
+<class>
+ label
+</class>
+<method>
+ label
+paint control
+widget disposed
+key traversed
+check style
+compute size
+draw bevel rect
+_find mnemonic
+get alignment
+get image
+get total size
+get style
+get text
+get tool tip text
+init accessible
+get name
+get help
+get keyboard shortcut
+get child point
+get location
+get child count
+get role
+get state
+get value
+ dispose
+ mnemonic
+ paint
+paint border
+set alignment
+set background
+set background
+set background
+set background
+set font
+set image
+set text
+set tool tip text
+shorten text
+split string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ accessibility
+ label
+ canvas
+ gap
+ indent
+ string
+ ellipsis
+ align
+ swt
+ left
+ indent
+ indent
+ indent
+ indent
+ string
+ text
+ image
+ image
+ string
+app tool tip text
+ image
+background image
+ color
+gradient colors
+gradient percents
+gradient vertical
+draw flags
+ swt
+draw mnemonic
+ swt
+draw tab
+ swt
+draw transparent
+ swt
+draw delimiter
+ label
+ composite
+ parent
+ style
+ parent
+check style
+ style
+ style
+ swt
+ center
+ swt
+ right
+ style
+ swt
+ left
+ style
+ swt
+ center
+ align
+ swt
+ center
+ style
+ swt
+ right
+ align
+ swt
+ right
+ style
+ swt
+ left
+ align
+ swt
+ left
+add paint listener
+paint listener
+paint control
+paint event
+ event
+ paint
+ event
+add dispose listener
+dispose listener
+widget disposed
+dispose event
+ event
+ dispose
+ event
+add traverse listener
+traverse listener
+key traversed
+traverse event
+ event
+ event
+ detail
+ swt
+traverse mnemonic
+ mnemonic
+ event
+init accessible
+check style
+ style
+ style
+ swt
+ border
+ style
+ swt
+ shadow
+ mask
+ swt
+ shadow
+ swt
+shadow out
+ swt
+shadow none
+ swt
+left right
+ swt
+right left
+ style
+ style
+ mask
+ style
+ swt
+ focus
+ string
+ platform
+ swt
+get platform
+ equals
+ platform
+ equals
+ platform
+ style
+ style
+ swt
+ background
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+ point
+
+get total size
+ image
+ text
+ hint
+ swt
+ default
+
+
+ indent
+
+
+ hint
+ hint
+ swt
+ default
+
+
+ indent
+
+
+ hint
+
+draw bevel rect
+
+
+
+
+
+
+ color
+ topleft
+ color
+ bottomright
+
+set foreground
+ bottomright
+
+draw line
+
+
+
+
+
+
+
+
+draw line
+
+
+
+
+
+
+
+
+set foreground
+ topleft
+
+draw line
+
+
+
+
+
+
+draw line
+
+
+
+
+
+_find mnemonic
+ string
+ string
+ string
+ index
+ length
+ string
+ length
+ index
+ length
+ string
+ char
+ index
+ index
+ index
+ length
+ string
+ char
+ index
+ string
+ char
+ index
+ index
+ index
+ length
+get alignment
+ align
+ image
+get image
+ image
+ point
+get total size
+ image
+ image
+ string
+ text
+ point
+ size
+ point
+ image
+ rectangle
+
+ image
+get bounds
+ size
+
+
+ width
+ size
+
+
+ height
+
+
+
+ text
+ text
+ length
+ point
+
+
+text extent
+ text
+draw flags
+ size
+
+
+
+ size
+
+ math
+ max
+ size
+
+
+
+ image
+ size
+
+ gap
+ size
+
+ math
+ max
+ size
+
+
+get font metrics
+get height
+
+ dispose
+ size
+get style
+ style
+get style
+ align
+ swt
+ right
+ style
+ swt
+ right
+ swt
+ center
+ style
+ swt
+ center
+ swt
+ left
+ style
+ swt
+ left
+ style
+ string
+get text
+ text
+ string
+get tool tip text
+check widget
+app tool tip text
+init accessible
+ accessible
+ accessible
+get accessible
+ accessible
+add accessible listener
+accessible adapter
+get name
+accessible event
+
+
+ result
+get text
+get help
+accessible event
+
+
+ result
+get tool tip text
+get keyboard shortcut
+accessible event
+
+ mnemonic
+_find mnemonic
+ label
+ text
+ mnemonic
+
+ result
+ mnemonic
+ accessible
+add accessible control listener
+accessible control adapter
+get child point
+accessible control event
+
+
+ child
+ acc
+childid self
+get location
+accessible control event
+
+ rectangle
+ rect
+get display
+ map
+get parent
+get bounds
+
+
+ rect
+
+
+
+ rect
+
+
+ width
+ rect
+ width
+
+ height
+ rect
+ height
+get child count
+accessible control event
+
+
+ detail
+get role
+accessible control event
+
+
+ detail
+ acc
+role label
+get state
+accessible control event
+
+
+ detail
+ acc
+state readonly
+get value
+accessible control event
+
+
+ result
+get text
+ dispose
+dispose event
+ event
+gradient colors
+gradient percents
+background image
+ text
+ image
+app tool tip text
+ mnemonic
+traverse event
+ event
+ mnemonic
+_find mnemonic
+ text
+ mnemonic
+ character
+upper case
+ event
+ character
+ character
+upper case
+ mnemonic
+ composite
+ control
+get parent
+ control
+ control
+ children
+ control
+get children
+ index
+ index
+ children
+ length
+ children
+ index
+ index
+ index
+ index
+ children
+ length
+ children
+ index
+set focus
+ event
+ doit
+ event
+ detail
+ swt
+traverse none
+ control
+ control
+get parent
+ paint
+paint event
+ event
+ rectangle
+ rect
+get client area
+ rect
+ width
+ rect
+ height
+shorten text
+ string
+
+ text
+ image
+ img
+ image
+available width
+ math
+ max
+ rect
+ width
+ indent
+ point
+ extent
+get total size
+ img
+
+ extent
+
+available width
+ img
+ extent
+get total size
+ img
+
+ extent
+
+available width
+shorten text
+
+
+ event
+
+ string
+ lines
+ text
+split string
+ text
+shorten text
+ extent
+
+
+
+ lines
+ length
+
+ point
+
+
+text extent
+ lines
+
+draw flags
+
+
+available width
+ lines
+
+shorten text
+
+ lines
+
+available width
+ extent
+
+ math
+ max
+ extent
+
+get total size
+ lines
+
+
+ extent
+
+ math
+ max
+ extent
+
+
+
+app tool tip text
+set tool tip text
+ text
+set tool tip text
+app tool tip text
+
+ rect
+
+ indent
+ align
+ swt
+ center
+
+ rect
+ width
+ extent
+
+ align
+ swt
+ right
+
+ rect
+ width
+ indent
+ extent
+
+background image
+ rectangle
+image rect
+background image
+get bounds
+
+set background
+get background
+
+fill rectangle
+ rect
+ pos
+ pos
+ rect
+ width
+ pos
+ pos
+ rect
+ height
+
+draw image
+background image
+ pos
+ pos
+ pos
+image rect
+ height
+ pos
+image rect
+ width
+gradient colors
+ color
+old background
+
+get background
+gradient colors
+ length
+gradient colors
+
+set background
+gradient colors
+
+fill rectangle
+ rect
+ width
+ rect
+ height
+ color
+old foreground
+
+get foreground
+ color
+last color
+gradient colors
+last color
+last color
+old background
+ pos
+
+
+gradient percents
+ length
+
+
+set foreground
+last color
+last color
+gradient colors
+
+last color
+last color
+old background
+
+set background
+last color
+gradient vertical
+gradient height
+gradient percents
+
+ rect
+ height
+ pos
+
+fill gradient rectangle
+ pos
+ rect
+ width
+gradient height
+ pos
+gradient height
+gradient width
+gradient percents
+
+ rect
+ width
+ pos
+
+fill gradient rectangle
+ pos
+gradient width
+ rect
+ height
+ pos
+gradient width
+gradient vertical
+ pos
+ rect
+ height
+
+set background
+get background
+
+fill rectangle
+ pos
+ rect
+ width
+ rect
+ height
+ pos
+gradient vertical
+ pos
+ rect
+ width
+
+set background
+get background
+
+fill rectangle
+ pos
+ rect
+ width
+ pos
+ rect
+ height
+
+set foreground
+old foreground
+
+set background
+old background
+get style
+ swt
+ background
+
+set background
+get background
+
+fill rectangle
+ rect
+swt exception
+
+get style
+ swt
+ background
+
+set background
+get background
+
+fill rectangle
+ rect
+ style
+get style
+ style
+ swt
+ shadow
+ style
+ swt
+shadow out
+paint border
+
+ rect
+ img
+ rectangle
+image rect
+ img
+get bounds
+
+draw image
+ img
+image rect
+ width
+image rect
+ height
+
+ rect
+ height
+image rect
+ height
+image rect
+ width
+image rect
+ height
+
+image rect
+ width
+ gap
+ extent
+
+image rect
+ width
+ gap
+ lines
+line height
+
+get font metrics
+get height
+text height
+ lines
+ length
+line height
+ line
+ math
+ max
+ indent
+ rect
+
+ rect
+ height
+text height
+
+set foreground
+get foreground
+
+
+ lines
+ length
+
+ line
+
+ lines
+ length
+ align
+ swt
+ center
+line width
+
+text extent
+ lines
+
+draw flags
+
+ line
+
+ math
+ max
+ extent
+
+line width
+ align
+ swt
+ right
+line width
+
+text extent
+ lines
+
+draw flags
+
+ line
+ math
+ max
+
+ rect
+
+ rect
+ width
+ indent
+line width
+
+draw text
+ lines
+
+ line
+ line
+draw flags
+ line
+line height
+paint border
+
+
+ rectangle
+
+ display
+ disp
+get display
+ color
+
+ color
+
+ style
+get style
+ style
+ swt
+ shadow
+
+ disp
+get system color
+ swt
+color widget normal shadow
+
+ disp
+get system color
+ swt
+color widget highlight shadow
+ style
+ swt
+shadow out
+
+ disp
+get system color
+ swt
+color widget light shadow
+
+ disp
+get system color
+ swt
+color widget normal shadow
+
+
+
+set line width
+draw bevel rect
+
+
+
+
+
+
+ width
+
+ height
+
+
+set alignment
+ align
+check widget
+ align
+ swt
+ left
+ align
+ swt
+ right
+ align
+ swt
+ center
+ swt
+ error
+ swt
+error invalid argument
+ align
+ align
+ align
+ align
+ redraw
+set background
+ color
+ color
+set background
+ color
+ color
+background image
+gradient colors
+gradient percents
+ color
+ background
+get background
+ color
+ equals
+ background
+background image
+gradient colors
+gradient percents
+ redraw
+set background
+ color
+ colors
+ percents
+set background
+ colors
+ percents
+set background
+ color
+ colors
+ percents
+ vertical
+check widget
+ colors
+ percents
+ percents
+ length
+ colors
+ length
+ swt
+ error
+ swt
+error invalid argument
+get display
+get depth
+ colors
+ color
+ colors
+ colors
+ length
+ percents
+
+
+ percents
+ length
+
+ percents
+
+ percents
+
+ swt
+ error
+ swt
+error invalid argument
+
+ percents
+
+ percents
+
+ swt
+ error
+ swt
+error invalid argument
+ color
+ background
+get background
+background image
+gradient colors
+ colors
+gradient colors
+ length
+ colors
+ length
+ same
+
+
+gradient colors
+ length
+
+ same
+gradient colors
+
+ colors
+
+gradient colors
+
+ colors
+
+ background
+gradient colors
+
+ background
+ colors
+
+ same
+ same
+
+
+gradient percents
+ length
+
+ same
+gradient percents
+
+ percents
+
+ same
+ same
+gradient vertical
+ vertical
+background image
+ colors
+gradient colors
+gradient percents
+gradient vertical
+gradient colors
+ color
+ colors
+ length
+
+
+ colors
+ length
+
+gradient colors
+
+ colors
+
+ colors
+
+ background
+gradient percents
+ percents
+ length
+
+
+ percents
+ length
+
+gradient percents
+
+ percents
+
+gradient vertical
+ vertical
+ redraw
+set background
+ image
+ image
+check widget
+ image
+background image
+ image
+gradient colors
+gradient percents
+background image
+ image
+ redraw
+set font
+ font
+ font
+set font
+ font
+ redraw
+set image
+ image
+ image
+check widget
+ image
+ image
+ image
+ image
+ redraw
+set text
+ string
+ text
+check widget
+ text
+ text
+ text
+ equals
+ text
+ text
+ text
+ redraw
+set tool tip text
+ string
+ string
+set tool tip text
+ string
+app tool tip text
+get tool tip text
+ string
+shorten text
+
+
+ string
+
+ width
+
+
+
+text extent
+ ellipsis
+draw flags
+
+
+
+ length
+ pivot
+
+
+ pivot
+
+ pivot
+
+
+
+ string
+
+
+ substring
+
+ string
+
+
+ substring
+
+
+
+
+text extent
+
+draw flags
+
+
+
+text extent
+
+draw flags
+
+
+
+
+ width
+
+
+ ellipsis
+
+
+
+
+ string
+split string
+ string
+ text
+ string
+ lines
+ string
+ start
+ pos
+ pos
+ text
+ index
+ start
+ pos
+ lines
+ lines
+ length
+ text
+ substring
+ start
+ crlf
+ pos
+ text
+ char
+ pos
+ lines
+ lines
+ length
+ text
+ substring
+ start
+ pos
+ crlf
+ start
+ pos
+ string
+new lines
+ string
+ lines
+ length
+ system
+ arraycopy
+ lines
+new lines
+ lines
+ length
+ lines
+new lines
+ pos
+ lines
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+label  which  supports  aligned  text  and  image  and  different  border  styles  there  not  enough  space  label  uses  the  following  strategy  fit  the  information  into  the  available  space  pre  ignores  the  indent  left  align  mode  ignores  the  image  and  the  gap  shortens  the  text  replacing  the  center  portion  the  label  with  ellipsis  shortens  the  text  removing  the  center  portion  the  label  pre  styles  left  right  center  shadow  shadow  out  shadow  none  events  important  this  class  not  intended  subclassed 
+gap  between  icon  and  text
+left  and  right  margins
+string  inserted  the  middle  text  that  has  been  shortened
+non  nls  could  use  the  ellipsis  glyph  some  platforms  2026
+the  alignment  either  center  right  left  default  left
+the  current  text
+the  current  icon
+the  tooltip  used  for  two  purposes  the  application  can  set
+tooltip  the  tooltip  can  used  display  the  full  text  when  the
+the  text  has  been  truncated  due  the  label  being  too  short
+the app tool tip  stores  the  tooltip  set  the  application  control  tooltiptext
+contains  whatever  tooltip  currently  being  displayed
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  widget  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  widget  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  left  see  swt  right  see  swt  center  see  swt  shadow  see  swt  shadow  out  see  swt  shadow  none  see get style
+check  the  style  bits  ensure  that  invalid  styles  are  applied
+temporary  code
+the  default  background  carbon  and  some  gtk  themes  not  solid  color  but  texture  show  the  correct  default  background  must  allow  the  operating  system  draw  and  therefore  can  not  use  the  background  style  the  background  style  not  required  platforms  that  use  double  buffering  which  true  both  these  cases
+non  nls  non  nls 
+protected  void check subclass
+string  name get class get name
+string valid name  label  class get name
+valid name  equals  name
+swt  error  swt  error  invalid  subclass
+
+
+draw  rectangle  the  given  colors
+returns  the  alignment  the  alignment  style  left  center  right  returned  return  swt  left  swt  right  swt  center
+ check widget
+return  the  label  image  code  null  code  return  the  image  the  label  null
+ check widget
+compute  the  minimum  size
+return  the  label  text  return  the  text  the  label  null
+ check widget
+non  nls 
+shorten  the  text
+determine  horizontal  position
+draw  background  image  behind  the  text
+draw  background  image  behind  the  text
+tile  image  fill  space
+draw  gradient  behind  the  text
+draw  border
+draw  the  image
+draw  the  text
+paint  the  label  border
+set  the  alignment  the  label  use  the  values  left  center  and  right  align  image  and  text  within  the  available  space  param  align  the  alignment  style  left  right  center  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  value  align  not  one  swt  left  swt  right  swt  center 
+are  these  settings  the  same  before
+specify  gradient  colours  drawn  the  background  the  label  for  example  draw  gradient  that  varies  from  dark  blue  blue  and  then  white  and  stays  white  for  the  right  half  the  label  use  the  following  call set background  pre  clabel set background  new  color  display get system color  swt  color  dark  blue  display get system color  swt  color  blue  display get system color  swt  color  white  display get system color  swt  color  white  new  int  100  pre  param  colors  array  color  that  specifies  the  colors  appear  the  gradient  order  appearance  from  left  right  the  value  code  null  code  clears  the  background  gradient  the  value  code  null  code  can  used  inside  the  array  color  specify  the  background  color  param  percents  array  integers  between  and  100  specifying  the  percent  the  width  the  widget  which  the  color  should  change  the  size  the  percents  array  must  one  less  than  the  size  the  colors  array  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  values  colors  and  percents  are  not  consistent 
+specify  gradient  colours  drawn  the  background  the  label  for  example  draw  gradient  that  varies  from  dark  blue  white  the  vertical  direction  use  the  following  call set background  pre  clabel set background  new  color  display get system color  swt  color  dark  blue  display get system color  swt  color  white  new  int  100  true  pre  param  colors  array  color  that  specifies  the  colors  appear  the  gradient  order  appearance  from  left  top  right  bottom  the  value  code  null  code  clears  the  background  gradient  the  value  code  null  code  can  used  inside  the  array  color  specify  the  background  color  param  percents  array  integers  between  and  100  specifying  the  percent  the  width  height  the  widget  which  the  color  should  change  the  size  the  percents  array  must  one  less  than  the  size  the  colors  array  param  vertical  indicate  the  direction  the  gradient  true  vertical  and  false  horizontal  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  values  colors  and  percents  are  not  consistent  since 
+don  use  gradients  low  color  displays
+are  these  settings  the  same  before
+store  the  new  settings
+refresh  with  the  new  settings
+set  the  image  drawn  the  background  the  label  param  image  the  image  drawn  the  background  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+set  the  label  image  the  value  code  null  code  clears  param  image  the  image  displayed  the  label  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+set  the  label  text  the  value  code  null  code  clears  param  text  the  text  displayed  the  label  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+non  nls 
+shorten  the  given  text  code  code  that  its  length  doesn  exceed  the  given  width  the  default  implementation  replaces  characters  the  center  the  original  string  with  ellipsis  override  you  need  different  strategy  param  the  use  for  text  measurement  param  the  text  shorten  param  width  the  width  shorten  the  text  pixels  return  the  shortened  text
+</comments>
+</text>
+</DOC>

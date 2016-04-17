@@ -1,0 +1,615 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Scrollable.java </DOCNO>
+<text>
+<class>
+ scrollable
+</class>
+<method>
+ scrollable
+ scrollable
+call window proc
+compute trim
+create scroll bar
+create widget
+get client area
+get horizontal bar
+get vertical bar
+release widget
+scrolled handle
+widget ext style
+widget style
+window class
+window proc
+ hscroll
+ mousewheel
+ size
+ vscroll
+ scroll
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ scrollable
+ control
+scroll bar
+horizontal bar
+vertical bar
+ scrollable
+ scrollable
+ composite
+ parent
+ style
+ parent
+ style
+call window proc
+ hwnd
+ msg
+ param
+ param
+ handle
+
+def window proc
+ hwnd
+ msg
+ param
+ param
+ rectangle
+compute trim
+
+
+ width
+ height
+check widget
+scrolled handle
+scrolled handle
+ rect
+ rect
+ rect
+
+set rect
+ rect
+
+
+
+ width
+
+ height
+ bits
+
+get window long
+scrolled handle
+
+gwl style
+ bits
+
+get window long
+scrolled handle
+
+gwl exstyle
+
+adjust window rect
+ rect
+ bits
+ bits
+horizontal bar
+ rect
+ bottom
+
+get system metrics
+
+ cyhscroll
+vertical bar
+ rect
+ right
+
+get system metrics
+
+ cxvscroll
+ width
+ rect
+ right
+ rect
+ left
+ height
+ rect
+ bottom
+ rect
+ top
+ rectangle
+ rect
+ left
+ rect
+ top
+ width
+ height
+scroll bar
+create scroll bar
+ type
+scroll bar
+ bar
+scroll bar
+ type
+ state
+ canvas
+ bar
+set maximum
+ bar
+set thumb
+ bar
+create widget
+create widget
+ style
+ swt
+ scroll
+horizontal bar
+create scroll bar
+ swt
+ scroll
+ style
+ swt
+ scroll
+vertical bar
+create scroll bar
+ swt
+ scroll
+ rectangle
+get client area
+check widget
+force resize
+ rect
+ rect
+ rect
+scrolled handle
+scrolled handle
+
+get client rect
+scrolled handle
+ rect
+ rectangle
+ rect
+ right
+ rect
+ bottom
+scroll bar
+get horizontal bar
+check widget
+horizontal bar
+scroll bar
+get vertical bar
+check widget
+vertical bar
+release widget
+horizontal bar
+horizontal bar
+release resources
+vertical bar
+vertical bar
+release resources
+horizontal bar
+vertical bar
+release widget
+scrolled handle
+ handle
+widget ext style
+widget ext style
+widget style
+ bits
+widget style
+
+ tabstop
+ style
+ swt
+ scroll
+ bits
+
+ hscroll
+ style
+ swt
+ scroll
+ bits
+
+ vscroll
+ bits
+ tchar
+window class
+ display
+window class
+window proc
+ display
+window proc
+ lresult
+ hscroll
+ param
+ param
+ lresult
+ result
+ hscroll
+ param
+ param
+ result
+ result
+horizontal bar
+ param
+ param
+ handle
+ scroll
+horizontal bar
+ state
+ canvas
+ handle
+
+ hscroll
+ param
+ param
+ result
+ lresult
+ mousewheel
+ param
+ param
+ lresult
+ result
+ mousewheel
+ param
+ param
+ result
+ result
+ state
+ canvas
+ param
+
+ shift
+
+ control
+ result
+ vertical
+vertical bar
+vertical bar
+get enabled
+ horizontal
+horizontal bar
+horizontal bar
+get enabled
+ msg
+ vertical
+
+ vscroll
+ horizontal
+
+ hscroll
+ msg
+ result
+ value
+
+system parameters info
+
+spi getwheelscrolllines
+ value
+ delta
+ param
+ code
+ count
+ value
+
+wheel pagescroll
+ code
+ delta
+
+ pagedown
+
+ pageup
+ count
+ math
+ abs
+ delta
+
+wheel delta
+ code
+ delta
+
+ linedown
+
+ lineup
+ delta
+ math
+ abs
+ delta
+ delta
+
+wheel delta
+ result
+ msg
+
+ vscroll
+ count
+ value
+ delta
+
+wheel delta
+ count
+ delta
+
+wheel delta
+
+
+ count
+
+
+send message
+ handle
+ msg
+ code
+ lresult
+ zero
+ position
+vertical bar
+vertical bar
+get selection
+ position
+horizontal bar
+horizontal bar
+get selection
+ code
+call window proc
+ handle
+
+ mousewheel
+ param
+ param
+vertical bar
+ position
+vertical bar
+get selection
+ position
+ position
+ event
+ event
+ event
+ event
+ detail
+ position
+ position
+ swt
+ page
+ swt
+page down
+vertical bar
+send event
+ swt
+ selection
+ event
+horizontal bar
+ position
+horizontal bar
+get selection
+ position
+ position
+ event
+ event
+ event
+ event
+ detail
+ position
+ position
+ swt
+ page
+ swt
+page down
+horizontal bar
+send event
+ swt
+ selection
+ event
+ lresult
+ code
+ lresult
+ size
+ param
+ param
+ code
+call window proc
+ handle
+
+ size
+ param
+ param
+ size
+ param
+ param
+ code
+ lresult
+ zero
+ lresult
+ code
+ lresult
+ vscroll
+ param
+ param
+ lresult
+ result
+ vscroll
+ param
+ param
+ result
+ result
+vertical bar
+ param
+ param
+ handle
+ scroll
+vertical bar
+ state
+ canvas
+ handle
+
+ vscroll
+ param
+ param
+ result
+ lresult
+ scroll
+scroll bar
+ bar
+ update
+ hwnd
+ msg
+ param
+ param
+ lresult
+ result
+ update
+ type
+ msg
+
+ hscroll
+
+ horz
+
+ vert
+ scrollinfo
+ info
+ scrollinfo
+ info
+ size
+ scrollinfo
+ sizeof
+ info
+ mask
+
+sif trackpos
+
+sif pos
+
+sif range
+
+get scroll info
+ hwnd
+ type
+ info
+ info
+ mask
+
+sif pos
+ code
+ param
+ code
+
+ endscroll
+
+ thumbposition
+
+ thumbtrack
+ info
+ pos
+ info
+track pos
+
+ top
+ info
+ pos
+ info
+ min
+
+ bottom
+ info
+ pos
+ info
+ max
+
+ linedown
+ info
+ pos
+ bar
+get increment
+
+ lineup
+ increment
+ bar
+get increment
+ info
+ pos
+ math
+ max
+ info
+ min
+ info
+ pos
+ increment
+
+ pagedown
+ info
+ pos
+ bar
+get page increment
+
+ pageup
+page increment
+ bar
+get page increment
+ info
+ pos
+ math
+ max
+ info
+ min
+ info
+ pos
+page increment
+
+set scroll info
+ hwnd
+ type
+ info
+ code
+call window proc
+ hwnd
+ msg
+ param
+ param
+ result
+ code
+ lresult
+ zero
+ lresult
+ code
+ bar
+scroll child
+ param
+ param
+ result
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  class  the  abstract  superclass  all  classes  which  represent  controls  that  have  standard  scroll  bars  styles  scroll  scroll  events  none  important  this  class  intended  subclassed  only  within  the  swt  implementation 
+prevents  uninitialized  instances  from  being  created  outside  the  package
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  scroll  see  swt  scroll  see  widget check subclass  see  widget get style
+given  desired  client  area  for  the  receiver  described  the  arguments  returns  the  bounding  rectangle  which  would  required  produce  that  client  area  other  words  returns  rectangle  such  that  the  receiver  bounds  were  set  that  rectangle  the  area  the  receiver  which  capable  displaying  data  that  not  covered  the  trimmings  would  the  rectangle  described  the  arguments  relative  the  receiver  parent  param  the  desired  coordinate  the  client  area  param  the  desired  coordinate  the  client  area  param  width  the  desired  width  the  client  area  param  height  the  desired  height  the  client  area  return  the  required  bounds  produce  the  given  client  area  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see get client area
+returns  rectangle  which  describes  the  area  the  receiver  which  capable  displaying  data  that  not  covered  the  trimmings  return  the  client  area  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see compute trim
+returns  the  receiver  horizontal  scroll  bar  has  one  and  null  does  not  return  the  horizontal  scroll  bar  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  vertical  scroll  bar  has  one  and  null  does  not  return  the  vertical  scroll  bar  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+this  code  intentionally  commented  future  may  wish  support  different  standard  windows  edge  styles  the  issue  here  that  not  all  these  styles  are  available  the  other  platforms  this  would  need  hint
+style  swt  border  return  clientedge
+style  swt  shadow  return  staticedge
+return  super widget ext style
+bug  win  param  should  null  when  the  message  not  sent  scroll  bar  control  but  contains  the  handle  the  window  when  the  message  sent  scroll  bar  control  correctly  contains  the  handle  the  scroll  bar  the  fix  check  for  both
+translate  mousewheel  vscroll  hscroll
+when  the  native  widget  scrolls  inside  mousewheel  may  may  not  send  vscroll  hscroll  the  actual  scrolling  this  depends  the  implementation  each  native  widget  order  ensure  that  application  code  notified  when  the  scroll  bar  moves  compare  the  scroll  bar  position  before  and  after  the  mousewheel  the  native  control  sends  vscroll  hscroll  then  the  application  has  already  been  notified  not  explicity  send  the  event
+widget  may  disposed  this  point
+bug  win  param  should  null  when  the  message  not  sent  scroll  bar  control  but  contains  the  handle  the  window  when  the  message  sent  scroll  bar  control  correctly  contains  the  handle  the  scroll  bar  the  fix  check  for  both
+note  win  the  value  thumbposition  relative  min  same  for  thumbposition  except  for  the  very  first  thumb  track  message  which  has  the  actual  value  min  this  problem  when  min  not  zero
+</comments>
+</text>
+</DOC>

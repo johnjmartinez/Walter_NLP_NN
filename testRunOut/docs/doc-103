@@ -1,0 +1,900 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.PNGFileFormat.java </DOCNO>
+<text>
+<class>
+png file format
+</class>
+<method>
+read signature
+load from byte stream
+read next chunk
+unload into byte stream
+file format
+validate bit depth
+set pixel data
+set image data values
+read pixel data
+get aligned bytes per row
+get bytes per row
+get bytes per pixel
+get bytes per row
+read interlace frame
+read interlaced image
+fire interlaced frame event
+read non interlaced image
+compress bit depth bit depth
+compress bit depth bit depth
+filter row
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+ java
+
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+png file format
+file format
+signature length
+png decoding data stream
+decoding stream
+png ihdr chunk
+header chunk
+png plte chunk
+palette chunk
+image data
+image data
+ data
+alpha palette
+read signature
+ exception
+ signature
+signature length
+input stream
+ read
+ signature
+image data
+load from byte stream
+read signature
+png chunk reader
+chunk reader
+png chunk reader
+input stream
+header chunk
+chunk reader
+get ihdr chunk
+image size
+get aligned bytes per row
+header chunk
+get height
+ data
+image size
+image data
+image data
+internal _new
+header chunk
+get width
+header chunk
+get height
+header chunk
+get swt bits per pixel
+palette data
+ data
+ swt
+image png
+header chunk
+uses direct color
+image data
+ palette
+header chunk
+get palette data
+chunk reader
+has more chunks
+read next chunk
+chunk reader
+image data
+image data
+ exception
+
+ swt
+ error
+ swt
+error invalid image
+read next chunk
+png chunk reader
+chunk reader
+png chunk
+ chunk
+chunk reader
+read next chunk
+ chunk
+get chunk type
+png chunk
+chunk iend
+png chunk
+chunk plte
+header chunk
+uses direct color
+palette chunk
+png plte chunk
+ chunk
+image data
+ palette
+palette chunk
+get palette data
+png chunk
+chunk rns
+png trns chunk
+trns chunk
+png trns chunk
+ chunk
+trns chunk
+get transparency type
+header chunk
+png trns chunk
+transparency type pixel
+image data
+transparent pixel
+trns chunk
+get swt transparent pixel
+header chunk
+alpha palette
+trns chunk
+get alpha values
+header chunk
+palette chunk
+transparent count
+transparent pixel
+
+
+alpha palette
+ length
+
+alpha palette
+
+transparent count
+transparent pixel
+
+transparent count
+alpha palette
+transparent count
+alpha palette
+transparent pixel
+alpha palette
+image data
+transparent pixel
+transparent pixel
+png chunk
+chunk idat
+chunk reader
+read pixel data
+ swt
+ error
+ swt
+error invalid image
+png idat chunk
+data chunk
+png idat chunk
+ chunk
+read pixel data
+data chunk
+chunk reader
+ chunk
+ critical
+ swt
+ error
+ swt
+error not implemented
+unload into byte stream
+image data
+
+ swt
+ error
+ swt
+error unsupported format
+file format
+data input stream
+ stream
+ signature
+signature length
+ stream
+ read
+ signature
+ stream
+ unread
+ signature
+ signature
+ signature
+ signature
+ signature
+ signature
+ signature
+ signature
+ signature
+ exception
+
+validate bit depth
+ data
+header chunk
+get bit depth
+ result
+ data
+ length
+compress bit depth bit depth
+ data
+ result
+ result
+ length
+ result
+ data
+set pixel data
+ data
+image data
+image data
+header chunk
+get color type
+png ihdr chunk
+color type grayscale with alpha
+ width
+image data
+ width
+ height
+image data
+ height
+dest bytes per line
+image data
+bytes per line
+src bytes per line
+get aligned bytes per row
+header chunk
+get bit depth
+src bytes per line
+rgb data
+dest bytes per line
+ height
+alpha data
+ width
+ height
+
+
+ height
+
+src index
+src bytes per line
+
+dest index
+dest bytes per line
+
+dest alpha index
+ width
+
+
+
+ width
+
+ grey
+ data
+src index
+ alpha
+ data
+src index
+rgb data
+dest index
+ grey
+rgb data
+dest index
+ grey
+rgb data
+dest index
+ grey
+alpha data
+dest alpha index
+ alpha
+src index
+dest index
+dest alpha index
+image data
+ data
+rgb data
+image data
+alpha data
+alpha data
+png ihdr chunk
+color type rgb with alpha
+ width
+image data
+ width
+ height
+image data
+ height
+dest bytes per line
+image data
+bytes per line
+src bytes per line
+get aligned bytes per row
+header chunk
+get bit depth
+src bytes per line
+rgb data
+dest bytes per line
+ height
+alpha data
+ width
+ height
+
+
+ height
+
+src index
+src bytes per line
+
+dest index
+dest bytes per line
+
+dest alpha index
+ width
+
+
+
+ width
+
+rgb data
+dest index
+ data
+src index
+rgb data
+dest index
+ data
+src index
+rgb data
+dest index
+ data
+src index
+alpha data
+dest alpha index
+ data
+src index
+src index
+dest index
+dest alpha index
+image data
+ data
+rgb data
+image data
+alpha data
+alpha data
+png ihdr chunk
+color type rgb
+image data
+ data
+ data
+png ihdr chunk
+color type palette
+image data
+ data
+ data
+alpha palette
+ size
+image data
+ width
+image data
+ height
+alpha data
+ size
+pixel data
+ size
+image data
+get pixels
+ size
+pixel data
+
+
+pixel data
+ length
+
+alpha data
+
+alpha palette
+pixel data
+
+image data
+alpha data
+alpha data
+image data
+ data
+ data
+set image data values
+ data
+image data
+image data
+ result
+validate bit depth
+ data
+set pixel data
+ result
+image data
+read pixel data
+png idat chunk
+ chunk
+png chunk reader
+chunk reader
+decoding stream
+png decoding data stream
+ chunk
+chunk reader
+interlace method
+header chunk
+get interlace method
+interlace method
+png ihdr chunk
+interlace method none
+read non interlaced image
+read interlaced image
+decoding stream
+assert image data end
+decoding stream
+check adler
+get aligned bytes per row
+get bytes per row
+header chunk
+get width
+get bytes per row
+get bytes per row
+header chunk
+get width
+get bytes per pixel
+bits per pixel
+header chunk
+get bits per pixel
+bits per pixel
+get bytes per row
+row width pixels
+bits per pixel
+header chunk
+get bits per pixel
+bits per row
+bits per pixel
+row width pixels
+bits per byte
+bits per row
+bits per byte
+bits per byte
+read interlace frame
+row interval
+column interval
+start row
+start column
+frame count
+ width
+header chunk
+get width
+aligned bytes per row
+get aligned bytes per row
+ height
+header chunk
+get height
+start row
+ height
+start column
+ width
+pixels per row
+ width
+start column
+column interval
+column interval
+bytes per row
+get bytes per row
+pixels per row
+ row
+bytes per row
+ row
+bytes per row
+current row
+ row
+last row
+ row
+ row
+start row
+ row
+ height
+ row
+row interval
+filter type
+decoding stream
+get next decoded byte
+ col
+ col
+bytes per row
+ col
+current row
+ col
+decoding stream
+get next decoded byte
+filter row
+current row
+last row
+filter type
+header chunk
+get bit depth
+bytes per pixel
+get bytes per pixel
+data offset
+ row
+aligned bytes per row
+start column
+bytes per pixel
+row offset
+row offset
+current row
+ length
+row offset
+bytes per pixel
+byte offset
+byte offset
+bytes per pixel
+byte offset
+ data
+data offset
+byte offset
+current row
+row offset
+byte offset
+data offset
+column interval
+bytes per pixel
+bits per pixel
+header chunk
+get bit depth
+pixels per byte
+bits per pixel
+ column
+start column
+row base
+ row
+aligned bytes per row
+value mask
+
+
+bits per pixel
+
+value mask
+value mask
+max shift
+bits per pixel
+byte offset
+byte offset
+current row
+ length
+byte offset
+bit offset
+max shift
+bit offset
+bit offset
+bits per pixel
+ column
+ width
+data offset
+row base
+ column
+bits per pixel
+ value
+current row
+byte offset
+bit offset
+value mask
+data shift
+max shift
+bits per pixel
+ column
+pixels per byte
+ data
+data offset
+ value
+data shift
+ column
+column interval
+current row
+current row
+ row
+ row
+ row
+last row
+last row
+ row
+ row
+ row
+set image data values
+ data
+image data
+fire interlaced frame event
+frame count
+read interlaced image
+read interlace frame
+read interlace frame
+read interlace frame
+read interlace frame
+read interlace frame
+read interlace frame
+read interlace frame
+fire interlaced frame event
+frame count
+ loader
+has listeners
+image data
+ image
+image data
+image data
+ clone
+final frame
+frame count
+ loader
+notify listeners
+image loader event
+ loader
+ image
+frame count
+final frame
+read non interlaced image
+data offset
+aligned bytes per row
+get aligned bytes per row
+bytes per row
+get bytes per row
+ row
+bytes per row
+ row
+bytes per row
+current row
+ row
+last row
+ row
+ row
+ row
+header chunk
+get height
+ row
+filter type
+decoding stream
+get next decoded byte
+ col
+ col
+bytes per row
+ col
+current row
+ col
+decoding stream
+get next decoded byte
+filter row
+current row
+last row
+filter type
+ system
+ arraycopy
+current row
+ data
+data offset
+bytes per row
+data offset
+aligned bytes per row
+current row
+current row
+ row
+ row
+ row
+last row
+last row
+ row
+ row
+ row
+set image data values
+ data
+image data
+compress bit depth bit depth
+ source
+source offset
+ destination
+destination offset
+number values
+
+
+number values
+
+source index
+source offset
+
+destination index
+destination offset
+
+compressed value
+ source
+source index
+ destination
+destination index
+compressed value
+compress bit depth bit depth
+ value
+ value
+filter row
+ row
+previous row
+filter type
+byte offset
+header chunk
+get filter byte offset
+filter type
+png ihdr chunk
+filter none
+png ihdr chunk
+filter sub
+
+byte offset
+
+ row
+ length
+
+ current
+ row
+
+ left
+ row
+
+byte offset
+ row
+
+ current
+ left
+png ihdr chunk
+ filter
+
+
+ row
+ length
+
+ current
+ row
+
+ above
+previous row
+
+ row
+
+ current
+ above
+png ihdr chunk
+filter average
+
+
+ row
+ length
+
+ left
+
+byte offset
+ row
+
+byte offset
+ above
+previous row
+
+ current
+ row
+
+ row
+
+ current
+ left
+ above
+png ihdr chunk
+filter paeth
+
+
+ row
+ length
+
+ left
+
+byte offset
+ row
+
+byte offset
+above left
+
+byte offset
+previous row
+
+byte offset
+ above
+previous row
+
+
+ math
+ abs
+ above
+above left
+
+ math
+ abs
+ left
+above left
+
+ math
+ abs
+ left
+above left
+ above
+above left
+ preductor
+
+
+
+
+ preductor
+ left
+
+
+ preductor
+ above
+ preductor
+above left
+current value
+ row
+
+ row
+
+current value
+ preductor
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+skip  over  signature  data  this  has  already  been  verified png file
+load  the  png  image  from  the  byte  stream
+read  and  process  chunks  until  the  iend  chunk  encountered
+read  and  handle  the  next  chunk  data  from  the  png  file
+all  idat  chunks  image  file  must 
+sequential  the  pixel  data  has  already
+been  read  and  another  idat  block  encountered
+then  this  invalid  image
+read  the  pixel  data  for  the  image  this  should
+through  all  the  image  idat  chunks
+all  critical  chunks  must  supported
+  137
+ 
+ 
+ 
+  return
+  linefeed
+ctrl 
+  linefeed
+swt  does  not  support  bit  depths  this  image  uses  bit  depths  convert  the  data  bit  depth
+swt  does  not  support  greyscale  color  type  for  plain  grayscale  create  palette  for  grayscale  with  alpha  however  need  convert  the  pixels  use  rgb  values  note  this  method  assumes  that  the  bit  depth  the  data  has  already  been  restricted  less
+the  image  uses  bit  depth  converted  bit  depth  image
+the  image  uses  bit  depth  converted  bit  depth  image
+png  supports  some  color  types  and  bit  depths  that  are  unsupported  swt  the  image  uses  unsupported  color  type  either  the  gray  scale  types  bit  depth  convert  the  data  swt  supported  format  then  assign  the  data  into  the image data  given
+read  the  image  data  from  the  data  stream  this  must  handle  decoding  the  data  filtering  and  interlacing
+answer  the  number  bytes  word  aligned  row  pixel  data
+answer  the  number  bytes  each  row  the  image  data  each  png  row  byte  aligned  images  with  bit  depths  less  than  byte  may  have  unused  bits  the  end  each  row  the  value  these  bits  undefined
+answer  the  number  bytes  needed  represent  pixel  this  value  depends  the  image  color  type  and  bit  depth  note  that  this  method  rounds  image  pixel  size  isn  byte  aligned
+answer  the  number  bytes  row  the  given  pixel  width  each  row  byte  aligned  images  with  bit  depths  less  than  byte  may  have  unused  bits  the  end  each  row  the  value  these  bits  undefined
+read  one  the  seven  frames  interlaced  data  update  the image data  notify  the  image  loader  listeners  the  frame  load
+read  the  pixel  data  for  interlaced  image  from  the  data  stream
+fire  event  let  listeners  know  that  interlaced  frame  has  been  loaded final frame  should  true  the  image  has  finished  loading  false  there  are  more  frames  come
+read  the  pixel  data  for  non  interlaced  image  from  the  data  stream  update  the image data  reflect  the  new  data
+swt  does  not  support  bit  depth  color  formats  convert  the  bit  data  bit  data  the  correct  way  this  multiply  each  bit  value  the  value  the  fast  way  this  just  drop  the  low  byte  the  bit  value
+double  multiplier  compatibility  pow  compatibility  pow 
+int  value  source source index  source source index 
+byte compressed value  byte  value  multiplier
+swt  does  not  support  bit  depth  color  formats  convert  the  bit  data  bit  data  the  correct  way  this  multiply  each  bit  value  the  value  the  fast  way  this  just  drop  the  low  byte  the  bit  value
+double  multiplier  compatibility  pow  compatibility  pow 
+byte compressed value  byte  value  multiplier
+png  supports  four  filtering  types  these  types  are  applied  per  row  image  data  this  method  unfilters  the  given  row  based  the filter type
+</comments>
+</text>
+</DOC>

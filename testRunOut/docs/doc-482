@@ -1,0 +1,8189 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Tree.java </DOCNO>
+<text>
+<class>
+ tree
+</class>
+<method>
+ tree
+check style
+_get background pixel
+_set background pixel
+add selection listener
+add tree listener
+border handle
+call window proc
+check handle
+check scroll
+check subclass
+compute size
+create handle
+create item
+create item
+create parent
+create widget
+default background
+ deregister
+deselect all
+destroy item
+destroy item
+enable widget
+find item
+get background pixel
+get foreground pixel
+get grid line width
+get header height
+get header visible
+get image size
+get column
+get column count
+get columns
+get item
+get item
+get item count
+get item count
+get item height
+get items
+get items
+get lines visible
+get parent item
+get selection
+get selection count
+get top item
+image index
+ index
+ index
+ index
+ register
+release item
+release items
+release handle
+release widget
+remove all
+remove selection listener
+remove tree listener
+set insert mark
+set lines visible
+scrolled handle
+select all
+set background pixel
+set bounds
+set cursor
+set checkbox image list
+set foreground pixel
+set header visible
+set redraw
+set scroll width
+set selection
+set top item
+show item
+show column
+show item
+show selection
+show widget
+tool tip text
+top handle
+update scroll bar
+widget style
+window class
+window proc
+window proc
+ char
+ getobject
+ keydown
+ killfocus
+ lbuttondblclk
+ lbuttondown
+ move
+ notify
+ rbuttondown
+ printclient
+ setfocus
+ setfont
+ size
+ syscolorchange
+color child
+notify child
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ events
+ tree
+ composite
+tree item
+ items
+tree column
+ columns
+hwnd parent
+hwnd header
+ anchor
+ insert
+image list
+image list
+drag started
+gesture completed
+insert after
+ignore select
+ignore expand
+ignore deselect
+ignore resize
+lock selection
+old selected
+new selected
+lines visible
+custom draw
+print client
+ inset
+grid width
+header margin
+tree proc
+ tchar
+tree class
+ tchar
+
+ treeview
+ button
+ wndclass
+wnd class
+ wndclass
+
+get class info
+tree class
+wnd class
+tree proc
+wnd class
+lpfn wnd proc
+ tree
+ composite
+ parent
+ style
+ parent
+check style
+ style
+check style
+ style
+ style
+ swt
+ scroll
+ swt
+ scroll
+check bits
+ style
+ swt
+ single
+ swt
+ multi
+_get background pixel
+
+ win
+
+get sys color
+
+color window
+ pixel
+
+send message
+ handle
+
+tvm getbkcolor
+ pixel
+
+get sys color
+
+color window
+ pixel
+_set background pixel
+ pixel
+old pixel
+
+send message
+ handle
+
+tvm getbkcolor
+old pixel
+
+send message
+ handle
+
+tvm setbkcolor
+
+send message
+ handle
+
+tvm setbkcolor
+ pixel
+ style
+ swt
+ check
+set checkbox image list
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+add tree listener
+tree listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ expand
+typed listener
+add listener
+ swt
+ collapse
+typed listener
+border handle
+hwnd parent
+hwnd parent
+ handle
+call window proc
+ hwnd
+ msg
+ param
+ param
+ handle
+hwnd parent
+ hwnd
+hwnd parent
+
+def window proc
+ hwnd
+ msg
+ param
+ param
+ msg
+
+ lbuttondown
+
+ mbuttondown
+
+ rbuttondown
+
+ xbuttondown
+ display
+ display
+ display
+ display
+ignore msg filter
+ code
+
+call window proc
+tree proc
+ hwnd
+ msg
+ param
+ param
+ display
+ignore msg filter
+ code
+
+ mousewheel
+ code
+
+call window proc
+tree proc
+ hwnd
+ msg
+ param
+ param
+update scroll bar
+ code
+
+call window proc
+tree proc
+ hwnd
+ msg
+ param
+ param
+check handle
+ hwnd
+ hwnd
+ handle
+hwnd parent
+ hwnd
+hwnd parent
+check scroll
+ item
+draw count
+ root
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn root
+ parent
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn parent
+ item
+ parent
+ root
+ parent
+ parent
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn parent
+ parent
+ parent
+check subclass
+valid subclass
+ error
+ swt
+error invalid subclass
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+ width
+ height
+hwnd header
+ hditem
+ item
+ hditem
+ item
+ mask
+
+hdi width
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+
+
+ count
+
+
+send message
+hwnd header
+
+hdm getitem
+
+ item
+ width
+ item
+ cxy
+ rect
+ rect
+ rect
+
+get window rect
+hwnd header
+ rect
+ height
+ rect
+ bottom
+ rect
+ top
+ rect
+ rect
+ rect
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn root
+ item
+ rect
+ left
+ item
+
+send message
+ handle
+
+tvm getitemrect
+ rect
+ width
+ math
+ max
+ width
+ rect
+ right
+ height
+ rect
+ bottom
+ rect
+ top
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn next
+ item
+ width
+ width
+default width
+ height
+ height
+default height
+ hint
+ swt
+ default
+ width
+ hint
+ hint
+ swt
+ default
+ height
+ hint
+ border
+get border width
+ width
+ border
+ height
+ border
+ style
+ swt
+ scroll
+ width
+
+get system metrics
+
+ cxvscroll
+ style
+ swt
+ scroll
+ height
+
+get system metrics
+
+ cyhscroll
+ point
+ width
+ height
+create handle
+create handle
+ state
+ canvas
+
+ win
+
+comctl 32_ major
+
+send message
+ handle
+
+ccm setversion
+ style
+ swt
+ check
+set checkbox image list
+ font
+
+get stock object
+
+system font
+
+send message
+ handle
+
+ setfont
+ font
+create item
+tree column
+ column
+ index
+hwnd header
+create parent
+column count
+
+send message
+hwnd header
+
+hdm getitemcount
+ index
+ index
+column count
+ error
+ swt
+error invalid range
+column count
+ columns
+ length
+tree column
+new columns
+tree column
+ columns
+ length
+ system
+ arraycopy
+ columns
+new columns
+ columns
+ length
+ columns
+new columns
+
+
+ items
+ length
+
+tree item
+ item
+ items
+
+ item
+ string
+ strings
+ item
+ strings
+ strings
+ string
+ temp
+ string
+column count
+ system
+ arraycopy
+ strings
+ temp
+ index
+ system
+ arraycopy
+ strings
+ index
+ temp
+ index
+column count
+ index
+ item
+ strings
+ temp
+ image
+ images
+ item
+ images
+ images
+ image
+ temp
+ image
+column count
+ system
+ arraycopy
+ images
+ temp
+ index
+ system
+ arraycopy
+ images
+ index
+ temp
+ index
+column count
+ index
+ item
+ images
+ temp
+ index
+column count
+ strings
+ item
+ strings
+ string
+column count
+ item
+ strings
+ item
+ text
+ item
+ text
+ images
+ item
+ images
+ image
+column count
+ item
+ images
+ item
+ image
+ item
+ image
+ item
+cell background
+cell background
+ item
+cell background
+ temp
+column count
+ system
+ arraycopy
+cell background
+ temp
+ index
+ system
+ arraycopy
+cell background
+ index
+ temp
+ index
+column count
+ index
+ temp
+ index
+ item
+cell background
+ temp
+ item
+cell foreground
+cell foreground
+ item
+cell foreground
+ temp
+column count
+ system
+ arraycopy
+cell foreground
+ temp
+ index
+ system
+ arraycopy
+cell foreground
+ index
+ temp
+ index
+column count
+ index
+ temp
+ index
+ item
+cell foreground
+ temp
+ item
+cell font
+cell font
+ item
+cell font
+ temp
+column count
+ system
+ arraycopy
+cell font
+ temp
+ index
+ system
+ arraycopy
+cell font
+ index
+ temp
+ index
+column count
+ index
+ temp
+ index
+ item
+cell font
+ temp
+ system
+ arraycopy
+ columns
+ index
+ columns
+ index
+column count
+ index
+ columns
+ index
+ column
+ heap
+
+get process heap
+psz text
+
+heap alloc
+ heap
+
+heap zero memory
+ tchar
+ sizeof
+ hditem
+ item
+ hditem
+ item
+ mask
+
+hdi text
+
+hdi format
+ item
+psz text
+psz text
+ column
+ style
+ swt
+ left
+ swt
+ left
+ item
+ fmt
+
+hdf left
+ column
+ style
+ swt
+ center
+ swt
+ center
+ item
+ fmt
+
+hdf center
+ column
+ style
+ swt
+ right
+ swt
+ right
+ item
+ fmt
+
+hdf right
+
+send message
+hwnd header
+
+hdm insertitem
+ index
+ item
+psz text
+
+heap free
+ heap
+psz text
+column count
+ bits
+
+get window long
+ handle
+
+gwl style
+ bits
+
+tvs nohscroll
+
+set window long
+ handle
+
+gwl style
+ bits
+set scroll width
+update scroll bar
+column count
+
+send message
+ handle
+
+tvm getcount
+
+invalidate rect
+ handle
+create item
+tree item
+ item
+ parent
+insert after
+
+
+ items
+ length
+ items
+
+
+
+ items
+ length
+tree item
+new items
+tree item
+ items
+ length
+ system
+ arraycopy
+ items
+new items
+ items
+ length
+ items
+new items
+ tvinsertstruct
+ insert
+ tvinsertstruct
+ insert
+ parent
+ parent
+ insert
+insert after
+insert after
+ insert
+ param
+
+ insert
+psz text
+
+lpstr textcallback
+ insert
+ image
+ insert
+selected image
+
+ imagecallback
+ insert
+ mask
+
+tvif text
+
+tvif image
+
+tvif selectedimage
+
+tvif handle
+
+tvif param
+ style
+ swt
+ check
+ insert
+ mask
+ insert
+ mask
+
+tvif state
+ insert
+ state
+ insert
+state mask
+
+tvis stateimagemask
+ item
+
+send message
+ handle
+
+tvm insertitem
+ insert
+ item
+ error
+ swt
+error item not added
+ item
+ handle
+ item
+ items
+
+ item
+
+window visible
+ handle
+draw count
+ child
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn child
+ parent
+ child
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn next
+ child
+ rect
+ rect
+ rect
+ rect
+ left
+ parent
+
+send message
+ handle
+
+tvm getitemrect
+ rect
+
+invalidate rect
+ handle
+ rect
+update scroll bar
+create parent
+force resize
+ rect
+ rect
+ rect
+
+get window rect
+ handle
+ rect
+
+map window points
+ parent
+ handle
+ rect
+old style
+
+get window long
+ handle
+
+gwl style
+new style
+widget style
+
+ visible
+old style
+
+ disabled
+new style
+
+ disabled
+hwnd parent
+
+create window
+widget ext style
+window class
+new style
+ rect
+ left
+ rect
+ top
+ rect
+ right
+ rect
+ left
+ rect
+ bottom
+ rect
+ top
+ parent
+ handle
+
+get module handle
+hwnd parent
+ error
+ swt
+error handles
+
+set window long
+hwnd parent
+
+ gwl
+hwnd parent
+ bits
+
+win 32_ version
+
+ version
+ bits
+
+ noinheritlayout
+ style
+ swt
+right left
+ bits
+
+ layoutrtl
+hwnd header
+
+create window
+ bits
+ tchar
+
+ header
+
+hds buttons
+
+hds fulldrag
+
+hds hidden
+
+ child
+
+ clipsiblings
+hwnd parent
+
+get module handle
+hwnd header
+ error
+ swt
+error handles
+
+set window long
+hwnd header
+
+ gwl
+hwnd header
+
+ locale
+ imc
+
+imm get context
+ handle
+
+imm associate context
+hwnd parent
+ imc
+
+imm associate context
+hwnd header
+ imc
+
+imm release context
+ handle
+ imc
+
+ ppc
+ style
+ swt
+ border
+old style
+
+get window long
+ handle
+
+gwl exstyle
+old style
+
+ clientedge
+
+set window long
+ handle
+
+gwl exstyle
+old style
+ font
+
+send message
+ handle
+
+ getfont
+ font
+
+send message
+hwnd header
+
+ setfont
+ font
+image list
+
+send message
+ handle
+
+tvm getimagelist
+
+tvsil normal
+image list
+
+send message
+hwnd header
+
+hdm setimagelist
+image list
+hwnd insert after
+
+get window
+ handle
+
+ hwndprev
+ flags
+
+swp nosize
+
+swp nomove
+
+swp noactivate
+set window pos
+hwnd parent
+hwnd insert after
+ flags
+ scrollinfo
+ info
+ scrollinfo
+ info
+ size
+ scrollinfo
+ sizeof
+ info
+ mask
+
+sif range
+
+sif page
+
+get scroll info
+hwnd parent
+
+ horz
+ info
+ info
+ page
+ info
+ max
+
+set scroll info
+hwnd parent
+
+ horz
+ info
+
+get scroll info
+hwnd parent
+
+ vert
+ info
+ info
+ page
+ info
+ max
+
+set scroll info
+hwnd parent
+
+ vert
+ info
+custom draw
+ deregister
+old style
+
+ visible
+
+show window
+hwnd parent
+
+ show
+hwnd focus
+
+get focus
+hwnd focus
+ handle
+
+set focus
+hwnd parent
+
+set parent
+ handle
+hwnd parent
+hwnd focus
+ handle
+
+set focus
+ handle
+ register
+create widget
+create widget
+ items
+tree item
+ columns
+tree column
+default background
+
+get sys color
+
+color window
+ deregister
+ deregister
+hwnd parent
+ display
+remove control
+hwnd parent
+deselect all
+check widget
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif state
+ item
+state mask
+
+tvis selected
+ style
+ swt
+ single
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn caret
+ item
+ item
+ item
+ item
+
+send message
+ handle
+
+tvm setitem
+ item
+old proc
+
+get window long
+ handle
+
+gwl wndproc
+
+set window long
+ handle
+
+gwl wndproc
+tree proc
+
+
+ items
+ length
+
+tree item
+ item
+ items
+
+ item
+ item
+ item
+ item
+ handle
+
+send message
+ handle
+
+tvm setitem
+ item
+
+set window long
+ handle
+
+gwl wndproc
+old proc
+destroy item
+tree column
+ column
+hwnd header
+ error
+ swt
+error item not removed
+column count
+
+send message
+hwnd header
+
+hdm getitemcount
+ index
+ index
+column count
+ columns
+ index
+ column
+ index
+
+send message
+hwnd header
+
+hdm deleteitem
+ index
+ error
+ swt
+error item not removed
+ system
+ arraycopy
+ columns
+ index
+ columns
+ index
+column count
+ index
+ columns
+column count
+
+
+ items
+ length
+
+tree item
+ item
+ items
+
+ item
+column count
+ item
+ strings
+ item
+ images
+ item
+cell background
+ item
+cell foreground
+ item
+cell font
+ item
+ strings
+ string
+ strings
+ item
+ strings
+ index
+ item
+ text
+ strings
+ strings
+ string
+ temp
+ string
+column count
+ system
+ arraycopy
+ strings
+ temp
+ index
+ system
+ arraycopy
+ strings
+ index
+ temp
+ index
+column count
+ index
+ item
+ strings
+ temp
+ index
+ item
+ text
+ item
+ images
+ image
+ images
+ item
+ images
+ index
+ item
+ image
+ images
+ image
+ temp
+ image
+column count
+ system
+ arraycopy
+ images
+ temp
+ index
+ system
+ arraycopy
+ images
+ index
+ temp
+ index
+column count
+ index
+ item
+ images
+ temp
+ index
+ item
+ image
+ item
+cell background
+cell background
+ item
+cell background
+ temp
+column count
+ system
+ arraycopy
+cell background
+ temp
+ index
+ system
+ arraycopy
+cell background
+ index
+ temp
+ index
+column count
+ index
+ item
+cell background
+ temp
+ item
+cell foreground
+cell foreground
+ item
+cell foreground
+ temp
+column count
+ system
+ arraycopy
+cell foreground
+ temp
+ index
+ system
+ arraycopy
+cell foreground
+ index
+ temp
+ index
+column count
+ index
+ item
+cell foreground
+ temp
+ item
+cell font
+cell font
+ item
+cell font
+ temp
+column count
+ system
+ arraycopy
+cell font
+ temp
+ index
+ system
+ arraycopy
+cell font
+ index
+ temp
+ index
+column count
+ index
+ item
+cell font
+ temp
+column count
+ bits
+
+get window long
+ handle
+
+gwl style
+ bits
+
+tvs nohscroll
+
+set window long
+ handle
+
+gwl style
+ bits
+
+invalidate rect
+ handle
+ index
+ columns
+ style
+ swt
+ left
+ swt
+ right
+ swt
+ center
+ columns
+ style
+ swt
+ left
+ hditem
+ item
+ hditem
+ item
+ mask
+
+hdi format
+
+hdi image
+
+send message
+hwnd header
+
+hdm getitem
+ index
+ item
+ item
+ fmt
+
+hdf justifymask
+ item
+ fmt
+
+hdf left
+
+send message
+hwnd header
+
+hdm setitem
+ index
+ item
+ rect
+ rect
+ rect
+item rect
+ rect
+
+get client rect
+ handle
+ rect
+
+send message
+hwnd header
+
+hdm getitemrect
+ index
+item rect
+ rect
+ left
+item rect
+ right
+
+invalidate rect
+ handle
+ rect
+set scroll width
+
+ index
+
+column count
+
+ columns
+
+send event
+ swt
+ move
+destroy item
+tree item
+ item
+ item
+ item
+ handle
+ parent
+fix redraw
+draw count
+
+window visible
+ handle
+ rect
+ rect
+ rect
+ rect
+ left
+ item
+fix redraw
+
+send message
+ handle
+
+tvm getitemrect
+ rect
+fix redraw
+ parent
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn parent
+ item
+
+update window
+ handle
+
+send message
+ handle
+
+ setredraw
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif handle
+
+tvif param
+release items
+ item
+get items
+ item
+release item
+ item
+ item
+ style
+ swt
+ multi
+ignore deselect
+ignore select
+lock selection
+
+send message
+ handle
+
+tvm deleteitem
+ item
+ style
+ swt
+ multi
+ignore deselect
+ignore select
+lock selection
+fix redraw
+
+send message
+ handle
+
+ setredraw
+
+validate rect
+ handle
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn child
+ parent
+ rect
+ rect
+ rect
+ rect
+ left
+ parent
+
+send message
+ handle
+
+tvm getitemrect
+ rect
+
+invalidate rect
+ handle
+ rect
+ count
+
+send message
+ handle
+
+tvm getcount
+ count
+image list
+
+send message
+ handle
+
+tvm setimagelist
+hwnd header
+
+send message
+hwnd header
+
+hdm setimagelist
+ display
+release image list
+image list
+image list
+hwnd parent
+custom draw
+ items
+tree item
+update scroll bar
+enable widget
+ enabled
+enable widget
+ enabled
+ background
+_set background pixel
+ enabled
+ background
+hwnd parent
+
+enable window
+hwnd parent
+ enabled
+ widget
+find item
+
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif handle
+
+tvif param
+ item
+ item
+
+
+send message
+ handle
+
+tvm getitem
+ item
+ param
+ item
+ param
+ param
+ param
+ items
+ length
+ items
+ param
+get background pixel
+
+ win
+_get background pixel
+
+window enabled
+ handle
+ background
+ background
+_get background pixel
+get foreground pixel
+
+ win
+
+get sys color
+
+color windowtext
+ pixel
+
+send message
+ handle
+
+tvm gettextcolor
+ pixel
+
+get sys color
+
+color windowtext
+ pixel
+get grid line width
+check widget
+grid width
+get header height
+check widget
+hwnd header
+ rect
+ rect
+ rect
+
+get window rect
+hwnd header
+ rect
+ rect
+ bottom
+ rect
+ top
+get header visible
+check widget
+hwnd header
+ bits
+
+get window long
+hwnd header
+
+gwl style
+ bits
+
+ visible
+ point
+get image size
+image list
+image list
+get image size
+ point
+get item height
+tree column
+get column
+ index
+check widget
+hwnd header
+ error
+ swt
+error invalid range
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+ index
+ index
+ count
+ error
+ swt
+error invalid range
+ columns
+ index
+get column count
+check widget
+hwnd header
+
+send message
+hwnd header
+
+hdm getitemcount
+tree column
+get columns
+check widget
+hwnd header
+tree column
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+tree column
+ result
+tree column
+ count
+ system
+ arraycopy
+ columns
+ result
+ count
+ result
+tree item
+get item
+ index
+check widget
+ index
+ error
+ swt
+error invalid range
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn root
+ index
+ item
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn next
+ item
+ item
+ error
+ swt
+error invalid range
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif handle
+
+tvif param
+ item
+ item
+ item
+
+send message
+ handle
+
+tvm getitem
+ item
+ items
+ item
+ param
+tree item
+get item
+ point
+ point
+check widget
+ point
+ error
+ swt
+error null argument
+ tvhittestinfo
+ lpht
+ tvhittestinfo
+ lpht
+
+ point
+
+ lpht
+
+ point
+
+
+send message
+ handle
+
+tvm hittest
+ lpht
+ lpht
+ item
+ style
+ swt
+full selection
+ lpht
+ flags
+
+tvht onitem
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif handle
+
+tvif param
+ item
+ item
+ lpht
+ item
+
+send message
+ handle
+
+tvm getitem
+ item
+ items
+ item
+ param
+get item count
+check widget
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn root
+ item
+get item count
+ item
+get item count
+ item
+ count
+ item
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn next
+ item
+ count
+ count
+get item height
+check widget
+
+send message
+ handle
+
+tvm getitemheight
+tree item
+get items
+check widget
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn root
+ item
+tree item
+get items
+ item
+tree item
+get items
+tree item
+ count
+ item
+tree item
+ item
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn next
+ item
+ count
+ index
+tree item
+ result
+tree item
+ count
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif handle
+
+tvif param
+ item
+ item
+tree item
+ item
+ item
+
+send message
+ handle
+
+tvm getitem
+ item
+tree item
+ item
+ items
+ item
+ param
+ item
+ result
+ index
+ item
+ item
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn next
+ item
+ item
+ index
+ count
+tree item
+new result
+tree item
+ index
+ system
+ arraycopy
+ result
+new result
+ index
+ result
+new result
+ result
+get lines visible
+check widget
+lines visible
+tree item
+get parent item
+check widget
+tree item
+get selection
+check widget
+ style
+ swt
+ single
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn caret
+ item
+tree item
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif param
+
+tvif state
+ item
+ item
+ item
+
+send message
+ handle
+
+tvm getitem
+ item
+ item
+ state
+
+tvis selected
+tree item
+tree item
+ items
+ item
+ param
+ count
+tree item
+ guess
+tree item
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif param
+
+tvif state
+old proc
+
+get window long
+ handle
+
+gwl wndproc
+
+set window long
+ handle
+
+gwl wndproc
+tree proc
+
+
+ items
+ length
+
+tree item
+ item
+ items
+
+ item
+ item
+ item
+ item
+ handle
+
+send message
+ handle
+
+tvm getitem
+ item
+ item
+ state
+
+tvis selected
+ count
+ guess
+ length
+ guess
+ count
+ item
+ count
+
+set window long
+ handle
+
+gwl wndproc
+old proc
+ count
+tree item
+ count
+ guess
+ length
+ guess
+tree item
+ result
+tree item
+ count
+ count
+ guess
+ length
+ system
+ arraycopy
+ guess
+ result
+ count
+ result
+
+set window long
+ handle
+
+gwl wndproc
+tree proc
+ index
+
+
+ items
+ length
+
+tree item
+ item
+ items
+
+ item
+ item
+ item
+ item
+ handle
+
+send message
+ handle
+
+tvm getitem
+ item
+ item
+ state
+
+tvis selected
+ result
+ index
+ item
+
+set window long
+ handle
+
+gwl wndproc
+old proc
+ result
+get selection count
+check widget
+ style
+ swt
+ single
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn caret
+ item
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif state
+ item
+ item
+ item
+
+send message
+ handle
+
+tvm getitem
+ item
+ item
+ state
+
+tvis selected
+ count
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif state
+old proc
+
+get window long
+ handle
+
+gwl wndproc
+
+set window long
+ handle
+
+gwl wndproc
+tree proc
+
+
+ items
+ length
+
+tree item
+ item
+ items
+
+ item
+ item
+ item
+ item
+ handle
+
+send message
+ handle
+
+tvm getitem
+ item
+ item
+ state
+
+tvis selected
+ count
+
+set window long
+ handle
+
+gwl wndproc
+old proc
+ count
+tree item
+get top item
+check widget
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn firstvisible
+ item
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif param
+ item
+ item
+ item
+
+send message
+ handle
+
+tvm getitem
+ item
+ items
+ item
+ param
+image index
+ image
+ image
+ image
+
+ imagenone
+image list
+old list
+
+send message
+ handle
+
+tvm getimagelist
+
+tvsil normal
+old list
+
+image list destroy
+old list
+ rectangle
+ bounds
+ image
+get bounds
+image list
+ display
+get image list
+ style
+ swt
+right left
+ bounds
+ width
+ bounds
+ height
+ index
+image list
+ index
+ image
+ index
+ index
+image list
+ add
+ image
+image list
+image list
+get handle
+
+send message
+ handle
+
+tvm setimagelist
+
+tvsil normal
+image list
+hwnd header
+
+send message
+hwnd header
+
+hdm setimagelist
+image list
+update scroll bar
+ index
+ index
+image list
+ index
+ image
+ index
+ index
+image list
+ add
+ image
+ index
+ item
+ child
+ index
+ item
+ item
+ child
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn next
+ item
+ index
+ item
+ child
+ index
+ index
+tree column
+ column
+check widget
+ column
+ error
+ swt
+error null argument
+ column
+ disposed
+ error
+ swt
+error invalid argument
+hwnd header
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+
+
+ count
+
+ columns
+
+ column
+
+ index
+tree item
+ item
+check widget
+ item
+ error
+ swt
+error null argument
+ item
+ disposed
+ error
+ swt
+error invalid argument
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn root
+ item
+ index
+ item
+ item
+ handle
+ register
+ register
+hwnd parent
+ display
+add control
+hwnd parent
+release item
+tree item
+ item
+ tvitem
+ item
+ item
+ item
+ handle
+ item
+ anchor
+ anchor
+ item
+ insert
+ insert
+ item
+ disposed
+ item
+ item
+ item
+
+send message
+ handle
+
+tvm getitem
+ item
+ items
+ item
+ param
+release items
+tree item
+ nodes
+ tvitem
+ item
+
+
+ nodes
+ length
+
+tree item
+ item
+ nodes
+
+tree item
+ sons
+ item
+get items
+ sons
+ length
+release items
+ sons
+ item
+release item
+ item
+ item
+ item
+release resources
+release handle
+release handle
+hwnd parent
+hwnd header
+release widget
+column count
+
+send message
+hwnd header
+
+hdm getitemcount
+
+
+ items
+ length
+
+tree item
+ item
+ items
+
+ item
+ item
+ disposed
+ item
+release resources
+ items
+
+
+column count
+
+tree column
+ column
+ columns
+
+ column
+ disposed
+ column
+release resources
+ columns
+custom draw
+image list
+
+send message
+ handle
+
+tvm setimagelist
+
+tvsil normal
+
+send message
+hwnd header
+
+hdm setimagelist
+ display
+release image list
+image list
+old list
+
+send message
+ handle
+
+tvm getimagelist
+
+tvsil normal
+
+send message
+ handle
+
+tvm setimagelist
+
+tvsil normal
+
+send message
+hwnd header
+
+hdm setimagelist
+old list
+
+image list destroy
+old list
+image list
+old list
+
+send message
+ handle
+
+tvm getimagelist
+
+tvsil state
+
+send message
+ handle
+
+tvm setimagelist
+
+tvsil state
+old list
+
+image list destroy
+old list
+release widget
+remove all
+check widget
+ignore deselect
+ignore select
+ redraw
+draw count
+
+window visible
+ handle
+ redraw
+
+def window proc
+ handle
+
+ setredraw
+ result
+
+send message
+ handle
+
+tvm deleteitem
+
+tvi root
+ redraw
+
+def window proc
+ handle
+
+ setredraw
+
+invalidate rect
+ handle
+ignore deselect
+ignore select
+ result
+ error
+ swt
+error item not removed
+
+
+ items
+ length
+
+tree item
+ item
+ items
+
+ item
+ item
+ disposed
+ item
+release resources
+image list
+
+send message
+ handle
+
+tvm setimagelist
+hwnd header
+
+send message
+hwnd header
+
+hdm setimagelist
+ display
+release image list
+image list
+image list
+hwnd parent
+custom draw
+ items
+tree item
+ anchor
+ insert
+update scroll bar
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+ unhook
+ swt
+ selection
+ listener
+event table
+ unhook
+ swt
+default selection
+ listener
+remove tree listener
+tree listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ expand
+ listener
+event table
+ unhook
+ swt
+ collapse
+ listener
+set insert mark
+tree item
+ item
+ before
+check widget
+ item
+ item
+ item
+ disposed
+ error
+ swt
+error invalid argument
+ item
+ item
+ handle
+ insert
+ item
+insert after
+ before
+
+send message
+ handle
+
+tvm setinsertmark
+insert after
+ insert
+set lines visible
+ show
+check widget
+lines visible
+ show
+lines visible
+ show
+
+invalidate rect
+ handle
+scrolled handle
+hwnd header
+ handle
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+ count
+ handle
+hwnd parent
+select all
+check widget
+ style
+ swt
+ single
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif state
+ item
+ state
+
+tvis selected
+ item
+state mask
+
+tvis selected
+old proc
+
+get window long
+ handle
+
+gwl wndproc
+
+set window long
+ handle
+
+gwl wndproc
+tree proc
+
+
+ items
+ length
+
+tree item
+ item
+ items
+
+ item
+ item
+ item
+ item
+ handle
+
+send message
+ handle
+
+tvm setitem
+ item
+
+set window long
+ handle
+
+gwl wndproc
+old proc
+set background pixel
+ pixel
+ background
+ pixel
+ background
+ pixel
+
+window enabled
+ handle
+_set background pixel
+ pixel
+set bounds
+
+
+ width
+ height
+ flags
+fix selection
+ flags
+
+swp nosize
+ width
+ height
+
+send message
+ handle
+
+tvm getvisiblecount
+fix selection
+set bounds
+
+
+ width
+ height
+ flags
+fix selection
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn caret
+ item
+show item
+ item
+set cursor
+ cursor
+ cursor
+find cursor
+ cursor
+ cursor
+
+load cursor
+
+idc arrow
+ cursor
+ handle
+
+set cursor
+ cursor
+set checkbox image list
+ style
+ swt
+ check
+ count
+ height
+
+send message
+ handle
+
+tvm getitemheight
+ width
+ height
+ flags
+image list
+color flags
+ style
+ swt
+right left
+ flags
+
+ilc mirror
+
+comctl 32_ major
+
+app themed
+ flags
+
+ilc mask
+image list
+
+image list create
+ width
+ height
+ flags
+ count
+ count
+
+
+ get
+ handle
+ mem
+
+create compatible
+
+ bitmap
+
+create compatible bitmap
+
+ width
+ count
+ height
+old bitmap
+
+select object
+ mem
+ bitmap
+ rect
+ rect
+ rect
+
+set rect
+ rect
+ width
+ count
+ height
+clr background
+_get background pixel
+ brush
+
+create solid brush
+clr background
+
+fill rect
+ mem
+ rect
+ brush
+
+delete object
+ brush
+old font
+
+select object
+
+default font
+ textmetric
+
+
+ unicode
+ textmetric
+ textmetricw
+ textmetrica
+
+get text metrics
+
+
+
+select object
+
+old font
+item width
+ math
+ min
+
+ height
+ width
+item height
+ math
+ min
+
+ height
+ height
+ left
+ width
+item width
+ top
+ height
+item height
+
+set rect
+ rect
+ left
+ width
+ top
+ left
+ width
+item width
+ top
+item height
+
+comctl 32_ major
+
+app themed
+ theme
+
+open theme data
+ handle
+ button
+
+draw theme background
+ theme
+ mem
+
+ checkbox
+
+cbs uncheckednormal
+ rect
+ rect
+ left
+ width
+ rect
+ right
+ width
+
+draw theme background
+ theme
+ mem
+
+ checkbox
+
+cbs checkednormal
+ rect
+ rect
+ left
+ width
+ rect
+ right
+ width
+
+draw theme background
+ theme
+ mem
+
+ checkbox
+
+cbs uncheckednormal
+ rect
+ rect
+ left
+ width
+ rect
+ right
+ width
+
+draw theme background
+ theme
+ mem
+
+ checkbox
+
+cbs mixednormal
+ rect
+
+close theme data
+ theme
+
+draw frame control
+ mem
+ rect
+
+dfc button
+
+dfcs buttoncheck
+
+dfcs flat
+ rect
+ left
+ width
+ rect
+ right
+ width
+
+draw frame control
+ mem
+ rect
+
+dfc button
+
+dfcs buttoncheck
+
+dfcs checked
+
+dfcs flat
+ rect
+ left
+ width
+ rect
+ right
+ width
+
+draw frame control
+ mem
+ rect
+
+dfc button
+
+dfcs buttoncheck
+
+dfcs inactive
+
+dfcs flat
+ rect
+ left
+ width
+ rect
+ right
+ width
+
+draw frame control
+ mem
+ rect
+
+dfc button
+
+dfcs buttoncheck
+
+dfcs checked
+
+dfcs inactive
+
+dfcs flat
+
+select object
+ mem
+old bitmap
+
+ delete
+ mem
+
+ release
+ handle
+
+
+comctl 32_ major
+
+app themed
+
+image list add
+image list
+ bitmap
+
+image list add masked
+image list
+ bitmap
+clr background
+
+delete object
+ bitmap
+old list
+
+send message
+ handle
+
+tvm getimagelist
+
+tvsil state
+
+send message
+ handle
+
+tvm setimagelist
+
+tvsil state
+image list
+old list
+
+image list destroy
+old list
+set foreground pixel
+ pixel
+ foreground
+ pixel
+ foreground
+ pixel
+
+send message
+ handle
+
+tvm settextcolor
+ pixel
+set header visible
+ show
+check widget
+hwnd header
+ show
+create parent
+ bits
+
+get window long
+hwnd header
+
+gwl style
+ show
+ bits
+
+hds hidden
+ bits
+
+hds hidden
+
+set window long
+hwnd header
+
+gwl style
+ bits
+
+show window
+hwnd header
+
+ show
+ bits
+
+hds hidden
+ bits
+
+hds hidden
+
+set window long
+hwnd header
+
+gwl style
+ bits
+
+show window
+hwnd header
+
+ hide
+set scroll width
+update scroll bar
+set redraw
+ redraw
+check widget
+ item
+ redraw
+draw count
+ count
+
+send message
+ handle
+
+tvm getcount
+ count
+ tvinsertstruct
+ insert
+ tvinsertstruct
+ insert
+insert after
+
+tvi first
+ item
+
+send message
+ handle
+
+tvm insertitem
+ insert
+set redraw
+ redraw
+ item
+
+send message
+ handle
+
+tvm deleteitem
+ item
+set scroll width
+hwnd header
+hwnd parent
+ width
+ hditem
+ item
+ hditem
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+
+
+ count
+
+ item
+ mask
+
+hdi width
+
+send message
+hwnd header
+
+hdm getitem
+
+ item
+ width
+ item
+ cxy
+ left
+ rect
+ rect
+ rect
+ scrollinfo
+ info
+ scrollinfo
+ info
+ size
+ scrollinfo
+ sizeof
+ info
+ mask
+
+sif range
+
+sif page
+ count
+
+get scroll info
+hwnd parent
+
+ horz
+ info
+ info
+ page
+ info
+ max
+
+set scroll info
+hwnd parent
+
+ horz
+ info
+
+get scroll info
+hwnd parent
+
+ vert
+ info
+ info
+ page
+ info
+ max
+
+set scroll info
+hwnd parent
+
+ vert
+ info
+
+get client rect
+hwnd parent
+ rect
+
+get scroll info
+hwnd parent
+
+ horz
+ info
+ info
+ max
+ width
+ info
+ page
+ rect
+ right
+ rect
+ left
+
+set scroll info
+hwnd parent
+
+ horz
+ info
+ info
+ mask
+
+sif pos
+
+get scroll info
+hwnd parent
+
+ horz
+ info
+ left
+ info
+ pos
+
+get client rect
+hwnd parent
+ rect
+ heap
+
+get process heap
+ hdlayout
+ playout
+ hdlayout
+ playout
+ prc
+
+heap alloc
+ heap
+
+heap zero memory
+ rect
+ sizeof
+ playout
+ pwpos
+
+heap alloc
+ heap
+
+heap zero memory
+ windowpos
+ sizeof
+
+move memory
+ playout
+ prc
+ rect
+ rect
+ sizeof
+
+send message
+hwnd header
+
+hdm layout
+ playout
+ windowpos
+ pos
+ windowpos
+
+move memory
+ pos
+ playout
+ pwpos
+ windowpos
+ sizeof
+ playout
+ prc
+
+heap free
+ heap
+ playout
+ prc
+ playout
+ pwpos
+
+heap free
+ heap
+ playout
+ pwpos
+set window pos
+hwnd header
+
+hwnd top
+ pos
+
+ left
+ pos
+
+ pos
+
+ left
+ pos
+
+
+swp noactivate
+
+ pos
+
+ count
+
+get system metrics
+
+ cxvscroll
+
+ rect
+ bottom
+ rect
+ top
+ pos
+
+old ignore
+ignore resize
+ignore resize
+set window pos
+ handle
+ pos
+
+ left
+ pos
+
+ pos
+
+
+ left
+
+
+swp noactivate
+
+swp nozorder
+ignore resize
+old ignore
+set selection
+tree item
+ items
+check widget
+ items
+ error
+ swt
+error null argument
+ length
+ items
+ length
+ length
+ style
+ swt
+ single
+ length
+deselect all
+tree item
+ item
+ items
+ item
+ item
+ disposed
+ error
+ swt
+error invalid argument
+old item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn caret
+new item
+ anchor
+ item
+ handle
+fix scroll
+check scroll
+new item
+fix scroll
+
+send message
+ handle
+
+ setredraw
+
+def window proc
+ handle
+
+ setredraw
+ignore select
+
+send message
+ handle
+
+tvm selectitem
+
+tvgn caret
+new item
+ignore select
+
+send message
+ handle
+
+tvm getvisiblecount
+
+send message
+ handle
+
+tvm selectitem
+
+tvgn firstvisible
+new item
+fix scroll
+
+def window proc
+ handle
+
+ setredraw
+
+send message
+ handle
+
+ setredraw
+old item
+new item
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif state
+ item
+ state
+
+tvis selected
+ item
+state mask
+
+tvis selected
+ item
+ item
+new item
+
+send message
+ handle
+
+tvm setitem
+ item
+show item
+new item
+ style
+ swt
+ single
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif state
+ item
+state mask
+
+tvis selected
+old proc
+
+get window long
+ handle
+
+gwl wndproc
+
+set window long
+ handle
+
+gwl wndproc
+tree proc
+
+
+ items
+ length
+
+ item
+ items
+
+ item
+ index
+ index
+ length
+ items
+ index
+ item
+ index
+ item
+ item
+ item
+ handle
+
+send message
+ handle
+
+tvm getitem
+ item
+ item
+ state
+
+tvis selected
+ index
+ length
+ item
+ state
+
+send message
+ handle
+
+tvm setitem
+ item
+ index
+ length
+ item
+ state
+
+tvis selected
+
+send message
+ handle
+
+tvm setitem
+ item
+
+set window long
+ handle
+
+gwl wndproc
+old proc
+set top item
+tree item
+ item
+check widget
+ item
+ swt
+ error
+ swt
+error null argument
+ item
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ item
+ item
+ handle
+fix scroll
+check scroll
+ item
+fix scroll
+
+send message
+ handle
+
+ setredraw
+
+def window proc
+ handle
+
+ setredraw
+
+send message
+ handle
+
+tvm selectitem
+
+tvgn firstvisible
+ item
+fix scroll
+
+def window proc
+ handle
+
+ setredraw
+
+send message
+ handle
+
+ setredraw
+update scroll bar
+show item
+ item
+
+send message
+ handle
+
+tvm getvisiblecount
+fix scroll
+check scroll
+ item
+fix scroll
+
+send message
+ handle
+
+ setredraw
+
+def window proc
+ handle
+
+ setredraw
+
+send message
+ handle
+
+tvm selectitem
+
+tvgn firstvisible
+ item
+
+send message
+ handle
+
+ hscroll
+
+ top
+fix scroll
+
+def window proc
+ handle
+
+ setredraw
+
+send message
+ handle
+
+ setredraw
+ scroll
+ rect
+item rect
+ rect
+item rect
+ left
+ item
+
+send message
+ handle
+
+tvm getitemrect
+item rect
+force resize
+ rect
+ rect
+ rect
+
+get client rect
+ handle
+ rect
+ point
+
+ point
+
+
+item rect
+ left
+
+
+item rect
+ top
+
+ rect
+ rect
+
+
+
+item rect
+ bottom
+
+ rect
+ rect
+
+ scroll
+ scroll
+fix scroll
+check scroll
+ item
+fix scroll
+
+send message
+ handle
+
+ setredraw
+
+def window proc
+ handle
+
+ setredraw
+
+send message
+ handle
+
+tvm ensurevisible
+ item
+fix scroll
+
+def window proc
+ handle
+
+ setredraw
+
+send message
+ handle
+
+ setredraw
+hwnd parent
+ rect
+item rect
+ rect
+item rect
+ left
+ item
+
+send message
+ handle
+
+tvm getitemrect
+item rect
+force resize
+ rect
+ rect
+ rect
+
+get client rect
+hwnd parent
+ rect
+
+map window points
+hwnd parent
+ handle
+ rect
+ point
+
+ point
+
+
+item rect
+ left
+
+
+item rect
+ top
+
+ rect
+ rect
+
+
+
+item rect
+ bottom
+
+ rect
+ rect
+
+ scrollinfo
+ info
+ scrollinfo
+ info
+ size
+ scrollinfo
+ sizeof
+ info
+ mask
+
+sif pos
+ info
+ pos
+ math
+ max
+
+
+ tree
+ inset
+
+set scroll info
+hwnd parent
+
+ horz
+ info
+set scroll width
+update scroll bar
+show column
+tree column
+ column
+check widget
+ column
+ error
+ swt
+error null argument
+ column
+ disposed
+ error
+ swt
+error invalid argument
+ column
+ parent
+ index
+ index
+ column
+ index
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+ index
+ index
+ count
+hwnd parent
+force resize
+ rect
+ rect
+ rect
+
+get client rect
+hwnd parent
+ rect
+
+map window points
+hwnd parent
+ handle
+ rect
+
+ hditem
+ item
+ hditem
+
+
+ index
+
+ item
+ mask
+
+hdi width
+
+send message
+hwnd header
+
+hdm getitem
+
+ item
+
+ item
+ cxy
+ point
+
+ point
+
+
+
+
+
+ rect
+ top
+
+ rect
+ rect
+
+ scrollinfo
+ info
+ scrollinfo
+ info
+ size
+ scrollinfo
+ sizeof
+ info
+ mask
+
+sif pos
+ info
+ pos
+ math
+ max
+
+
+ tree
+ inset
+
+set scroll info
+hwnd parent
+
+ horz
+ info
+set scroll width
+show item
+tree item
+ item
+check widget
+ item
+ error
+ swt
+error null argument
+ item
+ disposed
+ error
+ swt
+error invalid argument
+show item
+ item
+ handle
+show selection
+check widget
+ item
+ style
+ swt
+ single
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn caret
+ item
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif state
+ item
+ item
+ item
+
+send message
+ handle
+
+tvm getitem
+ item
+ item
+ state
+
+tvis selected
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif state
+old proc
+
+get window long
+ handle
+
+gwl wndproc
+
+set window long
+ handle
+
+gwl wndproc
+tree proc
+ index
+ index
+ items
+ length
+tree item
+ item
+ items
+ index
+ item
+ item
+ item
+ item
+ handle
+
+send message
+ handle
+
+tvm getitem
+ item
+ item
+ state
+
+tvis selected
+ item
+ item
+ item
+ index
+
+set window long
+ handle
+
+gwl wndproc
+old proc
+ item
+show item
+ item
+show widget
+ visible
+show widget
+ visible
+hwnd parent
+
+show window
+hwnd parent
+ visible
+
+ show
+
+ hide
+ string
+tool tip text
+ nmttdispinfo
+ hdr
+hwnd tool tip
+
+send message
+ handle
+
+tvm gettooltips
+hwnd tool tip
+ hdr
+hwnd from
+tool tip text
+tool tip text
+ hdr
+top handle
+hwnd parent
+hwnd parent
+ handle
+update scroll bar
+hwnd parent
+column count
+
+send message
+hwnd header
+
+hdm getitemcount
+column count
+ scrollinfo
+ info
+ scrollinfo
+ info
+ size
+ scrollinfo
+ sizeof
+ info
+ mask
+
+sif all
+item count
+
+send message
+ handle
+
+tvm getcount
+item count
+
+get scroll info
+hwnd parent
+
+ vert
+ info
+ info
+ page
+ info
+ max
+
+set scroll info
+hwnd parent
+
+ vert
+ info
+
+get scroll info
+ handle
+
+ vert
+ info
+
+set scroll info
+hwnd parent
+
+ vert
+ info
+widget style
+ bits
+widget style
+
+tvs showselalways
+
+tvs linesatroot
+
+tvs hasbuttons
+ style
+ swt
+full selection
+ bits
+
+tvs fullrowselect
+ bits
+
+tvs haslines
+ bits
+ tchar
+window class
+tree class
+window proc
+tree proc
+window proc
+ hwnd
+ msg
+ param
+ param
+hwnd parent
+ hwnd
+hwnd parent
+ msg
+
+ move
+send event
+ swt
+ move
+
+ size
+set scroll width
+ignore resize
+set resize children
+ code
+call window proc
+ hwnd
+
+ size
+ param
+ param
+send event
+ swt
+ resize
+ disposed
+ layout
+mark layout
+update layout
+set resize children
+ code
+
+ command
+
+ notify
+
+ syscolorchange
+
+send message
+ handle
+ msg
+ param
+ param
+
+ vscroll
+ scrollinfo
+ info
+ scrollinfo
+ info
+ size
+ scrollinfo
+ sizeof
+ info
+ mask
+
+sif all
+
+get scroll info
+hwnd parent
+
+ vert
+ info
+
+set scroll info
+ handle
+
+ vert
+ info
+ code
+
+send message
+ handle
+
+ vscroll
+ param
+ param
+
+get scroll info
+ handle
+
+ vert
+ info
+
+set scroll info
+hwnd parent
+
+ vert
+ info
+ code
+
+ hscroll
+horizontal bar
+ param
+ param
+hwnd parent
+ scroll
+horizontal bar
+hwnd parent
+
+ hscroll
+ param
+ param
+set scroll width
+call window proc
+ hwnd
+ msg
+ param
+ param
+ code
+window proc
+ handle
+ msg
+ param
+ param
+ msg
+
+ char
+
+ime char
+
+ keydown
+
+ keyup
+
+ syschar
+
+ syskeydown
+
+ syskeyup
+
+ lbuttondblclk
+
+ lbuttondown
+
+ lbuttonup
+
+ mbuttondblclk
+
+ mbuttondown
+
+ mbuttonup
+
+ mousehover
+
+ mouseleave
+
+ mousemove
+
+ mousewheel
+
+ rbuttondblclk
+
+ rbuttondown
+
+ rbuttonup
+
+ xbuttondblclk
+
+ xbuttondown
+
+ xbuttonup
+
+ size
+
+ setfont
+
+ timer
+update scroll bar
+ code
+ lresult
+ char
+ param
+ param
+ lresult
+ result
+ char
+ param
+ param
+ result
+ result
+ param
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn caret
+ item
+ anchor
+ item
+
+send message
+ handle
+
+tvm ensurevisible
+ item
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif state
+
+tvif param
+ item
+ item
+ item
+ style
+ swt
+ check
+ item
+state mask
+
+tvis stateimagemask
+
+send message
+ handle
+
+tvm getitem
+ item
+ state
+ item
+ state
+ state
+ state
+ state
+ item
+ state
+ state
+
+send message
+ handle
+
+tvm setitem
+ item
+
+ win
+
+ item
+
+comctl 32_ major
+
+
+send message
+ handle
+
+tvm maphtreeitemtoaccid
+ item
+
+notify win event
+
+event object focus
+ handle
+
+objid client
+
+ item
+state mask
+
+tvis selected
+
+send message
+ handle
+
+tvm getitem
+ item
+ style
+ swt
+ multi
+
+get key state
+
+ control
+ item
+ state
+
+tvis selected
+ item
+ state
+
+tvis selected
+ item
+ state
+
+tvis selected
+ item
+ state
+
+tvis selected
+
+send message
+ handle
+
+tvm setitem
+ item
+ event
+ event
+ event
+ event
+ item
+ items
+ item
+ param
+post event
+ swt
+ selection
+ event
+ style
+ swt
+ check
+ event
+ event
+ event
+ item
+ items
+ item
+ param
+ event
+ detail
+ swt
+ check
+post event
+ swt
+ selection
+ event
+ lresult
+ zero
+ swt
+
+ event
+ event
+ event
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn caret
+ item
+ tvitem
+ item
+ tvitem
+ item
+ item
+ item
+ item
+ mask
+
+tvif param
+
+send message
+ handle
+
+tvm getitem
+ item
+ event
+ item
+ items
+ item
+ param
+post event
+ swt
+default selection
+ event
+ lresult
+ zero
+ swt
+ esc
+ lresult
+ zero
+ result
+ lresult
+ getobject
+ param
+ param
+ style
+ swt
+ check
+hwnd parent
+ accessible
+ accessible
+new accessible
+ getobject
+ param
+ param
+ lresult
+ keydown
+ param
+ param
+ lresult
+ result
+ keydown
+ param
+ param
+ result
+ result
+ param
+
+ space
+ lresult
+ zero
+
+
+
+ down
+
+ prior
+
+ next
+
+ home
+
+ end
+
+send message
+ handle
+
+ changeuistate
+
+uis initialize
+ style
+ swt
+ single
+
+get key state
+
+ shift
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn caret
+ item
+ anchor
+ anchor
+ item
+ignore select
+ignore deselect
+ code
+call window proc
+ handle
+
+ keydown
+ param
+ param
+ignore select
+ignore deselect
+new item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn caret
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif state
+ item
+state mask
+
+tvis selected
+deselect item
+ item
+ rect
+ rect
+ rect
+ rect
+ left
+ anchor
+
+send message
+ handle
+
+tvm getitemrect
+ rect
+ rect
+ rect
+ rect
+ rect
+ rect
+ left
+deselect item
+
+send message
+ handle
+
+tvm getitemrect
+ rect
+ flags
+ rect
+ top
+ rect
+ top
+
+tvgn previousvisible
+
+tvgn nextvisible
+deselect item
+ anchor
+ item
+ item
+deselect item
+
+send message
+ handle
+
+tvm setitem
+ item
+deselect item
+
+send message
+ handle
+
+tvm getnextitem
+ flags
+deselect item
+select item
+ anchor
+ rect
+ left
+new item
+
+send message
+ handle
+
+tvm getitemrect
+ rect
+ rect
+ left
+select item
+
+send message
+ handle
+
+tvm getitemrect
+ rect
+ item
+ state
+
+tvis selected
+ flags
+ rect
+ top
+ rect
+ top
+
+tvgn previousvisible
+
+tvgn nextvisible
+select item
+new item
+ item
+ item
+select item
+
+send message
+ handle
+
+tvm setitem
+ item
+select item
+
+send message
+ handle
+
+tvm getnextitem
+ flags
+select item
+ item
+ item
+new item
+
+send message
+ handle
+
+tvm setitem
+ item
+ item
+ mask
+
+tvif param
+ item
+ item
+new item
+
+send message
+ handle
+
+tvm getitem
+ item
+ event
+ event
+ event
+ event
+ item
+ items
+ item
+ param
+post event
+ swt
+ selection
+ event
+ lresult
+ code
+
+get key state
+
+ control
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn caret
+ item
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif state
+ item
+state mask
+
+tvis selected
+ item
+ item
+ item
+
+send message
+ handle
+
+tvm getitem
+ item
+old selected
+ item
+ state
+
+tvis selected
+new item
+ param
+
+
+new item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn previousvisible
+ item
+
+ down
+new item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn nextvisible
+ item
+
+ home
+new item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn root
+
+ prior
+new item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn firstvisible
+new item
+ item
+
+send message
+ handle
+
+ vscroll
+
+ pageup
+new item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn firstvisible
+
+ next
+ rect
+ rect
+ rect
+client rect
+ rect
+
+get client rect
+ handle
+client rect
+new item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn firstvisible
+ visible
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn nextvisible
+new item
+ visible
+ rect
+ left
+ visible
+
+send message
+ handle
+
+tvm getitemrect
+ rect
+ rect
+ bottom
+client rect
+ bottom
+new item
+ visible
+ item
+
+send message
+ handle
+
+ vscroll
+
+ pagedown
+new item
+
+ end
+new item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn lastvisible
+new item
+
+send message
+ handle
+
+tvm ensurevisible
+new item
+ item
+ item
+new item
+
+send message
+ handle
+
+tvm getitem
+ item
+new selected
+ item
+ state
+
+tvis selected
+new selected
+draw count
+
+update window
+ handle
+
+def window proc
+ handle
+
+ setredraw
+ignore select
+
+send message
+ handle
+
+tvm selectitem
+
+tvgn caret
+new item
+ignore select
+old selected
+ item
+ state
+
+tvis selected
+ item
+ item
+ item
+
+send message
+ handle
+
+tvm setitem
+ item
+new selected
+ item
+ state
+ item
+ item
+new item
+
+send message
+ handle
+
+tvm setitem
+ item
+new selected
+draw count
+ rect
+ rect
+ rect
+ rect
+ rect
+ rect
+ left
+ item
+ rect
+ left
+new item
+ bits
+
+get window long
+ handle
+
+gwl style
+item rect
+ bits
+
+tvs fullrowselect
+
+send message
+ handle
+
+tvm getitemrect
+item rect
+ rect
+
+send message
+ handle
+
+tvm getitemrect
+item rect
+ rect
+
+def window proc
+ handle
+
+ setredraw
+
+ win
+
+invalidate rect
+ handle
+ rect
+
+invalidate rect
+ handle
+ rect
+
+update window
+ handle
+ flags
+
+rdw updatenow
+
+rdw invalidate
+
+redraw window
+ handle
+ rect
+ flags
+
+redraw window
+ handle
+ rect
+ flags
+ lresult
+ zero
+ code
+call window proc
+ handle
+
+ keydown
+ param
+ param
+ anchor
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn caret
+ lresult
+ code
+ result
+ lresult
+ killfocus
+ param
+ param
+ lresult
+ result
+ killfocus
+ param
+ param
+ style
+ swt
+ single
+ result
+
+invalidate rect
+ handle
+ result
+ lresult
+ lbuttondblclk
+ param
+ param
+ tvhittestinfo
+ lpht
+ tvhittestinfo
+ lpht
+
+ param
+ lpht
+
+ param
+
+send message
+ handle
+
+tvm hittest
+ lpht
+ style
+ swt
+ check
+ lpht
+ flags
+
+tvht onitemstateicon
+send mouse event
+ swt
+mouse down
+ handle
+
+ lbuttondown
+ param
+ param
+send mouse event
+ swt
+mouse double click
+ handle
+
+ lbuttondblclk
+ param
+ param
+
+get capture
+ handle
+
+set capture
+ handle
+ tvitem
+ item
+ tvitem
+ item
+ item
+ lpht
+ item
+ item
+ mask
+
+tvif param
+
+tvif state
+ item
+state mask
+
+tvis stateimagemask
+
+send message
+ handle
+
+tvm getitem
+ item
+ state
+ item
+ state
+ state
+ state
+ state
+ item
+ state
+ state
+
+send message
+ handle
+
+tvm setitem
+ item
+
+ win
+
+ item
+ item
+
+comctl 32_ major
+
+
+send message
+ handle
+
+tvm maphtreeitemtoaccid
+ item
+ item
+
+notify win event
+
+event object focus
+ handle
+
+objid client
+
+ event
+ event
+ event
+ event
+ item
+ items
+ item
+ param
+ event
+ detail
+ swt
+ check
+post event
+ swt
+ selection
+ event
+ lresult
+ zero
+ lresult
+ result
+ lbuttondblclk
+ param
+ param
+ lpht
+ item
+ style
+ swt
+full selection
+ lpht
+ flags
+
+tvht onitem
+ event
+ event
+ event
+ tvitem
+ item
+ tvitem
+ item
+ item
+ lpht
+ item
+ item
+ mask
+
+tvif param
+
+send message
+ handle
+
+tvm getitem
+ item
+ event
+ item
+ items
+ item
+ param
+post event
+ swt
+default selection
+ event
+ result
+ lresult
+ lbuttondown
+ param
+ param
+ tvhittestinfo
+ lpht
+ tvhittestinfo
+ lpht
+
+ param
+ lpht
+
+ param
+
+send message
+ handle
+
+tvm hittest
+ lpht
+ lpht
+ item
+ lpht
+ flags
+
+tvht onitembutton
+send mouse event
+ swt
+mouse down
+ handle
+
+ lbuttondown
+ param
+ param
+fix selection
+ deselected
+ lpht
+ item
+ style
+ swt
+ multi
+ selection
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn caret
+ selection
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif state
+
+tvif param
+ item
+ item
+ lpht
+ item
+
+send message
+ handle
+
+tvm getitem
+ item
+ item
+ state
+
+tvis expanded
+fix selection
+ item
+state mask
+
+tvis selected
+ parent
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn parent
+ lpht
+ item
+ last
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn lastvisible
+ lpht
+ item
+ next
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn nextvisible
+ lpht
+ item
+ next
+ next
+ last
+ item
+ item
+ next
+
+send message
+ handle
+
+tvm getitem
+ item
+ item
+ state
+
+tvis selected
+ deselected
+ item
+ state
+
+send message
+ handle
+
+tvm setitem
+ item
+ next
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn nextvisible
+ next
+ parent
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn parent
+ next
+drag started
+gesture completed
+fix selection
+ignore deselect
+ignore select
+lock selection
+ code
+call window proc
+ handle
+
+ lbuttondown
+ param
+ param
+fix selection
+ignore deselect
+ignore select
+lock selection
+drag started
+
+get capture
+ handle
+
+set capture
+ handle
+ deselected
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif param
+ item
+ item
+ lpht
+ item
+
+send message
+ handle
+
+tvm getitem
+ item
+ event
+ event
+ event
+ event
+ item
+ items
+ item
+ param
+post event
+ swt
+ selection
+ event
+ lresult
+ code
+ style
+ swt
+ check
+ lpht
+ flags
+
+tvht onitemstateicon
+send mouse event
+ swt
+mouse down
+ handle
+
+ lbuttondown
+ param
+ param
+
+get capture
+ handle
+
+set capture
+ handle
+ tvitem
+ item
+ tvitem
+ item
+ item
+ lpht
+ item
+ item
+ mask
+
+tvif param
+
+tvif state
+ item
+state mask
+
+tvis stateimagemask
+
+send message
+ handle
+
+tvm getitem
+ item
+ state
+ item
+ state
+ state
+ state
+ state
+ item
+ state
+ state
+
+send message
+ handle
+
+tvm setitem
+ item
+
+ win
+
+ item
+ item
+
+comctl 32_ major
+
+
+send message
+ handle
+
+tvm maphtreeitemtoaccid
+ item
+ item
+
+notify win event
+
+event object focus
+ handle
+
+objid client
+
+ event
+ event
+ event
+ event
+ item
+ items
+ item
+ param
+ event
+ detail
+ swt
+ check
+post event
+ swt
+ selection
+ event
+ lresult
+ zero
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif state
+ item
+state mask
+
+tvis selected
+hittest selected
+ style
+ swt
+ multi
+ item
+ item
+ lpht
+ item
+
+send message
+ handle
+
+tvm getitem
+ item
+hittest selected
+ item
+ state
+
+tvis selected
+old item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn caret
+ style
+ swt
+ multi
+ item
+ item
+old item
+
+send message
+ handle
+
+tvm getitem
+ item
+hittest selected
+ param
+
+ control
+draw count
+
+update window
+ handle
+
+def window proc
+ handle
+
+ setredraw
+deselect all
+send mouse event
+ swt
+mouse down
+ handle
+
+ lbuttondown
+ param
+ param
+drag started
+gesture completed
+ignore deselect
+ignore select
+ code
+call window proc
+ handle
+
+ lbuttondown
+ param
+ param
+ignore deselect
+ignore select
+drag started
+
+get capture
+ handle
+
+set capture
+ handle
+new item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn caret
+ style
+ swt
+ single
+old item
+new item
+ item
+ mask
+
+tvif state
+ item
+ state
+
+tvis selected
+ item
+state mask
+
+tvis selected
+ item
+ item
+new item
+
+send message
+ handle
+
+tvm setitem
+ item
+ style
+ swt
+ multi
+hittest selected
+ param
+
+ control
+old item
+new item
+old item
+ lpht
+ item
+ param
+
+ control
+ item
+ state
+
+tvis selected
+drag started
+ item
+ state
+
+tvis selected
+
+send message
+ handle
+
+tvm setitem
+ item
+ item
+ state
+
+tvis selected
+ item
+ state
+
+tvis selected
+
+send message
+ handle
+
+tvm setitem
+ item
+ param
+
+ control
+drag started
+hittest selected
+ item
+ state
+ item
+ item
+ lpht
+ item
+
+send message
+ handle
+
+tvm setitem
+ item
+draw count
+ rect
+ rect
+ rect
+ rect
+ rect
+ rect
+ left
+old item
+ rect
+ left
+new item
+ bits
+
+get window long
+ handle
+
+gwl style
+item rect
+ bits
+
+tvs fullrowselect
+
+send message
+ handle
+
+tvm getitemrect
+item rect
+ rect
+
+send message
+ handle
+
+tvm getitemrect
+item rect
+ rect
+
+def window proc
+ handle
+
+ setredraw
+
+ win
+
+invalidate rect
+ handle
+ rect
+
+invalidate rect
+ handle
+ rect
+
+update window
+ handle
+ flags
+
+rdw updatenow
+
+rdw invalidate
+
+redraw window
+ handle
+ rect
+ flags
+
+redraw window
+ handle
+ rect
+ flags
+ param
+
+ control
+hittest selected
+drag started
+ item
+ state
+old proc
+
+get window long
+ handle
+
+gwl wndproc
+
+set window long
+ handle
+
+gwl wndproc
+tree proc
+
+
+ items
+ length
+
+tree item
+ item
+ items
+
+ item
+ item
+ handle
+new item
+ item
+ item
+ item
+ handle
+
+send message
+ handle
+
+tvm setitem
+ item
+ item
+ item
+new item
+ item
+ state
+
+tvis selected
+
+send message
+ handle
+
+tvm setitem
+ item
+
+set window long
+ handle
+
+gwl wndproc
+old proc
+ param
+
+ shift
+ rect
+ rect
+ rect
+ anchor
+ anchor
+new item
+ rect
+ left
+ anchor
+
+send message
+ handle
+
+tvm getitemrect
+ rect
+ rect
+ rect
+ rect
+ rect
+ rect
+ left
+new item
+
+send message
+ handle
+
+tvm getitemrect
+ rect
+ flags
+ rect
+ top
+ rect
+ top
+
+tvgn nextvisible
+
+tvgn previousvisible
+ item
+ state
+
+tvis selected
+ item
+ item
+ item
+ anchor
+
+send message
+ handle
+
+tvm setitem
+ item
+ item
+new item
+ item
+ item
+ item
+
+send message
+ handle
+
+tvm setitem
+ item
+ item
+
+send message
+ handle
+
+tvm getnextitem
+ flags
+ item
+ param
+
+ shift
+ anchor
+new item
+gesture completed
+ item
+ item
+new item
+ item
+ mask
+
+tvif param
+
+send message
+ handle
+
+tvm getitem
+ item
+ event
+ event
+ event
+ event
+ item
+ items
+ item
+ param
+post event
+ swt
+ selection
+ event
+gesture completed
+drag started
+ event
+ event
+ event
+ event
+
+ param
+ event
+
+ param
+post event
+ swt
+drag detect
+ event
+send mouse event
+ swt
+ mouse
+ handle
+
+ lbuttonup
+ param
+ param
+drag started
+ lresult
+ code
+ lresult
+ move
+ param
+ param
+ignore resize
+ move
+ param
+ param
+ lresult
+ notify
+ param
+ param
+ nmhdr
+ hdr
+ nmhdr
+
+move memory
+ hdr
+ param
+ nmhdr
+ sizeof
+hwnd header
+ hdr
+hwnd from
+hwnd header
+ hdr
+ code
+
+hdn begintrackw
+
+hdn begintracka
+
+hdn dividerdblclickw
+
+hdn dividerdblclicka
+ nmheader
+ phdn
+ nmheader
+
+move memory
+ phdn
+ param
+ nmheader
+ sizeof
+tree column
+ column
+ columns
+ phdn
+ item
+ column
+ column
+get resizable
+ lresult
+ one
+
+hdn itemchangingw
+
+hdn itemchanginga
+ nmheader
+ phdn
+ nmheader
+
+move memory
+ phdn
+ param
+ nmheader
+ sizeof
+ phdn
+ pitem
+ hditem
+new item
+ hditem
+
+move memory
+new item
+ phdn
+ pitem
+ hditem
+ sizeof
+new item
+ mask
+
+hdi width
+ hditem
+old item
+ hditem
+old item
+ mask
+
+hdi width
+
+send message
+hwnd header
+
+hdm getitem
+ phdn
+ item
+old item
+ delta
+new item
+ cxy
+old item
+ cxy
+ rect
+ rect
+ rect
+item rect
+ rect
+
+get client rect
+ handle
+ rect
+
+send message
+hwnd header
+
+hdm getitemrect
+ phdn
+ item
+item rect
+grid width
+get lines visible
+grid width
+ rect
+ left
+item rect
+ right
+grid width
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+ phdn
+ item
+ count
+
+ phdn
+ item
+
+ count
+
+
+send message
+hwnd header
+
+hdm getitemrect
+
+item rect
+ rect
+ right
+item rect
+ right
+ flags
+
+ invalidate
+
+ erase
+
+scroll window
+ handle
+ delta
+ rect
+ flags
+ phdn
+ item
+
+send message
+hwnd header
+
+hdm getitemrect
+ phdn
+ item
+item rect
+ rect
+ left
+item rect
+ left
+ rect
+ right
+item rect
+ right
+
+invalidate rect
+ handle
+ rect
+set scroll width
+
+hdn itemchangedw
+
+hdn itemchangeda
+ nmheader
+ phdn
+ nmheader
+
+move memory
+ phdn
+ param
+ nmheader
+ sizeof
+ phdn
+ pitem
+ hditem
+ pitem
+ hditem
+
+move memory
+ pitem
+ phdn
+ pitem
+ hditem
+ sizeof
+ pitem
+ mask
+
+hdi width
+tree column
+ column
+ columns
+ phdn
+ item
+ column
+ column
+send event
+ swt
+ resize
+ disposed
+ lresult
+ zero
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+tree column
+new columns
+tree column
+ count
+ system
+ arraycopy
+ columns
+new columns
+ count
+
+ phdn
+ item
+
+ count
+
+new columns
+
+ disposed
+new columns
+
+send event
+ swt
+ move
+set scroll width
+
+hdn itemclickw
+
+hdn itemclicka
+ nmheader
+ phdn
+ nmheader
+
+move memory
+ phdn
+ param
+ nmheader
+ sizeof
+tree column
+ column
+ columns
+ phdn
+ item
+ column
+ column
+post event
+ swt
+ selection
+
+hdn itemdblclickw
+
+hdn itemdblclicka
+ nmheader
+ phdn
+ nmheader
+
+move memory
+ phdn
+ param
+ nmheader
+ sizeof
+tree column
+ column
+ columns
+ phdn
+ item
+ column
+ column
+post event
+ swt
+default selection
+ notify
+ param
+ param
+ lresult
+ rbuttondown
+ param
+ param
+send mouse event
+ swt
+mouse down
+ handle
+
+ rbuttondown
+ param
+ param
+set focus
+ tvhittestinfo
+ lpht
+ tvhittestinfo
+ lpht
+
+ param
+ lpht
+
+ param
+
+send message
+ handle
+
+tvm hittest
+ lpht
+ lpht
+ item
+ lpht
+ flags
+
+tvht onitemicon
+
+tvht onitemlabel
+ param
+
+ control
+
+ shift
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif state
+ item
+state mask
+
+tvis selected
+ item
+ item
+ lpht
+ item
+
+send message
+ handle
+
+tvm getitem
+ item
+ item
+ state
+
+tvis selected
+ignore select
+
+send message
+ handle
+
+tvm selectitem
+
+tvgn caret
+ignore select
+
+send message
+ handle
+
+tvm selectitem
+
+tvgn caret
+ lpht
+ item
+ lresult
+ zero
+ lresult
+ printclient
+ param
+ param
+ lresult
+ result
+ printclient
+ param
+ param
+ result
+ result
+print client
+ code
+call window proc
+ handle
+
+ printclient
+ param
+ param
+print client
+ lresult
+ code
+ lresult
+ setfocus
+ param
+ param
+ lresult
+ result
+ setfocus
+ param
+ param
+ style
+ swt
+ single
+ result
+
+invalidate rect
+ handle
+ result
+ lresult
+ setfont
+ param
+ param
+ lresult
+ result
+ setfont
+ param
+ param
+ result
+ result
+hwnd header
+
+send message
+hwnd header
+
+ setfont
+ param
+ param
+ result
+ lresult
+ size
+ param
+ param
+ignore resize
+ size
+ param
+ param
+ lresult
+ syscolorchange
+ param
+ param
+ lresult
+ result
+ syscolorchange
+ param
+ param
+ result
+ result
+ style
+ swt
+ check
+set checkbox image list
+ result
+ lresult
+color child
+ param
+ param
+ lresult
+notify child
+ param
+ param
+ nmhdr
+ hdr
+ nmhdr
+
+move memory
+ hdr
+ param
+ nmhdr
+ sizeof
+ hdr
+ code
+
+tvn getdispinfoa
+
+tvn getdispinfow
+ nmtvdispinfo
+ lptvdi
+ nmtvdispinfo
+
+move memory
+ lptvdi
+ param
+ nmtvdispinfo
+ sizeof
+ items
+tree item
+ item
+ items
+ lptvdi
+ param
+ item
+ lptvdi
+ mask
+
+tvif text
+ string
+ string
+ item
+ text
+ tchar
+ buffer
+ tchar
+get code page
+ string
+byte count
+ math
+ min
+ buffer
+ length
+ lptvdi
+cch text max
+ tchar
+ sizeof
+
+move memory
+ lptvdi
+psz text
+ buffer
+byte count
+
+move memory
+ lptvdi
+psz text
+byte count
+ tchar
+ sizeof
+ tchar
+ sizeof
+ lptvdi
+cch text max
+ math
+ min
+ lptvdi
+cch text max
+ string
+ length
+ lptvdi
+ mask
+
+tvif image
+
+tvif selectedimage
+ image
+ image
+ item
+ image
+ lptvdi
+ image
+ lptvdi
+selected image
+
+ imagenone
+ image
+ lptvdi
+ image
+ lptvdi
+selected image
+image index
+ image
+
+move memory
+ param
+ lptvdi
+ nmtvdispinfo
+ sizeof
+
+ customdraw
+custom draw
+ nmtvcustomdraw
+ nmcd
+ nmtvcustomdraw
+
+move memory
+ nmcd
+ param
+ nmtvcustomdraw
+ sizeof
+ nmcd
+draw stage
+
+cdds prepaint
+ lresult
+
+cdrf notifyitemdraw
+
+cdrf notifypostpaint
+
+cdds postpaint
+lines visible
+
+ nmcd
+ hdc
+hwnd header
+
+ rect
+ rect
+ rect
+ hditem
+ item
+ hditem
+ item
+ mask
+
+hdi width
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+
+
+ count
+
+
+send message
+hwnd header
+
+hdm getitem
+
+ item
+
+set rect
+ rect
+
+ nmcd
+ top
+
+ item
+ cxy
+ nmcd
+ bottom
+
+draw edge
+
+ rect
+
+bdr sunkeninner
+
+ right
+
+ item
+ cxy
+ rect
+ rect
+ rect
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn lastvisible
+ rect
+ left
+ item
+
+send message
+ handle
+
+tvm getitemrect
+ rect
+ height
+ rect
+ bottom
+ rect
+ top
+ rect
+ bottom
+ nmcd
+ bottom
+ top
+ rect
+ top
+ height
+
+set rect
+ rect
+ rect
+ left
+ top
+ rect
+ right
+ top
+ height
+
+draw edge
+
+ rect
+
+bdr sunkeninner
+
+ bottom
+ lresult
+
+cdrf dodefault
+
+cdds itemprepaint
+tree item
+ item
+ items
+ nmcd
+iteml param
+ item
+ nmcd
+ left
+ nmcd
+ right
+ nmcd
+ top
+ nmcd
+ bottom
+
+ nmcd
+ hdc
+
+ save
+
+lines visible
+ rect
+ rect
+ rect
+
+set rect
+ rect
+ nmcd
+ left
+ nmcd
+ top
+ nmcd
+ right
+ nmcd
+ bottom
+
+draw edge
+
+ rect
+
+bdr sunkeninner
+
+ bottom
+print client
+ style
+ swt
+full selection
+hwnd header
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+ count
+ hditem
+ item
+ hditem
+ item
+ mask
+
+hdi width
+
+send message
+hwnd header
+
+hdm getitem
+ item
+ rgn
+
+create rect rgn
+ nmcd
+ left
+ nmcd
+ top
+ nmcd
+ left
+ item
+ cxy
+ nmcd
+ bottom
+
+select clip rgn
+
+ rgn
+
+delete object
+ rgn
+ item
+ font
+ item
+ foreground
+ item
+ background
+ item
+cell foreground
+ item
+cell background
+ item
+cell font
+ lresult
+
+cdrf dodefault
+
+cdrf notifypostpaint
+ font
+ item
+cell font
+ item
+cell font
+ item
+ font
+ font
+
+select object
+
+ font
+
+window enabled
+ handle
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif state
+ item
+ item
+ item
+ handle
+
+send message
+ handle
+
+tvm getitem
+ item
+ item
+ state
+
+tvis selected
+
+tvis drophilited
+clr text
+ item
+cell foreground
+ item
+cell foreground
+ item
+ foreground
+ nmcd
+clr text
+clr text
+get foreground pixel
+clr text
+clr text
+ item
+cell background
+ item
+cell background
+ item
+ background
+ nmcd
+clr text
+clr text
+get background pixel
+clr text
+
+move memory
+ param
+ nmcd
+ nmtvcustomdraw
+ sizeof
+ lresult
+
+cdrf newfont
+
+cdrf notifypostpaint
+
+cdds itempostpaint
+tree item
+ item
+ items
+ nmcd
+iteml param
+ item
+ nmcd
+ left
+ nmcd
+ right
+ nmcd
+ top
+ nmcd
+ bottom
+
+ nmcd
+ hdc
+
+ restore
+
+
+set mode
+
+
+ transparent
+use color
+
+window enabled
+ handle
+use color
+ style
+ swt
+full selection
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif state
+ item
+ item
+ item
+ handle
+
+send message
+ handle
+
+tvm getitem
+ item
+ item
+ state
+
+tvis selected
+use color
+clr foreground
+
+get text color
+
+clr foreground
+
+get sys color
+
+color highlighttext
+clr background
+
+get color
+
+clr background
+
+get sys color
+
+color highlight
+use color
+
+set text color
+
+get foreground pixel
+hwnd header
+ data
+ data
+ data
+ data
+ device
+ display
+
+
+
+win 32_new
+
+ data
+
+grid width
+lines visible
+grid width
+ point
+ size
+ rect
+ rect
+ rect
+ hditem
+ item
+ hditem
+ item
+ mask
+
+hdi width
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+
+
+ count
+
+
+send message
+hwnd header
+
+hdm getitem
+
+ item
+
+
+set rect
+ rect
+
+ nmcd
+ top
+
+ item
+ cxy
+ nmcd
+ bottom
+grid width
+print client
+ style
+ swt
+full selection
+draw background
+
+
+get color
+
+ rect
+use color
+clr text
+ item
+cell background
+ item
+cell background
+
+ item
+ background
+clr text
+draw background
+
+clr text
+ rect
+ image
+ image
+ item
+ images
+ item
+ images
+
+ image
+ rectangle
+ bounds
+ image
+get bounds
+ size
+ size
+get image size
+
+draw image
+ image
+ bounds
+ width
+ bounds
+ height
+ rect
+ left
+ rect
+ top
+ size
+
+ size
+
+
+set rect
+ rect
+ rect
+ left
+ size
+
+ inset
+ rect
+ top
+ rect
+ right
+ inset
+ rect
+ bottom
+
+set rect
+ rect
+ rect
+ left
+ inset
+ rect
+ top
+ rect
+ right
+ inset
+ rect
+ bottom
+ rect
+ left
+ rect
+ right
+ item
+ strings
+ item
+ strings
+
+ font
+ item
+cell font
+ item
+cell font
+
+ item
+ font
+ font
+ font
+
+select object
+
+ font
+clr text
+use color
+clr text
+ item
+cell foreground
+ item
+cell foreground
+
+ item
+ foreground
+clr text
+clr text
+
+set text color
+
+clr text
+ flags
+
+ noprefix
+
+ singleline
+
+ vcenter
+
+ endellipsis
+tree column
+ column
+ columns
+
+ column
+ style
+ swt
+ left
+ flags
+
+ left
+ column
+ style
+ swt
+ center
+ flags
+
+ center
+ column
+ style
+ swt
+ right
+ flags
+
+ right
+ tchar
+ buffer
+ tchar
+get code page
+ item
+ strings
+
+
+draw text
+
+ buffer
+ buffer
+ length
+ rect
+ flags
+ font
+
+select object
+
+ font
+clr text
+
+set text color
+
+clr text
+
+ item
+ cxy
+ count
+print client
+ style
+ swt
+full selection
+
+set rect
+ rect
+
+ nmcd
+ top
+ nmcd
+ right
+ nmcd
+ bottom
+grid width
+draw background
+
+
+get color
+
+ rect
+
+ dispose
+lines visible
+print client
+ style
+ swt
+full selection
+hwnd header
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+ count
+print client
+ hditem
+ item
+ hditem
+ item
+ mask
+
+hdi width
+
+send message
+hwnd header
+
+hdm getitem
+ item
+ rect
+ rect
+ rect
+
+set rect
+ rect
+ nmcd
+ left
+ item
+ cxy
+ nmcd
+ top
+ nmcd
+ right
+ nmcd
+ bottom
+
+draw edge
+
+ rect
+
+bdr sunkeninner
+
+ bottom
+ rect
+ rect
+ rect
+
+comctl 32_ major
+ style
+ swt
+full selection
+
+set rect
+ rect
+ nmcd
+ left
+ nmcd
+ top
+ nmcd
+ right
+ nmcd
+ bottom
+ rect
+ left
+ item
+ handle
+
+send message
+ handle
+
+tvm getitemrect
+ rect
+ item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn caret
+ item
+ item
+ handle
+
+set rect
+ rect
+ rect
+ right
+ nmcd
+ top
+ nmcd
+ right
+ nmcd
+ bottom
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif state
+ item
+ item
+ item
+ handle
+
+send message
+ handle
+
+tvm getitem
+ item
+ item
+ state
+
+tvis selected
+
+set rect
+ rect
+ rect
+ right
+ nmcd
+ top
+ nmcd
+ right
+ nmcd
+ bottom
+
+set rect
+ rect
+ rect
+ left
+ nmcd
+ top
+ nmcd
+ right
+ nmcd
+ bottom
+ rect
+ left
+
+draw edge
+
+ rect
+
+bdr sunkeninner
+
+ bottom
+ lresult
+
+cdrf dodefault
+
+ dblclk
+ hooks
+ swt
+default selection
+ lresult
+ one
+
+tvn selchangeda
+
+tvn selchangedw
+ style
+ swt
+ multi
+lock selection
+old selected
+ tvitem
+ item
+ tvitem
+ offset
+ nmhdr
+ sizeof
+
+move memory
+ item
+ param
+ offset
+ tvitem
+ sizeof
+ item
+ mask
+
+tvif state
+ item
+state mask
+
+tvis selected
+ item
+ state
+
+tvis selected
+
+send message
+ handle
+
+tvm setitem
+ item
+new selected
+ignore select
+ tvitem
+ item
+ tvitem
+ offset
+ nmhdr
+ sizeof
+ tvitem
+ sizeof
+
+move memory
+ item
+ param
+ offset
+ tvitem
+ sizeof
+ item
+ mask
+
+tvif state
+ item
+state mask
+
+tvis selected
+ item
+ state
+
+send message
+ handle
+
+tvm setitem
+ item
+ignore select
+ tvitem
+ item
+ tvitem
+ offset
+ nmhdr
+ sizeof
+ tvitem
+ sizeof
+
+move memory
+ item
+ param
+ offset
+ tvitem
+ sizeof
+ anchor
+ item
+ item
+ event
+ event
+ event
+ event
+ item
+ items
+ item
+ param
+post event
+ swt
+ selection
+ event
+update scroll bar
+
+tvn selchanginga
+
+tvn selchangingw
+ style
+ swt
+ multi
+lock selection
+ tvitem
+ item
+ tvitem
+ offset
+ nmhdr
+ sizeof
+
+move memory
+ item
+ param
+ offset
+ tvitem
+ sizeof
+old selected
+ item
+ state
+
+tvis selected
+ offset
+ nmhdr
+ sizeof
+ tvitem
+ sizeof
+
+move memory
+ item
+ param
+ offset
+ tvitem
+ sizeof
+new selected
+ item
+ state
+
+tvis selected
+ignore select
+ignore deselect
+ anchor
+ style
+ swt
+ multi
+deselect all
+
+tvn itemexpandeda
+
+tvn itemexpandedw
+ insert
+
+send message
+ handle
+
+tvm setinsertmark
+insert after
+ insert
+update scroll bar
+
+tvn itemexpandinga
+
+tvn itemexpandingw
+ insert
+
+send message
+ handle
+
+tvm setinsertmark
+ignore expand
+ tvitem
+ item
+ tvitem
+ offset
+ nmhdr
+ sizeof
+ tvitem
+ sizeof
+
+move memory
+ item
+ param
+ offset
+ tvitem
+ sizeof
+ items
+tree item
+ item
+ items
+ item
+ param
+ item
+ event
+ event
+ event
+ event
+ item
+ item
+ action
+
+move memory
+ action
+ param
+ nmhdr
+ sizeof
+ action
+
+tve expand
+ item
+ state
+
+tvis expanded
+send event
+ swt
+ expand
+ event
+ disposed
+ lresult
+ zero
+
+tve collapse
+send event
+ swt
+ collapse
+ event
+ disposed
+ lresult
+ zero
+
+tvn begindraga
+
+tvn begindragw
+
+tvn beginrdraga
+
+tvn beginrdragw
+ tvitem
+ item
+ tvitem
+ offset
+ nmhdr
+ sizeof
+ tvitem
+ sizeof
+
+move memory
+ item
+ param
+ offset
+ tvitem
+ sizeof
+ item
+ item
+ item
+ state
+
+tvis selected
+ignore select
+ignore deselect
+
+send message
+ handle
+
+tvm selectitem
+
+tvgn caret
+ item
+ item
+ignore select
+ignore deselect
+drag started
+
+ recognizegesture
+
+ ppc
+has menu
+ menu
+ menu
+ disposed
+has menu
+ hooks
+ swt
+menu detect
+ lresult
+ one
+
+ contextmenu
+
+ ppc
+has menu
+ menu
+ menu
+ disposed
+has menu
+ hooks
+ swt
+menu detect
+ nmrginfo
+ nmrg
+ nmrginfo
+
+move memory
+ nmrg
+ param
+ nmrginfo
+ sizeof
+show menu
+ nmrg
+
+ nmrg
+
+gesture completed
+ lresult
+ one
+notify child
+ param
+ param
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  provide  selectable  user  interface  object  that  displays  hierarchy  items  and  issue  notification  when  item  the  hierarchy  selected  the  item  children  that  may  added  instances  this  class  must  type  code tree item  code  note  that  although  this  class  subclass  code  composite  code  does  not  make  sense  add  code  control  code  children  set  layout  styles  single  multi  check  full  selection  events  selection default selection  collapse  expand  note  only  one  the  styles  single  and  multi  may  specified  important  this  class  not  intended  subclassed 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  single  see  swt  multi  see  swt  check  see  widget check subclass  see  widget get style
+feature  windows  not  possible  create  tree  that  scrolls  and  does  not  have  scroll  bars  the  tvs  noscroll  style  will  remove  the  scroll  bars  but  the  tree  will  never  scroll  therefore  matter  what  style  bits  are  specified  set  the  scroll  and  scroll  bits  that  the  swt  style  will  match  the  widget  that  windows  creates
+bug  windows  when  tvm  getbkcolor  used  more  than  once  set  the  background  color  tree  the  background  color  the  lines  and  the  plus  minus  does  not  change  the  new  color  the  fix  set  the  background  color  the  default  before  setting  the  new  color
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  receiver  selection  changes  sending  one  the  messages  defined  the  code selection listener  code  interface  when  code widget selected  code  called  the  item  field  the  event  object  valid  the  reciever  has  code  swt  check  code  style  set  and  the  check  selection  changes  the  event  object  detail  field  contains  the  value  code  swt  check  code  code widget default selected  code  typically  called  when  item  double  clicked  the  item  field  the  event  object  valid  for  default  selection  but  the  detail  field  not  used  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener  see selection event
+adds  the  listener  the  collection  listeners  who  will  notified  when  item  the  receiver  expanded  collapsed  sending  one  the  messages  defined  the  code tree listener  code  interface  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see tree listener  see remove tree listener
+bug  windows  for  some  reason  when  the  user  clicks  this  control  the  windows  hook  msgfilter  sent  despite  the  fact  that  input  event  from  dialog  box  message  box  menu  scroll  bar  did  not  seem  occur  the  fix  ignore  the  hook
+feature  windows  redraw  turned  off  using  setredraw  and  tree  item  that  not  child  the  first  root  selected  scrolled  using  tvm  selectitem  tvm  ensurevisible  then  scrolling  does  not  occur  the  fix  detect  this  case  and  make  sure  that  redraw  temporarly  enabled  avoid  flashing def window proc  called  disable  redrawing  note  the  code  that  actually  works  around  the  problem  the  callers  this  method
+feature  windows  version  comctl  dll  the  font  changed  for  item  the  bounds  for  the  item  are  not  updated  causing  the  text  clipped  the  fix  detect  the  version  comctl  dll  and  one  the  versions  with  the  problem  then  use  version  the  control  version  that  does  not  have  the  problem  this  the  recomended  work  around  from  the  msdn
+set  the  checkbox  image  list
+feature  windows  when  the  control  created  does  not  use  the  default  system  font  new  hfont  created  and  destroyed  when  the  control  destroyed  this  means  that  program  that  queries  the  font  from  this  control  uses  the  font  another  control  and  then  destroys  this  control  will  have  the  font  unexpectedly  destroyed  the  other  control  the  fix  assign  the  font  ourselves  each  time  the  control  created  the  control  will  not  destroy  font  that  did  not  create
+bug  windows  for  some  reason  when  hdm  insertitem  used  insert  item  into  header  without  text  not  possible  set  the  text  later  time  the  fix  insert  the  item  with  empty  string
+when  the  first  column  created  hide  the  horizontal  scroll  bar
+redraw  hide  the  items  when  the  first  column  created
+this  code  intentionally  commented
+parent 
+int  bits get window long  handle  gwl  style
+bits  tvs  linesatroot
+set window long  handle  gwl  style  bits
+
+bug  windows  when  child  item  added  parent  item  that  has  children  outside  notify  with  control  code  tvn  itemexpanded  the  tree  widget  does  not  redraw  the  indicator  the  fix  detect  the  case  when  the  first  child  added  visible  parent  item  and  redraw  the  parent
+old style  visible new style  visible
+deselects  all  selected  items  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+when  the  last  column  deleted  show  the  horizontal  scroll  bar  otherwise  left  align  the  first  column  and  redraw  the  columns  the  right
+feature  windows  when  item  removed  that  not  visible  the  tree  because  belongs  collapsed  branch  windows  redraws  the  tree  causing  flash  for  each  item  that  removed  the  fix  detect  whether  the  item  visible  force  the  widget  fully  painted  turn  off  redraw  remove  the  item  and  validate  the  damage  caused  the  removing  the  item
+the  item  that  was  deleted  was  the  last  child  tree  item  that  visible  redraw  the  parent  item  force  the  updated
+feature  windows  when  tree  given  background  color  using  tvm  setbkcolor  and  the  tree  disabled  windows  draws  the  tree  using  the  background  color  rather  than  the  disabled  colors  this  different  from  the  table  which  draws  grayed  the  fix  set  the  default  background  color  while  the  tree  disabled  and  restore  when  enabled
+feature  windows  when  tree  given  background  color  using  tvm  setbkcolor  and  the  tree  disabled  windows  draws  the  tree  using  the  background  color  rather  than  the  disabled  colors  this  different  from  the  table  which  draws  grayed  the  fix  set  the  default  background  color  while  the  tree  disabled  and  restore  when  enabled
+returns  the  width  pixels  grid  line  return  the  width  grid  line  pixels  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  the  height  the  receiver  header  return  the  height  the  header  zero  the  header  not  visible  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  code  true  code  the  receiver  header  visible  and  code  false  code  otherwise  one  the  receiver  ancestors  not  visible  some  other  condition  makes  the  receiver  not  visible  this  method  may  still  indicate  that  considered  visible  even  though  may  not  actually  showing  return  the  receiver  header  visibility  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  the  column  the  given  zero  relative  index  the  receiver  throws  exception  the  index  out  range  code tree column  code  were  created  the  programmer  this  method  will  throw  code  error  invalid  range  code  despite  the  fact  that  single  column  data  may  visible  the  tree  this  occurs  when  the  programmer  uses  the  tree  like  list  adding  items  but  never  creating  column  param  index  the  index  the  column  return  return  the  column  the  given  index  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  the  number  columns  contained  the  receiver  code tree column  code  were  created  the  programmer  this  value  zero  despite  the  fact  that  visually  one  column  items  may  visible  this  occurs  when  the  programmer  uses  the  tree  like  list  adding  items  but  never  creating  column  return  the  number  columns  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  array  code tree column  code  which  are  the  columns  the  receiver  code tree column  code  were  created  the  programmer  the  array  empty  despite  the  fact  that  visually  one  column  items  may  visible  this  occurs  when  the  programmer  uses  the  tree  like  list  adding  items  but  never  creating  column  note  this  not  the  actual  structure  used  the  receiver  maintain  its  list  items  modifying  the  array  will  not  affect  the  receiver  return  the  items  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  the  item  the  given  zero  relative  index  the  receiver  throws  exception  the  index  out  range  param  index  the  index  the  item  return  return  the  item  the  given  index  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  the  item  the  given  point  the  receiver  null  such  item  exists  the  point  the  coordinate  system  the  receiver  param  point  the  point  used  locate  the  item  return  the  item  the  given  point  exception illegal argument exception  error  null  argument  the  point  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  number  items  contained  the  receiver  that  are  direct  item  children  the  receiver  the  number  that  returned  the  number  roots  the  tree  return  the  number  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  height  the  area  which  would  used  display  one  the  items  the  tree  return  the  height  one  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  possibly  empty  array  items  contained  the  receiver  that  are  direct  item  children  the  receiver  these  are  the  roots  the  tree  note  this  not  the  actual  structure  used  the  receiver  maintain  its  list  items  modifying  the  array  will  not  affect  the  receiver  return  the  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  some  cases  expand  collapse  message  can  occurs  from  within  tvm  deleteitem  when  this  happens  the  item  being  destroyed  has  been  removed  from  the  list  items  but  has  not  been  deleted  from  the  tree  the  fix  check  for  null  items  and  remove  them  from  the  list
+returns  code  true  code  the  receiver  lines  are  visible  and  code  false  code  otherwise  one  the  receiver  ancestors  not  visible  some  other  condition  makes  the  receiver  not  visible  this  method  may  still  indicate  that  considered  visible  even  though  may  not  actually  showing  return  the  visibility  state  the  lines  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  the  receiver  parent  item  which  must  code tree item  code  null  when  the  receiver  root  return  the  receiver  parent  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  array  code tree item  code  that  are  currently  selected  the  receiver  the  order  the  items  unspecified  empty  array  indicates  that  items  are  selected  note  this  not  the  actual  structure  used  the  receiver  maintain  its  selection  modifying  the  array  will  not  affect  the  receiver  return  array  representing  the  selection  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  number  selected  items  contained  the  receiver  return  the  number  selected  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  item  which  currently  the  top  the  receiver  this  item  can  change  when  items  are  expanded  collapsed  scrolled  new  items  are  added  removed  return  the  item  the  top  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+searches  the  receiver  list  starting  the  first  column  index  until  column  found  that  equal  the  argument  and  returns  the  index  that  column  column  found  returns  param  column  the  search  column  return  the  index  the  column  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+searches  the  receiver  list  starting  the  first  item  index  until  item  found  that  equal  the  argument  and  returns  the  index  that  item  item  found  returns  param  item  the  search  item  return  the  index  the  item  exception illegal argument exception  error  null  argument  the  tool  item  null  error  invalid  argument  the  tool  item  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+feature  windows  for  some  reason  when  tvm  getimagelist  tvm  setimagelist  sent  the  tree  issues  customdraw  messages  this  behavior  unwanted  when  the  tree  being  disposed  the  fix  ingore  customdraw  messages  clearing  the  custom  draw  flag  note  this  only  happens  windows 
+removes  all  the  items  from  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+this  code  intentionally  commented
+send message  handle  setredraw 
+this  code  intentionally  commented
+send message  handle  setredraw 
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  receiver  selection  changes  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  items  the  receiver  are  expanded  collapsed  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see tree listener  see add tree listener
+display  mark  indicating  the  point  which  item  will  inserted  the  drop  insert  item  has  visual  hint  show  where  dragged  item  will  inserted  when  dropped  the  tree  param  item  the  insert  item  null  will  clear  the  insertion  mark  param  before  true  places  the  insert  mark  above  item  false  places  the  insert  mark  below  item  exception illegal argument exception  error  invalid  argument  the  item  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+marks  the  receiver  lines  visible  the  argument  code  true  code  and  marks  invisible  otherwise  one  the  receiver  ancestors  not  visible  some  other  condition  makes  the  receiver  not  visible  marking  visible  may  not  actually  cause  displayed  param  show  the  new  visibility  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+selects  all  the  items  the  receiver  the  receiver  single  select  nothing  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  when  tree  given  background  color  using  tvm  setbkcolor  and  the  tree  disabled  windows  draws  the  tree  using  the  background  color  rather  than  the  disabled  colors  this  different  from  the  table  which  draws  grayed  the  fix  set  the  default  background  color  while  the  tree  disabled  and  restore  when  enabled
+ensure  that  the  selection  visible  when  the  tree  resized  from  zero  size  size  that  can  show  the  selection
+bug  windows  under  certain  circumstances  when  setcursor  sent  from send message  windows  the  window  proc  for  the  tree  the  fix  avoid  calling  the  tree  window  proc  and  set  the  cursor  for  the  tree  outside  setcursor  note  this  code  assumes  that  the  default  cursor  for  the  tree  idc  arrow
+marks  the  receiver  header  visible  the  argument  code  true  code  and  marks  invisible  otherwise  one  the  receiver  ancestors  not  visible  some  other  condition  makes  the  receiver  not  visible  marking  visible  may  not  actually  cause  displayed  param  show  the  new  visibility  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+bug  windows  for  some  reason  when  setredraw  used  turn  redraw  for  tree  and  the  tree  contains  items  the  last  item  the  tree  does  not  redraw  properly  the  tree  has  only  one  item  that  item  not  drawn  another  window  dragged  top  the  item  parts  the  item  are  redrawn  and  erased  random  the  fix  ensure  that  this  case  doesn  happen  inserting  and  deleting  item  when  redraw  turned  and  there  are  items  the  tree
+sets  the  receiver  selection  the  given  array  items  the  current  selection  cleared  before  the  new  items  are  selected  items  that  are  not  the  receiver  are  ignored  the  receiver  single  select  and  multiple  items  are  specified  then  all  items  are  ignored  param  items  the  array  items  exception illegal argument exception  error  null  argument  the  array  items  null  error  invalid  argument  one  the  items  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  tree deselect all
+select  deselect  the  first  item
+bug  windows  when  tvm  selectitem  used  select  and  scroll  item  visible  and  the  client  area  the  tree  smaller  that  the  size  one  item  tvm  selectitem  makes  the  next  item  the  tree  visible  making  the  top  item  instead  making  the  desired  item  visible  the  fix  detect  the  case  when  the  client  area  too  small  and  make  the  desired  visible  item  the  top  item  the  tree  note  that  tvm  selectitem  when  called  with  tvgn  firstvisible  also  requires  the  work  around  for  scrolling
+feature  windows  when  the  old  and  new  focused  item  are  the  same  windows  does  not  check  make  sure  that  the  item  actually  selected  not  just  focused  the  fix  force  the  item  draw  selected  setting  the  state  mask  and  ensure  that  visible
+select  deselect  the  rest  the  items
+sets  the  item  which  currently  the  top  the  receiver  this  item  can  change  when  items  are  expanded  collapsed  scrolled  new  items  are  added  removed  param  item  the  item  shown  exception illegal argument exception  error  null  argument  the  item  null  error  invalid  argument  the  item  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  tree get top item  since 
+bug  windows  when  tvm  ensurevisible  used  ensure  that  item  visible  and  the  client  area  the  tree  smaller  that  the  size  one  item  tvm  ensurevisible  makes  the  next  item  the  tree  visible  making  the  top  item  instead  making  the  desired  item  visible  the  fix  detect  the  case  when  the  client  area  too  small  and  make  the  desired  visible  item  the  top  item  the  tree
+shows  the  column  the  column  already  showing  the  receiver  this  method  simply  returns  otherwise  the  columns  are  scrolled  until  the  column  visible  param  column  the  column  shown  exception illegal argument exception  error  null  argument  the  item  null  error  invalid  argument  the  item  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+shows  the  item  the  item  already  showing  the  receiver  this  method  simply  returns  otherwise  the  items  are  scrolled  and  expanded  until  the  item  visible  param  item  the  item  shown  exception illegal argument exception  error  null  argument  the  item  null  error  invalid  argument  the  item  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  tree show selection
+shows  the  selection  the  selection  already  showing  the  receiver  this  method  simply  returns  otherwise  the  items  are  scrolled  until  the  selection  visible  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  tree show item tree item
+non  nls 
+bits  tvs  notooltips
+bug  win  param  should  null  when  the  message  not  sent  scroll  bar  control  but  contains  the  handle  the  window  when  the  message  sent  scroll  bar  control  correctly  contains  the  handle  the  scroll  bar  the  fix  check  for  both
+keyboard  messages
+mouse  messages
+other  messages
+feature  windows  the  tree  control  beeps  char  when  the  search  for  the  item  that  matches  the  key  stroke  fails  this  the  standard  tree  behavior  but  unexpected  when  the  key  that  was  typed  was  esc  space  the  fix  avoid  calling  the  tree  window  proc  these  cases
+feature  windows  windows  sends  return  from  keydown  instead  using  char  this  means  that  application  code  that  expects  consume  the  key  press  and  therefore  avoid  swt default selection  event  from  char  will  fail  the  fix  implement  swt default selection  char  instead  using  return
+ensure  that  there  accessible  object  created  for  this  control  because  support  for  checked  item  and  tree  column  accessibility  temporarily  implemented  the  accessibility  package
+ensure  that  the  window  proc  does  not  process  space  that  can  handled  char  this  allows  the  application  cancel  operation  that  normally  performed  keydown  from  char
+this  code  intentionally  commented
+send message  handle  setredraw 
+this  code  intentionally  commented
+send message  handle  setredraw 
+feature  windows  when  multiple  item  have  the  tvis  selected  state  windows  redraws  only  the  focused  item  the  color  used  show  the  selection  when  the  tree  loses  gains  focus  the  fix  force  windows  redraw  all  the  visible  items  when  focus  gained  lost
+multi  select  tree  the  user  collapsing  subtree  that  contains  selected  items  clear  the  selection  from  these  items  and  issue  selection  event  only  items  that  are  selected  and  visible  are  cleared  this  code  also  runs  the  case  when  item  selected
+look  for  check  uncheck
+get  the  selected  state  the  item  under  the  mouse
+get  the  selected  state  the  last  selected  item
+check  for  control  drag  selection
+this  code  intentionally  commented
+send message  handle  setredraw 
+the  selection
+feature  windows  when  the  old  and  new  focused  item  are  the  same  windows  does  not  check  make  sure  that  the  item  actually  selected  not  just  focused  the  fix  force  the  item  draw  selected  setting  the  state  mask  this  only  necessary  when  the  tree  single  select
+reselect  the  last  item  that  was  unselected
+check  for  control  and  reselect  the  last  item
+this  code  intentionally  commented
+send message  handle  setredraw 
+check  for  shift  normal  select  and  delect  reselect  items
+issue  notification
+feature  windows  inside  lbuttondown  and  rbuttondown  the  widget  starts  modal  loop  determine  the  user  wants  begin  drag  drop  operation  marque  select  unfortunately  this  modal  loop  eats  the  corresponding  mouse  the  fix  detect  the  cases  when  the  modal  loop  has  eaten  the  mouse  and  issue  fake  mouse 
+feature  windows  the  automatically  created  header  control  created  unicode  window  not  ansi  window  despite  the  fact  that  the  parent  created  ansi  window  this  means  that  sends  unicode  notification  messages  the  parent  window  for  good  reason  the  data  and  size  the  nmheader  and  hditem  structs  identical  between  the  platforms  different  message  actually  necessary  despite  this  windows  sends  different  messages  the  fix  look  for  both  messages  despite  the  platform  this  works  because  only  one  will  sent  either  platform  never  both
+todo  column  flashes  when  resized
+feature  windows  the  receiver  uses  rbuttondown  initiate  drag  drop  operation  depending  how  the  user  moves  the  mouse  the  user  clicks  the  right  button  without  moving  the  mouse  the  tree  consumes  the  corresponding  rbuttonup  the  fix  avoid  calling  the  window  proc  for  the  tree
+this  code  intentionally  commented
+get capture  handle set capture  handle
+feature  windows  when  the  user  selects  tree  item  with  the  right  mouse  button  the  item  remains  selected  only  long  the  user  does  not  release  move  the  mouse  soon  this  happens  the  selection  snaps  back  the  previous  selection  this  behavior  can  observed  the  explorer  but  not  instantly  apparent  because  the  explorer  explicity  sets  the  selection  when  the  user  chooses  menu  item  the  user  cancels  the  menu  the  selection  snaps  back  the  fix  avoid  calling  the  window  proc  and  the  selection  ourselves  this  behavior  consistent  with  the  table
+feature  windows  for  some  reason  when  print  used  capture  image  hierarchy  that  contains  tree  with  columns  the  clipping  that  used  stop  the  first  column  from  drawing  top  subsequent  columns  stops  the  first  column  and  the  tree  lines  from  drawing  this  does  not  happen  during  paint  the  fix  draw  without  clipping  and  then  draw  the  rest  the  columns  top  since  the  drawing  happening  printclient  the  redrawing  not  visible
+feature  windows  when  multiple  item  have  the  tvis  selected  state  windows  redraws  only  the  focused  item  the  color  used  show  the  selection  when  the  tree  loses  gains  focus  the  fix  force  windows  redraw  all  the  visible  items  when  focus  gained  lost
+feature  windows  tree  controls  send  ctlcoloredit  allow  application  code  change  the  default  colors  this  undocumented  and  conflicts  with  tvm  settextcolor  and  tvm  setbkcolor  the  documented  way  this  the  fix  ignore  ctlcoloredit  messages  from  trees
+feature  windows  when  new  tree  item  inserted  using  tvm  insertitem  tvn  getdispinfo  sent  before  tvm  insertitem  returns  and  before  the  item  added  the  items  array  the  fix  check  for  null  note  this  only  happens  with  the  version  comctl  dll
+feature  windows  when  new  tree  item  inserted  using  tvm  insertitem  and  the  tree  using  custom  draw  customdraw  sent  before  tvm  insertitem  returns  and  before  the  item  added  the  items  array  the  fix  check  for  null  note  this  only  happens  with  the  version  comctl  dll
+feature  windows  under  certain  circumstances  windows  sends  cdds  itempostpaint  for  empty  rectangle  this  not  problem  providing  that  graphics  not  occur  outside  the  rectangle  the  fix  test  for  the  rectangle  and  draw  nothing  note  this  seems  happen  when  both  imagecallback  and  lpstr  textcallback  are  used  the  same  time  with  tvm  setitem
+feature  windows  when  the  mouse  pressed  and  the  selection  first  drawn  for  tree  the  item  drawn  selected  but  the  tvis  selected  bits  for  the  item  are  not  set  when  the  user  moves  the  mouse  slightly  and  drag  and  drop  operation  not  started  the  item  drawn  again  and  this  time  tvis  selected  set  this  means  that  item  that  tree  that  has  the  style  tvs  fullrowselect  and  that  also  contains  colored  cells  will  not  draw  the  entire  row  selected  until  the  user  moves  the  mouse  the  fix  test  for  the  selection  colors  and  guess  that  the  item  selected  note  this  code  doesn  work  when  the  foreground  and  background  the  tree  are  set  the  selection  colors  but  this  does  not  happen  regular  application
+bug  windows  when draw text  used  with  vcenter  and  endellipsis  the  ellipsis  can  draw  outside  the  rectangle  when  the  rectangle  empty  the  fix  avoid  all  text  drawing  for  empty  rectangles
+restore  the  old  selection  state  both  items
+save  the  old  selection  state  for  both  items
+bug  windows  when  tvm  setinsertmark  used  set  insert  mark  for  tree  and  item  expanded  collapsed  near  the  insert  mark  the  tree  does  not  redraw  the  insert  mark  properly  the  fix  hide  and  show  the  insert  mark  whenever  item  expanded  collapsed
+bug  windows  when  tvm  setinsertmark  used  set  insert  mark  for  tree  and  item  expanded  collapsed  near  the  insert  mark  the  tree  does  not  redraw  the  insert  mark  properly  the  fix  hide  and  show  the  insert  mark  whenever  item  expanded  collapsed
+feature  windows  some  cases  tvm  itemexpanding  sent  from  within  tvm  deleteitem  for  the  tree  item  being  destroyed  the  time  the  message  sent  the  item  has  already  been  removed  from  the  list  items  the  fix  check  for  null
+bug  windows  when  the  numeric  keypad  asterisk  key  used  expand  every  item  the  tree  windows  sends  tvn  itemexpanding  items  the  tree  that  have  already  been  expanded  the  fix  detect  that  the  item  already  expanded  and  ignore  the  notification
+feature  pocket  the  tree  and  table  controls  detect  the  tap  and  hold  gesture  default  they  send  contextmenu  message  show  the  popup  menu  this  default  behaviour  unwanted  pocket  2002  when  menu  has  been  set  still  draws  red  circle  the  fix  disable  this  default  behaviour  when  menu  set  returning  true  when  receiving  the  pocket  2002  specific  recognizegesture  message
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,519 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.Cursor.java </DOCNO>
+<text>
+<class>
+ cursor
+</class>
+<method>
+ cursor
+ cursor
+ cursor
+ cursor
+ dispose
+ equals
+hash code
+ disposed
+ string
+win 32_new
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ cursor
+ resource
+ handle
+ icon
+hand source
+hand mask
+ cursor
+ cursor
+ device
+ device
+ style
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ device
+ device
+cursor name
+ style
+ swt
+cursor hand
+cursor name
+
+idc hand
+ swt
+cursor arrow
+cursor name
+
+idc arrow
+ swt
+cursor wait
+cursor name
+
+idc wait
+ swt
+cursor cross
+cursor name
+
+idc cross
+ swt
+cursor appstarting
+cursor name
+
+idc appstarting
+ swt
+cursor help
+cursor name
+
+idc help
+ swt
+cursor sizeall
+cursor name
+
+idc sizeall
+ swt
+cursor sizenesw
+cursor name
+
+idc sizenesw
+ swt
+cursor sizens
+cursor name
+
+idc sizens
+ swt
+cursor sizenwse
+cursor name
+
+idc sizenwse
+ swt
+cursor sizewe
+cursor name
+
+idc sizewe
+ swt
+cursor sizen
+cursor name
+
+idc sizens
+ swt
+cursor sizes
+cursor name
+
+idc sizens
+ swt
+cursor sizee
+cursor name
+
+idc sizewe
+ swt
+cursor sizew
+cursor name
+
+idc sizewe
+ swt
+cursor sizene
+cursor name
+
+idc sizenesw
+ swt
+cursor sizese
+cursor name
+
+idc sizenwse
+ swt
+cursor sizesw
+cursor name
+
+idc sizenesw
+ swt
+cursor sizenw
+cursor name
+
+idc sizenwse
+ swt
+cursor uparrow
+cursor name
+
+idc uparrow
+ swt
+cursor ibeam
+cursor name
+
+idc ibeam
+ swt
+ cursor
+cursor name
+
+ idc
+ swt
+ error
+ swt
+error invalid argument
+ handle
+
+load cursor
+cursor name
+ handle
+ style
+ swt
+cursor hand
+ width
+
+get system metrics
+
+ cxcursor
+ height
+
+get system metrics
+
+ cycursor
+ width
+ height
+ inst
+
+get module handle
+
+ win
+ swt
+ error
+ swt
+error not implemented
+ handle
+
+create cursor
+ inst
+hand source
+hand mask
+ handle
+ swt
+ error
+ swt
+error handles
+ device
+ tracking
+ device
+new object
+ cursor
+ device
+ device
+image data
+ source
+image data
+ mask
+ hotspot
+ hotspot
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ device
+ device
+ source
+ swt
+ error
+ swt
+error null argument
+ mask
+ source
+get transparency type
+ swt
+transparency mask
+ swt
+ error
+ swt
+error null argument
+ mask
+ source
+get transparency mask
+ mask
+ width
+ source
+ width
+ mask
+ height
+ source
+ height
+ swt
+ error
+ swt
+error invalid argument
+ hotspot
+ source
+ width
+ hotspot
+ hotspot
+ source
+ height
+ hotspot
+ swt
+ error
+ swt
+error invalid argument
+ mask
+image data
+convert mask
+ mask
+ source
+image data
+convert mask
+ source
+source data
+image data
+convert pad
+ source
+ data
+ source
+ width
+ source
+ height
+ source
+ depth
+ source
+scanline pad
+mask data
+image data
+convert pad
+ mask
+ data
+ mask
+ width
+ mask
+ height
+ mask
+ depth
+ mask
+scanline pad
+ inst
+
+get module handle
+
+ win
+ swt
+ error
+ swt
+error not implemented
+ handle
+
+create cursor
+ inst
+ hotspot
+ hotspot
+ source
+ width
+ source
+ height
+source data
+mask data
+ handle
+ swt
+ error
+ swt
+error handles
+ device
+ tracking
+ device
+new object
+ cursor
+ device
+ device
+image data
+ source
+ hotspot
+ hotspot
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ device
+ device
+ source
+ swt
+ error
+ swt
+error null argument
+ hotspot
+ source
+ width
+ hotspot
+ hotspot
+ source
+ height
+ hotspot
+ swt
+ error
+ swt
+error invalid argument
+image data
+ mask
+ source
+get transparency mask
+ result
+ image
+ init
+ device
+ source
+ mask
+ bitmap
+ result
+ mask
+ result
+ iconinfo
+ info
+ iconinfo
+ info
+ icon
+ info
+hbm color
+ bitmap
+ info
+hbm mask
+ mask
+ info
+ hotspot
+ hotspot
+ info
+ hotspot
+ hotspot
+ handle
+
+create icon indirect
+ info
+ handle
+ swt
+ error
+ swt
+error handles
+
+delete object
+ bitmap
+
+delete object
+ mask
+ icon
+ device
+ tracking
+ device
+new object
+ dispose
+ handle
+ device
+ disposed
+ icon
+
+destroy icon
+ handle
+
+ win
+
+destroy cursor
+ handle
+ handle
+ device
+ tracking
+ device
+dispose object
+ device
+ equals
+ object
+ object
+ object
+ object
+ cursor
+ cursor
+ cursor
+ cursor
+ object
+ device
+ cursor
+ device
+ handle
+ cursor
+ handle
+hash code
+ handle
+ disposed
+ handle
+ string
+ string
+ disposed
+ handle
+ cursor
+win 32_new
+ device
+ device
+ handle
+ device
+ device
+ device
+get device
+ cursor
+ cursor
+ cursor
+ cursor
+ handle
+ handle
+ cursor
+ device
+ device
+ cursor
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  manage  operating  system  resources  that  specify  the  appearance  the  screen  pointer  create  cursor  you  specify  the  device  and  either  simple  cursor  style  describing  one  the  standard  operating  system  provided  cursors  the  image  and  mask  data  for  the  desired  appearance  application  code  must  explicitly  invoke  the  code  cursor  dispose  code  method  release  the  operating  system  resources  managed  each  instance  when  those  instances  are  longer  required  styles  cursor  arrow  cursor  wait  cursor  cross  cursor  appstarting  cursor  help  cursor  sizeall  cursor  sizenesw  cursor  sizens  cursor  sizenwse  cursor  sizewe  cursor  sizen  cursor  sizes  cursor  sizee  cursor  sizew  cursor  sizene  cursor  sizese  cursor  sizesw  cursor  sizenw  cursor  uparrow  cursor  ibeam  cursor  cursor  hand  note  only  one  the  above  styles  may  specified 
+the  handle  the  cursor  resource  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code 
+data  used  create  hand  cursor
+prevents  uninitialized  instances  from  being  created  outside  the  package
+constructs  new  cursor  given  device  and  style  constant  describing  the  desired  cursor  appearance  you  must  dispose  the  cursor  when  longer  required  param  device  the  device  which  allocate  the  cursor  param  style  the  style  cursor  allocate  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  error  invalid  argument  when  unknown  style  specified  exception swt error  error  handles  handle  could  not  obtained  for  cursor  creation  see  swt  cursor  arrow  see  swt  cursor  wait  see  swt  cursor  cross  see  swt  cursor  appstarting  see  swt  cursor  help  see  swt  cursor  sizeall  see  swt  cursor  sizenesw  see  swt  cursor  sizens  see  swt  cursor  sizenwse  see  swt  cursor  sizewe  see  swt  cursor  sizen  see  swt  cursor  sizes  see  swt  cursor  sizee  see  swt  cursor  sizew  see  swt  cursor  sizene  see  swt  cursor  sizese  see  swt  cursor  sizesw  see  swt  cursor  sizenw  see  swt  cursor  uparrow  see  swt  cursor  ibeam  see  swt  cursor  see  swt  cursor  hand
+idc  hand  supported  only  windows  2000  and  windows  create  hand  cursor  running  other  windows  platforms
+constructs  new  cursor  given  device  image  and  mask  data  describing  the  desired  cursor  appearance  and  the  and  coordinates  the  hotspot  that  the  point  within  the  area  covered  the  cursor  which  considered  where  the  screen  pointer  pointing  the  mask  data  allowed  null  but  this  case  the  source  must image data  representing  icon  that  specifies  both  color  data  and  mask  data  you  must  dispose  the  cursor  when  longer  required  param  device  the  device  which  allocate  the  cursor  param  source  the  color  data  for  the  cursor  param  mask  the  mask  data  for  the  cursor  null  param  hotspot  the  coordinate  the  cursor  hotspot  param  hotspot  the  coordinate  the  cursor  hotspot  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  error  null  argument  the  source  null  error  null  argument  the  mask  null  and  the  source  does  not  have  mask  error  invalid  argument  the  source  and  the  mask  are  not  the  same  size  the  hotspot  outside  the  bounds  the  image  exception swt error  error  handles  handle  could  not  obtained  for  cursor  creation 
+check  the  bounds  mask  must  the  same  size  source
+check  the  hotspots
+convert  depth 
+make  sure  source  and  mask  scanline  pad 
+create  the  cursor
+constructs  new  cursor  given  device  image  data  describing  the  desired  cursor  appearance  and  the  and  coordinates  the  hotspot  that  the  point  within  the  area  covered  the  cursor  which  considered  where  the  screen  pointer  pointing  you  must  dispose  the  cursor  when  longer  required  param  device  the  device  which  allocate  the  cursor  param  source  the  image  data  for  the  cursor  param  hotspot  the  coordinate  the  cursor  hotspot  param  hotspot  the  coordinate  the  cursor  hotspot  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  error  null  argument  the  image  null  error  invalid  argument  the  hotspot  outside  the  bounds  the  image  exception swt error  error  handles  handle  could  not  obtained  for  cursor  creation  since 
+check  the  hotspots
+create  the  icon
+disposes  the  operating  system  resources  associated  with  the  cursor  applications  must  dispose  all  cursors  which  they  allocate
+error  windows  destroy  the  current  cursor  check  that  the  cursor  that  about  destroyed  the  current  cursor  set  the  current  cursor  idc  arrow  note  that  windows  shares  predefined  cursors  the  call load cursor  does  not  leak
+temporary  code
+get cursor  handle
+set cursor load cursor  idc  arrow
+
+the  msdn  states  that  one  should  not  destroy  shared  cursor  that  one  obtained  from load cursor  however  does  not  appear  any  harm  rather  than  keep  track  how  cursor  was  created  just  destroy  them  all  this  causes  problems  the  future  put  the  flag  back 
+compares  the  argument  the  receiver  and  returns  true  they  represent  the  same  object  using  class  specific  comparison  param  object  the  object  compare  with  this  object  return  code  true  code  the  object  the  same  this  object  and  code  false  code  otherwise  see hash code
+returns  integer  hash  code  for  the  receiver  any  two  objects  that  return  code  true  code  when  passed  code  equals  code  must  return  the  same  value  for  this  method  return  the  receiver  hash  see  equals
+returns  code  true  code  the  cursor  has  been  disposed  and  code  false  code  otherwise  this  method  gets  the  dispose  state  for  the  cursor  when  cursor  has  been  disposed  error  invoke  any  other  method  using  the  cursor  return  code  true  code  when  the  cursor  disposed  and  code  false  code  otherwise
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  receiver
+invokes  platform  specific  functionality  allocate  new  cursor  important  this  method  not  part  the  public  api  for  code  cursor  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  device  the  device  which  allocate  the  color  param  handle  the  handle  for  the  cursor  return  new  cursor  object  containing  the  specified  device  and  handle
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,1831 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Menu.java </DOCNO>
+<text>
+<class>
+ menu
+</class>
+<method>
+ menu
+ menu
+ menu
+ menu
+ menu
+_set visible
+add help listener
+add menu listener
+check null
+check null
+check null
+check style
+create handle
+create item
+create widget
+default background
+default foreground
+destroy accelerators
+destroy item
+destroy widget
+fix menus
+get bounds
+get default item
+get enabled
+get item
+get item count
+get items
+get menu item count
+get name text
+get parent
+get parent item
+get parent menu
+get shell
+get visible
+image index
+ index
+ enabled
+ visible
+ redraw
+release child
+release handle
+release widget
+remove help listener
+remove menu listener
+set default item
+set enabled
+set location
+set location
+set visible
+ update
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ events
+ menu
+ widget
+ handle
+
+
+ hwnd
+
+
+has location
+menu item
+ cascade
+ decorations
+ parent
+image list
+image list
+ ppc
+ spmm
+ spbm
+ spmb
+ spbb
+ spsoftkey
+ spsoftkey
+ menu
+ control
+ parent
+check null
+ parent
+menu shell
+ swt
+ pop
+ menu
+ decorations
+ parent
+ style
+ parent
+check style
+ style
+ menu
+ menu
+parent menu
+check null
+parent menu
+ parent
+ swt
+drop down
+ menu
+menu item
+parent item
+check null
+parent item
+ parent
+ menu
+ decorations
+ parent
+ style
+ handle
+ parent
+check style
+ style
+ parent
+ parent
+ handle
+ handle
+check orientation
+ parent
+create widget
+_set visible
+ visible
+ style
+ swt
+ bar
+ swt
+drop down
+hwnd parent
+ parent
+ handle
+ visible
+ flags
+
+tpm leftbutton
+
+get key state
+
+ lbutton
+ flags
+
+tpm rightbutton
+ style
+ swt
+right left
+ flags
+
+tpm rightalign
+ parent
+ style
+ swt
+ mirrored
+ flags
+
+tpm rightalign
+ style
+ swt
+left right
+ flags
+
+tpm rightalign
+
+
+
+
+has location
+ pos
+
+get message pos
+
+ pos
+
+ pos
+ success
+
+track popup menu
+ handle
+ flags
+
+
+hwnd parent
+ success
+get menu item count
+ handle
+
+send message
+hwnd parent
+
+ menuselect
+
+send message
+hwnd parent
+
+ cancelmode
+add help listener
+help listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ help
+typed listener
+add menu listener
+menu listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ hide
+typed listener
+add listener
+ swt
+ show
+typed listener
+ control
+check null
+ control
+ control
+ control
+ swt
+ error
+ swt
+error null argument
+ control
+ menu
+check null
+ menu
+ menu
+ menu
+ swt
+ error
+ swt
+error null argument
+ menu
+menu item
+check null
+menu item
+ item
+ item
+ swt
+ error
+ swt
+error null argument
+ item
+check style
+ style
+check bits
+ style
+ swt
+ pop
+ swt
+ bar
+ swt
+drop down
+create handle
+ handle
+ style
+ swt
+ bar
+
+ ppc
+hwnd shell
+ parent
+ handle
+ shmenubarinfo
+ mbi
+ shmenubarinfo
+ mbi
+ size
+ shmenubarinfo
+ sizeof
+ mbi
+hwnd parent
+hwnd shell
+ mbi
+ flags
+
+shcmbf hidden
+ mbi
+tool bar
+ ppc
+ mbi
+inst res
+
+get library handle
+ success
+
+create menu bar
+ mbi
+ hwnd
+ mbi
+ hwnd
+ success
+ error
+ swt
+error handles
+
+send message
+ hwnd
+
+ deletebutton
+
+
+tool bar
+ style
+ swt
+ button
+tool bar
+ style
+ swt
+ button
+ spbb
+ spbm
+tool bar
+ style
+ swt
+ button
+ spmb
+ spmm
+ shmenubarinfo
+ mbi
+ shmenubarinfo
+ mbi
+ size
+ shmenubarinfo
+ sizeof
+ mbi
+hwnd parent
+ parent
+ handle
+ mbi
+ flags
+
+shcmbf hidden
+ mbi
+tool bar
+tool bar
+ mbi
+inst res
+
+get library handle
+
+create menu bar
+ mbi
+ error
+ swt
+error handles
+ hwnd
+ mbi
+ hwnd
+
+show window
+ hwnd
+
+ hide
+ tbbuttoninfo
+ info
+ tbbuttoninfo
+ info
+ size
+ tbbuttoninfo
+ sizeof
+ info
+ mask
+
+tbif command
+menu item
+ item
+tool bar
+ spmm
+tool bar
+ spmb
+ menu
+
+send message
+ hwnd
+
+shcmbm getsubmenu
+ spsoftkey
+
+remove menu
+ menu
+
+ byposition
+ menu
+ menu
+ menu
+ parent
+ swt
+drop down
+ menu
+ item
+menu item
+ menu
+ swt
+ cascade
+ item
+menu item
+ swt
+ push
+ info
+ command
+
+ item
+
+
+send message
+ hwnd
+
+ setbuttoninfo
+ spsoftkey
+ info
+tool bar
+ spmm
+tool bar
+ spbm
+ menu
+
+send message
+ hwnd
+
+shcmbm getsubmenu
+ spsoftkey
+
+remove menu
+ menu
+
+ byposition
+ menu
+ menu
+ menu
+ parent
+ swt
+drop down
+ menu
+ item
+menu item
+ menu
+ swt
+ cascade
+ item
+menu item
+ swt
+ push
+ info
+ command
+
+ item
+
+
+send message
+ hwnd
+
+ setbuttoninfo
+ spsoftkey
+ info
+ mask
+
+shmbof nodefault
+
+shmbof notify
+ param
+ mask
+ mask
+
+send message
+ hwnd
+
+shcmbm overridekey
+
+ escape
+ param
+ handle
+
+create menu
+ handle
+ error
+ swt
+error handles
+
+ hpc
+hwnd shell
+ parent
+ handle
+ hwnd
+
+command bar create
+
+get module handle
+hwnd shell
+ hwnd
+ error
+ swt
+error handles
+
+command bar show
+ hwnd
+
+command bar insert menubar
+ hwnd
+ handle
+ parent
+ style
+ swt
+ close
+ parent
+ style
+ swt
+ title
+
+command bar add adornments
+ hwnd
+ handle
+
+create popup menu
+ handle
+ error
+ swt
+error handles
+create item
+menu item
+ item
+ index
+ count
+get menu item count
+ handle
+ index
+ index
+ count
+ error
+ swt
+error invalid range
+ display
+add menu item
+ item
+ success
+
+ ppc
+
+
+ hwnd
+
+
+ tbbutton
+ button
+ tbbutton
+ button
+ command
+ item
+
+ button
+ style
+
+tbstyle autosize
+ item
+ style
+ swt
+ cascade
+ button
+ style
+
+tbstyle dropdown
+ item
+ style
+ swt
+ separator
+ button
+ style
+
+btns sep
+ button
+ state
+
+tbstate enabled
+ button
+ bitmap
+
+ imagenone
+ success
+
+send message
+ hwnd
+
+ insertbutton
+ index
+ button
+
+ win
+ flags
+
+ byposition
+ tchar
+new item
+ item
+ style
+ swt
+ separator
+ flags
+
+ separator
+new item
+ tchar
+ success
+
+insert menu
+ handle
+ index
+ flags
+ item
+
+new item
+ success
+ menuiteminfo
+ info
+ menuiteminfo
+ info
+ size
+ menuiteminfo
+ sizeof
+ info
+ mask
+
+miim data
+ info
+item data
+ item
+
+ success
+
+set menu item info
+ handle
+ index
+ info
+ heap
+
+get process heap
+ tchar
+ buffer
+ tchar
+byte count
+ buffer
+ length
+ tchar
+ sizeof
+psz text
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+psz text
+ buffer
+byte count
+ menuiteminfo
+ info
+ menuiteminfo
+ info
+ size
+ menuiteminfo
+ sizeof
+ info
+ mask
+
+ miim
+
+miim type
+
+miim data
+ info
+
+ info
+item data
+ item
+
+ info
+ type
+ item
+widget style
+ info
+type data
+psz text
+ success
+
+insert menu item
+ handle
+ index
+ info
+psz text
+
+heap free
+ heap
+psz text
+ success
+ display
+remove menu item
+ item
+ error
+ swt
+error item not added
+ redraw
+create widget
+create handle
+ parent
+add menu
+default background
+
+get sys color
+
+color menu
+default foreground
+
+get sys color
+
+color menutext
+destroy accelerators
+ parent
+destroy accelerators
+destroy item
+menu item
+ item
+
+ win
+
+ ppc
+
+
+ hwnd
+
+
+ redraw
+ index
+
+send message
+ hwnd
+
+ commandtoindex
+ item
+
+
+send message
+ hwnd
+
+ deletebutton
+ index
+ error
+ swt
+error item not removed
+ count
+
+send message
+ hwnd
+
+ buttoncount
+ count
+image list
+
+send message
+ handle
+
+ setimagelist
+ display
+release image list
+image list
+image list
+ index
+ menuiteminfo
+ info
+ menuiteminfo
+ info
+ size
+ menuiteminfo
+ sizeof
+ info
+ mask
+
+miim data
+
+get menu item info
+ handle
+ index
+ info
+ info
+item data
+ item
+
+ index
+ info
+item data
+ item
+
+ error
+ swt
+error item not removed
+
+remove menu
+ handle
+ index
+
+ byposition
+ error
+ swt
+error item not removed
+
+remove menu
+ handle
+ item
+
+
+ bycommand
+ error
+ swt
+error item not removed
+ redraw
+destroy widget
+ menu
+ handle
+
+ hwnd
+release handle
+
+ win
+
+
+command bar destroy
+
+ menu
+
+destroy menu
+ menu
+fix menus
+ decorations
+new parent
+menu item
+ items
+get items
+
+
+ items
+ length
+
+ items
+
+fix menus
+new parent
+ parent
+remove menu
+new parent
+add menu
+ parent
+new parent
+ rectangle
+get bounds
+check widget
+
+ win
+ rectangle
+ style
+ swt
+ bar
+ parent
+menu bar
+ rectangle
+hwnd shell
+ parent
+ handle
+ menubarinfo
+ info
+ menubarinfo
+ info
+ size
+ menubarinfo
+ sizeof
+
+get menu bar info
+hwnd shell
+
+objid menu
+ info
+ width
+ info
+ right
+ info
+ left
+ height
+ info
+ bottom
+ info
+ top
+ rectangle
+ info
+ left
+ info
+ top
+ width
+ height
+ count
+get menu item count
+ handle
+ count
+ rect
+ rect
+ rect
+
+get menu item rect
+ handle
+ rect
+ rect
+ rect
+ rect
+
+get menu item rect
+ handle
+ count
+ rect
+
+ rect
+ left
+
+ rect
+ top
+ width
+ rect
+ right
+ rect
+ left
+ height
+ rect
+ bottom
+ rect
+ top
+ rectangle
+
+
+ width
+ height
+ rectangle
+menu item
+get default item
+check widget
+
+ win
+
+
+get menu default item
+ handle
+
+ bycommand
+
+gmdi usedisabled
+
+ menuiteminfo
+ info
+ menuiteminfo
+ info
+ size
+ menuiteminfo
+ sizeof
+ info
+ mask
+
+ miim
+
+get menu item info
+ handle
+
+ info
+ display
+get menu item
+ info
+
+get enabled
+check widget
+ state
+ disabled
+menu item
+get item
+ index
+check widget
+
+
+ ppc
+
+
+ hwnd
+
+ ppc
+ tbbutton
+ button
+ tbbutton
+ result
+
+send message
+ hwnd
+
+ getbutton
+ index
+ button
+ result
+ error
+ swt
+error cannot get item
+
+ button
+ command
+
+
+ index
+ index
+ error
+ swt
+error cannot get item
+
+ index
+
+
+ menuiteminfo
+ info
+ menuiteminfo
+ info
+ size
+ menuiteminfo
+ sizeof
+ info
+ mask
+
+miim data
+
+get menu item info
+ handle
+ index
+ info
+ error
+ swt
+error invalid range
+
+ info
+item data
+ display
+get menu item
+
+get item count
+check widget
+get menu item count
+ handle
+menu item
+get items
+check widget
+
+ ppc
+
+
+ hwnd
+
+
+menu item
+ result
+menu item
+ result
+ display
+get menu item
+
+ result
+ display
+get menu item
+
+ result
+ count
+
+send message
+ hwnd
+
+ buttoncount
+ tbbutton
+ button
+ tbbutton
+menu item
+ result
+menu item
+ count
+
+
+ count
+
+
+send message
+ hwnd
+
+ getbutton
+
+ button
+ result
+
+ display
+get menu item
+ button
+ command
+ result
+ count
+ length
+
+ win
+
+get menu item count
+ handle
+menu item
+ items
+menu item
+ length
+ menuiteminfo
+ info
+ menuiteminfo
+ info
+ size
+ menuiteminfo
+ sizeof
+ info
+ mask
+
+miim data
+
+get menu item info
+ handle
+ count
+ info
+ count
+ items
+ length
+menu item
+new items
+menu item
+ count
+ system
+ arraycopy
+ items
+new items
+ count
+ items
+new items
+ items
+ count
+ display
+get menu item
+ info
+item data
+ count
+ items
+ length
+ items
+menu item
+ result
+menu item
+ count
+ system
+ arraycopy
+ items
+ result
+ count
+ result
+get menu item count
+ handle
+
+ win
+
+ ppc
+
+
+ hwnd
+
+
+
+send message
+ hwnd
+
+ buttoncount
+ count
+ menuiteminfo
+ info
+ menuiteminfo
+ info
+ size
+ menuiteminfo
+ sizeof
+
+get menu item info
+ handle
+ count
+ info
+ count
+ count
+
+get menu item count
+ handle
+ string
+get name text
+ string
+ result
+menu item
+ items
+get items
+ length
+ items
+ length
+ length
+
+
+ length
+
+ result
+ result
+ items
+
+get name text
+ result
+ result
+ items
+ length
+get name text
+ result
+ decorations
+get parent
+check widget
+ parent
+menu item
+get parent item
+check widget
+ cascade
+ menu
+get parent menu
+check widget
+ cascade
+ cascade
+ parent
+ shell
+get shell
+check widget
+ parent
+get shell
+get visible
+check widget
+ style
+ swt
+ bar
+ parent
+menu shell
+menu bar
+ style
+ swt
+ pop
+ menu
+ popups
+ display
+ popups
+ popups
+
+
+ popups
+ length
+
+ popups
+
+ shell
+ shell
+get shell
+ menu
+ menu
+ shell
+active menu
+ menu
+ menu
+ menu
+ menu
+get parent menu
+ menu
+image index
+ image
+ image
+ hwnd
+ image
+
+ imagenone
+image list
+old list
+
+send message
+ hwnd
+
+ getimagelist
+old list
+
+image list destroy
+old list
+ rectangle
+ bounds
+ image
+get bounds
+image list
+ display
+get image list
+ style
+ swt
+right left
+ bounds
+ width
+ bounds
+ height
+image list
+image list
+get handle
+
+send message
+ hwnd
+
+ setimagelist
+image list
+ index
+image list
+ index
+ image
+ index
+ index
+image list
+ add
+ image
+image list
+ put
+ index
+ image
+ index
+ index
+menu item
+ item
+check widget
+ item
+ error
+ swt
+error null argument
+ item
+ disposed
+ error
+ swt
+error invalid argument
+ item
+ parent
+
+ ppc
+
+
+ hwnd
+
+ ppc
+
+send message
+ hwnd
+
+ commandtoindex
+ item
+
+
+
+ item
+
+
+ item
+
+
+ index
+ menuiteminfo
+ info
+ menuiteminfo
+ info
+ size
+ menuiteminfo
+ sizeof
+ info
+ mask
+
+miim data
+
+get menu item info
+ handle
+ index
+ info
+ info
+item data
+ item
+
+ index
+ index
+ enabled
+check widget
+ menu
+parent menu
+get parent menu
+parent menu
+get enabled
+get enabled
+parent menu
+ enabled
+ visible
+check widget
+get visible
+ redraw
+ visible
+ style
+ swt
+ bar
+ display
+add bar
+ update
+release child
+release child
+ cascade
+ cascade
+release menu
+ style
+ swt
+ bar
+ display
+remove bar
+ parent
+menu bar
+ parent
+set menu bar
+ style
+ swt
+ pop
+ display
+remove popup
+release handle
+release handle
+ handle
+ hwnd
+release widget
+menu item
+ items
+get items
+
+
+ items
+ length
+
+menu item
+ item
+ items
+
+ item
+ disposed
+
+ ppc
+ hwnd
+ item
+ dispose
+ item
+release resources
+
+ ppc
+ hwnd
+image list
+
+send message
+ hwnd
+
+ setimagelist
+ display
+release tool image list
+image list
+image list
+release widget
+ parent
+ parent
+remove menu
+ parent
+ cascade
+remove help listener
+help listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ help
+ listener
+remove menu listener
+menu listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ hide
+ listener
+event table
+ unhook
+ swt
+ show
+ listener
+set default item
+menu item
+ item
+check widget
+ new
+ item
+ item
+ disposed
+ error
+ swt
+error invalid argument
+ item
+ parent
+ new
+ item
+
+
+ win
+ old
+
+get menu default item
+ handle
+
+ bycommand
+
+gmdi usedisabled
+ new
+ old
+
+set menu default item
+ handle
+ new
+
+ bycommand
+ redraw
+set enabled
+ enabled
+check widget
+ state
+ disabled
+ enabled
+ state
+ disabled
+set location
+
+
+check widget
+ style
+ swt
+ bar
+ swt
+drop down
+
+
+
+
+has location
+set location
+ point
+ location
+check widget
+ location
+ swt
+ error
+ swt
+error null argument
+set location
+ location
+
+ location
+
+set visible
+ visible
+check widget
+ style
+ swt
+ bar
+ swt
+drop down
+ visible
+ display
+add popup
+ display
+remove popup
+_set visible
+ update
+
+ ppc
+
+
+
+ hpc
+ menu
+menu bar
+ parent
+menu bar
+menu bar
+ menu
+ menu
+ menu
+ menu
+menu bar
+ menu
+ menu
+get parent menu
+ menu
+menu bar
+
+command bar draw menu bar
+menu bar
+ hwnd
+
+command bar show
+menu bar
+ hwnd
+
+ win
+ style
+ swt
+ bar
+ parent
+menu bar
+
+draw menu bar
+ parent
+ handle
+
+win 32_ version
+
+ version
+has check
+has image
+menu item
+ items
+get items
+
+
+ items
+ length
+
+menu item
+ item
+ items
+
+ item
+ image
+has image
+has check
+ item
+ style
+ swt
+ check
+ swt
+ radio
+has check
+has image
+
+ win
+ menuiteminfo
+ info
+ menuiteminfo
+ info
+ size
+ menuiteminfo
+ sizeof
+ info
+ mask
+
+miim bitmap
+
+
+ items
+ length
+
+menu item
+ item
+ items
+
+ style
+ swt
+ separator
+ item
+ image
+ info
+hbmp item
+has image
+
+hbmmenu callback
+
+set menu item info
+ handle
+ item
+
+ info
+ menuinfo
+ lpcmi
+ menuinfo
+ lpcmi
+ size
+ menuinfo
+ sizeof
+ lpcmi
+ mask
+
+mim style
+
+get menu info
+ handle
+ lpcmi
+has image
+has check
+ lpcmi
+ style
+
+mns checkorbmp
+ lpcmi
+ style
+
+mns checkorbmp
+
+set menu info
+ handle
+ lpcmi
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  user  interface  objects  that  contain  menu  items  styles  bar  drop  down  pop  radio  group  left  right  right  left  events  help  hide  show  note  only  one  bar  drop  down  and  pop  may  specified  only  one  left  right  right  left  may  specified  important  this  class  not  intended  subclassed 
+the  handle  the  resource  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code 
+resource  for  shmenubarinfo
+smart phone soft key bar  resource  ids
+constructs  new  instance  this  class  given  its  parent  and  sets  the  style  for  the  instance  that  the  instance  will  popup  menu  the  given  parent  shell  param  parent  control  which  will  the  parent  the  new  instance  cannot  null  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  pop  see  widget check subclass  see  widget get style
+constructs  new  instance  this  class  given  its  parent  which  must  code  decorations  code  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  decorations  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  menu  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  bar  see  swt  drop  down  see  swt  pop  see  widget check subclass  see  widget get style
+constructs  new  instance  this  class  given  its  parent  which  must  code  menu  code  and  sets  the  style  for  the  instance  that  the  instance  will  drop  down  menu  the  given  parent  parent  param parent menu  menu  which  will  the  parent  the  new  instance  cannot  null  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  drop  down  see  widget check subclass  see  widget get style
+constructs  new  instance  this  class  given  its  parent  which  must  code menu item  code  and  sets  the  style  for  the  instance  that  the  instance  will  drop  down  menu  the  given  parent  parent  menu  param parent item  menu  item  which  will  the  parent  the  new  instance  cannot  null  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  drop  down  see  widget check subclass  see  widget get style
+bug  ibm  jvm  for  some  reason  when  the check orientation  called  from create widget  the  jvm  issues  this  error  jvm  exception  subcode  occurred  thread  main  tid  addition  windows  dialog  appears  with  following  error  message  indicating  that  the  problem  may  the  jit app name  java  exe app ver mod name  jitc  dll mod ver  offset 000b 6912  the  fix  call check orientation  from  here
+feature  windows  legal  use track popup menu  display  empty  menu  long  menu  items  are  added  inside  initpopupmenu  items  are  added  then track popup menu  fails  and  does  not  send  indication  that  the  menu  has  been  closed  this  not  strictly  bug  but  leads  unwanted  behavior  when  application  code  assumes  that  every  initpopupmenu  will  eventually  result  menuselect  param ffff 0000  param  indicate  that  the  menu  has  been  closed  the  fix  detect  the  case  when track popup menu  fails  and  the  number  items  the  menu  zero  and  issue  fake  menuselect
+adds  the  listener  the  collection  listeners  who  will  notified  when  help  events  are  generated  for  the  control  sending  one  the  messages  defined  the  code help listener  code  interface  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see help listener  see remove help listener
+adds  the  listener  the  collection  listeners  who  will  notified  when  menus  are  hidden  shown  sending  one  the  messages  defined  the  code menu listener  code  interface  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see menu listener  see remove menu listener
+remove  the  item  from  the  resource  file
+note  win smart phone  the soft bar  contains  only  items  item  can  either  menu  button  swt  bar  creates soft bar  with  menus  swt  bar  swt  button  creates soft bar  with  button  for  button  and  menu  for  button  swt  bar  swt  button  swt  button  creates soft bar  with  buttons
+determine  type  menubar
+create  shmenubar
+defined  file
+feature  win smart phone  the  shcmbf  hidden  flag  causes  the  shmenubar  not  drawn  however  the  keyboard  events  still  through  the  workaround  also  hide  the  shmenubar  with show window
+set  first  item
+remove  the  item  from  the  resource  file
+set  second  item
+override  the  back  key  for  some  reason  the  owner  the  menubar  must  dialog  won  receive  the  hotkey  message  result  shell  win  must  use  the  class  dialog
+the  command  bar  hosts  the  close  button  when  the  window  does  not  have  caption
+bug  windows  for  some  reason  when insert menu item  used  insert  item  without  text  not  possible  use set menu item info  set  the  text  later  time  the  fix  insert  the  item  with  some  text  feature  windows  when  empty  string  used  instead  space  and insert menu item  used  set  submenu  before  setting  text  non  empty  string  the  menu  item  becomes  unexpectedly  disabled  the  fix  insert  space
+bug  ibm  jvm  for  some  reason  when  the  following  code  called  from  this  method  the  jvm  issues  this  error  jvm  exception  subcode  occurred  thread  main  tid  addition  windows  dialog  appears  with  following  error  message  indicating  that  the  problem  may  the  jit app name  java  exe app ver mod name  jitc  dll mod ver  offset 000b 6912  the  fix  move  the  code  the  caller  this  method
+check orientation  parent
+currently  not  used
+currently  not  used
+returns  rectangle  describing  the  receiver  size  and  location  relative  its  parent  its  display  its  parent  null  unless  the  receiver  menu  shell  this  case  the  location  relative  the  display  note  that  the  bounds  menu  menu  item  are  undefined  when  the  menu  not  visible  this  because  most  platforms  compute  the  bounds  menu  dynamically  just  before  displayed  return  the  receiver  bounding  rectangle  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+  public
+returns  the  default  menu  item  null  none  has  been  previously  set  return  the  default  menu  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  true  code  the  receiver  enabled  and  code  false  code  otherwise  disabled  menu  typically  not  selectable  from  the  user  interface  and  draws  with  inactive  grayed  look  return  the  receiver  enabled  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  enabled
+returns  the  item  the  given  zero  relative  index  the  receiver  throws  exception  the  index  out  range  param  index  the  index  the  item  return  return  the  item  the  given  index  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  number  items  contained  the  receiver  return  the  number  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  possibly  empty  array  code menu item  code  which  are  the  items  the  receiver  note  this  not  the  actual  structure  used  the  receiver  maintain  its  list  items  modifying  the  array  will  not  affect  the  receiver  return  the  items  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  parent  which  must  code  decorations  code  return  the  receiver  parent  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  parent  item  which  must  code menu item  code  null  when  the  receiver  root  return  the  receiver  parent  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  parent  item  which  must  code  menu  code  null  when  the  receiver  root  return  the  receiver  parent  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  shell  for  all  controls  other  than  shells  this  simply  returns  the  control  nearest  ancestor  shell  shells  return  themselves  even  they  are  children  other  shells  return  the  receiver  shell  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see get parent
+returns  code  true  code  the  receiver  visible  and  code  false  code  otherwise  one  the  receiver  ancestors  not  visible  some  other  condition  makes  the  receiver  not  visible  this  method  may  still  indicate  that  considered  visible  even  though  may  not  actually  showing  return  the  receiver  visibility  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+searches  the  receiver  list  starting  the  first  item  index  until  item  found  that  equal  the  argument  and  returns  the  index  that  item  item  found  returns  param  item  the  search  item  return  the  index  the  item  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  true  code  the  receiver  enabled  and  all  the  receiver  ancestors  are  enabled  and  code  false  code  otherwise  disabled  menu  typically  not  selectable  from  the  user  interface  and  draws  with  inactive  grayed  look  return  the  receiver  enabled  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see get enabled
+returns  code  true  code  the  receiver  visible  and  all  the  receiver  ancestors  are  visible  and  code  false  code  otherwise  return  the  receiver  visibility  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see get visible
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  help  events  are  generated  for  the  control  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see help listener  see add help listener
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  menu  events  are  generated  for  the  control  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see menu listener  see add menu listener
+sets  the  default  menu  item  the  argument  removes  the  default  emphasis  when  the  argument  code  null  code  param  item  the  default  menu  item  null  exception illegal argument exception  error  invalid  argument  the  menu  item  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+enables  the  receiver  the  argument  code  true  code  and  disables  otherwise  disabled  menu  typically  not  selectable  from  the  user  interface  and  draws  with  inactive  grayed  look  param  enabled  the  new  enabled  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  location  the  receiver  which  must  popup  the  point  specified  the  arguments  which  are  relative  the  display  note  that  this  different  from  most  widgets  where  the  location  the  widget  relative  the  parent  note  that  the  platform  window  manager  ultimately  has  control  over  the  location  popup  menus  param  the  new  coordinate  for  the  receiver  param  the  new  coordinate  for  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  location  the  receiver  which  must  popup  the  point  specified  the  argument  which  relative  the  display  note  that  this  different  from  most  widgets  where  the  location  the  widget  relative  the  parent  note  that  the  platform  window  manager  ultimately  has  control  over  the  location  popup  menus  param  location  the  new  location  for  the  receiver  exception illegal argument exception  error  null  argument  the  point  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+marks  the  receiver  visible  the  argument  code  true  code  and  marks  invisible  otherwise  one  the  receiver  ancestors  not  visible  some  other  condition  makes  the  receiver  not  visible  marking  visible  may  not  actually  cause  displayed  param  visible  the  new  visibility  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+each  time  menu  has  been  modified  the  command  menu  bar  must  redrawn  won  update  properly  for  example  submenu  will  not  drop  down
+bug  windows  menu  contains  items  that  have  images  and  can  checked  windows  does  not  include  the  width  the  image  and  the  width  the  check  when  computing  the  width  the  menu  when  the  longest  item  does  not  have  image  the  label  and  the  accelerator  text  can  overlap  the  fix  use set menu item info  indicate  that  all  items  have  bitmap  and  then  include  the  width  the  widest  bitmap  measurechild  note  this  work  around  causes  problems  windows  under  certain  circumstances  that  have  yet  isolated  some  menus  can  become  huge  and  blank  for  now  not  run  the  code  windows 
+update  the  menu  hide  show  the  space  for  bitmaps
+</comments>
+</text>
+</DOC>

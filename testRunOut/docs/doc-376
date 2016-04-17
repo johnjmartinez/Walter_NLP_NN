@@ -1,0 +1,1167 @@
+<DOC>
+<DOCNO>org.eclipse.swt.ole.win32.Variant.java </DOCNO>
+<text>
+<class>
+ variant
+</class>
+<method>
+ variant
+ variant
+ variant
+ variant
+ variant
+ variant
+ variant
+ variant
+ variant
+ variant
+ dispose
+get automation
+get dispatch
+get boolean
+get ref
+get data
+get float
+get int
+get short
+get string
+get type
+get unknown
+set ref
+set ref
+set ref
+set ref
+set data
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ ole
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ internal
+ win
+ variant
+ sizeof
+ type
+boolean data
+float data
+int data
+short data
+ string
+string data
+ref ptr
+ dispatch
+dispatch data
+ unknown
+unknown data
+ variant
+ type
+ com
+ empty
+ variant
+ val
+ type
+ com
+
+float data
+ val
+ variant
+ val
+ type
+ com
+
+int data
+ val
+ variant
+ ptr
+ref type
+ type
+ref type
+ref ptr
+ ptr
+ variant
+ole automation
+ automation
+ type
+ com
+ dispatch
+dispatch data
+ dispatch
+ automation
+get address
+ variant
+ dispatch
+ idispatch
+ type
+ com
+ dispatch
+dispatch data
+ idispatch
+ variant
+ unknown
+ unknown
+ type
+ com
+ unknown
+unknown data
+ unknown
+ variant
+ string
+ string
+ type
+ com
+ bstr
+string data
+ string
+ variant
+ val
+ type
+ com
+
+short data
+ val
+ variant
+ val
+ type
+ com
+ bool
+boolean data
+ val
+ dispose
+ type
+ com
+ byref
+ com
+ byref
+ type
+ com
+ empty
+ com
+ bool
+ com
+
+ com
+
+ com
+
+ com
+ bstr
+ com
+ dispatch
+dispatch data
+ release
+ com
+ unknown
+unknown data
+ release
+ole automation
+get automation
+ type
+ com
+ empty
+ ole
+ error
+ ole
+error cannot change variant type
+ type
+ com
+ dispatch
+ole automation
+dispatch data
+old ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+new ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+get data
+old ptr
+ result
+ com
+variant change type
+new ptr
+old ptr
+ com
+ dispatch
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot change variant type
+ result
+ variant
+auto var
+ variant
+auto var
+set data
+new ptr
+auto var
+get automation
+ com
+variant clear
+old ptr
+
+global free
+old ptr
+ com
+variant clear
+new ptr
+
+global free
+new ptr
+ dispatch
+get dispatch
+ type
+ com
+ empty
+ ole
+ error
+ ole
+error cannot change variant type
+ type
+ com
+ dispatch
+dispatch data
+old ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+new ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+get data
+old ptr
+ result
+ com
+variant change type
+new ptr
+old ptr
+ com
+ dispatch
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot change variant type
+ result
+ variant
+auto var
+ variant
+auto var
+set data
+new ptr
+auto var
+get dispatch
+ com
+variant clear
+old ptr
+
+global free
+old ptr
+ com
+variant clear
+new ptr
+
+global free
+new ptr
+get boolean
+ type
+ com
+ empty
+ ole
+ error
+ ole
+error cannot change variant type
+ type
+ com
+ bool
+boolean data
+old ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+new ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+get data
+old ptr
+ result
+ com
+variant change type
+new ptr
+old ptr
+ com
+ bool
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot change variant type
+ result
+ variant
+bool var
+ variant
+bool var
+set data
+new ptr
+bool var
+get boolean
+ com
+variant clear
+old ptr
+
+global free
+old ptr
+ com
+variant clear
+new ptr
+
+global free
+new ptr
+get ref
+ type
+ com
+ empty
+ ole
+ error
+ ole
+error cannot change variant type
+ type
+ com
+ byref
+ com
+ byref
+ref ptr
+get data
+ data
+ data
+ ole
+ error
+ ole
+error out memory
+ com
+variant init
+ data
+ type
+ com
+ byref
+ com
+ byref
+ com
+move memory
+ data
+ type
+ com
+move memory
+ data
+ref ptr
+ type
+ com
+ empty
+ com
+ bool
+ com
+move memory
+ data
+ type
+ com
+move memory
+ data
+boolean data
+ com
+variant true
+ com
+variant false
+ com
+
+ com
+move memory
+ data
+ type
+ com
+move memory
+ data
+float data
+ com
+
+ com
+move memory
+ data
+ type
+ com
+move memory
+ data
+int data
+ com
+ dispatch
+dispatch data
+add ref
+ com
+move memory
+ data
+ type
+ com
+move memory
+ data
+dispatch data
+get address
+ com
+ unknown
+unknown data
+add ref
+ com
+move memory
+ data
+ type
+ com
+move memory
+ data
+unknown data
+get address
+ com
+
+ com
+move memory
+ data
+ type
+ com
+move memory
+ data
+short data
+ com
+ bstr
+ com
+move memory
+ data
+ type
+ data
+string data
+char array
+ ptr
+ com
+sys alloc string
+ data
+ com
+move memory
+ data
+ ptr
+ ole
+ error
+ swt
+error not implemented
+get float
+ type
+ com
+ empty
+ ole
+ error
+ ole
+error cannot change variant type
+ type
+ com
+
+float data
+old ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+new ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+get data
+old ptr
+ result
+ com
+variant change type
+new ptr
+old ptr
+ com
+
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot change variant type
+ result
+ variant
+float var
+ variant
+float var
+set data
+new ptr
+float var
+get float
+ com
+variant clear
+old ptr
+
+global free
+old ptr
+ com
+variant clear
+new ptr
+
+global free
+new ptr
+get int
+ type
+ com
+ empty
+ ole
+ error
+ ole
+error cannot change variant type
+ type
+ com
+
+int data
+old ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+new ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+get data
+old ptr
+ result
+ com
+variant change type
+new ptr
+old ptr
+ com
+
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot change variant type
+ result
+ variant
+int var
+ variant
+int var
+set data
+new ptr
+int var
+get int
+ com
+variant clear
+old ptr
+
+global free
+old ptr
+ com
+variant clear
+new ptr
+
+global free
+new ptr
+get short
+ type
+ com
+ empty
+ ole
+ error
+ ole
+error cannot change variant type
+ type
+ com
+
+short data
+old ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+new ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+get data
+old ptr
+ result
+ com
+variant change type
+new ptr
+old ptr
+ com
+
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot change variant type
+ result
+ variant
+short var
+ variant
+short var
+set data
+new ptr
+short var
+get short
+ com
+variant clear
+old ptr
+
+global free
+old ptr
+ com
+variant clear
+new ptr
+
+global free
+new ptr
+ string
+get string
+ type
+ com
+ empty
+ ole
+ error
+ ole
+error cannot change variant type
+ type
+ com
+ bstr
+string data
+old ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+new ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+get data
+old ptr
+ result
+ com
+variant change type
+new ptr
+old ptr
+ com
+ bstr
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot change variant type
+ result
+ variant
+string var
+ variant
+string var
+set data
+new ptr
+string var
+get string
+ com
+variant clear
+old ptr
+
+global free
+old ptr
+ com
+variant clear
+new ptr
+
+global free
+new ptr
+get type
+ type
+ unknown
+get unknown
+ type
+ com
+ empty
+ ole
+ error
+ ole
+error cannot change variant type
+ type
+ com
+ unknown
+unknown data
+old ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+new ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+get data
+old ptr
+ result
+ com
+variant change type
+new ptr
+old ptr
+ com
+ unknown
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot change variant type
+ result
+ variant
+unknown var
+ variant
+unknown var
+set data
+new ptr
+unknown var
+get unknown
+ com
+variant clear
+old ptr
+
+global free
+old ptr
+ com
+variant clear
+new ptr
+
+global free
+new ptr
+set ref
+ val
+ type
+ com
+ byref
+ type
+ com
+ bool
+ ole
+ error
+ ole
+error cannot change variant type
+ com
+move memory
+ref ptr
+ val
+ com
+variant true
+ com
+variant false
+set ref
+ val
+ type
+ com
+ byref
+ type
+ com
+
+ ole
+ error
+ ole
+error cannot change variant type
+ com
+move memory
+ref ptr
+ val
+set ref
+ val
+ type
+ com
+ byref
+ type
+ com
+
+ ole
+ error
+ ole
+error cannot change variant type
+ com
+move memory
+ref ptr
+ val
+set ref
+ val
+ type
+ com
+ byref
+ type
+ com
+
+ ole
+ error
+ ole
+error cannot change variant type
+ com
+move memory
+ref ptr
+ val
+set data
+ data
+ data
+ ole
+ error
+ ole
+error invalid argument
+data type
+ com
+move memory
+data type
+ data
+ type
+data type
+ type
+ com
+ byref
+ com
+ byref
+new ref ptr
+
+move memory
+new ref ptr
+ data
+ref ptr
+new ref ptr
+ type
+ com
+ empty
+ com
+ bool
+new boolean data
+ com
+move memory
+new boolean data
+ data
+boolean data
+new boolean data
+ com
+variant false
+ com
+
+new float data
+ com
+move memory
+new float data
+ data
+float data
+new float data
+ com
+
+new int data
+
+move memory
+new int data
+ data
+int data
+new int data
+ com
+ dispatch
+ppv object
+
+move memory
+ppv object
+ data
+ppv object
+ type
+ com
+ empty
+dispatch data
+ dispatch
+ppv object
+dispatch data
+add ref
+ com
+ unknown
+ppv object
+
+move memory
+ppv object
+ data
+ppv object
+ type
+ com
+ empty
+unknown data
+ unknown
+ppv object
+unknown data
+add ref
+ com
+
+new short data
+ com
+move memory
+new short data
+ data
+short data
+new short data
+ com
+ bstr
+ mem
+
+move memory
+ mem
+ data
+ mem
+ type
+ com
+ empty
+ size
+ com
+sys string byte len
+ mem
+ size
+ buffer
+ size
+ com
+move memory
+ buffer
+ mem
+ size
+string data
+ string
+ buffer
+string data
+new data
+
+global alloc
+
+gmem fixed
+
+gmem zeroinit
+ variant
+ sizeof
+ com
+variant change type
+new data
+ data
+ com
+
+ com
+
+set data
+new data
+ com
+variant change type
+new data
+ data
+ com
+
+ com
+
+set data
+new data
+ com
+variant change type
+new data
+ data
+ com
+ bstr
+ com
+
+set data
+new data
+ com
+variant clear
+new data
+
+global free
+new data
+ string
+ string
+ type
+ com
+ bool
+boolean data
+ com
+
+short data
+ com
+
+int data
+ com
+
+float data
+ com
+ bstr
+string data
+ com
+ dispatch
+dispatch data
+dispatch data
+get address
+ com
+ unknown
+unknown data
+unknown data
+get address
+ com
+ empty
+ type
+ com
+ byref
+ type
+ com
+ byref
+ref ptr
+ type
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+variant  generic  ole  mechanism  for  passing  data  different  types  via  common  interface  used  within  the ole automation  object  for  getting  property  setting  property  invoking  method  ole  control  ole  document
+variant  always  takes  bytes  matter  what  you  store  objects  strings  and  arrays  are  not  physically  stored  the  variant  these  cases  four  bytes  the  variant  are  used  hold  either  object  reference  pointer  the  string  array  the  actual  data  are  stored  elsewhere
+ole  type
+create  empty  variant  object  with  type  empty  since 
+create  variant  object  which  represents  java  float  param  val  the  java  float  value  that  this  variant  represents
+create  variant  object  which  represents  java  int  param  val  the  java  int  value  that  this  variant  represents
+create  variant  object  which  contains  reference  the  data  being  transferred  when  creating  byref  variant  you  must  give  the  full  variant  type  including  byref  such  pre  code  short ref type  ole  bstr  ole  byref  code  pre  param  ptr  pointer  the  data  being  transferred  param ref type  the  type  the  data  being  transferred  such  ole  bstr  ole  byref
+create  variant  object  which  represents  dispatch  interface  dispatch  param  automation  the ole automation  object  that  this  variant  represents
+create  variant  object  which  represents  dispatch  interface  dispatch  the  caller  expected  have  appropriately  invoked  unknown add ref  before  creating  this  variant  since  param  idispatch  the  dispatch  object  that  this  variant  represents
+create  variant  object  which  represents  unknown  interface  unknown  the  caller  expected  have  appropriately  invoked  unknown add ref  before  creating  this  variant  param  unknown  the  unknown  object  that  this  variant  represents
+create  variant  object  which  represents  java  string  bstr  param  string  the  java  string  value  that  this  variant  represents
+create  variant  object  which  represents  java  short  param  val  the  java  short  value  that  this  variant  represents
+create  variant  object  which  represents  java  boolean  bool  param  val  the  java  boolean  value  that  this  variant  represents
+calling  dispose  will  release  resources  associated  with  this  variant  the  resource  dispatch  unknown  interface  release  will  called  the  resource  ref  pointer  nothing  released  since 
+returns  the ole automation  object  represented  this  variant  this  variant  does  not  contain ole automation  object  attempt  made  coerce  the  variant  type  into ole automation  object  this  fails  error  thrown  note  that ole automation  objects  must  disposed  when  longer  needed  return  the ole automation  object  represented  this  variant  exception swt exception  error  cannot  change  variant  type  when  type  variant  can  not  coerced  into ole automation  object 
+try  coerce  the  value  the  desired  type
+note  this  must  absolutely  done  after  the
+ole automation  object  created  variant  clear
+will  result  release  being  performed  the
+dispatch  object
+returns  the  dispatch  object  represented  this  variant  this  variant  does  not  contain  dispatch  object  attempt  made  coerce  the  variant  type  into  ispatch  object  this  fails  error  thrown  since  return  the  dispatch  object  represented  this  variant  exception swt exception  error  cannot  change  variant  type  when  type  variant  can  not  coerced  into  dispatch  object 
+try  coerce  the  value  the  desired  type
+note  this  must  absolutely  done  after  the
+ole automation  object  created  variant  clear
+will  result  release  being  performed  the
+dispatch  object
+returns  the  java  boolean  represented  this  variant  this  variant  does  not  contain  java  boolean  attempt  made  coerce  the  variant  type  into  java  boolean  this  fails  error  thrown  return  the  java  boolean  represented  this  variant  exception swt exception  error  cannot  change  variant  type  when  type  variant  can  not  coerced  into  boolean 
+try  coerce  the  value  the  desired  type
+returns  pointer  the  referenced  data  represented  this  variant  this  variant  does  not  contain  reference  data  zero  returned  return  pointer  the  referenced  data  represented  this  variant 
+returns  the  java  float  represented  this  variant  this  variant  does  not  contain  java  float  attempt  made  coerce  the  variant  type  into  java  float  this  fails  error  thrown  return  the  java  float  represented  this  variant  exception swt exception  error  cannot  change  variant  type  when  type  variant  can  not  coerced  into  float 
+try  coerce  the  value  the  desired  type
+returns  the  java  int  represented  this  variant  this  variant  does  not  contain  java  int  attempt  made  coerce  the  variant  type  into  java  int  this  fails  error  thrown  return  the  java  int  represented  this  variant  exception swt exception  error  cannot  change  variant  type  when  type  variant  can  not  coerced  into  int 
+try  coerce  the  value  the  desired  type
+returns  the  java  short  represented  this  variant  this  variant  does  not  contain  java  short  attempt  made  coerce  the  variant  type  into  java  short  this  fails  error  thrown  return  the  java  short  represented  this  variant  exception swt exception  error  cannot  change  variant  type  when  type  variant  can  not  coerced  into  short 
+try  coerce  the  value  the  desired  type
+returns  the  java  string  represented  this  variant  this  variant  does  not  contain  java  string  attempt  made  coerce  the  variant  type  into  java  string  this  fails  error  thrown  return  the  java  string  represented  this  variant  exception swt exception  error  cannot  change  variant  type  when  type  variant  can  not  coerced  into  string 
+try  coerce  the  value  the  desired  type
+returns  the  type  the  variant  type  this  will  ole  value  bitwise  combination  ole  values  the  case  ole  bstr  ole  byref  return  the  type  the  variant  data  since 
+returns  the  unknown  object  represented  this  variant  this  variant  does  not  contain  unknown  object  attempt  made  coerce  the  variant  type  into  unknown  object  this  fails  error  thrown  return  the  unknown  object  represented  this  variant  exception swt exception  error  cannot  change  variant  type  when  type  variant  can  not  coerced  into  unknown  object 
+try  coerce  the  value  the  desired  type
+note  this  must  absolutely  done  after  the
+unknown  object  created  variant  clear
+will  result  release  being  performed  the
+dispatch  object
+update  the  reference  value  this  variant  with  new  boolean  value  param  val  the  new  boolean  value  exception swt exception  error  cannot  change  variant  type  when  type  variant  not  byref  bool  object  since 
+update  the  reference  value  this  variant  with  new  float  value  param  val  the  new  float  value  exception swt exception  error  cannot  change  variant  type  when  type  variant  not  byref  object  since 
+update  the  reference  value  this  variant  with  new  integer  value  param  val  the  new  integer  value  exception swt exception  error  cannot  change  variant  type  when  type  variant  not  byref  object  since 
+update  the  reference  value  this  variant  with  new  short  value  param  val  the  new  short  value  exception swt exception  error  cannot  change  variant  type  when  type  variant  not  byref  object  since 
+get  the  address  the  memory  which  the  string  resides
+get  the  size  the  string  from  the  the  size  expressed  number
+bytes  each  unicode  character  bytes
+get  the  unicode  character  array  from  the  global  memory  and  create  string
+add  one  avoid  rounding  errors
+non  nls 
+try  coercing  into  one  the  known  forms
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
+</comments>
+</text>
+</DOC>

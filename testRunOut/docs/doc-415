@@ -1,0 +1,1929 @@
+<DOC>
+<DOCNO>org.eclipse.swt.browser.Browser.java </DOCNO>
+<text>
+<class>
+ browser
+</class>
+<method>
+ browser
+handle event
+handle event
+ run
+add close window listener
+add location listener
+add open window listener
+add progress listener
+add status text listener
+add title listener
+add visibility window listener
+ back
+check subclass
+ execute
+ forward
+back enabled
+forward enabled
+get url
+ refresh
+remove close window listener
+remove location listener
+remove open window listener
+remove progress listener
+remove status text listener
+remove title listener
+remove visibility window listener
+set text
+set url
+ stop
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ browser
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ ole
+ win
+ org
+ eclipse
+ swt
+ widgets
+ browser
+ composite
+ole frame
+ frame
+ole control site
+ site
+ole automation
+ auto
+ back
+ forward
+ navigate
+delay set text
+ point
+ location
+ point
+ size
+address bar
+menu bar
+status bar
+tool bar
+ info
+global dispatch
+ string
+ html
+close window listener
+close window listeners
+close window listener
+location listener
+location listeners
+location listener
+open window listener
+open window listeners
+open window listener
+progress listener
+progress listeners
+progress listener
+status text listener
+status text listeners
+status text listener
+title listener
+title listeners
+title listener
+visibility window listener
+visibility window listeners
+visibility window listener
+before navigate
+command state change
+document complete
+navigate complete
+new window
+menu bar
+status bar
+tool bar
+ visible
+progress change
+register browser
+status text change
+title change
+window closing
+window set height
+window set left
+window set resizable
+window set top
+window set width
+csc navigateforward
+csc navigateback
+inet default action
+readystate complete
+urlpolicy allow
+urlpolicy disallow
+urlzone local machine
+urlzone intranet
+urlaction activex min
+urlaction activex max
+urlaction activex run
+urlaction java min
+urlpolicy java low
+urlaction java max
+dispid ambient dlcontrol
+dlctl dlimages
+dlctl videos
+dlctl bgsounds
+dlctl scripts
+dlctl java
+dlctl runactivexctls
+dlctl dlactivexctls
+dlctl downloadonly
+dlctl framedownload
+dlctl resynchronize
+dlctl pragma cache
+dlctl forceoffline
+dlctl clientpull
+dlctl silent
+dochostuiflag theme
+dochostuiflag dborder
+dochostuiflag douterborder
+ string
+about blank
+ string
+url director
+ string
+package prefix
+ browser
+ composite
+ parent
+ style
+ parent
+ style
+ swt
+ border
+ info
+ browser
+dochostuiflag theme
+ style
+ swt
+ border
+ info
+ browser
+dochostuiflag douterborder
+ frame
+ole frame
+ swt
+ none
+ site
+web site
+ frame
+ swt
+ none
+swt exception
+
+ dispose
+ swt
+ error
+ swt
+error handles
+ site
+ verb
+ ole
+oleiverb inplaceactivate
+ auto
+ole automation
+ site
+ listener
+ listener
+ listener
+handle event
+ event
+
+
+ type
+ swt
+ dispose
+ auto
+ auto
+ dispose
+ auto
+ swt
+ resize
+ frame
+set bounds
+get client area
+ swt
+key down
+ swt
+ key
+notify listeners
+
+ type
+
+add listener
+ swt
+ dispose
+ listener
+add listener
+ swt
+ resize
+ listener
+ site
+add listener
+ swt
+key down
+ listener
+ site
+add listener
+ swt
+ key
+ listener
+ole listener
+ole listener
+ole listener
+handle event
+ole event
+ event
+ event
+ type
+before navigate
+ variant
+var result
+ event
+ arguments
+ string
+ url
+var result
+get string
+location event
+new event
+location event
+ browser
+new event
+ display
+get display
+new event
+ widget
+ browser
+new event
+ location
+ url
+new event
+ doit
+
+
+location listeners
+ length
+
+location listeners
+
+ changing
+new event
+ variant
+ cancel
+ event
+ arguments
+ cancel
+ cancel
+ cancel
+get ref
+ com
+move memory
+ cancel
+new event
+ doit
+ com
+variant false
+ com
+variant true
+command state change
+ enabled
+ variant
+var result
+ event
+ arguments
+ command
+var result
+get int
+var result
+ event
+ arguments
+ enabled
+var result
+get boolean
+ command
+csc navigateback
+ back
+ enabled
+csc navigateforward
+ forward
+ enabled
+document complete
+ variant
+var result
+ event
+ arguments
+ dispatch
+ dispatch
+var result
+get dispatch
+var result
+ event
+ arguments
+ string
+ url
+var result
+get string
+ html
+ url
+ equals
+about blank
+ runnable
+ runnable
+ runnable
+ run
+ disposed
+ html
+char count
+ html
+ length
+ chars
+char count
+ html
+get chars
+char count
+ chars
+ html
+byte count
+
+wide char multi byte
+
+ utf
+ chars
+char count
+utf bom
+ global
+
+global alloc
+
+gmem fixed
+utf bom
+ length
+byte count
+ global
+
+move memory
+ global
+utf bom
+utf bom
+ length
+
+wide char multi byte
+
+ utf
+ chars
+char count
+ global
+utf bom
+ length
+byte count
+ ppstm
+
+create stream global
+ global
+ ppstm
+
+
+ rgdispid
+ auto
+get names
+ string
+ variant
+var result
+ auto
+get property
+ rgdispid
+ dispatch
+dispatch document
+var result
+get dispatch
+ppv object
+ result
+dispatch document
+query interface
+ com
+iidi persist stream init
+ppv object
+ result
+
+
+persist stream init
+persist stream init
+persist stream init
+ppv object
+persist stream init
+init new
+
+
+persist stream init
+ load
+ ppstm
+persist stream init
+ release
+var result
+ dispose
+ unknown
+ stream
+ unknown
+ ppstm
+ stream
+ release
+
+global free
+ global
+delay set text
+delay set text
+get display
+async exec
+ runnable
+ runnable
+ run
+ variant
+ variant
+ variant
+ auto
+ dispatch
+ top
+ variant
+get dispatch
+location event
+location event
+location event
+ browser
+location event
+ display
+get display
+location event
+ widget
+ browser
+location event
+ location
+ url
+location event
+ top
+ top
+get address
+ dispatch
+get address
+
+
+location listeners
+ length
+
+location listeners
+
+ changed
+location event
+global dispatch
+ dispatch
+get address
+global dispatch
+global dispatch
+progress event
+progress event
+progress event
+ browser
+progress event
+ display
+get display
+progress event
+ widget
+ browser
+
+
+progress listeners
+ length
+
+progress listeners
+
+ completed
+progress event
+navigate complete
+ variant
+var result
+ event
+ arguments
+ dispatch
+ dispatch
+var result
+get dispatch
+global dispatch
+global dispatch
+ dispatch
+get address
+new window
+ variant
+ cancel
+ event
+ arguments
+ cancel
+ cancel
+get ref
+window event
+new event
+window event
+ browser
+new event
+ display
+get display
+new event
+ widget
+ browser
+new event
+ required
+
+
+open window listeners
+ length
+
+open window listeners
+
+ open
+new event
+ browser
+ browser
+new event
+ browser
+ doit
+ browser
+ browser
+ disposed
+ doit
+ variant
+ variant
+ variant
+ browser
+ auto
+ dispatch
+ dispatch
+ variant
+get dispatch
+ variant
+ disp
+ event
+ arguments
+ byref
+ disp
+get ref
+ byref
+ com
+move memory
+ byref
+ dispatch
+get address
+new event
+ required
+ com
+move memory
+ cancel
+ doit
+ com
+variant false
+ com
+variant true
+menu bar
+ variant
+ arg
+ event
+ arguments
+menu bar
+ arg
+get boolean
+status bar
+ variant
+ arg
+ event
+ arguments
+status bar
+ arg
+get boolean
+tool bar
+ variant
+ arg
+ event
+ arguments
+tool bar
+ arg
+get boolean
+tool bar
+address bar
+menu bar
+ visible
+ variant
+ arg
+ event
+ arguments
+ visible
+ arg
+get boolean
+window event
+new event
+window event
+ browser
+new event
+ display
+get display
+new event
+ widget
+ browser
+ visible
+address bar
+ rgdispid
+ auto
+get names
+ string
+ variant
+var result
+ auto
+get property
+ rgdispid
+var result
+var result
+get type
+ ole
+ bool
+address bar
+var result
+get boolean
+new event
+address bar
+address bar
+new event
+menu bar
+menu bar
+new event
+status bar
+status bar
+new event
+tool bar
+tool bar
+new event
+ location
+ location
+new event
+ size
+ size
+
+
+visibility window listeners
+ length
+
+visibility window listeners
+
+ show
+new event
+ location
+ size
+
+
+visibility window listeners
+ length
+
+visibility window listeners
+
+ hide
+new event
+progress change
+ variant
+ arg
+ event
+ arguments
+ progress
+ arg
+get type
+ ole
+
+ arg
+get int
+ variant
+ arg
+ event
+ arguments
+progress max
+ arg
+get type
+ ole
+
+ arg
+get int
+progress event
+new event
+progress event
+ browser
+new event
+ display
+get display
+new event
+ widget
+ browser
+new event
+ current
+ progress
+new event
+ total
+progress max
+ progress
+
+
+progress listeners
+ length
+
+progress listeners
+
+ changed
+new event
+status text change
+ variant
+ arg
+ event
+ arguments
+ arg
+get type
+ ole
+ bstr
+ string
+ text
+ arg
+get string
+status text event
+new event
+status text event
+ browser
+new event
+ display
+get display
+new event
+ widget
+ browser
+new event
+ text
+ text
+
+
+status text listeners
+ length
+
+status text listeners
+
+ changed
+new event
+title change
+ variant
+ arg
+ event
+ arguments
+ arg
+get type
+ ole
+ bstr
+ string
+ title
+ arg
+get string
+title event
+new event
+title event
+ browser
+new event
+ display
+get display
+new event
+ widget
+ browser
+new event
+ title
+ title
+
+
+title listeners
+ length
+
+title listeners
+
+ changed
+new event
+window closing
+window event
+new event
+window event
+ browser
+new event
+ display
+get display
+new event
+ widget
+ browser
+
+
+close window listeners
+ length
+
+close window listeners
+
+ close
+new event
+ variant
+ cancel
+ event
+ arguments
+ cancel
+ cancel
+get ref
+ com
+move memory
+ cancel
+ com
+variant false
+ dispose
+window set height
+ size
+ size
+ point
+ variant
+ arg
+ event
+ arguments
+ size
+
+ arg
+get int
+window set left
+ location
+ location
+ point
+ variant
+ arg
+ event
+ arguments
+ location
+
+ arg
+get int
+window set top
+ location
+ location
+ point
+ variant
+ arg
+ event
+ arguments
+ location
+
+ arg
+get int
+window set width
+ size
+ size
+ point
+ variant
+ arg
+ event
+ arguments
+ size
+
+ arg
+get int
+ variant
+ arguments
+ event
+ arguments
+
+
+ arguments
+ length
+
+ arguments
+
+ dispose
+ site
+add event listener
+before navigate
+ole listener
+ site
+add event listener
+command state change
+ole listener
+ site
+add event listener
+document complete
+ole listener
+ site
+add event listener
+navigate complete
+ole listener
+ site
+add event listener
+new window
+ole listener
+ site
+add event listener
+menu bar
+ole listener
+ site
+add event listener
+status bar
+ole listener
+ site
+add event listener
+tool bar
+ole listener
+ site
+add event listener
+ visible
+ole listener
+ site
+add event listener
+progress change
+ole listener
+ site
+add event listener
+status text change
+ole listener
+ site
+add event listener
+title change
+ole listener
+ site
+add event listener
+window closing
+ole listener
+ site
+add event listener
+window set height
+ole listener
+ site
+add event listener
+window set left
+ole listener
+ site
+add event listener
+window set top
+ole listener
+ site
+add event listener
+window set width
+ole listener
+ variant
+ variant
+ variant
+ auto
+set property
+register browser
+ variant
+ variant
+ dispose
+ variant
+ variant
+ rgdispid
+ auto
+get names
+ string
+ rgdispid
+ auto
+set property
+ rgdispid
+ variant
+ variant
+ dispose
+add close window listener
+close window listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+close window listener
+new close window listeners
+close window listener
+close window listeners
+ length
+ system
+ arraycopy
+close window listeners
+new close window listeners
+close window listeners
+ length
+close window listeners
+new close window listeners
+close window listeners
+close window listeners
+ length
+ listener
+add location listener
+location listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+location listener
+new location listeners
+location listener
+location listeners
+ length
+ system
+ arraycopy
+location listeners
+new location listeners
+location listeners
+ length
+location listeners
+new location listeners
+location listeners
+location listeners
+ length
+ listener
+add open window listener
+open window listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+open window listener
+new open window listeners
+open window listener
+open window listeners
+ length
+ system
+ arraycopy
+open window listeners
+new open window listeners
+open window listeners
+ length
+open window listeners
+new open window listeners
+open window listeners
+open window listeners
+ length
+ listener
+add progress listener
+progress listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+progress listener
+new progress listeners
+progress listener
+progress listeners
+ length
+ system
+ arraycopy
+progress listeners
+new progress listeners
+progress listeners
+ length
+progress listeners
+new progress listeners
+progress listeners
+progress listeners
+ length
+ listener
+add status text listener
+status text listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+status text listener
+new status text listeners
+status text listener
+status text listeners
+ length
+ system
+ arraycopy
+status text listeners
+new status text listeners
+status text listeners
+ length
+status text listeners
+new status text listeners
+status text listeners
+status text listeners
+ length
+ listener
+add title listener
+title listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+title listener
+new title listeners
+title listener
+title listeners
+ length
+ system
+ arraycopy
+title listeners
+new title listeners
+title listeners
+ length
+title listeners
+new title listeners
+title listeners
+title listeners
+ length
+ listener
+add visibility window listener
+visibility window listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+visibility window listener
+new visibility window listeners
+visibility window listener
+visibility window listeners
+ length
+ system
+ arraycopy
+visibility window listeners
+new visibility window listeners
+visibility window listeners
+ length
+visibility window listeners
+new visibility window listeners
+visibility window listeners
+visibility window listeners
+ length
+ listener
+ back
+check widget
+ back
+ rgdispid
+ auto
+get names
+ string
+ variant
+var result
+ auto
+ invoke
+ rgdispid
+var result
+var result
+get type
+ ole
+ empty
+check subclass
+ string
+ name
+get class
+get name
+ index
+ name
+last index
+ name
+ substring
+ index
+ equals
+package prefix
+ swt
+ error
+ swt
+error invalid subclass
+ execute
+ string
+ script
+check widget
+ script
+ swt
+ error
+ swt
+error null argument
+ rgdispid
+ auto
+get names
+ string
+disp member
+ rgdispid
+ variant
+var result
+ auto
+get property
+disp member
+var result
+var result
+get type
+ com
+ empty
+ole automation
+ document
+var result
+get automation
+var result
+ dispose
+ rgdispid
+ document
+get names
+ string
+disp member
+ rgdispid
+var result
+ document
+get property
+disp member
+ole automation
+ihtml window
+var result
+get automation
+var result
+ dispose
+ document
+ dispose
+ rgdispid
+ihtml window
+get names
+ string
+ variant
+ rgvarg
+ variant
+ rgvarg
+ variant
+ script
+rgdispid named args
+rgdispid named args
+ rgdispid
+var result
+ihtml window
+ invoke
+ rgdispid
+ rgvarg
+rgdispid named args
+ rgvarg
+ dispose
+ihtml window
+ dispose
+var result
+var result
+ dispose
+ forward
+check widget
+ forward
+ rgdispid
+ auto
+get names
+ string
+ variant
+var result
+ auto
+ invoke
+ rgdispid
+var result
+var result
+get type
+ ole
+ empty
+back enabled
+check widget
+ back
+forward enabled
+check widget
+ forward
+ string
+get url
+check widget
+ rgdispid
+ auto
+get names
+ string
+ variant
+var result
+ auto
+get property
+ rgdispid
+var result
+var result
+get type
+ ole
+ bstr
+ string
+ result
+var result
+get string
+var result
+ dispose
+ result
+ refresh
+check widget
+ rgdispid
+ auto
+get names
+ string
+ auto
+ invoke
+ rgdispid
+remove close window listener
+close window listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+close window listeners
+ length
+ index
+
+
+close window listeners
+ length
+
+ listener
+close window listeners
+
+ index
+
+ index
+close window listeners
+ length
+close window listeners
+close window listener
+close window listener
+new close window listeners
+close window listener
+close window listeners
+ length
+ system
+ arraycopy
+close window listeners
+new close window listeners
+ index
+ system
+ arraycopy
+close window listeners
+ index
+new close window listeners
+ index
+close window listeners
+ length
+ index
+close window listeners
+new close window listeners
+remove location listener
+location listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+location listeners
+ length
+ index
+
+
+location listeners
+ length
+
+ listener
+location listeners
+
+ index
+
+ index
+location listeners
+ length
+location listeners
+location listener
+location listener
+new location listeners
+location listener
+location listeners
+ length
+ system
+ arraycopy
+location listeners
+new location listeners
+ index
+ system
+ arraycopy
+location listeners
+ index
+new location listeners
+ index
+location listeners
+ length
+ index
+location listeners
+new location listeners
+remove open window listener
+open window listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+open window listeners
+ length
+ index
+
+
+open window listeners
+ length
+
+ listener
+open window listeners
+
+ index
+
+ index
+open window listeners
+ length
+open window listeners
+open window listener
+open window listener
+new open window listeners
+open window listener
+open window listeners
+ length
+ system
+ arraycopy
+open window listeners
+new open window listeners
+ index
+ system
+ arraycopy
+open window listeners
+ index
+new open window listeners
+ index
+open window listeners
+ length
+ index
+open window listeners
+new open window listeners
+remove progress listener
+progress listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+progress listeners
+ length
+ index
+
+
+progress listeners
+ length
+
+ listener
+progress listeners
+
+ index
+
+ index
+progress listeners
+ length
+progress listeners
+progress listener
+progress listener
+new progress listeners
+progress listener
+progress listeners
+ length
+ system
+ arraycopy
+progress listeners
+new progress listeners
+ index
+ system
+ arraycopy
+progress listeners
+ index
+new progress listeners
+ index
+progress listeners
+ length
+ index
+progress listeners
+new progress listeners
+remove status text listener
+status text listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+status text listeners
+ length
+ index
+
+
+status text listeners
+ length
+
+ listener
+status text listeners
+
+ index
+
+ index
+status text listeners
+ length
+status text listeners
+status text listener
+status text listener
+new status text listeners
+status text listener
+status text listeners
+ length
+ system
+ arraycopy
+status text listeners
+new status text listeners
+ index
+ system
+ arraycopy
+status text listeners
+ index
+new status text listeners
+ index
+status text listeners
+ length
+ index
+status text listeners
+new status text listeners
+remove title listener
+title listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+title listeners
+ length
+ index
+
+
+title listeners
+ length
+
+ listener
+title listeners
+
+ index
+
+ index
+title listeners
+ length
+title listeners
+title listener
+title listener
+new title listeners
+title listener
+title listeners
+ length
+ system
+ arraycopy
+title listeners
+new title listeners
+ index
+ system
+ arraycopy
+title listeners
+ index
+new title listeners
+ index
+title listeners
+ length
+ index
+title listeners
+new title listeners
+remove visibility window listener
+visibility window listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+visibility window listeners
+ length
+ index
+
+
+visibility window listeners
+ length
+
+ listener
+visibility window listeners
+
+ index
+
+ index
+visibility window listeners
+ length
+visibility window listeners
+visibility window listener
+visibility window listener
+new visibility window listeners
+visibility window listener
+visibility window listeners
+ length
+ system
+ arraycopy
+visibility window listeners
+new visibility window listeners
+ index
+ system
+ arraycopy
+visibility window listeners
+ index
+new visibility window listeners
+ index
+visibility window listeners
+ length
+ index
+visibility window listeners
+new visibility window listeners
+set text
+ string
+ html
+check widget
+ html
+ swt
+ error
+ swt
+error null argument
+blank loading
+ html
+ html
+ html
+blank loading
+ rgdispid
+ navigate
+ rgdispid
+ auto
+get names
+ string
+ variant
+var result
+ auto
+get property
+ rgdispid
+var result
+delay set text
+var result
+get int
+readystate complete
+var result
+ dispose
+ rgdispid
+ auto
+get names
+ string
+ auto
+ invoke
+ rgdispid
+ rgdispid
+ auto
+get names
+ string
+ navigate
+ variant
+ rgvarg
+ variant
+ rgvarg
+ variant
+about blank
+rgdispid named args
+rgdispid named args
+ rgdispid
+ variant
+var result
+ auto
+ invoke
+ rgdispid
+ rgvarg
+rgdispid named args
+ rgvarg
+ dispose
+var result
+ result
+var result
+get type
+ ole
+ empty
+var result
+ dispose
+ result
+set url
+ string
+ url
+check widget
+ url
+ swt
+ error
+ swt
+error null argument
+ html
+ url
+ends with
+ navigate
+ rgdispid
+ auto
+get names
+ string
+ variant
+ rgvarg
+ variant
+ rgvarg
+ variant
+about blank
+rgdispid named args
+rgdispid named args
+ rgdispid
+ auto
+ invoke
+ rgdispid
+ rgvarg
+rgdispid named args
+ rgvarg
+ dispose
+ rgdispid
+ auto
+get names
+ string
+ auto
+ invoke
+ rgdispid
+ rgdispid
+ auto
+get names
+ string
+ navigate
+ variant
+ rgvarg
+ variant
+ rgvarg
+ variant
+ url
+rgdispid named args
+rgdispid named args
+ rgdispid
+ variant
+var result
+ auto
+ invoke
+ rgdispid
+ rgvarg
+rgdispid named args
+ rgvarg
+ dispose
+var result
+ result
+var result
+get type
+ ole
+ empty
+var result
+ dispose
+ result
+ stop
+check widget
+ rgdispid
+ auto
+get names
+ string
+ auto
+ invoke
+ rgdispid
+</identifier>
+<comments>
+copyright  2003  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  implement  the  browser  user  interface  metaphor  allows  the  user  visualize  and  navigate  through  html  documents  note  that  although  this  class  subclass  code  composite  code  does  not  make  sense  set  layout  important  this  class  not  intended  subclassed  since 
+external  listener  management
+non  nls 
+non  nls 
+package  name
+non  nls 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  widget  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  widget  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  exception swt error  error  handles  handle  could  not  obtained  for  browser  creation  see  widget get style  since 
+non  nls 
+note  internet  explorer  appears  treat  the  data  loaded  with persist stream init  load  were  encoded  using  the  default  local  charset  there  does  not  seem  api  set  the  desired  charset  explicitely  this  case  the  fix  prepend  the  utf  byte  order  mark  signature  the  data
+note create stream global  called  with  the  flag delete release  the  call  succeeds  the  buffer  global  freed  automatically  when  the  stream  object  released  the  call  fails  free  the  buffer  global
+non  nls 
+this  code  intentionally  commented  the  dispatch  obtained  from  variant  did  not  increase  the  reference  count  for  the  enclosed  interface
+dispatch document  release
+this  code  intentionally  commented  variant  constructed  from ole automation  object  does  not  increase  its  reference  count  the  dispatch  obtained  from  this  variant  did  not  increase  the  reference  count  for  the ole automation  instance  either
+top  release
+variant  dispose
+note  the  completion  the  page  loading  detected  described  the  msdn  article  determine  when  page  done  loading web browser  control
+final  document  complete
+this  code  intentionally  commented  this  dispatch  was  received  argument  from  the ole event  and  will  disposed  along  with  the  other  arguments
+dispatch  release
+this  code  intentionally  commented  variant  constructed  from ole automation  object  does  not  increase  its  reference  count  the  dispatch  obtained  from  this  variant  did  not  increase  the  reference  count  for  the ole automation  instance  either
+variant  dispose
+dispatch  release
+feature  internet  explorer tool bar  false  emitted  when  both  tool  bar  address  bar  and  menu  bar  must  not  visible tool bar  true  emitted  when  either  tool  bar  address  bar  menu  bar  visible
+bug  internet  explorer  there  distinct  notification  for  the  address  bar  neither  address  menu  tool  bars  are  visible tool bar  false  emitted  for  some  reason  querying  the  value address bar  this  case  returns  true  even  though  should  not  set  visible  the  workaround  only  query  the  value address bar  when tool bar  false  has  not  been  emitted
+non  nls 
+may 
+dispose  all  arguments  passed  the ole event  this  must  done  properly  release  any  dispatch  reference  that  was  automatically add ref  when  constructing  the ole event
+non  nls 
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  window  hosting  the  receiver  should  closed  this  notification  occurs  when  javascript  command  such  code  window  close  code  gets  executed  code  browser  code  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  since 
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  current  location  has  changed  about  change  this  notification  typically  occurs  when  the  application  navigates  new  location  with  link set url  string  when  the  user  activates  hyperlink  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  since 
+adds  the  listener  the  collection  listeners  who  will  notified  when  new  window  needs  created  this  notification  occurs  when  javascript  command  such  code  window  open  code  gets  executed  code  browser  code  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  since 
+adds  the  listener  the  collection  listeners  who  will  notified  when  progress  made  during  the  loading  the  current  url  when  the  loading  the  current  url  has  been  completed  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  since 
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  status  text  changed  the  status  text  typically  displayed  the  status  bar  browser  application  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  since 
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  title  the  current  document  available  has  changed  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  since 
+adds  the  listener  the  collection  listeners  who  will  notified  when  window  hosting  the  receiver  needs  displayed  hidden  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  since 
+navigate  the  previous  session  history  item  return  code  true  code  the  operation  was  successful  and  code  false  code  otherwise  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  see  forward  since 
+non  nls 
+execute  the  specified  script  execute  script  containing  javascript  commands  the  context  the  current  document  param  script  the  script  with  javascript  commands  return  code  true  code  the  operation  was  successful  and  code  false  code  otherwise  exception illegal argument exception  error  null  argument  the  script  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  since 
+get ihtml document
+non  nls 
+get ihtml window
+non  nls 
+non  nls  non  nls 
+navigate  the  next  session  history  item  return  code  true  code  the  operation  was  successful  and  code  false  code  otherwise  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  see  back  since 
+non  nls 
+returns  code  true  code  the  receiver  can  navigate  the  previous  session  history  item  and  code  false  code  otherwise  return  the  receiver  back  command  enabled  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  back
+returns  code  true  code  the  receiver  can  navigate  the  next  session  history  item  and  code  false  code  otherwise  return  the  receiver  forward  command  enabled  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  forward
+returns  the  current  url  return  the  current  url  empty  code  string  code  there  current  url  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  see set url  since 
+non  nls 
+refresh  the  current  page  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  since 
+non  nls 
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  window  hosting  the  receiver  should  closed  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  since 
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  current  location  changed  about  changed  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  since 
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  new  window  needs  created  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  since 
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  progress  made  during  the  loading  the  current  url  when  the  loading  the  current  url  has  been  completed  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  since 
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  status  text  changed  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  since 
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  title  the  current  document  available  has  changed  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  since 
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  window  hosting  the  receiver  needs  displayed  hidden  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  since 
+renders  html  the  html  parameter  unicode  encoded  since  java  code  string  code  result  the  html  meta  tag  charset  should  not  set  the  charset  implied  the  code  string  code  itself  param  html  the  html  content  rendered  return  true  the  operation  was  successful  and  false  otherwise  exception illegal argument exception  error  null  argument  the  html  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  see set url  since 
+the  html  field  non  null  then  the  about  blank  page  already  being  loaded  stop  navigate  required  just  set  the  html  that  shown
+navigate  the  blank  page  and  insert  the  given  html  when  receiving  the  next document complete  notification  see  the  msdn  article  loading  html  content  from  stream  note  stop  any  pending  request  this  required  avoid  displaying  blank  page  result  consecutive  calls set url  and set text  the  previous  request  would  otherwise  render  the  new  html  content  and  reset  the  html  field  before  the  browser  actually  navigates  the  blank  page  requested  below  feature  internet  explorer  stopping  pending  requests  when  request  pending  causes  default  page  action  cancelled  displayed  the  workaround  not  invoke  stop  when  request  has  been  set  since  that  instance  was  created
+stopping  the  loading  page  causes document complete  events  from  previous  requests  received  before  the document complete  for  this  page  such  cases  must  sure  not  set  the  html  into  the  browser  too  soon  since  doing  could  result  its  page  being  cleared  out  subsequent document complete  the  browser ready state  can  used  determine  whether  these  extra  events  will  received  not
+non  nls 
+non  nls 
+non  nls  non  nls 
+loads  url  param  url  the  url  loaded  return  true  the  operation  was  successful  and  false  otherwise  exception illegal argument exception  error  null  argument  the  url  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  see get url  since 
+bug  internet  explorer  for  some  reason  navigating  xml  document  before  previous  navigate  has  completed  will  leave  the  browser  bad  state  the  navigate  the  xml  document  does  not  complete  this  bad  state  causes  when  the  parent  window  eventually  disposed  the  workaround  issue  stop  before  navigating  any  xml  document
+non  nls 
+feature  internet  explorer  stopping  pending  requests  when  request  has  been  issued  causes  default  action  cancelled  page  displayed  since  stop  must  issued  here  the  workaround  first  navigate  the  about  blank  page  before  issuing  stop  that  the  action  cancelled  page  not  displayed
+non  nls  non  nls 
+non  nls 
+non  nls  non  nls 
+stop  any  loading  and  rendering  activity  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed  since 
+non  nls 
+</comments>
+</text>
+</DOC>

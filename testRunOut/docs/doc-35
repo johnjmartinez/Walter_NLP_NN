@@ -1,0 +1,691 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.ViewFormLayout.java </DOCNO>
+<text>
+<class>
+view form layout
+</class>
+<method>
+compute size
+compute child size
+compute trim
+flush cache
+ layout
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+view form layout
+ layout
+ point
+compute size
+ composite
+ composite
+ hint
+ hint
+flush cache
+view form
+ form
+view form
+ composite
+ control
+ left
+ form
+top left
+ control
+ center
+ form
+top center
+ control
+ right
+ form
+top right
+ control
+ content
+ form
+ content
+ point
+left size
+ point
+ left
+left size
+compute child size
+ left
+ swt
+ default
+ swt
+ default
+flush cache
+ point
+center size
+ point
+ center
+center size
+compute child size
+ center
+ swt
+ default
+ swt
+ default
+flush cache
+ point
+right size
+ point
+ right
+right size
+compute child size
+ right
+ swt
+ default
+ swt
+ default
+flush cache
+ point
+ size
+ point
+ form
+separate top center
+ hint
+ swt
+ default
+left size
+
+center size
+
+right size
+
+ hint
+ size
+
+left size
+
+right size
+
+left size
+
+right size
+
+ size
+
+ form
+horizontal spacing
+ size
+
+ math
+ max
+center size
+
+ size
+
+ size
+
+ math
+ max
+left size
+
+right size
+
+ center
+ size
+
+center size
+
+ left
+ right
+ size
+
+ form
+vertical spacing
+ size
+
+left size
+
+center size
+
+right size
+
+ count
+left size
+
+ count
+center size
+
+ count
+right size
+
+ count
+ count
+ size
+
+ count
+ form
+horizontal spacing
+ size
+
+ math
+ max
+left size
+
+ math
+ max
+center size
+
+right size
+
+ content
+ left
+ right
+ center
+ size
+
+ point
+content size
+ point
+content size
+compute child size
+ content
+ swt
+ default
+ swt
+ default
+flush cache
+ size
+
+ math
+ max
+ size
+
+content size
+
+ size
+
+content size
+
+ size
+
+content size
+
+ size
+
+ form
+vertical spacing
+ size
+
+ form
+margin width
+ size
+
+ form
+margin height
+ hint
+ swt
+ default
+ size
+
+ hint
+ hint
+ swt
+ default
+ size
+
+ hint
+ size
+ point
+compute child size
+ control
+ control
+ hint
+ hint
+flush cache
+ object
+ data
+ control
+get layout data
+ data
+ data
+layout data
+ data
+layout data
+ control
+set layout data
+ data
+layout data
+ data
+compute size
+ control
+ hint
+ hint
+flush cache
+compute trim
+ control
+
+
+ scrollable
+ rectangle
+ rect
+ scrollable
+
+compute trim
+ rect
+ width
+
+get border width
+flush cache
+ control
+ control
+ object
+ data
+ control
+get layout data
+ data
+ data
+layout data
+layout data
+ data
+flush cache
+ layout
+ composite
+ composite
+flush cache
+view form
+ form
+view form
+ composite
+ control
+ left
+ form
+top left
+ control
+ center
+ form
+top center
+ control
+ right
+ form
+top right
+ control
+ content
+ form
+ content
+ rectangle
+ rect
+ composite
+get client area
+ point
+left size
+ point
+ left
+ left
+ disposed
+left size
+compute child size
+ left
+ swt
+ default
+ swt
+ default
+flush cache
+ point
+center size
+ point
+ center
+ center
+ disposed
+center size
+compute child size
+ center
+ swt
+ default
+ swt
+ default
+flush cache
+ point
+right size
+ point
+ right
+ right
+ disposed
+right size
+compute child size
+ right
+ swt
+ default
+ swt
+ default
+flush cache
+min top width
+left size
+
+center size
+
+right size
+
+ form
+margin width
+ form
+ highlight
+ count
+left size
+
+ count
+center size
+
+ count
+right size
+
+ count
+ count
+min top width
+ count
+ form
+horizontal spacing
+
+ rect
+
+ rect
+ width
+ form
+margin width
+ form
+ highlight
+
+ rect
+
+ form
+margin height
+ form
+ highlight
+ top
+ form
+separate top center
+min top width
+ rect
+ width
+top height
+ math
+ max
+right size
+
+left size
+
+ right
+ right
+ disposed
+ top
+
+right size
+
+ right
+set bounds
+
+
+right size
+
+top height
+
+ form
+horizontal spacing
+ left
+ left
+ disposed
+ top
+ trim
+compute trim
+ left
+ left
+
+ rect
+
+ form
+margin width
+ form
+ highlight
+ trim
+left size
+compute child size
+ left
+ left
+ swt
+ default
+ left
+set bounds
+ rect
+
+ form
+margin width
+ form
+ highlight
+
+left size
+
+top height
+ top
+
+top height
+ form
+vertical spacing
+ center
+ center
+ disposed
+ top
+ trim
+compute trim
+ center
+
+ rect
+ width
+ form
+margin width
+ form
+ highlight
+ trim
+center size
+compute child size
+ center
+
+ swt
+ default
+ center
+set bounds
+ rect
+
+ rect
+ width
+ form
+margin width
+ form
+ highlight
+center size
+
+
+center size
+
+center size
+
+
+center size
+
+ form
+vertical spacing
+top height
+ math
+ max
+right size
+
+ math
+ max
+center size
+
+left size
+
+ right
+ right
+ disposed
+ top
+
+right size
+
+ right
+set bounds
+
+
+right size
+
+top height
+
+ form
+horizontal spacing
+ center
+ center
+ disposed
+ top
+
+center size
+
+ center
+set bounds
+
+
+center size
+
+top height
+
+ form
+horizontal spacing
+ left
+ left
+ disposed
+ top
+ rectangle
+ trim
+ left
+ composite
+ composite
+ left
+compute trim
+ rectangle
+
+
+ rect
+
+ form
+margin width
+ form
+ highlight
+ trim
+ width
+
+top height
+ trim
+ height
+left size
+compute child size
+ left
+
+
+ left
+set bounds
+ rect
+
+ form
+margin width
+ form
+ highlight
+
+left size
+
+top height
+ top
+
+top height
+ form
+vertical spacing
+old seperator
+ form
+ separator
+ form
+ separator
+ content
+ content
+ disposed
+ left
+ right
+ center
+ form
+ separator
+
+
+ content
+set bounds
+ rect
+
+ form
+margin width
+ form
+ highlight
+
+ rect
+ width
+ form
+margin width
+ form
+ highlight
+ rect
+
+ rect
+ height
+
+ form
+margin height
+ form
+ highlight
+old seperator
+ form
+ separator
+
+ math
+ min
+ form
+ separator
+old seperator
+
+ math
+ max
+ form
+ separator
+old seperator
+ form
+ redraw
+ form
+border left
+
+ form
+get size
+
+ form
+border left
+ form
+border right
+
+
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  class  provides  the  layout  for view form  see view form
+calculate  width  title  bar
+allow  space  for  vertical  separator
+</comments>
+</text>
+</DOC>

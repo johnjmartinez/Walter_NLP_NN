@@ -1,0 +1,1131 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.BidiUtil.java </DOCNO>
+<text>
+<class>
+bidi util
+</class>
+<method>
+add language listener
+enum system language groups proc
+draw glyphs
+get render info
+get order info
+get font bidi attributes
+get keyboard language
+get keyboard language list
+bidi platform
+keyboard bidi
+remove language listener
+set keyboard language
+set orientation
+ subclass
+ reverse
+ reverse
+translate order
+ unsubclass
+window proc
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ java
+ util
+ hashtable
+ org
+ eclipse
+ swt
+ swt
+ org
+ eclipse
+ swt
+ graphics
+
+ org
+ eclipse
+ swt
+ internal
+ win
+bidi util
+keyboard non bidi
+keyboard bidi
+bidi platform
+ classin
+ linkbefore
+ linkafter
+ hashtable
+language map
+ hashtable
+ hashtable
+key map
+ hashtable
+ hashtable
+old proc map
+ hashtable
+ string
+class name
+ callback
+ callback
+ callback
+ callback
+ class
+for name
+class name
+ callback
+get address
+ swt
+ error
+ swt
+error more callbacks
+class not found exception
+
+gcp reorder
+gcp glyphshape
+gcp ligate
+gcp classin
+gcpclass arabic
+gcpclass hebrew
+gcpclass localnumber
+gcpclass latinnumber
+gcpglyph linkbefore
+gcpglyph linkafter
+eto clipped
+eto glyph index
+lang arabic
+lang hebrew
+ string
+ hebrew
+ string
+ arabic
+hkl next
+hkl prev
+class hebrew
+gcpclass arabic
+class arabic
+gcpclass hebrew
+class localnumber
+gcpclass localnumber
+class latinnumber
+gcpclass latinnumber
+ reorder
+gcp reorder
+ ligate
+gcp ligate
+ glyphshape
+gcp glyphshape
+add language listener
+ hwnd
+ runnable
+ runnable
+language map
+ put
+ integer
+ hwnd
+ runnable
+ subclass
+ hwnd
+enum system language groups proc
+lang grp
+lang grp string
+lang grp name
+ options
+ param
+lang grp
+
+lgrpid hebrew
+bidi platform
+lang grp
+
+lgrpid arabic
+bidi platform
+draw glyphs
+
+
+render buffer
+ render
+
+
+ length
+ render
+ length
+
+ win
+
+win 32_ version
+
+ version
+
+get layout
+
+ handle
+ reverse
+ render
+ render
+ length
+ reverse
+render buffer
+old mode
+
+set mode
+
+ handle
+
+ transparent
+
+ext text out
+
+ handle
+
+
+eto glyph index
+render buffer
+render buffer
+ length
+ render
+
+set mode
+
+ handle
+old mode
+get render info
+
+
+ string
+ text
+ order
+class buffer
+
+ flags
+ offsets
+font language info
+
+get font language info
+
+ handle
+ heap
+
+get process heap
+
+
+
+get text charset
+
+ handle
+right oriented
+
+ win
+
+win 32_ version
+
+ version
+right oriented
+
+get layout
+
+ handle
+
+translate charset info
+
+
+
+tci srccharset
+ tchar
+text buffer
+ tchar
+
+ text
+byte count
+text buffer
+ length
+link before
+ flags
+ linkbefore
+ linkbefore
+link after
+ flags
+ linkafter
+ linkafter
+gcp results
+ result
+gcp results
+ result
+struct size
+gcp results
+ sizeof
+ result
+ glyphs
+byte count
+ order
+ result
+ order
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+ result
+
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+ class
+ result
+ class
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+ glyphs
+ result
+ glyphs
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+ flags
+glyph flags
+ flags
+gcp reorder
+font language info
+gcp ligate
+gcp ligate
+ flags
+gcp ligate
+glyph flags
+font language info
+gcp glyphshape
+gcp glyphshape
+ flags
+gcp glyphshape
+link before
+glyph flags
+gcpglyph linkbefore
+link after
+glyph flags
+gcpglyph linkafter
+ glyphs
+link before
+link after
+ glyphs
+ glyphs
+glyph flags
+ glyphs
+glyph flags
+ glyphs
+glyph flags
+
+move memory
+ result
+ glyphs
+ glyphs
+ glyphs
+ length
+ flags
+ classin
+ classin
+ flags
+gcp classin
+
+move memory
+ result
+ class
+class buffer
+class buffer
+ length
+glyph buffer
+ result
+ glyphs
+glyph count
+
+
+ offsets
+ length
+
+ offset
+ offsets
+
+ length
+ offsets
+
+ offsets
+
+ result
+ glyphs
+ length
+ tchar
+text buffer
+ tchar
+
+ text
+ substring
+ offset
+ offset
+ length
+
+get character placement
+
+ handle
+text buffer
+text buffer
+ length
+ result
+ flags
+
+
+ result
+ glyphs
+
+move memory
+
+ result
+
+
+ length
+right oriented
+ reverse
+
+ system
+ arraycopy
+
+
+glyph count
+
+ length
+ order
+ order
+ length
+
+move memory
+ order
+ result
+ order
+ order
+ length
+translate order
+ order
+glyph count
+right oriented
+ system
+ arraycopy
+ order
+ order
+ offset
+ length
+class buffer
+class buffer
+ length
+
+move memory
+class buffer
+ result
+ class
+class buffer
+ length
+ system
+ arraycopy
+class buffer
+class buffer
+ offset
+ length
+glyph buffer
+ result
+ glyphs
+
+move memory
+glyph buffer
+ result
+ glyphs
+glyph buffer
+ length
+right oriented
+ reverse
+glyph buffer
+ system
+ arraycopy
+glyph buffer
+glyph buffer
+glyph count
+glyph buffer
+ length
+glyph count
+glyph buffer
+ length
+ result
+ order
+ length
+ result
+
+ length
+ result
+ class
+ length
+ result
+ glyphs
+glyph buffer
+ length
+
+heap free
+ heap
+ glyphs
+
+heap free
+ heap
+ class
+
+heap free
+ heap
+
+
+heap free
+ heap
+ order
+glyph buffer
+get order info
+
+
+ string
+ text
+ order
+class buffer
+ flags
+ offsets
+font language info
+
+get font language info
+
+ handle
+ heap
+
+get process heap
+
+
+
+get text charset
+
+ handle
+
+translate charset info
+
+
+
+tci srccharset
+ tchar
+text buffer
+ tchar
+
+ text
+byte count
+text buffer
+ length
+right oriented
+
+ win
+
+win 32_ version
+
+ version
+right oriented
+
+get layout
+
+ handle
+gcp results
+ result
+gcp results
+ result
+struct size
+gcp results
+ sizeof
+ result
+ glyphs
+byte count
+ order
+ result
+ order
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+ class
+ result
+ class
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+ flags
+ flags
+gcp reorder
+font language info
+gcp ligate
+gcp ligate
+ flags
+gcp ligate
+font language info
+gcp glyphshape
+gcp glyphshape
+ flags
+gcp glyphshape
+ flags
+ classin
+ classin
+ flags
+gcp classin
+
+move memory
+ result
+ class
+class buffer
+class buffer
+ length
+glyph count
+
+
+ offsets
+ length
+
+ offset
+ offsets
+
+ length
+ offsets
+
+ offsets
+
+ result
+ glyphs
+ length
+ tchar
+text buffer
+ tchar
+
+ text
+ substring
+ offset
+ offset
+ length
+
+get character placement
+
+ handle
+text buffer
+text buffer
+ length
+ result
+ flags
+ order
+ order
+ length
+
+move memory
+ order
+ result
+ order
+ order
+ length
+translate order
+ order
+glyph count
+right oriented
+ system
+ arraycopy
+ order
+ order
+ offset
+ length
+class buffer
+class buffer
+ length
+
+move memory
+class buffer
+ result
+ class
+class buffer
+ length
+ system
+ arraycopy
+class buffer
+class buffer
+ offset
+ length
+glyph count
+ result
+ glyphs
+ result
+ order
+ length
+ result
+ class
+ length
+
+heap free
+ heap
+ class
+
+heap free
+ heap
+ order
+get font bidi attributes
+
+
+font style
+font language info
+
+get font language info
+
+ handle
+font language info
+gcp reorder
+font style
+ reorder
+font language info
+gcp ligate
+font style
+ ligate
+font language info
+gcp glyphshape
+font style
+ glyphshape
+font style
+get keyboard language
+ layout
+
+get keyboard layout
+ layout
+ layout
+ layout
+lang hebrew
+keyboard bidi
+ layout
+lang arabic
+keyboard bidi
+keyboard non bidi
+get keyboard language list
+max size
+temp list
+max size
+ size
+
+get keyboard layout list
+max size
+temp list
+ list
+ size
+ system
+ arraycopy
+temp list
+ list
+ size
+ list
+bidi platform
+
+ win
+bidi platform
+bidi platform
+bidi platform
+keyboard bidi
+ callback
+ callback
+ callback
+ callback
+ class
+for name
+class name
+enum system language groups proc
+ callback
+get address
+enum system language groups proc
+ swt
+ error
+ swt
+error more callbacks
+
+enum system language groups
+enum system language groups proc
+
+lgrpid installed
+ callback
+ dispose
+class not found exception
+
+ callback
+ callback
+ dispose
+bidi platform
+ string
+code page
+ string
+ value
+
+get acp
+ arabic
+ equals
+code page
+ hebrew
+ equals
+code page
+bidi platform
+bidi platform
+keyboard bidi
+ list
+get keyboard language list
+
+
+ list
+ length
+
+
+ list
+
+
+lang arabic
+
+lang hebrew
+remove language listener
+ hwnd
+language map
+ remove
+ integer
+ hwnd
+ unsubclass
+ hwnd
+set keyboard language
+ language
+ language
+get keyboard language
+ language
+keyboard bidi
+ list
+get keyboard language list
+
+
+ list
+ length
+
+
+ list
+
+
+lang arabic
+
+lang hebrew
+
+activate keyboard layout
+ list
+
+ list
+get keyboard language list
+
+
+ list
+ length
+
+
+ list
+
+
+lang hebrew
+
+lang arabic
+
+activate keyboard layout
+ list
+
+set orientation
+ hwnd
+ orientation
+
+ win
+
+win 32_ version
+
+ version
+ bits
+
+get window long
+ hwnd
+
+gwl exstyle
+ orientation
+ swt
+right left
+ bits
+
+ layoutrtl
+ bits
+
+ layoutrtl
+
+set window long
+ hwnd
+
+gwl exstyle
+ bits
+ subclass
+ hwnd
+ integer
+ key
+ integer
+ hwnd
+old proc map
+ get
+ key
+old proc
+
+get window long
+ hwnd
+
+gwl wndproc
+old proc map
+ put
+ key
+ integer
+old proc
+
+set window long
+ hwnd
+
+gwl wndproc
+ callback
+get address
+ reverse
+char array
+ length
+char array
+ length
+
+
+ length
+
+ tmp
+char array
+
+char array
+
+char array
+ length
+
+char array
+ length
+
+ tmp
+ reverse
+int array
+ length
+int array
+ length
+
+
+ length
+
+ tmp
+int array
+
+int array
+
+int array
+ length
+
+int array
+ length
+
+ tmp
+translate order
+order array
+glyph count
+right oriented
+max order
+ length
+order array
+ length
+right oriented
+
+
+ length
+
+max order
+ math
+ max
+max order
+order array
+
+
+
+ length
+
+right oriented
+order array
+
+max order
+order array
+
+order array
+
+glyph count
+ unsubclass
+ hwnd
+ integer
+ key
+ integer
+ hwnd
+language map
+ get
+ key
+key map
+ get
+ key
+ integer
+ proc
+ integer
+old proc map
+ remove
+ key
+ proc
+
+set window long
+ hwnd
+
+gwl wndproc
+ proc
+int value
+window proc
+ hwnd
+ msg
+ param
+ param
+ integer
+ key
+ integer
+ hwnd
+ msg
+ runnable
+ runnable
+ runnable
+language map
+ get
+ key
+ runnable
+ runnable
+ run
+ integer
+old proc
+ integer
+old proc map
+ get
+ key
+
+call window proc
+old proc
+int value
+ hwnd
+ msg
+ param
+ param
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+wraps  win  api  used  bidi  enable  the styled text  widget
+keyboard  language  ids
+bidi  flag
+get render info  flag  values
+variables  used  for  providing  listener  mechanism  for  keyboard  language
+  switching
+this  code  intentionally  commented  order  support  cldc  class  cannot  used  because  does  not  compile  some  java  compilers  when  they  are  targeted  for  cldc
+static  callback  callback  new  callback bidi util  class window proc 
+non  nls 
+non  nls 
+get character placement  constants
+ext text out  constants
+windows  primary  language  identifiers
+code  page  identifiers
+non  nls 
+non  nls 
+activate keyboard  constants
+public  character  class  constants  are  the  same  windows  platform  constants  saves  conversion  class  array get render info  arbitrary  constants  for  now
+adds  language  listener  the  listener  will  get  notified  when  the  language  the  keyboard  changes  via  alt  shift  win  platforms  this  creating  window  proc  for  the  control  that  the  window  messages  for  the  control  can  monitored  param  hwnd  the  handle  the  control  that  listening  for  keyboard  language  changes  param  runnable  the  code  that  should  executed  when  keyboard  language  change  occurs
+proc  used  for enum system language groups  call  during bidi platform  test
+wraps  the ext text out  function  param  the  use  for  rendering  param render buffer  the  glyphs  render  array  characters  param  render  the  width  each  glyph render buffer  param  position  start  rendering  param  position  start  rendering
+fixes  bug  40006
+render  transparently  avoid  overlapping  segments  fixes  bug  40006
+return  ordering  and  rendering  information  for  the  given  text  wraps  the get font language info  and get character placement  functions  param  the  use  for  measuring  this  line  input  parameter  param  text  text  that  bidi  data  should  calculated  for  input  parameter  param  order  array  integers  representing  the  visual  position  each  character  the  text  array  output  parameter  param class buffer  array  integers  representing  the  type  arabic  hebrew  localnumber  each  character  the  text  array  input  output  parameter  param  array  integers  representing  the  pixel  width  each  glyph  the  returned  glyph  buffer  output  paramteter  param  flags  integer  representing  rendering  flag  information  input  parameter  param  offsets  text  segments  that  should  measured  and  reordered  separately  input  parameter  see  org  eclipse  swt  custom bidi segment event  for  details  return  buffer  with  the  glyphs  that  should  rendered  for  the  given  text
+set  required  flags
+always  reorder  assume  that  are  calling  this  function 
+platform  that  supports  bidi  fixes  20690
+set  classification  values  for  the  substring
+the  number  glyphs  expected  length  segment  length
+the  actual  number  returned  may  less  case  arabic  ligatures
+concatenate  successive  results  calls  gcp
+for  arabic  the  only  good  method  since  the  number  output
+glyphs  might  less  than  the  number  input  characters
+this  assumes  that  the  whole  line  built  successive  adjacent
+segments  without  overlapping
+free  the  memory  that  was  allocated
+return  bidi  ordering  information  for  the  given  text  does  not  return  rendering  information  glyphs  glyph  distances  use  this  method  when  you  only  need  ordering  information  doing  will  improve  performance  wraps  the get font language info  and get character placement  functions  param  the  use  for  measuring  this  line  input  parameter  param  text  text  that  bidi  data  should  calculated  for  input  parameter  param  order  array  integers  representing  the  visual  position  each  character  the  text  array  output  parameter  param class buffer  array  integers  representing  the  type  arabic  hebrew  localnumber  each  character  the  text  array  input  output  parameter  param  flags  integer  representing  rendering  flag  information  input  parameter  param  offsets  text  segments  that  should  measured  and  reordered  separately  input  parameter  see  org  eclipse  swt  custom bidi segment event  for  details
+set  required  flags  these  values  will  affect  how  the  text  gets  rendered  and
+  ordered
+always  reorder  assume  that  are  calling  this  function 
+platform  that  supports  bidi  fixes  20690
+set  classification  values  for  the  substring  classification  values
+can  specified  input
+the  number  glyphs  expected  length  segment  length
+the  actual  number  returned  may  less  case  arabic  ligatures
+concatenate  successive  results  calls  gcp
+for  arabic  the  only  good  method  since  the  number  output
+glyphs  might  less  than  the  number  input  characters
+this  assumes  that  the  whole  line  built  successive  adjacent
+segments  without  overlapping
+free  the  memory  that  was  allocated
+return  bidi  attribute  information  for  the  font  the  specified  param  the  query  return  bitwise  the  reorder  ligate  and  glyphshape  flags  defined  this  class
+return  the  active  keyboard  language  type  return  integer  representing  the  active  keyboard  language  keyboard  bidi  keyboard  non  bidi
+only  interested  low  bytes  which  the  primary
+language  identifier
+return  non  bidi  for  all  other  languages
+return  the  languages  that  are  installed  for  the  keyboard  return  integer  array  with  entry  for  each  installed  language
+return  whether  not  the  platform  supports  bidi  language  determine  this  looking  the  languages  that  are  installed  return  true  bidi  supported  false  otherwise  always  false  windows 
+already  set
+the  following  test  workaround  for  bug  report  27629  win
+both  bidi  and  complex  script  thai  languages  must  installed
+the  same  time  since  the  bidi  platform  calls  not  support
+double  byte  characters  there  way  run  eclipse  using  the
+complex  script  languages  constrain  this  test  answer  true
+only  bidi  input  language  defined  doing  will  allow  complex
+script  languages  work  one  can  install  bidi  and  complex  script
+languages  but  only  install  the  thai  keyboard
+non  nls 
+need  look  system  code  page  for  platforms  since enum system language groups 
+not  supported  for  these  platforms
+return  whether  not  the  keyboard  supports  input  bidi  language  determine  this  looking  the  languages  that  are  installed  for  the  keyboard  return  true  bidi  supported  false  otherwise
+removes  the  specified  language  listener  param  hwnd  the  handle  the  control  that  listening  for  keyboard  language  changes
+switch  the  keyboard  language  the  specified  language  type  not  distinguish  between  mulitple  bidi  multiple  non  bidi  languages  set  the  keyboard  the  first  language  the  given  type  param  language  integer  representing  language  one  keyboard  bidi  keyboard  non  bidi
+don  switch  the  keyboard  doesn  need 
+get  the  list  active  languages
+set  first  bidi  language
+get  the  list  active  languages
+set  the  first  non  bidi  language  anything  not
+hebrew  arabic
+sets  the  orientation  writing  order  the  specified  control  text  will  right  aligned  for  right  left  writing  order  param  hwnd  the  handle  the  control  change  the  orientation  param  orientation  one  swt  right  left  swt  left  right  return  true  the  orientation  was  changed  false  the  orientation  could  not  changed
+override  the  window  proc  param  hwnd  control  override  the  window  proc 
+reverse  the  character  array  used  for  right  orientation  param char array  character  array  reverse
+reverse  the  integer  array  used  for  right  orientation  param int array  integer  array  reverse
+adjust  the  order  array  that  relative  the  start  the  line  also  reverse  the  order  array  the  orientation  the  right  param order array  integer  array  order  values  translate  param glyph count  number  glyphs  that  have  been  processed  for  the  current  line  param right oriented  flag  indicating  whether  not  current  orientation  the  right
+remove  the  overridden  the  window  proc  param  hwnd  control  remove  the  window  proc  override  for
+window  proc  intercept  keyboard  language  switch  event  inputlangchange  and  widget  orientation  changes  run  the  control  registered  runnable  when  the  keyboard  language  switched  param  hwnd  handle  the  control  that  listening  for  the  keyboard  language  change  event  param  msg  window  message
+  inputlangchange
+</comments>
+</text>
+</DOC>

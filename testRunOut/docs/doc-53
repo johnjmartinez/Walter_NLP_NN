@@ -1,0 +1,956 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.TableCursor.java </DOCNO>
+<text>
+<class>
+table cursor
+</class>
+<method>
+table cursor
+handle event
+handle event
+handle event
+handle event
+handle event
+add selection listener
+ dispose
+key down
+ paint
+table focus
+table mouse down
+ traverse
+set row column
+set row column
+set visible
+remove selection listener
+ resize
+get column
+get row
+set background
+set foreground
+set selection
+set selection
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ events
+table cursor
+ canvas
+ table
+ table
+table item
+ row
+table column
+ column
+ listener
+table listener
+resize listener
+dispose item listener
+dispose column listener
+ background
+ swt
+color list selection text
+ foreground
+ swt
+color list selection
+table cursor
+ table
+ parent
+ style
+ parent
+ style
+ table
+ parent
+set background
+set foreground
+ listener
+ listener
+ listener
+handle event
+ event
+ event
+ event
+ type
+ swt
+ dispose
+ dispose
+ event
+ swt
+ focus
+ swt
+focus out
+ redraw
+ swt
+key down
+key down
+ event
+ swt
+ paint
+ paint
+ event
+ swt
+ traverse
+ traverse
+ event
+ events
+ swt
+ dispose
+ swt
+ focus
+ swt
+focus out
+ swt
+key down
+ swt
+ paint
+ swt
+ traverse
+
+
+ events
+ length
+
+add listener
+ events
+
+ listener
+table listener
+ listener
+handle event
+ event
+ event
+ event
+ type
+ swt
+mouse down
+table mouse down
+ event
+ swt
+ focus
+table focus
+ event
+ table
+add listener
+ swt
+ focus
+table listener
+ table
+add listener
+ swt
+mouse down
+table listener
+dispose item listener
+ listener
+handle event
+ event
+ event
+ row
+ column
+ resize
+dispose column listener
+ listener
+handle event
+ event
+ event
+ row
+ column
+ resize
+resize listener
+ listener
+handle event
+ event
+ event
+ resize
+scroll bar
+ bar
+ table
+get horizontal bar
+ bar
+ bar
+add listener
+ swt
+ selection
+resize listener
+scroll bar
+ bar
+ table
+get vertical bar
+ bar
+ bar
+add listener
+ swt
+ selection
+resize listener
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+ dispose
+ event
+ event
+ table
+remove listener
+ swt
+ focus
+table listener
+ table
+remove listener
+ swt
+mouse down
+table listener
+ column
+ column
+remove listener
+ swt
+ dispose
+dispose column listener
+ column
+remove listener
+ swt
+ move
+resize listener
+ column
+remove listener
+ swt
+ resize
+resize listener
+ column
+ row
+ row
+remove listener
+ swt
+ dispose
+dispose item listener
+ row
+scroll bar
+ bar
+ table
+get horizontal bar
+ bar
+ bar
+remove listener
+ swt
+ selection
+resize listener
+scroll bar
+ bar
+ table
+get vertical bar
+ bar
+ bar
+remove listener
+ swt
+ selection
+resize listener
+key down
+ event
+ event
+ row
+ event
+ character
+ swt
+
+notify listeners
+ swt
+default selection
+ event
+row index
+ table
+ index
+ row
+column index
+ column
+ table
+ index
+ column
+ event
+key code
+ swt
+ arrow
+set row column
+ math
+ max
+row index
+column index
+ swt
+arrow down
+set row column
+ math
+ min
+row index
+ table
+get item count
+column index
+ swt
+arrow left
+ swt
+arrow right
+column count
+ table
+get column count
+column count
+ order
+ table
+get column order
+ index
+ index
+ order
+ length
+ order
+ index
+column index
+ index
+ index
+ order
+ length
+ index
+lead key
+get style
+ swt
+right left
+ swt
+arrow right
+ swt
+arrow left
+ event
+key code
+lead key
+set row column
+row index
+ order
+ math
+ max
+ index
+set row column
+row index
+ order
+ math
+ min
+column count
+ index
+ swt
+ home
+set row column
+column index
+ swt
+ end
+
+ table
+get item count
+set row column
+
+column index
+ swt
+ page
+ index
+ table
+get top index
+ index
+row index
+ rectangle
+ rect
+ table
+get client area
+table item
+ item
+ table
+get item
+ index
+ rectangle
+item rect
+ item
+get bounds
+ rect
+ height
+item rect
+
+ height
+ table
+get item height
+ page
+ math
+ max
+ rect
+ height
+ height
+ index
+ math
+ max
+ index
+ page
+set row column
+ index
+column index
+ swt
+page down
+ index
+ table
+get top index
+ rectangle
+ rect
+ table
+get client area
+table item
+ item
+ table
+get item
+ index
+ rectangle
+item rect
+ item
+get bounds
+ rect
+ height
+item rect
+
+ height
+ table
+get item height
+ page
+ math
+ max
+ rect
+ height
+ height
+ end
+ table
+get item count
+ index
+ math
+ min
+ end
+ index
+ page
+ index
+row index
+ index
+ math
+ min
+ end
+ index
+ page
+set row column
+ index
+column index
+ paint
+ event
+ event
+ row
+column index
+ column
+ table
+ index
+ column
+
+
+ event
+
+ display
+ display
+get display
+
+set background
+get background
+
+set foreground
+get foreground
+
+fill rectangle
+ event
+
+ event
+
+ event
+ width
+ event
+ height
+
+ point
+ size
+get size
+ image
+ image
+ row
+get image
+column index
+ image
+ rectangle
+image size
+ image
+get bounds
+ image
+ size
+
+image size
+ height
+
+draw image
+ image
+
+ image
+
+image size
+ width
+ string
+ text
+ row
+get text
+column index
+ text
+ rectangle
+ bounds
+ row
+get bounds
+column index
+ point
+ extent
+
+string extent
+ text
+ string
+ platform
+ swt
+get platform
+ equals
+ platform
+ table
+get column count
+column index
+
+ alignmnent
+ column
+get alignment
+ alignmnent
+ swt
+ left
+
+ swt
+ right
+
+ bounds
+ width
+ extent
+
+ swt
+ center
+
+ bounds
+ width
+
+ extent
+
+ table
+get column count
+
+ alignmnent
+ column
+get alignment
+ alignmnent
+ swt
+ left
+
+ swt
+ right
+
+ bounds
+ width
+ extent
+
+ swt
+ center
+
+ bounds
+ width
+
+ extent
+
+ text
+ size
+
+ extent
+
+
+draw string
+ text
+
+ text
+focus control
+
+set background
+ display
+get system color
+ swt
+color black
+
+set foreground
+ display
+get system color
+ swt
+color white
+
+draw focus
+ size
+
+ size
+
+table focus
+ event
+ event
+ disposed
+ visible
+set focus
+table mouse down
+ event
+ event
+ disposed
+ visible
+ point
+
+ point
+ event
+
+ event
+
+ rectangle
+client rect
+ table
+get client area
+column count
+ table
+get column count
+max column index
+column count
+column count
+ start
+ table
+get top index
+ end
+ table
+get item count
+
+ start
+
+ end
+
+table item
+ item
+ table
+get item
+
+
+
+max column index
+
+ rectangle
+ rect
+ item
+get bounds
+
+ rect
+
+client rect
+
+client rect
+ height
+ rect
+ contains
+
+set row column
+
+
+set focus
+ traverse
+ event
+ event
+ event
+ detail
+ swt
+traverse arrow next
+ swt
+traverse arrow previous
+ swt
+traverse return
+ event
+ doit
+ event
+ doit
+set row column
+ row
+ column
+ notify
+table item
+ item
+ row
+ table
+get item
+ row
+table column
+ col
+ column
+ table
+get column count
+ table
+get column
+ column
+set row column
+ item
+ col
+ notify
+set row column
+table item
+ row
+table column
+ column
+ notify
+ row
+ row
+ column
+ column
+ row
+ row
+ row
+ row
+remove listener
+ swt
+ dispose
+dispose item listener
+ row
+ column
+ column
+ column
+ column
+remove listener
+ swt
+ dispose
+dispose column listener
+ column
+remove listener
+ swt
+ move
+resize listener
+ column
+remove listener
+ swt
+ resize
+resize listener
+ column
+ row
+ row
+ row
+ row
+ row
+ row
+add listener
+ swt
+ dispose
+dispose item listener
+ table
+show item
+ row
+ column
+ column
+ column
+ column
+ column
+ column
+add listener
+ swt
+ dispose
+dispose column listener
+ column
+add listener
+ swt
+ move
+resize listener
+ column
+add listener
+ swt
+ resize
+resize listener
+ table
+show column
+ column
+column index
+ column
+ table
+ index
+ column
+set bounds
+ row
+get bounds
+column index
+ redraw
+ notify
+notify listeners
+ swt
+ selection
+ event
+set visible
+ visible
+check widget
+ visible
+ resize
+set visible
+ visible
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+remove listener
+ swt
+ selection
+ listener
+remove listener
+ swt
+default selection
+ listener
+ resize
+ row
+set bounds
+column index
+ column
+ table
+ index
+ column
+set bounds
+ row
+get bounds
+column index
+get column
+check widget
+ column
+ table
+ index
+ column
+table item
+get row
+check widget
+ row
+set background
+ color
+ color
+ color
+ color
+get display
+get system color
+ background
+set background
+ color
+ redraw
+set foreground
+ color
+ color
+ color
+ color
+get display
+get system color
+ foreground
+set foreground
+ color
+ redraw
+set selection
+ row
+ column
+check widget
+column count
+ table
+get column count
+max column index
+column count
+column count
+ row
+ row
+ table
+get item count
+ column
+ column
+max column index
+ swt
+ error
+ swt
+error invalid argument
+set row column
+ row
+ column
+set selection
+table item
+ row
+ column
+check widget
+column count
+ table
+get column count
+max column index
+column count
+column count
+ row
+ row
+ disposed
+ column
+ column
+max column index
+ swt
+ error
+ swt
+error invalid argument
+set row column
+ table
+ index
+ row
+ column
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+table cursor  provides  way  for  the  user  navigate  around  table  using  the  keyboard  also  provides  mechanism  for  selecting  individual  cell  table  here  example  using table cursor  navigate  cell  and  then  edit  code  pre  public  static  void  main  string  args  display  display  new  display  shell  shell  new  shell  display  shell set layout  new grid layout  create  table  with  columns  and  fill  with  data  final  table  table  new  table  shell  swt  border  swt  multi  swt  full  selection  table set layout data  new grid data grid data  fill  both table column  column  new table column  table  swt  none table column  column  new table column  table  swt  none table column  column  new table column  table  swt  none  for  int  100 table item  item  new table item  table  swt  none  item set text  new  string  cell  cell  cell  column  pack  column  pack  column  pack  create table cursor  navigate  around  the  table  final table cursor  cursor  new table cursor  table  swt  none  create  editor  edit  the  cell  when  the  user  hits  enter  while  over  cell  the  table  final control editor  editor  new control editor  cursor  editor grab horizontal  true  editor grab vertical  true  cursor add selection listener  new selection adapter  when  the table editor  over  cell  select  the  corresponding  row  the  table  public  void widget selected selection event  table set selection  new table item  cursor get row  when  the  user  hits  enter  the table cursor  pop  text  editor  that  they  can  change  the  text  the  cell  public  void widget default selected selection event  final  text  text  new  text  cursor  swt  none table item  row  cursor get row  int  column  cursor get column  text set text  row get text  column  text add key listener  new key adapter  public  void key pressed key event  close  the  text  editor  and  copy  the  data  over  when  the  user  hits  enter  character  swt table item  row  cursor get row  int  column  cursor get column  row set text  column  text get text  text  dispose  close  the  text  editor  when  the  user  hits  esc  character  swt  esc  text  dispose  editor set editor  text  text set focus  hide  the table cursor  when  the  user  hits  the  mod  mod  key  this  alows  the  user  select  multiple  items  the  table  cursor add key listener  new key adapter  public  void key pressed key event key code  swt  mod key code  swt  mod state mask  swt  mod state mask  swt  mod  cursor set visible  false  show  the table cursor  when  the  user  releases  the  mod  mod  key  this  signals  the  end  the  multiple  selection  task  table add key listener  new key adapter  public  void key released key event key code  swt  mod state mask  swt  mod  return key code  swt  mod state mask  swt  mod  return key code  swt  mod state mask  swt  mod  return key code  swt  mod state mask  swt  mod  return table item  selection  table get selection table item  row  selection  length  table get item  table get top index  selection  table show item  row  cursor set selection  row  cursor set visible  true  cursor set focus  shell  open  while  shell  disposed  display read and dispatch  display  sleep  display  dispose  pre  code  styles  border  events  selection default selection  since 
+default  invert  the  list  selection  colors
+constructs  new  instance  this  class  given  its  parent  table  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  table  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  border  see  widget check subclass  see  widget get style
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  receiver  selection  changes  sending  one  the  messages  defined  the  code selection listener  code  interface  when  code widget selected  code  called  the  item  field  the  event  object  valid  the  reciever  has  code  swt  check  code  style  set  and  the  check  selection  changes  the  event  object  detail  field  contains  the  value  code  swt  check  code  code widget default selected  code  typically  called  when  item  double  clicked  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see selection event  see remove selection listener selection listener
+non  nls 
+temporary  code  need  better  way  determine  table  trim
+non  nls 
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  receiver  selection  changes  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener selection listener  since 
+returns  the  column  over  which  the table cursor  positioned  return  the  column  for  the  current  position  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  row  over  which  the table cursor  positioned  return  the  item  for  the  current  position  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+positions  the table cursor  over  the  cell  the  given  row  and  column  the  parent  table  param  row  the  index  the  row  for  the  cell  select  param  column  the  index  column  for  the  cell  select  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+positions  the table cursor  over  the  cell  the  given  row  and  column  the  parent  table  param  row  the table item  the  row  for  the  cell  select  param  column  the  index  column  for  the  cell  select  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+</comments>
+</text>
+</DOC>

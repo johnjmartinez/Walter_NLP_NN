@@ -1,0 +1,32 @@
+<DOC>
+<DOCNO>org.eclipse.swt.browser.StatusTextListener.java </DOCNO>
+<text>
+<class>
+status text listener
+</class>
+<method>
+ changed
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ browser
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+status text listener
+swt event listener
+ changed
+status text event
+ event
+</identifier>
+<comments>
+copyright  2003  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  listener  interface  may  implemented  order  receive  link status text event  notification  when  the  status  text  for  link  browser  changed  see  browser add status text listener status text listener  see  browser remove status text listener status text listener  since 
+this  method  called  when  the  status  text  changed  the  status  text  typically  displayed  the  status  bar  browser  application  the  following  fields  the  code status text event  code  apply  text  the  modified  status  text  widget  the  code  browser  code  whose  status  text  changed  param  event  the  code status text event  code  that  contains  the  updated  status  description  code  browser  code  since 
+</comments>
+</text>
+</DOC>

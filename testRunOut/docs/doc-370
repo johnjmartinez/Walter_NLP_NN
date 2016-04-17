@@ -1,0 +1,603 @@
+<DOC>
+<DOCNO>org.eclipse.swt.ole.win32.OLE.java </DOCNO>
+<text>
+<class>
+ ole
+</class>
+<method>
+ error
+ error
+find program
+get key value
+get key exists
+ole file
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ ole
+ win
+ org
+ eclipse
+ swt
+ java
+
+ file
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ com
+ org
+ eclipse
+ swt
+ internal
+ win
+
+ org
+ eclipse
+ swt
+ internal
+ win
+ tchar
+ ole
+ swt
+ false
+
+ fail
+ invalidarg
+ nointerface
+ notimpl
+ string
+iid iunknown
+ string
+iid idispatch
+oleiverb discardundostate
+oleiverb hide
+oleiverb inplaceactivate
+oleiverb open
+oleiverb primary
+oleiverb properties
+oleiverb show
+oleiverb uiactivate
+property changing
+property changed
+hresult unspecified
+error cannot create file
+error cannot create object
+error cannot open file
+error interface not found
+error invalid classid
+error cannot access classfactory
+error cannot create licensed object
+error out memory
+error cannot change variant type
+error invalid interface address
+error application not found
+error action not performed
+olecmdf supported
+olecmdf enabled
+olecmdf latched
+olecmdf ninched
+olecmdtextf none
+olecmdtextf name
+olecmdtextf status
+olecmdexecopt dodefault
+olecmdexecopt promptuser
+olecmdexecopt dontpromptuser
+olecmdexecopt showhelp
+olecmdid open
+olecmdid new
+olecmdid save
+olecmdid saveas
+olecmdid savecopyas
+olecmdid print
+olecmdid printpreview
+olecmdid pagesetup
+olecmdid spell
+olecmdid properties
+olecmdid cut
+olecmdid copy
+olecmdid paste
+olecmdid pastespecial
+olecmdid undo
+olecmdid redo
+olecmdid selectall
+olecmdid clearselection
+olecmdid zoom
+olecmdid getzoomrange
+olecmdid updatecommands
+olecmdid refresh
+olecmdid stop
+olecmdid hidetoolbars
+olecmdid setprogressmax
+olecmdid setprogresspos
+olecmdid setprogresstext
+olecmdid settitle
+olecmdid setdownloadstate
+olecmdid stopdownload
+varflag freadonly
+varflag fsource
+varflag fbindable
+varflag frequestedit
+varflag fdisplaybind
+varflag fdefaultbind
+varflag fhidden
+varflag frestricted
+varflag fdefaultcollelem
+varflag fuidefault
+varflag fnonbrowsable
+varflag freplaceable
+varflag fimmediatebind
+var perinstance
+var static
+var const
+var dispatch
+idlflag none
+idlflag fin
+idlflag fout
+idlflag flcid
+idlflag fretval
+ bool
+ bstr
+ byref
+
+ date
+ dispatch
+ empty
+ error
+
+
+ null
+
+
+
+
+ unknown
+ variant
+ ptr
+ userdefined
+ hresult
+ decimal
+
+
+
+
+ int
+ uint
+ void
+ safearray
+ carray
+ lpstr
+ lpwstr
+ record
+ filetime
+ blob
+ stream
+ storage
+streamed object
+stored object
+blob object
+
+ clsid
+versioned stream
+bstr blob
+ vector
+ array
+invoke func
+invoke propertyget
+invoke propertyput
+invoke propertyputref
+func virtual
+func purevirtual
+func nonvirtual
+func static
+func dispatch
+funcflag frestricted
+funcflag fsource
+funcflag fbindable
+funcflag frequestedit
+funcflag fdisplaybind
+funcflag fdefaultbind
+funcflag fhidden
+funcflag fusesgetlasterror
+funcflag fdefaultcollelem
+funcflag fuidefault
+funcflag fnonbrowsable
+funcflag freplaceable
+funcflag fimmediatebind
+ fastcall
+ cdecl
+ mscpascal
+ pascal
+ macpascal
+ stdcall
+ fpfastcall
+ syscall
+ mpwcdecl
+ mpwpascal
+ max
+ string
+error not implemented msg
+ string
+error cannot create file msg
+ string
+error cannot create object msg
+ string
+error cannot open file msg
+ string
+error interface not found msg
+ string
+error invalid classid msg
+ string
+error cannot access classfactory msg
+ string
+error cannot create licensed object msg
+ string
+error out memory msg
+ string
+error cannot change variant type msg
+ string
+error invalid interface address msg
+ string
+error application not found msg
+ string
+error action not performed msg
+ error
+ code
+ error
+ code
+ error
+ code
+ hresult
+ code
+error invalid interface address
+illegal argument exception
+error invalid interface address msg
+error cannot create file
+ string
+ msg
+error cannot create file msg
+ hresult
+ msg
+ hresult
+swt exception
+ code
+ msg
+error cannot create object
+ string
+ msg
+error cannot create object msg
+ hresult
+ msg
+ hresult
+swt exception
+ code
+ msg
+error cannot open file
+ string
+ msg
+error cannot open file msg
+ hresult
+ msg
+ hresult
+swt exception
+ code
+ msg
+error interface not found
+ string
+ msg
+error interface not found msg
+ hresult
+ msg
+ hresult
+swt exception
+ code
+ msg
+error invalid classid
+ string
+ msg
+error invalid classid msg
+ hresult
+ msg
+ hresult
+swt exception
+ code
+ msg
+error cannot access classfactory
+ string
+ msg
+error cannot access classfactory msg
+ hresult
+ msg
+ hresult
+swt exception
+ code
+ msg
+error cannot create licensed object
+ string
+ msg
+error cannot create licensed object msg
+ hresult
+ msg
+ hresult
+swt exception
+ code
+ msg
+error cannot change variant type
+ string
+ msg
+error cannot change variant type msg
+ hresult
+ msg
+ hresult
+swt exception
+ code
+ msg
+error application not found
+ string
+ msg
+error application not found msg
+ hresult
+ msg
+ hresult
+swt exception
+ code
+ msg
+error action not performed
+ string
+ msg
+error action not performed msg
+ hresult
+ msg
+ hresult
+swt exception
+ code
+ msg
+error out memory
+ string
+ msg
+error action not performed msg
+ hresult
+ msg
+ hresult
+swt error
+ code
+ msg
+ swt
+ error
+ code
+ string
+find program
+ string
+ extension
+ extension
+ swt
+ error
+ swt
+error null argument
+ extension
+ length
+ extension
+ char
+ extension
+ extension
+ tchar
+extension key
+ tchar
+ extension
+ string
+ result
+get key value
+extension key
+ result
+ tchar
+not insertable key
+ tchar
+ result
+get key exists
+not insertable key
+ tchar
+insertable key
+ tchar
+ result
+get key exists
+insertable key
+ result
+ tchar
+server key
+ tchar
+ result
+get key exists
+server key
+ result
+ string
+get key value
+ tchar
+ key
+phk result
+
+reg open key
+
+hkey classes root
+ key
+
+key read
+phk result
+ string
+ result
+lpcb data
+
+reg query value
+phk result
+ tchar
+ tchar
+lpcb data
+ length
+lpcb data
+ tchar
+ sizeof
+ length
+ result
+ tchar
+ data
+ tchar
+ length
+
+reg query value
+phk result
+ data
+lpcb data
+ length
+ math
+ max
+ data
+ length
+ result
+ data
+ string
+ length
+phk result
+
+reg close key
+phk result
+ result
+get key exists
+ tchar
+ key
+phk result
+
+reg open key
+
+hkey classes root
+ key
+
+key read
+phk result
+phk result
+
+reg close key
+phk result
+ole file
+ file
+ file
+ file
+ file
+ exists
+ file
+ directory
+ com
+stg storage file
+ file
+get absolute path
+char array
+ com
+
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+ole  contains  all  the  constants  used  create  active  control  ole  document  definitions  for  these  constants  can  found  msdn
+used  for  functions  that  semantically  return  boolean  false  result  indicate  that  the  function  succeeded
+function  succeeded
+unspecified  failure
+invalid  argument
+query interface  did  not  recognize  the  requested  interface
+not  implemented
+non  nls 
+non  nls 
+verbs  that  can  invoked  this  client
+close  the  ole  object  and  discard  the  undo  state
+hide  the  ole  object
+open  the  ole  for  editing  place
+open  the  ole  object  for  editing  separate  window
+opens  the  ole  object  for  editing
+request  the  ole  object  properties  dialog
+show  the  ole  object
+activate  the  for  the  ole  object
+error  code  for ole error  specific  error  information  available
+error  code  for ole error  failed  create  file
+error  code  for ole error  failed  create  ole  client
+error  code  for ole error  file  does  not  exist  not  accessible  user  does  not  have  the  correct  format
+error  code  for ole error  failed  find  requested  interface  ole  object
+error  code  for ole error  class  not  found  registry
+error  code  for ole error  failed  get  the  class  factory  for  the  specified  class
+error  code  for ole error  failed  create  licensed  instance
+error  code  for ole error  out  memory
+error  code  for ole error  failed  change  variant  type
+error  code  for ole error  invalid  address  received  for  ole  interface
+error  code  for ole error  unable  find  application
+error  code  for ole error  action  can  not  performed
+ole  property  description  flags
+ole  property  description  kind
+ole  parameter  description  flags
+ole  description  types
+boolean  true  false 
+binary  string
+reference  must  combined  with  one  the  othre  values
+  currency
+  date
+  dispatch
+not  specified
+  scodes
+byte  signed  int
+byte  signed  int
+  null
+byte  real
+byte  real
+unsigned  char
+unsigned  int
+unknown  far
+variant  far
+ole  function  description  invoke  kind  values
+ole  function  description  function  kind
+ole  function  description  function  flags
+ole  function  description  calling  convention
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+illegal  arguments  non  fatal
+swt  errors  non  fatal
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+failure  limit  fatal  may  occur  only  some  platforms
+non  nls 
+unknown  undefined  error
+finds  the  ole  program  that  associated  with  extension  the  extension  may  may  not  begin  with  platforms  that  not  support  ole  empty  string  returned  param  extension  the  program  extension  return  string  that  the  ole  program  empty  string  exception illegal argument exception  error  null  argument  when  extension  null 
+non  nls 
+non  nls 
+use  the  character  encoding  for  the  default  locale
+look  for  program not insertable
+non  nls 
+non  nls 
+look  for  program  insertable
+non  nls 
+look  for  program  protocol std file editing  server
+non  nls 
+non  nls 
+use  the  character  encoding  for  the  default  locale
+returns  true  the  specified  file  has  ole  storage  format  note  all  empty  files  regardless  extension  will  return  false  param  file  the  file  checked  return  true  this  file  has  ole  storage  format
+</comments>
+</text>
+</DOC>

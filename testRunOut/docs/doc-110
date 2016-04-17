@@ -1,0 +1,218 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.LEDataInputStream.java </DOCNO>
+<text>
+<class>
+data input stream
+</class>
+<method>
+data input stream
+data input stream
+ close
+get position
+ available
+ read
+ read
+read data
+read int
+read short
+ unread
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+ java
+
+data input stream
+input stream
+ position
+input stream
+
+ buf
+ pos
+data input stream
+input stream
+ input
+ input
+data input stream
+input stream
+ input
+buffer size
+
+ input
+buffer size
+ buf
+buffer size
+ pos
+buffer size
+illegal argument exception
+ close
+ exception
+ buf
+
+
+ close
+
+get position
+ position
+ available
+ exception
+ buf
+ exception
+ buf
+ length
+ pos
+
+ available
+ read
+ exception
+ buf
+ exception
+ position
+ pos
+ buf
+ length
+ buf
+ pos
+
+ read
+ read
+
+ off
+ len
+ exception
+ result
+ left
+ len
+ result
+read data
+
+ off
+ len
+ result
+ position
+ result
+ result
+ left
+ len
+ left
+ result
+ off
+ result
+ result
+read data
+
+ off
+ left
+read data
+ buffer
+ offset
+ length
+ exception
+ buf
+ exception
+ offset
+ offset
+ buffer
+ length
+ length
+ length
+ buffer
+ length
+ offset
+array index out bounds exception
+cache copied
+new offset
+ offset
+ available
+ buf
+ length
+ pos
+ available
+cache copied
+ available
+ length
+ length
+ available
+ system
+ arraycopy
+ buf
+ pos
+ buffer
+new offset
+cache copied
+new offset
+cache copied
+ pos
+cache copied
+cache copied
+ length
+ length
+ copied
+
+ read
+ buffer
+new offset
+ length
+cache copied
+ copied
+ copied
+cache copied
+cache copied
+ copied
+cache copied
+read int
+ exception
+ buf
+ read
+ buf
+ buf
+ buf
+ buf
+ buf
+read short
+ exception
+ buf
+ read
+ buf
+ buf
+ buf
+ unread
+
+ exception
+ length
+
+ length
+ length
+ pos
+ exception
+ position
+ length
+ pos
+ length
+ system
+ arraycopy
+
+ buf
+ pos
+ length
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+the  byte  array  containing  the  bytes  read
+the  current  position  within  the  byte  array  code  buf  code  value  equal  buf  length  indicates  bytes  available  value  indicates  the  buffer  full
+answer  how  many  bytes  were  read
+answers  how  many  bytes  are  available  for  reading  without  blocking
+answer  the  next  byte  the  input  stream
+don  imitate  the  jdk  behaviour  reading  random  number  bytes  when  you  can  actually  read  them  all
+reads  most  code  length  code  bytes  from  this data input stream  and  stores  them  byte  array  code  buffer  code  starting  code  offset  code  answer  the  number  bytes  actually  read  bytes  were  read  and  end  stream  was  encountered  this  implementation  reads  bytes  from  the  pushback  buffer  first  then  the  target  stream  more  bytes  are  required  satisfy  code  count  code  param  buffer  the  byte  array  which  store  the  read  bytes  param  offset  the  offset  code  buffer  code  store  the  read  bytes  param  length  the  maximum  number  bytes  store  code  buffer  code  return  int  the  number  bytes  actually  read  end  stream  exception  java  exception  exception  occurs
+are  there  pushback  bytes  available
+have  copied  enough
+answer  integer  comprised  the  next  four  bytes  the  input  stream
+answer  short  comprised  the  next  two  bytes  the  input  stream
+push  back  the  entire  content  the  given  buffer  code  code  the  bytes  are  pushed  that  they  would  read  back  etc  the  push  back  buffer  cannot  handle  the  bytes  copied  from  code  code  exception  will  thrown  and  byte  will  pushed  back  param  the  byte  array  containing  bytes  push  back  into  the  stream  exception  java  exception  the  pushback  buffer  too  small
+</comments>
+</text>
+</DOC>

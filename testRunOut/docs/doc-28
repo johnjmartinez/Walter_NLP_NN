@@ -1,0 +1,337 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.PopupList.java </DOCNO>
+<text>
+<class>
+popup list
+</class>
+<method>
+popup list
+popup list
+handle event
+control moved
+control resized
+mouse double click
+mouse down
+ mouse
+key released
+key pressed
+check style
+get font
+get items
+get minimum width
+ open
+ select
+set font
+set items
+set minimum width
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+popup list
+ shell
+ shell
+ list
+ list
+minimum width
+popup list
+ shell
+ parent
+ parent
+popup list
+ shell
+ parent
+ style
+ shell
+ shell
+ parent
+check style
+ style
+ list
+ list
+ shell
+ swt
+ single
+ swt
+ scroll
+ shell
+add listener
+ swt
+ deactivate
+ listener
+handle event
+ event
+
+ shell
+set visible
+ shell
+add control listener
+control listener
+control moved
+control event
+
+control resized
+control event
+
+ rectangle
+shell size
+ shell
+get client area
+ list
+set size
+shell size
+ width
+shell size
+ height
+ list
+add mouse listener
+mouse listener
+mouse double click
+mouse event
+
+mouse down
+mouse event
+
+ mouse
+mouse event
+
+ shell
+set visible
+ list
+add key listener
+key listener
+key released
+key event
+
+key pressed
+key event
+
+
+ character
+ shell
+set visible
+check style
+ style
+ mask
+ swt
+left right
+ swt
+right left
+ style
+ mask
+ font
+get font
+ list
+get font
+ string
+get items
+ list
+get items
+get minimum width
+minimum width
+ string
+ open
+ rectangle
+ rect
+ point
+list size
+ list
+compute size
+ rect
+ width
+ swt
+ default
+ rectangle
+screen size
+ shell
+get display
+get bounds
+space below
+screen size
+ height
+ rect
+
+ rect
+ height
+space above
+ rect
+
+
+space above
+space below
+list size
+
+space below
+list size
+
+space above
+list size
+
+space above
+list size
+
+
+ rect
+
+list size
+
+list size
+
+space below
+list size
+
+space below
+list size
+
+
+ rect
+
+ rect
+ height
+list size
+
+ rect
+ width
+list size
+
+minimum width
+list size
+
+minimum width
+
+ rect
+
+ rect
+ width
+list size
+
+ shell
+set bounds
+
+
+list size
+
+list size
+
+ shell
+ open
+ list
+set focus
+ display
+ display
+ shell
+get display
+ shell
+ disposed
+ shell
+ visible
+ display
+read and dispatch
+ display
+ sleep
+ string
+ result
+ shell
+ disposed
+ string
+ strings
+ list
+get selection
+ shell
+ dispose
+ strings
+ length
+ result
+ strings
+ result
+ select
+ string
+ string
+ string
+ items
+ list
+get items
+ string
+
+
+ items
+ length
+
+ items
+
+starts with
+ string
+ index
+ list
+ index
+ items
+
+ list
+ select
+ index
+set font
+ font
+ font
+ list
+set font
+ font
+set items
+ string
+ strings
+ list
+set items
+ strings
+set minimum width
+ width
+ width
+ swt
+ error
+ swt
+error invalid argument
+minimum width
+ width
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+popup list  list  selectable  items  that  appears  its  own  shell  positioned  above  its  parent  shell  used  for  selecting  items  when  editing  table  cell  similar  the  list  that  appears  when  you  open  combo  box  the  list  will  positioned  that  does  not  run  off  the  screen  and  the  largest  number  items  are  visible  may  appear  above  the  current  cursor  location  below  depending  how  close  you  are  the  edge  the  screen
+creates popup list  above  the  specified  shell  param  parent  shell  control  which  will  the  parent  the  new  instance  cannot  null
+creates popup list  above  the  specified  shell  param  parent  widget  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  widget  construct  since 
+close  dialog  user  selects  outside  the  shell
+resize  shell  when  list  resizes
+return  list  selection  mouse  carriage  return
+gets  the  widget  font  return  the  widget  font  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+gets  the  items  this  operation  will  fail  the  items  cannot  queried  from  the  return  the  items  the  widget  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+gets  the  minimum  width  the  list  return  the  minimum  width  the  list
+launches  the  popup  list  waits  for  item  selected  and  then  closes popup list  param  rect  the  initial  size  and  location  the popup list  the  dialog  will  positioned  that  does  not  run  off  the  screen  and  the  largest  number  items  are  visible  return  the  text  the  selected  item  null  item  selected
+position  the  dialog  that  does  not  run  off  the  screen  and  the  largest  number  items  are  visible
+place  popup  list  above  table  cell
+place  popup  list  below  table  cell
+make  dialog  wide  the  cell
+dialog  width  should  not  les  than  minimumwidth
+align  right  side  dialog  with  right  side  cell
+selects  item  with  text  that  starts  with  specified  string  the  item  not  currently  selected  selected  the  item  index  selected  remains  selected  the  string  not  matched  ignored  param  string  the  text  the  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+find  the  first  entry  the  list  that  starts  with  the
+specified  string
+sets  the  widget  font  when  new  font  null  the  font  reverts  the  default  system  font  for  the  widget  param  font  the  new  font  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  all  items  the  previous  selection  cleared  the  previous  items  are  deleted  the  new  items  are  added  the  top  index  set  param  strings  the  array  items  this  operation  will  fail  when  item  null  could  not  added  the  exception illegal argument exception  error  null  argument  the  items  array  null  error  invalid  argument  item  the  items  array  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  minimum  width  the  list  param  width  the  minimum  width  the  list
+</comments>
+</text>
+</DOC>

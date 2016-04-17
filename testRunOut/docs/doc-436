@@ -1,0 +1,5433 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Display.java </DOCNO>
+<text>
+<class>
+ display
+</class>
+<method>
+ run
+set device
+ display
+ display
+_get focus control
+add bar
+add control
+add filter
+add listener
+add menu item
+add popup
+ascii key
+async exec
+ beep
+check subclass
+check device
+check display
+clear modal
+control key
+ close
+ create
+create display
+create 32bit dib
+create mask from alpha
+ deregister
+ destroy
+destroy display
+dispose exec
+draw menu bars
+embedded proc
+ error
+filter event
+ filters
+filter message
+find control
+find widget
+find widget
+foreground idle proc
+find display
+get active shell
+get bounds
+get current
+get client area
+get control
+get cursor control
+get cursor location
+get cursor sizes
+get default
+valid class
+get data
+get data
+get dismissal alignment
+get double click time
+get focus control
+get high contrast
+get icon depth
+get icon sizes
+get image list
+get image list tool bar
+get image list tool bar disabled
+get image list tool bar hot
+get last event time
+get menu item
+get message count
+get modal shell
+get modal dialog shell
+get monitors
+get msg proc
+get primary monitor
+get shells
+get sync thread
+get system color
+get system cursor
+get system font
+get system image
+get system tray
+get thread
+internal _new
+ init
+internal _dispose
+mouse active
+valid thread
+ map
+ map
+ map
+ map
+mbcs wcs
+mbcs wcs
+message proc
+monitor enum proc
+msg filter proc
+numpad key
+ post
+post event
+read and dispatch
+ register
+ release
+release display
+release image list
+release tool image list
+release tool hot image list
+release tool disabled image list
+remove filter
+remove listener
+remove bar
+remove control
+remove menu item
+remove popup
+run async messages
+run deferred events
+run popups
+run timer
+send event
+set cursor location
+set cursor location
+set data
+set data
+set app name
+set modal dialog shell
+set modal shell
+set synchronizer
+shifted key
+ sleep
+sync exec
+system font
+timer exec
+translate accelerator
+translate key
+translate mnemonic
+translate traversal
+untranslate key
+ update
+update font
+ wake
+wake thread
+wcs mbcs
+wcs mbcs
+window proc
+ with
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ display
+ device
+ msg
+ msg
+ msg
+ event
+event queue
+ callback
+window callback
+window proc
+ thread
+ tchar
+window class
+window shadow class
+window class count
+ string
+window name
+ string
+window shadow name
+event table
+event table
+filter table
+free slot
+index table
+ control
+control table
+grow size
+swt object index
+use property
+
+ win
+use property
+swt object index
+
+global add atom
+ tchar
+swt object index
+focus event
+ control
+focus control
+ menu
+ bars
+ popups
+menu item
+ items
+ start
+ callback
+msg filter callback
+msg filter proc
+filter hook
+ msg
+hook msg
+ msg
+ignore msg filter
+ callback
+foreground idle callback
+foreground idle proc
+idle hook
+ignore next key
+ callback
+get msg callback
+embedded callback
+get msg proc
+msg hook
+embedded hwnd
+embedded proc
+ string
+awt window class
+ accents
+ synchronizer
+ synchronizer
+ synchronizer
+ thread
+ thread
+ runnable
+dispose list
+ tray
+ tray
+next tray
+timer ids
+ runnable
+timer list
+next timer
+last key
+last ascii
+last mouse
+last virtual
+last null
+last dead
+ keyboard
+accel key hit
+mnemonic key hit
+lock active window
+capture changed
+ignore restore focus
+ control
+last hittest control
+last hittest
+ callback
+message callback
+hwnd message
+message proc
+system fonts
+error icon
+info icon
+question icon
+warning icon
+ cursor
+ cursors
+ cursor
+ swt
+cursor hand
+image list
+image list
+tool image list
+tool hot image list
+tool disabled image list
+cust colors
+ object
+ data
+ string
+ keys
+ object
+ values
+key table
+
+ menu
+ swt
+ alt
+
+ shift
+ swt
+ shift
+
+ control
+ swt
+ control
+
+
+ swt
+ arrow
+
+ down
+ swt
+arrow down
+
+ left
+ swt
+arrow left
+
+ right
+ swt
+arrow right
+
+ prior
+ swt
+ page
+
+ next
+ swt
+page down
+
+ home
+ swt
+ home
+
+ end
+ swt
+ end
+
+ insert
+ swt
+ insert
+
+ back
+ swt
+
+
+ return
+ swt
+
+
+ delete
+ swt
+ del
+
+ escape
+ swt
+ esc
+
+ return
+ swt
+
+
+ tab
+ swt
+ tab
+
+
+ swt
+
+
+
+ swt
+
+
+
+ swt
+
+
+
+ swt
+
+
+
+ swt
+
+
+
+ swt
+
+
+
+ swt
+
+
+
+ swt
+
+
+
+ swt
+
+
+
+ swt
+
+
+
+ swt
+
+
+
+ swt
+
+
+
+ swt
+
+
+
+ swt
+
+
+
+ swt
+
+
+ multiply
+ swt
+keypad multiply
+
+ add
+ swt
+keypad add
+
+ return
+ swt
+ keypad
+
+ subtract
+ swt
+keypad subtract
+
+ decimal
+ swt
+keypad decimal
+
+ divide
+ swt
+keypad divide
+
+ numpad
+ swt
+ keypad
+
+ numpad
+ swt
+ keypad
+
+ numpad
+ swt
+ keypad
+
+ numpad
+ swt
+ keypad
+
+ numpad
+ swt
+ keypad
+
+ numpad
+ swt
+ keypad
+
+ numpad
+ swt
+ keypad
+
+ numpad
+ swt
+ keypad
+
+ numpad
+ swt
+ keypad
+
+ numpad
+ swt
+ keypad
+
+ capital
+ swt
+caps lock
+
+ numlock
+ swt
+num lock
+
+ scroll
+ swt
+scroll lock
+
+ pause
+ swt
+ pause
+
+ cancel
+ swt
+ break
+
+ snapshot
+ swt
+print screen
+ display
+ default
+ display
+ displays
+ display
+ monitor
+ monitors
+monitor count
+ shell
+modal shells
+ shell
+modal dialog shell
+trim enabled
+swt getaccelcount
+
+ app
+swt getaccel
+
+ app
+swt keymsg
+
+ app
+swt destroy
+
+ app
+swt trayiconmsg
+
+ app
+swt null
+
+ app
+swt taskbarcreated
+hit count
+ string
+package prefix
+device finder
+ runnable
+ run
+ device
+ device
+get current
+ device
+ device
+get default
+set device
+ device
+set device
+ device
+ device
+current device
+ device
+ display
+ display
+device data
+ data
+ data
+ control
+_get focus control
+find control
+
+get focus
+add bar
+ menu
+ menu
+ bars
+ bars
+ menu
+ length
+ bars
+ length
+
+
+ length
+
+ bars
+
+ menu
+ index
+ index
+ length
+ bars
+ index
+ index
+ index
+ length
+ menu
+new bars
+ menu
+ length
+ system
+ arraycopy
+ bars
+new bars
+ length
+ bars
+new bars
+ bars
+ index
+ menu
+add control
+ handle
+ control
+ control
+ handle
+free slot
+ length
+free slot
+index table
+ length
+grow size
+new index table
+ length
+ control
+new control table
+ control
+ length
+ system
+ arraycopy
+index table
+new index table
+free slot
+ system
+ arraycopy
+control table
+new control table
+free slot
+
+free slot
+
+ length
+
+new index table
+
+
+new index table
+ length
+index table
+new index table
+control table
+new control table
+use property
+
+set prop
+ handle
+swt object index
+free slot
+
+set window long
+ handle
+
+gwl userdata
+free slot
+old slot
+free slot
+free slot
+index table
+old slot
+index table
+old slot
+control table
+old slot
+ control
+add filter
+event type
+ listener
+ listener
+check device
+ listener
+ error
+ swt
+error null argument
+filter table
+filter table
+event table
+filter table
+ hook
+event type
+ listener
+add listener
+event type
+ listener
+ listener
+check device
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+event table
+event table
+ hook
+event type
+ listener
+add menu item
+menu item
+ item
+ items
+ items
+menu item
+
+
+ items
+ length
+
+ items
+
+ item
+
+
+ start
+ items
+
+ item
+ item
+
+ items
+ length
+ start
+menu item
+new items
+menu item
+ items
+ length
+new items
+ items
+ length
+ item
+ system
+ arraycopy
+ items
+new items
+ items
+ length
+ items
+new items
+add popup
+ menu
+ menu
+ popups
+ popups
+ menu
+ length
+ popups
+ length
+
+
+ length
+
+ popups
+
+ menu
+ index
+ index
+ length
+ popups
+ index
+ index
+ index
+ length
+ menu
+new popups
+ menu
+ length
+ system
+ arraycopy
+ popups
+new popups
+ length
+ popups
+new popups
+ popups
+ index
+ menu
+ascii key
+ key
+
+ win
+
+
+ keyboard
+ length
+
+ keyboard
+
+
+get keyboard state
+ keyboard
+
+ unicode
+ result
+
+ unicode
+ key
+ key
+ keyboard
+ result
+ result
+ result
+
+ ascii
+ key
+ key
+ keyboard
+ result
+ result
+async exec
+ runnable
+ runnable
+ disposed
+ error
+ swt
+error device disposed
+ synchronizer
+async exec
+ runnable
+ beep
+check device
+
+message beep
+
+
+check subclass
+valid class
+get class
+ error
+ swt
+error invalid subclass
+check device
+ thread
+ error
+ swt
+error widget disposed
+ thread
+ thread
+current thread
+ error
+ swt
+error thread invalid access
+ disposed
+ error
+ swt
+error device disposed
+check display
+ thread
+ thread
+ multiple
+
+
+ displays
+ length
+
+ displays
+
+ multiple
+ swt
+ error
+ swt
+error not implemented
+ displays
+
+ thread
+ thread
+ swt
+ error
+ swt
+error thread invalid access
+clear modal
+ shell
+ shell
+modal shells
+ index
+ length
+modal shells
+ length
+ index
+ length
+modal shells
+ index
+ shell
+modal shells
+ index
+ index
+ index
+ length
+ system
+ arraycopy
+modal shells
+ index
+modal shells
+ index
+ length
+ index
+modal shells
+ length
+ index
+modal shells
+modal shells
+ shell
+ shells
+get shells
+
+
+ shells
+ length
+
+ shells
+
+update modal
+control key
+ key
+ upper
+
+char upper
+ key
+ upper
+ upper
+ upper
+ key
+ close
+check device
+ event
+ event
+ event
+send event
+ swt
+ close
+ event
+ event
+ doit
+ dispose
+ create
+device data
+ data
+check subclass
+check display
+ thread
+ thread
+current thread
+create display
+ data
+ register
+ default
+ default
+create display
+device data
+ data
+create 32bit dib
+ bitmap
+ alpha
+alpha data
+transparent pixel
+ bitmap
+
+ bitmap
+
+get object
+ bitmap
+ bitmap
+ sizeof
+
+img width
+
+ width
+img height
+
+ height
+
+
+ get
+src hdc
+
+create compatible
+
+old src bitmap
+
+select object
+src hdc
+ bitmap
+mem hdc
+
+create compatible
+
+ bitmapinfoheader
+bmi header
+ bitmapinfoheader
+bmi header
+ size
+ bitmapinfoheader
+ sizeof
+bmi header
+ width
+img width
+bmi header
+ height
+img height
+bmi header
+ planes
+bmi header
+bit count
+bmi header
+ compression
+
+ rgb
+ bmi
+ bitmapinfoheader
+ sizeof
+
+move memory
+ bmi
+bmi header
+ bitmapinfoheader
+ sizeof
+ bits
+mem dib
+
+create dib section
+ bmi
+
+dib rgb colors
+ bits
+mem dib
+ swt
+ error
+ swt
+error handles
+old mem bitmap
+
+select object
+mem hdc
+mem dib
+ bitmap
+ dib
+ bitmap
+
+get object
+mem dib
+ bitmap
+ sizeof
+ dib
+size bytes
+ dib
+width bytes
+ dib
+ height
+
+bit blt
+mem hdc
+img width
+img height
+src hdc
+
+ srccopy
+ red
+ green
+ blue
+transparent pixel
+
+bits pixel
+ color
+
+get dib color table
+src hdc
+transparent pixel
+ color
+ blue
+ color
+ green
+ color
+ red
+ color
+
+bits pixel
+ blue
+transparent pixel
+ green
+transparent pixel
+ red
+transparent pixel
+ blue
+transparent pixel
+ green
+transparent pixel
+ red
+transparent pixel
+ blue
+transparent pixel
+ green
+transparent pixel
+ red
+transparent pixel
+
+select object
+src hdc
+old src bitmap
+
+select object
+mem hdc
+old mem bitmap
+
+delete object
+src hdc
+
+delete object
+mem hdc
+
+ release
+
+src data
+size bytes
+
+move memory
+src data
+ bits
+size bytes
+ alpha
+
+
+
+img height
+
+
+
+img width
+
+src data
+
+ alpha
+
+alpha data
+
+
+
+
+img height
+
+
+
+img width
+
+src data
+
+alpha data
+
+
+transparent pixel
+
+
+
+img height
+
+
+
+img width
+
+src data
+
+ blue
+src data
+
+ green
+src data
+
+ red
+src data
+
+src data
+
+
+
+move memory
+ bits
+src data
+size bytes
+mem dib
+create mask from alpha
+image data
+ data
+dest width
+dest height
+src width
+ data
+ width
+src height
+ data
+ height
+image data
+ mask
+image data
+internal _new
+src width
+src height
+palette data
+ rgb
+ rgb
+ rgb
+
+
+
+ mask
+ height
+
+
+
+ mask
+ width
+
+ mask
+set pixel
+
+
+ data
+alpha data
+
+ mask
+
+create bitmap
+src width
+src height
+ mask
+ data
+src width
+dest width
+src height
+dest height
+ hdc
+
+ get
+ hdc
+
+create compatible
+ hdc
+
+select object
+ hdc
+ mask
+ hdc
+
+create compatible
+ hdc
+ mask
+
+create bitmap
+dest width
+dest height
+
+select object
+ hdc
+ mask
+
+ win
+
+set stretch blt mode
+ hdc
+
+ coloroncolor
+
+stretch blt
+ hdc
+dest width
+dest height
+ hdc
+src width
+src height
+
+ srccopy
+
+ delete
+ hdc
+
+ delete
+ hdc
+
+ release
+ hdc
+
+delete object
+ mask
+ mask
+ mask
+ mask
+ deregister
+ display
+ display
+
+
+ displays
+ length
+
+ display
+ displays
+
+ displays
+
+ destroy
+ default
+ default
+ deregister
+destroy display
+destroy display
+dispose exec
+ runnable
+ runnable
+check device
+dispose list
+dispose list
+ runnable
+
+
+dispose list
+ length
+
+dispose list
+
+dispose list
+
+ runnable
+ runnable
+new dispose list
+ runnable
+dispose list
+ length
+ system
+ arraycopy
+dispose list
+new dispose list
+dispose list
+ length
+new dispose list
+dispose list
+ length
+ runnable
+dispose list
+new dispose list
+draw menu bars
+ bars
+
+
+ bars
+ length
+
+ menu
+ menu
+ bars
+
+ menu
+ menu
+ disposed
+ menu
+ update
+ bars
+embedded proc
+ hwnd
+ msg
+ param
+ param
+ msg
+swt keymsg
+ msg
+key msg
+ msg
+
+move memory
+key msg
+ param
+ msg
+ sizeof
+
+translate message
+key msg
+
+dispatch message
+key msg
+ heap
+
+get process heap
+
+heap free
+ heap
+ param
+swt destroy
+
+destroy window
+ hwnd
+embedded callback
+embedded callback
+ dispose
+get msg callback
+get msg callback
+ dispose
+embedded callback
+get msg callback
+embedded proc
+get msg proc
+
+def window proc
+ hwnd
+ msg
+ param
+ param
+ error
+ code
+ swt
+ error
+ code
+filter event
+ event
+ event
+filter table
+filter table
+send event
+ event
+ filters
+event type
+filter table
+filter table
+ hooks
+event type
+filter message
+ msg
+ msg
+ message
+ msg
+ message
+
+ keyfirst
+ message
+ message
+
+ keylast
+ control
+ control
+find control
+ msg
+ hwnd
+ control
+translate accelerator
+ msg
+ control
+translate mnemonic
+ msg
+ control
+translate traversal
+ msg
+ control
+last ascii
+last key
+last virtual
+last null
+last dead
+ control
+find control
+ handle
+ handle
+ control
+ control
+get control
+ handle
+ control
+ control
+ handle
+
+get parent
+ handle
+ widget
+find widget
+ handle
+check device
+get control
+ handle
+ widget
+find widget
+ handle
+
+ control
+ control
+get control
+ handle
+ control
+ control
+find item
+
+foreground idle proc
+ code
+ param
+ param
+ code
+get message count
+wake thread
+
+call next hook
+idle hook
+ code
+ param
+ param
+ display
+find display
+ thread
+ thread
+
+
+ displays
+ length
+
+ display
+ display
+ displays
+
+ display
+ display
+ thread
+ thread
+ display
+ shell
+get active shell
+check device
+ control
+ control
+find control
+
+get active window
+ control
+ control
+get shell
+ rectangle
+get bounds
+check device
+
+get system metrics
+
+ cmonitors
+ width
+
+get system metrics
+
+ cxscreen
+ height
+
+get system metrics
+
+ cyscreen
+ rectangle
+ width
+ height
+
+
+get system metrics
+
+ xvirtualscreen
+
+
+get system metrics
+
+ yvirtualscreen
+ width
+
+get system metrics
+
+ cxvirtualscreen
+ height
+
+get system metrics
+
+ cyvirtualscreen
+ rectangle
+
+
+ width
+ height
+ display
+get current
+find display
+ thread
+current thread
+ rectangle
+get client area
+check device
+
+get system metrics
+
+ cmonitors
+ rect
+ rect
+ rect
+
+system parameters info
+
+spi getworkarea
+ rect
+ width
+ rect
+ right
+ rect
+ left
+ height
+ rect
+ bottom
+ rect
+ top
+ rectangle
+ rect
+ left
+ rect
+ top
+ width
+ height
+
+
+get system metrics
+
+ xvirtualscreen
+
+
+get system metrics
+
+ yvirtualscreen
+ width
+
+get system metrics
+
+ cxvirtualscreen
+ height
+
+get system metrics
+
+ cyvirtualscreen
+ rectangle
+
+
+ width
+ height
+ control
+get control
+ handle
+ handle
+ index
+use property
+ index
+
+get prop
+ handle
+swt object index
+ index
+
+get window long
+ handle
+
+gwl userdata
+ index
+ index
+control table
+ length
+ control
+ control
+control table
+ index
+ control
+ control
+check handle
+ handle
+ control
+ control
+get cursor control
+check device
+ point
+
+ point
+
+get cursor pos
+
+find control
+
+window from point
+
+ point
+get cursor location
+check device
+ point
+
+ point
+
+get cursor pos
+
+ point
+
+
+
+
+ point
+get cursor sizes
+check device
+ point
+ point
+
+get system metrics
+
+ cxcursor
+
+get system metrics
+
+ cycursor
+ display
+get default
+ default
+ default
+ display
+ default
+valid class
+ class
+ clazz
+ string
+ name
+ clazz
+get name
+ index
+ name
+last index
+ name
+ substring
+ index
+ equals
+package prefix
+ object
+get data
+ string
+ key
+check device
+ key
+ error
+ swt
+error null argument
+ keys
+
+
+ keys
+ length
+
+ keys
+
+ equals
+ key
+ values
+
+ object
+get data
+check device
+ data
+get dismissal alignment
+check device
+ swt
+ left
+get double click time
+check device
+
+get double click time
+ control
+get focus control
+check device
+focus control
+focus control
+ disposed
+focus control
+_get focus control
+get high contrast
+check device
+
+ win
+ highcontrast
+ param
+ highcontrast
+ param
+ size
+ highcontrast
+ sizeof
+
+system parameters info
+
+spi gethighcontrast
+ param
+ param
+ flags
+
+hcf highcontraston
+get icon depth
+check device
+
+ win
+
+win 32_ version
+
+ version
+get depth
+ tchar
+ buffer
+ tchar
+phk result
+ result
+
+reg open key
+
+hkey current user
+ buffer
+
+key read
+phk result
+ result
+ depth
+lpcb data
+ tchar
+ data
+ tchar
+lpcb data
+ tchar
+ buffer
+ tchar
+ result
+
+reg query value
+phk result
+ buffer
+ data
+lpcb data
+ result
+ depth
+ integer
+parse int
+ data
+ string
+ data
+ strlen
+number format exception
+
+
+reg close key
+phk result
+ depth
+ point
+get icon sizes
+check device
+ point
+ point
+
+get system metrics
+
+ cxsmicon
+
+get system metrics
+
+ cysmicon
+ point
+
+get system metrics
+
+ cxicon
+
+get system metrics
+
+ cyicon
+image list
+get image list
+ style
+ width
+ height
+image list
+image list
+image list
+
+ length
+image list
+ length
+
+ length
+image list
+ list
+image list
+
+ list
+ point
+ size
+ list
+get image size
+ size
+
+ width
+ size
+
+ height
+ list
+get style
+ style
+ list
+add ref
+ list
+
+
+ length
+image list
+new list
+image list
+ length
+ system
+ arraycopy
+image list
+new list
+ length
+image list
+new list
+image list
+ list
+image list
+ style
+image list
+
+ list
+ list
+add ref
+ list
+image list
+get image list tool bar
+ style
+ width
+ height
+tool image list
+tool image list
+image list
+
+ length
+tool image list
+ length
+
+ length
+image list
+ list
+tool image list
+
+ list
+ point
+ size
+ list
+get image size
+ size
+
+ width
+ size
+
+ height
+ list
+get style
+ style
+ list
+add ref
+ list
+
+
+ length
+image list
+new list
+image list
+ length
+ system
+ arraycopy
+tool image list
+new list
+ length
+tool image list
+new list
+image list
+ list
+image list
+ style
+tool image list
+
+ list
+ list
+add ref
+ list
+image list
+get image list tool bar disabled
+ style
+ width
+ height
+tool disabled image list
+tool disabled image list
+image list
+
+ length
+tool disabled image list
+ length
+
+ length
+image list
+ list
+tool disabled image list
+
+ list
+ point
+ size
+ list
+get image size
+ size
+
+ width
+ size
+
+ height
+ list
+get style
+ style
+ list
+add ref
+ list
+
+
+ length
+image list
+new list
+image list
+ length
+ system
+ arraycopy
+tool disabled image list
+new list
+ length
+tool disabled image list
+new list
+image list
+ list
+image list
+ style
+tool disabled image list
+
+ list
+ list
+add ref
+ list
+image list
+get image list tool bar hot
+ style
+ width
+ height
+tool hot image list
+tool hot image list
+image list
+
+ length
+tool hot image list
+ length
+
+ length
+image list
+ list
+tool hot image list
+
+ list
+ point
+ size
+ list
+get image size
+ size
+
+ width
+ size
+
+ height
+ list
+get style
+ style
+ list
+add ref
+ list
+
+
+ length
+image list
+new list
+image list
+ length
+ system
+ arraycopy
+tool hot image list
+new list
+ length
+tool hot image list
+new list
+image list
+ list
+image list
+ style
+tool hot image list
+
+ list
+ list
+add ref
+ list
+get last event time
+
+ win
+
+get tick count
+
+get message time
+menu item
+get menu item
+
+ items
+
+
+ start
+
+
+ items
+ length
+ items
+
+get message count
+ synchronizer
+get message count
+ shell
+get modal shell
+modal shells
+ index
+modal shells
+ length
+ index
+ shell
+ shell
+modal shells
+ index
+ shell
+ shell
+ shell
+get modal dialog shell
+modal dialog shell
+modal dialog shell
+ disposed
+modal dialog shell
+modal dialog shell
+ monitor
+get monitors
+check device
+
+ win
+
+win 32_ version
+
+ version
+ monitor
+get primary monitor
+ monitors
+ monitor
+ callback
+ callback
+ callback
+lpfn enum
+ callback
+get address
+lpfn enum
+ swt
+ error
+ swt
+error more callbacks
+
+enum display monitors
+lpfn enum
+ callback
+ dispose
+ monitor
+ result
+ monitor
+monitor count
+ system
+ arraycopy
+ monitors
+ result
+monitor count
+ monitors
+monitor count
+ result
+get msg proc
+ code
+ param
+ param
+embedded hwnd
+ instance
+
+get module handle
+embedded hwnd
+
+create window
+window class
+
+ overlapped
+ instance
+embedded callback
+ callback
+embedded proc
+embedded callback
+get address
+embedded proc
+ error
+ swt
+error more callbacks
+
+set window long
+embedded hwnd
+
+gwl wndproc
+embedded proc
+ code
+ param
+
+ noremove
+ msg
+ msg
+ msg
+
+move memory
+ msg
+ param
+ msg
+ sizeof
+ msg
+ message
+
+ keydown
+
+ keyup
+
+ syskeydown
+
+ syskeyup
+ heap
+
+get process heap
+key msg
+
+heap alloc
+ heap
+
+heap zero memory
+ msg
+ sizeof
+
+move memory
+key msg
+ msg
+ msg
+ sizeof
+
+post message
+hwnd message
+swt keymsg
+ param
+key msg
+ msg
+ message
+
+ null
+
+move memory
+ param
+ msg
+ msg
+ sizeof
+
+call next hook
+msg hook
+ code
+ param
+ param
+ monitor
+get primary monitor
+check device
+
+ win
+
+win 32_ version
+
+ version
+ monitor
+ monitor
+ monitor
+ width
+
+get system metrics
+
+ cxscreen
+ height
+
+get system metrics
+
+ cyscreen
+ monitor
+ width
+ width
+ monitor
+ height
+ height
+ rect
+ rect
+ rect
+
+system parameters info
+
+spi getworkarea
+ rect
+ monitor
+ client
+ rect
+ left
+ monitor
+ client
+ rect
+ top
+ monitor
+client width
+ rect
+ right
+ rect
+ left
+ monitor
+client height
+ rect
+ bottom
+ rect
+ top
+ monitor
+ monitors
+ monitor
+ callback
+ callback
+ callback
+lpfn enum
+ callback
+get address
+lpfn enum
+ swt
+ error
+ swt
+error more callbacks
+
+enum display monitors
+lpfn enum
+ callback
+ dispose
+ monitor
+ result
+ monitorinfo
+ lpmi
+ monitorinfo
+ lpmi
+ size
+ monitorinfo
+ sizeof
+
+
+monitor count
+
+ monitor
+ monitor
+ monitors
+
+
+get monitor info
+ monitors
+
+ handle
+ lpmi
+ lpmi
+ flags
+
+monitorinfof primary
+ result
+ monitor
+ monitors
+monitor count
+ result
+ shell
+get shells
+check device
+ count
+
+
+control table
+ length
+
+ control
+ control
+control table
+
+ control
+ control
+ shell
+ count
+ index
+ shell
+ result
+ shell
+ count
+
+
+control table
+ length
+
+ control
+ control
+control table
+
+ control
+ control
+ shell
+ result
+ index
+ shell
+ control
+ result
+ thread
+get sync thread
+ disposed
+ error
+ swt
+error device disposed
+ synchronizer
+sync thread
+ color
+get system color
+
+check device
+ pixel
+
+ swt
+color widget dark shadow
+ pixel
+
+get sys color
+
+color ddkshadow
+ swt
+color widget normal shadow
+ pixel
+
+get sys color
+
+color dshadow
+ swt
+color widget light shadow
+ pixel
+
+get sys color
+
+color dlight
+ swt
+color widget highlight shadow
+ pixel
+
+get sys color
+
+color dhighlight
+ swt
+color widget background
+ pixel
+
+get sys color
+
+color dface
+ swt
+color widget border
+ pixel
+
+get sys color
+
+color windowframe
+ swt
+color widget foreground
+ swt
+color list foreground
+ pixel
+
+get sys color
+
+color windowtext
+ swt
+color list background
+ pixel
+
+get sys color
+
+color window
+ swt
+color list selection
+ pixel
+
+get sys color
+
+color highlight
+ swt
+color list selection text
+ pixel
+
+get sys color
+
+color highlighttext
+ swt
+color info foreground
+ pixel
+
+get sys color
+
+color infotext
+ swt
+color info background
+ pixel
+
+get sys color
+
+color infobk
+ swt
+color title foreground
+ pixel
+
+get sys color
+
+color captiontext
+ swt
+color title background
+ pixel
+
+get sys color
+
+color activecaption
+ swt
+color title background gradient
+ pixel
+
+get sys color
+
+color gradientactivecaption
+ pixel
+ pixel
+
+get sys color
+
+color activecaption
+ swt
+color title inactive foreground
+ pixel
+
+get sys color
+
+color inactivecaptiontext
+ swt
+color title inactive background
+ pixel
+
+get sys color
+
+color inactivecaption
+ swt
+color title inactive background gradient
+ pixel
+
+get sys color
+
+color gradientinactivecaption
+ pixel
+ pixel
+
+get sys color
+
+color inactivecaption
+get system color
+
+ color
+win 32_new
+ pixel
+ cursor
+get system cursor
+
+check device
+
+
+ cursors
+ length
+ cursors
+
+ cursors
+
+ cursor
+
+ cursors
+
+ font
+get system font
+check device
+ font
+system font
+ font
+win 32_new
+ font
+ image
+get system image
+
+check device
+ icon
+
+ swt
+icon error
+error icon
+error icon
+
+load image
+
+oic hand
+
+image icon
+
+ shared
+ icon
+error icon
+ swt
+icon working
+ swt
+icon information
+info icon
+info icon
+
+load image
+
+oic information
+
+image icon
+
+ shared
+ icon
+info icon
+ swt
+icon question
+question icon
+question icon
+
+load image
+
+oic ques
+
+image icon
+
+ shared
+ icon
+question icon
+ swt
+icon warning
+warning icon
+warning icon
+
+load image
+
+oic bang
+
+image icon
+
+ shared
+ icon
+warning icon
+ icon
+ image
+win 32_new
+ swt
+ icon
+ icon
+ tray
+get system tray
+check device
+ tray
+ tray
+ tray
+ tray
+ swt
+ none
+ thread
+get thread
+ disposed
+ error
+ swt
+error device disposed
+ thread
+internal _new
+ data
+ data
+ disposed
+ swt
+ error
+ swt
+error device disposed
+
+
+ get
+
+ swt
+ error
+ swt
+error handles
+ data
+ mask
+ swt
+left right
+ swt
+right left
+ data
+ style
+ mask
+ data
+ layout
+ data
+ style
+ swt
+right left
+
+layout rtl
+ data
+ style
+ swt
+left right
+ data
+ device
+ data
+ font
+system font
+
+ init
+ init
+window callback
+ callback
+window proc
+window callback
+get address
+window proc
+ error
+ swt
+error more callbacks
+ thread
+
+get current thread
+window class
+ tchar
+window name
+window class count
+window shadow class
+ tchar
+window shadow name
+window class count
+window class count
+ heap
+
+get process heap
+ instance
+
+get module handle
+ wndclass
+wnd class
+ wndclass
+wnd class
+ instance
+ instance
+wnd class
+lpfn wnd proc
+window proc
+wnd class
+ style
+
+ bytealignwindow
+
+ dblclks
+wnd class
+ cursor
+
+load cursor
+
+idc arrow
+byte count
+window class
+ length
+ tchar
+ sizeof
+wnd class
+lpsz class name
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+wnd class
+lpsz class name
+window class
+byte count
+
+register class
+wnd class
+
+win 32_ version
+
+ version
+wnd class
+ style
+
+ dropshadow
+byte count
+window shadow class
+ length
+ tchar
+ sizeof
+wnd class
+lpsz class name
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+wnd class
+lpsz class name
+window shadow class
+byte count
+
+register class
+wnd class
+system font
+
+ win
+ nonclientmetrics
+ info
+
+ unicode
+ nonclientmetrics
+ nonclientmetricsw
+ nonclientmetricsa
+ info
+ size
+ nonclientmetrics
+ sizeof
+
+system parameters info
+
+spi getnonclientmetrics
+ info
+system font
+
+create font indirect
+
+ unicode
+ logfont
+ nonclientmetricsw
+ info
+message font
+ nonclientmetricsa
+ info
+message font
+system font
+system font
+
+get stock object
+
+default gui font
+system font
+system font
+
+get stock object
+
+system font
+system font
+system fonts
+system font
+hwnd message
+
+create window
+window class
+
+ overlapped
+ instance
+message callback
+ callback
+message proc
+message callback
+get address
+message proc
+ error
+ swt
+error more callbacks
+
+set window long
+hwnd message
+
+gwl wndproc
+message proc
+
+ win
+msg filter callback
+ callback
+msg filter proc
+msg filter callback
+get address
+msg filter proc
+ error
+ swt
+error more callbacks
+filter hook
+
+set windows hook
+
+ msgfilter
+msg filter proc
+ thread
+
+ win
+foreground idle callback
+ callback
+foreground idle proc
+foreground idle callback
+get address
+foreground idle proc
+ error
+ swt
+error more callbacks
+idle hook
+
+set windows hook
+
+ foregroundidle
+foreground idle proc
+ thread
+swt taskbarcreated
+
+register window message
+ tchar
+
+ win
+
+ole initialize
+index table
+grow size
+control table
+ control
+grow size
+
+
+grow size
+
+index table
+
+
+index table
+grow size
+internal _dispose
+
+ data
+ data
+
+ release
+
+mouse active
+mouse active
+ tchar
+ key
+ tchar
+ key
+ result
+
+reg open key
+
+hkey current user
+ key
+
+key read
+ key
+ result
+ tchar
+value name
+ tchar
+lpcb data
+ data
+ result
+
+reg query value
+ key
+value name
+ data
+lpcb data
+ result
+mouse active
+ data
+
+reg close key
+ key
+mouse active
+valid thread
+ thread
+ thread
+current thread
+ point
+ map
+ control
+ from
+ control
+
+ point
+ point
+check device
+ point
+ error
+ swt
+error null argument
+ map
+ from
+
+ point
+
+ point
+
+ point
+ map
+ control
+ from
+ control
+
+
+
+check device
+ from
+ from
+ disposed
+ error
+ swt
+error invalid argument
+
+
+ disposed
+ error
+ swt
+error invalid argument
+hwnd from
+ from
+ from
+ handle
+ hwnd
+
+
+ handle
+ point
+ point
+ point
+ point
+
+
+ point
+
+
+
+map window points
+hwnd from
+ hwnd
+ point
+ point
+ point
+
+ point
+
+ rectangle
+ map
+ control
+ from
+ control
+
+ rectangle
+ rectangle
+check device
+ rectangle
+ error
+ swt
+error null argument
+ map
+ from
+
+ rectangle
+
+ rectangle
+
+ rectangle
+ width
+ rectangle
+ height
+ rectangle
+ map
+ control
+ from
+ control
+
+
+
+ width
+ height
+check device
+ from
+ from
+ disposed
+ error
+ swt
+error invalid argument
+
+
+ disposed
+ error
+ swt
+error invalid argument
+hwnd from
+ from
+ from
+ handle
+ hwnd
+
+
+ handle
+ rect
+ rect
+ rect
+ rect
+ left
+
+ rect
+ top
+
+ rect
+ right
+
+ width
+ rect
+ bottom
+
+ height
+
+map window points
+hwnd from
+ hwnd
+ rect
+ rectangle
+ rect
+ left
+ rect
+ top
+ rect
+ right
+ rect
+ left
+ rect
+ bottom
+ rect
+ top
+mbcs wcs
+
+mbcs wcs
+
+mbcs wcs
+
+code page
+
+ unicode
+
+ key
+
+ key
+
+ buffer
+ key
+ buffer
+ buffer
+ key
+ buffer
+ buffer
+ key
+ buffer
+ key
+ unicode
+
+code page
+code page
+
+ acp
+ count
+
+multi byte wide char
+
+
+ precomposed
+ buffer
+ buffer
+ length
+ unicode
+ count
+ unicode
+message proc
+ hwnd
+ msg
+ param
+ param
+ msg
+swt keymsg
+ consumed
+ msg
+key msg
+ msg
+
+move memory
+key msg
+ param
+ msg
+ sizeof
+ control
+ control
+find control
+key msg
+ hwnd
+ control
+accent key
+key msg
+ message
+
+ keydown
+
+ syskeydown
+
+ win
+map key
+
+map virtual key
+key msg
+ param
+map key
+accent key
+map key
+
+ win
+accent key
+
+
+ accents
+ length
+
+ value
+
+key scan
+ accents
+
+ value
+ value
+key msg
+ param
+ state
+ value
+
+get key state
+
+ shift
+ state
+
+get key state
+
+ control
+ state
+
+get key state
+
+ menu
+ state
+accent key
+accent key
+ignore next key
+key msg
+ hwnd
+ control
+ handle
+ flags
+
+ remove
+
+ noyield
+
+ input
+
+ postmessage
+ consumed
+filter message
+key msg
+
+translate message
+key msg
+ consumed
+
+dispatch message
+key msg
+
+peek message
+key msg
+key msg
+ hwnd
+
+ keyfirst
+
+ keylast
+ flags
+key msg
+ message
+
+ keydown
+
+ syskeydown
+ignore next key
+accent key
+ consumed
+ heap
+
+get process heap
+
+heap free
+ heap
+ param
+
+post message
+embedded hwnd
+swt keymsg
+ param
+ param
+swt trayiconmsg
+ tray
+tray item
+ items
+ tray
+ items
+
+
+ items
+ length
+
+tray item
+ item
+ items
+
+ item
+ item
+
+ param
+ item
+message proc
+ hwnd
+ msg
+ param
+ param
+
+ activateapp
+ param
+mouse active
+modal dialog shell
+modal dialog shell
+ disposed
+modal dialog shell
+ shell
+ modal
+modal dialog shell
+modal dialog shell
+get modal shell
+ modal
+hwnd modal
+ modal
+ handle
+
+window enabled
+hwnd modal
+ modal
+bring top
+ modal
+ disposed
+hwnd popup
+
+get last active popup
+hwnd modal
+hwnd popup
+hwnd popup
+ modal
+ handle
+get control
+hwnd popup
+
+window enabled
+hwnd popup
+
+set active window
+hwnd popup
+
+ endsession
+ param
+ dispose
+ system
+ exit
+
+ queryendsession
+ event
+ event
+ event
+send event
+ swt
+ close
+ event
+ event
+ doit
+
+ settingchange
+update font
+
+ timer
+run timer
+ param
+ msg
+swt taskbarcreated
+ tray
+tray item
+ items
+ tray
+ items
+
+
+ items
+ length
+
+tray item
+ item
+ items
+
+ item
+ item
+ recreate
+
+def window proc
+ hwnd
+ msg
+ param
+ param
+monitor enum proc
+ hmonitor
+ hdc
+lprc monitor
+ data
+monitor count
+ monitors
+ length
+ monitor
+new monitors
+ monitor
+ monitors
+ length
+ system
+ arraycopy
+ monitors
+new monitors
+ monitors
+ length
+ monitors
+new monitors
+ monitorinfo
+ lpmi
+ monitorinfo
+ lpmi
+ size
+ monitorinfo
+ sizeof
+
+get monitor info
+ hmonitor
+ lpmi
+ monitor
+ monitor
+ monitor
+ monitor
+ handle
+ hmonitor
+ monitor
+
+ lpmi
+monitor _left
+ monitor
+
+ lpmi
+monitor _top
+ monitor
+ width
+ lpmi
+monitor _right
+ lpmi
+monitor _left
+ monitor
+ height
+ lpmi
+monitor _bottom
+ lpmi
+monitor _top
+ monitor
+ client
+ lpmi
+work _left
+ monitor
+ client
+ lpmi
+work _top
+ monitor
+client width
+ lpmi
+work _right
+ lpmi
+work _left
+ monitor
+client height
+ lpmi
+work _bottom
+ lpmi
+work _top
+ monitors
+monitor count
+ monitor
+msg filter proc
+ code
+ param
+ param
+ignore msg filter
+ code
+
+move memory
+hook msg
+ param
+ msg
+ sizeof
+hook msg
+ message
+
+ null
+ msg
+ msg
+ msg
+ flags
+
+ noremove
+
+ noyield
+
+ input
+
+ postmessage
+
+peek message
+ msg
+ flags
+run async messages
+wake thread
+
+call next hook
+filter hook
+ code
+ param
+ param
+numpad key
+ key
+ key
+
+ numpad
+
+ numpad
+
+ numpad
+
+ numpad
+
+ numpad
+
+ numpad
+
+ numpad
+
+ numpad
+
+ numpad
+
+ numpad
+
+ multiply
+
+ add
+
+ separator
+
+ subtract
+
+ decimal
+
+ divide
+ post
+ event
+ event
+ disposed
+ error
+ swt
+error device disposed
+ event
+ error
+ swt
+error null argument
+ type
+ event
+ type
+ type
+ swt
+key down
+ swt
+ key
+ keybdinput
+ inputs
+ keybdinput
+ inputs
+
+untranslate key
+ event
+key code
+ inputs
+
+ key
+ event
+ character
+ key
+ swt
+
+ inputs
+
+
+ back
+ swt
+
+ inputs
+
+
+ return
+ swt
+ del
+ inputs
+
+
+ delete
+ swt
+ esc
+ inputs
+
+
+ escape
+ swt
+ tab
+ inputs
+
+
+ tab
+ swt
+
+
+ win
+ inputs
+
+
+char upper
+ key
+ inputs
+
+
+key scan
+wcs mbcs
+ key
+ inputs
+
+ inputs
+ flags
+ type
+ swt
+ key
+
+keyeventf keyup
+ heap
+
+get process heap
+ inputs
+
+heap alloc
+ heap
+
+heap zero memory
+ input
+ sizeof
+
+move memory
+ inputs
+
+input keyboard
+
+move memory
+ inputs
+ inputs
+ keybdinput
+ sizeof
+ result
+
+send input
+ inputs
+ input
+ sizeof
+
+heap free
+ heap
+ inputs
+ result
+ swt
+mouse down
+ swt
+mouse move
+ swt
+ mouse
+ mouseinput
+ inputs
+ mouseinput
+ type
+ swt
+mouse move
+ inputs
+ flags
+
+mouseeventf move
+
+mouseeventf absolute
+ inputs
+
+ event
+
+
+get system metrics
+
+ cxscreen
+ inputs
+
+ event
+
+
+get system metrics
+
+ cyscreen
+ event
+ button
+ inputs
+ flags
+ type
+ swt
+mouse down
+
+mouseeventf leftdown
+
+mouseeventf leftup
+ inputs
+ flags
+ type
+ swt
+mouse down
+
+mouseeventf middledown
+
+mouseeventf middleup
+ inputs
+ flags
+ type
+ swt
+mouse down
+
+mouseeventf rightdown
+
+mouseeventf rightup
+ heap
+
+get process heap
+ inputs
+
+heap alloc
+ heap
+
+heap zero memory
+ input
+ sizeof
+
+move memory
+ inputs
+
+input mouse
+
+move memory
+ inputs
+ inputs
+ mouseinput
+ sizeof
+ result
+
+send input
+ inputs
+ input
+ sizeof
+
+heap free
+ heap
+ inputs
+ result
+post event
+ event
+ event
+event queue
+event queue
+ event
+ index
+ length
+event queue
+ length
+ index
+ length
+event queue
+ index
+ index
+ index
+ length
+ event
+new queue
+ event
+ length
+ system
+ arraycopy
+event queue
+new queue
+ length
+event queue
+new queue
+event queue
+ index
+ event
+read and dispatch
+check device
+draw menu bars
+run popups
+
+peek message
+ msg
+
+ remove
+filter message
+ msg
+
+translate message
+ msg
+
+dispatch message
+ msg
+run deferred events
+run async messages
+ register
+ display
+ display
+
+
+ displays
+ length
+
+ displays
+
+ displays
+
+ display
+ display
+new displays
+ display
+ displays
+ length
+ system
+ arraycopy
+ displays
+new displays
+ displays
+ length
+new displays
+ displays
+ length
+ display
+ displays
+new displays
+ release
+send event
+ swt
+ dispose
+ event
+ shell
+ shells
+get shells
+
+
+ shells
+ length
+
+ shell
+ shell
+ shells
+
+ shell
+ disposed
+ shell
+ dispose
+ tray
+ tray
+ dispose
+ tray
+read and dispatch
+dispose list
+
+
+dispose list
+ length
+
+dispose list
+
+dispose list
+
+ run
+dispose list
+ synchronizer
+release synchronizer
+ synchronizer
+release display
+ release
+release display
+embedded hwnd
+
+post message
+embedded hwnd
+swt destroy
+
+ win
+msg hook
+
+unhook windows hook
+msg hook
+msg hook
+
+ win
+filter hook
+
+unhook windows hook
+filter hook
+filter hook
+msg filter callback
+ dispose
+msg filter callback
+msg filter proc
+
+ win
+idle hook
+
+unhook windows hook
+idle hook
+idle hook
+foreground idle callback
+ dispose
+foreground idle callback
+foreground idle proc
+hwnd message
+
+destroy window
+hwnd message
+hwnd message
+message callback
+ dispose
+message callback
+message proc
+ heap
+
+get process heap
+ instance
+
+get module handle
+ wndclass
+wnd class
+ wndclass
+
+get class info
+window class
+wnd class
+
+unregister class
+window class
+ instance
+
+heap free
+ heap
+wnd class
+lpsz class name
+
+get class info
+window shadow class
+wnd class
+
+unregister class
+window shadow class
+ instance
+
+heap free
+ heap
+wnd class
+lpsz class name
+window class
+window shadow class
+window callback
+ dispose
+window callback
+window proc
+system fonts
+
+
+system fonts
+ length
+
+system fonts
+
+
+delete object
+system fonts
+
+system fonts
+error icon
+
+destroy icon
+error icon
+info icon
+
+destroy icon
+info icon
+question icon
+
+destroy icon
+question icon
+warning icon
+
+destroy icon
+warning icon
+error icon
+info icon
+question icon
+warning icon
+
+
+ cursors
+ length
+
+ cursors
+
+ cursors
+
+ dispose
+ cursors
+cust colors
+
+heap free
+ heap
+cust colors
+cust colors
+
+ win
+
+ole uninitialize
+ thread
+ msg
+ keyboard
+modal dialog shell
+modal shells
+ data
+ keys
+ values
+ bars
+ popups
+index table
+control table
+last hittest control
+image list
+tool image list
+tool hot image list
+tool disabled image list
+release image list
+image list
+ list
+
+ length
+image list
+ length
+
+ length
+image list
+
+ list
+ list
+remove ref
+ list
+ dispose
+ system
+ arraycopy
+image list
+
+image list
+
+ length
+
+image list
+ length
+
+
+ length
+
+image list
+
+image list
+
+release tool image list
+image list
+ list
+
+ length
+tool image list
+ length
+
+ length
+tool image list
+
+ list
+ list
+remove ref
+ list
+ dispose
+ system
+ arraycopy
+tool image list
+
+tool image list
+
+ length
+
+tool image list
+ length
+
+
+ length
+
+tool image list
+
+tool image list
+
+release tool hot image list
+image list
+ list
+
+ length
+tool hot image list
+ length
+
+ length
+tool hot image list
+
+ list
+ list
+remove ref
+ list
+ dispose
+ system
+ arraycopy
+tool hot image list
+
+tool hot image list
+
+ length
+
+tool hot image list
+ length
+
+
+ length
+
+tool hot image list
+
+tool hot image list
+
+release tool disabled image list
+image list
+ list
+
+ length
+tool disabled image list
+ length
+
+ length
+tool disabled image list
+
+ list
+ list
+remove ref
+ list
+ dispose
+ system
+ arraycopy
+tool disabled image list
+
+tool disabled image list
+
+ length
+
+tool disabled image list
+ length
+
+
+ length
+
+tool disabled image list
+
+tool disabled image list
+
+remove filter
+event type
+ listener
+ listener
+check device
+ listener
+ error
+ swt
+error null argument
+filter table
+filter table
+ unhook
+event type
+ listener
+filter table
+ size
+filter table
+remove listener
+event type
+ listener
+ listener
+check device
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+event type
+ listener
+remove bar
+ menu
+ menu
+ bars
+
+
+ bars
+ length
+
+ bars
+
+ menu
+ bars
+
+ control
+remove control
+ handle
+ handle
+ control
+ control
+ index
+use property
+ index
+
+remove prop
+ handle
+swt object index
+ index
+
+get window long
+ handle
+
+gwl userdata
+ index
+ index
+control table
+ length
+ control
+control table
+ index
+control table
+ index
+index table
+ index
+free slot
+free slot
+ index
+use property
+
+set window long
+ handle
+
+gwl userdata
+ control
+remove menu item
+menu item
+ item
+ items
+ items
+ item
+
+ start
+ item
+
+remove popup
+ menu
+ menu
+ popups
+
+
+ popups
+ length
+
+ popups
+
+ menu
+ popups
+
+run async messages
+ all
+ synchronizer
+run async messages
+ all
+run deferred events
+event queue
+ event
+ event
+event queue
+ event
+ length
+event queue
+ length
+ system
+ arraycopy
+event queue
+event queue
+ length
+event queue
+ length
+ widget
+ widget
+ event
+ widget
+ widget
+ widget
+ disposed
+ widget
+ item
+ event
+ item
+ item
+ item
+ disposed
+ widget
+send event
+ event
+event queue
+run popups
+ popups
+ result
+ popups
+ menu
+ menu
+ popups
+ menu
+ length
+ popups
+ length
+ system
+ arraycopy
+ popups
+ popups
+ length
+ popups
+ length
+run deferred events
+ menu
+_set visible
+ result
+ popups
+ result
+run timer
+
+timer list
+timer ids
+ index
+ index
+timer ids
+ length
+timer ids
+ index
+
+
+kill timer
+hwnd message
+timer ids
+ index
+timer ids
+ index
+ runnable
+ runnable
+timer list
+ index
+timer list
+ index
+ runnable
+ runnable
+ run
+ index
+send event
+event type
+ event
+ event
+event table
+filter table
+ event
+ event
+ event
+ event
+ display
+ event
+ type
+event type
+ event
+ time
+ event
+ time
+get last event time
+filter event
+ event
+event table
+event table
+send event
+ event
+set cursor location
+
+
+check device
+
+set cursor pos
+
+
+set cursor location
+ point
+ point
+check device
+ point
+ error
+ swt
+error null argument
+set cursor location
+ point
+
+ point
+
+set data
+ string
+ key
+ object
+ value
+check device
+ key
+ error
+ swt
+error null argument
+ value
+ keys
+ index
+ index
+ keys
+ length
+ keys
+ index
+ equals
+ key
+ index
+ index
+ keys
+ length
+ keys
+ length
+ keys
+ values
+ string
+new keys
+ string
+ keys
+ length
+ object
+new values
+ object
+ values
+ length
+ system
+ arraycopy
+ keys
+new keys
+ index
+ system
+ arraycopy
+ keys
+ index
+new keys
+ index
+new keys
+ length
+ index
+ system
+ arraycopy
+ values
+new values
+ index
+ system
+ arraycopy
+ values
+ index
+new values
+ index
+new values
+ length
+ index
+ keys
+new keys
+ values
+new values
+ keys
+ keys
+ string
+ key
+ values
+ object
+ value
+
+
+ keys
+ length
+
+ keys
+
+ equals
+ key
+ values
+
+ value
+ string
+new keys
+ string
+ keys
+ length
+ object
+new values
+ object
+ values
+ length
+ system
+ arraycopy
+ keys
+new keys
+ keys
+ length
+ system
+ arraycopy
+ values
+new values
+ values
+ length
+new keys
+ keys
+ length
+ key
+new values
+ values
+ length
+ value
+ keys
+new keys
+ values
+new values
+set data
+ object
+ data
+check device
+ data
+ data
+set app name
+ string
+ name
+set modal dialog shell
+ shell
+modal dailog
+modal dialog shell
+modal dialog shell
+ disposed
+modal dialog shell
+modal dialog shell
+modal dailog
+ shell
+ shells
+get shells
+
+
+ shells
+ length
+
+ shells
+
+update modal
+set modal shell
+ shell
+ shell
+modal shells
+modal shells
+ shell
+ index
+ length
+modal shells
+ length
+ index
+ length
+modal shells
+ index
+ shell
+modal shells
+ index
+ index
+ index
+ length
+ shell
+new modal shells
+ shell
+ length
+ system
+ arraycopy
+modal shells
+new modal shells
+ length
+modal shells
+new modal shells
+modal shells
+ index
+ shell
+ shell
+ shells
+get shells
+
+
+ shells
+ length
+
+ shells
+
+update modal
+set synchronizer
+ synchronizer
+ synchronizer
+check device
+ synchronizer
+ error
+ swt
+error null argument
+ synchronizer
+ synchronizer
+run async messages
+ synchronizer
+ synchronizer
+shifted key
+ key
+
+ win
+
+
+ keyboard
+ length
+
+ keyboard
+
+ keyboard
+
+ shift
+
+ unicode
+ result
+
+ unicode
+ key
+ key
+ keyboard
+ result
+ result
+ result
+
+ ascii
+ key
+ key
+ keyboard
+ result
+ result
+ sleep
+check device
+get message count
+
+ win
+
+msg wait for multiple objects
+
+ infinite
+
+ allinput
+
+mwmo inputavailable
+
+wait message
+sync exec
+ runnable
+ runnable
+ disposed
+ error
+ swt
+error device disposed
+ synchronizer
+sync exec
+ runnable
+system font
+ font
+system fonts
+ length
+system fonts
+ length
+ length
+ font
+system fonts
+ length
+ font
+ font
+
+get stock object
+
+default gui font
+ font
+ font
+
+get stock object
+
+system font
+ font
+timer exec
+ milliseconds
+ runnable
+ runnable
+check device
+ runnable
+ error
+ swt
+error null argument
+timer list
+timer list
+ runnable
+timer ids
+timer ids
+ index
+ index
+timer list
+ length
+timer list
+ index
+ runnable
+ index
+ timer
+ index
+timer list
+ length
+ timer
+timer ids
+ index
+ milliseconds
+
+kill timer
+hwnd message
+ timer
+timer list
+ index
+timer ids
+ index
+ milliseconds
+ index
+ index
+timer list
+ length
+timer list
+ index
+ index
+next timer
+ timer
+next timer
+ index
+timer list
+ length
+ runnable
+new timer list
+ runnable
+timer list
+ length
+ system
+ arraycopy
+timer list
+new timer list
+timer list
+ length
+timer list
+new timer list
+new timer ids
+timer ids
+ length
+ system
+ arraycopy
+timer ids
+new timer ids
+timer ids
+ length
+timer ids
+new timer ids
+new timer
+
+set timer
+hwnd message
+ timer
+ milliseconds
+new timer
+timer list
+ index
+ runnable
+timer ids
+ index
+new timer
+translate accelerator
+ msg
+ msg
+ control
+ control
+accel key hit
+ result
+ control
+translate accelerator
+ msg
+accel key hit
+ result
+translate key
+ key
+
+
+key table
+ length
+
+key table
+
+ key
+key table
+
+translate mnemonic
+ msg
+ msg
+ control
+ control
+ msg
+ message
+
+ char
+
+ syschar
+ control
+translate mnemonic
+ msg
+translate traversal
+ msg
+ msg
+ control
+ control
+ msg
+ message
+
+ keydown
+ msg
+ param
+
+ return
+
+ escape
+
+ tab
+
+
+
+ down
+
+ left
+
+ right
+
+ prior
+
+ next
+ control
+translate traversal
+ msg
+
+ syskeydown
+ msg
+ param
+
+ menu
+ control
+translate traversal
+ msg
+untranslate key
+ key
+
+
+key table
+ length
+
+key table
+
+ key
+key table
+
+ update
+check device
+
+ win
+
+win 32_ version
+
+ version
+
+hung app window
+hwnd message
+ msg
+ msg
+ msg
+ flags
+
+ remove
+
+ noyield
+
+peek message
+ msg
+hwnd message
+swt null
+swt null
+ flags
+ shell
+ shells
+get shells
+
+
+ shells
+ length
+
+ shell
+ shell
+ shells
+
+ shell
+ disposed
+ shell
+ update
+update font
+
+ win
+ font
+old font
+get system font
+system font
+ nonclientmetrics
+ info
+
+ unicode
+ nonclientmetrics
+ nonclientmetricsw
+ nonclientmetricsa
+ info
+ size
+ nonclientmetrics
+ sizeof
+
+system parameters info
+
+spi getnonclientmetrics
+ info
+system font
+
+create font indirect
+
+ unicode
+ logfont
+ nonclientmetricsw
+ info
+message font
+ nonclientmetricsa
+ info
+message font
+system font
+system font
+
+get stock object
+
+default gui font
+system font
+system font
+
+get stock object
+
+system font
+system font
+ length
+system fonts
+system fonts
+ length
+new fonts
+ length
+system fonts
+ system
+ arraycopy
+system fonts
+new fonts
+ length
+new fonts
+ length
+system font
+system fonts
+new fonts
+ font
+new font
+get system font
+ shell
+ shells
+get shells
+
+
+ shells
+ length
+
+ shell
+ shell
+ shells
+
+ shell
+ disposed
+ shell
+update font
+old font
+new font
+ wake
+ disposed
+ error
+ swt
+error device disposed
+ thread
+ thread
+current thread
+wake thread
+wake thread
+
+ win
+
+post message
+hwnd message
+
+ null
+
+post thread message
+ thread
+
+ null
+wcs mbcs
+
+code page
+
+ unicode
+
+
+
+ tchar
+ buffer
+ tchar
+code page
+
+ buffer
+ tchar
+wcs mbcs
+
+wcs mbcs
+
+window proc
+ hwnd
+ msg
+ param
+ param
+ msg
+
+ nchittest
+hit count
+ thread
+ sleep
+ throwable
+
+hit count
+ index
+use property
+ index
+
+get prop
+ hwnd
+swt object index
+ index
+
+get window long
+ hwnd
+
+gwl userdata
+ index
+ index
+control table
+ length
+ control
+ control
+control table
+ index
+ control
+ control
+window proc
+ hwnd
+ msg
+ param
+ param
+
+def window proc
+ hwnd
+ msg
+ param
+ param
+ string
+ with
+ string
+ string
+ length
+ string
+ length
+ length
+ string
+
+ string
+ index
+
+ string
+
+ string
+ char
+
+ string
+
+ count
+
+ length
+
+ string
+ index
+
+ count
+
+ count
+ length
+
+string buffer
+ result
+string buffer
+ count
+
+ length
+
+ string
+ index
+
+
+
+ length
+ result
+ append
+ string
+ substring
+
+
+
+
+ length
+ result
+ append
+
+ result
+ string
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  responsible  for  managing  the  connection  between  swt  and  the  underlying  operating  system  their  most  important  function  implement  the  swt  event  loop  terms  the  platform  event  model  they  also  provide  various  methods  for  accessing  information  about  the  operating  system  and  have  overall  control  over  the  operating  system  resources  which  swt  allocates  applications  which  are  built  with  swt  will  almost  always  require  only  single  display  particular  some  platforms  which  swt  supports  will  not  allow  more  than  one  active  display  other  words  some  platforms  not  support  creating  new  display  one  already  exists  that  has  not  been  sent  the  code  dispose  code  message  swt  the  thread  which  creates  code  display  code  instance  distinguished  the  user  interface  thread  for  that  display  the  user  interface  thread  for  particular  display  has  the  following  special  attributes  the  event  loop  for  that  display  must  run  from  the  thread  some  swt  api  methods  notably  most  the  public  methods  code  widget  code  and  its  subclasses  may  only  called  from  the  thread  support  multi  threaded  user  interface  applications  class  code  display  code  provides  inter  thread  communication  methods  which  allow  threads  other  than  the  user  interface  thread  request  that  perform  operations  their  behalf  the  thread  not  allowed  construct  other  code  display  code  until  that  display  has  been  disposed  note  that  this  addition  the  restriction  mentioned  above  concerning  platform  support  for  multiple  displays  thus  the  only  way  have  multiple  simultaneously  active  displays  even  platforms  which  support  have  multiple  threads  enforcing  these  attributes  allows  swt  implemented  directly  the  underlying  operating  system  event  model  this  has  numerous  benefits  including  smaller  footprint  better  use  resources  safer  memory  management  clearer  program  logic  better  performance  and  fewer  overall  operating  system  threads  required  the  down  side  however  that  care  must  taken  only  when  constructing  multi  threaded  applications  use  the  inter  thread  communication  mechanisms  which  this  class  provides  when  required  all  swt  api  methods  which  may  only  called  from  the  user  interface  thread  are  distinguished  their  documentation  indicating  that  they  throw  the  code  error  thread  invalid  access  code  swt  exception  styles  none  events  close  dispose  important  this  class  not  intended  subclassed  see sync exec  see async exec  see  wake  see read and dispatch  see  sleep  see  device  dispose
+the  handle  the  message  queue  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code 
+windows  and  events
+non  nls 
+non  nls 
+widget  table
+non  nls 
+  focus
+  menus
+the  start  value  for  command  windows  reserves  the  values  100  the smart phone  swt  resource  file  reserves  the  values  101  107
+filter  hook
+idle  hook
+message  hook  and  embedding
+sync  async  widget  communication
+display  shutdown
+system  tray
+  timers
+keyboard  and  mouse
+  mdi
+message  only  window
+system  images  cache
+system  cursors  cache
+image list  cache
+custom  colors  for choose color
+display  data
+key  mappings
+keyboard  and  mouse  masks
+swt  command
+not  currently  used
+lbutton  swt  button
+mbutton  swt  button
+rbutton  swt  button
+non  numeric  keypad  keys
+virtual  and  ascii  keys
+functions  keys
+numeric  keypad  keys
+swt  keypad  equal
+other  keys
+swt  help
+multiple  displays
+multiple  monitors
+  modality
+private  swt  window  messages
+workaround  for  adobe  reader 
+package  name
+non  nls 
+this  code  intentionally  commented  order  support  cldc  class  cannot  used  because  does  not  compile  some  java  compilers  when  they  are  targeted  for  cldc
+  static
+string  name  display  class get name
+int  index  name last index
+package  prefix  name  substring  index 
+
+temporary  code  install  the  runnable  that  gets  the  current  display  this  code  will  removed  the  future
+temporary  code
+constructs  new  instance  this  class  note  the  resulting  display  marked  the  current  display  this  the  first  display  which  has  been  constructed  since  the  application  started  also  marked  the  default  display  exception swt exception  error  thread  invalid  access  called  from  thread  that  already  created  existing  display  error  invalid  subclass  this  class  not  allowed  subclass  see get current  see get default  see  widget check subclass  see  shell
+constructs  new  instance  this  class  using  the  parameter  param  data  the  device  data
+adds  the  listener  the  collection  listeners  who  will  notifed  when  event  the  given  type  occurs  anywhere  widget  when  the  event  does  occur  the  listener  notified  sending  the  code handle event  code  message  setting  the  type  event  code  swt  none  code  from  within  the  code handle event  code  method  can  used  change  the  event  type  and  stop  subsequent  java  listeners  from  running  because  event  filters  run  before  other  listeners  event  filters  can  both  block  other  listeners  and  set  arbitrary  fields  within  event  for  this  reason  event  filters  are  both  powerful  and  dangerous  they  should  generally  avoided  for  performance  debugging  and  code  maintenance  reasons  param event type  the  type  event  listen  for  param  listener  the  listener  which  should  notified  when  the  event  occurs  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  see  listener  see remove filter  see remove listener  since 
+adds  the  listener  the  collection  listeners  who  will  notifed  when  event  the  given  type  occurs  when  the  event  does  occur  the  display  the  listener  notified  sending  the  code handle event  code  message  param event type  the  type  event  listen  for  param  listener  the  listener  which  should  notified  when  the  event  occurs  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  see  listener  see remove listener  since 
+get  the  current  keyboard
+translate  the  key  ascii  unicode  using  the  virtual  keyboard
+causes  the  code  run  code  method  the  runnable  invoked  the  user  interface  thread  the  next  reasonable  opportunity  the  caller  this  method  continues  run  parallel  and  not  notified  when  the  runnable  has  completed  specifying  code  null  code  the  runnable  simply  wakes  the  user  interface  thread  when  run  note  that  the  time  the  runnable  invoked  widgets  that  have  the  receiver  their  display  may  have  been  disposed  therefore  necessary  check  for  this  case  inside  the  runnable  before  accessing  the  widget  param  runnable  code  run  the  user  interface  thread  code  null  code  exception swt exception  error  device  disposed  the  receiver  has  been  disposed  see sync exec
+causes  the  system  hardware  emit  short  sound  supports  this  capability  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed 
+checks  that  this  class  can  subclassed  important  see  the  comment  code  widget check subclass  code  exception swt exception  error  invalid  subclass  this  class  not  allowed  subclass  see  widget check subclass
+requests  that  the  connection  between  swt  and  the  underlying  operating  system  closed  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  see  device  dispose  since 
+creates  the  device  the  operating  system  the  device  does  not  have  handle  this  method  may  nothing  depending  the  device  this  method  called  before  code  init  code  param  data  the device data  which  describes  the  receiver  see  init
+destroys  the  device  the  operating  system  and  releases  the  device  handle  the  device  does  not  have  handle  this  method  may  nothing  depending  the  device  this  method  called  after  code  release  code  see  device  dispose  see  release
+causes  the  code  run  code  method  the  runnable  invoked  the  user  interface  thread  just  before  the  receiver  disposed  specifying  code  null  code  runnable  ignored  param  runnable  code  run  dispose  time  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed 
+does  whatever  display  specific  cleanup  required  and  then  uses  the  code  code swt error  error  code  handle  the  error  param  code  the  descriptive  error  code  see  swt  error  int
+given  the  operating  system  handle  for  widget  returns  the  instance  the  code  widget  code  subclass  which  represents  the  currently  running  application  such  exists  null  matching  widget  can  found  important  this  method  should  not  called  from  application  code  the  arguments  are  platform  specific  param  handle  the  handle  for  the  widget  return  the  swt  widget  that  the  handle  represents  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed 
+given  the  operating  system  handle  for  widget  and  widget  specific  returns  the  instance  the  code  widget  code  subclass  which  represents  the  handle  pair  the  currently  running  application  such  exists  null  matching  widget  can  found  important  this  method  should  not  called  from  application  code  the  arguments  are  platform  specific  param  handle  the  handle  for  the  widget  param  the  for  the  subwidget  usually  item  return  the  swt  widget  that  the  handle  pair  represents  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  since 
+returns  the  display  which  the  given  thread  the  user  interface  thread  for  null  the  given  thread  not  user  interface  thread  for  any  display  specifying  code  null  code  the  thread  will  return  code  null  code  for  the  display  param  thread  the  user  interface  thread  return  the  display  for  the  given  thread
+returns  the  currently  active  code  shell  code  null  shell  belonging  the  currently  running  application  active  return  the  active  shell  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed 
+returns  rectangle  describing  the  receiver  size  and  location  return  the  bounding  rectangle  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed 
+returns  the  display  which  the  currently  running  thread  the  user  interface  thread  for  null  the  currently  running  thread  not  user  interface  thread  for  any  display  return  the  current  display
+returns  rectangle  which  describes  the  area  the  receiver  which  capable  displaying  data  return  the  client  area  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  see get bounds
+because  gwl  userdata  can  used  native  widgets  that  not  belong  swt  possible  that  gwl  userdata  could  return  index  that  the  range  the  table  but  was  not  put  there  swt  therefore  necessary  check  the  handle  the  control  that  the  table  against  the  handle  that  provided  the  gwl  userdata
+returns  the  control  which  the  screen  pointer  currently  over  top  null  not  currently  over  one  the  controls  built  the  currently  running  application  return  the  control  under  the  cursor  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed 
+returns  the  location  the  screen  pointer  relative  the  top  left  corner  the  screen  return  the  cursor  location  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed 
+returns  array  containing  the  recommended  cursor  sizes  return  the  array  cursor  sizes  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  since 
+returns  the  default  display  one  created  making  the  thread  that  invokes  this  method  its  user  interface  thread  did  not  already  exist  return  the  default  display
+returns  the  application  defined  property  the  receiver  with  the  specified  name  null  has  not  been  set  applications  may  have  associated  arbitrary  objects  with  the  receiver  this  fashion  the  objects  stored  the  properties  need  notified  when  the  display  disposed  the  application  responsibility  provide  code dispose exec  code  handler  which  does  param  key  the  name  the  property  return  the  value  the  property  null  has  not  been  set  exception illegal argument exception  error  null  argument  the  key  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  see set data  string  object  see dispose exec  runnable
+returns  the  application  defined  display  specific  data  associated  with  the  receiver  null  has  not  been  set  the  display  specific  data  single  unnamed  field  that  stored  with  every  display  applications  may  put  arbitrary  objects  this  field  the  object  stored  the  display  specific  data  needs  notified  when  the  display  disposed  the  application  responsibility  provide  code dispose exec  code  handler  which  does  return  the  display  specific  data  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  see set data  object  see dispose exec  runnable
+returns  the  button  dismissal  alignment  one  code  left  code  code  right  code  the  button  dismissal  alignment  the  ordering  that  should  used  when  positioning  the  default  dismissal  button  for  dialog  for  example  dialog  that  contains  and  cancel  button  platforms  where  the  button  dismissal  alignment  code  left  code  the  button  ordering  should  cancel  when  button  dismissal  alignment  code  right  code  the  button  ordering  should  cancel  return  the  button  dismissal  order  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  since 
+returns  the  longest  duration  milliseconds  between  two  mouse  button  clicks  that  will  considered  double  click  the  underlying  operating  system  return  the  double  click  time  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed 
+returns  the  control  which  currently  has  keyboard  focus  null  keyboard  events  are  not  currently  going  any  the  controls  built  the  currently  running  application  return  the  control  under  the  cursor  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed 
+returns  true  when  the  high  contrast  mode  enabled  otherwise  false  returned  note  this  operation  hint  and  not  supported  platforms  that  not  have  this  concept  return  the  high  contrast  mode  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  since 
+returns  the  maximum  allowed  depth  icons  this  display  bits  per  pixel  some  platforms  this  may  different  than  the  actual  depth  the  display  return  the  maximum  icon  depth  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  see  device get depth
+use  the  character  encoding  for  the  default  locale
+non  nls 
+use  the  character  encoding  for  the  default  locale
+non  nls 
+returns  array  containing  the  recommended  icon  sizes  return  the  array  icon  sizes  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  see  decorations set images  image  since 
+returns  array  monitors  attached  the  device  return  the  array  monitors  since 
+non  nls 
+non  nls 
+returns  the  primary  monitor  for  that  device  return  the  primary  monitor  since 
+non  nls 
+returns  possibly  empty  array  containing  all  shells  which  have  not  been  disposed  and  have  the  receiver  their  display  return  the  receiver  shells  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed 
+returns  the  thread  that  has  invoked  code sync exec  code  null  such  runnable  currently  being  invoked  the  user  interface  thread  note  runnable  invoked async exec  currently  running  this  method  will  return  null  return  the  receiver  sync  interface  thread  exception swt exception  error  device  disposed  the  receiver  has  been  disposed 
+returns  the  matching  standard  color  for  the  given  constant  which  should  one  the  color  constants  specified  class  code  swt  code  any  value  other  than  one  the  swt  color  constants  which  passed  will  result  the  color  black  this  color  should  not  free  because  was  allocated  the  system  not  the  application  param  the  color  constant  return  the  matching  color  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  see  swt
+returns  the  matching  standard  platform  cursor  for  the  given  constant  which  should  one  the  cursor  constants  specified  class  code  swt  code  this  cursor  should  not  free  because  was  allocated  the  system  not  the  application  value  code  null  code  will  returned  the  supplied  constant  not  swt  cursor  constant  param  the  swt  cursor  constant  return  the  corresponding  cursor  code  null  code  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  see  swt  cursor  arrow  see  swt  cursor  wait  see  swt  cursor  cross  see  swt  cursor  appstarting  see  swt  cursor  help  see  swt  cursor  sizeall  see  swt  cursor  sizenesw  see  swt  cursor  sizens  see  swt  cursor  sizenwse  see  swt  cursor  sizewe  see  swt  cursor  sizen  see  swt  cursor  sizes  see  swt  cursor  sizee  see  swt  cursor  sizew  see  swt  cursor  sizene  see  swt  cursor  sizese  see  swt  cursor  sizesw  see  swt  cursor  sizenw  see  swt  cursor  uparrow  see  swt  cursor  ibeam  see  swt  cursor  see  swt  cursor  hand  since 
+returns  reasonable  font  for  applications  use  some  platforms  this  will  match  the  default  font  system  font  such  can  found  this  font  should  not  free  because  was  allocated  the  system  not  the  application  typically  applications  which  want  the  default  look  should  simply  not  set  the  font  the  widgets  they  create  widgets  are  always  created  with  the  correct  default  font  for  the  class  user  interface  component  they  represent  return  font  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed 
+returns  the  matching  standard  platform  image  for  the  given  constant  which  should  one  the  icon  constants  specified  class  code  swt  code  this  image  should  not  free  because  was  allocated  the  system  not  the  application  value  code  null  code  will  returned  either  the  supplied  constant  not  swt  icon  constant  the  platform  does  not  define  image  that  corresponds  the  constant  param  the  swt  icon  constant  return  the  corresponding  image  code  null  code  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  see  swt  icon  error  see  swt  icon  information  see  swt  icon  question  see  swt  icon  warning  see  swt  icon  working  since 
+returns  the  single  instance  the  system  tray  null  when  there  system  tray  available  for  the  platform  return  the  system  tray  code  null  code  exception swt exception  error  device  disposed  the  receiver  has  been  disposed  since 
+returns  the  user  interface  thread  for  the  receiver  return  the  receiver  user  interface  thread  exception swt exception  error  device  disposed  the  receiver  has  been  disposed 
+invokes  platform  specific  functionality  allocate  new  handle  important  this  method  not  part  the  public  api  for  code  display  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  data  the  platform  specific  data  return  the  platform  specific  handle  exception swt exception  error  device  disposed  the  receiver  has  been  disposed  exception swt error  error  handles  handle  could  not  obtained  for  creation 
+initializes  any  internal  resources  needed  the  device  this  method  called  after  code  create  code  see  create
+create  the  callbacks
+non  nls 
+remember  the  current  thread 
+use  the  character  encoding  for  the  default  locale
+register  the  swt  window  class
+register  the  swt  drop  shadow  window  class
+initialize  the  system  font
+create  the  message  only  hwnd
+non  nls 
+create  the  filter  hook
+non  nls 
+create  the  idle  hook
+non  nls 
+register  the  task  bar  created  message
+initialize  ole
+initialize  the  widget  table
+invokes  platform  specific  functionality  dispose  handle  important  this  method  not  part  the  public  api  for  code  display  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  the  platform  specific  handle  param  data  the  platform  specific  data
+note  mouse  active  when  bit  the user preferences mask  set
+non  nls 
+non  nls 
+maps  point  from  one  coordinate  system  another  when  the  control  null  coordinates  are  mapped  the  display  note  right  left  platforms  where  the  coordinate  systems  are  mirrored  special  care  needs  taken  when  mapping  coordinates  from  one  control  another  ensure  the  result  correctly  mirrored  mapping  point  that  the  origin  rectangle  and  then  adding  the  width  and  height  not  equivalent  mapping  the  rectangle  when  one  control  mirrored  and  the  other  not  adding  the  width  and  height  point  that  was  mapped  causes  the  rectangle  extend  the  wrong  direction  mapping  the  entire  rectangle  instead  just  one  point  causes  both  the  origin  and  the  corner  the  rectangle  mapped  param  from  the  source  code  control  code  code  null  code  param  the  destination  code  control  code  code  null  code  param  point  mapped  return  point  with  mapped  coordinates  exception illegal argument exception  error  null  argument  the  point  null  error  invalid  argument  the  control  from  the  control  have  been  disposed  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  since 
+maps  point  from  one  coordinate  system  another  when  the  control  null  coordinates  are  mapped  the  display  note  right  left  platforms  where  the  coordinate  systems  are  mirrored  special  care  needs  taken  when  mapping  coordinates  from  one  control  another  ensure  the  result  correctly  mirrored  mapping  point  that  the  origin  rectangle  and  then  adding  the  width  and  height  not  equivalent  mapping  the  rectangle  when  one  control  mirrored  and  the  other  not  adding  the  width  and  height  point  that  was  mapped  causes  the  rectangle  extend  the  wrong  direction  mapping  the  entire  rectangle  instead  just  one  point  causes  both  the  origin  and  the  corner  the  rectangle  mapped  param  from  the  source  code  control  code  code  null  code  param  the  destination  code  control  code  code  null  code  param  coordinates  mapped  param  coordinates  mapped  return  point  with  mapped  coordinates  exception illegal argument exception  error  invalid  argument  the  control  from  the  control  have  been  disposed  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  since 
+maps  point  from  one  coordinate  system  another  when  the  control  null  coordinates  are  mapped  the  display  note  right  left  platforms  where  the  coordinate  systems  are  mirrored  special  care  needs  taken  when  mapping  coordinates  from  one  control  another  ensure  the  result  correctly  mirrored  mapping  point  that  the  origin  rectangle  and  then  adding  the  width  and  height  not  equivalent  mapping  the  rectangle  when  one  control  mirrored  and  the  other  not  adding  the  width  and  height  point  that  was  mapped  causes  the  rectangle  extend  the  wrong  direction  mapping  the  entire  rectangle  instead  just  one  point  causes  both  the  origin  and  the  corner  the  rectangle  mapped  param  from  the  source  code  control  code  code  null  code  param  the  destination  code  control  code  code  null  code  param  rectangle  mapped  return  rectangle  with  mapped  coordinates  exception illegal argument exception  error  null  argument  the  rectangle  null  error  invalid  argument  the  control  from  the  control  have  been  disposed  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  since 
+maps  point  from  one  coordinate  system  another  when  the  control  null  coordinates  are  mapped  the  display  note  right  left  platforms  where  the  coordinate  systems  are  mirrored  special  care  needs  taken  when  mapping  coordinates  from  one  control  another  ensure  the  result  correctly  mirrored  mapping  point  that  the  origin  rectangle  and  then  adding  the  width  and  height  not  equivalent  mapping  the  rectangle  when  one  control  mirrored  and  the  other  not  adding  the  width  and  height  point  that  was  mapped  causes  the  rectangle  extend  the  wrong  direction  mapping  the  entire  rectangle  instead  just  one  point  causes  both  the  origin  and  the  corner  the  rectangle  mapped  param  from  the  source  code  control  code  code  null  code  param  the  destination  code  control  code  code  null  code  param  coordinates  mapped  param  coordinates  mapped  param  width  coordinates  mapped  param  height  coordinates  mapped  return  rectangle  with  mapped  coordinates  exception illegal argument exception  error  invalid  argument  the  control  from  the  control  have  been  disposed  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  since 
+returns  single  character  converted  from  the  default  multi  byte  character  set  mbcs  used  the  operating  system  widgets  wide  character  set  wcs  used  java  param  the  mbcs  character  return  the  wcs  character
+returns  single  character  converted  from  the  specified  multi  byte  character  set  mbcs  used  the  operating  system  widgets  wide  character  set  wcs  used  java  param  the  mbcs  character  param code page  the  code  page  used  convert  the  character  return  the  wcs  character
+feature  windows  when  the  user  types  accent  key  such  order  get  accented  character  german  keyboard  calling translate message  unicode  ascii  consumes  the  key  this  means  that  subsequent  call translate message  will  see  regular  key  rather  than  the  accented  key  the  fix  use map virtual key  and key scan  detect  accent  and  avoid  calls translate message
+bug  windows  the  high  bit  the  result map virtual key  windows  bit  while  the  high  bit  windows  bit  they  should  both  bit  the  fix  test  the  right  bit
+feature  windows  when  multiple  shells  are  disabled  and  one  the  shells  has  enabled  dialog  child  and  the  user  selects  disabled  shell  that  does  not  have  the  enabled  dialog  child  using  the  task  bar  windows  brings  the  disabled  shell  the  front  soon  the  user  clicks  the  disabled  shell  the  enabled  dialog  child  comes  the  front  this  behavior  unspecified  and  seems  strange  normally  disabled  shell  frozen  the  screen  and  the  user  cannot  change  the  order  clicking  with  the  mouse  the  fix  look  for  activateapp  and  force  the  enabled  dialog  child  the  front  this  typically  what  the  user  expecting  note  the  modal  shell  disabled  for  any  reason  should  not  brought  the  front
+when  the  session  ending  swt  program  can  continue  run  order  avoid  running  code  after  the  display  has  been  disposed  exit  from  java
+generate  low  level  system  event  code  post  code  used  generate  low  level  keyboard  and  mouse  events  the  intent  enable  automated  testing  simulating  the  input  from  the  user  most  swt  applications  should  never  need  call  this  method  note  that  this  operation  can  fail  when  the  operating  system  fails  generate  the  event  for  any  reason  for  example  this  can  happen  when  there  such  key  mouse  button  when  the  system  event  queue  full  event  types key down  key  the  following  fields  the  code  event  code  apply  type key down  key  either  one  character  character  that  corresponds  keyboard  key key code  the  key  code  the  key  that  was  typed  defined  the  key  code  constants  class  code  swt  code mouse down  mouse  the  following  fields  the  code  event  code  apply  type mouse down  mouse  button  the  button  that  pressed  released mouse move  the  following  fields  the  code  event  code  apply  type mouse move  the  coordinate  move  the  mouse  pointer  screen  coordinates  the  coordinate  move  the  mouse  pointer  screen  coordinates  param  event  the  event  generated  return  true  the  event  was  generated  false  otherwise  exception illegal argument exception  error  null  argument  the  event  null  exception swt exception  error  device  disposed  the  receiver  has  been  disposed  since 
+since  there  key  the  keyboard  not  attempt  map  attempt  post  key
+case  swt  inputs  short  return  break
+place  the  event  the  end  the  event  queue  this  code  always  called  the  display  thread  must  enterant  but  does  not  need  synchronized
+reads  event  from  the  operating  system  event  queue  dispatches  appropriately  and  returns  code  true  code  there  potentially  more  work  code  false  code  the  caller  can  sleep  until  another  event  placed  the  event  queue  addition  checking  the  system  event  queue  this  method  also  checks  any  inter  thread  messages  created  code sync exec  code  code async exec  code  are  waiting  processed  and  handles  them  before  returning  return  code  false  code  the  caller  can  sleep  upon  return  from  this  method  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  error  failed  exec  exception  occurred  while  running  inter  thread  message  see  sleep  see  wake
+releases  any  internal  resources  back  the  operating  system  and  clears  all  fields  except  the  device  handle  disposes  all  shells  which  are  currently  open  the  display  after  this  method  has  been  invoked  all  related  related  shells  will  answer  code  true  code  when  sent  the  message  code  disposed  code  when  device  destroyed  resources  that  were  acquired  behalf  the  programmer  need  returned  the  operating  system  for  example  the  device  allocated  font  used  the  system  font  this  font  would  freed  code  release  code  also  assist  the  garbage  collector  and  minimize  the  amount  memory  that  not  reclaimed  when  the  programmer  keeps  reference  disposed  device  all  fields  except  the  handle  are  zero  the  handle  needed  code  destroy  code  this  method  called  before  code  destroy  code  see  device  dispose  see  destroy
+unhook  the  message  hook
+unhook  the  filter  hook
+unhook  the  idle  hook
+destroy  the  message  only  hwnd
+unregister  the  swt  window  class
+unregister  the  swt  drop  shadow  window  class
+release  the  system  fonts
+release  the  system  images
+release  the  system  cursors
+release  custom  colors  for choose color
+uninitialize  ole
+release  references
+removes  the  listener  from  the  collection  listeners  who  will  notifed  when  event  the  given  type  occurs  anywhere  widget  param event type  the  type  event  listen  for  param  listener  the  listener  which  should  longer  notified  when  the  event  occurs  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  listener  see add filter  see add listener  since 
+removes  the  listener  from  the  collection  listeners  who  will  notifed  when  event  the  given  type  occurs  param event type  the  type  event  listen  for  param  listener  the  listener  which  should  longer  notified  when  the  event  occurs  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  see  listener  see add listener  since 
+run  deferred  events  this  code  always  called  the  display  thread  must  enterant  but  need  not  synchronized
+take  event  off  the  queue
+run  the  event
+this  point  the  event  queue  could  null  due  recursive  invokation  when  running  the  event
+clear  the  queue
+sets  the  location  the  screen  pointer  relative  the  top  left  corner  the  screen  note  typically  considered  bad  practice  for  program  move  the  screen  pointer  location  param  the  new  coordinate  for  the  cursor  param  the  new  coordinate  for  the  cursor  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  since 
+sets  the  location  the  screen  pointer  relative  the  top  left  corner  the  screen  note  typically  considered  bad  practice  for  program  move  the  screen  pointer  location  param  point  new  position  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  null  argument  the  point  null  error  device  disposed  the  receiver  has  been  disposed  since 
+sets  the  application  defined  property  the  receiver  with  the  specified  name  the  given  argument  applications  may  have  associated  arbitrary  objects  with  the  receiver  this  fashion  the  objects  stored  the  properties  need  notified  when  the  display  disposed  the  application  responsibility  provide  code dispose exec  code  handler  which  does  param  key  the  name  the  property  param  value  the  new  value  for  the  property  exception illegal argument exception  error  null  argument  the  key  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  see get data  string  see dispose exec  runnable
+remove  the  key  value  pair
+add  the  key  value  pair
+sets  the  application  defined  display  specific  data  associated  with  the  receiver  the  argument  the  display  specific  data  single  unnamed  field  that  stored  with  every  display  applications  may  put  arbitrary  objects  this  field  the  object  stored  the  display  specific  data  needs  notified  when  the  display  disposed  the  application  responsibility  provide  code dispose exec  code  handler  which  does  param  data  the  new  display  specific  data  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  see get data  see dispose exec  runnable
+platforms  which  support  sets  the  application  name  the  argument  motif  for  example  this  can  used  set  the  name  used  for  resource  lookup  specifying  code  null  code  for  the  name  clears  param  name  the  new  app  name  code  null  code
+  nothing
+sets  the  synchronizer  used  the  display  the  argument  which  can  not  null  param  synchronizer  the  new  synchronizer  for  the  display  must  not  null  exception illegal argument exception  error  null  argument  the  synchronizer  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  error  failed  exec  exception  occurred  while  running  inter  thread  message 
+clear  the  virtual  keyboard  and  press  the  shift  key
+translate  the  key  ascii  unicode  using  the  virtual  keyboard
+causes  the  user  interface  thread  sleep  that  put  state  where  does  not  consume  cpu  cycles  until  event  received  otherwise  awakened  return  code  true  code  event  requiring  dispatching  was  placed  the  queue  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  see  wake
+causes  the  code  run  code  method  the  runnable  invoked  the  user  interface  thread  the  next  reasonable  opportunity  the  thread  which  calls  this  method  suspended  until  the  runnable  completes  specifying  code  null  code  the  runnable  simply  wakes  the  user  interface  thread  note  that  the  time  the  runnable  invoked  widgets  that  have  the  receiver  their  display  may  have  been  disposed  therefore  necessary  check  for  this  case  inside  the  runnable  before  accessing  the  widget  param  runnable  code  run  the  user  interface  thread  code  null  code  exception swt exception  error  failed  exec  exception  occured  when  executing  the  runnable  error  device  disposed  the  receiver  has  been  disposed  see async exec
+causes  the  code  run  code  method  the  runnable  invoked  the  user  interface  thread  after  the  specified  number  milliseconds  have  elapsed  milliseconds  less  than  zero  the  runnable  not  executed  note  that  the  time  the  runnable  invoked  widgets  that  have  the  receiver  their  display  may  have  been  disposed  therefore  necessary  check  for  this  case  inside  the  runnable  before  accessing  the  widget  param  milliseconds  the  delay  before  running  the  runnable  param  runnable  code  run  the  user  interface  thread  exception illegal argument exception  error  null  argument  the  runnable  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  see async exec
+forces  all  outstanding  paint  requests  for  the  display  processed  before  this  method  returns  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  device  disposed  the  receiver  has  been  disposed  see  control  update
+feature  windows  when  application  does  not  remove  events  from  the  event  queue  for  some  time  windows  assumes  the  application  not  responding  and  longer  sends  paint  events  the  application  the  fix  detect  that  the  application  not  responding  and  call peek message  with  remove  tell  windows  that  the  application  ready  dispatch  events  note  that  the  message  does  not  have  found  dispatched  order  wake  windows  note  this  allows  other  cross  thread  messages  delivered  most  notably  activate
+the  receiver  user  interface  thread  was  code  sleep  code  ing  causes  awakened  and  start  running  again  note  that  this  method  may  called  from  any  thread  exception swt exception  error  device  disposed  the  receiver  has  been  disposed  see  sleep
+returns  single  character  converted  from  the  wide  character  set  wcs  used  java  the  specified  multi  byte  character  set  used  the  operating  system  widgets  param  the  wcs  character  param code page  the  code  page  used  convert  the  character  return  the  mbcs  character
+returns  single  character  converted  from  the  wide  character  set  wcs  used  java  the  default  multi  byte  character  set  used  the  operating  system  widgets  param  the  wcs  character  return  the  mbcs  character
+bug  adobe  reader  for  some  reason  when  adobe  reader  deactivated  from  within  internet  explorer  sends  thousands  consecutive  nchittest  messages  the  control  that  under  the  cursor  seems  that  the  control  takes  some  time  respond  the  message  adobe  stops  sending  them  the  fix  detect  this  case  and  sleep  note  under  normal  circumstances  windows  will  never  send  consecutive  nchittest  messages  the  same  control  without  another  message  normally  setcursor  between
+the  string  empty  return  the  string
+check  for  and  assume  the  rest  the  string  formated  that  way  this  will  not  work  the  string  contains  mixed  delimiters
+the  string  formatted  with  compute  the  number  lines  and  the  size  the  buffer  needed  hold  the  result
+create  new  string  with  the  line  terminator
+non  nls 
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,34 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.JPEGEndOfImage.java </DOCNO>
+<text>
+<class>
+jpeg end image
+</class>
+<method>
+jpeg end image
+jpeg end image
+ signature
+fixed size
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+jpeg end image
+jpeg fixed size segment
+jpeg end image
+jpeg end image
+ reference
+ reference
+ signature
+jpeg file format
+ eoi
+fixed size
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

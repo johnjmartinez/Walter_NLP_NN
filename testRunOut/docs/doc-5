@@ -1,0 +1,376 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.DisplayRenderer.java </DOCNO>
+<text>
+<class>
+display renderer
+</class>
+<method>
+display renderer
+ dispose
+ dispose
+draw line break selection
+get bidi segments
+get client area
+get content
+ get
+get horizontal pixel
+get left margin
+get line background data
+get line style data
+get orientation
+get right margin
+get selection background
+get selection foreground
+get selection
+get word wrap
+full line selection
+create text layout
+dispose text layout
+update top index
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ swt
+ org
+ eclipse
+ swt
+ graphics
+display renderer
+styled text renderer
+styled text
+ parent
+top index
+text layout
+ layouts
+display renderer
+ device
+ device
+ font
+regular font
+styled text
+ parent
+tab length
+ device
+regular font
+ parent
+ parent
+calculate line height
+set tab length
+tab length
+ dispose
+ dispose
+ layouts
+
+
+ layouts
+ length
+
+text layout
+ layout
+ layouts
+
+ layout
+dispose text layout
+ layout
+top index
+ layouts
+ dispose
+
+
+
+ dispose
+draw line break selection
+ string
+ line
+line offset
+ paint
+ paint
+
+
+ point
+ selection
+ parent
+internal get selection
+line length
+ line
+ length
+selection start
+ math
+ max
+ selection
+
+line offset
+selection end
+ selection
+
+line offset
+line end space width
+get line end space width
+line height
+get line height
+selection end
+selection start
+selection end
+selection start
+line length
+selection end
+line length
+
+set background
+ parent
+get selection background
+
+set foreground
+ parent
+get selection foreground
+ parent
+get style
+ swt
+full selection
+ rectangle
+ rect
+get client area
+
+fill rectangle
+ paint
+ paint
+ rect
+ width
+ paint
+line height
+wrapped line
+ parent
+internal get word wrap
+styled text content
+ content
+get content
+line end
+line offset
+line length
+line index
+ content
+get line offset
+line end
+line index
+ content
+get line count
+ content
+get offset line
+line index
+line end
+wrapped line
+wrapped line
+
+fill rectangle
+ paint
+ paint
+line end space width
+line height
+get bidi segments
+line offset
+ string
+line text
+ parent
+ bidi
+ parent
+get bidi segments
+line offset
+line text
+ rectangle
+get client area
+ parent
+get client area
+styled text content
+get content
+ parent
+internal get content
+
+ get
+
+ parent
+get horizontal pixel
+ parent
+internal get horizontal pixel
+get left margin
+ parent
+left margin
+styled text event
+get line background data
+line offset
+ string
+ line
+ parent
+get line background data
+line offset
+ line
+styled text event
+get line style data
+line offset
+ string
+ line
+styled text event
+logical line event
+ parent
+get line style data
+line offset
+ line
+logical line event
+logical line event
+get line style data
+logical line event
+line offset
+ line
+logical line event
+get orientation
+ parent
+get orientation
+get right margin
+ parent
+right margin
+ color
+get selection background
+ parent
+get selection background
+ color
+get selection foreground
+ parent
+get selection foreground
+ point
+get selection
+ parent
+internal get selection
+get word wrap
+ parent
+get word wrap
+full line selection
+ parent
+get style
+ swt
+full selection
+text layout
+create text layout
+line offset
+ parent
+internal get word wrap
+line index
+get content
+get line offset
+line offset
+update top index
+ layouts
+layout index
+line index
+top index
+layout index
+layout index
+ layouts
+ length
+text layout
+ layout
+ layouts
+layout index
+ layout
+ layout
+ layouts
+layout index
+create text layout
+line index
+create text layout
+line offset
+dispose text layout
+text layout
+ layout
+ layouts
+
+
+ layouts
+ length
+
+ layouts
+
+ layout
+dispose text layout
+ layout
+update top index
+vertical increment
+ parent
+get vertical increment
+top index
+vertical increment
+ parent
+vertical scroll offset
+vertical increment
+new length
+ math
+ max
+ parent
+get partial bottom index
+top index
+ layouts
+top index
+top index
+new length
+ layouts
+ length
+text layout
+new layouts
+text layout
+new length
+ layouts
+
+
+ layouts
+ length
+
+text layout
+ layout
+ layouts
+
+ layout
+layout index
+
+top index
+top index
+layout index
+layout index
+new layouts
+ length
+new layouts
+layout index
+ layout
+dispose text layout
+ layout
+top index
+top index
+ layouts
+new layouts
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+display renderer  renders  the  content styled text  widget  display  device
+used  get  content  and  styles  during  rendering
+creates  instance  class display renderer  class  param  device  device  render  param regular font  font  use  for  regular  text  param  parent  class styled text  class  widget  render  param tab length  length  characters  tab  character
+dispose  the  specified  param  dispose
+draws  the  line  delimiter  selection  the  selection  extends  beyond  the  given  line  param  line  the  line  draw  param line offset  offset  the  first  character  the  line  relative  the  start  the  document  param  paint  location  draw  param  paint  location  draw  param  draw 
+the  start  offset  the  next  line  the  same  the  end
+offset  this  line
+render  the  line  break  selection
+returns  the  text  segments  that  should  treated  they  had  different  direction  than  the  surrounding  text  param line offset  offset  the  first  character  the  line  based  from  the  beginning  the  document  param line text  text  the  line  specify  bidi  segments  for  return  text  segments  that  should  treated  they  had  different  direction  than  the  surrounding  text  only  the  start  index  segment  specified  relative  the  start  the  line  always  starts  with  and  ends  with  the  line  length  exception illegal argument exception  error  invalid  argument  the  segment  indices  returned  the  listener  not  start  with  are  not  ascending  order  exceed  the  line  length  have  duplicates 
+returns  the  visible  client  area  that  can  used  for  rendering  return  the  visible  client  area  that  can  used  for  rendering
+returns  the  class styled text content  class  use  for  line  offset  calculations  return  the  class styled text content  class  use  for  line  offset  calculations
+returns  new  use  for  rendering  and  measuring  when  the  longer  used  needs  disposed  calling  dispose  return  the  use  for  rendering  and  measuring  see  dispose
+returns  the  horizontal  scroll  position  return  the  horizontal  scroll  position
+see styled text renderer get line background data
+see styled text renderer get line style data
+see styled text renderer get selection
+see styled text renderer get word wrap
+see styled text renderer full line selection
+</comments>
+</text>
+</DOC>

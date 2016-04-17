@@ -1,0 +1,146 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.PngPlteChunk.java </DOCNO>
+<text>
+<class>
+png plte chunk
+</class>
+<method>
+png plte chunk
+get palette size
+get palette data
+ validate
+contribute string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+ compatibility
+png plte chunk
+png chunk
+png plte chunk
+ reference
+ reference
+get palette size
+get length
+palette data
+get palette data
+ rgb
+ rgbs
+ rgb
+get palette size
+
+
+ rgbs
+ length
+
+ offset
+data offset
+
+ red
+ reference
+ offset
+ green
+ reference
+ offset
+ blue
+ reference
+ offset
+ rgbs
+
+ rgb
+ red
+ green
+ blue
+palette data
+ rgbs
+ validate
+png file read state
+read state
+png ihdr chunk
+header chunk
+read state
+read ihdr
+read state
+read plte
+read state
+read trns
+read state
+read idat
+read state
+read iend
+ swt
+ error
+ swt
+error invalid image
+read state
+read plte
+ validate
+read state
+header chunk
+header chunk
+get can have palette
+ swt
+ error
+ swt
+error invalid image
+get length
+ swt
+ error
+ swt
+error invalid image
+ compatibility
+ pow
+header chunk
+get bit depth
+get palette size
+ swt
+ error
+ swt
+error invalid image
+get palette size
+ swt
+ error
+ swt
+error invalid image
+contribute string
+string buffer
+ buffer
+ buffer
+ append
+ buffer
+ append
+get palette size
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+get  the  number  colors  this  palette
+get palette data  object  representing  the  colors  stored  this  plte  chunk  the  result  should  cached  the  plte  chunk  does  not  store  the  palette  data  created
+int  start  data  offset
+int  end  data  offset get length
+answer  whether  the  chunk  valid  plte  chunk
+plte  chunk  invalid  ihdr  has  been  read  any  plte
+idat  iend  chunk  has  been  read
+palettes  cannot  included  grayscale  images
+palette  chunks  data  fields  must  event  multiples
+each  byte  group  represents  rgb  value
+palettes  cannot  have  more  entries  than bit depth
+where bit depth  the  bit  depth  the  image  given
+the  ihdr  chunk
+palettes  cannot  have  more  than  256  entries
+</comments>
+</text>
+</DOC>

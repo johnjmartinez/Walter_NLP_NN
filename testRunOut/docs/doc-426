@@ -1,0 +1,619 @@
+<DOC>
+<DOCNO>org.eclipse.swt.program.Program.java </DOCNO>
+<text>
+<class>
+ program
+</class>
+<method>
+ program
+find program
+get extensions
+get key value
+get program
+get programs
+ launch
+ execute
+get image data
+get name
+ equals
+hash code
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ program
+ org
+ eclipse
+ swt
+ internal
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ java
+
+ exception
+ program
+ string
+ name
+ string
+ command
+ string
+icon name
+ program
+ program
+find program
+ string
+ extension
+ extension
+ swt
+ error
+ swt
+error null argument
+ extension
+ length
+ extension
+ char
+ extension
+ extension
+ tchar
+ key
+ tchar
+ extension
+phk result
+
+reg open key
+
+hkey classes root
+ key
+
+key read
+phk result
+lpcb data
+ tchar
+ data
+ tchar
+lpcb data
+ result
+
+reg query value
+phk result
+ data
+lpcb data
+
+reg close key
+phk result
+ result
+get program
+ data
+ string
+ data
+ strlen
+ string
+get extensions
+ string
+ extensions
+ string
+ tchar
+ name
+ tchar
+lpc name
+ name
+ length
+ filetime
+
+ filetime
+ index
+ count
+
+reg enum key
+
+hkey classes root
+ index
+ name
+lpc name
+
+
+error more items
+ string
+ extension
+ name
+ string
+lpc name
+lpc name
+ name
+ length
+ extension
+ length
+ extension
+ char
+ count
+ extensions
+ length
+ string
+new extensions
+ string
+ extensions
+ length
+ system
+ arraycopy
+ extensions
+new extensions
+ extensions
+ length
+ extensions
+new extensions
+ extensions
+ count
+ extension
+ index
+ count
+ extensions
+ length
+ string
+new extension
+ string
+ count
+ system
+ arraycopy
+ extensions
+new extension
+ count
+ extensions
+new extension
+ extensions
+ string
+get key value
+ string
+ string
+ expand
+ tchar
+ key
+ tchar
+ string
+phk result
+
+reg open key
+
+hkey classes root
+ key
+
+key read
+phk result
+ string
+ result
+lpcb data
+
+reg query value
+phk result
+ tchar
+ tchar
+lpcb data
+ result
+ length
+lpcb data
+ tchar
+ sizeof
+ length
+ tchar
+ data
+ tchar
+ length
+
+reg query value
+phk result
+ data
+lpcb data
+
+ win
+ expand
+ length
+
+expand environment strings
+ data
+ length
+ tchar
+ dst
+ tchar
+ length
+
+expand environment strings
+ data
+ dst
+ length
+ result
+ dst
+ string
+ math
+ max
+ length
+ length
+ math
+ max
+ data
+ length
+ result
+ data
+ string
+ length
+phk result
+
+reg close key
+phk result
+ result
+ program
+get program
+ string
+ key
+ string
+ name
+get key value
+ key
+ name
+ name
+ length
+ name
+ key
+ string
+default command
+ string
+default command
+get key value
+ key
+default command
+default command
+default command
+ length
+default command
+ string
+ command
+default command
+ string
+ command
+get key value
+ key
+ command
+ command
+ command
+ length
+ string
+default icon
+ string
+icon name
+get key value
+ key
+default icon
+icon name
+icon name
+ length
+ program
+ program
+ program
+ program
+ name
+ name
+ program
+ command
+ command
+ program
+icon name
+icon name
+ program
+ program
+get programs
+ program
+ programs
+ program
+ tchar
+ name
+ tchar
+lpc name
+ name
+ length
+ filetime
+
+ filetime
+ index
+ count
+
+reg enum key
+
+hkey classes root
+ index
+ name
+lpc name
+
+
+error more items
+ string
+ path
+ name
+ string
+lpc name
+lpc name
+ name
+ length
+ program
+ program
+get program
+ path
+ program
+ count
+ programs
+ length
+ program
+new programs
+ program
+ programs
+ length
+ system
+ arraycopy
+ programs
+new programs
+ programs
+ length
+ programs
+new programs
+ programs
+ count
+ program
+ index
+ count
+ programs
+ length
+ program
+new programs
+ program
+ count
+ system
+ arraycopy
+ programs
+new programs
+ count
+ programs
+new programs
+ programs
+ launch
+ string
+file name
+file name
+ swt
+ error
+ swt
+error null argument
+ heap
+
+get process heap
+ tchar
+ buffer
+ tchar
+file name
+byte count
+ buffer
+ length
+ tchar
+ sizeof
+ file
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+ file
+ buffer
+byte count
+ shellexecuteinfo
+ info
+ shellexecuteinfo
+ info
+ size
+ shellexecuteinfo
+ sizeof
+ info
+ file
+ file
+ info
+ show
+
+ show
+ result
+
+shell execute
+ info
+ file
+
+heap free
+ heap
+ file
+ result
+ execute
+ string
+file name
+file name
+ swt
+ error
+ swt
+error null argument
+ quote
+ string
+ prefix
+ command
+ suffix
+ index
+ command
+ index
+ index
+ count
+
+ index
+ length
+ command
+ length
+
+ length
+ command
+ char
+
+ count
+
+ quote
+ count
+ prefix
+ command
+ substring
+ index
+ suffix
+ command
+ substring
+ index
+ length
+ quote
+file name
+file name
+ compatibility
+ exec
+ prefix
+file name
+ suffix
+ exception
+
+image data
+get image data
+icon index
+ string
+file name
+icon name
+ index
+icon name
+ index
+ index
+file name
+icon name
+ substring
+ index
+ string
+icon index
+icon name
+ substring
+ index
+icon name
+ length
+ trim
+icon index
+ integer
+parse int
+icon index
+number format exception
+
+ tchar
+lpsz file
+ tchar
+file name
+phicon small
+phicon large
+
+extract icon
+lpsz file
+icon index
+phicon large
+phicon small
+phicon small
+ image
+ image
+ image
+win 32_new
+ swt
+ icon
+phicon small
+image data
+image data
+ image
+get image data
+ image
+ dispose
+image data
+ string
+get name
+ name
+ equals
+ object
+ other
+ other
+ other
+ program
+ program
+ program
+ program
+ other
+ name
+ equals
+ program
+ name
+ command
+ equals
+ program
+ command
+icon name
+ equals
+ program
+icon name
+hash code
+ name
+hash code
+ command
+hash code
+icon name
+hash code
+ string
+ string
+ name
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  represent  programs  and  their  assoicated  file  extensions  the  operating  system
+prevents  uninitialized  instances  from  being  created  outside  the  package
+finds  the  program  that  associated  with  extension  the  extension  may  may  not  begin  with  note  that  code  display  code  must  already  exist  guarantee  that  this  method  returns  appropriate  result  param  extension  the  program  extension  return  the  program  code  null  code  exception illegal argument exception  error  null  argument  when  extension  null 
+non  nls 
+use  the  character  encoding  for  the  default  locale
+answer  all  program  extensions  the  operating  system  note  that  code  display  code  must  already  exist  guarantee  that  this  method  returns  appropriate  result  return  array  extensions
+use  the  character  encoding  for  the  default  locale
+use  the  character  encoding  for  the  default  locale
+use  the  character  encoding  for  the  default  locale
+  name
+  command
+non  nls 
+non  nls 
+non  nls 
+  icon
+non  nls 
+answers  all  available  programs  the  operating  system  note  that  code  display  code  must  already  exist  guarantee  that  this  method  returns  appropriate  result  return  array  programs
+use  the  character  encoding  for  the  default  locale
+launches  the  executable  associated  with  the  file  the  operating  system  the  file  executable  then  the  executable  launched  note  that  code  display  code  must  already  exist  guarantee  that  this  method  returns  appropriate  result  param file name  the  file  program  name  return  code  true  code  the  file  launched  otherwise  code  false  code  exception illegal argument exception  error  null  argument  when file name  null 
+use  the  character  encoding  for  the  default  locale
+executes  the  program  with  the  file  the  single  argument  the  operating  system  the  responsibility  the  programmer  ensure  that  the  file  contains  valid  data  for  this  program  param file name  the  file  program  name  return  code  true  code  the  file  launched  otherwise  code  false  code  exception illegal argument exception  error  null  argument  when file name  null 
+non  nls 
+non  nls 
+non  nls  non  nls 
+returns  the  receiver  image  data  this  the  icon  that  associated  with  the  reciever  the  operating  system  return  the  image  data  for  the  program  may  null
+use  the  character  encoding  for  the  default  locale
+returns  the  receiver  name  this  short  and  descriptive  name  possible  for  the  program  the  program  has  descriptive  name  this  string  may  the  executable  name  path  empty  return  the  name  the  program
+compares  the  argument  the  receiver  and  returns  true  they  represent  the  same  object  using  class  specific  comparison  param  other  the  object  compare  with  this  object  return  code  true  code  the  object  the  same  this  object  and  code  false  code  otherwise  see hash code
+returns  integer  hash  code  for  the  receiver  any  two  objects  that  return  code  true  code  when  passed  code  equals  code  must  return  the  same  value  for  this  method  return  the  receiver  hash  see  equals  object
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
+non  nls  non  nls 
+</comments>
+</text>
+</DOC>

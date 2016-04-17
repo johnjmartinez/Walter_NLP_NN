@@ -1,0 +1,32 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.FocusAdapter.java </DOCNO>
+<text>
+<class>
+focus adapter
+</class>
+<method>
+focus gained
+focus lost
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+focus adapter
+focus listener
+focus gained
+focus event
+
+focus lost
+focus event
+
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  adapter  class  provides  default  implementations  for  the  methods  described  the  code focus listener  code  interface  classes  that  wish  deal  with  code focus event  code  can  extend  this  class  and  override  only  the  methods  which  they  are  interested  see focus listener  see focus event
+sent  when  control  gets  focus  the  default  behavior  nothing  param  event  containing  information  about  the  focus  change
+sent  when  control  loses  focus  the  default  behavior  nothing  param  event  containing  information  about  the  focus  change
+</comments>
+</text>
+</DOC>

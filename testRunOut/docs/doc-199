@@ -1,0 +1,31 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.win32.OSVERSIONINFO.java </DOCNO>
+<text>
+<class>
+ osversioninfo
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ win
+ osversioninfo
+version info size
+major version
+minor version
+build number
+ platform
+ sizeof
+
+ unicode
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+  final
+</comments>
+</text>
+</DOC>

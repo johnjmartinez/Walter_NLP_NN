@@ -1,0 +1,46 @@
+<DOC>
+<DOCNO>org.eclipse.swt.accessibility.AccessibleEvent.java </DOCNO>
+<text>
+<class>
+accessible event
+</class>
+<method>
+accessible event
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ accessibility
+ org
+ eclipse
+ swt
+ internal
+swt event object
+accessible event
+swt event object
+ child
+ string
+ result
+serial version uid
+accessible event
+ object
+ source
+ source
+ string
+ string
+ child
+ result
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  sent  result  accessibility  clients  sending  messages  controls  asking  for  information  about  the  control  instance  note  the  meaning  the  result  field  depends  the  message  that  was  sent  see accessible listener  see accessible adapter  since 
+the  value  this  field  set  accessibility  client  before  the  accessible  listener  method  called  child  can  childid  self  representing  the  control  itself  based  integer  representing  specific  child  the  control
+the  value  this  field  must  set  the  accessible  listener  method  before  returning  what  set  depends  the  listener  method  called  and  the  child  specified  the  client
+constructs  new  instance  this  class  param  source  the  object  that  fired  the  event
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
+non  nls  non  nls  non  nls 
+</comments>
+</text>
+</DOC>

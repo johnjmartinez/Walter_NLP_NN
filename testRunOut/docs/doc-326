@@ -1,0 +1,37 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.FocusListener.java </DOCNO>
+<text>
+<class>
+focus listener
+</class>
+<method>
+focus gained
+focus lost
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+focus listener
+swt event listener
+focus gained
+focus event
+
+focus lost
+focus event
+
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+classes  which  implement  this  interface  provide  methods  that  deal  with  the  events  that  are  generated  controls  gain  and  lose  focus  after  creating  instance  class  that  implements  this  interface  can  added  control  using  the  code add focus listener  code  method  and  removed  using  the  code remove focus listener  code  method  when  control  gains  loses  focus  the  appropriate  method  will  invoked  see focus adapter  see focus event
+sent  when  control  gets  focus  param  event  containing  information  about  the  focus  change
+sent  when  control  loses  focus  param  event  containing  information  about  the  focus  change
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,36 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.win32.GUITHREADINFO.java </DOCNO>
+<text>
+<class>
+ guithreadinfo
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ win
+ guithreadinfo
+ size
+ flags
+hwnd active
+hwnd focus
+hwnd capture
+hwnd menu owner
+hwnd move size
+hwnd caret
+ left
+ top
+ right
+ bottom
+ sizeof
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+rect  caret
+</comments>
+</text>
+</DOC>

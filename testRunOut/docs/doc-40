@@ -1,0 +1,31 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.ExtendedModifyListener.java </DOCNO>
+<text>
+<class>
+extended modify listener
+</class>
+<method>
+modify text
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+extended modify listener
+swt event listener
+modify text
+extended modify event
+ event
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  method  called  after  text  change  occurs  the  following  event  fields  are  used  event  start  the  start  offset  the  new  text  input  event  length  the  length  the  new  text  input  event replaced text  the  replaced  text  input  param  event  the  given  event  see extended modify event
+</comments>
+</text>
+</DOC>

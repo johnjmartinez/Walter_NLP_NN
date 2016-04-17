@@ -1,0 +1,37 @@
+<DOC>
+<DOCNO>org.eclipse.swt.browser.VisibilityWindowListener.java </DOCNO>
+<text>
+<class>
+visibility window listener
+</class>
+<method>
+ hide
+ show
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ browser
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+visibility window listener
+swt event listener
+ hide
+window event
+ event
+ show
+window event
+ event
+</identifier>
+<comments>
+copyright  2003  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  listener  interface  may  implemented  order  receive  link window event  notification  when  window  hosting  link  browser  needs  displayed  hidden  see  browser add visibility window listener visibility window listener  see  browser remove visibility window listener visibility window listener  see open window listener  see close window listener  since 
+this  method  called  when  the  window  hosting  code  browser  code  requested  hidden  application  would  typically  hide  the  link  org  eclipse  swt  widgets  shell  that  hosts  the  code  browser  code  the  following  fields  the  code window event  code  apply  widget  the  code  browser  code  that  needs  hidden  param  event  the  code window event  code  that  specifies  the  code  browser  code  that  needs  hidden  see  org  eclipse  swt  widgets  shell set visible  boolean  since 
+this  method  called  when  the  window  hosting  code  browser  code  requested  displayed  application  would  typically  set  the  location  and  the  size  the  link  org  eclipse  swt  widgets  shell  that  hosts  the  code  browser  code  particular  location  and  size  are  specified  the  application  would  then  open  that  code  shell  code  the  following  fields  the  code window event  code  apply  widget  the  code  browser  code  display  location  the  requested  location  for  the  code  shell  code  hosting  the  browser  code  null  code  location  set  size  the  requested  size  for  the  code  browser  code  the  client  area  the  code  shell  code  hosting  the  code  browser  code  should  large  enough  accomodate  that  size  code  null  code  size  set address bar  code  true  code  the  code  shell  code  hosting  the  code  browser  code  should  display  address  bar  code  false  code  otherwise menu bar  code  true  code  the  code  shell  code  hosting  the  code  browser  code  should  display  menu  bar  code  false  code  otherwise status bar  code  true  code  the  code  shell  code  hosting  the  code  browser  code  should  display  status  bar  code  false  code  otherwise tool bar  code  true  code  the  code  shell  code  hosting  the  code  browser  code  should  display  tool  bar  code  false  code  otherwise  param  event  the  code window event  code  that  specifies  the  code  browser  code  that  needs  displayed  see  org  eclipse  swt  widgets  control set location  org  eclipse  swt  graphics  point  see  org  eclipse  swt  widgets  control set size  org  eclipse  swt  graphics  point  see  org  eclipse  swt  widgets  shell  open  since 
+</comments>
+</text>
+</DOC>

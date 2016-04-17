@@ -1,0 +1,188 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.Library.java </DOCNO>
+<text>
+<class>
+ library
+</class>
+<method>
+parse version
+java version
+swt version
+load library
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ library
+major version
+minor version
+ revision
+java version
+swt version
+java version
+parse version
+ system
+get property
+swt version
+swt version
+major version
+minor version
+parse version
+ string
+ version
+ version
+ major
+ minor
+ micro
+ length
+ version
+ length
+ index
+ start
+ index
+ length
+ character
+ digit
+ version
+ char
+ index
+ index
+ start
+ length
+ major
+ integer
+parse int
+ version
+ substring
+ start
+ index
+number format exception
+
+ start
+ index
+ index
+ length
+ character
+ digit
+ version
+ char
+ index
+ index
+ start
+ length
+ minor
+ integer
+parse int
+ version
+ substring
+ start
+ index
+number format exception
+
+ start
+ index
+ index
+ length
+ character
+ digit
+ version
+ char
+ index
+ index
+ start
+ length
+ micro
+ integer
+parse int
+ version
+ substring
+ start
+ index
+number format exception
+
+java version
+ major
+ minor
+ micro
+java version
+ major
+ minor
+ micro
+ major
+ minor
+ micro
+swt version
+ major
+ minor
+ major
+ minor
+load library
+ string
+ name
+ string
+ platform
+ platform
+ platform
+ string
+ version
+ system
+get property
+ version
+ version
+major version
+minor version
+ version
+minor version
+ version
+ version
+minor version
+ revision
+ version
+ revision
+ string
+new name
+ name
+ platform
+ version
+ system
+load library
+new name
+unsatisfied link error
+
+ string
+new name
+ name
+ platform
+ system
+load library
+new name
+unsatisfied link error
+
+
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+swt  version  mmmm  major  mmm  minor
+swt  major  version  number  must 
+swt  minor  version  number  must  the  range  999
+swt  revision  number  must 
+the  java  and  swt  versions
+returns  the  java  version  number  integer  param  major  param  minor  param  micro  return  the  version
+returns  the  swt  version  number  integer  param  major  param  minor  return  the  version
+loads  the  shared  library  that  matches  the  version  the  java  code  which  currently  running  swt  shared  libraries  follow  encoding  scheme  where  the  major  minor  and  revision  numbers  are  embedded  the  library  name  and  this  along  with  code  name  code  used  load  the  library  this  fails  code  name  code  used  another  attempt  load  the  library  this  time  ignoring  the  swt  version  encoding  scheme  param  name  the  name  the  library  load
+include  platform  name  support  different  windowing  systems  same  operating  system
+get  version  qualifier
+non  nls 
+non  nls 
+force  digits  minor  version  number
+non  nls 
+non  nls 
+until  first  revision
+non  nls 
+non  nls  non  nls 
+non  nls 
+</comments>
+</text>
+</DOC>

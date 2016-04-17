@@ -1,0 +1,819 @@
+<DOC>
+<DOCNO>org.eclipse.swt.layout.RowLayout.java </DOCNO>
+<text>
+<class>
+row layout
+</class>
+<method>
+row layout
+row layout
+compute size
+compute size
+flush cache
+get name
+ layout
+layout horizontal
+layout vertical
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ layout
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+row layout
+ layout
+ type
+ swt
+ horizontal
+margin width
+margin height
+ spacing
+ wrap
+ pack
+ fill
+ justify
+margin left
+margin top
+margin right
+margin bottom
+row layout
+row layout
+ type
+ type
+ type
+ point
+compute size
+ composite
+ composite
+ hint
+ hint
+flush cache
+ point
+ extent
+ type
+ swt
+ horizontal
+ extent
+layout horizontal
+ composite
+ hint
+ swt
+ default
+ wrap
+ hint
+flush cache
+ extent
+layout vertical
+ composite
+ hint
+ swt
+ default
+ wrap
+ hint
+flush cache
+ hint
+ swt
+ default
+ extent
+
+ hint
+ hint
+ swt
+ default
+ extent
+
+ hint
+ extent
+ point
+compute size
+ control
+ control
+flush cache
+ hint
+ swt
+ default
+ hint
+ swt
+ default
+row data
+ data
+row data
+ control
+get layout data
+ data
+ hint
+ data
+ width
+ hint
+ data
+ height
+ control
+compute size
+ hint
+ hint
+flush cache
+flush cache
+ control
+ control
+ string
+get name
+ string
+ string
+get class
+get name
+ index
+ string
+last index
+ index
+ string
+ string
+ substring
+ index
+ string
+ length
+ layout
+ composite
+ composite
+flush cache
+ rectangle
+client area
+ composite
+get client area
+ type
+ swt
+ horizontal
+layout horizontal
+ composite
+ wrap
+client area
+ width
+flush cache
+layout vertical
+ composite
+ wrap
+client area
+ height
+flush cache
+ point
+layout horizontal
+ composite
+ composite
+ move
+ wrap
+ width
+flush cache
+ count
+ control
+ children
+ composite
+get children
+
+
+ children
+ length
+
+ control
+ control
+ children
+
+row data
+ data
+row data
+ control
+get layout data
+ data
+ data
+ exclude
+ children
+ count
+ children
+
+child width
+child height
+max height
+ pack
+
+
+ count
+
+ control
+ child
+ children
+
+ point
+ size
+compute size
+ child
+flush cache
+child width
+ math
+ max
+child width
+ size
+
+child height
+ math
+ max
+child height
+ size
+
+max height
+child height
+ client
+ client
+ move
+ rectangle
+ rect
+ composite
+get client area
+ client
+ rect
+
+ client
+ rect
+
+ wraps
+ wrapped
+ rectangle
+ bounds
+ move
+ justify
+ fill
+ bounds
+ rectangle
+ count
+ wraps
+ count
+ max
+
+margin left
+margin width
+
+margin top
+margin height
+
+
+ count
+
+ control
+ child
+ children
+
+ pack
+ point
+ size
+compute size
+ child
+flush cache
+child width
+ size
+
+child height
+ size
+
+ wrap
+
+
+child width
+ width
+ wrapped
+ move
+ justify
+ fill
+ wraps
+
+max height
+
+margin left
+margin width
+
+ spacing
+max height
+ pack
+max height
+ pack
+ fill
+max height
+ math
+ max
+max height
+child height
+ move
+ child
+
+ client
+ child
+
+ client
+ justify
+ fill
+ bounds
+
+ rectangle
+ child
+ child
+child width
+child height
+ child
+set bounds
+ child
+ child
+child width
+child height
+
+ spacing
+child width
+ max
+ math
+ max
+ max
+
+ max
+ math
+ max
+ client
+margin left
+margin width
+ max
+ spacing
+ wrapped
+ max
+margin right
+margin width
+ move
+ justify
+ fill
+ space
+ margin
+ wrapped
+ space
+ math
+ max
+ width
+ max
+ count
+ margin
+ math
+ max
+ width
+ max
+ count
+ fill
+ justify
+ last
+ count
+ wraps
+ count
+max height
+
+
+ count
+
+ wraps
+
+wrap count
+
+ last
+ justify
+ wrap
+
+ last
+
+
+
+ wrap
+ bounds
+
+ width
+ spacing
+ space
+ math
+ max
+ width
+ wrap
+wrap count
+ margin
+ math
+ max
+ width
+ wrap
+wrap count
+
+ last
+
+
+
+ justify
+ bounds
+
+
+ space
+
+ last
+ margin
+ fill
+ bounds
+
+ height
+ wraps
+
+ last
+
+
+
+ count
+
+ wrapped
+ justify
+ bounds
+
+
+ space
+
+ margin
+ fill
+ bounds
+
+ height
+max height
+ children
+
+set bounds
+ bounds
+
+ point
+ max
+
+max height
+margin bottom
+margin height
+ point
+layout vertical
+ composite
+ composite
+ move
+ wrap
+ height
+flush cache
+ count
+ control
+ children
+ composite
+get children
+
+
+ children
+ length
+
+ control
+ control
+ children
+
+row data
+ data
+row data
+ control
+get layout data
+ data
+ data
+ exclude
+ children
+ count
+ children
+
+child width
+child height
+max width
+ pack
+
+
+ count
+
+ control
+ child
+ children
+
+ point
+ size
+compute size
+ child
+flush cache
+child width
+ math
+ max
+child width
+ size
+
+child height
+ math
+ max
+child height
+ size
+
+max width
+child width
+ client
+ client
+ move
+ rectangle
+ rect
+ composite
+get client area
+ client
+ rect
+
+ client
+ rect
+
+ wraps
+ wrapped
+ rectangle
+ bounds
+ move
+ justify
+ fill
+ bounds
+ rectangle
+ count
+ wraps
+ count
+ max
+
+margin left
+margin width
+
+margin top
+margin height
+
+
+ count
+
+ control
+ child
+ children
+
+ pack
+ point
+ size
+compute size
+ child
+flush cache
+child width
+ size
+
+child height
+ size
+
+ wrap
+
+
+child height
+ height
+ wrapped
+ move
+ justify
+ fill
+ wraps
+
+max width
+
+ spacing
+max width
+
+margin top
+margin height
+ pack
+max width
+ pack
+ fill
+max width
+ math
+ max
+max width
+child width
+ move
+ child
+
+ client
+ child
+
+ client
+ justify
+ fill
+ bounds
+
+ rectangle
+ child
+ child
+child width
+child height
+ child
+set bounds
+ child
+ child
+child width
+child height
+
+ spacing
+child height
+ max
+ math
+ max
+ max
+
+ max
+ math
+ max
+ client
+margin top
+margin height
+ max
+ spacing
+ wrapped
+ max
+margin bottom
+margin height
+ move
+ justify
+ fill
+ space
+ margin
+ wrapped
+ space
+ math
+ max
+ height
+ max
+ count
+ margin
+ math
+ max
+ height
+ max
+ count
+ fill
+ justify
+ last
+ count
+ wraps
+ count
+max width
+
+
+ count
+
+ wraps
+
+wrap count
+
+ last
+ justify
+ wrap
+
+ last
+
+
+
+ wrap
+ bounds
+
+ height
+ spacing
+ space
+ math
+ max
+ height
+ wrap
+wrap count
+ margin
+ math
+ max
+ height
+ wrap
+wrap count
+
+ last
+
+
+
+ justify
+ bounds
+
+
+ space
+
+ last
+ margin
+ fill
+ bounds
+
+ width
+ wraps
+
+ last
+
+
+
+ count
+
+ wrapped
+ justify
+ bounds
+
+
+ space
+
+ margin
+ fill
+ bounds
+
+ width
+max width
+ children
+
+set bounds
+ bounds
+
+ point
+
+max width
+margin right
+margin width
+ max
+ string
+ string
+ string
+ string
+get name
+ string
+ type
+ swt
+ horizontal
+margin width
+ string
+margin width
+margin height
+ string
+margin height
+margin left
+ string
+margin left
+margin top
+ string
+margin top
+margin right
+ string
+margin right
+margin bottom
+ string
+margin bottom
+ spacing
+ string
+ spacing
+ string
+ wrap
+ string
+ pack
+ string
+ fill
+ string
+ justify
+ string
+ string
+ trim
+ string
+ string
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  determine  the  size  and  position  the  children  code  composite  code  placing  them  either  horizontal  rows  vertical  columns  within  the  parent  code  composite  code  code row layout  code  aligns  all  controls  one  row  the  code  type  code  set  horizontal  and  one  column  set  vertical  has  the  ability  wrap  and  provides  configurable  margins  and  spacing  code row layout  code  has  number  configuration  fields  addition  the  height  and  width  each  control  code row layout  code  can  specified  setting  code row data  code  object  into  the  control  using  code set layout data  code  the  following  example  code  creates  code row layout  code  sets  all  its  fields  non  default  values  and  then  sets  into  code  shell  code  pre row layout row layout  new row layout row layout  wrap  false row layout  pack  false row layout  justify  true row layout  type  swt  vertical row layout margin left row layout margin top row layout margin right row layout margin bottom row layout  spacing  shell set layout row layout  pre  you  are  using  the  default  field  values  you  only  need  one  line  code  pre  shell set layout  new row layout  pre  see row data
+type  specifies  whether  the  layout  places  controls  rows  columns  the  default  value  horizontal  possible  values  are  horizontal  position  the  controls  horizontally  from  left  right  vertical  position  the  controls  vertically  from  top  bottom  since 
+margin width  specifies  the  number  pixels  horizontal  margin  that  will  placed  along  the  left  and  right  edges  the  layout  the  default  value  since 
+margin height  specifies  the  number  pixels  vertical  margin  that  will  placed  along  the  top  and  bottom  edges  the  layout  the  default  value  since 
+spacing  specifies  the  number  pixels  between  the  edge  one  cell  and  the  edge  its  neighbouring  cell  the  default  value 
+wrap  specifies  whether  control  will  wrapped  the  next  row  there  insufficient  space  the  current  row  the  default  value  true
+pack  specifies  whether  all  controls  the  layout  take  their  preferred  size  pack  false  all  controls  will  have  the  same  size  which  the  size  required  accommodate  the  largest  preferred  height  and  the  largest  preferred  width  all  the  controls  the  layout  the  default  value  true
+fill  specifies  whether  the  controls  row  should  all  the  same  height  for  horizontal  layouts  the  same  width  for  vertical  layouts  the  default  value  false  since 
+justify  specifies  whether  the  controls  row  should  fully  justified  with  any  extra  space  placed  between  the  controls  the  default  value  false
+margin left  specifies  the  number  pixels  horizontal  margin  that  will  placed  along  the  left  edge  the  layout  the  default  value 
+margin top  specifies  the  number  pixels  vertical  margin  that  will  placed  along  the  top  edge  the  layout  the  default  value 
+margin right  specifies  the  number  pixels  horizontal  margin  that  will  placed  along  the  right  edge  the  layout  the  default  value 
+margin bottom  specifies  the  number  pixels  vertical  margin  that  will  placed  along  the  bottom  edge  the  layout  the  default  value 
+constructs  new  instance  this  class
+constructs  new  instance  this  class  given  the  type  param  type  the  type  row  layout  since 
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
+</comments>
+</text>
+</DOC>

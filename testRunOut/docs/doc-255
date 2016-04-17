@@ -1,0 +1,42 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.win32.NMTOOLBAR.java </DOCNO>
+<text>
+<class>
+ nmtoolbar
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ win
+ nmtoolbar
+ nmhdr
+ item
+ bitmap
+ command
+ state
+ style
+ data
+ string
+cch text
+psz text
+ left
+ top
+ right
+ bottom
+ sizeof
+
+ win
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+tbbutton  button
+rect  button
+note  win  the  field  button  not  defined
+</comments>
+</text>
+</DOC>

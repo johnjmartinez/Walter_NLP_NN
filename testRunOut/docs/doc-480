@@ -1,0 +1,170 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Tray.java </DOCNO>
+<text>
+<class>
+ tray
+</class>
+<method>
+ tray
+create item
+destroy item
+get item
+get item count
+get items
+release child
+release widget
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ tray
+ widget
+item count
+tray item
+ items
+tray item
+ tray
+ display
+ display
+ style
+ display
+ display
+ display
+get current
+ display
+ display
+ display
+get default
+ display
+valid thread
+ error
+ swt
+error thread invalid access
+ display
+ display
+create item
+tray item
+ item
+ index
+ index
+ index
+item count
+ error
+ swt
+error invalid range
+item count
+ items
+ length
+tray item
+new items
+tray item
+ items
+ length
+ system
+ arraycopy
+ items
+new items
+ items
+ length
+ items
+new items
+ system
+ arraycopy
+ items
+ index
+ items
+ index
+item count
+ index
+ items
+ index
+ item
+destroy item
+tray item
+ item
+ index
+ index
+item count
+ items
+ index
+ item
+ index
+ index
+item count
+ system
+ arraycopy
+ items
+ index
+ items
+ index
+item count
+ index
+ items
+item count
+tray item
+get item
+ index
+check widget
+ index
+ index
+item count
+ error
+ swt
+error invalid range
+ items
+ index
+get item count
+check widget
+item count
+tray item
+get items
+check widget
+tray item
+ result
+tray item
+item count
+ system
+ arraycopy
+ items
+ result
+ result
+ length
+ result
+release child
+release child
+ display
+ tray
+ display
+ tray
+release widget
+
+
+ items
+ length
+
+tray item
+ item
+ items
+
+ item
+ item
+ disposed
+ item
+release resources
+ items
+release widget
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  represent  the  system  tray  that  part  the  task  bar  status  area  some  operating  systems  styles  none  events  none  important  this  class  not  intended  subclassed  see  display get system tray  since 
+returns  the  item  the  given  zero  relative  index  the  receiver  throws  exception  the  index  out  range  param  index  the  index  the  item  return  return  the  item  the  given  index  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  number  items  contained  the  receiver  return  the  number  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  array  code tray item  code  which  are  the  items  the  receiver  note  this  not  the  actual  structure  used  the  receiver  maintain  its  list  items  modifying  the  array  will  not  affect  the  receiver  return  the  items  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+</comments>
+</text>
+</DOC>

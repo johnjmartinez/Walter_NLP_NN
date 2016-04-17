@@ -1,0 +1,947 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.Device.java </DOCNO>
+<text>
+<class>
+ device
+</class>
+<method>
+get device
+ device
+ device
+check device
+check gdip
+ create
+compute pixels
+compute points
+ destroy
+ dispose
+dispose object
+enum font fam proc
+get bounds
+get device data
+get client area
+get depth
+get dpi
+get font list
+get last error
+get last error text
+get system color
+get system font
+get warnings
+ init
+internal _new
+internal _dispose
+ disposed
+new object
+ release
+set warnings
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+ org
+ eclipse
+ swt
+ internal
+ gdip
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ device
+ drawable
+ debug
+ debug
+ debug
+ tracking
+ debug
+ error
+ errors
+ object
+ objects
+ palette
+color ref count
+system font
+ fonts
+ logfont
+log fonts
+ textmetric
+ metrics
+ pixels
+ scripts
+gdip token
+ disposed
+ object
+create lock
+ object
+ device
+current device
+ runnable
+device finder
+ class
+for name
+ throwable
+
+ device
+get device
+device finder
+device finder
+ run
+ device
+ device
+current device
+current device
+ device
+ device
+ device
+device data
+ data
+create lock
+ data
+ debug
+ data
+ debug
+ tracking
+ data
+ tracking
+ create
+ data
+ init
+ tracking
+ errors
+ error
+ objects
+ object
+system font
+get system font
+ handle
+check device
+ disposed
+ swt
+ error
+ swt
+error device disposed
+check gdip
+gdip token
+old error mode
+
+set error mode
+
+sem failcriticalerrors
+ token
+gdiplus startup input
+ input
+gdiplus startup input
+ input
+gdiplus version
+ gdip
+gdiplus startup
+ token
+ input
+gdip token
+ token
+ throwable
+
+ swt
+ error
+ swt
+error graphics library
+
+
+set error mode
+old error mode
+ create
+device data
+ data
+compute pixels
+ height
+
+internal _new
+ pixels
+ compatibility
+ round
+ height
+
+get device caps
+
+
+ logpixelsy
+internal _dispose
+
+ pixels
+compute points
+ logfont
+log font
+ font
+
+internal _new
+log pixels
+
+get device caps
+
+
+ logpixelsy
+ pixels
+log font
+ height
+old font
+
+select object
+
+ font
+ textmetric
+ lptm
+
+ unicode
+ textmetric
+ textmetricw
+ textmetrica
+
+get text metrics
+
+ lptm
+
+select object
+
+old font
+ pixels
+log font
+ height
+ lptm
+internal leading
+ pixels
+log font
+ height
+internal _dispose
+
+ compatibility
+ round
+ pixels
+log pixels
+ destroy
+ dispose
+ disposed
+check device
+ release
+ destroy
+ disposed
+ tracking
+ objects
+ errors
+dispose object
+ object
+ object
+
+
+ objects
+ length
+
+ objects
+
+ object
+ objects
+
+ errors
+
+enum font fam proc
+ lpelfe
+ lpntme
+font type
+ param
+ scalable
+font type
+
+raster fonttype
+ scalable
+ param
+ scalable
+ scalable
+ fonts
+log fonts
+ length
+ logfont
+new log fonts
+ logfont
+log fonts
+ length
+ system
+ arraycopy
+log fonts
+new log fonts
+ fonts
+log fonts
+new log fonts
+new pixels
+new log fonts
+ length
+ system
+ arraycopy
+ pixels
+new pixels
+ fonts
+ pixels
+new pixels
+ logfont
+log font
+log fonts
+ fonts
+log font
+log font
+
+ unicode
+ logfont
+ logfontw
+ logfonta
+
+move memory
+log font
+ lpelfe
+ logfont
+ sizeof
+log fonts
+ fonts
+log font
+log font
+ height
+
+move memory
+ metrics
+ lpntme
+ textmetric
+ sizeof
+ pixels
+ fonts
+log font
+ height
+ metrics
+internal leading
+ pixels
+ fonts
+log font
+ height
+ fonts
+ rectangle
+get bounds
+check device
+
+internal _new
+ width
+
+get device caps
+
+
+ horzres
+ height
+
+get device caps
+
+
+ vertres
+internal _dispose
+
+ rectangle
+ width
+ height
+device data
+get device data
+check device
+device data
+ data
+device data
+ data
+ debug
+ debug
+ data
+ tracking
+ tracking
+ count
+ length
+ tracking
+ length
+ objects
+ length
+
+
+ length
+
+ objects
+
+ count
+ index
+ data
+ objects
+ object
+ count
+ data
+ errors
+ error
+ count
+
+
+ length
+
+ objects
+
+ data
+ objects
+ index
+ objects
+
+ data
+ errors
+ index
+ errors
+
+ index
+ data
+ rectangle
+get client area
+get bounds
+get depth
+check device
+
+internal _new
+ bits
+
+get device caps
+
+
+ bitspixel
+ planes
+
+get device caps
+
+
+ planes
+internal _dispose
+
+ bits
+ planes
+ point
+get dpi
+check device
+
+internal _new
+ dpi
+
+get device caps
+
+
+ logpixelsx
+ dpi
+
+get device caps
+
+
+ logpixelsy
+internal _dispose
+
+ point
+ dpi
+ dpi
+font data
+get font list
+ string
+face name
+ scalable
+check device
+ callback
+ callback
+ callback
+enum font fam proc
+ callback
+get address
+enum font fam proc
+ swt
+ error
+ swt
+error more callbacks
+ metrics
+
+ unicode
+ textmetric
+ textmetricw
+ textmetrica
+ pixels
+ fonts
+log fonts
+ logfont
+ fonts
+
+
+log fonts
+ length
+
+log fonts
+
+
+ unicode
+ logfont
+ logfontw
+ logfonta
+ fonts
+ offset
+
+internal _new
+face name
+
+enum font families
+
+enum font fam proc
+ scalable
+ offset
+ fonts
+
+
+ offset
+
+ logfont
+
+log fonts
+
+
+ unicode
+
+enum font families
+
+ logfontw
+
+face name
+enum font fam proc
+ scalable
+
+enum font families
+
+ logfonta
+
+face name
+enum font fam proc
+ scalable
+ tchar
+face name
+ tchar
+face name
+
+enum font families
+
+face name
+enum font fam proc
+ scalable
+log pixels
+
+get device caps
+
+
+ logpixelsy
+internal _dispose
+
+ count
+ fonts
+ offset
+font data
+ result
+font data
+ count
+
+
+ count
+
+ index
+
+ offset
+ result
+
+font data
+win 32_new
+log fonts
+ index
+ compatibility
+ round
+ pixels
+ index
+log pixels
+ callback
+ dispose
+log fonts
+ pixels
+ metrics
+ result
+ string
+get last error
+ error
+
+get last error
+ error
+ integer
+hex string
+ error
+ string
+get last error text
+ error
+
+get last error
+ error
+ buffer
+ flags
+
+format message allocate buffer
+
+format message from system
+
+format message ignore inserts
+ length
+
+format message
+ flags
+ error
+
+lang user default
+ buffer
+ length
+ integer
+hex string
+ error
+ tchar
+ buffer
+ tchar
+ length
+
+move memory
+ buffer
+ buffer
+ length
+ tchar
+ sizeof
+ buffer
+
+local free
+ buffer
+ buffer
+ string
+ length
+ color
+get system color
+
+check device
+ pixel
+
+ swt
+color white
+ pixel
+ swt
+color black
+ pixel
+ swt
+color red
+ pixel
+ swt
+color dark red
+ pixel
+ swt
+color green
+ pixel
+ swt
+color dark green
+ pixel
+ swt
+color yellow
+ pixel
+ swt
+color dark yellow
+ pixel
+ swt
+color blue
+ pixel
+ swt
+color dark blue
+ pixel
+ swt
+color magenta
+ pixel
+ swt
+color dark magenta
+ pixel
+ swt
+color cyan
+ pixel
+ swt
+color dark cyan
+ pixel
+ swt
+color gray
+ pixel
+ swt
+color dark gray
+ pixel
+ color
+win 32_new
+ pixel
+ font
+get system font
+check device
+ font
+
+get stock object
+
+system font
+ font
+win 32_new
+ font
+get warnings
+check device
+ init
+ debug
+
+ win
+
+gdi set batch limit
+
+ win
+
+num scripts
+
+script get properties
+
+num scripts
+ scripts
+num scripts
+
+move memory
+ scripts
+
+ scripts
+ length
+
+internal _new
+
+
+get device caps
+
+
+ rastercaps
+ bits
+
+get device caps
+
+
+ bitspixel
+ planes
+
+get device caps
+
+
+ planes
+ bits
+ planes
+
+
+ palette
+ bits
+internal _dispose
+
+num reserved
+
+get device caps
+
+
+ numreserved
+num entries
+
+get device caps
+
+
+ sizepalette
+
+ win
+num reserved
+num entries
+num reserved
+color ref count
+num entries
+log palette
+num entries
+log palette
+log palette
+log palette
+log palette
+ lppe
+num entries
+
+get system palette entries
+
+num entries
+ lppe
+ system
+ arraycopy
+ lppe
+log palette
+num entries
+
+
+num reserved
+
+color ref count
+
+color ref count
+num entries
+
+internal _dispose
+
+ palette
+
+create palette
+log palette
+internal _new
+ data
+ data
+internal _dispose
+
+ data
+ data
+ disposed
+ disposed
+new object
+ object
+ object
+
+
+ objects
+ length
+
+ objects
+
+ objects
+
+ object
+ errors
+
+ error
+ object
+new objects
+ object
+ objects
+ length
+ system
+ arraycopy
+ objects
+new objects
+ objects
+ length
+new objects
+ objects
+ length
+ object
+ objects
+new objects
+ error
+new errors
+ error
+ errors
+ length
+ system
+ arraycopy
+ errors
+new errors
+ errors
+ length
+new errors
+ errors
+ length
+ error
+ errors
+new errors
+ release
+gdip token
+ gdip
+gdiplus shutdown
+gdip token
+gdip token
+ scripts
+ palette
+
+delete object
+ palette
+ palette
+color ref count
+log fonts
+ fonts
+set warnings
+ warnings
+check device
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  class  the  abstract  superclass  all  device  objects  such  the  display  device  and  the  printer  device  devices  can  have  graphics  context  created  for  them  and  they  can  drawn  sending  messages  the  associated 
+  debugging
+palette  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code 
+system  font
+font  enumeration
+  scripts
+advanced  graphics
+temporary  code  when  graphics  object  created  and  the  device  parameter  null  the  current  display  used  this  presents  problem  because  swt  graphics  does  not  reference  classes  swt  widgets  the  correct  fix  remove  this  feature  unfortunately  too  many  application  programs  rely  this  feature  this  code  will  removed  the  future
+non  nls 
+temporary  code
+constructs  new  instance  this  class  you  must  dispose  the  device  when  longer  required  see  create  see  init  since 
+constructs  new  instance  this  class  you  must  dispose  the  device  when  longer  required  param  data  the device data  which  describes  the  receiver  see  create  see  init  see device data
+initialize  the  system  font  slot
+throws  code swt exception  code  the  receiver  can  not  accessed  the  caller  this  may  include  both  checks  the  state  the  receiver  and  more  generally  the  entire  execution  context  this  method  should  called  device  implementors  enforce  the  standard  swt  invariants  currently  error  invoke  any  method  other  than  code  disposed  code  and  code  dispose  code  device  that  has  had  its  code  dispose  code  method  called  future  releases  swt  there  may  more  fewer  error  checks  and  exceptions  may  thrown  for  different  reasons  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed 
+non  nls 
+creates  the  device  the  operating  system  the  device  does  not  have  handle  this  method  may  nothing  depending  the  device  this  method  called  before  code  init  code  subclasses  are  supposed  reimplement  this  method  and  not  call  the  code  super  code  implementation  param  data  the device data  which  describes  the  receiver  see  init
+feature  windows  the  height  the  logfont  structure  positive  the  height  measures  the  height  the  entire  cell  including  internal  leading  logical  units  since  the  height  font  points  does  not  include  the  internal  leading  must  subtract  the  internal  leading  which  requires  textmetric
+destroys  the  device  the  operating  system  and  releases  the  device  handle  the  device  does  not  have  handle  this  method  may  nothing  depending  the  device  this  method  called  after  code  release  code  subclasses  are  supposed  reimplement  this  method  and  not  call  the  code  super  code  implementation  see  dispose  see  release
+disposes  the  operating  system  resources  associated  with  the  receiver  after  this  method  has  been  invoked  the  receiver  will  answer  code  true  code  when  sent  the  message  code  disposed  code  see  release  see  destroy  see check device
+add  the  log  font  the  list  log  fonts
+feature  windows  the  height  the  logfont  structure  positive  the  height  measures  the  height  the  entire  cell  including  internal  leading  logical  units  since  the  height  font  points  does  not  include  the  internal  leading  must  subtract  the  internal  leading  which  requires  textmetric  which  turn  requires  font  creation
+returns  rectangle  describing  the  receiver  size  and  location  return  the  bounding  rectangle  exception swt exception  error  device  disposed  the  receiver  has  been  disposed 
+returns  code device data  code  based  the  receiver  modifications  made  this  code device data  code  will  not  affect  the  receiver  return  code device data  code  containing  the  device  data  and  attributes  exception swt exception  error  device  disposed  the  receiver  has  been  disposed  see device data
+returns  rectangle  which  describes  the  area  the  receiver  which  capable  displaying  data  return  the  client  area  exception swt exception  error  device  disposed  the  receiver  has  been  disposed  see get bounds
+returns  the  bit  depth  the  screen  which  the  number  bits  takes  represent  the  number  unique  colors  that  the  screen  currently  capable  displaying  this  number  will  typically  one  return  the  depth  the  screen  exception swt exception  error  device  disposed  the  receiver  has  been  disposed 
+returns  point  whose  coordinate  the  horizontal  dots  per  inch  the  display  and  whose  coordinate  the  vertical  dots  per  inch  the  display  return  the  horizontal  and  vertical  dpi  exception swt exception  error  device  disposed  the  receiver  has  been  disposed 
+returns  code font data  code  objects  which  describe  the  fonts  that  match  the  given  arguments  the  code face name  code  null  all  fonts  will  returned  param face name  the  name  the  font  look  for  null  param  scalable  true  only  scalable  fonts  are  returned  otherwise  only  non  scalable  fonts  are  returned  return  the  matching  font  data  exception swt exception  error  device  disposed  the  receiver  has  been  disposed 
+create  the  callback
+non  nls 
+initialize  the  instance  variables
+  enumerate
+the  user  did  not  specify  face  name  they  want  all  versions  all  available  face  names
+for  bitmapped  fonts enum font families  only  enumerates  once  for  each  font  regardless  how  many  styles  are  available  the  user  wants  bitmapped  fonts  enumerate  each  face  name  now
+bug  windows  when enum font families  called  with  specified  face  name  should  enumerate  for  each  available  style  that  font  instead  only  enumerates  once  the  fix  call enum font families  which  works  expected
+use  the  character  encoding  for  the  default  locale
+bug  windows  when enum font families  called  with  specified  face  name  should  enumerate  for  each  available  style  that  font  instead  only  enumerates  once  the  fix  call enum font families  which  works  expected
+create  the font data  from  the  logfonts
+clean 
+non  nls 
+non  nls  non  nls 
+non  nls 
+non  nls  non  nls 
+returns  the  matching  standard  color  for  the  given  constant  which  should  one  the  color  constants  specified  class  code  swt  code  any  value  other  than  one  the  swt  color  constants  which  passed  will  result  the  color  black  this  color  should  not  freed  because  was  allocated  the  system  not  the  application  param  the  color  constant  return  the  matching  color  exception swt exception  error  device  disposed  the  receiver  has  been  disposed  see  swt
+returns  reasonable  font  for  applications  use  some  platforms  this  will  match  the  default  font  system  font  such  can  found  this  font  should  not  freed  because  was  allocated  the  system  not  the  application  typically  applications  which  want  the  default  look  should  simply  not  set  the  font  the  widgets  they  create  widgets  are  always  created  with  the  correct  default  font  for  the  class  user  interface  component  they  represent  return  font  exception swt exception  error  device  disposed  the  receiver  has  been  disposed 
+returns  code  true  code  the  underlying  window  system  prints  out  warning  messages  the  console  and  code set warnings  code  had  previously  been  called  with  code  true  code  return  code  true  code  warnings  are  being  handled  and  code  false  code  otherwise  exception swt exception  error  device  disposed  the  receiver  has  been  disposed 
+initializes  any  internal  resources  needed  the  device  this  method  called  after  code  create  code  subclasses  reimplement  this  method  they  must  call  the  code  super  code  implementation  see  create
+initialize  scripts  list
+not  device  which  supports  palettes  don  create  one
+feature  win  for  some  reason  certain  bit  win  devices  return  for  the  number  reserved  entries  the  system  palette  their  system  palette  correctly  contains  the  usual  system  colors  the  workaround  assume  there  are  reserved  system  colors  instead 
+create  the  palette  and  reference  counter
+bytes  header  bytes  per  entry num entries  entries
+bytes  special  header
+bytes  number  colors  lsb  first
+create  palette  which  contains  the  system  entries  they  are  located  the  system  palette  the  msdn  article  memory  device  contexts  describes  where  system  entries  are  located  bit  display  with  reserved  colors  the  system  colors  will  the  first  entries  and  the  last  ones
+copy  all  entries  from  the  system  palette
+lock  the  indices  corresponding  the  system  entries
+invokes  platform  specific  functionality  allocate  new  handle  important  this  method  not  part  the  public  api  for  code  device  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  data  the  platform  specific  data  return  the  platform  specific  handle
+invokes  platform  specific  functionality  dispose  handle  important  this  method  not  part  the  public  api  for  code  device  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  the  platform  specific  handle  param  data  the  platform  specific  data
+returns  code  true  code  the  device  has  been  disposed  and  code  false  code  otherwise  this  method  gets  the  dispose  state  for  the  device  when  device  has  been  disposed  error  invoke  any  other  method  using  the  device  return  code  true  code  when  the  device  disposed  and  code  false  code  otherwise
+releases  any  internal  resources  back  the  operating  system  and  clears  all  fields  except  the  device  handle  when  device  destroyed  resources  that  were  acquired  behalf  the  programmer  need  returned  the  operating  system  for  example  the  device  allocated  font  used  the  system  font  this  font  would  freed  code  release  code  also  assist  the  garbage  collector  and  minimize  the  amount  memory  that  not  reclaimed  when  the  programmer  keeps  reference  disposed  device  all  fields  except  the  handle  are  zero  the  handle  needed  code  destroy  code  this  method  called  before  code  destroy  code  subclasses  reimplement  this  method  they  must  call  the  code  super  code  implementation  see  dispose  see  destroy
+the  underlying  window  system  supports  printing  warning  messages  the  console  setting  warnings  code  false  code  prevents  these  messages  from  being  printed  the  argument  code  true  code  then  message  printing  not  blocked  param  warnings  code  true  code  warnings  should  printed  and  code  false  code  otherwise  exception swt exception  error  device  disposed  the  receiver  has  been  disposed 
+</comments>
+</text>
+</DOC>

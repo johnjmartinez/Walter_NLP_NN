@@ -1,0 +1,181 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.JPEGScanHeader.java </DOCNO>
+<text>
+<class>
+jpeg scan header
+</class>
+<method>
+jpeg scan header
+jpeg scan header
+get approx bit position high
+get approx bit position low
+get end spectral selection
+get number image components
+get start spectral selection
+initialize component parameters
+initialize contents
+set end spectral selection
+set number image components
+set start spectral selection
+ signature
+verify progressive scan
+progressive scan
+progressive scan
+first scan
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+ org
+ eclipse
+ swt
+jpeg scan header
+jpeg variable size segment
+component parameters
+jpeg scan header
+ reference
+ reference
+jpeg scan header
+data input stream
+byte stream
+byte stream
+initialize component parameters
+get approx bit position high
+ reference
+get number image components
+get approx bit position low
+ reference
+get number image components
+get end spectral selection
+ reference
+get number image components
+get number image components
+ reference
+get start spectral selection
+ reference
+get number image components
+initialize component parameters
+comp count
+get number image components
+component parameters
+
+
+comp count
+
+ ofs
+
+ cid
+ reference
+ ofs
+
+ reference
+ ofs
+
+ reference
+ ofs
+component parameters
+ length
+ cid
+new params
+ cid
+ system
+ arraycopy
+component parameters
+new params
+component parameters
+ length
+component parameters
+new params
+component parameters
+ cid
+
+
+initialize contents
+comp count
+get number image components
+comp spec params
+component parameters
+comp count
+comp count
+comp spec params
+ length
+ swt
+ error
+ swt
+error invalid image
+
+
+comp count
+
+ ofs
+
+comp params
+comp spec params
+
+ reference
+ ofs
+
+ reference
+ ofs
+comp params
+comp params
+set end spectral selection
+ integer
+ reference
+get number image components
+ integer
+set number image components
+ integer
+ reference
+ integer
+set start spectral selection
+ integer
+ reference
+get number image components
+ integer
+ signature
+jpeg file format
+ sos
+verify progressive scan
+ start
+get start spectral selection
+ end
+get end spectral selection
+ low
+get approx bit position low
+ high
+get approx bit position high
+ count
+get number image components
+ start
+ end
+ start
+ end
+ end
+ low
+ high
+ high
+ high
+ low
+ start
+ start
+ count
+progressive scan
+get start spectral selection
+get end spectral selection
+progressive scan
+get start spectral selection
+get end spectral selection
+first scan
+get approx bit position high
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+used  when  decoding
+used  when  encoding
+</comments>
+</text>
+</DOC>

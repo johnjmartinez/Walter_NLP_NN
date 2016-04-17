@@ -1,0 +1,59 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.PngIdatChunk.java </DOCNO>
+<text>
+<class>
+png idat chunk
+</class>
+<method>
+png idat chunk
+ validate
+get data byte offset
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+ org
+ eclipse
+ swt
+png idat chunk
+png chunk
+png idat chunk
+ reference
+ reference
+ validate
+png file read state
+read state
+png ihdr chunk
+header chunk
+read state
+read ihdr
+header chunk
+get must have palette
+read state
+read plte
+read state
+read iend
+ swt
+ error
+ swt
+error invalid image
+read state
+read idat
+ validate
+read state
+header chunk
+get data byte offset
+ offset
+ reference
+data offset
+ offset
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+answer  whether  the  chunk  valid  idat  chunk
+</comments>
+</text>
+</DOC>

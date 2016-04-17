@@ -1,0 +1,3215 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Combo.java </DOCNO>
+<text>
+<class>
+ combo
+</class>
+<method>
+ combo
+ add
+ add
+add modify listener
+add selection listener
+add verify listener
+call window proc
+check handle
+check subclass
+check style
+clear selection
+compute size
+ copy
+create handle
+ cut
+default background
+ deregister
+ deselect
+deselect all
+get item
+get item count
+get item height
+get items
+get name text
+get orientation
+get selection
+get selection index
+get text
+get text height
+get text limit
+get visible item count
+has focus
+ index
+ index
+mbcs wcs pos
+ paste
+ register
+ remove
+ remove
+ remove
+remove all
+remove modify listener
+remove selection listener
+remove verify listener
+send key event
+ select
+set background pixel
+set bounds
+set foreground pixel
+set item
+set items
+set orientation
+set selection
+set text
+set text limit
+set visible item count
+ subclass
+translate traversal
+traverse escape
+ unsubclass
+verify text
+wcs mbcs pos
+widget ext style
+widget style
+window class
+window proc
+window proc
+ ctlcolor
+ getdlgcode
+ killfocus
+ lbuttondown
+ setfocus
+ size
+ char
+ clipboard
+command child
+ime char
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ events
+ combo
+ composite
+ selection
+ignore modify
+ignore character
+visible count
+ limit
+ limit
+
+ win
+cbid list
+cbid edit
+edit proc
+list proc
+combo proc
+ tchar
+combo class
+ tchar
+ wndclass
+wnd class
+ wndclass
+
+get class info
+combo class
+wnd class
+combo proc
+wnd class
+lpfn wnd proc
+ combo
+ composite
+ parent
+ style
+ parent
+check style
+ style
+ add
+ string
+ string
+check widget
+ string
+ error
+ swt
+error null argument
+ tchar
+ buffer
+ tchar
+get code page
+ string
+ result
+
+send message
+ handle
+
+ addstring
+ buffer
+ result
+
+ err
+ error
+ swt
+error item not added
+ result
+
+ errspace
+ error
+ swt
+error item not added
+ add
+ string
+ string
+ index
+check widget
+ string
+ error
+ swt
+error null argument
+ count
+
+send message
+ handle
+
+ getcount
+ index
+ index
+ count
+ error
+ swt
+error invalid range
+ tchar
+ buffer
+ tchar
+get code page
+ string
+ result
+
+send message
+ handle
+
+ insertstring
+ index
+ buffer
+ result
+
+ errspace
+ result
+
+ err
+ error
+ swt
+error item not added
+add modify listener
+modify listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ modify
+typed listener
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+add verify listener
+verify listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ verify
+typed listener
+call window proc
+ hwnd
+ msg
+ param
+ param
+ handle
+ hwnd
+ handle
+
+call window proc
+combo proc
+ hwnd
+ msg
+ param
+ param
+hwnd text
+
+get dlg item
+ handle
+cbid edit
+ hwnd
+hwnd text
+
+call window proc
+edit proc
+ hwnd
+ msg
+ param
+ param
+hwnd list
+
+get dlg item
+ handle
+cbid list
+ hwnd
+hwnd list
+
+call window proc
+list proc
+ hwnd
+ msg
+ param
+ param
+
+def window proc
+ hwnd
+ msg
+ param
+ param
+check handle
+ hwnd
+ hwnd
+ handle
+ hwnd
+
+get dlg item
+ handle
+cbid edit
+ hwnd
+
+get dlg item
+ handle
+cbid list
+check subclass
+valid subclass
+ error
+ swt
+error invalid subclass
+check style
+ style
+ style
+ swt
+ border
+ style
+ swt
+ scroll
+ swt
+ scroll
+ style
+check bits
+ style
+ swt
+drop down
+ swt
+ simple
+ style
+ swt
+ simple
+ style
+ swt
+read only
+ style
+clear selection
+check widget
+
+send message
+ handle
+
+ seteditsel
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+ width
+ height
+ hint
+ swt
+ default
+new font
+old font
+
+
+ get
+ handle
+new font
+
+send message
+ handle
+
+ getfont
+new font
+old font
+
+select object
+
+new font
+ count
+
+send message
+ handle
+
+ getcount
+ rect
+ rect
+ rect
+ flags
+
+ calcrect
+
+ noprefix
+ style
+ swt
+read only
+ flags
+
+ editcontrol
+ length
+
+get window text length
+ handle
+
+get code page
+ tchar
+ buffer
+ tchar
+
+ length
+
+get window text
+ handle
+ buffer
+ length
+
+draw text
+
+ buffer
+ length
+ rect
+ flags
+ width
+ math
+ max
+ width
+ rect
+ right
+ rect
+ left
+
+
+ count
+
+ length
+
+send message
+ handle
+
+ getlbtextlen
+
+ length
+
+ err
+ length
+ buffer
+ length
+ buffer
+ tchar
+
+ length
+ result
+
+send message
+ handle
+
+ getlbtext
+
+ buffer
+ result
+
+ err
+
+draw text
+
+ buffer
+ length
+ rect
+ flags
+ width
+ math
+ max
+ width
+ rect
+ right
+ rect
+ left
+new font
+
+select object
+
+old font
+
+ release
+ handle
+
+ hint
+ swt
+ default
+ style
+ swt
+ simple
+ count
+
+send message
+ handle
+
+ getcount
+item height
+
+send message
+ handle
+
+ getitemheight
+ height
+ count
+item height
+ width
+ width
+default width
+ height
+ height
+default height
+ hint
+ swt
+ default
+ width
+ hint
+ hint
+ swt
+ default
+ height
+ hint
+ style
+ swt
+read only
+ width
+hwnd text
+
+get dlg item
+ handle
+cbid edit
+hwnd text
+ margins
+
+send message
+hwnd text
+
+ getmargins
+margin width
+ margins
+ margins
+ width
+margin width
+ comboboxinfo
+ pcbi
+ comboboxinfo
+ pcbi
+ size
+ comboboxinfo
+ sizeof
+ style
+ swt
+ simple
+
+ win
+
+get combo box info
+ handle
+ pcbi
+ width
+ pcbi
+item left
+ pcbi
+button right
+ pcbi
+button left
+ height
+ pcbi
+button bottom
+ pcbi
+button top
+ pcbi
+button top
+ border
+
+get system metrics
+
+ cxedge
+ width
+
+get system metrics
+
+ cxvscroll
+ border
+text height
+
+send message
+ handle
+
+ getitemheight
+ style
+ swt
+drop down
+ height
+text height
+ height
+text height
+ point
+ width
+ height
+ copy
+check widget
+
+send message
+ handle
+
+ copy
+create handle
+create handle
+ state
+ canvas
+hwnd text
+
+get dlg item
+ handle
+cbid edit
+hwnd text
+edit proc
+edit proc
+
+get window long
+hwnd text
+
+gwl wndproc
+hwnd list
+
+get dlg item
+ handle
+cbid list
+hwnd list
+list proc
+list proc
+
+get window long
+hwnd list
+
+gwl wndproc
+ style
+ swt
+ simple
+ flags
+
+swp nozorder
+
+swp drawframe
+
+swp noactivate
+set window pos
+ handle
+ flags
+set window pos
+ handle
+ flags
+ cut
+check widget
+ style
+ swt
+read only
+
+send message
+ handle
+
+ cut
+default background
+
+get sys color
+
+color window
+ deregister
+ deregister
+hwnd text
+
+get dlg item
+ handle
+cbid edit
+hwnd text
+ display
+remove control
+hwnd text
+hwnd list
+
+get dlg item
+ handle
+cbid list
+hwnd list
+ display
+remove control
+hwnd list
+ deselect
+ index
+check widget
+ selection
+
+send message
+ handle
+
+ getcursel
+ index
+ selection
+
+send message
+ handle
+
+ setcursel
+send event
+ swt
+ modify
+deselect all
+check widget
+
+send message
+ handle
+
+ setcursel
+send event
+ swt
+ modify
+ string
+get item
+ index
+check widget
+ length
+
+send message
+ handle
+
+ getlbtextlen
+ index
+ length
+
+ err
+ tchar
+ buffer
+ tchar
+get code page
+ length
+ result
+
+send message
+ handle
+
+ getlbtext
+ index
+ buffer
+ result
+
+ err
+ buffer
+ string
+ length
+ count
+
+send message
+ handle
+
+ getcount
+ index
+ index
+ count
+ error
+ swt
+error cannot get item
+ error
+ swt
+error invalid range
+get item count
+check widget
+ count
+
+send message
+ handle
+
+ getcount
+ count
+
+ err
+ error
+ swt
+error cannot get count
+ count
+get item height
+check widget
+ result
+
+send message
+ handle
+
+ getitemheight
+ result
+
+ err
+ error
+ swt
+error cannot get item height
+ result
+ string
+get items
+check widget
+ count
+get item count
+ string
+ result
+ string
+ count
+
+
+ count
+
+ result
+
+get item
+
+ result
+ string
+get name text
+get text
+get orientation
+check widget
+ style
+ swt
+left right
+ swt
+right left
+ point
+get selection
+check widget
+ style
+ swt
+drop down
+ style
+ swt
+read only
+ point
+
+get window text length
+ handle
+ start
+ end
+
+send message
+ handle
+
+ geteditsel
+ start
+ end
+
+ unicode
+
+ locale
+ start
+mbcs wcs pos
+ start
+ end
+mbcs wcs pos
+ end
+ point
+ start
+ end
+get selection index
+check widget
+ selection
+
+send message
+ handle
+
+ getcursel
+ string
+get text
+check widget
+ length
+
+get window text length
+ handle
+ length
+ tchar
+ buffer
+ tchar
+get code page
+ length
+
+get window text
+ handle
+ buffer
+ length
+ buffer
+ string
+ length
+get text height
+check widget
+ comboboxinfo
+ pcbi
+ comboboxinfo
+ pcbi
+ size
+ comboboxinfo
+ sizeof
+ style
+ swt
+ simple
+
+ win
+
+get combo box info
+ handle
+ pcbi
+ pcbi
+button bottom
+ pcbi
+button top
+ pcbi
+button top
+ result
+
+send message
+ handle
+
+ getitemheight
+ result
+
+ err
+ error
+ swt
+error cannot get item height
+ style
+ swt
+drop down
+ result
+ result
+get text limit
+check widget
+hwnd text
+
+get dlg item
+ handle
+cbid edit
+hwnd text
+ limit
+
+send message
+hwnd text
+
+ getlimittext
+get visible item count
+check widget
+visible count
+has focus
+hwnd focus
+
+get focus
+hwnd focus
+ handle
+hwnd focus
+hwnd text
+
+get dlg item
+ handle
+cbid edit
+hwnd focus
+hwnd text
+hwnd list
+
+get dlg item
+ handle
+cbid list
+hwnd focus
+hwnd list
+ index
+ string
+ string
+ index
+ string
+ index
+ string
+ string
+ start
+check widget
+ string
+ error
+ swt
+error null argument
+ string
+ length
+ count
+get item count
+
+ start
+
+ count
+
+ string
+ equals
+get item
+
+
+ count
+
+send message
+ handle
+
+ getcount
+ start
+ start
+ count
+ index
+ start
+ last
+ tchar
+ buffer
+ tchar
+get code page
+ string
+ index
+
+send message
+ handle
+
+ findstringexact
+ last
+ index
+ buffer
+ index
+
+ err
+ index
+ last
+ string
+ equals
+get item
+ index
+ index
+mbcs wcs pos
+mbcs pos
+mbcs pos
+
+ unicode
+mbcs pos
+hwnd text
+
+get dlg item
+ handle
+cbid edit
+hwnd text
+mbcs pos
+mbcs size
+
+get window text length
+hwnd text
+mbcs size
+mbcs pos
+mbcs size
+mbcs size
+ buffer
+mbcs size
+
+get window text
+hwnd text
+ buffer
+mbcs size
+
+multi byte wide char
+get code page
+
+ precomposed
+ buffer
+mbcs pos
+ paste
+check widget
+ style
+ swt
+read only
+
+send message
+ handle
+
+ paste
+ register
+ register
+hwnd text
+
+get dlg item
+ handle
+cbid edit
+hwnd text
+ display
+add control
+hwnd text
+hwnd list
+
+get dlg item
+ handle
+cbid list
+hwnd list
+ display
+add control
+hwnd list
+ remove
+ index
+check widget
+ length
+
+get window text length
+ handle
+ code
+
+send message
+ handle
+
+ deletestring
+ index
+ code
+
+ err
+ count
+
+send message
+ handle
+
+ getcount
+ index
+ index
+ count
+ error
+ swt
+error item not removed
+ error
+ swt
+error invalid range
+ length
+
+get window text length
+ handle
+send event
+ swt
+ modify
+ disposed
+ style
+ swt
+read only
+ count
+
+send message
+ handle
+
+ getcount
+ count
+
+invalidate rect
+ handle
+ remove
+ start
+ end
+check widget
+ start
+ end
+ count
+
+send message
+ handle
+
+ getcount
+ start
+ start
+ end
+ end
+ count
+ error
+ swt
+error invalid range
+ length
+
+get window text length
+ handle
+
+ start
+
+ end
+
+ result
+
+send message
+ handle
+
+ deletestring
+ start
+ result
+
+ err
+ error
+ swt
+error item not removed
+ length
+
+get window text length
+ handle
+send event
+ swt
+ modify
+ disposed
+ style
+ swt
+read only
+ count
+
+send message
+ handle
+
+ getcount
+ count
+
+invalidate rect
+ handle
+ remove
+ string
+ string
+check widget
+ string
+ error
+ swt
+error null argument
+ index
+ index
+ string
+ index
+ error
+ swt
+error invalid argument
+ remove
+ index
+remove all
+check widget
+
+send message
+ handle
+
+ resetcontent
+send event
+ swt
+ modify
+remove modify listener
+modify listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ modify
+ listener
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ selection
+ listener
+event table
+ unhook
+ swt
+default selection
+ listener
+remove verify listener
+verify listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ verify
+ listener
+send key event
+ type
+ msg
+ param
+ param
+ event
+ event
+send key event
+ type
+ msg
+ param
+ param
+ event
+ style
+ swt
+read only
+ type
+ swt
+key down
+ msg
+
+ char
+ msg
+
+ keydown
+ msg
+
+ime char
+ event
+ character
+ hooks
+ swt
+ verify
+ filters
+ swt
+ verify
+ key
+ event
+ character
+state mask
+ event
+state mask
+ msg
+
+ char
+ key
+ key
+ key
+ key
+ key
+
+ keydown
+state mask
+ swt
+ alt
+ swt
+ shift
+ swt
+ control
+
+get key state
+
+ lbutton
+ string
+old text
+ start
+ end
+hwnd text
+
+get dlg item
+ handle
+cbid edit
+hwnd text
+
+send message
+hwnd text
+
+ getsel
+ start
+ end
+ key
+ start
+ end
+ start
+ start
+ start
+
+ unicode
+
+ locale
+new start
+new end
+
+send message
+hwnd text
+
+ setsel
+ start
+ end
+
+send message
+hwnd text
+
+ getsel
+new start
+new end
+ start
+new start
+ start
+ start
+ start
+ math
+ max
+ start
+ start
+ end
+ length
+
+get window text length
+hwnd text
+ start
+ length
+ end
+ end
+
+ unicode
+
+ locale
+new start
+new end
+
+send message
+hwnd text
+
+ setsel
+ start
+ end
+
+send message
+hwnd text
+
+ getsel
+new start
+new end
+ end
+new end
+ end
+ end
+ end
+ math
+ min
+ end
+ length
+ key
+ key
+old text
+ string
+ key
+ string
+new text
+verify text
+old text
+ start
+ end
+ event
+new text
+new text
+old text
+ tchar
+ buffer
+ tchar
+get code page
+new text
+
+send message
+hwnd text
+
+ setsel
+ start
+ end
+
+send message
+hwnd text
+
+ replacesel
+ buffer
+ select
+ index
+check widget
+ count
+
+send message
+ handle
+
+ getcount
+ index
+ index
+ count
+ selection
+
+send message
+ handle
+
+ getcursel
+ code
+
+send message
+ handle
+
+ setcursel
+ index
+ code
+
+ err
+ code
+ selection
+send event
+ swt
+ modify
+set background pixel
+ pixel
+ background
+ pixel
+set background pixel
+ pixel
+hwnd text
+
+get dlg item
+ handle
+cbid edit
+hwnd text
+
+invalidate rect
+hwnd text
+hwnd list
+
+get dlg item
+ handle
+cbid list
+hwnd list
+
+invalidate rect
+hwnd list
+set bounds
+
+
+ width
+ height
+ flags
+ style
+ swt
+drop down
+ height
+get text height
+get item height
+visible count
+ rect
+ rect
+ rect
+
+get window rect
+ handle
+ rect
+ rect
+ right
+ rect
+ left
+
+send message
+ handle
+
+ getdroppedcontrolrect
+ rect
+old width
+ rect
+ right
+ rect
+ left
+old height
+ rect
+ bottom
+ rect
+ top
+old width
+ width
+old height
+ height
+ flags
+
+swp nosize
+set window pos
+ handle
+
+
+ width
+ height
+ flags
+set bounds
+
+
+ width
+ height
+ flags
+set foreground pixel
+ pixel
+ foreground
+ pixel
+set foreground pixel
+ pixel
+hwnd text
+
+get dlg item
+ handle
+cbid edit
+hwnd text
+
+invalidate rect
+hwnd text
+hwnd list
+
+get dlg item
+ handle
+cbid list
+hwnd list
+
+invalidate rect
+hwnd list
+set item
+ index
+ string
+ string
+check widget
+ string
+ error
+ swt
+error null argument
+ remove
+ index
+ disposed
+ add
+ string
+ index
+set items
+ string
+ items
+check widget
+ items
+ error
+ swt
+error null argument
+
+
+ items
+ length
+
+ items
+
+ error
+ swt
+error invalid argument
+
+send message
+ handle
+
+ resetcontent
+code page
+get code page
+
+
+ items
+ length
+
+ string
+ string
+ items
+
+ tchar
+ buffer
+ tchar
+code page
+ string
+ code
+
+send message
+ handle
+
+ addstring
+ buffer
+ code
+
+ err
+ error
+ swt
+error item not added
+ code
+
+ errspace
+ error
+ swt
+error item not added
+send event
+ swt
+ modify
+set orientation
+ orientation
+check widget
+
+ win
+
+win 32_ version
+
+ version
+ flags
+ swt
+right left
+ swt
+left right
+ orientation
+ flags
+ orientation
+ flags
+ flags
+ style
+ flags
+ style
+ orientation
+ flags
+ bits
+
+get window long
+ handle
+
+gwl exstyle
+ style
+ swt
+right left
+ style
+ swt
+ mirrored
+ bits
+
+ layoutrtl
+ style
+ swt
+ mirrored
+ bits
+
+ layoutrtl
+
+set window long
+ handle
+
+gwl exstyle
+ bits
+hwnd text
+hwnd list
+ comboboxinfo
+ pcbi
+ comboboxinfo
+ pcbi
+ size
+ comboboxinfo
+ sizeof
+
+get combo box info
+ handle
+ pcbi
+hwnd text
+ pcbi
+hwnd item
+hwnd list
+ pcbi
+hwnd list
+hwnd text
+ bits
+
+get window long
+hwnd text
+
+gwl exstyle
+ bits
+
+get window long
+hwnd text
+
+gwl style
+ style
+ swt
+right left
+ bits
+
+ right
+
+ rtlreading
+ bits
+
+ right
+ bits
+
+ right
+
+ rtlreading
+ bits
+
+ right
+
+set window long
+hwnd text
+
+gwl exstyle
+ bits
+
+set window long
+hwnd text
+
+gwl style
+ bits
+ rect
+ rect
+ rect
+
+get window rect
+hwnd text
+ rect
+ width
+ rect
+ right
+ rect
+ left
+ height
+ rect
+ bottom
+ rect
+ top
+
+get window rect
+ handle
+ rect
+width combo
+ rect
+ right
+ rect
+ left
+height combo
+ rect
+ bottom
+ rect
+ top
+ flags
+
+swp nomove
+
+swp nozorder
+
+swp noactivate
+set window pos
+hwnd text
+ width
+ height
+ flags
+set window pos
+ handle
+width combo
+height combo
+ flags
+set window pos
+hwnd text
+ width
+ height
+ flags
+set window pos
+ handle
+width combo
+height combo
+ flags
+
+invalidate rect
+ handle
+hwnd list
+ bits
+
+get window long
+hwnd list
+
+gwl exstyle
+ style
+ swt
+right left
+ bits
+
+ layoutrtl
+ bits
+
+ layoutrtl
+
+set window long
+hwnd list
+
+gwl exstyle
+ bits
+set selection
+ point
+ selection
+check widget
+ selection
+ error
+ swt
+error null argument
+ start
+ selection
+
+ end
+ selection
+
+
+ unicode
+
+ locale
+ start
+wcs mbcs pos
+ start
+ end
+wcs mbcs pos
+ end
+ bits
+ start
+ end
+
+send message
+ handle
+
+ seteditsel
+ bits
+set text
+ string
+ string
+check widget
+ string
+ error
+ swt
+error null argument
+ style
+ swt
+read only
+ index
+ index
+ string
+ index
+ select
+ index
+ tchar
+ buffer
+ tchar
+get code page
+ string
+
+set window text
+ handle
+ buffer
+send event
+ swt
+ modify
+set text limit
+ limit
+check widget
+ limit
+ error
+ swt
+error cannot zero
+
+send message
+ handle
+
+ limittext
+ limit
+set visible item count
+ count
+check widget
+ count
+visible count
+ count
+ style
+ swt
+drop down
+force resize
+ rect
+ rect
+ rect
+
+get window rect
+ handle
+ rect
+ flags
+
+swp nomove
+
+swp nozorder
+
+swp drawframe
+
+swp noactivate
+set bounds
+ rect
+ right
+ rect
+ left
+ rect
+ bottom
+ rect
+ top
+ flags
+ subclass
+ subclass
+new proc
+ display
+window proc
+hwnd text
+
+get dlg item
+ handle
+cbid edit
+hwnd text
+
+set window long
+hwnd text
+
+gwl wndproc
+new proc
+hwnd list
+
+get dlg item
+ handle
+cbid list
+hwnd list
+
+set window long
+hwnd list
+
+gwl wndproc
+new proc
+translate traversal
+ msg
+ msg
+ msg
+ param
+
+ return
+
+ escape
+ style
+ swt
+drop down
+
+send message
+ handle
+
+ getdroppedstate
+translate traversal
+ msg
+traverse escape
+ style
+ swt
+drop down
+
+send message
+ handle
+
+ getdroppedstate
+
+send message
+ handle
+
+ showdropdown
+traverse escape
+ unsubclass
+ unsubclass
+hwnd text
+
+get dlg item
+ handle
+cbid edit
+hwnd text
+edit proc
+
+set window long
+hwnd text
+
+gwl wndproc
+edit proc
+hwnd list
+
+get dlg item
+ handle
+cbid list
+hwnd list
+list proc
+
+set window long
+hwnd list
+
+gwl wndproc
+list proc
+ string
+verify text
+ string
+ string
+ start
+ end
+ event
+key event
+ event
+ event
+ event
+ event
+ text
+ string
+ event
+ start
+ start
+ event
+ end
+ end
+key event
+ event
+ character
+key event
+ character
+ event
+key code
+key event
+key code
+ event
+state mask
+key event
+state mask
+
+ unicode
+
+ locale
+ event
+ start
+mbcs wcs pos
+ start
+ event
+ end
+mbcs wcs pos
+ end
+send event
+ swt
+ verify
+ event
+ event
+ doit
+ disposed
+ event
+ text
+wcs mbcs pos
+wcs pos
+wcs pos
+
+ unicode
+wcs pos
+hwnd text
+
+get dlg item
+ handle
+cbid edit
+hwnd text
+wcs pos
+mbcs size
+
+get window text length
+hwnd text
+mbcs size
+ buffer
+mbcs size
+
+get window text
+hwnd text
+ buffer
+mbcs size
+mbcs pos
+wcs count
+mbcs pos
+mbcs size
+wcs pos
+wcs count
+
+dbcs lead byte
+ buffer
+mbcs pos
+mbcs pos
+wcs count
+mbcs pos
+widget ext style
+widget ext style
+
+ noinheritlayout
+widget style
+ bits
+widget style
+
+cbs autohscroll
+
+cbs nointegralheight
+
+ vscroll
+ style
+ swt
+ simple
+ bits
+
+cbs simple
+ style
+ swt
+read only
+ bits
+
+cbs dropdownlist
+ bits
+
+cbs dropdown
+ tchar
+window class
+combo class
+window proc
+combo proc
+window proc
+ hwnd
+ msg
+ param
+ param
+ handle
+ hwnd
+ handle
+hwnd text
+
+get dlg item
+ handle
+cbid edit
+hwnd list
+
+get dlg item
+ handle
+cbid list
+hwnd text
+ hwnd
+hwnd text
+hwnd list
+ hwnd
+hwnd list
+ lresult
+ result
+ msg
+
+ char
+ result
+ char
+ hwnd
+ param
+ param
+
+ime char
+ result
+ime char
+ hwnd
+ param
+ param
+
+ keydown
+ result
+key down
+ hwnd
+ param
+ param
+
+ keyup
+ result
+ key
+ hwnd
+ param
+ param
+
+ syschar
+ result
+sys char
+ hwnd
+ param
+ param
+
+ syskeydown
+ result
+sys key down
+ hwnd
+ param
+ param
+
+ syskeyup
+ result
+sys key
+ hwnd
+ param
+ param
+
+ capturechanged
+ result
+capture changed
+ hwnd
+ param
+ param
+
+ lbuttondblclk
+ result
+button dbl clk
+ hwnd
+ param
+ param
+
+ lbuttondown
+ result
+button down
+ hwnd
+ param
+ param
+
+ lbuttonup
+ result
+ button
+ hwnd
+ param
+ param
+
+ mbuttondblclk
+ result
+button dbl clk
+ hwnd
+ param
+ param
+
+ mbuttondown
+ result
+button down
+ hwnd
+ param
+ param
+
+ mbuttonup
+ result
+ button
+ hwnd
+ param
+ param
+
+ mousehover
+ result
+mouse hover
+ hwnd
+ param
+ param
+
+ mouseleave
+ result
+mouse leave
+ hwnd
+ param
+ param
+
+ mousemove
+ result
+mouse move
+ hwnd
+ param
+ param
+
+ rbuttondblclk
+ result
+button dbl clk
+ hwnd
+ param
+ param
+
+ rbuttondown
+ result
+button down
+ hwnd
+ param
+ param
+
+ rbuttonup
+ result
+ button
+ hwnd
+ param
+ param
+
+ xbuttondblclk
+ result
+button dbl clk
+ hwnd
+ param
+ param
+
+ xbuttondown
+ result
+button down
+ hwnd
+ param
+ param
+
+ xbuttonup
+ result
+ button
+ hwnd
+ param
+ param
+
+ paint
+ result
+ paint
+ hwnd
+ param
+ param
+
+ contextmenu
+ result
+context menu
+ hwnd
+ param
+ param
+
+ clear
+
+ cut
+
+ paste
+
+ undo
+
+ undo
+
+ settext
+ hwnd
+hwnd text
+ result
+ clipboard
+ hwnd
+ msg
+ param
+ param
+ result
+ result
+ value
+call window proc
+ hwnd
+ msg
+ param
+ param
+ msg
+
+ setcursel
+ style
+ swt
+read only
+ hooks
+ swt
+ verify
+ filters
+ swt
+ verify
+ string
+old text
+get text
+new text
+ param
+new text
+ param
+ param
+get item count
+new text
+get item
+ param
+new text
+new text
+ equals
+old text
+ length
+
+get window text length
+ handle
+old text
+new text
+new text
+verify text
+new text
+ length
+new text
+new text
+ equals
+old text
+ index
+ index
+new text
+ index
+ index
+ param
+call window proc
+ handle
+
+ setcursel
+ index
+ param
+window proc
+ hwnd
+ msg
+ param
+ param
+ lresult
+ ctlcolor
+ param
+ param
+color child
+ param
+ param
+ lresult
+ getdlgcode
+ param
+ param
+ code
+call window proc
+ handle
+
+ getdlgcode
+ param
+ param
+ lresult
+ code
+
+dlgc wantarrows
+ lresult
+ killfocus
+ param
+ param
+ style
+ swt
+read only
+ killfocus
+ param
+ param
+ lresult
+ lbuttondown
+ param
+ param
+old selection
+
+send message
+ handle
+
+ getcursel
+ lresult
+ result
+ lbuttondown
+ param
+ param
+ style
+ swt
+read only
+new selection
+
+send message
+ handle
+
+ getcursel
+old selection
+new selection
+send event
+ swt
+ modify
+ disposed
+ lresult
+ zero
+send event
+ swt
+ selection
+ disposed
+ lresult
+ zero
+ result
+ lresult
+ setfocus
+ param
+ param
+ lresult
+ size
+ param
+ param
+ style
+ swt
+ simple
+ lresult
+ result
+ size
+ param
+ param
+
+window visible
+ handle
+
+ win
+hwnd text
+
+get dlg item
+ handle
+cbid edit
+hwnd text
+
+invalidate rect
+hwnd text
+hwnd list
+
+get dlg item
+ handle
+cbid list
+hwnd list
+
+invalidate rect
+hwnd list
+ flags
+
+rdw erase
+
+rdw invalidate
+
+rdw allchildren
+
+redraw window
+ handle
+ flags
+ result
+ style
+ swt
+read only
+ style
+ swt
+drop down
+ size
+ param
+ param
+ index
+
+send message
+ handle
+
+ getcursel
+ redraw
+ tchar
+ buffer
+ start
+ end
+ index
+
+ err
+ length
+
+get window text length
+ handle
+ length
+ buffer
+ tchar
+get code page
+ length
+
+get window text
+ handle
+ buffer
+ length
+ start
+ end
+
+send message
+ handle
+
+ geteditsel
+ start
+ end
+ redraw
+draw count
+
+window visible
+ handle
+ redraw
+set redraw
+ lresult
+ result
+ size
+ param
+ param
+ disposed
+ result
+ buffer
+
+set window text
+ handle
+ buffer
+ bits
+ start
+ end
+
+send message
+ handle
+
+ seteditsel
+ bits
+ redraw
+set redraw
+ result
+ lresult
+ char
+ hwnd
+ param
+ param
+ignore character
+ lresult
+ result
+ char
+ hwnd
+ param
+ param
+ result
+ result
+ param
+ swt
+ tab
+ lresult
+ zero
+ swt
+
+post event
+ swt
+default selection
+ swt
+ esc
+ style
+ swt
+drop down
+
+send message
+ handle
+
+ getdroppedstate
+ lresult
+ zero
+ result
+ lresult
+ clipboard
+hwnd text
+ msg
+ param
+ param
+ style
+ swt
+read only
+ hooks
+ swt
+ verify
+ filters
+ swt
+ verify
+ call
+ start
+ end
+ string
+old text
+new text
+ msg
+
+ clear
+
+ cut
+
+send message
+hwnd text
+
+ getsel
+ start
+ end
+ start
+ end
+new text
+ call
+
+ paste
+
+send message
+hwnd text
+
+ getsel
+ start
+ end
+new text
+get clipboard text
+
+ undo
+
+ undo
+
+send message
+hwnd text
+
+ canundo
+ignore modify
+
+send message
+hwnd text
+
+ getsel
+ start
+ end
+
+call window proc
+edit proc
+hwnd text
+ msg
+ param
+ param
+ length
+
+get window text length
+hwnd text
+ length
+ start
+ end
+ tchar
+ buffer
+ tchar
+get code page
+ length
+
+get window text
+hwnd text
+ buffer
+ length
+new text
+ buffer
+ string
+ start
+ end
+ start
+new text
+
+call window proc
+edit proc
+hwnd text
+ msg
+ param
+ param
+ignore modify
+
+ settext
+ end
+
+get window text length
+hwnd text
+old text
+get text
+ length
+
+ unicode
+
+ wcslen
+ param
+
+ strlen
+ param
+ tchar
+ buffer
+ tchar
+get code page
+ length
+byte count
+ buffer
+ length
+ tchar
+ sizeof
+
+move memory
+ buffer
+ param
+byte count
+new text
+ buffer
+ string
+ length
+new text
+new text
+ equals
+old text
+old text
+new text
+new text
+verify text
+new text
+ start
+ end
+new text
+ lresult
+ zero
+new text
+ equals
+old text
+ call
+
+call window proc
+edit proc
+hwnd text
+ msg
+ param
+ param
+ tchar
+ buffer
+ tchar
+get code page
+new text
+ msg
+
+ settext
+ heap
+
+get process heap
+byte count
+ buffer
+ length
+ tchar
+ sizeof
+psz text
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+psz text
+ buffer
+byte count
+ code
+
+call window proc
+edit proc
+hwnd text
+ msg
+ param
+psz text
+
+heap free
+ heap
+psz text
+ lresult
+ code
+
+send message
+hwnd text
+
+ replacesel
+ buffer
+ lresult
+ zero
+ lresult
+command child
+ param
+ param
+ code
+ param
+ code
+
+cbn editchange
+ignore modify
+ selection
+send event
+ swt
+ modify
+ disposed
+ lresult
+ zero
+ selection
+
+cbn selchange
+ index
+
+send message
+ handle
+
+ getcursel
+ index
+
+ err
+
+send message
+ handle
+
+ setcursel
+ index
+send event
+ swt
+ modify
+ disposed
+ lresult
+ zero
+post event
+ swt
+ selection
+
+cbn setfocus
+send focus event
+ swt
+ focus
+ disposed
+ lresult
+ zero
+
+cbn killfocus
+ style
+ swt
+read only
+send focus event
+ swt
+focus out
+ disposed
+ lresult
+ zero
+command child
+ param
+ param
+ lresult
+ime char
+ hwnd
+ param
+ param
+ display
+ display
+ display
+ display
+last key
+ display
+last ascii
+ param
+ display
+last virtual
+ display
+last null
+ display
+last dead
+send key event
+ swt
+key down
+
+ime char
+ param
+ param
+ lresult
+ zero
+ignore character
+ result
+call window proc
+ hwnd
+
+ime char
+ param
+ param
+ msg
+ msg
+ msg
+ flags
+
+ remove
+
+ noyield
+
+ input
+
+ postmessage
+
+peek message
+ msg
+ hwnd
+
+ char
+
+ char
+ flags
+
+translate message
+ msg
+
+dispatch message
+ msg
+ignore character
+send key event
+ swt
+ key
+
+ime char
+ param
+ param
+ display
+last key
+ display
+last ascii
+ lresult
+ result
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  controls  that  allow  the  user  choose  item  from  list  items  optionally  enter  new  value  typing  into  editable  text  field  often  code  combo  code  are  used  the  same  place  where  single  selection  code  list  code  widget  could  used  but  space  limited  code  combo  code  takes  less  space  than  code  list  code  widget  and  shows  similar  information  note  since  code  combo  code  can  contain  both  list  and  editable  text  field  possible  confuse  methods  which  access  one  versus  the  other  compare  for  example  code clear selection  code  and  code deselect all  code  the  api  documentation  careful  indicate  either  the  receiver  list  the  the  receiver  text  field  distinguish  between  the  two  cases  note  that  although  this  class  subclass  code  composite  code  does  not  make  sense  add  children  set  layout  styles  drop  down  read  only  simple  events default selection  modify  selection  note  only  one  the  styles  drop  down  and  simple  may  specified  important  this  class  not  intended  subclassed  see  list
+the  operating  system  limit  for  the  number  characters  that  the  text  field  instance  this  class  can  hold
+these  values  can  different  different  platforms  therefore  they  are  not  initialized  the  declaration  stop  the  compiler  from  inlining
+these  are  the  undocumented  control  for  the  children  combo  box  since  there  are  constants  for  these  values  they  may  change  with  different  versions  windows  but  have  been  the  same  since  windows 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  drop  down  see  swt  read  only  see  swt  simple  see  widget check subclass  see  widget get style
+adds  the  argument  the  end  the  receiver  list  param  string  the  new  item  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  add  string  int
+adds  the  argument  the  receiver  list  the  given  zero  relative  index  note  add  item  the  end  the  list  use  the  result  calling  code get item count  code  the  index  use  code  add  string  code  param  string  the  new  item  param  index  the  index  for  the  item  exception illegal argument exception  error  null  argument  the  string  null  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  add  string
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  receiver  text  modified  sending  one  the  messages  defined  the  code modify listener  code  interface  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see modify listener  see remove modify listener
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  receiver  selection  changes  sending  one  the  messages  defined  the  code selection listener  code  interface  code widget selected  code  called  when  the  combo  list  selection  changes  code widget default selected  code  typically  called  when  enter  pressed  the  combo  text  area  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener  see selection event
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  receiver  text  verified  sending  one  the  messages  defined  the  code verify listener  code  interface  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see verify listener  see remove verify listener  since 
+feature  windows  not  possible  create  combo  box  that  has  border  using  windows  style  bits  all  combo  boxes  draw  their  own  border  and  not  use  the  standard  windows  border  styles  therefore  matter  what  style  bits  are  specified  clear  the  border  bits  that  the  swt  style  will  match  the  windows  widget  the  windows  behavior  currently  implemented  all  platforms
+even  though  legal  create  this  widget  with  scroll  bars  they  serve  useful  purpose  because  they  not  automatically  scroll  the  widget  client  area  the  fix  clear  the  swt  style
+sets  the  selection  the  receiver  text  field  empty  selection  starting  just  before  the  first  character  the  text  field  editable  this  has  the  effect  placing  the  beam  the  start  the  text  note  clear  the  selected  items  the  receiver  list  use  code deselect all  code  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see deselect all
+copies  the  selected  text  the  current  selection  copied  the  clipboard  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+get  the  text  and  list  window  procs
+bug  windows  the  combo  box  has  the  cbs  simple  style  the  list  portion  the  combo  box  not  drawn  correctly  the  first  time  causing  pixel  corruption  the  fix  ensure  that  the  combo  box  has  been  resized  more  than  once
+cuts  the  selected  text  the  current  selection  first  copied  the  clipboard  and  then  deleted  from  the  widget  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+deselects  the  item  the  given  zero  relative  index  the  receiver  list  the  item  the  index  was  already  deselected  remains  deselected  indices  that  are  out  range  are  ignored  param  index  the  index  the  item  deselect  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+widget  could  disposed  this  point
+deselects  all  selected  items  the  receiver  list  note  clear  the  selection  the  receiver  text  field  use  code clear selection  code  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see clear selection
+widget  could  disposed  this  point
+returns  the  item  the  given  zero  relative  index  the  receiver  list  throws  exception  the  index  out  range  param  index  the  index  the  item  return  return  the  item  the  given  index  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  number  items  contained  the  receiver  list  return  the  number  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  height  the  area  which  would  used  display  one  the  items  the  receiver  list  return  the  height  one  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  possibly  empty  array  code  string  code  which  are  the  items  the  receiver  list  note  this  not  the  actual  structure  used  the  receiver  maintain  its  list  items  modifying  the  array  will  not  affect  the  receiver  return  the  items  the  receiver  list  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  orientation  the  receiver  return  the  orientation  style  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  code  point  code  whose  coordinate  the  character  position  representing  the  start  the  selection  the  receiver  text  field  and  whose  coordinate  the  character  position  representing  the  end  the  selection  empty  selection  indicated  the  and  coordinates  having  the  same  value  indexing  zero  based  the  range  selection  from  where  the  number  characters  the  widget  return  point  representing  the  selection  start  and  end  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  zero  relative  index  the  item  which  currently  selected  the  receiver  list  item  selected  return  the  index  the  selected  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  string  containing  copy  the  contents  the  receiver  text  field  empty  string  there  are  contents  return  the  receiver  text  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  height  the  receivers  text  field  return  the  text  height  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  maximum  number  characters  that  the  receiver  text  field  capable  holding  this  has  not  been  changed  code set text limit  code  will  the  constant  code  combo  limit  code  return  the  text  limit  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  limit
+gets  the  number  items  that  are  visible  the  drop  down  portion  the  receiver  list  note  this  operation  hint  and  not  supported  platforms  that  not  have  this  concept  return  the  number  items  that  are  visible  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+searches  the  receiver  list  starting  the  first  item  index  until  item  found  that  equal  the  argument  and  returns  the  index  that  item  item  found  returns  param  string  the  search  item  return  the  index  the  item  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+searches  the  receiver  list  starting  the  given  zero  relative  index  until  item  found  that  equal  the  argument  and  returns  the  index  that  item  item  found  the  starting  index  out  range  returns  param  string  the  search  item  param  start  the  zero  relative  index  which  begin  the  search  return  the  index  the  item  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  windows  for  some  reason  findstringexact  will  not  find  empty  strings  even  though  legal  insert  empty  string  into  combo  the  fix  search  the  combo  item  time
+use  findstringexact  search  for  the  item
+pastes  text  from  clipboard  the  selected  text  deleted  from  the  widget  and  new  text  inserted  from  the  clipboard  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+removes  the  item  from  the  receiver  list  the  given  zero  relative  index  param  index  the  index  for  the  item  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  modify  event  this  happens  just  return
+bug  windows  when  the  combo  box  read  only  with  exactly  one  item  that  currently  selected  and  that  item  removed  the  combo  box  does  not  redraw  clear  the  text  area  the  fix  force  redraw
+removes  the  items  from  the  receiver  list  which  are  between  the  given  zero  relative  start  and  end  indices  inclusive  param  start  the  start  the  range  param  end  the  end  the  range  exception illegal argument exception  error  invalid  range  either  the  start  end  are  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  modify  event  this  happens  just  return
+bug  windows  when  the  combo  box  read  only  with  exactly  one  item  that  currently  selected  and  that  item  removed  the  combo  box  does  not  redraw  clear  the  text  area  the  fix  force  redraw
+searches  the  receiver  list  starting  the  first  item  until  item  found  that  equal  the  argument  and  removes  that  item  from  the  list  param  string  the  item  remove  exception illegal argument exception  error  null  argument  the  string  null  error  invalid  argument  the  string  not  found  the  list  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+removes  all  the  items  from  the  receiver  list  and  clear  the  contents  receiver  text  field  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+widget  could  disposed  this  point
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  receiver  text  modified  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see modify listener  see add modify listener
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  receiver  selection  changes  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  control  verified  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see verify listener  see add verify listener  since 
+disable  all  magic  keys  that  could  modify  the  text  and  don  send  events  when  alt  shift  ctrl  pressed
+fall  through
+the  left  button  down  the  text  widget  refuses  the  character
+verify  the  character
+ 
+  del
+  return
+tab  and  other  characters
+selects  the  item  the  given  zero  relative  index  the  receiver  list  the  item  the  index  was  already  selected  remains  selected  indices  that  are  out  range  are  ignored  param  index  the  index  the  item  select  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+widget  could  disposed  this  point
+feature  windows  the  combo  box  has  the  cbs  dropdown  cbs  dropdownlist  style  windows  uses  the  height  that  the  programmer  sets set window pos  control  height  the  drop  down  list  when  the  width  non  zero  windows  remembers  this  value  and  sets  the  height  the  height  the  text  field  part  the  combo  box  the  width  zero  windows  allows  the  height  have  any  value  therefore  when  the  programmer  sets  and  then  queries  the  height  the  values  can  different  depending  the  width  the  problem  occurs  when  the  programmer  uses compute size  determine  the  preferred  height  always  the  height  the  text  field  and  then  uses  this  value  set  the  height  the  combo  box  the  result  combo  box  with  zero  size  drop  down  list  the  fix  always  set  the  height  show  fixed  number  combo  box  items  and  ignore  the  height  value  that  the  programmer  supplies
+feature  windows  when  drop  down  combo  box  resized  the  combo  box  resizes  the  height  the  text  field  and  uses  the  height  provided set window pos  determine  the  height  the  drop  down  list  for  some  reason  the  combo  box  redraws  the  whole  area  not  just  the  text  field  the  fix  set  the  swp  nosize  bits  when  the  height  text  field  and  the  drop  down  list  the  same  the  requested  height  note  setting  the  width  combo  box  zero  does  not  update  the  width  the  drop  down  control  rect  the  width  the  combo  box  zero  then  not  set  swp  nosize
+sets  the  text  the  item  the  receiver  list  the  given  zero  relative  index  the  string  argument  this  equivalent  removing  the  old  item  the  index  and  then  adding  the  new  item  that  index  param  index  the  index  for  the  item  param  string  the  new  text  for  the  item  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  modify  event  that  might  sent  when  the  index  removed  this  happens  just  exit
+sets  the  receiver  list  the  given  array  items  param  items  the  array  items  exception illegal argument exception  error  null  argument  the  items  array  null  error  invalid  argument  item  the  items  array  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+widget  could  disposed  this  point
+sets  the  orientation  the  receiver  which  must  one  the  constants  code  swt  left  right  code  code  swt  right  left  code  param  orientation  new  orientation  style  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+bug  windows  for  some  reason  the  single  line  text  field  portion  the  combo  box  does  not  redraw  reflect  the  new  style  bits  the  fix  force  the  widget  resized  temporarily  shrinking  and  then  growing  the  width  and  height
+sets  the  selection  the  receiver  text  field  the  range  specified  the  argument  whose  coordinate  the  start  the  selection  and  whose  coordinate  the  end  the  selection  param  selection  point  representing  the  new  selection  start  and  end  exception illegal argument exception  error  null  argument  the  point  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  contents  the  receiver  text  field  the  given  string  note  the  text  field  code  combo  code  typically  only  capable  displaying  single  line  text  thus  setting  the  text  string  containing  line  breaks  other  special  characters  will  probably  cause  display  incorrectly  param  string  the  new  text  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+widget  could  disposed  this  point
+sets  the  maximum  number  characters  that  the  receiver  text  field  capable  holding  the  argument  reset  this  value  the  default  use  code set text limit  combo  limit  code  specifying  limit  value  larger  than  code  combo  limit  code  sets  the  receiver  limit  code  combo  limit  code  param  limit  new  text  limit  exception illegal argument exception  error  cannot  zero  the  limit  zero  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  limit
+sets  the  number  items  that  are  visible  the  drop  down  portion  the  receiver  list  note  this  operation  hint  and  not  supported  platforms  that  not  have  this  concept  param  count  the  new  number  items  visible  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+when  the  combo  box  dropped  down  allow  return  select  item  the  list  and  escape  close  the  combo  box
+possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  verify  event  this  happens  answer  null  cancel  the  operation
+keyboard  messages
+mouse  messages
+case  mousewheel  result mouse wheel  hwnd  param  param  break
+paint  messages
+menu  messages
+clipboard  messages
+bug  windows  when  combo  box  that  read  only  disposed  cbn  killfocus  windows  segment  faults  the  fix  send  focus  from  killfocus  instead  cbn  killfocus  note  version  comctl  dll  the  bug  fixed
+return  null  focus  notification  done  command  cbn  killfocus
+feature  windows  when  editable  combo  box  dropped  down  and  the  text  the  entry  field  partially  matches  item  the  list  windows  selects  the  item  but  doesn  send  command  with  cbn  selchange  the  fix  detect  that  the  selection  has  changed  and  issue  the  notification
+return  null  focus  notification  done  command  with  cbn  setfocus
+bug  windows  the  combo  box  has  the  cbs  simple  style  the  list  portion  the  combo  box  not  redrawn  when  the  combo  box  resized  the  fix  force  redraw  when  the  size  has  changed
+feature  windows  when  editable  drop  down  combo  box  contains  text  that  does  not  correspond  item  the  list  when  the  widget  resized  selects  the  closest  match  from  the  list  the  fix  remember  the  original  text  and  reset  after  the  widget  resized
+possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  resize  event  this  happens  end  the  processing  the  windows  message  returning  the  result  the  size  message
+feature  windows  for  some  reason  when  the  widget  single  line  text  widget  when  the  user  presses  tab  return  escape  windows  beeps  the  fix  look  for  these  keys  and  not  call  the  window  proc  note  this  only  happens  when  the  drop  down  list  not  visible
+fall  through
+feature  windows  the  combo  box  list  selection  queried  using  getcursel  before  the  command  with  cbn  editchange  returns  getcursel  returns  the  previous  selection  the  list  seems  that  the  combo  box  sends  the  command  before  makes  the  selection  the  list  box  match  the  entry  field  the  fix  remember  that  selection  the  list  should  exist  this  case
+feature  windows  the  text  editable  combo  box  queried  using get window text  before  the  command  with  cbn  selchange  returns get window text  returns  the  previous  text  the  combo  box  seems  that  the  combo  box  sends  the  command  before  updates  the  text  field  match  the  list  selection  the  fix  force  the  text  field  match  the  list  selection  selecting  the  list  item
+possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  modify  event  this  happens  end  the  processing  the  windows  message  returning  zero  the  result  the  window  proc
+bug  windows  when  combo  box  that  read  only  disposed  cbn  killfocus  windows  segment  faults  the  fix  send  focus  from  killfocus  instead  cbn  killfocus  note  version  comctl  dll  the  bug  fixed
+process  dbcs  character
+feature  windows  the  windows  text  widget  uses  two  char  process  dbcs  key  instead  using  ime  char  the  fix  allow  the  text  widget  get  the  char  but  ignore  sending  them  the  application
+widget  could  disposed  this  point
+</comments>
+</text>
+</DOC>

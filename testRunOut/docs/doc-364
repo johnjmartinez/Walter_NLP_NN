@@ -1,0 +1,583 @@
+<DOC>
+<DOCNO>org.eclipse.swt.layout.FormLayout.java </DOCNO>
+<text>
+<class>
+form layout
+</class>
+<method>
+form layout
+compute height
+compute size
+flush cache
+get name
+compute width
+ layout
+ layout
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ layout
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+form layout
+ layout
+margin width
+margin height
+margin left
+margin top
+margin right
+margin bottom
+ spacing
+form layout
+compute height
+ control
+ control
+form data
+ data
+flush cache
+form attachment
+ top
+ data
+get top attachment
+ control
+ spacing
+flush cache
+form attachment
+ bottom
+ data
+get bottom attachment
+ control
+ spacing
+flush cache
+form attachment
+ height
+ bottom
+ minus
+ top
+ height
+ numerator
+ bottom
+ numerator
+ bottom
+ offset
+ bottom
+ numerator
+ bottom
+ denominator
+ top
+ offset
+ bottom
+ offset
+ top
+ offset
+ top
+ denominator
+ bottom
+ numerator
+ divider
+ bottom
+ denominator
+ bottom
+ numerator
+ bottom
+ denominator
+ bottom
+ offset
+ divider
+ height
+ solve
+ data
+get height
+ control
+flush cache
+ point
+compute size
+ composite
+ composite
+ hint
+ hint
+flush cache
+ point
+ size
+ layout
+ composite
+ hint
+ hint
+flush cache
+ hint
+ swt
+ default
+ size
+
+ hint
+ hint
+ swt
+ default
+ size
+
+ hint
+ size
+flush cache
+ control
+ control
+ object
+ data
+ control
+get layout data
+ data
+form data
+ data
+flush cache
+ string
+get name
+ string
+ string
+get class
+get name
+ index
+ string
+last index
+ index
+ string
+ string
+ substring
+ index
+ string
+ length
+compute width
+ control
+ control
+form data
+ data
+flush cache
+form attachment
+ left
+ data
+get left attachment
+ control
+ spacing
+flush cache
+form attachment
+ right
+ data
+get right attachment
+ control
+ spacing
+flush cache
+form attachment
+ width
+ right
+ minus
+ left
+ width
+ numerator
+ right
+ numerator
+ right
+ offset
+ right
+ numerator
+ right
+ denominator
+ left
+ offset
+ right
+ offset
+ left
+ offset
+ left
+ denominator
+ left
+ numerator
+ divider
+ right
+ denominator
+ right
+ numerator
+ right
+ denominator
+ right
+ offset
+ divider
+ width
+ solve
+ data
+get width
+ control
+flush cache
+ layout
+ composite
+ composite
+flush cache
+ rectangle
+ rect
+ composite
+get client area
+
+ rect
+
+margin left
+margin width
+
+ rect
+
+margin top
+margin height
+ width
+ math
+ max
+ rect
+ width
+margin left
+margin width
+margin right
+ height
+ math
+ max
+ rect
+ height
+margin left
+margin height
+margin bottom
+ layout
+ composite
+
+
+ width
+ height
+flush cache
+ point
+ layout
+ composite
+ composite
+ move
+
+
+ width
+ height
+flush cache
+ control
+ children
+ composite
+get children
+
+
+ children
+ length
+
+ control
+ child
+ children
+
+form data
+ data
+form data
+ child
+get layout data
+ data
+ child
+set layout data
+ data
+form data
+flush cache
+ data
+flush cache
+ data
+cache left
+ data
+cache right
+ data
+cache top
+ data
+cache bottom
+ flush
+ rectangle
+ bounds
+
+
+
+
+ children
+ length
+
+ control
+ child
+ children
+
+form data
+ data
+form data
+ child
+get layout data
+ width
+ swt
+ default
+ data
+ needed
+form attachment
+ left
+ data
+get left attachment
+ child
+ spacing
+flush cache
+form attachment
+ right
+ data
+get right attachment
+ child
+ spacing
+flush cache
+
+ left
+ solve
+ width
+
+ right
+ solve
+ width
+ data
+ height
+ swt
+ default
+ data
+ needed
+ trim
+ child
+ scrollable
+ rectangle
+ rect
+ scrollable
+ child
+compute trim
+ trim
+ rect
+ width
+ trim
+ child
+get border width
+ data
+cache width
+ data
+cache height
+current width
+ math
+ max
+
+
+ trim
+ data
+compute size
+ child
+current width
+ data
+ height
+flush cache
+ flush
+ flush
+ children
+ length
+ flush
+
+
+ math
+ max
+
+
+ move
+ bounds
+ bounds
+ rectangle
+ children
+ length
+ bounds
+
+ rectangle
+ bounds
+
+
+
+
+ bounds
+
+ width
+
+
+
+ math
+ max
+compute width
+ child
+ data
+flush cache
+
+
+
+ children
+ length
+
+ control
+ child
+ children
+
+form data
+ data
+form data
+ child
+get layout data
+ height
+ swt
+ default
+
+ data
+get top attachment
+ child
+ spacing
+flush cache
+ solve
+ height
+
+ data
+get bottom attachment
+ child
+ spacing
+flush cache
+ solve
+ height
+
+ math
+ max
+
+
+ move
+ bounds
+
+
+
+
+ bounds
+
+ height
+
+
+
+ math
+ max
+compute height
+ child
+ data
+flush cache
+
+
+
+ children
+ length
+
+ control
+ child
+ children
+
+form data
+ data
+form data
+ child
+get layout data
+ flush
+ flush
+
+ data
+cache width
+ data
+cache height
+ data
+cache left
+ data
+cache right
+ data
+cache top
+ data
+cache bottom
+ move
+
+
+ children
+ length
+
+ children
+
+set bounds
+ bounds
+
+
+margin left
+margin width
+margin right
+
+margin top
+margin height
+margin bottom
+ point
+
+
+ string
+ string
+ string
+ string
+get name
+margin width
+ string
+margin width
+margin height
+ string
+margin height
+margin left
+ string
+margin left
+margin right
+ string
+margin right
+margin top
+ string
+margin top
+margin bottom
+ string
+margin bottom
+ spacing
+ string
+ spacing
+ string
+ string
+ trim
+ string
+ string
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  control  the  position  and  size  the  children  composite  control  using  code form attachments  code  optionally  configure  the  left  top  right  and  bottom  edges  each  child  the  following  example  code  creates  code form layout  code  and  then  sets  into  code  shell  code  pre  display  display  new  display  shell  shell  new  shell  display form layout  layout  new form layout  layout margin width  layout margin height  shell set layout  layout  pre  use  code form layout  code  create  code form data  code  with  code form attachment  code  for  each  child  code  composite  code  the  following  example  code  attaches  code  button  code  the  top  and  left  edge  the  composite  and  code  button  code  the  right  edge  code  button  code  and  the  top  and  right  edges  the  composite  pre form data  data  new form data  data  left  new form attachment  data  top  new form attachment  button set layout data  data form data  data  new form data  data  left  new form attachment  button  data  top  new form attachment  data  right  new form attachment  100  button set layout data  data  pre  each  side  child  control  can  attached  position  the  parent  composite  other  controls  within  the  code  composite  code  creating  instances  code form attachment  code  and  setting  them  into  the  top  bottom  left  and  right  fields  the  child  code form data  code  side  not  given  attachment  defined  not  being  attached  anything  causing  the  child  remain  its  preferred  size  child  given  attachment  either  the  left  the  right  top  bottom  automatically  attached  the  left  and  top  the  composite  respectively  the  following  code  positions  code  button  code  and  code  button  code  but  relies  default  attachments  pre form data  data  new form data  data  left  new form attachment  button  data  right  new form attachment  100  button set layout data  data  pre  important  not  define  circular  attachments  for  example  not  attach  the  right  edge  code  button  code  the  left  edge  code  button  code  and  then  attach  the  left  edge  code  button  code  the  right  edge  code  button  code  this  will  over  constrain  the  layout  causing  undefined  behavior  the  algorithm  will  terminate  but  the  results  are  undefined  see form data  see form attachment  since 
+margin width  specifies  the  number  pixels  horizontal  margin  that  will  placed  along  the  left  and  right  edges  the  layout  the  default  value 
+margin height  specifies  the  number  pixels  vertical  margin  that  will  placed  along  the  top  and  bottom  edges  the  layout  the  default  value 
+margin left  specifies  the  number  pixels  horizontal  margin  that  will  placed  along  the  left  edge  the  layout  the  default  value  since 
+margin top  specifies  the  number  pixels  vertical  margin  that  will  placed  along  the  top  edge  the  layout  the  default  value  since 
+margin right  specifies  the  number  pixels  horizontal  margin  that  will  placed  along  the  right  edge  the  layout  the  default  value  since 
+margin bottom  specifies  the  number  pixels  vertical  margin  that  will  placed  along  the  bottom  edge  the  layout  the  default  value  since 
+spacing  specifies  the  number  pixels  between  the  edge  one  control  and  the  edge  its  neighbouring  control  the  default  value  since 
+constructs  new  instance  this  class
+computes  the  preferred  height  the  form  with  respect  the  preferred  height  the  control  given  that  the  equations  for  top  and  bottom  the  control  terms  the  height  the  form  are  the  equation  for  the  height  the  control  bottom  minus  top  solving  for  the  height  the  form  get  when  and  the  equation  has  solution  for  this  special  case  meaning  that  the  control  does  not  constrain  the  height  the  form  this  case  need  arbitrarily  define  the  height  the  form  case  let  the  distance  from  the  top  the  form  the  bottom  edge  the  control  this  case  the  control  was  attatched  the  top  the  form  and  the  form  needs  large  enough  show  the  bottom  edge  the  control  case  let  the  distance  from  the  bottom  the  form  the  top  edge  the  control  this  case  the  control  was  attached  the  bottom  the  form  and  the  only  way  that  the  control  would  visible  the  offset  negative  the  offset  positive  there  possible  height  for  the  form  that  will  show  the  control  will  always  below  the  bottom  edge  the  form  case  and  let  the  distance  from  the  top  the  form  the  bottom  edge  the  control  this  case  since  not  must  fraction  the  offset  the  distance  from  the  bottom  edge  the  control  this  represents  fraction  the  form  since  the  height  fraction  the  form  known  the  height  the  entire  form  can  found  setting  solve  this  equation  for  terms  and  giving  similarily  the  offset  negative  the  control  positioned  above  the  offset  the  distance  from  the  top  edge  the  control  can  find  the  height  the  entire  form  setting  solving  terms  and  gives 
+computes  the  preferred  height  the  form  with  respect  the  preferred  height  the  control
+temporary  code
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
+</comments>
+</text>
+</DOC>

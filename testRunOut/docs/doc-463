@@ -1,0 +1,306 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.TabItem.java </DOCNO>
+<text>
+<class>
+tab item
+</class>
+<method>
+tab item
+tab item
+check subclass
+get control
+get parent
+get tool tip text
+release child
+release widget
+set control
+set image
+set text
+set tool tip text
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+tab item
+ item
+tab folder
+ parent
+ control
+ control
+ string
+tool tip text
+tab item
+tab folder
+ parent
+ style
+ parent
+ style
+ parent
+ parent
+ parent
+create item
+ parent
+get item count
+tab item
+tab folder
+ parent
+ style
+ index
+ parent
+ style
+ parent
+ parent
+ parent
+create item
+ index
+check subclass
+valid subclass
+ error
+ swt
+error invalid subclass
+ control
+get control
+check widget
+ control
+tab folder
+get parent
+check widget
+ parent
+ string
+get tool tip text
+check widget
+tool tip text
+release child
+release child
+ index
+ parent
+ index
+ index
+ parent
+get selection index
+ control
+ control
+set visible
+ parent
+destroy item
+release widget
+release widget
+ control
+ parent
+set control
+ control
+ control
+check widget
+ control
+ control
+ disposed
+ error
+ swt
+error invalid argument
+ control
+ parent
+ parent
+ error
+ swt
+error invalid parent
+ control
+ control
+ disposed
+ control
+ control
+old control
+ control
+new control
+ control
+ control
+ control
+ index
+ parent
+ index
+ index
+ parent
+get selection index
+new control
+new control
+set visible
+new control
+new control
+set bounds
+ parent
+get client area
+new control
+set visible
+old control
+old control
+set visible
+set image
+ image
+ image
+check widget
+ index
+ parent
+ index
+ index
+set image
+ image
+
+comctl 32_ major
+ text
+ index
+set text
+ text
+ hwnd
+ parent
+ handle
+ tcitem
+ item
+ tcitem
+ item
+ mask
+
+tcif image
+ item
+ image
+ parent
+image index
+ image
+
+send message
+ hwnd
+
+tcm setitem
+ index
+ item
+set text
+ string
+ string
+check widget
+ string
+ error
+ swt
+error null argument
+ index
+ parent
+ index
+ index
+set text
+ string
+
+comctl 32_ major
+ image
+ text
+ index
+ length
+ string
+ length
+ text
+ length
+ string
+get chars
+ length
+ text
+
+
+
+
+ length
+
+ text
+
+ text
+
+ text
+
+
+
+ string
+ string
+ text
+
+ hwnd
+ parent
+ handle
+ heap
+
+get process heap
+ tchar
+ buffer
+ tchar
+ parent
+get code page
+ string
+byte count
+ buffer
+ length
+ tchar
+ sizeof
+psz text
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+psz text
+ buffer
+byte count
+ tcitem
+ item
+ tcitem
+ item
+ mask
+
+tcif text
+ item
+psz text
+psz text
+
+send message
+ hwnd
+
+tcm setitem
+ index
+ item
+
+heap free
+ heap
+psz text
+set tool tip text
+ string
+ string
+check widget
+tool tip text
+ string
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  represent  selectable  user  interface  object  corresponding  tab  for  page  tab  folder  styles  none  events  none  important  this  class  not  intended  subclassed 
+constructs  new  instance  this  class  given  its  parent  which  must  code tab folder  code  and  style  value  describing  its  behavior  and  appearance  the  item  added  the  end  the  items  maintained  its  parent  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  see  widget check subclass  see  widget get style
+constructs  new  instance  this  class  given  its  parent  which  must  code tab folder  code  style  value  describing  its  behavior  and  appearance  and  the  index  which  place  the  items  maintained  its  parent  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  param  index  the  index  store  the  receiver  its  parent  exception illegal argument exception  error  null  argument  the  parent  null  error  invalid  range  the  index  either  negative  greater  than  the  parent  current  tab  count  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  see  widget check subclass  see  widget get style
+returns  the  control  that  used  fill  the  client  area  the  tab  folder  when  the  user  selects  the  tab  item  control  has  been  set  return  code  null  code  return  the  control  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  parent  which  must  code tab folder  code  return  the  receiver  parent  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  tool  tip  text  null  has  not  been  set  return  the  receiver  tool  tip  text  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  control  that  used  fill  the  client  area  the  tab  folder  when  the  user  selects  the  tab  item  param  control  the  new  control  null  exception illegal argument exception  error  invalid  argument  the  control  has  been  disposed  error  invalid  parent  the  control  not  the  same  widget  tree  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  windows  version  comctl  dll  tab  items  with  image  and  label  that  includes  cause  the  tab  draw  incorrectly  even  when  doubled  the  image  overlaps  the  label  the  fix  remove  all  characters  from  the  string
+sets  the  receiver  text  the  string  may  include  the  mnemonic  character  mnemonics  are  indicated  amp  that  causes  the  next  character  the  mnemonic  when  the  user  presses  key  sequence  that  matches  the  mnemonic  selection  event  occurs  most  platforms  the  mnemonic  appears  underlined  but  may  emphasised  platform  specific  manner  the  mnemonic  indicator  character  amp  can  escaped  doubling  the  string  causing  single  amp  displayed  param  string  the  new  text  exception illegal argument exception  error  null  argument  the  text  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  windows  version  comctl  dll  tab  items  with  image  and  label  that  includes  cause  the  tab  draw  incorrectly  even  when  doubled  the  image  overlaps  the  label  the  fix  remove  all  characters  from  the  string
+sets  the  receiver  tool  tip  text  the  argument  which  may  null  indicating  that  tool  tip  text  should  shown  param  string  the  new  tool  tip  text  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+</comments>
+</text>
+</DOC>

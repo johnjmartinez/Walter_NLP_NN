@@ -1,0 +1,176 @@
+<DOC>
+<DOCNO>org.eclipse.swt.dnd.DNDListener.java </DOCNO>
+<text>
+<class>
+dnd listener
+</class>
+<method>
+dnd listener
+handle event
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ dnd
+ org
+ eclipse
+ swt
+ internal
+ org
+ eclipse
+ swt
+ widgets
+dnd listener
+typed listener
+dnd listener
+swt event listener
+ listener
+ listener
+handle event
+ event
+
+
+ type
+ dnd
+drag start
+drag source event
+ event
+drag source event
+dnd event
+
+drag source listener
+event listener
+drag start
+ event
+ event
+update event
+dnd event
+
+ dnd
+drag end
+drag source event
+ event
+drag source event
+dnd event
+
+drag source listener
+event listener
+drag finished
+ event
+ event
+update event
+dnd event
+
+ dnd
+drag set data
+drag source event
+ event
+drag source event
+dnd event
+
+drag source listener
+event listener
+drag set data
+ event
+ event
+update event
+dnd event
+
+ dnd
+drag enter
+drop target event
+ event
+drop target event
+dnd event
+
+drop target listener
+event listener
+drag enter
+ event
+ event
+update event
+dnd event
+
+ dnd
+drag leave
+drop target event
+ event
+drop target event
+dnd event
+
+drop target listener
+event listener
+drag leave
+ event
+ event
+update event
+dnd event
+
+ dnd
+drag over
+drop target event
+ event
+drop target event
+dnd event
+
+drop target listener
+event listener
+drag over
+ event
+ event
+update event
+dnd event
+
+ dnd
+ drop
+drop target event
+ event
+drop target event
+dnd event
+
+drop target listener
+event listener
+ drop
+ event
+ event
+update event
+dnd event
+
+ dnd
+drop accept
+drop target event
+ event
+drop target event
+dnd event
+
+drop target listener
+event listener
+drop accept
+ event
+ event
+update event
+dnd event
+
+ dnd
+drag operation changed
+drop target event
+ event
+drop target event
+dnd event
+
+drop target listener
+event listener
+drag operation changed
+ event
+ event
+update event
+dnd event
+
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+dnd listener  constructor  comment  param  listener  org  eclipse  swt  internal swt event listener
+</comments>
+</text>
+</DOC>

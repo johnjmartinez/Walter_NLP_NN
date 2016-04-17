@@ -1,0 +1,1667 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.MenuItem.java </DOCNO>
+<text>
+<class>
+menu item
+</class>
+<method>
+menu item
+menu item
+menu item
+add arm listener
+add help listener
+add selection listener
+check subclass
+check style
+fill accel
+fix menus
+get accelerator
+get bounds
+get enabled
+get menu
+get name text
+get parent
+get selection
+ enabled
+release child
+release menu
+release widget
+remove arm listener
+remove help listener
+remove selection listener
+select radio
+set accelerator
+set enabled
+set image
+set menu
+set radio selection
+set selection
+set text
+widget style
+command child
+draw child
+measure child
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ events
+menu item
+ item
+ menu
+ parent
+ menu
+
+ accelerator
+menu item
+ menu
+ parent
+ style
+ parent
+check style
+ style
+ parent
+ parent
+ parent
+create item
+ parent
+get item count
+menu item
+ menu
+ parent
+ style
+ index
+ parent
+check style
+ style
+ parent
+ parent
+ parent
+create item
+ index
+menu item
+ menu
+ parent
+ menu
+ menu
+ style
+ index
+ parent
+check style
+ style
+ parent
+ parent
+ menu
+ menu
+ menu
+ menu
+ cascade
+ display
+add menu item
+add arm listener
+arm listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ arm
+typed listener
+add help listener
+help listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ help
+typed listener
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+check subclass
+valid subclass
+ error
+ swt
+error invalid subclass
+check style
+ style
+check bits
+ style
+ swt
+ push
+ swt
+ check
+ swt
+ radio
+ swt
+ separator
+ swt
+ cascade
+fill accel
+ accel
+ accel
+ accel
+ virt
+ accel
+ cmd
+ accel
+ key
+ accelerator
+get enabled
+ virt
+
+ fvirtkey
+ key
+ accelerator
+ swt
+key mask
+ key
+ display
+untranslate key
+ key
+ key
+ key
+ key
+ key
+ key
+
+ escape
+ key
+
+ delete
+ key
+ display
+wcs mbcs
+ key
+ key
+
+ win
+ key
+
+char upper
+ key
+ key
+
+key scan
+ key
+ key
+ virt
+ key
+ key
+ accel
+ key
+ key
+ accel
+ cmd
+
+ accel
+ virt
+ virt
+ accelerator
+ swt
+ alt
+ accel
+ virt
+
+ falt
+ accelerator
+ swt
+ shift
+ accel
+ virt
+
+ fshift
+ accelerator
+ swt
+ control
+ accel
+ virt
+
+ fcontrol
+fix menus
+ decorations
+new parent
+ menu
+ menu
+fix menus
+new parent
+get accelerator
+check widget
+ accelerator
+ rectangle
+get bounds
+check widget
+
+ win
+ rectangle
+ index
+ parent
+ index
+ index
+ rectangle
+ parent
+ style
+ swt
+ bar
+ decorations
+ shell
+ parent
+ parent
+ shell
+menu bar
+ parent
+ rectangle
+hwnd shell
+ shell
+ handle
+ menubarinfo
+ info
+ menubarinfo
+ info
+ size
+ menubarinfo
+ sizeof
+
+get menu bar info
+hwnd shell
+
+objid menu
+ info
+ rectangle
+ menubarinfo
+ info
+ menubarinfo
+ info
+ size
+ menubarinfo
+ sizeof
+
+get menu bar info
+hwnd shell
+
+objid menu
+ index
+ info
+ rectangle
+
+ info
+ left
+ info
+ left
+
+ info
+ top
+ info
+ top
+ width
+ info
+ right
+ info
+ left
+ height
+ info
+ bottom
+ info
+ top
+ rectangle
+
+
+ width
+ height
+ menu
+ parent
+ handle
+ rect
+ rect
+ rect
+
+get menu item rect
+ menu
+ rect
+ rectangle
+ rect
+ rect
+ rect
+
+get menu item rect
+ menu
+ index
+ rect
+ rectangle
+
+ rect
+ left
+ rect
+ left
+
+ rect
+ top
+ rect
+ top
+ width
+ rect
+ right
+ rect
+ left
+ height
+ rect
+ bottom
+ rect
+ top
+ rectangle
+
+
+ width
+ height
+get enabled
+check widget
+
+ ppc
+
+
+ parent
+ hwnd
+ hwnd
+ parent
+ hwnd
+ tbbuttoninfo
+ info
+ tbbuttoninfo
+ info
+ size
+ tbbuttoninfo
+ sizeof
+ info
+ mask
+
+tbif state
+
+send message
+ hwnd
+
+ getbuttoninfo
+
+ info
+ info
+ state
+
+tbstate enabled
+ menu
+ parent
+ handle
+ menuiteminfo
+ info
+ menuiteminfo
+ info
+ size
+ menuiteminfo
+ sizeof
+ info
+ mask
+
+miim state
+ success
+
+ win
+ index
+ parent
+ index
+ index
+ error
+ swt
+error cannot get enabled
+ success
+
+get menu item info
+ menu
+ index
+ info
+ success
+
+get menu item info
+ menu
+
+ info
+ success
+ error
+ swt
+error cannot get enabled
+ info
+ state
+
+mfs disabled
+
+mfs grayed
+ menu
+get menu
+check widget
+ menu
+ string
+get name text
+ style
+ swt
+ separator
+get name text
+ menu
+get parent
+check widget
+ parent
+get selection
+check widget
+ style
+ swt
+ check
+ swt
+ radio
+
+ ppc
+
+
+ parent
+ hwnd
+ menu
+ parent
+ handle
+ menuiteminfo
+ info
+ menuiteminfo
+ info
+ size
+ menuiteminfo
+ sizeof
+ info
+ mask
+
+miim state
+ success
+
+get menu item info
+ menu
+
+ info
+ success
+ error
+ swt
+error cannot get selection
+ info
+ state
+
+mfs checked
+ enabled
+get enabled
+ parent
+ enabled
+release child
+release child
+ menu
+ menu
+ dispose
+ menu
+ parent
+destroy item
+release menu
+
+
+set menu
+ menu
+release widget
+ menu
+ menu
+release resources
+ menu
+release widget
+ accelerator
+ parent
+destroy accelerators
+ accelerator
+ display
+remove menu item
+ parent
+remove arm listener
+arm listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ arm
+ listener
+remove help listener
+help listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ help
+ listener
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ selection
+ listener
+event table
+ unhook
+ swt
+default selection
+ listener
+select radio
+ index
+menu item
+ items
+ parent
+get items
+ index
+ items
+ length
+ items
+ index
+ index
+
+ index
+
+ items
+
+set radio selection
+
+
+ index
+
+ items
+ length
+ items
+
+set radio selection
+
+set selection
+set accelerator
+ accelerator
+check widget
+ accelerator
+ accelerator
+ accelerator
+ accelerator
+ parent
+destroy accelerators
+set enabled
+ enabled
+check widget
+
+ ppc
+
+
+ parent
+ hwnd
+ hwnd
+ parent
+ hwnd
+ tbbuttoninfo
+ info
+ tbbuttoninfo
+ info
+ size
+ tbbuttoninfo
+ sizeof
+ info
+ mask
+
+tbif state
+
+send message
+ hwnd
+
+ getbuttoninfo
+
+ info
+ info
+ state
+
+tbstate enabled
+ enabled
+ info
+ state
+
+tbstate enabled
+
+send message
+ hwnd
+
+ setbuttoninfo
+
+ info
+ menu
+ parent
+ handle
+
+ win
+ index
+ parent
+ index
+ index
+ enable
+
+ byposition
+ enabled
+
+ enabled
+
+ grayed
+
+enable menu item
+ menu
+ index
+ enable
+ menuiteminfo
+ info
+ menuiteminfo
+ info
+ size
+ menuiteminfo
+ sizeof
+ info
+ mask
+
+miim state
+ success
+
+get menu item info
+ menu
+
+ info
+ success
+ error
+ swt
+error cannot set enabled
+ bits
+
+mfs disabled
+
+mfs grayed
+ enabled
+ info
+ state
+ bits
+ info
+ state
+ bits
+ info
+ state
+ bits
+ bits
+ info
+ state
+ bits
+ success
+
+set menu item info
+ menu
+
+ info
+ success
+ error
+ swt
+error cannot set enabled
+ parent
+destroy accelerators
+ parent
+ redraw
+set image
+ image
+ image
+check widget
+ style
+ swt
+ separator
+set image
+ image
+
+ win
+
+ ppc
+
+
+ parent
+ hwnd
+ hwnd
+ parent
+ hwnd
+ tbbuttoninfo
+ info
+ tbbuttoninfo
+ info
+ size
+ tbbuttoninfo
+ sizeof
+ info
+ mask
+
+tbif image
+ info
+ image
+ parent
+image index
+ image
+
+send message
+ hwnd
+
+ setbuttoninfo
+
+ info
+
+win 32_ version
+
+ version
+ menuiteminfo
+ info
+ menuiteminfo
+ info
+ size
+ menuiteminfo
+ sizeof
+ info
+ mask
+
+miim bitmap
+ image
+ info
+hbmp item
+
+hbmmenu callback
+ menu
+ parent
+ handle
+
+set menu item info
+ menu
+
+ info
+ parent
+ redraw
+set menu
+ menu
+ menu
+check widget
+ style
+ swt
+ cascade
+ error
+ swt
+error menuitem not cascade
+ menu
+ menu
+ disposed
+ error
+ swt
+error invalid argument
+ menu
+ style
+ swt
+drop down
+ error
+ swt
+error menu not drop down
+ menu
+ parent
+ parent
+ parent
+ error
+ swt
+error invalid parent
+ menu
+old menu
+ menu
+old menu
+ menu
+old menu
+old menu
+ cascade
+ menu
+ menu
+
+ ppc
+
+
+ parent
+ hwnd
+
+ ppc
+ hwnd
+ parent
+ hwnd
+ menu
+ menu
+ menu
+ handle
+
+send message
+ hwnd
+
+shcmbm setsubmenu
+
+ menu
+
+
+ error
+ swt
+error cannot set menu
+ menu
+ parent
+ handle
+ menuiteminfo
+ info
+ menuiteminfo
+ info
+ size
+ menuiteminfo
+ sizeof
+ info
+ mask
+
+miim data
+ index
+
+get menu item info
+ menu
+ index
+ info
+ info
+item data
+
+ index
+ info
+item data
+
+has bitmap
+ success
+
+ win
+
+win 32_ version
+
+ version
+ info
+ mask
+
+miim bitmap
+
+get menu item info
+ menu
+ index
+ info
+has bitmap
+ info
+hbmp item
+has bitmap
+ info
+hbmp item
+ success
+
+set menu item info
+ menu
+
+ info
+ cch
+ heap
+
+get process heap
+byte count
+ cch
+ tchar
+ sizeof
+psz text
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+ info
+ mask
+
+miim state
+
+ miim
+
+miim type
+
+miim data
+ info
+type data
+psz text
+ info
+ cch
+ cch
+ success
+
+get menu item info
+ menu
+ index
+ info
+ menu
+ menu
+ cascade
+ info
+ mask
+
+miim submenu
+ info
+sub menu
+ menu
+ handle
+
+remove menu
+ menu
+ index
+
+ byposition
+
+ win
+new item
+
+ flags
+
+ byposition
+ menu
+ flags
+
+ popup
+new item
+ menu
+ handle
+ tchar
+new item
+ tchar
+ success
+
+insert menu
+ menu
+ index
+ flags
+new item
+new item
+ success
+ info
+ mask
+
+miim data
+
+miim type
+ success
+
+set menu item info
+ menu
+ index
+ info
+ info
+ state
+
+mfs disabled
+
+mfs grayed
+
+enable menu item
+ menu
+ index
+
+ byposition
+
+ grayed
+ info
+ state
+
+mfs checked
+
+check menu item
+ menu
+ index
+
+ byposition
+
+ checked
+ success
+
+insert menu item
+ menu
+ index
+ info
+
+win 32_ version
+
+ version
+has bitmap
+ info
+ mask
+
+miim bitmap
+ info
+hbmp item
+
+hbmmenu callback
+ success
+
+set menu item info
+ menu
+
+ info
+psz text
+
+heap free
+ heap
+psz text
+ success
+ error
+ swt
+error cannot set menu
+ parent
+destroy accelerators
+set radio selection
+ value
+ style
+ swt
+ radio
+get selection
+ value
+set selection
+ value
+post event
+ swt
+ selection
+set selection
+ selected
+check widget
+ style
+ swt
+ check
+ swt
+ radio
+
+ ppc
+
+
+ parent
+ hwnd
+ menu
+ parent
+ handle
+
+ win
+ index
+ parent
+ index
+ index
+ check
+
+ byposition
+ selected
+
+ checked
+
+ unchecked
+
+check menu item
+ menu
+ index
+ check
+ menuiteminfo
+ info
+ menuiteminfo
+ info
+ size
+ menuiteminfo
+ sizeof
+ info
+ mask
+
+miim state
+ success
+
+get menu item info
+ menu
+
+ info
+ success
+ error
+ swt
+error cannot set selection
+ info
+ state
+
+mfs checked
+ selected
+ info
+ state
+
+mfs checked
+ success
+
+set menu item info
+ menu
+
+ info
+ success
+ error
+ swt
+error cannot set selection
+ parent
+ redraw
+set text
+ string
+ string
+check widget
+ string
+ error
+ swt
+error null argument
+ style
+ swt
+ separator
+ text
+ equals
+ string
+set text
+ string
+ heap
+
+get process heap
+psz text
+ success
+
+ ppc
+
+
+ parent
+ hwnd
+ string
+ index
+ length
+ string
+ length
+ text
+ length
+ string
+get chars
+ length
+ text
+
+
+
+
+ length
+
+ text
+
+ text
+
+ text
+
+
+
+ string
+ string
+ text
+
+ tchar
+ buffer
+ tchar
+ string
+byte count
+ buffer
+ length
+ tchar
+ sizeof
+psz text
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+psz text
+ buffer
+byte count
+ hwnd
+ parent
+ hwnd
+ tbbuttoninfo
+ info
+ tbbuttoninfo
+ info
+ size
+ tbbuttoninfo
+ sizeof
+ info
+ mask
+
+tbif text
+ info
+psz text
+psz text
+ success
+
+send message
+ hwnd
+
+ setbuttoninfo
+
+ info
+ menuiteminfo
+ info
+ menuiteminfo
+ info
+ size
+ menuiteminfo
+ sizeof
+ menu
+ parent
+ handle
+has bitmap
+
+ win
+
+win 32_ version
+
+ version
+ info
+ mask
+
+miim bitmap
+
+get menu item info
+ menu
+
+ info
+has bitmap
+ info
+hbmp item
+ tchar
+ buffer
+ tchar
+ string
+byte count
+ buffer
+ length
+ tchar
+ sizeof
+psz text
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+psz text
+ buffer
+byte count
+ info
+ mask
+
+miim type
+ info
+ type
+widget style
+ info
+type data
+psz text
+ success
+
+set menu item info
+ menu
+
+ info
+
+ win
+
+win 32_ version
+
+ version
+has bitmap
+ info
+ mask
+
+miim bitmap
+ info
+hbmp item
+
+hbmmenu callback
+ success
+
+set menu item info
+ menu
+
+ info
+psz text
+
+heap free
+ heap
+psz text
+ success
+ error
+ swt
+error cannot set text
+ parent
+ redraw
+widget style
+ bits
+ decorations
+ shell
+ parent
+ parent
+ shell
+ style
+ swt
+ mirrored
+ parent
+ style
+ swt
+left right
+ bits
+
+mft rightjustify
+
+mft rightorder
+ parent
+ style
+ swt
+right left
+ bits
+
+mft rightjustify
+
+mft rightorder
+ style
+ swt
+ separator
+ bits
+
+mft separator
+ style
+ swt
+ radio
+ bits
+
+mft radiocheck
+ bits
+
+mft string
+ lresult
+command child
+ param
+ param
+ style
+ swt
+ check
+set selection
+get selection
+ style
+ swt
+ radio
+ parent
+get style
+ swt
+radio group
+set selection
+get selection
+select radio
+ event
+ event
+ event
+set input state
+ event
+ swt
+ selection
+post event
+ swt
+ selection
+ event
+ lresult
+draw child
+ param
+ param
+ drawitemstruct
+ struct
+ drawitemstruct
+
+move memory
+ struct
+ param
+ drawitemstruct
+ sizeof
+ image
+ data
+ data
+ data
+ data
+ device
+ display
+
+
+
+win 32_new
+ struct
+
+ data
+
+ parent
+ style
+ swt
+ bar
+
+ win
+ struct
+ left
+
+draw image
+ image
+
+ struct
+ top
+
+ dispose
+ lresult
+measure child
+ param
+ param
+ measureitemstruct
+ struct
+ measureitemstruct
+
+move memory
+ struct
+ param
+ measureitemstruct
+ sizeof
+ width
+ height
+ image
+ rectangle
+ rect
+ image
+get bounds
+ width
+ rect
+ width
+ height
+ rect
+ height
+ menuinfo
+ lpcmi
+ menuinfo
+ lpcmi
+ size
+ menuinfo
+ sizeof
+ lpcmi
+ mask
+
+mim style
+ menu
+ parent
+ handle
+
+get menu info
+ menu
+ lpcmi
+ lpcmi
+ style
+
+mns checkorbmp
+menu item
+ items
+ parent
+get items
+
+
+ items
+ length
+
+menu item
+ item
+ items
+
+ item
+ image
+ rectangle
+ rect
+ item
+ image
+get bounds
+ width
+ math
+ max
+ width
+ rect
+ width
+ width
+ height
+ struct
+item width
+ width
+
+ win
+ struct
+item height
+ height
+
+move memory
+ param
+ struct
+ measureitemstruct
+ sizeof
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  represent  selectable  user  interface  object  that  issues  notification  when  pressed  and  released  styles  check  cascade  push  radio  separator  events  arm  help  selection  note  only  one  the  styles  check  cascade  push  radio  and  separator  may  specified  important  this  class  not  intended  subclassed 
+constructs  new  instance  this  class  given  its  parent  which  must  code  menu  code  and  style  value  describing  its  behavior  and  appearance  the  item  added  the  end  the  items  maintained  its  parent  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  menu  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  check  see  swt  cascade  see  swt  push  see  swt  radio  see  swt  separator  see  widget check subclass  see  widget get style
+constructs  new  instance  this  class  given  its  parent  which  must  code  menu  code  style  value  describing  its  behavior  and  appearance  and  the  index  which  place  the  items  maintained  its  parent  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  menu  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  param  index  the  index  store  the  receiver  its  parent  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  check  see  swt  cascade  see  swt  push  see  swt  radio  see  swt  separator  see  widget check subclass  see  widget get style
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  arm  events  are  generated  for  the  control  sending  one  the  messages  defined  the  code arm listener  code  interface  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see arm listener  see remove arm listener
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  help  events  are  generated  for  the  control  sending  one  the  messages  defined  the  code help listener  code  interface  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see help listener  see remove help listener
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  menu  item  selected  sending  one  the  messages  defined  the  code selection listener  code  interface  when  code widget selected  code  called  the state mask  field  the  event  object  valid  code widget default selected  code  not  called  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener  see selection event
+bug  windows  for  some  reason key scan  fails  map  esc  escape  and  del  delete  the  fix  map  these  keys  special  case
+returns  the  widget  accelerator  accelerator  the  bit  wise  zero  more  modifier  masks  and  key  examples  code  swt  control  swt  shift  swt  alt  swt  code  the  default  value  zero  indicating  that  the  menu  item  does  not  have  accelerator  return  the  accelerator  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  rectangle  describing  the  receiver  size  and  location  relative  its  parent  its  display  its  parent  null  return  the  receiver  bounding  rectangle  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+  public
+returns  code  true  code  the  receiver  enabled  and  code  false  code  otherwise  disabled  menu  item  typically  not  selectable  from  the  user  interface  and  draws  with  inactive  grayed  look  return  the  receiver  enabled  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  enabled
+returns  the  receiver  cascade  menu  has  one  null  does  not  only  code  cascade  code  menu  items  can  have  pull  down  menu  the  sequence  key  strokes  button  presses  and  button  releases  that  are  used  request  pull  down  menu  platform  specific  return  the  receiver  menu  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  parent  which  must  code  menu  code  return  the  receiver  parent  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  true  code  the  receiver  selected  and  false  otherwise  when  the  receiver  type  code  check  code  code  radio  code  selected  when  checked  return  the  selection  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  true  code  the  receiver  enabled  and  all  the  receiver  ancestors  are  enabled  and  code  false  code  otherwise  disabled  menu  item  typically  not  selectable  from  the  user  interface  and  draws  with  inactive  grayed  look  return  the  receiver  enabled  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see get enabled
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  arm  events  are  generated  for  the  control  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see arm listener  see add arm listener
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  help  events  are  generated  for  the  control  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see help listener  see add help listener
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  control  selected  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener
+sets  the  widget  accelerator  accelerator  the  bit  wise  zero  more  modifier  masks  and  key  examples  code  swt  mod  swt  mod  swt  mod  swt  code  code  swt  control  swt  shift  swt  alt  swt  code  the  default  value  zero  indicating  that  the  menu  item  does  not  have  accelerator  param  accelerator  integer  that  the  bit  wise  masks  and  key  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+enables  the  receiver  the  argument  code  true  code  and  disables  otherwise  disabled  menu  item  typically  not  selectable  from  the  user  interface  and  draws  with  inactive  grayed  look  param  enabled  the  new  enabled  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  image  the  receiver  will  display  the  argument  note  this  operation  hint  and  not  supported  platforms  that  not  have  this  concept  for  example  windows  param  image  the  image  display  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  receiver  pull  down  menu  the  argument  only  code  cascade  code  menu  items  can  have  pull  down  menu  the  sequence  key  strokes  button  presses  and  button  releases  that  are  used  request  pull  down  menu  platform  specific  param  menu  the  new  pull  down  menu  exception illegal argument exception  error  menu  not  drop  down  the  menu  not  drop  down  menu  error  menuitem  not  cascade  the  menu  item  not  code  cascade  code  error  invalid  argument  the  menu  has  been  disposed  error  invalid  parent  the  menu  not  the  same  widget  tree  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+check  make  sure  the  new  menu  valid
+assign  the  new  menu
+assign  the  new  menu  the 
+feature  windows  when set menu item info  used  set  submenu  and  the  menu  item  already  has  submenu  windows  destroys  the  previous  menu  this  undocumented  and  unexpected  but  not  necessarily  wrong  the  fix  remove  the  item  with remove menu  which  does  not  destroy  the  submenu  and  then  insert  the  item  with insert menu item
+bug  windows  when get menu item info  used  get  the  text  for  item  that  has  bitmap  set  using  miim  bitmap  the  text  not  returned  this  means  that  when set menu item info  used  set  the  submenu  and  the  current  menu  state  the  text  lost  the  fix  temporarily  remove  the  bitmap  and  restore  after  the  text  and  submenu  have  been  set
+win insert menu item  not  available  the  fix  use set menu item info  but  this  call  does  not  set  the  menu  item  state  and  submenu  the  fix  use insert menu  insert  the  item set menu item info  set  the  string  and enable menu item  and check menu item  set  the  state
+restore  the  bitmap  that  was  removed  work  around  problem get menu item info  and  menu  items  that  have  bitmaps  set  with  miim  bitmap
+sets  the  selection  state  the  receiver  when  the  receiver  type  code  check  code  code  radio  code  selected  when  checked  param  selected  the  new  selection  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  receiver  text  the  string  may  include  the  mnemonic  character  and  accelerator  text  mnemonics  are  indicated  amp  that  causes  the  next  character  the  mnemonic  when  the  user  presses  key  sequence  that  matches  the  mnemonic  selection  event  occurs  most  platforms  the  mnemonic  appears  underlined  but  may  emphasised  platform  specific  manner  the  mnemonic  indicator  character  amp  can  escaped  doubling  the  string  causing  single  amp  displayed  accelerator  text  indicated  the  character  platforms  that  support  accelerator  text  the  text  that  follows  the  character  displayed  the  user  typically  indicating  the  key  stroke  that  will  cause  the  item  become  selected  most  platforms  the  accelerator  text  appears  right  aligned  the  menu  setting  the  accelerator  text  does  not  install  the  accelerator  key  sequence  the  accelerator  key  sequence  installed  using set accelerator  param  string  the  new  text  exception illegal argument exception  error  null  argument  the  text  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see set accelerator
+bug  win  ppc  tool  items  the  menubar  don  resize  correctly  when  the  character  used  even  when  sequence  the  fix  remove  all  from  the  string
+use  the  character  encoding  for  the  default  locale
+bug  windows  2000  for  some  reason  when  miim  type  set  menu  item  that  also  has  miim  bitmap  the  miim  type  clears  the  miim  bitmap  style  the  fix  reset  both  miim  bitmap  note  this  does  not  happen  windows 
+use  the  character  encoding  for  the  default  locale
+restore  the  bitmap  that  was  removed  work  around  problem get menu item info  and  menu  items  that  have  bitmaps  set  with  miim  bitmap
+bug  windows  when  bitmap  included  the  menu  bar  the  hdc  seems  already  include  the  left  coordinate  the  fix  ignore  this  value  when  the  item  menu  bar
+bug  windows  menu  contains  items  that  have  images  and  can  checked  windows  does  not  include  the  width  the  image  and  the  width  the  check  when  computing  the  width  the  menu  when  the  longest  item  does  not  have  image  the  label  and  the  accelerator  text  can  overlap  the  fix  use set menu item info  indicate  that  all  items  have  bitmap  and  then  include  the  width  the  widest  bitmap  measurechild
+feature  windows  windows  necessary  add  pixels  the  width  the  image  the  image  and  text  are  too  close  other  windows  platforms  this  causes  the  text  the  longest  item  touch  the  accelerator  text  the  fix  add  only  pixels  this  case
+</comments>
+</text>
+</DOC>

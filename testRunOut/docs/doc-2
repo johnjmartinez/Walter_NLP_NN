@@ -1,0 +1,377 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.TreeEditor.java </DOCNO>
+<text>
+<class>
+tree editor
+</class>
+<method>
+tree editor
+control moved
+control resized
+ run
+tree collapsed
+tree expanded
+compute bounds
+ dispose
+get column
+get item
+set column
+set item
+set editor
+set editor
+ resize
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+tree editor
+control editor
+ tree
+ tree
+tree item
+ item
+ column
+control listener
+column listener
+tree listener
+tree listener
+tree editor
+ tree
+ tree
+ tree
+ tree
+ tree
+column listener
+control listener
+control moved
+control event
+
+ resize
+control resized
+control event
+
+ resize
+tree listener
+tree listener
+ runnable
+ runnable
+ runnable
+ run
+ editor
+ editor
+ disposed
+tree editor
+ tree
+ disposed
+ resize
+ editor
+set visible
+tree collapsed
+tree event
+
+ editor
+ editor
+ disposed
+ editor
+set visible
+
+ display
+async exec
+ runnable
+tree expanded
+tree event
+
+ editor
+ editor
+ disposed
+ editor
+set visible
+
+ display
+async exec
+ runnable
+ tree
+add tree listener
+tree listener
+grab vertical
+ rectangle
+compute bounds
+ item
+ column
+ item
+ disposed
+ rectangle
+ rectangle
+ cell
+ item
+get bounds
+ column
+ rectangle
+ rect
+ item
+get image bounds
+ column
+ cell
+
+ rect
+
+ rect
+ width
+ cell
+ width
+ rect
+ width
+ rectangle
+ area
+ tree
+get client area
+ cell
+
+ area
+
+ area
+ width
+ cell
+
+ cell
+ width
+ area
+
+ area
+ width
+ cell
+ width
+ area
+
+ area
+ width
+ cell
+
+ rectangle
+editor rect
+ rectangle
+ cell
+
+ cell
+
+minimum width
+minimum height
+grab horizontal
+ tree
+get column count
+ cell
+ width
+ area
+
+ area
+ width
+ cell
+
+editor rect
+ width
+ math
+ max
+ cell
+ width
+minimum width
+grab vertical
+editor rect
+ height
+ math
+ max
+ cell
+ height
+minimum height
+horizontal alignment
+ swt
+ right
+editor rect
+
+ cell
+ width
+editor rect
+ width
+horizontal alignment
+ swt
+ left
+editor rect
+
+ cell
+ width
+editor rect
+ width
+editor rect
+
+ math
+ max
+ cell
+
+editor rect
+
+vertical alignment
+ swt
+ bottom
+editor rect
+
+ cell
+ height
+editor rect
+ height
+vertical alignment
+ swt
+ top
+editor rect
+
+ cell
+ height
+editor rect
+ height
+editor rect
+ dispose
+ column
+ column
+ tree
+get column count
+tree column
+tree column
+ tree
+get column
+ column
+tree column
+remove control listener
+column listener
+column listener
+tree listener
+ tree
+remove tree listener
+tree listener
+tree listener
+ tree
+ item
+ column
+ dispose
+get column
+ column
+tree item
+get item
+ item
+set column
+ column
+column count
+ tree
+get column count
+column count
+ column
+ column
+ resize
+ column
+ column
+column count
+tree column
+tree column
+ tree
+get column
+ column
+tree column
+remove control listener
+column listener
+ column
+ column
+ column
+ tree
+get column count
+ column
+ column
+tree column
+tree column
+ tree
+get column
+ column
+tree column
+add control listener
+column listener
+ resize
+set item
+tree item
+ item
+ item
+ item
+ resize
+set editor
+ control
+ editor
+tree item
+ item
+ column
+set item
+ item
+set column
+ column
+set editor
+ editor
+set editor
+ control
+ editor
+tree item
+ item
+set item
+ item
+set editor
+ editor
+ resize
+ tree
+ disposed
+ item
+ item
+ disposed
+column count
+ tree
+get column count
+column count
+ column
+column count
+ column
+ column
+column count
+ resize
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+tree editor  manager  for  control  that  appears  above  cell  tree  and  tracks  with  the  moving  and  resizing  that  cell  can  used  display  text  widget  above  cell  tree  that  the  user  can  edit  the  contents  that  cell  can  also  used  display  button  that  can  launch  dialog  for  modifying  the  contents  the  associated  cell  here  example  using tree editor  code  pre  final  tree  tree  new  tree  shell  swt  border  for  int tree item  item  new tree item  tree  swt  none  item set text  item  for  int tree item sub item  new tree item  item  swt  none sub item set text  item  final tree editor  editor  new tree editor  tree  the  editor  must  have  the  same  size  the  cell  and  must  not  any  smaller  than  pixels  editor horizontal alignment  swt  left  editor grab horizontal  true  editor minimum width  tree add selection listener  new selection adapter  public  void widget selected selection event  clean  any  previous  editor  control  control old editor  editor get editor old editor  null old editor  dispose  identify  the  selected  row tree item  item tree item  item  item  null  return  the  control  that  will  the  editor  must  child  the  tree  text new editor  new  text  tree  swt  none new editor set text  item get text new editor add modify listener  new modify listener  public  void modify text modify event  text  text  text  editor get editor  editor get item set text  text get text new editor select all new editor set focus  editor set editor new editor  item  pre  code
+creates tree editor  for  the  specified  tree  param  tree  the  tree  control  above  which  this  editor  will  displayed
+consistent  with  older  versions  swt grab vertical  defaults  true
+bounds  tree  item  only  include  the  text  area  stretch  out  include
+entire  client  area
+nothing  cell  the  right  answer
+default  center
+don  let  the  editor  overlap  with  the  the  tree
+nothing  cell  the  right  answer
+default  center
+removes  all  associations  between  the tree editor  and  the  row  the  tree  the  tree  and  the  editor  control  are  not  disposed
+returns  the  zero  based  index  the  column  the  cell  being  tracked  this  editor  return  the  zero  based  index  the  column  the  cell  being  tracked  this  editor  since 
+returns  the tree item  for  the  row  the  cell  being  tracked  this  editor  return  the tree item  for  the  row  the  cell  being  tracked  this  editor
+sets  the  zero  based  index  the  column  the  cell  being  tracked  this  editor  param  column  the  zero  based  index  the  column  the  cell  being  tracked  this  editor  since 
+separately  handle  the  case  where  the  tree  has tree columns
+this  situation  there  single  default  column
+specify  the  control  that  displayed  and  the  cell  the  tree  that  positioned  above  note  the  control  provided  the  editor  must  created  with  its  parent  being  the  tree  control  specified  the tree editor  constructor  param  editor  the  control  that  displayed  above  the  cell  being  edited  param  item  the tree item  for  the  row  the  cell  being  tracked  this  editor  param  column  the  zero  based  index  the  column  the  cell  being  tracked  this  editor  since 
+specify  the  control  that  displayed  and  the  cell  the  tree  that  positioned  above  note  the  control  provided  the  editor  must  created  with  its  parent  being  the  tree  control  specified  the tree editor  constructor  param  editor  the  control  that  displayed  above  the  cell  being  edited  param  item  the tree item  for  the  row  the  cell  being  tracked  this  editor
+</comments>
+</text>
+</DOC>

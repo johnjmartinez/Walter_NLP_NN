@@ -1,0 +1,43 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.RunnableLock.java </DOCNO>
+<text>
+<class>
+runnable lock
+</class>
+<method>
+runnable lock
+ done
+ run
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+runnable lock
+ runnable
+ runnable
+ thread
+ thread
+ throwable
+ throwable
+runnable lock
+ runnable
+ runnable
+ runnable
+ runnable
+ done
+ runnable
+ throwable
+ run
+ runnable
+ runnable
+ run
+ runnable
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  used  ensure  that  application  cannot  interfere  with  the  locking  mechanism  used  implement  asynchonous  and  synchronous  communication  between  widgets  and  background  threads
+</comments>
+</text>
+</DOC>

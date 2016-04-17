@@ -1,0 +1,746 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.CBanner.java </DOCNO>
+<text>
+<class>
+ banner
+</class>
+<method>
+ banner
+handle event
+ bezier
+check style
+get bottom
+get client area
+get left
+get right
+get right minimum size
+get right width
+get simple
+ dispose
+mouse down
+mouse exit
+mouse move
+ mouse
+ paint
+ resize
+set bottom
+set layout
+set left
+set right
+set right minimum size
+set right width
+set simple
+update curve
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ banner
+ composite
+ control
+ left
+ control
+ right
+ control
+ bottom
+ simple
+ curve
+curve start
+ rectangle
+curve rect
+ rectangle
+curve _width
+curve _indent
+right width
+ swt
+ default
+right min width
+ swt
+ default
+right min height
+ swt
+ default
+ cursor
+resize cursor
+ dragging
+right drag displacement
+ offscreen
+border bottom
+border top
+border stripe
+curve tail
+bezier right
+bezier left
+min left
+ border
+ swt
+color widget highlight shadow
+ banner
+ composite
+ parent
+ style
+ parent
+check style
+ style
+set layout
+banner layout
+resize cursor
+ cursor
+get display
+ swt
+cursor sizewe
+ listener
+ listener
+ listener
+handle event
+ event
+
+
+ type
+ swt
+ dispose
+ dispose
+ swt
+mouse down
+mouse down
+
+
+
+
+ swt
+mouse exit
+mouse exit
+ swt
+mouse move
+mouse move
+
+
+
+
+ swt
+ mouse
+ mouse
+ swt
+ paint
+ paint
+
+
+ swt
+ resize
+ resize
+ events
+ swt
+ dispose
+ swt
+mouse down
+ swt
+mouse exit
+ swt
+mouse move
+ swt
+ mouse
+ swt
+ paint
+ swt
+ resize
+
+
+ events
+ length
+
+add listener
+ events
+
+ listener
+ bezier
+
+
+
+
+
+
+
+
+ count
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ polygon
+ count
+
+
+ count
+
+
+
+ count
+ polygon
+
+
+
+
+
+
+
+
+
+
+
+ polygon
+
+
+
+
+
+
+
+
+
+
+
+ polygon
+check style
+ style
+ swt
+ none
+ control
+get bottom
+check widget
+ bottom
+ rectangle
+get client area
+ rectangle
+ control
+get left
+check widget
+ left
+ control
+get right
+check widget
+ right
+ point
+get right minimum size
+check widget
+ point
+right min width
+right min height
+get right width
+check widget
+ right
+right width
+ swt
+ default
+ point
+ size
+ right
+compute size
+ swt
+ default
+get size
+
+ size
+
+right width
+get simple
+check widget
+ simple
+ dispose
+resize cursor
+resize cursor
+ dispose
+resize cursor
+ left
+ right
+mouse down
+
+
+curve rect
+ contains
+
+
+ dragging
+right drag displacement
+curve start
+
+curve _width
+curve _indent
+mouse exit
+ dragging
+set cursor
+mouse move
+
+
+ dragging
+ point
+ size
+get size
+
+
+ size
+
+right width
+ math
+ max
+ size
+
+
+right drag displacement
+right min width
+ swt
+ default
+right width
+ math
+ max
+right min width
+right width
+ layout
+curve rect
+ contains
+
+
+set cursor
+resize cursor
+set cursor
+ mouse
+ dragging
+ paint
+
+
+ point
+ size
+get size
+ color
+ border
+get display
+get system color
+ border
+ bottom
+ left
+ right
+
+set foreground
+ border
+
+ bottom
+get bounds
+
+border stripe
+
+draw line
+
+ size
+
+
+ left
+ right
+ line
+ curve
+ length
+ index
+
+curve start
+
+ line
+ index
+
+ line
+ index
+ size
+
+border stripe
+
+
+ curve
+ length
+
+ line
+ index
+
+ curve
+
+ line
+ index
+
+ curve
+
+ line
+ index
+
+curve _width
+ line
+ index
+ line
+ index
+ size
+
+ line
+ index
+ color
+ background
+get background
+get display
+get depth
+ line
+ line
+ length
+ index
+
+
+ line
+ length
+
+ line
+ index
+ line
+ index
+ line
+ index
+ line
+ index
+ line
+ line
+ length
+ index
+
+
+ line
+ length
+
+ line
+ index
+ line
+ index
+ line
+ index
+ line
+ index
+ rgb
+ from
+ border
+get rgb
+ rgb
+
+ background
+get rgb
+ red
+ from
+ red
+
+ red
+ from
+ red
+ green
+ from
+ green
+
+ green
+ from
+ green
+ blue
+ from
+ blue
+
+ blue
+ from
+ blue
+ color
+ color
+ color
+get display
+ red
+ green
+ blue
+
+set foreground
+ color
+
+draw polyline
+ line
+
+draw polyline
+ line
+ color
+ dispose
+
+ math
+ max
+curve start
+curve tail
+
+set foreground
+ background
+
+set background
+ border
+
+fill gradient rectangle
+
+ size
+
+border stripe
+curve start
+
+
+ math
+ max
+curve start
+curve tail
+
+set foreground
+ border
+
+draw line
+
+ size
+
+border stripe
+curve start
+ size
+
+border stripe
+
+set foreground
+ border
+
+draw polyline
+ line
+ resize
+update curve
+get size
+
+set bottom
+ control
+ control
+check widget
+ control
+ control
+get parent
+ swt
+ error
+ swt
+error invalid argument
+ bottom
+ bottom
+ disposed
+ point
+ size
+ bottom
+get size
+ bottom
+set location
+ offscreen
+ size
+
+ offscreen
+ size
+
+ bottom
+ control
+ layout
+set layout
+ layout
+ layout
+check widget
+set left
+ control
+ control
+check widget
+ control
+ control
+get parent
+ swt
+ error
+ swt
+error invalid argument
+ left
+ left
+ disposed
+ point
+ size
+ left
+get size
+ left
+set location
+ offscreen
+ size
+
+ offscreen
+ size
+
+ left
+ control
+ layout
+set right
+ control
+ control
+check widget
+ control
+ control
+get parent
+ swt
+ error
+ swt
+error invalid argument
+ right
+ right
+ disposed
+ point
+ size
+ right
+get size
+ right
+set location
+ offscreen
+ size
+
+ offscreen
+ size
+
+ right
+ control
+ layout
+set right minimum size
+ point
+ size
+check widget
+ size
+ size
+
+ swt
+ default
+ size
+
+ swt
+ default
+ swt
+ error
+ swt
+error invalid argument
+right min width
+ size
+
+right min height
+ size
+
+set right width
+ width
+check widget
+ width
+ swt
+ default
+ swt
+ error
+ swt
+error invalid argument
+right width
+ width
+ layout
+set simple
+ simple
+check widget
+ simple
+ simple
+ simple
+ simple
+ simple
+curve _width
+curve _indent
+curve _width
+curve _indent
+update curve
+get size
+
+ layout
+ redraw
+update curve
+ height
+
+ height
+border stripe
+ simple
+ curve
+
+
+
+
+ curve
+ bezier
+
+bezier left
+
+curve _width
+bezier right
+curve _width
+curve _width
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  implement  composite  that  lays  out  its  children  and  allows  programmatic  control  the  layout  draws  separator  between  the  left  and  right  children  which  can  dragged  resize  the  right  control  banner  used  the  workbench  layout  the  toolbar  area  and  perspective  switching  toolbar  note  that  although  this  class  subclass  code  composite  code  does  not  make  sense  set  layout  styles  none  events  none  important  this  class  not  intended  subclassed  since 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  widget  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  widget  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent 
+the  parametric  equations  for  bezier  curve  for  and  where  are
+ 
+ 
+returns  the  control  that  appears  the  bottom  side  the  banner  return  the  control  that  appears  the  bottom  side  the  banner  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  the  control  that  appears  the  left  side  the  banner  return  the  control  that  appears  the  left  side  the  banner  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  the  control  that  appears  the  right  side  the  banner  return  the  control  that  appears  the  right  side  the  banner  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  the  minimum  size  the  control  that  appears  the  right  the  banner  return  the  minimum  size  the  control  that  appears  the  right  the  banner  since 
+returns  the  width  the  control  that  appears  the  right  the  banner  return  the  width  the  control  that  appears  the  right  the  banner  since 
+returns  code  true  code  the  banner  rendered  with  simple  traditional  shape  return  code  true  code  the  cbanner  rendered  with  simple  shape  since 
+useful  for  debugging  paint  problems
+
+point  size get size
+set background get display get system color  swt  color  green
+fill rectangle  size  size 
+
+anti  aliasing
+draw  tail  fading  background
+draw  solid  tail
+draw  border
+set  the  control  that  appears  the  bottom  side  the  banner  the  bottom  control  optional  setting  the  bottom  control  null  will  remove  from  the  banner  however  the  creator  the  control  must  dispose  the  control  param  control  the  control  displayed  the  bottom  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  bottom  control  was  not  created  child  the  receiver  since 
+sets  the  layout  which  associated  with  the  receiver  the  argument  which  may  null  note  layout  can  set  this  control  because  already  manages  the  size  and  position  its  children  param  layout  the  receiver  new  layout  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+set  the  control  that  appears  the  left  side  the  banner  the  left  control  optional  setting  the  left  control  null  will  remove  from  the  banner  however  the  creator  the  control  must  dispose  the  control  param  control  the  control  displayed  the  left  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  left  control  was  not  created  child  the  receiver  since 
+set  the  control  that  appears  the  right  side  the  banner  the  right  control  optional  setting  the  right  control  null  will  remove  from  the  banner  however  the  creator  the  control  must  dispose  the  control  param  control  the  control  displayed  the  right  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  right  control  was  not  created  child  the  receiver  since 
+set  the  minumum  height  the  control  that  appears  the  right  side  the  banner  param  size  the  minimum  size  the  control  the  right  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  size  null  the  values  size  are  less  than  swt  default  since 
+set  the  width  the  control  that  appears  the  right  side  the  banner  param  width  the  width  the  control  the  right  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  width  less  than  swt  default  since 
+sets  the  shape  that  the  banner  will  use  render  itself  param  simple  code  true  code  the  banner  should  render  itself  simple  traditional  style  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+</comments>
+</text>
+</DOC>

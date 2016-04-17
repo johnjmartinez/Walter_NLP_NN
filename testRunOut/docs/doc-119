@@ -1,0 +1,41 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.JPEGAppn.java </DOCNO>
+<text>
+<class>
+jpeg appn
+</class>
+<method>
+jpeg appn
+jpeg appn
+ verify
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+jpeg appn
+jpeg variable size segment
+jpeg appn
+ reference
+ reference
+jpeg appn
+data input stream
+byte stream
+byte stream
+ verify
+ marker
+get segment marker
+ marker
+jpeg file format
+ app
+ marker
+jpeg file format
+ app
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

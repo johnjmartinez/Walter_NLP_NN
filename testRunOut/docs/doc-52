@@ -1,0 +1,1335 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.DefaultContent.java </DOCNO>
+<text>
+<class>
+default content
+</class>
+<method>
+default content
+add line index
+add line index
+add text change listener
+adjust gap
+index lines
+ delimiter
+valid replace
+index lines
+ insert
+move and resize gap
+line count
+line count
+get char count
+get line
+get line delimiter
+get full line
+get physical line
+get line count
+get line offset
+get line physical offset
+get offset line
+expand lines
+ error
+gap exists
+get physical text
+get text range
+remove text change listener
+replace text range
+send text event
+set text
+ delete
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ internal
+ compatibility
+ org
+ eclipse
+ swt
+ widgets
+ java
+ util
+ vector
+default content
+styled text content
+ string
+line delimiter
+ system
+get property
+ vector
+text listeners
+ vector
+text store
+gap start
+gap end
+gap line
+high watermark
+low watermark
+ lines
+line count
+expand exp
+replace expand exp
+default content
+set text
+add line index
+ start
+ length
+ size
+ lines
+ length
+line count
+ size
+new lines
+ size
+ compatibility
+ pow
+expand exp
+ system
+ arraycopy
+ lines
+new lines
+ size
+ lines
+new lines
+expand exp
+ range
+ start
+ length
+ lines
+line count
+ range
+line count
+add line index
+ start
+ length
+lines array
+ count
+ size
+lines array
+ length
+new lines
+lines array
+ count
+ size
+new lines
+ size
+ compatibility
+ pow
+replace expand exp
+replace expand exp
+ system
+ arraycopy
+lines array
+new lines
+ size
+ range
+ start
+ length
+new lines
+ count
+ range
+new lines
+add text change listener
+text change listener
+ listener
+ listener
+ error
+ swt
+error null argument
+styled text listener
+typed listener
+styled text listener
+ listener
+text listeners
+add element
+typed listener
+adjust gap
+ position
+size hint
+ line
+ position
+gap start
+ size
+gap end
+gap start
+size hint
+low watermark
+ size
+ size
+high watermark
+ position
+size hint
+gap start
+size hint
+ size
+gap end
+gap start
+size hint
+low watermark
+ size
+ size
+high watermark
+move and resize gap
+ position
+size hint
+ line
+index lines
+ start
+line count
+text length
+text store
+ length
+
+
+ start
+
+text length
+
+
+text store
+
+
+ swt
+
+
+text length
+
+text store
+
+
+ swt
+
+
+add line index
+ start
+
+ start
+ start
+
+
+ swt
+
+add line index
+ start
+
+ start
+ start
+
+add line index
+ start
+
+ start
+ delimiter
+
+
+ swt
+
+
+ swt
+
+valid replace
+ start
+replace length
+ string
+new text
+replace length
+ start
+ start
+get char count
+ before
+get text range
+ start
+ char
+ before
+ after
+get text range
+ start
+ char
+ after
+start char
+get text range
+ start
+ char
+start char
+ start
+ before
+get text range
+ start
+ char
+ before
+end char
+get text range
+ start
+replace length
+ char
+end char
+ start
+replace length
+get char count
+ after
+get text range
+ start
+replace length
+ char
+ after
+index lines
+ offset
+ length
+num lines
+indexed lines
+num lines
+ start
+line cnt
+
+replace expand exp
+
+ start
+
+ length
+
+ location
+
+ offset
+ location
+gap start
+ location
+gap end
+
+text store
+ location
+
+ swt
+
+ location
+text store
+ length
+
+text store
+ location
+
+ swt
+
+
+indexed lines
+add line index
+ start
+
+ start
+indexed lines
+line cnt
+line cnt
+ start
+
+
+ swt
+
+indexed lines
+add line index
+ start
+
+ start
+indexed lines
+line cnt
+line cnt
+ start
+
+new lines
+line cnt
+ system
+ arraycopy
+indexed lines
+new lines
+line cnt
+ range
+ start
+
+ start
+new lines
+line cnt
+ range
+new lines
+ insert
+ position
+ string
+ text
+ text
+ length
+start line
+get line offset
+ position
+ change
+ text
+ length
+end insert
+ position
+get char count
+adjust gap
+ position
+ change
+start line
+start line offset
+get offset line
+start line
+start line length
+get physical line
+start line
+ length
+ change
+gap start
+ change
+
+
+ text
+ length
+
+text store
+ position
+
+ text
+ char
+
+new lines
+index lines
+start line offset
+start line length
+num new lines
+new lines
+ length
+new lines
+num new lines
+end insert
+num new lines
+num new lines
+expand lines
+num new lines
+
+line count
+
+start line
+
+ lines
+
+num new lines
+ lines
+
+
+
+num new lines
+
+new lines
+
+start line offset
+ lines
+start line
+
+new lines
+
+num new lines
+new lines
+ length
+new lines
+num new lines
+start line offset
+ lines
+start line
+num new lines
+new lines
+num new lines
+line count
+num new lines
+gap line
+get line physical offset
+gap start
+move and resize gap
+ position
+ size
+new gap line
+ content
+old size
+gap end
+gap start
+new size
+ size
+new size
+high watermark
+ size
+new size
+low watermark
+ size
+gap exists
+ lines
+gap line
+ lines
+gap line
+old size
+
+gap line
+
+line count
+
+ lines
+
+ lines
+
+old size
+new size
+old size
+ content
+text store
+ length
+old size
+ system
+ arraycopy
+text store
+ content
+gap start
+ system
+ arraycopy
+text store
+gap end
+ content
+gap start
+ content
+ length
+gap start
+text store
+ content
+gap start
+gap end
+ position
+ content
+text store
+ length
+new size
+old size
+new gap start
+ position
+new gap end
+new gap start
+new size
+old size
+ system
+ arraycopy
+text store
+ content
+new gap start
+ system
+ arraycopy
+text store
+new gap start
+ content
+new gap end
+ content
+ length
+new gap end
+new gap start
+gap start
+ delta
+gap start
+new gap start
+ system
+ arraycopy
+text store
+ content
+new gap start
+ system
+ arraycopy
+text store
+new gap start
+ content
+new gap end
+ delta
+ system
+ arraycopy
+text store
+gap end
+ content
+new gap end
+ delta
+text store
+ length
+gap end
+ delta
+new gap start
+gap start
+ system
+ arraycopy
+text store
+ content
+gap start
+ system
+ arraycopy
+text store
+gap end
+ content
+gap start
+ delta
+ system
+ arraycopy
+text store
+gap end
+ delta
+ content
+new gap end
+ content
+ length
+new gap end
+text store
+ content
+gap start
+new gap start
+gap end
+new gap end
+gap exists
+gap line
+new gap line
+gap length
+gap end
+gap start
+ lines
+gap line
+ lines
+gap line
+gap length
+
+gap line
+
+line count
+
+ lines
+
+ lines
+
+gap length
+line count
+start offset
+ length
+ length
+line cnt
+ count
+
+start offset
+
+gap start
+
+gap end
+gap start
+ count
+ length
+
+gap start
+
+gap end
+
+text store
+
+
+ swt
+
+
+text store
+ length
+
+text store
+
+
+ swt
+
+
+ count
+line cnt
+
+ swt
+
+line cnt
+ count
+
+line cnt
+line count
+ string
+ text
+line count
+ length
+ text
+ length
+
+
+ length
+
+
+ text
+ char
+
+
+ swt
+
+
+ length
+ text
+ char
+
+ swt
+
+
+line count
+
+ swt
+
+line count
+line count
+get char count
+ length
+gap end
+gap start
+text store
+ length
+ length
+ string
+get line
+ index
+ index
+line count
+ index
+ error
+ swt
+error invalid argument
+ start
+ lines
+ index
+ length
+ lines
+ index
+ end
+ start
+ length
+gap exists
+ end
+gap start
+ start
+gap end
+ length
+ delimiter
+text store
+ start
+ length
+ length
+ string
+text store
+ start
+ length
+string buffer
+ buf
+string buffer
+gap length
+gap end
+gap start
+ buf
+ append
+text store
+ start
+gap start
+ start
+ buf
+ append
+text store
+gap end
+ length
+gap length
+gap start
+ start
+ length
+ buf
+ length
+ length
+ delimiter
+ buf
+ char
+ length
+ length
+ buf
+ string
+ substring
+ length
+ string
+get line delimiter
+line delimiter
+ string
+get full line
+ index
+ start
+ lines
+ index
+ length
+ lines
+ index
+ end
+ start
+ length
+gap exists
+ end
+gap start
+ start
+gap end
+ string
+text store
+ start
+ length
+string buffer
+ buf
+string buffer
+gap length
+gap end
+gap start
+ buf
+ append
+text store
+ start
+gap start
+ start
+ buf
+ append
+text store
+gap end
+ length
+gap length
+gap start
+ start
+ buf
+ string
+ string
+get physical line
+ index
+ start
+ lines
+ index
+ length
+ lines
+ index
+get physical text
+ start
+ length
+get line count
+line count
+get line offset
+char position
+ position
+char position
+get char count
+char position
+ error
+ swt
+error invalid argument
+char position
+gap start
+ position
+char position
+ position
+char position
+gap end
+gap start
+line count
+last line
+line count
+ position
+ lines
+last line
+ lines
+last line
+last line
+ high
+line count
+ low
+ index
+line count
+ high
+ low
+ index
+ high
+ low
+line start
+ lines
+ index
+line end
+line start
+ lines
+ index
+ position
+line start
+ high
+ index
+ position
+line end
+ high
+ index
+ low
+ index
+ high
+get line physical offset
+ position
+ high
+line count
+ low
+ index
+line count
+ high
+ low
+ index
+ high
+ low
+line start
+ lines
+ index
+line end
+line start
+ lines
+ index
+ position
+line start
+ high
+ index
+ position
+line end
+ high
+ index
+ low
+ index
+ high
+get offset line
+line index
+line index
+line index
+line count
+line index
+ error
+ swt
+error invalid argument
+ start
+ lines
+line index
+ start
+gap end
+ start
+gap end
+gap start
+ start
+expand lines
+num lines
+ size
+ lines
+ length
+ size
+line count
+num lines
+new lines
+ size
+ math
+ max
+num lines
+ system
+ arraycopy
+ lines
+new lines
+ size
+ lines
+new lines
+ error
+ code
+ swt
+ error
+ code
+gap exists
+gap start
+gap end
+ string
+get physical text
+ start
+ length
+ string
+text store
+ start
+ length
+ string
+get text range
+ start
+ length
+text store
+ length
+ end
+ start
+ length
+gap exists
+ end
+gap start
+ string
+text store
+ start
+ length
+gap start
+ start
+gap length
+gap end
+gap start
+ string
+text store
+ start
+gap length
+ length
+string buffer
+ buf
+string buffer
+ buf
+ append
+text store
+ start
+gap start
+ start
+ buf
+ append
+text store
+gap end
+ end
+gap start
+ buf
+ string
+remove text change listener
+text change listener
+ listener
+ listener
+ error
+ swt
+error null argument
+
+
+text listeners
+ size
+
+typed listener
+typed listener
+typed listener
+text listeners
+ element
+
+typed listener
+get event listener
+ listener
+text listeners
+remove element
+
+replace text range
+ start
+replace length
+ string
+new text
+valid replace
+ start
+replace length
+new text
+ swt
+ error
+ swt
+error invalid argument
+styled text event
+ event
+styled text event
+ event
+ type
+styled text
+text changing
+ event
+ start
+ start
+ event
+replace line count
+line count
+ start
+replace length
+ event
+ text
+new text
+ event
+new line count
+line count
+new text
+ event
+replace char count
+replace length
+ event
+new char count
+new text
+ length
+send text event
+ event
+ delete
+ start
+replace length
+ event
+replace line count
+ insert
+ start
+new text
+ event
+styled text event
+ event
+ type
+styled text
+text changed
+send text event
+ event
+send text event
+styled text event
+ event
+
+
+text listeners
+ size
+
+styled text listener
+text listeners
+ element
+
+handle event
+ event
+set text
+ string
+ text
+text store
+ text
+char array
+gap start
+gap end
+expand exp
+index lines
+styled text event
+ event
+styled text event
+ event
+ type
+styled text
+text set
+ event
+ text
+send text event
+ event
+ delete
+ position
+ length
+num lines
+ length
+start line
+get line offset
+ position
+start line offset
+get offset line
+start line
+end line
+get line offset
+ position
+ length
+ string
+end text
+splitting delimiter
+ position
+ length
+get char count
+end text
+get text range
+ position
+ length
+end text
+ char
+ swt
+
+end text
+ char
+ swt
+
+splitting delimiter
+adjust gap
+ position
+ length
+ length
+start line
+old lines
+index lines
+ position
+ length
+gap end
+gap start
+num lines
+ position
+ length
+gap start
+gap start
+ length
+gap end
+ length
+
+ position
+ eol
+
+text store
+ length
+ eol
+
+gap start
+
+gap end
+
+text store
+
+ delimiter
+
+
+text store
+ length
+
+ swt
+
+text store
+
+ swt
+
+
+ eol
+
+ lines
+start line
+ position
+start line offset
+
+ position
+num old lines
+old lines
+ length
+splitting delimiter
+num old lines
+
+end line
+
+line count
+
+ lines
+
+num old lines
+ lines
+
+line count
+num old lines
+gap line
+get line physical offset
+gap start
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+stores  text  listeners  for  event  sending
+stores  the  actual  text
+the  character  position  start  the  gap
+the  character  position  after  the  end  the  gap
+the  line  which  the  gap  exists  the  gap  will  always  associated
+with  one  line
+array  character  positions  and  lengths  representing
+the  lines  text
+the  number  lines  text
+the  expansion  exponent  used  increase  the  lines  array  exponentially
+the  expansion  exponent  used  increase  the  lines  array  exponentially
+creates  new default content  and  initializes  code styled text content  will  always  have  least  one  empty  line
+adds  line  the  end  the  line  indexes  array  increases  the  size  the  array  necessary  code line count  code  updated  reflect  the  new  entry  param  start  the  start  the  line  param  length  the  length  the  line
+expand  the  lines  powers 
+adds  line  index  the  end  code lines array  code  increases  the  size  the  array  necessary  and  returns  new  array  param  start  the  start  the  line  param  length  the  length  the  line  param lines array  the  array  which  add  the  line  index  param  count  the  position  which  add  the  line  return  new  array  line  indexes
+adds  code text change listener  code  listening  for  code text changing event  code  and  code text changed event  code  code text changing event  code  sent  before  changes  the  text  occur  code text changed event  code  sent  after  changes  the  text  occured  param  listener  the  listener  exception illegal argument exception  error  null  argument  when  listener  null 
+adjusts  the  gap  accomodate  text  change  that  occurring  param  position  the  position  which  change  occurring  param size hint  the  size  the  change  param  line  the  line  where  the  gap  will 
+text  being  inserted  the  gap  position
+text  being  deleted  the  gap  position
+calculates  the  indexes  each  line  the  text  store  assumes  gap  exists  optimized  less  checking
+see  the  next  character 
+returns  whether  not  the  given  character  line  delimiter  both  and  are  valid  line  delimiters  param  the  character  test  return  true  delimiter  false  otherwise
+determine  whether  not  the  replace  operation  valid default content  will  not  allow  the  line  delimiter  split  partially  deleted  param  start  start  offset  text  replace  param replace length  start  offset  text  replace  param new text  start  offset  text  replace  return  boolean  specifying  whether  not  the  replace  operation  valid
+inserting  text  see  the  line  delimiter  being  split
+deleting  text  see  part  line  delimiter  being  deleted
+see  char  before  delete  position 
+see  char  after  delete  position 
+calculates  the  indexes  each  line  text  the  given  range  param  offset  the  logical  start  offset  the  text  lineate  param  length  the  length  the  text  lineate  includes  gap  param num lines  the  number  lines  initially  allocate  for  the  line  index  array  passed  for  efficiency  the  exact  number  lines  may  known  return  line  indexes  array  where  each  line  identified  start  offset  and  length
+ignore  the  gap
+see  the  next  character 
+inserts  text  param  position  the  position  which  insert  the  text  param  text  the  text  insert
+during  insert  the  gap  will  adjusted  start 
+position  and  will  associated  with  startline  the
+inserted  text  will  placed  the  gap
+this  point start line length  will  include  the  start  line
+and  all  the  newly  inserted  text
+shrink  gap
+figure  out  the  number  new  lines  that  have  been  inserted
+only  insert  empty  line  the  last  line  the  text
+last  inserted  line  new  line
+insert  happening  end  the  text  leave num new lines 
+since  the  last  new  line  will  not  concatenated  with  another
+  line
+make  room  for  the  new  lines
+shift  down  the  lines  after  the  replace  line
+insert  the  new  lines
+update  the  last  inserted  line
+moves  the  gap  and  adjusts  its  size  anticipation  text  change  the  gap  resized  actual  size  the  specified  size  and  moved  the  given  position  param  position  the  position  which  change  occurring  param  size  the  size  the  change  param new gap line  the  line  where  the  gap  should  put
+remove  the  old  gap  from  the  lines  information
+adjust  the  line  length
+adjust  the  offsets  the  lines  after  the gap line
+removing  the  gap
+add  the  new  gap  the  lines  information
+adjust  the  line  length
+adjust  the  offsets  the  lines  after  the gap line
+returns  the  number  lines  that  are  the  specified  text  param start offset  the  start  the  text  lineate  param  length  the  length  the  text  lineate  return  number  lines
+ignore  the  gap
+see  the  next  character 
+returns  the  number  lines  that  are  the  specified  text  param  text  the  text  lineate  return  number  lines  the  text
+return  the  logical  length  the  text  store
+returns  the  line  code  index  code  without  delimiters  param  index  the  index  the  line  return  return  the  logical  line  text  without  the  gap  exception illegal argument exception  error  invalid  argument  when  index  out  range 
+line  before  after  the  gap
+gap  the  specified  range  strip  out  the  gap
+returns  the  line  delimiter  that  should  used  the styled text  widget  when  inserting  new  lines  this  delimiter  may  different  than  the  delimiter  that  used  the  code styled text content  code  interface  return  the  platform  line  delimiter  specified  the  line  separator  system  property
+returns  the  line  the  given  index  with  delimiters  param  index  the  index  the  line  return  return  the  logical  line  text  without  the  gap  with  delimiters
+line  before  after  the  gap
+gap  the  specified  range  strip  out  the  gap
+returns  the  physical  line  the  given  index  with  delimiters  and  the  gap  param  index  the  line  index  return  the  physical  line
+return  the  number  lines  the  text  store
+returns  the  line  the  given  offset  param char position  logical  character  offset  does  not  include  gap  return  the  line  index  exception illegal argument exception  error  invalid  argument  when char position  out  range 
+position  before  the  gap
+position  includes  the  gap
+last  line  and  the  line  not  empty  you  can  ask  for
+position  that  doesn  exist  the  one  the  right  the
+last  character  for  inserting
+returns  the  line  index  the  given  physical  offset  param  position  physical  character  offset  includes  gap  return  the  line  index
+returns  the  logical  offset  the  given  line  param line index  index  line  return  the  logical  starting  offset  the  line  when  there  are  not  any  lines get offset line  valid  call  that  should  answer  exception illegal argument exception  error  invalid  argument  when line index  out  range 
+increases  the  line  indexes  array  accomodate  more  lines  param num lines  the  number  increase  the  array 
+reports  swt  error  param  code  the  error  code
+returns  whether  not  gap  exists  the  text  store  return  true  gap  exists  false  otherwise
+returns  string  representing  the  continous  content  the  text  store  param  start  the  physical  start  offset  the  text  return  param  length  the  physical  length  the  text  return  return  the  text
+returns  string  representing  the  logical  content  the  text  store  gap  stripped  out  param  start  the  logical  start  offset  the  text  return  param  length  the  logical  length  the  text  return  return  the  text
+removes  the  specified  code text change listener  code  param  listener  the  listener  exception illegal argument exception  error  null  argument  when  listener  null 
+replaces  the  text  with  code new text  code  starting  position  code  start  code  for  length  code replace length  code  notifies  the  appropriate  listeners  when  sending  the text changing event  code new line count  code  the  number  lines  that  are  going  inserted  and  code replace line count  code  the  number  lines  that  are  going  deleted  based  the  change  that  occurs  visually  for  example replace text new text replace line count new line count  param  start  start  offset  text  replace  param replace length  start  offset  text  replace  param new text  start  offset  text  replace  exception swt exception  error  invalid  argument  when  the  text  change  results  multi  byte  line  delimiter  being  split  partially  deleted  splitting  line  delimiter  inserting  text  between  the  and  characters  the  delimiter  deleting  part  this  line  delimiter  not  supported 
+check  for  invalid  replace  operations
+inform  listeners
+first  delete  the  text  replaced
+then  insert  the  new  text
+inform  listeners
+ print lines
+sends  the  text  listeners  the text changed  event
+sets  the  content  text  and  removes  the  gap  since  there  are  sensible  predictions  about  where  the  next  change  will  occur  param  text  the  text
+deletes  text  param  position  the  position  which  the  text  delete  starts  param  length  the  length  the  text  delete  param num lines  the  number  lines  that  are  being  deleted
+enlarge  the  gap  the  gap  can  enlarged  either  the
+right  left
+figure  out  the  length  the  new  concatenated  line 
+finding  the  first  line  delmiter  after  position
+update  the  line  where  the  deletion  started
+figure  out  the  number  lines  that  have  been  deleted
+shift  the  lines  after  the  last  deleted  line  need  update
+the  offset  length  the  lines
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,102 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Dialog.java </DOCNO>
+<text>
+<class>
+ dialog
+</class>
+<method>
+ dialog
+ dialog
+check subclass
+check parent
+ error
+get parent
+get style
+get text
+set text
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ dialog
+ style
+ shell
+ parent
+ string
+ title
+ dialog
+ shell
+ parent
+ parent
+ swt
+primary modal
+ dialog
+ shell
+ parent
+ style
+check parent
+ parent
+ parent
+ parent
+ style
+ style
+ title
+check subclass
+ display
+valid class
+get class
+ error
+ swt
+error invalid subclass
+check parent
+ shell
+ parent
+ parent
+ error
+ swt
+error null argument
+ parent
+check widget
+ error
+ code
+ swt
+ error
+ code
+ shell
+get parent
+ parent
+get style
+ style
+ string
+get text
+ title
+set text
+ string
+ string
+ string
+ error
+ swt
+error null argument
+ title
+ string
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  class  the  abstract  superclass  the  classes  that  represent  the  built  platform  dialogs  code  dialog  code  typically  contains  other  widgets  that  are  not  accessible  code  dialog  code  not  code  widget  code  this  class  can  also  used  the  abstract  superclass  for  user  designed  dialogs  such  dialogs  usually  consist  shell  with  child  widgets  the  basic  template  for  user  defined  dialog  typically  looks  something  like  this  pre  code  public  class  dialog  extends  dialog  object  result  public  dialog  shell  parent  int  style  super  parent  style  public  dialog  shell  parent  this  parent  your  default  style  bits  here  not  the  shell  style  bits  public  object  open  shell  parent get parent  shell  shell  new  shell  parent  swt  dialog  trim  swt  application  modal  shell set text get text  your  code  goes  here  widget  creation  set  result  etc  shell  open  display  display  parent get display  while  shell  disposed  display read and dispatch  display  sleep  return  result  pre  code  note  the  modality  styles  supported  this  class  must  treated  hint  because  not  all  are  supported  every  subclass  every  platform  modality  style  not  supported  upgraded  more  restrictive  modality  style  that  supported  for  example  code  primary  modal  code  not  supported  particular  dialog  would  upgraded  code  application  modal  code  addition  the  case  for  shells  the  window  manager  for  the  desktop  which  the  instance  visible  has  ultimate  control  over  the  appearance  and  behavior  the  instance  including  its  modality  styles  application  modal  primary  modal  system  modal  events  none  note  only  one  the  styles  application  modal  primary  modal  and  system  modal  may  specified  see  shell
+constructs  new  instance  this  class  given  only  its  parent  param  parent  shell  which  will  the  parent  the  new  instance  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  shell  which  will  the  parent  the  new  instance  param  style  the  style  dialog  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent 
+checks  that  this  class  can  subclassed  important  see  the  comment  code  widget check subclass  code  exception swt exception  error  invalid  subclass  this  class  not  allowed  subclass  see  widget check subclass
+throws  exception  the  specified  widget  can  not  used  parent  for  the  receiver  exception illegal argument exception  error  null  argument  the  parent  null  error  invalid  argument  the  parent  disposed  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent 
+does  whatever  dialog  specific  cleanup  required  and  then  uses  the  code  code swt error  error  code  handle  the  error  param  code  the  descriptive  error  code  see  swt  error  int
+returns  the  receiver  parent  which  must  code  shell  code  null  return  the  receiver  parent  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  style  information  note  that  the  value  which  returned  this  method  may  not  match  the  value  which  was  provided  the  constructor  when  the  receiver  was  created  return  the  style  bits  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  text  which  the  string  that  the  window  manager  will  typically  display  the  receiver  title  the  text  has  not  previously  been  set  returns  empty  string  return  the  text  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  receiver  text  which  the  string  that  the  window  manager  will  typically  display  the  receiver  title  the  argument  which  must  not  null  param  string  the  new  text  exception illegal argument exception  error  null  argument  the  text  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,450 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.MessageBox.java </DOCNO>
+<text>
+<class>
+message box
+</class>
+<method>
+message box
+message box
+check style
+get message
+ open
+set message
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+message box
+ dialog
+ string
+ message
+message box
+ shell
+ parent
+ parent
+ swt
+
+ swt
+icon information
+ swt
+application modal
+message box
+ shell
+ parent
+ style
+ parent
+check style
+ style
+check subclass
+check style
+ style
+ style
+ swt
+primary modal
+ swt
+application modal
+ swt
+system modal
+ style
+ swt
+application modal
+ mask
+ swt
+ yes
+ swt
+
+ swt
+
+ swt
+ cancel
+ swt
+ abort
+ swt
+ retry
+ swt
+ ignore
+ bits
+ style
+ mask
+ bits
+ swt
+
+ bits
+ swt
+ cancel
+ bits
+ swt
+
+ swt
+ cancel
+ style
+ bits
+ swt
+ yes
+ bits
+ swt
+
+ bits
+ swt
+ yes
+ swt
+
+ bits
+ swt
+ yes
+ swt
+
+ swt
+ cancel
+ style
+ bits
+ swt
+ retry
+ swt
+ cancel
+ bits
+ swt
+ abort
+ swt
+ retry
+ swt
+ ignore
+ style
+ style
+ style
+ mask
+ swt
+
+ style
+ string
+get message
+ message
+ open
+button bits
+ style
+ swt
+
+ swt
+
+button bits
+
+
+ style
+ swt
+
+ swt
+ cancel
+ swt
+
+ swt
+ cancel
+button bits
+
+ okcancel
+ style
+ swt
+ yes
+ swt
+
+ swt
+ yes
+ swt
+
+button bits
+
+ yesno
+ style
+ swt
+ yes
+ swt
+
+ swt
+ cancel
+ swt
+ yes
+ swt
+
+ swt
+ cancel
+button bits
+
+ yesnocancel
+ style
+ swt
+ retry
+ swt
+ cancel
+ swt
+ retry
+ swt
+ cancel
+button bits
+
+ retrycancel
+ style
+ swt
+ abort
+ swt
+ retry
+ swt
+ ignore
+ swt
+ abort
+ swt
+ retry
+ swt
+ ignore
+button bits
+
+ abortretryignore
+button bits
+button bits
+
+
+icon bits
+ style
+ swt
+icon error
+icon bits
+
+ iconerror
+ style
+ swt
+icon information
+icon bits
+
+ iconinformation
+ style
+ swt
+icon question
+icon bits
+
+ iconquestion
+ style
+ swt
+icon warning
+icon bits
+
+ iconwarning
+ style
+ swt
+icon working
+icon bits
+
+ iconinformation
+modal bits
+
+ win
+ style
+ swt
+primary modal
+ swt
+application modal
+ swt
+system modal
+modal bits
+
+ applmodal
+ style
+ swt
+primary modal
+modal bits
+
+ applmodal
+ style
+ swt
+application modal
+modal bits
+
+ taskmodal
+ style
+ swt
+system modal
+modal bits
+
+ systemmodal
+ bits
+button bits
+icon bits
+modal bits
+ style
+ swt
+right left
+ bits
+
+ rtlreading
+ style
+ swt
+left right
+ swt
+right left
+ parent
+ parent
+ style
+ swt
+ mirrored
+ bits
+
+ rtlreading
+ bits
+
+ systemmodal
+ bits
+
+ taskmodal
+ bits
+
+ systemmodal
+hwnd owner
+ parent
+ parent
+ handle
+ shell
+old modal
+ display
+ display
+ bits
+
+ taskmodal
+ display
+ parent
+get display
+old modal
+ display
+get modal dialog shell
+ display
+set modal dialog shell
+ parent
+ tchar
+ buffer
+ tchar
+ message
+ tchar
+ buffer
+ tchar
+ title
+ code
+
+message box
+hwnd owner
+ buffer
+ buffer
+ bits
+ bits
+
+ taskmodal
+ display
+set modal dialog shell
+old modal
+ code
+ type
+ bits
+ type
+
+
+ swt
+
+ type
+
+ okcancel
+ code
+
+ idok
+ swt
+
+ swt
+ cancel
+ type
+
+ yesno
+ code
+
+ idyes
+ swt
+ yes
+ swt
+
+ type
+
+ yesnocancel
+ code
+
+ idyes
+ swt
+ yes
+ code
+
+ idno
+ swt
+
+ swt
+ cancel
+ type
+
+ retrycancel
+ code
+
+ idretry
+ swt
+ retry
+ swt
+ cancel
+ type
+
+ abortretryignore
+ code
+
+ idretry
+ swt
+ retry
+ code
+
+ idabort
+ swt
+ abort
+ swt
+ ignore
+ swt
+ cancel
+set message
+ string
+ string
+ string
+ error
+ swt
+error null argument
+ message
+ string
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  used  used  inform  warn  the  user  styles  icon  error  icon  information  icon  question  icon  warning  icon  working  cancel  yes  yes  cancel  retry  cancel  abort  retry  ignore  events  none  note  only  one  the  styles  icon  error  icon  information  icon  question  icon  warning  and  icon  working  may  specified  important  this  class  intended  subclassed  only  within  the  swt  implementation 
+constructs  new  instance  this  class  given  only  its  parent  param  parent  shell  which  will  the  parent  the  new  instance  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  shell  which  will  the  parent  the  new  instance  param  style  the  style  dialog  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass 
+returns  the  dialog  message  empty  string  does  not  have  one  the  message  description  the  purpose  for  which  the  dialog  was  opened  this  message  will  visible  the  dialog  while  open  return  the  message
+makes  the  dialog  visible  and  brings  the  front  the  display  return  the  the  button  that  was  selected  dismiss  the  message  box  swt  swt  cancel  etc  exception swt exception  error  widget  disposed  the  dialog  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  dialog 
+compute  the message box  style
+only  applmodal  supported  win
+feature  windows  system  modal  not  supported  windows  and  the  fix  convert  system  modal  task  modal
+feature  windows  order  for  taskmodal  work  the  parent  hwnd  the message box  call  must  null  the  parent  not  null  taskmodal  behaves  the  same  applmodal  the  fix  set  the  parent  hwnd  anyway  and  not  rely  modal  work  making  the  parent  temporarily  modal
+open  the  message  box
+use  the  character  encoding  for  the  default  locale
+clear  the  temporarily  dialog  modal  parent
+this  code  intentionally  commented  some  platforms  the  owner  window  repainted  right  away  when  dialog  window  exits  this  behavior  currently  unspecified
+hwnd owner update window hwnd owner
+compute  and  return  the  result
+sets  the  dialog  message  which  description  the  purpose  for  which  was  opened  this  message  will  visible  the  dialog  while  open  param  string  the  message  exception illegal argument exception  error  null  argument  the  string  null 
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,26 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.win32.HIGHCONTRAST.java </DOCNO>
+<text>
+<class>
+ highcontrast
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ win
+ highcontrast
+ size
+ flags
+lpsz default scheme
+ sizeof
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

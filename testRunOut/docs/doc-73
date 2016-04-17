@@ -1,0 +1,4220 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.Image.java </DOCNO>
+<text>
+<class>
+ image
+</class>
+<method>
+ image
+ image
+ image
+ image
+ image
+ image
+ image
+ image
+create dib from ddb
+create gdip image
+ dispose
+ equals
+get background
+get bounds
+get image data
+hash code
+ init
+create dib
+get icon info
+ init
+ init
+ init
+internal _new
+internal _dispose
+ disposed
+set background
+ string
+win 32_new
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+ gdip
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ java
+
+ image
+ resource
+ drawable
+ type
+ handle
+transparent pixel
+
+ mem
+alpha data
+ alpha
+image data
+ data
+default scanline pad
+ image
+ image
+ device
+ device
+ width
+ height
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ init
+ device
+ width
+ height
+ device
+ tracking
+ device
+new object
+ image
+ device
+ device
+ image
+src image
+ flag
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ device
+ device
+src image
+ swt
+ error
+ swt
+error null argument
+src image
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ flag
+ swt
+image copy
+ rectangle
+
+src image
+get bounds
+ type
+src image
+ type
+ type
+ swt
+ bitmap
+
+ device
+internal _new
+hdc source
+
+create compatible
+
+hdc dest
+
+create compatible
+
+old src
+
+select object
+hdc source
+src image
+ handle
+ handle
+
+create compatible bitmap
+hdc source
+
+ width
+
+ height
+ handle
+ swt
+ error
+ swt
+error handles
+old dest
+
+select object
+hdc dest
+ handle
+
+bit blt
+hdc dest
+
+ width
+
+ height
+hdc source
+
+ srccopy
+
+select object
+hdc source
+old src
+
+select object
+hdc dest
+old dest
+
+ delete
+hdc source
+
+ delete
+hdc dest
+ device
+internal _dispose
+
+transparent pixel
+src image
+transparent pixel
+ alpha
+src image
+ alpha
+src image
+alpha data
+alpha data
+src image
+alpha data
+ length
+ system
+ arraycopy
+src image
+alpha data
+alpha data
+alpha data
+ length
+ swt
+ icon
+
+ win
+ init
+ device
+src image
+ data
+ handle
+
+copy image
+src image
+ handle
+
+image icon
+
+ width
+
+ height
+ handle
+ swt
+ error
+ swt
+error handles
+ swt
+ error
+ swt
+error unsupported format
+ device
+ tracking
+ device
+new object
+ swt
+image disable
+ rectangle
+
+src image
+get bounds
+ type
+src image
+ type
+rgb bitmap info
+
+ width
+
+ width
+
+ width
+
+ width
+
+ height
+
+ height
+
+ height
+
+ height
+
+ device
+internal _new
+hdc source
+
+create compatible
+
+hdc source
+ swt
+ error
+ swt
+error handles
+
+
+create compatible
+hdc source
+
+ swt
+ error
+ swt
+error handles
+hdc bmp
+
+create compatible
+
+hdc bmp
+ swt
+ error
+ swt
+error handles
+ pbits
+ hbm
+
+create dib section
+
+rgb bitmap info
+
+dib rgb colors
+ pbits
+ hbm
+ swt
+ error
+ swt
+error handles
+ type
+ swt
+ bitmap
+old src
+
+select object
+hdc source
+src image
+ handle
+ handle
+
+create compatible bitmap
+
+
+ width
+
+ height
+ handle
+ swt
+ error
+ swt
+error handles
+ old
+
+select object
+
+ hbm
+old bmp
+
+select object
+hdc bmp
+ handle
+
+bit blt
+
+
+ width
+
+ height
+hdc source
+
+ srccopy
+ rect
+ rect
+ rect
+ rect
+ left
+ rect
+ top
+ rect
+ right
+
+ width
+ rect
+ bottom
+
+ height
+
+fill rect
+hdc bmp
+ rect
+
+get sys color brush
+
+color dface
+
+
+create solid brush
+
+get sys color
+
+color dhilight
+old brush
+
+select object
+hdc bmp
+
+
+bit blt
+hdc bmp
+
+ width
+
+ height
+
+
+
+create solid brush
+
+get sys color
+
+color dshadow
+
+delete object
+
+select object
+hdc bmp
+
+
+bit blt
+hdc bmp
+
+ width
+
+ height
+
+
+delete object
+
+select object
+hdc bmp
+old brush
+
+select object
+hdc source
+old src
+
+select object
+hdc bmp
+old bmp
+
+select object
+
+ old
+
+ delete
+hdc source
+
+ delete
+
+
+ delete
+hdc bmp
+
+delete object
+ hbm
+ device
+internal _dispose
+
+ swt
+ icon
+ iconinfo
+icon info
+ iconinfo
+
+ win
+get icon info
+src image
+icon info
+
+get icon info
+src image
+ handle
+icon info
+ swt
+ error
+ swt
+error invalid image
+hdc mask
+
+create compatible
+
+icon info
+hbm color
+old src
+
+select object
+hdc source
+icon info
+hbm mask
+old src
+
+select object
+hdc source
+icon info
+hbm color
+new hbmp
+
+create compatible bitmap
+hdc source
+
+ width
+
+ height
+new hbmp
+ swt
+ error
+ swt
+error handles
+new hmask
+
+create bitmap
+
+ width
+
+ height
+new hmask
+ swt
+ error
+ swt
+error handles
+old mask
+
+select object
+hdc mask
+new hmask
+icon info
+hbm color
+
+select object
+hdc source
+icon info
+hbm mask
+
+select object
+hdc source
+icon info
+hbm mask
+
+bit blt
+hdc mask
+
+ width
+
+ height
+hdc source
+
+ srccopy
+ old
+
+select object
+
+ hbm
+icon info
+hbm color
+
+select object
+hdc source
+icon info
+hbm mask
+
+bit blt
+
+
+ width
+
+ height
+hdc source
+
+ height
+
+ srccopy
+
+select object
+hdc source
+icon info
+hbm color
+
+bit blt
+
+
+ width
+
+ height
+hdc source
+
+ srccopy
+ rect
+ rect
+ rect
+ left
+ rect
+ top
+ rect
+ right
+
+ width
+ rect
+ bottom
+
+ height
+old bmp
+
+select object
+hdc bmp
+new hbmp
+
+fill rect
+hdc bmp
+ rect
+
+get sys color brush
+
+color dface
+
+
+create solid brush
+
+get sys color
+
+color dshadow
+old brush
+
+select object
+hdc bmp
+
+
+bit blt
+hdc bmp
+
+ width
+
+ height
+
+
+bit blt
+
+
+ width
+
+ height
+hdc mask
+
+ notsrccopy
+
+
+create solid brush
+
+delete object
+
+select object
+hdc bmp
+
+
+bit blt
+hdc bmp
+
+ width
+
+ height
+
+
+delete object
+
+select object
+hdc bmp
+old brush
+
+select object
+hdc source
+old src
+
+ delete
+hdc source
+
+select object
+
+ old
+
+ delete
+
+
+select object
+hdc bmp
+old bmp
+
+ delete
+hdc bmp
+
+select object
+hdc mask
+old mask
+
+ delete
+hdc mask
+
+delete object
+ hbm
+ device
+internal _dispose
+
+ iconinfo
+new icon info
+ iconinfo
+new icon info
+ icon
+icon info
+ icon
+new icon info
+hbm mask
+new hmask
+new icon info
+hbm color
+new hbmp
+ handle
+
+create icon indirect
+new icon info
+ handle
+ swt
+ error
+ swt
+error handles
+
+delete object
+new hbmp
+
+delete object
+new hmask
+icon info
+hbm color
+
+delete object
+icon info
+hbm color
+
+delete object
+icon info
+hbm mask
+ swt
+ error
+ swt
+error unsupported format
+ device
+ tracking
+ device
+new object
+ swt
+image gray
+ rectangle
+
+src image
+get bounds
+image data
+ data
+src image
+get image data
+palette data
+ palette
+ data
+ palette
+image data
+new data
+ data
+ palette
+ direct
+ rgb
+ rgbs
+ palette
+ get
+
+
+ rgbs
+ length
+
+ data
+transparent pixel
+
+ rgb
+ color
+ rgbs
+
+ red
+ color
+ red
+ green
+ color
+ green
+ blue
+ color
+ blue
+ intensity
+ red
+ red
+ green
+ green
+ green
+ green
+ green
+ blue
+ color
+ red
+ color
+ green
+ color
+ blue
+ intensity
+new data
+ palette
+palette data
+ rgbs
+ rgb
+ rgbs
+ rgb
+
+
+ rgbs
+ length
+
+ rgbs
+
+ rgb
+
+
+
+new data
+image data
+
+ width
+
+ height
+palette data
+ rgbs
+new data
+mask data
+ data
+mask data
+new data
+mask pad
+ data
+mask pad
+ data
+transparent pixel
+new data
+transparent pixel
+ scanline
+
+ width
+red mask
+ palette
+red mask
+green mask
+ palette
+green mask
+blue mask
+ palette
+blue mask
+red shift
+ palette
+red shift
+green shift
+ palette
+green shift
+blue shift
+ palette
+blue shift
+
+
+
+ height
+
+ offset
+
+new data
+bytes per line
+ data
+get pixels
+
+
+ width
+ scanline
+
+
+
+ width
+
+ pixel
+ scanline
+
+ pixel
+ data
+transparent pixel
+ red
+ pixel
+red mask
+ red
+red shift
+ red
+red shift
+ red
+red shift
+ green
+ pixel
+green mask
+ green
+green shift
+ green
+green shift
+ green
+green shift
+ blue
+ pixel
+blue mask
+ blue
+blue shift
+ blue
+blue shift
+ blue
+blue shift
+ intensity
+ red
+ red
+ green
+ green
+ green
+ green
+ green
+ blue
+new data
+transparent pixel
+ intensity
+ intensity
+new data
+ data
+ offset
+ intensity
+new data
+ data
+ offset
+ offset
+ init
+ device
+new data
+ device
+ tracking
+ device
+new object
+ swt
+ error
+ swt
+error invalid argument
+ image
+ device
+ device
+ rectangle
+ bounds
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ bounds
+ swt
+ error
+ swt
+error null argument
+ init
+ device
+ bounds
+ width
+ bounds
+ height
+ device
+ tracking
+ device
+new object
+ image
+ device
+ device
+image data
+ data
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ init
+ device
+ data
+ device
+ tracking
+ device
+new object
+ image
+ device
+ device
+image data
+ source
+image data
+ mask
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ source
+ swt
+ error
+ swt
+error null argument
+ mask
+ swt
+ error
+ swt
+error null argument
+ source
+ width
+ mask
+ width
+ source
+ height
+ mask
+ height
+ swt
+ error
+ swt
+error invalid argument
+ mask
+image data
+convert mask
+ mask
+ init
+ device
+ source
+ mask
+ device
+ tracking
+ device
+new object
+ image
+ device
+ device
+input stream
+ stream
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ init
+ device
+image data
+ stream
+ device
+ tracking
+ device
+new object
+ image
+ device
+ device
+ string
+ filename
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ init
+ device
+image data
+ filename
+ device
+ tracking
+ device
+new object
+create dib from ddb
+
+ bitmap
+ width
+ height
+ bits
+
+get device caps
+
+
+ bitspixel
+ planes
+
+get device caps
+
+
+ planes
+ depth
+ bits
+ planes
+ direct
+ depth
+ rgb
+ rgbs
+ direct
+num colors
+ depth
+log palette
+num colors
+
+get palette entries
+ device
+ palette
+num colors
+log palette
+ rgbs
+ rgb
+num colors
+
+
+num colors
+
+ rgbs
+
+ rgb
+log palette
+
+log palette
+
+log palette
+
+use bitfields
+
+ win
+ depth
+ depth
+ bitmapinfoheader
+bmi header
+ bitmapinfoheader
+bmi header
+ size
+ bitmapinfoheader
+ sizeof
+bmi header
+ width
+ width
+bmi header
+ height
+ height
+bmi header
+ planes
+bmi header
+bit count
+ depth
+use bitfields
+bmi header
+ compression
+
+ bitfields
+bmi header
+ compression
+
+ rgb
+ bmi
+ direct
+ bmi
+ bitmapinfoheader
+ sizeof
+use bitfields
+ bmi
+ bitmapinfoheader
+ sizeof
+ rgbs
+ length
+
+move memory
+ bmi
+bmi header
+ bitmapinfoheader
+ sizeof
+ offset
+ bitmapinfoheader
+ sizeof
+ direct
+use bitfields
+red mask
+green mask
+blue mask
+ depth
+red mask
+green mask
+blue mask
+ bmi
+ offset
+red mask
+ bmi
+ offset
+red mask
+ bmi
+ offset
+red mask
+ bmi
+ offset
+red mask
+ bmi
+ offset
+green mask
+ bmi
+ offset
+green mask
+ bmi
+ offset
+green mask
+ bmi
+ offset
+green mask
+ bmi
+ offset
+blue mask
+ bmi
+ offset
+blue mask
+ bmi
+ offset
+blue mask
+ bmi
+ offset
+blue mask
+red mask
+green mask
+blue mask
+ bmi
+ offset
+red mask
+ bmi
+ offset
+red mask
+ bmi
+ offset
+red mask
+ bmi
+ offset
+red mask
+ bmi
+ offset
+green mask
+ bmi
+ offset
+green mask
+ bmi
+ offset
+green mask
+ bmi
+ offset
+green mask
+ bmi
+ offset
+blue mask
+ bmi
+ offset
+blue mask
+ bmi
+ offset
+blue mask
+ bmi
+ offset
+blue mask
+ swt
+ error
+ swt
+error unsupported depth
+
+
+ rgbs
+ length
+
+ bmi
+ offset
+ rgbs
+
+ blue
+ bmi
+ offset
+ rgbs
+
+ green
+ bmi
+ offset
+ rgbs
+
+ red
+ bmi
+ offset
+ offset
+ bits
+ dib
+
+create dib section
+ bmi
+
+dib rgb colors
+ bits
+ dib
+ swt
+ error
+ swt
+error handles
+hdc source
+
+create compatible
+
+hdc dest
+
+create compatible
+
+old src
+
+select object
+hdc source
+ bitmap
+old dest
+
+select object
+hdc dest
+ dib
+
+bit blt
+hdc dest
+ width
+ height
+hdc source
+
+ srccopy
+
+select object
+hdc source
+old src
+
+select object
+hdc dest
+old dest
+
+ delete
+hdc source
+
+ delete
+hdc dest
+ dib
+create gdip image
+ type
+ swt
+ bitmap
+ alpha
+alpha data
+transparent pixel
+ bitmap
+
+ bitmap
+
+get object
+ handle
+ bitmap
+ sizeof
+
+img width
+
+ width
+img height
+
+ height
+
+ device
+internal _new
+src hdc
+
+create compatible
+
+old src bitmap
+
+select object
+src hdc
+ handle
+mem hdc
+
+create compatible
+
+mem dib
+create dib
+img width
+img height
+mem dib
+ swt
+ error
+ swt
+error handles
+old mem bitmap
+
+select object
+mem hdc
+mem dib
+ bitmap
+ dib
+ bitmap
+
+get object
+mem dib
+ bitmap
+ sizeof
+ dib
+size bytes
+ dib
+width bytes
+ dib
+ height
+
+bit blt
+mem hdc
+img width
+img height
+src hdc
+
+ srccopy
+ red
+ green
+ blue
+transparent pixel
+
+bits pixel
+ color
+
+get dib color table
+src hdc
+transparent pixel
+ color
+ blue
+ color
+ green
+ color
+ red
+ color
+
+bits pixel
+ blue
+transparent pixel
+ green
+transparent pixel
+ red
+transparent pixel
+ blue
+transparent pixel
+ green
+transparent pixel
+ red
+transparent pixel
+ blue
+transparent pixel
+ green
+transparent pixel
+ red
+transparent pixel
+
+select object
+src hdc
+old src bitmap
+
+select object
+mem hdc
+old mem bitmap
+
+delete object
+src hdc
+
+delete object
+mem hdc
+src data
+size bytes
+
+move memory
+src data
+ dib
+ bits
+size bytes
+
+delete object
+mem dib
+ device
+internal _dispose
+
+ alpha
+
+
+
+img height
+
+
+
+img width
+
+src data
+
+ alpha
+
+alpha data
+
+
+
+
+img height
+
+
+
+img width
+
+src data
+
+alpha data
+
+
+transparent pixel
+
+
+
+img height
+
+
+
+img width
+
+src data
+
+ blue
+src data
+
+ green
+src data
+
+ red
+src data
+
+src data
+
+
+ heap
+
+get process heap
+ pixels
+
+heap alloc
+ heap
+
+heap zero memory
+src data
+ length
+
+move memory
+ pixels
+src data
+size bytes
+ gdip
+bitmap _new
+img width
+img height
+ dib
+width bytes
+ gdip
+pixel format 32bpp argb
+ pixels
+ pixels
+ gdip
+bitmap _new
+ handle
+ swt
+ icon
+ iconinfo
+icon info
+ iconinfo
+
+ win
+get icon info
+icon info
+
+get icon info
+ handle
+icon info
+ bitmap
+icon info
+hbm color
+ bitmap
+ bitmap
+icon info
+hbm mask
+ bitmap
+
+ bitmap
+
+get object
+ bitmap
+ bitmap
+ sizeof
+
+img width
+
+ width
+img height
+ bitmap
+icon info
+hbm mask
+
+ height
+
+ height
+ img
+ pixels
+img width
+img height
+
+ device
+internal _new
+src hdc
+
+create compatible
+
+old src bitmap
+
+select object
+src hdc
+ bitmap
+mem hdc
+
+create compatible
+
+mem dib
+create dib
+img width
+img height
+mem dib
+ swt
+ error
+ swt
+error handles
+old mem bitmap
+
+select object
+mem hdc
+mem dib
+ bitmap
+ dib
+ bitmap
+
+get object
+mem dib
+ bitmap
+ sizeof
+ dib
+
+bit blt
+mem hdc
+img width
+img height
+src hdc
+ bitmap
+icon info
+hbm mask
+img height
+
+ srccopy
+
+select object
+mem hdc
+old mem bitmap
+
+delete object
+mem hdc
+src data
+ dib
+width bytes
+ dib
+ height
+
+move memory
+src data
+ dib
+ bits
+src data
+ length
+
+delete object
+mem dib
+
+select object
+src hdc
+icon info
+hbm mask
+
+
+
+img height
+
+
+
+img width
+
+
+get pixel
+src hdc
+
+
+src data
+
+src data
+
+
+
+select object
+src hdc
+old src bitmap
+
+delete object
+src hdc
+ device
+internal _dispose
+
+ heap
+
+get process heap
+ pixels
+
+heap alloc
+ heap
+
+heap zero memory
+src data
+ length
+
+move memory
+ pixels
+src data
+src data
+ length
+ img
+ gdip
+bitmap _new
+img width
+img height
+ dib
+width bytes
+ gdip
+pixel format 32bpp argb
+ pixels
+ img
+ gdip
+bitmap _new
+ handle
+icon info
+hbm color
+
+delete object
+icon info
+hbm color
+icon info
+hbm mask
+
+delete object
+icon info
+hbm mask
+ img
+ pixels
+ swt
+ error
+ swt
+error unsupported format
+ dispose
+ handle
+ device
+ disposed
+ mem
+ mem
+ dispose
+ type
+ swt
+ icon
+
+ win
+ data
+
+destroy icon
+ handle
+
+delete object
+ handle
+ handle
+ mem
+ device
+ tracking
+ device
+dispose object
+ device
+ equals
+ object
+ object
+ object
+ object
+ image
+ image
+ image
+ image
+ object
+ device
+ image
+ device
+ handle
+ image
+ handle
+ color
+get background
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+transparent pixel
+
+ device
+internal _new
+ bitmap
+
+ bitmap
+
+get object
+ handle
+ bitmap
+ sizeof
+
+hdc mem
+
+create compatible
+
+old object
+
+select object
+hdc mem
+ handle
+ red
+ green
+ blue
+
+bits pixel
+
+ win
+ bits
+
+move memory
+ bits
+
+ bits
+old value
+ bits
+ mask
+
+bits pixel
+ bits
+transparent pixel
+
+bits pixel
+ bits
+ mask
+
+move memory
+
+ bits
+ bits
+ color
+
+get pixel
+hdc mem
+ bits
+old value
+
+move memory
+
+ bits
+ bits
+ blue
+ color
+ green
+ color
+ red
+ color
+ color
+
+get dib color table
+hdc mem
+transparent pixel
+ color
+ blue
+ color
+ green
+ color
+ red
+ color
+
+bits pixel
+ blue
+transparent pixel
+ green
+transparent pixel
+ red
+transparent pixel
+ blue
+transparent pixel
+ green
+transparent pixel
+ red
+transparent pixel
+ blue
+transparent pixel
+ green
+transparent pixel
+ red
+transparent pixel
+
+select object
+hdc mem
+old object
+
+ delete
+hdc mem
+ device
+internal _dispose
+
+ color
+win 32_new
+ device
+ blue
+ green
+ red
+ rectangle
+get bounds
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ type
+ swt
+ bitmap
+ bitmap
+
+ bitmap
+
+get object
+ handle
+ bitmap
+ sizeof
+
+ rectangle
+
+ width
+
+ height
+ swt
+ icon
+
+ win
+ rectangle
+ data
+ width
+ data
+ height
+ iconinfo
+ info
+ iconinfo
+
+get icon info
+ handle
+ info
+ bitmap
+ info
+hbm color
+ bitmap
+ bitmap
+ info
+hbm mask
+
+ bitmap
+
+get object
+ bitmap
+ bitmap
+ sizeof
+
+ bitmap
+ info
+hbm mask
+
+ height
+ info
+hbm color
+
+delete object
+ info
+hbm color
+ info
+hbm mask
+
+delete object
+ info
+hbm mask
+ rectangle
+
+ width
+
+ height
+ swt
+ error
+ swt
+error unsupported format
+image data
+get image data
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ bitmap
+
+ depth
+ width
+ height
+ type
+ swt
+ icon
+
+ win
+ data
+ iconinfo
+ info
+ iconinfo
+
+ win
+ swt
+ error
+ swt
+error not implemented
+
+get icon info
+ handle
+ info
+ bitmap
+ info
+hbm color
+ bitmap
+ bitmap
+ info
+hbm mask
+
+ bitmap
+
+get object
+ bitmap
+ bitmap
+ sizeof
+
+ depth
+
+ planes
+
+bits pixel
+ width
+
+ width
+ bitmap
+ info
+hbm mask
+
+ height
+ height
+
+ height
+num colors
+ depth
+num colors
+ depth
+ bitmapinfoheader
+bmi header
+ bitmapinfoheader
+bmi header
+ size
+ bitmapinfoheader
+ sizeof
+bmi header
+ width
+ width
+bmi header
+ height
+ height
+bmi header
+ planes
+bmi header
+bit count
+ depth
+bmi header
+ compression
+
+ rgb
+ bmi
+ bitmapinfoheader
+ sizeof
+num colors
+
+move memory
+ bmi
+bmi header
+ bitmapinfoheader
+ sizeof
+
+ device
+internal _new
+ bitmap
+
+create compatible
+
+old bitmap
+
+select object
+ bitmap
+ bitmap
+old palette
+ depth
+ palette
+ device
+ palette
+ palette
+old palette
+
+select palette
+ bitmap
+ palette
+
+realize palette
+ bitmap
+image size
+
+ win
+ swt
+ error
+ swt
+error not implemented
+
+get bits
+ bitmap
+ bitmap
+ height
+ bmi
+
+dib rgb colors
+
+move memory
+bmi header
+ bmi
+ bitmapinfoheader
+ sizeof
+image size
+bmi header
+size image
+ data
+image size
+ heap
+
+get process heap
+lpv bits
+
+heap alloc
+ heap
+
+heap zero memory
+image size
+
+ win
+ swt
+ error
+ swt
+error not implemented
+
+get bits
+ bitmap
+ bitmap
+ height
+lpv bits
+ bmi
+
+dib rgb colors
+
+move memory
+ data
+lpv bits
+image size
+palette data
+ palette
+ depth
+ rgb
+ rgbs
+ rgb
+num colors
+src index
+
+
+num colors
+
+ rgbs
+
+ rgb
+ bmi
+src index
+ bmi
+src index
+ bmi
+src index
+src index
+ palette
+palette data
+ rgbs
+ depth
+ palette
+palette data
+ depth
+ palette
+palette data
+ depth
+ palette
+palette data
+ swt
+ error
+ swt
+error unsupported depth
+mask data
+ info
+hbm color
+mask data
+image size
+
+ win
+ swt
+ error
+ swt
+error not implemented
+
+get bits
+ bitmap
+ bitmap
+ height
+ height
+lpv bits
+ bmi
+
+dib rgb colors
+
+move memory
+mask data
+lpv bits
+image size
+bmi header
+ bitmapinfoheader
+bmi header
+ size
+ bitmapinfoheader
+ sizeof
+bmi header
+ width
+ width
+bmi header
+ height
+ height
+bmi header
+ planes
+bmi header
+bit count
+bmi header
+ compression
+
+ rgb
+ bmi
+ bitmapinfoheader
+ sizeof
+
+move memory
+ bmi
+bmi header
+ bitmapinfoheader
+ sizeof
+ offset
+ bitmapinfoheader
+ sizeof
+ bmi
+ offset
+ bmi
+ offset
+ bmi
+ offset
+ bmi
+ offset
+
+select object
+ bitmap
+ info
+hbm mask
+
+ win
+ swt
+ error
+ swt
+error not implemented
+
+get bits
+ bitmap
+ info
+hbm mask
+ height
+ bmi
+
+dib rgb colors
+
+move memory
+bmi header
+ bmi
+ bitmapinfoheader
+ sizeof
+image size
+bmi header
+size image
+mask data
+image size
+lpv mask bits
+
+heap alloc
+ heap
+
+heap zero memory
+image size
+
+ win
+ swt
+ error
+ swt
+error not implemented
+
+get bits
+ bitmap
+ info
+hbm mask
+ height
+lpv mask bits
+ bmi
+
+dib rgb colors
+
+move memory
+mask data
+lpv mask bits
+image size
+
+heap free
+ heap
+lpv mask bits
+
+
+mask data
+ length
+
+mask data
+
+mask pad
+ bpl
+image size
+ height
+mask pad
+mask pad
+mask pad
+calc bpl
+ width
+mask pad
+mask pad
+mask pad
+calc bpl
+ bpl
+mask data
+image data
+convert pad
+mask data
+ width
+ height
+mask pad
+
+heap free
+ heap
+lpv bits
+
+select object
+ bitmap
+old bitmap
+old palette
+
+select palette
+ bitmap
+old palette
+
+realize palette
+ bitmap
+
+ delete
+ bitmap
+ device
+internal _dispose
+
+ info
+hbm color
+
+delete object
+ info
+hbm color
+ info
+hbm mask
+
+delete object
+ info
+hbm mask
+image data
+image data
+image data
+ width
+ height
+ depth
+ palette
+ data
+image data
+mask data
+mask data
+image data
+mask pad
+image data
+ swt
+ bitmap
+
+ bitmap
+
+get object
+ handle
+ bitmap
+ sizeof
+
+ depth
+
+ planes
+
+bits pixel
+ width
+
+ width
+ height
+
+ height
+ dib
+
+ bits
+
+ device
+internal _new
+ handle
+ handle
+
+ win
+ dib
+must restore
+ mem
+ mem
+ disposed
+ mem
+ flush
+must restore
+ data
+ data
+ mem
+ data
+ data
+null bitmap
+
+select object
+ mem
+ handle
+ data
+null bitmap
+ data
+null bitmap
+ handle
+create dib from ddb
+
+ handle
+ width
+ height
+must restore
+old bitmap
+
+select object
+ mem
+ handle
+ handle
+ mem
+ data
+null bitmap
+old bitmap
+ dib
+ dibsection
+ dib
+ dib
+ dib
+ dibsection
+
+get object
+ handle
+ dibsection
+ sizeof
+ dib
+num colors
+ depth
+ dib
+num colors
+ dib
+clr used
+num colors
+ depth
+ bmi
+ bitmapinfoheader
+bmi header
+ dib
+bmi header
+ bitmapinfoheader
+bmi header
+ size
+ bitmapinfoheader
+ sizeof
+bmi header
+ width
+ width
+bmi header
+ height
+ height
+bmi header
+ planes
+bmi header
+bit count
+ depth
+bmi header
+ compression
+
+ rgb
+ bmi
+ bitmapinfoheader
+ sizeof
+num colors
+
+move memory
+ bmi
+bmi header
+ bitmapinfoheader
+ sizeof
+ bitmap
+
+create compatible
+
+old bitmap
+
+select object
+ bitmap
+ handle
+old palette
+ dib
+ depth
+ palette
+ device
+ palette
+ palette
+old palette
+
+select palette
+ bitmap
+ palette
+
+realize palette
+ bitmap
+image size
+ dib
+image size
+ dib
+size image
+
+ win
+ swt
+ error
+ swt
+error not implemented
+
+get bits
+ bitmap
+ handle
+ height
+ bmi
+
+dib rgb colors
+
+move memory
+bmi header
+ bmi
+ bitmapinfoheader
+ sizeof
+image size
+bmi header
+size image
+ data
+image size
+ dib
+
+ win
+ handle
+ handle
+
+move memory
+ data
+ dib
+ bits
+image size
+
+move memory
+ data
+
+ bits
+image size
+ heap
+
+get process heap
+lpv bits
+
+heap alloc
+ heap
+
+heap zero memory
+image size
+
+ win
+ swt
+ error
+ swt
+error not implemented
+
+get bits
+ bitmap
+ handle
+ height
+lpv bits
+ bmi
+
+dib rgb colors
+
+move memory
+ data
+lpv bits
+image size
+
+heap free
+ heap
+lpv bits
+palette data
+ palette
+ depth
+ rgb
+ rgbs
+ rgb
+num colors
+ dib
+
+ win
+ red
+ green
+ blue
+ bits
+
+move memory
+ bits
+
+ bits
+old value
+ bits
+ mask
+
+bits pixel
+
+
+num colors
+
+ bits
+
+
+bits pixel
+ bits
+ mask
+
+move memory
+
+ bits
+ bits
+ color
+
+get pixel
+ bitmap
+ blue
+ color
+ green
+ color
+ red
+ color
+ rgbs
+
+ rgb
+ red
+ green
+ blue
+ bits
+old value
+
+move memory
+
+ bits
+ bits
+ colors
+num colors
+
+get dib color table
+ bitmap
+num colors
+ colors
+color index
+
+
+ rgbs
+ length
+
+ rgbs
+
+ rgb
+ colors
+color index
+ colors
+color index
+ colors
+color index
+color index
+src index
+ bitmapinfoheader
+ sizeof
+
+
+num colors
+
+ rgbs
+
+ rgb
+ bmi
+src index
+ bmi
+src index
+ bmi
+src index
+src index
+ palette
+palette data
+ rgbs
+ depth
+ palette
+palette data
+ depth
+ palette
+palette data
+ depth
+ palette
+palette data
+ swt
+ error
+ swt
+error unsupported depth
+
+select object
+ bitmap
+old bitmap
+old palette
+
+select palette
+ bitmap
+old palette
+
+realize palette
+ bitmap
+
+ win
+ handle
+ handle
+
+delete object
+ handle
+
+ delete
+ bitmap
+ device
+internal _dispose
+
+image data
+image data
+image data
+ width
+ height
+ depth
+ palette
+ data
+image data
+transparent pixel
+transparent pixel
+image data
+ alpha
+ alpha
+ alpha
+alpha data
+image data
+alpha data
+alpha data
+ length
+ system
+ arraycopy
+alpha data
+image data
+alpha data
+alpha data
+ length
+image data
+ swt
+ error
+ swt
+error unsupported format
+hash code
+ handle
+ init
+ device
+ device
+ width
+ height
+ width
+ height
+ swt
+ error
+ swt
+error invalid argument
+ device
+ device
+ type
+ swt
+ bitmap
+
+ device
+internal _new
+ handle
+
+create compatible bitmap
+
+ width
+ height
+ handle
+ bits
+
+get device caps
+
+
+ bitspixel
+ planes
+
+get device caps
+
+
+ planes
+ depth
+ bits
+ planes
+ depth
+ depth
+ handle
+create dib
+ width
+ height
+ depth
+ handle
+ mem
+
+create compatible
+
+old bitmap
+
+select object
+ mem
+ handle
+
+pat blt
+ mem
+ width
+ height
+
+ patcopy
+
+select object
+ mem
+old bitmap
+
+ delete
+ mem
+ device
+internal _dispose
+
+ handle
+ swt
+ error
+ swt
+error handles
+ device
+get last error
+create dib
+ width
+ height
+ depth
+ bitmapinfoheader
+bmi header
+ bitmapinfoheader
+bmi header
+ size
+ bitmapinfoheader
+ sizeof
+bmi header
+ width
+ width
+bmi header
+ height
+ height
+bmi header
+ planes
+bmi header
+bit count
+ depth
+
+ win
+bmi header
+ compression
+
+ bitfields
+bmi header
+ compression
+
+ rgb
+ bmi
+ bitmapinfoheader
+ sizeof
+
+ win
+
+move memory
+ bmi
+bmi header
+ bitmapinfoheader
+ sizeof
+
+ win
+red mask
+green mask
+blue mask
+ offset
+ bitmapinfoheader
+ sizeof
+ bmi
+ offset
+red mask
+ bmi
+ offset
+red mask
+ bmi
+ offset
+red mask
+ bmi
+ offset
+red mask
+ bmi
+ offset
+green mask
+ bmi
+ offset
+green mask
+ bmi
+ offset
+green mask
+ bmi
+ offset
+green mask
+ bmi
+ offset
+blue mask
+ bmi
+ offset
+blue mask
+ bmi
+ offset
+blue mask
+ bmi
+ offset
+blue mask
+ bits
+
+create dib section
+ bmi
+
+dib rgb colors
+ bits
+get icon info
+ image
+ image
+ iconinfo
+ info
+ result
+ init
+ image
+ device
+ image
+ data
+ info
+hbm color
+ result
+ info
+hbm mask
+ result
+ init
+ device
+ device
+ image
+ image
+image data
+
+ image
+ image
+ device
+ device
+
+ win
+
+ depth
+
+get transparency type
+ swt
+transparency mask
+
+ depth
+image data
+ img
+image data
+
+ width
+
+ height
+
+ palette
+image data
+ blit
+image data
+blit src
+
+ data
+
+ depth
+
+bytes per line
+
+get byte order
+
+ width
+
+ height
+image data
+alpha opaque
+ img
+ data
+ img
+ depth
+ img
+bytes per line
+
+get byte order
+ img
+ width
+ img
+ height
+ img
+transparent pixel
+
+transparent pixel
+ img
+mask pad
+
+mask pad
+ img
+mask data
+
+mask data
+ img
+ alpha
+
+ alpha
+ img
+alpha data
+
+alpha data
+
+ img
+
+ palette
+ direct
+palette data
+ palette
+
+ palette
+red mask
+ palette
+red mask
+green mask
+ palette
+green mask
+blue mask
+ palette
+blue mask
+new depth
+
+ depth
+new order
+image data
+msb first
+palette data
+new palette
+
+ depth
+new depth
+new order
+image data
+lsb first
+new palette
+palette data
+new order
+image data
+lsb first
+red mask
+green mask
+blue mask
+new palette
+palette data
+red mask
+green mask
+blue mask
+new palette
+palette data
+red mask
+green mask
+blue mask
+new palette
+palette data
+ swt
+ error
+ swt
+error unsupported depth
+new palette
+image data
+ img
+image data
+
+ width
+
+ height
+new depth
+new palette
+image data
+ blit
+image data
+blit src
+
+ data
+
+ depth
+
+bytes per line
+
+get byte order
+
+ width
+
+ height
+red mask
+green mask
+blue mask
+image data
+alpha opaque
+ img
+ data
+ img
+ depth
+ img
+bytes per line
+new order
+ img
+ width
+ img
+ height
+new palette
+red mask
+new palette
+green mask
+new palette
+blue mask
+
+transparent pixel
+ img
+transparent pixel
+new palette
+get pixel
+ palette
+get rgb
+
+transparent pixel
+ img
+mask pad
+
+mask pad
+ img
+mask data
+
+mask data
+ img
+ alpha
+
+ alpha
+ img
+alpha data
+
+alpha data
+
+ img
+ rgb
+ rgbs
+
+ palette
+ get
+use bitfields
+
+ win
+
+ depth
+
+ depth
+ bitmapinfoheader
+bmi header
+ bitmapinfoheader
+bmi header
+ size
+ bitmapinfoheader
+ sizeof
+bmi header
+ width
+
+ width
+bmi header
+ height
+
+ height
+bmi header
+ planes
+bmi header
+bit count
+
+ depth
+use bitfields
+bmi header
+ compression
+
+ bitfields
+bmi header
+ compression
+
+ rgb
+bmi header
+clr used
+ rgbs
+ rgbs
+ length
+ bmi
+
+ palette
+ direct
+ bmi
+ bitmapinfoheader
+ sizeof
+use bitfields
+ bmi
+ bitmapinfoheader
+ sizeof
+ rgbs
+ length
+
+move memory
+ bmi
+bmi header
+ bitmapinfoheader
+ sizeof
+ offset
+ bitmapinfoheader
+ sizeof
+
+ palette
+ direct
+use bitfields
+palette data
+ palette
+
+ palette
+red mask
+ palette
+red mask
+green mask
+ palette
+green mask
+blue mask
+ palette
+blue mask
+
+get byte order
+image data
+lsb first
+ bmi
+ offset
+red mask
+ bmi
+ offset
+red mask
+ bmi
+ offset
+red mask
+ bmi
+ offset
+red mask
+ bmi
+ offset
+green mask
+ bmi
+ offset
+green mask
+ bmi
+ offset
+green mask
+ bmi
+ offset
+green mask
+ bmi
+ offset
+blue mask
+ bmi
+ offset
+blue mask
+ bmi
+ offset
+blue mask
+ bmi
+ offset
+blue mask
+ bmi
+ offset
+red mask
+ bmi
+ offset
+red mask
+ bmi
+ offset
+red mask
+ bmi
+ offset
+red mask
+ bmi
+ offset
+green mask
+ bmi
+ offset
+green mask
+ bmi
+ offset
+green mask
+ bmi
+ offset
+green mask
+ bmi
+ offset
+blue mask
+ bmi
+ offset
+blue mask
+ bmi
+ offset
+blue mask
+ bmi
+ offset
+blue mask
+
+
+ rgbs
+ length
+
+ bmi
+ offset
+ rgbs
+
+ blue
+ bmi
+ offset
+ rgbs
+
+ green
+ bmi
+ offset
+ rgbs
+
+ red
+ bmi
+ offset
+ offset
+ bits
+ dib
+
+create dib section
+ bmi
+
+dib rgb colors
+ bits
+ dib
+ swt
+ error
+ swt
+error handles
+ data
+
+ data
+
+scanline pad
+
+bytes per line
+ data
+image data
+convert pad
+ data
+
+ width
+
+ height
+
+ depth
+
+scanline pad
+
+move memory
+ bits
+ data
+ data
+ length
+ result
+
+get transparency type
+ swt
+transparency mask
+
+ device
+internal _new
+hdc src
+
+create compatible
+
+
+select object
+hdc src
+ dib
+ bitmap
+
+create compatible bitmap
+
+
+ width
+
+ height
+ bitmap
+ swt
+ error
+ swt
+error handles
+hdc dest
+
+create compatible
+
+
+select object
+hdc dest
+ bitmap
+
+bit blt
+hdc dest
+
+ width
+
+ height
+hdc src
+
+ srccopy
+ device
+internal _dispose
+
+mask data
+image data
+convert pad
+
+mask data
+
+ width
+
+ height
+
+mask pad
+ mask
+
+create bitmap
+
+ width
+
+ height
+mask data
+ mask
+ swt
+ error
+ swt
+error handles
+
+select object
+hdc src
+ mask
+
+pat blt
+hdc src
+
+ width
+
+ height
+
+ dstinvert
+
+ delete
+hdc src
+
+ delete
+hdc dest
+
+delete object
+ dib
+ image
+ result
+ bitmap
+ mask
+ iconinfo
+ info
+ iconinfo
+ info
+ icon
+ info
+hbm color
+ bitmap
+ info
+hbm mask
+ mask
+ icon
+
+create icon indirect
+ info
+ icon
+ swt
+ error
+ swt
+error handles
+
+delete object
+ bitmap
+
+delete object
+ mask
+ image
+ handle
+ icon
+ image
+ type
+ swt
+ icon
+
+ win
+ image
+ data
+
+ image
+ result
+ dib
+ image
+ handle
+ dib
+ image
+ type
+ swt
+ bitmap
+ image
+transparent pixel
+
+transparent pixel
+ image
+transparent pixel
+ image
+ alpha
+
+ alpha
+
+ alpha
+
+alpha data
+ length
+
+alpha data
+ length
+ image
+alpha data
+ length
+ system
+ arraycopy
+
+alpha data
+ image
+alpha data
+ length
+ result
+ init
+ device
+ device
+ image
+ image
+image data
+ source
+image data
+ mask
+image data
+image data
+black index
+ source
+ palette
+ direct
+image data
+image data
+ source
+ width
+ source
+ height
+ source
+ depth
+ source
+ palette
+ rgb
+ black
+ rgb
+ rgb
+ rgbs
+ source
+ get
+ source
+transparent pixel
+ rgb
+ new
+ rgb
+ rgbs
+ length
+ system
+ arraycopy
+ rgbs
+ new
+ rgbs
+ length
+ source
+transparent pixel
+ new
+ length
+ rgbs
+ rgb
+ source
+transparent pixel
+ system
+ arraycopy
+ new
+ rgbs
+ new
+ length
+
+ new
+ length
+
+ source
+transparent pixel
+
+ rgbs
+
+ rgb
+ new
+ source
+transparent pixel
+ black
+ rgbs
+ new
+black index
+ source
+transparent pixel
+image data
+image data
+ source
+ width
+ source
+ height
+ source
+ depth
+palette data
+ rgbs
+black index
+ rgbs
+ length
+ rgbs
+black index
+ equals
+ black
+black index
+black index
+ rgbs
+ length
+ source
+ depth
+ rgbs
+ length
+ rgb
+ new
+ rgb
+ rgbs
+ length
+ system
+ arraycopy
+ rgbs
+ new
+ rgbs
+ length
+ new
+ rgbs
+ length
+ black
+ rgbs
+ new
+black index
+image data
+image data
+ source
+ width
+ source
+ height
+ source
+ depth
+palette data
+ rgbs
+black index
+ system
+ arraycopy
+ source
+ data
+image data
+ data
+image data
+ data
+ length
+image pixels
+image data
+ width
+mask pixels
+ mask
+ width
+
+
+image data
+ height
+
+ source
+get pixels
+
+image data
+ width
+image pixels
+ mask
+get pixels
+
+ mask
+ width
+mask pixels
+
+
+image pixels
+ length
+
+mask pixels
+
+image pixels
+
+black index
+image data
+set pixels
+
+ source
+ width
+image pixels
+image data
+mask pad
+ mask
+scanline pad
+image data
+mask data
+ mask
+ data
+ init
+ device
+ image
+image data
+ init
+ device
+ device
+image data
+
+
+ swt
+ error
+ swt
+error null argument
+ init
+ device
+
+internal _new
+ data
+ data
+ handle
+ swt
+ error
+ swt
+error graphic disposed
+ type
+ swt
+ bitmap
+ mem
+ swt
+ error
+ swt
+error invalid argument
+
+ device
+internal _new
+ image
+
+create compatible
+
+ device
+internal _dispose
+
+ image
+ swt
+ error
+ swt
+error handles
+ data
+ mask
+ swt
+left right
+ swt
+right left
+ data
+ style
+ mask
+ data
+ layout
+ data
+ style
+ swt
+right left
+
+layout rtl
+ data
+ style
+ swt
+left right
+ data
+ device
+ device
+ data
+ image
+ data
+ font
+ device
+system font
+ image
+internal _dispose
+
+ data
+ data
+
+ delete
+
+ disposed
+ handle
+set background
+ color
+ color
+
+ win
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ color
+ swt
+ error
+ swt
+error null argument
+ color
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+transparent pixel
+
+ device
+internal _new
+ bitmap
+
+ bitmap
+
+get object
+ handle
+ bitmap
+ sizeof
+
+hdc mem
+
+create compatible
+
+
+select object
+hdc mem
+ handle
+max colors
+
+bits pixel
+ colors
+max colors
+
+ win
+ swt
+ error
+ swt
+error not implemented
+num colors
+
+get dib color table
+hdc mem
+max colors
+ colors
+ offset
+transparent pixel
+ colors
+ offset
+ color
+get blue
+ colors
+ offset
+ color
+get green
+ colors
+ offset
+ color
+get red
+
+ win
+ swt
+ error
+ swt
+error not implemented
+
+set dib color table
+hdc mem
+num colors
+ colors
+
+ delete
+hdc mem
+ device
+internal _dispose
+
+ string
+ string
+ disposed
+ handle
+ image
+win 32_new
+ device
+ device
+ type
+ handle
+ device
+ device
+ device
+get device
+ image
+ image
+ image
+ image
+ type
+ type
+ image
+ handle
+ handle
+ image
+ device
+ device
+ image
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  graphics  which  have  been  prepared  for  display  specific  device  that  they  are  ready  paint  using  methods  such  code draw image  code  and  display  widgets  with  for  example  code  button set image  code  loaded  from  file  format  that  supports  code  image  code  may  have  transparency  meaning  that  certain  pixels  are  specified  being  transparent  when  drawn  examples  file  formats  that  support  transparency  are  gif  and  png  there  are  two  primary  ways  use  code  images  code  the  first  load  graphic  file  from  disk  and  create  code  image  code  from  this  done  using  code  image  code  constructor  for  example  pre  image  new  image  device  graphic  bmp  pre  graphic  file  may  contain  color  table  specifying  which  colors  the  image  was  intended  possess  the  above  example  these  colors  will  mapped  the  closest  available  color  swt  possible  get  more  control  over  the  mapping  colors  the  image  being  created  using  code  the  form  pre image data  data  new image data  graphic  bmp  rgb  rgbs  data  get  this  point  rgbs  contains  specifications  all  the  colors  contained  within  this  image  you  may  allocate  many  these  colors  you  wish  using  the  color  constructor  color  rgb  then  create  the  image  image  new  image  device  data  pre  applications  which  require  even  greater  control  over  the  image  loading  process  should  use  the  support  provided  class  code image loader  code  application  code  must  explicitly  invoke  the  code  image  dispose  code  method  release  the  operating  system  resources  managed  each  instance  when  those  instances  are  longer  required  see  color  see image data  see image loader
+specifies  whether  the  receiver  bitmap  icon  one  code  swt  bitmap  code  code  swt  icon  code
+the  handle  the  image  resource  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code 
+specifies  the  transparent  pixel
+the  which  drawing  the  image
+the  alpha  data  for  the  image
+the  global  alpha  value  used  for  every  pixel
+the  image  data  used  create  this  image  icon  used  only  win
+specifies  the  default  scanline  padding
+prevents  uninitialized  instances  from  being  created  outside  the  package
+constructs  empty  instance  this  class  with  the  specified  width  and  height  the  result  may  drawn  upon  creating  and  using  any  its  drawing  operations  shown  the  following  example  pre  image  new  image  device  width  height  new draw rectangle  dispose  pre  note  some  platforms  may  have  limitation  the  size  image  that  can  created  size  depends  width  height  and  depth  for  example  windows  and  not  allow  images  larger  than  param  device  the  device  which  create  the  image  param  width  the  width  the  new  image  param  height  the  height  the  new  image  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  error  invalid  argument  either  the  width  height  negative  zero  exception swt error  error  handles  handle  could  not  obtained  for  image  creation 
+constructs  new  instance  this  class  based  the  provided  image  with  appearance  that  varies  depending  the  value  the  flag  the  possible  flag  values  are  image  copy  the  result  identical  copy src image  image  disable  the  result  copy src image  which  has  disabled  look  image  gray  the  result  copy src image  which  has  gray  scale  look  param  device  the  device  which  create  the  image  param src image  the  image  use  the  source  param  flag  the  style  either  code  image  copy  code  code  image  disable  code  code  image  gray  code  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  error  null  argument src image  null  error  invalid  argument  the  flag  not  one  code  image  copy  code  code  image  disable  code  code  image  gray  code  error  invalid  argument  the  image  has  been  disposed  exception swt exception  error  invalid  image  the  image  not  bitmap  icon  otherwise  invalid  state  error  unsupported  depth  the  depth  the  image  not  supported  exception swt error  error  handles  handle  could  not  obtained  for  image  creation 
+get  the  hdc  for  the  device
+copy  the  bitmap
+release  the  hdc  for  the  device
+  size
+  width
+  height
+  planes
+ bit count
+  compression
+ size image
+ pels per meter
+ pels per meter
+ clr used
+ clr important
+first  color  black
+second  color  white
+get  the  hdc  for  the  device
+source 
+monochrome  intermediate 
+destination 
+monochrome  intermediate  dib  section
+attach  the  bitmap  the  source 
+create  the  destination  bitmap
+attach  the  dib  section  and  the  new  bitmap  the 
+bit blt  the  bitmap  into  the  monochrome  dib  section
+paint  the  destination  rectangle  gray
+bit blt  the  black  bits  the  monochrome  bitmap  into  color  dhilight  bits  the  destination  the  magic  rop  comes  from  charles  petzold  book
+bit blt  the  black  bits  the  monochrome  bitmap  into  color  dshadow  bits  the  destination 
+free  resources
+release  the  hdc  for  the  device
+get  icon  information
+create  the  destination  bitmaps
+bit blt  the  source  mask  into  the  destination  mask
+attach  the  monochrome  dib  section  and  the  destination  bitmap  the 
+bit blt  the  bitmap  into  the  monochrome  dib  section
+paint  the  destination  rectangle  grey
+bit blt  the  black  bits  the  monochrome  bitmap  into  color  dhilight  bits  the  destination  the  magic  rop  comes  from  charles  petzold  book
+invert  mask  into  hdc
+select  black  brush  into  destination
+copy  black  bits  from  monochrome  bitmap  into  black  bits  the  destination 
+free  resources
+release  the  hdc  for  the  device
+create  the  new  iconinfo
+create  the  new  icon
+free  bitmaps
+convert  the  palette  entries  gray
+create  bit  depth  image  data  with  gray  palette
+convert  the  pixels
+constructs  empty  instance  this  class  with  the  width  and  height  the  specified  rectangle  the  result  may  drawn  upon  creating  and  using  any  its  drawing  operations  shown  the  following  example  pre  image  new  image  device bounds rectangle  new draw rectangle  dispose  pre  note  some  platforms  may  have  limitation  the  size  image  that  can  created  size  depends  width  height  and  depth  for  example  windows  and  not  allow  images  larger  than  param  device  the  device  which  create  the  image  param  bounds  rectangle  specifying  the  image  width  and  height  must  not  null  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  error  null  argument  the  bounds  rectangle  null  error  invalid  argument  either  the  rectangle  width  height  negative  exception swt error  error  handles  handle  could  not  obtained  for  image  creation 
+constructs  instance  this  class  from  the  given  code image data  code  param  device  the  device  which  create  the  image  param  data  the  image  data  create  the  image  from  must  not  null  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  error  null  argument  the  image  data  null  exception swt exception  error  unsupported  depth  the  depth  the image data  not  supported  exception swt error  error  handles  handle  could  not  obtained  for  image  creation 
+constructs  instance  this  class  whose  type  code  swt  icon  code  from  the  two  given  code image data  code  objects  the  two  images  must  the  same  size  pixel  transparency  either  image  will  ignored  the  mask  image  should  contain  white  wherever  the  icon  visible  and  black  wherever  the  icon  transparent  addition  the  source  image  should  contain  black  wherever  the  icon  transparent  param  device  the  device  which  create  the  icon  param  source  the  color  data  for  the  icon  param  mask  the  mask  data  for  the  icon  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  error  null  argument  either  the  source  mask  null  error  invalid  argument  source  and  mask  are  different  sizes  exception swt error  error  handles  handle  could  not  obtained  for  image  creation 
+constructs  instance  this  class  loading  its  representation  from  the  specified  input  stream  throws  error  error  occurs  while  loading  the  image  the  result  image  unsupported  type  application  code  still  responsible  for  closing  the  input  stream  this  constructor  provided  for  convenience  when  loading  single  image  only  the  stream  contains  multiple  images  only  the  first  one  will  loaded  load  multiple  images  use  code image loader  load  code  this  constructor  may  used  load  resource  follows  pre  static  image load image  display  display  class  clazz  string  string input stream  stream  clazz get resource stream  string  stream  null  return  null  image  image  null  try  image  new  image  display  stream  catch swt exception  finally  try  stream  close  catch  exception  return  image  pre  param  device  the  device  which  create  the  image  param  stream  the  input  stream  load  the  image  from  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  error  null  argument  the  stream  null  exception swt exception  error  invalid  image  the  image  file  contains  invalid  data  error  error  occurs  while  reading  data  error  unsupported  depth  the input stream  describes  image  with  unsupported  depth  error  unsupported  format  the  image  file  contains  unrecognized  format  exception swt error  error  handles  handle  could  not  obtained  for  image  creation 
+constructs  instance  this  class  loading  its  representation  from  the  file  with  the  specified  name  throws  error  error  occurs  while  loading  the  image  the  result  image  unsupported  type  this  constructor  provided  for  convenience  when  loading  single  image  only  the  specified  file  contains  multiple  images  only  the  first  one  will  used  param  device  the  device  which  create  the  image  param  filename  the  name  the  file  load  the  image  from  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  error  null  argument  the  file  name  null  exception swt exception  error  invalid  image  the  image  file  contains  invalid  data  error  error  occurs  while  reading  data  error  unsupported  depth  the  image  file  has  unsupported  depth  error  unsupported  format  the  image  file  contains  unrecognized  format  exception swt error  error  handles  handle  could  not  obtained  for  image  creation 
+create  dib  from  ddb  without  using get bits  note  that  the  ddb  should  not  selected  into  hdc
+determine  the  ddb  depth
+determine  the  dib  palette
+set  the  rgb  colors  into  the  bitmap  info
+little  endian
+big  endian
+bitblt  ddb  into  dib
+bug  gdi  creating  new  gdi  bitmap  from  hicon  segment  faults  when  the  icon  width  bigger  than  the  icon  height  the  fix  detect  this  and  create pixel format 32bpp argb  image  instead
+disposes  the  operating  system  resources  associated  with  the  image  applications  must  dispose  all  images  which  they  allocate
+compares  the  argument  the  receiver  and  returns  true  they  represent  the  same  object  using  class  specific  comparison  param  object  the  object  compare  with  this  object  return  code  true  code  the  object  the  same  this  object  and  code  false  code  otherwise  see hash code
+returns  the  color  which  map  the  transparent  pixel  null  the  receiver  has  transparent  pixel  there  are  certain  uses  images  that  not  support  transparency  for  example  setting  image  into  button  label  these  cases  may  desired  simulate  transparency  using  the  background  color  the  widget  paint  the  transparent  pixels  the  image  use  this  method  check  which  color  will  used  these  cases  place  transparency  this  value  may  set  with set background  return  the  background  color  the  image  null  there  transparency  the  image  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+get  the  hdc  for  the  device
+compute  the  background  color
+release  the  hdc  for  the  device
+returns  the  bounds  the  receiver  the  rectangle  will  always  have  and  values  and  the  width  and  height  the  image  return  rectangle  specifying  the  image  bounds  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  error  invalid  image  the  image  not  bitmap  icon 
+returns  code image data  code  based  the  receiver  modifications  made  this  code image data  code  will  not  affect  the  image  return  code image data  code  containing  the  image  data  and  attributes  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  error  invalid  image  the  image  not  bitmap  icon  see image data
+get  the  basic  bitmap  information
+create  the  bitmapinfo
+get  the  hdc  for  the  device
+create  the  and  select  the  bitmap
+select  the  palette  necessary
+find  the  size  the  image  and  allocate  data
+call  with  null  bits  get  the  image  size
+get  the  bitmap  data
+calculate  the  palette
+the  mask
+the  bottom  half  the  mask
+the  entire  mask
+create  the  bitmapinfo
+first  color  black  second  color  white
+call  with  null  bits  get  the  image  size
+loop  invert  the  mask
+make  sure  mask scanline pad 
+clean 
+release  the  hdc  for  the  device
+construct  and  return  the image data
+get  the  basic  bitmap  information
+find  out  whether  this  dib  ddb
+get  the  hdc  for  the  device
+feature  win get bits  not  available  win  the  workaround  create  temporary  dib  from  the  ddb  and  use  the  bits  field  dibsection  retrieve  the  image  data
+calculate  number  colors
+create  the  bitmapinfo
+create  the  and  select  the  bitmap
+select  the  palette  necessary
+find  the  size  the  image  and  allocate  data
+call  with  null  bits  get  the  image  size
+get  the  bitmap  data
+get  image  data  from  the  temporary  dib
+calculate  the  palette
+feature  win get dib color table  not  supported  the  workaround  set  pixel  the  desired  palette  index  and  use get pixel  get  the  corresponding  rgb  value
+clean 
+free  temporary  dib
+release  the  hdc  for  the  device
+construct  and  return  the image data
+returns  integer  hash  code  for  the  receiver  any  two  objects  that  return  code  true  code  when  passed  code  equals  code  must  return  the  same  value  for  this  method  return  the  receiver  hash  see  equals
+feature  windows create compatible bitmap  may  fail  for  large  images  the  fix  create  dib  section  that  case
+set  the  rgb  colors  into  the  bitmap  info
+big  endian
+feature  win get icon info  not  available  win  the  workaround  cache  the  object image data  for  images  type  swt  icon  the  bitmaps hbm mask  and hbm color  can  then  reconstructed  using  our  version get icon info  this  function  takes  iconinfo  object  and  sets  the  fields hbm mask  and hbm color  with  the  corresponding  bitmaps  has  created  note  these  bitmaps  must  freed  they  would  have  the  regular get icon info  had  been  used
+bug  windows  monochrome dib section  will  display  solid  black  windows  machines  even  though  contains  the  correct  data  the  fix  convert  bit image data  into  bit image data  before  creating  the  image
+windows  does  not  support  bit  images  convert  bit  image
+windows  supports  bit  mask  bit  mask  0000  and  bit  mask  0000  0000  000000  documented  msdn  bitmapinfoheader  make  sure  the  image  windows  supported
+note  win create dib section  requires  the  compression  field  the  bitmapinfoheader  set  bitfields  for  and  bit  direct  images  see  msdn  for create dib section  this  case  the  color  mask  can  set  any  value  for  consistency  set  the  same  mask  used  non  win  platforms  rgb  mode
+construct  bitmap  info  header  hand
+set  the  rgb  colors  into  the  bitmap  info
+the  color  masks  must  written  based  the  endianness  the image data
+case  scanline  pad  other  than  the  work  convert 
+get  the  hdc  for  the  device
+create  the  color  bitmap
+release  the  hdc  for  the  device
+create  the  mask  windows  requires  icon  masks  have  scanline  pad 
+create  the  icon
+create  temporary  image  and  locate  the  black  pixel
+the  source  had  transparency  can  use  the  transparent  pixel  for  black
+grow  the  palette  with  black
+didn  find  black  the  palette  and  there  transparent  pixel  can  use
+can  grow  the  palette  and  add  black
+room  grow  the  palette
+there  was  black  the  palette  just  copy  the  data  over
+modify  the  source  image  contain  black  wherever  the  mask 
+invokes  platform  specific  functionality  allocate  new  handle  important  this  method  not  part  the  public  api  for  code  image  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  data  the  platform  specific  data  return  the  platform  specific  handle
+create  new  that  can  draw  into  the  image  only  supported  for  bitmaps
+create  compatible  hdc  for  the  device
+set  the  data  fields
+invokes  platform  specific  functionality  dispose  handle  important  this  method  not  part  the  public  api  for  code  image  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  the  platform  specific  handle  param  data  the  platform  specific  data
+returns  code  true  code  the  image  has  been  disposed  and  code  false  code  otherwise  this  method  gets  the  dispose  state  for  the  image  when  image  has  been  disposed  error  invoke  any  other  method  using  the  image  return  code  true  code  when  the  image  disposed  and  code  false  code  otherwise
+sets  the  color  which  map  the  transparent  pixel  there  are  certain  uses  code  images  code  that  not  support  transparency  for  example  setting  image  into  button  label  these  cases  may  desired  simulate  transparency  using  the  background  color  the  widget  paint  the  transparent  pixels  the  image  this  method  specifies  the  color  that  will  used  these  cases  for  example  pre  button  new  button  image set background get background set image  image  pre  the  image  may  modified  this  operation  effect  the  transparent  regions  may  filled  with  the  supplied  color  hence  this  operation  not  reversible  and  not  legal  call  this  function  twice  with  null  argument  this  method  has  effect  the  receiver  does  not  have  transparent  pixel  value  param  color  the  color  use  when  transparent  pixel  specified  exception illegal argument exception  error  null  argument  the  color  null  error  invalid  argument  the  color  has  been  disposed  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+note  not  implemented  win
+get  the  hdc  for  the  device
+change  the  background  color  the  image
+release  the  hdc  for  the  device
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  receiver
+invokes  platform  specific  functionality  allocate  new  image  important  this  method  not  part  the  public  api  for  code  image  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  device  the  device  which  allocate  the  color  param  type  the  type  the  image  code  swt  bitmap  code  code  swt  icon  code  param  handle  the  handle  for  the  image  return  new  image  object  containing  the  specified  device  type  and  handle
+</comments>
+</text>
+</DOC>

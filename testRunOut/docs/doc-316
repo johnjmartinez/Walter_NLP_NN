@@ -1,0 +1,37 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.SelectionListener.java </DOCNO>
+<text>
+<class>
+selection listener
+</class>
+<method>
+widget selected
+widget default selected
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+selection listener
+swt event listener
+widget selected
+selection event
+
+widget default selected
+selection event
+
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+classes  which  implement  this  interface  provide  methods  that  deal  with  the  events  that  are  generated  when  selection  occurs  control  after  creating  instance  class  that  implements  this  interface  can  added  control  using  the  code add selection listener  code  method  and  removed  using  the  code remove selection listener  code  method  when  selection  occurs  control  the  appropriate  method  will  invoked  see selection adapter  see selection event
+sent  when  selection  occurs  the  control  for  example  selection  occurs  list  when  the  user  selects  item  items  with  the  keyboard  mouse  some  platforms  the  event  occurs  when  mouse  button  key  pressed  others  happens  when  the  mouse  key  released  the  exact  key  mouse  gesture  that  causes  this  event  platform  specific  param  event  containing  information  about  the  selection
+sent  when  default  selection  occurs  the  control  for  example  some  platforms  default  selection  occurs  list  when  the  user  double  clicks  item  types  return  text  some  platforms  the  event  occurs  when  mouse  button  key  pressed  others  happens  when  the  mouse  key  released  the  exact  key  mouse  gesture  that  causes  this  event  platform  specific  param  event  containing  information  about  the  default  selection
+</comments>
+</text>
+</DOC>

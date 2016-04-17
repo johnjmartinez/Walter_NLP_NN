@@ -1,0 +1,497 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.ProgressBar.java </DOCNO>
+<text>
+<class>
+progress bar
+</class>
+<method>
+progress bar
+call window proc
+check style
+compute size
+create handle
+default foreground
+get maximum
+get minimum
+get selection
+release widget
+start timer
+stop timer
+set background pixel
+set foreground pixel
+set maximum
+set minimum
+set selection
+widget style
+window class
+window proc
+ getdlgcode
+ size
+ timer
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+progress bar
+ control
+ delay
+ timer
+minimum width
+progress bar proc
+ tchar
+progress bar class
+ tchar
+
+progress class
+ wndclass
+wnd class
+ wndclass
+
+get class info
+progress bar class
+wnd class
+progress bar proc
+wnd class
+lpfn wnd proc
+ instance
+
+get module handle
+ heap
+
+get process heap
+wnd class
+ instance
+ instance
+wnd class
+ style
+
+ globalclass
+wnd class
+ style
+
+ dblclks
+byte count
+progress bar class
+ length
+ tchar
+ sizeof
+lpsz class name
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+lpsz class name
+progress bar class
+byte count
+wnd class
+lpsz class name
+lpsz class name
+
+register class
+wnd class
+progress bar
+ composite
+ parent
+ style
+ parent
+check style
+ style
+call window proc
+ hwnd
+ msg
+ param
+ param
+ handle
+
+call window proc
+progress bar proc
+ hwnd
+ msg
+ param
+ param
+check style
+ style
+ style
+ swt
+ focus
+check bits
+ style
+ swt
+ horizontal
+ swt
+ vertical
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+ border
+get border width
+ width
+ border
+ height
+ border
+ style
+ swt
+ horizontal
+ width
+
+get system metrics
+
+ cxhscroll
+ height
+
+get system metrics
+
+ cyhscroll
+ width
+
+get system metrics
+
+ cxvscroll
+ height
+
+get system metrics
+
+ cyvscroll
+ hint
+ swt
+ default
+ width
+ hint
+ border
+ hint
+ swt
+ default
+ height
+ hint
+ border
+ point
+ width
+ height
+create handle
+create handle
+start timer
+default foreground
+
+get sys color
+
+color highlight
+get maximum
+check widget
+
+send message
+ handle
+
+pbm getrange
+get minimum
+check widget
+
+send message
+ handle
+
+pbm getrange
+get selection
+check widget
+
+send message
+ handle
+
+pbm getpos
+release widget
+release widget
+stop timer
+start timer
+ style
+ swt
+ indeterminate
+ bits
+
+get window long
+ handle
+
+gwl style
+
+comctl 32_ major
+ bits
+
+pbs marquee
+
+set timer
+ handle
+ timer
+ delay
+
+send message
+ handle
+
+pbm setmarquee
+ delay
+stop timer
+ style
+ swt
+ indeterminate
+ bits
+
+get window long
+ handle
+
+gwl style
+
+comctl 32_ major
+ bits
+
+pbs marquee
+
+kill timer
+ handle
+ timer
+
+send message
+ handle
+
+pbm setmarquee
+set background pixel
+ pixel
+ background
+ pixel
+ background
+ pixel
+ pixel
+ pixel
+
+clr default
+
+send message
+ handle
+
+pbm setbkcolor
+ pixel
+set foreground pixel
+ pixel
+ foreground
+ pixel
+ foreground
+ pixel
+ pixel
+ pixel
+
+clr default
+
+send message
+ handle
+
+pbm setbarcolor
+ pixel
+set maximum
+ value
+check widget
+ minimum
+
+send message
+ handle
+
+pbm getrange
+ minimum
+ minimum
+ value
+
+send message
+ handle
+
+pbm setrange
+ minimum
+ value
+set minimum
+ value
+check widget
+ maximum
+
+send message
+ handle
+
+pbm getrange
+ value
+ value
+ maximum
+
+send message
+ handle
+
+pbm setrange
+ value
+ maximum
+set selection
+ value
+check widget
+
+send message
+ handle
+
+pbm setpos
+ value
+widget style
+ bits
+widget style
+ style
+ swt
+ smooth
+ bits
+
+pbs smooth
+ style
+ swt
+ vertical
+ bits
+
+pbs vertical
+ style
+ swt
+ indeterminate
+ bits
+
+pbs marquee
+ bits
+ tchar
+window class
+progress bar class
+window proc
+progress bar proc
+ lresult
+ getdlgcode
+ param
+ param
+ lresult
+ result
+ getdlgcode
+ param
+ param
+ result
+ result
+ lresult
+
+dlgc static
+ lresult
+ size
+ param
+ param
+ lresult
+ result
+ size
+ param
+ param
+ result
+ result
+ style
+ swt
+ indeterminate
+
+comctl 32_ major
+force resize
+ rect
+ rect
+ rect
+
+get client rect
+ handle
+ rect
+old bits
+
+get window long
+ handle
+
+gwl style
+new bits
+old bits
+ rect
+ right
+ rect
+ left
+minimum width
+new bits
+
+pbs marquee
+new bits
+
+pbs marquee
+new bits
+old bits
+stop timer
+
+set window long
+ handle
+
+gwl style
+new bits
+start timer
+ result
+ lresult
+ timer
+ param
+ param
+ lresult
+ result
+ timer
+ param
+ param
+ result
+ result
+ style
+ swt
+ indeterminate
+ bits
+
+get window long
+ handle
+
+gwl style
+
+comctl 32_ major
+ bits
+
+pbs marquee
+ param
+ timer
+
+send message
+ handle
+
+pbm stepit
+ result
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  the  receiver  represent  unselectable  user  interface  object  that  used  display  progress  typically  the  form  bar  styles  smooth  horizontal  vertical  indeterminate  events  none  note  only  one  the  styles  horizontal  and  vertical  may  specified  important  this  class  intended  subclassed  only  within  the  swt  implementation 
+feature  windows  the  progress  bar  window  class  does  not  include  dblclks  this  mean  that  these  controls  will  not  get  double  click  messages  such  lbuttondblclk  the  fix  register  new  window  class  with  dblclks  note  screen  readers  look  for  the  exact  class  name  the  control  order  provide  the  correct  kind  assistance  therefore  critical  that  the  new  window  class  have  the  same  name  possible  register  local  window  class  with  the  same  name  global  class  since  bits  that  affect  the  class  are  being  changed  possible  that  other  native  code  other  than  swt  could  create  control  with  this  class  name  and  fail  unexpectedly
+heap free  heap lpsz class name
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  smooth  see  swt  horizontal  see  swt  vertical  see  widget check subclass  see  widget get style
+returns  the  maximum  value  which  the  receiver  will  allow  return  the  maximum  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  minimum  value  which  the  receiver  will  allow  return  the  minimum  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  single  selection  that  the  receiver  position  return  the  selection  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  maximum  value  that  the  receiver  will  allow  this  new  value  will  ignored  not  greater  than  the  receiver  current  minimum  value  the  new  maximum  applied  then  the  receiver  selection  value  will  adjusted  necessary  fall  within  its  new  range  param  value  the  new  maximum  which  must  greater  than  the  current  minimum  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  minimum  value  that  the  receiver  will  allow  this  new  value  will  ignored  negative  not  less  than  the  receiver  current  maximum  value  the  new  minimum  applied  then  the  receiver  selection  value  will  adjusted  necessary  fall  within  its  new  range  param  value  the  new  minimum  which  must  nonnegative  and  less  than  the  current  maximum  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  single  selection  that  the  receiver  position  the  argument  which  must  greater  than  equal  zero  param  value  the  new  selection  must  zero  greater  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  the  progress  bar  does  not  implement  getdlgcode  result  progress  bar  takes  focus  and  takes  part  tab  traversal  this  behavior  while  unspecified  unwanted  the  fix  implement  getdlgcode  behave  like  static  control
+feature  windows  when  progress  bar  with  the  style  pbs  marquee  becomes  too  small  the  animation  currently  small  bar  moving  from  right  left  does  not  have  enough  space  draw  the  result  that  the  progress  bar  does  not  appear  moving  the  fix  detect  this  case  clear  the  pbs  marquee  style  and  emulate  the  animation  using  pbm  stepit  note  this  only  happens  window 
+</comments>
+</text>
+</DOC>

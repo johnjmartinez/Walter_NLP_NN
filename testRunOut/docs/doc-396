@@ -1,0 +1,279 @@
+<DOC>
+<DOCNO>org.eclipse.swt.dnd.TreeDragUnderEffect.java </DOCNO>
+<text>
+<class>
+tree drag under effect
+</class>
+<method>
+tree drag under effect
+check effect
+ show
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ dnd
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+tree drag under effect
+drag under effect
+ tree
+ tree
+drop index
+scroll index
+scroll begin time
+expand index
+expand begin time
+clear insert
+scroll hysteresis
+expand hysteresis
+tree drag under effect
+ tree
+ tree
+ tree
+ tree
+check effect
+ effect
+ effect
+ dnd
+feedback select
+ effect
+ effect
+ dnd
+feedback insert after
+ dnd
+feedback insert before
+ effect
+ dnd
+feedback insert before
+ effect
+ effect
+ dnd
+feedback insert after
+ effect
+ show
+ effect
+
+
+ effect
+check effect
+ effect
+ handle
+ tree
+ handle
+ point
+ coordinates
+ point
+
+
+ coordinates
+ tree
+ control
+ coordinates
+ tvhittestinfo
+ lpht
+ tvhittestinfo
+ lpht
+
+ coordinates
+
+ lpht
+
+ coordinates
+
+
+send message
+ handle
+
+tvm hittest
+ lpht
+ item
+ lpht
+ item
+ effect
+ dnd
+feedback scroll
+scroll begin time
+scroll index
+ item
+scroll index
+ item
+scroll begin time
+ system
+current time millis
+scroll begin time
+top item
+
+send message
+ handle
+
+tvm getnextitem
+
+tvgn firstvisible
+next item
+
+send message
+ handle
+
+tvm getnextitem
+ item
+top item
+
+tvgn previousvisible
+
+tvgn nextvisible
+ item
+
+send message
+ handle
+
+tvm ensurevisible
+next item
+scroll begin time
+scroll index
+scroll begin time
+ system
+current time millis
+scroll hysteresis
+scroll index
+ item
+ effect
+ dnd
+feedback expand
+expand begin time
+expand index
+ item
+expand index
+ item
+expand begin time
+ system
+current time millis
+expand begin time
+
+send message
+ handle
+
+tvm expand
+
+tve expand
+ item
+expand begin time
+expand index
+expand begin time
+ system
+current time millis
+expand hysteresis
+expand index
+ item
+drop index
+drop index
+ item
+ effect
+ dnd
+feedback select
+ tvitem
+ item
+ tvitem
+ item
+ item
+drop index
+ item
+ mask
+
+tvif state
+ item
+state mask
+
+tvis drophilited
+ item
+ state
+
+send message
+ handle
+
+tvm setitem
+ item
+drop index
+ item
+ item
+drop index
+ effect
+ dnd
+feedback select
+ tvitem
+ item
+ tvitem
+ item
+ item
+ item
+ item
+ mask
+
+tvif state
+ item
+state mask
+
+tvis drophilited
+ item
+ state
+
+tvis drophilited
+
+send message
+ handle
+
+tvm setitem
+ item
+drop index
+ item
+ effect
+ dnd
+feedback insert before
+ effect
+ dnd
+feedback insert after
+ before
+ effect
+ dnd
+feedback insert before
+tree item
+insert item
+tree item
+ tree
+get display
+find widget
+ tree
+ handle
+ item
+insert item
+ tree
+set insert mark
+insert item
+ before
+clear insert
+clear insert
+ tree
+set insert mark
+clear insert
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+milli  seconds
+milli  seconds
+some  effects  are  mutually  exclusive  make  sure  that  only  one  the  mutually  exclusive  effects  has  been  specified
+bug  windows  when  tvm  setinsertmark  used  set  insert  mark  for  tree  and  item  expanded  collapsed  near  the  insert  mark  the  tree  does  not  redraw  the  insert  mark  properly  the  fix  hide  and  show  the  insert  mark  whenever  item  expanded  collapsed  since  the  insert  mark  can  not  queried  from  the  tree  use  the  tree  api  rather  than  calling  the  directly
+</comments>
+</text>
+</DOC>

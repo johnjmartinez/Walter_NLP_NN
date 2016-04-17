@@ -1,0 +1,31 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.JPEGArithmeticConditioningTable.java </DOCNO>
+<text>
+<class>
+jpeg arithmetic conditioning table
+</class>
+<method>
+jpeg arithmetic conditioning table
+ signature
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+jpeg arithmetic conditioning table
+jpeg variable size segment
+jpeg arithmetic conditioning table
+data input stream
+byte stream
+byte stream
+ signature
+jpeg file format
+ dac
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

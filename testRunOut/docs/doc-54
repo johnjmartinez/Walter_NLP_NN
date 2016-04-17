@@ -1,0 +1,585 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.CBannerLayout.java </DOCNO>
+<text>
+<class>
+banner layout
+</class>
+<method>
+compute size
+compute child size
+compute trim
+flush cache
+ layout
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+banner layout
+ layout
+ point
+compute size
+ composite
+ composite
+ hint
+ hint
+flush cache
+ banner
+ banner
+ banner
+ composite
+ control
+ left
+ banner
+ left
+ control
+ right
+ banner
+ right
+ control
+ bottom
+ banner
+ bottom
+show curve
+ left
+ right
+ height
+ hint
+ width
+ hint
+ point
+bottom size
+ point
+ bottom
+ trim
+compute trim
+ bottom
+
+ hint
+ swt
+ default
+ swt
+ default
+ width
+ trim
+bottom size
+compute child size
+ bottom
+
+ swt
+ default
+flush cache
+ hint
+ swt
+ default
+bottom size
+
+ math
+ min
+bottom size
+
+ height
+ height
+bottom size
+
+ banner
+border top
+ banner
+border stripe
+ banner
+border bottom
+show curve
+ hint
+ swt
+ default
+ height
+ banner
+border top
+ banner
+border bottom
+ banner
+border stripe
+ point
+right size
+ point
+ right
+ trim
+compute trim
+ right
+
+ banner
+right width
+ swt
+ default
+ swt
+ default
+ banner
+right width
+ trim
+
+ banner
+right width
+ swt
+ default
+ swt
+ default
+ height
+right size
+compute child size
+ right
+
+
+flush cache
+ hint
+ swt
+ default
+right size
+
+ math
+ min
+right size
+
+ width
+ width
+right size
+
+ banner
+curve _width
+ banner
+curve _indent
+ width
+ math
+ max
+ width
+ banner
+min left
+ point
+left size
+ point
+ left
+ trim
+compute trim
+ left
+
+ hint
+ swt
+ default
+ swt
+ default
+ width
+ trim
+left size
+compute child size
+ left
+
+ swt
+ default
+flush cache
+ width
+left size
+
+right size
+
+ height
+bottom size
+
+ bottom
+ height
+ banner
+border stripe
+ left
+ height
+ right
+left size
+
+ math
+ max
+left size
+
+ banner
+right min height
+ height
+right size
+
+show curve
+ width
+ banner
+curve _width
+ banner
+curve _indent
+ height
+ banner
+border top
+ banner
+border bottom
+ banner
+border stripe
+ hint
+ swt
+ default
+ width
+ hint
+ hint
+ swt
+ default
+ height
+ hint
+ point
+ width
+ height
+ point
+compute child size
+ control
+ control
+ hint
+ hint
+flush cache
+ object
+ data
+ control
+get layout data
+ data
+ data
+layout data
+ data
+layout data
+ control
+set layout data
+ data
+layout data
+ data
+compute size
+ control
+ hint
+ hint
+flush cache
+compute trim
+ control
+
+
+ scrollable
+ rectangle
+ rect
+ scrollable
+
+compute trim
+ rect
+ width
+
+get border width
+flush cache
+ control
+ control
+ object
+ data
+ control
+get layout data
+ data
+ data
+layout data
+layout data
+ data
+flush cache
+ layout
+ composite
+ composite
+flush cache
+ banner
+ banner
+ banner
+ composite
+ control
+ left
+ banner
+ left
+ control
+ right
+ banner
+ right
+ control
+ bottom
+ banner
+ bottom
+ point
+ size
+ banner
+get size
+show curve
+ left
+ right
+ width
+ size
+
+ height
+ size
+
+ point
+bottom size
+ point
+ bottom
+ trim
+compute trim
+ bottom
+
+ width
+ trim
+bottom size
+compute child size
+ bottom
+
+ swt
+ default
+flush cache
+bottom size
+
+ math
+ min
+bottom size
+
+ height
+ height
+bottom size
+
+ banner
+border top
+ banner
+border bottom
+ banner
+border stripe
+show curve
+ height
+ banner
+border top
+ banner
+border bottom
+ banner
+border stripe
+ height
+ math
+ max
+ height
+ point
+right size
+ point
+ right
+ trim
+ trim
+ right
+ scrollable
+ rectangle
+ rect
+ scrollable
+ right
+compute trim
+ trim
+ rect
+ width
+ trim
+ rect
+ height
+ trim
+ trim
+ right
+get border width
+ right
+ banner
+right width
+ swt
+ default
+ swt
+ default
+ banner
+right width
+ trim
+ right
+ banner
+right width
+ swt
+ default
+ swt
+ default
+ height
+ trim
+right size
+compute child size
+ right
+ right
+ right
+flush cache
+right size
+
+ math
+ min
+right size
+
+ width
+ width
+right size
+
+ banner
+curve _width
+ banner
+curve _indent
+ width
+ math
+ max
+ width
+ banner
+min left
+ point
+left size
+ point
+ left
+ trim
+compute trim
+ left
+left size
+compute child size
+ left
+ width
+ trim
+ swt
+ default
+flush cache
+
+
+old start
+ banner
+curve start
+ rectangle
+left rect
+ rectangle
+right rect
+ rectangle
+bottom rect
+ bottom
+bottom rect
+ rectangle
+
+
+ size
+
+bottom size
+
+bottom size
+
+bottom size
+
+show curve
+
+ banner
+border top
+ banner
+border stripe
+ left
+left rect
+ rectangle
+
+
+left size
+
+left size
+
+ banner
+curve start
+
+left size
+
+ banner
+curve _indent
+
+left size
+
+ banner
+curve _width
+ banner
+curve _indent
+ right
+right rect
+ rectangle
+
+
+right size
+
+right size
+
+ banner
+curve start
+old start
+ banner
+ redraw
+ banner
+curve start
+ banner
+curve tail
+old start
+ banner
+curve _width
+ banner
+curve start
+ banner
+curve tail
+ size
+
+ banner
+curve start
+old start
+ banner
+ redraw
+old start
+ banner
+curve tail
+ banner
+curve start
+ banner
+curve _width
+old start
+ banner
+curve tail
+ size
+
+ banner
+ update
+ banner
+curve rect
+ rectangle
+ banner
+curve start
+ banner
+curve _width
+ size
+
+bottom rect
+ bottom
+set bounds
+bottom rect
+right rect
+ right
+set bounds
+right rect
+left rect
+ left
+set bounds
+left rect
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  class  provides  the  layout  for  banner  see  banner
+calculate  component  sizes
+add  sizes
+the  paint  events  must  flushed  order  make  the  curve  draw  smoothly  while  the  user  drags  the  divider  windows  necessary  flush  the  paints  before  the  children  are  resized  because  otherwise  the  children  particularly  toolbars  will  flash
+</comments>
+</text>
+</DOC>

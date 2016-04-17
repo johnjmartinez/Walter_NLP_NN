@@ -1,0 +1,33 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.TextChangedEvent.java </DOCNO>
+<text>
+<class>
+text changed event
+</class>
+<method>
+text changed event
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ events
+text changed event
+typed event
+serial version uid
+text changed event
+styled text content
+ source
+ source
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  event  sent  the styled text content  implementor  when  change  the  text  occurs
+create  the text changed event  used  the styled text content  implementor  param  source  the  object  that  will  sending  the text changed event  cannot  null
+</comments>
+</text>
+</DOC>

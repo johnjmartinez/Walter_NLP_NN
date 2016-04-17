@@ -1,0 +1,32 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.win32.GCP_RESULTS.java </DOCNO>
+<text>
+<class>
+gcp results
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ win
+gcp results
+struct size
+out string
+ order
+
+caret pos
+ class
+ glyphs
+ glyphs
+max fit
+ sizeof
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

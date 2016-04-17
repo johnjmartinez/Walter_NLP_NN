@@ -1,0 +1,30 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.Resource.java </DOCNO>
+<text>
+<class>
+ resource
+</class>
+<method>
+ dispose
+ disposed
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ resource
+ device
+ device
+ dispose
+ disposed
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  class  the  abstract  superclass  all  graphics  resource  objects  resources  created  the  application  must  disposed  important  this  class  intended  subclassed  only  within  the  swt  implementation  however  has  not  been  marked  final  allow  those  outside  the  swt  development  team  implement  patched  versions  the  class  order  get  around  specific  limitations  advance  when  those  limitations  can  addressed  the  team  any  class  built  using  subclassing  access  the  internals  this  class  will  likely  fail  compile  run  between  releases  and  may  strongly  platform  specific  subclassing  should  not  attempted  without  intimate  and  detailed  understanding  the  workings  the  hierarchy  support  provided  for  user  written  classes  which  are  implemented  subclasses  this  class  see  dispose  see  disposed  since 
+the  device  where  this  resource  was  created
+disposes  the  operating  system  resources  associated  with  this  resource  applications  must  dispose  all  resources  which  they  allocate
+returns  code  true  code  the  resource  has  been  disposed  and  code  false  code  otherwise  this  method  gets  the  dispose  state  for  the  resource  when  resource  has  been  disposed  error  invoke  any  other  method  using  the  resource  return  code  true  code  when  the  resource  disposed  and  code  false  code  otherwise
+</comments>
+</text>
+</DOC>

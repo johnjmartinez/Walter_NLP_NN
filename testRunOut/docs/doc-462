@@ -1,0 +1,224 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.ColorDialog.java </DOCNO>
+<text>
+<class>
+color dialog
+</class>
+<method>
+color dialog
+color dialog
+hook proc
+get rgb
+ open
+set rgb
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+color dialog
+ dialog
+ rgb
+ rgb
+color dialog
+ shell
+ parent
+ parent
+ swt
+primary modal
+color dialog
+ shell
+ parent
+ style
+ parent
+ style
+check subclass
+hook proc
+ hdlg
+ msg
+ param
+ data
+ msg
+
+ initdialog
+ title
+ title
+ length
+ tchar
+ buffer
+ tchar
+ title
+
+set window text
+ hdlg
+ buffer
+ rgb
+get rgb
+ rgb
+ rgb
+ open
+hwnd owner
+ parent
+ handle
+ callback
+ callback
+ callback
+lpfn hook
+ callback
+get address
+lpfn hook
+ swt
+ error
+ swt
+error more callbacks
+ display
+ display
+ parent
+ display
+ display
+cust colors
+ heap
+
+get process heap
+ display
+cust colors
+
+heap alloc
+ heap
+
+heap zero memory
+ choosecolor
+ lpcc
+ choosecolor
+ lpcc
+struct size
+ choosecolor
+ sizeof
+ lpcc
+ flags
+
+ anycolor
+
+ enablehook
+ lpcc
+lpfn hook
+lpfn hook
+ lpcc
+hwnd owner
+hwnd owner
+ lpcc
+cust colors
+ display
+cust colors
+ rgb
+ lpcc
+ flags
+
+ rgbinit
+ red
+ rgb
+ red
+ green
+ rgb
+ green
+ blue
+ rgb
+ blue
+ lpcc
+rgb result
+ red
+ green
+ blue
+ shell
+old modal
+ style
+ swt
+application modal
+ swt
+system modal
+old modal
+ display
+get modal dialog shell
+ display
+set modal dialog shell
+ parent
+ success
+
+choose color
+ lpcc
+ style
+ swt
+application modal
+ swt
+system modal
+ display
+set modal dialog shell
+old modal
+ success
+ red
+ lpcc
+rgb result
+ green
+ lpcc
+rgb result
+ blue
+ lpcc
+rgb result
+ rgb
+ rgb
+ red
+ green
+ blue
+ callback
+ dispose
+ success
+ rgb
+set rgb
+ rgb
+ rgb
+ rgb
+ rgb
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  allow  the  user  select  color  from  predefined  set  available  colors  styles  none  events  none  important  this  class  intended  subclassed  only  within  the  swt  implementation 
+constructs  new  instance  this  class  given  only  its  parent  param  parent  composite  control  which  will  the  parent  the  new  instance  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  see  widget check subclass  see  widget get style
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  see  widget check subclass  see  widget get style
+use  the  character  encoding  for  the  default  locale
+returns  the  currently  selected  color  the  receiver  return  the  rgb  value  for  the  selected  color  may  null  see palette data  get
+makes  the  receiver  visible  and  brings  the  front  the  display  return  the  selected  color  null  the  dialog  was  cancelled  color  was  selected  error  occurred  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+get  the  owner  hwnd  for  the  dialog
+create  the hook proc
+non  nls 
+allocate  the  custom  colors
+open  the  dialog
+make  the  parent  shell  temporary  modal
+open  the  dialog
+clear  the  temporary  dialog  modal  parent
+free  the hook proc
+free  the  custom  colors
+this  code  intentionally  commented  currently  there  exactly  one  set  custom  colors  per  display  the  memory  associated  with  these  colors  released  when  the  display  disposed
+cust colors heap free  heap cust colors
+this  code  intentionally  commented  some  platforms  the  owner  window  repainted  right  away  when  dialog  window  exits  this  behavior  currently  unspecified
+hwnd owner update window hwnd owner
+sets  the  receiver  selected  color  the  argument  param  rgb  the  new  rgb  value  for  the  selected  color  may  null  let  the  platform  select  default  when  open  called  see palette data  get
+</comments>
+</text>
+</DOC>

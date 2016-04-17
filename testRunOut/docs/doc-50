@@ -1,0 +1,50 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.ExtendedModifyEvent.java </DOCNO>
+<text>
+<class>
+extended modify event
+</class>
+<method>
+extended modify event
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ events
+extended modify event
+typed event
+ start
+ length
+ string
+replaced text
+serial version uid
+extended modify event
+styled text event
+
+
+ start
+
+ start
+ length
+
+ end
+
+ start
+replaced text
+
+ text
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  event  sent  after  text  change  occurs
+start  offset  the  new  text
+length  the  new  text
+replaced  text  empty  string  text  was  replaced
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,272 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.Font.java </DOCNO>
+<text>
+<class>
+ font
+</class>
+<method>
+ font
+ font
+ font
+ font
+ dispose
+ equals
+get font data
+hash code
+ init
+ disposed
+ string
+win 32_new
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ font
+ resource
+ handle
+ font
+ font
+ device
+ device
+font data
+
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ init
+ device
+
+ device
+ tracking
+ device
+new object
+ font
+ device
+ device
+font data
+ fds
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ fds
+ swt
+ error
+ swt
+error null argument
+ fds
+ length
+ swt
+ error
+ swt
+error invalid argument
+
+
+ fds
+ length
+
+ fds
+
+ swt
+ error
+ swt
+error invalid argument
+ init
+ device
+ fds
+ device
+ tracking
+ device
+new object
+ font
+ device
+ device
+ string
+ name
+ height
+ style
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ name
+ swt
+ error
+ swt
+error null argument
+ init
+ device
+font data
+ name
+ height
+ style
+ device
+ tracking
+ device
+new object
+ dispose
+ handle
+ device
+ disposed
+
+delete object
+ handle
+ handle
+ device
+ tracking
+ device
+dispose object
+ device
+ equals
+ object
+ object
+ object
+ object
+ font
+ font
+ font
+ font
+ object
+ device
+ font
+ device
+ handle
+ font
+ handle
+font data
+get font data
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ logfont
+log font
+
+ unicode
+ logfont
+ logfontw
+ logfonta
+
+get object
+ handle
+ logfont
+ sizeof
+log font
+font data
+font data
+win 32_new
+log font
+ device
+compute points
+log font
+ handle
+hash code
+ handle
+ init
+ device
+ device
+font data
+
+
+ swt
+ error
+ swt
+error null argument
+ device
+ device
+ logfont
+log font
+
+ data
+ height
+log font
+ height
+log font
+ height
+ device
+compute pixels
+
+ height
+ handle
+
+create font indirect
+log font
+log font
+ height
+ height
+ handle
+ swt
+ error
+ swt
+error handles
+ disposed
+ handle
+ string
+ string
+ disposed
+ handle
+ font
+win 32_new
+ device
+ device
+ handle
+ device
+ device
+ device
+get device
+ font
+ font
+ font
+ font
+ handle
+ handle
+ font
+ device
+ device
+ font
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  manage  operating  system  resources  that  define  how  text  looks  when  displayed  fonts  may  constructed  providing  device  and  either  name  size  and  style  information  code font data  code  object  which  encapsulates  this  data  application  code  must  explicitly  invoke  the  code  font  dispose  code  method  release  the  operating  system  resources  managed  each  instance  when  those  instances  are  longer  required  see font data
+the  handle  the  font  resource  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code 
+prevents  uninitialized  instances  from  being  created  outside  the  package
+constructs  new  font  given  device  and  font  data  which  describes  the  desired  font  appearance  you  must  dispose  the  font  when  longer  required  param  device  the  device  create  the  font  param  the font data  that  describes  the  desired  font  must  not  null  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  error  null  argument  the  argument  null  exception swt error  error  handles  font  could  not  created  from  the  given  font  data 
+constructs  new  font  given  device  and  array  font  data  which  describes  the  desired  font  appearance  you  must  dispose  the  font  when  longer  required  param  device  the  device  create  the  font  param  fds  the  array font data  that  describes  the  desired  font  must  not  null  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  error  null  argument  the  fds  argument  null  error  invalid  argument  the  length  fds  zero  error  null  argument  any  the  array  null  exception swt error  error  handles  font  could  not  created  from  the  given  font  data  since 
+constructs  new  font  given  device  font  name  the  height  the  desired  font  points  and  font  style  you  must  dispose  the  font  when  longer  required  param  device  the  device  create  the  font  param  name  the  name  the  font  must  not  null  param  height  the  font  height  points  param  style  bit  combination  normal  bold  italic  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  error  null  argument  the  name  argument  null  error  invalid  argument  the  height  negative  exception swt error  error  handles  font  could  not  created  from  the  given  arguments 
+disposes  the  operating  system  resources  associated  with  the  font  applications  must  dispose  all  fonts  which  they  allocate
+compares  the  argument  the  receiver  and  returns  true  they  represent  the  same  object  using  class  specific  comparison  param  object  the  object  compare  with  this  object  return  code  true  code  the  object  the  same  this  object  and  code  false  code  otherwise  see hash code
+returns  array  code font data  code  representing  the  receiver  windows  only  one font data  will  returned  per  font  however  code  font  code  object  may  composed  multiple  fonts  support  this  case  return  array  font  data  objects  return  array  font  data  objects  describing  the  receiver  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  integer  hash  code  for  the  receiver  any  two  objects  that  return  code  true  code  when  passed  code  equals  code  must  return  the  same  value  for  this  method  return  the  receiver  hash  see  equals
+returns  code  true  code  the  font  has  been  disposed  and  code  false  code  otherwise  this  method  gets  the  dispose  state  for  the  font  when  font  has  been  disposed  error  invoke  any  other  method  using  the  font  return  code  true  code  when  the  font  disposed  and  code  false  code  otherwise
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  receiver
+invokes  platform  specific  functionality  allocate  new  font  important  this  method  not  part  the  public  api  for  code  font  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  device  the  device  which  allocate  the  color  param  handle  the  handle  for  the  font  return  new  font  object  containing  the  specified  device  and  handle
+</comments>
+</text>
+</DOC>

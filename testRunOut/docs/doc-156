@@ -1,0 +1,40 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.ole.win32.IOleDocument.java </DOCNO>
+<text>
+<class>
+ole document
+</class>
+<method>
+ole document
+create view
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ole document
+ unknown
+ole document
+ address
+ address
+create view
+ site
+ pstm
+ reserved
+ view
+ com
+vtbl call
+ address
+ site
+ pstm
+ reserved
+ view
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

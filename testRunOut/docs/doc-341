@@ -1,0 +1,52 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.ShellEvent.java </DOCNO>
+<text>
+<class>
+shell event
+</class>
+<method>
+shell event
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ widgets
+ event
+shell event
+typed event
+ doit
+serial version uid
+shell event
+ event
+
+
+ doit
+
+ doit
+ string
+ string
+ string
+ string
+ string
+ string
+ substring
+ string
+ length
+ doit
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  sent  result  operations  being  performed  shells  see shell listener
+flag  indicating  whether  the  operation  should  allowed  setting  this  field  code  false  code  will  cancel  the  operation
+constructs  new  instance  this  class  based  the  information  the  given  untyped  event  param  the  untyped  event  containing  the  information
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
+remove  trailing
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,71 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.TextChangingEvent.java </DOCNO>
+<text>
+<class>
+text changing event
+</class>
+<method>
+text changing event
+text changing event
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ events
+text changing event
+typed event
+ start
+ string
+new text
+replace char count
+new char count
+replace line count
+new line count
+serial version uid
+text changing event
+styled text content
+ source
+ source
+text changing event
+styled text content
+ source
+styled text event
+
+ source
+ start
+
+ start
+replace char count
+
+replace char count
+new char count
+
+new char count
+replace line count
+
+replace line count
+new line count
+
+new line count
+new text
+
+ text
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  event  sent  the styled text content  implementor  when  change  the  text  about  occur
+start  offset  the  text  that  going  replaced
+text  that  going  inserted  empty  string  text  will  inserted
+length  text  that  going  replaced
+length  text  that  going  inserted
+number  lines  that  are  going  replaced
+number  new  lines  that  are  going  inserted
+create  the text changed event  used  the styled text content  implementor  param  source  the  object  that  will  sending  the  new text changing event  cannot  null
+</comments>
+</text>
+</DOC>

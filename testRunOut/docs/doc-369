@@ -1,0 +1,91 @@
+<DOC>
+<DOCNO>org.eclipse.swt.SWTError.java </DOCNO>
+<text>
+<class>
+swt error
+</class>
+<method>
+swt error
+swt error
+swt error
+swt error
+get cause
+get message
+print stack trace
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ internal
+swt error
+ error
+ code
+ throwable
+ throwable
+serial version uid
+swt error
+ swt
+error unspecified
+swt error
+ string
+ message
+ swt
+error unspecified
+ message
+swt error
+ code
+ code
+ swt
+find error text
+ code
+swt error
+ code
+ string
+ message
+ message
+ code
+ code
+ throwable
+get cause
+ throwable
+ string
+get message
+ throwable
+get message
+get message
+ throwable
+ string
+print stack trace
+print stack trace
+ library
+java version
+ library
+java version
+ throwable
+ system
+ err
+ println
+ throwable
+print stack trace
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  error  thrown  whenever  unrecoverable  error  occurs  internally  swt  the  message  text  and  error  code  provide  further  description  the  problem  the  exception  has  code  throwable  code  field  which  holds  the  underlying  throwable  that  caused  the  problem  this  information  available  may  null swt errors  are  thrown  when  something  fails  internally  which  either  leaves  swt  unknown  state  the  call  remove  item  from  list  returns  error  code  when  swt  left  known  unrecoverable  state  runs  out  callback  resources swt errors  should  not  occur  typical  programs  although  high  reliability  applications  should  still  catch  them  this  class  also  provides  support  methods  used  swt  match  error  codes  the  appropriate  exception  class swt error swt exception illegal argument exception  and  provide  human  readable  strings  for  swt  error  codes  see swt exception  see  swt  error  int
+the  swt  error  code  one  swt  error
+the  underlying  throwable  that  caused  the  problem  null  this  information  not  available
+constructs  new  instance  this  class  with  its  stack  trace  filled  the  error  code  set  unspecified  value
+constructs  new  instance  this  class  with  its  stack  trace  and  message  filled  the  error  code  set  unspecified  value  specifying  code  null  code  the  message  equivalent  specifying  empty  string  param  message  the  detail  message  for  the  exception
+constructs  new  instance  this  class  with  its  stack  trace  and  error  code  filled  param  code  the  swt  error  code
+constructs  new  instance  this  class  with  its  stack  trace  error  code  and  message  filled  specifying  code  null  code  the  message  equivalent  specifying  empty  string  param  code  the  swt  error  code  param  message  the  detail  message  for  the  exception
+returns  the  underlying  throwable  that  caused  the  problem  null  this  information  not  available  note  this  method  overrides  throwable get cause  that  was  added  jdk  necessary  override  this  method  order  for  inherited print stack trace  methods  work  return  the  underlying  throwable  since 
+returns  the  string  describing  this swt error  object  combined  with  the  message  string  the  throwable  which  caused  this swt error  this  information  available  return  the  error  message  string  this swt error  object
+non  nls  non  nls 
+outputs  printable  representation  this  error  stack  trace  the  standard  error  stream  note print stack trace print stream  and print stack trace print writer  are  not  provided  order  maintain  compatibility  with  cldc 
+non  nls 
+</comments>
+</text>
+</DOC>

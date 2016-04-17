@@ -1,0 +1,71 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.KeyEvent.java </DOCNO>
+<text>
+<class>
+key event
+</class>
+<method>
+key event
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ widgets
+ event
+key event
+typed event
+ character
+key code
+state mask
+ doit
+serial version uid
+key event
+ event
+
+
+ character
+
+ character
+key code
+
+key code
+state mask
+
+state mask
+ doit
+
+ doit
+ string
+ string
+ string
+ string
+ string
+ string
+ substring
+ string
+ length
+ character
+ character
+key code
+state mask
+ doit
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  sent  result  keys  being  pressed  and  released  the  keyboard  see key listener
+the  character  represented  the  key  that  was  typed  this  the  final  character  that  results  after  all  modifiers  have  been  applied  for  example  when  the  user  types  ctrl  the  character  value  important  that  applications  not  attempt  modify  the  character  value  based state mask  such  swt  ctrl  the  resulting  character  will  not  correct
+the  key  code  the  key  that  was  typed  defined  the  key  code  constants  class  code  swt  code  when  the  character  field  the  event  ambiguous  this  field  contains  the  unicode  value  the  original  character  for  example  typing  ctrl  return  both  result  the  character  but  the key code  field  will  also  contain  when  return  was  typed  see  org  eclipse  swt  swt
+the  state  the  keyboard  modifier  keys  the  time  the  event  was  generated  defined  the  key  code  constants  class  code  swt  code  see  org  eclipse  swt  swt
+flag  indicating  whether  the  operation  should  allowed  setting  this  field  code  false  code  will  cancel  the  operation
+constructs  new  instance  this  class  based  the  information  the  given  untyped  event  param  the  untyped  event  containing  the  information
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
+remove  trailing
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,1339 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.WinBMPFileFormat.java </DOCNO>
+<text>
+<class>
+win bmp file format
+</class>
+<method>
+ compress
+compress rle data
+compress rle data
+decompress data
+decompress rle data
+decompress rle data
+file format
+load data
+load data
+load file header
+load from byte stream
+load palette
+palette from bytes
+palette bytes
+unload data
+unload data compression
+unload into byte stream
+flip scan lines
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ java
+
+win bmp file format
+file format
+bmp file header size
+bmp header fixed size
+important colors
+ point
+pels per meter
+ point
+ compress
+ comp
+ src
+src offset
+num bytes
+ dest
+ last
+ comp
+compress rle data
+ src
+src offset
+num bytes
+ dest
+ last
+ comp
+compress rle data
+ src
+src offset
+num bytes
+ dest
+ last
+ swt
+ error
+ swt
+error invalid image
+compress rle data
+ src
+src offset
+num bytes
+ dest
+ last
+
+src offset
+ end
+src offset
+num bytes
+
+ size
+ left
+
+
+the byte
+
+ end
+ left
+ end
+
+ left
+ left
+
+
+ left
+
+ src
+
+
+ src
+
+
+
+
+ left
+
+
+ dest
+
+
+ dest
+
+ src
+
+
+
+ size
+ dest
+
+
+ dest
+
+
+
+
+
+
+
+
+ dest
+
+ src
+
+
+
+ size
+
+
+ dest
+
+
+ size
+ left
+ end
+
+ left
+ left
+ left
+the byte
+ src
+
+
+
+ left
+
+ src
+
+
+the byte
+ dest
+
+
+
+
+ dest
+
+the byte
+
+
+
+ size
+ dest
+
+
+ last
+ dest
+
+
+ dest
+
+
+ size
+ size
+compress rle data
+ src
+src offset
+num bytes
+ dest
+ last
+
+src offset
+ end
+src offset
+num bytes
+
+ size
+ left
+
+
+the byte
+
+ end
+ left
+ end
+
+ left
+ left
+
+
+ left
+
+ src
+
+
+ src
+
+
+
+ left
+
+
+ dest
+
+
+ dest
+
+ src
+
+
+
+ size
+ dest
+
+
+ dest
+
+ src
+
+
+
+ size
+ dest
+
+
+ dest
+
+
+
+
+
+
+
+ dest
+
+ src
+
+
+
+ size
+
+
+ dest
+
+
+ size
+ left
+ end
+
+ left
+ left
+ left
+the byte
+ src
+
+
+
+ left
+
+ src
+
+
+the byte
+ dest
+
+
+
+ dest
+
+the byte
+
+
+
+ size
+ dest
+
+
+ last
+ dest
+
+
+ dest
+
+
+ size
+ size
+decompress data
+ src
+ dest
+ stride
+ cmp
+ cmp
+decompress rle data
+ src
+ src
+ length
+ stride
+ dest
+ dest
+ length
+ swt
+ error
+ swt
+error invalid image
+ cmp
+decompress rle data
+ src
+ src
+ length
+ stride
+ dest
+ dest
+ length
+ swt
+ error
+ swt
+error invalid image
+ swt
+ error
+ swt
+error invalid image
+decompress rle data
+ src
+num bytes
+ stride
+ dest
+dest size
+
+
+num bytes
+
+
+dest size
+
+
+
+
+ len
+ src
+
+
+ len
+ len
+ src
+
+
+ len
+
+
+
+
+ stride
+
+
+
+ src
+
+
+
+ src
+
+
+
+
+ stride
+
+
+
+ len
+
+ len
+ len
+ len
+ len
+
+
+ len
+
+
+
+
+ len
+
+ dest
+
+ src
+
+
+
+
+
+ len
+
+ len
+ len
+ len
+the byte
+ src
+
+
+ len
+
+
+
+
+ len
+
+ dest
+
+the byte
+
+decompress rle data
+ src
+num bytes
+ stride
+ dest
+dest size
+
+
+num bytes
+
+
+dest size
+
+
+
+
+ len
+ src
+
+
+ len
+ len
+ src
+
+
+ len
+
+
+
+
+ stride
+
+
+
+ src
+
+
+
+ src
+
+
+
+
+ stride
+
+
+
+ len
+
+
+ len
+
+
+
+
+ len
+
+ dest
+
+ src
+
+
+
+
+
+
+ len
+the byte
+ src
+
+
+ len
+
+
+
+
+ len
+
+ dest
+
+the byte
+
+
+ len
+file format
+data input stream
+ stream
+ header
+ stream
+ read
+ header
+ stream
+ unread
+ header
+info header size
+ header
+ header
+ header
+ header
+ header
+ header
+info header size
+bmp header fixed size
+ exception
+
+load data
+info header
+ width
+info header
+info header
+info header
+info header
+ height
+info header
+info header
+info header
+info header
+bit count
+info header
+info header
+ stride
+ width
+bit count
+ stride
+ stride
+ data
+load data
+info header
+ stride
+flip scan lines
+ data
+ stride
+ height
+ data
+load data
+info header
+ stride
+ height
+info header
+info header
+info header
+info header
+data size
+ height
+ stride
+ data
+data size
+ cmp
+info header
+info header
+info header
+info header
+ cmp
+input stream
+ read
+ data
+data size
+ swt
+ error
+ swt
+error invalid image
+ exception
+
+ swt
+ error
+ swt
+ error
+
+compressed size
+info header
+info header
+info header
+info header
+ compressed
+compressed size
+input stream
+ read
+ compressed
+compressed size
+ swt
+ error
+ swt
+error invalid image
+ exception
+
+ swt
+ error
+ swt
+ error
+
+decompress data
+ compressed
+ data
+ stride
+ cmp
+ data
+load file header
+ header
+ header
+input stream
+read short
+ header
+input stream
+read int
+ header
+input stream
+read short
+ header
+input stream
+read short
+ header
+input stream
+read int
+ exception
+
+ swt
+ error
+ swt
+ error
+
+ header
+ swt
+ error
+ swt
+error invalid image
+ header
+image data
+load from byte stream
+file header
+load file header
+info header
+bmp header fixed size
+input stream
+ read
+info header
+ exception
+
+ swt
+ error
+ swt
+ error
+
+ width
+info header
+info header
+info header
+info header
+ height
+info header
+info header
+info header
+info header
+bit count
+info header
+info header
+palette data
+ palette
+load palette
+info header
+input stream
+get position
+file header
+input stream
+ skip
+file header
+input stream
+get position
+ exception
+
+ swt
+ error
+ swt
+ error
+
+ data
+load data
+info header
+ compression
+info header
+info header
+info header
+info header
+important colors
+info header
+info header
+info header
+info header
+pels per meter
+info header
+info header
+info header
+info header
+pels per meter
+info header
+info header
+info header
+info header
+pels per meter
+ point
+pels per meter
+pels per meter
+ type
+ compression
+ compression
+ swt
+image bmp rle
+ swt
+image bmp
+image data
+image data
+internal _new
+ width
+ height
+bit count
+ palette
+ data
+ type
+palette data
+load palette
+info header
+ depth
+info header
+info header
+ depth
+num colors
+info header
+info header
+info header
+info header
+num colors
+num colors
+ depth
+num colors
+num colors
+ buf
+num colors
+input stream
+ read
+ buf
+ buf
+ length
+ swt
+ error
+ swt
+error invalid image
+ exception
+
+ swt
+ error
+ swt
+ error
+
+palette from bytes
+ buf
+num colors
+ depth
+palette data
+ depth
+palette data
+palette data
+palette data
+palette from bytes
+ bytes
+num colors
+bytes offset
+ rgb
+ colors
+ rgb
+num colors
+
+
+num colors
+
+ colors
+
+ rgb
+ bytes
+bytes offset
+ bytes
+bytes offset
+ bytes
+bytes offset
+bytes offset
+palette data
+ colors
+palette bytes
+palette data
+ pal
+
+ pal
+ colors
+ pal
+ colors
+ length
+ pal
+ colors
+ length
+ bytes
+
+ offset
+
+
+
+
+ rgb
+ col
+ pal
+ colors
+
+ bytes
+ offset
+ col
+ blue
+ bytes
+ offset
+ col
+ green
+ bytes
+ offset
+ col
+ red
+ offset
+ bytes
+unload data
+image data
+ image
+output stream
+ out
+ comp
+total size
+ comp
+unload data compression
+ image
+ out
+ bpl
+ image
+ width
+ image
+ depth
+bmp bpl
+ bpl
+image bpl
+ image
+bytes per line
+ buf
+bmp bpl
+src offset
+image bpl
+ image
+ height
+ data
+ image
+ data
+total size
+ buf
+buf offset
+
+ image
+ height
+
+
+line size
+ compress
+ comp
+ data
+src offset
+ bpl
+ buf
+
+buf offset
+line size
+ buf
+ length
+ out
+ write
+ buf
+buf offset
+buf offset
+ system
+ arraycopy
+ buf
+ buf
+buf offset
+line size
+buf offset
+line size
+total size
+line size
+src offset
+image bpl
+buf offset
+ out
+ write
+ buf
+buf offset
+ exception
+
+ swt
+ error
+ swt
+ error
+
+total size
+unload data compression
+image data
+ image
+output stream
+ out
+bmp bpl
+ bpl
+ image
+ width
+ image
+ depth
+bmp bpl
+ bpl
+lines per buf
+bmp bpl
+ buf
+lines per buf
+bmp bpl
+ data
+ image
+ data
+image bpl
+ image
+bytes per line
+data index
+image bpl
+ image
+ height
+ image
+ depth
+
+
+ image
+ height
+
+lines per buf
+ count
+ image
+ height
+
+lines per buf
+ count
+ count
+lines per buf
+buf offset
+
+
+ count
+
+ index
+ index
+ bpl
+ index
+ buf
+buf offset
+ index
+ data
+data index
+ index
+ buf
+buf offset
+ index
+ data
+data index
+ index
+buf offset
+bmp bpl
+data index
+image bpl
+ out
+ write
+ buf
+buf offset
+
+
+ image
+ height
+
+lines per buf
+ tmp
+ image
+ height
+
+ count
+ tmp
+lines per buf
+ tmp
+lines per buf
+buf offset
+
+
+ count
+
+ system
+ arraycopy
+ data
+data index
+ buf
+buf offset
+ bpl
+buf offset
+bmp bpl
+data index
+image bpl
+ out
+ write
+ buf
+buf offset
+ exception
+
+ swt
+ error
+ swt
+ error
+
+bmp bpl
+ image
+ height
+unload into byte stream
+image data
+ image
+ rgbs
+num cols
+ image
+ depth
+ image
+ depth
+ image
+ depth
+ image
+ depth
+ image
+ depth
+ image
+ depth
+ swt
+ error
+ swt
+error unsupported depth
+ comp
+ compression
+ comp
+ comp
+ image
+ depth
+ comp
+ image
+ depth
+ swt
+ error
+ swt
+error invalid image
+palette data
+ pal
+ image
+ palette
+ image
+ depth
+ image
+ depth
+ image
+ depth
+ pal
+ direct
+ swt
+ error
+ swt
+error invalid image
+num cols
+ rgbs
+ pal
+ direct
+ swt
+ error
+ swt
+error invalid image
+num cols
+ pal
+ colors
+ length
+ rgbs
+palette bytes
+ pal
+headers size
+bmp file header size
+bmp header fixed size
+file header
+file header
+file header
+file header
+file header
+file header
+headers size
+ rgbs
+file header
+ rgbs
+ length
+byte array output stream
+ out
+byte array output stream
+unload data
+ image
+ out
+ comp
+ data
+ out
+byte array
+file header
+file header
+ data
+ length
+output stream
+write short
+file header
+output stream
+write int
+file header
+output stream
+write short
+file header
+output stream
+write short
+file header
+output stream
+write int
+file header
+ exception
+
+ swt
+ error
+ swt
+ error
+
+output stream
+write int
+bmp header fixed size
+output stream
+write int
+ image
+ width
+output stream
+write int
+ image
+ height
+output stream
+write short
+output stream
+write short
+ image
+ depth
+output stream
+write int
+ comp
+output stream
+write int
+ data
+ length
+output stream
+write int
+pels per meter
+
+output stream
+write int
+pels per meter
+
+output stream
+write int
+num cols
+output stream
+write int
+important colors
+ exception
+
+ swt
+ error
+ swt
+ error
+
+num cols
+output stream
+ write
+ rgbs
+ exception
+
+ swt
+ error
+ swt
+ error
+
+output stream
+ write
+ data
+ exception
+
+ swt
+ error
+ swt
+ error
+
+flip scan lines
+ data
+ stride
+ height
+
+
+ height
+ stride
+
+
+ height
+
+ index
+ index
+ stride
+ index
+
+ data
+ index
+
+ data
+ index
+
+ data
+ index
+
+ data
+ index
+
+
+
+ stride
+
+ stride
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+compress num bytes  bytes  image  data  from  src  storing  dest  starting  using  the  technique  specified  comp  last  true  this  indicates  the  last  line  the  image  answer  the  size  the  compressed  data
+bmp  rle  compression
+bmp  rle  compression
+find  two  consecutive  bytes  that  are  the  same  the  next  128
+there  only  one  more  byte  the  scan  line  include 
+store  the  intervening  data
+handled  separately  because  command
+byte  pixels
+bytes  pixels
+pad  word
+find  the  length  the  next  run  127  and  store 
+bytes  pixels
+store  the  end  line  end  bitmap  codes
+find  two  consecutive  bytes  that  are  the  same  the  next  256
+there  only  one  more  byte  the  scan  line  include 
+store  the  intervening  data
+handled  separately  because  command
+don  break  fall  through
+handled  separately  because  command
+pad  word
+find  the  length  the  next  run  255  and  store 
+store  the  end  line  end  bitmap  codes
+bmp  rle  compression
+bmp  rle  compression
+end  line
+end  bitmap
+  delta
+absolute  mode  run
+odd  run  lengths  not  currently  supported
+word  align 
+end  line
+end  bitmap
+  delta
+absolute  mode  run
+word  align 
+round  byte  multiple
+bmp  compression
+seek  the  specified  offset
+bmp  rle  compression
+bmp  rle  compression
+answer  byte  array  containing  the  bmp  representation  the  given  device  independent  palette
+unload  the  given  image  data  into  the  given  byte  stream  using  the  given  compression  strategy  answer  the  number  bytes  written
+bmp  pads  scanlines  multiples  bytes
+compression  can  actually  take  twice  much  space  worst  case
+start  last  line
+prepare  the  given  image  data  for  unloading  into  byte  stream  using  compression  strategy  answer  the  number  bytes  written
+bmp  pads  scanlines  multiples  bytes
+start  last  line
+unload device independent image  using  windows  bmp  format  into  the  given  byte  stream
+fill  file  header  except  for  bfsize  which  done  later
+  signature
+file  size  filled  later
+reserved 
+reserved 
+offset  data
+prepare  data  this  done  first  don  have  try  rewind
+the  stream  and  fill  the  details  later
+calculate  file  size
+write  the  headers
+unload  palette
+unload  the  data
+</comments>
+</text>
+</DOC>

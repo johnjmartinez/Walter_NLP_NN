@@ -1,0 +1,26 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Listener.java </DOCNO>
+<text>
+<class>
+ listener
+</class>
+<method>
+handle event
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ listener
+handle event
+ event
+ event
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+implementers  code  listener  code  provide  simple  code handle event  code  method  that  used  internally  swt  dispatch  events  after  creating  instance  class  that  implements  this  interface  can  added  widget  using  the  code add listener  int event type  listener  handler  code  method  and  removed  using  the  code remove listener  int event type  listener  handler  code  method  when  the  specified  event  occurs  code handle event  code  will  sent  the  instance  classes  which  implement  this  interface  are  described  within  swt  providing  the  untyped  listener  api  typically  widgets  will  also  provide  higher  level  typed  listener  api  that  based  the  standard  code  java  util event listener  code  pattern  note  that  since  all  internal  swt  event  dispatching  based  untyped  listeners  simple  build  subsets  swt  for  use  memory  constrained  small  footprint  devices  removing  the  classes  and  methods  which  implement  the  typed  listener  api  see  widget add listener  see  java  util event listener  see  org  eclipse  swt  events
+sent  when  event  that  the  receiver  has  registered  for  occurs  param  event  the  event  which  occurred
+</comments>
+</text>
+</DOC>

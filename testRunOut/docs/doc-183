@@ -1,0 +1,26 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.SWTEventListener.java </DOCNO>
+<text>
+<class>
+swt event listener
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ java
+ util
+event listener
+swt event listener
+event listener
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  interface  the  cross  platform  version  the  java  util event listener  interface  part  our  effort  provide  support  for  both  and  platforms  under  this  scheme  classes  need  implement swt event listener  instead  java  util event listener  note  java  util event listener  not  part  cdc  and  cldc 
+</comments>
+</text>
+</DOC>

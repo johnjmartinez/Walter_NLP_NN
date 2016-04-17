@@ -1,0 +1,2799 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Text.java </DOCNO>
+<text>
+<class>
+ text
+</class>
+<method>
+ text
+call window proc
+create handle
+add modify listener
+add selection listener
+add verify listener
+ append
+check style
+clear selection
+compute size
+compute trim
+ copy
+create widget
+ cut
+default background
+fix alignment
+get border width
+get caret line number
+get caret location
+get caret position
+get char count
+get double click enabled
+get echo char
+get editable
+get line count
+get line delimiter
+get line height
+get orientation
+get selection
+get selection count
+get selection text
+get tabs
+get tab width
+get text
+get text
+get text limit
+get top index
+get top pixel
+ insert
+mbcs wcs pos
+ paste
+remove modify listener
+remove selection listener
+remove verify listener
+select all
+send key event
+set bounds
+set double click enabled
+set echo char
+set editable
+set font
+set orientation
+set selection
+set selection
+set redraw
+set selection
+set tabs
+set tab stops
+set text
+set text limit
+set top index
+show selection
+verify text
+wcs mbcs pos
+widget style
+window class
+window proc
+window proc
+ char
+ clear
+ cut
+ getdlgcode
+ime char
+ lbuttondblclk
+ lbuttondown
+ paste
+ undo
+ clipboard
+command child
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ events
+ text
+ scrollable
+ tabs
+old start
+old end
+double click
+ignore modify
+ignore verify
+ignore character
+ limit
+ string
+ delimiter
+ limit
+
+ win
+ delimiter
+edit proc
+ tchar
+edit class
+ tchar
+ wndclass
+wnd class
+ wndclass
+
+get class info
+edit class
+wnd class
+edit proc
+wnd class
+lpfn wnd proc
+ text
+ composite
+ parent
+ style
+ parent
+check style
+ style
+call window proc
+ hwnd
+ msg
+ param
+ param
+ handle
+
+call window proc
+edit proc
+ hwnd
+ msg
+ param
+ param
+create handle
+create handle
+
+send message
+ handle
+
+ limittext
+add modify listener
+modify listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ modify
+typed listener
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+add verify listener
+verify listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ verify
+typed listener
+ append
+ string
+ string
+check widget
+ string
+ error
+ swt
+error null argument
+ string
+ display
+ with
+ string
+ length
+
+get window text length
+ handle
+ hooks
+ swt
+ verify
+ filters
+ swt
+ verify
+ string
+verify text
+ string
+ length
+ length
+ string
+
+send message
+ handle
+
+ setsel
+ length
+ length
+ tchar
+ buffer
+ tchar
+get code page
+ string
+ignore character
+
+send message
+ handle
+
+ replacesel
+ buffer
+ignore character
+
+send message
+ handle
+
+ scrollcaret
+check style
+ style
+ style
+ swt
+ single
+ style
+ swt
+ multi
+ style
+ swt
+ multi
+ style
+check bits
+ style
+ swt
+ left
+ swt
+ center
+ swt
+ right
+ style
+ swt
+ single
+ style
+ swt
+ scroll
+ swt
+ scroll
+ swt
+ wrap
+ style
+ swt
+ wrap
+ style
+ swt
+ multi
+ style
+ swt
+ scroll
+ style
+ swt
+ multi
+ style
+ swt
+ password
+ style
+ swt
+ single
+ swt
+ multi
+ style
+ style
+ swt
+ scroll
+ swt
+ scroll
+ style
+ swt
+ multi
+ style
+ swt
+ single
+clear selection
+check widget
+
+ win
+ end
+
+send message
+ handle
+
+ getsel
+ end
+
+send message
+ handle
+
+ setsel
+ end
+ end
+
+send message
+ handle
+
+ setsel
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+ height
+ width
+ hint
+ swt
+ default
+ hint
+ swt
+ default
+new font
+old font
+
+
+ get
+ handle
+new font
+
+send message
+ handle
+
+ getfont
+new font
+old font
+
+select object
+
+new font
+ textmetric
+
+
+ unicode
+ textmetric
+ textmetricw
+ textmetrica
+
+get text metrics
+
+
+ count
+
+send message
+ handle
+
+ getlinecount
+ height
+ count
+
+ height
+ rect
+ rect
+ rect
+ flags
+
+ calcrect
+
+ editcontrol
+
+ noprefix
+ wrap
+ style
+ swt
+ multi
+ style
+ swt
+ wrap
+ wrap
+ hint
+ swt
+ default
+ flags
+
+ wordbreak
+ rect
+ right
+ hint
+ length
+
+get window text length
+ handle
+ length
+ tchar
+ buffer
+ tchar
+get code page
+ length
+
+get window text
+ handle
+ buffer
+ length
+
+draw text
+
+ buffer
+ length
+ rect
+ flags
+ width
+ rect
+ right
+ rect
+ left
+ wrap
+ hint
+ swt
+ default
+new height
+ rect
+ bottom
+ rect
+ top
+new height
+ height
+new height
+new font
+
+select object
+
+old font
+
+ release
+ handle
+
+ width
+ width
+default width
+ height
+ height
+default height
+ hint
+ swt
+ default
+ width
+ hint
+ hint
+ swt
+ default
+ height
+ hint
+ rectangle
+ trim
+compute trim
+ width
+ height
+ point
+ trim
+ width
+ trim
+ height
+ rectangle
+compute trim
+
+
+ width
+ height
+check widget
+ rectangle
+ rect
+compute trim
+
+
+ width
+ height
+ margins
+
+send message
+ handle
+
+ getmargins
+ rect
+
+ margins
+ rect
+ width
+ margins
+ margins
+ style
+ swt
+ scroll
+ rect
+ width
+ style
+ swt
+ border
+ rect
+
+ rect
+
+ rect
+ width
+ rect
+ height
+ rect
+ copy
+check widget
+
+send message
+ handle
+
+ copy
+create widget
+create widget
+double click
+set tab stops
+ tabs
+fix alignment
+ cut
+check widget
+ style
+ swt
+read only
+
+send message
+ handle
+
+ cut
+default background
+
+get sys color
+
+color window
+fix alignment
+ style
+ swt
+ mirrored
+ bits
+
+get window long
+ handle
+
+gwl exstyle
+ bits
+
+get window long
+ handle
+
+gwl style
+ style
+ swt
+left right
+ bits
+
+ leftscrollbar
+ style
+ swt
+ right
+ bits
+
+ right
+ bits
+
+ right
+ style
+ swt
+ left
+ bits
+
+ right
+ bits
+
+ right
+ style
+ swt
+ right
+ bits
+
+ right
+ bits
+
+ right
+ style
+ swt
+ left
+ bits
+
+ right
+ bits
+
+ right
+ style
+ swt
+ center
+ bits
+
+ center
+
+set window long
+ handle
+
+gwl exstyle
+ bits
+
+set window long
+ handle
+
+gwl style
+ bits
+get border width
+check widget
+get border width
+get caret line number
+check widget
+
+send message
+ handle
+
+ linefromchar
+ point
+get caret location
+check widget
+ start
+
+send message
+ handle
+
+ getsel
+ start
+ pos
+
+send message
+ handle
+
+ posfromchar
+ start
+ pos
+ pos
+ start
+
+get window text length
+ handle
+
+get code page
+ignore character
+ignore modify
+
+send message
+ handle
+
+ replacesel
+ tchar
+
+ pos
+
+send message
+ handle
+
+ posfromchar
+ start
+
+send message
+ handle
+
+ setsel
+ start
+ start
+
+send message
+ handle
+
+ replacesel
+ tchar
+
+ignore character
+ignore modify
+ point
+ pos
+ pos
+get caret position
+check widget
+ start
+ end
+
+send message
+ handle
+
+ getsel
+ start
+ end
+start line
+
+send message
+ handle
+
+ linefromchar
+ start
+caret pos
+
+send message
+ handle
+
+ lineindex
+caret line
+
+send message
+ handle
+
+ linefromchar
+caret pos
+ caret
+ end
+caret line
+start line
+ caret
+ start
+
+ unicode
+
+ locale
+ caret
+mbcs wcs pos
+ caret
+ caret
+get char count
+check widget
+ length
+
+get window text length
+ handle
+
+ unicode
+
+ locale
+ length
+mbcs wcs pos
+ length
+ length
+get double click enabled
+check widget
+double click
+get echo char
+check widget
+ echo
+
+send message
+ handle
+
+ getpasswordchar
+ echo
+ echo
+ display
+mbcs wcs
+ echo
+get code page
+ echo
+ echo
+get editable
+check widget
+ bits
+
+get window long
+ handle
+
+gwl style
+ bits
+
+ readonly
+get line count
+check widget
+
+send message
+ handle
+
+ getlinecount
+ string
+get line delimiter
+check widget
+ delimiter
+get line height
+check widget
+new font
+old font
+
+
+ get
+ handle
+new font
+
+send message
+ handle
+
+ getfont
+new font
+old font
+
+select object
+
+new font
+ textmetric
+
+
+ unicode
+ textmetric
+ textmetricw
+ textmetrica
+
+get text metrics
+
+
+new font
+
+select object
+
+old font
+
+ release
+ handle
+
+
+ height
+get orientation
+check widget
+ style
+ swt
+left right
+ swt
+right left
+ point
+get selection
+check widget
+ start
+ end
+
+send message
+ handle
+
+ getsel
+ start
+ end
+
+ unicode
+
+ locale
+ start
+mbcs wcs pos
+ start
+ end
+mbcs wcs pos
+ end
+ point
+ start
+ end
+get selection count
+check widget
+ point
+ selection
+get selection
+ selection
+
+ selection
+
+ string
+get selection text
+check widget
+ length
+
+get window text length
+ handle
+ length
+ start
+ end
+
+send message
+ handle
+
+ getsel
+ start
+ end
+ start
+ end
+ tchar
+ buffer
+ tchar
+get code page
+ length
+
+get window text
+ handle
+ buffer
+ length
+ buffer
+ string
+ start
+ end
+ start
+get tabs
+check widget
+ tabs
+get tab width
+ tabs
+old font
+ rect
+ rect
+ rect
+
+
+ get
+ handle
+new font
+
+send message
+ handle
+
+ getfont
+new font
+old font
+
+select object
+
+new font
+ flags
+
+ calcrect
+
+ singleline
+
+ noprefix
+ tchar
+ space
+ tchar
+get code page
+
+draw text
+
+ space
+ space
+ length
+ rect
+ flags
+new font
+
+select object
+
+old font
+
+ release
+ handle
+
+ rect
+ right
+ rect
+ left
+ tabs
+ string
+get text
+check widget
+ length
+
+get window text length
+ handle
+ length
+ tchar
+ buffer
+ tchar
+get code page
+ length
+
+get window text
+ handle
+ buffer
+ length
+ buffer
+ string
+ length
+ string
+get text
+ start
+ end
+check widget
+ start
+ end
+ end
+ length
+
+get window text length
+ handle
+
+ unicode
+
+ locale
+ length
+mbcs wcs pos
+ length
+ start
+ math
+ max
+ start
+ end
+ math
+ min
+ end
+ length
+get text
+ substring
+ start
+ end
+get text limit
+check widget
+
+send message
+ handle
+
+ getlimittext
+get top index
+check widget
+ style
+ swt
+ single
+
+send message
+ handle
+
+ getfirstvisibleline
+get top pixel
+check widget
+ buffer
+ code
+
+send message
+ handle
+
+ getscrollpos
+ buffer
+ code
+ buffer
+get top index
+get line height
+ insert
+ string
+ string
+check widget
+ string
+ error
+ swt
+error null argument
+ string
+ display
+ with
+ string
+ hooks
+ swt
+ verify
+ filters
+ swt
+ verify
+ start
+ end
+
+send message
+ handle
+
+ getsel
+ start
+ end
+ string
+verify text
+ string
+ start
+ end
+ string
+ tchar
+ buffer
+ tchar
+get code page
+ string
+ignore character
+
+send message
+ handle
+
+ replacesel
+ buffer
+ignore character
+mbcs wcs pos
+mbcs pos
+mbcs pos
+
+ unicode
+mbcs pos
+
+get code page
+wcs total
+mbcs total
+ buffer
+ string
+ delimiter
+get line delimiter
+delimiter size
+ delimiter
+ length
+ count
+
+send message
+ handle
+
+ getlinecount
+ line
+ line
+ count
+ line
+wcs size
+line pos
+
+send message
+ handle
+
+ lineindex
+ line
+mbcs size
+
+send message
+ handle
+
+ linelength
+line pos
+mbcs size
+mbcs size
+delimiter size
+ buffer
+ length
+ buffer
+mbcs size
+delimiter size
+ buffer
+mbcs size
+ buffer
+mbcs size
+mbcs size
+
+send message
+ handle
+
+ getline
+ line
+ buffer
+wcs size
+
+multi byte wide char
+
+
+ precomposed
+ buffer
+mbcs size
+ line
+ count
+
+
+delimiter size
+
+ buffer
+mbcs size
+ delimiter
+ char
+
+wcs size
+delimiter size
+mbcs total
+mbcs size
+mbcs pos
+buffer size
+mbcs pos
+mbcs total
+wcs size
+
+multi byte wide char
+
+
+ precomposed
+ buffer
+buffer size
+wcs total
+wcs size
+wcs total
+wcs size
+mbcs total
+mbcs size
+wcs total
+ paste
+check widget
+ style
+ swt
+read only
+
+send message
+ handle
+
+ paste
+remove modify listener
+modify listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ modify
+ listener
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ selection
+ listener
+event table
+ unhook
+ swt
+default selection
+ listener
+remove verify listener
+verify listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ verify
+ listener
+select all
+check widget
+
+send message
+ handle
+
+ setsel
+send key event
+ type
+ msg
+ param
+ param
+ event
+ event
+send key event
+ type
+ msg
+ param
+ param
+ event
+ style
+ swt
+read only
+ignore verify
+ type
+ swt
+key down
+ msg
+
+ char
+ msg
+
+ keydown
+ msg
+
+ime char
+ event
+ character
+ hooks
+ swt
+ verify
+ filters
+ swt
+ verify
+ key
+ event
+ character
+state mask
+ event
+state mask
+ msg
+
+ char
+ key
+ key
+ key
+ key
+ key
+
+ keydown
+state mask
+ swt
+ alt
+ swt
+ shift
+ swt
+ control
+
+get key state
+
+ lbutton
+ string
+old text
+ start
+ end
+
+send message
+ handle
+
+ getsel
+ start
+ end
+ key
+ start
+ end
+ start
+line start
+
+send message
+ handle
+
+ lineindex
+ start
+line start
+ start
+ start
+ delimiter
+ length
+ start
+ start
+
+ unicode
+
+ locale
+new start
+new end
+
+send message
+ handle
+
+ setsel
+ start
+ end
+
+send message
+ handle
+
+ getsel
+new start
+new end
+ start
+new start
+ start
+ start
+ start
+ math
+ max
+ start
+ start
+ end
+ length
+
+get window text length
+ handle
+ start
+ length
+ line
+
+send message
+ handle
+
+ linefromchar
+ end
+line start
+
+send message
+ handle
+
+ lineindex
+ line
+ end
+line start
+ delimiter
+ length
+ end
+ end
+ delimiter
+ length
+ end
+ end
+
+ unicode
+
+ locale
+new start
+new end
+
+send message
+ handle
+
+ setsel
+ start
+ end
+
+send message
+ handle
+
+ getsel
+new start
+new end
+ end
+new end
+ end
+ end
+ end
+ math
+ min
+ end
+ length
+ style
+ swt
+ single
+old text
+ delimiter
+ key
+ key
+old text
+ string
+ key
+ string
+new text
+verify text
+old text
+ start
+ end
+ event
+new text
+new text
+old text
+new text
+ display
+ with
+new text
+ tchar
+ buffer
+ tchar
+get code page
+new text
+
+send message
+ handle
+
+ setsel
+ start
+ end
+ignore character
+
+send message
+ handle
+
+ replacesel
+ buffer
+ignore character
+set bounds
+
+
+ width
+ height
+ flags
+ flags
+
+swp nosize
+ width
+ rect
+ rect
+ rect
+
+get window rect
+ handle
+ rect
+ rect
+ right
+ rect
+ left
+ start
+ end
+
+send message
+ handle
+
+ getsel
+ start
+ end
+ start
+ end
+set window pos
+ handle
+
+
+ width
+ height
+ flags
+
+send message
+ handle
+
+ setsel
+
+send message
+ handle
+
+ setsel
+ start
+ end
+set bounds
+
+
+ width
+ height
+ flags
+set double click enabled
+double click
+check widget
+double click
+double click
+set echo char
+ echo
+check widget
+ style
+ swt
+ multi
+ echo
+ echo
+ display
+wcs mbcs
+ echo
+get code page
+ echo
+
+send message
+ handle
+
+ setpasswordchar
+ echo
+
+invalidate rect
+ handle
+set editable
+ editable
+check widget
+ style
+ swt
+read only
+ editable
+ style
+ swt
+read only
+
+send message
+ handle
+
+ setreadonly
+ editable
+set font
+ font
+ font
+check widget
+set font
+ font
+set tab stops
+ tabs
+set orientation
+ orientation
+check widget
+
+ win
+
+win 32_ version
+
+ version
+ flags
+ swt
+right left
+ swt
+left right
+ orientation
+ flags
+ orientation
+ flags
+ flags
+ style
+ flags
+ style
+ orientation
+ flags
+ bits
+
+get window long
+ handle
+
+gwl exstyle
+ style
+ swt
+right left
+ bits
+
+ rtlreading
+
+ leftscrollbar
+ bits
+
+ rtlreading
+
+ leftscrollbar
+
+set window long
+ handle
+
+gwl exstyle
+ bits
+fix alignment
+set selection
+ start
+check widget
+
+ unicode
+
+ locale
+ start
+wcs mbcs pos
+ start
+
+send message
+ handle
+
+ setsel
+ start
+ start
+
+send message
+ handle
+
+ scrollcaret
+set selection
+ start
+ end
+check widget
+
+ unicode
+
+ locale
+ start
+wcs mbcs pos
+ start
+ end
+wcs mbcs pos
+ end
+
+send message
+ handle
+
+ setsel
+ start
+ end
+
+send message
+ handle
+
+ scrollcaret
+set redraw
+ redraw
+check widget
+set redraw
+ redraw
+draw count
+ start
+ end
+
+send message
+ handle
+
+ getsel
+ start
+ end
+ redraw
+old start
+ start
+old end
+ end
+old start
+ start
+old end
+ end
+
+send message
+ handle
+
+ scrollcaret
+set selection
+ point
+ selection
+check widget
+ selection
+ error
+ swt
+error null argument
+set selection
+ selection
+
+ selection
+
+set tabs
+ tabs
+check widget
+ tabs
+set tab stops
+ tabs
+ tabs
+set tab stops
+ tabs
+ width
+get tab width
+ tabs
+
+get dialog base units
+
+send message
+ handle
+
+ settabstops
+ width
+set text
+ string
+ string
+check widget
+ string
+ error
+ swt
+error null argument
+ string
+ display
+ with
+ string
+ hooks
+ swt
+ verify
+ filters
+ swt
+ verify
+ length
+
+get window text length
+ handle
+ string
+verify text
+ string
+ length
+ string
+ tchar
+ buffer
+ tchar
+get code page
+ string
+
+set window text
+ handle
+ buffer
+ style
+ swt
+ multi
+send event
+ swt
+ modify
+set text limit
+ limit
+check widget
+ limit
+ error
+ swt
+error cannot zero
+
+send message
+ handle
+
+ setlimittext
+ limit
+set top index
+ index
+check widget
+ style
+ swt
+ single
+ count
+
+send message
+ handle
+
+ getlinecount
+ index
+ math
+ min
+ math
+ max
+ index
+ count
+top index
+
+send message
+ handle
+
+ getfirstvisibleline
+
+send message
+ handle
+
+ linescroll
+ index
+top index
+show selection
+check widget
+
+send message
+ handle
+
+ scrollcaret
+ string
+verify text
+ string
+ string
+ start
+ end
+ event
+key event
+ignore verify
+ string
+ event
+ event
+ event
+ event
+ text
+ string
+ event
+ start
+ start
+ event
+ end
+ end
+key event
+ event
+ character
+key event
+ character
+ event
+key code
+key event
+key code
+ event
+state mask
+key event
+state mask
+
+ unicode
+
+ locale
+ event
+ start
+mbcs wcs pos
+ start
+ event
+ end
+mbcs wcs pos
+ end
+send event
+ swt
+ verify
+ event
+ event
+ doit
+ disposed
+ event
+ text
+wcs mbcs pos
+wcs pos
+wcs pos
+
+ unicode
+wcs pos
+
+get code page
+wcs total
+mbcs total
+ buffer
+ string
+ delimiter
+get line delimiter
+delimiter size
+ delimiter
+ length
+ count
+
+send message
+ handle
+
+ getlinecount
+ line
+ line
+ count
+ line
+wcs size
+line pos
+
+send message
+ handle
+
+ lineindex
+ line
+mbcs size
+
+send message
+ handle
+
+ linelength
+line pos
+mbcs size
+mbcs size
+delimiter size
+ buffer
+ length
+ buffer
+mbcs size
+delimiter size
+ buffer
+mbcs size
+ buffer
+mbcs size
+mbcs size
+
+send message
+ handle
+
+ getline
+ line
+ buffer
+wcs size
+
+multi byte wide char
+
+
+ precomposed
+ buffer
+mbcs size
+ line
+ count
+
+
+delimiter size
+
+ buffer
+mbcs size
+ delimiter
+ char
+
+wcs size
+delimiter size
+wcs total
+wcs size
+wcs pos
+wcs size
+ index
+ index
+mbcs size
+wcs total
+wcs size
+wcs pos
+mbcs total
+ index
+
+dbcs lead byte
+ buffer
+ index
+ index
+wcs size
+mbcs total
+mbcs size
+wcs total
+wcs size
+mbcs total
+mbcs size
+mbcs total
+widget style
+ bits
+widget style
+
+ autohscroll
+ style
+ swt
+ password
+ bits
+
+ password
+ style
+ swt
+ center
+ bits
+
+ center
+ style
+ swt
+ right
+ bits
+
+ right
+ style
+ swt
+read only
+ bits
+
+ readonly
+ style
+ swt
+ single
+ bits
+ bits
+
+ multiline
+
+ nohidesel
+
+ autovscroll
+ style
+ swt
+ wrap
+ bits
+
+ hscroll
+
+ autohscroll
+ bits
+ tchar
+window class
+edit class
+window proc
+edit proc
+window proc
+ hwnd
+ msg
+ param
+ param
+ msg
+
+ undo
+ style
+ swt
+ single
+ lresult
+ result
+ clipboard
+
+ undo
+ param
+ param
+ result
+ result
+ value
+call window proc
+ hwnd
+
+ undo
+ param
+ param
+window proc
+ hwnd
+ msg
+ param
+ param
+ lresult
+ char
+ param
+ param
+ignore character
+ lresult
+ result
+ char
+ param
+ param
+ result
+ result
+ param
+ swt
+ del
+
+get key state
+
+ control
+ lresult
+ zero
+ style
+ swt
+ single
+ param
+ swt
+
+post event
+ swt
+default selection
+ swt
+ tab
+ swt
+ esc
+ lresult
+ zero
+ result
+ lresult
+ clear
+ param
+ param
+ lresult
+ result
+ clear
+ param
+ param
+ result
+ result
+ clipboard
+
+ clear
+ param
+ param
+ lresult
+ cut
+ param
+ param
+ lresult
+ result
+ cut
+ param
+ param
+ result
+ result
+ clipboard
+
+ cut
+ param
+ param
+ lresult
+ getdlgcode
+ param
+ param
+ lresult
+ result
+ getdlgcode
+ param
+ param
+ result
+ result
+
+ ppc
+ style
+ swt
+ multi
+ style
+ swt
+read only
+ param
+ lresult
+
+dlgc hassetsel
+
+dlgc wantallkeys
+
+dlgc wantchars
+ style
+ swt
+read only
+ code
+call window proc
+ handle
+
+ getdlgcode
+ param
+ param
+ code
+
+dlgc wantallkeys
+
+dlgc wanttab
+ lresult
+ code
+ lresult
+ime char
+ param
+ param
+ display
+ display
+ display
+ display
+last key
+ display
+last ascii
+ param
+ display
+last virtual
+ display
+last null
+ display
+last dead
+send key event
+ swt
+key down
+
+ime char
+ param
+ param
+ lresult
+ zero
+ignore character
+ result
+call window proc
+ handle
+
+ime char
+ param
+ param
+ msg
+ msg
+ msg
+ flags
+
+ remove
+
+ noyield
+
+ input
+
+ postmessage
+
+peek message
+ msg
+ handle
+
+ char
+
+ char
+ flags
+
+translate message
+ msg
+
+dispatch message
+ msg
+ignore character
+send key event
+ swt
+ key
+
+ime char
+ param
+ param
+ display
+last key
+ display
+last ascii
+ lresult
+ result
+ lresult
+ lbuttondblclk
+ param
+ param
+send mouse event
+ swt
+mouse down
+ handle
+
+ lbuttondown
+ param
+ param
+send mouse event
+ swt
+mouse double click
+ handle
+
+ lbuttondblclk
+ param
+ param
+
+get capture
+ handle
+
+set capture
+ handle
+double click
+ lresult
+ zero
+ start
+ end
+
+send message
+ handle
+
+ getsel
+ start
+ end
+ start
+ end
+ length
+
+get window text length
+ handle
+ length
+ start
+ result
+
+send message
+ handle
+
+ linelength
+ length
+ result
+ lresult
+ zero
+ lresult
+ lbuttondown
+ param
+ param
+
+ ppc
+ lbuttondown
+ param
+ param
+send mouse event
+ swt
+mouse down
+ handle
+
+ lbuttondown
+ param
+ param
+has menu
+ menu
+ menu
+ disposed
+has menu
+ hooks
+ swt
+menu detect
+
+ param
+
+ param
+ shrginfo
+ shrg
+ shrginfo
+ shrg
+ size
+ shrginfo
+ sizeof
+ shrg
+hwnd client
+ handle
+ shrg
+ down
+
+ shrg
+ down
+
+ shrg
+ flags
+
+shrg returncmd
+ type
+
+recognize gesture
+ shrg
+ type
+
+ contextmenu
+show menu
+
+
+ lresult
+ one
+ result
+call window proc
+ handle
+
+ lbuttondown
+ param
+ param
+
+get capture
+ handle
+
+set capture
+ handle
+ lresult
+ result
+ lresult
+ paste
+ param
+ param
+ lresult
+ result
+ paste
+ param
+ param
+ result
+ result
+ clipboard
+
+ paste
+ param
+ param
+ lresult
+ undo
+ param
+ param
+ lresult
+ result
+ undo
+ param
+ param
+ result
+ result
+ clipboard
+
+ undo
+ param
+ param
+ lresult
+ clipboard
+ msg
+ param
+ param
+ style
+ swt
+read only
+ hooks
+ swt
+ verify
+ filters
+ swt
+ verify
+ call
+ start
+ end
+ string
+new text
+ msg
+
+ clear
+
+ cut
+
+send message
+ handle
+
+ getsel
+ start
+ end
+ start
+ end
+new text
+ call
+
+ paste
+
+send message
+ handle
+
+ getsel
+ start
+ end
+new text
+get clipboard text
+
+ undo
+
+ undo
+
+send message
+ handle
+
+ canundo
+ignore modify
+ignore character
+
+send message
+ handle
+
+ getsel
+ start
+ end
+call window proc
+ handle
+ msg
+ param
+ param
+ length
+
+get window text length
+ handle
+ length
+ start
+ end
+ tchar
+ buffer
+ tchar
+get code page
+ length
+
+get window text
+ handle
+ buffer
+ length
+new text
+ buffer
+ string
+ start
+ end
+ start
+new text
+call window proc
+ handle
+ msg
+ param
+ param
+ignore modify
+ignore character
+new text
+ string
+old text
+new text
+new text
+verify text
+new text
+ start
+ end
+new text
+ lresult
+ zero
+new text
+ equals
+old text
+ call
+call window proc
+ handle
+ msg
+ param
+ param
+new text
+ display
+ with
+new text
+ tchar
+ buffer
+ tchar
+get code page
+new text
+ignore character
+
+send message
+ handle
+
+ replacesel
+ buffer
+ignore character
+ lresult
+ zero
+ msg
+
+ undo
+ignore verify
+ignore character
+call window proc
+ handle
+
+ undo
+ param
+ param
+ignore verify
+ignore character
+ lresult
+ one
+ lresult
+command child
+ param
+ param
+ code
+ param
+ code
+
+ change
+ignore modify
+send event
+ swt
+ modify
+ disposed
+ lresult
+ zero
+
+align ltr
+ style
+ swt
+right left
+ style
+ swt
+left right
+fix alignment
+
+align rtl
+ style
+ swt
+left right
+ style
+ swt
+right left
+fix alignment
+command child
+ param
+ param
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  selectable  user  interface  objects  that  allow  the  user  enter  and  modify  text  styles  center  left  multi  password  single  right  read  only  wrap  events default selection  modify  verify  note  only  one  the  styles  multi  and  single  may  specified  important  this  class  not  intended  subclassed 
+the  maximum  number  characters  that  can  entered  into  text  widget  note  that  this  value  platform  dependent  based  upon  the  native  widget  implementation 
+the  delimiter  used  multi  line  text  widgets  when  text  queried  and  from  the  widget  will  delimited  using  this  delimiter
+this  code  intentionally  commented
+static  final  char  password
+these  values  can  different  different  platforms  therefore  they  are  not  initialized  the  declaration  stop  the  compiler  from  inlining
+this  code  intentionally  commented
+int hwnd text create window 
+ edit class
+  null
+overlapped  password
+ 
+ 
+ 
+get module handle  null
+  null
+char  echo  char send message hwnd text  getpasswordchar 
+destroy window hwnd text
+password  echo  echo
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  single  see  swt  multi  see  swt  read  only  see  swt  wrap  see  widget check subclass  see  widget get style
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  receiver  text  modified  sending  one  the  messages  defined  the  code modify listener  code  interface  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see modify listener  see remove modify listener
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  control  selected  sending  one  the  messages  defined  the  code selection listener  code  interface  code widget selected  code  not  called  for  texts  code widget default selected  code  typically  called  when  enter  pressed  single  line  text  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener  see selection event
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  receiver  text  verified  sending  one  the  messages  defined  the  code verify listener  code  interface  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see verify listener  see remove verify listener
+appends  string  the  new  text  appended  the  text  the  end  the  widget  param  string  the  string  appended  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  when  edit  control  with  multiline  style  that  does  not  have  the  vscroll  style  full  there  space  the  end  draw  any  more  characters  replacesel  sends  char  with  backspace  character  remove  any  further  text  that  added  this  implementation  detail  the  edit  control  that  unexpected  and  can  cause  endless  recursion  when  replacesel  sent  from  char  handler  the  fix  ignore  calling  the  handler  from  char
+clears  the  selection  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  win  calling  setsel  with  and  equivalent  calling  setsel  with  and  causes  the  entire  text  selected  instead  clearing  the  selection  the  fix  set  the  start  the  selection  the  end  the  current  selection
+the  preferred  height  single  line  text  widget  has  been  hand  crafted  the  same  height  the  single  line  text  widget  editable  combo  box
+copies  the  selected  text  the  current  selection  copied  the  clipboard  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+cuts  the  selected  text  the  current  selection  first  copied  the  clipboard  and  then  deleted  from  the  widget  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  when  the  edit  control  not  mirrored  uses  right  rtlreading  and  leftscrollbar  give  the  control  right  left  appearance  this  causes  the  control  lead  aligned  matter  what  alignment  was  specified  the  programmer  for  example  setting  right  and  layoutrtl  should  cause  the  contents  the  control  left  trail  aligned  mirrored  world  when  the  orientation  changed  the  user  specified  the  programmer  right  conflicts  with  the  mirrored  alignment  the  fix  clear  set  right  achieve  the  correct  alignment  according  the  orientation  and  mirroring
+bug  windows  when  the  edit  control  created  with  the  style  right  automatically  sets  the  leftscrollbar  bit  the  fix  clear  the  bit  when  the  orientation  the  control  left  right
+feature  windows  2000  and  despite  the  fact  that  border  set  when  the  edit  control  created  the  style  bit  cleared  the  fix  avoid  the  check  for  border  and  use  the  swt  widget  style  bits  instead
+style  swt  border  style  swt  flat 
+return get system metrics  cxborder
+
+returns  the  line  number  the  caret  the  line  number  the  caret  returned  return  the  line  number  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  point  describing  the  receiver  location  relative  its  parent  its  display  its  parent  null  the  location  the  caret  returned  return  point  the  location  the  caret  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  windows  for  some  reason  windows  unable  return  the  pixel  coordinates  the  last  character  the  widget  the  fix  temporarily  insert  space  query  the  coordinates  and  delete  the  space  the  selection  always  beam  this  case  because  this  the  only  time  the  start  the  selection  can  equal  the  last  character  position  the  widget  posfromchar  fails  for  any  other  reason  return  pixel  coordinates 
+feature  windows  when  edit  control  with  multiline  style  that  does  not  have  the  vscroll  style  full  there  space  the  end  draw  any  more  characters  replacesel  sends  char  with  backspace  character  remove  any  further  text  that  added  this  implementation  detail  the  edit  control  that  unexpected  and  can  cause  endless  recursion  when  replacesel  sent  from  char  handler  the  fix  ignore  calling  the  handler  from  char
+returns  the  character  position  the  caret  indexing  zero  based  return  the  position  the  caret  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  number  characters  return  number  characters  the  widget  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  double  click  enabled  flag  the  double  click  flag  enables  disables  the  default  action  the  text  widget  when  the  user  double  clicks  return  whether  not  double  click  enabled  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  echo  character  the  echo  character  the  character  that  displayed  when  the  user  enters  text  the  text  changed  the  programmer  return  the  echo  character  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see set echo char
+returns  the  editable  state  return  whether  not  the  reciever  editable  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  number  lines  return  the  number  lines  the  widget  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  line  delimiter  return  string  that  the  line  delimiter  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  delimiter
+returns  the  height  line  return  the  height  row  text  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  orientation  the  receiver  which  will  one  the  constants  code  swt  left  right  code  code  swt  right  left  code  return  the  orientation  style  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  code  point  code  whose  coordinate  the  character  position  representing  the  start  the  selected  text  and  whose  coordinate  the  character  position  representing  the  end  the  selection  empty  selection  indicated  the  and  coordinates  having  the  same  value  indexing  zero  based  the  range  selection  from  where  the  number  characters  the  widget  return  point  representing  the  selection  start  and  end  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  number  selected  characters  return  the  number  selected  characters  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+gets  the  selected  text  empty  string  there  current  selection  return  the  selected  text  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  number  tabs  tab  stop  spacing  specified  terms  the  space  character  the  width  single  tab  stop  the  pixel  width  the  spaces  return  the  number  tab  characters  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  widget  text  the  text  for  text  widget  the  characters  the  widget  empty  string  this  has  never  been  set  return  the  widget  text  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  range  text  returns  empty  string  the  start  the  range  greater  than  the  end  indexing  zero  based  the  range  selection  from  where  the  number  characters  the  widget  param  start  the  start  the  range  param  end  the  end  the  range  return  the  range  text  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+note  the  current  implementation  uses  substring  which  can  reference  potentially  large  character  array
+returns  the  maximum  number  characters  that  the  receiver  capable  holding  this  has  not  been  changed  code set text limit  code  will  the  constant  code  text  limit  code  return  the  text  limit  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  limit
+returns  the  zero  relative  index  the  line  which  currently  the  top  the  receiver  this  index  can  change  when  lines  are  scrolled  new  lines  are  added  removed  return  the  index  the  top  line  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  top  pixel  the  top  pixel  the  pixel  position  the  line  that  currently  the  top  the  widget  some  platforms  text  widget  can  scrolled  pixels  instead  lines  that  partial  line  displayed  the  top  the  widget  the  top  pixel  changes  when  the  widget  scrolled  the  top  pixel  does  not  include  the  widget  trimming  return  the  pixel  position  the  top  line  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+note  getscrollpos  implemented  rich  edit  and  greater  the  plain  text  widget  and  previous  versions  rich  edit  return  zero
+inserts  string  the  old  selection  replaced  with  the  new  text  param  string  the  string  exception illegal argument exception  error  null  argument  the  string  code  null  code  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  when  edit  control  with  multiline  style  that  does  not  have  the  vscroll  style  full  there  space  the  end  draw  any  more  characters  replacesel  sends  char  with  backspace  character  remove  any  further  text  that  added  this  implementation  detail  the  edit  control  that  unexpected  and  can  cause  endless  recursion  when  replacesel  sent  from  char  handler  the  fix  ignore  calling  the  handler  from  char
+  endian
+pastes  text  from  clipboard  the  selected  text  deleted  from  the  widget  and  new  text  inserted  from  the  clipboard  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  receiver  text  modified  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see modify listener  see add modify listener
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  control  selected  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  control  verified  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see verify listener  see add verify listener
+selects  all  the  text  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+disable  all  magic  keys  that  could  modify  the  text  and  don  send  events  when  alt  shift  ctrl  pressed
+fall  through
+the  left  button  down  the  text  widget  refuses  the  character
+verify  the  character
+ 
+  del
+  return
+tab  and  other  characters
+feature  windows  when  edit  control  with  multiline  style  that  does  not  have  the  vscroll  style  full  there  space  the  end  draw  any  more  characters  replacesel  sends  char  with  backspace  character  remove  any  further  text  that  added  this  implementation  detail  the  edit  control  that  unexpected  and  can  cause  endless  recursion  when  replacesel  sent  from  char  handler  the  fix  ignore  calling  the  handler  from  char
+feature  windows  when  the  caret  moved  the  text  widget  scrolls  show  the  new  location  this  means  that  the  text  widget  may  scrolled  the  right  order  show  the  caret  when  the  widget  not  large  enough  show  both  the  caret  location  and  all  the  text  unfortunately  when  the  text  widget  resized  such  that  all  the  text  and  the  caret  could  visible  windows  does  not  scroll  the  widget  back  the  fix  resize  the  text  widget  set  the  selection  the  start  the  text  and  then  restore  the  selection  this  will  cause  the  text  widget  compute  the  correct  scroll  position
+sets  the  double  click  enabled  flag  the  double  click  flag  enables  disables  the  default  action  the  text  widget  when  the  user  double  clicks  note  this  operation  hint  and  not  supported  platforms  that  not  have  this  concept  param double click  the  new  double  click  flag  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  echo  character  the  echo  character  the  character  that  displayed  when  the  user  enters  text  the  text  changed  the  programmer  setting  the  echo  character  clears  the  echo  character  and  redraws  the  original  text  for  any  reason  the  echo  character  invalid  the  platform  does  not  allow  modification  the  echo  character  the  default  echo  character  for  the  platform  used  param  echo  the  new  echo  character  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  windows  when  the  password  character  changed  windows  does  not  redraw  show  the  new  password  character  the  fix  force  redraw  when  the  character  set
+sets  the  editable  state  param  editable  the  new  editable  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  orientation  the  receiver  which  must  one  the  constants  code  swt  left  right  code  code  swt  right  left  code  note  this  operation  hint  and  not  supported  platforms  that  not  have  this  concept  param  orientation  new  orientation  style  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+sets  the  selection  indexing  zero  based  the  range  selection  from  where  the  number  characters  the  widget  text  selections  are  specified  terms  caret  positions  text  widget  that  contains  characters  there  are  caret  positions  ranging  from  this  differs  from  other  functions  that  address  character  position  such get text  that  use  the  regular  array  indexing  rules  param  start  new  caret  position  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  selection  the  range  specified  the  given  start  and  end  indices  indexing  zero  based  the  range  selection  from  where  the  number  characters  the  widget  text  selections  are  specified  terms  caret  positions  text  widget  that  contains  characters  there  are  caret  positions  ranging  from  this  differs  from  other  functions  that  address  character  position  such get text  that  use  the  usual  array  indexing  rules  param  start  the  start  the  range  param  end  the  end  the  range  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  when  setredraw  used  turn  redraw  off  the  edit  control  not  scrolled  show  the  beam  the  fix  detect  that  the  beam  has  moved  while  redraw  turned  off  and  force  visible  when  redraw  restored
+sets  the  selection  the  range  specified  the  given  point  where  the  coordinate  represents  the  start  index  and  the  coordinate  represents  the  end  index  indexing  zero  based  the  range  selection  from  where  the  number  characters  the  widget  text  selections  are  specified  terms  caret  positions  text  widget  that  contains  characters  there  are  caret  positions  ranging  from  this  differs  from  other  functions  that  address  character  position  such get text  that  use  the  usual  array  indexing  rules  param  selection  the  point  exception illegal argument exception  error  null  argument  the  point  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  number  tabs  tab  stop  spacing  specified  terms  the  space  character  the  width  single  tab  stop  the  pixel  width  the  spaces  param  tabs  the  number  tabs  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  windows  expects  the  tab  spacing  dialog  units  must  convert  from  space  widths  due  round  off  error  the  tab  spacing  may  not  the  exact  number  space  widths  depending  the  font
+sets  the  contents  the  receiver  the  given  string  the  receiver  has  style  single  and  the  argument  contains  multiple  lines  text  the  result  this  operation  undefined  and  may  vary  from  platform  platform  param  string  the  new  text  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  windows  when  the  widget  multi  line  text  widget  does  not  send  command  with  control  code  change  from set window text  notify  the  application  that  the  text  has  changed  the  fix  send  the  event
+widget  could  disposed  this  point
+sets  the  maximum  number  characters  that  the  receiver  capable  holding  the  argument  instead  trying  set  the  text  limit  zero  consider  creating  read  only  text  widget  reset  this  value  the  default  use  code set text limit  text  limit  code  specifying  limit  value  larger  than  code  text  limit  code  sets  the  receiver  limit  code  text  limit  code  param  limit  new  text  limit  exception illegal argument exception  error  cannot  zero  the  limit  zero  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  limit
+sets  the  zero  relative  index  the  line  which  currently  the  top  the  receiver  this  index  can  change  when  lines  are  scrolled  new  lines  are  added  and  removed  param  index  the  index  the  top  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+shows  the  selection  the  selection  already  showing  the  receiver  this  method  simply  returns  otherwise  lines  are  scrolled  until  the  selection  visible  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  verify  event  this  happens  answer  null  cancel  the  operation
+  endian
+bug  windows  when  the  user  types  ctrl  and  edit  control  del  character  generated  rather  than  deleting  the  text  the  del  character  inserted  into  the  control  the  fix  detect  this  case  and  not  call  the  window  proc
+feature  windows  for  some  reason  when  the  widget  single  line  text  widget  when  the  user  presses  tab  return  escape  windows  beeps  the  fix  look  for  these  keys  and  not  call  the  window  proc
+fall  through
+bug  win  ppc  for  some  reason  sending  getdlgcode  multi  line  edit  control  causes  ignore  return  and  tab  keys  the  fix  return  the  value  which  normally  returned  the  text  window  proc  other  versions  windows
+feature  windows  despite  the  fact  that  the  edit  control  read  only  still  returns  dialog  code  indicating  that  wants  all  keys  the  fix  detect  this  case  and  clear  the  bits  note  read  only  edit  control  processes  arrow  keys  dlgc  wantarrows  should  not  cleared
+process  dbcs  character
+feature  windows  the  windows  text  widget  uses  two  char  process  dbcs  key  instead  using  ime  char  the  fix  allow  the  text  widget  get  the  char  but  ignore  sending  them  the  application
+widget  could  disposed  this  point
+prevent  windows  from  processing  lbuttondblclk  when  double  clicking  behavior  disabled  not  calling  the  window  proc
+bug  windows  when  the  last  line  text  the  widget  double  clicked  and  the  line  empty  windows  hides  the  beam  then  moves  the  first  line  the  widget  but  does  not  scroll  show  the  user  the  user  types  without  clicking  the  mouse  invalid  characters  are  displayed  the  end  each  line  text  the  widget  the  fix  detect  this  case  and  avoid  calling  the  window  proc
+note  win  ppc  only  attempt  recognize  the  gesture  for  context  menu  when  the  control  contains  valid  menu  there  are  listeners  for  the menu detect  event  note  win  ppc  the  gesture  that  brings  popup  menu  the  text  widget  must  keep  the  current  text  selection  result  the  window  proc  only  called  the  menu  not  shown
+feature  windows  when  edit  control  with  multiline  style  that  does  not  have  the  vscroll  style  full  there  space  the  end  draw  any  more  characters  replacesel  sends  char  with  backspace  character  remove  any  further  text  that  added  this  implementation  detail  the  edit  control  that  unexpected  and  can  cause  endless  recursion  when  replacesel  sent  from  char  handler  the  fix  ignore  calling  the  handler  from  char
+possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  modify  event  this  happens  end  the  processing  the  windows  message  returning  zero  the  result  the  window  proc
+</comments>
+</text>
+</DOC>

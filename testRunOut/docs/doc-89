@@ -1,0 +1,35 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.JPEGComment.java </DOCNO>
+<text>
+<class>
+jpeg comment
+</class>
+<method>
+jpeg comment
+jpeg comment
+ signature
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+jpeg comment
+jpeg variable size segment
+jpeg comment
+ reference
+ reference
+jpeg comment
+data input stream
+byte stream
+byte stream
+ signature
+jpeg file format
+ com
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

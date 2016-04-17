@@ -1,0 +1,1451 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.TabFolder.java </DOCNO>
+<text>
+<class>
+tab folder
+</class>
+<method>
+tab folder
+add selection listener
+call window proc
+check style
+check subclass
+compute size
+compute trim
+create item
+create handle
+create widget
+destroy item
+draw theme background
+find theme control
+get client area
+get item
+get item count
+get items
+get selection
+get selection index
+image index
+ index
+minimum size
+mnemonic hit
+mnemonic match
+release widget
+remove control
+remove selection listener
+set selection
+set selection
+set selection
+tool tip text
+traverse page
+widget style
+window class
+window proc
+ getdlgcode
+ nchittest
+ notify
+ parentnotify
+ size
+ windowposchanging
+notify child
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ events
+tab folder
+ composite
+tab item
+ items
+image list
+image list
+tab folder proc
+ tchar
+tab folder class
+ tchar
+
+ tabcontrol
+ tab
+ updown
+ wndclass
+wnd class
+ wndclass
+
+get class info
+tab folder class
+wnd class
+tab folder proc
+wnd class
+lpfn wnd proc
+ instance
+
+get module handle
+ heap
+
+get process heap
+wnd class
+ instance
+ instance
+wnd class
+ style
+
+ hredraw
+
+ vredraw
+
+ globalclass
+byte count
+tab folder class
+ length
+ tchar
+ sizeof
+lpsz class name
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+lpsz class name
+tab folder class
+byte count
+wnd class
+lpsz class name
+lpsz class name
+
+register class
+wnd class
+tab folder
+ composite
+ parent
+ style
+ parent
+check style
+ style
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+call window proc
+ hwnd
+ msg
+ param
+ param
+ handle
+
+call window proc
+tab folder proc
+ hwnd
+ msg
+ param
+ param
+check style
+ style
+ style
+check bits
+ style
+ swt
+ top
+ swt
+ bottom
+
+ ppc
+ style
+ swt
+ bottom
+ style
+ swt
+ top
+ style
+ swt
+ scroll
+ swt
+ scroll
+check subclass
+valid subclass
+ error
+ swt
+error invalid subclass
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+ point
+ size
+compute size
+ hint
+ hint
+ changed
+ rect
+inset rect
+ rect
+item rect
+ rect
+
+send message
+ handle
+
+tcm adjustrect
+inset rect
+ width
+inset rect
+ left
+inset rect
+ right
+ count
+
+send message
+ handle
+
+tcm getitemcount
+ count
+
+send message
+ handle
+
+tcm getitemrect
+ count
+item rect
+ width
+ math
+ max
+ width
+item rect
+ right
+inset rect
+ right
+ rect
+ rect
+ rect
+
+set rect
+ rect
+ width
+ size
+
+
+send message
+ handle
+
+tcm adjustrect
+ rect
+ border
+get border width
+ rect
+ left
+ border
+ rect
+ right
+ border
+ width
+ rect
+ right
+ rect
+ left
+ size
+
+ math
+ max
+ width
+ size
+
+ size
+ rectangle
+compute trim
+
+
+ width
+ height
+check widget
+ rect
+ rect
+ rect
+
+set rect
+ rect
+
+
+
+ width
+
+ height
+
+send message
+ handle
+
+tcm adjustrect
+ rect
+ border
+get border width
+ rect
+ left
+ border
+ rect
+ right
+ border
+ rect
+ top
+ border
+ rect
+ bottom
+ border
+new width
+ rect
+ right
+ rect
+ left
+new height
+ rect
+ bottom
+ rect
+ top
+ rectangle
+ rect
+ left
+ rect
+ top
+new width
+new height
+create item
+tab item
+ item
+ index
+ count
+
+send message
+ handle
+
+tcm getitemcount
+ index
+ index
+ count
+ error
+ swt
+error invalid range
+ count
+ items
+ length
+tab item
+new items
+tab item
+ items
+ length
+ system
+ arraycopy
+ items
+new items
+ items
+ length
+ items
+new items
+ tcitem
+ item
+ tcitem
+
+send message
+ handle
+
+tcm insertitem
+ index
+ item
+ error
+ swt
+error item not added
+ system
+ arraycopy
+ items
+ index
+ items
+ index
+ count
+ index
+ items
+ index
+ item
+ count
+ event
+ event
+ event
+ event
+ item
+ items
+send event
+ swt
+ selection
+ event
+create handle
+create handle
+
+ ppc
+
+send message
+ handle
+
+ccm setversion
+ state
+ canvas
+hwnd tool tip
+
+send message
+ handle
+
+tcm gettooltips
+
+send message
+hwnd tool tip
+
+ttm setmaxtipwidth
+create widget
+create widget
+ items
+tab item
+destroy item
+tab item
+ item
+ count
+
+send message
+ handle
+
+tcm getitemcount
+ index
+ index
+ count
+ items
+ index
+ item
+ index
+ index
+ count
+selection index
+
+send message
+ handle
+
+tcm getcursel
+
+send message
+ handle
+
+tcm deleteitem
+ index
+ error
+ swt
+error item not removed
+ system
+ arraycopy
+ items
+ index
+ items
+ index
+ count
+ index
+ items
+ count
+ count
+image list
+
+send message
+ handle
+
+tcm setimagelist
+ display
+release image list
+image list
+image list
+ items
+tab item
+ count
+ index
+selection index
+set selection
+ math
+ max
+selection index
+draw theme background
+
+ rect
+ rect
+ theme
+
+open theme data
+ handle
+ tab
+
+draw theme background
+ theme
+
+
+tabp body
+ rect
+
+close theme data
+ theme
+ control
+find theme control
+ rectangle
+get client area
+check widget
+force resize
+ rect
+ rect
+ rect
+
+get client rect
+ handle
+ rect
+
+send message
+ handle
+
+tcm adjustrect
+ rect
+ width
+ rect
+ right
+ rect
+ left
+ height
+ rect
+ bottom
+ rect
+ top
+ rectangle
+ rect
+ left
+ rect
+ top
+ width
+ height
+tab item
+get item
+ index
+check widget
+ count
+
+send message
+ handle
+
+tcm getitemcount
+ index
+ index
+ count
+ error
+ swt
+error invalid range
+ items
+ index
+get item count
+check widget
+
+send message
+ handle
+
+tcm getitemcount
+tab item
+get items
+check widget
+ count
+
+send message
+ handle
+
+tcm getitemcount
+tab item
+ result
+tab item
+ count
+ system
+ arraycopy
+ items
+ result
+ count
+ result
+tab item
+get selection
+check widget
+ index
+
+send message
+ handle
+
+tcm getcursel
+ index
+tab item
+tab item
+ items
+ index
+get selection index
+check widget
+
+send message
+ handle
+
+tcm getcursel
+image index
+ image
+ image
+ image
+
+ imagenone
+image list
+ rectangle
+ bounds
+ image
+get bounds
+image list
+ display
+get image list
+ style
+ swt
+right left
+ bounds
+ width
+ bounds
+ height
+image list
+image list
+get handle
+
+send message
+ handle
+
+tcm setimagelist
+image list
+ index
+image list
+ index
+ image
+ index
+ index
+image list
+ add
+ image
+image list
+ put
+ index
+ image
+ index
+ index
+tab item
+ item
+check widget
+ item
+ error
+ swt
+error null argument
+ count
+
+send message
+ handle
+
+tcm getitemcount
+
+
+ count
+
+ items
+
+ item
+
+ point
+minimum size
+ hint
+ hint
+flush cache
+ control
+ children
+_get children
+ width
+ height
+
+
+ children
+ length
+
+ control
+ child
+ children
+
+ index
+ count
+
+send message
+ handle
+
+tcm getitemcount
+ index
+ count
+ items
+ index
+ control
+ child
+ index
+ index
+ count
+ rectangle
+ rect
+ child
+get bounds
+ width
+ math
+ max
+ width
+ rect
+
+ rect
+ width
+ height
+ math
+ max
+ height
+ rect
+
+ rect
+ height
+ point
+ size
+ child
+compute size
+ hint
+ hint
+flush cache
+ width
+ math
+ max
+ width
+ size
+
+ height
+ math
+ max
+ height
+ size
+
+ point
+ width
+ height
+mnemonic hit
+ key
+ selection
+get selection index
+
+
+ items
+ length
+
+
+ selection
+tab item
+ item
+ items
+
+ item
+
+find mnemonic
+ item
+get text
+ character
+upper case
+ key
+ character
+upper case
+
+set focus
+set selection
+
+mnemonic match
+ key
+
+
+ items
+ length
+
+tab item
+ item
+ items
+
+ item
+
+find mnemonic
+ item
+get text
+ character
+upper case
+ key
+ character
+upper case
+
+release widget
+ count
+
+send message
+ handle
+
+tcm getitemcount
+
+
+ count
+
+tab item
+ item
+ items
+
+ item
+ disposed
+ item
+release resources
+ items
+image list
+
+send message
+ handle
+
+tcm setimagelist
+ display
+release image list
+image list
+image list
+release widget
+remove control
+ control
+ control
+remove control
+ control
+ count
+
+send message
+ handle
+
+tcm getitemcount
+
+
+ count
+
+tab item
+ item
+ items
+
+ item
+ control
+ control
+ item
+set control
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ selection
+ listener
+event table
+ unhook
+ swt
+default selection
+ listener
+set selection
+tab item
+ items
+check widget
+ items
+ error
+ swt
+error null argument
+ items
+ length
+set selection
+
+ items
+ length
+
+
+ index
+ index
+ items
+
+ index
+set selection
+ index
+set selection
+ index
+check widget
+ count
+
+send message
+ handle
+
+tcm getitemcount
+ index
+ index
+ count
+set selection
+ index
+set selection
+ index
+ notify
+old index
+
+send message
+ handle
+
+tcm getcursel
+old index
+tab item
+ item
+ items
+old index
+ control
+ control
+ item
+ control
+ control
+ control
+ disposed
+ control
+set visible
+
+send message
+ handle
+
+tcm setcursel
+ index
+new index
+
+send message
+ handle
+
+tcm getcursel
+new index
+tab item
+ item
+ items
+new index
+ control
+ control
+ item
+ control
+ control
+ control
+ disposed
+ control
+set bounds
+get client area
+ control
+set visible
+ notify
+ event
+ event
+ event
+ event
+ item
+ item
+send event
+ swt
+ selection
+ event
+ string
+tool tip text
+ nmttdispinfo
+ hdr
+ hdr
+ flags
+
+ttf idishwnd
+ index
+ hdr
+ from
+hwnd tool tip
+
+send message
+ handle
+
+tcm gettooltips
+hwnd tool tip
+ hdr
+hwnd from
+tool tip text
+ index
+ index
+ items
+ length
+tab item
+ item
+ items
+ index
+ item
+ item
+tool tip text
+tool tip text
+ hdr
+traverse page
+ next
+ count
+get item count
+ count
+ index
+get selection index
+ index
+ index
+ offset
+ next
+ index
+ index
+ offset
+ count
+ count
+set selection
+ index
+ index
+get selection index
+widget style
+ bits
+widget style
+
+ clipchildren
+ style
+ swt
+ focus
+ bits
+
+tcs focusnever
+ style
+ swt
+ bottom
+ bits
+
+tcs bottom
+ bits
+
+tcs tabs
+
+tcs tooltips
+ tchar
+window class
+tab folder class
+window proc
+tab folder proc
+ lresult
+ getdlgcode
+ param
+ param
+ lresult
+ result
+ getdlgcode
+ param
+ param
+ result
+ result
+ lresult
+
+dlgc button
+ lresult
+ nchittest
+ param
+ param
+ lresult
+ result
+ nchittest
+ param
+ param
+ result
+ result
+ hittest
+
+def window proc
+ handle
+
+ nchittest
+ param
+ param
+ lresult
+ hittest
+ lresult
+ notify
+ param
+ param
+ lresult
+ result
+ notify
+ param
+ param
+ result
+ result
+ lresult
+ zero
+ lresult
+ parentnotify
+ param
+ param
+ lresult
+ result
+ parentnotify
+ param
+ param
+ result
+ result
+
+win 32_ version
+
+ version
+ result
+ style
+ swt
+right left
+ code
+ param
+ code
+
+ create
+
+ param
+ hwnd
+ param
+
+ updown
+ bits
+
+get window long
+ hwnd
+
+gwl exstyle
+
+set window long
+ hwnd
+
+gwl exstyle
+ bits
+
+ layoutrtl
+ result
+ lresult
+ size
+ param
+ param
+ lresult
+ result
+ size
+ param
+ param
+ disposed
+ result
+ index
+
+send message
+ handle
+
+tcm getcursel
+ index
+tab item
+ item
+ items
+ index
+ control
+ control
+ item
+ control
+ control
+ control
+ disposed
+ control
+set bounds
+get client area
+ result
+ lresult
+ windowposchanging
+ param
+ param
+ lresult
+ result
+ windowposchanging
+ param
+ param
+ result
+ result
+
+window visible
+ handle
+ result
+ windowpos
+ lpwp
+ windowpos
+
+move memory
+ lpwp
+ param
+ windowpos
+ sizeof
+ lpwp
+ flags
+
+swp nosize
+
+swp noredraw
+ result
+ bits
+
+get window long
+ handle
+
+gwl style
+ bits
+
+tcs multiline
+
+invalidate rect
+ handle
+ result
+ rect
+ rect
+ rect
+
+set rect
+ rect
+ lpwp
+
+ lpwp
+
+
+send message
+ handle
+
+ nccalcsize
+ rect
+new width
+ rect
+ right
+ rect
+ left
+new height
+ rect
+ bottom
+ rect
+ top
+
+get client rect
+ handle
+ rect
+old width
+ rect
+ right
+ rect
+ left
+old height
+ rect
+ bottom
+ rect
+ top
+new width
+old width
+new height
+old height
+ result
+ rect
+ inset
+ rect
+
+send message
+ handle
+
+tcm adjustrect
+ inset
+ margin
+ inset
+ right
+ margin
+ inset
+ bottom
+new width
+old width
+ left
+old width
+new width
+old width
+ left
+new width
+
+set rect
+ rect
+ left
+ margin
+new width
+new height
+
+invalidate rect
+ handle
+ rect
+new height
+old height
+ bottom
+old height
+new height
+old height
+ bottom
+new height
+new width
+old width
+old width
+ margin
+
+set rect
+ rect
+ bottom
+ margin
+old width
+new height
+
+invalidate rect
+ handle
+ rect
+ result
+ lresult
+notify child
+ param
+ param
+ nmhdr
+ hdr
+ nmhdr
+
+move memory
+ hdr
+ param
+ nmhdr
+ sizeof
+ code
+ hdr
+ code
+ code
+
+tcn selchange
+
+tcn selchanging
+tab item
+ item
+ index
+
+send message
+ handle
+
+tcm getcursel
+ index
+ item
+ items
+ index
+ item
+ control
+ control
+ item
+ control
+ control
+ control
+ disposed
+ code
+
+tcn selchange
+ control
+set bounds
+get client area
+ control
+set visible
+ code
+
+tcn selchange
+ code
+
+tcn selchange
+ event
+ event
+ event
+ event
+ item
+ item
+post event
+ swt
+ selection
+ event
+notify child
+ param
+ param
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  implement  the  notebook  user  interface  metaphor  allows  the  user  select  notebook  page  from  set  pages  the  item  children  that  may  added  instances  this  class  must  type  code tab item  code  code  control  code  children  are  created  and  then  set  into  tab  item  using  code tab item set control  code  note  that  although  this  class  subclass  code  composite  code  does  not  make  sense  set  layout  styles  top  bottom  events  selection  note  only  one  the  styles  top  and  bottom  may  specified  important  this  class  not  intended  subclassed 
+these  are  the  undocumented  control  for  the  children  tab  control  since  there  are  constants  for  these  values  they  may  change  with  different  versions  windows
+feature  windows  the  tab  control  window  class  uses  the  hredraw  and  vredraw  style  bits  force  full  redraw  the  control  and  all  children  when  resized  this  causes  flashing  the  fix  register  new  window  class  without  these  bits  and  implement  special  code  that  damages  only  the  exposed  area  note  screen  readers  look  for  the  exact  class  name  the  control  order  provide  the  correct  kind  assistance  therefore  critical  that  the  new  window  class  have  the  same  name  possible  register  local  window  class  with  the  same  name  global  class  since  bits  that  affect  the  class  are  being  changed  possible  that  other  native  code  other  than  swt  could  create  control  with  this  class  name  and  fail  unexpectedly
+heap free  heap lpsz class name
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  see  widget check subclass  see  widget get style
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  receiver  selection  changes  sending  one  the  messages  defined  the  code selection listener  code  interface  when  code widget selected  code  called  the  item  field  the  event  object  valid  code widget default selected  code  not  called  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener  see selection event
+force  tabs  the  bottom  for  tab  folders  ppc
+even  though  legal  create  this  widget  with  scroll  bars  they  serve  useful  purpose  because  they  not  automatically  scroll  the  widget  client  area  the  fix  clear  the  swt  style
+send  selection  event  when  the  item  that  added  becomes  the  new  selection  this  only  happens  when  the  first  item  added
+the  widget  could  destroyed  this  point
+enable  the  flat  look  for  tab  folders  ppc
+comctl  version
+feature  windows  despite  the  fact  that  the  tool  tip  text  contains  the  tooltip  will  not  honour  the  new  line  unless  ttm  setmaxtipwidth  set  the  fix  set  ttm  setmaxtipwidth  large  value
+temporary  code
+return  background  this  null
+returns  the  item  the  given  zero  relative  index  the  receiver  throws  exception  the  index  out  range  param  index  the  index  the  item  return  return  the  item  the  given  index  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  number  items  contained  the  receiver  return  the  number  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  array  code tab item  code  which  are  the  items  the  receiver  note  this  not  the  actual  structure  used  the  receiver  maintain  its  list  items  modifying  the  array  will  not  affect  the  receiver  return  the  items  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  array  code tab item  code  that  are  currently  selected  the  receiver  empty  array  indicates  that  items  are  selected  note  this  not  the  actual  structure  used  the  receiver  maintain  its  selection  modifying  the  array  will  not  affect  the  receiver  return  array  representing  the  selection  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  zero  relative  index  the  item  which  currently  selected  the  receiver  item  selected  return  the  index  the  selected  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+searches  the  receiver  list  starting  the  first  item  index  until  item  found  that  equal  the  argument  and  returns  the  index  that  item  item  found  returns  param  item  the  search  item  return  the  index  the  item  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  receiver  selection  changes  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener
+sets  the  receiver  selection  the  given  array  items  the  current  selected  first  cleared  then  the  new  items  are  selected  param  items  the  array  items  exception illegal argument exception  error  null  argument  the  items  array  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+selects  the  item  the  given  zero  relative  index  the  receiver  the  item  the  index  was  already  selected  remains  selected  the  current  selection  first  cleared  then  the  new  items  are  selected  indices  that  are  out  range  are  ignored  param  index  the  index  the  item  select  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  windows  under  certain  circumstances  when  tcm  setitem  used  change  the  text  tab  item  the  tab  folder  draws  top  the  client  area  the  fix  ensure  that  this  cannot  happen  setting  clipchildren
+return  dlgc  button  that  mnemonics  will  processed  without  needing  press  the  alt  key  when  the  widget  has  focus
+feature  windows  the  tab  control  implements  nchittest  return  htclient  when  the  cursor  inside  the  tab  buttons  this  causes  mouse  events  like  mousemove  delivered  the  parent  also  tool  tips  for  the  tab  control  are  never  invoked  because  tool  tips  rely  mouse  events  delivered  the  window  that  wants  display  the  tool  tip  the  fix  call  the  default  window  proc  that  returns  htclient  when  the  mouse  the  client  area
+feature  windows  when  the  tab  folder  window  proc  processes  notify  forwards  this  message  its  parent  this  done  that  children  this  control  that  send  this  message  type  their  parent  will  notify  not  only  this  control  but  also  the  parent  this  control  which  typically  the  application  window  and  the  window  that  looking  for  the  message  the  control  did  not  forward  the  message  applications  would  have  subclass  the  control  window  see  the  message  because  the  control  window  subclassed  swt  the  message  delivered  twice  once  swt  and  once  when  the  message  forwarded  the  window  proc  the  fix  avoid  calling  the  window  proc  for  this  control
+feature  windows  windows  does  not  explicitly  set  the  orientation  the  buddy  control  instead  the  orientation  inherited  when  layoutrtl  specified  for  the  tab  folder  this  means  that  when  both  layoutrtl  and  noinheritlayout  are  specified  for  the  tab  folder  the  buddy  control  will  not  oriented  correctly  the  fix  explicitly  set  the  orientation  for  the  buddy  control  note  layoutrtl  not  supported  windows 
+possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  resize  event  this  happens  end  the  processing  the  windows  message  returning  the  result  the  size  message
+temporary  code
+comctl  major app themed
+invalidate rect  handle  null  true
+return  result
+
+</comments>
+</text>
+</DOC>

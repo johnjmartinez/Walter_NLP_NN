@@ -1,0 +1,250 @@
+<DOC>
+<DOCNO>org.eclipse.swt.dnd.URLTransfer.java </DOCNO>
+<text>
+<class>
+url transfer
+</class>
+<method>
+url transfer
+get instance
+java native
+native java
+get type ids
+get type names
+check url
+ validate
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ dnd
+ java
+ net
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ internal
+ win
+url transfer
+byte array transfer
+url transfer
+ _instance
+url transfer
+ string
+cfstr ineturl
+cfstr ineturlid
+register type
+cfstr ineturl
+url transfer
+url transfer
+get instance
+ _instance
+java native
+ object
+ object
+transfer data
+transfer data
+check url
+ object
+supported type
+transfer data
+ dnd
+ error
+ dnd
+error invalid data
+transfer data
+ result
+ com
+ fail
+ string
+ url
+ string
+ object
+ count
+ url
+ length
+ chars
+ count
+ url
+get chars
+ count
+ chars
+code page
+
+get acp
+cch multi byte
+
+wide char multi byte
+code page
+ chars
+cch multi byte
+transfer data
+ stgmedium
+ stgmedium
+transfer data
+ result
+ com
+ stgmedium
+multi byte str
+
+global alloc
+
+gmem fixed
+
+gmem zeroinit
+cch multi byte
+
+wide char multi byte
+code page
+ chars
+multi byte str
+cch multi byte
+transfer data
+ stgmedium
+ stgmedium
+transfer data
+ stgmedium
+ tymed
+ com
+tymed hglobal
+transfer data
+ stgmedium
+union field
+multi byte str
+transfer data
+ stgmedium
+unk for release
+transfer data
+ result
+ com
+
+ object
+native java
+transfer data
+transfer data
+supported type
+transfer data
+transfer data
+data object
+data object
+ data
+data object
+transfer data
+data object
+ data
+add ref
+ stgmedium
+ stgmedium
+ stgmedium
+ formatetc
+ formatetc
+transfer data
+ formatetc
+ stgmedium
+ tymed
+ com
+tymed hglobal
+transfer data
+ result
+ data
+get data
+ formatetc
+ stgmedium
+ data
+ release
+transfer data
+ result
+ com
+
+ mem
+ stgmedium
+union field
+multi byte str
+
+global lock
+ mem
+multi byte str
+code page
+
+get acp
+cch wide char
+
+multi byte wide char
+code page
+
+ precomposed
+multi byte str
+cch wide char
+wide char str
+cch wide char
+
+multi byte wide char
+code page
+
+ precomposed
+multi byte str
+wide char str
+wide char str
+ length
+ string
+ string
+wide char str
+
+global unlock
+ mem
+
+global free
+ mem
+get type ids
+cfstr ineturlid
+ string
+get type names
+ string
+cfstr ineturl
+check url
+ object
+ object
+ object
+ object
+ string
+ string
+ object
+ length
+ string
+ strings
+ string
+ object
+ strings
+ strings
+ length
+ url
+ strings
+ java
+ net
+malformed url exception
+
+ validate
+ object
+ object
+check url
+ object
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+the  class  code url transfer  code  provides  platform  specific  mechanism  for  converting  text  url  format  represented  java  code  string  code  platform  specific  representation  the  data  and  vice  versa  see  code  transfer  code  for  additional  information  the  first  string  the  array  mandatory  and  must  contain  the  fully  specified  url  the  second  string  the  array  optional  and  present  contains  the  title  for  the  page  example  java  code  string  code  containing  url  shown  below  code  pre  string url data  new  string  http  www  eclipse  org  eclipse  org  main  page  code  pre
+  public
+non  nls 
+returns  the  singleton  instance  the url transfer  class  return  the  singleton  instance  the url transfer  class
+this  implementation  code java native  code  converts  url  and  optionally  title  represented  java  code  string  code  platform  specific  representation  for  additional  information  see  code  transfer java native  code  param  object  java  code  string  code  containing  url  and  optionally  title  param transfer data  empty  code transfer data  code  object  this  object  will  filled  return  with  the  platform  specific  format  the  data
+url  stored  null  terminated  byte  array
+this  implementation  code native java  code  converts  platform  specific  representation  url  and  optionally  title  java  code  string  code  for  additional  information  see  code  transfer native java  code  param transfer data  the  platform  specific  representation  the  data  been  converted  return  java  code  string  code  containing  url  and  optionally  title  the  conversion  was  successful  otherwise  null
+</comments>
+</text>
+</DOC>

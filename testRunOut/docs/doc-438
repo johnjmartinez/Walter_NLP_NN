@@ -1,0 +1,196 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Synchronizer.java </DOCNO>
+<text>
+<class>
+ synchronizer
+</class>
+<method>
+ synchronizer
+add last
+async exec
+get message count
+release synchronizer
+remove first
+run async messages
+run async messages
+sync exec
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ internal
+ compatibility
+ synchronizer
+ display
+ display
+message count
+runnable lock
+ messages
+ object
+message lock
+ object
+ thread
+sync thread
+ synchronizer
+ display
+ display
+ display
+ display
+add last
+runnable lock
+ lock
+ wake
+message lock
+ messages
+ messages
+runnable lock
+message count
+ messages
+ length
+runnable lock
+new messages
+runnable lock
+message count
+ system
+ arraycopy
+ messages
+new messages
+message count
+ messages
+new messages
+ messages
+message count
+ lock
+ wake
+message count
+ wake
+ display
+wake thread
+async exec
+ runnable
+ runnable
+ runnable
+ display
+ wake
+add last
+runnable lock
+ runnable
+get message count
+message lock
+message count
+release synchronizer
+ display
+ messages
+message lock
+sync thread
+runnable lock
+remove first
+message lock
+message count
+runnable lock
+ lock
+ messages
+ system
+ arraycopy
+ messages
+ messages
+message count
+ messages
+message count
+message count
+ messages
+ length
+ messages
+ lock
+run async messages
+run async messages
+run async messages
+ all
+ run
+runnable lock
+ lock
+remove first
+ lock
+ run
+ run
+ lock
+sync thread
+ lock
+ thread
+ lock
+ run
+ throwable
+
+ lock
+ throwable
+
+ swt
+ error
+ swt
+error failed exec
+
+sync thread
+ lock
+notify all
+ all
+ run
+sync exec
+ runnable
+ runnable
+ display
+valid thread
+ runnable
+ runnable
+ run
+ runnable
+ display
+ wake
+runnable lock
+ lock
+runnable lock
+ runnable
+ lock
+ thread
+ thread
+current thread
+ lock
+add last
+ lock
+ interrupted
+ lock
+ done
+ lock
+ wait
+interrupted exception
+
+ interrupted
+ interrupted
+ compatibility
+ interrupt
+ lock
+ throwable
+ swt
+ error
+ swt
+error failed exec
+ lock
+ throwable
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  provide  synchronization  support  for  displays  default  instance  created  automatically  for  each  display  and  this  instance  sufficient  for  almost  all  applications  important  typical  application  code  never  needs  deal  with  this  class  provided  only  allow  applications  which  require  non  standard  synchronization  behavior  plug  the  support  they  require  subclasses  which  override  the  methods  this  class  must  ensure  that  the  superclass  methods  are  invoked  their  implementations  see  display set synchronizer
+constructs  new  instance  this  class  param  display  the  display  create  the  synchronizer 
+causes  the  code  run  code  method  the  runnable  invoked  the  user  interface  thread  the  next  reasonable  opportunity  the  caller  this  method  continues  run  parallel  and  not  notified  when  the  runnable  has  completed  param  runnable  code  run  the  user  interface  thread  see sync exec
+causes  the  code  run  code  method  the  runnable  invoked  the  user  interface  thread  the  next  reasonable  opportunity  the  thread  which  calls  this  method  suspended  until  the  runnable  completes  param  runnable  code  run  the  user  interface  thread  exception swt exception  error  failed  exec  exception  occured  when  executing  the  runnable  see async exec
+only  remember  the sync thread  for sync exec
+</comments>
+</text>
+</DOC>

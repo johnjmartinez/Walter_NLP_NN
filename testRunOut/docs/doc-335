@@ -1,0 +1,32 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.ArmListener.java </DOCNO>
+<text>
+<class>
+arm listener
+</class>
+<method>
+widget armed
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+arm listener
+swt event listener
+widget armed
+arm event
+
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+classes  which  implement  this  interface  provide  method  that  deals  with  the  event  that  generated  when  widget  such  menu  item  armed  after  creating  instance  class  that  implements  this  interface  can  added  widget  using  the  code add arm listener  code  method  and  removed  using  the  code remove arm listener  code  method  when  the  widget  armed  the widget armed  method  will  invoked  see arm event
+sent  when  widget  armed  about  selected  param  event  containing  information  about  the  arm
+</comments>
+</text>
+</DOC>

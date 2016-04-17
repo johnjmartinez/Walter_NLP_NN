@@ -1,0 +1,632 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.WrappedContent.java </DOCNO>
+<text>
+<class>
+wrapped content
+</class>
+<method>
+wrapped content
+add text change listener
+ensure size
+get char count
+get line
+get line offset
+get line count
+get line delimiter
+get offset line
+get text range
+get visual line count
+remove text change listener
+ reset
+ reset
+reset visual lines
+replace text range
+set text
+set visual line
+text changed
+wrap line range
+wrap line range
+wrap lines
+wrap lines
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+wrapped content
+styled text content
+line offset
+line length
+styled text renderer
+ renderer
+styled text content
+logical content
+visual lines
+visual line count
+wrapped content
+styled text renderer
+ renderer
+styled text content
+logical content
+ renderer
+ renderer
+logical content
+logical content
+add text change listener
+text change listener
+ listener
+logical content
+add text change listener
+ listener
+ensure size
+num lines
+ size
+visual lines
+ length
+ size
+num lines
+new lines
+ math
+ max
+ size
+num lines
+ system
+ arraycopy
+visual lines
+new lines
+ size
+visual lines
+new lines
+reset visual lines
+ size
+visual lines
+ length
+ size
+get char count
+logical content
+get char count
+ string
+get line
+line index
+ string
+ line
+visual line count
+ line
+logical content
+get line
+line index
+line index
+visual line count
+line index
+ swt
+ error
+ swt
+error invalid argument
+ line
+logical content
+get text range
+visual lines
+line index
+line offset
+visual lines
+line index
+line length
+ line
+get line offset
+ offset
+last line
+visual line count
+last char
+visual line count
+logical content
+get line offset
+ offset
+last char
+visual lines
+last line
+line offset
+visual lines
+last line
+line length
+ offset
+ offset
+ offset
+last char
+ swt
+ error
+ swt
+error invalid argument
+ offset
+last char
+last line
+ high
+visual line count
+ low
+ index
+visual line count
+ high
+ low
+ index
+ high
+ low
+line start
+visual lines
+ index
+line offset
+ offset
+line start
+line end
+line start
+visual lines
+ index
+line length
+ low
+ index
+ offset
+line end
+ high
+ index
+ low
+ offset
+visual lines
+ low
+line offset
+visual lines
+ low
+line length
+ low
+ low
+get line count
+line count
+visual line count
+visual line count
+line count
+logical content
+get line count
+line count
+ string
+get line delimiter
+logical content
+get line delimiter
+get offset line
+line index
+ offset
+visual line count
+ offset
+logical content
+get offset line
+line index
+line index
+visual line count
+line index
+ swt
+ error
+ swt
+error invalid argument
+ offset
+visual lines
+line index
+line offset
+ offset
+ string
+get text range
+ start
+ length
+logical content
+get text range
+ start
+ length
+get visual line count
+visual line count
+remove text change listener
+text change listener
+ listener
+logical content
+remove text change listener
+ listener
+ reset
+start line
+line count
+line count
+visual line count
+ reset
+start line
+line count
+ reset
+start line
+line count
+ wrap
+line count
+start line
+visual first line offset
+get offset line
+start line
+logical first line
+logical content
+get line offset
+visual first line offset
+logical first line offset
+logical content
+get offset line
+logical first line
+visual first line
+get line offset
+logical first line offset
+line count
+start line
+visual first line
+start line
+visual first line
+last line
+start line
+line count
+last line end
+visual lines
+last line
+line offset
+visual lines
+last line
+line length
+logical end line
+last line
+visual line count
+last line end
+visual lines
+last line
+line offset
+last line
+last line end
+visual lines
+last line
+line offset
+visual lines
+last line
+line length
+ wrap
+last line
+visual line count
+logical end line
+logical content
+get line count
+logical end line
+logical content
+get line offset
+visual lines
+last line
+line offset
+line count
+last line
+start line
+reset visual lines
+start line
+line count
+visual line count
+line count
+ wrap
+wrap line range
+logical first line
+logical end line
+start line
+start line
+reset visual lines
+start line
+line count
+end line
+start line
+line count
+
+start line
+
+end line
+
+visual lines
+
+replace text range
+ start
+replace length
+ string
+ text
+logical content
+replace text range
+ start
+replace length
+ text
+set text
+ string
+ text
+logical content
+set text
+ text
+set visual line
+visual line index
+visual line offset
+visual line length
+ensure size
+visual line count
+visual lines
+visual line index
+line offset
+ system
+ arraycopy
+visual lines
+visual line index
+visual lines
+visual line index
+visual line count
+visual line index
+visual lines
+visual line index
+visual lines
+visual line index
+line offset
+visual line offset
+visual lines
+visual line index
+line length
+visual line length
+visual line count
+text changed
+start offset
+new line count
+replace line count
+new char count
+replace char count
+visual line count
+logical start line
+logical content
+get line offset
+start offset
+visual start line
+get line offset
+start offset
+visual replace last line
+visual line count
+text change delta
+new char count
+replace char count
+replace line count
+visual replace last line
+get line offset
+start offset
+replace char count
+visual replace last line
+visual lines
+visual replace last line
+line offset
+visual lines
+visual replace last line
+line offset
+visual lines
+visual replace last line
+line length
+visual replace last line
+visual line count
+visual replace last line
+visual start line
+ reset
+visual start line
+visual replace last line
+visual start line
+visual start line
+ reset
+visual start line
+visual replace last line
+wrap line range
+logical start line
+logical start line
+new line count
+visual start line
+
+visual replace last line
+
+visual line count
+
+visual lines
+
+line offset
+text change delta
+wrap line range
+start line
+end line
+visual line index
+empty line count
+ width
+ renderer
+get client area
+ width
+ renderer
+get left margin
+ renderer
+get right margin
+visual line index
+wrap line range
+start line
+end line
+visual line index
+ width
+
+visual line index
+
+visual lines
+ length
+
+empty line count
+visual lines
+
+line offset
+empty line count
+copy line count
+visual line count
+visual line index
+ system
+ arraycopy
+visual lines
+visual line index
+empty line count
+visual lines
+visual line index
+copy line count
+reset visual lines
+visual line index
+copy line count
+empty line count
+visual line index
+wrap line range
+start line
+end line
+visual line index
+ width
+visual line count
+ width
+visual line index
+
+start line
+
+end line
+
+ string
+ line
+logical content
+get line
+
+line offset
+logical content
+get offset line
+
+line length
+ line
+ length
+line length
+set visual line
+visual line index
+line offset
+visual line index
+text layout
+ layout
+ renderer
+get text layout
+ line
+line offset
+ layout
+set width
+ math
+ max
+ width
+ offsets
+ layout
+get line offsets
+
+
+ offsets
+ length
+
+set visual line
+visual line index
+line offset
+ offsets
+
+ offsets
+
+ offsets
+
+ renderer
+dispose text layout
+ layout
+visual line index
+wrap lines
+ width
+ renderer
+get client area
+ width
+ renderer
+get left margin
+ renderer
+get right margin
+wrap lines
+ width
+wrap lines
+ width
+line count
+logical content
+get line count
+visual line count
+visual lines
+line count
+reset visual lines
+visual lines
+ length
+wrap line range
+line count
+ width
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instance  class  code wrapped content  code  used styled text  display  wrapped  lines  lines  are  wrapped  word  breaks  which  are  marked  space  character  trailing  space  behind  words  kept  the  current  line  the  last  remaining  word  line  can  not  fully  displayed  the  line  wrapped  character  character wrapped content  wraps styled text content  which  provides  the  line  data  the  start  offset  and  length  wrapped  lines  calculated  and  updated  based  recalculation  requests  and  text  changes  all  public  methods  this  class  implement  the  code styled text content  code  interface  package  visible  methods  are  internal  api  for  use  code styled text  code 
+index  line  offset visual lines  array
+index  line  lenght visual lines  array
+start  and  length  each  visual  line
+create  new  instance  param  renderer  class styled text renderer  class  that  renders  the  lines  wrapped  the  new  instance  param logical content styled text content  that  provides  the  line  data
+see styled text content add text change listener text change listener
+grow  the  lines  array  least  the  specified  size  param num lines  number  elements  that  the  array  should  have  minimum
+see styled text content get char count
+return  the  visual  wrapped  line  the  specified  index  see styled text content get line  int
+redirect  call  logical  content  there  are  wrapped  lines
+returns  the  visual  wrapped  line  given  offset  the  offset  ambiguous  identifies  the  end  visual  line  and  there  another  visual  line  below  this  case  the  end  the  visual  line  has  the  same  offset  the  beginning  the  next  visual  line  since  the  visual  line  break  not  represented  any  character  the  logical  line  this  ambiguous  case  the  offset  assumed  represent  the  end  visual  line  and  the  index  the  first  visual  line  returned  param  offset  offset  the  desired  line  return  the  index  the  visual  wrapped  line  the  specified  offset  see styled text content get line offset  int
+redirect  call  logical  content  there  are  wrapped  lines
+can  use get char count  get  the  number  characters  since  this
+method  called text changed  when  the logical content  used 
+get char count  has  already  changed  that  point  the  visual  lines
+have  not  been  updated  yet  and  thus  need  use  the  old  character
+count  which  only  available  the  visual  content
+last  line  and  the  line  not  empty  you  can  ask  for
+position  that  doesn  exist  the  one  the  right  the
+last  character  for  inserting
+end  visual  line  beginning  next  visual  line  ambiguous
+they  have  the  same  offset  always  return  the  first  visual  line
+return  the  number  visual  wrapped  lines  see styled text content get line count
+redirect  call  logical  content  there  are  wrapped  lines
+see styled text content get line delimiter
+return  the  start  offset  the  visual  wrapped  line  the  given  index  see styled text content get offset line  int
+redirect  call  logical  content  there  are  wrapped  lines
+see styled text content get text range  int  int
+returns  the  number  visual  wrapped  lines  return  the  number  visual  wrapped  lines
+see styled text content remove text change listener text change listener
+reset  the  visual  wrapped  lines  the  specified  range  the  range  specifies  partial  logical  lines start line  the  second  two  visual  lines  extended  reset  all  visual  lines  logical  line  following  the  reset  the  logical  lines  the  reset  visual  range  are  rewrapped  param start line  index  the  first  visual  line  param line count  number  visual  lines
+reset  the  visual  wrapped  lines  the  specified  range  the  range  specifies  partial  logical  lines start line  the  second  two  visual  lines  extended  reset  all  visual  lines  logical  line  param start line  index  the  first  visual  line  param line count  number  visual  lines  param  wrap  true  rewrap  the  logical  lines  the  reset  visual  range  false  don  rewrap  lines  visual  lines  will  left  inconsistent  state  since  there  will  range  unwrapped  and  unknown  lines  return  the  first  visual  line  that  was  reset
+make  sure  that  all  visual  lines  the  first  logical  line  are
+being  reset visual first line  the  first  visual  line  the
+first  logical  line  that  has  least  one  visual  line  reset
+make  sure  that  all  visual  lines  the  last  logical  line  are
+being  reset
+always  recalculate  line  wrap  immediately  after  reset
+because  the  content  always  needs  usable  state
+there  must  not  any  reset  but  unwrapped  lines
+reset  the  visual  wrapped  lines  the  specified  range  param start line  index  the  first  visual  line  param line count  number  visual  lines
+see styled text content replace text range  int  int  string
+see styled text content set text  string
+set  the  line  wrap  data  for  the  specified  visual  wrapped  line  param visual line index  index  the  visual  line  param visual line offset  start  offset  the  visual  line  relative  the  start  the  document  param visual line length  length  the  visual  line
+the  space  for  the  visual  line  already  taken  can  happen 
+there  are  more  visual  lines  for  given  logical  line  than  before
+recalculates  the  line  wrap  for  the  lines  affected  the  text  change  param start offset  the  start  offset  the  text  change  param new line count  the  number  inserted  lines  param replace line count  the  number  deleted  lines  param new char count  the  number  new  characters  param replace char count  the  number  deleted  characters
+nothing  there  are  wrapped  lines
+the  start  visual  line  end  the  previous  visual  line
+wrap  the  logical  lines  the  given  range  the  current  client  area  width  the styled text  widget  param start line  first  logical  line  wrap  param end line  line  after  last  logical  line  param visual line index  visual  wrapped  line  index  that start line  corresponds  return  index  the  line  following  the  last  wrapped  line
+there  space  left  for  more  visual  lines  can  happen  there  are  fewer
+visual  lines  for  given  logical  line  than  before
+wrap  the  lines  the  given  range  skip  lines  that  have  already  been  wrapped  param start line  first  logical  line  wrap  param end line  line  after  last  logical  line  param visual line index  visual  wrapped  line  index  that start line  corresponds  param  width  line  width  wrap  return  index  last  wrapped  line
+there  are  wrapped  lines  and  the  width  the  widget  has
+not  been  made  visible  sized  yet  don  wrap  until  the  widget  size
+  known
+wrap  all  logical  lines  the  current  client  area  width  the styled text  widget
+wrap  all  logical  lines  the  given  width  param  width  width  wrap  lines 
+</comments>
+</text>
+</DOC>

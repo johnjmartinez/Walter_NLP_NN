@@ -1,0 +1,42 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.MouseTrackListener.java </DOCNO>
+<text>
+<class>
+mouse track listener
+</class>
+<method>
+mouse enter
+mouse exit
+mouse hover
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+mouse track listener
+swt event listener
+mouse enter
+mouse event
+
+mouse exit
+mouse event
+
+mouse hover
+mouse event
+
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+classes  which  implement  this  interface  provide  methods  that  deal  with  the  events  that  are  generated  the  mouse  pointer  passes  hovers  over  controls  after  creating  instance  class  that  implements  this  interface  can  added  control  using  the  code add mouse track listener  code  method  and  removed  using  the  code remove mouse track listener  code  method  when  the  mouse  pointer  passes  into  out  the  area  the  screen  covered  control  pauses  while  over  control  the  appropriate  method  will  invoked  see mouse track adapter  see mouse event
+sent  when  the  mouse  pointer  passes  into  the  area  the  screen  covered  control  param  event  containing  information  about  the  mouse  enter
+sent  when  the  mouse  pointer  passes  out  the  area  the  screen  covered  control  param  event  containing  information  about  the  mouse  exit
+sent  when  the  mouse  pointer  hovers  that  stops  moving  for  operating  system  specified  period  time  over  control  param  event  containing  information  about  the  hover
+</comments>
+</text>
+</DOC>

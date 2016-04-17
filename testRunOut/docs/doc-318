@@ -1,0 +1,88 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.PaintEvent.java </DOCNO>
+<text>
+<class>
+paint event
+</class>
+<method>
+paint event
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ widgets
+ event
+ org
+ eclipse
+ swt
+ graphics
+
+paint event
+typed event
+
+
+
+
+ width
+ height
+ count
+serial version uid
+paint event
+ event
+
+
+
+
+
+
+
+
+
+
+
+ width
+
+ width
+ height
+
+ height
+ count
+
+ count
+ string
+ string
+ string
+ string
+ string
+ string
+ substring
+ string
+ length
+
+
+
+ width
+ height
+ count
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  sent  result  visible  areas  controls  requiring  painting  see paint listener
+the  graphics  context  use  when  painting  that  configured  use  the  colors  font  and  damaged  region  the  control  valid  only  during  the  paint  and  must  not  disposed
+the  offset  the  bounding  rectangle  the  region  that  requires  painting
+the  offset  the  bounding  rectangle  the  region  that  requires  painting
+the  width  the  bounding  rectangle  the  region  that  requires  painting
+the  height  the  bounding  rectangle  the  region  that  requires  painting
+the  number  following  paint  events  which  are  pending  which  may  always  zero  some  platforms
+constructs  new  instance  this  class  based  the  information  the  given  untyped  event  param  the  untyped  event  containing  the  information
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
+remove  trailing
+</comments>
+</text>
+</DOC>

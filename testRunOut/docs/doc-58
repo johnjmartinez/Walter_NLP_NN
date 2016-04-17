@@ -1,0 +1,71 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.Point.java </DOCNO>
+<text>
+<class>
+ point
+</class>
+<method>
+ point
+ equals
+hash code
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+serializable compatibility
+ point
+serializable compatibility
+
+
+serial version uid
+ point
+
+
+
+
+
+
+ equals
+ object
+ object
+ object
+ object
+ point
+ point
+
+ point
+ object
+
+
+
+
+
+
+hash code
+
+
+ string
+ string
+
+
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  represent  places  the  coordinate  plane  the  coordinate  space  for  rectangles  and  points  considered  have  increasing  values  downward  and  the  right  from  its  origin  making  this  the  normal  computer  graphics  oriented  notion  coordinates  rather  than  the  strict  mathematical  one  the hash code  method  this  class  uses  the  values  the  public  fields  compute  the  hash  value  when  storing  instances  the  class  hashed  collections  not  modify  these  fields  after  the  object  has  been  inserted  application  code  does  not  need  explicitly  release  the  resources  managed  each  instance  when  those  instances  are  longer  required  and  thus  code  dispose  code  method  provided  see  rectangle
+the  coordinate  the  point
+the  coordinate  the  point
+constructs  new  point  with  the  given  and  coordinates  param  the  coordinate  the  new  point  param  the  coordinate  the  new  point
+compares  the  argument  the  receiver  and  returns  true  they  represent  the  same  object  using  class  specific  comparison  param  object  the  object  compare  with  this  object  return  code  true  code  the  object  the  same  this  object  and  code  false  code  otherwise  see hash code
+returns  integer  hash  code  for  the  receiver  any  two  objects  that  return  code  true  code  when  passed  code  equals  code  must  return  the  same  value  for  this  method  return  the  receiver  hash  see  equals  object
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  point
+non  nls  non  nls  non  nls 
+</comments>
+</text>
+</DOC>

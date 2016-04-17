@@ -1,0 +1,415 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.PngIhdrChunk.java </DOCNO>
+<text>
+<class>
+png ihdr chunk
+</class>
+<method>
+png ihdr chunk
+get width
+set width
+get height
+set height
+get bit depth
+set bit depth
+get color type
+set color type
+get compression method
+set compression method
+get filter method
+set filter method
+get interlace method
+set interlace method
+ validate
+get color type string
+get filter method string
+get interlace method string
+contribute string
+get must have palette
+get can have palette
+get bits per pixel
+get swt bits per pixel
+get filter byte offset
+uses direct color
+create grayscale palette
+get palette data
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+ compatibility
+png ihdr chunk
+png chunk
+expected data length
+width data offset
+data offset
+height data offset
+data offset
+bit depth offset
+data offset
+color type offset
+data offset
+compression method offset
+data offset
+filter method offset
+data offset
+interlace method offset
+data offset
+color type grayscale
+color type rgb
+color type palette
+color type grayscale with alpha
+color type rgb with alpha
+interlace method none
+interlace method adam
+filter none
+filter sub
+ filter
+filter average
+filter paeth
+valid bit depths
+valid color types
+png ihdr chunk
+ reference
+ reference
+get width
+get int
+width data offset
+set width
+ value
+set int
+width data offset
+ value
+get height
+get int
+height data offset
+set height
+ value
+set int
+height data offset
+ value
+get bit depth
+ reference
+bit depth offset
+set bit depth
+ value
+ reference
+bit depth offset
+ value
+get color type
+ reference
+color type offset
+set color type
+ value
+ reference
+color type offset
+ value
+get compression method
+ reference
+compression method offset
+set compression method
+ value
+ reference
+compression method offset
+ value
+get filter method
+ reference
+filter method offset
+set filter method
+ value
+ reference
+filter method offset
+ value
+get interlace method
+ reference
+interlace method offset
+set interlace method
+ value
+ reference
+interlace method offset
+ value
+ validate
+png file read state
+read state
+png ihdr chunk
+header chunk
+read state
+read ihdr
+read state
+read plte
+read state
+read idat
+read state
+read iend
+ swt
+ error
+ swt
+error invalid image
+read state
+read ihdr
+ validate
+read state
+header chunk
+get length
+expected data length
+ swt
+ error
+ swt
+error invalid image
+get compression method
+ swt
+ error
+ swt
+error invalid image
+get interlace method
+interlace method none
+get interlace method
+interlace method adam
+ swt
+ error
+ swt
+error invalid image
+color type valid
+color type
+get color type
+
+
+valid color types
+ length
+
+valid color types
+
+color type
+color type valid
+color type valid
+ swt
+ error
+ swt
+error invalid image
+bit depth valid
+bit depth
+get bit depth
+
+
+valid bit depths
+ length
+
+valid bit depths
+
+bit depth
+bit depth valid
+bit depth valid
+ swt
+ error
+ swt
+error invalid image
+color type
+color type rgb
+color type
+color type rgb with alpha
+color type
+color type grayscale with alpha
+bit depth
+ swt
+ error
+ swt
+error invalid image
+color type
+color type palette
+bit depth
+ swt
+ error
+ swt
+error invalid image
+ string
+get color type string
+get color type
+color type grayscale
+color type rgb
+color type palette
+color type grayscale with alpha
+color type rgb with alpha
+get color type
+ string
+get filter method string
+get filter method
+filter none
+filter sub
+ filter
+filter average
+filter paeth
+ string
+get interlace method string
+get interlace method
+interlace method none
+interlace method adam
+contribute string
+string buffer
+ buffer
+ buffer
+ append
+ buffer
+ append
+get width
+ buffer
+ append
+ buffer
+ append
+get height
+ buffer
+ append
+ buffer
+ append
+get bit depth
+ buffer
+ append
+ buffer
+ append
+get color type string
+ buffer
+ append
+ buffer
+ append
+get compression method
+ buffer
+ append
+ buffer
+ append
+get filter method string
+ buffer
+ append
+ buffer
+ append
+get interlace method string
+get must have palette
+get color type
+color type palette
+get can have palette
+color type
+get color type
+color type
+color type grayscale
+color type
+color type grayscale with alpha
+get bits per pixel
+bit depth
+get bit depth
+get color type
+color type rgb with alpha
+bit depth
+color type rgb
+bit depth
+color type grayscale with alpha
+bit depth
+color type grayscale
+color type palette
+bit depth
+ swt
+ error
+ swt
+error invalid image
+get swt bits per pixel
+bit depth
+get bit depth
+get color type
+color type rgb with alpha
+color type rgb
+color type grayscale with alpha
+color type grayscale
+color type palette
+ math
+ min
+bit depth
+ swt
+ error
+ swt
+error invalid image
+get filter byte offset
+get bit depth
+get bits per pixel
+uses direct color
+get color type
+color type grayscale
+color type grayscale with alpha
+color type rgb
+color type rgb with alpha
+palette data
+create grayscale palette
+bit depth
+ math
+ min
+get bit depth
+ max
+ compatibility
+ pow
+bit depth
+ delta
+ max
+ gray
+ rgb
+ rgbs
+ rgb
+ max
+
+
+ max
+
+ rgbs
+
+ rgb
+ gray
+ gray
+ gray
+ gray
+ delta
+palette data
+ rgbs
+palette data
+get palette data
+get color type
+color type grayscale
+create grayscale palette
+color type grayscale with alpha
+color type rgb
+color type rgb with alpha
+palette data
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+construct png chunk  using  the  reference  bytes  given
+get  the  image  width  pixels
+set  the  image  width  pixels
+get  the  image  height  pixels
+set  the  image  height  pixels
+get  the  image  bit  depth  this  limited  the  values 
+set  the  image  bit  depth  this  limited  the  values 
+get  the  image  color  type  this  limited  the  values  grayscale  image  rgb  triple  palette  grayscale  with  alpha  channel  rgb  with  alpha  channel
+set  the  image  color  type  this  limited  the  values  grayscale  image  rgb  triple  palette  grayscale  with  alpha  channel  rgb  with  alpha  channel
+get  the  image  compression  method  this  value  must 
+set  the  image  compression  method  this  value  must 
+get  the  image  filter  method  this  value  must 
+set  the  image  filter  method  this  value  must 
+get  the  image  interlace  method  this  value  limited  interlacing  used  adam  interlacing  used
+set  the  image  interlace  method  this  value  limited  interlacing  used  adam  interlacing  used
+answer  whether  the  chunk  valid  ihdr  chunk
+ihdr  chunk  invalid  any  other  chunk  has
+been  read
+answer  the  pixel  size  bits  based  the  color  type  and  bit  depth
+answer  the  pixel  size  bits  based  the  color  type  and  bit  depth
+</comments>
+</text>
+</DOC>

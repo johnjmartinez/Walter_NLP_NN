@@ -1,0 +1,27 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.ole.win32.IEnumVARIANT.java </DOCNO>
+<text>
+<class>
+enum variant
+</class>
+<method>
+enum variant
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+enum variant
+ enum
+enum variant
+ address
+ address
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

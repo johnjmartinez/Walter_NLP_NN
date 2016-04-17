@@ -1,0 +1,1098 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.FontData.java </DOCNO>
+<text>
+<class>
+font data
+</class>
+<method>
+font data
+font data
+font data
+font data
+ equals
+enum locales proc
+get height
+get locale
+get name
+get style
+hash code
+set height
+set locale
+set name
+set style
+ string
+win 32_new
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+font data
+ logfont
+ data
+ height
+ string
+ lang
+ country
+ variant
+font data
+ data
+
+ unicode
+ logfont
+ logfontw
+ logfonta
+ data
+char set
+
+default charset
+ height
+font data
+ logfont
+ data
+ height
+ data
+ data
+ height
+ height
+font data
+ string
+ string
+ string
+ swt
+ error
+ swt
+error null argument
+ start
+ end
+ string
+ index
+ end
+ swt
+ error
+ swt
+error invalid argument
+ string
+ version
+ string
+ substring
+ start
+ end
+ integer
+parse int
+ version
+ swt
+ error
+ swt
+error invalid argument
+number format exception
+
+ swt
+ error
+ swt
+error invalid argument
+ start
+ end
+ end
+ string
+ index
+ start
+ end
+ swt
+ error
+ swt
+error invalid argument
+ string
+ name
+ string
+ substring
+ start
+ end
+ start
+ end
+ end
+ string
+ index
+ start
+ end
+ swt
+ error
+ swt
+error invalid argument
+ height
+ height
+ integer
+parse int
+ string
+ substring
+ start
+ end
+number format exception
+
+ swt
+ error
+ swt
+error invalid argument
+ start
+ end
+ end
+ string
+ index
+ start
+ end
+ swt
+ error
+ swt
+error invalid argument
+ style
+ style
+ integer
+parse int
+ string
+ substring
+ start
+ end
+number format exception
+
+ swt
+ error
+ swt
+error invalid argument
+ start
+ end
+ end
+ string
+ index
+ start
+ data
+
+ unicode
+ logfont
+ logfontw
+ logfonta
+ data
+char set
+
+default charset
+set name
+ name
+set height
+ height
+set style
+ style
+ end
+ string
+ platform
+ string
+ substring
+ start
+ end
+ start
+ end
+ end
+ string
+ index
+ start
+ end
+ string
+ version
+ string
+ substring
+ start
+ end
+ platform
+ equals
+ version
+ equals
+ logfont
+new data
+
+ unicode
+ logfont
+ logfontw
+ logfonta
+ start
+ end
+ end
+ string
+ index
+ start
+ end
+new data
+ height
+ integer
+parse int
+ string
+ substring
+ start
+ end
+ start
+ end
+ end
+ string
+ index
+ start
+ end
+new data
+ width
+ integer
+parse int
+ string
+ substring
+ start
+ end
+ start
+ end
+ end
+ string
+ index
+ start
+ end
+new data
+ escapement
+ integer
+parse int
+ string
+ substring
+ start
+ end
+ start
+ end
+ end
+ string
+ index
+ start
+ end
+new data
+ orientation
+ integer
+parse int
+ string
+ substring
+ start
+ end
+ start
+ end
+ end
+ string
+ index
+ start
+ end
+new data
+ weight
+ integer
+parse int
+ string
+ substring
+ start
+ end
+ start
+ end
+ end
+ string
+ index
+ start
+ end
+new data
+ italic
+ byte
+parse byte
+ string
+ substring
+ start
+ end
+ start
+ end
+ end
+ string
+ index
+ start
+ end
+new data
+ underline
+ byte
+parse byte
+ string
+ substring
+ start
+ end
+ start
+ end
+ end
+ string
+ index
+ start
+ end
+new data
+strike out
+ byte
+parse byte
+ string
+ substring
+ start
+ end
+ start
+ end
+ end
+ string
+ index
+ start
+ end
+new data
+char set
+ byte
+parse byte
+ string
+ substring
+ start
+ end
+ start
+ end
+ end
+ string
+ index
+ start
+ end
+new data
+out precision
+ byte
+parse byte
+ string
+ substring
+ start
+ end
+ start
+ end
+ end
+ string
+ index
+ start
+ end
+new data
+clip precision
+ byte
+parse byte
+ string
+ substring
+ start
+ end
+ start
+ end
+ end
+ string
+ index
+ start
+ end
+new data
+ quality
+ byte
+parse byte
+ string
+ substring
+ start
+ end
+ start
+ end
+ end
+ string
+ index
+ start
+ end
+new data
+pitch and family
+ byte
+parse byte
+ string
+ substring
+ start
+ end
+ start
+ end
+number format exception
+
+set name
+ name
+set height
+ height
+set style
+ style
+ tchar
+ buffer
+ tchar
+ string
+ substring
+ start
+ length
+ math
+ min
+
+ facesize
+ buffer
+ length
+
+ unicode
+face name
+ logfontw
+new data
+face name
+ system
+ arraycopy
+ buffer
+ chars
+face name
+ length
+face name
+ logfonta
+new data
+face name
+ system
+ arraycopy
+ buffer
+ bytes
+face name
+ length
+ data
+new data
+font data
+ string
+ name
+ height
+ style
+ name
+ swt
+ error
+ swt
+error null argument
+ data
+
+ unicode
+ logfont
+ logfontw
+ logfonta
+set name
+ name
+set height
+ height
+set style
+ style
+ data
+char set
+
+default charset
+ equals
+ object
+ object
+ object
+ object
+font data
+font data
+
+font data
+ object
+ logfont
+
+
+ data
+ data
+char set
+
+char set
+ height
+
+ height
+ data
+ width
+
+ width
+ data
+ escapement
+
+ escapement
+ data
+ orientation
+
+ orientation
+ data
+ weight
+
+ weight
+ data
+ italic
+
+ italic
+ data
+ underline
+
+ underline
+ data
+strike out
+
+strike out
+ data
+char set
+
+char set
+ data
+out precision
+
+out precision
+ data
+clip precision
+
+clip precision
+ data
+ quality
+
+ quality
+ data
+pitch and family
+
+pitch and family
+get name
+ equals
+
+get name
+enum locales proc
+locale string
+ length
+ tchar
+ buffer
+ tchar
+ length
+byte count
+ length
+ tchar
+ sizeof
+
+move memory
+ buffer
+locale string
+byte count
+ lcid
+ integer
+parse int
+ buffer
+ string
+ buffer
+ strlen
+ size
+
+get locale info
+ lcid
+
+locale siso 639 langname
+ buffer
+ length
+ size
+ lang
+ equals
+ buffer
+ string
+ size
+ country
+ size
+
+get locale info
+ lcid
+
+locale siso 3166 ctryname
+ buffer
+ length
+ size
+ country
+ equals
+ buffer
+ string
+ size
+ size
+
+get locale info
+ lcid
+
+locale idefaultansicodepage
+ buffer
+ length
+ size
+
+ integer
+parse int
+ buffer
+ string
+ size
+
+
+translate charset info
+
+
+
+tci srccodepage
+ data
+char set
+
+get height
+ height
+ string
+get locale
+string buffer
+ buffer
+string buffer
+ sep
+ lang
+ buffer
+ append
+ lang
+ buffer
+ append
+ sep
+ country
+ buffer
+ append
+ country
+ buffer
+ append
+ sep
+ variant
+ buffer
+ append
+ variant
+ string
+ result
+ buffer
+ string
+ length
+ result
+ length
+ length
+ result
+ char
+ length
+ sep
+ result
+ result
+ substring
+ length
+ result
+ string
+get name
+ chars
+
+ unicode
+ chars
+ logfontw
+ data
+face name
+ chars
+
+ facesize
+ bytes
+ logfonta
+ data
+face name
+
+multi byte wide char
+
+ acp
+
+ precomposed
+ bytes
+ bytes
+ length
+ chars
+ chars
+ length
+ index
+ index
+ chars
+ length
+ chars
+ index
+ index
+ string
+ chars
+ index
+get style
+ style
+ swt
+ normal
+ data
+ weight
+ style
+ swt
+ bold
+ data
+ italic
+ style
+ swt
+ italic
+ style
+hash code
+ data
+char set
+ height
+ data
+ width
+ data
+ escapement
+ data
+ orientation
+ data
+ weight
+ data
+ italic
+ data
+ underline
+ data
+strike out
+ data
+char set
+ data
+out precision
+ data
+clip precision
+ data
+ quality
+ data
+pitch and family
+get name
+hash code
+set height
+ height
+ height
+ swt
+ error
+ swt
+error invalid argument
+ height
+ height
+set locale
+ string
+ locale
+ lang
+ country
+ variant
+ locale
+ sep
+ length
+ locale
+ length
+first sep
+second sep
+first sep
+ locale
+ index
+ sep
+first sep
+first sep
+second sep
+ length
+second sep
+ locale
+ index
+ sep
+first sep
+second sep
+second sep
+ length
+first sep
+ lang
+ locale
+ substring
+first sep
+second sep
+first sep
+ country
+ locale
+ substring
+first sep
+second sep
+ length
+second sep
+ variant
+ locale
+ substring
+second sep
+ lang
+ data
+char set
+
+default charset
+ callback
+ callback
+ callback
+enum locales proc
+ callback
+get address
+enum locales proc
+ swt
+ error
+ swt
+error more callbacks
+
+enum system locales
+enum locales proc
+
+lcid supported
+ callback
+ dispose
+set name
+ string
+ name
+ name
+ swt
+ error
+ swt
+error null argument
+ tchar
+ buffer
+ tchar
+ name
+ length
+ math
+ min
+
+ facesize
+ buffer
+ length
+
+ unicode
+face name
+ logfontw
+ data
+face name
+
+
+face name
+ length
+
+face name
+
+ system
+ arraycopy
+ buffer
+ chars
+face name
+ length
+face name
+ logfonta
+ data
+face name
+
+
+face name
+ length
+
+face name
+
+ system
+ arraycopy
+ buffer
+ bytes
+face name
+ length
+set style
+ style
+ style
+ swt
+ bold
+ swt
+ bold
+ data
+ weight
+ data
+ weight
+ style
+ swt
+ italic
+ swt
+ italic
+ data
+ italic
+ data
+ italic
+ string
+ string
+string buffer
+ buffer
+string buffer
+ buffer
+ append
+ buffer
+ append
+get name
+ buffer
+ append
+ buffer
+ append
+get height
+ buffer
+ append
+ buffer
+ append
+get style
+ buffer
+ append
+ buffer
+ append
+ buffer
+ append
+ data
+ height
+ buffer
+ append
+ buffer
+ append
+ data
+ width
+ buffer
+ append
+ buffer
+ append
+ data
+ escapement
+ buffer
+ append
+ buffer
+ append
+ data
+ orientation
+ buffer
+ append
+ buffer
+ append
+ data
+ weight
+ buffer
+ append
+ buffer
+ append
+ data
+ italic
+ buffer
+ append
+ buffer
+ append
+ data
+ underline
+ buffer
+ append
+ buffer
+ append
+ data
+strike out
+ buffer
+ append
+ buffer
+ append
+ data
+char set
+ buffer
+ append
+ buffer
+ append
+ data
+out precision
+ buffer
+ append
+ buffer
+ append
+ data
+clip precision
+ buffer
+ append
+ buffer
+ append
+ data
+ quality
+ buffer
+ append
+ buffer
+ append
+ data
+pitch and family
+ buffer
+ append
+ buffer
+ append
+get name
+ buffer
+ string
+font data
+win 32_new
+ logfont
+ data
+ height
+font data
+ data
+ height
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  describe  operating  system  fonts  for  platform  independent  behaviour  use  the  get  and  set  methods  corresponding  the  following  properties  height  the  height  the  font  points  name  the  face  name  the  font  which  may  include  the  foundry  style  bitwise  combination  normal  italic  and  bold  extra  platform  dependent  functionality  required  windows  the  data  member  the  code font data  code  corresponds  windows  code  logfont  code  structure  whose  fields  may  retrieved  and  modified  the  fields  the  code font data  code  correspond  the  entries  the  font  xlfd  name  and  may  retrieved  and  modified  application  code  does  not  need  explicitly  release  the  resources  managed  each  instance  when  those  instances  are  longer  required  and  thus  code  dispose  code  method  provided  see  font
+win  logfont  struct  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code 
+the  height  the  font  data  points  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code 
+the  locales  the  font
+constructs  new  initialized  font  data
+set  the  charset  field  that
+wildcard  searching  will  work  properly
+out  the  box
+constructs  new  font  data  given  the  windows  code  logfont  code  that  should  represent  param  data  the  code  logfont  code  for  the  result
+constructs  new font data  given  string  representation  the  form  generated  the  code font data  string  code  method  note  that  the  representation  varies  between  platforms  and font data  can  only  created  from  string  that  was  generated  the  same  platform  param  string  the  string  representation  code font data  code  must  not  null  exception illegal argument exception  error  null  argument  the  argument  null  error  invalid  argument  the  argument  does  not  represent  valid  description  see  string
+non  nls  non  nls 
+constructs  new  font  data  given  font  name  the  height  the  desired  font  points  and  font  style  param  name  the  name  the  font  must  not  null  param  height  the  font  height  points  param  style  bit  combination  normal  bold  italic  exception illegal argument exception  error  null  argument  when  the  font  name  null  error  invalid  argument  the  height  negative 
+set  the  charset  field  that
+wildcard  searching  will  work  properly
+out  the  box
+compares  the  argument  the  receiver  and  returns  true  they  represent  the  same  object  using  class  specific  comparison  param  object  the  object  compare  with  this  object  return  code  true  code  the  object  the  same  this  object  and  code  false  code  otherwise  see hash code
+this  code  intentionally  commented  when  creating font data  height  not  necessarily  set  instead  check  the  height  field  which  always  set
+data  height  height
+get  the  locale 
+check  the  language
+check  the  country
+get  the  charset
+returns  the  height  the  receiver  points  return  the  height  this font data  see set height
+returns  the  locale  the  receiver  the  locale  determines  which  platform  character  set  this  font  going  use  widgets  and  graphics  operations  that  use  this  font  will  convert  unicode  strings  the  platform  character  set  the  specified  locale  platforms  where  there  are  multiple  character  sets  for  given  language  country  locale  the  variant  portion  the  locale  will  determine  the  character  set  return  the  code  string  code  representing  locale  object  since 
+returns  the  name  the  receiver  platforms  that  support  font  foundries  the  return  value  will  the  foundry  followed  dash  followed  the  face  name  return  the  name  this  code font data  code  see set name
+returns  the  style  the  receiver  which  bitwise  one  more  the  code  swt  code  constants  normal  bold  and  italic  return  the  style  this  code font data  code  see set style
+returns  integer  hash  code  for  the  receiver  any  two  objects  that  return  code  true  code  when  passed  code  equals  code  must  return  the  same  value  for  this  method  return  the  receiver  hash  see  equals
+sets  the  height  the  receiver  the  parameter  specified  terms  points  where  point  one  seventy  second  inch  param  height  the  height  the  code font data  code  exception illegal argument exception  error  invalid  argument  the  height  negative  see get height
+sets  the  locale  the  receiver  the  locale  determines  which  platform  character  set  this  font  going  use  widgets  and  graphics  operations  that  use  this  font  will  convert  unicode  strings  the  platform  character  set  the  specified  locale  platforms  where  there  are  multiple  character  sets  for  given  language  country  locale  the  variant  portion  the  locale  will  determine  the  character  set  param  locale  the  code  string  code  representing  locale  object  see  java  util  locale  string
+non  nls 
+sets  the  name  the  receiver  some  platforms  support  font  foundries  these  platforms  the  name  the  font  specified set name  may  have  one  the  following  forms  face  name  for  example  courier  foundry  followed  dash  followed  face  name  for  example  adobe  courier  either  case  the  name  returned  from get name  will  include  the  foundry  platforms  that  not  support  font  foundries  only  the  face  name  for  example  courier  used  code set name  code  and  code get name  code  param  name  the  name  the  font  data  must  not  null  exception illegal argument exception  error  null  argument  when  the  font  name  null  see get name
+the  field face name  must  null  terminated
+sets  the  style  the  receiver  the  argument  which  must  bitwise  one  more  the  code  swt  code  constants  normal  bold  and  italic  all  other  style  bits  are  ignored  param  style  the  new  style  for  this  code font data  code  see get style
+returns  string  representation  the  receiver  which  suitable  for  constructing  equivalent  instance  using  the  code font data  string  code  constructor  return  string  representation  the font data  see font data
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+invokes  platform  specific  functionality  allocate  new  font  data  important  this  method  not  part  the  public  api  for  code font data  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  data  the  code  logfont  code  for  the  font  data  param  height  the  height  the  font  data  return  new  font  data  object  containing  the  specified  code  logfont  code  and  height
+</comments>
+</text>
+</DOC>

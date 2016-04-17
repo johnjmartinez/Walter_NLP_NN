@@ -1,0 +1,6041 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.ImageData.java </DOCNO>
+<text>
+<class>
+image data
+</class>
+<method>
+image data
+image data
+image data
+image data
+image data
+image data
+set all fields
+internal _new
+color mask image
+check data
+ clone
+get alpha
+get alphas
+get pixel
+get pixels
+get pixels
+ get
+get transparency mask
+get transparency type
+get byte order
+ scaled
+set alpha
+set alphas
+set pixel
+set pixels
+set pixels
+ palette
+get msb offset
+closest match
+convert mask
+convert pad
+ blit
+ blit
+ blit
+ blit
+get channel shift
+get channel width
+get channel field
+create gradient band
+build precise gradient channel
+build dithered gradient channel
+fill gradient rectangle
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ java
+
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ internal
+cloneable compatibility
+image data
+cloneable compatibility
+ width
+ height
+ depth
+scanline pad
+bytes per line
+ data
+palette data
+ palette
+transparent pixel
+mask data
+mask pad
+alpha data
+ alpha
+ type
+
+
+disposal method
+delay time
+any eight
+
+
+
+ data
+any eight
+
+
+
+ inc
+ bit
+ bit
+
+ inc
+ bit
+
+
+
+
+ inc
+ data
+
+
+one one mapping
+any eight
+dither matrix
+image data
+ width
+ height
+ depth
+palette data
+ palette
+ width
+ height
+ depth
+ palette
+ swt
+image undefined
+image data
+ width
+ height
+ depth
+palette data
+ palette
+scanline pad
+ data
+ width
+ height
+ depth
+ palette
+scanline pad
+check data
+ data
+ swt
+image undefined
+image data
+input stream
+ stream
+image data
+ data
+image data loader
+ load
+ stream
+ data
+ length
+ swt
+ error
+ swt
+error invalid image
+image data
+
+ data
+set all fields
+
+ width
+
+ height
+
+ depth
+
+scanline pad
+
+bytes per line
+
+ data
+
+ palette
+
+transparent pixel
+
+mask data
+
+mask pad
+
+alpha data
+
+ alpha
+
+ type
+
+
+
+
+
+disposal method
+
+delay time
+image data
+ string
+ filename
+image data
+ data
+image data loader
+ load
+ filename
+ data
+ length
+ swt
+ error
+ swt
+error invalid image
+image data
+
+ data
+set all fields
+
+ width
+
+ height
+
+ depth
+
+scanline pad
+
+bytes per line
+
+ data
+
+ palette
+
+transparent pixel
+
+mask data
+
+mask pad
+
+alpha data
+
+ alpha
+
+ type
+
+
+
+
+
+disposal method
+
+delay time
+image data
+image data
+ width
+ height
+ depth
+palette data
+ palette
+scanline pad
+ data
+mask pad
+mask data
+alpha data
+ alpha
+transparent pixel
+ type
+
+
+disposal method
+delay time
+ palette
+ swt
+ error
+ swt
+error null argument
+ depth
+ depth
+ depth
+ depth
+ depth
+ depth
+ depth
+ swt
+ error
+ swt
+error invalid argument
+ width
+ height
+ swt
+ error
+ swt
+error invalid argument
+scanline pad
+ swt
+ error
+ swt
+error cannot zero
+bytes per line
+ width
+ depth
+scanline pad
+scanline pad
+scanline pad
+set all fields
+ width
+ height
+ depth
+scanline pad
+bytes per line
+ data
+ data
+bytes per line
+ height
+ palette
+transparent pixel
+mask data
+mask pad
+alpha data
+ alpha
+ type
+
+
+disposal method
+delay time
+set all fields
+ width
+ height
+ depth
+scanline pad
+bytes per line
+ data
+palette data
+ palette
+transparent pixel
+mask data
+mask pad
+alpha data
+ alpha
+ type
+
+
+disposal method
+delay time
+ width
+ width
+ height
+ height
+ depth
+ depth
+scanline pad
+scanline pad
+bytes per line
+bytes per line
+ data
+ data
+ palette
+ palette
+transparent pixel
+transparent pixel
+mask data
+mask data
+mask pad
+mask pad
+alpha data
+alpha data
+ alpha
+ alpha
+ type
+ type
+
+
+
+
+disposal method
+disposal method
+delay time
+delay time
+image data
+internal _new
+ width
+ height
+ depth
+palette data
+ palette
+scanline pad
+ data
+mask pad
+mask data
+alpha data
+ alpha
+transparent pixel
+ type
+
+
+disposal method
+delay time
+image data
+ width
+ height
+ depth
+ palette
+scanline pad
+ data
+mask pad
+mask data
+alpha data
+ alpha
+transparent pixel
+ type
+
+
+disposal method
+delay time
+image data
+color mask image
+ pixel
+image data
+ mask
+image data
+ width
+ height
+ palette
+ swt
+image undefined
+ row
+ width
+
+
+ height
+
+get pixels
+
+ width
+ row
+
+
+ width
+
+ pixel
+ row
+
+ pixel
+ row
+
+ row
+
+ mask
+set pixels
+
+ width
+ row
+ mask
+check data
+ data
+ data
+ swt
+ error
+ swt
+error null argument
+ data
+ object
+ clone
+clone data
+ data
+ length
+ system
+ arraycopy
+ data
+clone data
+ data
+ length
+clone mask data
+mask data
+clone mask data
+mask data
+ length
+ system
+ arraycopy
+mask data
+clone mask data
+mask data
+ length
+clone alpha data
+alpha data
+clone alpha data
+alpha data
+ length
+ system
+ arraycopy
+alpha data
+clone alpha data
+alpha data
+ length
+image data
+ width
+ height
+ depth
+ palette
+scanline pad
+clone data
+mask pad
+clone mask data
+clone alpha data
+ alpha
+transparent pixel
+ type
+
+
+disposal method
+delay time
+get alpha
+
+
+
+ width
+
+ height
+
+
+ swt
+ error
+ swt
+error invalid argument
+alpha data
+alpha data
+
+ width
+
+get alphas
+
+
+get width
+ alphas
+start index
+ alphas
+ swt
+ error
+ swt
+error null argument
+get width
+
+ width
+
+ height
+
+
+ swt
+ error
+ swt
+error invalid argument
+get width
+alpha data
+end index
+start index
+get width
+
+start index
+
+end index
+
+ alphas
+
+ system
+ arraycopy
+alpha data
+
+ width
+
+ alphas
+start index
+get width
+get pixel
+
+
+
+ width
+
+ height
+
+
+ swt
+ error
+ swt
+error invalid argument
+ index
+the byte
+ mask
+ depth
+ index
+
+bytes per line
+
+the byte
+ data
+ index
+ mask
+
+the byte
+ mask
+ depth
+ index
+
+bytes per line
+
+the byte
+ data
+ index
+ offset
+
+ mask
+ offset
+the byte
+ mask
+ offset
+ depth
+ index
+
+bytes per line
+
+the byte
+ data
+ index
+
+the byte
+the byte
+ depth
+ index
+
+bytes per line
+
+ data
+ index
+ depth
+ index
+
+bytes per line
+
+ data
+ index
+ data
+ index
+ depth
+ index
+
+bytes per line
+
+ data
+ index
+ data
+ index
+ data
+ index
+ depth
+ index
+
+bytes per line
+
+ data
+ index
+ data
+ index
+ data
+ index
+ data
+ index
+ swt
+ error
+ swt
+error unsupported depth
+get pixels
+
+
+get width
+ pixels
+start index
+ pixels
+ swt
+ error
+ swt
+error null argument
+get width
+
+ width
+
+ height
+
+
+ swt
+ error
+ swt
+error invalid argument
+get width
+ index
+the byte
+ mask
+
+get width
+
+start index
+ src
+
+ src
+
+ depth
+ index
+
+bytes per line
+
+the byte
+ data
+ index
+
+ mask
+ src
+the byte
+ mask
+ pixels
+
+ pixels
+
+
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+
+the byte
+ data
+ index
+ src
+ mask
+ index
+
+the byte
+ data
+ index
+ depth
+ index
+
+bytes per line
+
+the byte
+ data
+ index
+ offset
+
+ offset
+ src
+ mask
+ offset
+ pixels
+
+the byte
+ mask
+ offset
+
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+
+the byte
+ data
+ index
+ src
+ offset
+ index
+the byte
+ data
+ index
+ depth
+ index
+
+bytes per line
+
+
+the byte
+ data
+ index
+ pixels
+
+the byte
+
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+ src
+ index
+
+the byte
+ data
+ index
+ pixels
+
+the byte
+
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+ src
+ pixels
+
+the byte
+
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+ src
+ index
+
+the byte
+ data
+ index
+ pixels
+
+the byte
+ depth
+ index
+
+bytes per line
+
+
+
+get width
+
+ pixels
+
+ data
+ index
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+ src
+ index
+ swt
+ error
+ swt
+error unsupported depth
+get pixels
+
+
+get width
+ pixels
+start index
+ pixels
+ swt
+ error
+ swt
+error null argument
+get width
+
+ width
+
+ height
+
+
+ swt
+ error
+ swt
+error invalid argument
+get width
+ index
+the byte
+ mask
+
+get width
+
+start index
+ src
+
+ src
+
+ depth
+ index
+
+bytes per line
+
+the byte
+ data
+ index
+
+ mask
+ src
+the byte
+ mask
+ pixels
+
+ pixels
+
+
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+
+the byte
+ data
+ index
+ src
+ mask
+ index
+
+the byte
+ data
+ index
+ depth
+ index
+
+bytes per line
+
+the byte
+ data
+ index
+ offset
+
+ offset
+ src
+ mask
+ offset
+ pixels
+
+the byte
+ mask
+ offset
+
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+
+the byte
+ data
+ index
+ src
+ offset
+ index
+the byte
+ data
+ index
+ depth
+ index
+
+bytes per line
+
+
+the byte
+ data
+ index
+ pixels
+
+the byte
+
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+ src
+ index
+
+the byte
+ data
+ index
+ pixels
+
+the byte
+
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+ src
+ pixels
+
+the byte
+
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+ src
+ index
+
+the byte
+ data
+ index
+ pixels
+
+the byte
+ depth
+ index
+
+bytes per line
+
+
+
+get width
+
+ pixels
+
+ data
+ index
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+ src
+ index
+ depth
+ index
+
+bytes per line
+
+
+
+get width
+
+ pixels
+
+ data
+ index
+ data
+ index
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+ src
+ index
+ depth
+ index
+
+bytes per line
+
+
+
+get width
+
+ pixels
+
+ data
+ index
+ data
+ index
+ data
+ index
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+ src
+ index
+ depth
+ index
+
+bytes per line
+
+
+start index
+
+
+get width
+
+ pixels
+
+ data
+ index
+ data
+ index
+ data
+ index
+ data
+ index
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+ src
+ index
+ swt
+ error
+ swt
+error unsupported depth
+ rgb
+ get
+ palette
+ get
+image data
+get transparency mask
+get transparency type
+ swt
+transparency mask
+image data
+ width
+ height
+ palette
+mask pad
+mask data
+color mask image
+transparent pixel
+get transparency type
+mask data
+ swt
+transparency mask
+transparent pixel
+ swt
+transparency pixel
+alpha data
+ swt
+transparency alpha
+ swt
+transparency none
+get byte order
+ depth
+msb first
+lsb first
+image data
+ scaled
+ width
+ height
+ flip
+ width
+ flip
+ width
+ width
+ flip
+ height
+ flip
+ height
+ height
+image data
+ dest
+image data
+ width
+ height
+ depth
+ palette
+scanline pad
+transparent pixel
+ type
+
+
+disposal method
+delay time
+ palette
+ direct
+ blit
+blit src
+ data
+ depth
+bytes per line
+get byte order
+ width
+ height
+alpha opaque
+ dest
+ data
+ dest
+ depth
+ dest
+bytes per line
+ dest
+get byte order
+ dest
+ width
+ dest
+ height
+ flip
+ flip
+ blit
+blit src
+ data
+ depth
+bytes per line
+get byte order
+ width
+ height
+alpha opaque
+ dest
+ data
+ dest
+ depth
+ dest
+bytes per line
+ dest
+get byte order
+ dest
+ width
+ dest
+ height
+ flip
+ flip
+mask data
+ dest
+mask pad
+mask pad
+dest bpl
+ dest
+ width
+dest bpl
+dest bpl
+ dest
+mask pad
+ dest
+mask pad
+ dest
+mask pad
+ dest
+mask data
+dest bpl
+ dest
+ height
+src bpl
+ width
+src bpl
+src bpl
+mask pad
+mask pad
+mask pad
+ blit
+blit src
+mask data
+src bpl
+msb first
+ width
+ height
+alpha opaque
+ dest
+mask data
+dest bpl
+msb first
+ dest
+ width
+ dest
+ height
+ flip
+ flip
+ alpha
+ dest
+ alpha
+ alpha
+alpha data
+ dest
+alpha data
+ dest
+ width
+ dest
+ height
+ blit
+blit src
+alpha data
+ width
+msb first
+ width
+ height
+alpha opaque
+ dest
+alpha data
+ dest
+ width
+msb first
+ dest
+ width
+ dest
+ height
+ flip
+ flip
+ dest
+set alpha
+
+
+ alpha
+
+ width
+
+ height
+
+
+ alpha
+ alpha
+ swt
+ error
+ swt
+error invalid argument
+alpha data
+alpha data
+ width
+ height
+alpha data
+
+ width
+
+ alpha
+set alphas
+
+
+put width
+ alphas
+start index
+ alphas
+ swt
+ error
+ swt
+error null argument
+put width
+
+ width
+
+ height
+
+
+ swt
+ error
+ swt
+error invalid argument
+put width
+alpha data
+alpha data
+ width
+ height
+ system
+ arraycopy
+ alphas
+start index
+alpha data
+
+ width
+
+put width
+set pixel
+
+
+pixel value
+
+ width
+
+ height
+
+
+ swt
+ error
+ swt
+error invalid argument
+ index
+the byte
+ mask
+ depth
+ index
+
+bytes per line
+
+the byte
+ data
+ index
+ mask
+
+pixel value
+ data
+ index
+the byte
+ mask
+ data
+ index
+the byte
+ mask
+ depth
+ index
+
+bytes per line
+
+the byte
+ data
+ index
+ offset
+
+ mask
+ offset
+ data
+ index
+ data
+ index
+ mask
+pixel value
+ offset
+ depth
+ index
+
+bytes per line
+
+
+ data
+ index
+ data
+ index
+pixel value
+ data
+ index
+ data
+ index
+pixel value
+ depth
+ index
+
+bytes per line
+
+ data
+ index
+pixel value
+ depth
+ index
+
+bytes per line
+
+ data
+ index
+pixel value
+ data
+ index
+pixel value
+ depth
+ index
+
+bytes per line
+
+ data
+ index
+pixel value
+ data
+ index
+pixel value
+ data
+ index
+pixel value
+ depth
+ index
+
+bytes per line
+
+ data
+ index
+pixel value
+ data
+ index
+pixel value
+ data
+ index
+pixel value
+ data
+ index
+pixel value
+ swt
+ error
+ swt
+error unsupported depth
+set pixels
+
+
+put width
+ pixels
+start index
+ pixels
+ swt
+ error
+ swt
+error null argument
+put width
+
+ width
+
+ height
+
+
+ swt
+ error
+ swt
+error invalid argument
+put width
+ index
+the byte
+ mask
+
+put width
+
+start index
+ src
+
+ src
+
+ depth
+ index
+
+bytes per line
+
+
+ mask
+ src
+ pixels
+
+ data
+ index
+ data
+ index
+ mask
+ data
+ index
+ data
+ index
+ mask
+
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+ src
+ mask
+ index
+ depth
+ masks
+ index
+
+bytes per line
+
+ offset
+
+
+the byte
+ pixels
+
+ data
+ index
+ data
+ index
+ masks
+ offset
+the byte
+ offset
+
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+ offset
+ src
+ offset
+ index
+ offset
+ offset
+ depth
+ index
+
+bytes per line
+
+ high
+
+
+the byte
+ pixels
+
+ high
+ data
+ index
+ data
+ index
+the byte
+ data
+ index
+ data
+ index
+the byte
+
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+ high
+ src
+ high
+ index
+ high
+ high
+ depth
+ index
+
+bytes per line
+
+
+
+put width
+
+ data
+ index
+ pixels
+
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+ src
+ index
+ swt
+ error
+ swt
+error unsupported depth
+set pixels
+
+
+put width
+ pixels
+start index
+ pixels
+ swt
+ error
+ swt
+error null argument
+put width
+
+ width
+
+ height
+
+
+ swt
+ error
+ swt
+error invalid argument
+put width
+ index
+the byte
+ mask
+
+put width
+
+start index
+ pixel
+ src
+
+ src
+
+ depth
+ index
+
+bytes per line
+
+
+ mask
+ src
+ pixels
+
+ data
+ index
+ data
+ index
+ mask
+ data
+ index
+ data
+ index
+ mask
+
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+ src
+ mask
+ index
+ depth
+ masks
+ index
+
+bytes per line
+
+ offset
+
+
+the byte
+ pixels
+
+ data
+ index
+ data
+ index
+ masks
+ offset
+the byte
+ offset
+
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+ offset
+ src
+ offset
+ index
+ offset
+ offset
+ depth
+ index
+
+bytes per line
+
+ high
+
+
+the byte
+ pixels
+
+ high
+ data
+ index
+ data
+ index
+the byte
+ data
+ index
+ data
+ index
+the byte
+
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+ high
+ src
+ high
+ index
+ high
+ high
+ depth
+ index
+
+bytes per line
+
+
+
+put width
+
+ data
+ index
+ pixels
+
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+ src
+ index
+ depth
+ index
+
+bytes per line
+
+
+
+put width
+
+ pixel
+ pixels
+
+ data
+ index
+ pixel
+ data
+ index
+ pixel
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+ src
+ index
+ depth
+ index
+
+bytes per line
+
+
+
+put width
+
+ pixel
+ pixels
+
+ data
+ index
+ pixel
+ data
+ index
+ pixel
+ data
+ index
+ pixel
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+ src
+ index
+ depth
+ index
+
+bytes per line
+
+
+
+put width
+
+ pixel
+ pixels
+
+ data
+ index
+ pixel
+ data
+ index
+ pixel
+ data
+ index
+ pixel
+ data
+ index
+ pixel
+
+ src
+ src
+ width
+ src
+ index
+ src
+bytes per line
+ src
+ index
+ swt
+ error
+ swt
+error unsupported depth
+palette data
+ palette
+palette data
+ rgb
+ rgb
+ rgb
+get msb offset
+ mask
+
+
+
+ mask
+
+
+closest match
+ depth
+ red
+ green
+ blue
+red mask
+green mask
+blue mask
+ reds
+ greens
+ blues
+ depth
+ rshift
+get msb offset
+red mask
+ gshift
+get msb offset
+green mask
+ bshift
+get msb offset
+blue mask
+ red
+ rshift
+red mask
+ green
+ gshift
+green mask
+ blue
+ bshift
+blue mask
+
+
+
+min distance
+nearest pixel
+
+ reds
+ length
+
+
+
+
+
+ reds
+
+ red
+
+ greens
+
+ green
+
+ blues
+
+ blue
+ distance
+
+
+
+
+
+
+ distance
+min distance
+nearest pixel
+
+ distance
+min distance
+ distance
+nearest pixel
+image data
+convert mask
+image data
+ mask
+ mask
+ depth
+ mask
+palette data
+ palette
+palette data
+ rgb
+ rgb
+ rgb
+image data
+new mask
+image data
+ mask
+ width
+ mask
+ height
+ palette
+black index
+ rgb
+ rgbs
+ mask
+ get
+ rgbs
+black index
+ rgbs
+ length
+ rgbs
+black index
+ equals
+ palette
+ colors
+black index
+ pixels
+ mask
+ width
+
+
+ mask
+ height
+
+ mask
+get pixels
+
+ mask
+ width
+ pixels
+
+
+ pixels
+ length
+
+ pixels
+
+black index
+ pixels
+
+ pixels
+
+new mask
+set pixels
+
+ mask
+ width
+ pixels
+new mask
+convert pad
+ data
+ width
+ height
+ depth
+ pad
+new pad
+ pad
+new pad
+ data
+ stride
+ width
+ depth
+ bpl
+ stride
+ pad
+ pad
+ pad
+new bpl
+ stride
+new pad
+new pad
+new pad
+new data
+ height
+new bpl
+src index
+dest index
+
+
+ height
+
+ system
+ arraycopy
+ data
+src index
+new data
+dest index
+ stride
+src index
+ bpl
+dest index
+new bpl
+new data
+blit src
+blit alpha
+blit dither
+alpha opaque
+alpha transparent
+alpha channel separate
+alpha channel source
+alpha mask unpacked
+alpha mask packed
+alpha mask index
+alpha mask rgb
+lsb first
+msb first
+type generic
+type generic _16_ msb
+type generic _16_ lsb
+type generic _24
+type generic _32_ msb
+type generic _32_ lsb
+type index
+type index
+type index
+type index _1_ msb
+type index _1_ lsb
+ blit
+
+src data
+src depth
+src stride
+src order
+ src
+ src
+src width
+src height
+src red mask
+src green mask
+src blue mask
+alpha mode
+alpha data
+alpha stride
+ alpha
+ alpha
+dest data
+dest depth
+dest stride
+dest order
+ dest
+ dest
+dest width
+dest height
+dest red mask
+dest green mask
+dest blue mask
+ flip
+ flip
+dest width
+dest height
+alpha mode
+alpha transparent
+src alpha mask
+dest alpha mask
+ dwm
+dest width
+ sfxi
+ dwm
+src width
+ dwm
+ dhm
+dest height
+ sfyi
+ dhm
+src height
+ dhm
+ sbpp
+ stype
+src depth
+ sbpp
+ stype
+type generic
+ sbpp
+ stype
+src order
+msb first
+type generic _16_ msb
+type generic _16_ lsb
+ sbpp
+ stype
+type generic _24
+ sbpp
+ stype
+src order
+msb first
+type generic _32_ msb
+type generic _32_ lsb
+ spr
+ src
+src stride
+ src
+ sbpp
+ dbpp
+ dtype
+dest depth
+ dbpp
+ dtype
+type generic
+ dbpp
+ dtype
+dest order
+msb first
+type generic _16_ msb
+type generic _16_ lsb
+ dbpp
+ dtype
+type generic _24
+ dbpp
+ dtype
+dest order
+msb first
+type generic _32_ msb
+type generic _32_ lsb
+ dpr
+ flip
+ dest
+ dhm
+ dest
+dest stride
+ flip
+ dest
+ dwm
+ dest
+ dbpp
+ dprxi
+ flip
+ dbpp
+ dbpp
+ dpryi
+ flip
+dest stride
+dest stride
+ apr
+
+blit alpha
+alpha mode
+alpha mask unpacked
+alpha channel separate
+alpha data
+alpha mode
+ apr
+ alpha
+alpha stride
+ alpha
+alpha mask packed
+alpha data
+alpha mode
+alpha stride
+ apr
+ alpha
+alpha stride
+ alpha
+alpha mask index
+alpha mask rgb
+alpha data
+alpha mode
+ apr
+alpha mode
+alpha mode
+alpha channel source
+ apr
+alpha mode
+ apr
+
+ dpr
+
+ spr
+alpha mode
+ stype
+ dtype
+src red mask
+dest red mask
+src green mask
+dest green mask
+src blue mask
+dest blue mask
+src alpha mask
+dest alpha mask
+ sbpp
+
+dest height
+ sfy
+ sfyi
+
+
+
+ spr
+ sfy
+src stride
+ sfy
+ sfy
+ sfyi
+
+ dpr
+ dpryi
+
+dest width
+ sfx
+ sfxi
+
+
+
+ dprxi
+ sfx
+ sfx
+ sfxi
+dest data
+
+src data
+
+
+ sfx
+
+dest height
+ sfy
+ sfyi
+
+
+
+ spr
+ sfy
+src stride
+ sfy
+ sfy
+ sfyi
+
+ dpr
+ dpryi
+
+dest width
+ sfx
+ sfxi
+
+
+
+ dprxi
+ sfx
+ sfx
+ sfxi
+dest data
+
+src data
+
+dest data
+
+src data
+
+
+ sfx
+
+dest height
+ sfy
+ sfyi
+
+
+
+ spr
+ sfy
+src stride
+ sfy
+ sfy
+ sfyi
+
+ dpr
+ dpryi
+
+dest width
+ sfx
+ sfxi
+
+
+
+ dprxi
+ sfx
+ sfx
+ sfxi
+dest data
+
+src data
+
+dest data
+
+src data
+
+dest data
+
+src data
+
+
+ sfx
+
+dest height
+ sfy
+ sfyi
+
+
+
+ spr
+ sfy
+src stride
+ sfy
+ sfy
+ sfyi
+
+ dpr
+ dpryi
+
+dest width
+ sfx
+ sfxi
+
+
+
+ dprxi
+ sfx
+ sfx
+ sfxi
+dest data
+
+src data
+
+dest data
+
+src data
+
+dest data
+
+src data
+
+dest data
+
+src data
+
+
+ sfx
+src red shift
+get channel shift
+src red mask
+src reds
+any eight
+get channel width
+src red mask
+src red shift
+src green shift
+get channel shift
+src green mask
+src greens
+any eight
+get channel width
+src green mask
+src green shift
+src blue shift
+get channel shift
+src blue mask
+src blues
+any eight
+get channel width
+src blue mask
+src blue shift
+src alpha shift
+get channel shift
+src alpha mask
+src alphas
+any eight
+get channel width
+src alpha mask
+src alpha shift
+dest red shift
+get channel shift
+dest red mask
+dest red width
+get channel width
+dest red mask
+dest red shift
+dest reds
+any eight
+dest red width
+dest red pre shift
+dest red width
+dest green shift
+get channel shift
+dest green mask
+dest green width
+get channel width
+dest green mask
+dest green shift
+dest greens
+any eight
+dest green width
+dest green pre shift
+dest green width
+dest blue shift
+get channel shift
+dest blue mask
+dest blue width
+get channel width
+dest blue mask
+dest blue shift
+dest blues
+any eight
+dest blue width
+dest blue pre shift
+dest blue width
+dest alpha shift
+get channel shift
+dest alpha mask
+dest alpha width
+get channel width
+dest alpha mask
+dest alpha shift
+dest alphas
+any eight
+dest alpha width
+dest alpha pre shift
+dest alpha width
+
+ apr
+ alpha
+alpha mode
+
+
+
+
+
+
+
+
+
+dest height
+ sfy
+ sfyi
+
+
+
+ spr
+ sfy
+src stride
+
+ apr
+ sfy
+alpha stride
+ sfy
+ sfy
+ sfyi
+
+ dpr
+ dpryi
+
+dest width
+ sfx
+ sfxi
+
+
+
+ dprxi
+ sfx
+ sfx
+ sfxi
+ stype
+type generic
+ data
+src data
+
+
+ sfx
+
+src reds
+ data
+src red mask
+src red shift
+
+src greens
+ data
+src green mask
+src green shift
+
+src blues
+ data
+src blue mask
+src blue shift
+
+src alphas
+ data
+src alpha mask
+src alpha shift
+type generic _16_ msb
+ data
+src data
+
+src data
+
+
+ sfx
+
+src reds
+ data
+src red mask
+src red shift
+
+src greens
+ data
+src green mask
+src green shift
+
+src blues
+ data
+src blue mask
+src blue shift
+
+src alphas
+ data
+src alpha mask
+src alpha shift
+type generic _16_ lsb
+ data
+src data
+
+src data
+
+
+ sfx
+
+src reds
+ data
+src red mask
+src red shift
+
+src greens
+ data
+src green mask
+src green shift
+
+src blues
+ data
+src blue mask
+src blue shift
+
+src alphas
+ data
+src alpha mask
+src alpha shift
+type generic _24
+ data
+src data
+
+src data
+
+src data
+
+
+ sfx
+
+src reds
+ data
+src red mask
+src red shift
+
+src greens
+ data
+src green mask
+src green shift
+
+src blues
+ data
+src blue mask
+src blue shift
+
+src alphas
+ data
+src alpha mask
+src alpha shift
+type generic _32_ msb
+ data
+src data
+
+src data
+
+src data
+
+src data
+
+
+ sfx
+
+src reds
+ data
+src red mask
+src red shift
+
+src greens
+ data
+src green mask
+src green shift
+
+src blues
+ data
+src blue mask
+src blue shift
+
+src alphas
+ data
+src alpha mask
+src alpha shift
+type generic _32_ lsb
+ data
+src data
+
+src data
+
+src data
+
+src data
+
+
+ sfx
+
+src reds
+ data
+src red mask
+src red shift
+
+src greens
+ data
+src green mask
+src green shift
+
+src blues
+ data
+src blue mask
+src blue shift
+
+src alphas
+ data
+src alpha mask
+src alpha shift
+alpha mode
+alpha channel separate
+ alpha
+alpha data
+
+
+ sfx
+alpha channel source
+ alpha
+
+alpha mask unpacked
+ alpha
+alpha data
+
+
+ sfx
+alpha mask packed
+ alpha
+alpha data
+
+
+
+ sfx
+alpha mask rgb
+ alpha
+
+
+alpha data
+ length
+
+
+alpha data
+
+
+alpha data
+
+
+alpha data
+
+ alpha
+ alpha
+ alpha
+ dtype
+type generic
+ data
+dest data
+
+
+dest reds
+ data
+dest red mask
+dest red shift
+
+dest greens
+ data
+dest green mask
+dest green shift
+
+dest blues
+ data
+dest blue mask
+dest blue shift
+
+dest alphas
+ data
+dest alpha mask
+dest alpha shift
+type generic _16_ msb
+ data
+dest data
+
+dest data
+
+
+dest reds
+ data
+dest red mask
+dest red shift
+
+dest greens
+ data
+dest green mask
+dest green shift
+
+dest blues
+ data
+dest blue mask
+dest blue shift
+
+dest alphas
+ data
+dest alpha mask
+dest alpha shift
+type generic _16_ lsb
+ data
+dest data
+
+dest data
+
+
+dest reds
+ data
+dest red mask
+dest red shift
+
+dest greens
+ data
+dest green mask
+dest green shift
+
+dest blues
+ data
+dest blue mask
+dest blue shift
+
+dest alphas
+ data
+dest alpha mask
+dest alpha shift
+type generic _24
+ data
+dest data
+
+dest data
+
+dest data
+
+
+dest reds
+ data
+dest red mask
+dest red shift
+
+dest greens
+ data
+dest green mask
+dest green shift
+
+dest blues
+ data
+dest blue mask
+dest blue shift
+
+dest alphas
+ data
+dest alpha mask
+dest alpha shift
+type generic _32_ msb
+ data
+dest data
+
+dest data
+
+dest data
+
+dest data
+
+
+dest reds
+ data
+dest red mask
+dest red shift
+
+dest greens
+ data
+dest green mask
+dest green shift
+
+dest blues
+ data
+dest blue mask
+dest blue shift
+
+dest alphas
+ data
+dest alpha mask
+dest alpha shift
+type generic _32_ lsb
+ data
+dest data
+
+dest data
+
+dest data
+
+dest data
+
+
+dest reds
+ data
+dest red mask
+dest red shift
+
+dest greens
+ data
+dest green mask
+dest green shift
+
+dest blues
+ data
+dest blue mask
+dest blue shift
+
+dest alphas
+ data
+dest alpha mask
+dest alpha shift
+
+
+
+
+ alpha
+
+
+
+
+ alpha
+
+
+
+
+ alpha
+
+
+
+
+ alpha
+ data
+
+dest red pre shift
+dest red shift
+
+dest green pre shift
+dest green shift
+
+dest blue pre shift
+dest blue shift
+
+dest alpha pre shift
+dest alpha shift
+ dtype
+type generic
+dest data
+
+ data
+type generic _16_ msb
+dest data
+
+ data
+dest data
+
+ data
+type generic _16_ lsb
+dest data
+
+ data
+dest data
+
+ data
+type generic _24
+dest data
+
+ data
+dest data
+
+ data
+dest data
+
+ data
+type generic _32_ msb
+dest data
+
+ data
+dest data
+
+ data
+dest data
+
+ data
+dest data
+
+ data
+type generic _32_ lsb
+dest data
+
+ data
+dest data
+
+ data
+dest data
+
+ data
+dest data
+
+ data
+ blit
+
+src data
+src depth
+src stride
+src order
+ src
+ src
+src width
+src height
+src reds
+src greens
+src blues
+alpha mode
+alpha data
+alpha stride
+ alpha
+ alpha
+dest data
+dest depth
+dest stride
+dest order
+ dest
+ dest
+dest width
+dest height
+dest reds
+dest greens
+dest blues
+ flip
+ flip
+dest width
+dest height
+alpha mode
+alpha transparent
+ dwm
+dest width
+ sfxi
+ dwm
+src width
+ dwm
+ dhm
+dest height
+ sfyi
+ dhm
+src height
+ dhm
+ stype
+src depth
+ stype
+type index
+src stride
+ stype
+type index
+src stride
+ stype
+type index
+src stride
+ stype
+src order
+msb first
+type index _1_ msb
+type index _1_ lsb
+ spr
+ src
+src stride
+ src
+ dtype
+dest depth
+ dtype
+type index
+dest stride
+ dtype
+type index
+dest stride
+ dtype
+type index
+dest stride
+ dtype
+dest order
+msb first
+type index _1_ msb
+type index _1_ lsb
+ dpr
+ flip
+ dest
+ dhm
+ dest
+dest stride
+ flip
+ dest
+ dwm
+ dest
+ dprxi
+ flip
+ dpryi
+ flip
+dest stride
+dest stride
+ apr
+
+blit alpha
+alpha mode
+alpha mask unpacked
+alpha channel separate
+alpha data
+alpha mode
+ apr
+ alpha
+alpha stride
+ alpha
+alpha mask packed
+alpha data
+alpha mode
+alpha stride
+ apr
+ alpha
+alpha stride
+ alpha
+alpha mask index
+alpha mask rgb
+alpha data
+alpha mode
+ apr
+alpha mode
+alpha mode
+alpha channel source
+ apr
+alpha mode
+ apr
+dither enabled
+
+blit dither
+
+ dpr
+
+ spr
+
+ apr
+dest palette size
+dest depth
+dest reds
+dest reds
+ length
+dest palette size
+dest palette size
+dest reds
+ length
+palette mapping
+exact palette mapping
+alpha mode
+ stype
+ dtype
+src reds
+dest reds
+src greens
+dest greens
+src blues
+dest blues
+palette mapping
+one one mapping
+src reds
+dest reds
+src depth
+dest depth
+palette mapping
+one one mapping
+palette mapping
+src depth
+ mask
+dest depth
+
+
+palette mapping
+ length
+
+palette mapping
+
+
+ mask
+alpha mask unpacked
+alpha mask packed
+alpha mask index
+alpha mask rgb
+src palette size
+src depth
+palette mapping
+src palette size
+src reds
+src reds
+ length
+src palette size
+src palette size
+src reds
+ length
+
+
+
+
+ index
+
+src palette size
+
+
+src reds
+
+
+src greens
+
+
+src blues
+
+ index
+min distance
+
+
+
+
+ distance
+
+dest palette size
+
+
+dest reds
+
+
+
+dest greens
+
+
+
+dest blues
+
+
+ distance
+
+
+
+
+
+
+ distance
+min distance
+ index
+
+ distance
+min distance
+ distance
+palette mapping
+
+ index
+min distance
+exact palette mapping
+palette mapping
+exact palette mapping
+dither enabled
+ stype
+ dtype
+alpha mode
+ stype
+type index
+
+dest height
+ sfy
+ sfyi
+
+
+
+ spr
+ sfy
+src stride
+ sfy
+ sfy
+ sfyi
+
+ dpr
+ dpryi
+
+dest width
+ sfx
+ sfxi
+
+
+
+ dprxi
+ sfx
+ sfx
+ sfxi
+dest data
+
+palette mapping
+src data
+
+
+ sfx
+type index
+
+dest height
+ sfy
+ sfyi
+
+
+
+ spr
+ sfy
+src stride
+ sfy
+ sfy
+ sfyi
+
+ dpr
+ dpryi
+
+dest width
+ sfx
+ sfxi
+
+
+
+ dprxi
+ sfx
+ sfx
+ sfxi
+
+
+
+palette mapping
+src data
+
+
+src data
+
+
+ sfx
+
+dest data
+
+dest data
+
+
+dest data
+
+dest data
+
+
+type index
+
+dest height
+ sfy
+ sfyi
+
+
+
+ spr
+ sfy
+src stride
+ sfy
+ sfy
+ sfyi
+
+ dpr
+ dpryi
+
+dest width
+ sfx
+ sfxi
+
+
+
+ dprxi
+ sfx
+ sfx
+ sfxi
+ index
+palette mapping
+src data
+
+
+
+ sfx
+ shift
+
+dest data
+
+dest data
+
+ shift
+ index
+ shift
+type index _1_ msb
+
+dest height
+ sfy
+ sfyi
+
+
+
+ spr
+ sfy
+src stride
+ sfy
+ sfy
+ sfyi
+
+ dpr
+ dpryi
+
+dest width
+ sfx
+ sfxi
+
+
+
+ dprxi
+ sfx
+ sfx
+ sfxi
+ index
+palette mapping
+src data
+
+
+
+ sfx
+ shift
+
+dest data
+
+dest data
+
+ shift
+ index
+ shift
+type index _1_ lsb
+
+dest height
+ sfy
+ sfyi
+
+
+
+ spr
+ sfy
+src stride
+ sfy
+ sfy
+ sfyi
+
+ dpr
+ dpryi
+
+dest width
+ sfx
+ sfxi
+
+
+
+ dprxi
+ sfx
+ sfx
+ sfxi
+ index
+palette mapping
+src data
+
+
+
+ sfx
+ shift
+
+dest data
+
+dest data
+
+ shift
+ index
+ shift
+
+dest height
+ sfy
+ sfyi
+
+
+
+ spr
+ sfy
+src stride
+ sfy
+ sfy
+ sfyi
+
+ dpr
+ dpryi
+
+dest width
+ sfx
+ sfxi
+
+
+
+ dprxi
+ sfx
+ sfx
+ sfxi
+ index
+ stype
+type index
+ index
+src data
+
+
+ sfx
+type index
+
+ index
+src data
+
+ index
+src data
+
+
+ sfx
+type index
+ index
+src data
+
+
+
+ sfx
+type index _1_ msb
+ index
+src data
+
+
+
+ sfx
+type index _1_ lsb
+ index
+src data
+
+
+
+ sfx
+alpha mode
+alpha mask unpacked
+ mask
+alpha data
+
+
+ sfx
+ mask
+alpha mask packed
+ mask
+alpha data
+
+
+
+ sfx
+ mask
+alpha mask index
+
+
+alpha data
+ length
+ index
+alpha data
+
+
+alpha data
+ length
+alpha mask rgb
+
+src reds
+ index
+
+src greens
+ index
+
+src blues
+ index
+
+
+alpha data
+ length
+
+alpha data
+
+
+alpha data
+
+
+alpha data
+
+
+
+alpha data
+ length
+ index
+palette mapping
+ index
+ dtype
+type index
+dest data
+
+ index
+type index
+
+dest data
+
+dest data
+
+ index
+dest data
+
+dest data
+
+ index
+type index
+ shift
+
+dest data
+
+dest data
+
+ shift
+ index
+ shift
+type index _1_ msb
+ shift
+
+dest data
+
+dest data
+
+ shift
+ index
+ shift
+type index _1_ lsb
+ shift
+
+dest data
+
+dest data
+
+ shift
+ index
+ shift
+ alpha
+alpha mode
+ index
+ indexq
+ lastindex
+ lastr
+ lastg
+ lastb
+ rerr
+ gerr
+ berr
+dither enabled
+ rerr
+dest width
+ gerr
+dest width
+ berr
+dest width
+ rerr
+ gerr
+ berr
+
+dest height
+ sfy
+ sfyi
+
+
+
+ spr
+ sfy
+src stride
+
+ apr
+ sfy
+alpha stride
+ sfy
+ sfy
+ sfyi
+
+ dpr
+ dpryi
+ lrerr
+ lgerr
+ lberr
+
+dest width
+ sfx
+ sfxi
+
+
+
+ dprxi
+ sfx
+ sfx
+ sfxi
+ stype
+type index
+ index
+src data
+
+
+ sfx
+type index
+
+ index
+src data
+
+ index
+src data
+
+
+ sfx
+type index
+ index
+src data
+
+
+
+ sfx
+type index _1_ msb
+ index
+src data
+
+
+
+ sfx
+type index _1_ lsb
+ index
+src data
+
+
+
+ sfx
+
+src reds
+ index
+
+src greens
+ index
+
+src blues
+ index
+alpha mode
+alpha channel separate
+ alpha
+alpha data
+
+
+ sfx
+alpha mask unpacked
+ alpha
+alpha data
+
+
+ sfx
+alpha mask packed
+ alpha
+alpha data
+
+
+
+ sfx
+alpha mask index
+
+
+alpha data
+ length
+ index
+alpha data
+
+
+alpha data
+ length
+alpha mask rgb
+
+
+alpha data
+ length
+
+alpha data
+
+
+alpha data
+
+
+alpha data
+
+
+
+alpha data
+ length
+ alpha
+ alpha
+ dtype
+type index
+ indexq
+dest data
+
+type index
+
+ indexq
+dest data
+
+ indexq
+dest data
+
+type index
+ indexq
+dest data
+
+
+type index _1_ msb
+ indexq
+dest data
+
+
+type index _1_ lsb
+ indexq
+dest data
+
+
+
+dest reds
+ indexq
+
+dest greens
+ indexq
+
+dest blues
+ indexq
+
+
+
+
+ alpha
+
+
+
+
+ alpha
+
+
+
+
+ alpha
+dither enabled
+
+ rerr
+
+
+
+
+
+
+ gerr
+
+
+
+
+
+
+ berr
+
+
+
+
+
+ rerr
+
+ lrerr
+ gerr
+
+ lgerr
+ berr
+
+ lberr
+
+ lastr
+
+ lastg
+
+ lastb
+
+
+
+
+ distance
+min distance
+
+dest palette size
+
+
+dest reds
+
+
+
+dest greens
+
+
+
+dest blues
+
+
+ distance
+
+
+
+
+
+
+ distance
+min distance
+ lastindex
+
+ distance
+min distance
+ distance
+ lastr
+
+ lastg
+
+ lastb
+
+dither enabled
+ dxm
+
+ dxp
+
+ acc
+ rerr
+ dxp
+ acc
+ lrerr
+
+dest reds
+ lastindex
+ lrerr
+ lrerr
+ rerr
+
+ acc
+ lrerr
+ lrerr
+ rerr
+ dxm
+ acc
+ lrerr
+ lrerr
+ gerr
+ dxp
+ acc
+ lgerr
+
+dest greens
+ lastindex
+ lgerr
+ lgerr
+ gerr
+
+ acc
+ lgerr
+ lgerr
+ gerr
+ dxm
+ acc
+ lgerr
+ lgerr
+ berr
+ dxp
+ acc
+ lberr
+
+dest blues
+ lastindex
+ lberr
+ lberr
+ berr
+
+ acc
+ lberr
+ lberr
+ berr
+ dxm
+ acc
+ lberr
+ lberr
+ dtype
+type index
+dest data
+
+ lastindex
+type index
+
+dest data
+
+dest data
+
+ lastindex
+dest data
+
+dest data
+
+ lastindex
+type index
+ shift
+
+dest data
+
+dest data
+
+ shift
+ lastindex
+ shift
+type index _1_ msb
+ shift
+
+dest data
+
+dest data
+
+ shift
+ lastindex
+ shift
+type index _1_ lsb
+ shift
+
+dest data
+
+dest data
+
+ shift
+ lastindex
+ shift
+ blit
+
+src data
+src depth
+src stride
+src order
+ src
+ src
+src width
+src height
+src reds
+src greens
+src blues
+alpha mode
+alpha data
+alpha stride
+ alpha
+ alpha
+dest data
+dest depth
+dest stride
+dest order
+ dest
+ dest
+dest width
+dest height
+dest red mask
+dest green mask
+dest blue mask
+ flip
+ flip
+dest width
+dest height
+alpha mode
+alpha transparent
+dest alpha mask
+ dwm
+dest width
+ sfxi
+ dwm
+src width
+ dwm
+ dhm
+dest height
+ sfyi
+ dhm
+src height
+ dhm
+ stype
+src depth
+ stype
+type index
+src stride
+ stype
+type index
+src stride
+ stype
+type index
+src stride
+ stype
+src order
+msb first
+type index _1_ msb
+type index _1_ lsb
+ spr
+ src
+src stride
+ src
+ dbpp
+ dtype
+dest depth
+ dbpp
+ dtype
+type generic
+ dbpp
+ dtype
+dest order
+msb first
+type generic _16_ msb
+type generic _16_ lsb
+ dbpp
+ dtype
+type generic _24
+ dbpp
+ dtype
+dest order
+msb first
+type generic _32_ msb
+type generic _32_ lsb
+ dpr
+ flip
+ dest
+ dhm
+ dest
+dest stride
+ flip
+ dest
+ dwm
+ dest
+ dbpp
+ dprxi
+ flip
+ dbpp
+ dbpp
+ dpryi
+ flip
+dest stride
+dest stride
+ apr
+
+blit alpha
+alpha mode
+alpha mask unpacked
+alpha channel separate
+alpha data
+alpha mode
+ apr
+ alpha
+alpha stride
+ alpha
+alpha mask packed
+alpha data
+alpha mode
+alpha stride
+ apr
+ alpha
+alpha stride
+ alpha
+alpha mask index
+alpha mask rgb
+alpha data
+alpha mode
+ apr
+alpha mode
+alpha mode
+alpha channel source
+ apr
+alpha mode
+ apr
+dest red shift
+get channel shift
+dest red mask
+dest red width
+get channel width
+dest red mask
+dest red shift
+dest reds
+any eight
+dest red width
+dest red pre shift
+dest red width
+dest green shift
+get channel shift
+dest green mask
+dest green width
+get channel width
+dest green mask
+dest green shift
+dest greens
+any eight
+dest green width
+dest green pre shift
+dest green width
+dest blue shift
+get channel shift
+dest blue mask
+dest blue width
+get channel width
+dest blue mask
+dest blue shift
+dest blues
+any eight
+dest blue width
+dest blue pre shift
+dest blue width
+dest alpha shift
+get channel shift
+dest alpha mask
+dest alpha width
+get channel width
+dest alpha mask
+dest alpha shift
+dest alphas
+any eight
+dest alpha width
+dest alpha pre shift
+dest alpha width
+
+ dpr
+
+ spr
+
+ apr
+ alpha
+alpha mode
+
+
+
+
+ index
+
+
+
+
+
+dest height
+ sfy
+ sfyi
+
+
+
+ spr
+ sfy
+src stride
+
+ apr
+ sfy
+alpha stride
+ sfy
+ sfy
+ sfyi
+
+ dpr
+ dpryi
+
+dest width
+ sfx
+ sfxi
+
+
+
+ dprxi
+ sfx
+ sfx
+ sfxi
+ stype
+type index
+ index
+src data
+
+
+ sfx
+type index
+
+ index
+src data
+
+ index
+src data
+
+
+ sfx
+type index
+ index
+src data
+
+
+
+ sfx
+type index _1_ msb
+ index
+src data
+
+
+
+ sfx
+type index _1_ lsb
+ index
+src data
+
+
+
+ sfx
+
+src reds
+ index
+
+src greens
+ index
+
+src blues
+ index
+alpha mode
+alpha channel separate
+ alpha
+alpha data
+
+
+ sfx
+alpha mask unpacked
+ alpha
+alpha data
+
+
+ sfx
+alpha mask packed
+ alpha
+alpha data
+
+
+
+ sfx
+alpha mask index
+
+
+alpha data
+ length
+ index
+alpha data
+
+
+alpha data
+ length
+alpha mask rgb
+
+
+alpha data
+ length
+
+alpha data
+
+
+alpha data
+
+
+alpha data
+
+
+
+alpha data
+ length
+ alpha
+ alpha
+ dtype
+type generic
+ data
+dest data
+
+
+dest reds
+ data
+dest red mask
+dest red shift
+
+dest greens
+ data
+dest green mask
+dest green shift
+
+dest blues
+ data
+dest blue mask
+dest blue shift
+
+dest alphas
+ data
+dest alpha mask
+dest alpha shift
+type generic _16_ msb
+ data
+dest data
+
+dest data
+
+
+dest reds
+ data
+dest red mask
+dest red shift
+
+dest greens
+ data
+dest green mask
+dest green shift
+
+dest blues
+ data
+dest blue mask
+dest blue shift
+
+dest alphas
+ data
+dest alpha mask
+dest alpha shift
+type generic _16_ lsb
+ data
+dest data
+
+dest data
+
+
+dest reds
+ data
+dest red mask
+dest red shift
+
+dest greens
+ data
+dest green mask
+dest green shift
+
+dest blues
+ data
+dest blue mask
+dest blue shift
+
+dest alphas
+ data
+dest alpha mask
+dest alpha shift
+type generic _24
+ data
+dest data
+
+dest data
+
+dest data
+
+
+dest reds
+ data
+dest red mask
+dest red shift
+
+dest greens
+ data
+dest green mask
+dest green shift
+
+dest blues
+ data
+dest blue mask
+dest blue shift
+
+dest alphas
+ data
+dest alpha mask
+dest alpha shift
+type generic _32_ msb
+ data
+dest data
+
+dest data
+
+dest data
+
+dest data
+
+
+dest reds
+ data
+dest red mask
+dest red shift
+
+dest greens
+ data
+dest green mask
+dest green shift
+
+dest blues
+ data
+dest blue mask
+dest blue shift
+
+dest alphas
+ data
+dest alpha mask
+dest alpha shift
+type generic _32_ lsb
+ data
+dest data
+
+dest data
+
+dest data
+
+dest data
+
+
+dest reds
+ data
+dest red mask
+dest red shift
+
+dest greens
+ data
+dest green mask
+dest green shift
+
+dest blues
+ data
+dest blue mask
+dest blue shift
+
+dest alphas
+ data
+dest alpha mask
+dest alpha shift
+
+
+
+
+ alpha
+
+
+
+
+ alpha
+
+
+
+
+ alpha
+
+
+
+
+ alpha
+ data
+
+dest red pre shift
+dest red shift
+
+dest green pre shift
+dest green shift
+
+dest blue pre shift
+dest blue shift
+
+dest alpha pre shift
+dest alpha shift
+ dtype
+type generic
+dest data
+
+ data
+type generic _16_ msb
+dest data
+
+ data
+dest data
+
+ data
+type generic _16_ lsb
+dest data
+
+ data
+dest data
+
+ data
+type generic _24
+dest data
+
+ data
+dest data
+
+ data
+dest data
+
+ data
+type generic _32_ msb
+dest data
+
+ data
+dest data
+
+ data
+dest data
+
+ data
+dest data
+
+ data
+type generic _32_ lsb
+dest data
+
+ data
+dest data
+
+ data
+dest data
+
+ data
+dest data
+
+ data
+ blit
+
+src data
+src depth
+src stride
+src order
+ src
+ src
+src width
+src height
+src red mask
+src green mask
+src blue mask
+alpha mode
+alpha data
+alpha stride
+ alpha
+ alpha
+dest data
+dest depth
+dest stride
+dest order
+ dest
+ dest
+dest width
+dest height
+dest reds
+dest greens
+dest blues
+ flip
+ flip
+dest width
+dest height
+alpha mode
+alpha transparent
+src alpha mask
+ dwm
+dest width
+ sfxi
+ dwm
+src width
+ dwm
+ dhm
+dest height
+ sfyi
+ dhm
+src height
+ dhm
+ sbpp
+ stype
+src depth
+ sbpp
+ stype
+type generic
+ sbpp
+ stype
+src order
+msb first
+type generic _16_ msb
+type generic _16_ lsb
+ sbpp
+ stype
+type generic _24
+ sbpp
+ stype
+src order
+msb first
+type generic _32_ msb
+type generic _32_ lsb
+ spr
+ src
+src stride
+ src
+ sbpp
+ dtype
+dest depth
+ dtype
+type index
+dest stride
+ dtype
+type index
+dest stride
+ dtype
+type index
+dest stride
+ dtype
+dest order
+msb first
+type index _1_ msb
+type index _1_ lsb
+ dpr
+ flip
+ dest
+ dhm
+ dest
+dest stride
+ flip
+ dest
+ dwm
+ dest
+ dprxi
+ flip
+ dpryi
+ flip
+dest stride
+dest stride
+ apr
+
+blit alpha
+alpha mode
+alpha mask unpacked
+alpha channel separate
+alpha data
+alpha mode
+ apr
+ alpha
+alpha stride
+ alpha
+alpha mask packed
+alpha data
+alpha mode
+alpha stride
+ apr
+ alpha
+alpha stride
+ alpha
+alpha mask index
+alpha mask rgb
+alpha data
+alpha mode
+ apr
+alpha mode
+alpha mode
+alpha channel source
+ apr
+alpha mode
+ apr
+dither enabled
+
+blit dither
+src red shift
+get channel shift
+src red mask
+src reds
+any eight
+get channel width
+src red mask
+src red shift
+src green shift
+get channel shift
+src green mask
+src greens
+any eight
+get channel width
+src green mask
+src green shift
+src blue shift
+get channel shift
+src blue mask
+src blues
+any eight
+get channel width
+src blue mask
+src blue shift
+src alpha shift
+get channel shift
+src alpha mask
+src alphas
+any eight
+get channel width
+src alpha mask
+src alpha shift
+
+ dpr
+
+ spr
+
+ apr
+ alpha
+alpha mode
+
+
+
+
+ indexq
+ lastindex
+ lastr
+ lastg
+ lastb
+ rerr
+ gerr
+ berr
+dest palette size
+dest depth
+dest reds
+dest reds
+ length
+dest palette size
+dest palette size
+dest reds
+ length
+dither enabled
+ rerr
+dest width
+ gerr
+dest width
+ berr
+dest width
+ rerr
+ gerr
+ berr
+
+dest height
+ sfy
+ sfyi
+
+
+
+ spr
+ sfy
+src stride
+
+ apr
+ sfy
+alpha stride
+ sfy
+ sfy
+ sfyi
+
+ dpr
+ dpryi
+ lrerr
+ lgerr
+ lberr
+
+dest width
+ sfx
+ sfxi
+
+
+
+ dprxi
+ sfx
+ sfx
+ sfxi
+ stype
+type generic
+ data
+src data
+
+
+ sfx
+
+src reds
+ data
+src red mask
+src red shift
+
+src greens
+ data
+src green mask
+src green shift
+
+src blues
+ data
+src blue mask
+src blue shift
+
+src alphas
+ data
+src alpha mask
+src alpha shift
+type generic _16_ msb
+ data
+src data
+
+src data
+
+
+ sfx
+
+src reds
+ data
+src red mask
+src red shift
+
+src greens
+ data
+src green mask
+src green shift
+
+src blues
+ data
+src blue mask
+src blue shift
+
+src alphas
+ data
+src alpha mask
+src alpha shift
+type generic _16_ lsb
+ data
+src data
+
+src data
+
+
+ sfx
+
+src reds
+ data
+src red mask
+src red shift
+
+src greens
+ data
+src green mask
+src green shift
+
+src blues
+ data
+src blue mask
+src blue shift
+
+src alphas
+ data
+src alpha mask
+src alpha shift
+type generic _24
+ data
+src data
+
+src data
+
+src data
+
+
+ sfx
+
+src reds
+ data
+src red mask
+src red shift
+
+src greens
+ data
+src green mask
+src green shift
+
+src blues
+ data
+src blue mask
+src blue shift
+
+src alphas
+ data
+src alpha mask
+src alpha shift
+type generic _32_ msb
+ data
+src data
+
+src data
+
+src data
+
+src data
+
+
+ sfx
+
+src reds
+ data
+src red mask
+src red shift
+
+src greens
+ data
+src green mask
+src green shift
+
+src blues
+ data
+src blue mask
+src blue shift
+
+src alphas
+ data
+src alpha mask
+src alpha shift
+type generic _32_ lsb
+ data
+src data
+
+src data
+
+src data
+
+src data
+
+
+ sfx
+
+src reds
+ data
+src red mask
+src red shift
+
+src greens
+ data
+src green mask
+src green shift
+
+src blues
+ data
+src blue mask
+src blue shift
+
+src alphas
+ data
+src alpha mask
+src alpha shift
+alpha mode
+alpha channel separate
+ alpha
+alpha data
+
+
+ sfx
+alpha channel source
+ alpha
+
+alpha mask unpacked
+ alpha
+alpha data
+
+
+ sfx
+alpha mask packed
+ alpha
+alpha data
+
+
+
+ sfx
+alpha mask rgb
+ alpha
+
+
+alpha data
+ length
+
+
+alpha data
+
+
+alpha data
+
+
+alpha data
+
+ alpha
+ alpha
+ alpha
+ dtype
+type index
+ indexq
+dest data
+
+type index
+
+ indexq
+dest data
+
+ indexq
+dest data
+
+type index
+ indexq
+dest data
+
+
+type index _1_ msb
+ indexq
+dest data
+
+
+type index _1_ lsb
+ indexq
+dest data
+
+
+
+dest reds
+ indexq
+
+dest greens
+ indexq
+
+dest blues
+ indexq
+
+
+
+
+ alpha
+
+
+
+
+ alpha
+
+
+
+
+ alpha
+dither enabled
+
+ rerr
+
+
+
+
+
+
+ gerr
+
+
+
+
+
+
+ berr
+
+
+
+
+
+ rerr
+
+ lrerr
+ gerr
+
+ lgerr
+ berr
+
+ lberr
+
+ lastr
+
+ lastg
+
+ lastb
+
+
+
+
+ distance
+min distance
+
+dest palette size
+
+
+dest reds
+
+
+
+dest greens
+
+
+
+dest blues
+
+
+ distance
+
+
+
+
+
+
+ distance
+min distance
+ lastindex
+
+ distance
+min distance
+ distance
+ lastr
+
+ lastg
+
+ lastb
+
+dither enabled
+ dxm
+
+ dxp
+
+ acc
+ rerr
+ dxp
+ acc
+ lrerr
+
+dest reds
+ lastindex
+ lrerr
+ lrerr
+ rerr
+
+ acc
+ lrerr
+ lrerr
+ rerr
+ dxm
+ acc
+ lrerr
+ lrerr
+ gerr
+ dxp
+ acc
+ lgerr
+
+dest greens
+ lastindex
+ lgerr
+ lgerr
+ gerr
+
+ acc
+ lgerr
+ lgerr
+ gerr
+ dxm
+ acc
+ lgerr
+ lgerr
+ berr
+ dxp
+ acc
+ lberr
+
+dest blues
+ lastindex
+ lberr
+ lberr
+ berr
+
+ acc
+ lberr
+ lberr
+ berr
+ dxm
+ acc
+ lberr
+ lberr
+ dtype
+type index
+dest data
+
+ lastindex
+type index
+
+dest data
+
+dest data
+
+ lastindex
+dest data
+
+dest data
+
+ lastindex
+type index
+ shift
+
+dest data
+
+dest data
+
+ shift
+ lastindex
+ shift
+type index _1_ msb
+ shift
+
+dest data
+
+dest data
+
+ shift
+ lastindex
+ shift
+type index _1_ lsb
+ shift
+
+dest data
+
+dest data
+
+ shift
+ lastindex
+ shift
+get channel shift
+ mask
+ mask
+
+
+ mask
+
+
+ mask
+
+get channel width
+ mask
+ shift
+ mask
+
+ mask
+ shift
+
+ shift
+ mask
+
+
+ mask
+
+ shift
+get channel field
+ data
+ mask
+ shift
+get channel shift
+ mask
+any eight
+get channel width
+ mask
+ shift
+ data
+ mask
+ shift
+image data
+create gradient band
+ width
+ height
+ vertical
+ rgb
+from rgb
+ rgb
+ rgb
+red bits
+green bits
+blue bits
+band width
+band height
+bitmap depth
+bitmap data
+palette data
+palette data
+red bits
+green bits
+blue bits
+palette data
+palette data
+bitmap depth
+red bits
+green bits
+blue bits
+ steps
+ vertical
+band width
+band height
+ height
+ steps
+band height
+band height
+band width
+ width
+band height
+ steps
+band width
+band width
+bytes per line
+band width
+bitmap data
+band height
+bytes per line
+build precise gradient channel
+from rgb
+ blue
+ rgb
+ blue
+ steps
+band width
+band height
+ vertical
+bitmap data
+bytes per line
+build precise gradient channel
+from rgb
+ green
+ rgb
+ green
+ steps
+band width
+band height
+ vertical
+bitmap data
+bytes per line
+build precise gradient channel
+from rgb
+ red
+ rgb
+ red
+ steps
+band width
+band height
+ vertical
+bitmap data
+bytes per line
+ steps
+ vertical
+band width
+ width
+ width
+band height
+ height
+ steps
+band height
+band height
+band width
+ width
+band height
+ height
+ height
+ steps
+band width
+band width
+bytes per line
+band width
+bitmap data
+band height
+bytes per line
+build dithered gradient channel
+from rgb
+ blue
+ rgb
+ blue
+ steps
+band width
+band height
+ vertical
+bitmap data
+bytes per line
+blue bits
+build dithered gradient channel
+from rgb
+ green
+ rgb
+ green
+ steps
+band width
+band height
+ vertical
+bitmap data
+bytes per line
+green bits
+build dithered gradient channel
+from rgb
+ red
+ rgb
+ red
+ steps
+band width
+band height
+ vertical
+bitmap data
+bytes per line
+red bits
+palette data
+palette data
+ rgb
+from rgb
+ rgb
+bitmap depth
+ blendi
+ vertical
+band width
+ width
+ width
+band height
+ height
+ blendi
+band height
+band height
+band width
+ width
+band height
+ height
+ height
+ blendi
+band width
+band width
+bytes per line
+band width
+bitmap data
+band height
+bytes per line
+ vertical
+
+ blend
+
+
+band height
+
+ blend
+ blendi
+
+bytes per line
+
+
+band width
+
+bitmap data
+
+
+ blend
+dither matrix
+
+
+
+ blend
+
+band width
+
+ blend
+ blendi
+
+ dptr
+
+
+band height
+
+ dptr
+bytes per line
+bitmap data
+ dptr
+ blend
+dither matrix
+
+
+image data
+band width
+band height
+bitmap depth
+palette data
+bitmap data
+build precise gradient channel
+ from
+
+ steps
+band width
+band height
+ vertical
+bitmap data
+
+bytes per line
+ val
+ from
+ inc
+
+ val
+ steps
+ vertical
+
+
+band height
+
+
+bytes per line
+bitmap data
+
+ val
+ val
+ inc
+
+
+band width
+
+
+bitmap data
+
+ val
+ val
+ inc
+build dithered gradient channel
+ from
+
+ steps
+band width
+band height
+ vertical
+bitmap data
+
+bytes per line
+ bits
+ mask
+ bits
+ val
+ from
+ inc
+
+ val
+ steps
+ vertical
+
+
+band height
+
+
+bytes per line
+
+ dptr
+
+
+band width
+
+ dptr
+ thresh
+dither matrix
+
+
+ bits
+ temp
+ val
+ thresh
+ temp
+bitmap data
+ dptr
+bitmap data
+ dptr
+ temp
+ mask
+ val
+ inc
+
+
+band width
+
+
+
+ dptr
+
+
+band height
+
+ dptr
+bytes per line
+ thresh
+dither matrix
+
+
+ bits
+ temp
+ val
+ thresh
+ temp
+bitmap data
+ dptr
+bitmap data
+ dptr
+ temp
+ mask
+ val
+ inc
+fill gradient rectangle
+
+
+ device
+ device
+
+
+ width
+ height
+ vertical
+ rgb
+from rgb
+ rgb
+ rgb
+red bits
+green bits
+blue bits
+image data
+ band
+create gradient band
+ width
+ height
+ vertical
+from rgb
+ rgb
+red bits
+green bits
+blue bits
+ image
+ image
+ image
+ device
+ band
+ band
+ width
+ band
+ height
+
+draw image
+ image
+ band
+ width
+ band
+ height
+
+
+ width
+ height
+ vertical
+
+
+ width
+
+ band
+ width
+blit width
+ width
+
+blit width
+ band
+ width
+blit width
+ band
+ width
+
+draw image
+ image
+blit width
+ band
+ height
+
+
+
+blit width
+ band
+ height
+
+
+ height
+
+ band
+ height
+blit height
+ height
+
+blit height
+ band
+ height
+blit height
+ band
+ height
+
+draw image
+ image
+ band
+ width
+blit height
+
+
+
+ band
+ width
+blit height
+ image
+ dispose
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  device  independent  descriptions  images  they  are  typically  used  intermediate  format  between  loading  from  writing  streams  and  creating  code  image  code  note  that  the  public  fields  code  code  code  code  code disposal method  code  and  code delay time  code  are  typically  only  used  when  the  image  set  images  used  for  animation  see  image  see image loader
+the  width  the  image  pixels
+the  height  the  image  pixels
+the  color  depth  the  image  bits  per  pixel  note  that  depth  less  does  not  necessarily  mean  that  the  image  palette  indexed  conversely  that  depth  greater  than  means  that  the  image  direct  color  check  the  associated palette data  direct  field  for  such  determinations
+the  scanline  padding  one  scanline  the  image  not  multiple  this  number  will  padded  with  zeros  until 
+the  number  bytes  per  scanline  this  multiple  the  scanline  padding 
+the  pixel  data  the  image  note  that  for  bit  depth  images  the  pixel  data  stored  least  significant  byte  order  however  for  24bit  and  32bit  depth  images  the  pixel  data  stored  most  significant  byte  order 
+the  color  table  for  the  image
+the  transparent  pixel  pixels  with  this  value  are  transparent  the  default  which  means  transparent  pixel 
+icon  specific  field  containing  the  data  from  the  icon  mask  this  bit  bitmap  stored  with  the  most  significant  bit  first  the  number  bytes  per  scanline  width mask pad mask pad mask pad  the  default  null  which  means  transparency  mask 
+icon  specific  field  containing  the  scanline  pad  the  mask  one  scanline  the  transparency  mask  not  multiple  this  number  will  padded  with  zeros  until 
+the  alpha  data  the  image  every  pixel  can  have  alpha  blending  value  that  varies  from  meaning  fully  transparent  255  meaning  fully  opaque  the  number  bytes  per  scanline  width 
+the  global  alpha  value  used  for  every  pixel  this  value  set  the  code alpha data  code  field  ignored  and  when  the  image  rendered  each  pixel  will  blended  with  the  background  amount  proportional  this  value  the  default  which  means  global  alpha  value 
+the  type  file  from  which  the  image  was  read  expressed  one  the  following  values  code  image  bmp  code  windows  bmp  file  format  compression  code  image  bmp  rle  code  windows  bmp  file  format  rle  compression  appropriate  code  image  gif  code  gif  file  format  code  image  ico  code  windows  ico  file  format  code  image  jpeg  code  jpeg  file  format  code  image  png  code  png  file  format 
+the  coordinate  the  top  left  corner  the  image  within  the  logical  screen  this  field  corresponds  the gif 89a  image  left  position  value
+the  coordinate  the  top  left  corner  the  image  within  the  logical  screen  this  field  corresponds  the gif 89a  image  top  position  value
+description  how  dispose  the  current  image  before  displaying  the  next  expressed  one  the  following  values  code  unspecified  code  disposal  method  not  specified  code  fill  none  code  nothing  leave  the  image  place  code  fill  background  code  fill  with  the  background  color  code  fill  previous  code  restore  the  previous  picture  this  field  corresponds  the gif 89a  disposal  method  value
+the  time  delay  before  displaying  the  next  image  animation  this  field  corresponds  the gif 89a  delay  time  value
+arbitrary  channel  width  data  bit  conversion  table
+scaled  bayer  dither  matrix
+constructs  new  empty image data  with  the  given  width  height  depth  and  palette  the  data  will  initialized  all  zero  array  the  appropriate  size  param  width  the  width  the  image  param  height  the  height  the  image  param  depth  the  depth  the  image  param  palette  the  palette  the  image  must  not  null  exception illegal argument exception  error  invalid  argument  the  width  height  negative  the  depth  not  one  error  null  argument  the  palette  null 
+constructs  new  empty image data  with  the  given  width  height  depth  palette scanline pad  and  data  param  width  the  width  the  image  param  height  the  height  the  image  param  depth  the  depth  the  image  param  palette  the  palette  the  image  param scanline pad  the  padding  each  line  bytes  param  data  the  data  the  image  exception illegal argument exception  error  invalid  argument  the  width  height  negative  the  depth  not  one  error  null  argument  the  palette  data  null  error  cannot  zero  the scanline pad  zero 
+constructs  code image data  code  loaded  from  the  specified  input  stream  throws  error  error  occurs  while  loading  the  image  the  image  has  unsupported  type  application  code  still  responsible  for  closing  the  input  stream  this  constructor  provided  for  convenience  when  loading  single  image  only  the  stream  contains  multiple  images  only  the  first  one  will  loaded  load  multiple  images  use  code image loader  load  code  this  constructor  may  used  load  resource  follows  pre  static image data load image data  class  clazz  string  string input stream  stream  clazz get resource stream  string  stream  null  return  null image data image data  null  try image data  new image data  stream  catch swt exception  finally  try  stream  close  catch  exception  return image data  pre  param  stream  the  input  stream  load  the  image  from  must  not  null  exception illegal argument exception  error  null  argument  the  stream  null  exception swt exception  error  invalid  image  the  image  file  contains  invalid  data  error  error  occurs  while  reading  data  see image loader  load input stream
+constructs  code image data  code  loaded  from  file  with  the  specified  name  throws  error  error  occurs  loading  the  image  the  image  has  unsupported  type  this  constructor  provided  for  convenience  when  loading  single  image  only  the  file  contains  multiple  images  only  the  first  one  will  loaded  load  multiple  images  use  code image loader  load  code  param  filename  the  name  the  file  load  the  image  from  must  not  null  exception illegal argument exception  error  null  argument  the  file  name  null  exception swt exception  error  invalid  image  the  image  file  contains  invalid  data  error  error  occurs  while  reading  data  error  unsupported  format  the  image  file  contains  unrecognized  format 
+prevents  uninitialized  instances  from  being  created  outside  the  package
+constructs  image  data  giving  values  for  all  non  computable  fields  this  method  for  internal  use  and  not  described  further 
+initializes  all  fields  the  receiver  this  method  must  called  all  public  constructors  ensure  that  all  fields  are  initialized  for  new image data  object  new  field  added  the  class  then  must  added  this  method  this  method  for  internal  use  and  not  described  further 
+invokes  internal  swt  functionality  create  new  instance  this  class  important  this  method  not  part  the  public  api  for  code image data  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  subject  change  without  notice  and  should  never  called  from  application  code  this  method  for  internal  use  and  not  described  further 
+returns  new  instance  the  same  class  the  receiver  whose  slots  have  been  filled  with  copies  the  values  the  slots  the  receiver  that  the  returned  object  deep  copy  the  receiver  return  copy  the  receiver
+returns  the  alpha  value  offset  code  code  scanline  code  code  the  receiver  alpha  data  param  the  coodinate  the  pixel  get  the  alpha  value  param  the  coordinate  the  pixel  get  the  alpha  value  return  the  alpha  value  the  given  coordinates  exception illegal argument exception  error  invalid  argument  either  argument  out  range 
+returns  code get width  code  alpha  values  starting  offset  code  code  scanline  code  code  the  receiver  alpha  data  starting  code start index  code  param  the  position  the  pixel  begin  getting  alpha  values  param  the  position  the  pixel  begin  getting  alpha  values  param get width  the  width  the  data  get  param  alphas  the  buffer  which  put  the  alpha  values  param start index  the  offset  into  the  image  begin  getting  alpha  values  exception index out bounds exception get width  too  large  exception illegal argument exception  error  null  argument  pixels  null  error  invalid  argument  out  bounds  error  invalid  argument get width  negative 
+may  throw index out bounds exception
+returns  the  pixel  value  offset  code  code  scanline  code  code  the  receiver  data  param  the  position  the  pixel  get  param  the  position  the  pixel  get  return  the  pixel  the  given  coordinates  exception illegal argument exception  error  invalid  argument  either  argument  out  bounds  exception swt exception  error  unsupported  depth  the  depth  not  one 
+returns  code get width  code  pixel  values  starting  offset  code  code  scanline  code  code  the  receiver  data  starting  code start index  code  param  the  position  the  first  pixel  get  param  the  position  the  first  pixel  get  param get width  the  width  the  data  get  param  pixels  the  buffer  which  put  the  pixels  param start index  the  offset  into  the  byte  array  begin  storing  pixels  exception index out bounds exception get width  too  large  exception illegal argument exception  error  null  argument  pixels  null  error  invalid  argument  out  bounds  error  invalid  argument get width  negative  exception swt exception  error  unsupported  depth  the  depth  not  one  for  higher  depths  use  the  int  version  this  method 
+returns  code get width  code  pixel  values  starting  offset  code  code  scanline  code  code  the  receiver  data  starting  code start index  code  param  the  position  the  first  pixel  get  param  the  position  the  first  pixel  get  param get width  the  width  the  data  get  param  pixels  the  buffer  which  put  the  pixels  param start index  the  offset  into  the  buffer  begin  storing  pixels  exception index out bounds exception get width  too  large  exception illegal argument exception  error  null  argument  pixels  null  error  invalid  argument  out  bounds  error  invalid  argument get width  negative  exception swt exception  error  unsupported  depth  the  depth  not  one 
+returns  array  code  rgb  code  which  comprise  the  indexed  color  table  the  receiver  null  the  receiver  has  direct  color  model  return  the  rgb  values  for  the  image  null  direct  color  see palette data  get
+returns  code image data  code  which  specifies  the  transparency  mask  information  for  the  receiver  the  receiver  has  transparency  not  icon  returns  opaque  mask  return  the  transparency  mask
+returns  the  image  transparency  type  which  will  one  code  swt  transparency  none  code  code  swt  transparency  mask  code  code  swt  transparency  pixel  code  code  swt  transparency  alpha  code  return  the  receiver  transparency  type
+returns  the  byte  order  the  receiver  return  msb  first  lsb  first
+returns  copy  the  receiver  which  has  been  stretched  shrunk  the  specified  size  either  the  width  height  negative  the  resulting  image  will  inverted  the  associated  axis  param  width  the  width  the  new image data  param  height  the  height  the  new image data  return  scaled  copy  the  image
+create  destination  image  with  data
+scale  the  image  contents
+scale  the  image  mask  alpha
+sets  the  alpha  value  offset  code  code  scanline  code  code  the  receiver  alpha  data  param  the  coordinate  the  alpha  value  set  param  the  coordinate  the  alpha  value  set  param  alpha  the  value  set  the  alpha  exception illegal argument exception  error  invalid  argument  out  bounds 
+sets  the  alpha  values  starting  offset  code  code  scanline  code  code  the  receiver  alpha  data  the  values  from  the  array  code  alphas  code  starting  code start index  code  param  the  coordinate  the  pixel  being  setting  the  alpha  values  param  the  coordinate  the  pixel  being  setting  the  alpha  values  param put width  the  width  the  alpha  values  set  param  alphas  the  alpha  values  set  param start index  the  index  which  begin  setting  exception index out bounds exception put width  too  large  exception illegal argument exception  error  null  argument  pixels  null  error  invalid  argument  out  bounds  error  invalid  argument put width  negative 
+may  throw index out bounds exception
+sets  the  pixel  value  offset  code  code  scanline  code  code  the  receiver  data  param  the  coordinate  the  pixel  set  param  the  coordinate  the  pixel  set  param pixel value  the  value  set  the  pixel  exception illegal argument exception  error  invalid  argument  out  bounds  exception swt exception  error  unsupported  depth  the  depth  not  one 
+sets  the  pixel  values  starting  offset  code  code  scanline  code  code  the  receiver  data  the  values  from  the  array  code  pixels  code  starting  code start index  code  param  the  position  the  pixel  set  param  the  position  the  pixel  set  param put width  the  width  the  pixels  set  param  pixels  the  pixels  set  param start index  the  index  which  begin  setting  exception index out bounds exception put width  too  large  exception illegal argument exception  error  null  argument  pixels  null  error  invalid  argument  out  bounds  error  invalid  argument put width  negative  exception swt exception  error  unsupported  depth  the  depth  not  one  for  higher  depths  use  the  int  version  this  method 
+sets  the  pixel  values  starting  offset  code  code  scanline  code  code  the  receiver  data  the  values  from  the  array  code  pixels  code  starting  code start index  code  param  the  position  the  pixel  set  param  the  position  the  pixel  set  param put width  the  width  the  pixels  set  param  pixels  the  pixels  set  param start index  the  index  which  begin  setting  exception index out bounds exception put width  too  large  exception illegal argument exception  error  null  argument  pixels  null  error  invalid  argument  out  bounds  error  invalid  argument put width  negative  exception swt exception  error  unsupported  depth  the  depth  not  one 
+returns  palette  with  colors  black  white
+gets  the  offset  the  most  significant  bit  for  the  given  mask
+finds  the  closest  match
+find  index  black  mask  palette
+blit  operation  bits  together  specify  the  desired  operation
+copy  source  directly  else  applies  logic  operations
+enable  alpha  blending
+enable  dithering  low  color  modes
+alpha  mode  values  255  specify  global  alpha  level
+fully  opaque  ignores  any  alpha  data
+fully  transparent  ignores  any  alpha  data
+use  alpha  channel  from  separate alpha data
+use  alpha  channel  embedded source data
+use  transparency  mask  formed  bytes alpha data  non  zero  opaque
+use  transparency  mask  formed  packed  bits alpha data
+consider  source  palette  indices  transparent alpha data  array
+consider  source  transparent rgb 888  format alpha data  array
+byte  and  bit  order  constants
+data  types  internal
+direct  true  color  formats  with  arbitrary  masks  shifts
+palette  indexed  color  formats
+blits  direct  palette  image  into  direct  palette  image  note  when  the  source  and  destination  depth  order  and  masks  are  pairwise  equal  and  the  blitter  operation  blit  src  the  masks  are  ignored  hence  when  not  changing  the  image  data  format  may  specified  for  the  masks  param  the  blitter  operation  combination  blit  xxx  flags  see  blit  xxx  constants  param src data  the  source  byte  array  containing  image  data  param src depth  the  source  depth  one  param src stride  the  source  number  bytes  per  line  param src order  the  source  byte  ordering  one  msb  first  lsb  first  ignored src depth  not  param  src  the  top  left  coord  the  source  blit  region  param  src  the  top  left  coord  the  source  blit  region  param src width  the  width  the  source  blit  region  param src height  the  height  the  source  blit  region  param src red mask  the  source  red  channel  mask  param src green mask  the  source  green  channel  mask  param src blue mask  the  source  blue  channel  mask  param alpha mode  the  alpha  blending  mask  mode  may  integer  255  for  global  alpha  ignored  blit  alpha  not  specified  the  blitter  operations  see  alpha  mode  xxx  constants  param alpha data  the  alpha  blending  mask  data  varies  depending  the  value alpha mode  and  sometimes  ignored  param alpha stride  the  alpha  data  number  bytes  per  line  param  alpha  the  top  left  coord  the  alpha  blit  region  param  alpha  the  top  left  coord  the  alpha  blit  region  param dest data  the  destination  byte  array  containing  image  data  param dest depth  the  destination  depth  one  param dest stride  the  destination  number  bytes  per  line  param dest order  the  destination  byte  ordering  one  msb  first  lsb  first  ignored dest depth  not  param  dest  the  top  left  coord  the  destination  blit  region  param  dest  the  top  left  coord  the  destination  blit  region  param dest width  the  width  the  destination  blit  region  param dest height  the  height  the  destination  blit  region  param dest red mask  the  destination  red  channel  mask  param dest green mask  the  destination  green  channel  mask  param dest blue mask  the  destination  blue  channel  mask  param  flip  true  the  resulting  image  flipped  along  the  vertical  axis  param  flip  true  the  resulting  image  flipped  along  the  horizontal  axis
+these  should  supplied  params  later
+prepare  scaling  data
+prepare  source  related  data
+throw  new illegal argument exception  invalid  source  type
+prepare  destination  related  data
+throw  new illegal argument exception  invalid  destination  type
+prepare  special  processing  data
+throw  new illegal argument exception  invalid  alpha  type
+  prescale
+  blit
+fast  blit  straight  copy
+comprehensive  blit  apply  transformations
+read  next  pixel
+special  processing  required
+perform  alpha  blending
+write  next  pixel
+blits  index  palette  image  into  index  palette  image  note  the  source  and  destination  red  green  and  blue  arrays  may  null  alpha  blending  dither  performed  param  the  blitter  operation  combination  blit  xxx  flags  see  blit  xxx  constants  param src data  the  source  byte  array  containing  image  data  param src depth  the  source  depth  one  param src stride  the  source  number  bytes  per  line  param src order  the  source  byte  ordering  one  msb  first  lsb  first  ignored src depth  not  param  src  the  top  left  coord  the  source  blit  region  param  src  the  top  left  coord  the  source  blit  region  param src width  the  width  the  source  blit  region  param src height  the  height  the  source  blit  region  param src reds  the  source  palette  red  component  intensities  param src greens  the  source  palette  green  component  intensities  param src blues  the  source  palette  blue  component  intensities  param alpha mode  the  alpha  blending  mask  mode  may  integer  255  for  global  alpha  ignored  blit  alpha  not  specified  the  blitter  operations  see  alpha  mode  xxx  constants  param alpha data  the  alpha  blending  mask  data  varies  depending  the  value alpha mode  and  sometimes  ignored  param alpha stride  the  alpha  data  number  bytes  per  line  param  alpha  the  top  left  coord  the  alpha  blit  region  param  alpha  the  top  left  coord  the  alpha  blit  region  param dest data  the  destination  byte  array  containing  image  data  param dest depth  the  destination  depth  one  param dest stride  the  destination  number  bytes  per  line  param dest order  the  destination  byte  ordering  one  msb  first  lsb  first  ignored dest depth  not  param  dest  the  top  left  coord  the  destination  blit  region  param  dest  the  top  left  coord  the  destination  blit  region  param dest width  the  width  the  destination  blit  region  param dest height  the  height  the  destination  blit  region  param dest reds  the  destination  palette  red  component  intensities  param dest greens  the  destination  palette  green  component  intensities  param dest blues  the  destination  palette  blue  component  intensities  param  flip  true  the  resulting  image  flipped  along  the  vertical  axis  param  flip  true  the  resulting  image  flipped  along  the  horizontal  axis
+prepare  scaling  data
+prepare  source  related  data
+throw  new illegal argument exception  invalid  source  type
+prepare  destination  related  data
+throw  new illegal argument exception  invalid  source  type
+prepare  special  processing  data
+  prescale
+  blit
+the  palettes  and  formats  are  equivalent  use  one  one  mapping
+palettes  have  not  been  supplied  supply  suitable  mapping
+generate  palette  mapping
+fast  blit  copy  mapping
+convert  between  indexed  modes  using  mapping  and  mask
+read  next  pixel
+apply  mask
+write  next  pixel
+comprehensive  blit  apply  transformations
+read  next  pixel
+special  processing  required
+could  speed  using  binary  search  sorted  the  indices
+perform  alpha  blending
+map  color  the  palette
+floyd  steinberg  error  diffusion
+moving  the  variable  declarations  out  seems  make  the  jdk  jit  happier
+floyd  steinberg  error  diffusion  cont 
+write  next  pixel
+blits  index  palette  image  into  direct  palette  image  note  the  source  and  destination  masks  and  palettes  must  always  fully  specified  param  the  blitter  operation  combination  blit  xxx  flags  see  blit  xxx  constants  param src data  the  source  byte  array  containing  image  data  param src depth  the  source  depth  one  param src stride  the  source  number  bytes  per  line  param src order  the  source  byte  ordering  one  msb  first  lsb  first  ignored src depth  not  param  src  the  top  left  coord  the  source  blit  region  param  src  the  top  left  coord  the  source  blit  region  param src width  the  width  the  source  blit  region  param src height  the  height  the  source  blit  region  param src reds  the  source  palette  red  component  intensities  param src greens  the  source  palette  green  component  intensities  param src blues  the  source  palette  blue  component  intensities  param alpha mode  the  alpha  blending  mask  mode  may  integer  255  for  global  alpha  ignored  blit  alpha  not  specified  the  blitter  operations  see  alpha  mode  xxx  constants  param alpha data  the  alpha  blending  mask  data  varies  depending  the  value alpha mode  and  sometimes  ignored  param alpha stride  the  alpha  data  number  bytes  per  line  param  alpha  the  top  left  coord  the  alpha  blit  region  param  alpha  the  top  left  coord  the  alpha  blit  region  param dest data  the  destination  byte  array  containing  image  data  param dest depth  the  destination  depth  one  param dest stride  the  destination  number  bytes  per  line  param dest order  the  destination  byte  ordering  one  msb  first  lsb  first  ignored dest depth  not  param  dest  the  top  left  coord  the  destination  blit  region  param  dest  the  top  left  coord  the  destination  blit  region  param dest width  the  width  the  destination  blit  region  param dest height  the  height  the  destination  blit  region  param dest red mask  the  destination  red  channel  mask  param dest green mask  the  destination  green  channel  mask  param dest blue mask  the  destination  blue  channel  mask  param  flip  true  the  resulting  image  flipped  along  the  vertical  axis  param  flip  true  the  resulting  image  flipped  along  the  horizontal  axis
+these  should  supplied  params  later
+prepare  scaling  data
+prepare  source  related  data
+throw  new illegal argument exception  invalid  source  type
+prepare  destination  related  data
+throw  new illegal argument exception  invalid  destination  type
+prepare  special  processing  data
+  prescale
+comprehensive  blit  apply  transformations
+read  next  pixel
+special  processing  required
+could  speed  using  binary  search  sorted  the  indices
+perform  alpha  blending
+write  next  pixel
+blits  direct  palette  image  into  index  palette  image  note  the  source  and  destination  masks  and  palettes  must  always  fully  specified  param  the  blitter  operation  combination  blit  xxx  flags  see  blit  xxx  constants  param src data  the  source  byte  array  containing  image  data  param src depth  the  source  depth  one  param src stride  the  source  number  bytes  per  line  param src order  the  source  byte  ordering  one  msb  first  lsb  first  ignored src depth  not  param  src  the  top  left  coord  the  source  blit  region  param  src  the  top  left  coord  the  source  blit  region  param src width  the  width  the  source  blit  region  param src height  the  height  the  source  blit  region  param src red mask  the  source  red  channel  mask  param src green mask  the  source  green  channel  mask  param src blue mask  the  source  blue  channel  mask  param alpha mode  the  alpha  blending  mask  mode  may  integer  255  for  global  alpha  ignored  blit  alpha  not  specified  the  blitter  operations  see  alpha  mode  xxx  constants  param alpha data  the  alpha  blending  mask  data  varies  depending  the  value alpha mode  and  sometimes  ignored  param alpha stride  the  alpha  data  number  bytes  per  line  param  alpha  the  top  left  coord  the  alpha  blit  region  param  alpha  the  top  left  coord  the  alpha  blit  region  param dest data  the  destination  byte  array  containing  image  data  param dest depth  the  destination  depth  one  param dest stride  the  destination  number  bytes  per  line  param dest order  the  destination  byte  ordering  one  msb  first  lsb  first  ignored dest depth  not  param  dest  the  top  left  coord  the  destination  blit  region  param  dest  the  top  left  coord  the  destination  blit  region  param dest width  the  width  the  destination  blit  region  param dest height  the  height  the  destination  blit  region  param dest reds  the  destination  palette  red  component  intensities  param dest greens  the  destination  palette  green  component  intensities  param dest blues  the  destination  palette  blue  component  intensities  param  flip  true  the  resulting  image  flipped  along  the  vertical  axis  param  flip  true  the  resulting  image  flipped  along  the  horizontal  axis
+these  should  supplied  params  later
+prepare  scaling  data
+prepare  source  related  data
+throw  new illegal argument exception  invalid  source  type
+prepare  destination  related  data
+throw  new illegal argument exception  invalid  source  type
+prepare  special  processing  data
+throw  new illegal argument exception  invalid  alpha  type
+  prescale
+comprehensive  blit  apply  transformations
+read  next  pixel
+special  processing  required
+perform  alpha  blending
+map  color  the  palette
+floyd  steinberg  error  diffusion
+moving  the  variable  declarations  out  seems  make  the  jdk  jit  happier
+floyd  steinberg  error  diffusion  cont 
+write  next  pixel
+computes  the  required  channel  shift  from  mask
+computes  the  required  channel  width  depth  from  mask
+extracts  field  from  packed  rgb  data  given  mask  for  that  field
+creates image data  containing  one  band  worth  gradient  filled  block  code  vertical  code  true  the  band  must  tiled  horizontally  fill  region  otherwise  must  tiled  vertically  param  width  the  width  the  region  filled  param  height  the  height  the  region  filled  param  vertical  true  sweeps  from  top  bottom  else  sweeps  from  left  right  param from rgb  the  color  start  with  param  rgb  the  color  end  with  param red bits  the  number  significant  red  bits  for  palette  modes  param green bits  the  number  significant  green  bits  for  palette  modes  param blue bits  the  number  significant  blue  bits  for  palette  modes  return  the  new image data
+gradients  are  drawn  tiled  bands
+select  algorithm  depending  the  depth  the  screen
+precise  color
+dithered  color
+dithered  two  tone
+fill  gradated  values  for  color  channel
+fill  dithered  gradated  values  for  color  channel
+renders  gradient  onto  this  helper  param  the  render  the  gradient  onto  param  device  the  device  the  belongs  param  the  top  left  coordinate  the  region  filled  param  the  top  left  coordinate  the  region  filled  param  width  the  width  the  region  filled  param  height  the  height  the  region  filled  param  vertical  true  sweeps  from  top  bottom  else  sweeps  from  left  right  param from rgb  the  color  start  with  param  rgb  the  color  end  with  param red bits  the  number  significant  red  bits  for  palette  modes  param green bits  the  number  significant  green  bits  for  palette  modes  param blue bits  the  number  significant  blue  bits  for  palette  modes
+create  the  bitmap  and  tile 
+</comments>
+</text>
+</DOC>

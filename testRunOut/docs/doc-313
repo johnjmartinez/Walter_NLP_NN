@@ -1,0 +1,32 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.ModifyListener.java </DOCNO>
+<text>
+<class>
+modify listener
+</class>
+<method>
+modify text
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+modify listener
+swt event listener
+modify text
+modify event
+
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+classes  which  implement  this  interface  provide  method  that  deals  with  the  events  that  are  generated  when  text  modified  after  creating  instance  class  that  implements  this  interface  can  added  text  widget  using  the  code add modify listener  code  method  and  removed  using  the  code remove modify listener  code  method  when  the  text  modified  the modify text  method  will  invoked  see modify event
+sent  when  the  text  modified  param  event  containing  information  about  the  modify
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,930 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.CoolItem.java </DOCNO>
+<text>
+<class>
+cool item
+</class>
+<method>
+cool item
+cool item
+add selection listener
+check subclass
+compute size
+get bounds
+get client area
+get control
+get parent
+release child
+release widget
+set control
+get preferred size
+set preferred size
+set preferred size
+get size
+set size
+set size
+get minimum size
+set minimum size
+set minimum size
+get wrap
+set wrap
+remove selection listener
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ events
+cool item
+ item
+cool bar
+ parent
+ control
+ control
+
+ ideal
+ minimum
+cool item
+cool bar
+ parent
+ style
+ parent
+ style
+ parent
+ parent
+ parent
+create item
+ parent
+get item count
+cool item
+cool bar
+ parent
+ style
+ index
+ parent
+ style
+ parent
+ parent
+ parent
+create item
+ index
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+check subclass
+valid subclass
+ error
+ swt
+error invalid subclass
+ point
+compute size
+ hint
+ hint
+check widget
+ index
+ parent
+ index
+ index
+ point
+ width
+ hint
+ height
+ hint
+ hint
+ swt
+ default
+ width
+ hint
+ swt
+ default
+ height
+ width
+ parent
+get margin
+ index
+ point
+ width
+ height
+ rectangle
+get bounds
+check widget
+ index
+ parent
+ index
+ index
+ rectangle
+ hwnd
+ parent
+ handle
+ rect
+ rect
+ rect
+
+send message
+ hwnd
+
+ getrect
+ index
+ rect
+
+comctl 32_ major
+ margins
+ margins
+ margins
+
+send message
+ hwnd
+
+ getbandmargins
+ margins
+ rect
+ left
+ margins
+left width
+ rect
+ right
+ margins
+right width
+ parent
+last item row
+ index
+ rect
+ right
+ parent
+ style
+ swt
+ flat
+cool bar
+separator width
+ width
+ rect
+ right
+ rect
+ left
+ height
+ rect
+ bottom
+ rect
+ top
+ rectangle
+ rect
+ left
+ rect
+ top
+ width
+ height
+ rectangle
+get client area
+check widget
+ index
+ parent
+ index
+ index
+ rectangle
+ hwnd
+ parent
+ handle
+ rect
+inset rect
+ rect
+
+send message
+ hwnd
+
+ getbandborders
+ index
+inset rect
+ rect
+ rect
+ rect
+
+send message
+ hwnd
+
+ getrect
+ index
+ rect
+
+ rect
+ left
+inset rect
+ left
+
+ rect
+ top
+ width
+ rect
+ right
+ rect
+ left
+inset rect
+ left
+ height
+ rect
+ bottom
+ rect
+ top
+ parent
+ style
+ swt
+ flat
+
+inset rect
+ top
+ width
+inset rect
+ right
+ height
+inset rect
+ top
+inset rect
+ bottom
+ index
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+ band
+ mask
+
+rbbim headersize
+
+send message
+ hwnd
+
+ getbandinfo
+ index
+ band
+ width
+ width
+ band
+ header
+ rectangle
+
+
+ width
+ height
+ control
+get control
+check widget
+ control
+cool bar
+get parent
+check widget
+ parent
+release child
+release child
+ parent
+destroy item
+release widget
+release widget
+ control
+ parent
+set control
+ control
+ control
+check widget
+ control
+ control
+ disposed
+ error
+ swt
+error invalid argument
+ control
+ parent
+ parent
+ error
+ swt
+error invalid parent
+ index
+ parent
+ index
+ index
+ control
+ control
+ disposed
+ control
+ control
+old control
+ control
+new control
+ control
+ hwnd
+ parent
+ handle
+hwnd child
+new control
+ control
+top handle
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+ band
+ mask
+
+rbbim child
+ band
+hwnd child
+hwnd child
+ control
+new control
+hwnd above
+new control
+hwnd above
+
+get window
+hwnd child
+
+ hwndprev
+hide new
+new control
+new control
+get visible
+show old
+old control
+old control
+get visible
+
+send message
+ hwnd
+
+ setbandinfo
+ index
+ band
+hide new
+new control
+set visible
+show old
+old control
+set visible
+hwnd above
+hwnd above
+hwnd child
+ flags
+
+swp nosize
+
+swp nomove
+
+swp noactivate
+set window pos
+hwnd child
+hwnd above
+ flags
+ point
+get preferred size
+check widget
+ index
+ parent
+ index
+ index
+ point
+ hwnd
+ parent
+ handle
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+ band
+ mask
+
+rbbim childsize
+
+rbbim idealsize
+
+send message
+ hwnd
+
+ getbandinfo
+ index
+ band
+ width
+ band
+ ideal
+ parent
+get margin
+ index
+ point
+ width
+ band
+min child
+set preferred size
+ width
+ height
+check widget
+ index
+ parent
+ index
+ index
+ width
+ math
+ max
+ width
+ height
+ math
+ max
+ height
+ ideal
+ hwnd
+ parent
+ handle
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+ band
+ mask
+
+rbbim childsize
+
+send message
+ hwnd
+
+ getbandinfo
+ index
+ band
+ band
+ mask
+
+rbbim childsize
+
+rbbim idealsize
+ band
+ ideal
+ math
+ max
+ width
+ parent
+get margin
+ index
+ band
+max child
+ height
+ minimum
+ band
+min child
+ height
+
+send message
+ hwnd
+
+ setbandinfo
+ index
+ band
+set preferred size
+ point
+ size
+check widget
+ size
+ error
+ swt
+error null argument
+set preferred size
+ size
+
+ size
+
+ point
+get size
+check widget
+ index
+ parent
+ index
+ index
+ point
+ hwnd
+ parent
+ handle
+ rect
+ rect
+ rect
+
+send message
+ hwnd
+
+ getrect
+ index
+ rect
+
+comctl 32_ major
+ margins
+ margins
+ margins
+
+send message
+ hwnd
+
+ getbandmargins
+ margins
+ rect
+ left
+ margins
+left width
+ rect
+ right
+ margins
+right width
+ parent
+last item row
+ index
+ rect
+ right
+ parent
+ style
+ swt
+ flat
+cool bar
+separator width
+ width
+ rect
+ right
+ rect
+ left
+ height
+ rect
+ bottom
+ rect
+ top
+ point
+ width
+ height
+set size
+ width
+ height
+check widget
+ index
+ parent
+ index
+ index
+ width
+ math
+ max
+ width
+ height
+ math
+ max
+ height
+ hwnd
+ parent
+ handle
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+ band
+ mask
+
+rbbim childsize
+
+rbbim idealsize
+
+send message
+ hwnd
+
+ getbandinfo
+ index
+ band
+ ideal
+ band
+ ideal
+ math
+ max
+ width
+ parent
+get margin
+ index
+ minimum
+ band
+min child
+ height
+ band
+ child
+ band
+max child
+ height
+ parent
+last item row
+ index
+
+comctl 32_ major
+ margins
+ margins
+ margins
+
+send message
+ hwnd
+
+ getbandmargins
+ margins
+ width
+ margins
+left width
+ width
+ margins
+right width
+ separator
+ parent
+ style
+ swt
+ flat
+cool bar
+separator width
+ band
+
+ width
+ separator
+ band
+ mask
+
+rbbim size
+
+send message
+ hwnd
+
+ setbandinfo
+ index
+ band
+set size
+ point
+ size
+ size
+ error
+ swt
+error null argument
+set size
+ size
+
+ size
+
+ point
+get minimum size
+check widget
+ index
+ parent
+ index
+ index
+ point
+ hwnd
+ parent
+ handle
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+ band
+ mask
+
+rbbim childsize
+
+send message
+ hwnd
+
+ getbandinfo
+ index
+ band
+ point
+ band
+min child
+ band
+min child
+set minimum size
+ width
+ height
+check widget
+ index
+ parent
+ index
+ index
+ width
+ math
+ max
+ width
+ height
+ math
+ max
+ height
+ minimum
+ hwnd
+ parent
+ handle
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+ band
+ mask
+
+rbbim childsize
+
+send message
+ hwnd
+
+ getbandinfo
+ index
+ band
+ band
+min child
+ width
+ band
+min child
+ height
+
+send message
+ hwnd
+
+ setbandinfo
+ index
+ band
+set minimum size
+ point
+ size
+check widget
+ size
+ error
+ swt
+error null argument
+set minimum size
+ size
+
+ size
+
+get wrap
+ index
+ parent
+ index
+ hwnd
+ parent
+ handle
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+ band
+ mask
+
+rbbim style
+
+send message
+ hwnd
+
+ getbandinfo
+ index
+ band
+ band
+ style
+
+rbbs break
+set wrap
+ wrap
+ index
+ parent
+ index
+ hwnd
+ parent
+ handle
+ rebarbandinfo
+ band
+ rebarbandinfo
+ band
+ size
+ rebarbandinfo
+ sizeof
+ band
+ mask
+
+rbbim style
+
+send message
+ hwnd
+
+ getbandinfo
+ index
+ band
+ wrap
+ band
+ style
+
+rbbs break
+ band
+ style
+
+rbbs break
+
+send message
+ hwnd
+
+ setbandinfo
+ index
+ band
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ selection
+ listener
+event table
+ unhook
+ swt
+default selection
+ listener
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  selectable  user  interface  objects  that  represent  the  dynamically  positionable  areas  code cool bar  code  styles  drop  down  events  selection  important  this  class  not  intended  subclassed 
+constructs  new  instance  this  class  given  its  parent  which  must  code cool bar  code  and  style  value  describing  its  behavior  and  appearance  the  item  added  the  end  the  items  maintained  its  parent  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  drop  down  see  widget check subclass  see  widget get style
+constructs  new  instance  this  class  given  its  parent  which  must  code cool bar  code  style  value  describing  its  behavior  and  appearance  and  the  index  which  place  the  items  maintained  its  parent  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  param  index  the  index  which  store  the  receiver  its  parent  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  drop  down  see  widget check subclass  see  widget get style
+adds  the  listener  the  collection  listeners  that  will  notified  when  the  control  selected  sending  one  the  messages  defined  the  code selection listener  code  interface  code widget selected  code  called  when  the  mouse  over  the  drop  down  arrow  chevron  portion  the  cool  item  the  event  object  detail  field  contains  the  value  code  swt  arrow  code  and  the  and  fields  the  event  object  represent  the  point  the  bottom  left  the  chevron  where  the  menu  should  popped  code widget default selected  code  not  called  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener  see selection event  since 
+returns  the  preferred  size  the  receiver  the  preferred  size  code cool item  code  the  size  that  would  best  displayed  the  width  hint  and  height  hint  arguments  allow  the  caller  ask  the  instance  questions  such  given  particular  width  how  high  does  need  show  all  the  contents  indicate  that  the  caller  does  not  wish  constrain  particular  dimension  the  constant  code  swt  default  code  passed  for  the  hint  param  hint  the  width  hint  can  code  swt  default  code  param  hint  the  height  hint  can  code  swt  default  code  return  the  preferred  size  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  layout  see get bounds  see get size  see  control get border width  see  scrollable compute trim  see  scrollable get client area
+returns  rectangle  describing  the  receiver  size  and  location  relative  its  parent  return  the  receiver  bounding  rectangle  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+not  currently  used
+returns  the  control  that  associated  with  the  receiver  return  the  control  that  contained  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  parent  which  must  code cool bar  code  return  the  receiver  parent  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  control  that  associated  with  the  receiver  the  argument  param  control  the  new  control  that  will  contained  the  receiver  exception illegal argument exception  error  invalid  argument  the  control  has  been  disposed  error  invalid  parent  the  control  not  the  same  widget  tree  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  when  windows  sets  the  rebar  band  child  makes  the  new  child  visible  and  hides  the  old  child  and  moves  the  new  child  the  top  the  order  the  fix  save  and  restore  the  visibility  and  order
+returns  point  describing  the  receiver  ideal  size  the  coordinate  the  result  the  ideal  width  the  receiver  the  coordinate  the  result  the  ideal  height  the  receiver  return  the  receiver  ideal  size  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  receiver  ideal  size  the  point  specified  the  arguments  param  width  the  new  ideal  width  for  the  receiver  param  height  the  new  ideal  height  for  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+get  the  child  size  fields  first  don  overwrite  them
+set  the  size  fields  are  currently  modifying
+sets  the  receiver  ideal  size  the  point  specified  the  argument  param  size  the  new  ideal  size  for  the  receiver  exception illegal argument exception  error  null  argument  the  point  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  point  describing  the  receiver  size  the  coordinate  the  result  the  width  the  receiver  the  coordinate  the  result  the  height  the  receiver  return  the  receiver  size  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  receiver  size  the  point  specified  the  arguments  note  attempting  set  the  width  height  the  receiver  negative  number  will  cause  that  value  set  zero  instead  param  width  the  new  width  for  the  receiver  param  height  the  new  height  for  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+get  the  child  size  fields  first  don  overwrite  them
+set  the  size  fields  are  currently  modifying
+not  set  the  size  for  the  last  item  the  row
+sets  the  receiver  size  the  point  specified  the  argument  note  attempting  set  the  width  height  the  receiver  negative  number  will  cause  them  set  zero  instead  param  size  the  new  size  for  the  receiver  exception illegal argument exception  error  null  argument  the  point  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  minimum  size  that  the  cool  item  can  resized  using  the  cool  item  gripper  return  point  containing  the  minimum  width  and  height  the  cool  item  pixels  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+sets  the  minimum  size  that  the  cool  item  can  resized  using  the  cool  item  gripper  the  point  specified  the  arguments  param  width  the  minimum  width  the  cool  item  pixels  param  height  the  minimum  height  the  cool  item  pixels  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+get  the  child  size  fields  first  don  overwrite  them
+set  the  size  fields  are  currently  modifying
+sets  the  minimum  size  that  the  cool  item  can  resized  using  the  cool  item  gripper  the  point  specified  the  argument  param  size  point  representing  the  minimum  width  and  height  the  cool  item  pixels  exception illegal argument exception  error  null  argument  the  point  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+removes  the  listener  from  the  collection  listeners  that  will  notified  when  the  control  selected  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener  since 
+</comments>
+</text>
+</DOC>

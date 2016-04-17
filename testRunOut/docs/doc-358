@@ -1,0 +1,32 @@
+<DOC>
+<DOCNO>org.eclipse.swt.accessibility.AccessibleTextAdapter.java </DOCNO>
+<text>
+<class>
+accessible text adapter
+</class>
+<method>
+get caret offset
+get selection range
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ accessibility
+accessible text adapter
+accessible text listener
+get caret offset
+accessible text event
+
+get selection range
+accessible text event
+
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  adapter  class  provides  default  implementations  for  the  methods  described  the  code accessible text listener  code  interface  classes  that  wish  deal  with  code accessible text event  code  can  extend  this  class  and  override  only  the  methods  that  they  are  interested  note  accessibility  clients  use  child  identifiers  specify  whether  they  want  information  about  control  one  its  children  child  identifiers  are  increasing  integers  beginning  with  the  identifier  childid  self  represents  the  control  itself  when  returning  child  identifier  client  you  may  use  childid  none  indicate  that  child  control  has  the  required  information  note  this  adapter  typically  used  implementors  custom  control  provide  very  detailed  information  about  the  control  instance  accessibility  clients  see accessible text listener  see accessible text event  since 
+sent  when  accessibility  client  requests  the  current  character  offset  the  text  caret  the  default  behavior  nothing  return  the  caret  offset  the  code  offset  code  field  the  event  object  param  event  object  containing  the  following  fields  child  identifier  specifying  child  the  control  offset  out  the  current  offset  the  text  caret 
+sent  when  accessibility  client  requests  the  range  the  current  text  selection  the  default  behavior  nothing  return  the  selection  start  offset  and  non  negative  length  the  code  offset  code  and  code  length  code  fields  the  event  object  param  event  object  containing  the  following  fields  child  identifier  specifying  child  the  control  offset  out  the  offset  the  current  text  selection  length  out  the  length  the  current  text  selection 
+</comments>
+</text>
+</DOC>

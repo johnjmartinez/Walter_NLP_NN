@@ -1,0 +1,32 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.MenuAdapter.java </DOCNO>
+<text>
+<class>
+menu adapter
+</class>
+<method>
+menu hidden
+menu shown
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+menu adapter
+menu listener
+menu hidden
+menu event
+
+menu shown
+menu event
+
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  adapter  class  provides  default  implementations  for  the  methods  described  the  code menu listener  code  interface  classes  that  wish  deal  with  code menu event  code  can  extend  this  class  and  override  only  the  methods  which  they  are  interested  see menu listener  see menu event
+sent  when  menu  hidden  the  default  behavior  nothing  param  event  containing  information  about  the  menu  operation
+sent  when  menu  shown  the  default  behavior  nothing  param  event  containing  information  about  the  menu  operation
+</comments>
+</text>
+</DOC>

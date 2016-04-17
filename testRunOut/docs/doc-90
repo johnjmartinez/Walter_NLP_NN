@@ -1,0 +1,438 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.PngChunk.java </DOCNO>
+<text>
+<class>
+png chunk
+</class>
+<method>
+png chunk
+get reference
+set reference
+get int
+set int
+get length
+set length
+get type bytes
+set type
+get data
+set data
+get crc
+set crc
+get size
+check crc
+compute crc
+type matches array
+ critical
+get chunk type
+read next from stream
+ validate
+contribute string
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ internal
+ compatibility
+ java
+
+png chunk
+ object
+ reference
+length offset
+type offset
+data offset
+type field length
+length field length
+min length
+chunk unknown
+chunk ihdr
+chunk plte
+chunk idat
+chunk iend
+chunk rns
+type ihdr
+type plte
+type idat
+type iend
+type rns
+crc table
+crc table
+
+
+
+crc table
+
+
+
+
+
+crc table
+
+crc table
+
+crc table
+
+crc table
+
+crc table
+
+png chunk
+ reference
+set reference
+ reference
+get reference
+ reference
+set reference
+ reference
+ reference
+ reference
+get int
+ offset
+ answer
+ answer
+ reference
+ offset
+ answer
+ reference
+ offset
+ answer
+ reference
+ offset
+ answer
+ reference
+ offset
+ answer
+set int
+ offset
+ value
+ reference
+ offset
+ value
+ reference
+ offset
+ value
+ reference
+ offset
+ value
+ reference
+ offset
+ value
+get length
+get int
+length offset
+set length
+ value
+set int
+length offset
+ value
+get type bytes
+ type
+ system
+ arraycopy
+ reference
+type offset
+ type
+type field length
+ type
+set type
+ value
+ value
+ length
+type field length
+ swt
+ error
+ swt
+error invalid argument
+ system
+ arraycopy
+ value
+ reference
+type offset
+type field length
+get data
+data length
+get length
+ reference
+ length
+min length
+data length
+ swt
+ error
+ swt
+error invalid range
+ data
+data length
+ system
+ arraycopy
+ reference
+data offset
+ data
+data length
+ data
+set data
+ data
+set length
+ data
+ length
+ system
+ arraycopy
+ data
+ reference
+data offset
+ data
+ length
+set crc
+compute crc
+get crc
+crc offset
+data offset
+get length
+get int
+crc offset
+set crc
+ value
+crc offset
+data offset
+get length
+set int
+crc offset
+ value
+get size
+min length
+get length
+check crc
+ crc
+compute crc
+stored crc
+get crc
+ crc
+stored crc
+compute crc
+ crc
+ start
+type offset
+ stop
+data offset
+get length
+
+ start
+
+ stop
+
+ index
+ crc
+ reference
+
+ crc
+crc table
+ index
+ crc
+ crc
+type matches array
+ array
+
+
+type field length
+
+ reference
+type offset
+
+ array
+
+ critical
+ character
+upper case
+get type bytes
+get chunk type
+type matches array
+type ihdr
+chunk ihdr
+type matches array
+type plte
+chunk plte
+type matches array
+type idat
+chunk idat
+type matches array
+type iend
+chunk iend
+type matches array
+type rns
+chunk rns
+chunk unknown
+png chunk
+read next from stream
+data input stream
+ stream
+header length
+length field length
+type field length
+header bytes
+header length
+ result
+ stream
+ read
+header bytes
+header length
+ stream
+ unread
+header bytes
+ result
+header length
+png chunk
+temp chunk
+png chunk
+header bytes
+chunk length
+temp chunk
+get size
+ chunk
+chunk length
+ result
+ stream
+ read
+ chunk
+chunk length
+ result
+chunk length
+temp chunk
+get chunk type
+chunk ihdr
+png ihdr chunk
+ chunk
+chunk plte
+png plte chunk
+ chunk
+chunk idat
+png idat chunk
+ chunk
+chunk iend
+png iend chunk
+ chunk
+chunk rns
+png trns chunk
+ chunk
+png chunk
+ chunk
+ exception
+
+ validate
+png file read state
+read state
+png ihdr chunk
+header chunk
+ reference
+ length
+min length
+ swt
+ error
+ swt
+error invalid image
+ type
+get type bytes
+ character
+upper case
+ type
+ swt
+ error
+ swt
+error invalid image
+
+
+type field length
+
+ compatibility
+ letter
+ type
+
+ swt
+ error
+ swt
+error invalid image
+check crc
+ swt
+ error
+ swt
+error invalid image
+contribute string
+string buffer
+ buffer
+ string
+ string
+string buffer
+ buffer
+string buffer
+ buffer
+ append
+ buffer
+ append
+ buffer
+ append
+get length
+ buffer
+ append
+ type
+get type bytes
+
+
+ type
+ length
+
+ buffer
+ append
+ type
+
+contribute string
+ buffer
+ buffer
+ append
+ buffer
+ append
+ integer
+hex string
+get crc
+ buffer
+ append
+ buffer
+ string
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+critical  chunks
+non  critical  chunks
+construct png chunk  using  the  reference  bytes  given
+get  the png chunk  reference byte array
+set  the png chunk  reference byte array
+get  the  bit  integer  from  the  reference  byte  array  the  given  offset
+set  the  bit  integer  the  reference  byte  array  the  given  offset
+get  the  length  the  data  component  this  chunk  this  not  the  length  the  entire  chunk
+set  the  length  the  data  component  this  chunk  this  not  the  length  the  entire  chunk
+get  the  chunk  type  this  four  byte  value  each  byte  should  ascii  character  the  first  byte  upper  case  the  chunk  critical  the  second  byte  upper  case  the  chunk  publicly  defined  the  third  byte  must  upper  case  the  fourth  byte  upper  case  the  chunk  unsafe  copy  public  chunk  types  are  defined  the  png  development  group
+set  the  chunk  type  this  four  byte  value  each  byte  should  ascii  character  the  first  byte  upper  case  the  chunk  critical  the  second  byte  upper  case  the  chunk  publicly  defined  the  third  byte  must  upper  case  the  fourth  byte  upper  case  the  chunk  unsafe  copy  public  chunk  types  are  defined  the  png  development  group
+get  the  chunk  data
+set  the  chunk  data  this  method  has  two  side  effects  will  set  the  length  field  the  length  the  data  array  given  will  set  the  crc  field  the  computed  crc  value  the  data  array  given
+get  the  crc  value  for  the  chunk  data  ensure  that  the  length  field  has  good  value  before  making  this  call
+set  the  crc  value  for  the  chunk  data  ensure  that  the  length  field  has  good  value  before  making  this  call
+get  the  chunk  total  size  including  the  length  type  and  crc  fields
+compute  the  crc  value  for  the  chunk  data  answer  whether  this  value  matches  the  value  stored  the  chunk
+answer  the  crc  value  chunk  data
+read  the  next  png  chunk  from  the  input  stream  given  unable  read  chunk  return  null
+answer  whether  the  chunk  valid  png  chunk
+the  third  character  must  upper  case
+all  characters  must  letters
+the  stored  crc  must  match  the  data  computed  crc
+provided  that  subclasses  can  override  and  add  data  the  string  call
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
+</comments>
+</text>
+</DOC>

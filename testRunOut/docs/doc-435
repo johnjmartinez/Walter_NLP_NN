@@ -1,0 +1,1238 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.ToolItem.java </DOCNO>
+<text>
+<class>
+tool item
+</class>
+<method>
+tool item
+tool item
+add selection listener
+check style
+check subclass
+ click
+create disabled image
+get bounds
+get control
+get disabled image
+get enabled
+get hot image
+get parent
+get selection
+get tool tip text
+get width
+ enabled
+release child
+release widget
+release images
+remove selection listener
+resize control
+select radio
+set control
+set enabled
+set disabled image
+set hot image
+set image
+set radio selection
+set selection
+set text
+set tool tip text
+set width
+update images
+widget style
+command child
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ events
+tool item
+ item
+tool bar
+ parent
+ control
+ control
+ string
+tool tip text
+ image
+disabled image
+hot image
+ image
+disabled image
+
+tool item
+tool bar
+ parent
+ style
+ parent
+check style
+ style
+ parent
+ parent
+ parent
+create item
+ parent
+get item count
+tool item
+tool bar
+ parent
+ style
+ index
+ parent
+check style
+ style
+ parent
+ parent
+ parent
+create item
+ index
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+check style
+ style
+check bits
+ style
+ swt
+ push
+ swt
+ check
+ swt
+ radio
+ swt
+ separator
+ swt
+drop down
+check subclass
+valid subclass
+ error
+ swt
+error invalid subclass
+ click
+drop down
+ hwnd
+ parent
+ handle
+
+get key state
+
+ lbutton
+ index
+
+send message
+ hwnd
+
+ commandtoindex
+
+ rect
+ rect
+ rect
+
+send message
+ hwnd
+
+ getitemrect
+ index
+ rect
+hot index
+
+send message
+ hwnd
+
+ gethotitem
+
+ rect
+ top
+ rect
+ bottom
+ rect
+ top
+ param
+drop down
+ rect
+ right
+ rect
+ left
+
+ parent
+ignore mouse
+
+send message
+ hwnd
+
+ lbuttondown
+ param
+
+send message
+ hwnd
+
+ lbuttonup
+ param
+ parent
+ignore mouse
+hot index
+
+send message
+ hwnd
+
+ sethotitem
+hot index
+ image
+create disabled image
+ image
+ image
+ color
+ color
+ image
+ display
+ image
+ swt
+image disable
+ rectangle
+get bounds
+check widget
+ hwnd
+ parent
+ handle
+ index
+
+send message
+ hwnd
+
+ commandtoindex
+
+ rect
+ rect
+ rect
+
+send message
+ hwnd
+
+ getitemrect
+ index
+ rect
+ width
+ rect
+ right
+ rect
+ left
+ height
+ rect
+ bottom
+ rect
+ top
+ rectangle
+ rect
+ left
+ rect
+ top
+ width
+ height
+ control
+get control
+check widget
+ control
+ image
+get disabled image
+check widget
+disabled image
+get enabled
+check widget
+ style
+ swt
+ separator
+ state
+ disabled
+ hwnd
+ parent
+ handle
+ state
+
+send message
+ hwnd
+
+ getstate
+
+ state
+
+tbstate enabled
+ image
+get hot image
+check widget
+hot image
+tool bar
+get parent
+check widget
+ parent
+get selection
+check widget
+ style
+ swt
+ check
+ swt
+ radio
+ hwnd
+ parent
+ handle
+ state
+
+send message
+ hwnd
+
+ getstate
+
+ state
+
+tbstate checked
+ string
+get tool tip text
+check widget
+tool tip text
+get width
+check widget
+ hwnd
+ parent
+ handle
+ index
+
+send message
+ hwnd
+
+ commandtoindex
+
+ rect
+ rect
+ rect
+
+send message
+ hwnd
+
+ getitemrect
+ index
+ rect
+ rect
+ right
+ rect
+ left
+ enabled
+check widget
+get enabled
+ parent
+ enabled
+release child
+release child
+ parent
+destroy item
+release widget
+release widget
+ parent
+ control
+tool tip text
+disabled image
+hot image
+disabled image
+disabled image
+ dispose
+disabled image
+release images
+ tbbuttoninfo
+ info
+ tbbuttoninfo
+ info
+ size
+ tbbuttoninfo
+ sizeof
+ info
+ mask
+
+tbif image
+
+tbif style
+ hwnd
+ parent
+ handle
+
+send message
+ hwnd
+
+ getbuttoninfo
+
+ info
+ info
+ style
+
+btns sep
+ info
+ image
+
+ imagenone
+image list
+image list
+ parent
+get image list
+image list
+hot image list
+ parent
+get hot image list
+image list
+disabled image list
+ parent
+get disabled image list
+image list
+image list
+ put
+ info
+ image
+hot image list
+hot image list
+ put
+ info
+ image
+disabled image list
+disabled image list
+ put
+ info
+ image
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ selection
+ listener
+event table
+ unhook
+ swt
+default selection
+ listener
+resize control
+ control
+ control
+ disposed
+ rectangle
+item rect
+get bounds
+ control
+set size
+item rect
+ width
+item rect
+ height
+ rectangle
+ rect
+ control
+get bounds
+ rect
+
+item rect
+
+item rect
+ width
+ rect
+ width
+ rect
+
+item rect
+
+item rect
+ height
+ rect
+ height
+ control
+set location
+ rect
+
+ rect
+
+select radio
+ index
+tool item
+ items
+ parent
+get items
+ index
+ items
+ length
+ items
+ index
+ index
+
+ index
+
+ items
+
+set radio selection
+
+
+ index
+
+ items
+ length
+ items
+
+set radio selection
+
+set selection
+set control
+ control
+ control
+check widget
+ control
+ control
+ disposed
+ error
+ swt
+error invalid argument
+ control
+ parent
+ parent
+ error
+ swt
+error invalid parent
+ style
+ swt
+ separator
+ control
+ control
+ parent
+ style
+ swt
+ wrap
+ swt
+ vertical
+ changed
+ hwnd
+ parent
+ handle
+ tbbuttoninfo
+ info
+ tbbuttoninfo
+ info
+ size
+ tbbuttoninfo
+ sizeof
+ info
+ mask
+
+tbif style
+
+tbif state
+
+send message
+ hwnd
+
+ getbuttoninfo
+
+ info
+ control
+ info
+ style
+
+btns sep
+ changed
+ info
+ style
+
+btns button
+ info
+ style
+
+btns sep
+ state
+ disabled
+ info
+ state
+
+tbstate enabled
+ info
+ state
+
+tbstate enabled
+ info
+ style
+
+btns sep
+ changed
+ info
+ style
+
+btns sep
+ info
+ style
+
+btns button
+ info
+ state
+
+tbstate enabled
+ info
+ mask
+
+tbif image
+ info
+ image
+
+ imagenone
+ changed
+
+send message
+ hwnd
+
+ setbuttoninfo
+
+ info
+
+send message
+ hwnd
+
+ getrows
+
+invalidate rect
+ hwnd
+resize control
+set enabled
+ enabled
+check widget
+ hwnd
+ parent
+ handle
+ state
+
+send message
+ hwnd
+
+ getstate
+
+ state
+
+tbstate enabled
+ enabled
+ enabled
+ state
+
+tbstate enabled
+ state
+ disabled
+ state
+
+tbstate enabled
+ state
+ disabled
+
+send message
+ hwnd
+
+ setstate
+
+ state
+ image
+update images
+ enabled
+ parent
+get enabled
+set disabled image
+ image
+ image
+check widget
+ style
+ swt
+ separator
+ image
+ image
+ disposed
+ error
+ swt
+error invalid argument
+disabled image
+ image
+update images
+get enabled
+ parent
+get enabled
+set hot image
+ image
+ image
+check widget
+ style
+ swt
+ separator
+ image
+ image
+ disposed
+ error
+ swt
+error invalid argument
+hot image
+ image
+update images
+get enabled
+ parent
+get enabled
+set image
+ image
+ image
+check widget
+ style
+ swt
+ separator
+ image
+ image
+ disposed
+ error
+ swt
+error invalid argument
+set image
+ image
+update images
+get enabled
+ parent
+get enabled
+set radio selection
+ value
+ style
+ swt
+ radio
+get selection
+ value
+set selection
+ value
+post event
+ swt
+ selection
+set selection
+ selected
+check widget
+ style
+ swt
+ check
+ swt
+ radio
+ hwnd
+ parent
+ handle
+ state
+
+send message
+ hwnd
+
+ getstate
+
+ state
+
+tbstate checked
+ selected
+ selected
+ state
+
+tbstate checked
+ state
+
+tbstate checked
+
+send message
+ hwnd
+
+ setstate
+
+ state
+ style
+ swt
+ check
+ swt
+ radio
+get enabled
+ parent
+get enabled
+update images
+set text
+ string
+ string
+check widget
+ string
+ error
+ swt
+error null argument
+ style
+ swt
+ separator
+set text
+ string
+ hwnd
+ parent
+ handle
+ heap
+
+get process heap
+ tchar
+ buffer
+ tchar
+ parent
+get code page
+ string
+byte count
+ buffer
+ length
+ tchar
+ sizeof
+psz text
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+psz text
+ buffer
+byte count
+ tbbuttoninfo
+ info
+ tbbuttoninfo
+ info
+ size
+ tbbuttoninfo
+ sizeof
+ info
+ mask
+
+tbif text
+
+tbif style
+ info
+psz text
+psz text
+ info
+ style
+widget style
+
+btns autosize
+ string
+ length
+ info
+ style
+
+btns showtext
+
+send message
+ hwnd
+
+ setbuttoninfo
+
+ info
+
+heap free
+ heap
+psz text
+ font
+
+send message
+ hwnd
+
+ getfont
+
+send message
+ hwnd
+
+ setfont
+ font
+ parent
+layout items
+set tool tip text
+ string
+ string
+check widget
+tool tip text
+ string
+set width
+ width
+check widget
+ style
+ swt
+ separator
+ width
+ hwnd
+ parent
+ handle
+ tbbuttoninfo
+ info
+ tbbuttoninfo
+ info
+ size
+ tbbuttoninfo
+ sizeof
+ info
+ mask
+
+tbif size
+ info
+
+ width
+
+send message
+ hwnd
+
+ setbuttoninfo
+
+ info
+ parent
+layout items
+update images
+ enabled
+ hwnd
+ parent
+ handle
+ tbbuttoninfo
+ info
+ tbbuttoninfo
+ info
+ size
+ tbbuttoninfo
+ sizeof
+ info
+ mask
+
+tbif image
+
+send message
+ hwnd
+
+ getbuttoninfo
+
+ info
+ info
+ image
+
+ imagenone
+ image
+image list
+image list
+ parent
+get image list
+image list
+hot image list
+ parent
+get hot image list
+image list
+disabled image list
+ parent
+get disabled image list
+ info
+ image
+
+ imagenone
+ rectangle
+ bounds
+ image
+get bounds
+list style
+ parent
+ style
+ swt
+right left
+image list
+image list
+ display
+get image list tool bar
+list style
+ bounds
+ width
+ bounds
+ height
+disabled image list
+disabled image list
+ display
+get image list tool bar disabled
+list style
+ bounds
+ width
+ bounds
+ height
+hot image list
+hot image list
+ display
+get image list tool bar hot
+list style
+ bounds
+ width
+ bounds
+ height
+ image
+ disabled
+disabled image
+disabled image
+disabled image
+disabled image
+ dispose
+disabled image
+ disabled
+ image
+ enabled
+ color
+ color
+ parent
+get background
+ disabled
+disabled image
+create disabled image
+ image
+ color
+ image
+ image
+ image
+ hot
+hot image
+ style
+ swt
+ check
+ swt
+ radio
+ enabled
+ image
+ hot
+ disabled
+ info
+ image
+image list
+ add
+ image
+disabled image list
+ add
+ disabled
+hot image list
+ add
+ hot
+ hot
+ image
+ parent
+set image list
+image list
+ parent
+set disabled image list
+disabled image list
+ parent
+set hot image list
+hot image list
+ image
+ disabled
+disabled image list
+ image
+disabled image
+disabled image
+ dispose
+disabled image
+ disabled
+disabled image
+disabled image
+ disabled
+ image
+ enabled
+ color
+ color
+ parent
+get background
+ disabled
+disabled image
+create disabled image
+ image
+ color
+disabled image list
+ put
+ info
+ image
+ disabled
+ image
+ image
+ image
+ hot
+hot image
+ style
+ swt
+ check
+ swt
+ radio
+ enabled
+ image
+ hot
+ disabled
+image list
+image list
+ put
+ info
+ image
+ image
+hot image list
+hot image list
+ put
+ info
+ image
+ hot
+ hot
+ image
+ image
+ info
+ image
+
+ imagenone
+ info
+ mask
+
+tbif size
+ info
+
+
+send message
+ hwnd
+
+ setbuttoninfo
+
+ info
+ parent
+layout items
+widget style
+ style
+ swt
+drop down
+
+btns dropdown
+ style
+ swt
+ push
+
+btns button
+ style
+ swt
+ check
+
+btns check
+ style
+ swt
+ radio
+
+btns check
+ style
+ swt
+ separator
+
+btns sep
+
+btns button
+ lresult
+command child
+ param
+ param
+ style
+ swt
+ radio
+ parent
+get style
+ swt
+radio group
+select radio
+post event
+ swt
+ selection
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  represent  selectable  user  interface  object  that  represents  button  tool  bar  styles  push  check  radio  separator  drop  down  events  selection  note  only  one  the  styles  check  push  radio  separator  and  drop  down  may  specified  important  this  class  not  intended  subclassed 
+constructs  new  instance  this  class  given  its  parent  which  must  code tool bar  code  and  style  value  describing  its  behavior  and  appearance  the  item  added  the  end  the  items  maintained  its  parent  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  push  see  swt  check  see  swt  radio  see  swt  separator  see  swt  drop  down  see  widget check subclass  see  widget get style
+constructs  new  instance  this  class  given  its  parent  which  must  code tool bar  code  style  value  describing  its  behavior  and  appearance  and  the  index  which  place  the  items  maintained  its  parent  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  param  index  the  index  store  the  receiver  its  parent  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  push  see  swt  check  see  swt  radio  see  swt  separator  see  swt  drop  down  see  widget check subclass  see  widget get style
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  control  selected  sending  one  the  messages  defined  the  code selection listener  code  interface  when  code widget selected  code  called  when  the  mouse  over  the  arrow  portion  drop  down  tool  the  event  object  detail  field  contains  the  value  code  swt  arrow  code  code widget default selected  code  not  called  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener  see selection event
+order  emulate  all  the  processing  that  happens  when  mnemonic  key  pressed  fake  mouse  press  and  release  this  will  ensure  that  radio  and  pull  down  items  are  handled  properly
+order  consistent  with  the  way  that  disabled  images  appear  other  places  the  user  interface  use  the  swt  graphics  create  disabled  image  instead  calling draw state
+this  code  intentionally  commented
+  win
+return  new  image  display  image  swt  image  disable
+
+rectangle  rect  image get bounds
+image  disabled  new  image  display  rect
+new  disabled
+set background  color
+fill rectangle  rect
+int  handle
+int  image  image  handle
+int  flags  dss  disabled
+switch  image  type
+case  swt  bitmap  flags  dst  bitmap  break
+case  swt  icon  flags  dst  icon  break
+
+draw state  image  rect  width  rect  height  flags
+  dispose
+return  disabled
+returns  rectangle  describing  the  receiver  size  and  location  relative  its  parent  return  the  receiver  bounding  rectangle  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  control  that  used  fill  the  bounds  the  item  when  the  items  code  separator  code  return  the  control  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  disabled  image  has  one  null  does  not  the  disabled  image  displayed  when  the  receiver  disabled  return  the  receiver  disabled  image  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  true  code  the  receiver  enabled  and  code  false  code  otherwise  disabled  control  typically  not  selectable  from  the  user  interface  and  draws  with  inactive  grayed  look  return  the  receiver  enabled  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  enabled
+returns  the  receiver  hot  image  has  one  null  does  not  the  hot  image  displayed  when  the  mouse  enters  the  receiver  return  the  receiver  hot  image  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  parent  which  must  code tool bar  code  return  the  receiver  parent  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  true  code  the  receiver  selected  and  false  otherwise  when  the  receiver  type  code  check  code  code  radio  code  selected  when  checked  which  some  platforms  draw  pushed  button  the  receiver  any  other  type  this  method  returns  false  return  the  selection  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  tool  tip  text  null  has  not  been  set  return  the  receiver  tool  tip  text  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+gets  the  width  the  receiver  return  the  width  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  true  code  the  receiver  enabled  and  all  the  receiver  ancestors  are  enabled  and  code  false  code  otherwise  disabled  control  typically  not  selectable  from  the  user  interface  and  draws  with  inactive  grayed  look  return  the  receiver  enabled  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see get enabled
+feature  windows  for  some  reason  tool  item  that  has  the  style  btns  sep  does  not  return  imagenone  when  queried  for  image  index  despite  the  fact  that  attempt  has  been  made  assign  image  the  item  result  operations  image  list  that  use  the  wrong  index  cause  random  results  the  fix  ensure  that  the  tool  item  not  separator  before  using  the  image  index  since  separators  cannot  have  image  and  one  never  assigned  this  not  problem
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  control  selected  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener
+set  the  size  and  location  the  control  separately  minimize  flashing  the  case  where  the  control  does  not  resize  the  size  that  was  requested  this  case  can  occur  when  the  control  combo  box
+sets  the  control  that  used  fill  the  bounds  the  item  when  the  items  code  separator  code  param  control  the  new  control  exception illegal argument exception  error  invalid  argument  the  control  has  been  disposed  error  invalid  parent  the  control  not  the  same  widget  tree  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  when  tool  bar  wraps  tool  items  with  the  style  btns  sep  are  used  wrap  points  this  means  that  controls  that  are  placed  top  separator  items  are  not  positioned  properly  also  vertical  tool  bars  are  implemented  using  setrows  set  the  number  rows  when  control  placed  top  separator  the  height  the  separator  does  not  grow  the  fix  both  cases  change  the  tool  item  style  from  btns  sep  btns  button  causing  the  item  wrap  like  tool  item  button  the  new  tool  item  button  disabled  avoid  key  traversal  and  the  image  set  imagenone  avoid  getting  the  first  image  from  the  image  list
+bug  windows  when  setbuttoninfo  changes  the  style  tool  item  from  btns  sep  btns  button  and  the  tool  bar  wrapped  the  tool  bar  does  not  redraw  properly  windows  uses  separator  items  wrap  points  and  sometimes  draws  etching  above  below  and  entire  row  the  fix  redraw  the  tool  bar
+enables  the  receiver  the  argument  code  true  code  and  disables  otherwise  disabled  control  typically  not  selectable  from  the  user  interface  and  draws  with  inactive  grayed  look  param  enabled  the  new  enabled  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  when  setstate  used  set  the  state  tool  item  the  item  redraws  even  when  the  state  has  not  changed  the  fix  detect  this  case  and  avoid  setting  the  state
+sets  the  receiver  disabled  image  the  argument  which  may  null  indicating  that  disabled  image  should  displayed  the  disbled  image  displayed  when  the  receiver  disabled  param  image  the  disabled  image  display  the  receiver  may  null  exception illegal argument exception  error  invalid  argument  the  image  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  receiver  hot  image  the  argument  which  may  null  indicating  that  hot  image  should  displayed  the  hot  image  displayed  when  the  mouse  enters  the  receiver  param  image  the  hot  image  display  the  receiver  may  null  exception illegal argument exception  error  invalid  argument  the  image  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  selection  state  the  receiver  when  the  receiver  type  code  check  code  code  radio  code  selected  when  checked  which  some  platforms  draw  pushed  button  param  selected  the  new  selection  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  when  setstate  used  set  the  state  tool  item  the  item  redraws  even  when  the  state  has  not  changed  the  fix  detect  this  case  and  avoid  setting  the  state
+bug  windows  when  tool  item  with  the  style  btns  check  btns  checkgroup  selected  and  then  disabled  the  item  does  not  draw  using  the  disabled  image  the  fix  use  the  disabled  image  all  image  lists  note  this  means  that  the  image  list  must  updated  when  the  selection  changes  disabled  tool  item
+sets  the  receiver  text  the  string  may  include  the  mnemonic  character  mnemonics  are  indicated  amp  that  causes  the  next  character  the  mnemonic  when  the  user  presses  key  sequence  that  matches  the  mnemonic  selection  event  occurs  most  platforms  the  mnemonic  appears  underlined  but  may  emphasised  platform  specific  manner  the  mnemonic  indicator  character  amp  can  escaped  doubling  the  string  causing  single  amp  displayed  param  string  the  new  text  exception illegal argument exception  error  null  argument  the  text  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  windows  for  some  reason  when  the  font  set  before  any  tool  item  has  text  the  tool  items  resize  very  small  size  also  tool  item  will  only  show  text  when  text  has  already  been  set  one  item  and  then  new  item  created  the  fix  use  setfont  force  the  tool  bar  redraw  and  layout
+sets  the  receiver  tool  tip  text  the  argument  which  may  null  indicating  that  tool  tip  text  should  shown  param  string  the  new  tool  tip  text  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  width  the  receiver  for  code  separator  code tool items  param  width  the  new  width  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  windows  when  tool  item  with  the  style  btns  check  btns  checkgroup  selected  and  then  disabled  the  item  does  not  draw  using  the  disabled  image  the  fix  assign  the  disabled  image  all  image  lists
+bug  windows  when  tool  item  with  the  style  btns  check  btns  checkgroup  selected  and  then  disabled  the  item  does  not  draw  using  the  disabled  image  the  fix  use  the  disabled  image  all  image  lists
+bug  windows  the  width  item  has  already  been  calculated  the  tool  bar  control  will  not  recalculate  include  the  space  for  the  image  the  fix  set  the  width  zero  forcing  the  control  recalculate  the  width  for  the  item
+this  code  intentionally  commented  order  consistently  support  radio  tool  items  across  platforms  the  platform  radio  behavior  not  used
+style  swt  radio  return  btns  checkgroup
+</comments>
+</text>
+</DOC>

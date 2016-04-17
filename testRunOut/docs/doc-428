@@ -1,0 +1,405 @@
+<DOC>
+<DOCNO>org.eclipse.swt.printing.PrintDialog.java </DOCNO>
+<text>
+<class>
+print dialog
+</class>
+<method>
+print dialog
+print dialog
+get scope
+set scope
+get start page
+set start page
+get end page
+set end page
+get print file
+set print file
+check subclass
+ open
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ printing
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+print dialog
+ dialog
+ scope
+printer data
+all pages
+start page
+end page
+print file
+print dialog
+ shell
+ parent
+ parent
+ swt
+primary modal
+print dialog
+ shell
+ parent
+ style
+ parent
+ style
+check subclass
+get scope
+ scope
+set scope
+ scope
+ scope
+ scope
+get start page
+start page
+set start page
+start page
+start page
+start page
+get end page
+end page
+set end page
+end page
+end page
+end page
+get print file
+print file
+set print file
+print file
+print file
+print file
+check subclass
+ string
+ name
+get class
+get name
+ string
+valid name
+print dialog
+get name
+valid name
+ equals
+ name
+ swt
+ error
+ swt
+error invalid subclass
+printer data
+ open
+ printdlg
+
+ printdlg
+
+struct size
+ printdlg
+ sizeof
+ control
+ parent
+get parent
+ parent
+
+hwnd owner
+ parent
+ handle
+
+ flags
+
+ usedevmodecopiesandcollate
+print file
+
+ flags
+
+ printtofile
+ scope
+printer data
+page range
+
+ flags
+
+ pagenums
+printer data
+ selection
+
+ flags
+
+ selection
+
+ flags
+
+ allpages
+
+min page
+
+max page
+
+from page
+ math
+ min
+ math
+ max
+start page
+
+ page
+ math
+ min
+ math
+ max
+end page
+ display
+ display
+ parent
+get display
+ shell
+ shells
+ display
+get shells
+get style
+ swt
+application modal
+ swt
+system modal
+
+
+ shells
+ length
+
+ shells
+
+ enabled
+ shells
+
+ parent
+ shells
+
+set enabled
+ shells
+
+printer data
+ data
+ success
+
+print dlg
+
+get style
+ swt
+application modal
+ swt
+system modal
+
+
+ shells
+ length
+
+ shells
+
+ shells
+
+ disposed
+ shells
+
+set enabled
+ success
+ mem
+
+dev names
+ size
+
+global size
+ mem
+ tchar
+ sizeof
+ tchar
+ sizeof
+ ptr
+
+global lock
+ mem
+ offsets
+
+move memory
+ offsets
+ ptr
+ offsets
+ length
+ tchar
+ buffer
+ tchar
+ size
+
+move memory
+ buffer
+ ptr
+ size
+
+global unlock
+ mem
+driver offset
+ offsets
+
+driver offset
+
+ size
+ buffer
+ tchar
+driver offset
+
+
+ string
+ driver
+ buffer
+ string
+driver offset
+
+device offset
+ offsets
+
+device offset
+
+ size
+ buffer
+ tchar
+device offset
+
+
+ string
+ device
+ buffer
+ string
+device offset
+
+output offset
+ offsets
+
+output offset
+
+ size
+ buffer
+ tchar
+output offset
+
+
+ string
+ output
+ buffer
+ string
+output offset
+
+ data
+printer data
+ driver
+ device
+
+ flags
+
+ pagenums
+ data
+ scope
+printer data
+page range
+ data
+start page
+
+from page
+ data
+end page
+
+ page
+
+ flags
+
+ selection
+ data
+ scope
+printer data
+ selection
+ data
+print file
+
+ flags
+
+ printtofile
+ data
+print file
+ data
+file name
+ output
+ data
+copy count
+
+ copies
+ data
+ collate
+
+ flags
+
+ collate
+ mem
+
+dev mode
+ size
+
+global size
+ mem
+ ptr
+
+global lock
+ mem
+ data
+other data
+ size
+
+move memory
+ data
+other data
+ ptr
+ size
+
+global unlock
+ mem
+end page
+ data
+end page
+print file
+ data
+print file
+ scope
+ data
+ scope
+start page
+ data
+start page
+ data
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  allow  the  user  select  printer  and  various  print  related  parameters  prior  starting  print  job  important  this  class  intended  subclassed  only  within  the  swt  implementation 
+constructs  new  instance  this  class  given  only  its  parent  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  see  widget check subclass  see  widget get style
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  see  widget check subclass  see  widget get style
+returns  the  print  job  scope  that  the  user  selected  before  pressing  the  dialog  this  will  one  the  following  values  code  all  pages  code  print  all  pages  the  current  document  code  page  range  code  print  the  range  pages  specified start page  and end page  code  selection  code  print  the  current  selection  return  the  scope  setting  that  the  user  selected
+sets  the  scope  the  print  job  the  user  will  see  this  setting  when  the  dialog  opened  this  can  have  one  the  following  values  code  all  pages  code  print  all  pages  the  current  document  code  page  range  code  print  the  range  pages  specified start page  and end page  code  selection  code  print  the  current  selection  param  scope  the  scope  setting  when  the  dialog  opened
+returns  the  start  page  setting  that  the  user  selected  before  pressing  the  dialog  note  that  this  value  one  based  and  only  valid  the  scope  code  page  range  code  return  the  start  page  setting  that  the  user  selected
+sets  the  start  page  that  the  user  will  see  when  the  dialog  opened  note  that  this  value  one  based  and  only  valid  the  scope  code  page  range  code  param start page  the start page  setting  when  the  dialog  opened
+returns  the  end  page  setting  that  the  user  selected  before  pressing  the  dialog  note  that  this  value  one  based  and  only  valid  the  scope  code  page  range  code  return  the  end  page  setting  that  the  user  selected
+sets  the  end  page  that  the  user  will  see  when  the  dialog  opened  note  that  this  value  one  based  and  only  valid  the  scope  code  page  range  code  param end page  the  end  page  setting  when  the  dialog  opened
+returns  the  print  file  setting  that  the  user  selected  before  pressing  the  dialog  return  the  print  file  setting  that  the  user  selected
+sets  the  print  file  setting  that  the  user  will  see  when  the  dialog  opened  param print file  the  print  file  setting  when  the  dialog  opened
+makes  the  receiver  visible  and  brings  the  front  the  display  return  printer  data  object  describing  the  desired  print  job  parameters  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+get  driver  and  device  from  the  devnames  struct
+ensure  size  multiple  bytes  unicode  platforms
+create printer data  object  and  set  fields  from  printdlg
+bulk  save  the  printer  specific  settings  the  devmode  struct
+</comments>
+</text>
+</DOC>

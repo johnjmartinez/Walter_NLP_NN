@@ -1,0 +1,50 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.ole.win32.TYPEATTR.java </DOCNO>
+<text>
+<class>
+ typeattr
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ typeattr
+guid data
+guid data
+guid data
+guid data
+ lcid
+ reserved
+memid constructor
+memid destructor
+lpstr schema
+size instance
+ typekind
+ funcs
+ vars
+impl types
+size vft
+ alignment
+type flags
+major ver num
+minor ver num
+tdesc alias _union field
+tdesc alias _vt
+idldesc type _dw reserved
+idldesc type idl flags
+ sizeof
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+guid  guid
+typedesc tdesc alias
+idldesc  idldesctype
+</comments>
+</text>
+</DOC>

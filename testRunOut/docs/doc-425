@@ -1,0 +1,39 @@
+<DOC>
+<DOCNO>org.eclipse.swt.browser.StatusTextEvent.java </DOCNO>
+<text>
+<class>
+status text event
+</class>
+<method>
+status text event
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ browser
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ events
+status text event
+typed event
+ string
+ text
+serial version uid
+status text event
+ widget
+
+
+</identifier>
+<comments>
+copyright  2003  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+code status text event  code  sent  link  browser  link status text listener  when  the  status  text  changed  the  status  text  typically  displayed  the  status  bar  browser  application  since 
+status  text
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,53 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.ole.win32.IOleInPlaceActiveObject.java </DOCNO>
+<text>
+<class>
+ole place active object
+</class>
+<method>
+ole place active object
+translate accelerator
+resize border
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ internal
+ win
+ole place active object
+ole window
+ole place active object
+ address
+ address
+translate accelerator
+ msg
+ lpmsg
+ com
+vtbl call
+ address
+ lpmsg
+resize border
+ rect
+prc border
+ window
+frame window
+ com
+vtbl call
+ address
+prc border
+ window
+frame window
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+lpmsg  pointer  message  that  may  need  translating
+</comments>
+</text>
+</DOC>

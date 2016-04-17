@@ -1,0 +1,23 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.CloneableCompatibility.java </DOCNO>
+<text>
+<class>
+cloneable compatibility
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+cloneable compatibility
+ cloneable
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  interface  the  cross  platform  version  the  java  lang  cloneable  interface  part  our  effort  provide  support  for  both  and  platforms  under  this  scheme  classes  need  implement cloneable compatibility  instead  java  lang  cloneable  note  java  lang  cloneable  not  part  cldc 
+</comments>
+</text>
+</DOC>

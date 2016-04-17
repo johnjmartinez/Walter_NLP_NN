@@ -1,0 +1,651 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.Region.java </DOCNO>
+<text>
+<class>
+ region
+</class>
+<method>
+ region
+ region
+ region
+ add
+ add
+ add
+ add
+ contains
+ contains
+ dispose
+ equals
+get bounds
+hash code
+ intersect
+ intersect
+ intersect
+ intersects
+ intersects
+ disposed
+ empty
+ subtract
+ subtract
+ subtract
+ subtract
+ translate
+ translate
+ string
+win 32_new
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ region
+ resource
+ handle
+ region
+ region
+ device
+ device
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ device
+ device
+ handle
+
+create rect rgn
+ handle
+ swt
+ error
+ swt
+error handles
+ device
+ tracking
+ device
+new object
+ region
+ device
+ device
+ handle
+ device
+ device
+ handle
+ handle
+ add
+point array
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+point array
+ swt
+ error
+ swt
+error null argument
+
+ win
+ swt
+ error
+ swt
+error not implemented
+poly rgn
+
+create polygon rgn
+point array
+point array
+ length
+
+ alternate
+
+combine rgn
+ handle
+ handle
+poly rgn
+
+ rgn
+
+delete object
+poly rgn
+ add
+ rectangle
+ rect
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ rect
+ swt
+ error
+ swt
+error null argument
+ add
+ rect
+
+ rect
+
+ rect
+ width
+ rect
+ height
+ add
+
+
+ width
+ height
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ width
+ height
+ swt
+ error
+ swt
+error invalid argument
+rect rgn
+
+create rect rgn
+
+
+
+ width
+
+ height
+
+combine rgn
+ handle
+ handle
+rect rgn
+
+ rgn
+
+delete object
+rect rgn
+ add
+ region
+ region
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ region
+ swt
+ error
+ swt
+error null argument
+ region
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+
+combine rgn
+ handle
+ handle
+ region
+ handle
+
+ rgn
+ contains
+
+
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+
+ region
+ handle
+
+
+ contains
+ point
+
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+
+ swt
+ error
+ swt
+error null argument
+ contains
+
+
+
+
+ dispose
+ handle
+ device
+ disposed
+
+delete object
+ handle
+ handle
+ device
+ tracking
+ device
+dispose object
+ device
+ equals
+ object
+ object
+ object
+ object
+ region
+ region
+ rgn
+ region
+ object
+ handle
+ rgn
+ handle
+ rectangle
+get bounds
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ rect
+ rect
+ rect
+
+get rgn box
+ handle
+ rect
+ rectangle
+ rect
+ left
+ rect
+ top
+ rect
+ right
+ rect
+ left
+ rect
+ bottom
+ rect
+ top
+hash code
+ handle
+ intersect
+ rectangle
+ rect
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ rect
+ swt
+ error
+ swt
+error null argument
+ intersect
+ rect
+
+ rect
+
+ rect
+ width
+ rect
+ height
+ intersect
+
+
+ width
+ height
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ width
+ height
+ swt
+ error
+ swt
+error invalid argument
+rect rgn
+
+create rect rgn
+
+
+
+ width
+
+ height
+
+combine rgn
+ handle
+ handle
+rect rgn
+
+rgn and
+
+delete object
+rect rgn
+ intersect
+ region
+ region
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ region
+ swt
+ error
+ swt
+error null argument
+ region
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+
+combine rgn
+ handle
+ handle
+ region
+ handle
+
+rgn and
+ intersects
+
+
+ width
+ height
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ rect
+
+ rect
+
+set rect
+
+
+
+
+ width
+
+ height
+
+rect region
+ handle
+
+ intersects
+ rectangle
+ rect
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ rect
+ swt
+ error
+ swt
+error null argument
+ intersects
+ rect
+
+ rect
+
+ rect
+ width
+ rect
+ height
+ disposed
+ handle
+ empty
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ rect
+ rect
+ rect
+ result
+
+get rgn box
+ handle
+ rect
+ result
+
+ nullregion
+ rect
+ right
+ rect
+ left
+ rect
+ bottom
+ rect
+ top
+ subtract
+point array
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+point array
+ swt
+ error
+ swt
+error null argument
+
+ win
+ swt
+ error
+ swt
+error not implemented
+poly rgn
+
+create polygon rgn
+point array
+point array
+ length
+
+ alternate
+
+combine rgn
+ handle
+ handle
+poly rgn
+
+rgn diff
+
+delete object
+poly rgn
+ subtract
+ rectangle
+ rect
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ rect
+ swt
+ error
+ swt
+error null argument
+ subtract
+ rect
+
+ rect
+
+ rect
+ width
+ rect
+ height
+ subtract
+
+
+ width
+ height
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ width
+ height
+ swt
+ error
+ swt
+error invalid argument
+rect rgn
+
+create rect rgn
+
+
+
+ width
+
+ height
+
+combine rgn
+ handle
+ handle
+rect rgn
+
+rgn diff
+
+delete object
+rect rgn
+ subtract
+ region
+ region
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ region
+ swt
+ error
+ swt
+error null argument
+ region
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+
+combine rgn
+ handle
+ handle
+ region
+ handle
+
+rgn diff
+ translate
+
+
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+
+offset rgn
+ handle
+
+
+ translate
+ point
+
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+
+ swt
+ error
+ swt
+error null argument
+ translate
+
+
+
+
+ string
+ string
+ disposed
+ handle
+ region
+win 32_new
+ device
+ device
+ handle
+ region
+ device
+ handle
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  represent  areas  coordinate  system  that  are  aggregates  the  areas  covered  number  polygons  application  code  must  explicitly  invoke  the  code  region  dispose  code  method  release  the  operating  system  resources  managed  each  instance  when  those  instances  are  longer  required 
+the  resource  for  the  region  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code 
+constructs  new  empty  region  exception swt error  error  handles  handle  could  not  obtained  for  region  creation 
+constructs  new  empty  region  you  must  dispose  the  region  when  longer  required  param  device  the  device  which  allocate  the  region  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  exception swt error  error  handles  handle  could  not  obtained  for  region  creation  see  dispose  since 
+constructs  new  region  given  handle  the  operating  system  resources  that  should  represent  param  handle  the  handle  for  the  result
+adds  the  given  polygon  the  collection  polygons  the  receiver  maintains  describe  its  area  param point array  points  that  describe  the  polygon  merge  with  the  receiver  exception illegal argument exception  error  null  argument  the  argument  null  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+adds  the  given  rectangle  the  collection  polygons  the  receiver  maintains  describe  its  area  param  rect  the  rectangle  merge  with  the  receiver  exception illegal argument exception  error  null  argument  the  argument  null  error  invalid  argument  the  rectangle  width  height  negative  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+adds  the  given  rectangle  the  collection  polygons  the  receiver  maintains  describe  its  area  param  the  coordinate  the  rectangle  param  the  coordinate  the  rectangle  param  width  the  width  coordinate  the  rectangle  param  height  the  height  coordinate  the  rectangle  exception illegal argument exception  error  invalid  argument  the  rectangle  width  height  negative  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+adds  all  the  polygons  which  make  the  area  covered  the  argument  the  collection  polygons  the  receiver  maintains  describe  its  area  param  region  the  region  merge  exception illegal argument exception  error  null  argument  the  argument  null  error  invalid  argument  the  argument  has  been  disposed  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  code  true  code  the  point  specified  the  arguments  inside  the  area  specified  the  receiver  and  code  false  code  otherwise  param  the  coordinate  the  point  test  for  containment  param  the  coordinate  the  point  test  for  containment  return  code  true  code  the  region  contains  the  point  and  code  false  code  otherwise  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  code  true  code  the  given  point  inside  the  area  specified  the  receiver  and  code  false  code  otherwise  param  the  point  test  for  containment  return  code  true  code  the  region  contains  the  point  and  code  false  code  otherwise  exception illegal argument exception  error  null  argument  the  argument  null  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+disposes  the  operating  system  resources  associated  with  the  region  applications  must  dispose  all  regions  which  they  allocate
+compares  the  argument  the  receiver  and  returns  true  they  represent  the  same  object  using  class  specific  comparison  param  object  the  object  compare  with  this  object  return  code  true  code  the  object  the  same  this  object  and  code  false  code  otherwise  see hash code
+returns  rectangle  which  represents  the  rectangular  union  the  collection  polygons  the  receiver  maintains  describe  its  area  return  bounding  rectangle  for  the  region  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see  rectangle  union
+returns  integer  hash  code  for  the  receiver  any  two  objects  that  return  code  true  code  when  passed  code  equals  code  must  return  the  same  value  for  this  method  return  the  receiver  hash  see  equals
+intersects  the  given  rectangle  the  collection  polygons  the  receiver  maintains  describe  its  area  param  rect  the  rectangle  intersect  with  the  receiver  exception illegal argument exception  error  null  argument  the  argument  null  error  invalid  argument  the  rectangle  width  height  negative  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+intersects  the  given  rectangle  the  collection  polygons  the  receiver  maintains  describe  its  area  param  the  coordinate  the  rectangle  param  the  coordinate  the  rectangle  param  width  the  width  coordinate  the  rectangle  param  height  the  height  coordinate  the  rectangle  exception illegal argument exception  error  invalid  argument  the  rectangle  width  height  negative  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+intersects  all  the  polygons  which  make  the  area  covered  the  argument  the  collection  polygons  the  receiver  maintains  describe  its  area  param  region  the  region  intersect  exception illegal argument exception  error  null  argument  the  argument  null  error  invalid  argument  the  argument  has  been  disposed  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+returns  code  true  code  the  rectangle  described  the  arguments  intersects  with  any  the  polygons  the  receiver  maintains  describe  its  area  and  code  false  code  otherwise  param  the  coordinate  the  origin  the  rectangle  param  the  coordinate  the  origin  the  rectangle  param  width  the  width  the  rectangle  param  height  the  height  the  rectangle  return  code  true  code  the  rectangle  intersects  with  the  receiver  and  code  false  code  otherwise  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see  rectangle  intersects  rectangle
+returns  code  true  code  the  given  rectangle  intersects  with  any  the  polygons  the  receiver  maintains  describe  its  area  and  code  false  code  otherwise  param  rect  the  rectangle  test  for  intersection  return  code  true  code  the  rectangle  intersects  with  the  receiver  and  code  false  code  otherwise  exception illegal argument exception  error  null  argument  the  argument  null  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  see  rectangle  intersects  rectangle
+returns  code  true  code  the  region  has  been  disposed  and  code  false  code  otherwise  this  method  gets  the  dispose  state  for  the  region  when  region  has  been  disposed  error  invoke  any  other  method  using  the  region  return  code  true  code  when  the  region  disposed  and  code  false  code  otherwise
+returns  code  true  code  the  receiver  does  not  cover  any  area  the  coordinate  plane  and  code  false  code  the  receiver  does  cover  some  area  the  plane  return  code  true  code  the  receiver  empty  and  code  false  code  otherwise  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+subtracts  the  given  polygon  from  the  collection  polygons  the  receiver  maintains  describe  its  area  param point array  points  that  describe  the  polygon  merge  with  the  receiver  exception illegal argument exception  error  null  argument  the  argument  null  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+subtracts  the  given  rectangle  from  the  collection  polygons  the  receiver  maintains  describe  its  area  param  rect  the  rectangle  subtract  from  the  receiver  exception illegal argument exception  error  null  argument  the  argument  null  error  invalid  argument  the  rectangle  width  height  negative  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+subtracts  the  given  rectangle  from  the  collection  polygons  the  receiver  maintains  describe  its  area  param  the  coordinate  the  rectangle  param  the  coordinate  the  rectangle  param  width  the  width  coordinate  the  rectangle  param  height  the  height  coordinate  the  rectangle  exception illegal argument exception  error  invalid  argument  the  rectangle  width  height  negative  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+subtracts  all  the  polygons  which  make  the  area  covered  the  argument  from  the  collection  polygons  the  receiver  maintains  describe  its  area  param  region  the  region  subtract  exception illegal argument exception  error  null  argument  the  argument  null  error  invalid  argument  the  argument  has  been  disposed  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+translate  all  the  polygons  the  receiver  maintains  describe  its  area  the  specified  point  param  the  coordinate  the  point  translate  param  the  coordinate  the  point  translate  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+translate  all  the  polygons  the  receiver  maintains  describe  its  area  the  specified  point  param  the  point  translate  exception illegal argument exception  error  null  argument  the  argument  null  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  since 
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  receiver
+invokes  platform  specific  functionality  allocate  new  region  important  this  method  not  part  the  public  api  for  code  region  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  device  the  device  which  allocate  the  region  param  handle  the  handle  for  the  region  return  new  region  object  containing  the  specified  device  and  handle
+</comments>
+</text>
+</DOC>

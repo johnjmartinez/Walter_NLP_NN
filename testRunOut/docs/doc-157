@@ -1,0 +1,43 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.ole.win32.IConnectionPoint.java </DOCNO>
+<text>
+<class>
+connection point
+</class>
+<method>
+connection point
+ advise
+ unadvise
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+connection point
+ unknown
+connection point
+ address
+ address
+ advise
+ unk
+pdw cookie
+ com
+vtbl call
+ address
+ unk
+pdw cookie
+ unadvise
+ cookie
+ com
+vtbl call
+ address
+ cookie
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

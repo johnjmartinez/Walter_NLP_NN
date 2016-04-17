@@ -1,0 +1,306 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.Color.java </DOCNO>
+<text>
+<class>
+ color
+</class>
+<method>
+ color
+ color
+ color
+ dispose
+ equals
+get blue
+get green
+get red
+get rgb
+hash code
+ init
+ disposed
+ string
+win 32_new
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ color
+ resource
+ handle
+ color
+ color
+ device
+ device
+ red
+ green
+ blue
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ init
+ device
+ red
+ green
+ blue
+ device
+ tracking
+ device
+new object
+ color
+ device
+ device
+ rgb
+ rgb
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ rgb
+ swt
+ error
+ swt
+error null argument
+ init
+ device
+ rgb
+ red
+ rgb
+ green
+ rgb
+ blue
+ device
+ tracking
+ device
+new object
+ dispose
+ handle
+ device
+ disposed
+ pal
+ device
+ palette
+ pal
+ index
+
+get nearest palette index
+ pal
+ handle
+color ref count
+ device
+color ref count
+color ref count
+ index
+color ref count
+ index
+ handle
+ device
+ tracking
+ device
+dispose object
+ device
+ equals
+ object
+ object
+ object
+ object
+ color
+ color
+ color
+ color
+ object
+ device
+ color
+ device
+ handle
+ color
+ handle
+get blue
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ handle
+get green
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ handle
+get red
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ handle
+ rgb
+get rgb
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ rgb
+ handle
+ handle
+ handle
+hash code
+ handle
+ init
+ device
+ device
+ red
+ green
+ blue
+ red
+ red
+ green
+ green
+ blue
+ blue
+ swt
+ error
+ swt
+error invalid argument
+ device
+ device
+ handle
+ red
+ green
+ blue
+ pal
+ device
+ palette
+ pal
+color ref count
+ device
+color ref count
+ index
+
+get nearest palette index
+ pal
+ handle
+ entry
+
+get palette entries
+ pal
+ index
+ entry
+ entry
+ red
+ entry
+ green
+ entry
+ blue
+color ref count
+ index
+
+
+color ref count
+ length
+color ref count
+
+ index
+
+
+
+color ref count
+ length
+ handle
+ entry
+ entry
+ entry
+ entry
+ red
+ green
+ blue
+
+set palette entries
+ pal
+ index
+ entry
+color ref count
+ index
+ disposed
+ handle
+ string
+ string
+ disposed
+get red
+get green
+get blue
+ color
+win 32_new
+ device
+ device
+ handle
+ device
+ device
+ device
+get device
+ color
+ color
+ color
+ color
+ handle
+ handle
+ color
+ device
+ device
+ color
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  manage  the  operating  system  resources  that  implement  swt  rgb  color  model  create  color  you  can  either  specify  the  individual  color  components  integers  the  range  255  provide  instance  code  rgb  code  application  code  must  explicitly  invoke  the  code  color  dispose  code  method  release  the  operating  system  resources  managed  each  instance  when  those  instances  are  longer  required  see  rgb  see  device get system color
+the  handle  the  color  resource  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code 
+prevents  uninitialized  instances  from  being  created  outside  the  package
+constructs  new  instance  this  class  given  device  and  the  desired  red  green  and  blue  values  expressed  ints  the  range  255  where  black  and  255  full  brightness  limited  color  devices  the  color  instance  created  this  call  may  not  have  the  same  rgb  values  the  ones  specified  the  arguments  the  rgb  values  the  returned  instance  will  the  color  values  the  operating  system  color  you  must  dispose  the  color  when  longer  required  param  device  the  device  which  allocate  the  color  param  red  the  amount  red  the  color  param  green  the  amount  green  the  color  param  blue  the  amount  blue  the  color  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  error  invalid  argument  the  red  green  blue  argument  not  between  and  255  see  dispose
+constructs  new  instance  this  class  given  device  and  code  rgb  code  describing  the  desired  red  green  and  blue  values  limited  color  devices  the  color  instance  created  this  call  may  not  have  the  same  rgb  values  the  ones  specified  the  argument  the  rgb  values  the  returned  instance  will  the  color  values  the  operating  system  color  you  must  dispose  the  color  when  longer  required  param  device  the  device  which  allocate  the  color  param  rgb  the  rgb  values  the  desired  color  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  error  null  argument  the  rgb  argument  null  error  invalid  argument  the  red  green  blue  components  the  argument  are  not  between  and  255  see  dispose
+disposes  the  operating  system  resources  associated  with  the  color  applications  must  dispose  all  colors  which  they  allocate
+this  palette  based  device  decrease  the  reference  count  for  this  color  the  reference  count  reaches  the  slot  may  reused  when  another  color  allocated
+compares  the  argument  the  receiver  and  returns  true  they  represent  the  same  object  using  class  specific  comparison  param  object  the  object  compare  with  this  object  return  code  true  code  the  object  the  same  this  object  and  code  false  code  otherwise  see hash code
+returns  the  amount  blue  the  color  from  255  return  the  blue  component  the  color  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  amount  green  the  color  from  255  return  the  green  component  the  color  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  the  amount  red  the  color  from  255  return  the  red  component  the  color  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  code  rgb  code  representing  the  receiver  return  the  rgb  for  the  color  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  integer  hash  code  for  the  receiver  any  two  objects  that  return  code  true  code  when  passed  code  equals  code  must  return  the  same  value  for  this  method  return  the  receiver  hash  see  equals
+allocates  the  operating  system  resources  associated  with  the  receiver  param  device  the  device  which  allocate  the  color  param  red  the  amount  red  the  color  param  green  the  amount  green  the  color  param  blue  the  amount  blue  the  color  exception illegal argument exception  error  invalid  argument  the  red  green  blue  argument  not  between  and  255  see  dispose
+this  not  palette  based  device  return
+add  this  color  the  default  palette  now
+first  find  out  the  color  already  exists
+see  the  nearest  color  actually  the  color
+found  the  color  increment  the  ref  count  and  return
+didn  find  the  color  allocate  now  find  the  first  free  entry
+free  entries  use  the  closest  one
+remake  the  handle  from  the  actual  rgbs
+found  free  entry
+returns  code  true  code  the  color  has  been  disposed  and  code  false  code  otherwise  this  method  gets  the  dispose  state  for  the  color  when  color  has  been  disposed  error  invoke  any  other  method  using  the  color  return  code  true  code  when  the  color  disposed  and  code  false  code  otherwise
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  receiver
+non  nls 
+non  nls  non  nls  non  nls  non  nls 
+invokes  platform  specific  functionality  allocate  new  color  important  this  method  not  part  the  public  api  for  code  color  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  device  the  device  which  allocate  the  color  param  handle  the  handle  for  the  color  return  new  color  object  containing  the  specified  device  and  handle
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,47 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.CTabFolder2Adapter.java </DOCNO>
+<text>
+<class>
+tab folder adapter
+</class>
+<method>
+ close
+ minimize
+ maximize
+ restore
+show list
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+tab folder adapter
+tab folder listener
+ close
+tab folder event
+ event
+ minimize
+tab folder event
+ event
+ maximize
+tab folder event
+ event
+ restore
+tab folder event
+ event
+show list
+tab folder event
+ event
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  adapter  class  provides  default  implementations  for  the  methods  described  the  code tab folder listener  code  interface  classes  that  wish  deal  with  code tab folder event  code  can  extend  this  class  and  override  only  the  methods  which  they  are  interested  see tab folder listener  see tab folder event  since 
+sent  when  the  user  clicks  the  close  button  item  the tab folder  the  item  being  closed  specified  the  event  item  field  setting  the  event  doit  field  false  will  stop  the tab item  from  closing  when  the tab item  closed  disposed  the  contents  the tab item  see tab item set control  will  made  not  visible  when  the tab item  closed  the  default  behaviour  close  the tab item  param  event  event  indicating  the  item  being  closed
+sent  when  the  user  clicks  the  minimize  button tab folder  the  default  behaviour  nothing  param  event  event  containing  information  about  the  minimize
+sent  when  the  user  clicks  the  maximize  button tab folder  the  default  behaviour  nothing  param  event  event  containing  information  about  the  maximize
+sent  when  the  user  clicks  the  restore  button tab folder  the  default  behaviour  nothing  param  event  event  containing  information  about  the  restore
+sent  when  the  user  clicks  the  chevron  button tab folder  the  default  behaviour  show  list  items  that  are  not  currently  visible  and  change  the  selection  based  the  item  selected  from  the  list  param  event  event  containing  information  about  the  show  list
+</comments>
+</text>
+</DOC>

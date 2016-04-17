@@ -1,0 +1,221 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.PngHuffmanTable.java </DOCNO>
+<text>
+<class>
+png huffman table
+code length info
+</class>
+<method>
+png huffman table
+ initialize
+generate table
+get next value
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+png huffman table
+code length info
+code length info
+code values
+max code length
+bad code
+png huffman table
+ lengths
+ initialize
+ lengths
+generate table
+ lengths
+ initialize
+ lengths
+code values
+ lengths
+ length
+
+
+code values
+ length
+
+code values
+
+
+code length info
+code length info
+max code length
+
+
+max code length
+
+code length info
+
+code length info
+code length info
+
+ length
+
+code length info
+
+base index
+code length info
+
+ min
+bad code
+code length info
+
+ max
+generate table
+ lengths
+
+
+ lengths
+ length
+
+
+
+
+ lengths
+ length
+
+ lengths
+
+ lengths
+
+ lengths
+
+ lengths
+
+code values
+
+code values
+
+ tmp
+ tmp
+ lengths
+
+ lengths
+
+ lengths
+
+ lengths
+
+ tmp
+ tmp
+code values
+
+code values
+
+code values
+
+code values
+
+ tmp
+ codes
+ lengths
+ length
+last length
+ code
+
+
+ lengths
+ length
+
+last length
+ lengths
+
+last length
+ code
+last length
+ codes
+
+ code
+ code
+ last
+
+
+ lengths
+ length
+
+ last
+ lengths
+
+ last
+ lengths
+
+code length info
+ last
+base index
+
+code length info
+ last
+ min
+ codes
+
+ last
+code length info
+ last
+ max
+ codes
+
+get next value
+png decoding data stream
+ stream
+ code
+ stream
+get next idat bit
+ codelength
+ codelength
+max code length
+ code
+code length info
+ codelength
+ max
+ code
+ code
+ stream
+get next idat bit
+ codelength
+ codelength
+max code length
+ stream
+ error
+ offset
+ code
+code length info
+ codelength
+ min
+ index
+code length info
+ codelength
+base index
+ offset
+code values
+ index
+code length info
+ length
+ max
+ min
+base index
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+min codes length  the  smallest  huffman  code  length 
+max codes length  the  largest  huffman  code  length 
+indexes length  index  into  the  values  array  first  value  with  code  length 
+sort  the  values  primary  key  code  size  secondary  key  value
+these  values  these  arrays  correspond  the  elements  the
+values  array  the  huffman  code  for code values  codes 
+and  the  length  the  code  lengths 
+here  are  taking  advantage  the  fact  that  bits  are  used 
+prefix  the  longer code values
+now  have  huffman  code  length  codelength  that
+somewhere  the  range
+min codes length  codelength max codes length  codelength
+this  code  the  offset  code  codelength 
+indexes length  codelength  the  first  code  length  codelength 
+now  can  look  the  value  for  the  huffman  code  the  table
+</comments>
+</text>
+</DOC>

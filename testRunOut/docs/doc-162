@@ -1,0 +1,72 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.ole.win32.IOleCommandTarget.java </DOCNO>
+<text>
+<class>
+ole command target
+</class>
+<method>
+ole command target
+ exec
+query status
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ole command target
+ unknown
+ole command target
+ address
+ address
+ exec
+ guid
+pguid cmd group
+ cmd
+cmd exec opt
+ pva
+pva out
+ com
+vtbl call
+ address
+pguid cmd group
+ cmd
+cmd exec opt
+ pva
+pva out
+query status
+ guid
+pguid cmd group
+ cmds
+ olecmd
+prg cmds
+ olecmdtext
+cmd text
+ cmds
+ com
+ invalidarg
+ com
+vtbl call
+ address
+pguid cmd group
+ cmds
+prg cmds
+cmd text
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+pointer  command  group
+identifier  command  execute
+options  for  executing  the  command
+pointer  input  arguments
+pointer  command  output
+pointer  command  group
+number  commands prg cmds  array
+array  commands
+pointer  name  status  command
+only  support  querying  for  one  command  time
+</comments>
+</text>
+</DOC>

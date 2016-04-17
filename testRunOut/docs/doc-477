@@ -1,0 +1,1227 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Label.java </DOCNO>
+<text>
+<class>
+ label
+</class>
+<method>
+ label
+_set image
+call window proc
+check style
+compute size
+get alignment
+get image
+get name text
+get text
+get wrap
+mnemonic hit
+mnemonic match
+release widget
+set alignment
+set image
+set text
+set wrap
+widget ext style
+widget style
+window class
+window proc
+ erasebkgnd
+ getfont
+ setfont
+ size
+color child
+ syscolorchange
+draw child
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ label
+ control
+ string
+ text
+ image
+ image
+ image
+ font
+copied bitmap
+label proc
+ tchar
+label class
+ tchar
+icon width
+icon height
+ wndclass
+wnd class
+ wndclass
+
+get class info
+label class
+wnd class
+label proc
+wnd class
+lpfn wnd proc
+ label
+ composite
+ parent
+ style
+ parent
+check style
+ style
+_set image
+ image
+ image
+ image
+ image
+ dispose
+ image
+copied bitmap
+
+delete object
+copied bitmap
+copied bitmap
+has alpha
+ image
+image bits
+image type
+ image
+ image
+ type
+ swt
+ bitmap
+image data
+ data
+ image
+get image data
+
+comctl 32_ major
+ rectangle
+ rect
+ image
+get bounds
+ data
+get transparency type
+ swt
+transparency pixel
+ rect
+ width
+icon width
+ rect
+ height
+icon height
+ image
+ image
+ display
+ data
+ data
+get transparency mask
+ image
+ image
+ handle
+image bits
+
+ icon
+image type
+
+image icon
+ swt
+transparency alpha
+ image
+ image
+ display
+ rect
+ width
+ rect
+ height
+
+
+
+ image
+
+set background
+get background
+
+fill rectangle
+ rect
+
+draw image
+ image
+
+ dispose
+ image
+ image
+ handle
+image bits
+
+ bitmap
+image type
+
+image bitmap
+ swt
+transparency none
+ image
+ image
+ handle
+image bits
+
+ bitmap
+image type
+
+image bitmap
+ data
+ alpha
+ data
+alpha data
+ data
+transparent pixel
+has alpha
+ image
+ display
+create 32bit dib
+ image
+ handle
+ data
+ alpha
+ data
+alpha data
+ data
+transparent pixel
+ image
+ image
+ handle
+ data
+ depth
+ display
+get depth
+ image
+ image
+ display
+ data
+ width
+ data
+ height
+
+
+
+ image
+
+draw image
+ image
+
+ dispose
+ image
+ image
+ handle
+image bits
+
+ bitmap
+image type
+
+image bitmap
+ swt
+ icon
+ image
+ image
+ handle
+image bits
+
+ icon
+image type
+
+image icon
+ rect
+ rect
+ rect
+
+get window rect
+ handle
+ rect
+new bits
+
+get window long
+ handle
+
+gwl style
+old bits
+new bits
+new bits
+
+ bitmap
+
+ icon
+new bits
+image bits
+
+ realsizeimage
+
+ centerimage
+new bits
+old bits
+
+set window long
+ handle
+
+gwl style
+new bits
+
+send message
+ handle
+
+stm setimage
+image type
+ image
+has alpha
+ image
+
+delete object
+ image
+copied bitmap
+
+send message
+ handle
+
+stm getimage
+
+image bitmap
+ flags
+
+swp nozorder
+
+swp drawframe
+
+swp noactivate
+
+swp nomove
+set window pos
+ handle
+ rect
+ right
+ rect
+ left
+ rect
+ bottom
+ rect
+ top
+ flags
+
+invalidate rect
+ handle
+call window proc
+ hwnd
+ msg
+ param
+ param
+ handle
+
+call window proc
+label proc
+ hwnd
+ msg
+ param
+ param
+check style
+ style
+ style
+ swt
+ focus
+ style
+ swt
+ separator
+ style
+check bits
+ style
+ swt
+ vertical
+ swt
+ horizontal
+check bits
+ style
+ swt
+shadow out
+ swt
+ shadow
+ swt
+shadow none
+check bits
+ style
+ swt
+ left
+ swt
+ center
+ swt
+ right
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+ width
+ height
+ border
+get border width
+ style
+ swt
+ separator
+line width
+
+get system metrics
+
+ cxborder
+ style
+ swt
+ horizontal
+ width
+default width
+ height
+line width
+ width
+line width
+ height
+default height
+ hint
+ swt
+ default
+ width
+ hint
+ hint
+ swt
+ default
+ height
+ hint
+ width
+ border
+ height
+ border
+ point
+ width
+ height
+ bits
+
+get window long
+ handle
+
+gwl style
+ bitmap
+ bits
+
+ bitmap
+
+ bitmap
+ icon
+ bits
+
+ icon
+
+ icon
+ bitmap
+ icon
+ image
+ rectangle
+ rect
+ image
+get bounds
+ width
+ rect
+ width
+ height
+ rect
+ height
+
+
+ get
+ handle
+new font
+
+send message
+ handle
+
+ getfont
+old font
+
+select object
+
+new font
+ rect
+ rect
+ rect
+ flags
+
+ calcrect
+
+ editcontrol
+
+ expandtabs
+ style
+ swt
+ wrap
+ hint
+ swt
+ default
+ flags
+
+ wordbreak
+ rect
+ right
+ hint
+ length
+
+get window text length
+ handle
+ tchar
+ buffer
+ tchar
+get code page
+ length
+
+get window text
+ handle
+ buffer
+ length
+
+draw text
+
+ buffer
+ length
+ rect
+ flags
+ width
+ rect
+ right
+ rect
+ left
+ height
+ rect
+ bottom
+ rect
+ top
+ height
+ textmetric
+
+
+ unicode
+ textmetric
+ textmetricw
+ textmetrica
+
+get text metrics
+
+
+ height
+
+ height
+new font
+
+select object
+
+old font
+
+ release
+ handle
+
+ hint
+ swt
+ default
+ width
+ hint
+ hint
+ swt
+ default
+ height
+ hint
+ width
+ border
+ height
+ border
+
+ win
+ bitmap
+ icon
+ width
+ point
+ width
+ height
+get alignment
+check widget
+ style
+ swt
+ separator
+ style
+ swt
+ left
+ swt
+ left
+ style
+ swt
+ center
+ swt
+ center
+ style
+ swt
+ right
+ swt
+ right
+ swt
+ left
+ image
+get image
+check widget
+ image
+ string
+get name text
+get text
+ string
+get text
+check widget
+ style
+ swt
+ separator
+ text
+get wrap
+ bits
+
+get window long
+ handle
+
+gwl style
+ bits
+
+ right
+
+ center
+ bits
+
+ leftnowordwrap
+mnemonic hit
+ key
+ composite
+ control
+ parent
+ control
+ control
+ children
+ control
+_get children
+ index
+ index
+ children
+ length
+ children
+ index
+ index
+ index
+ index
+ children
+ length
+ children
+ index
+set focus
+ control
+ control
+ parent
+mnemonic match
+ key
+ mnemonic
+find mnemonic
+get text
+ mnemonic
+ character
+upper case
+ key
+ character
+upper case
+ mnemonic
+release widget
+release widget
+ image
+ image
+ dispose
+ image
+ text
+ image
+copied bitmap
+set alignment
+ alignment
+check widget
+ style
+ swt
+ separator
+ alignment
+ swt
+ left
+ swt
+ right
+ swt
+ center
+ style
+ swt
+ left
+ swt
+ right
+ swt
+ center
+ style
+ alignment
+ swt
+ left
+ swt
+ right
+ swt
+ center
+ bits
+
+get window long
+ handle
+
+gwl style
+ bits
+
+ bitmap
+
+ bitmap
+ bits
+
+ icon
+
+ icon
+ bits
+
+ leftnowordwrap
+
+ center
+
+ right
+ style
+ swt
+ left
+ style
+ swt
+ wrap
+ bits
+
+ leftnowordwrap
+ style
+ swt
+ center
+ bits
+
+ center
+ style
+ swt
+ right
+ bits
+
+ right
+
+set window long
+ handle
+
+gwl style
+ bits
+
+invalidate rect
+ handle
+set image
+ image
+ image
+check widget
+ style
+ swt
+ separator
+ image
+ image
+ disposed
+ error
+ swt
+error invalid argument
+_set image
+ image
+ image
+set text
+ string
+ string
+check widget
+ string
+ error
+ swt
+error null argument
+ style
+ swt
+ separator
+ string
+ equals
+ text
+ text
+ string
+new bits
+
+get window long
+ handle
+
+gwl style
+old bits
+new bits
+new bits
+
+ bitmap
+
+ icon
+
+ realsizeimage
+
+ centerimage
+ style
+ swt
+ left
+ style
+ swt
+ wrap
+new bits
+
+ leftnowordwrap
+ style
+ swt
+ center
+new bits
+
+ center
+ style
+ swt
+ right
+new bits
+
+ right
+new bits
+old bits
+ font
+
+send message
+ handle
+
+ getfont
+
+set window long
+ handle
+
+gwl style
+new bits
+ font
+
+send message
+ handle
+
+ setfont
+ font
+ string
+ display
+ with
+ string
+ tchar
+ buffer
+ tchar
+get code page
+ string
+
+set window text
+ handle
+ buffer
+set wrap
+ wrap
+ bits
+
+get window long
+ handle
+
+gwl style
+ bits
+
+ right
+
+ center
+ bits
+
+ leftnowordwrap
+ wrap
+ bits
+
+ leftnowordwrap
+
+set window long
+ handle
+
+gwl style
+ bits
+
+invalidate rect
+ handle
+widget ext style
+ bits
+widget ext style
+
+ clientedge
+ style
+ swt
+ border
+ bits
+
+ staticedge
+ bits
+widget style
+ bits
+widget style
+
+ notify
+ style
+ swt
+ separator
+ bits
+
+ ownerdraw
+ style
+ swt
+ center
+ bits
+
+ center
+ style
+ swt
+ right
+ bits
+
+ right
+ style
+ swt
+ wrap
+ bits
+
+ left
+ bits
+
+ leftnowordwrap
+ tchar
+window class
+label class
+window proc
+label proc
+ lresult
+ erasebkgnd
+ param
+ param
+ lresult
+ result
+ erasebkgnd
+ param
+ param
+ result
+ result
+ style
+ swt
+ separator
+ lresult
+ one
+ bits
+
+get window long
+ handle
+
+gwl style
+ bitmap
+ bits
+
+ bitmap
+
+ bitmap
+ icon
+ bits
+
+ icon
+
+ icon
+ bitmap
+ icon
+draw background
+ param
+ lresult
+ one
+ result
+ lresult
+ getfont
+ param
+ param
+ lresult
+ result
+ getfont
+ param
+ param
+ result
+ result
+ font
+ font
+default font
+ lresult
+ font
+ lresult
+ setfont
+ param
+ param
+ setfont
+ font
+ param
+ param
+ lresult
+ size
+ param
+ param
+ lresult
+ result
+ size
+ param
+ param
+ disposed
+ result
+ style
+ swt
+ separator
+
+invalidate rect
+ handle
+ result
+ bits
+
+get window long
+ handle
+
+gwl style
+ bitmap
+ bits
+
+ bitmap
+
+ bitmap
+ icon
+ bits
+
+ icon
+
+ icon
+ bitmap
+ icon
+
+invalidate rect
+ handle
+ result
+ style
+ swt
+ wrap
+ swt
+ center
+ swt
+ right
+
+invalidate rect
+ handle
+ result
+ result
+ lresult
+color child
+ param
+ param
+ lresult
+ result
+color child
+ param
+ param
+
+comctl 32_ major
+
+app themed
+ control
+ control
+find theme control
+ control
+
+set mode
+ param
+
+ transparent
+ rect
+ rect
+ rect
+
+get client rect
+ control
+ handle
+ rect
+
+map window points
+ control
+ handle
+ handle
+ rect
+ control
+draw theme background
+ param
+ rect
+ lresult
+
+get stock object
+
+null brush
+ result
+ lresult
+ syscolorchange
+ param
+ param
+ lresult
+ result
+ syscolorchange
+ param
+ param
+ result
+ result
+ image
+_set image
+ image
+ result
+ lresult
+draw child
+ param
+ param
+ drawitemstruct
+ struct
+ drawitemstruct
+
+move memory
+ struct
+ param
+ drawitemstruct
+ sizeof
+draw background
+ struct
+
+ style
+ swt
+shadow none
+ rect
+ rect
+ rect
+line width
+
+get system metrics
+
+ cxborder
+ flags
+
+edge etched
+ style
+ swt
+ shadow
+ flags
+
+edge sunken
+ style
+ swt
+ horizontal
+ bottom
+ struct
+ top
+ math
+ max
+line width
+ struct
+ bottom
+ struct
+ top
+
+set rect
+ rect
+ struct
+ left
+ struct
+ top
+ struct
+ right
+ bottom
+
+draw edge
+ struct
+
+ rect
+ flags
+
+ bottom
+ right
+ struct
+ left
+ math
+ max
+line width
+ struct
+ right
+ struct
+ left
+
+set rect
+ rect
+ struct
+ left
+ struct
+ top
+ right
+ struct
+ bottom
+
+draw edge
+ struct
+
+ rect
+ flags
+
+ right
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  represent  non  selectable  user  interface  object  that  displays  string  image  when  separator  specified  displays  single  vertical  horizontal  line  styles  separator  horizontal  vertical  shadow  shadow  out  shadow  none  center  left  right  wrap  events  none  note  only  one  shadow  shadow  out  and  shadow  none  may  specified  shadow  none  hint  only  one  horizontal  and  vertical  may  specified  only  one  center  left  and  right  may  specified  important  this  class  intended  subclassed  only  within  the  swt  implementation 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  separator  see  swt  horizontal  see  swt  vertical  see  swt  shadow  see  swt  shadow  out  see  swt  shadow  none  see  swt  center  see  swt  left  see  swt  right  see  swt  wrap  see  widget check subclass  see  widget get style
+fall  through
+bug  windows  for  some  reason  windows  only  indexed  palette  bitmaps  are  not  drawn  properly  even  though  the  screen  depth  can  handle  all  colors  the  palette  the  fix  use  higher  depth  bitmap  instead
+when  stm  setimage  encounters  bitmap  with  alpha  information  makes  copy  the  bitmap  therefore  the  bitmap  that  was  created  preserve  transparency  can  deleted  right  away  note  the  client  code  also  needs  delete  the  copied  image  created  windows  when  the  image  changed  but  does  not  need  delete  the  copied  image  when  the  control  disposed
+feature  windows  when  stm  setimage  used  set  the  image  for  static  control  windows  either  streches  the  image  fit  the  control  shrinks  the  control  fit  the  image  while  not  stricly  wrong  neither  these  desirable  the  fix  stop  windows  from  stretching  the  image  using  realsizeimage  and  centerimage  allow  windows  shrink  the  control  and  then  restore  the  control  the  original  size
+note  bitmap  and  icon  are  not  single  bit  masks  necessary  test  for  all  the  bits  these  masks
+feature  win  ppc  text  labels  have  trim  one  pixel  wide  the  right  and  left  side  the  fix  increase  the  size
+returns  value  which  describes  the  position  the  text  image  the  receiver  the  value  will  one  code  left  code  code  right  code  code  center  code  unless  the  receiver  code  separator  code  label  which  case  code  none  code  returned  return  the  alignment  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  image  has  one  null  does  not  return  the  receiver  image  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  text  which  will  empty  string  has  never  been  set  the  receiver  code  separator  code  label  return  the  receiver  text  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+not  currently  used
+windows  deletes  the  copied  image  when  the  control  disposed
+controls  how  text  and  images  will  displayed  the  receiver  the  argument  should  one  code  left  code  code  right  code  code  center  code  the  receiver  code  separator  code  label  the  argument  ignored  and  the  alignment  not  changed  param  alignment  the  new  alignment  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  the  windows  label  does  not  align  the  bitmap  icon  any  attempt  set  alignment  bits  such  center  cause  the  label  display  text  the  fix  disallow  alignment  note  bitmap  and  icon  are  not  single  bit  masks  necessary  test  for  all  the  bits  these  masks
+sets  the  receiver  image  the  argument  which  may  null  indicating  that  image  should  displayed  param  image  the  image  display  the  receiver  may  null  exception illegal argument exception  error  invalid  argument  the  image  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  receiver  text  this  method  sets  the  widget  label  the  label  may  include  the  mnemonic  character  and  line  delimiters  mnemonics  are  indicated  amp  that  causes  the  next  character  the  mnemonic  when  the  user  presses  key  sequence  that  matches  the  mnemonic  focus  assigned  the  control  that  follows  the  label  most  platforms  the  mnemonic  appears  underlined  but  may  emphasised  platform  specific  manner  the  mnemonic  indicator  character  amp  can  escaped  doubling  the  string  causing  single  amp  displayed  param  string  the  new  text  exception illegal argument exception  error  null  argument  the  text  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  for  some  reason set window text  for  static  controls  redraws  the  control  even  when  the  text  has  has  not  changed  the  fix  check  for  this  case  and  nothing
+bug  windows  when  the  style  label  bitmap  icon  the  label  does  not  remember  the  font  that  set  setfont  the  fix  remember  the  font  and  return  the  font  getfont  and  reset  the  font  when  the  style  changed  from  bitmap  icon  style  that  displays  text
+not  currently  used
+bug  windows  when  label  has  the  bitmap  icon  style  the  label  does  not  draw  the  background  the  fix  draw  the  background  when  the  label  showing  bitmap  icon  note  bitmap  and  icon  are  not  single  bit  masks  necessary  test  for  all  the  bits  these  masks
+bug  windows  when  the  style  label  bitmap  icon  the  label  does  not  remember  the  font  that  set  setfont  the  fix  remember  the  font  and  return  the  font  getfont
+bug  windows  when  the  style  label  bitmap  icon  the  label  does  not  remember  the  font  that  set  setfont  the  fix  remember  the  font  and  return  the  font  getfont
+possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  resize  event  this  happens  end  the  processing  the  windows  message  returning  the  result  the  size  message
+bug  windows  for  some  reason  label  with  bitmap  icon  and  center  does  not  redraw  properly  when  resized  only  the  new  area  drawn  and  the  old  area  not  cleared  the  fix  force  the  redraw  note  bitmap  and  icon  are  not  single  bit  masks  necessary  test  for  all  the  bits  these  masks
+bug  windows  for  some  reason  label  with  style  left  center  right  does  not  redraw  the  text  the  new  position  when  resized  note  that  leftnowordwrap  does  not  have  the  problem  the  fix  force  the  redraw
+</comments>
+</text>
+</DOC>

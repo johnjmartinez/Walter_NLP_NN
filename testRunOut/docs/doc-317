@@ -1,0 +1,101 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.SelectionEvent.java </DOCNO>
+<text>
+<class>
+selection event
+</class>
+<method>
+selection event
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ widgets
+selection event
+typed event
+ widget
+ item
+ detail
+
+
+ width
+ height
+state mask
+ string
+ text
+ doit
+serial version uid
+selection event
+ event
+
+
+ item
+
+ item
+
+
+
+
+
+
+ width
+
+ width
+ height
+
+ height
+ detail
+
+ detail
+state mask
+
+state mask
+ text
+
+ text
+ doit
+
+ doit
+ string
+ string
+ string
+ string
+ string
+ string
+ substring
+ string
+ length
+ item
+ detail
+
+
+ width
+ height
+state mask
+ text
+ doit
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  sent  result  widgets  being  selected  note  the  fields  that  are  filled  depend  the  widget  see selection listener
+the  item  that  was  selected
+extra  detail  information  about  the  selection  depending  the  widget  sash  link  org  eclipse  swt  swt  drag scroll bar  and  slider  link  org  eclipse  swt  swt  drag  link  org  eclipse  swt  swt  home  link  org  eclipse  swt  swt  end  link  org  eclipse  swt  swt  arrow  down  link  org  eclipse  swt  swt  arrow  link  org  eclipse  swt  swt  page  down  link  org  eclipse  swt  swt  page  table  and  tree  link  org  eclipse  swt  swt  check cool item  and tool item  link  org  eclipse  swt  swt  arrow 
+the  location  the  selected  area
+the  location  selected  area
+the  width  selected  area
+the  height  selected  area
+the  state  the  keyboard  modifier  keys  the  time  the  event  was  generated
+the  text  the  hyperlink  that  was  selected  this  will  either  the  text  the  hyperlink  the  value  its  href  one  was  specified  see  link set text  string  since 
+flag  indicating  whether  the  operation  should  allowed  setting  this  field  code  false  code  will  cancel  the  operation  depending  the  widget
+constructs  new  instance  this  class  based  the  information  the  given  untyped  event  param  the  untyped  event  containing  the  information
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
+remove  trailing
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,1167 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.TIFFDirectory.java </DOCNO>
+<text>
+<class>
+tiff directory
+</class>
+<method>
+tiff directory
+tiff directory
+decode pack bits
+get entry value
+get entry value
+decode pixels
+get color map
+get gray palette
+get rgb palette
+format strips
+format color map
+parse entries
+ read
+ int
+ write
+write entry
+write header
+write stream
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ java
+
+tiff directory
+tiff random file access
+ file
+little endian
+image loader
+ loader
+ depth
+image width
+image length
+bits per sample
+ compression
+photometric interpretation
+strip offsets
+samples per pixel
+rows per strip
+strip byte counts
+ options
+color map offset
+image data
+ image
+data output stream
+ out
+ value
+tag image width
+tag image length
+tag bits per sample
+tag compression
+tag photometric interpretation
+tag strip offsets
+tag samples per pixel
+tag rows per strip
+tag strip byte counts
+tag resolution
+tag resolution
+tag options
+tag resolution unit
+tag color map
+type byte
+type ascii
+type short
+type long
+type rational
+compression none
+compression ccitt _3_1
+compression packbits
+ifd entry size
+tiff directory
+tiff random file access
+ file
+little endian
+image loader
+ loader
+ file
+ file
+little endian
+little endian
+ loader
+ loader
+tiff directory
+image data
+ image
+ image
+ image
+decode pack bits
+ src
+ dest
+offset dest
+dest index
+offset dest
+src index
+src index
+ src
+ length
+
+ src
+src index
+
+
+ system
+ arraycopy
+ src
+src index
+ dest
+dest index
+
+src index
+
+dest index
+
+
+
+ value
+ src
+src index
+
+
+
+
+ dest
+dest index
+ value
+src index
+src index
+dest index
+offset dest
+get entry value
+ type
+ buffer
+ index
+ int
+ buffer
+ index
+ type
+get entry value
+ type
+ buffer
+ index
+ values
+ exception
+ start
+ index
+ size
+ offset
+ int
+ buffer
+ start
+type long
+ type
+type short
+ size
+type long
+ size
+type rational
+ size
+type ascii
+type byte
+ size
+ swt
+ error
+ swt
+error unsupported format
+ values
+ length
+ size
+ buffer
+ values
+ length
+ size
+ file
+ seek
+ offset
+ file
+ read
+ buffer
+ start
+
+
+ values
+ length
+
+ values
+
+ int
+ buffer
+ start
+
+ size
+ type
+decode pixels
+image data
+ image
+ exception
+image data
+image width
+ depth
+image length
+ image
+ data
+image data
+dest index
+ length
+strip offsets
+ length
+
+
+ length
+
+ data
+strip byte counts
+
+ file
+ seek
+strip offsets
+
+ file
+ read
+ data
+ compression
+compression none
+ system
+ arraycopy
+ data
+image data
+dest index
+ data
+ length
+dest index
+ data
+ length
+ compression
+compression packbits
+dest index
+decode pack bits
+ data
+image data
+dest index
+ compression
+compression ccitt _3_1
+ compression
+tiff modified huffman codec
+ codec
+tiff modified huffman codec
+ rows
+rows per strip
+
+ length
+
+image length
+rows per strip
+
+ rows
+
+dest index
+ codec
+ decode
+ data
+image data
+dest index
+image width
+ rows
+ loader
+has listeners
+ loader
+notify listeners
+image loader event
+ loader
+ image
+
+
+ length
+palette data
+get color map
+ exception
+num colors
+bits per sample
+num bytes
+num colors
+ buffer
+num bytes
+ file
+ seek
+color map offset
+ file
+ read
+ buffer
+ rgb
+ colors
+ rgb
+num colors
+ offset
+little endian
+ start
+num colors
+ start
+ start
+num colors
+
+
+num colors
+
+
+ buffer
+ offset
+
+ buffer
+ start
+ offset
+
+ buffer
+ start
+ offset
+ colors
+
+ rgb
+
+
+
+ offset
+palette data
+ colors
+palette data
+get gray palette
+num colors
+bits per sample
+ rgb
+ rgbs
+ rgb
+num colors
+
+
+num colors
+
+ value
+
+num colors
+photometric interpretation
+ value
+ value
+ rgbs
+
+ rgb
+ value
+ value
+ value
+palette data
+ rgbs
+palette data
+get rgb palette
+ bits
+ bits
+ bits
+blue mask
+
+
+ bits
+
+blue mask
+
+green mask
+
+ bits
+
+ bits
+ bits
+
+green mask
+
+red mask
+
+ bits
+ bits
+
+ bits
+ bits
+ bits
+
+red mask
+
+palette data
+red mask
+green mask
+blue mask
+format strips
+row byte size
+nbr rows
+ data
+max strip byte size
+offset post ifd
+extra bytes
+ strips
+
+nbr rows per strip
+row byte size
+max strip byte size
+
+ data
+ length
+row byte size
+nbr rows per strip
+ nbr
+ data
+ length
+max strip byte size
+max strip byte size
+nbr rows per strip
+nbr rows
+ nbr
+
+nbr rows
+nbr rows per strip
+nbr rows per strip
+strip byte size
+row byte size
+nbr rows per strip
+ offsets
+
+ counts
+
+post ifd data
+
+
+start offset
+offset post ifd
+extra bytes
+post ifd data
+ offset
+start offset
+
+
+
+
+ offsets
+
+ offset
+ counts
+
+strip byte size
+ offset
+strip byte size
+ mod
+ data
+ length
+strip byte size
+ mod
+ counts
+ counts
+ length
+ mod
+ strips
+ offsets
+ strips
+ counts
+nbr rows per strip
+format color map
+ rgb
+ rgbs
+color map
+ rgbs
+ length
+offset green
+ rgbs
+ length
+offset blue
+ rgbs
+ length
+
+
+ rgbs
+ length
+
+color map
+
+ rgbs
+
+ red
+ rgbs
+
+ red
+color map
+
+offset green
+ rgbs
+
+ green
+ rgbs
+
+ green
+color map
+
+offset blue
+ rgbs
+
+ blue
+ rgbs
+
+ blue
+color map
+parse entries
+ buffer
+ exception
+ offset
+ offset
+ buffer
+ length
+ offset
+ifd entry size
+ tag
+ int
+ buffer
+ offset
+type short
+ type
+ int
+ buffer
+ offset
+type short
+ count
+ int
+ buffer
+ offset
+type long
+ tag
+tag image width
+image width
+get entry value
+ type
+ buffer
+ offset
+tag image length
+image length
+get entry value
+ type
+ buffer
+ offset
+tag bits per sample
+ type
+type short
+ swt
+ error
+ swt
+error invalid image
+bits per sample
+ count
+get entry value
+ type
+ buffer
+ offset
+bits per sample
+tag compression
+ compression
+get entry value
+ type
+ buffer
+ offset
+tag photometric interpretation
+photometric interpretation
+get entry value
+ type
+ buffer
+ offset
+tag strip offsets
+ type
+type long
+ type
+type short
+ swt
+ error
+ swt
+error invalid image
+strip offsets
+ count
+get entry value
+ type
+ buffer
+ offset
+strip offsets
+tag samples per pixel
+ type
+type short
+ swt
+ error
+ swt
+error invalid image
+samples per pixel
+get entry value
+ type
+ buffer
+ offset
+samples per pixel
+samples per pixel
+ swt
+ error
+ swt
+error unsupported depth
+tag rows per strip
+rows per strip
+get entry value
+ type
+ buffer
+ offset
+tag strip byte counts
+strip byte counts
+ count
+get entry value
+ type
+ buffer
+ offset
+strip byte counts
+tag resolution
+tag resolution
+tag options
+ type
+type long
+ swt
+ error
+ swt
+error invalid image
+ options
+get entry value
+ type
+ buffer
+ offset
+ options
+ swt
+ error
+ swt
+error unsupported format
+tag resolution unit
+tag color map
+ type
+type short
+ swt
+ error
+ swt
+error invalid image
+color map offset
+get entry value
+type long
+ buffer
+ offset
+image data
+ read
+ exception
+bits per sample
+color map offset
+ value
+ compression
+image length
+ value
+image width
+ value
+photometric interpretation
+ value
+rows per strip
+ integer
+max value
+samples per pixel
+strip byte counts
+strip offsets
+ buffer
+ file
+ read
+ buffer
+number entries
+ int
+ buffer
+type short
+ buffer
+ifd entry size
+number entries
+ file
+ read
+ buffer
+parse entries
+ buffer
+palette data
+ palette
+ depth
+photometric interpretation
+ palette
+get gray palette
+ depth
+bits per sample
+color map offset
+ value
+ swt
+ error
+ swt
+error invalid image
+ palette
+get rgb palette
+bits per sample
+bits per sample
+bits per sample
+ depth
+bits per sample
+bits per sample
+bits per sample
+color map offset
+ value
+ swt
+ error
+ swt
+error invalid image
+ palette
+get color map
+ depth
+bits per sample
+ swt
+ error
+ swt
+error invalid image
+image data
+ image
+image data
+internal _new
+image width
+image length
+ depth
+ palette
+ swt
+image tiff
+decode pixels
+ image
+ image
+ int
+ buffer
+
+ type
+ type
+type long
+little endian
+ buffer
+
+ buffer
+
+ buffer
+
+ buffer
+
+ buffer
+
+ buffer
+
+ buffer
+
+ buffer
+
+ type
+type short
+little endian
+ buffer
+
+ buffer
+
+ buffer
+
+ buffer
+
+ swt
+ error
+ swt
+error invalid image
+ write
+photometric interpretation
+ exception
+ rgb
+photometric interpretation
+color map
+photometric interpretation
+ level
+photometric interpretation
+photometric interpretation
+image width
+ image
+ width
+image length
+ image
+ height
+row byte size
+ image
+bytes per line
+number entries
+ level
+length directory
+number entries
+next offset
+length directory
+extra bytes
+color map
+color map
+palette data
+ palette
+ image
+ palette
+ rgb
+ rgbs
+ palette
+ get
+color map
+format color map
+ rgbs
+color map
+ length
+ image
+ depth
+ swt
+ error
+ swt
+error unsupported format
+extra bytes
+color map
+ length
+ rgb
+extra bytes
+ data
+ image
+ data
+ strips
+nbr rows per strip
+format strips
+row byte size
+image length
+ data
+next offset
+extra bytes
+ strips
+strip offsets
+ strips
+strip byte counts
+ strips
+bits per sample offset
+ value
+ rgb
+bits per sample offset
+next offset
+next offset
+strip offsets offset
+ value
+strip byte counts offset
+ value
+resolution offset
+resolution offset
+color map offset
+ value
+ cnt
+strip offsets
+ length
+ cnt
+strip offsets offset
+next offset
+next offset
+ cnt
+strip byte counts offset
+next offset
+next offset
+ cnt
+resolution offset
+next offset
+next offset
+resolution offset
+next offset
+next offset
+color map
+color map offset
+next offset
+next offset
+color map
+ length
+write header
+ out
+write short
+number entries
+write entry
+tag image width
+type long
+image width
+write entry
+tag image length
+type long
+image length
+color map
+write entry
+tag bits per sample
+type short
+ image
+ depth
+ rgb
+write entry
+tag bits per sample
+type short
+bits per sample offset
+write entry
+tag compression
+type short
+compression none
+write entry
+tag photometric interpretation
+type short
+photometric interpretation
+write entry
+tag strip offsets
+type long
+ cnt
+ cnt
+strip offsets offset
+strip offsets
+ rgb
+write entry
+tag samples per pixel
+type short
+write entry
+tag rows per strip
+type long
+nbr rows per strip
+write entry
+tag strip byte counts
+type long
+ cnt
+ cnt
+strip byte counts offset
+strip byte counts
+write entry
+tag resolution
+type rational
+resolution offset
+write entry
+tag resolution
+type rational
+resolution offset
+color map
+write entry
+tag color map
+type short
+color map
+ length
+color map offset
+ out
+write int
+ rgb
+
+
+
+ out
+write short
+ cnt
+
+
+ cnt
+
+ out
+write int
+strip offsets
+
+
+
+ cnt
+
+ out
+write int
+strip byte counts
+
+
+
+
+ out
+write int
+ out
+write int
+color map
+
+
+color map
+ length
+
+ out
+write short
+color map
+
+ out
+ write
+ data
+write entry
+ tag
+ type
+ count
+ value
+ exception
+ out
+write short
+ tag
+ out
+write short
+ type
+ out
+write int
+ count
+ out
+write int
+ value
+write header
+ exception
+ out
+write byte
+ out
+write byte
+ out
+write short
+ out
+write int
+write stream
+data output stream
+byte stream
+ exception
+ out
+byte stream
+photometric interpretation
+ image
+scanline pad
+ swt
+ error
+ swt
+error unsupported format
+ image
+ depth
+palette data
+ palette
+ image
+ palette
+ rgb
+ rgbs
+ palette
+ colors
+ palette
+ direct
+ rgbs
+ rgbs
+ length
+ swt
+ error
+ swt
+error unsupported format
+ rgb
+ rgb
+ rgbs
+ rgb
+ rgb
+ rgbs
+ rgb
+ red
+ rgb
+ green
+ rgb
+ green
+ rgb
+ blue
+ rgb
+ red
+ rgb
+ green
+ rgb
+ green
+ rgb
+ blue
+ rgb
+ red
+ rgb
+ red
+ rgb
+ red
+ rgb
+ red
+ swt
+ error
+ swt
+error unsupported format
+photometric interpretation
+ image
+ palette
+ colors
+ red
+photometric interpretation
+photometric interpretation
+ swt
+ error
+ swt
+error unsupported format
+ write
+photometric interpretation
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+directory  fields
+encoder  fields
+different  compression  schemes
+pack bits  decoder
+copy  next  bytes  literally
+copy  next  byte  times
+noop  when  128
+number  bytes  copied
+each  row  byte  aligned
+read  strip
+entries  are  bit  wide  bytes
+swt  does  not  support  bit  depth  color  formats  convert  the  bit  data  bit  data  the  correct  way  this  multiply  each  bit  value  the  value  the  fast  way  this  just  drop  the  low  byte  the  bit  value
+calculate  the  nbr  required  strips  given  the  following  requirements  each  strip  should  possible  not  greater  than max strip byte size  each  strip  should  contain  more  entire  rows  format  the  strip  fields  arrays  that  the  image  data  stored  one  contiguous  block  this  block  stored  after  the  ifd  and  after  any  tag  info  described  the  ifd
+each  strip  contains  row
+nbr  bytes  between  the  end  the  ifd  directory  and  the  start  the  image  data  keep  space  for  least  the  offsets  and  counts  data  each  field  being  type  long  bytes  other  tags  require  space  between  the  ifd  and  the  image  block  use  the extra bytes  parameter  there  only  one  strip  the  offsets  and  counts  data  stored  directly  the  ifd  and  need  not  reserve  space  for 
+offset  image  data
+store  all  strips  sequentially  allow  copy  all  pixels  one  contiguous  area
+the  last  strip  may  contain  fewer  rows
+tiff color map  all  red  come  first  followed  green  and  blue  all  values  must  converted  from  bit  bit
+only  the  basic  and  values  are  supported
+  ignored
+  ignored
+dimensional  coding  not  supported
+  ignored
+get  the  offset  the color map  use  type  long
+set  tiff  default  values
+bilevel  grayscale  image
+rgb  image
+samples per pixel  the  only  value  supported
+palette  color  image
+invalid  type
+offset  following  the  header  and  the  directory
+extra  space  used  resolution  and  resolution  values
+the  number  entries  the  color  map  must  match  the bits per sample  field
+extra  space  used color map  values
+extra  space  used bits per sample  values
+tiff  recommends  storing  the  data  strips  more  than 
+tiff  header
+image  file  directory
+offset  next  ifd  for  last  ifd
+values  longer  than  bytes  section
+bits per sample 
+resolution  and  resolution  set  300  dpi
+ color map
+image  data
+little  endian
+tiff  identifier
+offset  the  first  ifd  chosen  word  aligned  and  immediately  after  this  header
+scanline  pad  must 
+palette  must  black  and  white  white  and  black
+means  color  index  imaged  white
+</comments>
+</text>
+</DOC>

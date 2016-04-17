@@ -1,0 +1,361 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.AnimatedProgress.java </DOCNO>
+<text>
+<class>
+animated progress
+</class>
+<method>
+animated progress
+control resized
+paint control
+widget disposed
+check style
+ clear
+compute size
+draw bevel rect
+ paint
+paint stripes
+ start
+ run
+ stop
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ events
+animated progress
+ canvas
+ sleep
+default width
+default height
+ active
+show stripes
+ value
+ orientation
+ swt
+ horizontal
+show border
+animated progress
+ composite
+ parent
+ style
+ parent
+check style
+ style
+ style
+ swt
+ vertical
+ orientation
+ swt
+ vertical
+show border
+ style
+ swt
+ border
+add control listener
+control adapter
+control resized
+control event
+
+ redraw
+add paint listener
+paint listener
+paint control
+paint event
+
+ paint
+
+add dispose listener
+dispose listener
+widget disposed
+dispose event
+
+ stop
+check style
+ style
+ mask
+ swt
+ none
+ style
+ mask
+ clear
+check widget
+ active
+ stop
+show stripes
+ redraw
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+ point
+ size
+ orientation
+ swt
+ horizontal
+ size
+ point
+default width
+default height
+ size
+ point
+default height
+default width
+ hint
+ swt
+ default
+ size
+
+ hint
+ hint
+ swt
+ default
+ size
+
+ hint
+ size
+draw bevel rect
+
+
+
+
+
+
+ color
+ topleft
+ color
+ bottomright
+
+set foreground
+ topleft
+
+draw line
+
+
+
+
+
+
+draw line
+
+
+
+
+
+
+set foreground
+ bottomright
+
+draw line
+
+
+
+
+
+
+
+
+draw line
+
+
+
+
+
+
+
+ paint
+paint event
+ event
+
+
+ event
+
+ display
+ disp
+get display
+ rectangle
+ rect
+get client area
+
+fill rectangle
+ rect
+show border
+draw bevel rect
+
+ rect
+
+ rect
+
+ rect
+ width
+ rect
+ height
+ disp
+get system color
+ swt
+color widget normal shadow
+ disp
+get system color
+ swt
+color widget highlight shadow
+paint stripes
+
+paint stripes
+
+
+show stripes
+ rectangle
+ rect
+get client area
+ rect
+ rectangle
+ rect
+
+ rect
+
+ rect
+ width
+ rect
+ height
+
+set line width
+
+set clipping
+ rect
+ color
+ color
+get display
+get system color
+ swt
+color list selection
+
+set background
+ color
+
+fill rectangle
+ rect
+
+set foreground
+get background
+ step
+foreground value
+ value
+ step
+ value
+ orientation
+ swt
+ horizontal
+
+ rect
+
+
+ rect
+ width
+
+ rect
+ height
+
+
+
+
+ step
+
+
+foreground value
+
+draw line
+
+
+
+
+
+ rect
+
+
+ rect
+ width
+
+ rect
+ height
+
+
+
+
+ step
+
+
+foreground value
+
+draw line
+
+
+
+
+ active
+ value
+ value
+ step
+ start
+check widget
+ active
+ active
+show stripes
+ display
+ display
+get display
+ runnable
+ timer
+ runnable
+ timer
+ runnable
+ run
+ active
+
+
+
+animated progress
+paint stripes
+
+
+ dispose
+ display
+timer exec
+ sleep
+ timer
+ display
+timer exec
+ sleep
+ timer
+ stop
+ active
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+control  for  showing  progress  feedback  for  long  running  operation  deprecated  eclipse  use progress bar  with  the  style  swt  indeterminate  styles  vertical  horizontal  border 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  widget  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  widget  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  vertical  see  swt  horizontal  see  swt  border  see get style
+stop  the  animation  not  already  stopped  and  reset  the  presentation  blank  appearance  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+subtracted  border  painted  paint
+start  the  animation  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+stop  the  animation  freeze  the  presentation  its  current  appearance
+ check widget
+</comments>
+</text>
+</DOC>

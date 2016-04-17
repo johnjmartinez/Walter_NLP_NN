@@ -1,0 +1,51 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.CTabFolder2Listener.java </DOCNO>
+<text>
+<class>
+tab folder listener
+</class>
+<method>
+ close
+ minimize
+ maximize
+ restore
+show list
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ internal
+tab folder listener
+swt event listener
+ close
+tab folder event
+ event
+ minimize
+tab folder event
+ event
+ maximize
+tab folder event
+ event
+ restore
+tab folder event
+ event
+show list
+tab folder event
+ event
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+classes  which  implement  this  interface  provide  methods  that  deal  with  the  events  that  are  generated  the tab folder  control  after  creating  instance  class  that  implements  this  interface  can  added tab folder  using  the  code add tab folder listener  code  method  and  removed  using  the  code remove tab folder listener  code  method  when  events  occurs tab folder  the  appropriate  method  will  invoked  see tab folder adapter  see tab folder event  since 
+sent  when  the  user  clicks  the  close  button  item  the tab folder  the  item  being  closed  specified  the  event  item  field  setting  the  event  doit  field  false  will  stop  the tab item  from  closing  when  the tab item  closed  disposed  the  contents  the tab item  see tab item set control  will  made  not  visible  when  the tab item  closed  param  event  event  indicating  the  item  being  closed
+sent  when  the  user  clicks  the  minimize  button tab folder  the  state  the tab folder  does  not  change  automatically  the  application  change  the  state  the tab folder  response  this  event  using tab folder set minimized  true  param  event  event  containing  information  about  the  minimize  see tab folder get minimized  see tab folder set minimized  boolean  see tab folder set minimize visible  boolean
+sent  when  the  user  clicks  the  maximize  button tab folder  the  state  the tab folder  does  not  change  automatically  the  application  change  the  state  the tab folder  response  this  event  using tab folder set maximized  true  param  event  event  containing  information  about  the  maximize  see tab folder get maximized  see tab folder set maximized  boolean  see tab folder set maximize visible  boolean
+sent  when  the  user  clicks  the  restore  button tab folder  this  event  sent  either  restore  the tab folder  from  the  minimized  state  from  the  maximized  state  determine  which  restore  requested  use tab folder get minimized tab folder get maximized  determine  the  current  state  the  state  the tab folder  does  not  change  automatically  the  application  change  the  state  the tab folder  response  this  event  using tab folder set maximized  false tab folder set minimized  false  param  event  event  containing  information  about  the  restore  see tab folder get minimized  see tab folder get maximized  see tab folder set minimized  boolean  see tab folder set minimize visible  boolean  see tab folder set maximized  boolean  see tab folder set maximize visible  boolean
+sent  when  the  user  clicks  the  chevron  button  the tab folder  chevron  appears  the tab folder  when  there  are  more  tabs  than  can  displayed  the  current  widget  size  select  tab  that  not  currently  visible  the  user  clicks  the  chevron  and  selects  tab  item  from  list  default  the tab folder  provides  list  all  the  items  that  are  not  currently  visible  however  the  application  can  provide  its  own  list  setting  the  event  doit  field  code  false  code  and  displaying  selection  list  param  event  event  containing  information  about  the  show  list  see tab folder set selection tab item
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,35 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.ole.win32.ISpecifyPropertyPages.java </DOCNO>
+<text>
+<class>
+specify property pages
+</class>
+<method>
+specify property pages
+get pages
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+specify property pages
+ unknown
+specify property pages
+ address
+ address
+get pages
+ cauuid
+ pages
+ com
+vtbl call
+ address
+ pages
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

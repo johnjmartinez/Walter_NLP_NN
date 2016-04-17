@@ -1,0 +1,343 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.TypedListener.java </DOCNO>
+<text>
+<class>
+typed listener
+</class>
+<method>
+typed listener
+get event listener
+handle event
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ events
+typed listener
+ listener
+swt event listener
+event listener
+typed listener
+swt event listener
+ listener
+event listener
+ listener
+swt event listener
+get event listener
+event listener
+handle event
+ event
+
+
+ type
+ swt
+ paint
+paint event
+ event
+paint event
+
+paint listener
+event listener
+paint control
+ event
+
+
+ event
+
+ swt
+ selection
+selection event
+ event
+selection event
+
+selection listener
+event listener
+widget selected
+ event
+
+
+ event
+
+
+
+ event
+
+
+ doit
+ event
+ doit
+ swt
+default selection
+selection listener
+event listener
+widget default selected
+selection event
+
+ swt
+ dispose
+dispose listener
+event listener
+widget disposed
+dispose event
+
+ swt
+ focus
+focus listener
+event listener
+focus gained
+focus event
+
+ swt
+focus out
+focus listener
+event listener
+focus lost
+focus event
+
+ swt
+ hide
+menu listener
+event listener
+menu hidden
+menu event
+
+ swt
+ show
+menu listener
+event listener
+menu shown
+menu event
+
+ swt
+key down
+key event
+ event
+key event
+
+key listener
+event listener
+key pressed
+ event
+
+ doit
+ event
+ doit
+ swt
+ key
+key event
+ event
+key event
+
+key listener
+event listener
+key released
+ event
+
+ doit
+ event
+ doit
+ swt
+mouse down
+mouse listener
+event listener
+mouse down
+mouse event
+
+ swt
+ mouse
+mouse listener
+event listener
+ mouse
+mouse event
+
+ swt
+mouse double click
+mouse listener
+event listener
+mouse double click
+mouse event
+
+ swt
+mouse move
+mouse move listener
+event listener
+mouse move
+mouse event
+
+ swt
+ resize
+control listener
+event listener
+control resized
+control event
+
+ swt
+ move
+control listener
+event listener
+control moved
+control event
+
+ swt
+ close
+shell event
+ event
+shell event
+
+shell listener
+event listener
+shell closed
+ event
+
+ doit
+ event
+ doit
+ swt
+ activate
+shell listener
+event listener
+shell activated
+shell event
+
+ swt
+ deactivate
+shell listener
+event listener
+shell deactivated
+shell event
+
+ swt
+ iconify
+shell listener
+event listener
+shell iconified
+shell event
+
+ swt
+ deiconify
+shell listener
+event listener
+shell deiconified
+shell event
+
+ swt
+ expand
+tree listener
+event listener
+tree expanded
+tree event
+
+ swt
+ collapse
+tree listener
+event listener
+tree collapsed
+tree event
+
+ swt
+ modify
+modify listener
+event listener
+modify text
+modify event
+
+ swt
+ verify
+verify event
+ event
+verify event
+
+verify listener
+event listener
+verify text
+ event
+
+ text
+ event
+ text
+
+ doit
+ event
+ doit
+ swt
+ help
+help listener
+event listener
+help requested
+help event
+
+ swt
+ arm
+arm listener
+event listener
+widget armed
+arm event
+
+ swt
+mouse exit
+mouse track listener
+event listener
+mouse exit
+mouse event
+
+ swt
+mouse enter
+mouse track listener
+event listener
+mouse enter
+mouse event
+
+ swt
+mouse hover
+mouse track listener
+event listener
+mouse hover
+mouse event
+
+ swt
+ traverse
+traverse event
+ event
+traverse event
+
+traverse listener
+event listener
+key traversed
+ event
+
+ detail
+ event
+ detail
+
+ doit
+ event
+ doit
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  internal  swt  implementation  objects  which  provide  mapping  between  the  typed  and  untyped  listener  mechanisms  that  swt  supports  important  this  class  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  should  never  referenced  from  application  code  see  listener
+the  receiver  event  listener
+constructs  new  instance  this  class  for  the  given  event  listener  important  this  method  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  should  never  referenced  from  application  code  param  listener  the  event  listener  store  the  receiver
+returns  the  receiver  event  listener  important  this  method  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  should  never  referenced  from  application  code  return  the  receiver  event  listener
+handles  the  given  event  important  this  method  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  should  never  referenced  from  application  code  param  the  event  handle
+field  set  control
+fields  set  sash
+fields  set  decorations
+fields  set  text rich text
+fields  set  control
+</comments>
+</text>
+</DOC>

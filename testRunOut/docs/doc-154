@@ -1,0 +1,89 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.ole.win32.IDataObject.java </DOCNO>
+<text>
+<class>
+data object
+</class>
+<method>
+data object
+enum format etc
+get data
+get data here
+query get data
+set data
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+data object
+ unknown
+data object
+ address
+ address
+enum format etc
+ direction
+ppenum formatetc
+ com
+vtbl call
+ address
+ direction
+ppenum formatetc
+get data
+ formatetc
+ formatetc
+ stgmedium
+ pmedium
+ com
+vtbl call
+ address
+ formatetc
+ pmedium
+get data here
+ formatetc
+ formatetc
+ stgmedium
+ pmedium
+ com
+vtbl call
+ address
+ formatetc
+ pmedium
+query get data
+ formatetc
+ formatetc
+ com
+vtbl call
+ address
+ formatetc
+set data
+ formatetc
+ formatetc
+ stgmedium
+ pmedium
+ release
+ com
+vtbl call
+ address
+ formatetc
+ pmedium
+ release
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+called  data  consumer  obtain  data  from  source  data  object
+the get data  method  renders  the  data  described  the  specified  formatetc
+structure  and  transfers  through  the  specified  stgmedium  structure
+the  caller  then  assumes  responsibility  for  releasing  the  stgmedium  structure
+called  data  consumer  obtain  data  from  source  data  object
+this  method  differs  from  the get data  method  that  the  caller  must
+allocate  and  free  the  specified  storage  medium
+pointer  the  formatetc  structure
+pointer  stgmedium  structure
+indicates  which  object  owns  the  storage  medium  after  the  call  completed
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,52 @@
+<DOC>
+<DOCNO>org.eclipse.swt.dnd.DropTargetAdapter.java </DOCNO>
+<text>
+<class>
+drop target adapter
+</class>
+<method>
+drag enter
+drag leave
+drag operation changed
+drag over
+ drop
+drop accept
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ dnd
+drop target adapter
+drop target listener
+drag enter
+drop target event
+ event
+drag leave
+drop target event
+ event
+drag operation changed
+drop target event
+ event
+drag over
+drop target event
+ event
+ drop
+drop target event
+ event
+drop accept
+drop target event
+ event
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  adapter  class  provides  default  implementations  for  the  methods  described  the  code drop target listener  code  interface  classes  that  wish  deal  with  code drop target event  code  can  extend  this  class  and  override  only  the  methods  which  they  are  interested  see drop target listener  see drop target event
+this  implementation  code drag enter  code  permits  the  default  operation  defined  code  event  detail  code  performed  the  current  data  type  defined  code  event current data type  code  for  additional  information  see  code drop target listener drag enter  code
+this  implementation  code drag leave  code  does  nothing  for  additional  information  see  code drop target listener drag operation changed  code
+this  implementation  code drag operation changed  code  permits  the  default  operation  defined  code  event  detail  code  performed  the  current  data  type  defined  code  event current data type  code  for  additional  information  see  code drop target listener drag operation changed  code
+this  implementation  code drag over  code  permits  the  default  operation  defined  code  event  detail  code  performed  the  current  data  type  defined  code  event current data type  code  for  additional  information  see  code drop target listener drag over  code
+this  implementation  code  drop  code  does  nothing  for  additional  information  see  code drop target listener  drop  code
+this  implementation  code drop accept  code  permits  the  default  operation  defined  code  event  detail  code  performed  the  current  data  type  defined  code  event current data type  code  for  additional  information  see  code drop target listener drop accept  code
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,245 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.EventTable.java </DOCNO>
+<text>
+<class>
+event table
+</class>
+<method>
+ hook
+ hooks
+send event
+ size
+ remove
+ unhook
+ unhook
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+event table
+ types
+ listener
+ listeners
+ level
+ hook
+event type
+ listener
+ listener
+ types
+ types
+ listeners
+ listeners
+ listener
+ length
+ types
+ length
+ index
+ length
+ index
+ types
+ index
+ index
+ index
+ index
+ length
+new types
+ length
+ system
+ arraycopy
+ types
+new types
+ length
+ types
+new types
+ listener
+new listeners
+ listener
+ length
+ system
+ arraycopy
+ listeners
+new listeners
+ length
+ listeners
+new listeners
+ types
+ index
+event type
+ listeners
+ index
+ listener
+ hooks
+event type
+ types
+
+
+ types
+ length
+
+ types
+
+event type
+send event
+ event
+ event
+ types
+ level
+ level
+
+
+ types
+ length
+
+ event
+ type
+ swt
+ none
+ types
+
+ event
+ type
+ listener
+ listener
+ listeners
+
+ listener
+ listener
+handle event
+ event
+ compact
+ level
+ level
+ level
+ compact
+ level
+ index
+
+
+ types
+ length
+
+ types
+
+ types
+ index
+ types
+
+ listeners
+ index
+ listeners
+
+ index
+
+ index
+
+ types
+ length
+
+ types
+
+ listeners
+
+ size
+ types
+ count
+
+
+ types
+ length
+
+ types
+
+ count
+ count
+ remove
+ index
+ level
+ end
+ types
+ length
+ system
+ arraycopy
+ types
+ index
+ types
+ index
+ end
+ index
+ system
+ arraycopy
+ listeners
+ index
+ listeners
+ index
+ end
+ index
+ index
+ end
+ level
+ level
+ level
+ types
+ index
+ listeners
+ index
+ unhook
+event type
+ listener
+ listener
+ types
+
+
+ types
+ length
+
+ types
+
+event type
+ listeners
+
+ listener
+ remove
+
+ unhook
+event type
+swt event listener
+ listener
+ types
+
+
+ types
+ length
+
+ types
+
+event type
+ listeners
+
+typed listener
+typed listener
+typed listener
+typed listener
+ listeners
+
+typed listener
+get event listener
+ listener
+ remove
+
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  implement  simple  look  mechanism  that  maps  event  type  listener  muliple  listeners  for  the  same  event  type  are  supported
+</comments>
+</text>
+</DOC>

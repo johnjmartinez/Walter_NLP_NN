@@ -1,0 +1,227 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.PngLzBlockReader.java </DOCNO>
+<text>
+<class>
+png block reader
+</class>
+<method>
+png block reader
+set window size
+read next block header
+get next byte
+assert block end
+assert compressed data end
+get next compressed byte
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+png block reader
+last block
+compression type
+uncompressed bytes remaining
+png decoding data stream
+ stream
+png huffman tables
+huffman tables
+ window
+window index
+copy index
+copy bytes remaining
+ uncompressed
+compressed fixed
+compressed dynamic
+end compressed block
+first length code
+last length code
+first distance code
+last distance code
+first code length code
+last code length code
+length bases
+extra length bits
+distance bases
+extra distance bits
+png block reader
+png decoding data stream
+ stream
+ stream
+ stream
+last block
+set window size
+window size
+ window
+window size
+read next block header
+last block
+ stream
+get next idat bit
+compression type
+ stream
+get next idat bits
+compression type
+ stream
+ error
+compression type
+ uncompressed
+
+ stream
+get next idat byte
+
+ stream
+get next idat byte
+
+ stream
+get next idat byte
+
+ stream
+get next idat byte
+
+
+
+
+ stream
+ error
+uncompressed bytes remaining
+
+
+compression type
+compressed dynamic
+huffman tables
+png huffman tables
+get dynamic tables
+ stream
+huffman tables
+png huffman tables
+get fixed tables
+get next byte
+compression type
+ uncompressed
+uncompressed bytes remaining
+read next block header
+get next byte
+uncompressed bytes remaining
+ stream
+get next idat byte
+ value
+get next compressed byte
+ value
+end compressed block
+last block
+ stream
+ error
+read next block header
+get next byte
+ value
+assert block end
+compression type
+ uncompressed
+uncompressed bytes remaining
+ stream
+ error
+copy bytes remaining
+huffman tables
+get next literal value
+ stream
+end compressed block
+ stream
+ error
+assert compressed data end
+assert block end
+last block
+read next block header
+assert block end
+get next compressed byte
+copy bytes remaining
+ value
+ window
+copy index
+ window
+window index
+ value
+copy bytes remaining
+copy index
+window index
+copy index
+ window
+ length
+copy index
+window index
+ window
+ length
+window index
+ value
+ value
+huffman tables
+get next literal value
+ stream
+ value
+end compressed block
+ window
+window index
+ value
+window index
+window index
+ window
+ length
+window index
+ value
+ value
+end compressed block
+read next block header
+get next byte
+ value
+last length code
+extra bits
+extra length bits
+ value
+first length code
+ length
+length bases
+ value
+first length code
+extra bits
+ length
+ stream
+get next idat bits
+extra bits
+ value
+huffman tables
+get next distance value
+ stream
+ value
+last distance code
+ stream
+ error
+extra bits
+extra distance bits
+ value
+ distance
+distance bases
+ value
+extra bits
+ distance
+ stream
+get next idat bits
+extra bits
+copy index
+window index
+ distance
+copy index
+copy index
+ window
+ length
+copy bytes remaining
+ length
+get next compressed byte
+ stream
+ error
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,1801 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Tracker.java </DOCNO>
+<text>
+<class>
+ tracker
+</class>
+<method>
+ tracker
+ tracker
+add control listener
+add key listener
+adjust move cursor
+adjust resize cursor
+check style
+ close
+compute bounds
+compute proportions
+draw rectangles
+get rectangles
+get stippled
+move rectangles
+ open
+remove control listener
+remove key listener
+resize rectangles
+set cursor
+set rectangles
+set stippled
+transparent proc
+ update
+key down
+sys key down
+ mouse
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ events
+ tracker
+ widget
+ control
+ parent
+ tracking
+ cancelled
+ stippled
+ rectangle
+ rectangles
+ proportions
+ rectangle
+ bounds
+resize cursor
+client cursor
+cursor orientation
+ swt
+ none
+ event
+old proc
+ old
+ old
+stepsize small
+stepsize large
+ tracker
+ composite
+ parent
+ style
+ parent
+check style
+ style
+ parent
+ parent
+ tracker
+ display
+ display
+ style
+ display
+ display
+ display
+get current
+ display
+ display
+ display
+get default
+ display
+valid thread
+ error
+ swt
+error thread invalid access
+ style
+check style
+ style
+ display
+ display
+add control listener
+control listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ resize
+typed listener
+add listener
+ swt
+ move
+typed listener
+add key listener
+key listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ key
+typed listener
+add listener
+ swt
+key down
+typed listener
+ point
+adjust move cursor
+ new
+ bounds
+
+ bounds
+ width
+ new
+ bounds
+
+ point
+
+ point
+
+
+ new
+
+
+ new
+ parent
+
+client screen
+ parent
+ handle
+
+
+set cursor pos
+
+
+
+
+ point
+
+
+
+
+ point
+adjust resize cursor
+ new
+ new
+cursor orientation
+ swt
+ left
+ new
+ bounds
+
+cursor orientation
+ swt
+ right
+ new
+ bounds
+
+ bounds
+ width
+ new
+ bounds
+
+ bounds
+ width
+cursor orientation
+ swt
+
+ new
+ bounds
+
+cursor orientation
+ swt
+ down
+ new
+ bounds
+
+ bounds
+ height
+ new
+ bounds
+
+ bounds
+ height
+ point
+
+ point
+
+
+ new
+
+
+ new
+ parent
+
+client screen
+ parent
+ handle
+
+
+set cursor pos
+
+
+
+
+client cursor
+new cursor
+cursor orientation
+ swt
+
+new cursor
+
+load cursor
+
+idc sizens
+ swt
+ down
+new cursor
+
+load cursor
+
+idc sizens
+ swt
+ left
+new cursor
+
+load cursor
+
+idc sizewe
+ swt
+ right
+new cursor
+
+load cursor
+
+idc sizewe
+ swt
+ left
+ swt
+
+new cursor
+
+load cursor
+
+idc sizenwse
+ swt
+ right
+ swt
+ down
+new cursor
+
+load cursor
+
+idc sizenwse
+ swt
+ left
+ swt
+ down
+new cursor
+
+load cursor
+
+idc sizenesw
+ swt
+ right
+ swt
+
+new cursor
+
+load cursor
+
+idc sizenesw
+new cursor
+
+load cursor
+
+idc sizeall
+
+set cursor
+new cursor
+resize cursor
+
+destroy cursor
+resize cursor
+resize cursor
+new cursor
+ point
+
+
+
+
+check style
+ style
+ style
+ swt
+ left
+ swt
+ right
+ swt
+
+ swt
+ down
+ style
+ swt
+ left
+ swt
+ right
+ swt
+
+ swt
+ down
+ style
+ close
+check widget
+ tracking
+ rectangle
+compute bounds
+ min
+ rectangles
+
+ min
+ rectangles
+
+ max
+ rectangles
+
+ rectangles
+ width
+ max
+ rectangles
+
+ rectangles
+ height
+
+
+ rectangles
+ length
+
+ rectangles
+
+
+ min
+ min
+ rectangles
+
+
+ rectangles
+
+
+ min
+ min
+ rectangles
+
+
+rect right
+ rectangles
+
+
+ rectangles
+
+ width
+rect right
+ max
+ max
+rect right
+rect bottom
+ rectangles
+
+
+ rectangles
+
+ height
+rect bottom
+ max
+ max
+rect bottom
+ rectangle
+ min
+ min
+ max
+ min
+ max
+ min
+ rectangle
+compute proportions
+ rectangle
+ rects
+ rectangle
+ result
+ rectangle
+ rects
+ length
+ bounds
+compute bounds
+
+
+ rects
+ length
+
+
+
+ width
+ height
+ bounds
+ width
+
+ rects
+
+
+ bounds
+
+ bounds
+ width
+ width
+ rects
+
+ width
+ bounds
+ width
+ width
+ bounds
+ height
+
+ rects
+
+
+ bounds
+
+ bounds
+ height
+ height
+ rects
+
+ height
+ bounds
+ height
+ height
+ result
+
+ rectangle
+
+
+ width
+ height
+ result
+draw rectangles
+ rectangle
+ rects
+ stippled
+band width
+hwnd track
+
+get desktop window
+ parent
+hwnd track
+ parent
+ handle
+
+
+ get
+hwnd track
+
+dcx cache
+ bitmap
+ brush
+old brush
+ stippled
+band width
+ bits
+ bitmap
+
+create bitmap
+ bits
+ brush
+
+create pattern brush
+ bitmap
+old brush
+
+select object
+
+ brush
+
+
+ rects
+ length
+
+ rectangle
+ rect
+ rects
+
+
+pat blt
+
+ rect
+
+ rect
+
+ rect
+ width
+band width
+
+ patinvert
+
+pat blt
+
+ rect
+
+ rect
+
+band width
+band width
+ rect
+ height
+band width
+
+ patinvert
+
+pat blt
+
+ rect
+
+ rect
+ width
+band width
+ rect
+
+band width
+band width
+ rect
+ height
+band width
+
+ patinvert
+
+pat blt
+
+ rect
+
+ rect
+
+ rect
+ height
+band width
+ rect
+ width
+band width
+
+ patinvert
+ stippled
+
+select object
+
+old brush
+
+delete object
+ brush
+
+delete object
+ bitmap
+
+ release
+hwnd track
+
+ rectangle
+get rectangles
+check widget
+ length
+ rectangles
+ length
+ rectangles
+ length
+ rectangle
+ result
+ rectangle
+ length
+
+
+ length
+
+ rectangle
+ current
+ rectangles
+
+ result
+
+ rectangle
+ current
+
+ current
+
+ current
+ width
+ current
+ height
+ result
+get stippled
+check widget
+ stippled
+move rectangles
+ change
+ change
+ change
+ style
+ swt
+ left
+ change
+ change
+ style
+ swt
+ right
+ change
+ change
+ style
+ swt
+
+ change
+ change
+ style
+ swt
+ down
+ change
+ change
+ change
+ bounds
+
+ change
+ bounds
+
+ change
+
+
+ rectangles
+ length
+
+ rectangles
+
+
+ change
+ rectangles
+
+
+ change
+ open
+check widget
+ rectangles
+ cancelled
+ tracking
+ style
+ style
+ swt
+
+ swt
+ down
+ style
+ swt
+
+ style
+ swt
+ down
+cursor orientation
+ style
+ style
+ style
+ swt
+ left
+ swt
+ right
+ style
+ swt
+ left
+ style
+ swt
+ right
+cursor orientation
+ style
+hwnd transparent
+ callback
+new proc
+mouse down
+
+get key state
+
+ lbutton
+mouse down
+ width
+
+get system metrics
+
+ cxscreen
+ height
+
+get system metrics
+
+ cyscreen
+hwnd transparent
+
+create window
+
+ transparent
+ display
+window class
+
+ popup
+
+ visible
+ width
+ height
+
+get module handle
+old proc
+
+get window long
+hwnd transparent
+
+gwl wndproc
+new proc
+ callback
+new proc address
+new proc
+get address
+new proc address
+ swt
+ error
+ swt
+error more callbacks
+
+set window long
+hwnd transparent
+
+gwl wndproc
+new proc address
+ update
+draw rectangles
+ rectangles
+ stippled
+ point
+cursor pos
+mouse down
+ point
+
+ point
+
+get cursor pos
+
+cursor pos
+ point
+
+
+
+
+ style
+ swt
+ resize
+cursor pos
+adjust resize cursor
+cursor pos
+adjust move cursor
+ old
+cursor pos
+
+ old
+cursor pos
+
+ msg
+ msg
+ msg
+ tracking
+ cancelled
+ parent
+ parent
+ disposed
+
+get message
+ msg
+
+translate message
+ msg
+ msg
+ message
+
+ lbuttonup
+
+ mousemove
+ mouse
+ msg
+ message
+ msg
+ param
+ msg
+ param
+
+ime char
+ime char
+ msg
+ hwnd
+ msg
+ param
+ msg
+ param
+
+ char
+ char
+ msg
+ hwnd
+ msg
+ param
+ msg
+ param
+
+ keydown
+key down
+ msg
+ hwnd
+ msg
+ param
+ msg
+ param
+
+ keyup
+ key
+ msg
+ hwnd
+ msg
+ param
+ msg
+ param
+
+ syschar
+sys char
+ msg
+ hwnd
+ msg
+ param
+ msg
+ param
+
+ syskeydown
+sys key down
+ msg
+ hwnd
+ msg
+ param
+ msg
+ param
+
+ syskeyup
+sys key
+ msg
+ hwnd
+ msg
+ param
+ msg
+ param
+
+ keyfirst
+ msg
+ message
+ msg
+ message
+
+ keylast
+
+ mousefirst
+ msg
+ message
+ msg
+ message
+
+ mouselast
+ msg
+ message
+
+ paint
+ update
+draw rectangles
+ rectangles
+ stippled
+
+dispatch message
+ msg
+ msg
+ message
+
+ paint
+draw rectangles
+ rectangles
+ stippled
+mouse down
+
+release capture
+ disposed
+ update
+draw rectangles
+ rectangles
+ stippled
+hwnd transparent
+
+destroy window
+hwnd transparent
+new proc
+new proc
+ dispose
+old proc
+resize cursor
+
+destroy cursor
+resize cursor
+resize cursor
+ tracking
+ cancelled
+remove control listener
+control listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ resize
+ listener
+event table
+ unhook
+ swt
+ move
+ listener
+remove key listener
+key listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ key
+ listener
+event table
+ unhook
+ swt
+key down
+ listener
+resize rectangles
+ change
+ change
+ change
+ style
+ swt
+ left
+cursor orientation
+ swt
+ right
+cursor orientation
+ swt
+ left
+ change
+ style
+ swt
+ right
+cursor orientation
+ swt
+ left
+cursor orientation
+ swt
+ right
+ change
+ style
+ swt
+
+cursor orientation
+ swt
+ down
+cursor orientation
+ swt
+
+ change
+ style
+ swt
+ down
+cursor orientation
+ swt
+
+cursor orientation
+ swt
+ down
+cursor orientation
+ swt
+ left
+ change
+ bounds
+ width
+ style
+ swt
+ right
+cursor orientation
+ swt
+ right
+cursor orientation
+ swt
+ left
+ bounds
+
+ bounds
+ width
+ change
+ bounds
+ width
+ bounds
+ width
+ proportions
+ length
+
+
+ proportions
+ length
+
+ rectangle
+ proportion
+ proportions
+
+ proportion
+
+ proportion
+
+ proportion
+ width
+cursor orientation
+ swt
+ right
+ bounds
+ width
+ change
+ style
+ swt
+ left
+cursor orientation
+ swt
+ left
+cursor orientation
+ swt
+ right
+ change
+ bounds
+ width
+ bounds
+ width
+ proportions
+ length
+
+
+ proportions
+ length
+
+ rectangle
+ proportion
+ proportions
+
+ proportion
+
+ proportion
+
+ proportion
+ width
+cursor orientation
+ swt
+
+ change
+ bounds
+ height
+ style
+ swt
+ down
+cursor orientation
+ swt
+ down
+cursor orientation
+ swt
+
+ bounds
+
+ bounds
+ height
+ change
+ bounds
+ height
+ bounds
+ height
+ proportions
+ length
+
+
+ proportions
+ length
+
+ rectangle
+ proportion
+ proportions
+
+ proportion
+
+ proportion
+
+ proportion
+ height
+cursor orientation
+ swt
+ down
+ bounds
+ height
+ change
+ style
+ swt
+
+cursor orientation
+ swt
+
+cursor orientation
+ swt
+ down
+ change
+ bounds
+ height
+ bounds
+ height
+ proportions
+ length
+
+
+ proportions
+ length
+
+ rectangle
+ proportion
+ proportions
+
+ proportion
+
+ proportion
+
+ proportion
+ height
+cursor orientation
+ swt
+ left
+ bounds
+
+ change
+ bounds
+ width
+ change
+cursor orientation
+ swt
+ right
+ bounds
+ width
+ change
+cursor orientation
+ swt
+
+ bounds
+
+ change
+ bounds
+ height
+ change
+cursor orientation
+ swt
+ down
+ bounds
+ height
+ change
+ rectangle
+new rects
+ rectangle
+ rectangles
+ length
+
+
+ rectangles
+ length
+
+ rectangle
+ proportion
+ proportions
+
+new rects
+
+ rectangle
+ proportion
+
+ bounds
+ width
+ bounds
+
+ proportion
+
+ bounds
+ height
+ bounds
+
+ proportion
+ width
+ bounds
+ width
+ proportion
+ height
+ bounds
+ height
+ rectangles
+new rects
+set cursor
+ cursor
+new cursor
+check widget
+client cursor
+new cursor
+client cursor
+new cursor
+ handle
+ event
+
+set cursor
+client cursor
+set rectangles
+ rectangle
+ rectangles
+check widget
+ rectangles
+ error
+ swt
+error null argument
+ length
+ rectangles
+ length
+ rectangles
+ rectangle
+ length
+
+
+ length
+
+ rectangle
+ current
+ rectangles
+
+ current
+ error
+ swt
+error null argument
+ rectangles
+
+ rectangle
+ current
+
+ current
+
+ current
+ width
+ current
+ height
+ proportions
+compute proportions
+ rectangles
+set stippled
+ stippled
+check widget
+ stippled
+ stippled
+transparent proc
+ hwnd
+ msg
+ param
+ param
+ msg
+
+ nchittest
+ event
+
+ httransparent
+
+ setcursor
+client cursor
+
+set cursor
+client cursor
+resize cursor
+
+set cursor
+resize cursor
+
+call window proc
+old proc
+ hwnd
+ msg
+ param
+ param
+ update
+ parent
+ parent
+ disposed
+ shell
+ shell
+ parent
+get shell
+ shell
+ update
+ display
+ update
+ lresult
+key down
+ hwnd
+ param
+ param
+ lresult
+ result
+key down
+ hwnd
+ param
+ param
+ result
+ result
+ mirrored
+ parent
+ parent
+ style
+ swt
+ mirrored
+step size
+
+get key state
+
+ control
+stepsize small
+stepsize large
+ change
+ change
+ param
+
+ escape
+ cancelled
+ tracking
+
+ return
+ tracking
+
+ left
+ change
+ mirrored
+step size
+step size
+
+ right
+ change
+ mirrored
+step size
+step size
+
+
+ change
+step size
+
+ down
+ change
+step size
+ change
+ change
+ rectangle
+old rectangles
+ rectangles
+old stippled
+ stippled
+ rectangle
+rects erase
+ rectangle
+ rectangles
+ length
+
+
+ rectangles
+ length
+
+ rectangle
+ current
+ rectangles
+
+rects erase
+
+ rectangle
+ current
+
+ current
+
+ current
+ width
+ current
+ height
+ event
+ event
+ event
+ event
+
+ old
+ change
+ event
+
+ old
+ change
+ point
+cursor pos
+ style
+ swt
+ resize
+resize rectangles
+ change
+ change
+ event
+send event
+ swt
+ resize
+ event
+ event
+ disposed
+ cancelled
+ lresult
+ one
+ draw
+ rectangles
+old rectangles
+ length
+ rectangles
+ length
+ length
+rects erase
+ length
+ draw
+
+
+ length
+
+ rectangles
+
+ equals
+rects erase
+
+ draw
+ draw
+ draw
+draw rectangles
+rects erase
+old stippled
+ update
+draw rectangles
+ rectangles
+ stippled
+cursor pos
+adjust resize cursor
+move rectangles
+ change
+ change
+ event
+send event
+ swt
+ move
+ event
+ event
+ disposed
+ cancelled
+ lresult
+ one
+ draw
+ rectangles
+old rectangles
+ length
+ rectangles
+ length
+ length
+rects erase
+ length
+ draw
+
+
+ length
+
+ rectangles
+
+ equals
+rects erase
+
+ draw
+ draw
+ draw
+draw rectangles
+rects erase
+old stippled
+ update
+draw rectangles
+ rectangles
+ stippled
+cursor pos
+adjust move cursor
+ old
+cursor pos
+
+ old
+cursor pos
+
+ result
+ lresult
+sys key down
+ hwnd
+ param
+ param
+ lresult
+ result
+sys key down
+ hwnd
+ param
+ param
+ result
+ result
+ cancelled
+ tracking
+ result
+ lresult
+ mouse
+ message
+ param
+ param
+ mirrored
+ parent
+ parent
+ style
+ swt
+ mirrored
+new pos
+
+get message pos
+ new
+new pos
+ new
+new pos
+ new
+ old
+ new
+ old
+ rectangle
+old rectangles
+ rectangles
+old stippled
+ stippled
+ rectangle
+rects erase
+ rectangle
+ rectangles
+ length
+
+
+ rectangles
+ length
+
+ rectangle
+ current
+ rectangles
+
+rects erase
+
+ rectangle
+ current
+
+ current
+
+ current
+ width
+ current
+ height
+ event
+ event
+ event
+ event
+
+ new
+ event
+
+ new
+ style
+ swt
+ resize
+ mirrored
+resize rectangles
+ old
+ new
+ new
+ old
+resize rectangles
+ new
+ old
+ new
+ old
+ event
+send event
+ swt
+ resize
+ event
+ event
+ disposed
+ cancelled
+ lresult
+ one
+ draw
+ rectangles
+old rectangles
+ length
+ rectangles
+ length
+ length
+rects erase
+ length
+ draw
+
+
+ length
+
+ rectangles
+
+ equals
+rects erase
+
+ draw
+ draw
+ draw
+draw rectangles
+rects erase
+old stippled
+ update
+draw rectangles
+ rectangles
+ stippled
+ point
+cursor pos
+adjust resize cursor
+ new
+cursor pos
+
+ new
+cursor pos
+
+ mirrored
+move rectangles
+ old
+ new
+ new
+ old
+move rectangles
+ new
+ old
+ new
+ old
+ event
+send event
+ swt
+ move
+ event
+ event
+ disposed
+ cancelled
+ lresult
+ one
+ draw
+ rectangles
+old rectangles
+ length
+ rectangles
+ length
+ length
+rects erase
+ length
+ draw
+
+
+ length
+
+ rectangles
+
+ equals
+rects erase
+
+ draw
+ draw
+ draw
+draw rectangles
+rects erase
+old stippled
+ update
+draw rectangles
+ rectangles
+ stippled
+ old
+ new
+ old
+ new
+ tracking
+ message
+
+ lbuttonup
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  implement  rubber  banding  rectangles  that  are  drawn  onto  parent  code  composite  code  code  display  code  these  rectangles  can  specified  respond  mouse  and  key  events  either  moving  resizing  themselves  accordingly  trackers  are  typically  used  represent  window  geometries  lightweight  manner  styles  left  right  down  resize  events  move  resize  note  rectangle  move  behavior  assumed  unless  resize  specified  important  this  class  not  intended  subclassed 
+the  following  values  mirror  step  sizes  windows
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  widget  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  widget  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  left  see  swt  right  see  swt  see  swt  down  see  swt  resize  see  widget check subclass  see  widget get style
+constructs  new  instance  this  class  given  the  display  create  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  note  currently  null  can  passed  for  the  display  argument  this  has  the  effect  creating  the  tracker  the  currently  active  display  there  one  there  current  display  the  tracker  created  default  display  passing  null  the  display  argument  not  considered  good  coding  style  and  may  not  supported  future  release  swt  param  display  the  display  create  the  tracker  param  style  the  style  control  construct  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  left  see  swt  right  see  swt  see  swt  down
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  control  moved  resized  sending  one  the  messages  defined  the  code control listener  code  interface  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see control listener  see remove control listener
+adds  the  listener  the  collection  listeners  who  will  notified  when  keys  are  pressed  and  released  the  system  keyboard  sending  one  the  messages  defined  the  code key listener  code  interface  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see key listener  see remove key listener
+convert  screen  coordinates  iff  needed
+convert  screen  coordinates  iff  needed
+the  client  has  not  provided  custom  cursor  then  determine  the  appropriate  resize  cursor
+stops  displaying  the  tracker  rectangles  note  that  this  not  considered  cancelation  the  user  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+draw  the  rectangles  displayed  the  tracker
+returns  the  bounds  that  are  being  drawn  expressed  relative  the  parent  widget  the  parent  code  display  code  then  these  are  screen  coordinates  return  the  bounds  the  rectangles  being  drawn  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  true  code  the  rectangles  are  drawn  with  stippled  line  code  false  code  otherwise  return  the  stippled  effect  the  rectangles  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+displays  the  tracker  rectangles  for  manipulation  the  user  returns  when  the  user  has  either  finished  manipulating  the  rectangles  has  cancelled  the  tracker  return  code  true  code  the  user  did  not  cancel  the  tracker  code  false  code  otherwise  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+exactly  one  down  specified  style  then  set  the  cursor  orientation  accordingly  the  same  done  for  left  right  styles  below
+this  tracker  being  created  without  mouse  drag  then  need  create  transparent  window  that  fills  the  screen  order  get  all  mouse  keyboard  events  that  occur  outside  our  visible  windows  over  the  desktop
+non  nls 
+tracker  behaves  like  dialog  with  its  own  event  loop
+cleanup  transparent  window  was  created  order  capture  events  then  destroy  and  its  callback  object  now
+cleanup  this  tracker  was  resizing  then  the  last  cursor  that  created  needs  destroyed
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  control  moved  resized  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see control listener  see add control listener
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  keys  are  pressed  and  released  the  system  keyboard  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see key listener  see add key listener
+the  cursor  orientation  has  not  been  set  the  orientation  this  change  then  try  set  here
+the  bounds  will  flip  about  the  axis  then  apply  the  adjustment  the  axis  where  bounds  width  height  becomes  change  the  cursor  orientation  accordingly  and  flip  each  rectangle  origin  only  necessary  for  rectangles
+apply  the  bounds  adjustment
+sets  the  code  cursor  code  the  tracker  this  cursor  code  null  code  then  the  cursor  reverts  the  default  param new cursor  the  new  code  cursor  code  display  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+specifies  the  rectangles  that  should  drawn  expressed  relative  the  parent  widget  the  parent  display  then  these  are  screen  coordinates  param  rectangles  the  bounds  the  rectangles  drawn  exception illegal argument exception  error  null  argument  the  set  rectangles  null  contains  null  rectangle  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+changes  the  appearance  the  line  used  draw  the  rectangles  param  stippled  code  true  code  rectangle  should  appear  stippled  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+typically  not  want  answer  that  the  transparent  window  transparent  hits  since  doing  negates  the  effect  having  grab  events  however  clients  the  tracker  should  not  aware  this  transparent  window  therefore  there  hit  query  performed  result  client  code  then  answer  that  the  transparent  window  transparent  hits  that  its  existence  will  not  impact  the  client
+possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  resize  event  this  happens  return  false  indicate  that  the  tracking  has  failed
+possible  that  application  code  could  have  changed  the  rectangles  the  resize  event  this  happens  then  only  redraw  the  tracker  the  rectangle  values  have  changed
+possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  move  event  this  happens  return  false  indicate  that  the  tracking  has  failed
+possible  that  application  code  could  have  changed  the  rectangles  the  move  event  this  happens  then  only  redraw  the  tracker  the  rectangle  values  have  changed
+possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  resize  event  this  happens  return  false  indicate  that  the  tracking  has  failed
+possible  that  application  code  could  have  changed  the  rectangles  the  resize  event  this  happens  then  only  redraw  the  tracker  the  rectangle  values  have  changed
+possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  move  event  this  happens  return  false  indicate  that  the  tracking  has  failed
+possible  that  application  code  could  have  changed  the  rectangles  the  move  event  this  happens  then  only  redraw  the  tracker  the  rectangle  values  have  changed
+</comments>
+</text>
+</DOC>

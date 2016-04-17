@@ -1,0 +1,312 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.Transform.java </DOCNO>
+<text>
+<class>
+ transform
+</class>
+<method>
+ transform
+ transform
+ transform
+check transform
+ dispose
+get elements
+ invert
+ disposed
+ identity
+ multiply
+ rotate
+ scale
+set elements
+ transform
+ translate
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ internal
+ gdip
+ transform
+ resource
+ handle
+ transform
+ device
+ device
+ device
+ transform
+ device
+ device
+ elements
+ device
+check transform
+ elements
+ elements
+ elements
+ elements
+ elements
+ elements
+ transform
+ device
+ device
+
+
+
+
+
+
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ device
+ device
+ device
+check gdip
+ handle
+ gdip
+matrix _new
+
+
+
+
+
+
+ handle
+ swt
+ error
+ swt
+error handles
+ device
+ tracking
+ device
+new object
+check transform
+ elements
+ elements
+ swt
+ error
+ swt
+error null argument
+ elements
+ length
+ swt
+ error
+ swt
+error invalid argument
+ elements
+ dispose
+ handle
+ device
+ disposed
+ gdip
+matrix _delete
+ handle
+ handle
+ device
+ tracking
+ device
+dispose object
+ device
+get elements
+ elements
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ elements
+ swt
+ error
+ swt
+error null argument
+ elements
+ length
+ swt
+ error
+ swt
+error invalid argument
+ gdip
+matrix get elements
+ handle
+ elements
+ invert
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ gdip
+matrix invert
+ handle
+ swt
+ error
+ swt
+error cannot invert matrix
+ disposed
+ handle
+ identity
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ gdip
+matrix identity
+ handle
+ multiply
+ transform
+ matrix
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ matrix
+ swt
+ error
+ swt
+error null argument
+ matrix
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ gdip
+matrix multiply
+ handle
+ matrix
+ handle
+ gdip
+matrix order prepend
+ rotate
+ angle
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ gdip
+matrix rotate
+ handle
+ angle
+ gdip
+matrix order prepend
+ scale
+ scale
+ scale
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ gdip
+matrix scale
+ handle
+ scale
+ scale
+ gdip
+matrix order prepend
+set elements
+
+
+
+
+
+
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ gdip
+matrix set elements
+ handle
+
+
+
+
+
+
+ transform
+point array
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+point array
+ swt
+ error
+ swt
+error null argument
+ gdip
+matrix transform points
+ handle
+point array
+point array
+ length
+ translate
+ offset
+ offset
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ gdip
+matrix translate
+ handle
+ offset
+ offset
+ gdip
+matrix order prepend
+ string
+ string
+ disposed
+ elements
+get elements
+ elements
+ elements
+ elements
+ elements
+ elements
+ elements
+ elements
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  represent  transformation  matrices  for  points  expressed  pairs  floating  point  numbers  application  code  must  explicitly  invoke  the  code  transform  dispose  code  method  release  the  operating  system  resources  managed  each  instance  when  those  instances  are  longer  required  since 
+the  resource  for  the  transform  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code 
+constructs  new  identity  transform  param  device  the  device  which  allocate  the  transform  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  exception swt error  error  handles  handle  for  the  transform  could  not  obtained  see  dispose
+constructs  new  transform  given  array  elements  that  represent  the  matrix  that  describes  the  transformation  param  device  the  device  which  allocate  the  transform  param  elements  array  floats  that  describe  the  transformation  matrix  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  the  elements  array  null  error  invalid  argument  the  elements  array  too  small  hold  the  matrix  values  exception swt error  error  handles  handle  for  the  transform  could  not  obtained  see  dispose
+constructs  new  transform  given  all  the  elements  that  represent  the  matrix  that  describes  the  transformation  param  device  the  device  which  allocate  the  transform  param  the  first  element  the  first  row  the  matrix  param  the  second  element  the  first  row  the  matrix  param  the  first  element  the  second  row  the  matrix  param  the  second  element  the  second  row  the  matrix  param  the  third  element  the  first  row  the  matrix  param  the  third  element  the  second  row  the  matrix  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  exception swt error  error  handles  handle  for  the  transform  could  not  obtained  see  dispose
+disposes  the  operating  system  resources  associated  with  the  transform  applications  must  dispose  all  transforms  that  they  allocate
+fills  the  parameter  with  the  values  the  transformation  matrix  that  the  receiver  represents  the  order  param  elements  array  hold  the  matrix  values  return  elements  array  the  transformation  matrix  represented  the  receiver  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  exception illegal argument exception  error  null  argument  the  parameter  null  error  invalid  argument  the  parameter  too  small  hold  the  matrix  values 
+modifies  the  receiver  such  that  the  matrix  represents  becomes  the  the  mathematical  inverse  the  matrix  previously  represented  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  error  cannot  invert  matrix  the  matrix  not  invertable 
+returns  code  true  code  the  transform  has  been  disposed  and  code  false  code  otherwise  this  method  gets  the  dispose  state  for  the  transform  when  transform  has  been  disposed  error  invoke  any  other  method  using  the  transform  return  code  true  code  when  the  transform  disposed  and  code  false  code  otherwise
+returns  code  true  code  the  transform  represents  the  identity  matrix  and  false  otherwise  return  code  true  code  the  receiver  identity  transform  and  code  false  code  otherwise
+modifies  the  receiver  such  that  the  matrix  represents  becomes  the  the  result  multiplying  the  matrix  previously  represented  the  argument  param  matrix  the  matrix  multiply  the  receiver  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  exception illegal argument exception  error  null  argument  the  parameter  null  error  invalid  argument  the  parameter  has  been  disposed 
+modifies  the  receiver  that  represents  transformation  that  equivalent  its  previous  transformation  rotated  the  specified  angle  the  angle  specified  degrees  and  for  the  identity  transform  degrees  the  clock  position  positive  value  indicates  clockwise  rotation  while  negative  value  indicates  counter  clockwise  rotation  param  angle  the  angle  rotate  the  transformation  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+modifies  the  receiver  that  represents  transformation  that  equivalent  its  previous  transformation  scaled  scale  scale  param  scale  the  amount  scale  the  direction  param  scale  the  amount  scale  the  direction  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+modifies  the  receiver  represent  new  transformation  given  all  the  elements  that  represent  the  matrix  that  describes  that  transformation  param  the  first  element  the  first  row  the  matrix  param  the  second  element  the  first  row  the  matrix  param  the  first  element  the  second  row  the  matrix  param  the  second  element  the  second  row  the  matrix  param  the  third  element  the  first  row  the  matrix  param  the  third  element  the  second  row  the  matrix  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+given  array  containing  points  described  alternating  and  values  modify  that  array  such  that  each  point  has  been  replaced  with  the  result  applying  the  transformation  represented  the  receiver  that  point  param point array  array  alternating  and  values  transformed  exception illegal argument exception  error  null  argument  the  point  array  null  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+modifies  the  receiver  that  represents  transformation  that  equivalent  its  previous  transformation  translated  offset  offset  param  offset  the  distance  translate  the  direction  param  offset  the  distance  translate  the  direction  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  receiver
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,2325 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Spinner.java </DOCNO>
+<text>
+<class>
+ spinner
+</class>
+<method>
+ spinner
+call window proc
+check style
+check handle
+check subclass
+create handle
+add modify listener
+add selection listener
+add verify listener
+border handle
+compute size
+compute trim
+ copy
+ cut
+default background
+enable widget
+ deregister
+has focus
+get digits
+get decimal separator
+get increment
+get maximum
+get minimum
+get page increment
+get selection
+get selection text
+mbcs wcs pos
+ paste
+ register
+release handle
+remove modify listener
+remove selection listener
+remove verify listener
+send key event
+set background pixel
+set digits
+set foreground pixel
+set increment
+set maximum
+set minimum
+set page increment
+set selection
+set selection
+ subclass
+ unsubclass
+verify text
+widget ext style
+window proc
+ erasebkgnd
+ killfocus
+ setfocus
+ setfont
+ size
+ char
+ clipboard
+command child
+key down
+kill focus
+button down
+notify child
+scroll child
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ events
+ spinner
+ composite
+hwnd text
+hwnd down
+ignore modify
+page increment
+ digits
+edit proc
+ tchar
+edit class
+ tchar
+down proc
+ tchar
+down class
+ tchar
+
+updown class
+ wndclass
+wnd class
+ wndclass
+
+get class info
+edit class
+wnd class
+edit proc
+wnd class
+lpfn wnd proc
+
+get class info
+down class
+wnd class
+down proc
+wnd class
+lpfn wnd proc
+ spinner
+ composite
+ parent
+ style
+ parent
+check style
+ style
+call window proc
+ hwnd
+ msg
+ param
+ param
+ handle
+ hwnd
+hwnd text
+
+call window proc
+edit proc
+ hwnd
+ msg
+ param
+ param
+ hwnd
+hwnd down
+
+call window proc
+down proc
+ hwnd
+ msg
+ param
+ param
+
+def window proc
+ handle
+ msg
+ param
+ param
+check style
+ style
+ style
+ swt
+ scroll
+ swt
+ scroll
+check handle
+ hwnd
+ hwnd
+ handle
+ hwnd
+hwnd text
+ hwnd
+hwnd down
+check subclass
+valid subclass
+ error
+ swt
+error invalid subclass
+create handle
+create handle
+ state
+ canvas
+ instance
+
+get module handle
+text style
+ style
+ swt
+ border
+
+ clientedge
+text style
+
+ child
+
+ visible
+
+ autohscroll
+ style
+ swt
+read only
+text style
+
+ readonly
+
+win 32_ version
+
+ version
+ style
+ swt
+right left
+text style
+
+ layoutrtl
+hwnd text
+
+create window
+text style
+edit class
+text style
+ handle
+ instance
+hwnd text
+ error
+ swt
+error handles
+
+set window long
+hwnd text
+
+ gwl
+hwnd text
+down style
+
+ child
+
+ visible
+ style
+ swt
+ wrap
+down style
+
+uds wrap
+hwnd down
+
+create window
+down class
+down style
+ handle
+ instance
+hwnd down
+ error
+ swt
+error handles
+
+set window long
+hwnd down
+
+ gwl
+hwnd down
+
+ locale
+ imc
+
+imm get context
+ handle
+
+imm associate context
+hwnd text
+ imc
+
+imm associate context
+hwnd down
+ imc
+
+imm release context
+ handle
+ imc
+
+send message
+hwnd down
+
+udm setrange
+
+send message
+hwnd down
+
+ win
+
+udm setpos
+
+udm setpos
+page increment
+ digits
+ tchar
+ buffer
+ tchar
+get code page
+
+set window text
+hwnd text
+ buffer
+add modify listener
+modify listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ modify
+typed listener
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+add verify listener
+verify listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ verify
+typed listener
+border handle
+hwnd text
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+ width
+ height
+ hint
+ swt
+ default
+ hint
+ swt
+ default
+new font
+old font
+
+
+ get
+hwnd text
+new font
+
+send message
+hwnd text
+
+ getfont
+new font
+old font
+
+select object
+
+new font
+ textmetric
+
+
+ unicode
+ textmetric
+ textmetricw
+ textmetrica
+
+get text metrics
+
+
+ height
+
+ height
+ rect
+ rect
+ rect
+ max
+
+send message
+hwnd down
+
+udm getrange
+ max
+ string
+ string
+ string
+ value
+ max
+ digits
+string buffer
+ buffer
+string buffer
+ buffer
+ append
+ string
+ buffer
+ append
+get decimal separator
+ count
+ digits
+ string
+ length
+ count
+ buffer
+ append
+ count
+ string
+ buffer
+ string
+ tchar
+ buffer
+ tchar
+get code page
+ string
+ flags
+
+ calcrect
+
+ editcontrol
+
+ noprefix
+
+draw text
+
+ buffer
+ buffer
+ length
+ rect
+ flags
+ width
+ rect
+ right
+ rect
+ left
+new font
+
+select object
+
+old font
+
+ release
+hwnd text
+
+ width
+ width
+default width
+ height
+ height
+default height
+ hint
+ swt
+ default
+ width
+ hint
+ hint
+ swt
+ default
+ height
+ hint
+ rectangle
+ trim
+compute trim
+ width
+ height
+ hint
+ swt
+ default
+ trim
+ height
+ math
+ max
+ trim
+ height
+
+get system metrics
+
+ cyvscroll
+ point
+ trim
+ width
+ trim
+ height
+ rectangle
+compute trim
+
+
+ width
+ height
+check widget
+ rect
+ rect
+ rect
+
+set rect
+ rect
+
+
+
+ width
+
+ height
+ bits
+
+get window long
+hwnd text
+
+gwl style
+ bits
+
+get window long
+hwnd text
+
+gwl exstyle
+
+adjust window rect
+ rect
+ bits
+ bits
+ width
+ rect
+ right
+ rect
+ left
+ height
+ rect
+ bottom
+ rect
+ top
+ margins
+
+send message
+hwnd text
+
+ getmargins
+
+ margins
+ width
+ margins
+ margins
+ style
+ swt
+ border
+
+
+ width
+ height
+ width
+
+get system metrics
+
+ cxvscroll
+ rectangle
+
+
+ width
+ height
+ copy
+check widget
+
+send message
+hwnd text
+
+ copy
+ cut
+check widget
+ style
+ swt
+read only
+
+send message
+hwnd text
+
+ cut
+default background
+
+get sys color
+
+color window
+enable widget
+ enabled
+enable widget
+ enabled
+
+enable window
+hwnd text
+ enabled
+
+enable window
+hwnd down
+ enabled
+ deregister
+ deregister
+ display
+remove control
+hwnd text
+ display
+remove control
+hwnd down
+has focus
+hwnd focus
+
+get focus
+hwnd focus
+ handle
+hwnd focus
+hwnd text
+hwnd focus
+hwnd down
+get digits
+check widget
+ digits
+ string
+get decimal separator
+ tchar
+ tchar
+ tchar
+get code page
+ size
+
+get locale info
+
+locale user default
+
+locale sdecimal
+ tchar
+ size
+ tchar
+ string
+ size
+get increment
+check widget
+ udaccel
+ udaccel
+ udaccel
+
+send message
+hwnd down
+
+udm getaccel
+ udaccel
+ udaccel
+ inc
+get maximum
+check widget
+ max
+
+send message
+hwnd down
+
+udm getrange
+ max
+ max
+get minimum
+check widget
+ min
+
+send message
+hwnd down
+
+udm getrange
+ min
+ min
+get page increment
+check widget
+page increment
+get selection
+check widget
+
+ win
+
+send message
+hwnd down
+
+udm getpos
+
+send message
+hwnd down
+
+udm getpos
+get selection text
+ length
+
+get window text length
+hwnd text
+ tchar
+ buffer
+ tchar
+get code page
+ length
+
+get window text
+hwnd text
+ buffer
+ length
+ string
+ string
+ buffer
+ string
+ length
+ value
+ digits
+ string
+decimal separator
+get decimal separator
+ index
+ string
+ index
+decimal separator
+ index
+ string
+whole part
+ string
+ substring
+ index
+ string
+decimal part
+ string
+ substring
+ index
+decimal part
+ length
+ digits
+decimal part
+decimal part
+ substring
+ digits
+
+ digits
+decimal part
+ length
+
+
+
+
+decimal part
+decimal part
+whole value
+ integer
+parse int
+whole part
+decimal value
+ integer
+parse int
+decimal part
+
+
+ digits
+
+whole value
+ value
+whole value
+decimal value
+ value
+ integer
+parse int
+ string
+ value
+ integer
+parse int
+ string
+ max
+ min
+
+send message
+hwnd down
+
+udm getrange
+ min
+ max
+ min
+ value
+ value
+ max
+ value
+number format exception
+
+
+ win
+
+send message
+hwnd down
+
+udm getpos
+
+send message
+hwnd down
+
+udm getpos
+mbcs wcs pos
+mbcs pos
+mbcs pos
+
+ unicode
+mbcs pos
+mbcs size
+
+get window text length
+hwnd text
+mbcs size
+mbcs pos
+mbcs size
+mbcs size
+ buffer
+mbcs size
+
+get window text
+hwnd text
+ buffer
+mbcs size
+
+multi byte wide char
+get code page
+
+ precomposed
+ buffer
+mbcs pos
+ paste
+check widget
+ style
+ swt
+read only
+
+send message
+hwnd text
+
+ paste
+ register
+ register
+ display
+add control
+hwnd text
+ display
+add control
+hwnd down
+release handle
+release handle
+hwnd text
+hwnd down
+remove modify listener
+modify listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ modify
+ listener
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ selection
+ listener
+event table
+ unhook
+ swt
+default selection
+ listener
+remove verify listener
+verify listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ verify
+ listener
+send key event
+ type
+ msg
+ param
+ param
+ event
+ event
+send key event
+ type
+ msg
+ param
+ param
+ event
+ style
+ swt
+read only
+ type
+ swt
+key down
+ msg
+
+ char
+ msg
+
+ keydown
+ msg
+
+ime char
+ event
+ character
+ key
+ event
+ character
+state mask
+ event
+state mask
+ msg
+
+ char
+ key
+ key
+ key
+ key
+ key
+
+ keydown
+state mask
+ swt
+ alt
+ swt
+ shift
+ swt
+ control
+
+get key state
+
+ lbutton
+ string
+old text
+ start
+ end
+
+send message
+hwnd text
+
+ getsel
+ start
+ end
+ key
+ start
+ end
+ start
+ start
+ start
+
+ unicode
+
+ locale
+new start
+new end
+
+send message
+hwnd text
+
+ setsel
+ start
+ end
+
+send message
+hwnd text
+
+ getsel
+new start
+new end
+ start
+new start
+ start
+ start
+ start
+ math
+ max
+ start
+ start
+ end
+ length
+
+get window text length
+hwnd text
+ start
+ length
+ end
+ end
+
+ unicode
+
+ locale
+new start
+new end
+
+send message
+hwnd text
+
+ setsel
+ start
+ end
+
+send message
+hwnd text
+
+ getsel
+new start
+new end
+ end
+new end
+ end
+ end
+ end
+ math
+ min
+ end
+ length
+ key
+ key
+old text
+ string
+ key
+ string
+new text
+verify text
+old text
+ start
+ end
+ event
+new text
+new text
+old text
+ tchar
+ buffer
+ tchar
+get code page
+new text
+
+send message
+hwnd text
+
+ setsel
+ start
+ end
+
+send message
+hwnd text
+
+ replacesel
+ buffer
+set background pixel
+ pixel
+ background
+ pixel
+set background pixel
+ pixel
+
+invalidate rect
+hwnd text
+set digits
+ value
+check widget
+ value
+ error
+ swt
+error invalid argument
+ value
+ digits
+ digits
+ value
+ pos
+
+ win
+ pos
+
+send message
+hwnd down
+
+udm getpos
+ pos
+
+send message
+hwnd down
+
+udm getpos
+set selection
+ pos
+set foreground pixel
+ pixel
+ foreground
+ pixel
+set foreground pixel
+ pixel
+
+invalidate rect
+hwnd text
+set increment
+ value
+check widget
+ value
+ heap
+
+get process heap
+ count
+
+send message
+hwnd down
+
+udm getaccel
+ udaccel
+ udaccels
+
+heap alloc
+ heap
+
+heap zero memory
+ udaccel
+ sizeof
+ count
+
+send message
+hwnd down
+
+udm getaccel
+ count
+ udaccels
+ first
+ udaccel
+ udaccel
+ udaccel
+
+
+ count
+
+ offset
+ udaccels
+
+ udaccel
+ sizeof
+
+move memory
+ udaccel
+ offset
+ udaccel
+ sizeof
+ first
+ first
+ udaccel
+ inc
+ udaccel
+ inc
+ udaccel
+ inc
+ value
+ first
+
+move memory
+ offset
+ udaccel
+ udaccel
+ sizeof
+
+send message
+hwnd down
+
+udm setaccel
+ count
+ udaccels
+
+heap free
+ heap
+ udaccels
+set maximum
+ value
+check widget
+ value
+ min
+
+send message
+hwnd down
+
+udm getrange
+ min
+ value
+ min
+ pos
+
+ win
+ pos
+
+send message
+hwnd down
+
+udm getpos
+ pos
+
+send message
+hwnd down
+
+udm getpos
+
+send message
+hwnd down
+
+udm setrange
+ min
+ value
+ pos
+ value
+set selection
+ value
+set minimum
+ value
+check widget
+ value
+ max
+
+send message
+hwnd down
+
+udm getrange
+ max
+ value
+ max
+ pos
+
+ win
+ pos
+
+send message
+hwnd down
+
+udm getpos
+ pos
+
+send message
+hwnd down
+
+udm getpos
+
+send message
+hwnd down
+
+udm setrange
+ value
+ max
+ pos
+ value
+set selection
+ value
+set page increment
+ value
+check widget
+ value
+page increment
+ value
+set selection
+ value
+check widget
+ max
+ min
+
+send message
+hwnd down
+
+udm getrange
+ min
+ max
+ value
+ math
+ min
+ math
+ max
+ min
+ value
+ max
+set selection
+ value
+set selection
+ value
+ notify
+
+send message
+hwnd down
+
+ win
+
+udm setpos
+
+udm setpos
+ value
+ string
+ string
+ string
+ value
+ value
+ digits
+ string
+decimal separator
+get decimal separator
+ index
+ string
+ length
+ digits
+string buffer
+ buffer
+string buffer
+ index
+ buffer
+ append
+ string
+ substring
+ index
+ buffer
+ append
+decimal separator
+ buffer
+ append
+ string
+ substring
+ index
+ buffer
+ append
+ buffer
+ append
+decimal separator
+ index
+ buffer
+ append
+ buffer
+ append
+ string
+ string
+ buffer
+ string
+ hooks
+ swt
+ verify
+ filters
+ swt
+ verify
+ length
+
+get window text length
+hwnd text
+ string
+verify text
+ string
+ length
+ string
+ tchar
+ buffer
+ tchar
+get code page
+ string
+
+set window text
+hwnd text
+ buffer
+ notify
+post event
+ swt
+ selection
+ subclass
+ subclass
+new proc
+ display
+window proc
+
+set window long
+hwnd text
+
+gwl wndproc
+new proc
+
+set window long
+hwnd down
+
+gwl wndproc
+new proc
+ unsubclass
+ unsubclass
+
+set window long
+hwnd text
+
+gwl wndproc
+edit proc
+
+set window long
+hwnd down
+
+gwl wndproc
+down proc
+ string
+verify text
+ string
+ string
+ start
+ end
+ event
+key event
+ event
+ event
+ event
+ event
+ text
+ string
+ event
+ start
+ start
+ event
+ end
+ end
+key event
+ event
+ character
+key event
+ character
+ event
+key code
+key event
+key code
+ event
+state mask
+key event
+state mask
+ index
+ digits
+ string
+decimal separator
+get decimal separator
+ index
+ string
+ index
+decimal separator
+ index
+ string
+ string
+ substring
+ index
+ string
+ substring
+ index
+ index
+ index
+ string
+ length
+ character
+ digit
+ string
+ char
+ index
+ index
+ event
+ doit
+ index
+ string
+ length
+
+ unicode
+
+ locale
+ event
+ start
+mbcs wcs pos
+ start
+ event
+ end
+mbcs wcs pos
+ end
+send event
+ swt
+ verify
+ event
+ event
+ doit
+ disposed
+ event
+ text
+widget ext style
+widget ext style
+
+ clientedge
+window proc
+ hwnd
+ msg
+ param
+ param
+ hwnd
+hwnd text
+ hwnd
+hwnd down
+ lresult
+ result
+ msg
+
+ char
+ result
+ char
+ hwnd
+ param
+ param
+
+ime char
+ result
+ime char
+ hwnd
+ param
+ param
+
+ keydown
+ result
+key down
+ hwnd
+ param
+ param
+
+ keyup
+ result
+ key
+ hwnd
+ param
+ param
+
+ syschar
+ result
+sys char
+ hwnd
+ param
+ param
+
+ syskeydown
+ result
+sys key down
+ hwnd
+ param
+ param
+
+ syskeyup
+ result
+sys key
+ hwnd
+ param
+ param
+
+ capturechanged
+ result
+capture changed
+ hwnd
+ param
+ param
+
+ lbuttondblclk
+ result
+button dbl clk
+ hwnd
+ param
+ param
+
+ lbuttondown
+ result
+button down
+ hwnd
+ param
+ param
+
+ lbuttonup
+ result
+ button
+ hwnd
+ param
+ param
+
+ mbuttondblclk
+ result
+button dbl clk
+ hwnd
+ param
+ param
+
+ mbuttondown
+ result
+button down
+ hwnd
+ param
+ param
+
+ mbuttonup
+ result
+ button
+ hwnd
+ param
+ param
+
+ mousehover
+ result
+mouse hover
+ hwnd
+ param
+ param
+
+ mouseleave
+ result
+mouse leave
+ hwnd
+ param
+ param
+
+ mousemove
+ result
+mouse move
+ hwnd
+ param
+ param
+
+ rbuttondblclk
+ result
+button dbl clk
+ hwnd
+ param
+ param
+
+ rbuttondown
+ result
+button down
+ hwnd
+ param
+ param
+
+ rbuttonup
+ result
+ button
+ hwnd
+ param
+ param
+
+ xbuttondblclk
+ result
+button dbl clk
+ hwnd
+ param
+ param
+
+ xbuttondown
+ result
+button down
+ hwnd
+ param
+ param
+
+ xbuttonup
+ result
+ button
+ hwnd
+ param
+ param
+
+ setfocus
+ result
+set focus
+ hwnd
+ param
+ param
+
+ killfocus
+ result
+kill focus
+ hwnd
+ param
+ param
+
+ paint
+ result
+ paint
+ hwnd
+ param
+ param
+
+ contextmenu
+ result
+context menu
+ hwnd
+ param
+ param
+
+ clear
+
+ cut
+
+ paste
+
+ undo
+
+ undo
+ hwnd
+hwnd text
+ result
+ clipboard
+ hwnd
+ msg
+ param
+ param
+ result
+ result
+ value
+call window proc
+ hwnd
+ msg
+ param
+ param
+window proc
+ hwnd
+ msg
+ param
+ param
+ lresult
+ erasebkgnd
+ param
+ param
+ lresult
+ result
+ erasebkgnd
+ param
+ param
+ result
+ result
+draw background
+ param
+ lresult
+ one
+ lresult
+ killfocus
+ param
+ param
+ lresult
+ setfocus
+ param
+ param
+
+set focus
+hwnd text
+ lresult
+ setfont
+ param
+ param
+ lresult
+ result
+ setfont
+ param
+ param
+ result
+ result
+
+send message
+hwnd text
+
+ setfont
+ param
+ param
+ result
+ lresult
+ size
+ param
+ param
+ lresult
+ result
+ size
+ param
+ param
+ disposed
+ result
+ width
+ param
+ height
+ param
+down width
+
+get system metrics
+
+ cxvscroll
+text width
+ width
+down width
+ flags
+
+swp nozorder
+
+swp drawframe
+
+swp noactivate
+set window pos
+hwnd text
+text width
+ height
+ flags
+set window pos
+hwnd down
+text width
+down width
+ height
+ flags
+ result
+ lresult
+ char
+ hwnd
+ param
+ param
+ lresult
+ result
+ char
+ hwnd
+ param
+ param
+ result
+ result
+ param
+ swt
+
+ value
+get selection text
+set selection
+ value
+post event
+ swt
+default selection
+ swt
+ tab
+ swt
+ esc
+ lresult
+ zero
+ result
+ lresult
+ clipboard
+hwnd text
+ msg
+ param
+ param
+ style
+ swt
+read only
+ call
+ start
+ end
+ string
+old text
+new text
+ msg
+
+ clear
+
+ cut
+
+send message
+hwnd text
+
+ getsel
+ start
+ end
+ start
+ end
+new text
+ call
+
+ paste
+
+send message
+hwnd text
+
+ getsel
+ start
+ end
+new text
+get clipboard text
+
+ undo
+
+ undo
+
+send message
+hwnd text
+
+ canundo
+ignore modify
+
+send message
+hwnd text
+
+ getsel
+ start
+ end
+
+call window proc
+edit proc
+hwnd text
+ msg
+ param
+ param
+ length
+
+get window text length
+hwnd text
+ length
+ start
+ end
+ tchar
+ buffer
+ tchar
+get code page
+ length
+
+get window text
+hwnd text
+ buffer
+ length
+new text
+ buffer
+ string
+ start
+ end
+ start
+new text
+
+call window proc
+edit proc
+hwnd text
+ msg
+ param
+ param
+ignore modify
+new text
+new text
+ equals
+old text
+old text
+new text
+new text
+verify text
+new text
+ start
+ end
+new text
+ lresult
+ zero
+new text
+ equals
+old text
+ call
+
+call window proc
+edit proc
+hwnd text
+ msg
+ param
+ param
+ tchar
+ buffer
+ tchar
+get code page
+new text
+ msg
+
+ settext
+ heap
+
+get process heap
+byte count
+ buffer
+ length
+ tchar
+ sizeof
+psz text
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+psz text
+ buffer
+byte count
+ code
+
+call window proc
+edit proc
+hwnd text
+ msg
+ param
+psz text
+
+heap free
+ heap
+psz text
+ lresult
+ code
+
+send message
+hwnd text
+
+ replacesel
+ buffer
+ lresult
+ zero
+ lresult
+command child
+ param
+ param
+ code
+ param
+ code
+
+ change
+ignore modify
+send event
+ swt
+ modify
+ disposed
+ lresult
+ zero
+command child
+ param
+ param
+ lresult
+key down
+ hwnd
+ param
+ param
+ lresult
+ result
+key down
+ hwnd
+ param
+ param
+ result
+ result
+ udaccel
+ udaccel
+ udaccel
+
+send message
+hwnd down
+
+udm getaccel
+ udaccel
+ delta
+ param
+
+
+ delta
+ udaccel
+ inc
+
+ down
+ delta
+ udaccel
+ inc
+
+ prior
+ delta
+page increment
+
+ next
+ delta
+page increment
+ delta
+ value
+get selection text
+new value
+ value
+ delta
+ max
+ min
+
+send message
+hwnd down
+
+udm getrange
+ min
+ max
+ style
+ swt
+ wrap
+new value
+ min
+new value
+ max
+new value
+ max
+new value
+ min
+new value
+ math
+ min
+ math
+ max
+ min
+new value
+ max
+ value
+new value
+set selection
+new value
+ param
+
+
+
+ down
+ lresult
+ zero
+ result
+ lresult
+kill focus
+ hwnd
+ param
+ param
+ value
+get selection text
+set selection
+ value
+kill focus
+ hwnd
+ param
+ param
+ lresult
+button down
+ hwnd
+ param
+ param
+ hwnd
+hwnd down
+ value
+get selection text
+
+send message
+hwnd down
+
+ win
+
+udm setpos
+
+udm setpos
+ value
+button down
+ hwnd
+ param
+ param
+ lresult
+notify child
+ param
+ param
+ nmhdr
+ hdr
+ nmhdr
+
+move memory
+ hdr
+ param
+ nmhdr
+ sizeof
+ hdr
+ code
+
+udn deltapos
+ nmupdown
+ lpnmud
+ nmupdown
+
+move memory
+ lpnmud
+ param
+ nmupdown
+ sizeof
+ value
+ lpnmud
+ pos
+ lpnmud
+ delta
+ max
+ min
+
+send message
+hwnd down
+
+udm getrange
+ min
+ max
+ style
+ swt
+ wrap
+ value
+ min
+ value
+ max
+ value
+ max
+ value
+ min
+ value
+ math
+ min
+ math
+ max
+ min
+ value
+ max
+set selection
+ value
+ lresult
+ one
+notify child
+ param
+ param
+ lresult
+scroll child
+ param
+ param
+ code
+ param
+ code
+
+ thumbposition
+post event
+ swt
+ selection
+scroll child
+ param
+ param
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  selectable  user  interface  objects  that  allow  the  user  enter  and  modify  numeric  values  styles  read  only  wrap  events  selection  modify  important  this  class  not  intended  subclassed  since 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  read  only  see  swt  wrap  see  widget check subclass  see  widget get style
+even  though  legal  create  this  widget  with  scroll  bars  they  serve  useful  purpose  because  they  not  automatically  scroll  the  widget  client  area  the  fix  clear  the  swt  style
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  receiver  text  modified  sending  one  the  messages  defined  the  code modify listener  code  interface  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see modify listener  see remove modify listener
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  control  selected  sending  one  the  messages  defined  the  code selection listener  code  interface  code widget selected  code  not  called  for  texts  code widget default selected  code  typically  called  when  enter  pressed  single  line  text  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener  see selection event
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  receiver  text  verified  sending  one  the  messages  defined  the  code verify listener  code  interface  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see verify listener  see remove verify listener
+get  the  trim  the  text  control
+the  preferred  height  single  line  text  widget  has  been  hand  crafted  the  same  height  the  single  line  text  widget  editable  combo  box
+copies  the  selected  text  the  current  selection  copied  the  clipboard  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+cuts  the  selected  text  the  current  selection  first  copied  the  clipboard  and  then  deleted  from  the  widget  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  number  decimal  places  used  the  receiver  return  the  digits  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  amount  that  the  receiver  value  will  modified  when  the  down  arrows  are  pressed  return  the  increment  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  maximum  value  which  the  receiver  will  allow  return  the  maximum  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  minimum  value  which  the  receiver  will  allow  return  the  minimum  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  amount  that  the  receiver  position  will  modified  when  the  page  down  keys  are  pressed  return  the  page  increment  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  selection  which  the  receiver  position  return  the  selection  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+pastes  text  from  clipboard  the  selected  text  deleted  from  the  widget  and  new  text  inserted  from  the  clipboard  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  receiver  text  modified  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see modify listener  see add modify listener
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  control  selected  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  control  verified  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see verify listener  see add verify listener
+hooks  swt  verify  filters  swt  verify  return  true
+disable  all  magic  keys  that  could  modify  the  text  and  don  send  events  when  alt  shift  ctrl  pressed
+fall  through
+the  left  button  down  the  text  widget  refuses  the  character
+verify  the  character
+ 
+  del
+  return
+tab  and  other  characters
+sets  the  number  decimal  places  used  the  receiver  the  digit  setting  used  allow  for  floating  point  values  the  receiver  for  example  set  the  selection  floating  point  value  call set digits  with  value  and set selection  with  value  137  similarly get digits  has  value  and get selection  returns  137  this  should  interpreted  this  applies  all  numeric  param  value  the  new  digits  must  greater  than  equal  zero  exception illegal argument exception  error  invalid  argument  the  value  less  than  zero  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  amount  that  the  receiver  value  will  modified  when  the  down  arrows  are  pressed  the  argument  which  must  least  one  param  value  the  new  increment  must  greater  than  zero  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  maximum  value  that  the  receiver  will  allow  this  new  value  will  ignored  not  greater  than  the  receiver  current  minimum  value  the  new  maximum  applied  then  the  receiver  selection  value  will  adjusted  necessary  fall  within  its  new  range  param  value  the  new  maximum  which  must  greater  than  the  current  minimum  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  minimum  value  that  the  receiver  will  allow  this  new  value  will  ignored  negative  not  less  than  the  receiver  current  maximum  value  the  new  minimum  applied  then  the  receiver  selection  value  will  adjusted  necessary  fall  within  its  new  range  param  value  the  new  minimum  which  must  nonnegative  and  less  than  the  current  maximum  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  amount  that  the  receiver  position  will  modified  when  the  page  down  keys  are  pressed  the  argument  which  must  least  one  param  value  the  page  increment  must  greater  than  zero  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  selection  which  the  receiver  position  the  argument  the  argument  not  within  the  range  specified  minimum  and  maximum  will  adjusted  fall  within  this  range  param  value  the  new  selection  must  zero  greater  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+keyboard  messages
+mouse  messages
+case  mousewheel  result mouse wheel  hwnd  param  param  break
+focus  messages
+paint  messages
+menu  messages
+clipboard  messages
+feature  windows  for  some  reason  when  the  widget  single  line  text  widget  when  the  user  presses  tab  return  escape  windows  beeps  the  fix  look  for  these  keys  and  not  call  the  window  proc
+fall  through
+hooks  swt  verify  filters  swt  verify  return  null
+increment  the  value
+stop  the  edit  control  from  moving  the  caret
+the  swt  modify  event  sent  after  the  widget  has  been  updated  with  the  new  state  rather  than  allowing  the  default  updown  window  proc  set  the  value  when  the  user  clicks  the  updown  control  set  the  value  explicity  and  stop  the  window  proc  from  running
+</comments>
+</text>
+</DOC>

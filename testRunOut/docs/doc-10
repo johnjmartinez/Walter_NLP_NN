@@ -1,0 +1,103 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.CLayoutData.java </DOCNO>
+<text>
+<class>
+layout data
+</class>
+<method>
+compute size
+flush cache
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+layout data
+default width
+default height
+current whint
+current hhint
+current width
+current height
+ point
+compute size
+ control
+ control
+ hint
+ hint
+flush cache
+flush cache
+flush cache
+ hint
+ swt
+ default
+ hint
+ swt
+ default
+default width
+default height
+ point
+ size
+ control
+compute size
+ hint
+ hint
+flush cache
+default width
+ size
+
+default height
+ size
+
+ point
+default width
+default height
+current width
+current height
+ hint
+current whint
+ hint
+current hhint
+ point
+ size
+ control
+compute size
+ hint
+ hint
+flush cache
+current whint
+ hint
+current hhint
+ hint
+current width
+ size
+
+current height
+ size
+
+ point
+current width
+current height
+flush cache
+default width
+default height
+current width
+current height
+</identifier>
+<comments>
+copyright  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

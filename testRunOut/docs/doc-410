@@ -1,0 +1,39 @@
+<DOC>
+<DOCNO>org.eclipse.swt.browser.TitleEvent.java </DOCNO>
+<text>
+<class>
+title event
+</class>
+<method>
+title event
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ browser
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ events
+title event
+typed event
+ string
+ title
+serial version uid
+title event
+ widget
+
+
+</identifier>
+<comments>
+copyright  2003  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+code title event  code  sent  link  browser  link title listener  when  the  title  the  current  document  available  when  modified  since 
+the  title  the  current  document
+</comments>
+</text>
+</DOC>

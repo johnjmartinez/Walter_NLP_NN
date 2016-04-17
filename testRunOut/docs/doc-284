@@ -1,0 +1,43 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.win32.OPENFILENAME.java </DOCNO>
+<text>
+<class>
+ openfilename
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ win
+ openfilename
+struct size
+hwnd owner
+ instance
+lpstr filter
+lpstr custom filter
+max cust filter
+filter index
+lpstr file
+max file
+lpstr file title
+max file title
+lpstr initial dir
+lpstr title
+ flags
+file offset
+file extension
+lpstr def ext
+cust data
+lpfn hook
+template name
+ sizeof
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

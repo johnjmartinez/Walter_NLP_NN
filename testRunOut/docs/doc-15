@@ -1,0 +1,35 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.VerifyKeyListener.java </DOCNO>
+<text>
+<class>
+verify key listener
+</class>
+<method>
+verify key
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+verify key listener
+swt event listener
+verify key
+verify event
+ event
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+the  following  event  fields  are  used  event  character  the  character  that  was  typed  input  event key code  the  key  code  that  was  typed  input  event state mask  the  state  the  keyboard  input  event  doit  processed  not  output  param  event  the  verify  event  see verify event
+</comments>
+</text>
+</DOC>

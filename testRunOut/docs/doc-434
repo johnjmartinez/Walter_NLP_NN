@@ -1,0 +1,378 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Canvas.java </DOCNO>
+<text>
+<class>
+ canvas
+</class>
+<method>
+ canvas
+ canvas
+clear area
+get caret
+release widget
+ scroll
+set caret
+set font
+ inputlangchange
+ killfocus
+ setfocus
+ size
+ windowposchanged
+ windowposchanging
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ canvas
+ composite
+ caret
+ caret
+ canvas
+ canvas
+ composite
+ parent
+ style
+ parent
+ style
+clear area
+
+
+ width
+ height
+check widget
+
+window visible
+ handle
+ rect
+ rect
+ rect
+
+set rect
+ rect
+
+
+
+ width
+
+ height
+
+
+ get
+ handle
+
+dcx cache
+
+dcx clipchildren
+
+dcx clipsiblings
+draw background
+
+ rect
+
+ release
+ handle
+
+ caret
+get caret
+check widget
+ caret
+release widget
+ caret
+ caret
+release resources
+ caret
+release widget
+ scroll
+ dest
+ dest
+
+
+ width
+ height
+ all
+check widget
+force resize
+ focus
+ caret
+ caret
+focus caret
+ focus
+ caret
+kill focus
+ rect
+source rect
+ rect
+
+set rect
+source rect
+
+
+
+ width
+
+ height
+ rect
+client rect
+ rect
+
+get client rect
+ handle
+client rect
+
+intersect rect
+client rect
+source rect
+client rect
+
+ win
+
+update window
+ handle
+ flags
+
+rdw updatenow
+
+rdw allchildren
+
+redraw window
+ handle
+ flags
+ delta
+ dest
+
+ delta
+ dest
+
+ flags
+
+ invalidate
+
+ erase
+
+scroll window
+ handle
+ delta
+ delta
+source rect
+ flags
+ all
+ control
+ children
+_get children
+
+
+ children
+ length
+
+ control
+ child
+ children
+
+ rectangle
+ rect
+ child
+get bounds
+ math
+ min
+
+ width
+ rect
+
+ rect
+ width
+ math
+ max
+
+ rect
+
+ math
+ min
+
+ height
+ rect
+
+ rect
+ height
+ math
+ max
+
+ rect
+
+ child
+set location
+ rect
+
+ delta
+ rect
+
+ delta
+ focus
+ caret
+set focus
+set caret
+ caret
+ caret
+check widget
+ caret
+new caret
+ caret
+ caret
+old caret
+ caret
+ caret
+new caret
+focus control
+old caret
+old caret
+kill focus
+new caret
+new caret
+ disposed
+ error
+ swt
+error invalid argument
+new caret
+set focus
+set font
+ font
+ font
+check widget
+ caret
+ caret
+set font
+ font
+set font
+ font
+ lresult
+ inputlangchange
+ param
+ param
+ lresult
+ result
+ inputlangchange
+ param
+ param
+ caret
+ caret
+focus caret
+ caret
+set ime font
+ caret
+resize ime
+ result
+ lresult
+ killfocus
+ param
+ param
+ lresult
+ result
+ killfocus
+ param
+ param
+ caret
+ caret
+kill focus
+ result
+ lresult
+ setfocus
+ param
+ param
+ lresult
+ result
+ setfocus
+ param
+ param
+ caret
+ caret
+set focus
+ result
+ lresult
+ size
+ param
+ param
+ lresult
+ result
+ size
+ param
+ param
+ caret
+ caret
+focus caret
+ caret
+resize ime
+ result
+ lresult
+ windowposchanged
+ param
+ param
+ lresult
+ result
+ windowposchanged
+ param
+ param
+ result
+ result
+ focus
+ style
+ swt
+right left
+ caret
+ caret
+focus caret
+ focus
+ caret
+set focus
+ result
+ lresult
+ windowposchanging
+ param
+ param
+ lresult
+ result
+ windowposchanging
+ param
+ param
+ result
+ result
+ focus
+ style
+ swt
+right left
+ caret
+ caret
+focus caret
+ focus
+ caret
+kill focus
+ result
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  provide  surface  for  drawing  arbitrary  graphics  styles  none  events  none  this  class  may  subclassed  custom  control  implementors  who  are  building  controls  that  are  not  constructed  from  aggregates  other  controls  that  they  are  either  painted  using  swt  graphics  calls  are  handled  native  methods  see  composite
+prevents  uninitialized  instances  from  being  created  outside  the  package
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  see  widget check subclass  see  widget get style
+not  currently  used
+returns  the  caret  the  caret  for  the  control  automatically  hidden  and  shown  when  the  control  painted  resized  when  focus  gained  lost  and  when  the  control  scrolled  avoid  drawing  top  the  caret  the  programmer  must  hide  and  show  the  caret  when  drawing  the  window  any  other  time  return  the  caret  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+scrolls  rectangular  area  the  receiver  first  copying  the  source  area  the  destination  and  then  causing  the  area  the  source  which  not  covered  the  destination  repainted  children  that  intersect  the  rectangle  are  optionally  moved  during  the  operation  addition  outstanding  paint  events  are  flushed  before  the  source  area  copied  ensure  that  the  contents  the  canvas  are  drawn  correctly  param  dest  the  coordinate  the  destination  param  dest  the  coordinate  the  destination  param  the  coordinate  the  source  param  the  coordinate  the  source  param  width  the  width  the  area  param  height  the  height  the  area  param  all  code  true  code  children  should  scrolled  and  code  false  code  otherwise  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  any  child  the  widget  tree  partially  intersects  the  scrolling  rectangle  windows  moves  the  child  and  copies  the  bits  that  intersect  the  scrolling  rectangle  but  does  not  redraw  the  child  feature  windows  when  any  child  the  widget  tree  does  not  intersect  the  scrolling  rectangle  but  the  parent  does  intersect  windows  does  not  move  the  child  this  the  documented  but  strange  windows  behavior  the  fix  not  use  scrollchildren  and  move  the  children  explicitly  after  scrolling
+all  flags  scrollchildren
+sets  the  receiver  caret  the  caret  for  the  control  automatically  hidden  and  shown  when  the  control  painted  resized  when  focus  gained  lost  and  when  the  control  scrolled  avoid  drawing  top  the  caret  the  programmer  must  hide  and  show  the  caret  when  drawing  the  window  any  other  time  param  caret  the  new  caret  for  the  receiver  may  null  exception illegal argument exception  error  invalid  argument  the  caret  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  windows  when  window  with  style  layoutrtl  that  contains  caret  resized  windows  does  not  move  the  caret  relation  the  mirrored  origin  the  top  right  the  fix  hide  the  caret  windowposchanging  and  show  the  caret  windowposchanged
+bug  windows  when  window  with  style  layoutrtl  that  contains  caret  resized  windows  does  not  move  the  caret  relation  the  mirrored  origin  the  top  right  the  fix  hide  the  caret  windowposchanging  and  show  the  caret  windowposchanged
+</comments>
+</text>
+</DOC>

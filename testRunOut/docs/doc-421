@@ -1,0 +1,32 @@
+<DOC>
+<DOCNO>org.eclipse.swt.browser.OpenWindowListener.java </DOCNO>
+<text>
+<class>
+open window listener
+</class>
+<method>
+ open
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ browser
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+open window listener
+swt event listener
+ open
+window event
+ event
+</identifier>
+<comments>
+copyright  2003  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  listener  interface  may  implemented  order  receive  link window event  notification  when  new  link  browser  needs  provided  the  application  see  browser add open window listener open window listener  see  browser remove open window listener open window listener  see close window listener  see visibility window listener  since 
+this  method  called  when  new  window  needs  created  particular  code  browser  code  can  passed  the  event  browser  field  host  the  content  new  window  standalone  system  browser  used  host  the  new  window  the  event  required  field  value  false  and  the  event  browser  field  left  code  null  code  the  event  required  field  true  platforms  that  don  support  standalone  system  browser  for  new  window  requests  the  navigation  cancelled  the  event  required  field  set  true  and  the  event  browser  field  left  code  null  code  the  following  fields  the  code window event  code  apply  out  required  true  the  platform  requires  the  user  provide  code  browser  code  handle  the  new  window  false  otherwise  out  browser  the  new  code  browser  code  that  will  host  the  content  the  new  window  widget  the  code  browser  code  that  requesting  open  new  window  param  event  the  code window event  code  that  needs  passed  new  code  browser  code  handle  the  new  window  request  since 
+</comments>
+</text>
+</DOC>

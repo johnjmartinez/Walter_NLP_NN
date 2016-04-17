@@ -1,0 +1,724 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.SashForm.java </DOCNO>
+<text>
+<class>
+sash form
+</class>
+<method>
+sash form
+handle event
+check style
+get orientation
+get style
+get maximized control
+get weights
+get controls
+drag sash
+set orientation
+set background
+set foreground
+set layout
+set maximized control
+set weights
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ graphics
+sash form
+ composite
+sash width
+sash style
+ sash
+ sashes
+ sash
+ color
+ background
+ color
+ foreground
+ control
+ controls
+ control
+ control
+max control
+ listener
+sash listener
+drag minimum
+sash form
+ composite
+ parent
+ style
+ parent
+check style
+ style
+set layout
+sash form layout
+sash style
+ style
+ swt
+ vertical
+ swt
+ horizontal
+ swt
+ vertical
+ style
+ swt
+ border
+sash style
+ swt
+ border
+ style
+ swt
+ smooth
+sash style
+ swt
+ smooth
+sash listener
+ listener
+handle event
+ event
+
+drag sash
+
+check style
+ style
+ mask
+ swt
+ border
+ swt
+left right
+ swt
+right left
+ style
+ mask
+get orientation
+sash style
+ swt
+ vertical
+ swt
+ horizontal
+ swt
+ vertical
+get style
+ style
+get style
+ style
+get orientation
+ swt
+ vertical
+ swt
+ vertical
+ swt
+ horizontal
+sash style
+ swt
+ smooth
+ style
+ swt
+ smooth
+ style
+ control
+get maximized control
+max control
+get weights
+check widget
+ control
+ array
+get controls
+ ratios
+ array
+ length
+
+
+ array
+ length
+
+ object
+ data
+ array
+
+get layout data
+ data
+ data
+sash form data
+ ratios
+
+sash form data
+ data
+ weight
+ ratios
+
+ ratios
+ control
+get controls
+only visible
+ control
+ children
+get children
+ control
+ result
+ control
+
+
+ children
+ length
+
+ children
+
+ sash
+only visible
+ children
+
+get visible
+ control
+new result
+ control
+ result
+ length
+ system
+ arraycopy
+ result
+new result
+ result
+ length
+new result
+ result
+ length
+ children
+
+ result
+new result
+ result
+drag sash
+ event
+ event
+ sash
+ sash
+ sash
+ event
+ widget
+sash index
+
+
+ sashes
+ length
+
+ sashes
+
+ sash
+sash index
+
+sash index
+ control
+
+ controls
+sash index
+ control
+
+ controls
+sash index
+ rectangle
+
+
+get bounds
+ rectangle
+
+
+get bounds
+ rectangle
+sash bounds
+ sash
+get bounds
+ rectangle
+ area
+get client area
+ correction
+get orientation
+ swt
+ horizontal
+ correction
+
+ width
+drag minimum
+
+ width
+drag minimum
+total width
+
+
+
+ width
+
+
+ shift
+ event
+
+sash bounds
+
+
+ width
+ shift
+
+
+ shift
+
+ width
+ shift
+
+ width
+drag minimum
+
+ width
+drag minimum
+
+
+
+
+
+ width
+sash bounds
+ width
+
+ width
+total width
+
+
+ event
+
+
+
+
+ width
+ event
+ doit
+
+ width
+drag minimum
+
+ width
+total width
+drag minimum
+sash bounds
+ width
+
+
+
+
+
+ width
+sash bounds
+ width
+
+ width
+drag minimum
+ event
+
+
+
+
+ width
+ event
+ doit
+ object
+ data
+
+get layout data
+ data
+ data
+sash form data
+ data
+sash form data
+
+set layout data
+ data
+ object
+ data
+
+get layout data
+ data
+ data
+sash form data
+ data
+sash form data
+
+set layout data
+ data
+sash form data
+ data
+ weight
+
+ width
+ area
+ width
+ area
+ width
+sash form data
+ data
+ weight
+
+ width
+ area
+ width
+ area
+ width
+ correction
+
+ height
+drag minimum
+
+ height
+drag minimum
+total height
+
+
+
+ height
+
+
+ shift
+ event
+
+sash bounds
+
+
+ height
+ shift
+
+
+ shift
+
+ height
+ shift
+
+ height
+drag minimum
+
+ height
+drag minimum
+
+
+
+
+
+ height
+sash bounds
+ height
+
+ height
+total height
+
+
+ event
+
+
+
+
+ height
+ event
+ doit
+
+ height
+drag minimum
+
+ height
+total height
+drag minimum
+sash bounds
+ height
+
+
+
+
+
+ height
+sash bounds
+ height
+
+ height
+drag minimum
+ event
+
+
+
+
+ height
+ event
+ doit
+ object
+ data
+
+get layout data
+ data
+ data
+sash form data
+ data
+sash form data
+
+set layout data
+ data
+ object
+ data
+
+get layout data
+ data
+ data
+sash form data
+ data
+sash form data
+
+set layout data
+ data
+sash form data
+ data
+ weight
+
+ height
+ area
+ height
+ area
+ height
+sash form data
+ data
+ weight
+
+ height
+ area
+ height
+ area
+ height
+ correction
+ event
+ doit
+ event
+ detail
+ swt
+ drag
+
+set bounds
+
+ sash
+set bounds
+ event
+
+ event
+
+ event
+ width
+ event
+ height
+
+set bounds
+
+set orientation
+ orientation
+check widget
+get orientation
+ orientation
+ orientation
+ swt
+ horizontal
+ orientation
+ swt
+ vertical
+ swt
+ error
+ swt
+error invalid argument
+sash style
+ swt
+ horizontal
+ swt
+ vertical
+sash style
+ orientation
+ swt
+ vertical
+ swt
+ horizontal
+ swt
+ vertical
+
+
+ sashes
+ length
+
+ sashes
+
+ dispose
+ sashes
+
+ sash
+sash style
+ sashes
+
+set background
+ background
+ sashes
+
+set foreground
+ foreground
+ sashes
+
+add listener
+ swt
+ selection
+sash listener
+ layout
+set background
+ color
+ color
+set background
+ color
+ background
+ color
+
+
+ sashes
+ length
+
+ sashes
+
+set background
+ background
+set foreground
+ color
+ color
+set foreground
+ color
+ foreground
+ color
+
+
+ sashes
+ length
+
+ sashes
+
+set foreground
+ foreground
+set layout
+ layout
+ layout
+check widget
+set maximized control
+ control
+ control
+check widget
+ control
+max control
+max control
+ layout
+
+
+ sashes
+ length
+
+ sashes
+
+set visible
+
+
+ sashes
+ length
+
+ sashes
+
+set visible
+max control
+ control
+ layout
+set weights
+ weights
+check widget
+ control
+ array
+get controls
+ weights
+ weights
+ length
+ array
+ length
+ swt
+ error
+ swt
+error invalid argument
+ total
+
+
+ weights
+ length
+
+ weights
+
+ swt
+ error
+ swt
+error invalid argument
+ total
+ weights
+
+ total
+ swt
+ error
+ swt
+error invalid argument
+
+
+ array
+ length
+
+ object
+ data
+ array
+
+get layout data
+ data
+ data
+sash form data
+ data
+sash form data
+ array
+
+set layout data
+ data
+sash form data
+ data
+ weight
+ weights
+
+ total
+ total
+ layout
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+the sash form  lays  out  its  children  row  column  arrangement  specified  the  orientation  and  places  sash  between  the  children  one  child  may  maximized  occupy  the  entire  size  the sash form  the  relative  sizes  the  children  may  specfied  using  weights  styles  horizontal  vertical  smooth 
+remember  background  and  foreground
+colors  determine  whether  set
+sashes  the  default  color  null 
+specific  color
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  widget  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  widget  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  horizontal  see  swt  vertical  see get style
+returns  swt  horizontal  the  controls  the sash form  are  laid  out  side  side  swt  vertical  the  controls  the sash form  are  laid  out  top  bottom  return  swt  horizontal  swt  vertical
+ check widget
+answer  the  control  that  currently  maximized  the sash form  this  value  may  null  return  the  control  that  currently  maximized  null
+ check widget
+answer  the  relative  weight  each  child  the sash form  the  weight  represents  the  percent  the  total  width sash form  has  horizontal  orientation  total  height sash form  has  vertical  orientation  each  control  occupies  the  weights  are  returned  order  the  creation  the  widgets  weight  corresponds  the  weight  the  first  child  created  return  the  relative  weight  each  child  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+orientation  swt  horizontal  lay  the  controls  the sash form  out  side  side  orientation  swt  vertical  lay  the  controls  the sash form  out  top  bottom  param  orientation  swt  horizontal  swt  vertical  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  value  orientation  not  swt  horizontal  swt  vertical 
+sets  the  layout  which  associated  with  the  receiver  the  argument  which  may  null  note  layout  can  set  this  control  because  already  manages  the  size  and  position  its  children  param  layout  the  receiver  new  layout  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+specify  the  control  that  should  take  the  entire  client  area  the sash form  one  control  has  been  maximized  and  this  method  called  with  different  control  the  previous  control  will  minimized  and  the  new  control  will  maximized  the  value  control  null  the sash form  will  minimize  all  controls  and  return  the  default  layout  where  all  controls  are  laid  out  separated  sashes  param  control  the  control  maximized  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+specify  the  relative  weight  each  child  the sash form  this  will  determine  what  percent  the  total  width sash form  has  horizontal  orientation  total  height sash form  has  vertical  orientation  each  control  will  occupy  the  weights  must  positive  values  and  there  must  entry  for  each  non  sash  child  the sash form  param  weights  the  relative  weight  each  child  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  weights  value  null  incorrect  length  must  match  the  number  children 
+</comments>
+</text>
+</DOC>

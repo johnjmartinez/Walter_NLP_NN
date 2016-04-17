@@ -1,0 +1,609 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.OS2BMPFileFormat.java </DOCNO>
+<text>
+<class>
+bmp file format
+</class>
+<method>
+file format
+load data
+load data
+load file header
+load from byte stream
+load palette
+palette from bytes
+palette bytes
+unload data
+unload into byte stream
+flip scan lines
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ java
+
+bmp file format
+file format
+bmp file header size
+bmp header fixed size
+ width
+ height
+bit count
+file format
+data input stream
+ stream
+ header
+ stream
+ read
+ header
+ stream
+ unread
+ header
+info header size
+ header
+ header
+ header
+ header
+ header
+ header
+info header size
+bmp header fixed size
+ exception
+
+load data
+info header
+ stride
+ width
+bit count
+ stride
+ stride
+ data
+load data
+info header
+ stride
+flip scan lines
+ data
+ stride
+ height
+ data
+load data
+info header
+ stride
+data size
+ height
+ stride
+ data
+data size
+input stream
+ read
+ data
+data size
+ swt
+ error
+ swt
+error invalid image
+ exception
+
+ swt
+ error
+ swt
+ error
+
+ data
+load file header
+ header
+ header
+input stream
+read short
+ header
+input stream
+read int
+ header
+input stream
+read short
+ header
+input stream
+read short
+ header
+input stream
+read int
+ exception
+
+ swt
+ error
+ swt
+ error
+
+ header
+ swt
+ error
+ swt
+error invalid image
+ header
+image data
+load from byte stream
+file header
+load file header
+info header
+bmp header fixed size
+input stream
+ read
+info header
+ exception
+
+ swt
+ error
+ swt
+ error
+
+ width
+info header
+info header
+ height
+info header
+info header
+bit count
+info header
+info header
+palette data
+ palette
+load palette
+info header
+input stream
+get position
+file header
+input stream
+ skip
+file header
+input stream
+get position
+ exception
+
+ swt
+ error
+ swt
+ error
+
+ data
+load data
+info header
+ type
+ swt
+image bmp
+image data
+image data
+internal _new
+ width
+ height
+bit count
+ palette
+ data
+ type
+palette data
+load palette
+info header
+bit count
+num colors
+bit count
+ buf
+num colors
+input stream
+ read
+ buf
+ buf
+ length
+ swt
+ error
+ swt
+error invalid image
+ exception
+
+ swt
+ error
+ swt
+ error
+
+palette from bytes
+ buf
+num colors
+bit count
+palette data
+bit count
+palette data
+palette data
+palette data
+palette from bytes
+ bytes
+num colors
+bytes offset
+ rgb
+ colors
+ rgb
+num colors
+
+
+num colors
+
+ colors
+
+ rgb
+ bytes
+bytes offset
+ bytes
+bytes offset
+ bytes
+bytes offset
+bytes offset
+palette data
+ colors
+palette bytes
+palette data
+ pal
+
+ pal
+ colors
+ pal
+ colors
+ length
+ pal
+ colors
+ length
+ bytes
+
+ offset
+
+
+
+
+ rgb
+ col
+ pal
+ colors
+
+ bytes
+ offset
+ col
+ blue
+ bytes
+ offset
+ col
+ green
+ bytes
+ offset
+ col
+ red
+ offset
+ bytes
+unload data
+image data
+ image
+output stream
+ out
+bmp bpl
+ bpl
+ image
+ width
+ image
+ depth
+bmp bpl
+ bpl
+lines per buf
+bmp bpl
+ buf
+lines per buf
+bmp bpl
+ data
+ image
+ data
+image bpl
+ image
+bytes per line
+data index
+image bpl
+ image
+ height
+ image
+ depth
+
+
+ image
+ height
+
+lines per buf
+ count
+ image
+ height
+
+lines per buf
+ count
+ count
+lines per buf
+buf offset
+
+
+ count
+
+ index
+ index
+ bpl
+ index
+ buf
+buf offset
+ index
+ data
+data index
+ index
+ buf
+buf offset
+ index
+ data
+data index
+ index
+buf offset
+bmp bpl
+data index
+image bpl
+ out
+ write
+ buf
+buf offset
+
+
+ image
+ height
+
+lines per buf
+ tmp
+ image
+ height
+
+ count
+ tmp
+lines per buf
+ tmp
+lines per buf
+buf offset
+
+
+ count
+
+ system
+ arraycopy
+ data
+data index
+ buf
+buf offset
+ bpl
+buf offset
+bmp bpl
+data index
+image bpl
+ out
+ write
+ buf
+buf offset
+ exception
+
+ swt
+ error
+ swt
+ error
+
+bmp bpl
+ image
+ height
+unload into byte stream
+image data
+ image
+ rgbs
+num cols
+ image
+ depth
+ image
+ depth
+ image
+ depth
+ image
+ depth
+ image
+ depth
+ image
+ depth
+ swt
+ error
+ swt
+error unsupported depth
+palette data
+ pal
+ image
+ palette
+ image
+ depth
+ image
+ depth
+ image
+ depth
+ pal
+ direct
+ swt
+ error
+ swt
+error invalid image
+num cols
+ rgbs
+ pal
+ direct
+ swt
+ error
+ swt
+error invalid image
+num cols
+ pal
+ colors
+ length
+ rgbs
+palette bytes
+ pal
+headers size
+bmp file header size
+bmp header fixed size
+file header
+file header
+file header
+file header
+file header
+file header
+headers size
+ rgbs
+file header
+ rgbs
+ length
+byte array output stream
+ out
+byte array output stream
+unload data
+ image
+ out
+ data
+ out
+byte array
+file header
+file header
+ data
+ length
+output stream
+write short
+file header
+output stream
+write int
+file header
+output stream
+write short
+file header
+output stream
+write short
+file header
+output stream
+write int
+file header
+ exception
+
+ swt
+ error
+ swt
+ error
+
+output stream
+write int
+bmp header fixed size
+output stream
+write short
+ image
+ width
+output stream
+write short
+ image
+ height
+output stream
+write short
+output stream
+write short
+ image
+ depth
+ exception
+
+ swt
+ error
+ swt
+ error
+
+num cols
+output stream
+ write
+ rgbs
+ exception
+
+ swt
+ error
+ swt
+ error
+
+output stream
+ write
+ data
+ exception
+
+ swt
+ error
+ swt
+ error
+
+flip scan lines
+ data
+ stride
+ height
+
+
+ height
+ stride
+
+
+ height
+
+ index
+ index
+ stride
+ index
+
+ data
+ index
+
+ data
+ index
+
+ data
+ index
+
+ data
+ index
+
+
+
+ stride
+
+ stride
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+round  byte  multiple
+seek  the  specified  offset
+answer  byte  array  containing  the  bmp  representation  the  given  device  independent  palette
+unload  the  given  image  data  into  the  given  byte  stream  answer  the  number  bytes  written
+bmp  pads  scanlines  multiples  bytes
+start  last  line
+unload device independent image  using  windows  bmp  format  into  the  given  byte  stream
+fill  file  header  except  for  bfsize  which  done  later
+  signature
+file  size  filled  later
+reserved 
+reserved 
+offset  data
+prepare  data  this  done  first  don  have  try  rewind
+the  stream  and  fill  the  details  later
+calculate  file  size
+write  the  headers
+unload  palette
+unload  the  data
+</comments>
+</text>
+</DOC>

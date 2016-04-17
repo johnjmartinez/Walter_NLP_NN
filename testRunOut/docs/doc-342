@@ -1,0 +1,32 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.TraverseListener.java </DOCNO>
+<text>
+<class>
+traverse listener
+</class>
+<method>
+key traversed
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+traverse listener
+swt event listener
+key traversed
+traverse event
+
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+classes  which  implement  this  interface  provide  method  that  deals  with  the  events  that  are  generated  when  traverse  event  occurs  control  after  creating  instance  class  that  implements  this  interface  can  added  control  using  the  code add traverse listener  code  method  and  removed  using  the  code remove traverse listener  code  method  when  traverse  event  occurs  control  the key traversed  method  will  invoked  see traverse event
+sent  when  traverse  event  occurs  control  traverse  event  occurs  when  the  user  presses  traversal  key  traversal  keys  are  typically  tab  and  arrow  keys  along  with  certain  other  keys  some  platforms  traversal  key  constants  beginning  with  code  traverse  code  are  defined  the  code  swt  code  class  param  event  containing  information  about  the  traverse
+</comments>
+</text>
+</DOC>

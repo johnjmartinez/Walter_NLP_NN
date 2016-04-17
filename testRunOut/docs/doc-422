@@ -1,0 +1,43 @@
+<DOC>
+<DOCNO>org.eclipse.swt.browser.LocationEvent.java </DOCNO>
+<text>
+<class>
+location event
+</class>
+<method>
+location event
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ browser
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ events
+location event
+typed event
+ string
+ location
+ top
+ doit
+serial version uid
+location event
+ widget
+
+
+</identifier>
+<comments>
+copyright  2003  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+code location event  code  sent  link  browser  link location listener  when  the  code  browser  code  navigates  different  url  this  notification  typically  occurs  when  the  application  navigates  new  location  with  link  browser set url  string  when  the  user  activates  hyperlink  since 
+current  location
+flag  indicating  whether  the  location  opens  the  top  frame  not
+flag  indicating  whether  the  location  loading  should  allowed  setting  this  field  code  false  code  will  cancel  the  operation
+</comments>
+</text>
+</DOC>

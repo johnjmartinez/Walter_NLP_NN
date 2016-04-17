@@ -1,0 +1,37 @@
+<DOC>
+<DOCNO>org.eclipse.swt.dnd.DragSourceAdapter.java </DOCNO>
+<text>
+<class>
+drag source adapter
+</class>
+<method>
+drag start
+drag finished
+drag set data
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ dnd
+drag source adapter
+drag source listener
+drag start
+drag source event
+ event
+drag finished
+drag source event
+ event
+drag set data
+drag source event
+ event
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  adapter  class  provides  default  implementations  for  the  methods  described  the  code drag source listener  code  interface  classes  that  wish  deal  with  code drag source event  code  can  extend  this  class  and  override  only  the  methods  which  they  are  interested  see drag source listener  see drag source event
+this  implementation  code drag start  code  permits  the  drag  operation  start  for  additional  information  see  code drag source listener drag start  code
+this  implementation  code drag finished  code  does  nothing  for  additional  information  see  code drag source listener drag finished  code
+this  implementation  code drag set data  code  does  nothing  for  additional  information  see  code drag source listener drag set data  code
+</comments>
+</text>
+</DOC>

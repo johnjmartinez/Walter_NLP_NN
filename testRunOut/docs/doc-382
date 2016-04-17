@@ -1,0 +1,34 @@
+<DOC>
+<DOCNO>org.eclipse.swt.ole.win32.OleEvent.java </DOCNO>
+<text>
+<class>
+ole event
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ ole
+ win
+ org
+ eclipse
+ swt
+ widgets
+ widget
+ole event
+ type
+ widget
+ widget
+ detail
+ doit
+ variant
+ arguments
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

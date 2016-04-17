@@ -1,0 +1,57 @@
+<DOC>
+<DOCNO>org.eclipse.swt.dnd.DropTargetListener.java </DOCNO>
+<text>
+<class>
+drop target listener
+</class>
+<method>
+drag enter
+drag leave
+drag operation changed
+drag over
+ drop
+drop accept
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ dnd
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+drop target listener
+swt event listener
+drag enter
+drop target event
+ event
+drag leave
+drop target event
+ event
+drag operation changed
+drop target event
+ event
+drag over
+drop target event
+ event
+ drop
+drop target event
+ event
+drop accept
+drop target event
+ event
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+the  code drop target listener  code  class  provides  event  notification  the  application  for drop target  events  the  user  moves  the  cursor  into  over  and  out  control  that  has  been  designated drop target  events  indicate  what  operation  can  performed  and  what  data  can  transferred  drop  where  occur  that  point  the  application  can  respond  these  events  and  change  the  type  data  that  will  dropped  modifying  event current data type  change  the  operation  that  will  performed  modifying  the  event  detail  field  stop  any  drop  from  happening  the  current  target  setting  the  event  detail  field  dnd  drop  none  when  the  user  causes  drop  happen  releasing  the  mouse  over  valid  drop  target  the  application  has  one  last  chance  change  the  data  type  the  drop  through  the drop accept  event  the  drop  still  allowed  the drop accept  event  immediately  followed  the  drop  event  the  drop  event  the  application  can  still  change  the  operation  that  performed  but  the  data  type  fixed  see drop target event
+the  cursor  has  entered  the  drop  target  boundaries  the  following  fields  the drop target event  apply  widget  time data types  out current data type  operations  out  detail  out  feedback  the  code  operation  code  value  determined  the  modifier  keys  pressed  the  user  keys  are  pressed  the  code  event  detail  code  field  set  dnd  drop  default  the  application  does  not  set  the  code  event  detail  code  something  other  than  code  dnd  drop  default  code  the  operation  will  set  the  platform  defined  standard  default  the  code current data type  code  determined  the  first  transfer  agent  specified set transfer  that  matches  data  type  provided  the  drag  source  possible  get drag enter  event  when  the  drag  source  does  not  provide  any  matching  data  this  case  the  default  operation  dnd  drop  none  and  the current data type  null  the  application  can  change  the  operation  that  will  performed  modifying  the  code  detail  code  field  but  the  choice  must  one  the  values  the  code  operations  code  field  dnd  drop  none  the  application  can  also  change  the  type  data  being  requested  modifying  the  code current data types  code  field  but  the  value  must  one  the  values  the  code data types  code  list  param  event  the  information  associated  with  the  drag  enter  event  see drop target event
+the  cursor  has  left  the  drop  target  boundaries  the  drop  has  been  cancelled  the  data  about  dropped  the  following  fields  the drop target event  apply  widget  time data types current data type  operations  detail  param  event  the  information  associated  with  the  drag  leave  event  see drop target event
+the  operation  being  performed  has  changed  usually  due  the  user  changing  the  selected  modifier  key  while  dragging  the  following  fields  the drop target event  apply  widget  time data types  out current data type  operations  out  detail  out  feedback  the  code  operation  code  value  determined  the  modifier  keys  pressed  the  user  keys  are  pressed  the  code  event  detail  code  field  set  dnd  drop  default  the  application  does  not  set  the  code  event  detail  code  something  other  than  code  dnd  drop  default  code  the  operation  will  set  the  platform  defined  standard  default  the  code current data type  code  value  determined  the  value  assigned  code current data type  code  previous drag enter  and drag over  calls  the  application  can  change  the  operation  that  will  performed  modifying  the  code  detail  code  field  but  the  choice  must  one  the  values  the  code  operations  code  field  the  application  can  also  change  the  type  data  being  requested  modifying  the  code current data types  code  field  but  the  value  must  one  the  values  the  code data types  code  list  param  event  the  information  associated  with  the  drag  operation  changed  event  see drop target event
+the  cursor  moving  over  the  drop  target  the  following  fields  the drop target event  apply  widget  time data types  out current data type  operations  out  detail  out  feedback  the  code  operation  code  value  determined  the  value  assigned  code current data type  code  previous drag enter  and drag over  calls  the  code current data type  code  value  determined  the  value  assigned  code current data type  code  previous drag enter  and drag over  calls  the  application  can  change  the  operation  that  will  performed  modifying  the  code  detail  code  field  but  the  choice  must  one  the  values  the  code  operations  code  field  the  application  can  also  change  the  type  data  being  requested  modifying  the  code current data types  code  field  but  the  value  must  one  the  values  the  code data types  code  list  note  this  point  the  code  data  code  field  null  some  platforms  possible  obtain  the  data  being  transferred  before  the  transfer  occurs  but  most  platforms  this  not  possible  those  platforms  where  the  data  available  the  application  can  access  the  data  follows  pre  code  public  void drag over drop target event  event text transfer text transfer text transfer get instance  string  data  string text transfer native java  event current data type  data  null  system  out  println  data  dropped  text  data  code  pre  param  event  the  information  associated  with  the  drag  over  event  see drop target event
+the  data  being  dropped  the  data  field  contains  java  format  the  data  being  dropped  determine  the  type  the  data  object  refer  the  documentation  for  the  transfer  subclass  specified  event current data type  the  following  fields drop target event  apply  widget  time  out  detail current data type  data  the  application  can  refuse  perform  the  drop  operation  setting  the  detail  field  dnd  drop  none  param  event  the  information  associated  with  the  drop  event  see drop target event
+the  drop  about  performed  the  drop  target  given  last  chance  change  the  nature  the  drop  the  following  fields  the drop target event  apply  widget  time data types  out current data type  operations  out  detail  the  application  can  veto  the  drop  setting  the  code  event  detail  code  field  code  dnd  drop  none  code  the  application  can  change  the  operation  that  will  performed  modifying  the  code  detail  code  field  but  the  choice  must  one  the  values  the  code  operations  code  field  the  application  can  also  change  the  type  data  being  requested  modifying  the  code current data types  code  field  but  the  value  must  one  the  values  the  code data types  code  list  param  event  the  information  associated  with  the  drop  accept  event  see drop target event
+</comments>
+</text>
+</DOC>

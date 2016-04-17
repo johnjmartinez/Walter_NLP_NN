@@ -1,0 +1,101 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.ST.java </DOCNO>
+<text>
+<class>
+
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+
+ line
+line down
+line start
+line end
+column previous
+column next
+ page
+page down
+word previous
+word next
+text start
+text end
+window start
+window end
+select all
+select line
+select line down
+select line start
+select line end
+select column previous
+select column next
+select page
+select page down
+select word previous
+select word next
+select text start
+select text end
+select window start
+select window end
+ cut
+ copy
+ paste
+delete previous
+delete next
+delete word previous
+delete word next
+toggle overwrite
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  class  provides  access  the  public  constants  provided  code styled text  code
+styled text  key  action  constants  key  bindings  for  the  actions  are  set  the styled text  widget  see styled text create key bindings
+navigation  key  actions
+binding  swt  arrow 
+binding  swt  arrow  down
+binding  swt  home
+binding  swt  end
+binding  swt  arrow  left
+binding  swt  arrow  right
+binding  swt  page 
+binding  swt  page  down
+binding  swt  mod  swt  arrow  left
+binding  swt  mod  swt  arrow  right
+binding  swt  mod  swt  home
+binding  swt  mod  swt  end
+binding  swt  mod  swt  page 
+binding  swt  mod  swt  page  down
+selection  key  actions
+binding  swt  mod 
+binding  swt  mod  swt  arrow 
+binding  swt  mod  swt  arrow  down
+binding  swt  mod  swt  home
+binding  swt  mod  swt  end
+binding  swt  mod  swt  arrow  left
+binding  swt  mod  swt  arrow  right
+binding  swt  mod  swt  page 
+binding  swt  mod  swt  page  down
+binding  swt  mod  swt  mod  swt  arrow  left
+binding  swt  mod  swt  mod  swt  arrow  right
+binding  swt  mod  swt  mod  swt  home
+binding  swt  mod  swt  mod  swt  end
+binding  swt  mod  swt  mod  swt  page 
+binding  swt  mod  swt  mod  swt  page  down
+modification  key  actions
+binding  swt  mod  swt  del
+binding  swt  mod  swt  insert
+binding  swt  mod  swt  insert
+binding  swt 
+binding  swt  del
+binding  swt  swt  mod
+binding  swt  del  swt  mod
+miscellaneous  key  actions
+binding  swt  insert
+</comments>
+</text>
+</DOC>

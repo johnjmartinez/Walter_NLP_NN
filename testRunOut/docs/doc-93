@@ -1,0 +1,64 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.JPEGVariableSizeSegment.java </DOCNO>
+<text>
+<class>
+jpeg variable size segment
+</class>
+<method>
+jpeg variable size segment
+jpeg variable size segment
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+ org
+ eclipse
+ swt
+jpeg variable size segment
+jpeg segment
+jpeg variable size segment
+ reference
+ reference
+jpeg variable size segment
+data input stream
+byte stream
+ header
+byte stream
+ read
+ header
+ reference
+ header
+ contents
+get segment length
+ contents
+ header
+ contents
+ header
+ contents
+ header
+ contents
+ header
+byte stream
+ read
+ contents
+ contents
+ length
+ reference
+ contents
+ exception
+
+ swt
+ error
+ swt
+ error
+
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+use get segment length
+</comments>
+</text>
+</DOC>

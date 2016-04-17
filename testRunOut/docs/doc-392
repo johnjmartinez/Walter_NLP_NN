@@ -1,0 +1,42 @@
+<DOC>
+<DOCNO>org.eclipse.swt.dnd.DragSourceListener.java </DOCNO>
+<text>
+<class>
+drag source listener
+</class>
+<method>
+drag start
+drag set data
+drag finished
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ dnd
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+drag source listener
+swt event listener
+drag start
+drag source event
+ event
+drag set data
+drag source event
+ event
+drag finished
+drag source event
+ event
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+the  code drag source listener  code  class  provides  event  notification  the  application  for drag source  events  when  the  user  drops  data  code drop target  code  the  application  which  defines  the  code drag source  code  must  provide  the  dropped  data  implementing  code drag set data  code  the drag set data  the  application  must  support  all  the  data  types  that  were  specified  the drag source set transfer  method  after  the  drop  has  completed  successfully  has  been  aborted  the  application  which  defines  the  code drag source  code  required  take  the  appropriate  cleanup  action  the  case  successful  move  operation  the  application  must  remove  the  data  that  was  transferred 
+the  user  has  begun  the  actions  required  drag  the  widget  this  event  gives  the  application  the  chance  decide  drag  should  started  the  following  fields  the drag source event  apply  widget  time  out  doit  param  event  the  information  associated  with  the  drag  start  event  see drag source event
+the  data  required  from  the  drag  source  the  following  fields  the drag source event  apply  widget  time data type  the  type  data  requested  out  data  the  application  inserts  the  actual  data  here  must  match  the data type  param  event  the  information  associated  with  the  drag  set  data  event  see drag source event
+the  drop  has  successfully  completed  mouse  over  valid  target  has  been  terminated  such  hitting  the  esc  key  perform  cleanup  such  removing  data  from  the  source  side  successful  move  operation  the  following  fields  the drag source event  apply  widget  time  doit  detail  param  event  the  information  associated  with  the  drag  finished  event  see drag source event
+</comments>
+</text>
+</DOC>

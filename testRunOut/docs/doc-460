@@ -1,0 +1,344 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.FontDialog.java </DOCNO>
+<text>
+<class>
+font dialog
+</class>
+<method>
+font dialog
+font dialog
+get font data
+get font list
+get rgb
+ open
+set font data
+set font list
+set rgb
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+ compatibility
+font dialog
+ dialog
+font data
+font data
+ rgb
+ rgb
+font dialog
+ shell
+ parent
+ parent
+ swt
+primary modal
+font dialog
+ shell
+ parent
+ style
+ parent
+ style
+check subclass
+font data
+get font data
+font data
+font data
+get font list
+font data
+font data
+ result
+font data
+ result
+font data
+ result
+ rgb
+get rgb
+ rgb
+font data
+ open
+
+ win
+ swt
+ error
+ swt
+error not implemented
+hwnd owner
+ parent
+hwnd owner
+ parent
+ handle
+ heap
+
+get process heap
+ choosefont
+ lpcf
+ choosefont
+ lpcf
+struct size
+ choosefont
+ sizeof
+ lpcf
+hwnd owner
+hwnd owner
+ lpcf
+ flags
+
+ screenfonts
+
+ effects
+log font
+
+heap alloc
+ heap
+
+heap zero memory
+ logfont
+ sizeof
+font data
+font data
+ data
+ logfont
+log font
+font data
+ data
+ height
+log font
+ height
+
+
+ get
+ pixels
+ compatibility
+ round
+font data
+ height
+
+get device caps
+
+
+ logpixelsy
+
+ release
+
+log font
+ height
+ pixels
+ lpcf
+ flags
+
+ inittologfontstruct
+
+move memory
+log font
+log font
+ logfont
+ sizeof
+log font
+ height
+ height
+ lpcf
+log font
+log font
+ rgb
+ red
+ rgb
+ red
+ green
+ rgb
+ green
+ blue
+ rgb
+ blue
+ lpcf
+rgb colors
+ red
+ green
+ blue
+ shell
+old modal
+ display
+ display
+ style
+ swt
+application modal
+ swt
+system modal
+ display
+ parent
+get display
+old modal
+ display
+get modal dialog shell
+ display
+set modal dialog shell
+ parent
+ success
+
+choose font
+ lpcf
+ style
+ swt
+application modal
+ swt
+system modal
+ display
+set modal dialog shell
+old modal
+ success
+ logfont
+log font
+
+ unicode
+ logfont
+ logfontw
+ logfonta
+
+move memory
+log font
+log font
+ logfont
+ sizeof
+
+
+ get
+log pixels
+
+get device caps
+
+
+ logpixelsy
+ pixels
+log font
+ height
+ font
+
+create font indirect
+log font
+old font
+
+select object
+
+ font
+ textmetric
+ lptm
+
+ unicode
+ textmetric
+ textmetricw
+ textmetrica
+
+get text metrics
+
+ lptm
+
+select object
+
+old font
+
+delete object
+ font
+ pixels
+log font
+ height
+ lptm
+internal leading
+ pixels
+log font
+ height
+
+ release
+
+ points
+ compatibility
+ round
+ pixels
+log pixels
+font data
+font data
+win 32_new
+log font
+ points
+ red
+ lpcf
+rgb colors
+ green
+ lpcf
+rgb colors
+ blue
+ lpcf
+rgb colors
+ rgb
+ rgb
+ red
+ green
+ blue
+log font
+
+heap free
+ heap
+log font
+ success
+font data
+set font data
+font data
+font data
+font data
+font data
+set font list
+font data
+font data
+font data
+font data
+ length
+font data
+font data
+font data
+set rgb
+ rgb
+ rgb
+ rgb
+ rgb
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  allow  the  user  select  font  from  all  available  fonts  the  system  styles  none  events  none  important  this  class  intended  subclassed  only  within  the  swt  implementation 
+constructs  new  instance  this  class  given  only  its  parent  param  parent  shell  which  will  the  parent  the  new  instance  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  shell  which  will  the  parent  the  new  instance  param  style  the  style  dialog  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass 
+returns font data  object  describing  the  font  that  was  selected  the  dialog  null  none  available  return  the font data  for  the  selected  font  null  deprecated  use get font list
+returns font data  set  describing  the  font  that  was  selected  the  dialog  null  none  available  return  the font data  for  the  selected  font  null  since 
+returns  the  currently  selected  color  the  receiver  return  the  rgb  value  for  the  selected  color  may  null  see palette data  get  since 
+makes  the  dialog  visible  and  brings  the  front  the  display  return font data  object  describing  the  font  that  was  selected  null  the  dialog  was  cancelled  error  occurred  exception swt exception  error  widget  disposed  the  dialog  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  dialog 
+get  the  owner  hwnd  for  the  dialog
+open  the  dialog
+make  the  parent  shell  temporary  modal
+open  the  dialog
+clear  the  temporary  dialog  modal  parent
+compute  the  result
+this  will  not  work  multiple  screens  for  printing  should  use  for  the  proper  device
+feature  windows  the  height  the  logfont  structure  positive  the  height  measures  the  height  the  entire  cell  including  internal  leading  logical  units  since  the  height  font  points  does  not  include  the  internal  leading  must  subtract  the  internal  leading  which  requires  textmetric  which  turn  requires  font  creation
+free  the  memory
+this  code  intentionally  commented  some  platforms  the  owner  window  repainted  right  away  when  dialog  window  exits  this  behavior  currently  unspecified
+hwnd owner update window hwnd owner
+sets font data  object  describing  the  font  selected  default  the  dialog  null  let  the  platform  choose  one  param font data  the font data  use  initially  null  deprecated  use set font list font data
+sets  set font data  objects  describing  the  font  selected  default  the  dialog  null  let  the  platform  choose  one  param font data  the  set font data  objects  use  initially  null  since 
+sets  the  receiver  selected  color  the  argument  param  rgb  the  new  rgb  value  for  the  selected  color  may  null  let  the  platform  select  default  when  open  called  see palette data  get  since 
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,42 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.MouseListener.java </DOCNO>
+<text>
+<class>
+mouse listener
+</class>
+<method>
+mouse double click
+mouse down
+ mouse
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+mouse listener
+swt event listener
+mouse double click
+mouse event
+
+mouse down
+mouse event
+
+ mouse
+mouse event
+
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+classes  which  implement  this  interface  provide  methods  that  deal  with  the  events  that  are  generated  mouse  buttons  are  pressed  after  creating  instance  class  that  implements  this  interface  can  added  control  using  the  code add mouse listener  code  method  and  removed  using  the  code remove mouse listener  code  method  when  mouse  button  pressed  released  the  appropriate  method  will  invoked  see mouse adapter  see mouse event
+sent  when  mouse  button  pressed  twice  within  the  operating  system  specified  double  click  period  param  event  containing  information  about  the  mouse  double  click  see  org  eclipse  swt  widgets  display get double click time
+sent  when  mouse  button  pressed  param  event  containing  information  about  the  mouse  button  press
+sent  when  mouse  button  released  param  event  containing  information  about  the  mouse  button  release
+</comments>
+</text>
+</DOC>

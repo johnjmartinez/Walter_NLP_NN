@@ -1,0 +1,101 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Item.java </DOCNO>
+<text>
+<class>
+ item
+</class>
+<method>
+ item
+ item
+check subclass
+get image
+get name text
+get text
+release widget
+set image
+set text
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ item
+ widget
+ string
+ text
+ image
+ image
+ item
+ widget
+ parent
+ style
+ parent
+ style
+ text
+ item
+ widget
+ parent
+ style
+ index
+ parent
+ style
+check subclass
+ image
+get image
+check widget
+ image
+ string
+get name text
+get text
+ string
+get text
+check widget
+ text
+release widget
+release widget
+ text
+ image
+set image
+ image
+ image
+check widget
+ image
+ image
+ disposed
+ error
+ swt
+error invalid argument
+ image
+ image
+set text
+ string
+ string
+check widget
+ string
+ error
+ swt
+error null argument
+ text
+ string
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  class  the  abstract  superclass  all  non  windowed  user  interface  objects  that  occur  within  specific  controls  for  example  tree  will  contain  tree  items  styles  none  events  none 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  item  added  the  end  the  items  maintained  its  parent  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  widget  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  item  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  see  widget get style
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  and  the  index  which  place  the  items  maintained  its  parent  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  widget  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  item  construct  param  index  the  index  which  store  the  receiver  its  parent  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  see  widget get style
+nothing  subclassing  allowed
+returns  the  receiver  image  has  one  null  does  not  return  the  receiver  image  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  text  which  will  empty  string  has  never  been  set  return  the  receiver  text  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  receiver  image  the  argument  which  may  null  indicating  that  image  should  displayed  param  image  the  image  display  the  receiver  may  null  exception illegal argument exception  error  invalid  argument  the  image  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  receiver  text  param  string  the  new  text  exception illegal argument exception  error  null  argument  the  text  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+</comments>
+</text>
+</DOC>

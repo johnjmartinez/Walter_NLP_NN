@@ -1,0 +1,64 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.PngIendChunk.java </DOCNO>
+<text>
+<class>
+png iend chunk
+</class>
+<method>
+png iend chunk
+ validate
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+ org
+ eclipse
+ swt
+png iend chunk
+png chunk
+png iend chunk
+ reference
+ reference
+ validate
+png file read state
+read state
+png ihdr chunk
+header chunk
+read state
+read ihdr
+header chunk
+get must have palette
+read state
+read plte
+read state
+read idat
+read state
+read iend
+ swt
+ error
+ swt
+error invalid image
+read state
+read iend
+ validate
+read state
+header chunk
+get length
+ swt
+ error
+ swt
+error invalid image
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+answer  whether  the  chunk  valid  iend  chunk
+iend  chunk  invalid  ihdr  has  been  read
+palette  required  and  has  not  been  read
+idat  chunk  has  been  read
+iend  chunks  are  not  allowed  have  any  data
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,585 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Caret.java </DOCNO>
+<text>
+<class>
+ caret
+</class>
+<method>
+ caret
+create widget
+default font
+get bounds
+get font
+get image
+get location
+get parent
+get size
+get visible
+has focus
+focus caret
+ visible
+kill focus
+ move
+resize ime
+release child
+release widget
+ resize
+restore ime font
+set bounds
+set bounds
+set focus
+set font
+set image
+set ime font
+set location
+set location
+set size
+set size
+set visible
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ caret
+ widget
+ canvas
+ parent
+
+
+ width
+ height
+ moved
+ resized
+ visible
+ image
+ image
+ font
+ font
+ logfont
+old font
+ caret
+ canvas
+ parent
+ style
+ parent
+ style
+ parent
+ parent
+create widget
+create widget
+ visible
+ parent
+get caret
+ parent
+set caret
+default font
+ hwnd
+ parent
+ handle
+hwnd ime
+
+imm get default ime wnd
+ hwnd
+ font
+hwnd ime
+ font
+
+send message
+hwnd ime
+
+ getfont
+ font
+ font
+
+send message
+ hwnd
+
+ getfont
+ font
+ parent
+default font
+ font
+ rectangle
+get bounds
+check widget
+ image
+ rectangle
+ rect
+ image
+get bounds
+ rectangle
+
+
+ rect
+ width
+ rect
+ height
+ rectangle
+
+
+ width
+ height
+ font
+get font
+check widget
+ font
+ font
+default font
+ font
+win 32_new
+ display
+ font
+ font
+ image
+get image
+check widget
+ image
+ point
+get location
+check widget
+ point
+
+
+ canvas
+get parent
+check widget
+ parent
+ point
+get size
+check widget
+ image
+ rectangle
+ rect
+ image
+get bounds
+ point
+ rect
+ width
+ rect
+ height
+ point
+ width
+ height
+get visible
+check widget
+ visible
+has focus
+ parent
+ handle
+
+get focus
+focus caret
+ parent
+ caret
+has focus
+ visible
+check widget
+ visible
+ parent
+ visible
+has focus
+kill focus
+
+destroy caret
+restore ime font
+ move
+ moved
+
+set caret pos
+
+
+resize ime
+resize ime
+
+ locale
+ point
+current pos
+ point
+
+get caret pos
+current pos
+ hwnd
+ parent
+ handle
+ rect
+ rect
+ rect
+
+get client rect
+ hwnd
+ rect
+ compositionform
+comp form
+ compositionform
+comp form
+ style
+
+cfs rect
+comp form
+
+current pos
+
+comp form
+
+current pos
+
+comp form
+ left
+ rect
+ left
+comp form
+ right
+ rect
+ right
+comp form
+ top
+ rect
+ top
+comp form
+ bottom
+ rect
+ bottom
+ imc
+
+imm get context
+ hwnd
+
+imm set composition window
+ imc
+comp form
+
+imm release context
+ hwnd
+ imc
+release child
+release child
+ parent
+get caret
+ parent
+set caret
+release widget
+release widget
+ parent
+ image
+ font
+old font
+ resize
+ resized
+ hwnd
+ parent
+ handle
+
+destroy caret
+ bitmap
+ image
+ image
+ handle
+
+create caret
+ hwnd
+ bitmap
+ width
+ height
+
+set caret pos
+
+
+
+show caret
+ hwnd
+ move
+restore ime font
+
+ locale
+old font
+ hwnd
+ parent
+ handle
+ imc
+
+imm get context
+ hwnd
+
+imm set composition font
+ imc
+old font
+
+imm release context
+ hwnd
+ imc
+old font
+set bounds
+
+
+ width
+ height
+check widget
+same position
+
+
+
+
+same extent
+ width
+ width
+ height
+ height
+same position
+same extent
+
+
+
+
+ width
+ width
+ height
+ height
+same extent
+ moved
+ visible
+has focus
+ move
+ resized
+ visible
+has focus
+ resize
+set bounds
+ rectangle
+ rect
+ rect
+ error
+ swt
+error null argument
+set bounds
+ rect
+
+ rect
+
+ rect
+ width
+ rect
+ height
+set focus
+ hwnd
+ parent
+ handle
+ bitmap
+ image
+ bitmap
+ image
+ handle
+
+create caret
+ hwnd
+ bitmap
+ width
+ height
+ move
+set ime font
+ visible
+
+show caret
+ hwnd
+set font
+ font
+ font
+check widget
+ font
+ font
+ disposed
+ error
+ swt
+error invalid argument
+ font
+ font
+has focus
+set ime font
+set image
+ image
+ image
+check widget
+ image
+ image
+ disposed
+ error
+ swt
+error invalid argument
+ image
+ image
+ visible
+has focus
+ resize
+set ime font
+
+ locale
+ font
+ font
+ font
+ font
+ handle
+ font
+ font
+default font
+ hwnd
+ parent
+ handle
+ imc
+
+imm get context
+ hwnd
+old font
+old font
+
+ unicode
+ logfont
+ logfontw
+ logfonta
+
+imm get composition font
+ imc
+old font
+old font
+ logfont
+log font
+
+ unicode
+ logfont
+ logfontw
+ logfonta
+
+get object
+ font
+ logfont
+ sizeof
+log font
+
+imm set composition font
+ imc
+log font
+
+imm release context
+ hwnd
+ imc
+set location
+
+
+check widget
+
+
+
+
+
+
+
+
+ moved
+ visible
+has focus
+ move
+set location
+ point
+ location
+check widget
+ location
+ error
+ swt
+error null argument
+set location
+ location
+
+ location
+
+set size
+ width
+ height
+check widget
+ width
+ width
+ height
+ height
+ width
+ width
+ height
+ height
+ resized
+ visible
+has focus
+ resize
+set size
+ point
+ size
+check widget
+ size
+ error
+ swt
+error null argument
+set size
+ size
+
+ size
+
+set visible
+ visible
+check widget
+ visible
+ visible
+ visible
+ visible
+ hwnd
+ parent
+ handle
+
+get focus
+ hwnd
+ visible
+
+hide caret
+ hwnd
+ resized
+ resize
+ moved
+ move
+
+show caret
+ hwnd
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  provide  beam  that  typically  used  the  insertion  point  for  text  styles  none  events  none  important  this  class  intended  subclassed  only  within  the  swt  implementation 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  see  widget check subclass  see  widget get style
+returns  rectangle  describing  the  receiver  size  and  location  relative  its  parent  its  display  its  parent  null  return  the  receiver  bounding  rectangle  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  font  that  the  receiver  will  use  paint  textual  information  return  the  receiver  font  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  image  that  the  receiver  will  use  paint  the  caret  return  the  receiver  image  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  point  describing  the  receiver  location  relative  its  parent  its  display  its  parent  null  return  the  receiver  location  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  parent  which  must  code  canvas  code  return  the  receiver  parent  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  point  describing  the  receiver  size  return  the  receiver  size  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  true  code  the  receiver  visible  and  code  false  code  otherwise  one  the  receiver  ancestors  not  visible  some  other  condition  makes  the  receiver  not  visible  this  method  may  still  indicate  that  considered  visible  even  though  may  not  actually  showing  return  the  receiver  visibility  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  true  code  the  receiver  visible  and  all  the  receiver  ancestors  are  visible  and  code  false  code  otherwise  return  the  receiver  visibility  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see get visible
+sets  the  receiver  size  and  location  the  rectangular  area  specified  the  arguments  the  code  code  and  code  code  arguments  are  relative  the  receiver  parent  its  display  its  parent  null  param  the  new  coordinate  for  the  receiver  param  the  new  coordinate  for  the  receiver  param  width  the  new  width  for  the  receiver  param  height  the  new  height  for  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  receiver  size  and  location  the  rectangular  area  specified  the  argument  the  code  code  and  code  code  fields  the  rectangle  are  relative  the  receiver  parent  its  display  its  parent  null  param  rect  the  new  bounds  for  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  font  that  the  receiver  will  use  paint  textual  information  the  font  specified  the  argument  the  default  font  for  that  kind  control  the  argument  null  param  font  the  new  font  null  exception illegal argument exception  error  invalid  argument  the  font  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  image  that  the  receiver  will  use  paint  the  caret  the  image  specified  the  argument  the  default  which  filled  rectangle  the  argument  null  param  image  the  new  image  null  exception illegal argument exception  error  invalid  argument  the  image  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+save  the  current  ime  font
+set  new  ime  font
+sets  the  receiver  location  the  point  specified  the  arguments  which  are  relative  the  receiver  parent  its  display  its  parent  null  param  the  new  coordinate  for  the  receiver  param  the  new  coordinate  for  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  receiver  location  the  point  specified  the  argument  which  relative  the  receiver  parent  its  display  its  parent  null  param  location  the  new  location  for  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  receiver  size  the  point  specified  the  arguments  param  width  the  new  width  for  the  receiver  param  height  the  new  height  for  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  receiver  size  the  point  specified  the  argument  param  size  the  new  extent  for  the  receiver  exception illegal argument exception  error  null  argument  the  point  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+marks  the  receiver  visible  the  argument  code  true  code  and  marks  invisible  otherwise  one  the  receiver  ancestors  not  visible  some  other  condition  makes  the  receiver  not  visible  marking  visible  may  not  actually  cause  displayed  param  visible  the  new  visibility  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+</comments>
+</text>
+</DOC>

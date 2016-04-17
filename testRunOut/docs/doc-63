@@ -1,0 +1,94 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.RGB.java </DOCNO>
+<text>
+<class>
+ rgb
+</class>
+<method>
+ rgb
+ equals
+hash code
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+serializable compatibility
+ org
+ eclipse
+ swt
+ rgb
+serializable compatibility
+ red
+ green
+ blue
+serial version uid
+ rgb
+ red
+ green
+ blue
+ red
+ red
+ green
+ green
+ blue
+ blue
+ swt
+ error
+ swt
+error invalid argument
+ red
+ red
+ green
+ green
+ blue
+ blue
+ equals
+ object
+ object
+ object
+ object
+ rgb
+ rgb
+ rgb
+ rgb
+ object
+ rgb
+ red
+ red
+ rgb
+ green
+ green
+ rgb
+ blue
+ blue
+hash code
+ blue
+ green
+ red
+ string
+ string
+ red
+ green
+ blue
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  descriptions  colors  terms  the  primary  additive  color  model  red  green  and  blue  color  may  described  terms  the  relative  intensities  these  three  primary  colors  the  brightness  each  color  specified  value  the  range  255  where  indicates  color  blackness  and  255  indicates  maximum  intensity  the hash code  method  this  class  uses  the  values  the  public  fields  compute  the  hash  value  when  storing  instances  the  class  hashed  collections  not  modify  these  fields  after  the  object  has  been  inserted  application  code  does  not  need  explicitly  release  the  resources  managed  each  instance  when  those  instances  are  longer  required  and  thus  code  dispose  code  method  provided  see  color
+the  red  component  the  rgb
+the  green  component  the  rgb
+the  blue  component  the  rgb
+constructs  instance  this  class  with  the  given  red  green  and  blue  values  param  red  the  red  component  the  new  instance  param  green  the  green  component  the  new  instance  param  blue  the  blue  component  the  new  instance  exception illegal argument exception  error  invalid  argument  the  red  green  blue  argument  not  between  and  255 
+compares  the  argument  the  receiver  and  returns  true  they  represent  the  same  object  using  class  specific  comparison  param  object  the  object  compare  with  this  object  return  code  true  code  the  object  the  same  this  object  and  code  false  code  otherwise  see hash code
+returns  integer  hash  code  for  the  receiver  any  two  objects  that  return  code  true  code  when  passed  code  equals  code  must  return  the  same  value  for  this  method  return  the  receiver  hash  see  equals  object
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  code  rgb  code
+non  nls  non  nls  non  nls  non  nls 
+</comments>
+</text>
+</DOC>

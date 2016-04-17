@@ -1,0 +1,1318 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.ole.win32.COM.java </DOCNO>
+<text>
+<class>
+ com
+</class>
+<method>
+iid from string
+clsid from prog
+clsid from string
+create instance
+free unused libraries
+get class object
+lock object external
+task mem alloc
+task mem free
+drag drop
+get class file
+iid from string
+equal guid
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+move memory
+ole create
+ole create from file
+ole create property frame
+ole draw
+ole flush clipboard
+ole get clipboard
+ole current clipboard
+ole running
+ole load
+ole run
+ole save
+ole set clipboard
+ole set contained object
+ole set menu descriptor
+ole translate color
+prog from clsid
+register drag drop
+release stg medium
+revoke drag drop
+stg create docfile
+stg storage file
+stg open storage
+string from clsid
+sys alloc string
+sys free string
+sys string byte len
+variant change type
+variant clear
+variant init
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+write class stg
+create std accessible object
+lresult from object
+vtbl call
+vtbl call
+vtbl call
+vtbl call
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ internal
+ win
+ com
+
+ guid
+iid java beans bridge
+ com
+iid from string
+ guid
+iid shockwave active control
+ com
+iid from string
+ guid
+iidi editor site time
+iid from string
+ guid
+iidi editor site property
+iid from string
+ guid
+iidi editor base property
+iid from string
+ guid
+iidi editor site
+iid from string
+ guid
+iidi editor service
+iid from string
+ guid
+iidi editor manager
+iid from string
+ guid
+iidi accessible
+iid from string
+ guid
+iidi advise sink
+iid from string
+ guid
+iidi class factory
+iid from string
+ guid
+iidi connection point
+iid from string
+ guid
+iidi connection point container
+iid from string
+ guid
+iidi data object
+iid from string
+ guid
+iidi dispatch
+iid from string
+ guid
+iidi doc host handler
+iid from string
+ guid
+iidi doc host show
+iid from string
+ guid
+iidi drop source
+iid from string
+ guid
+iidi drop target
+iid from string
+ guid
+iidi enum formatetc
+iid from string
+ guid
+iidi enum variant
+iid from string
+ guid
+iidi font
+iid from string
+ guid
+iidi internet security manager
+iid from string
+ guid
+iidi ole client site
+iid from string
+ guid
+iidi ole command target
+iid from string
+ guid
+iidi ole container
+iid from string
+ guid
+iidi ole control
+iid from string
+ guid
+iidi ole control site
+iid from string
+ guid
+iidi ole document
+iid from string
+ guid
+iidi ole document site
+iid from string
+ guid
+iidi ole place active object
+iid from string
+ guid
+iidi ole place frame
+iid from string
+ guid
+iidi ole place object
+iid from string
+ guid
+iidi ole place site
+iid from string
+ guid
+iidi ole place window
+iid from string
+ guid
+iidi ole link
+iid from string
+ guid
+iidi ole object
+iid from string
+ guid
+iidi ole window
+iid from string
+ guid
+iidi persist
+iid from string
+ guid
+iidi persist file
+iid from string
+ guid
+iidi persist storage
+iid from string
+ guid
+iidi persist stream
+iid from string
+ guid
+iidi persist stream init
+iid from string
+ guid
+iidi property notify sink
+iid from string
+ guid
+iidi provide class info
+iid from string
+ guid
+iidi provide class info
+iid from string
+ guid
+iidi service provider
+iid from string
+ guid
+iidi specify property pages
+iid from string
+ guid
+iidi storage
+iid from string
+ guid
+iidi stream
+iid from string
+ guid
+iidi unknown
+iid from string
+ guid
+iidi view object
+iid from string
+ guid
+cgid doc host command handler
+iid from string
+ guid
+cgid explorer
+iid from string
+ text
+ bitmap
+ metafilepict
+ sylk
+ dif
+ tiff
+ oemtext
+ dib
+ palette
+ pendata
+ riff
+ wave
+ unicodetext
+ enhmetafile
+ hdrop
+ locale
+ max
+clsctx inproc handler
+clsctx inproc server
+clsctx local server
+clsctx remote server
+ classstring
+datadir get
+datadir set
+disp exception
+disp membernotfound
+disp unknowninterface
+dispid ambient backcolor
+dispid ambient font
+dispid ambient forecolor
+dispid ambient localeid
+dispid ambient messagereflect
+dispid ambient offlineifnotconnected
+dispid ambient showgrabhandles
+dispid ambient showhatching
+dispid ambient silent
+dispid ambient supportsmnemonics
+dispid ambient uidead
+dispid ambient usermode
+dispid backcolor
+dispid font
+dispid font bold
+dispid font charset
+dispid font italic
+dispid font name
+dispid font size
+dispid font strike
+dispid font under
+dispid font weight
+dispid forecolor
+dragdrop drop
+dragdrop cancel
+dragdrop usedefaultcursors
+dropeffect none
+dropeffect copy
+dropeffect move
+dropeffect link
+dropeffect scroll
+ formatetc
+ stgmedium
+ tymed
+dvaspect content
+ fail
+ invalidarg
+ nointerface
+ notimpl
+ notsupported
+gmem fixed
+gmem zeroinit
+guidkind default source disp iid
+impltypeflag fdefault
+impltypeflag frestricted
+impltypeflag fsource
+locale system default
+locale user default
+oleclose nosave
+oleclose saveifdirty
+ oleembedded
+oleiverb discardundostate
+oleiverb inplaceactivate
+oleiverb primary
+ olelinked
+olerender draw
+ false
+
+stg filenotfound
+stg converted
+stgc default
+stgm convert
+stgm create
+stgm deleteonrelease
+stgm direct
+stgm direct swmr
+stgm failifthere
+stgm noscratch
+stgm nosnapshot
+stgm priority
+stgm read
+stgm readwrite
+stgm share deny none
+stgm share deny read
+stgm share deny write
+stgm share exclusive
+stgm simple
+stgm transacted
+stgm write
+stgty storage
+stgty stream
+stgty lockbytes
+stgty property
+tymed hglobal
+dispatch method
+dispatch propertyget
+dispatch propertyput
+dispatch propertyputref
+dispid propertyput
+ bool
+ bstr
+ byref
+
+ date
+ dispatch
+ empty
+ error
+
+
+ null
+
+
+
+
+ unknown
+ variant
+variant true
+variant false
+ guid
+iid from string
+ string
+ lpsz
+ length
+ lpsz
+ length
+ buffer
+ length
+ lpsz
+get chars
+ length
+ buffer
+ guid
+ lpiid
+ guid
+ com
+iid from string
+ buffer
+ lpiid
+ com
+
+ lpiid
+clsid from prog
+lpsz prog
+ guid
+ pclsid
+clsid from string
+ lpsz
+ guid
+ pclsid
+create instance
+ guid
+ rclsid
+unk outer
+cls context
+ guid
+ riid
+ ppv
+free unused libraries
+get class object
+ guid
+ rclsid
+cls context
+server info
+ guid
+ riid
+ ppv
+lock object external
+ unk
+ lock
+last unlock releases
+task mem alloc
+
+task mem free
+
+drag drop
+data object
+drop source
+ effect
+pdw effect
+get class file
+file name
+ guid
+ clsid
+iid from string
+ lpsz
+ guid
+ lpiid
+equal guid
+ guid
+ rguid
+ guid
+ rguid
+move memory
+ destination
+ formatetc
+ source
+ length
+move memory
+destination ptr
+ guid
+ source
+ length
+move memory
+destination ptr
+ oleinplaceframeinfo
+ source
+ length
+move memory
+ destination
+ statstg
+ source
+ length
+move memory
+ destination
+ stgmedium
+ source
+ length
+move memory
+ stgmedium
+ destination
+source ptr
+ length
+move memory
+ dispparams
+ destination
+source ptr
+ length
+move memory
+ formatetc
+ destination
+ source
+ length
+move memory
+ guid
+ destination
+source ptr
+ length
+move memory
+ statstg
+ destination
+ source
+ length
+move memory
+ typeattr
+ destination
+source ptr
+ length
+move memory
+ rect
+ destination
+ source
+ length
+move memory
+ funcdesc
+ destination
+ source
+ length
+move memory
+ vardesc
+ destination
+ source
+ length
+ole create
+ guid
+ rclsid
+ guid
+ riid
+ renderopt
+ formatetc
+format etc
+client site
+ stg
+ppv object
+ole create from file
+ guid
+ rclsid
+lpsz file name
+ guid
+ riid
+ renderopt
+ formatetc
+format etc
+client site
+ stg
+ppv obj
+ole create property frame
+hwnd owner
+
+
+lpsz caption
+ objects
+lplp unk
+ pages
+page cls
+ lcid
+ reserved
+lpv reserved
+ole draw
+ unk
+ aspect
+hdc draw
+lprc bounds
+ole flush clipboard
+ole get clipboard
+data object
+ole current clipboard
+data object
+ole running
+ object
+ole load
+ stg
+ guid
+ riid
+client site
+ppv obj
+ole run
+ unknown
+ole save
+
+ stg
+same load
+ole set clipboard
+data object
+ole set contained object
+ unk
+ contained
+ole set menu descriptor
+ holemenu
+hwnd frame
+hwnd active object
+ frame
+active obj
+ole translate color
+ clr
+ hpal
+ pcolorref
+prog from clsid
+ guid
+ clsid
+lplpsz prog
+register drag drop
+ hwnd
+drop target
+release stg medium
+ pmedium
+revoke drag drop
+ hwnd
+stg create docfile
+pwcs name
+grf mode
+ reserved
+ppstg open
+stg storage file
+pwcs name
+stg open storage
+pwcs name
+pstg priority
+grf mode
+snb exclude
+ reserved
+ppstg open
+string from clsid
+ guid
+ rclsid
+ ppsz
+sys alloc string
+
+sys free string
+ bstr
+sys string byte len
+ bstr
+variant change type
+pvarg dest
+pvar src
+ flags
+
+variant clear
+ pvarg
+variant init
+ pvarg
+vtbl call
+ number
+ vtbl
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ arg
+ arg
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ arg
+ arg
+ arg
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ arg
+ dvtargetdevice
+ arg
+ size
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ arg
+ guid
+ arg
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ formatetc
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ guid
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ guid
+ arg
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ guid
+ arg
+ arg
+ arg
+ dispparams
+ arg
+ arg
+ excepinfo
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ statstg
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ msg
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ msg
+ arg
+ arg
+ arg
+ arg
+ rect
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ size
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ cauuid
+ arg
+vtbl call
+ number
+ vtbl
+ controlinfo
+ arg
+vtbl call
+ number
+ vtbl
+ formatetc
+ arg
+vtbl call
+ number
+ vtbl
+ formatetc
+ arg
+ stgmedium
+ arg
+vtbl call
+ number
+ vtbl
+ formatetc
+ arg
+ stgmedium
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ guid
+ arg
+vtbl call
+ number
+ vtbl
+ guid
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ guid
+ arg
+ arg
+ arg
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ guid
+ arg
+ arg
+ arg
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ guid
+ arg
+ arg
+ olecmd
+ arg
+ olecmdtext
+ arg
+vtbl call
+ number
+ vtbl
+ licinfo
+ arg
+vtbl call
+ number
+ vtbl
+ rect
+ arg
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ rect
+ arg
+ rect
+ arg
+vtbl call
+ number
+ vtbl
+ rect
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ arg
+ arg
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ arg
+ arg
+ arg
+write class stg
+ stg
+ guid
+ rclsid
+childid self
+ objnotconnected
+role system menubar
+role system scrollbar
+role system window
+role system client
+role system menupopup
+role system menuitem
+role system tooltip
+role system dialog
+role system separator
+role system toolbar
+role system table
+role system columnheader
+role system rowheader
+role system cell
+role system link
+role system list
+role system listitem
+role system outline
+role system outlineitem
+role system pagetab
+role system statictext
+role system text
+role system pushbutton
+role system checkbutton
+role system radiobutton
+role system combobox
+role system progressbar
+role system slider
+role system pagetablist
+state system normal
+state system selected
+state system focused
+state system pressed
+state system checked
+state system readonly
+state system hottracked
+state system expanded
+state system collapsed
+state system busy
+state system invisible
+state system offscreen
+state system sizeable
+state system focusable
+state system selectable
+state system linked
+state system multiselectable
+create std accessible object
+ hwnd
+ object
+ guid
+riid interface
+ppv object
+lresult from object
+ guid
+ riid
+ param
+ acc
+vtbl call
+ number
+ vtbl
+ arg
+ arg
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ arg
+ arg
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ arg
+ arg
+ arg
+ arg
+ arg
+vtbl call
+ number
+ vtbl
+ arg
+ arg
+ arg
+ arg
+ arg
+ arg
+ arg
+ arg
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+guid  constants
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+public  static  final  guid iidi accessible handler iid from string  03022430  abc  bde 001 1953  non  nls 
+public  static  final  guid iidi accessor iid from string  733  ade  0044773  non  nls 
+non  nls 
+public  static  final  guid iidi advise sink iid from string  00000125  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidi bind ctx iid from string  0000000  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidi class factory iid from string  00000001  0000  0000  000  000000000046  non  nls 
+non  nls 
+non  nls 
+non  nls 
+public  static  final  guid iidi create error info iid from string  03340  547  101 08002 119  non  nls 
+public  static  final  guid iidi create type info iid from string  00020405  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidi create type lib iid from string  00020406  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidi data advise holder iid from string  00000110  0000  0000  000  000000000046  non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+public  static  final  guid iidi enum connection points iid from string 196 285  bab  101  00341  non  nls 
+public  static  final  guid iidi enum connections iid from string 196 287  bab  101  00341  non  nls 
+non  nls 
+public  static  final  guid iidi enum moniker iid from string  00000102  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidi enum oleverb iid from string  00000104  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidi enum statdata iid from string  00000105  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidi enum statstg iid from string  0000000  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidi enum string iid from string  00000101  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidi enum unknown iid from string  00000100  0000  0000  000  000000000046  non  nls 
+non  nls 
+public  static  final  guid iidi error info iid from string  120  547  101 08002 119  non  nls 
+public  static  final  guid iidi error log iid from string  3127  446  8135 004 851  non  nls 
+public  static  final  guid iidi external connection iid from string  00000019  0000  0000  000  000000000046  non  nls 
+non  nls 
+public  static  final  guid iidi font disp iid from string bef 003  874  101  bba 00300 cab  non  nls 
+non  nls 
+public  static  final  guid iidi lock bytes iid from string  0000000  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidi malloc iid from string  00000002  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidi malloc spy iid from string  0000001  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidi marshal iid from string  00000003  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidi message filter iid from string  00000016  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidi moniker iid from string  0000000  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidi ole advise holder iid from string  00000111  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidi ole cache iid from string  0000011  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidi ole cache iid from string  00000128  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidi ole cache control iid from string  00000129  0000  0000  000  000000000046  non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+public  static  final  guid iidi ole item container iid from string  0000011  0000  0000  000  000000000046  non  nls 
+non  nls 
+non  nls 
+non  nls 
+public  static  final  guid iidi parse display name iid from string  0000011  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidi per property browsing iid from string  376  3845  101 08002 713  non  nls 
+non  nls 
+non  nls 
+public  static  final  guid iidi persist memory iid from string 504200 10000  non  nls 
+public  static  final  guid iidi persist property bag iid from string  8135 004 851  non  nls 
+non  nls 
+non  nls 
+non  nls 
+public  static  final  guid iidi picture iid from string  80980  101  bbb 00300 cab  non  nls 
+public  static  final  guid iidi picture disp iid from string  80981  101  bbb 00300 cab  non  nls 
+public  static  final  guid iidi property bag iid from string  55272  8135 004 851  non  nls 
+non  nls 
+public  static  final  guid iidi property page iid from string  196  bab  101  00341  non  nls 
+public  static  final  guid iidi property page iid from string  44665  101 08002 713  non  nls 
+public  static  final  guid iidi property page site iid from string  196  bab  101  00341  non  nls 
+non  nls 
+non  nls 
+public  static  final  guid iidips factory buffer iid from string  569  593  101  569 08002 dbf  non  nls 
+public  static  final  guid iidi root storage iid from string  00000012  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidirot data iid from string  5021  00006901293  non  nls 
+public  static  final  guid iidi rpc channel buffer iid from string  593  101  569 08002 dbf  non  nls 
+public  static  final  guid iidi rpc proxy buffer iid from string  593  101  569 08002 dbf  non  nls 
+public  static  final  guid iidi rpc stub buffer iid from string  afc  593  101  569 08002 dbf  non  nls 
+public  static  final  guid iidi runnable object iid from string  00000126  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidi running object table iid from string  00000010  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidi simple frame site iid from string  742  101  914 00300 cab  non  nls 
+non  nls 
+non  nls 
+public  static  final  guid iidi std marshal info iid from string  00000018  0000  0000  000  000000000046  non  nls 
+non  nls 
+non  nls 
+public  static  final  guid iidi support error info iid from string  548  101 08002 119  non  nls 
+public  static  final  guid iidi type comp iid from string  00020403  0000  0000  000  000000000046  non  nls 
+public  static  final  guid iidi type lib iid from string  00020402  0000  0000  000  000000000046  non  nls 
+non  nls 
+public  static  final  guid iidi view object iid from string  0000010  0000  0000  000  000000000046  non  nls 
+non  nls 
+non  nls 
+non  nls 
+  constants
+public  static  final  int  advf  dataonstop 
+public  static  final  int  advf  nodata 
+public  static  final  int  advf  onlyonce 
+public  static  final  int  advf  primefirst 
+public  static  final  int  advfcache  forcebuiltin 
+public  static  final  int  advfcache  nohandler 
+public  static  final  int  advfcache  onsave 
+public  static  final  int  coinit  apartmentthreaded 
+public  static  final  int  coinit  disable ole dde 
+public  static  final  int  coinit  multithreaded 
+public  static  final  int  coinit  speed  over  memory 
+public  static  final  int  dispid  ambient  appearance  716
+public  static  final  int  dispid  ambient  autoclip  715
+public  static  final  int  dispid  ambient  charset  727
+public  static  final  int  dispid  ambient  codepage  725
+public  static  final  int  dispid  ambient  displayasdefault  713
+public  static  final  int  dispid  ambient  displayname  702
+public  static  final  int  dispid  ambient  palette  726
+public  static  final  int  dispid  ambient  righttoleft  732
+public  static  final  int  dispid  ambient  scaleunits  707
+public  static  final  int  dispid  ambient  textalign  708
+public  static  final  int  dispid  ambient  toptobottom  733
+public  static  final  int  dispid  ambient  transferpriority  728
+public  static  final  int  dispid  readystate  525
+public  static  final  int  dispid  readystatechange  609
+public  static  final  int  dvaspect  docprint 
+public  static  final  int  dvaspect  icon 
+public  static  final  int  dvaspect  thumbnail 
+public  static  final  int  notlicensed  2147221230
+public  static  final  int  outofmemory  2147024882
+public  static  final  int  pointer  2147467261
+public  static  final  int  gmem  movable 
+public  static  final  int  gmem  nodiscard 
+public  static  final  int  impltypeflag  fdefaultvtable  2048
+public  static  final  int  memctx  task 
+public  static  final  int  oleactivateauto 
+public  static  final  int  oleactivatedoubleclick 
+public  static  final  int  oleactivategetfocus 
+public  static  final  int  oleactivatemanual 
+public  static  final  int  oleautomatic 
+public  static  final  int  olechanged 
+public  static  final  int  oleclose  promptsave 
+public  static  final  int  oleclosed 
+public  static  final  int  olecontf  embeddings 
+public  static  final  int  olecontf  links 
+public  static  final  int  olecontf  onlyifrunning 
+public  static  final  int  olecontf  onlyuser 
+public  static  final  int  olecontf  others 
+public  static  final  int  oledeactivatemanual 
+public  static  final  int  oledeactivateonlosefocus 
+public  static  final  int  oledecborder 
+public  static  final  int  oledecborderandnibs 
+public  static  final  int  oledecnibs 
+public  static  final  int  oledecnone 
+public  static  final  int  oledisplaycontent 
+public  static  final  int  oledisplayicon 
+public  static  final  int  oleeither 
+public  static  final  int  olefrozen 
+public  static  final  int  oleiverb  hide 
+public  static  final  int  oleiverb  open 
+public  static  final  int  oleiverb  properties 
+public  static  final  int  oleiverb  show 
+public  static  final  int  oleiverb  uiactivate 
+public  static  final  int  olemanual 
+public  static  final  int  olemisc  activatewhenvisible  256
+public  static  final  int  olemisc  actslikebutton  4096
+public  static  final  int  olemisc  actslikelabel  8192
+public  static  final  int  olemisc  alignable  32768
+public  static  final  int  olemisc  alwaysrun  2048
+public  static  final  int  olemisc  canlinkbyole 
+public  static  final  int  olemisc  cantlinkinside 
+public  static  final  int  olemisc  ignoreactivatewhenvisible  524288
+public  static  final  int  olemisc  imemode  262144
+public  static  final  int  olemisc  insertnotreplace 
+public  static  final  int  olemisc  insideout  128
+public  static  final  int  olemisc  invisibleatruntime  1024
+public  static  final  int  olemisc  islinkobject 
+public  static  final  int  olemisc  nouiactivate  16384
+public  static  final  int  olemisc  onlyiconic 
+public  static  final  int  olemisc  recomposeonresize 
+public  static  final  int  olemisc  renderingisdeviceindependent  512
+public  static  final  int  olemisc  setclientsitefirst  131072
+public  static  final  int  olemisc  simpleframe  65536
+public  static  final  int  olemisc  static 
+public  static  final  int  olemisc  supportsmultilevelundo  2097152
+public  static  final  int  olemisc  wantstomenumerge  1048576
+public  static  final  int  olenone 
+public  static  final  int  olerenamed 
+public  static  final  int  olerender  asis 
+public  static  final  int  olerender  format 
+public  static  final  int  olerender  none 
+public  static  final  int  olesaved 
+public  static  final  int  olesizeautosize 
+public  static  final  int  olesizeclip 
+public  static  final  int  olesizestretch 
+public  static  final  int  olesizezoom 
+public  static  final  int  olewhichmk  container 
+public  static  final  int  olewhichmk  objfull 
+public  static  final  int  olewhichmk  objrel 
+public  static  final  int  stgc  consolidate 
+public  static  final  int  stgc  dangerouslycommitmerelytodiskcache 
+public  static  final  int  stgc  onlyifcurrent 
+public  static  final  int  stgc  overwrite 
+public  static  final  int  tymed  enhmf 
+public  static  final  int  tymed  file 
+public  static  final  int  tymed  gdi 
+public  static  final  int  tymed  istorage 
+public  static  final  int  tymed  istream 
+public  static  final  int  tymed  mfpict 
+public  static  final  int  tymed  null 
+public  static  final  short  dispid  constructor 
+public  static  final  short  dispid  destructor 
+public  static  final  short  dispid  evaluate 
+public  static  final  short  dispid  newenum 
+public  static  final  short  dispid  unknown 
+public  static  final  short  dispid  value 
+  natives
+accessibility  constants
+public  static  final  int  role  system  titlebar 
+public  static  final  int  role  system  grip 
+public  static  final  int  role  system  sound 
+public  static  final  int  role  system  cursor 
+public  static  final  int  role  system  caret 
+public  static  final  int  role  system  alert 
+public  static  final  int  role  system  application  0xe
+public  static  final  int  role  system  document  0xf
+public  static  final  int  role  system  pane 
+public  static  final  int  role  system  chart 
+public  static  final  int  role  system  border 
+public  static  final  int  role  system  grouping 
+public  static  final  int  role  system  statusbar 
+public  static  final  int  role  system  column 
+public  static  final  int  role  system  row 
+public  static  final  int  role  system  helpballoon 
+public  static  final  int  role  system  character 
+public  static  final  int  role  system  propertypage 
+public  static  final  int  role  system  indicator 
+public  static  final  int  role  system  graphic 
+public  static  final  int  role  system  droplist 
+public  static  final  int  role  system  dial 
+public  static  final  int  role  system  hotkeyfield 
+public  static  final  int  role  system  spinbutton 
+public  static  final  int  role  system  diagram 
+public  static  final  int  role  system  animation 
+public  static  final  int  role  system  equation 
+public  static  final  int  role  system  buttondropdown 
+public  static  final  int  role  system  buttonmenu 
+public  static  final  int  role  system  buttondropdowngrid 
+public  static  final  int  role  system  whitespace 
+public  static  final  int  role  system  clock 
+public  static  final  int  state  system  unavailable 
+public  static  final  int  state  system  mixed 
+public  static  final  int  state  system  indeterminate  state  system  mixed
+public  static  final  int  state  system  default  100
+public  static  final  int  state  system  floating  1000
+public  static  final  int  state  system  marqueed  2000
+public  static  final  int  state  system  animated  4000
+public  static  final  int  state  system  moveable  40000
+public  static  final  int  state  system  selfvoicing  80000
+public  static  final  int  state  system  traversed  800000
+public  static  final  int  state  system  extselectable  2000000
+public  static  final  int  state  system  alert  low  4000000
+public  static  final  int  state  system  alert  medium  8000000
+public  static  final  int  state  system  alert  high  10000000
+public  static  final  int  state  system  protected  20000000
+public  static  final  int  state  system  valid  3fffffff
+accessibility  natives
+</comments>
+</text>
+</DOC>

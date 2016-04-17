@@ -1,0 +1,32 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.HelpListener.java </DOCNO>
+<text>
+<class>
+help listener
+</class>
+<method>
+help requested
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+help listener
+swt event listener
+help requested
+help event
+
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+classes  which  implement  this  interface  provide  method  that  deals  with  the  event  that  generated  when  help  requested  for  control  typically  when  the  user  presses  after  creating  instance  class  that  implements  this  interface  can  added  control  using  the  code add help listener  code  method  and  removed  using  the  code remove help listener  code  method  when  help  requested  for  control  the help requested  method  will  invoked  see help event
+sent  when  help  requested  for  control  typically  when  the  user  presses  param  event  containing  information  about  the  help
+</comments>
+</text>
+</DOC>

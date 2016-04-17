@@ -1,0 +1,2707 @@
+<DOC>
+<DOCNO>org.eclipse.swt.ole.win32.OleClientSite.java </DOCNO>
+<text>
+<class>
+ole client site
+</class>
+<method>
+ole client site
+handle event
+ole client site
+ole client site
+ole client site
+add object references
+add ref
+can place activate
+context sensitive help
+create com interfaces
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+create temp storage
+deactivate place client
+delete temp storage
+dispose com interfaces
+ verb
+ exec
+get automation object
+get class
+get container
+get extent
+get indent
+get program
+ activate
+get window
+get rect
+get window context
+ dirty
+focus control
+ close
+data change
+ dispose
+ focus
+focus out
+place activate
+place deactivate
+pos rect change
+ paint
+ resize
+ save
+show window
+ activate
+ deactivate
+ traverse
+view change
+query interface
+query status
+ release
+release object interfaces
+ save
+save from contents
+save from ole native
+save object
+save storage file
+save traditional file
+ scroll
+set border space
+set extent
+set indent
+set object rects
+show object
+show properties
+update storage
+form himetric pixels
+form pixels himetric
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ ole
+ win
+ java
+
+ file
+ java
+
+file output stream
+ java
+
+file input stream
+ java
+
+ exception
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ internal
+ compatibility
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ole client site
+ composite
+com object
+ unknown
+com object
+ole client site
+com object
+advise sink
+com object
+ole place site
+com object
+ole document site
+ guid
+app clsid
+ guid
+obj clsid
+ref count
+ole frame
+ frame
+ unknown
+obj unknown
+ole object
+obj ole object
+view object
+obj view object
+ole place object
+obj ole place object
+ole command target
+obj ole command target
+ole document view
+obj document view
+ storage
+temp storage
+ aspect
+ type
+ static
+ rect
+border widths
+ rect
+ rect
+ indent
+ rect
+ update
+ init
+ dispose
+ string
+ wordprogid
+ listener
+ listener
+state none
+state running
+state inplaceactive
+state uiactive
+state active
+ state
+state none
+ole client site
+ composite
+ parent
+ style
+ parent
+ style
+create com interfaces
+ parent
+ parent
+ole frame
+ frame
+ole frame
+ parent
+ parent
+ parent
+get parent
+ frame
+ ole
+ error
+ swt
+error invalid argument
+ frame
+add ref
+ aspect
+ com
+dvaspect content
+ type
+ com
+ oleembedded
+ static
+ listener
+ listener
+handle event
+ event
+
+
+ type
+ swt
+ resize
+ swt
+ move
+ resize
+
+ swt
+ dispose
+ dispose
+
+ swt
+ focus
+ focus
+
+ swt
+focus out
+focus out
+
+ swt
+ paint
+ paint
+
+ swt
+ traverse
+ traverse
+
+ swt
+key down
+ ole
+ error
+ swt
+error not implemented
+ frame
+add listener
+ swt
+ resize
+ listener
+ frame
+add listener
+ swt
+ move
+ listener
+add listener
+ swt
+ dispose
+ listener
+add listener
+ swt
+ focus
+ listener
+add listener
+ swt
+focus out
+ listener
+add listener
+ swt
+ paint
+ listener
+add listener
+ swt
+ traverse
+ listener
+add listener
+ swt
+key down
+ listener
+ole client site
+ composite
+ parent
+ style
+ file
+ file
+ parent
+ style
+ file
+ file
+ directory
+ file
+ exists
+ ole
+ error
+ ole
+error invalid argument
+app clsid
+ guid
+file name
+ file
+get absolute path
+char array
+ result
+ com
+get class file
+file name
+app clsid
+ result
+ com
+
+ ole
+ error
+ ole
+error invalid classid
+ result
+get program
+ ole
+ error
+ ole
+error invalid classid
+ result
+temp storage
+create temp storage
+ address
+ result
+ com
+ole create from file
+app clsid
+file name
+ com
+iidi unknown
+ com
+olerender draw
+temp storage
+get address
+ address
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot create object
+ result
+obj unknown
+ unknown
+ address
+add object references
+ com
+ole run
+obj unknown
+get address
+ ole
+
+ state
+state running
+swt exception
+
+ dispose
+dispose com interfaces
+
+ole client site
+ composite
+ parent
+ style
+ string
+ prog
+ parent
+ style
+app clsid
+get class
+ prog
+app clsid
+ ole
+ error
+ ole
+error invalid classid
+temp storage
+create temp storage
+ address
+ result
+ com
+ole create
+app clsid
+ com
+iidi unknown
+ com
+olerender draw
+temp storage
+get address
+ address
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot create object
+ result
+obj unknown
+ unknown
+ address
+add object references
+ com
+ole run
+obj unknown
+get address
+ ole
+
+ state
+state running
+swt exception
+
+ dispose
+dispose com interfaces
+
+ole client site
+ composite
+ parent
+ style
+ string
+ prog
+ file
+ file
+ parent
+ style
+ file
+ file
+ directory
+ file
+ exists
+ ole
+ error
+ ole
+error invalid argument
+app clsid
+get class
+ prog
+file name
+ file
+get absolute path
+char array
+ guid
+file clsid
+ guid
+ com
+get class file
+file name
+file clsid
+ com
+equal guid
+app clsid
+file clsid
+temp storage
+create temp storage
+ address
+ result
+ com
+ole create from file
+app clsid
+file name
+ com
+iidi unknown
+ com
+olerender draw
+temp storage
+get address
+ address
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot create object
+ result
+obj unknown
+ unknown
+ address
+ storage
+ storage
+ com
+stg storage file
+file name
+ com
+
+ address
+ mode
+ com
+stgm read
+ com
+stgm transacted
+ com
+stgm share exclusive
+ result
+ com
+stg open storage
+file name
+ mode
+ address
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot open file
+ result
+ storage
+ storage
+ address
+ address
+ mode
+ com
+stgm readwrite
+ com
+stgm direct
+ com
+stgm share exclusive
+ com
+stgm create
+ result
+ com
+stg create docfile
+ mode
+ com
+stgm deleteonrelease
+ address
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot open file
+ result
+ storage
+ storage
+ address
+ string
+stream name
+ guid
+word guid
+get class
+ wordprogid
+ com
+equal guid
+app clsid
+word guid
+stream name
+ address
+ result
+ storage
+create stream
+stream name
+ mode
+ address
+ result
+ com
+
+ storage
+ release
+ ole
+ error
+ ole
+error cannot open file
+ result
+ stream
+ stream
+ stream
+ address
+file input stream
+file input
+file input stream
+ file
+ increment
+ buffer
+ increment
+ count
+ count
+file input
+ read
+ buffer
+
+ com
+task mem alloc
+ count
+
+move memory
+
+ buffer
+ count
+ result
+ stream
+ write
+
+ count
+ com
+task mem free
+
+ result
+ com
+
+file input
+ close
+ stream
+ release
+ storage
+ release
+ ole
+ error
+ ole
+error cannot open file
+ result
+file input
+ close
+ stream
+ commit
+ com
+stgc default
+ stream
+ release
+ exception
+ err
+ stream
+ release
+ storage
+ release
+ ole
+ error
+ ole
+error cannot open file
+temp storage
+create temp storage
+ result
+ storage
+ copy
+temp storage
+get address
+ storage
+ release
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot open file
+ result
+ ppv
+ result
+ com
+create instance
+app clsid
+ com
+clsctx inproc handler
+ com
+clsctx inproc server
+ com
+iidi unknown
+ ppv
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot create object
+ result
+obj unknown
+ unknown
+ ppv
+ ppv
+ result
+obj unknown
+query interface
+ com
+iidi persist storage
+ ppv
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot create object
+ result
+persist storage
+persist storage
+persist storage
+ ppv
+ result
+persist storage
+ load
+temp storage
+get address
+persist storage
+ release
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot create object
+ result
+add object references
+ com
+ole run
+obj unknown
+get address
+ ole
+
+ state
+state running
+swt exception
+
+ dispose
+dispose com interfaces
+
+add object references
+ppv object
+obj unknown
+query interface
+ com
+iidi persist
+ppv object
+ com
+
+ persist
+obj persist
+ persist
+ppv object
+ guid
+ tempid
+ guid
+obj persist
+get class
+ tempid
+ com
+
+obj clsid
+ tempid
+obj persist
+ release
+ppv object
+ result
+obj unknown
+query interface
+ com
+iidi view object
+ppv object
+ result
+ com
+
+ ole
+ error
+ ole
+error interface not found
+ result
+obj view object
+view object
+ppv object
+obj view object
+set advise
+ aspect
+advise sink
+get address
+ppv object
+ result
+obj unknown
+query interface
+ com
+iidi ole object
+ppv object
+ result
+ com
+
+ ole
+ error
+ ole
+error interface not found
+ result
+obj ole object
+ole object
+ppv object
+obj ole object
+set client site
+ole client site
+get address
+pdw connection
+obj ole object
+ advise
+advise sink
+get address
+pdw connection
+obj ole object
+set host names
+ com
+ole set contained object
+obj unknown
+get address
+ppv object
+obj unknown
+query interface
+ com
+iidi ole link
+ppv object
+ com
+
+ole link
+obj ole link
+ole link
+ppv object
+ ppmk
+obj ole link
+get source moniker
+ ppmk
+ com
+
+ moniker
+obj moniker
+ moniker
+ ppmk
+obj moniker
+ release
+ type
+ com
+ olelinked
+obj ole link
+bind running
+ static
+obj ole link
+ release
+add ref
+ref count
+ref count
+can place activate
+ aspect
+ com
+dvaspect content
+ type
+ com
+ oleembedded
+ com
+
+ com
+ false
+context sensitive help
+enter mode
+ com
+
+create com interfaces
+ unknown
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ole client site
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+save object
+ method
+ args
+get container
+ args
+ method
+ args
+show object
+ method
+ args
+show window
+ args
+advise sink
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+data change
+ args
+ args
+ method
+ args
+view change
+ args
+ args
+ method
+ args
+ save
+ method
+ args
+ close
+ole place site
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+get window
+ args
+ method
+ args
+context sensitive help
+ args
+ method
+ args
+can place activate
+ method
+ args
+place activate
+ method
+ args
+ activate
+ method
+ args
+get window context
+ args
+ args
+ args
+ args
+ args
+ method
+ args
+ scroll
+ args
+ method
+ args
+ deactivate
+ args
+ method
+ args
+place deactivate
+ method
+ args
+pos rect change
+ args
+ole document site
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+ activate
+ args
+ storage
+create temp storage
+temp storage
+grf mode
+ com
+stgm readwrite
+ com
+stgm share exclusive
+ com
+stgm deleteonrelease
+ result
+ com
+stg create docfile
+grf mode
+temp storage
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot create file
+ result
+ storage
+temp storage
+deactivate place client
+obj ole place object
+obj ole place object
+place deactivate
+delete temp storage
+temp storage
+temp storage
+ release
+temp storage
+dispose com interfaces
+ unknown
+ unknown
+ dispose
+ unknown
+ole client site
+ole client site
+ dispose
+ole client site
+advise sink
+advise sink
+ dispose
+advise sink
+ole place site
+ole place site
+ dispose
+ole place site
+ole document site
+ole document site
+ dispose
+ole document site
+ verb
+ verb
+ state
+state none
+ com
+ole run
+obj unknown
+get address
+ ole
+
+ state
+state running
+ state
+state none
+ static
+ com
+ fail
+ result
+obj ole object
+ verb
+ verb
+ole client site
+get address
+ handle
+ state
+state running
+ init
+update storage
+ init
+ result
+ exec
+ cmd
+ options
+ variant
+
+ variant
+ out
+obj ole command target
+ address
+obj unknown
+query interface
+ com
+iidi ole command target
+ address
+ com
+
+ ole
+error interface not found
+obj ole command target
+ole command target
+ address
+ address
+
+ address
+
+global alloc
+
+gmem fixed
+
+gmem zeroinit
+ variant
+ sizeof
+
+get data
+ address
+out address
+ out
+out address
+
+global alloc
+
+gmem fixed
+
+gmem zeroinit
+ variant
+ sizeof
+ out
+get data
+out address
+ result
+obj ole command target
+ exec
+ cmd
+ options
+ address
+out address
+ address
+ com
+variant clear
+ address
+
+global free
+ address
+out address
+ out
+set data
+out address
+ com
+variant clear
+out address
+
+global free
+out address
+ result
+ dispatch
+get automation object
+ppv object
+obj unknown
+query interface
+ com
+iidi dispatch
+ppv object
+ com
+
+ dispatch
+ppv object
+ guid
+get class
+ string
+client name
+ guid
+ guid
+ guid
+ buffer
+client name
+ count
+client name
+ length
+ buffer
+ count
+client name
+get chars
+ count
+ buffer
+ com
+clsid from prog
+ buffer
+ guid
+ com
+
+ result
+ com
+clsid from string
+ buffer
+ guid
+ result
+ com
+
+ ole
+ error
+ ole
+error invalid classid
+ result
+ guid
+get container
+ container
+ container
+ com
+move memory
+ container
+ com
+ nointerface
+ size
+get extent
+ size
+ sizel
+ size
+obj ole object
+obj view object
+ com
+ole running
+obj ole object
+get address
+obj view object
+get extent
+ aspect
+ sizel
+obj ole object
+get extent
+ aspect
+ sizel
+form himetric pixels
+ sizel
+ rectangle
+get indent
+ rectangle
+ indent
+ left
+ indent
+ right
+ indent
+ top
+ indent
+ bottom
+ string
+get program
+app clsid
+lplpsz prog
+ com
+prog from clsid
+app clsid
+lplpsz prog
+ com
+
+ mem
+lplpsz prog
+ length
+
+global size
+ mem
+ ptr
+
+global lock
+ mem
+ buffer
+ length
+ com
+move memory
+ buffer
+ ptr
+ length
+
+global unlock
+ mem
+
+global free
+ mem
+ string
+ result
+ string
+ buffer
+ index
+ result
+ index
+ result
+ substring
+ index
+ activate
+view activate
+view activate
+ppv object
+obj unknown
+query interface
+ com
+iidi ole document
+ppv object
+ com
+
+ com
+ fail
+ole document
+obj ole document
+ole document
+ppv object
+obj ole document
+create view
+ole place site
+get address
+ppv object
+ com
+
+ com
+ fail
+obj ole document
+ release
+obj document view
+ole document view
+ppv object
+obj document view
+ole document view
+view activate
+obj document view
+add ref
+obj document view
+set place site
+ole place site
+get address
+obj document view
+ activate
+ rect
+ rect
+get rect
+obj document view
+set rect
+ rect
+obj document view
+ show
+ com
+
+get window
+ phwnd
+ phwnd
+ com
+ invalidarg
+ frame
+ com
+move memory
+ phwnd
+ com
+ notimpl
+ com
+move memory
+ phwnd
+ frame
+ handle
+ com
+
+ rect
+get rect
+ point
+ location
+get location
+ rectangle
+ area
+ frame
+get client area
+ rect
+ rect
+ rect
+ rect
+ left
+ location
+
+ rect
+ top
+ location
+
+ rect
+ right
+ location
+
+ area
+ width
+border widths
+ left
+border widths
+ right
+ rect
+ bottom
+ location
+
+ area
+ height
+border widths
+ top
+border widths
+ bottom
+ rect
+get window context
+ frame
+ doc
+lprc pos rect
+lprc clip rect
+frame info
+ frame
+ frame
+ com
+ notimpl
+ole place frame
+ frame
+get ole place frame
+ com
+move memory
+ frame
+ole place frame
+ frame
+add ref
+ doc
+ com
+move memory
+ doc
+ rect
+ rect
+get rect
+lprc pos rect
+
+move memory
+lprc pos rect
+ rect
+ rect
+ sizeof
+lprc clip rect
+
+move memory
+lprc clip rect
+ rect
+ rect
+ sizeof
+ oleinplaceframeinfo
+frame info
+ oleinplaceframeinfo
+frame info
+
+ oleinplaceframeinfo
+ sizeof
+frame info
+mdi app
+frame info
+hwnd frame
+ frame
+ handle
+ shell
+ shell
+get shell
+ menu
+ menubar
+ shell
+get menu bar
+ menubar
+ menubar
+ disposed
+ hwnd
+ shell
+ handle
+ accel
+
+send message
+ hwnd
+
+ app
+ accel
+ accel
+
+send message
+ hwnd
+
+ app
+ accel
+frame info
+accel entries
+ accel
+frame info
+ haccel
+ accel
+ com
+move memory
+frame info
+frame info
+ oleinplaceframeinfo
+ sizeof
+ com
+
+ dirty
+ address
+obj ole object
+query interface
+ com
+iidi persist file
+ address
+ com
+
+persist storage
+perm storage
+persist storage
+ address
+ result
+perm storage
+ dirty
+perm storage
+ release
+ result
+ com
+ false
+focus control
+check widget
+focus hwnd
+
+get focus
+obj ole place object
+ handle
+focus hwnd
+ phwnd
+obj ole place object
+get window
+ phwnd
+focus hwnd
+ phwnd
+focus hwnd
+focus hwnd
+
+get parent
+focus hwnd
+ close
+ com
+
+data change
+ formatetc
+ stgmed
+ com
+
+ dispose
+ event
+
+ dispose
+ state
+state none
+ verb
+ ole
+oleiverb discardundostate
+deactivate place client
+release object interfaces
+delete temp storage
+remove listener
+ swt
+ dispose
+ listener
+remove listener
+ swt
+ focus
+ listener
+remove listener
+ swt
+ paint
+ listener
+remove listener
+ swt
+ traverse
+ listener
+remove listener
+ swt
+key down
+ listener
+ frame
+remove listener
+ swt
+ resize
+ listener
+ frame
+remove listener
+ swt
+ move
+ listener
+ frame
+ release
+ frame
+ focus
+ event
+
+ dispose
+ state
+state uiactive
+ verb
+ ole
+oleiverb show
+obj ole place object
+focus control
+ phwnd
+obj ole place object
+get window
+ phwnd
+ phwnd
+
+set focus
+ phwnd
+focus out
+ event
+
+place activate
+ state
+state inplaceactive
+ frame
+set current document
+obj ole object
+ com
+
+ppv object
+obj ole object
+query interface
+ com
+iidi ole place object
+ppv object
+ com
+
+obj ole place object
+ole place object
+ppv object
+ com
+
+place deactivate
+obj ole place object
+obj ole place object
+ release
+obj ole place object
+ state
+state running
+ redraw
+ shell
+ shell
+get shell
+focus control
+ frame
+focus control
+ shell
+ traverse
+ swt
+traverse tab next
+ com
+
+pos rect change
+lprc pos rect
+ point
+ size
+get size
+set extent
+ size
+
+ size
+
+ com
+
+ paint
+ event
+
+ state
+state running
+ state
+state inplaceactive
+ size
+ size
+get extent
+ rectangle
+ area
+get client area
+ rect
+ rect
+ rect
+get program
+starts with
+ rect
+ left
+ area
+
+ rect
+ right
+ area
+
+ area
+ height
+ size
+
+ size
+
+ rect
+ top
+ area
+
+ rect
+ bottom
+ area
+
+ area
+ height
+ rect
+ left
+ area
+
+ rect
+ right
+ area
+
+ size
+
+ rect
+ top
+ area
+
+ rect
+ bottom
+ area
+
+ size
+
+ area
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ rect
+ sizeof
+
+move memory
+ area
+ rect
+ rect
+ sizeof
+ com
+ole draw
+obj unknown
+get address
+ aspect
+
+
+ handle
+ area
+
+global free
+ area
+ resize
+ event
+
+ rectangle
+ area
+ frame
+get client area
+set bounds
+border widths
+ left
+border widths
+ top
+ area
+ width
+border widths
+ left
+border widths
+ right
+ area
+ height
+border widths
+ top
+border widths
+ bottom
+set object rects
+ save
+show window
+ show
+ com
+
+ activate
+obj ole place object
+ com
+ fail
+ state
+state uiactive
+ phwnd
+obj ole place object
+get window
+ phwnd
+ com
+
+
+set window pos
+ phwnd
+
+hwnd top
+
+swp nosize
+
+swp nomove
+ com
+
+ deactivate
+ undoable
+ frame
+ frame
+ disposed
+ com
+
+ state
+state inplaceactive
+ frame
+set active object
+ redraw
+ shell
+ shell
+get shell
+focus control
+ frame
+focus control
+ shell
+ traverse
+ swt
+traverse tab next
+ menu
+ menubar
+ shell
+get menu bar
+ menubar
+ menubar
+ disposed
+ com
+
+shell handle
+ shell
+ handle
+
+set menu
+shell handle
+ menubar
+ handle
+ com
+ole set menu descriptor
+shell handle
+ traverse
+ event
+ event
+ event
+ detail
+ swt
+traverse escape
+ swt
+traverse return
+ swt
+traverse tab next
+ swt
+traverse tab previous
+ swt
+traverse page next
+ swt
+traverse page previous
+ swt
+traverse mnemonic
+ event
+ doit
+view change
+ aspect
+ lindex
+ com
+
+query interface
+ riid
+ppv object
+ riid
+ppv object
+ com
+ nointerface
+ guid
+ guid
+ guid
+ com
+move memory
+ guid
+ riid
+ guid
+ sizeof
+ com
+equal guid
+ guid
+ com
+iidi unknown
+ com
+move memory
+ppv object
+ unknown
+get address
+add ref
+ com
+
+ com
+equal guid
+ guid
+ com
+iidi advise sink
+ com
+move memory
+ppv object
+advise sink
+get address
+add ref
+ com
+
+ com
+equal guid
+ guid
+ com
+iidi ole client site
+ com
+move memory
+ppv object
+ole client site
+get address
+add ref
+ com
+
+ com
+equal guid
+ guid
+ com
+iidi ole place site
+ com
+move memory
+ppv object
+ole place site
+get address
+add ref
+ com
+
+ com
+move memory
+ppv object
+ com
+ nointerface
+query status
+ cmd
+obj ole command target
+ address
+obj unknown
+query interface
+ com
+iidi ole command target
+ address
+ com
+
+obj ole command target
+ole command target
+ address
+ olecmd
+ olecmd
+ olecmd
+ olecmd
+ cmd
+ cmd
+ result
+obj ole command target
+query status
+ olecmd
+ result
+ com
+
+ olecmd
+ cmdf
+ release
+ref count
+ref count
+dispose com interfaces
+ref count
+release object interfaces
+obj ole place object
+obj ole place object
+ release
+obj ole place object
+obj ole object
+obj ole object
+ close
+ com
+oleclose nosave
+obj ole object
+ release
+obj ole object
+obj document view
+obj document view
+ release
+obj document view
+obj view object
+obj view object
+set advise
+ aspect
+obj view object
+ release
+obj view object
+obj ole command target
+obj ole command target
+ release
+obj ole command target
+obj unknown
+obj unknown
+ release
+obj unknown
+ com
+free unused libraries
+ save
+ file
+ file
+include ole info
+include ole info
+save storage file
+ file
+save traditional file
+ file
+save from contents
+ address
+ file
+ file
+ success
+ stream
+temp contents
+ stream
+ address
+temp contents
+add ref
+file output stream
+ writer
+file output stream
+ file
+ increment
+
+ com
+task mem alloc
+ increment
+pcb written
+temp contents
+ read
+
+ increment
+pcb written
+ com
+
+pcb written
+ buffer
+pcb written
+
+move memory
+ buffer
+
+pcb written
+ writer
+ write
+ buffer
+ success
+ com
+task mem free
+
+ writer
+ close
+ exception
+ err
+temp contents
+ release
+ success
+save from ole native
+ address
+ file
+ file
+ success
+ stream
+temp contents
+ stream
+ address
+temp contents
+add ref
+
+ com
+task mem alloc
+ size
+
+temp contents
+ read
+
+
+move memory
+ size
+
+ com
+task mem free
+
+
+ com
+
+ size
+ buffer
+ size
+
+ com
+task mem alloc
+ size
+
+temp contents
+ read
+
+ size
+
+move memory
+ buffer
+
+ size
+ com
+task mem free
+
+file output stream
+ writer
+file output stream
+ file
+ writer
+ write
+ buffer
+ writer
+ close
+ success
+ exception
+ err
+temp contents
+ release
+ success
+save object
+update storage
+ com
+
+save storage file
+ file
+ file
+ file
+ file
+ directory
+update storage
+ address
+obj ole object
+query interface
+ com
+iidi persist storage
+ address
+ com
+
+persist storage
+perm storage
+persist storage
+ address
+ address
+ path
+ file
+get absolute path
+char array
+ mode
+ com
+stgm transacted
+ com
+stgm readwrite
+ com
+stgm share exclusive
+ com
+stgm create
+ result
+ com
+stg create docfile
+ path
+ mode
+ address
+ result
+ com
+
+ storage
+ storage
+ storage
+ address
+ com
+ole save
+perm storage
+get address
+ storage
+get address
+ com
+
+ storage
+ commit
+ com
+stgc default
+ com
+
+ storage
+ release
+perm storage
+ release
+save traditional file
+ file
+ file
+ file
+ file
+ directory
+update storage
+ address
+temp storage
+open stream
+ com
+stgm direct
+ com
+stgm read
+ com
+stgm share exclusive
+ address
+ com
+
+save from contents
+ address
+ file
+temp storage
+open stream
+ com
+stgm direct
+ com
+stgm read
+ com
+stgm share exclusive
+ address
+ com
+
+save from ole native
+ address
+ file
+ scroll
+scroll extant
+ com
+
+set border space
+ rect
+new borderwidth
+border widths
+new borderwidth
+ rectangle
+ area
+ frame
+get client area
+set bounds
+border widths
+ left
+border widths
+ top
+ area
+ width
+border widths
+ left
+border widths
+ right
+ area
+ height
+border widths
+ top
+border widths
+ bottom
+set object rects
+set extent
+ width
+ height
+obj ole object
+ static
+ update
+ size
+current extent
+get extent
+ width
+current extent
+
+ height
+current extent
+
+ size
+new extent
+ size
+new extent
+
+ width
+new extent
+
+ height
+new extent
+form pixels himetric
+new extent
+already running
+ com
+ole running
+obj ole object
+get address
+already running
+ com
+ole run
+obj ole object
+get address
+obj ole object
+set extent
+ aspect
+new extent
+ com
+
+ update
+obj ole object
+ update
+ update
+already running
+obj ole object
+ close
+ com
+oleclose saveifdirty
+set indent
+ rectangle
+new indent
+ indent
+ rect
+ indent
+ left
+new indent
+
+ indent
+ right
+new indent
+ width
+ indent
+ top
+new indent
+
+ indent
+ bottom
+new indent
+ height
+set object rects
+obj ole place object
+ rect
+ rect
+get rect
+obj ole place object
+set object rects
+ rect
+ rect
+show object
+ com
+
+show properties
+ string
+ title
+ppv object
+obj unknown
+query interface
+ com
+iidi specify property pages
+ppv object
+ com
+
+specify property pages
+obj ispp
+specify property pages
+ppv object
+ cauuid
+ guid
+ cauuid
+ result
+obj ispp
+get pages
+ guid
+obj ispp
+ release
+ result
+ com
+
+ title
+ title
+ title
+ title
+ length
+ title
+get chars
+ title
+ length
+ title
+ result
+ com
+ole create property frame
+ frame
+ handle
+ title
+obj unknown
+get address
+ guid
+ elems
+ guid
+ elems
+ com
+locale user default
+ com
+task mem free
+ guid
+ elems
+update storage
+temp storage
+ ppv
+obj unknown
+query interface
+ com
+iidi persist storage
+ ppv
+ com
+
+persist storage
+persist storage
+persist storage
+ ppv
+ result
+ com
+ole save
+persist storage
+get address
+temp storage
+get address
+ result
+ com
+
+ com
+write class stg
+temp storage
+get address
+obj clsid
+ result
+persist storage
+ save
+temp storage
+get address
+temp storage
+ commit
+ com
+stgc default
+ result
+persist storage
+save completed
+persist storage
+ release
+ size
+form himetric pixels
+ size
+ size
+
+
+ get
+ xppi
+
+get device caps
+
+ yppi
+
+get device caps
+
+
+ release
+
+
+ compatibility
+ round
+ size
+
+ xppi
+
+ compatibility
+ round
+ size
+
+ yppi
+ size
+ size
+ size
+ size
+
+
+ size
+
+
+ size
+ size
+form pixels himetric
+ size
+ size
+
+
+ get
+ xppi
+
+get device caps
+
+ yppi
+
+get device caps
+
+
+ release
+
+
+ compatibility
+ round
+ size
+
+ xppi
+
+ compatibility
+ round
+ size
+
+ yppi
+ size
+ size
+ size
+ size
+
+
+ size
+
+
+ size
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+ole client site  provides  site  manage  embedded  ole  document  within  container  the ole client site  provides  the  following  capabilities  creates  the  place  editor  for  blank  document  opening  existing  ole  document  lays  the  editor  out  provides  mechanism  for  activating  and  deactivating  the  document  provides  mechanism  for  saving  changes  made  the  document  this  object  implements  the  ole  interfaces  unknown ole client site advise sink ole place site  note  that  although  this  class  subclass  code  composite  code  does  not  make  sense  add  code  control  code  children  set  layout  styles  border  events  dispose  move  resize 
+interfaces  for  this  ole  client  container
+references  the  associated  frame
+access  the  embedded  linked  ole  object
+related  storage  information
+storage  interface  the  receiver
+internal  state  and  style  information
+the  display  aspect  the  embedded  object dvaspect content dvaspect icon
+indicates  the  type  client  that  can  supported  inside  this  container
+indicates  item  display  static  bitmap  metafile  etc
+non  nls 
+note  this  constructor  should  never  used  itself  because  does  not  create  ole  object
+install  the  ole  frame  for  this  client  site
+required  for  traversal
+create ole client site  child  widget  using  the  ole  document  type  associated  with  the  specified  file  the  ole  document  type  determined  either  through  header  information  the  file  through  registry  entry  for  the  file  extension  use  style  bits  select  particular  look  set  properties  param  parent  composite  widget  must ole frame  param  style  the  bitwise  ing  widget  styles  param  file  the  file  that  opened  this  ole  document  exception illegal argument exception  error  null  argument  when  the  parent  null  error  invalid  argument  when  the  parent  not ole frame  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  cannot  create  object  when  failed  create  ole  object  error  cannot  open  file  when  failed  open  file  error  interface  not  found  when  unable  create  callbacks  for  ole  interfaces  error  invalid  classid 
+there  associated  clsid
+associated  clsid  may  not  installed  this  machine
+open  temporary  storage  object
+create  ole  object  with  storage  object
+init  sinks
+create ole client site  child  widget  edit  blank  document  using  the  specified  ole  document  application  use  style  bits  select  particular  look  set  properties  param  parent  composite  widget  must ole frame  param  style  the  bitwise  ing  widget  styles  param  prog  the  unique  program  identifier  ole  document  application  the  value  the  prog  key  the  value  the version independent prog  key  specified  the  registry  for  the  desired  ole  document  for  example  the version independent prog  for  word  word  document  exception illegal argument exception  error  null  argument  when  the  parent  null  error  invalid  argument  when  the  parent  not ole frame  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  invalid  classid  when  the  prog  does  not  map  registered  clsid  error  cannot  create  object  when  failed  create  ole  object 
+open  temporary  storage  object
+create  ole  object  with  storage  object
+init  sinks
+create ole client site  child  widget  edit  the  specified  file  using  the  specified  ole  document  application  use  style  bits  select  particular  look  set  properties  important  this  method  not  part  the  public  api  for  code ole client site  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  parent  composite  widget  must ole frame  param  style  the  bitwise  ing  widget  styles  param  prog  the  unique  program  identifier  ole  document  application  the  value  the  prog  key  the  value  the version independent prog  key  specified  the  registry  for  the  desired  ole  document  for  example  the version independent prog  for  word  word  document  param  file  the  file  that  opened  this  ole  document  exception illegal argument exception  error  null  argument  when  the  parent  null  error  invalid  argument  when  the  parent  not ole frame  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  invalid  classid  when  the  prog  does  not  map  registered  clsid  error  cannot  create  object  when  failed  create  ole  object  error  cannot  open  file  when  failed  open  file 
+are  opening  this  file  with  the  preferred  ole  object
+using  the  same  application  that  created  file  therefore  use  default  mechanism
+create  ole  object  with  storage  object
+not  using  the  same  application  that  created  file  therefore  copy  from  original  file  new  storage  file
+does add ref  successful
+original  file  not  storage  file  copy  contents  stream  new  storage  file
+increments  ref  count  successful
+create  stream  the  storage  object
+word  does  not  follow  the  standard  and  does  not  use  contents  the  name 
+its  primary  stream
+non  nls 
+non  nls 
+increments  ref  count  successful
+copy  over  data  file  named  stream
+open  temporary  storage  object
+copy  over  contents  file
+create  ole  client
+get  the  persistant  storage  the  ole  client
+load  the  contents  the  file  into  the  ole  client  site
+init  sinks
+
+
+
+non  nls  non  nls 
+notify  the  control  object  that  embedded  ole  container
+ole  object  linked  embedded
+method get moniker  not  implemented
+method request new object layout  not  implemented
+method  rename  not  implemented
+method discard undo state  not  implemented
+method deactivate and undo change  not  implemented
+deactivates  active  place  object  and  discards  the  object  undo  state
+destroy  this  item  contents  the  temp  root  storage
+requests  that  the  ole  document  active  control  perform  action  actions  are  almost  always  changes  the  activation  state  param  verb  the  operation  that  requested  this  one  the  ole  oleiverb  values  return  hresult  value  indicating  the  success  the  operation  request  ole  indicates  success
+not  all  ole  clients  for  example power point  can  set  into  the  running  state  the  constructor
+the  fix  ensure  that  the  client  the  running  state  before  invoking  any  verb 
+see  rzw
+asks  the  ole  document  active  control  execute  command  from  standard  list  commands  the  ole  document  active  control  must  support  the ole command target  interface  the  ole  document  active  control  does  not  have  support  all  the  commands  the  standard  list  check  command  supported  you  can  call query status  with  the  cmd  param  cmd  the  command  these  are  the  ole  olecmdid  values  small  set  common  commands  param  options  the  optional  flags  these  are  the  ole  olecmdexecopt  values  param  the  argument  for  the  command  param  out  the  return  value  the  command  return  hresult  value  ole  returned  successful
+create  guid  struct  hold  the  result
+create  null  terminated  array  char
+simple  containers  that  not  support  links  their  embedded  objects  probably  not  need  implement  this  method  instead  they  can  return  nointerface  and  set  container  null
+get  the  current  size  the  embedded ole natives  object
+returns  the  program  the  ole  document  active  control  return  the  program  the  ole  document  active  control
+remove  null  terminator
+  true
+  true
+copy  the  window  handle  into  the  memory  passed 
+fill  frame  handle
+null  out  document  handle
+fill  position  and  clipping  info
+get  frame  info
+note  this  method  must  return  true  unless  absolutely  clear  that  the  contents  the  ole  document  not  differ  from  the  contents  the  file  the  file  system
+get  access  the  persistant  storage  mechanism
+are  the  contents  the  permanent  storage  different  from  the  file
+note  must  release  object  interfaces  before  releasing  frame
+remove  listeners
+non  nls 
+currently  are  ignoring  the  undoable  flag
+intentionally  commented  see  bug  35493
+com equal guid  guid  com iidi ole document site
+string  prog get program
+prog starts with power point  non  nls 
+com move memory ppv object  new  int ole document site get address 
+ add ref
+return  com 
+
+
+returns  the  status  the  specified  command  the  status  any  bitwise  combination  swtole  olecmdf  supported  swtole  olecmdf  enabled  swtole  olecmdf  latched  swtole  olecmdf  ninched  you  can  query  the  status  command  before  invoking  with ole client site  exec  the  ole  document  active  control  must  support  the ole command target  make  use  this  method  param  cmd  the  command  these  are  the  ole  olecmdid  values  small  set  common  commands  return  the  status  the  specified  command  unable  query  the  ole  object  these  are  the  ole  olecmdf  values
+note  file  does  not  exist  this  will  create  the  file  the
+first  time  called
+the ole native  stream  contains  dword  header  whose  value  the  length
+the  native  data  that  follows
+read  the  data
+open  the  file  and  write  data  into 
+note  file  does  not  exist  this  will  create  the  file
+saves  the  document  the  specified  file  and  includes  ole  spcific  inforrmation  this  method  must  only  used  for  files  that  have  ole  storage  format  for  example  word  file  edited  with  word  document  should  saved  using  this  method  because  there  formating  information  that  should  stored  the  ole  specific  storage  format  param  file  the  file  which  the  changes  are  saved  return  true  the  save  was  successful
+the  file  will  saved  using  the  formating  the  current  application  this
+may  not  the  format  the  application  that  was  originally  used  create  the  file
+excel  file  opened  word  the  word  application  will  save  the  file  the
+word  format
+note  the  file  already  exists  some  applications  will  not  overwrite  the  file
+these  cases  you  should  delete  the  file  first  probably  save  the  contents  the  file  case  the
+save  fails
+get  access  the  persistant  storage  mechanism
+does add ref  successful
+saves  the  document  the  specified  file  this  method  must  used  for  files  that  not  have  ole  storage  format  for  example  bitmap  file  edited  with  paint  should  saved  using  this  method  because  bitmap  standard  format  that  does  not  include  any  ole  specific  data  param  file  the  file  which  the  changes  are  saved  return  true  the  save  was  successful
+note  the  file  already  exists  some  applications  will  not  overwrite  the  file
+these  cases  you  should  delete  the  file  first  probably  save  the  contents  the  file  case  the
+save  fails
+look  for  contents  stream
+non  nls 
+look  for  ole  object  stream
+non  nls 
+readjust  size  and  location  client  site
+resize  the  width  and  height  the  embedded  linked ole natives  object
+the  specified  values
+get  the  server  running  first  then set extent  then  show 
+close  server  wasn  already  running  upon  entering  this  method
+size  the  object  fill  the  available  space
+leave  border
+tells  the  container  position  the  object  visible  the  user  this  method  ensures  that  the  container  itself  visible  and  not  minimized
+displays  dialog  with  the  property  information  for  this  ole  object  the  ole  document  active  control  must  support  the specify property pages  interface  param  title  the  name  that  will  appear  the  titlebar  the  dialog
+get  the  property  page  information  from  the  ole  object
+create  frame  which  display  the  pages
+free  the  property  page  information
+ole save  will  fail  for  static  objects  what ole save  does
+return  new  size  which  the  pixel  transformation 
+size  himetric  units
+logical  pixels  inch 
+logical  pixels  inch 
+2540  himetric  units  per  inch
+return  new  size  which  the  himetric  transformation 
+size  pixel  units
+logical  pixels  inch 
+logical  pixels  inch 
+2540  himetric  units  per  inch
+</comments>
+</text>
+</DOC>

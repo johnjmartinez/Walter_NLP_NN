@@ -1,0 +1,32 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.PaintListener.java </DOCNO>
+<text>
+<class>
+paint listener
+</class>
+<method>
+paint control
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+paint listener
+swt event listener
+paint control
+paint event
+
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+classes  which  implement  this  interface  provide  methods  that  deal  with  the  events  that  are  generated  when  the  control  needs  painted  after  creating  instance  class  that  implements  this  interface  can  added  control  using  the  code add paint listener  code  method  and  removed  using  the  code remove paint listener  code  method  when  paint  event  occurs  the paint control  method  will  invoked  see paint event
+sent  when  paint  event  occurs  for  the  control  param  event  containing  information  about  the  paint
+</comments>
+</text>
+</DOC>

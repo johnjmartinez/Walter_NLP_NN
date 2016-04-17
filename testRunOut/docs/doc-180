@@ -1,0 +1,222 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.Callback.java </DOCNO>
+<text>
+<class>
+ callback
+</class>
+<method>
+ callback
+ callback
+ callback
+ptr _sizeof
+ bind
+ dispose
+get address
+get platform
+get entry count
+get signature
+set enabled
+get enabled
+ignore callbacks
+ reset
+ unbind
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ callback
+ object
+ object
+ string
+ method
+ signature
+arg count
+ address
+error result
+ static
+array based
+ library
+load library
+ptr sizeof
+ptr _sizeof
+ string
+ptr signature
+ptr sizeof
+ string
+ signature
+get signature
+ string
+ signature
+get signature
+ string
+ signature
+get signature
+ string
+ signature
+get signature
+ string
+ signature
+get signature
+ string
+ signature
+ptr signature
+ptr signature
+ callback
+ object
+ object
+ string
+ method
+arg count
+ object
+ method
+arg count
+ callback
+ object
+ object
+ string
+ method
+arg count
+array based
+ object
+ method
+arg count
+array based
+ callback
+ object
+ object
+ string
+ method
+arg count
+array based
+error result
+ object
+ object
+ method
+ method
+arg count
+arg count
+ static
+ object
+ class
+array based
+array based
+error result
+error result
+array based
+ signature
+ signature
+arg count
+ signature
+ signature
+ signature
+ signature
+ signature
+ signature
+ signature
+ signature
+ signature
+ signature
+ signature
+get signature
+arg count
+ address
+ bind
+ object
+ method
+ signature
+arg count
+ static
+array based
+error result
+ptr _sizeof
+ bind
+ callback
+ callback
+ object
+ object
+ string
+ method
+ string
+ signature
+arg count
+ static
+array based
+error result
+ dispose
+ object
+ unbind
+ object
+ method
+ signature
+ address
+get address
+ address
+ string
+get platform
+get entry count
+ string
+get signature
+arg count
+ string
+ signature
+
+
+arg count
+
+ signature
+ptr signature
+ signature
+ptr signature
+ signature
+set enabled
+ enable
+get enabled
+ignore callbacks
+ ignore
+set enabled
+ ignore
+ reset
+ unbind
+ callback
+ callback
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  represent  entry  points  into  java  which  can  invoked  from  operating  system  level  callback  routines  important  callback  only  valid  when  invoked  the  thread  which  created  the  results  are  undefined  and  typically  bad  when  callback  passed  out  the  operating  system  other  code  such  way  that  the  callback  called  from  different  thread
+  long
+load  the  swt  library
+non  nls 
+non  nls  non  nls 
+non  nls  non  nls 
+constructs  new  instance  this  class  given  object  send  the  message  string  naming  the  method  invoke  and  argument  count  note  that  the  object  instance  code  class  code  assumed  that  the  method  static  method  that  class  param  object  the  object  send  the  message  param  method  the  name  the  method  invoke  param arg count  the  number  arguments  that  the  method  takes
+constructs  new  instance  this  class  given  object  send  the  message  string  naming  the  method  invoke  argument  count  and  flag  indicating  whether  not  the  arguments  will  passed  array  note  that  the  object  instance  code  class  code  assumed  that  the  method  static  method  that  class  param  object  the  object  send  the  message  param  method  the  name  the  method  invoke  param arg count  the  number  arguments  that  the  method  takes  param array based  code  true  code  the  arguments  should  passed  array  and  false  otherwise
+constructs  new  instance  this  class  given  object  send  the  message  string  naming  the  method  invoke  argument  count  flag  indicating  whether  not  the  arguments  will  passed  array  and  value  return  when  exception  happens  note  that  the  object  instance  code  class  code  assumed  that  the  method  static  method  that  class  param  object  the  object  send  the  message  param  method  the  name  the  method  invoke  param arg count  the  number  arguments  that  the  method  takes  param array based  code  true  code  the  arguments  should  passed  array  and  false  otherwise  param error result  the  return  value  the  java  code  throws  exception
+  long
+set  the  callback  fields
+inline  the  common  cases
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+bind  the  address
+allocates  the  native  level  resources  associated  with  the  callback  this  method  only  invoked  from  within  the  constructor  for  the  argument  param  callback  the  callback  bind  param  object  the  callback  object  param  method  the  callback  method  param  signature  the  callback  method  signature  param arg count  the  callback  method  argument  count  param  static  whether  the  callback  method  static  param array based  whether  the  callback  method  array  based  param error result  the  callback  error  result
+  long
+  long
+releases  the  native  level  resources  associated  with  the  callback  and  removes  all  references  between  the  callback  and  other  objects  this  helps  prevent  bad  application  code  from  accidentally  holding  onto  extraneous  garbage
+returns  the  address  block  machine  code  which  will  invoke  the  callback  represented  the  receiver  return  the  callback  address
+  long
+returns  the  swt  platform  name  return  the  platform  name  the  currently  running  swt
+returns  the  number  times  the  system  has  been  recursively  entered  through  callback  note  this  should  not  called  application  code  return  the  entry  count  since 
+non  nls 
+non  nls 
+indicates  whether  not  callbacks  which  are  triggered  the  native  level  should  cause  the  messages  described  the  matching  code  callback  code  objects  invoked  this  method  used  safely  shut  down  swt  when  run  within  environments  which  can  generate  spurious  events  note  this  should  not  called  application  code  param  enable  true  callbacks  should  invoked
+returns  whether  not  callbacks  which  are  triggered  the  native  level  should  cause  the  messages  described  the  matching  code  callback  code  objects  invoked  this  method  used  safely  shut  down  swt  when  run  within  environments  which  can  generate  spurious  events  note  this  should  not  called  application  code  return  true  callbacks  should  not  invoked
+this  might  called  directly  from  native  code  environments  which  can  generate  spurious  events  check  before  removing  deprecated  param  ignore  true  callbacks  should  not  invoked
+immediately  wipes  out  all  native  level  state  associated  with  all  callbacks  warning  this  operation  extremely  dangerous  and  should  never  performed  application  code 
+releases  the  native  level  resources  associated  with  the  callback  see  dispose
+</comments>
+</text>
+</DOC>

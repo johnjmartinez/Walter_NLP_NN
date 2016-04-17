@@ -1,0 +1,246 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.ole.win32.IStorage.java </DOCNO>
+<text>
+<class>
+ storage
+</class>
+<method>
+ storage
+ commit
+ copy
+create storage
+create stream
+destroy element
+enum elements
+open storage
+open stream
+rename element
+ revert
+set class
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ storage
+ unknown
+ storage
+ address
+ address
+ commit
+grf commit flag
+ com
+vtbl call
+ address
+grf commit flag
+ copy
+ciid exclude
+ guid
+rgiid exclude
+ string
+snb exclude
+pstg dest
+snb exclude
+ com
+ invalidarg
+ com
+vtbl call
+ address
+ciid exclude
+rgiid exclude
+pstg dest
+create storage
+ string
+pwcs name
+grf mode
+ reserved
+ reserved
+ stg
+ buffer
+pwcs name
+ buffer
+pwcs name
+char array
+ com
+vtbl call
+ address
+ buffer
+grf mode
+ reserved
+ reserved
+ stg
+create stream
+ string
+pwcs name
+grf mode
+ reserved
+ reserved
+ stm
+ buffer
+pwcs name
+ buffer
+pwcs name
+char array
+ com
+vtbl call
+ address
+ buffer
+grf mode
+ reserved
+ reserved
+ stm
+destroy element
+ string
+pwcs name
+ buffer
+pwcs name
+ buffer
+pwcs name
+char array
+ com
+vtbl call
+ address
+ buffer
+enum elements
+ reserved
+ reserved
+ reserved
+ ppenum
+ com
+vtbl call
+ address
+ reserved
+ reserved
+ reserved
+ ppenum
+open storage
+ string
+pwcs name
+pstg priority
+grf mode
+ string
+snb exclude
+ reserved
+ stg
+ buffer
+pwcs name
+ buffer
+pwcs name
+char array
+snb exclude
+ com
+ invalidarg
+ com
+vtbl call
+ address
+ buffer
+pstg priority
+grf mode
+ reserved
+ stg
+open stream
+ string
+pwcs name
+ reserved
+grf mode
+ reserved
+ stm
+ buffer
+pwcs name
+ buffer
+pwcs name
+char array
+ com
+vtbl call
+ address
+ buffer
+ reserved
+grf mode
+ reserved
+ stm
+rename element
+ string
+pwcs old name
+ string
+pwcs new name
+ buffer
+pwcs old name
+ buffer
+pwcs old name
+char array
+ buffer
+pwcs new name
+ buffer
+pwcs new name
+char array
+ com
+vtbl call
+ address
+ buffer
+ buffer
+ revert
+ com
+vtbl call
+ address
+set class
+ guid
+ clsid
+ com
+vtbl call
+ address
+ clsid
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+number  elements rgiid exclude
+array  interface  identifiers 
+points  block  stream  names  the  storage  object
+points  destination  storage  object
+only  support snb exclude  null
+pointer  the  name  the  new  storage  object
+access  mode  for  the  new  storage  object
+reserved  must  zero
+reserved  must  zero
+pointer  new  storage  object
+create  null  terminated  array  char
+pointer  the  name  the  new  stream
+access  mode  for  the  new  stream
+reserved  must  zero
+reserved  must  zero
+pointer  new  stream  object
+create  null  terminated  array  char
+create  null  terminated  array  char
+reserved  must  zero
+reserved  must  null
+reserved  must  zero
+pointer  output  variable  that
+receives  the enum statstg  interface
+pointer  the  name  the
+storage  object  open
+must  null
+access  mode  for  the  new  storage  object
+must  null
+reserved  must  zero
+pointer  opened  storage  object
+create  null  terminated  array  char
+only  support  the  case  where snb exclude  null
+pointer  name  stream  open
+reserved  must  null
+access  mode  for  the  new  stream
+reserved  must  zero
+pointer  output  variable
+that  receives  the  stream  interface  pointer
+create  null  terminated  array  char
+pointer  the  name  the
+element  changed
+pointer  the  new  name  for
+the  specified  element
+create  null  terminated  array  char
+create  null  terminated  array  char
+clsid  assigned  the  storage  object
+</comments>
+</text>
+</DOC>

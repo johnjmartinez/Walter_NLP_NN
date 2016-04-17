@@ -1,0 +1,207 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.PngTrnsChunk.java </DOCNO>
+<text>
+<class>
+png trns chunk
+</class>
+<method>
+png trns chunk
+validate length
+ validate
+get transparency type
+get swt transparent pixel
+get alpha values
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+ org
+ eclipse
+ swt
+png trns chunk
+png chunk
+transparency type pixel
+transparency type alphas
+png trns chunk
+ reference
+ reference
+validate length
+png ihdr chunk
+ header
+png plte chunk
+palette chunk
+ valid
+ header
+get color type
+png ihdr chunk
+color type rgb
+ valid
+get length
+png ihdr chunk
+color type palette
+ valid
+get length
+palette chunk
+get length
+png ihdr chunk
+color type grayscale
+ valid
+get length
+png ihdr chunk
+color type rgb with alpha
+png ihdr chunk
+color type grayscale with alpha
+ valid
+ valid
+ swt
+ error
+ swt
+error invalid image
+ validate
+png file read state
+read state
+png ihdr chunk
+header chunk
+png plte chunk
+palette chunk
+read state
+read ihdr
+header chunk
+get must have palette
+read state
+read plte
+read state
+read idat
+read state
+read iend
+ swt
+ error
+ swt
+error invalid image
+read state
+read trns
+validate length
+header chunk
+palette chunk
+ validate
+read state
+header chunk
+get transparency type
+png ihdr chunk
+ header
+ header
+get color type
+png ihdr chunk
+color type palette
+transparency type alphas
+transparency type pixel
+get swt transparent pixel
+png ihdr chunk
+ header
+ header
+get color type
+png ihdr chunk
+color type grayscale
+ gray
+ reference
+data offset
+ reference
+data offset
+ header
+get bit depth
+png file format
+compress bit depth bit depth
+ gray
+ gray
+png ihdr chunk
+color type rgb
+ red
+ reference
+data offset
+ reference
+data offset
+ green
+ reference
+data offset
+ reference
+data offset
+ blue
+ reference
+data offset
+ reference
+data offset
+ header
+get bit depth
+ red
+png file format
+compress bit depth bit depth
+ red
+ green
+png file format
+compress bit depth bit depth
+ green
+ blue
+png file format
+compress bit depth bit depth
+ blue
+ red
+ green
+ blue
+ swt
+ error
+ swt
+error invalid image
+get alpha values
+png ihdr chunk
+ header
+png plte chunk
+palette chunk
+ header
+get color type
+png ihdr chunk
+color type palette
+ swt
+ error
+ swt
+error invalid image
+ alphas
+palette chunk
+get palette size
+data length
+get length
+
+
+
+data length
+
+ alphas
+
+ reference
+data offset
+
+
+
+
+ alphas
+ length
+
+ alphas
+
+ alphas
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+three  byte  values  rgb
+three  byte  values  rgb
+one  byte  value
+cannot  use  both  alpha  and  rns
+answer  whether  the  chunk  valid  rns  chunk
+answer  the  transparent  pixel  rgb  value  this  not  valid  for  palette  color  types  this  not  valid  for  alpha  color  types  this  will  convert  grayscale  value  into  palette  index  will  compress  byte  rgb  into  byte  rgb
+answer  array  alpha  values  that  correspond  the  colors  the  palette  this  only  valid  for  the  color  type  palette  color  type
+any  palette  entries  which  not  have  corresponding  alpha  value  the  rns  chunk  are  spec  have  alpha  255
+</comments>
+</text>
+</DOC>

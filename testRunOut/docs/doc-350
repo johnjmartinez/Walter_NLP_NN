@@ -1,0 +1,3074 @@
+<DOC>
+<DOCNO>org.eclipse.swt.accessibility.Accessible.java </DOCNO>
+<text>
+<class>
+ accessible
+</class>
+<method>
+ accessible
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+internal _new accessible
+add accessible listener
+add accessible control listener
+add accessible text listener
+get control
+internal _dispose accessible
+internal getobject
+remove accessible listener
+remove accessible control listener
+remove accessible text listener
+selection changed
+set focus
+text caret moved
+text changed
+text selection changed
+query interface
+add ref
+ release
+acc default action
+acc hit test
+acc location
+acc navigate
+acc select
+get _acc child
+get _acc child count
+get _acc default action
+get _acc description
+get _acc focus
+get _acc help
+get _acc help topic
+get _acc keyboard shortcut
+get _acc name
+get _acc parent
+get _acc role
+get _acc selection
+get _acc state
+get _acc value
+put _acc name
+put _acc value
+ next
+ skip
+ reset
+ child
+ child
+ state
+ state
+ role
+ role
+check widget
+valid thread
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ accessibility
+ java
+ util
+ vector
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ ole
+ win
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ accessible
+ref count
+enum index
+com object
+obj accessible
+obj enum variant
+ accessible
+ iaccessible
+ vector
+accessible listeners
+ vector
+ vector
+accessible control listeners
+ vector
+ vector
+text listeners
+ vector
+ object
+ variants
+ control
+ control
+ accessible
+ control
+ control
+ control
+ control
+ppv object
+ result
+ com
+create std accessible object
+ control
+ handle
+ com
+objid client
+ com
+iidi accessible
+ppv object
+ppv object
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot create object
+ result
+ iaccessible
+ accessible
+ppv object
+ iaccessible
+add ref
+obj accessible
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+get _acc parent
+ args
+ method
+ args
+get _acc child count
+ args
+ method
+ args
+get _acc child
+ args
+ args
+ args
+ args
+ args
+ method
+ args
+get _acc name
+ args
+ args
+ args
+ args
+ args
+ method
+ args
+get _acc value
+ args
+ args
+ args
+ args
+ args
+ method
+ args
+get _acc description
+ args
+ args
+ args
+ args
+ args
+ method
+ args
+get _acc role
+ args
+ args
+ args
+ args
+ args
+ method
+ args
+get _acc state
+ args
+ args
+ args
+ args
+ args
+ method
+ args
+get _acc help
+ args
+ args
+ args
+ args
+ args
+ method
+ args
+get _acc help topic
+ args
+ args
+ args
+ args
+ args
+ args
+ method
+ args
+get _acc keyboard shortcut
+ args
+ args
+ args
+ args
+ args
+ method
+ args
+get _acc focus
+ args
+ method
+ args
+get _acc selection
+ args
+ method
+ args
+get _acc default action
+ args
+ args
+ args
+ args
+ args
+ method
+ args
+acc select
+ args
+ args
+ args
+ args
+ args
+ method
+ args
+acc location
+ args
+ args
+ args
+ args
+ args
+ args
+ args
+ args
+ method
+ args
+acc navigate
+ args
+ args
+ args
+ args
+ args
+ args
+ method
+ args
+acc hit test
+ args
+ args
+ args
+ method
+ args
+acc default action
+ args
+ args
+ args
+ args
+ method
+ args
+put _acc name
+ args
+ args
+ args
+ args
+ args
+ method
+ args
+put _acc value
+ args
+ args
+ args
+ args
+ args
+obj enum variant
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+ next
+ args
+ args
+ args
+ method
+ args
+ skip
+ args
+ method
+ args
+ reset
+add ref
+ accessible
+internal _new accessible
+ control
+ control
+ accessible
+ control
+add accessible listener
+accessible listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+accessible listeners
+add element
+ listener
+add accessible control listener
+accessible control listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+accessible control listeners
+add element
+ listener
+add accessible text listener
+accessible text listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+text listeners
+add element
+ listener
+ control
+get control
+ control
+internal _dispose accessible
+ iaccessible
+ iaccessible
+ release
+ iaccessible
+ release
+internal getobject
+ param
+ param
+obj accessible
+ param
+ com
+objid client
+ com
+lresult from object
+ com
+iidi accessible
+ param
+obj accessible
+get address
+remove accessible listener
+accessible listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+accessible listeners
+remove element
+ listener
+remove accessible control listener
+accessible control listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+accessible control listeners
+remove element
+ listener
+remove accessible text listener
+accessible text listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+text listeners
+remove element
+ listener
+selection changed
+check widget
+ com
+notify win event
+ com
+event object selectionwithin
+ control
+ handle
+ com
+objid client
+ com
+childid self
+set focus
+ child
+check widget
+ com
+notify win event
+ com
+event object focus
+ control
+ handle
+ com
+objid client
+ child
+ child
+text caret moved
+ index
+check widget
+ com
+notify win event
+ com
+event object locationchange
+ control
+ handle
+ com
+objid caret
+ com
+childid self
+text changed
+ type
+start index
+ length
+check widget
+ com
+notify win event
+ com
+event object valuechange
+ control
+ handle
+ com
+objid client
+ com
+childid self
+text selection changed
+check widget
+query interface
+ arg
+ arg
+ iaccessible
+ com
+ objnotconnected
+ guid
+ guid
+ guid
+ com
+move memory
+ guid
+ arg
+ guid
+ sizeof
+ com
+equal guid
+ guid
+ com
+iidi unknown
+ com
+move memory
+ arg
+obj accessible
+get address
+add ref
+ com
+
+ com
+equal guid
+ guid
+ com
+iidi dispatch
+ com
+move memory
+ arg
+obj accessible
+get address
+add ref
+ com
+
+ com
+equal guid
+ guid
+ com
+iidi accessible
+ com
+move memory
+ arg
+obj accessible
+get address
+add ref
+ com
+
+ com
+equal guid
+ guid
+ com
+iidi enum variant
+ com
+move memory
+ arg
+obj enum variant
+get address
+add ref
+enum index
+ com
+
+ppv object
+ result
+ iaccessible
+query interface
+ guid
+ppv object
+ com
+move memory
+ arg
+ppv object
+ result
+add ref
+ref count
+ref count
+ release
+ref count
+ref count
+obj accessible
+obj accessible
+ dispose
+obj accessible
+obj enum variant
+obj enum variant
+ dispose
+obj enum variant
+ref count
+acc default action
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+ iaccessible
+ com
+ objnotconnected
+ code
+ iaccessible
+acc default action
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+ code
+ com
+ invalidarg
+ code
+ com
+ false
+ code
+acc hit test
+ left
+ top
+pvar child
+ iaccessible
+ com
+ objnotconnected
+accessible control listeners
+ size
+ iaccessible
+acc hit test
+ left
+ top
+pvar child
+accessible control event
+ event
+accessible control event
+ event
+ child
+ acc
+childid none
+ event
+
+ left
+ event
+
+ top
+
+
+accessible control listeners
+ size
+
+accessible control listener
+ listener
+accessible control listener
+accessible control listeners
+ element
+
+ listener
+get child point
+ event
+ child
+ event
+ child
+ child
+ acc
+childid none
+ iaccessible
+acc hit test
+ left
+ top
+pvar child
+ com
+move memory
+pvar child
+ com
+
+ com
+move memory
+pvar child
+ child
+ child
+ com
+
+acc location
+ left
+ top
+pcx width
+pcy height
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+ iaccessible
+ com
+ objnotconnected
+var child _vt
+ com
+
+ com
+ invalidarg
+ left
+ top
+ width
+ height
+ code
+ iaccessible
+acc location
+ left
+ top
+pcx width
+pcy height
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+ code
+ com
+ invalidarg
+ code
+ com
+ false
+accessible control listeners
+ size
+ code
+ code
+ com
+
+ left
+ top
+ width
+ height
+ com
+move memory
+ left
+ left
+ com
+move memory
+ top
+ top
+ com
+move memory
+ width
+pcx width
+ com
+move memory
+ height
+pcy height
+ left
+ left
+ top
+ top
+ width
+ width
+ height
+ height
+accessible control event
+ event
+accessible control event
+ event
+ child
+ child
+var child val
+ event
+
+ left
+ event
+
+ top
+ event
+ width
+ width
+ event
+ height
+ height
+
+
+accessible control listeners
+ size
+
+accessible control listener
+ listener
+accessible control listener
+accessible control listeners
+ element
+
+ listener
+get location
+ event
+
+move memory
+ left
+ event
+
+
+move memory
+ top
+ event
+
+
+move memory
+pcx width
+ event
+ width
+
+move memory
+pcy height
+ event
+ height
+ com
+
+acc navigate
+nav dir
+var start _vt
+var start _reserved
+var start val
+var start _reserved
+pvar end
+ iaccessible
+ com
+ objnotconnected
+ code
+ iaccessible
+acc navigate
+nav dir
+var start _vt
+var start _reserved
+var start val
+var start _reserved
+pvar end
+ code
+ com
+ invalidarg
+ code
+ com
+ false
+ code
+acc select
+flags select
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+ iaccessible
+ com
+ objnotconnected
+ code
+ iaccessible
+acc select
+flags select
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+ code
+ com
+ invalidarg
+ code
+ com
+ false
+ code
+get _acc child
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+ppdisp child
+ iaccessible
+ com
+ objnotconnected
+var child _vt
+ com
+
+ com
+ invalidarg
+accessible control listeners
+ size
+ code
+ iaccessible
+get _acc child
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+ppdisp child
+ code
+ com
+ invalidarg
+ code
+ com
+ false
+ code
+accessible control event
+ event
+accessible control event
+ event
+ child
+ child
+var child val
+
+
+accessible control listeners
+ size
+
+accessible control listener
+ listener
+accessible control listener
+accessible control listeners
+ element
+
+ listener
+get child
+ event
+ accessible
+ accessible
+ event
+ accessible
+ accessible
+ com
+move memory
+ppdisp child
+ accessible
+obj accessible
+get address
+ com
+
+ com
+ false
+get _acc child count
+pcount children
+ iaccessible
+ com
+ objnotconnected
+child count
+ code
+ iaccessible
+get _acc child count
+pcount children
+accessible control listeners
+ size
+ code
+ code
+ com
+
+child count
+ com
+move memory
+child count
+pcount children
+child count
+child count
+accessible control event
+ event
+accessible control event
+ event
+ child
+ acc
+childid self
+ event
+ detail
+child count
+
+
+accessible control listeners
+ size
+
+accessible control listener
+ listener
+accessible control listener
+accessible control listeners
+ element
+
+ listener
+get child count
+ event
+ com
+move memory
+pcount children
+ event
+ detail
+ com
+
+get _acc default action
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz default action
+ iaccessible
+ com
+ objnotconnected
+var child _vt
+ com
+
+ com
+ invalidarg
+ string
+default action
+ code
+ iaccessible
+get _acc default action
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz default action
+ code
+ com
+ invalidarg
+ code
+ com
+ false
+accessible control listeners
+ size
+ code
+ code
+ com
+
+default action
+ com
+move memory
+default action
+psz default action
+ size
+ com
+sys string byte len
+default action
+ size
+ buffer
+ size
+ com
+move memory
+ buffer
+default action
+ size
+default action
+ string
+ buffer
+accessible control event
+ event
+accessible control event
+ event
+ child
+ child
+var child val
+ event
+ result
+default action
+
+
+accessible control listeners
+ size
+
+accessible control listener
+ listener
+accessible control listener
+accessible control listeners
+ element
+
+ listener
+get default action
+ event
+ event
+ result
+ code
+ data
+ event
+ result
+char array
+ ptr
+ com
+sys alloc string
+ data
+ com
+move memory
+psz default action
+ ptr
+ com
+
+get _acc description
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz description
+ iaccessible
+ com
+ objnotconnected
+var child _vt
+ com
+
+ com
+ invalidarg
+ string
+ description
+ code
+ iaccessible
+get _acc description
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz description
+ code
+ com
+ invalidarg
+ code
+ com
+ false
+accessible listeners
+ size
+ control
+ tree
+ code
+ code
+ com
+
+ description
+ com
+move memory
+ description
+psz description
+ size
+ com
+sys string byte len
+ description
+ size
+ buffer
+ size
+ com
+move memory
+ buffer
+ description
+ size
+ description
+ string
+ buffer
+accessible event
+ event
+accessible event
+ event
+ child
+ child
+var child val
+ event
+ result
+ description
+var child val
+ com
+childid self
+ control
+ tree
+ tree
+ tree
+ tree
+ control
+column count
+ tree
+get column count
+column count
+ hwnd
+ control
+ handle
+ item
+
+comctl 32_ major
+ item
+
+send message
+ hwnd
+
+tvm mapaccidtohtreeitem
+var child val
+ item
+var child val
+ widget
+ widget
+ tree
+get display
+find widget
+ hwnd
+ item
+ event
+ result
+ widget
+ widget
+tree item
+tree item
+ item
+tree item
+ widget
+
+
+column count
+
+ event
+ result
+ tree
+get column
+
+get text
+ item
+get text
+
+
+column count
+ event
+ result
+
+
+accessible listeners
+ size
+
+accessible listener
+ listener
+accessible listener
+accessible listeners
+ element
+
+ listener
+get description
+ event
+ event
+ result
+ code
+ data
+ event
+ result
+char array
+ ptr
+ com
+sys alloc string
+ data
+ com
+move memory
+psz description
+ ptr
+ com
+
+get _acc focus
+pvar child
+ iaccessible
+ com
+ objnotconnected
+ child
+ acc
+childid none
+ code
+ iaccessible
+get _acc focus
+pvar child
+accessible control listeners
+ size
+ code
+ code
+ com
+
+ pvt
+ com
+move memory
+ pvt
+pvar child
+ pvt
+ com
+
+ child
+ com
+move memory
+ child
+pvar child
+ child
+ child
+ child
+accessible control event
+ event
+accessible control event
+ event
+ child
+ child
+
+
+accessible control listeners
+ size
+
+accessible control listener
+ listener
+accessible control listener
+accessible control listeners
+ element
+
+ listener
+get focus
+ event
+ accessible
+ accessible
+ event
+ accessible
+ accessible
+ com
+move memory
+pvar child
+ com
+ dispatch
+ com
+move memory
+pvar child
+ accessible
+obj accessible
+get address
+ com
+
+ child
+ event
+ child
+ child
+ acc
+childid none
+ com
+move memory
+pvar child
+ com
+ empty
+ com
+ false
+ child
+ acc
+childid self
+ com
+move memory
+pvar child
+ com
+ dispatch
+ com
+move memory
+pvar child
+obj accessible
+get address
+ com
+
+ com
+move memory
+pvar child
+ com
+
+ com
+move memory
+pvar child
+ child
+ child
+ com
+
+get _acc help
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz help
+ iaccessible
+ com
+ objnotconnected
+var child _vt
+ com
+
+ com
+ invalidarg
+ string
+ help
+ code
+ iaccessible
+get _acc help
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz help
+ code
+ com
+ invalidarg
+ code
+ com
+ false
+accessible listeners
+ size
+ code
+ code
+ com
+
+ help
+ com
+move memory
+ help
+psz help
+ size
+ com
+sys string byte len
+ help
+ size
+ buffer
+ size
+ com
+move memory
+ buffer
+ help
+ size
+ help
+ string
+ buffer
+accessible event
+ event
+accessible event
+ event
+ child
+ child
+var child val
+ event
+ result
+ help
+
+
+accessible listeners
+ size
+
+accessible listener
+ listener
+accessible listener
+accessible listeners
+ element
+
+ listener
+get help
+ event
+ event
+ result
+ code
+ data
+ event
+ result
+char array
+ ptr
+ com
+sys alloc string
+ data
+ com
+move memory
+psz help
+ ptr
+ com
+
+get _acc help topic
+psz help file
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+pid topic
+ iaccessible
+ com
+ objnotconnected
+ code
+ iaccessible
+get _acc help topic
+psz help file
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+pid topic
+ code
+ com
+ invalidarg
+ code
+ com
+ false
+ code
+get _acc keyboard shortcut
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz keyboard shortcut
+ iaccessible
+ com
+ objnotconnected
+var child _vt
+ com
+
+ com
+ invalidarg
+ string
+keyboard shortcut
+ code
+ iaccessible
+get _acc keyboard shortcut
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz keyboard shortcut
+ code
+ com
+ invalidarg
+ code
+ com
+ false
+accessible listeners
+ size
+ code
+ code
+ com
+
+keyboard shortcut
+ com
+move memory
+keyboard shortcut
+psz keyboard shortcut
+ size
+ com
+sys string byte len
+keyboard shortcut
+ size
+ buffer
+ size
+ com
+move memory
+ buffer
+keyboard shortcut
+ size
+keyboard shortcut
+ string
+ buffer
+accessible event
+ event
+accessible event
+ event
+ child
+ child
+var child val
+ event
+ result
+keyboard shortcut
+
+
+accessible listeners
+ size
+
+accessible listener
+ listener
+accessible listener
+accessible listeners
+ element
+
+ listener
+get keyboard shortcut
+ event
+ event
+ result
+ code
+ data
+ event
+ result
+char array
+ ptr
+ com
+sys alloc string
+ data
+ com
+move memory
+psz keyboard shortcut
+ ptr
+ com
+
+get _acc name
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz name
+ iaccessible
+ com
+ objnotconnected
+var child _vt
+ com
+
+ com
+ invalidarg
+ string
+ name
+ code
+ iaccessible
+get _acc name
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz name
+ code
+ com
+ invalidarg
+ code
+ com
+ false
+accessible listeners
+ size
+ code
+ code
+ com
+
+ name
+ com
+move memory
+ name
+psz name
+ size
+ com
+sys string byte len
+ name
+ size
+ buffer
+ size
+ com
+move memory
+ buffer
+ name
+ size
+ name
+ string
+ buffer
+accessible event
+ event
+accessible event
+ event
+ child
+ child
+var child val
+ event
+ result
+ name
+
+
+accessible listeners
+ size
+
+accessible listener
+ listener
+accessible listener
+accessible listeners
+ element
+
+ listener
+get name
+ event
+ event
+ result
+ code
+ data
+ event
+ result
+char array
+ ptr
+ com
+sys alloc string
+ data
+ com
+move memory
+psz name
+ ptr
+ com
+
+get _acc parent
+ppdisp parent
+ iaccessible
+ com
+ objnotconnected
+ iaccessible
+get _acc parent
+ppdisp parent
+get _acc role
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+pvar role
+ iaccessible
+ com
+ objnotconnected
+var child _vt
+ com
+
+ com
+ invalidarg
+ role
+ com
+role system client
+ code
+ iaccessible
+get _acc role
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+pvar role
+ code
+ com
+ invalidarg
+ code
+ com
+ false
+accessible control listeners
+ size
+ control
+ tree
+ control
+ table
+ code
+ code
+ com
+
+ pvt
+ com
+move memory
+ pvt
+pvar role
+ pvt
+ com
+
+ role
+ com
+move memory
+ role
+pvar role
+ role
+ role
+accessible control event
+ event
+accessible control event
+ event
+ child
+ child
+var child val
+ event
+ detail
+ role
+ role
+var child val
+ com
+childid self
+ control
+ tree
+ control
+ table
+ control
+get style
+ swt
+ check
+ event
+ detail
+ acc
+role checkbutton
+
+
+accessible control listeners
+ size
+
+accessible control listener
+ listener
+accessible control listener
+accessible control listeners
+ element
+
+ listener
+get role
+ event
+ role
+ role
+ event
+ detail
+ com
+move memory
+pvar role
+ com
+
+ com
+move memory
+pvar role
+ role
+ com
+
+get _acc selection
+pvar children
+ iaccessible
+ com
+ objnotconnected
+ child
+ acc
+childid none
+ code
+ iaccessible
+get _acc selection
+pvar children
+accessible control listeners
+ size
+ code
+ code
+ com
+
+ pvt
+ com
+move memory
+ pvt
+pvar children
+ pvt
+ com
+
+ child
+ com
+move memory
+ child
+pvar children
+ child
+ child
+ child
+ pvt
+ com
+ unknown
+ child
+ acc
+childid multiple
+accessible control event
+ event
+accessible control event
+ event
+ child
+ child
+
+
+accessible control listeners
+ size
+
+accessible control listener
+ listener
+accessible control listener
+accessible control listeners
+ element
+
+ listener
+get selection
+ event
+ accessible
+ accessible
+ event
+ accessible
+ accessible
+ com
+move memory
+pvar children
+ com
+ dispatch
+ com
+move memory
+pvar children
+ accessible
+obj accessible
+get address
+ com
+
+ child
+ event
+ child
+ child
+ acc
+childid none
+ com
+move memory
+pvar children
+ com
+ empty
+ com
+ false
+ child
+ acc
+childid multiple
+ com
+move memory
+pvar children
+ com
+ unknown
+ com
+move memory
+pvar children
+obj accessible
+get address
+ com
+
+ child
+ acc
+childid self
+ com
+move memory
+pvar children
+ com
+ dispatch
+ com
+move memory
+pvar children
+obj accessible
+get address
+ com
+
+ com
+move memory
+pvar children
+ com
+
+ com
+move memory
+pvar children
+ child
+ child
+ com
+
+get _acc state
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+pvar state
+ iaccessible
+ com
+ objnotconnected
+var child _vt
+ com
+
+ com
+ invalidarg
+ state
+ code
+ iaccessible
+get _acc state
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+pvar state
+ code
+ com
+ invalidarg
+ code
+ com
+ false
+accessible control listeners
+ size
+ control
+ tree
+ control
+ table
+ code
+ code
+ com
+
+ pvt
+ com
+move memory
+ pvt
+pvar state
+ pvt
+ com
+
+ state
+ com
+move memory
+ state
+pvar state
+ state
+ state
+accessible control event
+ event
+accessible control event
+ event
+ child
+ child
+var child val
+ event
+ detail
+ state
+ state
+var child val
+ com
+childid self
+ control
+ tree
+ control
+get style
+ swt
+ check
+ hwnd
+ control
+ handle
+ tvitem
+ item
+ tvitem
+ item
+ mask
+
+tvif handle
+
+tvif state
+ item
+state mask
+
+tvis stateimagemask
+
+comctl 32_ major
+ item
+ item
+
+send message
+ hwnd
+
+tvm mapaccidtohtreeitem
+var child val
+ item
+ item
+var child val
+ result
+
+send message
+ hwnd
+
+tvm getitem
+ item
+ checked
+ result
+ item
+ state
+ checked
+ event
+ detail
+ acc
+state checked
+ control
+ table
+ control
+get style
+ swt
+ check
+ table
+ table
+ table
+ control
+table item
+ item
+ table
+get item
+ event
+ child
+ item
+ item
+get checked
+ event
+ detail
+ acc
+state checked
+
+
+accessible control listeners
+ size
+
+accessible control listener
+ listener
+accessible control listener
+accessible control listeners
+ element
+
+ listener
+get state
+ event
+ state
+ state
+ event
+ detail
+ com
+move memory
+pvar state
+ com
+
+ com
+move memory
+pvar state
+ state
+ com
+
+get _acc value
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz value
+ iaccessible
+ com
+ objnotconnected
+var child _vt
+ com
+
+ com
+ invalidarg
+ string
+ value
+ code
+ iaccessible
+get _acc value
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz value
+ code
+ com
+ invalidarg
+ code
+ com
+ false
+accessible control listeners
+ size
+ code
+ code
+ com
+
+ value
+ com
+move memory
+ value
+psz value
+ size
+ com
+sys string byte len
+ value
+ size
+ buffer
+ size
+ com
+move memory
+ buffer
+ value
+ size
+ value
+ string
+ buffer
+accessible control event
+ event
+accessible control event
+ event
+ child
+ child
+var child val
+ event
+ result
+ value
+
+
+accessible control listeners
+ size
+
+accessible control listener
+ listener
+accessible control listener
+accessible control listeners
+ element
+
+ listener
+get value
+ event
+ event
+ result
+ code
+ data
+ event
+ result
+char array
+ ptr
+ com
+sys alloc string
+ data
+ com
+move memory
+psz value
+ ptr
+ com
+
+put _acc name
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+ name
+ iaccessible
+ com
+ objnotconnected
+ code
+ iaccessible
+put _acc name
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+ name
+ code
+ com
+ invalidarg
+ code
+ com
+ false
+ code
+put _acc value
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+ value
+ iaccessible
+ com
+ objnotconnected
+ code
+ iaccessible
+put _acc value
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+ value
+ code
+ com
+ invalidarg
+ code
+ com
+ false
+ code
+ next
+ celt
+ rgvar
+pcelt fetched
+accessible control listeners
+ size
+ppv object
+ code
+ iaccessible
+query interface
+ com
+iidi enum variant
+ppv object
+ code
+ com
+
+ code
+enum variant
+ ienumvariant
+enum variant
+ppv object
+celt fetched
+ code
+ ienumvariant
+ next
+ celt
+ rgvar
+celt fetched
+ com
+move memory
+pcelt fetched
+celt fetched
+ code
+ rgvar
+ com
+ invalidarg
+pcelt fetched
+ celt
+ com
+ invalidarg
+enum index
+accessible control event
+ event
+accessible control event
+ event
+ child
+ acc
+childid self
+
+
+accessible control listeners
+ size
+
+accessible control listener
+ listener
+accessible control listener
+accessible control listeners
+ element
+
+ listener
+get children
+ event
+ variants
+ event
+ children
+ object
+next items
+ variants
+ celt
+end index
+enum index
+ celt
+end index
+ variants
+ length
+end index
+ variants
+ length
+enum index
+end index
+next items
+ object
+end index
+enum index
+
+
+next items
+ length
+
+ object
+ child
+ variants
+enum index
+ child
+ integer
+next items
+
+ integer
+ child
+ integer
+ child
+int value
+next items
+
+ child
+enum index
+next items
+
+
+next items
+ length
+
+ object
+next item
+next items
+
+next item
+ integer
+ item
+ integer
+next item
+int value
+ com
+move memory
+ rgvar
+
+ com
+
+ com
+move memory
+ rgvar
+
+ item
+ address
+ accessible
+next item
+obj accessible
+get address
+ com
+move memory
+ rgvar
+
+ com
+ dispatch
+ com
+move memory
+ rgvar
+
+ address
+pcelt fetched
+ com
+move memory
+pcelt fetched
+next items
+ length
+next items
+ length
+ celt
+ com
+
+pcelt fetched
+ com
+move memory
+pcelt fetched
+ com
+ false
+ skip
+ celt
+accessible control listeners
+ size
+ppv object
+ code
+ iaccessible
+query interface
+ com
+iidi enum variant
+ppv object
+ code
+ com
+
+ code
+enum variant
+ ienumvariant
+enum variant
+ppv object
+ code
+ ienumvariant
+ skip
+ celt
+ code
+ celt
+ com
+ invalidarg
+enum index
+ celt
+enum index
+ variants
+ length
+enum index
+ variants
+ length
+ com
+ false
+ com
+
+ reset
+accessible control listeners
+ size
+ppv object
+ code
+ iaccessible
+query interface
+ com
+iidi enum variant
+ppv object
+ code
+ com
+
+ code
+enum variant
+ ienumvariant
+enum variant
+ppv object
+ code
+ ienumvariant
+ reset
+ code
+enum index
+ com
+
+ child
+ child
+ child
+ acc
+childid self
+ com
+childid self
+ control
+ tree
+ child
+
+comctl 32_ major
+ child
+
+send message
+ control
+ handle
+
+tvm maphtreeitemtoaccid
+ child
+ child
+ child
+ child
+ com
+childid self
+ acc
+childid self
+ control
+ tree
+ child
+
+comctl 32_ major
+ child
+
+send message
+ control
+ handle
+
+tvm mapaccidtohtreeitem
+ child
+ state
+ state
+ state
+ state
+ acc
+state selected
+ state
+ com
+state system selected
+ state
+ acc
+state selectable
+ state
+ com
+state system selectable
+ state
+ acc
+state multiselectable
+ state
+ com
+state system multiselectable
+ state
+ acc
+state focused
+ state
+ com
+state system focused
+ state
+ acc
+state focusable
+ state
+ com
+state system focusable
+ state
+ acc
+state pressed
+ state
+ com
+state system pressed
+ state
+ acc
+state checked
+ state
+ com
+state system checked
+ state
+ acc
+state expanded
+ state
+ com
+state system expanded
+ state
+ acc
+state collapsed
+ state
+ com
+state system collapsed
+ state
+ acc
+state hottracked
+ state
+ com
+state system hottracked
+ state
+ acc
+state busy
+ state
+ com
+state system busy
+ state
+ acc
+state readonly
+ state
+ com
+state system readonly
+ state
+ acc
+state invisible
+ state
+ com
+state system invisible
+ state
+ acc
+state offscreen
+ state
+ com
+state system offscreen
+ state
+ acc
+state sizeable
+ state
+ com
+state system sizeable
+ state
+ acc
+state linked
+ state
+ com
+state system linked
+ state
+ state
+ state
+ state
+ acc
+state normal
+ state
+ com
+state system selected
+ state
+ acc
+state selected
+ state
+ com
+state system selectable
+ state
+ acc
+state selectable
+ state
+ com
+state system multiselectable
+ state
+ acc
+state multiselectable
+ state
+ com
+state system focused
+ state
+ acc
+state focused
+ state
+ com
+state system focusable
+ state
+ acc
+state focusable
+ state
+ com
+state system pressed
+ state
+ acc
+state pressed
+ state
+ com
+state system checked
+ state
+ acc
+state checked
+ state
+ com
+state system expanded
+ state
+ acc
+state expanded
+ state
+ com
+state system collapsed
+ state
+ acc
+state collapsed
+ state
+ com
+state system hottracked
+ state
+ acc
+state hottracked
+ state
+ com
+state system busy
+ state
+ acc
+state busy
+ state
+ com
+state system readonly
+ state
+ acc
+state readonly
+ state
+ com
+state system invisible
+ state
+ acc
+state invisible
+ state
+ com
+state system offscreen
+ state
+ acc
+state offscreen
+ state
+ com
+state system sizeable
+ state
+ acc
+state sizeable
+ state
+ com
+state system linked
+ state
+ acc
+state linked
+ state
+ role
+ role
+ role
+ acc
+role client area
+ com
+role system client
+ acc
+role window
+ com
+role system window
+ acc
+role menubar
+ com
+role system menubar
+ acc
+role menu
+ com
+role system menupopup
+ acc
+role menuitem
+ com
+role system menuitem
+ acc
+role separator
+ com
+role system separator
+ acc
+role tooltip
+ com
+role system tooltip
+ acc
+role scrollbar
+ com
+role system scrollbar
+ acc
+role dialog
+ com
+role system dialog
+ acc
+role label
+ com
+role system statictext
+ acc
+role pushbutton
+ com
+role system pushbutton
+ acc
+role checkbutton
+ com
+role system checkbutton
+ acc
+role radiobutton
+ com
+role system radiobutton
+ acc
+role combobox
+ com
+role system combobox
+ acc
+role text
+ com
+role system text
+ acc
+role toolbar
+ com
+role system toolbar
+ acc
+role list
+ com
+role system list
+ acc
+role listitem
+ com
+role system listitem
+ acc
+role table
+ com
+role system table
+ acc
+role tablecell
+ com
+role system cell
+ acc
+role tablecolumnheader
+ com
+role system columnheader
+ acc
+role tablerowheader
+ com
+role system rowheader
+ acc
+role tree
+ com
+role system outline
+ acc
+role treeitem
+ com
+role system outlineitem
+ acc
+role tabfolder
+ com
+role system pagetablist
+ acc
+role tabitem
+ com
+role system pagetab
+ acc
+role progressbar
+ com
+role system progressbar
+ acc
+role slider
+ com
+role system slider
+ acc
+role link
+ com
+role system link
+ com
+role system client
+ role
+ role
+ role
+ com
+role system client
+ role
+ com
+role system client
+ acc
+role client area
+ com
+role system window
+ acc
+role window
+ com
+role system menubar
+ acc
+role menubar
+ com
+role system menupopup
+ acc
+role menu
+ com
+role system menuitem
+ acc
+role menuitem
+ com
+role system separator
+ acc
+role separator
+ com
+role system tooltip
+ acc
+role tooltip
+ com
+role system scrollbar
+ acc
+role scrollbar
+ com
+role system dialog
+ acc
+role dialog
+ com
+role system statictext
+ acc
+role label
+ com
+role system pushbutton
+ acc
+role pushbutton
+ com
+role system checkbutton
+ acc
+role checkbutton
+ com
+role system radiobutton
+ acc
+role radiobutton
+ com
+role system combobox
+ acc
+role combobox
+ com
+role system text
+ acc
+role text
+ com
+role system toolbar
+ acc
+role toolbar
+ com
+role system list
+ acc
+role list
+ com
+role system listitem
+ acc
+role listitem
+ com
+role system table
+ acc
+role table
+ com
+role system cell
+ acc
+role tablecell
+ com
+role system columnheader
+ acc
+role tablecolumnheader
+ com
+role system rowheader
+ acc
+role tablerowheader
+ com
+role system outline
+ acc
+role tree
+ com
+role system outlineitem
+ acc
+role treeitem
+ com
+role system pagetablist
+ acc
+role tabfolder
+ com
+role system pagetab
+ acc
+role tabitem
+ com
+role system progressbar
+ acc
+role progressbar
+ com
+role system slider
+ acc
+role slider
+ com
+role system link
+ acc
+role link
+ role
+check widget
+valid thread
+ swt
+ error
+ swt
+error thread invalid access
+ control
+ disposed
+ swt
+ error
+ swt
+error widget disposed
+valid thread
+ control
+get display
+get thread
+ thread
+current thread
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  provide  bridge  between  application  code  and  assistive  technology  clients  many  platforms  provide  default  accessible  behavior  for  most  widgets  and  this  class  allows  that  default  behavior  overridden  applications  can  get  the  default  accessible  object  for  control  sending  code get accessible  code  and  then  add  accessible  listener  override  simple  items  like  the  name  and  help  string  they  can  add  accessible  control  listener  override  complex  items  rule  thumb  application  would  only  want  use  the  accessible  control  listener  implement  accessibility  for  custom  control  see  control get accessible  see accessible listener  see accessible event  see accessible control listener  see accessible control event  since 
+method get type info count  not  implemented
+method get type info  not  implemented
+method get names  not  implemented
+method  invoke  not  implemented
+method  clone  not  implemented
+invokes  platform  specific  functionality  allocate  new  accessible  object  important  this  method  not  part  the  public  api  for  code  accessible  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  control  the  control  get  the  accessible  object  for  return  the  platform  specific  accessible  object
+adds  the  listener  the  collection  listeners  who  will  notified  when  accessible  client  asks  for  certain  strings  such  name  description  help  keyboard  shortcut  the  listener  notified  sending  one  the  messages  defined  the  code accessible listener  code  interface  param  listener  the  listener  that  should  notified  when  the  receiver  asked  for  name  description  help  keyboard  shortcut  string  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  control  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  control  see accessible listener  see remove accessible listener
+adds  the  listener  the  collection  listeners  who  will  notified  when  accessible  client  asks  for  custom  control  specific  information  the  listener  notified  sending  one  the  messages  defined  the  code accessible control listener  code  interface  param  listener  the  listener  that  should  notified  when  the  receiver  asked  for  custom  control  specific  information  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  control  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  control  see accessible control listener  see remove accessible control listener
+adds  the  listener  the  collection  listeners  who  will  notified  when  accessible  client  asks  for  custom  text  control  specific  information  the  listener  notified  sending  one  the  messages  defined  the  code accessible text listener  code  interface  param  listener  the  listener  that  should  notified  when  the  receiver  asked  for  custom  text  control  specific  information  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  control  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  control  see accessible text listener  see remove accessible text listener  since 
+returns  the  control  for  this  accessible  object  return  the  receiver  control  since 
+invokes  platform  specific  functionality  dispose  accessible  object  important  this  method  not  part  the  public  api  for  code  accessible  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code 
+invokes  platform  specific  functionality  handle  window  message  important  this  method  not  part  the  public  api  for  code  accessible  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code 
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  accessible  client  asks  for  certain  strings  such  name  description  help  keyboard  shortcut  param  listener  the  listener  that  should  longer  notified  when  the  receiver  asked  for  name  description  help  keyboard  shortcut  string  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  control  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  control  see accessible listener  see add accessible listener
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  accessible  client  asks  for  custom  control  specific  information  param  listener  the  listener  that  should  longer  notified  when  the  receiver  asked  for  custom  control  specific  information  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  control  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  control  see accessible control listener  see add accessible control listener
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  accessible  client  asks  for  custom  text  control  specific  information  param  listener  the  listener  that  should  longer  notified  when  the  receiver  asked  for  custom  text  control  specific  information  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  control  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  control  see accessible text listener  see add accessible text listener  since 
+sends  message  accessible  clients  that  the  child  selection  within  custom  container  control  has  changed  exception swt exception  error  widget  disposed  the  receiver  control  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  control  since 
+sends  message  accessible  clients  indicating  that  the  focus  has  changed  within  custom  control  param  child  identifier  specifying  child  the  control  exception swt exception  error  widget  disposed  the  receiver  control  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  control 
+sends  message  accessible  clients  that  the  text  caret  has  moved  within  custom  control  param  index  the  new  caret  index  within  the  control  exception swt exception  error  widget  disposed  the  receiver  control  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  control  since 
+sends  message  accessible  clients  that  the  text  within  custom  control  has  changed  param  type  the  type  change  one  code  acc  notify  text  insert  code  code  acc  notify  text  delete  code  param start index  the  text  index  within  the  control  where  the  insertion  deletion  begins  param  length  the  non  negative  length  characters  the  insertion  deletion  exception swt exception  error  widget  disposed  the  receiver  control  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  control  see  acc  text  insert  see  acc  text  delete  since 
+sends  message  accessible  clients  that  the  text  selection  has  changed  within  custom  control  exception swt exception  error  widget  disposed  the  receiver  control  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  control  since 
+not  msaa  event
+currently  don  let  the  application  override  this  forward  the  proxy
+proxy  doesn  know  about  app  child
+get  the  default  location  from  the 
+proxy  doesn  know  about  app  child
+currently  don  let  the  application  override  this  forward  the  proxy
+proxy  doesn  know  about  app  child
+currently  don  let  the  application  override  this  forward  the  proxy
+proxy  doesn  know  about  app  child
+proxy  doesn  know  about  app  child
+get  the  default  child  count  from  the 
+get  the  default default action  from  the 
+proxy  doesn  know  about  app  child
+get  the  default  description  from  the 
+proxy  doesn  know  about  app  child
+temporary  code  process  tree  even  there  are  apps  listening
+temporary  code
+currently  our  tree  columns  are  emulated  using  custom  draw  need  create  the  description  using  the  tree  column  header  text  and  tree  item  text
+get  the  default  focus  child  from  the 
+get  the  default  help  string  from  the 
+proxy  doesn  know  about  app  child
+currently  don  let  the  application  override  this  forward  the  proxy
+proxy  doesn  know  about  app  child
+get  the  default  keyboard  shortcut  from  the 
+proxy  doesn  know  about  app  child
+get  the  default  name  from  the 
+proxy  doesn  know  about  app  child
+currently  don  let  the  application  override  this  forward  the  proxy
+get  the  default  role  from  the 
+proxy  doesn  know  about  app  child
+temporary  code  process  tree  and  table  even  there  are  apps  listening
+temporary  code
+currently  our  checkbox  table  and  tree  are  emulated  using  state  mask  images  need  specify  checkbox  role  for  the  items
+get  the  default  selection  from  the 
+should  get enum variant  from punk val  field  need  better  api  here
+should  return enum variant  for  this  the  next  line  wrong  need  better  api  here
+get  the  default  state  from  the 
+proxy  doesn  know  about  app  child
+temporary  code  process  tree  and  table  even  there  are  apps  listening
+temporary  code
+currently  our  checkbox  table  and  tree  are  emulated  using  state  mask  images  need  determine  the  item  state  checked
+get  the  default  value  string  from  the 
+proxy  doesn  know  about  app  child
+msaa  this  method  longer  supported
+don  implement  this  forward  the  proxy
+proxy  doesn  know  about  app  child
+msaa  this  method  typically  only  used  for  edit  controls
+don  implement  this  forward  the  proxy
+proxy  doesn  know  about  app  child
+enum variant  methods  next  skip  reset
+retrieve  the  next  celt  items  the  enumeration  sequence  there  are  fewer  than  the  requested  number  elements  left  the  sequence  retrieve  the  remaining  elements  the  number  elements  actually  retrieved  returned pcelt fetched  unless  the  caller  passed  null  for  that  parameter
+there  are  listeners  query  the  proxy  for  its enum variant  and  get  the  next  items  from 
+skip  over  the  specified  number  elements  the  enumeration  sequence
+there  are  listeners  query  the  proxy  for  its enum variant  and  tell  skip
+reset  the  enumeration  sequence  the  beginning
+there  are  listeners  query  the  proxy  for  its enum variant  and  tell  reset
+feature  windows  windows  tree  item  ids  are  based  indices  previous  versions  windows  use  the  tree  item  handle  for  the  accessible  child  for  backward  compatibility  still  take  handle  child  for  tree  items  all  other  child  are  based  indices
+feature  windows  windows  tree  item  ids  are  based  indices  previous  versions  windows  use  the  tree  item  handle  for  the  accessible  child  for  backward  compatibility  still  take  handle  child  for  tree  items  all  other  child  are  based  indices
+check widget  was  copied  from  widget  and  rewritten  work  this  package
+valid thread  was  copied  from  widget  and  rewritten  work  this  package
+</comments>
+</text>
+</DOC>

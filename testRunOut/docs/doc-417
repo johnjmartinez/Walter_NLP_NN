@@ -1,0 +1,32 @@
+<DOC>
+<DOCNO>org.eclipse.swt.browser.TitleListener.java </DOCNO>
+<text>
+<class>
+title listener
+</class>
+<method>
+ changed
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ browser
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+title listener
+swt event listener
+ changed
+title event
+ event
+</identifier>
+<comments>
+copyright  2003  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  listener  interface  may  implemented  order  receive  link title event  notification  when  the  title  the  document  displayed  link  browser  known  has  been  changed  see  browser add title listener title listener  see  browser remove title listener title listener  since 
+this  method  called  when  the  title  the  current  document  available  has  changed  the  following  fields  the  code title event  code  apply  title  the  title  the  current  document  widget  the  code  browser  code  whose  current  document  title  known  modified  param  event  the  code title event  code  that  contains  the  title  the  document  currently  displayed  code  browser  code  since 
+</comments>
+</text>
+</DOC>

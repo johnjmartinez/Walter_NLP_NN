@@ -1,0 +1,214 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.ImageLoader.java </DOCNO>
+<text>
+<class>
+image loader
+</class>
+<method>
+image loader
+ reset
+ load
+ load
+ save
+ save
+add image loader listener
+remove image loader listener
+has listeners
+notify listeners
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ java
+
+ java
+ util
+ vector
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ internal
+ compatibility
+ org
+ eclipse
+ swt
+ internal
+ image
+image loader
+image data
+ data
+logical screen width
+logical screen height
+background pixel
+repeat count
+ vector
+image loader listeners
+image loader
+ reset
+ reset
+ data
+logical screen width
+logical screen height
+background pixel
+repeat count
+image data
+ load
+input stream
+ stream
+ stream
+ swt
+ error
+ swt
+error null argument
+ reset
+ data
+file format
+ load
+ stream
+ data
+image data
+ load
+ string
+ filename
+ filename
+ swt
+ error
+ swt
+error null argument
+input stream
+ stream
+ stream
+ compatibility
+new file input stream
+ filename
+ load
+ stream
+ exception
+
+ swt
+ error
+ swt
+ error
+
+ stream
+ stream
+ close
+ exception
+
+ save
+output stream
+ stream
+ format
+ stream
+ swt
+ error
+ swt
+error null argument
+file format
+ save
+ stream
+ format
+ save
+ string
+ filename
+ format
+ filename
+ swt
+ error
+ swt
+error null argument
+output stream
+ stream
+ stream
+ compatibility
+new file output stream
+ filename
+ exception
+
+ swt
+ error
+ swt
+ error
+
+ save
+ stream
+ format
+add image loader listener
+image loader listener
+ listener
+ listener
+ swt
+ error
+ swt
+error null argument
+image loader listeners
+image loader listeners
+ vector
+image loader listeners
+add element
+ listener
+remove image loader listener
+image loader listener
+ listener
+ listener
+ swt
+ error
+ swt
+error null argument
+image loader listeners
+image loader listeners
+remove element
+ listener
+has listeners
+image loader listeners
+image loader listeners
+ size
+notify listeners
+image loader event
+ event
+has listeners
+ size
+image loader listeners
+ size
+
+
+ size
+
+image loader listener
+ listener
+image loader listener
+image loader listeners
+ element
+
+ listener
+image data loaded
+ event
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  used  load  images  from  and  save  images  file  stream  currently  supported  image  formats  are  bmp  windows  bitmap  ico  windows  icon  jpeg  gif  png  code image loaders  code  can  used  load  save  single  images  all  formats  load  save  multiple  images  gif  ico  load  save  animated  gif  images  load  interlaced  gif  png  images  load  progressive  jpeg  images 
+the  array image data  objects  this image loader  this  array  read  when  the  load  method  called  and  written  out  when  the  save  method  called
+the  width  the  logical  screen  which  the  images  reside  pixels  this  corresponds  the gif 89a  logical  screen  width  value
+the  height  the  logical  screen  which  the  images  reside  pixels  this  corresponds  the gif 89a  logical  screen  height  value
+the  background  pixel  for  the  logical  screen  this  corresponds  the gif 89a  background  color  index  value  the  default  which  means  unspecified  background
+the  number  times  repeat  the  display  sequence  animated  images  this  corresponds  the  commonly  used  gif  application  extension  for  netscape  the  default  value  means  display  repeatedly
+the  set image loader  event  listeners  created  demand
+construct  new  empty image loader
+resets  the  fields  the image loader  except  for  the  code image loader listeners  code  field
+loads  array  code image data  code  objects  from  the  specified  input  stream  throws  error  either  error  occurs  while  loading  the  images  the  images  are  not  supported  type  returns  the  loaded  image  data  array  param  stream  the  input  stream  load  the  images  from  return  array  code image data  code  objects  loaded  from  the  specified  input  stream  exception illegal argument exception  error  null  argument  the  stream  null  exception swt exception  error  invalid  image  the  image  file  contains  invalid  data  error  input  output  error  occurs  while  reading  data  error  unsupported  format  the  image  file  contains  unrecognized  format 
+loads  array  code image data  code  objects  from  the  file  with  the  specified  name  throws  error  either  error  occurs  while  loading  the  images  the  images  are  not  supported  type  returns  the  loaded  image  data  array  param  filename  the  name  the  file  load  the  images  from  return  array  code image data  code  objects  loaded  from  the  specified  file  exception illegal argument exception  error  null  argument  the  file  name  null  exception swt exception  error  invalid  image  the  image  file  contains  invalid  data  error  error  occurs  while  reading  data  error  unsupported  format  the  image  file  contains  unrecognized  format 
+ignore  error
+saves  the  image  data  this image loader  the  specified  stream  the  format  parameter  can  have  one  the  following  values  code  image  bmp  code  windows  bmp  file  format  compression  code  image  bmp  rle  code  windows  bmp  file  format  rle  compression  appropriate  code  image  gif  code  gif  file  format  code  image  ico  code  windows  ico  file  format  code  image  jpeg  code  jpeg  file  format  code  image  png  code  png  file  format  param  stream  the  output  stream  write  the  images  param  format  the  format  write  the  images  exception illegal argument exception  error  null  argument  the  stream  null  exception swt exception  error  invalid  image  the  image  data  contains  invalid  data  error  error  occurs  while  writing  the  stream  error  unsupported  format  the  image  data  cannot  saved  the  requested  format 
+saves  the  image  data  this image loader  file  with  the  specified  name  the  format  parameter  can  have  one  the  following  values  code  image  bmp  code  windows  bmp  file  format  compression  code  image  bmp  rle  code  windows  bmp  file  format  rle  compression  appropriate  code  image  gif  code  gif  file  format  code  image  ico  code  windows  ico  file  format  code  image  jpeg  code  jpeg  file  format  code  image  png  code  png  file  format  param  filename  the  name  the  file  write  the  images  param  format  the  format  write  the  images  exception illegal argument exception  error  null  argument  the  file  name  null  exception swt exception  error  invalid  image  the  image  data  contains  invalid  data  error  error  occurs  while  writing  the  file  error  unsupported  format  the  image  data  cannot  saved  the  requested  format 
+adds  the  listener  the  collection  listeners  who  will  notified  when  image  data  either  partially  completely  loaded image loader listener  should  added  before  invoking  one  the  receiver  load  methods  the  listener  code image data loaded  code  method  called  when  image  data  has  been  partially  loaded  supported  interlaced  gif  png  progressive  jpeg  images  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  see image loader listener  see image loader event
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  image  data  either  partially  completely  loaded  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  see add image loader listener image loader listener
+returns  code  true  code  the  receiver  has  image  loader  listeners  and  code  false  code  otherwise  return  code  true  code  there  are  code image loader listener  code  and  code  false  code  otherwise  see add image loader listener image loader listener  see remove image loader listener image loader listener
+notifies  all  image  loader  listeners  that  image  loader  event  has  occurred  pass  the  specified  event  object  each  listener  param  event  the  code image loader event  code  send  each  code image loader listener  code
+</comments>
+</text>
+</DOC>

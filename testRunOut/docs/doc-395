@@ -1,0 +1,1175 @@
+<DOC>
+<DOCNO>org.eclipse.swt.dnd.DropTarget.java </DOCNO>
+<text>
+<class>
+drop target
+</class>
+<method>
+drop target
+handle event
+handle event
+check style
+add drop listener
+add ref
+check subclass
+create com interfaces
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+dispose com interfaces
+drag enter
+drag leave
+drag over
+ drop
+get control
+get operation from key state
+get transfer
+notify listeners
+ dispose
+
+
+query interface
+ release
+remove drop listener
+set event data
+set transfer
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ dnd
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ internal
+ win
+drop target
+ widget
+ control
+ control
+ listener
+control listener
+ transfer
+transfer agents
+ transfer
+drag under effect
+ effect
+transfer data
+selected data type
+selected operation
+key operation
+data object
+com object
+drop target
+ref count
+ string
+ droptargetid
+drop target
+ control
+ control
+ style
+ control
+check style
+ style
+ control
+ control
+ control
+get data
+ droptargetid
+ dnd
+ error
+ dnd
+error cannot init drop
+ control
+set data
+ droptargetid
+create com interfaces
+add ref
+ com
+lock object external
+drop target
+get address
+ com
+
+ dnd
+ error
+ dnd
+error cannot init drop
+ com
+register drag drop
+ control
+ handle
+drop target
+get address
+ com
+
+ dnd
+ error
+ dnd
+error cannot init drop
+control listener
+ listener
+handle event
+ event
+ event
+drop target
+ disposed
+drop target
+ dispose
+ control
+add listener
+ swt
+ dispose
+control listener
+add listener
+ swt
+ dispose
+ listener
+handle event
+ event
+ event
+ dispose
+ control
+ tree
+ effect
+tree drag under effect
+ tree
+ control
+ control
+ table
+ effect
+table drag under effect
+ table
+ control
+ effect
+drag under effect
+ control
+check style
+ style
+ style
+ swt
+ none
+ dnd
+drop move
+ style
+add drop listener
+drop target listener
+ listener
+ listener
+ dnd
+ error
+ swt
+error null argument
+dnd listener
+typed listener
+dnd listener
+ listener
+add listener
+ dnd
+drag enter
+typed listener
+add listener
+ dnd
+drag leave
+typed listener
+add listener
+ dnd
+drag over
+typed listener
+add listener
+ dnd
+drag operation changed
+typed listener
+add listener
+ dnd
+ drop
+typed listener
+add listener
+ dnd
+drop accept
+typed listener
+add ref
+ref count
+ref count
+check subclass
+ string
+ name
+get class
+get name
+ string
+valid name
+drop target
+get name
+valid name
+ equals
+ name
+ dnd
+ error
+ swt
+error invalid subclass
+create com interfaces
+drop target
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+drag enter
+ args
+ args
+ args
+ args
+ args
+ method
+ args
+drag over
+ args
+ args
+ args
+ args
+ method
+ args
+drag leave
+ method
+ args
+ drop
+ args
+ args
+ args
+ args
+ args
+dispose com interfaces
+drop target
+drop target
+ dispose
+drop target
+drag enter
+data object
+grf key state
+
+
+pdw effect
+selected data type
+selected operation
+ dnd
+drop none
+data object
+dnd event
+ event
+dnd event
+set event data
+ event
+data object
+grf key state
+
+
+pdw effect
+
+move memory
+pdw effect
+ com
+dropeffect none
+ com
+
+data object
+data object
+allowed operations
+ event
+ operations
+transfer data
+allowed data types
+transfer data
+ event
+data types
+ length
+ system
+ arraycopy
+ event
+data types
+allowed data types
+allowed data types
+ length
+notify listeners
+ dnd
+drag enter
+ event
+ event
+ detail
+ dnd
+drop default
+ event
+ detail
+allowed operations
+ dnd
+drop move
+ dnd
+drop move
+ dnd
+drop none
+selected data type
+
+
+allowed data types
+ length
+
+transfer data
+same type
+allowed data types
+
+ event
+data type
+selected data type
+allowed data types
+
+selected operation
+ dnd
+drop none
+selected data type
+allowed operations
+ event
+ detail
+selected operation
+ event
+ detail
+ effect
+ show
+ event
+ feedback
+ event
+
+ event
+
+
+move memory
+pdw effect
+
+selected operation
+ com
+
+drag leave
+ effect
+ show
+ dnd
+feedback none
+key operation
+data object
+ com
+
+dnd event
+ event
+dnd event
+ event
+ widget
+ event
+ time
+
+get message time
+ event
+ detail
+ dnd
+drop none
+notify listeners
+ dnd
+drag leave
+ event
+ com
+
+drag over
+grf key state
+
+
+pdw effect
+old key operation
+key operation
+dnd event
+ event
+dnd event
+set event data
+ event
+data object
+grf key state
+
+
+pdw effect
+key operation
+
+move memory
+pdw effect
+ com
+dropeffect none
+ com
+
+allowed operations
+ event
+ operations
+transfer data
+allowed data types
+transfer data
+ event
+data types
+ length
+ system
+ arraycopy
+ event
+data types
+allowed data types
+allowed data types
+ length
+key operation
+old key operation
+ event
+ type
+ dnd
+drag over
+ event
+data type
+selected data type
+ event
+ detail
+selected operation
+ event
+ type
+ dnd
+drag operation changed
+ event
+data type
+selected data type
+notify listeners
+ event
+ type
+ event
+ event
+ detail
+ dnd
+drop default
+ event
+ detail
+allowed operations
+ dnd
+drop move
+ dnd
+drop move
+ dnd
+drop none
+selected data type
+
+
+allowed data types
+ length
+
+transfer data
+same type
+allowed data types
+
+ event
+data type
+selected data type
+allowed data types
+
+selected operation
+ dnd
+drop none
+selected data type
+allowed operations
+ event
+ detail
+ event
+ detail
+selected operation
+ event
+ detail
+ effect
+ show
+ event
+ feedback
+ event
+
+ event
+
+
+move memory
+pdw effect
+
+selected operation
+ com
+
+ drop
+data object
+grf key state
+
+
+pdw effect
+ effect
+ show
+ dnd
+feedback none
+dnd event
+ event
+dnd event
+ event
+ widget
+ event
+ time
+
+get message time
+ event
+ detail
+ dnd
+drop none
+notify listeners
+ dnd
+drag leave
+ event
+ event
+dnd event
+set event data
+ event
+data object
+grf key state
+
+
+pdw effect
+key operation
+
+move memory
+pdw effect
+ com
+dropeffect none
+ com
+
+key operation
+allowed operations
+ event
+ operations
+transfer data
+allowed data types
+transfer data
+ event
+data types
+ length
+ system
+ arraycopy
+ event
+data types
+allowed data types
+allowed data types
+ length
+ event
+data type
+selected data type
+ event
+ detail
+selected operation
+notify listeners
+ dnd
+drop accept
+ event
+selected data type
+
+
+allowed data types
+ length
+
+transfer data
+same type
+allowed data types
+
+ event
+data type
+selected data type
+allowed data types
+
+selected operation
+ dnd
+drop none
+selected data type
+allowed operations
+ event
+ detail
+ event
+ detail
+selected operation
+ event
+ detail
+selected operation
+ dnd
+drop none
+
+move memory
+pdw effect
+ com
+dropeffect none
+ com
+
+ object
+ object
+
+
+transfer agents
+ length
+
+transfer agents
+
+supported type
+selected data type
+ object
+transfer agents
+
+native java
+selected data type
+ object
+selected operation
+ dnd
+drop none
+ event
+ detail
+selected operation
+ event
+data type
+selected data type
+ event
+ data
+ object
+notify listeners
+ dnd
+ drop
+ event
+selected operation
+ dnd
+drop none
+allowed operations
+ event
+ detail
+ event
+ detail
+selected operation
+ event
+ detail
+
+move memory
+pdw effect
+
+selected operation
+ com
+
+ control
+get control
+ control
+get operation from key state
+grf key state
+ ctrl
+grf key state
+
+ control
+ shift
+grf key state
+
+ shift
+ ctrl
+ shift
+ dnd
+drop link
+ ctrl
+ dnd
+drop copy
+ shift
+ dnd
+drop move
+ dnd
+drop default
+ transfer
+get transfer
+transfer agents
+notify listeners
+event type
+ event
+ event
+ point
+ coordinates
+ point
+ event
+
+ event
+
+ coordinates
+ control
+ control
+ coordinates
+ control
+ tree
+ tree
+ tree
+ tree
+ control
+ event
+ item
+ tree
+get item
+ coordinates
+ event
+ item
+ rectangle
+ area
+ tree
+get client area
+ area
+ contains
+ coordinates
+
+ area
+
+
+ area
+
+ area
+ width
+
+ point
+
+ point
+
+ coordinates
+
+ event
+ item
+ tree
+get item
+
+ event
+ item
+ control
+ table
+ table
+ table
+ table
+ control
+ event
+ item
+ table
+get item
+ coordinates
+ event
+ item
+ rectangle
+ area
+ table
+get client area
+ area
+ contains
+ coordinates
+
+ area
+
+
+ area
+
+ area
+ width
+
+ point
+
+ point
+
+ coordinates
+
+ event
+ item
+ table
+get item
+
+ event
+ item
+notify listeners
+event type
+ event
+ dispose
+ control
+ com
+revoke drag drop
+ control
+ handle
+control listener
+ control
+remove listener
+ swt
+ dispose
+control listener
+control listener
+ control
+set data
+ droptargetid
+transfer agents
+ control
+ com
+lock object external
+drop target
+get address
+ release
+ com
+free unused libraries
+
+ operation
+ operation
+ operation
+ dnd
+drop copy
+ operation
+ com
+dropeffect copy
+ operation
+ dnd
+drop link
+ operation
+ com
+dropeffect link
+ operation
+ dnd
+drop move
+ operation
+ com
+dropeffect move
+ operation
+
+ operation
+ operation
+ operation
+ com
+dropeffect copy
+ operation
+ dnd
+drop copy
+ operation
+ com
+dropeffect link
+ operation
+ dnd
+drop link
+ operation
+ com
+dropeffect move
+ operation
+ dnd
+drop move
+ operation
+query interface
+ riid
+ppv object
+ riid
+ppv object
+ com
+ invalidarg
+ guid
+ guid
+ guid
+ com
+move memory
+ guid
+ riid
+ guid
+ sizeof
+ com
+equal guid
+ guid
+ com
+iidi unknown
+ com
+equal guid
+ guid
+ com
+iidi drop target
+ com
+move memory
+ppv object
+drop target
+get address
+add ref
+ com
+
+ com
+move memory
+ppv object
+ com
+ nointerface
+ release
+ref count
+ref count
+dispose com interfaces
+ com
+free unused libraries
+ref count
+remove drop listener
+drop target listener
+ listener
+ listener
+ dnd
+ error
+ swt
+error null argument
+remove listener
+ dnd
+drag enter
+ listener
+remove listener
+ dnd
+drag leave
+ listener
+remove listener
+ dnd
+drag over
+ listener
+remove listener
+ dnd
+drag operation changed
+ listener
+remove listener
+ dnd
+ drop
+ listener
+remove listener
+ dnd
+drop accept
+ listener
+set event data
+dnd event
+ event
+data object
+grf key state
+
+
+pdw effect
+data object
+pdw effect
+ style
+get style
+ operations
+
+move memory
+ operations
+pdw effect
+ operations
+
+ operations
+ style
+ operations
+ dnd
+drop none
+ operation
+get operation from key state
+grf key state
+key operation
+ operation
+ operation
+ dnd
+drop default
+ style
+ dnd
+drop default
+ operation
+ operations
+ dnd
+drop move
+ dnd
+drop move
+ dnd
+drop none
+ operation
+ operations
+ operation
+ dnd
+drop none
+transfer data
+data types
+transfer data
+data object
+data object
+data object
+data object
+data object
+add ref
+ address
+data object
+enum format etc
+ com
+datadir get
+ address
+ com
+
+enum formatetc
+enum formatetc
+enum formatetc
+ address
+ rgelt
+
+global alloc
+
+gmem fixed
+
+gmem zeroinit
+ formatetc
+ sizeof
+pcelt fetched
+enum formatetc
+ reset
+enum formatetc
+ next
+ rgelt
+pcelt fetched
+ com
+
+pcelt fetched
+transfer data
+transfer data
+transfer data
+transfer data
+ formatetc
+ formatetc
+ com
+move memory
+transfer data
+ formatetc
+ rgelt
+ formatetc
+ sizeof
+transfer data
+ type
+transfer data
+ formatetc
+ format
+transfer data
+data object
+data object
+
+
+transfer agents
+ length
+
+transfer agents
+
+supported type
+transfer data
+transfer data
+new data types
+transfer data
+data types
+ length
+ system
+ arraycopy
+data types
+new data types
+data types
+ length
+new data types
+data types
+ length
+transfer data
+data types
+new data types
+
+global free
+ rgelt
+enum formatetc
+ release
+data object
+ release
+data types
+ length
+ event
+ widget
+ event
+
+
+ event
+
+
+ event
+ time
+
+get message time
+ event
+ feedback
+ dnd
+feedback select
+ event
+data types
+data types
+ event
+data type
+data types
+ event
+ operations
+ operations
+ event
+ detail
+ operation
+set transfer
+ transfer
+transfer agents
+transfer agents
+ dnd
+ error
+ swt
+error null argument
+transfer agents
+transfer agents
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+class  code drop target  code  defines  the  target  object  for  drag  and  drop  transfer  important  this  class  not  intended  subclassed  this  class  identifies  the  code  control  code  over  which  the  user  must  position  the  cursor  order  drop  the  data  being  transferred  also  specifies  what  data  types  can  dropped  this  control  and  what  operations  can  performed  you  may  have  several drop tragets  application  but  there  can  only  one  one  mapping  between  code  control  code  and  code drop target  code  the drop target  can  receive  data  from  within  the  same  application  from  other  applications  such  text  dragged  from  text  editor  like  word  code  pre  int  operations  dnd  drop  move  dnd  drop  copy  dnd  drop  link  transfer  types  new  transfer text transfer get instance drop target  target  new drop target  label  operations  target set transfer  types  code  pre  the  application  notified  data  being  dragged  over  this  control  and  when  drop  occurs  implementing  the  interface  code drop target listener  code  which  uses  the  class  code drop target event  code  the  application  can  modify  the  type  drag  being  performed  this  control  any  stage  the  drag  modifying  the  code  event  detail  code  field  the  code  event current data type  code  field  when  the  data  dropped  the  responsibility  the  application  copy  this  data  for  its  own  purposes  code  pre  target add drop listener  new drop target listener  public  void drag enter drop target event  event  public  void drag over drop target event  event  public  void drag leave drop target event  event  public  void drag operation changed drop target event  event  public  void drop accept drop target event  event  public  void  drop drop target event  event  drop  has  occurred  copy  over  the  data  event  data  null  data  copy  indicate  failure  event  detail  event  detail  dnd  drop  none  return  label set text  string  event  data  data  copied  label  text  pre  code  styles  dnd  drop  none  dnd  drop  copy  dnd  drop  move  dnd  drop  link  events  dnd drag enter  dnd drag leave  dnd drag over  dnd drag operation changed  dnd drop accept  dnd  drop 
+track  application  selections
+workaround  there  event  for  operation  changed  track  operation  based  key  state
+workaround  the  dataobject  address  only  passed  argument  drag  enter  and  drop
+allow  applications  query  the  data  values  during  the  drag  over  operations
+maintain  reference 
+  interfaces
+non  nls 
+creates  new  code drop target  code  allow  data  dropped  the  specified  code  control  code  creating  instance drop target  may  cause  system  resources  allocated  depending  the  platform  therefore  mandatory  that  the drop target  instance  disposed  when  longer  required  param  control  the  code  control  code  over  which  the  user  positions  the  cursor  drop  the  data  param  style  the  bitwise  ing  allowed  operations  this  may  combination  any  dnd  drop  none  dnd  drop  copy  dnd  drop  move  dnd  drop  link  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  exception swt error  error  cannot  init  drop  unable  initiate  drop  target  this  will  occur  more  than  one  drop  target  created  for  control  the  operating  system  will  not  allow  the  creation  the  drop  target  note  error  cannot  init  drop  should swt exception  since  recoverable  error  but  can  not  changed  due  backward  compatability  see  widget  dispose  see drop target check subclass  see  dnd  drop  none  see  dnd  drop  copy  see  dnd  drop  move  see  dnd  drop  link
+drag  under  effect
+adds  the  listener  the  collection  listeners  who  will  notified  when  drag  and  drop  operation  progress  sending  one  the  messages  defined  the  code drop target listener  code  interface  code drag enter  code  called  when  the  cursor  has  entered  the  drop  target  boundaries  code drag leave  code  called  when  the  cursor  has  left  the  drop  target  boundaries  and  just  before  the  drop  occurs  cancelled  code drag operation changed  code  called  when  the  operation  being  performed  has  changed  usually  due  the  user  changing  the  selected  modifier  key  while  dragging  code drag over  code  called  when  the  cursor  moving  over  the  drop  target  code drop accept  code  called  just  before  the  drop  performed  the  drop  target  given  the  chance  change  the  nature  the  drop  veto  the  drop  setting  the  code  event  detail  code  field  code  drop  code  called  when  the  data  being  dropped  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see drop target listener  see remove drop listener  see drop target event
+register  each  the  interfaces  that  this  object  implements
+remember  the data object  because  not  passed  into  the drag over  callback
+get  data  java  format
+notify  source  action  taken
+returns  the  control  which  registered  for  this drop target  this  the  control  over  which  the  user  positions  the  cursor  drop  the  data  return  the  control  which  registered  for  this drop target
+returns  list  the  data  types  that  can  transferred  this drop target  return  list  the  data  types  that  can  transferred  this drop target
+scan  across  the  width  the  tree
+scan  across  the  width  the  tree
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  drag  and  drop  operation  progress  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see drop target listener  see add drop listener
+get  allowed  operations
+get  current  operation
+get  allowed  transfer  types
+loop  over  enumerator  and  save  any  types  that  match  what  are  looking  for
+specifies  the  data  types  that  can  transferred  this drop target  data  being  dragged  that  does  not  match  one  these  types  the  drop  target  will  notified  the  drag  and  drop  operation  but  the current data type  will  null  and  the  operation  will  dnd  none  param transfer agents  list  transfer  objects  which  define  the  types  data  that  can  dropped  this  target  exception illegal argument exception  error  null  argument transfer agents  null 
+</comments>
+</text>
+</DOC>

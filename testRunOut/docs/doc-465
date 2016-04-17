@@ -1,0 +1,6564 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Table.java </DOCNO>
+<text>
+<class>
+ table
+</class>
+<method>
+ table
+_get item
+add selection listener
+call window proc
+call window proc
+check style
+check data
+check subclass
+ clear
+ clear
+ clear
+clear all
+compute size
+create handle
+create item
+create item
+create widget
+default background
+ deselect
+ deselect
+ deselect
+deselect all
+destroy item
+destroy item
+fix checkbox image list
+get background pixel
+get column
+get column count
+get column order
+get columns
+get focus index
+get foreground pixel
+get grid line width
+get header height
+get header visible
+get item
+get item
+get item count
+get item height
+get items
+get lines visible
+get selection
+get selection count
+get selection index
+get selection indices
+get top index
+image index
+ index
+ index
+ selected
+release widget
+ remove
+ remove
+ remove
+remove all
+remove selection listener
+ select
+ select
+ select
+select all
+send mouse down event
+set background pixel
+set bounds
+set column order
+set checkbox image list color
+set checkbox image list
+set focus index
+set font
+set foreground pixel
+set header visible
+set item count
+set item height
+set lines visible
+set redraw
+set scroll width
+set selection
+set selection
+set selection
+set selection
+set table empty
+set top index
+show column
+show item
+show item
+show selection
+tool tip text
+update moveable
+widget style
+window class
+window proc
+ char
+ erasebkgnd
+ getobject
+ keydown
+ killfocus
+ lbuttondblclk
+ lbuttondown
+ mousehover
+ paint
+ notify
+ rbuttondblclk
+ rbuttondown
+ setfocus
+ syscolorchange
+ vscroll
+notify child
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ events
+ table
+ composite
+table item
+ items
+table column
+ columns
+image list
+image list
+table item
+current item
+last index
+last width
+custom draw
+cancel move
+drag started
+fix scroll width
+tip requested
+was selected
+ignore activate
+ignore select
+ignore shrink
+ignore resize
+ inset
+grid width
+header margin
+table proc
+ tchar
+table class
+ tchar
+
+ listview
+ button
+ wndclass
+wnd class
+ wndclass
+
+get class info
+table class
+wnd class
+table proc
+wnd class
+lpfn wnd proc
+ table
+ composite
+ parent
+ style
+ parent
+check style
+ style
+table item
+_get item
+ index
+ items
+ index
+ items
+ index
+ items
+ index
+table item
+ swt
+ none
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+call window proc
+ hwnd
+ msg
+ param
+ param
+call window proc
+ hwnd
+ msg
+ param
+ param
+call window proc
+ hwnd
+ msg
+ param
+ param
+force select
+ handle
+check selection
+check filter
+check activate
+ msg
+
+ char
+
+ime char
+
+ keyup
+
+ syschar
+
+ syskeydown
+
+ syskeyup
+
+ lbuttondblclk
+
+ lbuttonup
+
+ mbuttondblclk
+
+ mbuttonup
+
+ mousehover
+
+ mouseleave
+
+ mousemove
+
+ rbuttondblclk
+
+ rbuttonup
+
+ xbuttondblclk
+
+ xbuttonup
+check selection
+
+ lbuttondown
+
+ mbuttondown
+
+ rbuttondown
+
+ xbuttondown
+check selection
+check filter
+
+ keydown
+check selection
+check activate
+old selected
+was selected
+check selection
+was selected
+check activate
+ignore activate
+check filter
+ display
+ignore msg filter
+ code
+
+call window proc
+table proc
+ hwnd
+ msg
+ param
+ param
+check filter
+ display
+ignore msg filter
+check activate
+ignore activate
+check selection
+was selected
+force select
+ event
+ event
+ event
+ index
+
+send message
+ handle
+
+lvm getnextitem
+
+lvni focused
+ index
+ event
+ item
+_get item
+ index
+post event
+ swt
+ selection
+ event
+was selected
+old selected
+ code
+check style
+ style
+ style
+ swt
+ scroll
+ swt
+ scroll
+check bits
+ style
+ swt
+ single
+ swt
+ multi
+check data
+table item
+ item
+ redraw
+ item
+ cached
+ style
+ swt
+ virtual
+ item
+ cached
+ event
+ event
+ event
+ event
+ item
+ item
+current item
+ item
+send event
+ swt
+set data
+ event
+current item
+ disposed
+ item
+ disposed
+ redraw
+set scroll width
+ item
+ item
+ redraw
+check subclass
+valid subclass
+ error
+ swt
+error invalid subclass
+ clear
+ index
+check widget
+ count
+
+send message
+ handle
+
+lvm getitemcount
+ index
+ index
+ count
+ error
+ swt
+error invalid range
+table item
+ item
+ items
+ index
+ item
+ item
+current item
+ item
+ clear
+ style
+ swt
+ virtual
+ item
+ cached
+ lvitem
+ item
+ lvitem
+ item
+ mask
+
+lvif text
+
+lvif indent
+ item
+psz text
+
+lpstr textcallback
+ item
+ item
+ index
+
+send message
+ handle
+
+lvm setitem
+ item
+ item
+ cached
+current item
+draw count
+
+window visible
+ handle
+
+send message
+ handle
+
+lvm redrawitems
+ index
+ index
+set scroll width
+ item
+ clear
+ start
+ end
+check widget
+ start
+ end
+ count
+
+send message
+ handle
+
+lvm getitemcount
+ start
+ start
+ end
+ end
+ count
+ error
+ swt
+error invalid range
+ start
+ end
+ count
+clear all
+ lvitem
+ item
+ cleared
+
+ start
+
+ end
+
+table item
+ item
+ items
+
+ item
+ item
+current item
+ cleared
+ item
+ clear
+ style
+ swt
+ virtual
+ item
+ cached
+ item
+ item
+ lvitem
+ item
+ mask
+
+lvif text
+
+lvif indent
+ item
+psz text
+
+lpstr textcallback
+ item
+ item
+
+
+send message
+ handle
+
+lvm setitem
+ item
+ item
+ cached
+ cleared
+current item
+draw count
+
+window visible
+ handle
+
+send message
+ handle
+
+lvm redrawitems
+ start
+ end
+table item
+ item
+ start
+ end
+ items
+ start
+set scroll width
+ item
+ clear
+ indices
+check widget
+ indices
+ error
+ swt
+error null argument
+ indices
+ length
+ count
+
+send message
+ handle
+
+lvm getitemcount
+
+
+ indices
+ length
+
+ indices
+
+ indices
+
+ count
+ error
+ swt
+error invalid range
+ lvitem
+ item
+ cleared
+
+
+ indices
+ length
+
+ index
+ indices
+
+table item
+ item
+ items
+ index
+ item
+ item
+current item
+ cleared
+ item
+ clear
+ style
+ swt
+ virtual
+ item
+ cached
+ item
+ item
+ lvitem
+ item
+ mask
+
+lvif text
+
+lvif indent
+ item
+psz text
+
+lpstr textcallback
+ item
+ item
+
+
+send message
+ handle
+
+lvm setitem
+ item
+ item
+ cached
+current item
+draw count
+
+window visible
+ handle
+
+send message
+ handle
+
+lvm redrawitems
+ index
+ index
+ cleared
+set scroll width
+clear all
+check widget
+ lvitem
+ item
+ cleared
+ count
+
+send message
+ handle
+
+lvm getitemcount
+
+
+ count
+
+table item
+ item
+ items
+
+ item
+ item
+current item
+ cleared
+ item
+ clear
+ style
+ swt
+ virtual
+ item
+ cached
+ item
+ item
+ lvitem
+ item
+ mask
+
+lvif text
+
+lvif indent
+ item
+psz text
+
+lpstr textcallback
+ item
+ item
+
+
+send message
+ handle
+
+lvm setitem
+ item
+ item
+ cached
+ cleared
+current item
+draw count
+
+window visible
+ handle
+
+send message
+ handle
+
+lvm redrawitems
+ count
+set scroll width
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+fix scroll width
+set scroll width
+ bits
+ hint
+ swt
+ default
+ bits
+ hint
+ width
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+
+
+ count
+
+ width
+
+send message
+ handle
+
+lvm getcolumnwidth
+
+ bits
+ width
+ hint
+ swt
+ default
+ bits
+ hint
+ result
+
+send message
+ handle
+
+lvm approximateviewrect
+ bits
+ width
+ result
+ height
+ result
+ empty
+
+send message
+ handle
+
+lvm approximateviewrect
+one item
+
+send message
+ handle
+
+lvm approximateviewrect
+ height
+one item
+ empty
+ width
+ width
+default width
+ height
+ height
+default height
+ hint
+ swt
+ default
+ width
+ hint
+ hint
+ swt
+ default
+ height
+ hint
+ border
+get border width
+ width
+ border
+ height
+ border
+ style
+ swt
+ scroll
+ width
+
+get system metrics
+
+ cxvscroll
+ style
+ swt
+ scroll
+ height
+
+get system metrics
+
+ cyhscroll
+ point
+ width
+ height
+create handle
+create handle
+ state
+ canvas
+
+ win
+
+comctl 32_ major
+
+send message
+ handle
+
+ccm setversion
+ style
+ swt
+ check
+ empty
+
+send message
+ handle
+
+lvm approximateviewrect
+one item
+
+send message
+ handle
+
+lvm approximateviewrect
+ width
+one item
+ empty
+ height
+ width
+set checkbox image list
+ width
+ height
+
+send message
+ handle
+
+lvm setcallbackmask
+
+lvis stateimagemask
+ font
+
+get stock object
+
+system font
+
+send message
+ handle
+
+ setfont
+ font
+ lvcolumn
+ column
+ lvcolumn
+ column
+ mask
+
+lvcf text
+ heap
+
+get process heap
+psz text
+
+heap alloc
+ heap
+
+heap zero memory
+ tchar
+ sizeof
+ column
+psz text
+psz text
+
+send message
+ handle
+
+lvm insertcolumn
+ column
+
+heap free
+ heap
+psz text
+ bits
+
+lvs subitemimages
+
+lvs labeltip
+ style
+ swt
+full selection
+ bits
+
+lvs fullrowselect
+
+send message
+ handle
+
+lvm setextendedlistviewstyle
+ bits
+ bits
+
+win 32_ version
+
+ version
+ style
+ swt
+right left
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+ bits
+
+get window long
+hwnd header
+
+gwl exstyle
+
+set window long
+hwnd header
+
+gwl exstyle
+ bits
+
+ layoutrtl
+create item
+table column
+ column
+ index
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+column count
+ count
+ count
+ columns
+ count
+ index
+ index
+ count
+ error
+ swt
+error invalid range
+ count
+ columns
+ length
+table column
+new columns
+table column
+ columns
+ length
+ system
+ arraycopy
+ columns
+new columns
+ columns
+ length
+ columns
+new columns
+item count
+
+send message
+ handle
+
+lvm getitemcount
+
+
+item count
+
+table item
+ item
+ items
+
+ item
+ string
+ strings
+ item
+ strings
+ strings
+ string
+ temp
+ string
+column count
+ system
+ arraycopy
+ strings
+ temp
+ index
+ system
+ arraycopy
+ strings
+ index
+ temp
+ index
+column count
+ index
+ item
+ strings
+ temp
+ image
+ images
+ item
+ images
+ images
+ image
+ temp
+ image
+column count
+ system
+ arraycopy
+ images
+ temp
+ index
+ system
+ arraycopy
+ images
+ index
+ temp
+ index
+column count
+ index
+ item
+ images
+ temp
+ index
+ count
+ strings
+ item
+ strings
+ string
+column count
+ item
+ strings
+ item
+ text
+ item
+ text
+ images
+ item
+ images
+ image
+column count
+ item
+ images
+ item
+ image
+ item
+ image
+ item
+cell background
+cell background
+ item
+cell background
+ temp
+column count
+ system
+ arraycopy
+cell background
+ temp
+ index
+ system
+ arraycopy
+cell background
+ index
+ temp
+ index
+column count
+ index
+ temp
+ index
+ item
+cell background
+ temp
+ item
+cell foreground
+cell foreground
+ item
+cell foreground
+ temp
+column count
+ system
+ arraycopy
+cell foreground
+ temp
+ index
+ system
+ arraycopy
+cell foreground
+ index
+ temp
+ index
+column count
+ index
+ temp
+ index
+ item
+cell foreground
+ temp
+ item
+cell font
+cell font
+ item
+cell font
+ temp
+column count
+ system
+ arraycopy
+cell font
+ temp
+ index
+ system
+ arraycopy
+cell font
+ index
+ temp
+ index
+column count
+ index
+ temp
+ index
+ item
+cell font
+ temp
+ system
+ arraycopy
+ columns
+ index
+ columns
+ index
+ count
+ index
+ columns
+ index
+ column
+ignore resize
+ index
+ count
+ lvcolumn
+ column
+ lvcolumn
+ column
+ mask
+
+lvcf width
+
+send message
+ handle
+
+lvm insertcolumn
+ column
+
+send message
+ handle
+
+lvm getcolumn
+ column
+ width
+ column
+
+cch text max
+ heap
+
+get process heap
+byte count
+cch text max
+ tchar
+ sizeof
+psz text
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+ column
+ mask
+
+lvcf text
+
+lvcf image
+
+lvcf width
+
+lvcf fmt
+ column
+psz text
+psz text
+ column
+cch text max
+cch text max
+
+send message
+ handle
+
+lvm getcolumn
+ column
+
+send message
+ handle
+
+lvm setcolumn
+ column
+ column
+ fmt
+
+lvcfmt image
+ column
+
+ width
+ column
+ image
+
+ imagenone
+ column
+psz text
+ column
+cch text max
+
+send message
+ handle
+
+lvm setcolumn
+ column
+ column
+ mask
+
+lvcf fmt
+ column
+ fmt
+
+lvcfmt left
+
+send message
+ handle
+
+lvm setcolumn
+ column
+psz text
+
+heap free
+ heap
+psz text
+
+send message
+ handle
+
+lvm setcolumnwidth
+ parent
+ style
+ swt
+ virtual
+ lvitem
+ item
+ lvitem
+ item
+ mask
+
+lvif text
+
+lvif image
+ item
+psz text
+
+lpstr textcallback
+ item
+ image
+
+ imagecallback
+
+
+item count
+
+ item
+ item
+
+
+send message
+ handle
+
+lvm setitem
+ item
+ fmt
+
+lvcfmt left
+ column
+ style
+ swt
+ center
+ swt
+ center
+ fmt
+
+lvcfmt center
+ column
+ style
+ swt
+ right
+ swt
+ right
+ fmt
+
+lvcfmt right
+ lvcolumn
+ column
+ lvcolumn
+ column
+ mask
+
+lvcf width
+
+lvcf fmt
+ column
+ fmt
+ fmt
+
+send message
+ handle
+
+lvm insertcolumn
+ index
+ column
+ignore resize
+create item
+table item
+ item
+ index
+ count
+
+send message
+ handle
+
+lvm getitemcount
+ index
+ index
+ count
+ error
+ swt
+error invalid range
+ count
+ items
+ length
+ small
+draw count
+
+window visible
+ handle
+ length
+ small
+ items
+ length
+ math
+ max
+ items
+ length
+table item
+new items
+table item
+ length
+ system
+ arraycopy
+ items
+new items
+ items
+ length
+ items
+new items
+ lvitem
+ item
+ lvitem
+ item
+ mask
+
+lvif text
+
+lvif image
+ item
+ item
+ index
+ item
+psz text
+
+lpstr textcallback
+ item
+ image
+
+ imagecallback
+ignore select
+ result
+
+send message
+ handle
+
+lvm insertitem
+ item
+ignore select
+ result
+ error
+ swt
+error item not added
+ system
+ arraycopy
+ items
+ index
+ items
+ index
+ count
+ index
+ items
+ index
+ item
+create widget
+create widget
+ items
+table item
+ columns
+table column
+ style
+ swt
+ virtual
+custom draw
+default background
+
+get sys color
+
+color window
+ deselect
+ indices
+check widget
+ indices
+ error
+ swt
+error null argument
+ indices
+ length
+ lvitem
+ item
+ lvitem
+ item
+state mask
+
+lvis selected
+
+
+ indices
+ length
+
+ indices
+
+ignore select
+
+send message
+ handle
+
+lvm setitemstate
+ indices
+
+ item
+ignore select
+ deselect
+ index
+check widget
+ index
+ lvitem
+ item
+ lvitem
+ item
+state mask
+
+lvis selected
+ignore select
+
+send message
+ handle
+
+lvm setitemstate
+ index
+ item
+ignore select
+ deselect
+ start
+ end
+check widget
+ count
+
+send message
+ handle
+
+lvm getitemcount
+ start
+ end
+ count
+deselect all
+ lvitem
+ item
+ lvitem
+ item
+state mask
+
+lvis selected
+ start
+ math
+ max
+ start
+
+ start
+
+ end
+
+ignore select
+
+send message
+ handle
+
+lvm setitemstate
+
+ item
+ignore select
+deselect all
+check widget
+ lvitem
+ item
+ lvitem
+ item
+ mask
+
+lvif state
+ item
+state mask
+
+lvis selected
+ignore select
+
+send message
+ handle
+
+lvm setitemstate
+ item
+ignore select
+destroy item
+table column
+ column
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+column count
+
+send message
+hwnd header
+
+hdm getitemcount
+ index
+ index
+column count
+ columns
+ index
+ column
+ index
+ first
+ index
+ first
+column count
+ index
+cch text max
+ heap
+
+get process heap
+byte count
+cch text max
+ tchar
+ sizeof
+psz text
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+ lvcolumn
+ column
+ lvcolumn
+ column
+ mask
+
+lvcf text
+
+lvcf width
+ column
+psz text
+psz text
+ column
+cch text max
+cch text max
+
+send message
+ handle
+
+lvm getcolumn
+ column
+ column
+ mask
+
+lvcf fmt
+ column
+ fmt
+
+lvcfmt left
+
+send message
+ handle
+
+lvm setcolumn
+ column
+psz text
+
+heap free
+ heap
+psz text
+ heap
+
+get process heap
+psz text
+
+heap alloc
+ heap
+
+heap zero memory
+ tchar
+ sizeof
+ lvcolumn
+ column
+ lvcolumn
+ column
+ mask
+
+lvcf text
+ column
+psz text
+psz text
+
+send message
+ handle
+
+lvm setcolumn
+ column
+psz text
+
+heap free
+ heap
+psz text
+ parent
+ style
+ swt
+ virtual
+ lvitem
+ item
+ lvitem
+ item
+ mask
+
+lvif text
+
+lvif image
+ item
+psz text
+
+lpstr textcallback
+ item
+ image
+
+ imagecallback
+item count
+
+send message
+ handle
+
+lvm getitemcount
+
+
+item count
+
+ item
+ item
+
+
+send message
+ handle
+
+lvm setitem
+ item
+column count
+
+send message
+ handle
+
+lvm deletecolumn
+ index
+ error
+ swt
+error item not removed
+ first
+ index
+ system
+ arraycopy
+ columns
+ index
+ columns
+ index
+column count
+ index
+ columns
+column count
+item count
+
+send message
+ handle
+
+lvm getitemcount
+
+
+item count
+
+table item
+ item
+ items
+
+ item
+column count
+ item
+ strings
+ item
+ images
+ item
+cell background
+ item
+cell foreground
+ item
+cell font
+ item
+ strings
+ string
+ strings
+ item
+ strings
+ index
+ item
+ text
+ strings
+ strings
+ string
+ temp
+ string
+column count
+ system
+ arraycopy
+ strings
+ temp
+ index
+ system
+ arraycopy
+ strings
+ index
+ temp
+ index
+column count
+ index
+ item
+ strings
+ temp
+ index
+ item
+ text
+ item
+ images
+ image
+ images
+ item
+ images
+ index
+ item
+ image
+ images
+ image
+ temp
+ image
+column count
+ system
+ arraycopy
+ images
+ temp
+ index
+ system
+ arraycopy
+ images
+ index
+ temp
+ index
+column count
+ index
+ item
+ images
+ temp
+ index
+ item
+ image
+ item
+cell background
+cell background
+ item
+cell background
+ temp
+column count
+ system
+ arraycopy
+cell background
+ temp
+ index
+ system
+ arraycopy
+cell background
+ index
+ temp
+ index
+column count
+ index
+ item
+cell background
+ temp
+ item
+cell foreground
+cell foreground
+ item
+cell foreground
+ temp
+column count
+ system
+ arraycopy
+cell foreground
+ temp
+ index
+ system
+ arraycopy
+cell foreground
+ index
+ temp
+ index
+column count
+ index
+ item
+cell foreground
+ temp
+ item
+cell font
+cell font
+ item
+cell font
+ temp
+column count
+ system
+ arraycopy
+cell font
+ temp
+ index
+ system
+ arraycopy
+cell font
+ index
+ temp
+ index
+column count
+ index
+ item
+cell font
+ temp
+column count
+set scroll width
+update moveable
+destroy item
+table item
+ item
+ count
+
+send message
+ handle
+
+lvm getitemcount
+ index
+ index
+ count
+ items
+ index
+ item
+ index
+ index
+ count
+ignore select
+ignore shrink
+ code
+
+send message
+ handle
+
+lvm deleteitem
+ index
+ignore select
+ignore shrink
+ code
+ error
+ swt
+error item not removed
+ system
+ arraycopy
+ items
+ index
+ items
+ index
+ count
+ index
+ items
+ count
+ count
+set table empty
+fix checkbox image list
+ style
+ swt
+ check
+image list
+
+send message
+ handle
+
+lvm getimagelist
+
+lvsil small
+image list
+
+
+
+image list get icon size
+image list
+
+
+old state list
+
+send message
+ handle
+
+lvm getimagelist
+
+lvsil state
+old state list
+ state
+ state
+
+image list get icon size
+old state list
+ state
+ state
+
+ state
+
+ state
+set checkbox image list
+
+
+get background pixel
+
+send message
+ handle
+
+lvm getbkcolor
+table column
+get column
+ index
+check widget
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+ count
+ columns
+ count
+ index
+ index
+ count
+ error
+ swt
+error invalid range
+ columns
+ index
+get column count
+check widget
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+ count
+ columns
+ count
+ count
+get column order
+check widget
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+ count
+ columns
+ order
+ count
+
+send message
+ handle
+
+lvm getcolumnorderarray
+ count
+ order
+ order
+table column
+get columns
+check widget
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+ count
+ columns
+ count
+table column
+ result
+table column
+ count
+ system
+ arraycopy
+ columns
+ result
+ count
+ result
+get focus index
+
+send message
+ handle
+
+lvm getnextitem
+
+lvni focused
+get foreground pixel
+ pixel
+
+send message
+ handle
+
+lvm gettextcolor
+ pixel
+
+clr default
+
+get sys color
+
+color windowtext
+ pixel
+get grid line width
+check widget
+grid width
+get header height
+check widget
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+hwnd header
+ rect
+ rect
+ rect
+
+get window rect
+hwnd header
+ rect
+ rect
+ bottom
+ rect
+ top
+get header visible
+check widget
+ bits
+
+get window long
+ handle
+
+gwl style
+ bits
+
+lvs nocolumnheader
+table item
+get item
+ index
+check widget
+ count
+
+send message
+ handle
+
+lvm getitemcount
+ index
+ index
+ count
+ error
+ swt
+error invalid range
+_get item
+ index
+table item
+get item
+ point
+ point
+check widget
+ point
+ error
+ swt
+error null argument
+ lvhittestinfo
+ pinfo
+ lvhittestinfo
+ pinfo
+
+ point
+
+ pinfo
+
+ point
+
+
+send message
+ handle
+
+lvm hittest
+ pinfo
+ pinfo
+ item
+_get item
+ pinfo
+ item
+get item count
+check widget
+
+send message
+ handle
+
+lvm getitemcount
+get item height
+check widget
+ empty
+
+send message
+ handle
+
+lvm approximateviewrect
+one item
+
+send message
+ handle
+
+lvm approximateviewrect
+one item
+ empty
+table item
+get items
+check widget
+ count
+
+send message
+ handle
+
+lvm getitemcount
+table item
+ result
+table item
+ count
+ style
+ swt
+ virtual
+
+
+ count
+
+ result
+
+_get item
+
+ system
+ arraycopy
+ items
+ result
+ count
+ result
+get lines visible
+check widget
+ bits
+
+send message
+ handle
+
+lvm getextendedlistviewstyle
+ bits
+
+lvs gridlines
+table item
+get selection
+check widget
+
+
+ count
+
+send message
+ handle
+
+lvm getselectedcount
+table item
+ result
+table item
+ count
+
+
+send message
+ handle
+
+lvm getnextitem
+
+
+lvni selected
+ result
+
+_get item
+
+ result
+get selection count
+check widget
+
+send message
+ handle
+
+lvm getselectedcount
+get selection index
+check widget
+focus index
+
+send message
+ handle
+
+lvm getnextitem
+
+lvni focused
+selected index
+
+send message
+ handle
+
+lvm getnextitem
+
+lvni selected
+focus index
+selected index
+selected index
+
+
+
+send message
+ handle
+
+lvm getnextitem
+
+
+lvni selected
+
+focus index
+
+selected index
+get selection indices
+check widget
+
+
+ count
+
+send message
+ handle
+
+lvm getselectedcount
+ result
+ count
+
+
+send message
+ handle
+
+lvm getnextitem
+
+
+lvni selected
+ result
+
+
+ result
+get top index
+check widget
+ math
+ max
+
+send message
+ handle
+
+lvm gettopindex
+image index
+ image
+ image
+ image
+
+ imagenone
+image list
+ rectangle
+ bounds
+ image
+get bounds
+image list
+ display
+get image list
+ style
+ swt
+right left
+ bounds
+ width
+ bounds
+ height
+ index
+image list
+ index
+ image
+ index
+ index
+image list
+ add
+ image
+image list
+image list
+get handle
+top index
+get top index
+set redraw
+set top index
+
+send message
+ handle
+
+lvm setimagelist
+
+lvsil small
+image list
+set top index
+top index
+fix checkbox image list
+set redraw
+ index
+ index
+image list
+ index
+ image
+ index
+ index
+image list
+ add
+ image
+ index
+table column
+ column
+check widget
+ column
+ error
+ swt
+error null argument
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+
+
+ count
+
+ columns
+
+ column
+
+ index
+table item
+ item
+check widget
+ item
+ error
+ swt
+error null argument
+ count
+
+send message
+ handle
+
+lvm getitemcount
+last index
+last index
+ count
+ items
+last index
+ item
+last index
+ items
+last index
+ item
+last index
+ items
+last index
+ item
+last index
+last index
+ count
+
+
+ count
+
+ items
+
+ item
+last index
+
+
+ count
+
+
+ items
+
+ item
+last index
+
+ selected
+ index
+check widget
+ lvitem
+ item
+ lvitem
+ item
+ mask
+
+lvif state
+ item
+state mask
+
+lvis selected
+ item
+ item
+ index
+ result
+
+send message
+ handle
+
+lvm getitem
+ item
+ result
+ item
+ state
+
+lvis selected
+release widget
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+column count
+
+send message
+hwnd header
+
+hdm getitemcount
+column count
+ columns
+column count
+item count
+
+send message
+ handle
+
+lvm getitemcount
+
+ win
+column count
+
+send message
+ handle
+
+ setredraw
+
+item count
+
+
+table item
+ item
+ items
+
+ignore select
+ignore shrink
+
+send message
+ handle
+
+lvm deleteitem
+
+ignore select
+ignore shrink
+ item
+ item
+ disposed
+ item
+release resources
+
+
+item count
+
+table item
+ item
+ items
+
+ item
+ item
+ disposed
+ item
+release resources
+custom draw
+current item
+ items
+
+
+column count
+
+table column
+ column
+ columns
+
+ column
+ disposed
+ column
+release resources
+ columns
+image list
+
+send message
+ handle
+
+lvm setimagelist
+
+lvsil small
+ display
+release image list
+image list
+image list
+old list
+
+send message
+ handle
+
+lvm getimagelist
+
+lvsil state
+
+send message
+ handle
+
+lvm setimagelist
+
+lvsil state
+old list
+
+image list destroy
+old list
+release widget
+ remove
+ indices
+check widget
+ indices
+ error
+ swt
+error null argument
+ indices
+ length
+new indices
+ indices
+ length
+ system
+ arraycopy
+ indices
+new indices
+ indices
+ length
+ sort
+new indices
+ start
+new indices
+new indices
+ length
+ end
+new indices
+ count
+
+send message
+ handle
+
+lvm getitemcount
+ start
+ start
+ end
+ end
+ count
+ error
+ swt
+error invalid range
+ last
+
+
+new indices
+ length
+
+ index
+new indices
+
+ index
+ last
+table item
+ item
+ items
+ index
+ignore select
+ignore shrink
+ code
+
+send message
+ handle
+
+lvm deleteitem
+ index
+ignore select
+ignore shrink
+ code
+ error
+ swt
+error item not removed
+ item
+ item
+ disposed
+ item
+release resources
+ system
+ arraycopy
+ items
+ index
+ items
+ index
+ count
+ index
+ items
+ count
+ last
+ index
+ count
+set table empty
+ remove
+ index
+check widget
+ count
+
+send message
+ handle
+
+lvm getitemcount
+ index
+ index
+ count
+ error
+ swt
+error invalid range
+table item
+ item
+ items
+ index
+ignore select
+ignore shrink
+ code
+
+send message
+ handle
+
+lvm deleteitem
+ index
+ignore select
+ignore shrink
+ code
+ error
+ swt
+error item not removed
+ item
+ item
+ disposed
+ item
+release resources
+ system
+ arraycopy
+ items
+ index
+ items
+ index
+ count
+ index
+ items
+ count
+ count
+set table empty
+ remove
+ start
+ end
+check widget
+ start
+ end
+ count
+
+send message
+ handle
+
+lvm getitemcount
+ start
+ start
+ end
+ end
+ count
+ error
+ swt
+error invalid range
+ start
+ end
+ count
+remove all
+ index
+ start
+ index
+ end
+table item
+ item
+ items
+ index
+ignore select
+ignore shrink
+ code
+
+send message
+ handle
+
+lvm deleteitem
+ start
+ignore select
+ignore shrink
+ code
+ item
+ item
+ disposed
+ item
+release resources
+ index
+ system
+ arraycopy
+ items
+ index
+ items
+ start
+ count
+ index
+
+ count
+ index
+ start
+
+ count
+
+ items
+
+ index
+ end
+ error
+ swt
+error item not removed
+remove all
+check widget
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+column count
+
+send message
+hwnd header
+
+hdm getitemcount
+column count
+ columns
+column count
+item count
+
+send message
+ handle
+
+lvm getitemcount
+
+ win
+column count
+ redraw
+draw count
+
+window visible
+ handle
+ redraw
+
+send message
+ handle
+
+ setredraw
+ index
+item count
+ index
+table item
+ item
+ items
+ index
+ignore select
+ignore shrink
+ code
+
+send message
+ handle
+
+lvm deleteitem
+ index
+ignore select
+ignore shrink
+ code
+ item
+ item
+ disposed
+ item
+release resources
+ index
+ redraw
+
+send message
+ handle
+
+ setredraw
+ index
+ error
+ swt
+error item not removed
+ignore select
+ignore shrink
+ code
+
+send message
+ handle
+
+lvm deleteallitems
+ignore select
+ignore shrink
+ code
+ error
+ swt
+error item not removed
+
+
+item count
+
+table item
+ item
+ items
+
+ item
+ item
+ disposed
+ item
+release resources
+set table empty
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ selection
+ listener
+event table
+ unhook
+ swt
+default selection
+ listener
+ select
+ indices
+check widget
+ indices
+ error
+ swt
+error null argument
+ length
+ indices
+ length
+ length
+ style
+ swt
+ single
+ length
+ lvitem
+ item
+ lvitem
+ item
+ state
+
+lvis selected
+ item
+state mask
+
+lvis selected
+
+ length
+
+
+ indices
+
+ignore select
+
+send message
+ handle
+
+lvm setitemstate
+ indices
+
+ item
+ignore select
+ select
+ index
+check widget
+ index
+ lvitem
+ item
+ lvitem
+ item
+ state
+
+lvis selected
+ item
+state mask
+
+lvis selected
+ignore select
+
+send message
+ handle
+
+lvm setitemstate
+ index
+ item
+ignore select
+ select
+ start
+ end
+check widget
+ end
+ start
+ end
+ style
+ swt
+ single
+ start
+ end
+ count
+
+send message
+ handle
+
+lvm getitemcount
+ count
+ start
+ count
+ start
+ math
+ max
+ start
+ end
+ math
+ min
+ end
+ count
+ start
+ end
+ count
+select all
+ lvitem
+ item
+ lvitem
+ item
+ state
+
+lvis selected
+ item
+state mask
+
+lvis selected
+
+ start
+
+ end
+
+ignore select
+
+send message
+ handle
+
+lvm setitemstate
+
+ item
+ignore select
+select all
+check widget
+ style
+ swt
+ single
+ lvitem
+ item
+ lvitem
+ item
+ mask
+
+lvif state
+ item
+ state
+
+lvis selected
+ item
+state mask
+
+lvis selected
+ignore select
+
+send message
+ handle
+
+lvm setitemstate
+ item
+ignore select
+ lresult
+send mouse down event
+ type
+ button
+ msg
+ param
+ param
+ lvhittestinfo
+ pinfo
+ lvhittestinfo
+ pinfo
+
+ param
+ pinfo
+
+ param
+
+send message
+ handle
+
+lvm hittest
+ pinfo
+send mouse event
+ type
+ button
+ handle
+ msg
+ param
+ param
+
+set focus
+ handle
+ pinfo
+ item
+
+get capture
+ handle
+
+set capture
+ handle
+ lresult
+ zero
+force select
+ count
+
+send message
+ handle
+
+lvm getselectedcount
+ count
+ pinfo
+ item
+ lvitem
+ item
+ lvitem
+ item
+ mask
+
+lvif state
+ item
+state mask
+
+lvis selected
+ item
+ item
+ pinfo
+ item
+
+send message
+ handle
+
+lvm getitem
+ item
+ item
+ state
+
+lvis selected
+force select
+drag started
+ code
+call window proc
+ handle
+ msg
+ param
+ param
+force select
+drag started
+
+get capture
+ handle
+
+set capture
+ handle
+ flags
+
+lvht onitemlabel
+
+lvht onitemicon
+fake mouse
+ pinfo
+ flags
+ flags
+fake mouse
+ style
+ swt
+ multi
+fake mouse
+ pinfo
+ flags
+
+lvht onitemstateicon
+fake mouse
+send mouse event
+ swt
+ mouse
+ button
+ handle
+ msg
+ param
+ param
+drag started
+ lresult
+ code
+set background pixel
+ pixel
+ background
+ pixel
+ background
+ pixel
+ pixel
+ pixel
+default background
+
+send message
+ handle
+
+lvm setbkcolor
+ pixel
+
+send message
+ handle
+
+lvm settextbkcolor
+ pixel
+ style
+ swt
+ check
+set checkbox image list color
+
+invalidate rect
+ handle
+set bounds
+
+
+ width
+ height
+ flags
+fix resize
+ flags
+
+swp nosize
+ rectangle
+ rect
+get bounds
+fix resize
+ rect
+ height
+get item height
+fix resize
+set redraw
+set bounds
+
+
+ width
+ height
+ flags
+fix resize
+set redraw
+set column order
+ order
+check widget
+ order
+ error
+ swt
+error null argument
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+ count
+ columns
+ order
+ length
+ error
+ swt
+error invalid argument
+ order
+ length
+ count
+ error
+ swt
+error invalid argument
+old order
+ count
+
+send message
+ handle
+
+lvm getcolumnorderarray
+ count
+old order
+ reorder
+ seen
+ count
+
+
+ order
+ length
+
+ index
+ order
+
+ index
+ index
+ count
+ error
+ swt
+error invalid range
+ seen
+ index
+ error
+ swt
+error invalid argument
+ seen
+ index
+ index
+old order
+
+ reorder
+ reorder
+ rect
+old rects
+ rect
+ count
+
+
+ count
+
+old rects
+
+ rect
+
+send message
+hwnd header
+
+hdm getitemrect
+
+old rects
+
+
+send message
+ handle
+
+lvm setcolumnorderarray
+ order
+ length
+ order
+
+invalidate rect
+ handle
+table column
+new columns
+table column
+ count
+ system
+ arraycopy
+ columns
+new columns
+ count
+ rect
+new rect
+ rect
+
+
+ count
+
+table column
+ column
+new columns
+
+ column
+ disposed
+
+send message
+hwnd header
+
+hdm getitemrect
+
+new rect
+new rect
+ left
+old rects
+
+ left
+ column
+send event
+ swt
+ move
+set checkbox image list color
+ style
+ swt
+ check
+old state list
+
+send message
+ handle
+
+lvm getimagelist
+
+lvsil state
+old state list
+
+
+
+image list get icon size
+old state list
+
+
+set checkbox image list
+
+
+set checkbox image list
+ width
+ height
+ style
+ swt
+ check
+ count
+ flags
+image list
+color flags
+ style
+ swt
+right left
+ flags
+
+ilc mirror
+
+comctl 32_ major
+
+app themed
+ flags
+
+ilc mask
+image list
+
+image list create
+ width
+ height
+ flags
+ count
+ count
+
+
+ get
+ handle
+ mem
+
+create compatible
+
+ bitmap
+
+create compatible bitmap
+
+ width
+ count
+ height
+old bitmap
+
+select object
+ mem
+ bitmap
+ rect
+ rect
+ rect
+
+set rect
+ rect
+ width
+ count
+ height
+clr background
+get background pixel
+ brush
+
+create solid brush
+clr background
+
+fill rect
+ mem
+ rect
+ brush
+
+delete object
+ brush
+old font
+
+select object
+
+default font
+ textmetric
+
+
+ unicode
+ textmetric
+ textmetricw
+ textmetrica
+
+get text metrics
+
+
+
+select object
+
+old font
+item width
+ math
+ min
+
+ height
+ width
+item height
+ math
+ min
+
+ height
+ height
+ left
+ width
+item width
+ top
+ height
+item height
+
+set rect
+ rect
+ left
+ top
+ left
+item width
+ top
+item height
+
+comctl 32_ major
+
+app themed
+ theme
+
+open theme data
+ handle
+ button
+
+draw theme background
+ theme
+ mem
+
+ checkbox
+
+cbs uncheckednormal
+ rect
+ rect
+ left
+ width
+ rect
+ right
+ width
+
+draw theme background
+ theme
+ mem
+
+ checkbox
+
+cbs checkednormal
+ rect
+ rect
+ left
+ width
+ rect
+ right
+ width
+
+draw theme background
+ theme
+ mem
+
+ checkbox
+
+cbs uncheckednormal
+ rect
+ rect
+ left
+ width
+ rect
+ right
+ width
+
+draw theme background
+ theme
+ mem
+
+ checkbox
+
+cbs mixednormal
+ rect
+
+close theme data
+ theme
+
+draw frame control
+ mem
+ rect
+
+dfc button
+
+dfcs buttoncheck
+
+dfcs flat
+ rect
+ left
+ width
+ rect
+ right
+ width
+
+draw frame control
+ mem
+ rect
+
+dfc button
+
+dfcs buttoncheck
+
+dfcs checked
+
+dfcs flat
+ rect
+ left
+ width
+ rect
+ right
+ width
+
+draw frame control
+ mem
+ rect
+
+dfc button
+
+dfcs buttoncheck
+
+dfcs inactive
+
+dfcs flat
+ rect
+ left
+ width
+ rect
+ right
+ width
+
+draw frame control
+ mem
+ rect
+
+dfc button
+
+dfcs buttoncheck
+
+dfcs checked
+
+dfcs inactive
+
+dfcs flat
+
+select object
+ mem
+old bitmap
+
+ delete
+ mem
+
+ release
+ handle
+
+
+comctl 32_ major
+
+app themed
+
+image list add
+image list
+ bitmap
+
+image list add masked
+image list
+ bitmap
+clr background
+
+delete object
+ bitmap
+old state list
+
+send message
+ handle
+
+lvm getimagelist
+
+lvsil state
+
+send message
+ handle
+
+lvm setimagelist
+
+lvsil state
+image list
+old state list
+
+image list destroy
+old state list
+set focus index
+ index
+ index
+ lvitem
+ item
+ lvitem
+ item
+ state
+
+lvis focused
+ item
+state mask
+
+lvis focused
+ignore select
+
+send message
+ handle
+
+lvm setitemstate
+ index
+ item
+ignore select
+set font
+ font
+ font
+check widget
+top index
+get top index
+set redraw
+set top index
+set font
+ font
+set top index
+top index
+set scroll width
+set redraw
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+
+invalidate rect
+hwnd header
+ bits
+
+send message
+ handle
+
+lvm getextendedlistviewstyle
+ bits
+
+lvs gridlines
+ bits
+
+get window long
+ handle
+
+gwl style
+ bits
+
+lvs nocolumnheader
+set item height
+set foreground pixel
+ pixel
+ foreground
+ pixel
+ foreground
+ pixel
+ pixel
+ pixel
+
+clr default
+
+send message
+ handle
+
+lvm settextcolor
+ pixel
+
+invalidate rect
+ handle
+set header visible
+ show
+check widget
+new bits
+
+get window long
+ handle
+
+gwl style
+new bits
+
+lvs nocolumnheader
+ show
+new bits
+
+lvs nocolumnheader
+top index
+get top index
+
+set window long
+ handle
+
+gwl style
+new bits
+set top index
+top index
+ show
+ bits
+
+send message
+ handle
+
+lvm getextendedlistviewstyle
+ bits
+
+lvs gridlines
+set item height
+set item count
+ count
+check widget
+ count
+ math
+ max
+ count
+item count
+
+send message
+ handle
+
+lvm getitemcount
+ count
+item count
+ virtual
+ style
+ swt
+ virtual
+ virtual
+set redraw
+ index
+ count
+ index
+item count
+table item
+ item
+ items
+ index
+ virtual
+ignore select
+ignore shrink
+ code
+
+send message
+ handle
+
+lvm deleteitem
+ count
+ignore select
+ignore shrink
+ code
+ item
+ item
+ disposed
+ item
+release resources
+ index
+ index
+item count
+ error
+ swt
+error item not removed
+ length
+ math
+ max
+ count
+table item
+new items
+table item
+ length
+ system
+ arraycopy
+ items
+new items
+ math
+ min
+ count
+item count
+ items
+new items
+ virtual
+ flags
+
+lvsicf noinvalidateall
+
+lvsicf noscroll
+
+send message
+ handle
+
+lvm setitemcount
+ count
+ flags
+ count
+item count
+
+invalidate rect
+ handle
+
+item count
+
+ count
+
+ items
+
+table item
+ swt
+ none
+
+ virtual
+set redraw
+set item height
+
+comctl 32_ version
+
+ version
+old list
+
+send message
+ handle
+
+lvm getimagelist
+
+lvsil small
+old list
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+ rect
+ rect
+ rect
+
+get window rect
+hwnd header
+ rect
+ height
+ rect
+ bottom
+ rect
+ top
+image list
+
+image list create
+ height
+
+send message
+ handle
+
+lvm setimagelist
+
+lvsil small
+image list
+fix checkbox image list
+
+send message
+ handle
+
+lvm setimagelist
+
+lvsil small
+
+image list destroy
+image list
+set lines visible
+ show
+check widget
+new bits
+ show
+new bits
+
+lvs gridlines
+ bits
+
+get window long
+ handle
+
+gwl style
+ bits
+
+lvs nocolumnheader
+set item height
+
+send message
+ handle
+
+lvm setextendedlistviewstyle
+
+lvs gridlines
+new bits
+set redraw
+ redraw
+check widget
+draw count
+ bits
+
+get window long
+ handle
+
+gwl style
+ bits
+
+ visible
+ state
+ hidden
+ redraw
+draw count
+set scroll width
+
+send message
+ handle
+
+ setredraw
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+hwnd header
+
+send message
+hwnd header
+
+ setredraw
+ state
+ hidden
+ state
+ hidden
+
+show window
+ handle
+
+ hide
+
+ win
+
+invalidate rect
+ handle
+hwnd header
+
+invalidate rect
+hwnd header
+ flags
+
+rdw erase
+
+rdw frame
+
+rdw invalidate
+
+rdw allchildren
+
+redraw window
+ handle
+ flags
+draw count
+
+send message
+ handle
+
+ setredraw
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+hwnd header
+
+send message
+hwnd header
+
+ setredraw
+set scroll width
+table item
+ item
+ force
+current item
+current item
+ item
+fix scroll width
+ force
+draw count
+
+window visible
+ handle
+fix scroll width
+fix scroll width
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+ count
+ columns
+new width
+ count
+
+send message
+ handle
+
+lvm getitemcount
+ index
+image indent
+ index
+ count
+ string
+ string
+ font
+ item
+ string
+ item
+ text
+image indent
+ math
+ max
+image indent
+ item
+image indent
+ item
+cell font
+ font
+ item
+cell font
+ font
+ font
+ item
+ font
+ items
+ index
+table item
+table item
+ items
+ index
+ string
+table item
+ text
+image indent
+ math
+ max
+image indent
+table item
+image indent
+table item
+cell font
+ font
+table item
+cell font
+ font
+ font
+table item
+ font
+ string
+ string
+ length
+ font
+
+
+ get
+ handle
+old font
+
+select object
+
+ font
+ flags
+
+ calcrect
+
+ singleline
+
+ noprefix
+ tchar
+ buffer
+ tchar
+get code page
+ string
+ rect
+ rect
+ rect
+
+draw text
+
+ buffer
+ buffer
+ length
+ rect
+ flags
+
+select object
+
+old font
+
+ release
+ handle
+
+new width
+ math
+ max
+new width
+ rect
+ right
+ rect
+ left
+ tchar
+ buffer
+ tchar
+get code page
+ string
+new width
+ math
+ max
+new width
+
+send message
+ handle
+
+lvm getstringwidth
+ buffer
+ item
+ index
+state list
+
+send message
+ handle
+
+lvm getimagelist
+
+lvsil state
+state list
+
+
+
+image list get icon size
+state list
+
+
+new width
+
+ inset
+image list
+
+send message
+ handle
+
+lvm getimagelist
+
+lvsil small
+image list
+
+
+
+image list get icon size
+image list
+
+
+new width
+image indent
+
+new width
+new width
+ inset
+old width
+
+send message
+ handle
+
+lvm getcolumnwidth
+new width
+old width
+
+send message
+ handle
+
+lvm setcolumnwidth
+new width
+set selection
+ indices
+check widget
+ indices
+ error
+ swt
+error null argument
+deselect all
+ length
+ indices
+ length
+ length
+ style
+ swt
+ single
+ length
+ select
+ indices
+focus index
+ indices
+focus index
+set focus index
+focus index
+show selection
+set selection
+table item
+ items
+check widget
+ items
+ error
+ swt
+error null argument
+deselect all
+ length
+ items
+ length
+ length
+ style
+ swt
+ single
+ length
+focus index
+
+ length
+
+
+ index
+ index
+ items
+
+ index
+ select
+focus index
+ index
+focus index
+set focus index
+focus index
+show selection
+set selection
+ index
+check widget
+deselect all
+ select
+ index
+ index
+set focus index
+ index
+show selection
+set selection
+ start
+ end
+check widget
+deselect all
+ end
+ start
+ end
+ style
+ swt
+ single
+ start
+ end
+ count
+
+send message
+ handle
+
+lvm getitemcount
+ count
+ start
+ count
+ start
+ math
+ max
+ start
+ end
+ math
+ min
+ end
+ count
+ select
+ start
+ end
+set focus index
+ start
+show selection
+set table empty
+image list
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+column count
+
+send message
+hwnd header
+
+hdm getitemcount
+column count
+ columns
+column count
+
+
+column count
+table column
+ column
+ columns
+
+ column
+get image
+
+
+column count
+image list
+
+image list create
+
+send message
+ handle
+
+lvm setimagelist
+
+lvsil small
+image list
+
+send message
+ handle
+
+lvm setimagelist
+
+lvsil small
+
+image list destroy
+image list
+ display
+release image list
+image list
+image list
+ style
+ swt
+ virtual
+custom draw
+ items
+table item
+set top index
+ index
+check widget
+top index
+
+send message
+ handle
+
+lvm gettopindex
+ index
+top index
+
+send message
+ handle
+
+lvm getcountperpage
+
+send message
+ handle
+
+lvm ensurevisible
+ index
+ index
+
+send message
+ handle
+
+lvm gettopindex
+
+send message
+ handle
+
+lvm ensurevisible
+ index
+ rect
+ rect
+ rect
+ rect
+ left
+
+lvir bounds
+
+send message
+ handle
+
+lvm getitemrect
+ rect
+
+ index
+top index
+ rect
+ bottom
+ rect
+ top
+
+send message
+ handle
+
+lvm scroll
+
+show column
+table column
+ column
+check widget
+ column
+ error
+ swt
+error null argument
+ column
+ disposed
+ error
+ swt
+error invalid argument
+ column
+ parent
+ index
+ index
+ column
+ index
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+ count
+ index
+ index
+ count
+ rect
+ rect
+ rect
+ rect
+ left
+
+lvir bounds
+ index
+ rect
+ top
+
+send message
+ handle
+
+lvm getsubitemrect
+ rect
+ rect
+ right
+ rect
+ left
+ width
+
+send message
+ handle
+
+lvm getcolumnwidth
+ rect
+ left
+ rect
+ right
+ width
+ rect
+ top
+ index
+
+send message
+ handle
+
+lvm getsubitemrect
+ rect
+ rect
+ area
+ rect
+
+get client rect
+ handle
+ area
+ rect
+ left
+ area
+ left
+
+ rect
+ left
+ area
+ left
+
+send message
+ handle
+
+lvm scroll
+
+ width
+ math
+ min
+ area
+ right
+ area
+ left
+ rect
+ right
+ rect
+ left
+ rect
+ left
+ width
+ area
+ right
+
+ rect
+ left
+ width
+ area
+ right
+
+send message
+ handle
+
+lvm scroll
+
+show item
+ index
+
+send message
+ handle
+
+lvm getcountperpage
+
+send message
+ handle
+
+lvm ensurevisible
+ index
+ index
+
+send message
+ handle
+
+lvm gettopindex
+
+send message
+ handle
+
+lvm ensurevisible
+ index
+
+send message
+ handle
+
+lvm ensurevisible
+ index
+show item
+table item
+ item
+check widget
+ item
+ error
+ swt
+error null argument
+ item
+ disposed
+ error
+ swt
+error invalid argument
+ index
+ index
+ item
+ index
+show item
+ index
+show selection
+check widget
+ index
+
+send message
+ handle
+
+lvm getnextitem
+
+lvni selected
+ index
+show item
+ index
+ string
+tool tip text
+ nmttdispinfo
+ hdr
+hwnd tool tip
+
+send message
+ handle
+
+lvm gettooltips
+hwnd tool tip
+ hdr
+hwnd from
+tool tip text
+tool tip text
+ hdr
+update moveable
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+ count
+ columns
+ count
+ index
+ index
+ count
+ columns
+ index
+ moveable
+ index
+new bits
+ index
+ count
+
+lvs headerdragdrop
+
+send message
+ handle
+
+lvm setextendedlistviewstyle
+
+lvs headerdragdrop
+new bits
+widget style
+ bits
+widget style
+
+lvs shareimagelists
+ style
+ swt
+hide selection
+ bits
+
+lvs showselalways
+ style
+ swt
+ single
+ bits
+
+lvs singlesel
+ bits
+
+lvs report
+
+lvs nocolumnheader
+ style
+ swt
+ virtual
+ bits
+
+lvs ownerdata
+ bits
+ tchar
+window class
+table class
+window proc
+table proc
+ lresult
+ char
+ param
+ param
+ lresult
+ result
+ char
+ param
+ param
+ result
+ result
+ param
+ style
+ swt
+ check
+ index
+
+send message
+ handle
+
+lvm getnextitem
+
+lvni focused
+ index
+table item
+ item
+_get item
+ index
+ item
+set checked
+ item
+get checked
+
+ win
+
+notify win event
+
+event object focus
+ handle
+
+objid client
+ index
+ code
+call window proc
+ handle
+
+ keydown
+ param
+ param
+ lresult
+ code
+ swt
+
+ index
+
+send message
+ handle
+
+lvm getnextitem
+
+lvni focused
+ index
+ event
+ event
+ event
+ event
+ item
+_get item
+ index
+post event
+ swt
+default selection
+ event
+ lresult
+ zero
+ result
+ lresult
+ erasebkgnd
+ param
+ param
+ lresult
+ result
+ erasebkgnd
+ param
+ param
+ result
+ result
+ result
+ lresult
+ getobject
+ param
+ param
+ style
+ swt
+ check
+ accessible
+ accessible
+new accessible
+ getobject
+ param
+ param
+ lresult
+ keydown
+ param
+ param
+ lresult
+ result
+ keydown
+ param
+ param
+ result
+ result
+ param
+
+ space
+ lresult
+ zero
+
+
+
+ down
+
+ prior
+
+ next
+
+ home
+
+ end
+
+send message
+ handle
+
+ changeuistate
+
+uis initialize
+ result
+ lresult
+ killfocus
+ param
+ param
+ lresult
+ result
+ killfocus
+ param
+ param
+ style
+ swt
+hide selection
+image list
+ style
+ swt
+ check
+
+invalidate rect
+ handle
+ result
+ lresult
+ lbuttondblclk
+ param
+ param
+ lvhittestinfo
+ pinfo
+ lvhittestinfo
+ pinfo
+
+ param
+ pinfo
+
+ param
+ index
+
+send message
+ handle
+
+lvm hittest
+ pinfo
+send mouse event
+ swt
+mouse down
+ handle
+
+ lbuttondown
+ param
+ param
+send mouse event
+ swt
+mouse double click
+ handle
+
+ lbuttondblclk
+ param
+ param
+ pinfo
+ item
+call window proc
+ handle
+
+ lbuttondblclk
+ param
+ param
+
+get capture
+ handle
+
+set capture
+ handle
+ style
+ swt
+ check
+ index
+ pinfo
+ flags
+
+lvht onitemstateicon
+table item
+ item
+_get item
+ index
+ item
+set checked
+ item
+get checked
+
+ win
+
+notify win event
+
+event object focus
+ handle
+
+objid client
+ index
+ lresult
+ zero
+ lresult
+ lbuttondown
+ param
+ param
+ lresult
+ result
+send mouse down event
+ swt
+mouse down
+
+ lbuttondown
+ param
+ param
+ style
+ swt
+ check
+ lvhittestinfo
+ pinfo
+ lvhittestinfo
+ pinfo
+
+ param
+ pinfo
+
+ param
+ index
+
+send message
+ handle
+
+lvm hittest
+ pinfo
+ index
+ pinfo
+ flags
+
+lvht onitemstateicon
+table item
+ item
+_get item
+ index
+ item
+set checked
+ item
+get checked
+
+ win
+
+notify win event
+
+event object focus
+ handle
+
+objid client
+ index
+ result
+ lresult
+ mousehover
+ param
+ param
+ lresult
+ result
+ mousehover
+ param
+ param
+ bits
+
+send message
+ handle
+
+lvm getextendedlistviewstyle
+ mask
+
+lvs oneclickactivate
+
+lvs trackselect
+
+lvs twoclickactivate
+ bits
+ mask
+ result
+ lresult
+ zero
+ lresult
+ paint
+ param
+ param
+ignore shrink
+ count
+
+send message
+ handle
+
+lvm getitemcount
+ items
+ length
+ items
+ length
+ count
+ length
+ math
+ max
+ count
+table item
+new items
+table item
+ length
+ system
+ arraycopy
+ items
+new items
+ count
+ items
+new items
+fix scroll width
+set scroll width
+ paint
+ param
+ param
+ lresult
+ notify
+ param
+ param
+ nmhdr
+ hdr
+ nmhdr
+
+move memory
+ hdr
+ param
+ nmhdr
+ sizeof
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+ hdr
+hwnd from
+hwnd header
+ hdr
+ code
+
+hdn begintrackw
+
+hdn begintracka
+
+hdn dividerdblclickw
+
+hdn dividerdblclicka
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+ count
+ columns
+ lresult
+ one
+ nmheader
+ phdn
+ nmheader
+
+move memory
+ phdn
+ param
+ nmheader
+ sizeof
+table column
+ column
+ columns
+ phdn
+ item
+ column
+ column
+get resizable
+ lresult
+ one
+
+ releasedcapture
+cancel move
+
+hdn begindrag
+cancel move
+ lresult
+ one
+ bits
+
+send message
+ handle
+
+lvm getextendedlistviewstyle
+ bits
+
+lvs headerdragdrop
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+ count
+ columns
+ lresult
+ one
+ nmheader
+ phdn
+ nmheader
+
+move memory
+ phdn
+ param
+ nmheader
+ sizeof
+ phdn
+ item
+table column
+ column
+ columns
+ phdn
+ item
+ column
+ column
+get moveable
+cancel move
+ lresult
+ one
+
+hdn enddrag
+cancel move
+ bits
+
+send message
+ handle
+
+lvm getextendedlistviewstyle
+ bits
+
+lvs headerdragdrop
+ nmheader
+ phdn
+ nmheader
+
+move memory
+ phdn
+ param
+ nmheader
+ sizeof
+ phdn
+ item
+ phdn
+ pitem
+ hditem
+ pitem
+ hditem
+
+move memory
+ pitem
+ phdn
+ pitem
+ hditem
+ sizeof
+ pitem
+ mask
+
+hdi order
+ pitem
+ order
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+ count
+ columns
+ order
+ count
+
+send message
+ handle
+
+lvm getcolumnorderarray
+ count
+ order
+ index
+ index
+ order
+ length
+ order
+ index
+ phdn
+ item
+ index
+ index
+ order
+ length
+ index
+ index
+ pitem
+ order
+ start
+ math
+ min
+ index
+ pitem
+ order
+ end
+ math
+ max
+ index
+ pitem
+ order
+
+ start
+
+ end
+
+table column
+ column
+ columns
+ order
+
+ column
+ disposed
+ column
+post event
+ swt
+ move
+
+hdn itemchangedw
+
+hdn itemchangeda
+ width
+
+send message
+ handle
+
+lvm getcolumnwidth
+last width
+ width
+ bits
+
+send message
+ handle
+
+lvm getextendedlistviewstyle
+ bits
+
+lvs gridlines
+ rect
+ rect
+ rect
+
+get client rect
+ handle
+ rect
+ rect
+ right
+ rect
+ left
+ width
+
+invalidate rect
+ handle
+ rect
+last width
+ width
+ignore resize
+ nmheader
+ phdn
+ nmheader
+
+move memory
+ phdn
+ param
+ nmheader
+ sizeof
+ phdn
+ pitem
+ hditem
+ pitem
+ hditem
+
+move memory
+ pitem
+ phdn
+ pitem
+ hditem
+ sizeof
+ pitem
+ mask
+
+hdi width
+table column
+ column
+ columns
+ phdn
+ item
+ column
+ column
+send event
+ swt
+ resize
+ disposed
+ lresult
+ zero
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+ count
+ columns
+ count
+table column
+new columns
+table column
+ count
+ system
+ arraycopy
+ columns
+new columns
+ count
+ order
+ count
+
+send message
+ handle
+
+lvm getcolumnorderarray
+ count
+ order
+ moved
+
+
+ count
+
+table column
+next column
+new columns
+ order
+
+ moved
+next column
+ disposed
+next column
+send event
+ swt
+ move
+next column
+ column
+ moved
+
+hdn itemdblclickw
+
+hdn itemdblclicka
+ nmheader
+ phdn
+ nmheader
+
+move memory
+ phdn
+ param
+ nmheader
+ sizeof
+table column
+ column
+ columns
+ phdn
+ item
+ column
+ column
+post event
+ swt
+default selection
+ lresult
+ result
+ notify
+ param
+ param
+ result
+ result
+ hdr
+ code
+
+ttn getdispinfoa
+
+ttn getdispinfow
+tip requested
+ code
+call window proc
+ handle
+
+ notify
+ param
+ param
+tip requested
+ lresult
+ code
+ result
+ lresult
+ rbuttondblclk
+ param
+ param
+ lvhittestinfo
+ pinfo
+ lvhittestinfo
+ pinfo
+
+ param
+ pinfo
+
+ param
+
+send message
+ handle
+
+lvm hittest
+ pinfo
+send mouse event
+ swt
+mouse down
+ handle
+
+ rbuttondown
+ param
+ param
+send mouse event
+ swt
+mouse double click
+ handle
+
+ rbuttondblclk
+ param
+ param
+ pinfo
+ item
+call window proc
+ handle
+
+ rbuttondblclk
+ param
+ param
+
+get capture
+ handle
+
+set capture
+ handle
+ lresult
+ zero
+ lresult
+ rbuttondown
+ param
+ param
+send mouse down event
+ swt
+mouse down
+
+ rbuttondown
+ param
+ param
+ lresult
+ setfocus
+ param
+ param
+ lresult
+ result
+ setfocus
+ param
+ param
+ count
+
+send message
+ handle
+
+lvm getitemcount
+ count
+ result
+ index
+
+send message
+ handle
+
+lvm getnextitem
+
+lvni focused
+ index
+ lvitem
+ item
+ lvitem
+ item
+ state
+
+lvis focused
+ item
+state mask
+
+lvis focused
+ignore select
+
+send message
+ handle
+
+lvm setitemstate
+ item
+ignore select
+ result
+ lresult
+ syscolorchange
+ param
+ param
+ lresult
+ result
+ syscolorchange
+ param
+ param
+ result
+ result
+ background
+ pixel
+default background
+
+send message
+ handle
+
+lvm setbkcolor
+ pixel
+
+send message
+ handle
+
+lvm settextbkcolor
+ pixel
+ style
+ swt
+ check
+set checkbox image list color
+ result
+ lresult
+ vscroll
+ param
+ param
+ lresult
+ result
+ vscroll
+ param
+ param
+ bits
+
+send message
+ handle
+
+lvm getextendedlistviewstyle
+ bits
+
+lvs gridlines
+ code
+ param
+ code
+
+ endscroll
+
+ thumbposition
+
+ thumbtrack
+
+ top
+
+ bottom
+
+ linedown
+
+ lineup
+header height
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+hwnd header
+ rect
+ rect
+ rect
+
+get window rect
+hwnd header
+ rect
+header height
+ rect
+ bottom
+ rect
+ top
+ rect
+ rect
+ rect
+
+get client rect
+ handle
+ rect
+ rect
+ top
+header height
+ empty
+
+send message
+ handle
+
+lvm approximateviewrect
+one item
+
+send message
+ handle
+
+lvm approximateviewrect
+item height
+one item
+ empty
+ code
+
+ linedown
+ rect
+ top
+ rect
+ bottom
+item height
+grid width
+ rect
+ bottom
+ rect
+ top
+item height
+grid width
+
+invalidate rect
+ handle
+ rect
+
+ pagedown
+
+ pageup
+
+invalidate rect
+ handle
+ result
+ lresult
+notify child
+ param
+ param
+ nmhdr
+ hdr
+ nmhdr
+
+move memory
+ hdr
+ param
+ nmhdr
+ sizeof
+ hdr
+ code
+
+lvn odfinditema
+
+lvn odfinditemw
+ style
+ swt
+ virtual
+ nmlvfinditem
+ pnmfi
+ nmlvfinditem
+
+move memory
+ pnmfi
+ param
+ nmlvfinditem
+ sizeof
+ index
+ math
+ max
+ pnmfi
+ start
+ lresult
+ index
+
+lvn getdispinfoa
+
+lvn getdispinfow
+ nmlvdispinfo
+ plvfi
+ nmlvdispinfo
+
+move memory
+ plvfi
+ param
+ nmlvdispinfo
+ sizeof
+table item
+ item
+_get item
+ plvfi
+ item
+ item
+ cached
+ style
+ swt
+ virtual
+last index
+ plvfi
+ item
+check data
+ item
+table item
+new item
+fix scroll width
+ item
+set scroll width
+new item
+
+invalidate rect
+ handle
+ item
+ cached
+ plvfi
+ mask
+
+lvif text
+ string
+ string
+ plvfi
+sub item
+ string
+ item
+ text
+ string
+ strings
+ item
+ strings
+ strings
+ string
+ strings
+ plvfi
+sub item
+ string
+tip requested
+ string
+ length
+ plvfi
+sub item
+ string
+ tchar
+ buffer
+ tchar
+get code page
+ string
+byte count
+ math
+ min
+ buffer
+ length
+ plvfi
+cch text max
+ tchar
+ sizeof
+
+move memory
+ plvfi
+psz text
+ buffer
+byte count
+
+move memory
+ plvfi
+psz text
+byte count
+ tchar
+ sizeof
+ tchar
+ sizeof
+ plvfi
+cch text max
+ math
+ min
+ plvfi
+cch text max
+ string
+ length
+ plvfi
+ mask
+
+lvif image
+ image
+ image
+ plvfi
+sub item
+ image
+ item
+ image
+ image
+ images
+ item
+ images
+ images
+ image
+ images
+ plvfi
+sub item
+ image
+ plvfi
+ image
+image index
+ image
+ plvfi
+ mask
+
+lvif state
+ plvfi
+sub item
+ state
+ item
+ checked
+ state
+ item
+ grayed
+ state
+ plvfi
+ state
+ state
+ plvfi
+state mask
+
+lvis stateimagemask
+ plvfi
+ mask
+
+lvif indent
+ plvfi
+sub item
+ plvfi
+ indent
+ item
+image indent
+
+move memory
+ param
+ plvfi
+ nmlvdispinfo
+ sizeof
+
+ customdraw
+custom draw
+ nmlvcustomdraw
+ nmcd
+ nmlvcustomdraw
+
+move memory
+ nmcd
+ param
+ nmlvcustomdraw
+ sizeof
+ nmcd
+draw stage
+
+cdds prepaint
+ lresult
+
+cdrf notifyitemdraw
+
+cdds itemprepaint
+ lresult
+
+cdrf notifysubitemdraw
+
+cdds itemprepaint
+
+cdds subitem
+table item
+ item
+_get item
+ nmcd
+item spec
+ font
+ item
+cell font
+ item
+cell font
+ nmcd
+sub item
+ font
+ font
+ item
+ font
+clr text
+ item
+cell foreground
+ item
+cell foreground
+ nmcd
+sub item
+clr text
+clr text
+ item
+ foreground
+clr text
+ item
+cell background
+ item
+cell background
+ nmcd
+sub item
+clr text
+clr text
+ item
+ background
+ font
+clr text
+clr text
+ item
+cell foreground
+ item
+cell background
+ item
+cell font
+hwnd header
+
+send message
+ handle
+
+lvm getheader
+ count
+
+send message
+hwnd header
+
+hdm getitemcount
+ count
+ font
+ font
+
+send message
+ handle
+
+ getfont
+
+select object
+ nmcd
+ hdc
+ font
+
+window enabled
+ handle
+ nmcd
+clr text
+clr text
+get foreground pixel
+clr text
+ nmcd
+clr text
+clr text
+get background pixel
+clr text
+
+move memory
+ param
+ nmcd
+ nmlvcustomdraw
+ sizeof
+ lresult
+
+cdrf newfont
+
+lvn marqueebegin
+ lresult
+ one
+
+lvn begindrag
+
+lvn beginrdrag
+drag started
+ hdr
+ code
+
+lvn begindrag
+ pos
+
+get message pos
+ point
+
+ point
+
+
+ pos
+
+
+ pos
+
+screen client
+ handle
+
+ event
+ event
+ event
+ event
+
+
+
+ event
+
+
+
+post event
+ swt
+drag detect
+ event
+
+lvn columnclick
+ nmlistview
+ pnmlv
+ nmlistview
+
+move memory
+ pnmlv
+ param
+ nmlistview
+ sizeof
+table column
+ column
+ columns
+ pnmlv
+sub item
+ column
+ column
+post event
+ swt
+ selection
+
+lvn itemactivate
+ignore activate
+ nmlistview
+ pnmlv
+ nmlistview
+
+move memory
+ pnmlv
+ param
+ nmlistview
+ sizeof
+ pnmlv
+ item
+ event
+ event
+ event
+ event
+ item
+_get item
+ pnmlv
+ item
+post event
+ swt
+default selection
+ event
+
+lvn itemchanged
+ignore select
+ nmlistview
+ pnmlv
+ nmlistview
+
+move memory
+ pnmlv
+ param
+ nmlistview
+ sizeof
+ pnmlv
+ changed
+
+lvif state
+ pnmlv
+ item
+was selected
+old selected
+ pnmlv
+new state
+
+lvis selected
+new selected
+ pnmlv
+old state
+
+lvis selected
+old selected
+new selected
+was selected
+
+ recognizegesture
+
+ ppc
+has menu
+ menu
+ menu
+ disposed
+has menu
+ hooks
+ swt
+menu detect
+ lresult
+ one
+
+ contextmenu
+
+ ppc
+has menu
+ menu
+ menu
+ disposed
+has menu
+ hooks
+ swt
+menu detect
+ nmrginfo
+ nmrg
+ nmrginfo
+
+move memory
+ nmrg
+ param
+ nmrginfo
+ sizeof
+show menu
+ nmrg
+
+ nmrg
+
+ lresult
+ one
+notify child
+ param
+ param
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  implement  selectable  user  interface  object  that  displays  list  images  and  strings  and  issue  notification  when  selected  the  item  children  that  may  added  instances  this  class  must  type  code table item  code  note  that  although  this  class  subclass  code  composite  code  does  not  make  sense  add  code  control  code  children  set  layout  styles  single  multi  check  full  selection  hide  selection  virtual  events  selection default selection  note  only  one  the  styles  single  and  multi  may  specified  important  this  class  not  intended  subclassed 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  single  see  swt  multi  see  swt  check  see  swt  full  selection  see  swt  hide  selection  see  swt  virtual  see  widget check subclass  see  widget get style
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  receiver  selection  changes  sending  one  the  messages  defined  the  code selection listener  code  interface  when  code widget selected  code  called  the  item  field  the  event  object  valid  the  reciever  has  code  swt  check  code  style  set  and  the  check  selection  changes  the  event  object  detail  field  contains  the  value  code  swt  check  code  code widget default selected  code  typically  called  when  item  double  clicked  the  item  field  the  event  object  valid  for  default  selection  but  the  detail  field  not  used  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener  see selection event
+case  mousewheel
+bug  windows  for  some  reason  when  the  user  clicks  this  control  the  windows  hook  msgfilter  sent  despite  the  fact  that  input  event  from  dialog  box  message  box  menu  scroll  bar  did  not  seem  occur  the  fix  ignore  the  hook
+feature  windows  windows  sends  lvn  itemactivate  from  keydown  instead  char  this  means  that  application  code  that  expects  consume  the  key  press  and  therefore  avoid  swt default selection  event  will  fail  the  fix  ignore  lvn  itemactivate  when  caused  keydown  and  send  swt default selection  from  char
+feature  windows  not  possible  create  table  that  does  not  have  scroll  bars  therefore  matter  what  style  bits  are  specified  set  the  scroll  and  scroll  bits  that  the  swt  style  will  match  the  widget  that  windows  creates
+widget  could  disposed  this  point
+clears  the  item  the  given  zero  relative  index  the  receiver  the  text  icon  and  other  attributes  the  item  are  set  the  default  value  the  table  was  created  with  the  swt  virtual  style  these  attributes  are  requested  again  needed  param  index  the  index  the  item  clear  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  swt  virtual  see  swt set data  since 
+bug  windows  despite  the  fact  that  every  item  the  table  always  has  lpstr  textcallback  windows  caches  the  bounds  for  the  selected  items  this  means  that  when  you  change  the  string  something  else  windows  correctly  asks  you  for  the  new  string  but  when  the  item  selected  the  selection  draws  using  the  bounds  the  previous  item  the  fix  reset  lpstr  textcallback  even  though  has  not  changed  causing  windows  flush  cached  bounds
+removes  the  items  from  the  receiver  which  are  between  the  given  zero  relative  start  and  end  indices  inclusive  the  text  icon  and  other  attribues  the  items  are  set  their  default  values  the  table  was  created  with  the  swt  virtual  style  these  attributes  are  requested  again  needed  param  start  the  start  index  the  item  clear  param  end  the  end  index  the  item  clear  exception illegal argument exception  error  invalid  range  either  the  start  end  are  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  swt  virtual  see  swt set data  since 
+bug  windows  despite  the  fact  that  every  item  the  table  always  has  lpstr  textcallback  windows  caches  the  bounds  for  the  selected  items  this  means  that  when  you  change  the  string  something  else  windows  correctly  asks  you  for  the  new  string  but  when  the  item  selected  the  selection  draws  using  the  bounds  the  previous  item  the  fix  reset  lpstr  textcallback  even  though  has  not  changed  causing  windows  flush  cached  bounds
+clears  the  items  the  given  zero  relative  indices  the  receiver  the  text  icon  and  other  attribues  the  items  are  set  their  default  values  the  table  was  created  with  the  swt  virtual  style  these  attributes  are  requested  again  needed  param  indices  the  array  indices  the  items  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  error  null  argument  the  indices  array  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  swt  virtual  see  swt set data  since 
+bug  windows  despite  the  fact  that  every  item  the  table  always  has  lpstr  textcallback  windows  caches  the  bounds  for  the  selected  items  this  means  that  when  you  change  the  string  something  else  windows  correctly  asks  you  for  the  new  string  but  when  the  item  selected  the  selection  draws  using  the  bounds  the  previous  item  the  fix  reset  lpstr  textcallback  even  though  has  not  changed  causing  windows  flush  cached  bounds
+clears  all  the  items  the  receiver  the  text  icon  and  other  attribues  the  items  are  set  their  default  values  the  table  was  created  with  the  swt  virtual  style  these  attributes  are  requested  again  needed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  swt  virtual  see  swt set data  since 
+bug  windows  despite  the  fact  that  every  item  the  table  always  has  lpstr  textcallback  windows  caches  the  bounds  for  the  selected  items  this  means  that  when  you  change  the  string  something  else  windows  correctly  asks  you  for  the  new  string  but  when  the  item  selected  the  selection  draws  using  the  bounds  the  previous  item  the  fix  reset  lpstr  textcallback  even  though  has  not  changed  causing  windows  flush  cached  bounds
+feature  windows  the  height  returned  lvm  approximateviewrect  includes  the  trim  plus  the  height  the  items  plus  one  extra  row  the  fix  subtract  the  height  one  row  from  the  result  height
+feature  windows  version  comctl  dll  the  font  changed  for  item  the  bounds  for  the  item  are  not  updated  causing  the  text  clipped  the  fix  detect  the  version  comctl  dll  and  one  the  versions  with  the  problem  then  use  version  the  control  version  that  does  not  have  the  problem  this  the  recomended  work  around  from  the  msdn
+this  code  intentionally  commented  according  the  documentation  setting  the  default  item  size  supposed  improve  performance  experimentation  this  does  not  seem  have  much  effect
+send message  handle  lvm  setitemcount  1024 
+set  the  checkbox  image  list
+feature  windows  when  the  control  created  does  not  use  the  default  system  font  new  hfont  created  and  destroyed  when  the  control  destroyed  this  means  that  program  that  queries  the  font  from  this  control  uses  the  font  another  control  and  then  destroys  this  control  will  have  the  font  unexpectedly  destroyed  the  other  control  the  fix  assign  the  font  ourselves  each  time  the  control  created  the  control  will  not  destroy  font  that  did  not  create
+bug  windows  when  the  first  column  inserted  without  setting  the  header  text  windows  will  never  allow  the  header  text  for  the  first  column  set  the  fix  set  the  text  empty  string  when  the  column  inserted
+set  the  extended  style  bits
+feature  windows  windows  does  not  explicitly  set  the  orientation  the  header  instead  the  orientation  inherited  when  layoutrtl  specified  for  the  table  this  means  that  when  both  layoutrtl  and  noinheritlayout  are  specified  for  the  table  the  header  will  not  oriented  correctly  the  fix  explicitly  set  the  orientation  for  the  header  note  layoutrtl  not  supported  windows 
+non  nls 
+insert  the  column  into  the  columns  array  before  inserting  into  the  widget  that  the  column  will  present  when  any  callbacks  are  issued  result  lvm  insertcolumn  lvm  setcolumn
+ensure  that  resize  listeners  for  the  table  and  for  columns  within  the  table  are  not  called  this  can  happen  when  the  first  column  inserted  into  table  when  new  column  inserted  the  first  position
+grow  the  array  faster  when  redraw  off  the  table  not  visible  when  the  table  painted  the  items  array  resized  smaller  reduce  memory  usage
+bug  windows  despite  the  fact  that  the  image  list  index  has  never  been  set  for  the  item  windows  always  assumes  that  the  image  index  for  the  item  valid  when  item  inserted  the  image  index  zero  therefore  when  the  first  image  inserted  and  assigned  image  index  zero  every  item  draws  with  this  image  the  fix  set  the  image  index  when  the  the  item  created
+insert  the  item
+force  virtual  tables  use  custom  draw  this  necessary  support  colors  and  fonts  for  table  items  when  the  application  queried  for  data  setting  the  custom  draw  flag  that  time  too  late  the  current  item  not  redrawn  order  avoid  recursion  and  customdraw  has  already  been  avoided  because  the  time  the  message  there  were  items  that  required  custom  drawing
+deselects  the  items  the  given  zero  relative  indices  the  receiver  the  item  the  given  zero  relative  index  the  receiver  selected  deselected  the  item  the  index  was  not  selected  remains  deselected  indices  that  are  out  range  and  duplicate  indices  are  ignored  param  indices  the  array  indices  for  the  items  deselect  exception illegal argument exception  error  null  argument  the  set  indices  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+index  will  apply  the  change  all  items  ensure  that  indices  are  greater  than 
+deselects  the  item  the  given  zero  relative  index  the  receiver  the  item  the  index  was  already  deselected  remains  deselected  indices  that  are  out  range  are  ignored  param  index  the  index  the  item  deselect  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+index  will  apply  the  change  all  items  ensure  that  index  greater  than 
+deselects  the  items  the  given  zero  relative  indices  the  receiver  the  item  the  given  zero  relative  index  the  receiver  selected  deselected  the  item  the  index  was  not  selected  remains  deselected  the  range  the  indices  inclusive  indices  that  are  out  range  are  ignored  param  start  the  start  index  the  items  deselect  param  end  the  end  index  the  items  deselect  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+index  will  apply  the  change  all  items  ensure  that  indices  are  greater  than 
+deselects  all  selected  items  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+non  nls 
+non  nls 
+bug  windows  when  the  state  image  list  larger  than  the  image  list  windows  incorrectly  positions  the  state  images  when  the  table  scrolled  windows  draws  garbage  the  fix  force  the  state  image  list  the  same  size  the  image  list
+returns  the  column  the  given  zero  relative  index  the  receiver  throws  exception  the  index  out  range  code table column  code  were  created  the  programmer  this  method  will  throw  code  error  invalid  range  code  despite  the  fact  that  single  column  data  may  visible  the  table  this  occurs  when  the  programmer  uses  the  table  like  list  adding  items  but  never  creating  column  param  index  the  index  the  column  return  return  the  column  the  given  index  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  number  columns  contained  the  receiver  code table column  code  were  created  the  programmer  this  value  zero  despite  the  fact  that  visually  one  column  items  may  visible  this  occurs  when  the  programmer  uses  the  table  like  list  adding  items  but  never  creating  column  return  the  number  columns  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  array  zero  relative  integers  that  map  the  creation  order  the  receiver  items  the  order  which  they  are  currently  being  displayed  specifically  the  indices  the  returned  array  represent  the  current  visual  order  the  items  and  the  contents  the  array  represent  the  creation  order  the  items  note  this  not  the  actual  structure  used  the  receiver  maintain  its  list  items  modifying  the  array  will  not  affect  the  receiver  return  the  current  visual  order  the  receiver  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  table set column order  int  see table column get moveable  see table column set moveable  boolean  see  swt  move  since 
+returns  array  code table column  code  which  are  the  columns  the  receiver  code table column  code  were  created  the  programmer  the  array  empty  despite  the  fact  that  visually  one  column  items  may  visible  this  occurs  when  the  programmer  uses  the  table  like  list  adding  items  but  never  creating  column  note  this  not  the  actual  structure  used  the  receiver  maintain  its  list  items  modifying  the  array  will  not  affect  the  receiver  return  the  items  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+not  currently  used
+ check widget
+the  windows  table  control  uses  clr  default  indicate  that  using  the  default  foreground  color  this  undocumented
+returns  the  width  pixels  grid  line  return  the  width  grid  line  pixels  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  height  the  receiver  header  return  the  height  the  header  zero  the  header  not  visible  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  code  true  code  the  receiver  header  visible  and  code  false  code  otherwise  one  the  receiver  ancestors  not  visible  some  other  condition  makes  the  receiver  not  visible  this  method  may  still  indicate  that  considered  visible  even  though  may  not  actually  showing  return  the  receiver  header  visibility  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  item  the  given  zero  relative  index  the  receiver  throws  exception  the  index  out  range  param  index  the  index  the  item  return  return  the  item  the  given  index  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  item  the  given  point  the  receiver  null  such  item  exists  the  point  the  coordinate  system  the  receiver  param  point  the  point  used  locate  the  item  return  the  item  the  given  point  exception illegal argument exception  error  null  argument  the  point  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  number  items  contained  the  receiver  return  the  number  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  height  the  area  which  would  used  display  one  the  items  the  receiver  return  the  height  one  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  possibly  empty  array  code table item  code  which  are  the  items  the  receiver  note  this  not  the  actual  structure  used  the  receiver  maintain  its  list  items  modifying  the  array  will  not  affect  the  receiver  return  the  items  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  true  code  the  receiver  lines  are  visible  and  code  false  code  otherwise  one  the  receiver  ancestors  not  visible  some  other  condition  makes  the  receiver  not  visible  this  method  may  still  indicate  that  considered  visible  even  though  may  not  actually  showing  return  the  visibility  state  the  lines  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  array  code table item  code  that  are  currently  selected  the  receiver  the  order  the  items  unspecified  empty  array  indicates  that  items  are  selected  note  this  not  the  actual  structure  used  the  receiver  maintain  its  selection  modifying  the  array  will  not  affect  the  receiver  return  array  representing  the  selection  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  number  selected  items  contained  the  receiver  return  the  number  selected  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  zero  relative  index  the  item  which  currently  selected  the  receiver  item  selected  return  the  index  the  selected  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  zero  relative  indices  the  items  which  are  currently  selected  the  receiver  the  order  the  indices  unspecified  the  array  empty  items  are  selected  note  this  not  the  actual  structure  used  the  receiver  maintain  its  selection  modifying  the  array  will  not  affect  the  receiver  return  the  array  indices  the  selected  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  zero  relative  index  the  item  which  currently  the  top  the  receiver  this  index  can  change  when  items  are  scrolled  new  items  are  added  removed  return  the  index  the  top  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  windows  under  rare  circumstances  lvm  gettopindex  can  return  negative  number  when  this  happens  the  table  displaying  blank  lines  the  top  the  controls  the  fix  check  for  negative  number  and  return  zero  instead
+bug  windows  making  any  change  item  that  changes  the  item  height  table  while  the  table  scrolled  can  cause  the  lines  draw  incorrectly  this  happens  even  when  the  lines  are  not  currently  visible  and  are  shown  afterwards  the  fix  save  the  top  index  scroll  the  top  the  table  and  then  restore  the  original  top  index
+searches  the  receiver  list  starting  the  first  column  index  until  column  found  that  equal  the  argument  and  returns  the  index  that  column  column  found  returns  param  column  the  search  column  return  the  index  the  column  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+searches  the  receiver  list  starting  the  first  item  index  until  item  found  that  equal  the  argument  and  returns  the  index  that  item  item  found  returns  param  item  the  search  item  return  the  index  the  item  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  true  code  the  item  selected  and  code  false  code  otherwise  indices  out  range  are  ignored  param  index  the  index  the  item  return  the  visibility  state  the  item  the  index  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  when  there  are  large  number  columns  and  items  table  1000  where  each  the  subitems  the  table  has  string  much  faster  delete  each  item  with  lvm  deleteitem  rather  than  using  lvm  deleteallitems  the  fix  detect  this  case  and  delete  the  items  one  one  the  fact  that  the  fix  only  necessary  windows  was  confirmed  using  version  comctl  dll  both  windows  and  note  lvm  deleteallitems  also  sent  the  table  when  the  table  destroyed
+turn  off  redraw  and  leave  off
+removes  the  items  from  the  receiver  list  the  given  zero  relative  indices  param  indices  the  array  indices  the  items  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  error  null  argument  the  indices  array  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+removes  the  item  from  the  receiver  the  given  zero  relative  index  param  index  the  index  for  the  item  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+removes  the  items  from  the  receiver  which  are  between  the  given  zero  relative  start  and  end  indices  inclusive  param  start  the  start  the  range  param  end  the  end  the  range  exception illegal argument exception  error  invalid  range  either  the  start  end  are  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+removes  all  the  items  from  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  when  there  are  large  number  columns  and  items  table  1000  where  each  the  subitems  the  table  has  string  much  faster  delete  each  item  with  lvm  deleteitem  rather  than  using  lvm  deleteallitems  the  fix  detect  this  case  and  delete  the  items  one  one  the  fact  that  the  fix  only  necessary  windows  was  confirmed  using  version  comctl  dll  both  windows  and  note  lvm  deleteallitems  also  sent  the  table  when  the  table  destroyed
+this  code  intentionally  commented  the  window  proc  for  the  table  implements  setredraw  invalidate  and  erase  the  table  not  necessary  this  again
+int  flags  rdw  erase  rdw  frame  rdw  invalidate
+redraw window  handle  null  flags
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  receiver  selection  changes  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener selection listener
+selects  the  items  the  given  zero  relative  indices  the  receiver  the  current  selection  not  cleared  before  the  new  items  are  selected  the  item  given  index  not  selected  selected  the  item  given  index  was  already  selected  remains  selected  indices  that  are  out  range  and  duplicate  indices  are  ignored  the  receiver  single  select  and  multiple  indices  are  specified  then  all  indices  are  ignored  param  indices  the  array  indices  for  the  items  select  exception illegal argument exception  error  null  argument  the  array  indices  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  table set selection  int
+index  will  apply  the  change  all  items  ensure  that  indices  are  greater  than 
+selects  the  item  the  given  zero  relative  index  the  receiver  the  item  the  index  was  already  selected  remains  selected  indices  that  are  out  range  are  ignored  param  index  the  index  the  item  select  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+index  will  apply  the  change  all  items  ensure  that  index  greater  than 
+selects  the  items  the  range  specified  the  given  zero  relative  indices  the  receiver  the  range  indices  inclusive  the  current  selection  not  cleared  before  the  new  items  are  selected  item  the  given  range  not  selected  selected  item  the  given  range  was  already  selected  remains  selected  indices  that  are  out  range  are  ignored  and  items  will  selected  start  greater  than  end  the  receiver  single  select  and  there  more  than  one  item  the  given  range  then  all  indices  are  ignored  param  start  the  start  the  range  param  end  the  end  the  range  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  table set selection  int  int
+index  will  apply  the  change  all  items  indices  must  greater  than 
+selects  all  the  items  the  receiver  the  receiver  single  select  nothing  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  inside  lbuttondown  and  rbuttondown  the  widget  starts  modal  loop  determine  the  user  wants  begin  drag  drop  operation  marque  select  unfortunately  this  modal  loop  eats  the  corresponding  mouse  the  fix  detect  the  cases  when  the  modal  loop  has  eaten  the  mouse  and  issue  fake  mouse  observation  when  the  mouse  clicked  anywhere  but  the  check  box  the  widget  eats  the  mouse  when  the  mouse  dragged  the  widget  does  not  eat  the  mouse 
+force  the  table  have  focus  that  when  the  user  reselects  the  focus  item  the  lvis  focused  state  bits  for  the  item  will  set  the  user  did  not  click  item  then  set  focus  the  table  that  will  come  the  front  and  take  focus  the  work  around  below
+feature  windows  when  the  user  selects  outside  table  item  windows  deselects  all  the  items  even  when  the  table  multi  select  while  not  strictly  wrong  this  unexpected  the  fix  detect  the  case  and  avoid  calling  the  window  proc
+feature  windows  when  table  item  reselected  single  select  table  windows  does  not  issue  notify  because  the  item  state  has  not  changed  this  strictly  correct  but  inconsistent  with  the  list  widget  and  other  widgets  windows  the  fix  detect  the  case  when  item  mark  selected
+feature  windows  when  the  background  color  changed  the  table  does  not  redraw  until  the  next  paint  the  fix  force  redraw
+bug  windows  the  table  column  widths  are  adjusted  size  positionchanged  using  lvm  setcolumnwidth  blank  lines  may  inserted  the  top  the  table  call  lvm  gettopindex  will  return  negative  number  this  impossible  result  once  the  blank  lines  appear  there  seems  way  get  rid  them  other  than  destroying  and  recreating  the  table  observation  the  problem  happens  when  the  height  the  table  less  than  the  two  times  the  height  line  this  was  tested  using  different  fonts  and  images  also  seems  that  the  bug  does  not  occur  when  the  redraw  turned  off  for  the  table  the  fix  turn  off  drawing  when  resizing  table  that  small  enough  show  the  problem
+sets  the  order  that  the  items  the  receiver  should  displayed  the  given  argument  which  described  terms  the  zero  relative  ordering  when  the  items  were  added  param  order  the  new  order  display  the  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  exception illegal argument exception  error  null  argument  the  item  order  null  error  invalid  argument  the  item  order  not  the  same  length  the  number  items  see  table get column order  see table column get moveable  see table column set moveable  boolean  see  swt  move  since 
+bug  windows  when  lvm  setcolumnorderarray  used  change  the  column  order  the  header  redraws  correctly  but  the  table  does  not  the  fix  force  redraw
+ check widget
+index  will  apply  the  change  all  items  ensure  that  index  greater  than 
+bug  windows  making  any  change  item  that  changes  the  item  height  table  while  the  table  scrolled  can  cause  the  lines  draw  incorrectly  this  happens  even  when  the  lines  are  not  currently  visible  and  are  shown  afterwards  the  fix  save  the  top  index  scroll  the  top  the  table  and  then  restore  the  original  top  index
+bug  windows  setting  the  font  will  cause  the  table  redrawn  but  not  the  column  headers  the  fix  force  redraw  the  column  headers
+the  windows  table  control  uses  clr  default  indicate  that  using  the  default  foreground  color  this  undocumented
+feature  windows  when  the  foreground  color  changed  the  table  does  not  redraw  until  the  next  paint  the  fix  force  redraw
+marks  the  receiver  header  visible  the  argument  code  true  code  and  marks  invisible  otherwise  one  the  receiver  ancestors  not  visible  some  other  condition  makes  the  receiver  not  visible  marking  visible  may  not  actually  cause  displayed  param  show  the  new  visibility  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  setting  clearing  lvs  nocolumnheader  causes  the  table  scroll  the  beginning  the  fix  save  and  restore  the  top  index  causing  the  table  scroll  the  new  location
+sets  the  number  items  contained  the  receiver  param  count  the  number  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+bug  windows  when  virutal  table  contains  items  and  lvm  setitemcount  used  set  the  new  item  count  zero  windows  does  not  redraw  the  table  note  that  simply  not  specifying  lvsicf  noinvalidateall  lvsicf  noscroll  does  correct  the  problem  the  fix  force  redraw
+bug  windows  when  both  header  and  grid  lines  are  displayed  the  grid  lines  not  take  into  account  the  height  the  header  and  draw  the  wrong  place  the  fix  set  the  height  the  table  items  the  height  the  header  that  the  lines  draw  the  right  place  the  height  table  item  the  maximum  the  height  the  font  the  height  image  list  note  version  comctl  dll  the  bug  fixed
+marks  the  receiver  lines  visible  the  argument  code  true  code  and  marks  invisible  otherwise  one  the  receiver  ancestors  not  visible  some  other  condition  makes  the  receiver  not  visible  marking  visible  may  not  actually  cause  displayed  param  show  the  new  visibility  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  when  setredraw  used  turn  off  drawing  widget  clears  the  visible  bits  and  then  sets  them  when  redraw  turned  back  this  means  that  setredraw  will  make  widget  unexpectedly  visible  the  fix  track  the  visibility  state  while  drawing  turned  off  and  restore  when  drawing  turned  back 
+when  many  items  are  added  table  faster  temporarily  unsubclass  the  window  proc  that  messages  are  dispatched  directly  the  table  note  this  optimization  somewhat  dangerous  because  any  operation  can  occur  when  redraw  turned  off  even  operations  where  the  table  must  subclassed  order  have  the  correct  behavior  work  around  windows  bug  this  code  intentionally  commented
+  subclass
+set  the  width  the  horizontal  scroll  bar
+when  many  items  are  added  table  faster  temporarily  unsubclass  the  window  proc  that  messages  are  dispatched  directly  the  table  note  this  optimization  somewhat  dangerous  because  any  operation  can  occur  when  redraw  turned  off  even  operations  where  the  table  must  subclassed  order  have  the  correct  behavior  work  around  windows  bug  this  code  intentionally  commented
+  unsubclass
+note  much  faster  measure  the  strings  and  compute  the  width  the  scroll  bar  non  virtual  table  rather  than  using  lvm  setcolumnwidth  with  lvscw  autosize
+bug  windows  when  lvm  setimagelist  used  remove  the  image  list  setting  null  the  item  width  and  height  not  changed  and  space  reserved  for  icons  despite  the  fact  that  there  are  none  the  fix  set  the  image  list  very  small  before  setting  null  this  causes  windows  reserve  the  smallest  possible  space  when  image  list  removed  this  case  the  scroll  width  must  one  pixel  larger
+selects  the  items  the  given  zero  relative  indices  the  receiver  the  current  selection  cleared  before  the  new  items  are  selected  indices  that  are  out  range  and  duplicate  indices  are  ignored  the  receiver  single  select  and  multiple  indices  are  specified  then  all  indices  are  ignored  param  indices  the  indices  the  items  select  exception illegal argument exception  error  null  argument  the  array  indices  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  table deselect all  see  table  select  int
+sets  the  receiver  selection  the  given  array  items  the  current  selection  cleared  before  the  new  items  are  selected  items  that  are  not  the  receiver  are  ignored  the  receiver  single  select  and  multiple  items  are  specified  then  all  items  are  ignored  param  items  the  array  items  exception illegal argument exception  error  null  argument  the  array  items  null  error  invalid  argument  one  the  items  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  table deselect all  see  table  select  int  see  table set selection  int
+selects  the  item  the  given  zero  relative  index  the  receiver  the  current  selection  first  cleared  then  the  new  item  selected  param  index  the  index  the  item  select  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  table deselect all  see  table  select  int
+selects  the  items  the  range  specified  the  given  zero  relative  indices  the  receiver  the  range  indices  inclusive  the  current  selection  cleared  before  the  new  items  are  selected  indices  that  are  out  range  are  ignored  and  items  will  selected  start  greater  than  end  the  receiver  single  select  and  there  more  than  one  item  the  given  range  then  all  indices  are  ignored  param  start  the  start  index  the  items  select  param  end  the  end  index  the  items  select  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  table deselect all  see  table  select  int  int
+bug  windows  when  lvm  setimagelist  used  remove  the  image  list  setting  null  the  item  width  and  height  not  changed  and  space  reserved  for  icons  despite  the  fact  that  there  are  none  the  fix  set  the  image  list  very  small  before  setting  null  this  causes  windows  reserve  the  smallest  possible  space  when  image  list  removed
+sets  the  zero  relative  index  the  item  which  currently  the  top  the  receiver  this  index  can  change  when  items  are  scrolled  new  items  are  added  and  removed  param  index  the  index  the  top  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  windows  for  some  reason  lvm  scroll  refuses  scroll  table  vertically  when  the  width  and  height  the  table  smaller  than  certain  size  the  values  that  seem  cause  the  problem  are  width  and  height  but  there  guarantee  that  these  values  cause  the  failure  different  machines  different  versions  windows  may  depend  the  font  and  any  number  other  factors  for  example  setting  the  font  anything  but  the  default  sometimes  fixes  the  problem  the  fix  use  lvm  getcountperpage  detect  the  case  when  the  number  visible  items  zero  and  use  lvm  ensurevisible  scroll  the  table  make  the  index  visible
+bug  windows  when  the  table  header  visible  and  there  not  enough  space  show  single  table  item  lvm  getcountperpage  can  return  negative  number  instead  zero  the  fix  test  for  negative  zero
+bug  windows  for  some  reason  lvm  ensurevisible  can  scroll  one  item  more  one  item  less  when  there  not  enough  space  show  single  table  item  the  fix  detect  the  case  and  call  lvm  ensurevisible  again  with  the  same  arguments  seems  that  once  lvm  ensurevisible  has  scrolled  into  the  general  area  able  scroll  the  exact  item
+use  lvm  scroll  scroll  the  table
+shows  the  column  the  column  already  showing  the  receiver  this  method  simply  returns  otherwise  the  columns  are  scrolled  until  the  column  visible  param  column  the  column  shown  exception illegal argument exception  error  null  argument  the  column  null  error  invalid  argument  the  column  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+feature  windows  calling  lvm  getsubitemrect  with  for  the  row  number  gives  the  bounds  the  item  that  would  above  the  first  row  the  table  this  undocumented  and  does  not  work  for  the  first  column  this  case  get  the  bounds  the  first  column  get  the  bounds  the  second  column  and  subtract  the  width  the  first  the  left  edge  the  second  column  also  used  the  right  edge  the  first
+bug  windows  for  some  reason  when  there  insufficient  space  show  item  lvm  ensurevisible  causes  blank  lines  inserted  the  top  the  widget  call  lvm  gettopindex  will  return  negative  number  this  impossible  result  the  fix  use  lvm  getcountperpage  detect  the  case  when  the  number  visible  items  zero  and  use  lvm  ensurevisible  with  the  partial  flag  set  true  scroll  the  table
+bug  windows  for  some  reason  lvm  ensurevisible  can  scroll  one  item  more  one  item  less  when  there  not  enough  space  show  single  table  item  the  fix  detect  the  case  and  call  lvm  ensurevisible  again  with  the  same  arguments  seems  that  once  lvm  ensurevisible  has  scrolled  into  the  general  area  able  scroll  the  exact  item
+shows  the  item  the  item  already  showing  the  receiver  this  method  simply  returns  otherwise  the  items  are  scrolled  until  the  item  visible  param  item  the  item  shown  exception illegal argument exception  error  null  argument  the  item  null  error  invalid  argument  the  item  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  table show selection
+shows  the  selection  the  selection  already  showing  the  receiver  this  method  simply  returns  otherwise  the  items  are  scrolled  until  the  selection  visible  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  table show item table item
+non  nls 
+this  code  intentionally  commented  the  future  the  flat  bit  may  used  make  the  header  flat  and  unresponsive  mouse  clicks
+style  swt  flat  bits  lvs  nosortheader
+note  call  the  window  proc  with  keydown  rather  than  char  that  the  key  that  was  ignored  during  keydown  processed  this  allows  the  application  cancel  operation  that  normally  performed  keydown  from  char
+feature  windows  windows  sends  lvn  itemactivate  from  keydown  instead  char  this  means  that  application  code  that  expects  consume  the  key  press  and  therefore  avoid  swt default selection  event  will  fail  the  fix  ignore  lvn  itemactivate  when  caused  keydown  and  send  swt default selection  from  char
+this  code  intentionally  commented  when  table  contains  images  that  are  not  the  first  column  the  work  around  causes  pixel  corruption
+window enabled  handle  return  result
+
+feature  windows  when  erasebkgnd  called
+clears  the  damaged  area  filling  with  the
+background  color  during  paint  when  the  table
+items  are  drawn  the  background  for  each  item 
+also  drawn  causing  flashing  the  fix  adjust
+the  damage  subtracting  the  bounds  each  visible
+table  item
+
+int item count get item count
+item count  return  result
+data  data  new  data
+data  device  display
+win  new  param  data
+region  region  new  region  display
+get clipping  region
+int column count  math  max get column count
+rectangle client area get client area
+int get top index
+int bottom index send message  handle  lvm  getcountperpage 
+bottom index  math  min item count bottom index
+while bottom index
+int 
+while column count
+selected get focus index
+rect  rect  new  rect
+rect  top 
+rect  left  lvir  label
+send message  handle  lvm  getsubitemrect  rect
+int  width  math  max  rect  right  rect  left
+int  height  math  max  rect  bottom  rect  top
+rectangle  rect  new  rectangle  rect  left  rect  top  width  height
+rect  intersects client area  break
+region  subtract  rect
+
+ 
+
+ 
+
+set clipping  region
+draw background  param
+set clipping  region  null
+region  dispose
+  dispose
+return  lresult  one
+ensure  that  there  accessible  object  created  for  this  control  because  support  for  checked  item  accessibility  temporarily  implemented  the  accessibility  package
+ensure  that  the  window  proc  does  not  process  space  that  can  handled  char  this  allows  the  application  cancel  operation  that  normally  performed  keydown  from  char
+bug  windows  when  lvs  showselalways  not  specified  windows  hides  the  selection  when  focus  lost  but  does  not  redraw  anything  other  than  the  text  leaving  the  image  and  check  box  appearing  selected  the  fix  redraw  the  table
+feature  windows  when  the  user  selects  outside  table  item  windows  deselects  all  the  items  even  when  the  table  multi  select  while  not  strictly  wrong  this  unexpected  the  fix  detect  the  case  and  avoid  calling  the  window  proc
+look  for  check  uncheck
+note  that  when  the  table  has  lvs  fullrowselect  and  the  user  clicks  anywhere  row  except  the  check  box  all  the  bits  are  set  the  hit  test  flags  are  lvht  onitem  this  means  that  bit  test  for  lvht  onitemstateicon  not  the  correct  way  determine  that  the  user  has  selected  the  check  box  equality  needed
+feature  windows  for  some  reason  capturing  the  mouse  after  processing  the  mouse  event  for  the  widget  interferes  with  the  normal  mouse  processing  for  the  widget  the  fix  avoid  the  automatic  mouse  capture
+look  for  check  uncheck
+note  that  when  the  table  has  lvs  fullrowselect  and  the  user  clicks  anywhere  row  except  the  check  box  all  the  bits  are  set  the  hit  test  flags  are  lvht  onitem  this  means  that  bit  test  for  lvht  onitemstateicon  not  the  correct  way  determine  that  the  user  has  selected  the  check  box  equality  needed
+feature  windows  despite  the  fact  that  hot  tracking  not  enabled  the  hot  tracking  code  mousehover  executed  causing  the  item  under  the  cursor  selected  the  fix  avoid  calling  the  window  proc
+resize  the  item  array  match  the  item  count
+feature  windows  the  automatically  created  header  control  created  unicode  window  not  ansi  window  despite  the  fact  that  the  parent  created  ansi  window  this  means  that  sends  unicode  notification  messages  the  parent  window  for  good  reason  the  data  and  size  the  nmheader  and  hditem  structs  identical  between  the  platforms  different  message  actually  necessary  despite  this  windows  sends  different  messages  the  fix  look  for  both  messages  despite  the  platform  this  works  because  only  one  will  sent  either  platform  never  both
+bug  windows  when  table  has  the  lvs  gridlines  extended  style  and  the  user  drags  any  column  over  the  first  column  the  table  making  the  size  become  zero  when  the  user  drags  column  such  that  the  size  the  first  column  becomes  non  zero  the  grid  lines  are  not  redrawn  the  fix  detect  the  case  and  force  redraw  the  first  column
+possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  resize  event  this  happens  end  the  processing  the  windows  message  returning  zero  the  result  the  window  proc
+possible  but  unlikely  that  application  code  could  have  disposed  the  column  the  move  event  this  happens  process  the  move  event  for  those  columns  that  have  not  been  destroyed
+feature  windows  when  the  user  selects  outside  table  item  windows  deselects  all  the  items  even  when  the  table  multi  select  while  not  strictly  wrong  this  unexpected  the  fix  detect  the  case  and  avoid  calling  the  window  proc
+feature  windows  for  some  reason  capturing  the  mouse  after  processing  the  mouse  event  for  the  widget  interferes  with  the  normal  mouse  processing  for  the  widget  the  fix  avoid  the  automatic  mouse  capture
+bug  windows  for  some  reason  the  table  does  not  set  the  default  focus  rectangle  the  first  item  the  table  when  gets  focus  and  there  selected  item  the  fix  make  the  first  item  the  focus  item
+bug  windows  when  table  drawing  grid  lines  and  the  user  scrolls  vertically  down  line  page  the  table  does  not  redraw  the  grid  lines  for  newly  exposed  items  the  fix  invalidate  the  items
+draw count window visible  handle  break
+the  cached  flag  used  both  virtual  and  non  virtual  tables  indicate  that  windows  has  asked  least  once  for  table  item
+bug  windows  when psz text  points  zero  length  null  terminated  string  windows  correctly  draws  the  empty  string  but  the  cache  the  bounds  for  the  item  not  reset  this  means  that  when  the  text  for  the  item  set  and  then  reset  empty  string  the  selection  draws  using  the  bounds  the  previous  text  the  fix  use  space  rather  than  empty  string  when  anything  but  tool  tip  requested  avoid  tool  tip  that  single  space  note  this  only  problem  for  items  the  first  column  assigning  null  other  columns  stops  windows  from  drawing  the  selection  when  lvs  fullrowselect  set
+non  nls 
+feature  windows  when  the  font  set  for  one  cell  table  windows  does  not  reset  the  font  for  the  next  cell  result  all  subsequent  cells  are  drawn  using  the  new  font  the  fix  reset  the  font  the  default  note  this  does  not  happen  for  foreground  and  background
+feature  pocket  the  tree  and  table  controls  detect  the  tap  and  hold  gesture  default  they  send  contextmenu  message  show  the  popup  menu  this  default  behaviour  unwanted  pocket  2002  when  menu  has  been  set  still  draws  red  circle  the  fix  disable  this  default  behaviour  when  menu  set  returning  true  when  receiving  the  pocket  2002  specific  recognizegesture  message
+</comments>
+</text>
+</DOC>

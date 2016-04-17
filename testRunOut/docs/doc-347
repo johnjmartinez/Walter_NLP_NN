@@ -1,0 +1,1075 @@
+<DOC>
+<DOCNO>org.eclipse.swt.SWT.java </DOCNO>
+<text>
+<class>
+ swt
+</class>
+<method>
+find error text
+get message
+get platform
+get version
+ error
+ error
+ error
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ internal
+ swt
+ none
+key down
+ key
+mouse down
+ mouse
+mouse move
+mouse enter
+mouse exit
+mouse double click
+ paint
+ move
+ resize
+ dispose
+ selection
+default selection
+ focus
+focus out
+ expand
+ collapse
+ iconify
+ deiconify
+ close
+ show
+ hide
+ modify
+ verify
+ activate
+ deactivate
+ help
+drag detect
+ arm
+ traverse
+mouse hover
+hard key down
+hard key
+menu detect
+set data
+mouse wheel
+ none
+ drag
+ null
+ default
+ off
+
+ low
+ high
+ bar
+drop down
+ pop
+ separator
+ toggle
+ arrow
+ push
+ radio
+ check
+ cascade
+ multi
+ single
+read only
+ wrap
+ simple
+ password
+ shadow
+shadow out
+shadow etched
+shadow etched out
+shadow none
+ indeterminate
+ tool
+ trim
+ resize
+ title
+ close
+ menu
+ close
+ min
+ max
+ scroll
+ scroll
+ border
+clip children
+clip siblings
+ top
+shell trim
+ close
+ title
+ min
+ max
+ resize
+dialog trim
+ title
+ close
+ border
+ modeless
+primary modal
+application modal
+system modal
+hide selection
+full selection
+ flat
+ smooth
+ background
+ focus
+redraw resize
+merge paints
+radio group
+left right
+right left
+ mirrored
+ embedded
+ virtual
+double buffered
+
+ top
+
+ down
+ bottom
+ down
+ lead
+ left
+ lead
+ trail
+ right
+ trail
+ center
+ horizontal
+ vertical
+ beginning
+ fill
+ dbcs
+ alpha
+ native
+ phonetic
+ roman
+
+
+ del
+ esc
+
+ tab
+ alt
+ shift
+ ctrl
+ control
+ ctrl
+ command
+modifier mask
+ button
+ button
+ button
+ button
+ button
+button mask
+ mod
+ mod
+ mod
+ mod
+scroll line
+scroll page
+keycode bit
+key mask
+keycode bit
+ arrow
+keycode bit
+arrow down
+keycode bit
+arrow left
+keycode bit
+arrow right
+keycode bit
+ page
+keycode bit
+page down
+keycode bit
+ home
+keycode bit
+ end
+keycode bit
+ insert
+keycode bit
+
+keycode bit
+
+keycode bit
+
+keycode bit
+
+keycode bit
+
+keycode bit
+
+keycode bit
+
+keycode bit
+
+keycode bit
+
+keycode bit
+
+keycode bit
+
+keycode bit
+
+keycode bit
+
+keycode bit
+
+keycode bit
+
+keycode bit
+keypad multiply
+keycode bit
+keypad add
+keycode bit
+keypad subtract
+keycode bit
+keypad decimal
+keycode bit
+keypad divide
+keycode bit
+ keypad
+keycode bit
+ keypad
+keycode bit
+ keypad
+keycode bit
+ keypad
+keycode bit
+ keypad
+keycode bit
+ keypad
+keycode bit
+ keypad
+keycode bit
+ keypad
+keycode bit
+ keypad
+keycode bit
+ keypad
+keycode bit
+keypad equal
+keycode bit
+ keypad
+keycode bit
+ help
+keycode bit
+caps lock
+keycode bit
+num lock
+keycode bit
+scroll lock
+keycode bit
+ pause
+keycode bit
+ break
+keycode bit
+print screen
+keycode bit
+icon error
+icon information
+icon question
+icon warning
+icon working
+
+ yes
+
+ cancel
+ abort
+ retry
+ ignore
+ open
+ save
+color white
+color black
+color red
+color dark red
+color green
+color dark green
+color yellow
+color dark yellow
+color blue
+color dark blue
+color magenta
+color dark magenta
+color cyan
+color dark cyan
+color gray
+color dark gray
+color widget dark shadow
+color widget normal shadow
+color widget light shadow
+color widget highlight shadow
+color widget foreground
+color widget background
+color widget border
+color list foreground
+color list background
+color list selection
+color list selection text
+color info foreground
+color info background
+color title foreground
+color title background
+color title background gradient
+color title inactive foreground
+color title inactive background
+color title inactive background gradient
+draw transparent
+draw delimiter
+draw tab
+draw mnemonic
+error unspecified
+error handles
+error more callbacks
+error null argument
+error invalid argument
+error invalid range
+error cannot zero
+error cannot get item
+error cannot get selection
+error cannot invert matrix
+error cannot get item height
+error cannot get text
+error cannot set text
+error item not added
+error item not removed
+error graphics library
+error not implemented
+error menu not drop down
+error thread invalid access
+error widget disposed
+error menuitem not cascade
+error cannot set selection
+error cannot set menu
+error cannot set enabled
+error cannot get enabled
+error invalid parent
+error menu not bar
+error cannot get count
+error menu not pop
+error unsupported depth
+ error
+error invalid image
+error unsupported format
+error invalid subclass
+error graphic disposed
+error device disposed
+error failed exec
+error failed load library
+error invalid font
+traverse none
+traverse escape
+traverse return
+traverse tab previous
+traverse tab next
+traverse arrow previous
+traverse arrow next
+traverse mnemonic
+traverse page previous
+traverse page next
+ bitmap
+ icon
+image copy
+image disable
+image gray
+ normal
+ bold
+ italic
+cursor arrow
+cursor wait
+cursor cross
+cursor appstarting
+cursor help
+cursor sizeall
+cursor sizenesw
+cursor sizens
+cursor sizenwse
+cursor sizewe
+cursor sizen
+cursor sizes
+cursor sizee
+cursor sizew
+cursor sizene
+cursor sizese
+cursor sizesw
+cursor sizenw
+cursor uparrow
+cursor ibeam
+ cursor
+cursor hand
+cap flat
+cap round
+cap square
+join miter
+join round
+join bevel
+line solid
+line dash
+line dot
+line dashdot
+line dashdotdot
+line custom
+path move
+path line
+path quad
+path cubic
+path close
+fill even odd
+fill winding
+image undefined
+image bmp
+image bmp rle
+image gif
+image ico
+image jpeg
+image png
+image tiff
+image bmp
+ unspecified
+fill none
+fill background
+fill previous
+transparency none
+transparency alpha
+transparency mask
+transparency pixel
+movement char
+movement cluster
+movement word
+ string
+find error text
+ code
+ code
+error unspecified
+error handles
+error more callbacks
+error null argument
+error invalid argument
+error invalid range
+error cannot zero
+error cannot get item
+error cannot get selection
+error cannot get item height
+error cannot get text
+error cannot set text
+error item not added
+error item not removed
+error not implemented
+error menu not drop down
+error thread invalid access
+error widget disposed
+error menuitem not cascade
+error cannot set selection
+error cannot set menu
+error cannot set enabled
+error cannot get enabled
+error invalid parent
+error menu not bar
+error cannot get count
+error menu not pop
+error unsupported depth
+ error
+error invalid image
+error unsupported format
+error invalid subclass
+error graphic disposed
+error device disposed
+error failed exec
+error failed load library
+error cannot invert matrix
+error graphics library
+error invalid font
+ string
+get message
+ string
+ key
+ compatibility
+get message
+ key
+ string
+get platform
+ platform
+ platform
+get version
+ library
+swt version
+ error
+ code
+ error
+ code
+ error
+ code
+ throwable
+ throwable
+ error
+ code
+ throwable
+ error
+ code
+ throwable
+ throwable
+ string
+ detail
+ throwable
+swt error
+swt error
+ throwable
+ throwable
+swt exception
+swt exception
+ throwable
+ string
+ message
+find error text
+ code
+ detail
+ message
+ detail
+ code
+error null argument
+error cannot zero
+error invalid argument
+error menu not bar
+error menu not drop down
+error menu not pop
+error menuitem not cascade
+error invalid parent
+error invalid range
+illegal argument exception
+ message
+error invalid subclass
+error thread invalid access
+error widget disposed
+error graphic disposed
+error device disposed
+error invalid image
+error unsupported depth
+error unsupported format
+error failed exec
+error cannot invert matrix
+error graphics library
+ error
+swt exception
+ exception
+swt exception
+ code
+ message
+ exception
+ throwable
+ throwable
+ exception
+error cannot get count
+error cannot get enabled
+error cannot get item
+error cannot get item height
+error cannot get selection
+error cannot get text
+error cannot set enabled
+error cannot set menu
+error cannot set selection
+error cannot set text
+error item not added
+error item not removed
+error handles
+error failed load library
+error more callbacks
+error not implemented
+error unspecified
+swt error
+ error
+swt error
+ code
+ message
+ error
+ throwable
+ throwable
+ error
+swt error
+ error
+swt error
+ code
+ message
+ error
+ throwable
+ throwable
+ error
+button mask
+ button
+ button
+ button
+ button
+ button
+modifier mask
+ alt
+ shift
+ ctrl
+ command
+ string
+ platform
+get platform
+ equals
+ platform
+ mod
+ command
+ mod
+ shift
+ mod
+ alt
+ mod
+ control
+ mod
+ control
+ mod
+ shift
+ mod
+ alt
+ mod
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  class  provides  access  small  number  swt  system  wide  methods  and  addition  defines  the  public  constants  provided  swt  defining  constants  like  and  down  single  class  swt  can  share  common  names  and  concepts  the  same  time  minimizing  the  number  classes  names  and  constants  for  the  application  programmer  note  that  some  the  constants  provided  this  class  represent  optional  appearance  related  aspects  widgets  which  are  available  either  only  some  window  systems  for  differing  set  widgets  each  window  system  these  constants  are  marked  hint  the  set  widgets  which  support  particular  hint  may  change  from  release  release  although  typically  will  not  withdraw  support  for  hint  once  made  available 
+note  good  javadoc  coding  style  put  the  values  static  final  constants  the  comments  this  reinforces  the  fact  that  consumers  are  allowed  rely  the  value  and  they  must  since  the  values  are  compiled  inline  their  code  can  not  change  the  values  these  constants  between  releases
+widget  event  constants
+the  null  event  type  value  since 
+the  key  down  event  type  value 
+the  key  event  type  value 
+the  mouse  down  event  type  value 
+the  mouse  event  type  value 
+the  mouse  move  event  type  value 
+the  mouse  enter  event  type  value 
+the  mouse  exit  event  type  value 
+the  mouse  double  click  event  type  value 
+the  paint  event  type  value 
+the  move  event  type  value 
+the  resize  event  type  value 
+the  dispose  event  type  value 
+the  selection  event  type  value  this  event  sent  when  selection  occurs  for  example  selection  occurs  list  when  the  user  selects  item  items  with  the  keyboard  mouse  some  platforms  the  event  occurs  when  mouse  button  key  pressed  others  happens  when  the  mouse  key  released  the  exact  key  mouse  gesture  that  causes  this  event  platform  specific 
+the  default  selection  event  type  value  this  event  sent  when  default  selection  occurs  for  example  some  platforms  default  selection  occurs  list  when  the  user  double  clicks  item  types  return  text  some  platforms  the  event  occurs  when  mouse  button  key  pressed  others  happens  when  the  mouse  key  released  the  exact  key  mouse  gesture  that  causes  this  event  platform  specific 
+the  focus  event  type  value 
+the  focus  out  event  type  value 
+the  expand  event  type  value 
+the  collapse  event  type  value 
+the  iconify  event  type  value 
+the  iconify  event  type  value 
+the  close  event  type  value 
+the  show  event  type  value 
+the  hide  event  type  value 
+the  modify  event  type  value 
+the  verify  event  type  value 
+the  activate  event  type  value 
+the  deactivate  event  type  value 
+the  help  event  type  value 
+the  drag  detect  event  type  value 
+the  arm  event  type  value 
+the  traverse  event  type  value 
+the  mouse  hover  event  type  value 
+the  hardware  key  down  event  type  value 
+the  hardware  key  event  type  value 
+the  menu  detect  event  type  value  since 
+the  set  data  event  type  value  since 
+the  mouse  wheel  event  type  value  since 
+event  details
+constant  known  zero  used  operations  which  take  bit  flags  indicate  that  bits  are  set
+indicates  that  user  interface  component  being  dragged  for  example  dragging  the  thumb  scroll  bar  value 
+constant  known  zero  used  operations  which  take  pointers  indicate  null  argument
+indicates  that  default  should  used  value 
+indicates  that  property  off  value  since 
+indicates  that  property  value  since 
+indicates  low  quality  value  since 
+indicates  high  quality  value  since 
+style  constant  for  menu  bar  behavior  value  used  code  menu  code 
+style  constant  for  drop  down  menu  list  behavior  value  used  code  menu  code  code tool item  code  code cool item  code  code  combo  code 
+style  constant  for  pop  menu  behavior  value  used  code  menu  code 
+style  constant  for  line  separator  behavior  value  used  code  label  code  code menu item  code  code tool item  code 
+style  constant  for  toggle  button  behavior  value  used  code  button  code 
+style  constant  for  arrow  button  behavior  value  used  code  button  code 
+style  constant  for  push  button  behavior  value  used  code  button  code  code menu item  code  code tool item  code 
+style  constant  for  radio  button  behavior  value  used  code  button  code  code menu item  code  code tool item  code 
+style  constant  for  check  box  behavior  value  used  code  button  code  code menu item  code  code tool item  code  code  table  code  code  tree  code 
+style  constant  for  cascade  behavior  value  used  code menu item  code 
+style  constant  for  multi  selection  behavior  lists  and  multiple  line  support  text  fields  value  used  code  text  code  code  list  code  code file dialog  code 
+style  constant  for  single  selection  behavior  lists  and  single  line  support  text  fields  value  used  code  text  code  code  list  code  code  table  code  code  tree  code 
+style  constant  for  read  only  behavior  value  used  code  combo  code  code  text  code 
+style  constant  for  automatic  line  wrap  behavior  value  used  code  label  code  code  text  code  code tool bar  code  code  spinner  code 
+style  constant  for  simple  not  drop  down  behavior  value  used  code  combo  code 
+style  constant  for  password  behavior  value  used  code  text  code  since 
+style  constant  for  shadow  behavior  value  note  that  this  hint  used  code  label  code  code  group  code 
+style  constant  for  shadow  out  behavior  value  note  that  this  hint  used  code  label  code  code  group  code  code tool bar  code 
+style  constant  for  shadow  etched  behavior  value  note  that  this  hint  ignored  all  platforms  except  motif  used  code  group  code 
+style  constant  for  shadow  etched  out  behavior  value  note  that  this  hint  ignored  all  platforms  except  motif  used  code  group  code 
+style  constant  for  shadow  behavior  value  note  that  this  hint  used  code  label  code  code  group  code 
+style  constant  for  progress  bar  behavior  value  used  code progress bar  code 
+style  constant  for  tool  window  behavior  value  tool  window  window  intended  used  floating  toolbar  typically  has  title  bar  that  shorter  than  normal  title  bar  and  the  window  title  typically  drawn  using  smaller  font  note  that  this  hint  used  code  decorations  code  and  subclasses 
+style  constant  ensure  trimmings  are  used  value  note  that  this  overrides  all  other  trim  styles  used  code  decorations  code  and  subclasses 
+style  constant  for  resize  box  trim  value  used  code  decorations  code  and  subclasses  code  tracker  code 
+style  constant  for  title  area  trim  value  used  code  decorations  code  and  subclasses 
+style  constant  for  close  box  trim  value  since  not  distinguish  between  close  style  and  menu  style  used  code  decorations  code  and  subclasses 
+style  constant  for  shell  menu  trim  value  since  not  distinguish  between  close  style  and  menu  style  used  code  decorations  code  and  subclasses 
+style  constant  for  minimize  box  trim  value  used  code  decorations  code  and  subclasses 
+style  constant  for  maximize  box  trim  value  used  code  decorations  code  and  subclasses 
+style  constant  for  horizontal  scrollbar  behavior  value  used  code  scrollable  code  and  subclasses 
+style  constant  for  vertical  scrollbar  behavior  value  used  code  scrollable  code  and  subclasses 
+style  constant  for  bordered  behavior  value  note  that  this  hint  used  code  control  code  and  subclasses 
+style  constant  indicating  that  the  window  manager  should  clip  widget  children  with  respect  its  viewable  area  value  note  that  this  hint  used  code  control  code  and  subclasses 
+style  constant  indicating  that  the  window  manager  should  clip  widget  siblings  with  respect  its  viewable  area  value  note  that  this  hint  used  code  control  code  and  subclasses 
+style  constant  for  always  top  behavior  value  note  that  this  hint  used  code  shell  code  and  subclasses 
+trim  style  convenience  constant  for  the  most  common  top  level  shell  appearance  value  close  title  min  max  resize  used  code  shell  code 
+trim  style  convenience  constant  for  the  most  common  dialog  shell  appearance  value  close  title  border  used  code  shell  code 
+style  constant  for  modeless  behavior  value  note  that  this  hint  used  code  dialog  code  code  shell  code 
+style  constant  for  primary  modal  behavior  value  note  that  this  hint  used  code  dialog  code  code  shell  code 
+style  constant  for  application  modal  behavior  value  note  that  this  hint  used  code  dialog  code  code  shell  code 
+style  constant  for  system  modal  behavior  value  note  that  this  hint  used  code  dialog  code  code  shell  code 
+style  constant  for  selection  hiding  behavior  when  the  widget  loses  focus  value  note  that  this  hint  used  code  table  code 
+style  constant  for  full  row  selection  behavior  value  note  that  this  hint  used  code styled text  code  code  table  code  code  tree  code 
+style  constant  for  flat  appearance  value  note  that  this  hint  used  code  button  code  code tool bar  code 
+style  constant  for  flat  appearance  value  note  that  this  hint  used  code progress bar  code  code  sash  code 
+style  constant  for  background  behavior  value  default  before  widget  paints  the  client  area  filled  with  the  current  background  color  when  this  style  specified  the  background  not  filled  and  the  application  responsible  for  filling  every  pixel  the  client  area  this  style  might  used  alternative  double  buffering  order  reduce  flicker  this  style  does  not  mean  transparent  widgets  that  are  obscured  will  not  draw  through  used  code  composite  code 
+style  constant  for  focus  from  the  mouse  behavior  value  note  that  this  hint  used  code  composite  code 
+style  constant  for  redraw  resize  behavior  value  this  style  stops  the  entire  client  area  from  being  invalidated  when  the  size  the  canvas  changes  specifically  when  the  size  the  canvas  gets  smaller  the  swt  paint  event  not  sent  when  gets  bigger  swt  paint  event  sent  with  clipped  only  the  new  areas  painted  without  this  style  the  entire  client  area  will  repainted  used  code  composite  code 
+style  constant  for  paint  event  merging  behavior  value  used  code  composite  code 
+style  constant  for  preventing  child  radio  group  behavior  value  used  code  composite  code 
+style  constant  for  left  right  orientation  value  when  orientation  not  explicitly  specified  orientation  inherited  this  means  that  children  will  assigned  the  orientation  their  parent  override  this  behavior  and  force  orientation  for  child  explicitly  set  the  orientation  the  child  when  that  child  created  note  that  this  hint  used  code  control  code  code  menu  code  code  code  since 
+style  constant  for  right  left  orientation  value  when  orientation  not  explicitly  specified  orientation  inherited  this  means  that  children  will  assigned  the  orientation  their  parent  override  this  behavior  and  force  orientation  for  child  explicitly  set  the  orientation  the  child  when  that  child  created  note  that  this  hint  used  code  control  code  code  menu  code  code  code  since 
+style  constant  indicate  coordinate  mirroring  value  used  code  control  code  code  menu  code  since 
+style  constant  allow  embedding  value  used  code  composite  code  since 
+style  constant  allow  virtual  data  value  used  code  table  code  since 
+style  constant  indicate  double  buffering  value  used  code  control  code  since 
+style  constant  for  align  behavior  value  since  align  and  align  top  are  considered  the  same  used  code  button  code  with  code  arrow  code  style  code  tracker  code 
+style  constant  for  align  top  behavior  value  since  align  and  align  top  are  considered  the  same  used  code form attachment  code  code form layout  code 
+style  constant  for  align  down  behavior  value  since  align  down  and  align  bottom  are  considered  the  same  used  code  button  code  with  code  arrow  code  style  code  tracker  code 
+style  constant  for  align  bottom  behavior  value  since  align  down  and  align  bottom  are  considered  the  same  used  code form attachment  code  code form layout  code 
+style  constant  for  leading  alignment  value  used  code  button  code  code  label  code  code table column  code  code  tracker  code  code form attachment  code  code form layout  code  since 
+style  constant  for  align  left  behavior  value  this  synonym  for  lead  value  newer  applications  should  use  lead  instead  left  make  code  more  understandable  right  left  platforms
+style  constant  for  trailiing  alignment  value  used  code  button  code  code  label  code  code table column  code  code  tracker  code  code form attachment  code  code form layout  code  since 
+style  constant  for  align  right  behavior  value  this  synonym  for  trail  value  newer  applications  should  use  trail  instead  right  make  code  more  understandable  right  left  platforms
+style  constant  for  align  center  behavior  value  used  code  button  code  code  label  code  code table column  code  code form attachment  code  code form layout  code 
+style  constant  for  horizontal  alignment  orientation  behavior  value  used  code  label  code  code progress bar  code  code  sash  code  code  scale  code  code scroll bar  code  code  slider  code  code tool bar  code  code fill layout  code  type  code row layout  code  type 
+style  constant  for  vertical  alignment  orientation  behavior  value  used  code  label  code  code progress bar  code  code  sash  code  code  scale  code  code scroll bar  code  code  slider  code  code tool bar  code  code fill layout  code  type  code row layout  code  type 
+style  constant  for  vertical  alignment  orientation  behavior  value  used  code grid layout  code  type 
+style  constant  for  vertical  alignment  orientation  behavior  value  used  code grid layout  code  type 
+input  method  editor  style  constant  for  double  byte  input  behavior  value 
+input  method  editor  style  constant  for  alpha  input  behavior  value 
+input  method  editor  style  constant  for  native  input  behavior  value 
+input  method  editor  style  constant  for  phonetic  input  behavior  value 
+input  method  editor  style  constant  for  romanicized  input  behavior  value 
+ascii  character  convenience  constant  for  the  backspace  character  value  the  code  char  code 
+ascii  character  convenience  constant  for  the  carriage  return  character  value  the  code  char  code 
+ascii  character  convenience  constant  for  the  delete  character  value  the  code  char  code  with  value  127
+ascii  character  convenience  constant  for  the  escape  character  value  the  code  char  code  with  value 
+ascii  character  convenience  constant  for  the  line  feed  character  value  the  code  char  code 
+ascii  character  convenience  constant  for  the  tab  character  value  the  code  char  code  since 
+keyboard  and  mouse  event  mask  indicating  that  the  alt  key  was  pushed  the  keyboard  when  the  event  was  generated  value 
+keyboard  and  mouse  event  mask  indicating  that  the  shift  key  was  pushed  the  keyboard  when  the  event  was  generated  value 
+keyboard  and  mouse  event  mask  indicating  that  the  ctrl  key  was  pushed  the  keyboard  when  the  event  was  generated  value 
+keyboard  and  mouse  event  mask  indicating  that  the  ctrl  key  was  pushed  the  keyboard  when  the  event  was  generated  this  synonym  for  ctrl  value 
+keyboard  and  mouse  event  mask  indicating  that  the  command  key  was  pushed  the  keyboard  when  the  event  was  generated  value  since 
+keyboard  and  mouse  event  mask  indicating  all  possible  keyboard  modifiers  allow  for  the  future  this  mask  intended  used  place  code  that  references  each  individual  keyboard  mask  for  example  the  following  expression  will  determine  whether  any  modifer  pressed  and  will  continue  work  new  modifier  masks  are  added  code state mask  swt  modifier  mask  code  since 
+keyboard  and  mouse  event  mask  indicating  that  mouse  button  one  was  pushed  when  the  event  was  generated  value 
+keyboard  and  mouse  event  mask  indicating  that  mouse  button  two  was  pushed  when  the  event  was  generated  value 
+keyboard  and  mouse  event  mask  indicating  that  mouse  button  three  was  pushed  when  the  event  was  generated  value 
+keyboard  and  mouse  event  mask  indicating  that  mouse  button  four  was  pushed  when  the  event  was  generated  value  since 
+keyboard  and  mouse  event  mask  indicating  that  mouse  button  five  was  pushed  when  the  event  was  generated  value  since 
+keyboard  and  mouse  event  mask  indicating  all  possible  mouse  buttons  allow  for  the  future  this  mask  intended  used  place  code  that  references  each  individual  button  mask  for  example  the  following  expression  will  determine  whether  any  button  pressed  and  will  continue  work  new  button  masks  are  added  code state mask  swt  button  mask  code  since 
+keyboard  and  mouse  event  mask  indicating  that  the  mod  key  was  pushed  the  keyboard  when  the  event  was  generated  this  the  primary  keyboard  modifier  for  the  platform  since 
+keyboard  and  mouse  event  mask  indicating  that  the  mod  key  was  pushed  the  keyboard  when  the  event  was  generated  this  the  secondary  keyboard  modifier  for  the  platform  since 
+keyboard  and  mouse  event  mask  indicating  that  the  mod  key  was  pushed  the  keyboard  when  the  event  was  generated  since 
+keyboard  and  mouse  event  mask  indicating  that  the  mod  key  was  pushed  the  keyboard  when  the  event  was  generated  since 
+constants  indicate  line  scrolling  value  used  code  control  code  since 
+constants  indicate  page  scrolling  value  used  code  control  code  since 
+accelerator  constant  used  differentiate  key  code  from  unicode  character  this  bit  set  then  the  key  stroke  portion  accelerator  represents  key  code  this  bit  not  set  then  the  key  stroke  portion  accelerator  unicode  character  the  following  expression  false  code  swt  mod  swt  mod  swt  keycode  bit  code  the  following  expression  true  code  swt  mod  swt  swt  keycode  bit  code  value  since 
+accelerator  constant  used  extract  the  key  stroke  portion  accelerator  the  key  stroke  may  key  code  unicode  value  the  key  stroke  key  code  code  keycode  bit  code  will  set  since 
+keyboard  event  constant  representing  the  arrow  key  value 
+keyboard  event  constant  representing  the  down  arrow  key  value 
+keyboard  event  constant  representing  the  left  arrow  key  value 
+keyboard  event  constant  representing  the  right  arrow  key  value 
+keyboard  event  constant  representing  the  page  key  value 
+keyboard  event  constant  representing  the  page  down  key  value 
+keyboard  event  constant  representing  the  home  key  value 
+keyboard  event  constant  representing  the  end  key  value 
+keyboard  event  constant  representing  the  insert  key  value 
+keyboard  event  constant  representing  the  key  value 
+keyboard  event  constant  representing  the  key  value 
+keyboard  event  constant  representing  the  key  value 
+keyboard  event  constant  representing  the  key  value 
+keyboard  event  constant  representing  the  key  value 
+keyboard  event  constant  representing  the  key  value 
+keyboard  event  constant  representing  the  key  value 
+keyboard  event  constant  representing  the  key  value 
+keyboard  event  constant  representing  the  key  value 
+keyboard  event  constant  representing  the  key  value 
+keyboard  event  constant  representing  the  key  value 
+keyboard  event  constant  representing  the  key  value 
+keyboard  event  constant  representing  the  key  value  since 
+keyboard  event  constant  representing  the  key  value  since 
+keyboard  event  constant  representing  the  key  value  since 
+keyboard  event  constant  representing  the  numeric  key  pad  multiply  key  value  since 
+keyboard  event  constant  representing  the  numeric  key  pad  add  key  value  since 
+keyboard  event  constant  representing  the  numeric  key  pad  subtract  key  value  since 
+keyboard  event  constant  representing  the  numeric  key  pad  decimal  key  value  since 
+keyboard  event  constant  representing  the  numeric  key  pad  divide  key  value  since 
+keyboard  event  constant  representing  the  numeric  key  pad  zero  key  value  since 
+keyboard  event  constant  representing  the  numeric  key  pad  one  key  value  since 
+keyboard  event  constant  representing  the  numeric  key  pad  two  key  value  since 
+keyboard  event  constant  representing  the  numeric  key  pad  three  key  value  since 
+keyboard  event  constant  representing  the  numeric  key  pad  four  key  value  since 
+keyboard  event  constant  representing  the  numeric  key  pad  five  key  value  since 
+keyboard  event  constant  representing  the  numeric  key  pad  six  key  value  since 
+keyboard  event  constant  representing  the  numeric  key  pad  seven  key  value  since 
+keyboard  event  constant  representing  the  numeric  key  pad  eight  key  value  since 
+keyboard  event  constant  representing  the  numeric  key  pad  nine  key  value  since 
+keyboard  event  constant  representing  the  numeric  key  pad  equal  key  value  since 
+keyboard  event  constant  representing  the  numeric  key  pad  enter  key  value  since 
+keyboard  event  constant  representing  the  help  key  value  note  the  help  key  maps  the  key  labeled  help  not  your  keyboard  does  not  have  help  key  you  will  never  see  this  key  press  listen  for  help  control  use  swt  help  since  see  swt  help
+keyboard  event  constant  representing  the  caps  lock  key  value  since 
+keyboard  event  constant  representing  the  num  lock  key  value  since 
+keyboard  event  constant  representing  the  scroll  lock  key  value  since 
+keyboard  event  constant  representing  the  pause  key  value  since 
+keyboard  event  constant  representing  the  break  key  value  since 
+keyboard  event  constant  representing  the  break  key  value  since 
+the  code message box  code  style  constant  for  error  icon  behavior  value 
+the  code message box  code  style  constant  for  information  icon  behavior  value 
+the  code message box  code  style  constant  for  question  icon  behavior  value 
+the  code message box  code  style  constant  for  warning  icon  behavior  value 
+the  code message box  code  style  constant  for  working  icon  behavior  value 
+the  code message box  code  style  constant  for  button  valid  combinations  are  cancel  value 
+the  code message box  code  style  constant  for  yes  button  valid  combinations  are  yes  yes  cancel  value 
+the  code message box  code  style  constant  for  button  valid  combinations  are  yes  yes  cancel  value 
+the  code message box  code  style  constant  for  cancel  button  valid  combinations  are  cancel  yes  cancel  retry  cancel  value 
+the  code message box  code  style  constant  for  abort  button  the  only  valid  combination  abort  retry  ignore  value 
+the  code message box  code  style  constant  for  retry  button  valid  combinations  are  abort  retry  ignore  retry  cancel  value 
+the  code message box  code  style  constant  for  ignore  button  the  only  valid  combination  abort  retry  ignore  value 
+the  code file dialog  code  style  constant  for  open  file  dialog  behavior  value 
+the  code file dialog  code  style  constant  for  save  file  dialog  behavior  value 
+default  color  white  value 
+default  color  black  value 
+default  color  red  value 
+default  color  dark  red  value 
+default  color  green  value 
+default  color  dark  green  value 
+default  color  yellow  value 
+default  color  dark  yello  value 
+default  color  blue  value 
+default  color  dark  blue  value 
+default  color  magenta  value 
+default  color  dark  magenta  value 
+default  color  cyan  value 
+default  color  dark  cyan  value 
+default  color  gray  value 
+default  color  dark  gray  value 
+system  colors  dealing  with  system  colors  area  where  there  are  many  platform  differences  some  platforms  system  colors  can  change  dynamically  while  the  program  running  other  platforms  system  colors  can  changed  for  all  instances  particular  widget  therefore  the  only  truly  portable  method  obtain  widget  color  query  query  the  color  from  instance  the  widget  expected  that  the  list  supported  colors  will  grow  over  time
+system  color  used  paint  dark  shadow  areas  value 
+system  color  used  paint  normal  shadow  areas  value 
+system  color  used  paint  light  shadow  areas  value 
+system  color  used  paint  highlight  shadow  areas  value 
+system  color  used  paint  foreground  areas  value 
+system  color  used  paint  background  areas  value 
+system  color  used  paint  border  areas  value 
+system  color  used  paint  list  foreground  areas  value 
+system  color  used  paint  list  background  areas  value 
+system  color  used  paint  list  selection  background  areas  value 
+system  color  used  paint  list  selected  text  value 
+system  color  used  paint  tooltip  text  value 
+system  color  used  paint  tooltip  background  areas  value 
+system  color  used  paint  title  text  value 
+system  color  used  paint  title  background  areas  value 
+system  color  used  paint  title  background  gradient  value 
+system  color  used  paint  inactive  title  text  value 
+system  color  used  paint  inactive  title  background  areas  value 
+system  color  used  paint  inactive  title  background  gradient  value 
+draw  constant  indicating  whether  the  drawing  operation  should  fill  the  background  value 
+draw  constant  indicating  whether  the  string  drawing  operation  should  handle  line  delimeters  value 
+draw  constant  indicating  whether  the  string  drawing  operation  should  expand  tab  characters  value 
+draw  constant  indicating  whether  the  string  drawing  operation  should  handle  mnemonics  value 
+swt  error  constant  indicating  that  error  number  was  specified  value 
+swt  error  constant  indicating  that  more  handles  for  operating  system  resource  are  available  value 
+swt  error  constant  indicating  that  more  callback  resources  are  available  value 
+swt  error  constant  indicating  that  null  argument  was  passed  value 
+swt  error  constant  indicating  that  invalid  argument  was  passed  value 
+swt  error  constant  indicating  that  value  was  found  outside  the  allowable  range  value 
+swt  error  constant  indicating  that  value  which  can  not  zero  was  found  value 
+swt  error  constant  indicating  that  the  underlying  operating  system  was  unable  provide  the  value  item  value 
+swt  error  constant  indicating  that  the  underlying  operating  system  was  unable  provide  the  selection  value 
+swt  error  constant  indicating  that  the  matrix  not  invertible  value  since 
+swt  error  constant  indicating  that  the  underlying  operating  system  was  unable  provide  the  height  item  value 
+swt  error  constant  indicating  that  the  underlying  operating  system  was  unable  provide  the  text  widget  value 
+swt  error  constant  indicating  that  the  underlying  operating  system  was  unable  set  the  text  widget  value 
+swt  error  constant  indicating  that  the  underlying  operating  system  was  unable  add  item  value 
+swt  error  constant  indicating  that  the  underlying  operating  system  was  unable  remove  item  value 
+swt  error  constant  indicating  that  the  graphics  library  not  available  value 
+swt  error  constant  indicating  that  particular  feature  has  not  been  implemented  this  platform  value 
+swt  error  constant  indicating  that  menu  which  needed  have  the  drop  down  style  had  some  other  style  instead  value 
+swt  error  constant  indicating  that  attempt  was  made  invoke  swt  operation  which  can  only  executed  the  user  interface  thread  from  some  other  thread  value 
+swt  error  constant  indicating  that  attempt  was  made  invoke  swt  operation  using  widget  which  had  already  been  disposed  value 
+swt  error  constant  indicating  that  menu  item  which  needed  have  the  cascade  style  had  some  other  style  instead  value 
+swt  error  constant  indicating  that  the  underlying  operating  system  was  unable  set  the  selection  widget  value 
+swt  error  constant  indicating  that  the  underlying  operating  system  was  unable  set  the  menu  value 
+swt  error  constant  indicating  that  the  underlying  operating  system  was  unable  set  the  enabled  state  value 
+swt  error  constant  indicating  that  the  underlying  operating  system  was  unable  provide  enabled  disabled  state  information  value 
+swt  error  constant  indicating  that  provided  widget  can  not  used  parent  the  current  operation  value 
+swt  error  constant  indicating  that  menu  which  needed  have  the  menu  bar  style  had  some  other  style  instead  value 
+swt  error  constant  indicating  that  the  underlying  operating  system  was  unable  provide  count  information  value 
+swt  error  constant  indicating  that  menu  which  needed  have  the  pop  menu  style  had  some  other  style  instead  value 
+swt  error  constant  indicating  that  graphics  operation  was  attempted  with  image  unsupported  depth  value 
+swt  error  constant  indicating  that  input  output  operation  failed  during  the  execution  swt  operation  value 
+swt  error  constant  indicating  that  graphics  operation  was  attempted  with  image  having  invalid  format  value 
+swt  error  constant  indicating  that  graphics  operation  was  attempted  with  image  having  valid  but  unsupported  format  value 
+swt  error  constant  indicating  that  attempt  was  made  subclass  swt  widget  class  without  implementing  the  code check subclass  code  method  value  for  additional  information  see  the  comment  code  widget check subclass  code  see  org  eclipse  swt  widgets  widget check subclass
+swt  error  constant  indicating  that  attempt  was  made  invoke  swt  operation  using  graphics  object  which  had  already  been  disposed  value 
+swt  error  constant  indicating  that  attempt  was  made  invoke  swt  operation  using  device  which  had  already  been  disposed  value 
+swt  error  constant  indicating  that  exception  happened  when  executing  runnable  value 
+swt  error  constant  indicating  that  unsatisfied  link  error  occured  while  attempting  load  library  value  since 
+swt  error  constant  indicating  that  font  not  valid  value  since 
+traversal  event  detail  field  value  indicating  that  traversal  action  should  taken  value 
+traversal  event  detail  field  value  indicating  that  the  key  which  designates  that  dialog  should  cancelled  was  pressed  typically  this  the  esc  key  value 
+traversal  event  detail  field  value  indicating  that  the  key  which  activates  the  default  button  dialog  was  pressed  typically  this  the  enter  key  value 
+traversal  event  detail  field  value  indicating  that  the  key  which  designates  that  focus  should  given  the  previous  tab  group  was  pressed  typically  this  the  shift  tab  key  sequence  value 
+traversal  event  detail  field  value  indicating  that  the  key  which  designates  that  focus  should  given  the  next  tab  group  was  pressed  typically  this  the  tab  key  value 
+traversal  event  detail  field  value  indicating  that  the  key  which  designates  that  focus  should  given  the  previous  tab  item  was  pressed  typically  this  either  the  left  arrow  arrow  keys  value 
+traversal  event  detail  field  value  indicating  that  the  key  which  designates  that  focus  should  given  the  previous  tab  item  was  pressed  typically  this  either  the  right  arrow  down  arrow  keys  value 
+traversal  event  detail  field  value  indicating  that  mnemonic  key  sequence  was  pressed  value 
+traversal  event  detail  field  value  indicating  that  the  key  which  designates  that  the  previous  page  multi  page  window  should  shown  was  pressed  typically  this  the  ctrl  pageup  key  sequence  value 
+traversal  event  detail  field  value  indicating  that  the  key  which  designates  that  the  next  page  multi  page  window  should  shown  was  pressed  typically  this  the  ctrl  pagedown  key  sequence  value 
+constant  indicating  that  image  operation  type  bitmap  value 
+constant  indicating  that  image  operation  type  icon  value 
+the  code  image  code  constructor  argument  indicating  that  the  new  image  should  copy  the  image  provided  argument  value 
+the  code  image  code  constructor  argument  indicating  that  the  new  image  should  have  the  appearance  disabled  using  the  platform  rules  for  how  this  should  look  copy  the  image  provided  argument  value 
+the  code  image  code  constructor  argument  indicating  that  the  new  image  should  have  the  appearance  gray  scaled  copy  the  image  provided  argument  value 
+the  font  style  constant  indicating  normal  weight  non  italic  font  value 
+the  font  style  constant  indicating  bold  weight  font  value 
+the  font  style  constant  indicating  italic  font  value 
+system  arrow  cursor  value 
+system  wait  cursor  value 
+system  cross  hair  cursor  value 
+system  app  startup  cursor  value 
+system  help  cursor  value 
+system  resize  all  directions  cursor  value 
+system  resize  north  east  south  west  cursor  value 
+system  resize  north  south  cursor  value 
+system  resize  north  west  south  east  cursor  value 
+system  resize  west  east  cursor  value 
+system  resize  north  cursor  value 
+system  resize  south  cursor  value 
+system  resize  east  cursor  value 
+system  resize  west  cursor  value 
+system  resize  north  east  cursor  value 
+system  resize  south  east  cursor  value 
+system  resize  south  west  cursor  value 
+system  resize  north  west  cursor  value 
+system  arrow  cursor  value 
+system  beam  cursor  value 
+system  not  allowed  cursor  value 
+system  hand  cursor  value 
+line  drawing  style  for  flat  end  caps  value  see  org  eclipse  swt  graphics set line cap  int  see  org  eclipse  swt  graphics get line cap  since 
+line  drawing  style  for  rounded  end  caps  value  see  org  eclipse  swt  graphics set line cap  int  see  org  eclipse  swt  graphics get line cap  since 
+line  drawing  style  for  square  end  caps  value  see  org  eclipse  swt  graphics set line cap  int  see  org  eclipse  swt  graphics get line cap  since 
+line  drawing  style  for  miter  joins  value  see  org  eclipse  swt  graphics set line join  int  see  org  eclipse  swt  graphics get line join  since 
+line  drawing  style  for  rounded  joins  value  see  org  eclipse  swt  graphics set line join  int  see  org  eclipse  swt  graphics get line join  since 
+line  drawing  style  for  bevel  joins  value  see  org  eclipse  swt  graphics set line join  int  see  org  eclipse  swt  graphics get line join  since 
+line  drawing  style  for  solid  lines  value 
+line  drawing  style  for  dashed  lines  value 
+line  drawing  style  for  dotted  lines  value 
+line  drawing  style  for  alternating  dash  dot  lines  value 
+line  drawing  style  for  dash  dot  dot  lines  value 
+line  drawing  style  for  custom  dashed  lines  value  see  org  eclipse  swt  graphics set line dash  int  see  org  eclipse  swt  graphics get line dash  since 
+path  constant  that  represents  move  operation  value  since 
+path  constant  that  represents  line  operation  value  since 
+path  constant  that  represents  quadratic  curve  operation  value  since 
+path  constant  that  represents  cubic  curve  operation  value  since 
+path  constant  that  represents  close  operation  value  since 
+even  odd  rule  for  filling  operations  value  since 
+winding  rule  for  filling  operations  value  since 
+image  format  constant  indicating  unknown  image  type  value 
+image  format  constant  indicating  windows  bmp  format  image  value 
+image  format  constant  indicating  run  length  encoded  windows  bmp  format  image  value 
+image  format  constant  indicating  gif  format  image  value 
+image  format  constant  indicating  ico  format  image  value 
+image  format  constant  indicating  jpeg  format  image  value 
+image  format  constant  indicating  png  format  image  value 
+image  format  constant  indicating  tiff  format  image  value 
+image  format  constant  indicating  bmp  format  image  value 
+gif  image  disposal  method  constants  indicating  that  the  disposal  method  unspecified  value 
+gif  image  disposal  method  constants  indicating  that  the  disposal  method  nothing  that  leave  the  previous  image  place  value 
+gif  image  disposal  method  constants  indicating  that  the  the  previous  images  should  covered  with  the  background  color  before  displaying  the  next  image  value 
+gif  image  disposal  method  constants  indicating  that  the  disposal  method  restore  the  previous  picture  value 
+image  transparency  constant  indicating  that  the  image  contains  transparency  information  value 
+image  transparency  constant  indicating  that  the  image  contains  alpha  transparency  information  value 
+image  transparency  constant  indicating  that  the  image  contains  transparency  mask  value 
+image  transparency  constant  indicating  that  the  image  contains  transparent  pixel  value 
+the  character  movement  type  value  see  org  eclipse  swt  graphics text layout get next offset  int  int  see  org  eclipse  swt  graphics text layout get previous offset  int  int  since 
+the  cluster  movement  type  value  see  org  eclipse  swt  graphics text layout get next offset  int  int  see  org  eclipse  swt  graphics text layout get previous offset  int  int  since 
+the  word  movement  type  value  see  org  eclipse  swt  graphics text layout get next offset  int  int  see  org  eclipse  swt  graphics text layout get previous offset  int  int  since 
+answers  concise  human  readable  description  the  error  code  param  code  the  swt  error  code  return  description  the  error  code  see  swt
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+returns  the  nls  message  for  the  given  argument  param  key  the  key  look  return  the  message  for  the  given  key  exception illegal argument exception  error  null  argument  the  key  null 
+returns  the  swt  platform  name  examples  win  motif  gtk  photon  carbon  return  the  swt  platform  name
+returns  the  swt  version  number  integer  example swt 051  return  the  swt  version  number
+throws  appropriate  exception  based  the  passed  error  code  param  code  the  swt  error  code
+throws  appropriate  exception  based  the  passed  error  code  the  code  throwable  code  argument  should  either  null  the  throwable  which  caused  swt  throw  exception  swt  errors  are  reported  throwing  one  three  exceptions  java  lang illegal argument exception  thrown  whenever  one  the  api  methods  invoked  with  illegal  argument  org  eclipse  swt swt exception  extends  java  lang runtime exception  thrown  whenever  recoverable  error  happens  internally  swt  org  eclipse  swt swt error  extends  java  lang  error  thrown  whenever  non  recoverable  error  happens  internally  swt  this  method  provides  the  logic  which  maps  between  error  codes  and  one  the  above  exceptions  param  code  the  swt  error  code  param  throwable  the  exception  which  caused  the  error  occur  see swt error  see swt exception  see illegal argument exception
+throws  appropriate  exception  based  the  passed  error  code  the  code  throwable  code  argument  should  either  null  the  throwable  which  caused  swt  throw  exception  swt  errors  are  reported  throwing  one  three  exceptions  java  lang illegal argument exception  thrown  whenever  one  the  api  methods  invoked  with  illegal  argument  org  eclipse  swt swt exception  extends  java  lang runtime exception  thrown  whenever  recoverable  error  happens  internally  swt  org  eclipse  swt swt error  extends  java  lang  error  thrown  whenever  non  recoverable  error  happens  internally  swt  this  method  provides  the  logic  which  maps  between  error  codes  and  one  the  above  exceptions  param  code  the  swt  error  code  param  throwable  the  exception  which  caused  the  error  occur  param  detail  more  information  about  error  see swt error  see swt exception  see illegal argument exception  since 
+this  code  prevents  the  creation  chains swt errors  and swt exceptions  which  turn  contain  other swt errors  and swt exceptions  their  throwable  this  can  occur  when  low  level  code  throws  exception  past  point  where  higher  layer  being  safe  and  catching  all  exceptions  note  that  this  bad  thing  which  always  try  avoid  the  theory  that  the  low  level  code  closest  the  original  problem  simply  throw  the  original  exception  here
+illegal  arguments  non  fatal
+swt  exceptions  non  fatal
+operation  system  errors  fatal  may  occur  only  some  platforms
+fall  through
+swt  errors  fatal  may  occur  only  some  platforms
+unknown  undefined  error
+these  values  represent  bit  masks  that  may  need  expand  the  future  therefore  they  are  not  initialized  the  declaration  stop  the  compiler  from  inlining
+these  values  can  different  different  platforms  therefore  they  are  not  initialized  the  declaration  stop  the  compiler  from  inlining
+non  nls 
+</comments>
+</text>
+</DOC>

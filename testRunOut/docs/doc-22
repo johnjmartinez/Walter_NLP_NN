@@ -1,0 +1,1147 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.TableTree.java </DOCNO>
+<text>
+<class>
+table tree
+</class>
+<method>
+table tree
+handle event
+handle event
+add item
+add selection listener
+add tree listener
+check style
+compute size
+compute trim
+deselect all
+expand item
+get background
+get client area
+get foreground
+get font
+get item count
+get item height
+get items
+get selection
+get selection count
+get style
+get table
+create images
+get plus image
+get minus image
+ index
+ dispose
+ resize
+ selection
+get item
+get item
+get item
+ focus
+key down
+mouse down
+remove all
+remove item
+remove selection listener
+remove tree listener
+select all
+set background
+set enabled
+set font
+set foreground
+set menu
+set selection
+set tool tip text
+show item
+show selection
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+table tree
+ composite
+ table
+ table
+table tree item
+ items
+empty items
+ image
+plus image
+minus image
+size image
+ dispose
+table tree item
+empty items
+table tree item
+ string
+empty texts
+ string
+ image
+empty images
+ image
+ string
+ itemid
+table tree
+ composite
+ parent
+ style
+ parent
+check style
+ style
+ table
+ table
+ style
+ listener
+table listener
+ listener
+handle event
+ event
+
+
+ type
+ swt
+mouse down
+mouse down
+
+ swt
+ selection
+ selection
+
+ swt
+default selection
+ selection
+
+ swt
+key down
+key down
+
+table events
+ swt
+mouse down
+ swt
+ selection
+ swt
+default selection
+ swt
+key down
+
+
+table events
+ length
+
+ table
+add listener
+table events
+
+table listener
+ listener
+ listener
+ listener
+handle event
+ event
+
+
+ type
+ swt
+ dispose
+ dispose
+
+ swt
+ resize
+ resize
+
+ swt
+ focus
+ focus
+
+ events
+ swt
+ dispose
+ swt
+ resize
+ swt
+ focus
+
+
+ events
+ length
+
+add listener
+ events
+
+ listener
+add item
+table tree item
+ item
+ index
+ index
+ index
+ items
+ length
+ swt
+ error
+ swt
+error invalid argument
+table tree item
+new items
+table tree item
+ items
+ length
+ system
+ arraycopy
+ items
+new items
+ index
+new items
+ index
+ item
+ system
+ arraycopy
+ items
+ index
+new items
+ index
+ items
+ length
+ index
+ items
+new items
+ index
+ items
+ length
+ table
+get item count
+ table
+ index
+ items
+ index
+table item
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+add tree listener
+tree listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ expand
+typed listener
+add listener
+ swt
+ collapse
+typed listener
+check style
+ style
+ mask
+ swt
+left right
+ swt
+right left
+ style
+ style
+ mask
+ style
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+ table
+compute size
+ hint
+ hint
+ changed
+ rectangle
+compute trim
+
+
+ width
+ height
+check widget
+ table
+compute trim
+
+
+ width
+ height
+deselect all
+check widget
+ table
+deselect all
+expand item
+table tree item
+ item
+ item
+expand item
+ item
+parent item
+ item
+get visible
+ item
+set visible
+ item
+ expanded
+ item
+ items
+ length
+ item
+set expanded
+ event
+ event
+ event
+ event
+ item
+ item
+notify listeners
+ swt
+ expand
+ event
+ color
+get background
+ table
+get background
+ rectangle
+get client area
+ table
+get client area
+ color
+get foreground
+ table
+get foreground
+ font
+get font
+ table
+get font
+get item count
+ items
+ length
+get item height
+check widget
+ table
+get item height
+table tree item
+get items
+table tree item
+new items
+table tree item
+ items
+ length
+ system
+ arraycopy
+ items
+new items
+ items
+ length
+new items
+table tree item
+get selection
+check widget
+table item
+ selection
+ table
+get selection
+table tree item
+ result
+table tree item
+ selection
+ length
+
+
+ selection
+ length
+
+ result
+
+table tree item
+ selection
+
+get data
+ itemid
+ result
+get selection count
+check widget
+ table
+get selection count
+get style
+check widget
+ table
+get style
+ table
+get table
+ table
+create images
+item height
+size image
+get bounds
+ height
+ indent
+ math
+ min
+item height
+ indent
+ math
+ max
+ indent
+ size
+ math
+ max
+item height
+ indent
+ size
+ size
+ midpoint
+ indent
+ size
+ color
+ foreground
+get foreground
+ color
+plus minus
+get display
+get system color
+ swt
+color widget normal shadow
+ color
+ background
+get background
+palette data
+ palette
+palette data
+ rgb
+ foreground
+get rgb
+ background
+get rgb
+plus minus
+get rgb
+image data
+image data
+image data
+item height
+item height
+ palette
+image data
+transparent pixel
+plus image
+ image
+get display
+image data
+
+
+
+plus image
+
+set background
+ background
+
+fill rectangle
+item height
+item height
+
+set foreground
+plus minus
+
+draw rectangle
+ indent
+ indent
+ size
+ size
+
+set foreground
+ foreground
+
+draw line
+ midpoint
+ indent
+ midpoint
+ indent
+ size
+
+draw line
+ indent
+ midpoint
+ indent
+ size
+ midpoint
+
+ dispose
+ palette
+palette data
+ rgb
+ foreground
+get rgb
+ background
+get rgb
+plus minus
+get rgb
+image data
+image data
+item height
+item height
+ palette
+image data
+transparent pixel
+minus image
+ image
+get display
+image data
+
+
+minus image
+
+set background
+ background
+
+fill rectangle
+item height
+item height
+
+set foreground
+plus minus
+
+draw rectangle
+ indent
+ indent
+ size
+ size
+
+set foreground
+ foreground
+
+draw line
+ indent
+ midpoint
+ indent
+ size
+ midpoint
+
+ dispose
+ image
+get plus image
+plus image
+create images
+plus image
+ image
+get minus image
+minus image
+create images
+minus image
+ index
+table tree item
+ item
+
+
+ items
+ length
+
+ item
+ items
+
+
+ dispose
+ event
+
+ dispose
+
+
+ items
+ length
+
+ items
+
+ dispose
+ dispose
+plus image
+plus image
+ dispose
+minus image
+minus image
+ dispose
+size image
+size image
+ dispose
+plus image
+minus image
+size image
+ resize
+ event
+
+ point
+ size
+get size
+ table
+set bounds
+ size
+
+ size
+
+ selection
+ event
+
+ event
+ event
+ event
+table item
+table item
+table item
+
+ item
+table tree item
+ item
+get item
+table item
+ event
+ item
+ item
+
+ type
+ swt
+ selection
+
+ detail
+ swt
+ check
+ item
+ event
+ detail
+ swt
+ check
+ item
+ checked
+table item
+get checked
+notify listeners
+
+ type
+ event
+table tree item
+get item
+ index
+check widget
+ count
+ items
+ length
+ index
+ index
+ count
+ swt
+ error
+ swt
+error invalid range
+ items
+ index
+table tree item
+get item
+ point
+ point
+check widget
+table item
+ item
+ table
+get item
+ point
+ item
+get item
+ item
+table tree item
+get item
+table item
+table item
+table item
+
+
+ items
+ length
+
+table tree item
+ item
+ items
+
+get item
+table item
+ item
+ item
+ focus
+ event
+
+ table
+set focus
+key down
+ event
+
+table tree item
+ selection
+get selection
+ selection
+ length
+table tree item
+ item
+ selection
+ type
+
+key code
+ swt
+arrow right
+
+key code
+ swt
+arrow left
+trail key
+get style
+ swt
+ mirrored
+ swt
+arrow left
+ swt
+arrow right
+
+key code
+trail key
+ item
+get item count
+ item
+get expanded
+table tree item
+new selection
+ item
+get items
+ table
+set selection
+table item
+new selection
+table item
+show item
+new selection
+ type
+ swt
+ selection
+ item
+set expanded
+ type
+ swt
+ expand
+ item
+get expanded
+ item
+set expanded
+ type
+ swt
+ collapse
+table tree item
+ parent
+ item
+get parent item
+ parent
+ index
+ parent
+ index
+ item
+ index
+ table
+set selection
+table item
+ parent
+table item
+ type
+ swt
+ selection
+
+ character
+ item
+expand all
+
+ character
+ item
+get expanded
+ item
+set expanded
+ type
+ swt
+ collapse
+
+ character
+ item
+get item count
+ item
+get expanded
+ item
+set expanded
+ type
+ swt
+ expand
+ type
+ event
+ event
+ event
+ event
+ item
+ item
+notify listeners
+ type
+ event
+mouse down
+ event
+ event
+table item
+ items
+ table
+get items
+
+
+ items
+ length
+
+ rectangle
+ rect
+ items
+
+get image bounds
+ rect
+ contains
+ event
+
+ event
+
+table tree item
+ item
+table tree item
+ items
+
+get data
+ itemid
+ event
+ event
+ event
+ item
+ item
+ item
+set expanded
+ item
+get expanded
+ item
+get expanded
+notify listeners
+ swt
+ expand
+ event
+notify listeners
+ swt
+ collapse
+ event
+remove all
+check widget
+set redraw
+
+ items
+ length
+
+
+ items
+
+ dispose
+ items
+empty items
+set redraw
+remove item
+table tree item
+ item
+ index
+ index
+ items
+ length
+ items
+ index
+ item
+ index
+ index
+ items
+ length
+table tree item
+new items
+table tree item
+ items
+ length
+ system
+ arraycopy
+ items
+new items
+ index
+ system
+ arraycopy
+ items
+ index
+new items
+ index
+ items
+ length
+ index
+ items
+new items
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+remove listener
+ swt
+ selection
+ listener
+remove listener
+ swt
+default selection
+ listener
+remove tree listener
+tree listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+remove listener
+ swt
+ expand
+ listener
+remove listener
+ swt
+ collapse
+ listener
+select all
+check widget
+ table
+select all
+set background
+ color
+ color
+set background
+ color
+ table
+set background
+ color
+size image
+
+
+
+size image
+
+set background
+get background
+ rectangle
+ size
+size image
+get bounds
+
+fill rectangle
+ size
+
+ dispose
+set enabled
+ enabled
+set enabled
+ enabled
+ table
+set enabled
+ enabled
+set font
+ font
+ font
+set font
+ font
+ table
+set font
+ font
+set foreground
+ color
+ color
+set foreground
+ color
+ table
+set foreground
+ color
+set menu
+ menu
+ menu
+set menu
+ menu
+ table
+set menu
+ menu
+set selection
+table tree item
+ items
+check widget
+ items
+ swt
+ error
+ swt
+error null argument
+ length
+ items
+ length
+ length
+ table
+get style
+ swt
+ single
+ length
+deselect all
+table item
+table items
+table item
+ length
+
+
+ length
+
+ items
+
+ swt
+ error
+ swt
+error null argument
+ items
+
+get visible
+expand item
+ items
+
+table items
+
+ items
+
+table item
+ table
+set selection
+table items
+set tool tip text
+ string
+ string
+set tool tip text
+ string
+ table
+set tool tip text
+ string
+show item
+table tree item
+ item
+check widget
+ item
+ swt
+ error
+ swt
+error null argument
+ item
+get visible
+expand item
+ item
+table item
+table item
+ item
+table item
+ table
+show item
+table item
+show selection
+check widget
+ table
+show selection
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+table tree  selectable  user  interface  object  that  displays  hierarchy  items  and  issues  notification  when  item  selected table tree  may  single  multi  select  the  item  children  that  may  added  instances  this  class  must  type  code table tree item  code  note  that  although  this  class  subclass  code  composite  code  does  not  make  sense  add  code  control  code  children  set  layout  styles  single  multi  check  full  selection  events  selection default selection  collapse  expand  note  only  one  the  styles  single  and  multi  may  specified  deprecated  use  tree tree item  and tree column
+table tree items  are  not  treated  children  but  rather  items  when  the table tree  disposed  all  children  are  disposed  because table tree  inherits  this  behaviour  from  composite  the  items  must  disposed  separately  because table tree  not  part  the  org  eclipse  swt  widgets  package  the  method release widget  can  not  overriden  this  how  items  are  disposed  table  and  tree  instead  the  items  are  disposed  response  the  dispose  event  the table tree  the  dispose  flag  used  distinguish  between  disposing  one table tree item  when  removing  entry  from  the table tree  and  disposing  the  entire table tree
+non  nls 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  widget  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  widget  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  single  see  swt  multi  see  swt  check  see  swt  full  selection  see get style
+return  the  index  the  table  where  this  table  should  inserted
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  receiver  selection  changes  sending  one  the  messages  defined  the  code selection listener  code  interface  when  code widget selected  code  called  the  item  field  the  event  object  valid  the  reciever  has  code  swt  check  code  style  set  and  the  check  selection  changes  the  event  object  detail  field  contains  the  value  code  swt  check  code  code widget default selected  code  typically  called  when  item  double  clicked  the  item  field  the  event  object  valid  for  default  selection  but  the  detail  field  not  used  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener  see selection event
+adds  the  listener  the  collection  listeners  who  will  notified  when  item  the  receiver  expanded  collapsed  sending  one  the  messages  defined  the  code tree listener  code  interface  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see tree listener  see remove tree listener
+deselects  all  items  item  selected  deselected  item  not  selected  remains  unselected  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+expand  upward  from  the  specified  leaf  item
+this  method  must  overriden  otherwise table tree  which  the  first
+item  has  sub  items  grey  widget  background  colour  square  will  appear 
+the  first  column  the  first  item
+not  possible  the  constructor  set  the  background  the table tree
+the  same  the  background  the  table  because  this  interferes  with
+the table tree  adapting  changes  the  system  color  settings
+gets  the  number  items  return  the  number  items  the  widget
+ check widget
+gets  the  height  one  item  this  operation  will  fail  the  height  one  item  could  not  queried  from  the  return  the  height  one  item  the  widget  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+gets  the  items  return  the  items  the  widget
+ check widget
+gets  the  selected  items  this  operation  will  fail  the  selected  items  cannot  queried  from  the  return  the  selected  items  the  widget  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+gets  the  number  selected  items  this  operation  will  fail  the  number  selected  items  cannot  queried  from  the  return  the  number  selected  items  the  widget  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+returns  the  underlying  table  control  return  the  underlying  table  control
+ check widget
+calculate  border  around  image
+least  pixels  are  needed  draw  the  image
+leave  least  pixel  border
+size  must  even  number
+plus  image
+minus  image
+gets  the  index  item  the  widget  searched  starting  until  item  found  that  equal  the  search  item  item  found  returned  indexing  zero  based  this  index  relative  the  parent  only  param  item  the  search  item  return  the  index  the  item 
+ check widget
+usually  when  item  disposed destroy item  will  change  the  size  the  items  array  and  dispose  the  underlying  table  items  since  the  whole  table  tree  being  disposed  this  not  necessary  for  speed  the  dispose  flag  used  skip  over  this  part  the  item  dispose
+returns  the  item  the  given  zero  relative  index  the  receiver  throws  exception  the  index  out  range  param  index  the  index  the  item  return  return  the  item  the  given  index  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  the  item  the  given  point  the  receiver  null  such  item  exists  the  point  the  coordinate  system  the  receiver  param  point  the  point  used  locate  the  item  return  the  item  the  given  point  exception illegal argument exception  error  null  argument  the  point  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+user  clicked  the  expand  collapse  the  tree
+removes  all  items  this  operation  will  fail  when  item  could  not  removed  the  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  receiver  selection  changes  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  items  the  receiver  are  expanded  collapsed  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see tree listener  see add tree listener
+selects  all  the  items  the  receiver  the  receiver  single  select  nothing  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+sets  the  receiver  selection  the  given  array  items  the  current  selection  cleared  before  the  new  items  are  selected  items  that  are  not  the  receiver  are  ignored  the  receiver  single  select  and  multiple  items  are  specified  then  all  items  are  ignored  param  items  the  array  items  exception illegal argument exception  error  null  argument  the  array  items  null  error  invalid  argument  one  the  item  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see table tree deselect all
+shows  the  item  the  item  already  showing  the  receiver  this  method  simply  returns  otherwise  the  items  are  scrolled  and  expanded  until  the  item  visible  param  item  the  item  shown  exception illegal argument exception  error  null  argument  the  item  null  error  invalid  argument  the  item  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see table tree show selection
+shows  the  selection  there  selection  the  selection  already  visible  this  method  does  nothing  the  selection  scrolled  out  view  the  top  index  the  widget  changed  such  that  selection  becomes  visible  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+</comments>
+</text>
+</DOC>

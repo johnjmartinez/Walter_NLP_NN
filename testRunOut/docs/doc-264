@@ -1,0 +1,33 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.win32.SCRIPT_CONTROL.java </DOCNO>
+<text>
+<class>
+script control
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ win
+script control
+default language
+context digits
+invert pre bound dir
+invert post bound dir
+link string before
+link string after
+neutral override
+numeric override
+legacy bidi class
+ reserved
+ sizeof
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

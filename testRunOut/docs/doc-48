@@ -1,0 +1,158 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.StyledTextListener.java </DOCNO>
+<text>
+<class>
+styled text listener
+</class>
+<method>
+styled text listener
+handle event
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+styled text listener
+typed listener
+styled text listener
+swt event listener
+ listener
+ listener
+handle event
+ event
+
+text changed event
+text changed event
+
+ type
+styled text
+extended modify
+extended modify event
+extended modify event
+extended modify event
+styled text event
+
+extended modify listener
+event listener
+modify text
+extended modify event
+styled text
+line get background
+line background event
+line event
+line background event
+styled text event
+
+line background listener
+event listener
+line get background
+line event
+styled text event
+
+line background
+line event
+line background
+styled text
+line get segments
+bidi segment event
+segment event
+bidi segment event
+styled text event
+
+bidi segment listener
+event listener
+line get segments
+segment event
+styled text event
+
+ segments
+segment event
+ segments
+styled text
+line get style
+line style event
+line style event
+line style event
+styled text event
+
+line style listener
+event listener
+line get style
+line style event
+styled text event
+
+ styles
+line style event
+ styles
+styled text
+verify key
+verify event
+verify event
+verify event
+
+verify key listener
+event listener
+verify key
+verify event
+
+ doit
+verify event
+ doit
+styled text
+text changed
+text changed event
+text changed event
+styled text content
+
+ data
+text change listener
+event listener
+text changed
+text changed event
+styled text
+text changing
+text changing event
+text changing event
+text changing event
+styled text content
+
+ data
+styled text event
+
+text change listener
+event listener
+text changing
+text changing event
+styled text
+text set
+text changed event
+text changed event
+styled text content
+
+ data
+text change listener
+event listener
+text set
+text changed event
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+
+process styled text  events  invoking  the  event  handler
+</comments>
+</text>
+</DOC>

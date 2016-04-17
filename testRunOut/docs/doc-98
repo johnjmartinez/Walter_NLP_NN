@@ -1,0 +1,706 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.WinICOFileFormat.java </DOCNO>
+<text>
+<class>
+win ico file format
+</class>
+<method>
+convert pad
+icon size
+file format
+valid icon
+load file header
+load file header
+load from byte stream
+load icon
+load icon headers
+load info header
+unload icon
+unload icon header
+unload into byte stream
+unload mask data
+unload shape data
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ java
+
+win ico file format
+file format
+convert pad
+ data
+ width
+ height
+ depth
+ pad
+new pad
+ pad
+new pad
+ data
+ stride
+ width
+ depth
+ bpl
+ stride
+ pad
+ pad
+ pad
+new bpl
+ stride
+new pad
+new pad
+new pad
+new data
+ height
+new bpl
+src index
+dest index
+
+
+ height
+
+ system
+ arraycopy
+ data
+src index
+new data
+dest index
+new bpl
+src index
+ bpl
+dest index
+new bpl
+new data
+icon size
+image data
+
+shape data stride
+
+ width
+
+ depth
+mask data stride
+
+ width
+data size
+shape data stride
+mask data stride
+
+ height
+palette size
+
+ palette
+ colors
+
+ palette
+ colors
+ length
+win bmp file format
+bmp header fixed size
+palette size
+data size
+file format
+data input stream
+ stream
+ header
+ stream
+ read
+ header
+ stream
+ unread
+ header
+ header
+ header
+ header
+ header
+ exception
+
+valid icon
+image data
+
+
+ depth
+
+ palette
+ direct
+ size
+
+ palette
+ colors
+ length
+ size
+ size
+ size
+ size
+
+ palette
+ direct
+load file header
+data input stream
+byte stream
+file header
+file header
+byte stream
+read short
+file header
+byte stream
+read short
+file header
+byte stream
+read short
+ exception
+
+ swt
+ error
+ swt
+ error
+
+file header
+file header
+ swt
+ error
+ swt
+error invalid image
+num icons
+file header
+num icons
+ swt
+ error
+ swt
+error invalid image
+num icons
+load file header
+data input stream
+byte stream
+has header
+file header
+has header
+file header
+byte stream
+read short
+file header
+byte stream
+read short
+file header
+file header
+file header
+byte stream
+read short
+ exception
+
+ swt
+ error
+ swt
+ error
+
+file header
+file header
+ swt
+ error
+ swt
+error invalid image
+num icons
+file header
+num icons
+ swt
+ error
+ swt
+error invalid image
+num icons
+image data
+load from byte stream
+num icons
+load file header
+input stream
+ headers
+load icon headers
+num icons
+image data
+ icons
+image data
+ headers
+ length
+
+
+ icons
+ length
+
+ icons
+
+load icon
+ headers
+
+ icons
+image data
+load icon
+icon header
+info header
+load info header
+icon header
+win bmp file format
+bmp format
+win bmp file format
+bmp format
+input stream
+input stream
+palette data
+ palette
+bmp format
+load palette
+info header
+shape data
+bmp format
+load data
+info header
+ width
+info header
+info header
+info header
+info header
+ height
+info header
+info header
+info header
+info header
+ depth
+info header
+info header
+info header
+info header
+mask data
+bmp format
+load data
+info header
+mask data
+convert pad
+mask data
+ width
+ height
+bit invert data
+mask data
+mask data
+ length
+image data
+internal _new
+ width
+ height
+ depth
+ palette
+shape data
+mask data
+ swt
+image ico
+load icon headers
+num icons
+ headers
+num icons
+
+
+num icons
+
+ headers
+
+input stream
+ read
+ headers
+
+input stream
+ read
+ headers
+
+input stream
+read short
+ headers
+
+input stream
+read short
+ headers
+
+input stream
+read short
+ headers
+
+input stream
+read int
+ headers
+
+input stream
+read int
+ exception
+
+ swt
+ error
+ swt
+ error
+
+ headers
+load info header
+icon header
+ width
+icon header
+ height
+icon header
+num colors
+icon header
+num colors
+num colors
+num colors
+num colors
+num colors
+num colors
+num colors
+ swt
+ error
+ swt
+error invalid image
+input stream
+get position
+icon header
+input stream
+ skip
+icon header
+input stream
+get position
+ exception
+
+ swt
+ error
+ swt
+ error
+
+info header
+win bmp file format
+bmp header fixed size
+input stream
+ read
+info header
+ exception
+
+ swt
+ error
+ swt
+ error
+
+info header
+info header
+ swt
+ error
+ swt
+error invalid image
+info width
+info header
+info header
+info header
+info header
+info height
+info header
+info header
+info header
+info header
+bit count
+info header
+info header
+ height
+info height
+bit count
+ height
+ width
+info width
+ height
+info height
+bit count
+bit count
+bit count
+bit count
+bit count
+ swt
+ error
+ swt
+error invalid image
+info header
+ height
+info header
+ height
+info header
+ height
+info header
+ height
+info header
+unload icon
+image data
+ icon
+size image
+ icon
+ width
+ icon
+ depth
+ icon
+ width
+ icon
+ height
+output stream
+write int
+win bmp file format
+bmp header fixed size
+output stream
+write int
+ icon
+ width
+output stream
+write int
+ icon
+ height
+output stream
+write short
+output stream
+write short
+ icon
+ depth
+output stream
+write int
+output stream
+write int
+size image
+output stream
+write int
+output stream
+write int
+output stream
+write int
+ icon
+ palette
+ colors
+ icon
+ palette
+ colors
+ length
+output stream
+write int
+ exception
+
+ swt
+ error
+ swt
+ error
+
+ rgbs
+win bmp file format
+palette bytes
+ icon
+ palette
+output stream
+ write
+ rgbs
+ exception
+
+ swt
+ error
+ swt
+ error
+
+unload shape data
+ icon
+unload mask data
+ icon
+unload icon header
+image data
+
+header size
+ offset
+header size
+icon size
+icon size
+
+output stream
+write byte
+
+ width
+output stream
+write byte
+
+ height
+output stream
+write short
+
+ palette
+ colors
+
+ palette
+ colors
+ length
+output stream
+write short
+output stream
+write short
+output stream
+write int
+icon size
+output stream
+write int
+ offset
+ exception
+
+ swt
+ error
+ swt
+ error
+
+unload into byte stream
+image data
+ image
+valid icon
+ image
+ swt
+ error
+ swt
+error invalid image
+output stream
+write short
+output stream
+write short
+output stream
+write short
+ exception
+
+ swt
+ error
+ swt
+ error
+
+unload icon header
+ image
+unload icon
+ image
+unload mask data
+image data
+ icon
+image data
+ mask
+ icon
+get transparency mask
+ bpl
+ icon
+ width
+ pad
+ mask
+scanline pad
+src bpl
+ bpl
+ pad
+ pad
+ pad
+dest bpl
+ bpl
+ buf
+dest bpl
+ offset
+ icon
+ height
+src bpl
+ data
+ mask
+ data
+
+
+ icon
+ height
+
+ system
+ arraycopy
+ data
+ offset
+ buf
+ bpl
+bit invert data
+ buf
+ bpl
+output stream
+ write
+ buf
+dest bpl
+ offset
+src bpl
+ exception
+
+ swt
+ error
+ swt
+ error
+
+unload shape data
+image data
+ icon
+ bpl
+ icon
+ width
+ icon
+ depth
+ pad
+ icon
+scanline pad
+src bpl
+ bpl
+ pad
+ pad
+ pad
+dest bpl
+ bpl
+ buf
+dest bpl
+ offset
+ icon
+ height
+src bpl
+ data
+ icon
+ data
+
+
+ icon
+ height
+
+ system
+ arraycopy
+ data
+ offset
+ buf
+ bpl
+output stream
+ write
+ buf
+dest bpl
+ offset
+src bpl
+ exception
+
+ swt
+ error
+ swt
+ error
+
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+answer  the  size  bytes  the  file  representation  the  given  icon
+load  one  icon  from  the  byte  stream
+the  number  colors  the  low  byte  but  the  high  byte  must 
+this  specified  represents  256  100  colors
+seek  the  specified  offset
+unload  single  icon
+unload  the  icon  header  for  the  given  icon  calculating  the  offset
+unload  the  mask  data  for  icon  the  data  flipped  vertically  and  inverted
+unload  the  shape  data  for  icon  the  data  flipped  vertically
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,52 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.GCData.java </DOCNO>
+<text>
+<class>
+ data
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+ win
+ data
+ device
+ device
+ style
+ image
+ image
+ foreground
+ background
+ pen
+line width
+ dashes
+ brush
+ font
+null bitmap
+ hwnd
+ paintstruct
+
+ layout
+ alpha
+gdip graphics
+gdip pen
+gdip brush
+ pattern
+foreground pattern
+ pattern
+background pattern
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  descriptions  terms  unallocated  platform  specific  data  fields  important  this  class  not  part  the  public  api  for  swt  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code 
+</comments>
+</text>
+</DOC>

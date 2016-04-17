@@ -1,0 +1,974 @@
+<DOC>
+<DOCNO>org.eclipse.swt.dnd.Clipboard.java </DOCNO>
+<text>
+<class>
+ clipboard
+</class>
+<method>
+ clipboard
+check subclass
+check widget
+clear contents
+clear contents
+ dispose
+get contents
+get contents
+ disposed
+set contents
+set contents
+add ref
+create com interfaces
+ method
+ method
+ method
+ method
+ method
+ method
+dispose com interfaces
+enum format etc
+get data
+query get data
+query interface
+ release
+get available types
+get available types
+get available type names
+_get available types
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ dnd
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ clipboard
+ display
+ display
+com object
+data object
+ref count
+ transfer
+transfer agents
+ transfer
+ object
+ data
+ object
+cfstr preferreddropeffect
+ clipboard
+ display
+ display
+check subclass
+ display
+ display
+ display
+get current
+ display
+ display
+ display
+get default
+ display
+get thread
+ thread
+current thread
+ dnd
+ error
+ swt
+error thread invalid access
+ display
+ display
+ tchar
+format name
+ tchar
+cfstr preferreddropeffect
+
+register clipboard format
+format name
+create com interfaces
+add ref
+check subclass
+ string
+ name
+get class
+get name
+ string
+valid name
+ clipboard
+get name
+valid name
+ equals
+ name
+ dnd
+ error
+ swt
+error invalid subclass
+check widget
+ display
+ display
+ display
+ display
+ dnd
+ error
+ swt
+error widget disposed
+ display
+get thread
+ thread
+current thread
+ dnd
+ error
+ swt
+error thread invalid access
+ display
+ disposed
+ dnd
+ error
+ swt
+error widget disposed
+clear contents
+clear contents
+ dnd
+ clipboard
+clear contents
+ clipboards
+check widget
+ clipboards
+ dnd
+ clipboard
+ com
+ole current clipboard
+data object
+get address
+ com
+
+ com
+ole set clipboard
+ dispose
+ disposed
+ display
+get thread
+ thread
+current thread
+ dnd
+ error
+ swt
+error thread invalid access
+ com
+ole current clipboard
+data object
+get address
+ com
+
+ com
+ole flush clipboard
+ release
+ display
+ object
+get contents
+ transfer
+ transfer
+get contents
+ transfer
+ dnd
+ clipboard
+ object
+get contents
+ transfer
+ transfer
+ clipboards
+check widget
+ transfer
+ dnd
+ error
+ swt
+error null argument
+ clipboards
+ dnd
+ clipboard
+ ppv
+retry count
+ result
+ com
+ole get clipboard
+ ppv
+ result
+ com
+
+retry count
+ thread
+ sleep
+ throwable
+
+ msg
+ msg
+ msg
+
+peek message
+ msg
+
+ noremove
+
+ noyield
+ result
+ com
+ole get clipboard
+ ppv
+ result
+ com
+
+data object
+data object
+data object
+ ppv
+transfer data
+ allowed
+ transfer
+get supported types
+
+
+ allowed
+ length
+
+data object
+query get data
+ allowed
+
+ formatetc
+ com
+
+transfer data
+ data
+ allowed
+
+ data
+data object
+ ppv
+ transfer
+native java
+ data
+data object
+ release
+ disposed
+ display
+set contents
+ object
+ data
+ transfer
+data types
+set contents
+ data
+data types
+ dnd
+ clipboard
+set contents
+ object
+ data
+ transfer
+data types
+ clipboards
+check widget
+ data
+data types
+ data
+ length
+data types
+ length
+ data
+ length
+ dnd
+ error
+ swt
+error invalid argument
+
+
+ data
+ length
+
+ data
+
+data types
+
+data types
+
+ validate
+ data
+
+ dnd
+ error
+ swt
+error invalid argument
+ clipboards
+ dnd
+ clipboard
+ data
+ data
+transfer agents
+data types
+ result
+ com
+ole set clipboard
+data object
+get address
+retry count
+ result
+ com
+
+retry count
+ thread
+ sleep
+ throwable
+
+ msg
+ msg
+ msg
+
+peek message
+ msg
+
+ noremove
+
+ noyield
+ result
+ com
+ole set clipboard
+data object
+get address
+ result
+ com
+
+ dnd
+ error
+ dnd
+error cannot set clipboard
+add ref
+ref count
+ref count
+create com interfaces
+data object
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+get data
+ args
+ args
+ method
+ args
+query get data
+ args
+ method
+ args
+enum format etc
+ args
+ args
+dispose com interfaces
+data object
+data object
+ dispose
+data object
+enum format etc
+ direction
+ppenum formatetc
+ direction
+ com
+datadir set
+ com
+ notimpl
+transfer data
+allowed data types
+transfer data
+
+
+transfer agents
+ length
+
+transfer data
+ formats
+transfer agents
+
+get supported types
+transfer data
+new allowed data types
+transfer data
+allowed data types
+ length
+ formats
+ length
+ system
+ arraycopy
+allowed data types
+new allowed data types
+allowed data types
+ length
+ system
+ arraycopy
+ formats
+new allowed data types
+allowed data types
+ length
+ formats
+ length
+allowed data types
+new allowed data types
+ole enum formatetc
+enum formatetc
+ole enum formatetc
+enum formatetc
+add ref
+ formatetc
+ formats
+ formatetc
+allowed data types
+ length
+
+
+allowed data types
+ length
+
+ formats
+
+allowed data types
+
+ formatetc
+ formatetc
+ dropeffect
+ formatetc
+ dropeffect
+ format
+cfstr preferreddropeffect
+ dropeffect
+ aspect
+ com
+dvaspect content
+ dropeffect
+ lindex
+ dropeffect
+ tymed
+ com
+tymed hglobal
+ formats
+ formats
+ length
+ dropeffect
+enum formatetc
+set formats
+ formats
+
+move memory
+ppenum formatetc
+enum formatetc
+get address
+ com
+
+get data
+ formatetc
+ pmedium
+ formatetc
+ pmedium
+ com
+ invalidarg
+query get data
+ formatetc
+ com
+
+ com
+ formatetc
+transfer data
+transfer data
+transfer data
+transfer data
+ formatetc
+ formatetc
+ com
+move memory
+transfer data
+ formatetc
+ formatetc
+ formatetc
+ sizeof
+transfer data
+ type
+transfer data
+ formatetc
+ format
+transfer data
+ stgmedium
+ stgmedium
+transfer data
+ result
+ com
+ fail
+transfer data
+ type
+cfstr preferreddropeffect
+ stgmedium
+ stgmedium
+ stgmedium
+ stgmedium
+ tymed
+ com
+tymed hglobal
+ stgmedium
+union field
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+
+move memory
+ stgmedium
+union field
+ com
+dropeffect copy
+ stgmedium
+unk for release
+ com
+move memory
+ pmedium
+ stgmedium
+ stgmedium
+ sizeof
+ com
+
+transfer index
+
+
+transfer agents
+ length
+
+transfer agents
+
+supported type
+transfer data
+transfer index
+
+transfer index
+ com
+ formatetc
+transfer agents
+transfer index
+java native
+ data
+transfer index
+transfer data
+ com
+move memory
+ pmedium
+transfer data
+ stgmedium
+ stgmedium
+ sizeof
+transfer data
+ result
+query get data
+ formatetc
+transfer agents
+ com
+ fail
+transfer data
+transfer data
+transfer data
+transfer data
+ formatetc
+ formatetc
+ com
+move memory
+transfer data
+ formatetc
+ formatetc
+ formatetc
+ sizeof
+transfer data
+ type
+transfer data
+ formatetc
+ format
+transfer data
+ type
+cfstr preferreddropeffect
+ com
+
+
+
+transfer agents
+ length
+
+transfer agents
+
+supported type
+transfer data
+ com
+
+ com
+ formatetc
+query interface
+ riid
+ppv object
+ riid
+ppv object
+ com
+ invalidarg
+ guid
+ guid
+ guid
+ com
+move memory
+ guid
+ riid
+ guid
+ sizeof
+ com
+equal guid
+ guid
+ com
+iidi unknown
+ com
+equal guid
+ guid
+ com
+iidi data object
+
+move memory
+ppv object
+data object
+get address
+add ref
+ com
+
+
+move memory
+ppv object
+ com
+ nointerface
+ release
+ref count
+ref count
+ data
+ object
+transfer agents
+ transfer
+dispose com interfaces
+ com
+free unused libraries
+ref count
+transfer data
+get available types
+get available types
+ dnd
+ clipboard
+transfer data
+get available types
+ clipboards
+check widget
+ clipboards
+ dnd
+ clipboard
+transfer data
+ formatetc
+ types
+_get available types
+transfer data
+ data
+transfer data
+ types
+ length
+
+
+ types
+ length
+
+ data
+
+transfer data
+ data
+
+ type
+ types
+
+ format
+ data
+
+ formatetc
+ types
+
+ data
+ string
+get available type names
+check widget
+ formatetc
+ types
+_get available types
+ string
+ names
+ string
+ types
+ length
+max size
+
+
+ types
+ length
+
+ tchar
+ buffer
+ tchar
+max size
+ size
+
+get clipboard format name
+ types
+
+ format
+ buffer
+max size
+ size
+ names
+
+ buffer
+ string
+ size
+ types
+
+ format
+ com
+ hdrop
+ names
+
+ com
+ text
+ names
+
+ com
+ bitmap
+ names
+
+ com
+ metafilepict
+ names
+
+ com
+ sylk
+ names
+
+ com
+ dif
+ names
+
+ com
+ tiff
+ names
+
+ com
+ oemtext
+ names
+
+ com
+ dib
+ names
+
+ com
+ palette
+ names
+
+ com
+ pendata
+ names
+
+ com
+ riff
+ names
+
+ com
+ wave
+ names
+
+ com
+ unicodetext
+ names
+
+ com
+ enhmetafile
+ names
+
+ com
+ locale
+ names
+
+ com
+ max
+ names
+
+ names
+
+ names
+ formatetc
+_get available types
+ formatetc
+ types
+ formatetc
+ ppv
+ com
+ole get clipboard
+ ppv
+ com
+
+ types
+data object
+data object
+data object
+ ppv
+ formatetc
+
+data object
+enum format etc
+ com
+datadir get
+ formatetc
+data object
+ release
+
+ com
+
+ types
+enum formatetc
+enum formatetc
+enum formatetc
+ formatetc
+ rgelt
+
+global alloc
+
+gmem fixed
+
+gmem zeroinit
+ formatetc
+ sizeof
+pcelt fetched
+enum formatetc
+ reset
+enum formatetc
+ next
+ rgelt
+pcelt fetched
+ com
+
+pcelt fetched
+ formatetc
+ formatetc
+ formatetc
+ com
+move memory
+ formatetc
+ rgelt
+ formatetc
+ sizeof
+ formatetc
+new types
+ formatetc
+ types
+ length
+ system
+ arraycopy
+ types
+new types
+ types
+ length
+new types
+ types
+ length
+ formatetc
+ types
+new types
+
+global free
+ rgelt
+enum formatetc
+ release
+ types
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+the  code  clipboard  code  provides  mechanism  for  transferring  data  from  one  application  another  within  application  important  this  class  not  intended  subclassed 
+ole  interfaces
+constructs  new  instance  this  class  creating  instance  clipboard  may  cause  system  resources  allocated  depending  the  platform  therefore  mandatory  that  the  clipboard  instance  disposed  when  longer  required  param  display  the  display  which  allocate  the  clipboard  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  clipboard  dispose  see  clipboard check subclass
+non  nls 
+checks  that  this  class  can  subclassed  the  swt  class  library  intended  subclassed  only  specific  controlled  points  this  method  enforces  this  rule  unless  overridden  important  providing  implementation  this  method  that  allows  subclass  class  which  does  not  normally  allow  subclassing  created  the  implementer  agrees  fully  responsible  for  the  fact  that  any  such  subclass  will  likely  fail  between  swt  releases  and  will  strongly  platform  specific  support  provided  for  user  written  classes  which  are  implemented  this  fashion  the  ability  subclass  outside  the  allowed  swt  classes  intended  purely  enable  those  not  the  swt  development  team  implement  patches  order  get  around  specific  limitations  advance  when  those  limitations  can  addressed  the  team  subclassing  should  not  attempted  without  intimate  and  detailed  understanding  the  hierarchy  exception swt exception  error  invalid  subclass  this  class  not  allowed  subclass 
+throws  code swt exception  code  the  receiver  can  not  accessed  the  caller  this  may  include  both  checks  the  state  the  receiver  and  more  generally  the  entire  execution  context  this  method  should  called  widget  implementors  enforce  the  standard  swt  invariants  currently  error  invoke  any  method  other  than  code  disposed  code  widget  that  has  had  its  code  dispose  code  method  called  also  error  call  widget  methods  from  any  thread  that  different  from  the  thread  that  created  the  widget  future  releases  swt  there  may  more  fewer  error  checks  and  exceptions  may  thrown  for  different  reasons  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+this  clipboard  currently  the  owner  the  data  the  system  clipboard  clear  the  contents  this  clipboard  not  the  owner  then  nothing  done  note  that  there  are  clipboard  assistant  applications  that  take  ownership  data  make  copies  data  when  placed  the  clipboard  these  cases  may  not  possible  clear  the  clipboard  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+this  clipboard  currently  the  owner  the  data  the  specified  clipboard  clear  the  contents  this  clipboard  not  the  owner  then  nothing  done  note  that  there  are  clipboard  assistant  applications  that  take  ownership  data  make  copies  data  when  placed  the  clipboard  these  cases  may  not  possible  clear  the  clipboard  the  clipboards  value  either  one  the  clipboard  constants  defined  class  code  dnd  code  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  dnd  code  clipboard  constants  param  clipboards  cleared  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  dnd  clipboard  see  dnd  selection  clipboard  since 
+disposes  the  operating  system  resources  associated  with  the  clipboard  the  data  will  still  available  the  system  clipboard  after  the  dispose  method  called  note  some  platforms  the  data  will  not  available  once  the  application  has  exited  the  display  has  been  disposed  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent 
+retrieve  the  data  the  specified  type  currently  available  the  system  clipboard  refer  the  specific  subclass  code  transfer  code  determine  the  type  object  returned  the  following  snippet  shows  text  and  rtf  text  being  retrieved  from  the  clipboard  code  pre  clipboard  clipboard  new  clipboard  display text transfer text transfer text transfer get instance  string text data  string  clipboard get contents text transfer text data  null  system  out  println  text text data rtf transfer rtf transfer rtf transfer get instance  string rtf data  string  clipboard get contents rtf transfer rtf data  null  system  out  println  rtf  text rtf data  clipboard  dispose  code  pre  param  transfer  the  transfer  agent  for  the  type  data  being  requested  return  the  data  obtained  from  the  clipboard  null  data  this  type  available  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  exception illegal argument exception  error  null  argument  transfer  null  see  transfer
+retrieve  the  data  the  specified  type  currently  available  the  specified  clipboard  refer  the  specific  subclass  code  transfer  code  determine  the  type  object  returned  the  following  snippet  shows  text  and  rtf  text  being  retrieved  from  the  clipboard  code  pre  clipboard  clipboard  new  clipboard  display text transfer text transfer text transfer get instance  string text data  string  clipboard get contents text transfer text data  null  system  out  println  text text data rtf transfer rtf transfer rtf transfer get instance  string rtf data  string  clipboard get contents rtf transfer  dnd  clipboard rtf data  null  system  out  println  rtf  text rtf data  clipboard  dispose  code  pre  the  clipboards  value  either  one  the  clipboard  constants  defined  class  code  dnd  code  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  dnd  code  clipboard  constants  param  transfer  the  transfer  agent  for  the  type  data  being  requested  param  clipboards  which  look  for  data  return  the  data  obtained  from  the  clipboard  null  data  this  type  available  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  exception illegal argument exception  error  null  argument  transfer  null  see  transfer  see  dnd  clipboard  see  dnd  selection  clipboard  since 
+bug  windows  when  new  application  takes  control  the  clipboard  other  applications  may  open  the  clipboard  determine  they  want  record  the  clipoard  updates  when  this  happens  the  clipboard  can  not  accessed  until  the  other  application  finished  allow  the  other  applications  release  the  clipboard  use peek message  enable  cross  thread  message  sends
+data  available  for  this  transfer
+returns  code  true  code  the  clipboard  has  been  disposed  and  code  false  code  otherwise  this  method  gets  the  dispose  state  for  the  clipboard  when  clipboard  has  been  disposed  error  invoke  any  other  method  using  the  clipboard  return  code  true  code  when  the  widget  disposed  and  code  false  code  otherwise  since 
+place  data  the  specified  type  the  system  clipboard  more  than  one  type  data  can  placed  the  system  clipboard  the  same  time  setting  the  data  clears  any  previous  data  from  the  system  clipboard  regardless  type  note  some  platforms  the  data  immediately  copied  the  system  clipboard  but  other  platforms  provided  upon  request  result  the  application  modifes  the  data  object  has  set  the  clipboard  that  modification  may  may  not  available  when  the  data  subsequently  requested  the  following  snippet  shows  text  and  rtf  text  being  set  the  copy  paste  clipboard  code  pre  clipboard  clipboard  new  clipboard  display  string text data  hello  world  string rtf data  rtf  hello  world text transfer text transfer text transfer get instance rtf transfer rtf transfer rtf transfer get instance  transfer  transfers  new  transfer text transfer rtf transfer  object  data  new  object text data rtf data  clipboard set contents  data  transfers  clipboard  dispose  code  pre  param  data  the  data  set  the  clipboard  param data types  the  transfer  agents  that  will  convert  the  data  its  platform  specific  format  each  entry  the  data  array  must  have  corresponding data type  exception illegal argument exception  error  invalid  argument  data  null  datatypes  null  the  length  data  not  the  same  the  length data types  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  exception swt error  error  cannot  set  clipboard  the  clipboard  locked  otherwise  unavailable  note  error  cannot  set  clipboard  should swt exception  since  recoverable  error  but  can  not  changed  due  backward  compatability 
+place  data  the  specified  type  the  specified  clipboard  more  than  one  type  data  can  placed  the  specified  clipboard  the  same  time  setting  the  data  clears  any  previous  data  from  the  specified  clipboard  regardless  type  note  some  platforms  the  data  immediately  copied  the  specified  clipboard  but  other  platforms  provided  upon  request  result  the  application  modifes  the  data  object  has  set  the  clipboard  that  modification  may  may  not  available  when  the  data  subsequently  requested  the  clipboards  value  either  one  the  clipboard  constants  defined  class  code  dnd  code  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  dnd  code  clipboard  constants  the  following  snippet  shows  text  and  rtf  text  being  set  the  copy  paste  clipboard  code  pre  clipboard  clipboard  new  clipboard  display  string text data  hello  world  string rtf data  rtf  hello  world text transfer text transfer text transfer get instance rtf transfer rtf transfer rtf transfer get instance  transfer  transfers  new  transfer text transfer rtf transfer  object  data  new  object text data rtf data  clipboard set contents  data  transfers  dnd  clipboard  clipboard  dispose  code  pre  param  data  the  data  set  the  clipboard  param data types  the  transfer  agents  that  will  convert  the  data  its  platform  specific  format  each  entry  the  data  array  must  have  corresponding data type  param  clipboards  which  set  the  data  exception illegal argument exception  error  invalid  argument  data  null  datatypes  null  the  length  data  not  the  same  the  length data types  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  exception swt error  error  cannot  set  clipboard  the  clipboard  locked  otherwise  unavailable  note  error  cannot  set  clipboard  should swt exception  since  recoverable  error  but  can  not  changed  due  backward  compatability  see  dnd  clipboard  see  dnd  selection  clipboard  since 
+bug  windows  when  new  application  takes  control  the  clipboard  other  applications  may  open  the  clipboard  determine  they  want  record  the  clipoard  updates  when  this  happens  the  clipboard  can  not  flushed  until  the  other  application  finished  allow  other  applications  get  the  data  use peek message  enable  cross  thread  message  sends
+register  each  the  interfaces  that  this  object  implements
+method get data here  not  implemented
+method get canonical format etc  not  implemented
+method set data  not  implemented
+method  advise  not  implemented
+method  unadvise  not  implemented
+method enum advise  not  implemented
+only  allow  getting  data set data  not  currently  supported
+what  types  have  been  registered
+include  the  drop  effect  format  specify  copy  operation
+called  data  consumer  obtain  data  from  source  data  object  the get data  method  renders  the  data  described  the  specified  formatetc  structure  and  transfers  through  the  specified  stgmedium  structure  the  caller  then  assumes  responsibility  for  releasing  the  stgmedium  structure
+specify  that  copy  operation  performed
+get  matching  transfer  agent  perform  conversion
+this  type  supported  the  transfer  agent
+returns  array  the  data  types  currently  available  the  system  clipboard  use  with  transfer supported type  return  array  data  types  currently  available  the  system  clipboard  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  transfer supported type  since 
+returns  array  the  data  types  currently  available  the  specified  clipboard  use  with  transfer supported type  the  clipboards  value  either  one  the  clipboard  constants  defined  class  code  dnd  code  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  dnd  code  clipboard  constants  param  clipboards  from  which  get  the  data  types  return  array  data  types  currently  available  the  specified  clipboard  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  transfer supported type  see  dnd  clipboard  see  dnd  selection  clipboard  since 
+returns  platform  specific  list  the  data  types  currently  available  the  system  clipboard  note  code get available type names  code  utility  for  writing  transfer  sub  class  should  not  used  within  application  because  provides  platform  specific  information  return  platform  specific  list  the  data  types  currently  available  the  system  clipboard  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+loop  over  enumerator  and  save  any  types  that  match  what  are  looking  for
+</comments>
+</text>
+</DOC>

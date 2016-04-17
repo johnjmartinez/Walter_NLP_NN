@@ -1,0 +1,146 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.TextStyle.java </DOCNO>
+<text>
+<class>
+text style
+</class>
+<method>
+text style
+ equals
+hash code
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+text style
+ font
+ font
+ color
+ foreground
+ color
+ background
+ underline
+ strikeout
+text style
+ font
+ font
+ color
+ foreground
+ color
+ background
+ font
+ font
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ foreground
+ foreground
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ background
+ background
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ font
+ font
+ foreground
+ foreground
+ background
+ background
+ equals
+ object
+ object
+ object
+ object
+ object
+text style
+text style
+ style
+text style
+ object
+ foreground
+ foreground
+ equals
+ style
+ foreground
+ style
+ foreground
+ background
+ background
+ equals
+ style
+ background
+ style
+ background
+ font
+ font
+ equals
+ style
+ font
+ style
+ font
+ underline
+ style
+ underline
+ strikeout
+ style
+ strikeout
+hash code
+ hash
+ foreground
+ hash
+ foreground
+hash code
+ background
+ hash
+ background
+hash code
+ font
+ hash
+ font
+hash code
+ underline
+ hash
+ hash
+ strikeout
+ hash
+ hash
+ hash
+ string
+ string
+ font
+ foreground
+ background
+ underline
+ strikeout
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+code text style  code  defines  set  styles  that  can  applied  range  text  the hash code  method  this  class  uses  the  values  the  public  fields  compute  the  hash  value  when  storing  instances  the  class  hashed  collections  not  modify  these  fields  after  the  object  has  been  inserted  application  code  does  not  need  explicitly  release  the  resources  managed  each  instance  when  those  instances  are  longer  required  and  thus  code  dispose  code  method  provided  see text layout  see  font  see  color  since 
+the  font  the  style
+the  foreground  the  style
+the  background  the  style
+the  underline  flag  the  style
+the  strikeout  flag  the  style
+create  new  text  style  with  the  specified  font  foreground  and  background  param  font  the  font  the  style  code  null  code  none  param  foreground  the  foreground  color  the  style  code  null  code  none  param  background  the  background  color  the  style  code  null  code  none
+compares  the  argument  the  receiver  and  returns  true  they  represent  the  same  object  using  class  specific  comparison  param  object  the  object  compare  with  this  object  return  code  true  code  the  object  the  same  this  object  and  code  false  code  otherwise  see hash code
+returns  integer  hash  code  for  the  receiver  any  two  objects  that  return  code  true  code  when  passed  code  equals  code  must  return  the  same  value  for  this  method  return  the  receiver  hash  see  equals  object
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  code  rgb  code
+non  nls  non  nls  non  nls  non  nls  non  nls  non  nls 
+</comments>
+</text>
+</DOC>

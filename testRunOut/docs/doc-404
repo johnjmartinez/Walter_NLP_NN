@@ -1,0 +1,242 @@
+<DOC>
+<DOCNO>org.eclipse.swt.dnd.ByteArrayTransfer.java </DOCNO>
+<text>
+<class>
+byte array transfer
+</class>
+<method>
+get supported types
+supported type
+java native
+native java
+check byte array
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ dnd
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ internal
+ win
+byte array transfer
+ transfer
+transfer data
+get supported types
+ types
+get type ids
+transfer data
+ data
+transfer data
+ types
+ length
+
+
+ types
+ length
+
+ data
+
+transfer data
+ data
+
+ type
+ types
+
+ data
+
+ formatetc
+ formatetc
+ data
+
+ formatetc
+ format
+ types
+
+ data
+
+ formatetc
+ aspect
+ com
+dvaspect content
+ data
+
+ formatetc
+ lindex
+ data
+
+ formatetc
+ tymed
+ com
+tymed hglobal
+ data
+supported type
+transfer data
+transfer data
+transfer data
+ types
+get type ids
+
+
+ types
+ length
+
+ formatetc
+ format
+transfer data
+ formatetc
+ format
+ format
+ types
+
+ format
+ aspect
+ com
+dvaspect content
+ com
+dvaspect content
+ format
+ tymed
+ com
+tymed hglobal
+ com
+tymed hglobal
+java native
+ object
+ object
+transfer data
+transfer data
+check byte array
+ object
+supported type
+transfer data
+ dnd
+ error
+ dnd
+error invalid data
+ data
+ object
+ size
+ data
+ length
+new ptr
+
+global alloc
+
+gmem fixed
+
+gmem zeroinit
+ size
+
+move memory
+new ptr
+ data
+ size
+transfer data
+ stgmedium
+ stgmedium
+transfer data
+ stgmedium
+ tymed
+ com
+tymed hglobal
+transfer data
+ stgmedium
+union field
+new ptr
+transfer data
+ stgmedium
+unk for release
+transfer data
+ result
+ com
+
+ object
+native java
+transfer data
+transfer data
+supported type
+transfer data
+transfer data
+data object
+data object
+ data
+data object
+transfer data
+data object
+ data
+add ref
+ formatetc
+ formatetc
+transfer data
+ formatetc
+ stgmedium
+ stgmedium
+ stgmedium
+ stgmedium
+ tymed
+ com
+tymed hglobal
+transfer data
+ result
+ data
+get data
+ formatetc
+ stgmedium
+ data
+ release
+transfer data
+ result
+ com
+
+ mem
+ stgmedium
+union field
+ size
+
+global size
+ mem
+ buffer
+ size
+ ptr
+
+global lock
+ mem
+
+move memory
+ buffer
+ ptr
+ size
+
+global unlock
+ mem
+
+global free
+ mem
+ buffer
+check byte array
+ object
+ object
+ object
+ object
+ object
+ length
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+the  class  code byte array transfer  code  provides  platform  specific  mechanism  for  converting  java  code  byte  code  platform  specific  representation  the  byte  array  and  vice  versa  see  code  transfer  code  for  additional  information  code byte array transfer  code  never  used  directly  but  sub  classed  transfer  agents  that  convert  between  data  java  format  such  code  string  code  and  platform  specific  byte  array  the  data  you  are  converting  does  not  map  code  byte  code  you  should  sub  class  code  transfer  code  directly  and  your  own  mapping  platform  data  type  the  following  snippet  shows  subclass byte array transfer  that  transfers  data  defined  the  class  code  type  code  pre  code  public  class  type  public  string file name  public  long file length  public  long last modified  code  pre  pre  code  public  class type transfer  extends byte array transfer  private  static  final  string  mytypename  type  name  private  static  final  int  mytypeid register type  mytypename  private  static type transfer  instance  new type transfer  private type transfer  public  static type transfer get instance  return  instance  public  void java native  object  object transfer data transfer data  object  null  object  instanceof  type  return supported type transfer data  type  types  type  object  try  write  data  byte  array  and  then  ask  super  convert  medium byte array output stream  out  new byte array output stream data output stream write out  new data output stream  out  for  int  length  types  length  length  byte  buffer  types file name get bytes write out write int  buffer  length write out  write  buffer write out write long  types file length write out write long  types last modified  byte  buffer  out byte array write out  close  super java native  buffer transfer data  catch  exception  public  object native java transfer data transfer data supported type transfer data  byte  buffer  byte  super native java transfer data  buffer  null  return  null  type  data  new  type  try byte array input stream  new byte array input stream  buffer data input stream  read  new data input stream  while  read  available  type  datum  new  type  int  size  read read int  byte  name  new  byte  size  read  read  name  datum file name  new  string  name  datum file length  read read long  datum last modified  read read long  type new data  new  type  data  length  system  arraycopy  data new data  data  length new data  data  length  datum  data new data  read  close  catch  exception  return  null  return  data  return  null  protected  string get type names  return  new  string  mytypename  protected  int get type ids  return  new  int  mytypeid  code  pre
+this  implementation  code java native  code  converts  java  code  byte  code  platform  specific  representation  for  additional  information  see  code  transfer java native  code  see  transfer java native  param  object  java  code  byte  code  containing  the  data  converted  param transfer data  empty  code transfer data  code  object  this  object  will  filled  return  with  the  platform  specific  format  the  data
+allocate  the  memory  because  the  caller drop target  has  not  handed 
+the  caller  this  method  must  release  the  data  when  done  with 
+this  implementation  code native java  code  converts  platform  specific  representation  byte  array  java  code  byte  code  for  additional  information  see  code  transfer native java  code  see  transfer native java  param transfer data  the  platform  specific  representation  the  data  been  converted  return  java  code  byte  code  containing  the  converted  data  the  conversion  was  successful  otherwise  null
+</comments>
+</text>
+</DOC>

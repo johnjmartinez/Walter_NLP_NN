@@ -1,0 +1,58 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.ole.win32.IOleInPlaceObject.java </DOCNO>
+<text>
+<class>
+ole place object
+</class>
+<method>
+ole place object
+place deactivate
+ deactivate
+set object rects
+reactivate and undo
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ internal
+ win
+ole place object
+ole window
+ole place object
+ address
+ address
+place deactivate
+ com
+vtbl call
+ address
+ deactivate
+ com
+vtbl call
+ address
+set object rects
+ rect
+lprc pos rect
+ rect
+lprc clip rect
+ com
+vtbl call
+ address
+lprc pos rect
+lprc clip rect
+reactivate and undo
+ com
+vtbl call
+ address
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

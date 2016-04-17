@@ -1,0 +1,347 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.JPEGHuffmanTable.java </DOCNO>
+<text>
+<class>
+jpeg huffman table
+</class>
+<method>
+jpeg huffman table
+jpeg huffman table
+get all tables
+get default chrominance table
+get default luminance table
+get default chrominance table
+get default luminance table
+get max codes
+get min codes
+get val ptrs
+get values
+get table class
+get table identifier
+ initialize
+ signature
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+jpeg huffman table
+jpeg variable size segment
+jpeg huffman table
+all tables
+table class
+table identifier
+max codes
+min codes
+val ptrs
+ values
+ codes
+code lengths
+luminance table
+chrominance table
+luminance table
+chrominance table
+jpeg huffman table
+ reference
+ reference
+jpeg huffman table
+data input stream
+byte stream
+byte stream
+ initialize
+jpeg huffman table
+get all tables
+all tables
+jpeg huffman table
+get default chrominance table
+jpeg huffman table
+ result
+jpeg huffman table
+chrominance table
+ result
+ initialize
+ result
+jpeg huffman table
+get default luminance table
+jpeg huffman table
+ result
+jpeg huffman table
+luminance table
+ result
+ initialize
+ result
+jpeg huffman table
+get default chrominance table
+jpeg huffman table
+ result
+jpeg huffman table
+chrominance table
+ result
+ initialize
+ result
+jpeg huffman table
+get default luminance table
+jpeg huffman table
+ result
+jpeg huffman table
+luminance table
+ result
+ initialize
+ result
+get max codes
+max codes
+get min codes
+min codes
+get val ptrs
+val ptrs
+get values
+ values
+get table class
+table class
+get table identifier
+table identifier
+ initialize
+total length
+get segment length
+ ofs
+ bits
+jpeg huffman table
+huff tables
+jpeg huffman table
+huff table count
+total length
+
+ reference
+ ofs
+ tid
+ reference
+ ofs
+ ofs
+ count
+
+
+ bits
+ length
+
+ count
+ reference
+ ofs
+
+ bits
+
+ count
+ count
+ count
+ ofs
+total length
+huff vals
+ count
+
+
+ count
+
+huff vals
+
+ reference
+ ofs
+
+ ofs
+ count
+total length
+ count
+huff code lengths
+huff code lengths index
+
+
+
+
+
+ bits
+
+
+huff code lengths index
+huff code lengths
+ length
+new huff code lengths
+huff code lengths
+ length
+ system
+ arraycopy
+huff code lengths
+new huff code lengths
+huff code lengths
+ length
+huff code lengths
+new huff code lengths
+huff code lengths
+huff code lengths index
+
+huff code lengths index
+huff code lengths index
+huff code lengths
+ length
+new huff code lengths
+huff code lengths index
+ system
+ arraycopy
+huff code lengths
+new huff code lengths
+huff code lengths index
+huff code lengths
+new huff code lengths
+huff codes
+huff codes index
+
+ code
+
+huff code lengths
+
+
+huff code lengths index
+
+huff code lengths index
+huff code lengths
+
+
+huff codes index
+huff codes
+ length
+new huff codes
+huff codes
+ length
+ system
+ arraycopy
+huff codes
+new huff codes
+huff codes
+ length
+huff codes
+new huff codes
+huff codes
+huff codes index
+ code
+huff codes index
+ code
+
+ code
+
+huff codes index
+huff codes
+ length
+new huff codes
+huff codes index
+ system
+ arraycopy
+huff codes
+new huff codes
+huff codes index
+huff codes
+new huff codes
+
+max codes
+min codes
+val ptrs
+
+
+
+ size
+ bits
+
+ size
+max codes
+
+val ptrs
+
+
+min codes
+
+huff codes
+
+
+ size
+max codes
+
+huff codes
+
+huff codes
+huff size
+
+
+huff codes index
+
+huff codes
+huff vals
+
+huff codes
+
+huff size
+huff vals
+
+huff code lengths
+
+jpeg huffman table
+dht table
+jpeg huffman table
+ reference
+dht table
+table class
+
+dht table
+table identifier
+ tid
+dht table
+ values
+huff vals
+dht table
+min codes
+min codes
+dht table
+max codes
+max codes
+dht table
+val ptrs
+val ptrs
+dht table
+ codes
+huff codes
+dht table
+code lengths
+huff size
+huff tables
+huff table count
+dht table
+huff table count
+all tables
+jpeg huffman table
+huff table count
+ system
+ arraycopy
+huff tables
+all tables
+huff table count
+ signature
+jpeg file format
+ dht
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+jpeg huffman table  class  actually  represents  two  types  object  dht  define  huffman  tables  segment  which  may  represent  many  huffman  tables  this  case  the  tables  are  stored  the all tables  array  single  huffman  table  this  case  the all tables  array  will  null  the  reference  field  stored  both  types  object  but  initialize  only  called  the  object  represents  dht
+maximum 
+table  class 
+table  baseline  prog  ext
+read  the  count  bytes  and  add  them  together  get  the  table  size
+read  the  table
+calculate  the  lengths
+start  with  and  increment  needed
+truncate huff code lengths  the  correct  size
+calculate  the  huffman  codes
+start  with  and  increment  needed
+truncate huff codes  the  correct  size
+calculate  the  maximum  and  minimum  codes
+calculate  the  huffman  codes  and  lengths
+create  the  new jpeg huffman table  and  add  the all tables  array
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,810 @@
+<DOC>
+<DOCNO>org.eclipse.swt.dnd.DragSource.java </DOCNO>
+<text>
+<class>
+drag source
+</class>
+<method>
+drag source
+handle event
+handle event
+check style
+add drag listener
+add ref
+create com interfaces
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+check subclass
+dispose com interfaces
+ drag
+enum format etc
+get control
+get data
+get transfer
+give feedback
+query continue drag
+ dispose
+
+
+query get data
+query interface
+ release
+remove drag listener
+set data
+set transfer
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ dnd
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ internal
+ win
+drag source
+ widget
+ control
+ control
+ listener
+control listener
+ transfer
+transfer agents
+ transfer
+com object
+drop source
+com object
+data object
+ref count
+data effect
+ dnd
+drop none
+ string
+ dragsourceid
+cfstr performeddropeffect
+ transfer
+register type
+drag source
+ control
+ control
+ style
+ control
+check style
+ style
+ control
+ control
+ control
+get data
+ dragsourceid
+ dnd
+ error
+ dnd
+error cannot init drag
+ control
+set data
+ dragsourceid
+create com interfaces
+add ref
+control listener
+ listener
+handle event
+ event
+ event
+ event
+ type
+ swt
+ dispose
+drag source
+ disposed
+drag source
+ dispose
+ event
+ type
+ swt
+drag detect
+drag source
+ disposed
+drag source
+ drag
+ control
+add listener
+ swt
+ dispose
+control listener
+ control
+add listener
+ swt
+drag detect
+control listener
+add listener
+ swt
+ dispose
+ listener
+handle event
+ event
+
+drag source
+ dispose
+check style
+ style
+ style
+ swt
+ none
+ dnd
+drop move
+ style
+add drag listener
+drag source listener
+ listener
+ listener
+ dnd
+ error
+ swt
+error null argument
+dnd listener
+typed listener
+dnd listener
+ listener
+add listener
+ dnd
+drag start
+typed listener
+add listener
+ dnd
+drag set data
+typed listener
+add listener
+ dnd
+drag end
+typed listener
+add ref
+ref count
+ref count
+create com interfaces
+drop source
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+query continue drag
+ args
+ args
+ method
+ args
+give feedback
+ args
+data object
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+get data
+ args
+ args
+ method
+ args
+query get data
+ args
+ method
+ args
+set data
+ args
+ args
+ args
+ method
+ args
+enum format etc
+ args
+ args
+check subclass
+ string
+ name
+get class
+get name
+ string
+valid name
+drag source
+get name
+valid name
+ equals
+ name
+ dnd
+ error
+ swt
+error invalid subclass
+dispose com interfaces
+drop source
+drop source
+ dispose
+drop source
+data object
+data object
+ dispose
+data object
+ drag
+dnd event
+ event
+dnd event
+ event
+ widget
+ event
+ time
+
+get message time
+ event
+ doit
+notify listeners
+ dnd
+drag start
+ event
+ event
+ doit
+transfer agents
+transfer agents
+ length
+pdw effect
+ operations
+
+get style
+ result
+ com
+drag drop
+data object
+get address
+drop source
+get address
+ operations
+pdw effect
+ operation
+
+pdw effect
+data effect
+ dnd
+drop move
+ operation
+ operation
+ dnd
+drop none
+ operation
+ dnd
+drop copy
+ dnd
+drop target move
+ dnd
+drop move
+data effect
+ dnd
+drop none
+ operation
+data effect
+ event
+dnd event
+ event
+ widget
+ event
+ time
+
+get message time
+ event
+ doit
+ result
+ com
+dragdrop drop
+ event
+ detail
+ operation
+notify listeners
+ dnd
+drag end
+ event
+data effect
+ dnd
+drop none
+enum format etc
+ direction
+ppenum formatetc
+ direction
+ com
+datadir set
+ com
+ notimpl
+transfer data
+allowed data types
+transfer data
+
+
+transfer agents
+ length
+
+transfer data
+ formats
+transfer agents
+
+get supported types
+transfer data
+new allowed data types
+transfer data
+allowed data types
+ length
+ formats
+ length
+ system
+ arraycopy
+allowed data types
+new allowed data types
+allowed data types
+ length
+ system
+ arraycopy
+ formats
+new allowed data types
+allowed data types
+ length
+ formats
+ length
+allowed data types
+new allowed data types
+ole enum formatetc
+enum formatetc
+ole enum formatetc
+enum formatetc
+add ref
+ formatetc
+ formats
+ formatetc
+allowed data types
+ length
+
+
+ formats
+ length
+
+ formats
+
+allowed data types
+
+ formatetc
+enum formatetc
+set formats
+ formats
+
+move memory
+ppenum formatetc
+enum formatetc
+get address
+ com
+
+ control
+get control
+ control
+get data
+ formatetc
+ pmedium
+ formatetc
+ pmedium
+ com
+ invalidarg
+query get data
+ formatetc
+ com
+
+ com
+ formatetc
+transfer data
+transfer data
+transfer data
+transfer data
+ formatetc
+ formatetc
+ com
+move memory
+transfer data
+ formatetc
+ formatetc
+ formatetc
+ sizeof
+transfer data
+ type
+transfer data
+ formatetc
+ format
+transfer data
+ stgmedium
+ stgmedium
+transfer data
+ result
+ com
+ fail
+dnd event
+ event
+dnd event
+ event
+ widget
+ event
+ time
+
+get message time
+ event
+data type
+transfer data
+notify listeners
+ dnd
+drag set data
+ event
+ transfer
+ transfer
+
+
+transfer agents
+ length
+
+transfer agents
+
+supported type
+transfer data
+ transfer
+transfer agents
+
+ transfer
+ com
+ formatetc
+ transfer
+java native
+ event
+ data
+transfer data
+transfer data
+ result
+ com
+
+transfer data
+ result
+ com
+move memory
+ pmedium
+transfer data
+ stgmedium
+ stgmedium
+ sizeof
+transfer data
+ result
+ transfer
+get transfer
+transfer agents
+give feedback
+ effect
+ com
+dragdrop usedefaultcursors
+query continue drag
+escape pressed
+grf key state
+escape pressed
+ com
+dragdrop cancel
+ mask
+
+ lbutton
+
+ mbutton
+
+ rbutton
+
+ xbutton
+
+ xbutton
+grf key state
+ mask
+ com
+dragdrop drop
+ com
+
+ dispose
+ control
+ release
+control listener
+ control
+remove listener
+ swt
+ dispose
+control listener
+ control
+remove listener
+ swt
+drag detect
+control listener
+control listener
+ control
+set data
+ dragsourceid
+ control
+transfer agents
+
+ operation
+ operation
+ operation
+ dnd
+drop copy
+ operation
+ com
+dropeffect copy
+ operation
+ dnd
+drop link
+ operation
+ com
+dropeffect link
+ operation
+ dnd
+drop move
+ operation
+ com
+dropeffect move
+ operation
+
+ operation
+ operation
+ operation
+ com
+dropeffect copy
+ operation
+ dnd
+drop copy
+ operation
+ com
+dropeffect link
+ operation
+ dnd
+drop link
+ operation
+ com
+dropeffect move
+ operation
+ dnd
+drop move
+ operation
+query get data
+ formatetc
+transfer agents
+ com
+ fail
+transfer data
+transfer data
+transfer data
+transfer data
+ formatetc
+ formatetc
+ com
+move memory
+transfer data
+ formatetc
+ formatetc
+ formatetc
+ sizeof
+transfer data
+ type
+transfer data
+ formatetc
+ format
+
+
+transfer agents
+ length
+
+transfer agents
+
+supported type
+transfer data
+ com
+
+ com
+ formatetc
+query interface
+ riid
+ppv object
+ riid
+ppv object
+ com
+ invalidarg
+ guid
+ guid
+ guid
+ com
+move memory
+ guid
+ riid
+ guid
+ sizeof
+ com
+equal guid
+ guid
+ com
+iidi unknown
+ com
+equal guid
+ guid
+ com
+iidi drop source
+
+move memory
+ppv object
+drop source
+get address
+add ref
+ com
+
+ com
+equal guid
+ guid
+ com
+iidi data object
+
+move memory
+ppv object
+data object
+get address
+add ref
+ com
+
+
+move memory
+ppv object
+ com
+ nointerface
+ release
+ref count
+ref count
+dispose com interfaces
+ com
+free unused libraries
+ref count
+remove drag listener
+drag source listener
+ listener
+ listener
+ dnd
+ error
+ swt
+error null argument
+remove listener
+ dnd
+drag start
+ listener
+remove listener
+ dnd
+drag set data
+ listener
+remove listener
+ dnd
+drag end
+ listener
+set data
+ formatetc
+ pmedium
+ release
+ formatetc
+ pmedium
+ com
+ invalidarg
+ formatetc
+ formatetc
+ formatetc
+ com
+move memory
+ formatetc
+ formatetc
+ formatetc
+ sizeof
+ formatetc
+ format
+cfstr performeddropeffect
+ formatetc
+ tymed
+ com
+tymed hglobal
+ stgmedium
+ stgmedium
+ stgmedium
+ com
+move memory
+ stgmedium
+ pmedium
+ stgmedium
+ sizeof
+ptr effect
+
+move memory
+ptr effect
+ stgmedium
+union field
+ effect
+
+move memory
+ effect
+ptr effect
+data effect
+
+ effect
+ release
+ com
+release stg medium
+ pmedium
+ com
+
+set transfer
+ transfer
+transfer agents
+transfer agents
+transfer agents
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+code drag source  code  defines  the  source  object  for  drag  and  drop  transfer  important  this  class  not  intended  subclassed  drag  source  the  object  which  originates  drag  and  drop  operation  for  the  specified  widget  defines  the  type  data  that  available  for  dragging  and  the  set  operations  that  can  performed  that  data  the  operations  can  any  bit  wise  combination  dnd  move  dnd  copy  dnd  link  the  type  data  that  can  transferred  specified  subclasses  transfer  such text transfer file transfer  the  type  data  transferred  can  predefined  system  type  can  type  defined  the  application  for  instructions  how  define  your  own  transfer  type  refer  code byte array transfer  code  you  may  have  several drag sources  application  but  you  can  only  have  one drag source  per  control  data  dragged  from  this drag source  can  dropped  site  within  this  application  can  dropped  another  application  such  external  text  editor  the  application  supplies  the  content  the  data  being  transferred  implementing  the  code drag source listener  code  and  associating  with  the drag source  via drag source add drag listener  when  successful  move  operation  occurs  the  application  required  take  the  appropriate  action  remove  the  data  from  its  display  and  remove  any  associated  operating  system  resources  internal  references  typically  move  operation  the  drop  target  makes  copy  the  data  and  the  drag  source  deletes  the  original  however  sometimes  copying  the  data  can  take  long  time  such  copying  large  file  therefore  some  platforms  the  drop  target  may  actually  move  the  data  the  operating  system  rather  than  make  copy  this  usually  only  done  file  transfers  this  case  the  drag  source  informed  the drag end  event  that  drop  target  move  was  performed  the  responsibility  the  drag  source  this  point  clean  its  displayed  information  action  needs  taken  the  operating  system  resources  the  following  example  shows  label  widget  that  allows  text  dragged  from  code  pre  enable  label  drag  source  label  label  new  label  shell  swt  none  this  example  will  allow  text  dragged  transfer  types  new  transfer text transfer get instance  this  example  will  allow  the  text  copied  moved  the  drop  target  int  operations  dnd  drop  move  dnd  drop  copy drag source  source  new drag source  label  operations  source set transfer  types  source add drag listener  new drag source listener  public  void drag start drag source event  only  start  the  drag  there  actually  text  the  label  this  text  will  what  dropped  the  target  label get text  length  event  doit  false  public  void drag set data drag source event  event  drop  has  been  performed  provide  the  data  the  requested  type  checking  the  type  the  requested  data  only  necessary  the  drag  source  supports  more  than  one  data  type  but  shown  here  example text transfer get instance supported type  event data type  event  data  label get text  public  void drag finished drag source event  event  move  operation  has  been  performed  remove  the  data  from  the  source  event  detail  dnd  drop  move  label set text  pre  code  styles  dnd  drop  none  dnd  drop  copy  dnd  drop  move  dnd  drop  link  events  dnd drag start  dnd drag set data  dnd drag end 
+info  for  registering  drag  source
+ole  interfaces
+workaround  track  the  operation  performed  the  drop  target  for drag end  event
+non  nls 
+non  nls 
+creates  new  code drag source  code  handle  dragging  from  the  specified  code  control  code  creating  instance drag source  may  cause  system  resources  allocated  depending  the  platform  therefore  mandatory  that  the drag source  instance  disposed  when  longer  required  param  control  the  code  control  code  that  the  user  clicks  initiate  the  drag  param  style  the  bitwise  ing  allowed  operations  this  may  combination  any  dnd  drop  none  dnd  drop  copy  dnd  drop  move  dnd  drop  link  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  exception swt error  error  cannot  init  drag  unable  initiate  drag  source  this  will  occur  more  than  one  drag  source  created  for  control  the  operating  system  will  not  allow  the  creation  the  drag  source  note  error  cannot  init  drag  should swt exception  since  recoverable  error  but  can  not  changed  due  backward  compatability  see  widget  dispose  see drag source check subclass  see  dnd  drop  none  see  dnd  drop  copy  see  dnd  drop  move  see  dnd  drop  link
+adds  the  listener  the  collection  listeners  who  will  notified  when  drag  and  drop  operation  progress  sending  one  the  messages  defined  the  code drag source listener  code  interface  code drag start  code  called  when  the  user  has  begun  the  actions  required  drag  the  widget  this  event  gives  the  application  the  chance  decide  drag  should  started  code drag set data  code  called  when  the  data  required  from  the  drag  source  code drag finished  code  called  when  the  drop  has  successfully  completed  mouse  over  valid  target  has  been  terminated  such  hitting  the  esc  key  perform  cleanup  such  removing  data  from  the  source  side  successful  move  operation  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see drag source listener  see remove drag listener  see drag source event
+register  each  the  interfaces  that  this  object  implements
+method get data here  not  implemented
+method get canonical format etc  not  implemented
+method  advise  not  implemented
+method  unadvise  not  implemented
+method enum advise  not  implemented
+only  allow  getting  data set data  not  currently  supported
+what  types  have  been  registered
+returns  the  control  which  registered  for  this drag source  this  the  control  that  the  user  clicks  initiate  dragging  return  the  control  which  registered  for  this drag source
+called  data  consumer  obtain  data  from  source  data  object  the get data  method  renders  the  data  described  the  specified  formatetc  structure  and  transfers  through  the  specified  stgmedium  structure  the  caller  then  assumes  responsibility  for  releasing  the  stgmedium  structure
+get  matching  transfer  agent  perform  conversion
+returns  the  list  data  types  that  can  transferred  this drag source  return  the  list  data  types  that  can  transferred  this drag source
+this  type  supported  the  transfer  agent
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  drag  and  drop  operation  progress  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see drag source listener  see add drag listener
+specifies  the  list  data  types  that  can  transferred  this drag source  the  application  must  able  provide  data  match  each  these  types  when  successful  drop  has  occurred  param transfer agents  list  transfer  objects  which  define  the  types  data  that  can  dragged  from  this  source
+</comments>
+</text>
+</DOC>

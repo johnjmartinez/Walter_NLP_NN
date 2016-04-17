@@ -1,0 +1,193 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.PaletteData.java </DOCNO>
+<text>
+<class>
+palette data
+</class>
+<method>
+palette data
+palette data
+get pixel
+get rgb
+ get
+shift for mask
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+palette data
+ direct
+ rgb
+ colors
+red mask
+green mask
+blue mask
+red shift
+green shift
+blue shift
+palette data
+ rgb
+ colors
+ colors
+ swt
+ error
+ swt
+error null argument
+ colors
+ colors
+ direct
+palette data
+red mask
+green mask
+blue mask
+red mask
+red mask
+green mask
+green mask
+blue mask
+blue mask
+ direct
+red shift
+shift for mask
+red mask
+green shift
+shift for mask
+green mask
+blue shift
+shift for mask
+blue mask
+get pixel
+ rgb
+ rgb
+ rgb
+ swt
+ error
+ swt
+error null argument
+ direct
+ pixel
+ pixel
+red shift
+ rgb
+ red
+red shift
+ rgb
+ red
+red shift
+red mask
+ pixel
+green shift
+ rgb
+ green
+green shift
+ rgb
+ green
+green shift
+green mask
+ pixel
+blue shift
+ rgb
+ blue
+blue shift
+ rgb
+ blue
+blue shift
+blue mask
+ pixel
+
+
+ colors
+ length
+
+ colors
+
+ equals
+ rgb
+
+ swt
+ error
+ swt
+error invalid argument
+ rgb
+get rgb
+ pixel
+ direct
+
+ pixel
+red mask
+
+red shift
+
+red shift
+
+red shift
+
+ pixel
+green mask
+
+green shift
+
+green shift
+
+green shift
+
+ pixel
+blue mask
+
+blue shift
+
+blue shift
+
+blue shift
+ rgb
+
+
+
+ pixel
+ pixel
+ colors
+ length
+ swt
+ error
+ swt
+error invalid argument
+ colors
+ pixel
+ rgb
+ get
+ colors
+shift for mask
+ mask
+
+
+
+ mask
+
+
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  describe  the  color  data  used  image  depending  the  depth  the  image  the palette data  can  take  one  two  forms  indicated  the  direct  field  direct  false  direct  code  false  code  this  palette  indexed  palette  which  maps  pixel  values  the  actual  rgb  values  may  retrieved  using  the  get  method  direct  true  direct  code  true  code  this  palette  direct  color  palette  instead  containing  rgb  values  contains  red  green  and  blue  mask  and  shift  information  which  indicates  how  the  color  components  may  extracted  from  given  pixel  this  means  that  the  rgb  value  actually  encoded  the  pixel  value  this  case  the  shift  data  the  number  bits  required  shift  the  rgb  value  the  left  order  align  the  high  bit  the  corresponding  mask  with  the  high  bit  the  first  byte  this  number  may  negative  care  must  taken  when  shifting  for  example  with  red  mask  0000  the  red  shift  would  with  red  mask  the  red  shift  would  see  image  see  rgb
+true  the  receiver  direct  palette  and  false  otherwise
+the  rgb  values  for  indexed  palette  where  the  indices  the  array  correspond  pixel  values
+the  red  mask  for  direct  palette
+the  green  mask  for  direct  palette
+the  blue  mask  for  direct  palette
+the  red  shift  for  direct  palette
+the  green  shift  for  direct  palette
+the  blue  shift  for  direct  palette
+constructs  new  indexed  palette  given  array  rgb  values  param  colors  the  array  code  rgb  code  for  the  palette  exception illegal argument exception  error  null  argument  the  argument  null 
+constructs  new  direct  palette  given  the  red  green  and  blue  masks  param red mask  the  red  mask  param green mask  the  green  mask  param blue mask  the  blue  mask
+returns  the  pixel  value  corresponding  the  given  code  rgb  code  param  rgb  the  rgb  get  the  pixel  value  for  return  the  pixel  value  for  the  given  rgb  exception illegal argument exception  error  null  argument  the  argument  null  error  invalid  argument  the  rgb  not  found  the  palette 
+the  rgb  did  not  exist  the  palette
+returns  code  rgb  code  corresponding  the  given  pixel  value  param  pixel  the  pixel  get  the  rgb  value  for  return  the  rgb  value  for  the  given  pixel  exception illegal argument exception  error  null  argument  the  argument  null  error  invalid  argument  the  pixel  does  not  exist  the  palette 
+returns  all  the  rgb  values  the  receiver  indexed  palette  null  direct  palette  return  the  code  rgb  code  for  the  receiver  null
+computes  the  shift  value  for  given  mask  param  mask  the  mask  compute  the  shift  for  return  the  shift  amount  see palette data
+</comments>
+</text>
+</DOC>

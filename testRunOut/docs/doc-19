@@ -1,0 +1,68 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.CTabFolderEvent.java </DOCNO>
+<text>
+<class>
+tab folder event
+</class>
+<method>
+tab folder event
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ widgets
+tab folder event
+typed event
+ widget
+ item
+ doit
+
+
+ width
+ height
+serial version uid
+tab folder event
+ widget
+
+
+ string
+ string
+ string
+ string
+ string
+ string
+ substring
+ string
+ length
+ item
+ doit
+
+
+ width
+ height
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+
+the  tab  item  for  the  operation
+flag  indicating  whether  the  operation  should  allowed  setting  this  field  code  false  code  will  cancel  the  operation  applies  the  close  and show list  events
+the  widget  relative  coordinate  the  chevron  button  the  time  the  event  applies  the show list  event  since 
+the  widget  relative  coordinate  the  chevron  button  the  time  the  event  applies  the show list  event  since 
+the  width  the  chevron  button  the  time  the  event  applies  the show list  event  applies  the show list  event  since 
+the  height  the  chevron  button  the  time  the  event  applies  the show list  event  since 
+constructs  new  instance  this  class  param  the  widget  that  fired  the  event
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
+remove  trailing
+</comments>
+</text>
+</DOC>

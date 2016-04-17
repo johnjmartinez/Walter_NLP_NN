@@ -1,0 +1,314 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.ole.win32.IAccessible.java </DOCNO>
+<text>
+<class>
+ accessible
+</class>
+<method>
+ accessible
+get _acc parent
+get _acc child count
+get _acc child
+get _acc name
+get _acc value
+get _acc description
+get _acc role
+get _acc state
+get _acc help
+get _acc help topic
+get _acc keyboard shortcut
+get _acc focus
+get _acc selection
+get _acc default action
+acc select
+acc location
+acc navigate
+acc hit test
+acc default action
+put _acc name
+put _acc value
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ accessible
+ dispatch
+ accessible
+ address
+ address
+get _acc parent
+ppdisp parent
+ com
+vtbl call
+ address
+ppdisp parent
+get _acc child count
+pcount children
+ com
+vtbl call
+ address
+pcount children
+get _acc child
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+ppdisp child
+ com
+vtbl call
+ address
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+ppdisp child
+get _acc name
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz name
+ com
+vtbl call
+ address
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz name
+get _acc value
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz value
+ com
+vtbl call
+ address
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz value
+get _acc description
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz description
+ com
+vtbl call
+ address
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz description
+get _acc role
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+pvar role
+ com
+vtbl call
+ address
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+pvar role
+get _acc state
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+pvar state
+ com
+vtbl call
+ address
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+pvar state
+get _acc help
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz help
+ com
+vtbl call
+ address
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz help
+get _acc help topic
+psz help file
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+pid topic
+ com
+vtbl call
+ address
+psz help file
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+pid topic
+get _acc keyboard shortcut
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz keyboard shortcut
+ com
+vtbl call
+ address
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz keyboard shortcut
+get _acc focus
+pvar child
+ com
+vtbl call
+ address
+pvar child
+get _acc selection
+pvar children
+ com
+vtbl call
+ address
+pvar children
+get _acc default action
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz default action
+ com
+vtbl call
+ address
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+psz default action
+acc select
+flags select
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+ com
+vtbl call
+ address
+flags select
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+acc location
+ left
+ top
+pcx width
+pcy height
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+ com
+vtbl call
+ address
+ left
+ top
+pcx width
+pcy height
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+acc navigate
+nav dir
+var start _vt
+var start _reserved
+var start val
+var start _reserved
+pvar end
+ com
+vtbl call
+ address
+nav dir
+var start _vt
+var start _reserved
+var start val
+var start _reserved
+pvar end
+acc hit test
+ left
+ top
+pvar child
+ com
+vtbl call
+ address
+ left
+ top
+pvar child
+acc default action
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+ com
+vtbl call
+ address
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+put _acc name
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+ name
+ com
+vtbl call
+ address
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+ name
+put _acc value
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+ value
+ com
+vtbl call
+ address
+var child _vt
+var child _reserved
+var child val
+var child _reserved
+ value
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

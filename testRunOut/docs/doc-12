@@ -1,0 +1,180 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.StackLayout.java </DOCNO>
+<text>
+<class>
+stack layout
+</class>
+<method>
+compute size
+flush cache
+ layout
+get name
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+stack layout
+ layout
+margin width
+margin height
+ control
+top control
+ point
+compute size
+ composite
+ composite
+ hint
+ hint
+flush cache
+ control
+ children
+ composite
+get children
+max width
+max height
+
+
+ children
+ length
+
+ point
+ size
+ children
+
+compute size
+ hint
+ hint
+flush cache
+max width
+ math
+ max
+ size
+
+max width
+max height
+ math
+ max
+ size
+
+max height
+ width
+max width
+margin width
+ height
+max height
+margin height
+ hint
+ swt
+ default
+ width
+ hint
+ hint
+ swt
+ default
+ height
+ hint
+ point
+ width
+ height
+flush cache
+ control
+ control
+ layout
+ composite
+ composite
+flush cache
+ control
+ children
+ composite
+get children
+ rectangle
+ rect
+ composite
+get client area
+ rect
+
+margin width
+ rect
+
+margin height
+ rect
+ width
+margin width
+ rect
+ height
+margin height
+
+
+ children
+ length
+
+ children
+
+set bounds
+ rect
+ children
+
+set visible
+ children
+
+top control
+ string
+get name
+ string
+ string
+get class
+get name
+ index
+ string
+last index
+ index
+ string
+ string
+ substring
+ index
+ string
+ length
+ string
+ string
+ string
+ string
+get name
+margin width
+ string
+margin width
+margin height
+ string
+margin height
+top control
+ string
+top control
+ string
+ string
+ trim
+ string
+ string
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  layout  stacks  all  the  controls  one  top  the  other  and  resizes  all  controls  have  the  same  size  and  location  the  control  specified top control  visible  and  all  other  controls  are  not  visible  users  must  set  the top control  value  flip  between  the  visible  items  and  then  call  layout  the  composite  which  has  the stack layout  here  example  which  places  ten  buttons  stack  layout  and  flips  between  them  pre  code  public  static  void  main  string  args  display  display  new  display  shell  shell  new  shell  display  shell set layout  new grid layout  final  composite  parent  new  composite  shell  swt  none  parent set layout data  new grid data grid data  fill  both  final stack layout  layout  new stack layout  parent set layout  layout  final  button  array  new  button  for  int  array  new  button  parent  swt  push  array set text  button  layout top control  array  button  new  button  shell  swt  push set text  show  next  button  final  int  index  new  int add listener  swt  selection  new  listener  public  void handle event  event  index  index  layout top control  array  index  parent  layout  shell  open  while  shell  null  shell  disposed  display read and dispatch  display  sleep  code  pre
+margin width  specifies  the  number  pixels  horizontal  margin  that  will  placed  along  the  left  and  right  edges  the  layout  the  default  value 
+margin height  specifies  the  number  pixels  vertical  margin  that  will  placed  along  the  top  and  bottom  edges  the  layout  the  default  value 
+top control  the  control  that  displayed  the  top  the  stack  all  other  controls  that  are  children  the  parent  composite  will  not  visible
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
+</comments>
+</text>
+</DOC>

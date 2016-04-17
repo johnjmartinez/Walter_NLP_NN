@@ -1,0 +1,229 @@
+<DOC>
+<DOCNO>org.eclipse.swt.dnd.HTMLTransfer.java </DOCNO>
+<text>
+<class>
+html transfer
+</class>
+<method>
+html transfer
+get instance
+java native
+native java
+get type ids
+get type names
+check html
+ validate
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ dnd
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ internal
+ win
+html transfer
+byte array transfer
+html transfer
+ _instance
+html transfer
+ string
+html format
+html formatid
+register type
+html format
+html transfer
+html transfer
+get instance
+ _instance
+java native
+ object
+ object
+transfer data
+transfer data
+check html
+ object
+supported type
+transfer data
+ dnd
+ error
+ dnd
+error invalid data
+ string
+ string
+ string
+ object
+ count
+ string
+ length
+ chars
+ count
+ string
+get chars
+ count
+ chars
+code page
+
+get acp
+cch multi byte
+
+wide char multi byte
+code page
+ chars
+cch multi byte
+transfer data
+ stgmedium
+ stgmedium
+transfer data
+ result
+ com
+ stgmedium
+multi byte str
+
+global alloc
+
+gmem fixed
+
+gmem zeroinit
+cch multi byte
+
+wide char multi byte
+code page
+ chars
+multi byte str
+cch multi byte
+transfer data
+ stgmedium
+ stgmedium
+transfer data
+ stgmedium
+ tymed
+ com
+tymed hglobal
+transfer data
+ stgmedium
+union field
+multi byte str
+transfer data
+ stgmedium
+unk for release
+transfer data
+ result
+ com
+
+ object
+native java
+transfer data
+transfer data
+supported type
+transfer data
+transfer data
+data object
+data object
+ data
+data object
+transfer data
+data object
+ data
+add ref
+ stgmedium
+ stgmedium
+ stgmedium
+ formatetc
+ formatetc
+transfer data
+ formatetc
+ stgmedium
+ tymed
+ com
+tymed hglobal
+transfer data
+ result
+ data
+get data
+ formatetc
+ stgmedium
+ data
+ release
+transfer data
+ result
+ com
+
+ mem
+ stgmedium
+union field
+multi byte str
+
+global lock
+ mem
+multi byte str
+code page
+
+get acp
+cch wide char
+
+multi byte wide char
+code page
+
+ precomposed
+multi byte str
+cch wide char
+wide char str
+cch wide char
+
+multi byte wide char
+code page
+
+ precomposed
+multi byte str
+wide char str
+wide char str
+ length
+ string
+wide char str
+
+global unlock
+ mem
+
+global free
+ mem
+get type ids
+html formatid
+ string
+get type names
+ string
+html format
+check html
+ object
+ object
+ object
+ object
+ string
+ string
+ object
+ length
+ validate
+ object
+ object
+check html
+ object
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+the  class  code html transfer  code  provides  platform  specific  mechanism  for  converting  text  html  format  represented  java  code  string  code  platform  specific  representation  the  data  and  vice  versa  see  code  transfer  code  for  additional  information  example  java  code  string  code  containing  html  text  shown  below  code  pre  string html data  this  paragraph  text  code  pre
+non  nls 
+returns  the  singleton  instance  the html transfer  class  return  the  singleton  instance  the html transfer  class
+this  implementation  code java native  code  converts  html  formatted  text  represented  java  code  string  code  platform  specific  representation  for  additional  information  see  code  transfer java native  code  param  object  java  code  string  code  containing  html  text  param transfer data  empty  code transfer data  code  object  this  object  will  filled  return  with  the  platform  specific  format  the  data
+html  format  stored  null  terminated  byte  array
+this  implementation  code native java  code  converts  platform  specific  representation  html  text  java  code  string  code  for  additional  information  see  code  transfer native java  code  param transfer data  the  platform  specific  representation  the  data  been  converted  return  java  code  string  code  containing  html  text  the  conversion  was  successful  otherwise  null
+</comments>
+</text>
+</DOC>

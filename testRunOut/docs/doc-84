@@ -1,0 +1,32 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.ImageLoaderListener.java </DOCNO>
+<text>
+<class>
+image loader listener
+</class>
+<method>
+image data loaded
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+image loader listener
+swt event listener
+image data loaded
+image loader event
+
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+classes  which  implement  this  interface  provide  methods  that  deal  with  the  incremental  loading  image  data  after  creating  instance  class  that  implements  this  interface  can  added  image  loader  using  the  code add image loader listener  code  method  and  removed  using  the  code remove image loader listener  code  method  when  image  data  either  partially  completely  loaded  this  method  will  invoked  see image loader  see image loader event
+sent  when  image  data  either  partially  completely  loaded  the  timing  when  this  method  called  varies  depending  the  format  the  image  being  loaded  param  event  containing  information  about  the  image  loading  operation
+</comments>
+</text>
+</DOC>

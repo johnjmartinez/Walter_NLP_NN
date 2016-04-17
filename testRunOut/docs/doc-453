@@ -1,0 +1,1746 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Link.java </DOCNO>
+<text>
+<class>
+ link
+</class>
+<method>
+ link
+add selection listener
+call window proc
+compute size
+create handle
+create widget
+draw widget
+enable widget
+init accessible
+get name
+get child point
+get location
+get child count
+get role
+get state
+get default action
+get selection
+get focus
+get name text
+get rectangles
+get text
+ parse
+parse mnemonics
+release widget
+remove selection listener
+set text
+widget style
+window class
+window proc
+ char
+ getdlgcode
+ getfont
+ keydown
+ killfocus
+ lbuttondown
+ lbuttonup
+ mousemove
+ paint
+ printclient
+ setfocus
+ setfont
+ size
+color child
+notify child
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ accessibility
+ link
+ control
+ string
+ text
+text layout
+ layout
+ color
+link color
+link disabled color
+ point
+ offsets
+ point
+ selection
+ string
+ ids
+ mnemonics
+focus index
+ font
+ rgb
+link foreground
+ rgb
+link proc
+ tchar
+link class
+ tchar
+
+ link
+
+comctl 32_ major
+ wndclass
+wnd class
+ wndclass
+
+get class info
+link class
+wnd class
+link proc
+wnd class
+lpfn wnd proc
+link proc
+ link
+ composite
+ parent
+ style
+ parent
+ style
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+call window proc
+ hwnd
+ msg
+ param
+ param
+ handle
+link proc
+
+call window proc
+link proc
+ hwnd
+ msg
+ param
+ param
+
+def window proc
+ hwnd
+ msg
+ param
+ param
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+ hint
+ swt
+ default
+ hint
+ hint
+ hint
+ swt
+ default
+ hint
+ hint
+ width
+ height
+
+comctl 32_ major
+
+
+ get
+ handle
+new font
+
+send message
+ handle
+
+ getfont
+old font
+
+select object
+
+new font
+ tchar
+ buffer
+ tchar
+get code page
+ parse
+ text
+ rect
+ rect
+ rect
+ flags
+
+ calcrect
+ hint
+ swt
+ default
+ flags
+
+ wordbreak
+ rect
+ right
+ hint
+
+draw text
+
+ buffer
+ buffer
+ length
+ rect
+ flags
+ width
+ rect
+ right
+ rect
+ left
+ height
+ rect
+ bottom
+new font
+
+select object
+
+old font
+
+ release
+ handle
+
+layout width
+ layout
+get width
+ hint
+ layout
+set width
+ rectangle
+ rect
+ layout
+get bounds
+ width
+ height
+ rect
+ height
+ layout
+set width
+ hint
+ rectangle
+ rect
+ layout
+get bounds
+ width
+ rect
+ width
+ height
+ rect
+ height
+ layout
+set width
+layout width
+ hint
+ swt
+ default
+ width
+ hint
+ hint
+ swt
+ default
+ height
+ hint
+ border
+get border width
+ width
+ border
+ height
+ border
+ point
+ width
+ height
+create handle
+create handle
+
+comctl 32_ major
+ layout
+text layout
+ display
+link color
+ color
+ display
+link foreground
+link disabled color
+ color
+win 32_new
+ display
+
+get sys color
+
+color graytext
+ offsets
+ point
+ ids
+ string
+ mnemonics
+ selection
+ point
+focus index
+create widget
+create widget
+ text
+
+comctl 32_ major
+ style
+ swt
+ mirrored
+ layout
+set orientation
+ swt
+right left
+init accessible
+draw widget
+
+
+ rect
+ rect
+draw background
+
+ handle
+ rect
+sel start
+ selection
+
+sel end
+ selection
+
+sel start
+sel end
+sel start
+ selection
+
+sel end
+ selection
+
+sel start
+sel end
+ layout
+ draw
+
+sel start
+sel end
+has focus
+focus index
+ rectangle
+ rects
+get rectangles
+focus index
+
+
+ rects
+ length
+
+ rectangle
+ rectangle
+ rects
+
+
+draw focus
+ rectangle
+
+ rectangle
+
+ rectangle
+ width
+ rectangle
+ height
+ hooks
+ swt
+ paint
+ filters
+ swt
+ paint
+ event
+ event
+ event
+ event
+
+
+ event
+
+ rect
+ left
+ event
+
+ rect
+ top
+ event
+ width
+ rect
+ right
+ rect
+ left
+ event
+ height
+ rect
+ bottom
+ rect
+ top
+send event
+ swt
+ paint
+ event
+ event
+
+enable widget
+ enabled
+
+comctl 32_ major
+ litem
+ item
+ litem
+ item
+ mask
+
+lif itemindex
+
+lif state
+ item
+state mask
+
+lis enabled
+ item
+ state
+ enabled
+
+lis enabled
+
+send message
+ handle
+
+ setitem
+ item
+ item
+ link
+text style
+link style
+text style
+ enabled
+link color
+link disabled color
+link style
+ underline
+
+
+ offsets
+ length
+
+ point
+ point
+ offsets
+
+ layout
+set style
+link style
+ point
+
+ point
+
+ redraw
+enable widget
+ enabled
+init accessible
+ accessible
+ accessible
+get accessible
+ accessible
+add accessible listener
+accessible adapter
+get name
+accessible event
+
+
+ result
+ parse
+ text
+ accessible
+add accessible control listener
+accessible control adapter
+get child point
+accessible control event
+
+
+ child
+ acc
+childid self
+get location
+accessible control event
+
+ rectangle
+ rect
+ display
+ map
+get parent
+get bounds
+
+
+ rect
+
+
+
+ rect
+
+
+ width
+ rect
+ width
+
+ height
+ rect
+ height
+get child count
+accessible control event
+
+
+ detail
+get role
+accessible control event
+
+
+ detail
+ acc
+role link
+get state
+accessible control event
+
+
+ detail
+ acc
+state focusable
+has focus
+
+ detail
+ acc
+state focused
+get default action
+accessible control event
+
+
+ result
+ swt
+get message
+get selection
+accessible control event
+
+has focus
+
+ child
+ acc
+childid self
+get focus
+accessible control event
+
+has focus
+
+ child
+ acc
+childid self
+ string
+get name text
+get text
+ rectangle
+get rectangles
+link index
+line count
+ layout
+get line count
+ rectangle
+ rects
+ rectangle
+line count
+line offsets
+ layout
+get line offsets
+ point
+ point
+ offsets
+link index
+line start
+ point
+
+line offsets
+line start
+line start
+line end
+ point
+
+line offsets
+line end
+line end
+ index
+line start
+line end
+ rects
+ index
+ layout
+get bounds
+ point
+
+ point
+
+ rects
+ index
+ layout
+get bounds
+ point
+
+line offsets
+line start
+ rects
+ index
+ layout
+get bounds
+line offsets
+line end
+ point
+
+line end
+line start
+
+line start
+
+line end
+
+ rects
+ index
+ layout
+get line bounds
+
+ rects
+ length
+ index
+ rectangle
+ tmp
+ rectangle
+ index
+ system
+ arraycopy
+ rects
+ tmp
+ index
+ rects
+ tmp
+ rects
+ string
+get text
+check widget
+ text
+ string
+ parse
+ string
+ string
+ length
+ string
+ length
+ offsets
+ point
+ length
+ ids
+ string
+ length
+ mnemonics
+ length
+string buffer
+ result
+string buffer
+ buffer
+ length
+ string
+get chars
+ string
+ length
+ buffer
+ index
+ state
+link index
+ start
+tag start
+link start
+endtag start
+ref start
+ index
+ length
+
+ character
+lower case
+ buffer
+ index
+ state
+
+tag start
+ index
+ state
+
+ state
+
+ state
+link start
+ index
+ state
+ character
+ whitespace
+
+ state
+
+endtag start
+ index
+ state
+ state
+
+ state
+ state
+
+ state
+
+ mnemonics
+link index
+parse mnemonics
+ buffer
+ start
+tag start
+ result
+ offset
+ result
+ length
+parse mnemonics
+ buffer
+link start
+endtag start
+ result
+ offsets
+link index
+ point
+ offset
+ result
+ length
+ ids
+link index
+ ids
+link index
+ string
+ buffer
+link start
+endtag start
+link start
+link index
+ start
+tag start
+link start
+endtag start
+ref start
+ index
+ state
+ state
+ state
+
+ state
+ state
+
+ state
+ state
+
+ state
+ state
+
+ state
+
+ state
+ref start
+ index
+ state
+
+ ids
+link index
+ string
+ buffer
+ref start
+ index
+ref start
+ state
+ character
+ whitespace
+
+ state
+
+ state
+ state
+
+ state
+
+ state
+ state
+ index
+ start
+ length
+ tmp
+parse mnemonics
+ buffer
+ start
+tag start
+ result
+ mnemonic
+parse mnemonics
+ buffer
+link start
+ index
+ result
+ mnemonic
+ mnemonic
+ tmp
+ mnemonics
+link index
+ mnemonic
+ mnemonics
+link index
+ offsets
+ length
+link index
+ point
+new offsets
+ point
+link index
+ system
+ arraycopy
+ offsets
+new offsets
+link index
+ offsets
+new offsets
+ string
+ new
+ string
+link index
+ system
+ arraycopy
+ ids
+ new
+link index
+ ids
+ new
+new mnemonics
+link index
+ system
+ arraycopy
+ mnemonics
+new mnemonics
+link index
+ mnemonics
+new mnemonics
+ result
+ string
+parse mnemonics
+ buffer
+ start
+ end
+string buffer
+ result
+ mnemonic
+ index
+ start
+ index
+ end
+ buffer
+ index
+ index
+ end
+ buffer
+ index
+ result
+ append
+ buffer
+ index
+ index
+ mnemonic
+ result
+ length
+ result
+ append
+ buffer
+ index
+ index
+ mnemonic
+release widget
+release widget
+ layout
+ layout
+ dispose
+ layout
+link color
+link color
+ dispose
+link color
+link disabled color
+ offsets
+ ids
+ mnemonics
+ text
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ selection
+ listener
+event table
+ unhook
+ swt
+default selection
+ listener
+set text
+ string
+ string
+check widget
+ string
+ error
+ swt
+error null argument
+ string
+ equals
+ text
+ text
+ string
+
+comctl 32_ major
+ tchar
+ buffer
+ tchar
+get code page
+ string
+
+set window text
+ handle
+ buffer
+ parse
+ string
+ layout
+set text
+ parse
+ string
+focus index
+ offsets
+ length
+ selection
+
+ selection
+
+ bits
+
+get window long
+ handle
+
+gwl style
+ offsets
+ length
+ bits
+
+ tabstop
+ bits
+
+ tabstop
+
+set window long
+ handle
+
+gwl style
+ bits
+ enabled
+
+window enabled
+ handle
+text style
+link style
+text style
+ enabled
+link color
+link disabled color
+link style
+ underline
+
+
+ offsets
+ length
+
+ point
+ point
+ offsets
+
+ layout
+set style
+link style
+ point
+
+ point
+
+text style
+mnemonic style
+text style
+mnemonic style
+ underline
+
+
+ mnemonics
+ length
+
+ mnemonic
+ mnemonics
+
+ mnemonic
+ layout
+set style
+mnemonic style
+ mnemonic
+ mnemonic
+ redraw
+widget style
+ bits
+widget style
+ bits
+
+ tabstop
+ tchar
+window class
+
+comctl 32_ major
+link class
+ display
+window class
+window proc
+link proc
+link proc
+ display
+window proc
+ lresult
+ char
+ param
+ param
+ lresult
+ result
+ char
+ param
+ param
+ result
+ result
+
+comctl 32_ major
+focus index
+ result
+ param
+ swt
+
+ event
+ event
+ event
+ event
+ text
+ ids
+focus index
+send event
+ swt
+ selection
+ event
+ swt
+ tab
+ next
+
+get key state
+
+ shift
+ next
+focus index
+ offsets
+ length
+focus index
+ redraw
+focus index
+focus index
+ redraw
+ param
+ swt
+
+ swt
+ tab
+ code
+call window proc
+ handle
+
+ keydown
+ param
+ param
+ lresult
+ code
+ result
+ lresult
+ getdlgcode
+ param
+ param
+ lresult
+ result
+ getdlgcode
+ param
+ param
+ result
+ result
+ index
+ count
+ code
+
+comctl 32_ major
+ litem
+ item
+ litem
+ item
+ mask
+
+lif itemindex
+
+lif state
+ item
+state mask
+
+lis focused
+ index
+
+send message
+ handle
+
+ getitem
+ item
+ item
+ state
+
+lis focused
+ index
+ item
+ link
+ item
+ link
+ count
+ item
+ link
+ code
+call window proc
+ handle
+
+ getdlgcode
+ param
+ param
+ index
+focus index
+ count
+ offsets
+ length
+ count
+ lresult
+ code
+
+dlgc static
+ next
+
+get key state
+
+ shift
+ next
+ index
+ count
+ lresult
+ code
+
+dlgc wanttab
+ next
+ index
+ lresult
+ code
+
+dlgc wanttab
+ result
+ lresult
+ getfont
+ param
+ param
+ lresult
+ result
+ getfont
+ param
+ param
+ result
+ result
+ code
+call window proc
+ handle
+
+ getfont
+ param
+ param
+ code
+ lresult
+ code
+ font
+ font
+default font
+ lresult
+ font
+ lresult
+ keydown
+ param
+ param
+ lresult
+ result
+ keydown
+ param
+ param
+ result
+ result
+
+comctl 32_ major
+ param
+
+ space
+
+ return
+
+ tab
+ lresult
+ zero
+ result
+ lresult
+ killfocus
+ param
+ param
+ lresult
+ result
+ killfocus
+ param
+ param
+
+comctl 32_ major
+ redraw
+ result
+ lresult
+ lbuttondown
+ param
+ param
+ lresult
+ result
+ lbuttondown
+ param
+ param
+
+comctl 32_ major
+focus index
+set focus
+
+ param
+
+ param
+ offset
+ layout
+get offset
+
+
+old selection
+ selection
+
+old selection
+ selection
+
+ selection
+
+ offset
+ selection
+
+old selection
+old selection
+old selection
+old selection
+ temp
+old selection
+old selection
+old selection
+old selection
+ temp
+ rectangle
+ rect
+ layout
+get bounds
+old selection
+old selection
+ redraw
+ rect
+
+ rect
+
+ rect
+ width
+ rect
+ height
+
+
+ offsets
+ length
+
+ rectangle
+ rects
+get rectangles
+
+
+
+ rects
+ length
+
+ rectangle
+ rect
+ rects
+
+ rect
+ contains
+
+
+
+focus index
+focus index
+
+ redraw
+ result
+ result
+ lresult
+ lbuttonup
+ param
+ param
+ lresult
+ result
+ lbuttonup
+ param
+ param
+
+comctl 32_ major
+focus index
+ result
+
+ param
+
+ param
+ rectangle
+ rects
+get rectangles
+focus index
+
+
+ rects
+ length
+
+ rectangle
+ rect
+ rects
+
+ rect
+ contains
+
+
+ event
+ event
+ event
+ event
+ text
+ ids
+focus index
+send event
+ swt
+ selection
+ event
+ result
+ result
+ lresult
+ mousemove
+ param
+ param
+ lresult
+ result
+ mousemove
+ param
+ param
+
+comctl 32_ major
+
+ param
+
+ param
+
+get key state
+
+ lbutton
+old selection
+ selection
+
+ selection
+
+ layout
+get offset
+
+
+ selection
+
+old selection
+new selection
+ selection
+
+old selection
+new selection
+ temp
+old selection
+old selection
+new selection
+new selection
+ temp
+ rectangle
+ rect
+ layout
+get bounds
+old selection
+new selection
+ redraw
+ rect
+
+ rect
+
+ rect
+ width
+ rect
+ height
+
+
+ offsets
+ length
+
+ rectangle
+ rects
+get rectangles
+
+
+
+ rects
+ length
+
+ rectangle
+ rect
+ rects
+
+ rect
+ contains
+
+
+set cursor
+ display
+get system cursor
+ swt
+cursor hand
+ result
+set cursor
+ result
+ lresult
+ paint
+ param
+ param
+
+comctl 32_ major
+ paint
+ param
+ param
+ paintstruct
+
+ paintstruct
+ data
+ data
+ data
+ data
+
+
+ data
+ hwnd
+ handle
+
+
+ new
+ data
+
+ width
+
+ right
+
+ left
+ height
+
+ bottom
+
+ top
+ width
+ height
+ rect
+ rect
+ rect
+
+set rect
+ rect
+
+ left
+
+ top
+
+ right
+
+ bottom
+draw widget
+
+ rect
+
+ dispose
+ lresult
+ zero
+ lresult
+ printclient
+ param
+ param
+ lresult
+ result
+ printclient
+ param
+ param
+
+comctl 32_ major
+ rect
+ rect
+ rect
+
+get client rect
+ handle
+ rect
+ data
+ data
+ data
+ data
+ device
+ display
+
+
+
+win 32_new
+ param
+ data
+draw widget
+
+ rect
+
+ dispose
+ result
+ lresult
+ setfocus
+ param
+ param
+ lresult
+ result
+ setfocus
+ param
+ param
+
+comctl 32_ major
+ redraw
+ result
+ lresult
+ setfont
+ param
+ param
+
+comctl 32_ major
+ layout
+set font
+ font
+win 32_new
+ display
+ param
+ setfont
+ font
+ param
+ param
+ lresult
+ size
+ param
+ param
+ lresult
+ result
+ size
+ param
+ param
+
+comctl 32_ major
+ rect
+ rect
+ rect
+
+get client rect
+ handle
+ rect
+ layout
+set width
+ rect
+ right
+ rect
+ right
+ redraw
+ result
+ lresult
+color child
+ param
+ param
+ lresult
+ result
+color child
+ param
+ param
+
+comctl 32_ major
+
+app themed
+ control
+ control
+find theme control
+ control
+
+set mode
+ param
+
+ transparent
+ rect
+ rect
+ rect
+
+get client rect
+ control
+ handle
+ rect
+
+map window points
+ control
+ handle
+ handle
+ rect
+ control
+draw theme background
+ param
+ rect
+ lresult
+
+get stock object
+
+null brush
+ result
+ lresult
+notify child
+ param
+ param
+
+comctl 32_ major
+ nmhdr
+ hdr
+ nmhdr
+
+move memory
+ hdr
+ param
+ nmhdr
+ sizeof
+ hdr
+ code
+
+ return
+
+ click
+ nmlink
+ item
+ nmlink
+
+move memory
+ item
+ param
+ nmlink
+ sizeof
+ event
+ event
+ event
+ event
+ text
+ ids
+ item
+ link
+send event
+ swt
+ selection
+ event
+notify child
+ param
+ param
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  represent  selectable  user  interface  object  that  displays  text  with  links  styles  none  events  selection  important  this  class  not  intended  subclassed  since 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  widget check subclass  see  widget get style
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  control  selected  sending  one  the  messages  defined  the  code selection listener  code  interface  code widget selected  code  called  when  the  control  selected  code widget default selected  code  not  called  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener  see selection event
+temporary  code
+temporary  code  disable  text  selection
+feature  windows  for  some  reason  setting  lis  enabled  state  using  setitem  causes  the sys link  become  enabled  specific  calling window enabled  returns  true  the  fix  disable  the sys link  after  setitem
+non  nls 
+returns  the  receiver  text  which  will  empty  string  has  never  been  set  the  receiver  code  separator  code  label  return  the  receiver  text  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  control  selected  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener
+sets  the  receiver  text  the  string  can  contain  both  regular  text  and  hyperlinks  hyperlink  delimited  anchor  tag  and  within  anchor  single  href  attribute  supported  when  hyperlink  selected  the  text  field  the  selection  event  contains  either  the  text  the  hyperlink  the  value  its  href  one  was  specified  the  rare  case  identical  hyperlinks  within  the  same  string  the  href  tag  can  used  distinguish  between  them  the  string  may  include  the  mnemonic  character  and  line  delimiters  param  string  the  new  text  exception illegal argument exception  error  null  argument  the  text  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+note  call  the  window  proc  with  keydown  rather  than  char  that  the  key  that  was  ignored  during  keydown  processed  this  allows  the  application  cancel  operation  that  normally  performed  keydown  from  char
+ensure  that  the  window  proc  does  not  process  space  return  tab  that  can  handled  char  this  allows  the  application  cancel  operation  that  normally  performed  keydown  from  char
+</comments>
+</text>
+</DOC>

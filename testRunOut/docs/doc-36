@@ -1,0 +1,42 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.TextChangeListener.java </DOCNO>
+<text>
+<class>
+text change listener
+</class>
+<method>
+text changing
+text changed
+text set
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+text change listener
+swt event listener
+text changing
+text changing event
+ event
+text changed
+text changed event
+ event
+text set
+text changed event
+ event
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+the styled text  widget  implements  this  listener  receive  notifications  when  changes  the  model  occur  not  intended  implemented  clients  implementors styled text content  clients  should  listen  the modify event extended modify event  that  sent  the styled text  widget  receive  text  change  notifications  implementors styled text content  should  call  the text changing  and text changed  methods  when  text  changes  occur  described  below  the  entire  text  replaced  the text set  method  should  called  instead
+this  method  called  when  the  content  about  changed  callers  also  need  call  the text changed  method  after  the  content  change  has  been  applied  the  widget  only  updates  the  screen  properly  when  receives  both  events  param  event  the  text  changing  event  all  event  fields  need  set  the  sender  see text changing event
+this  method  called  when  the  content  has  changed  callers  need  have  called  the text changing  method  prior  applying  the  content  change  and  calling  this  method  the  widget  only  updates  the  screen  properly  when  receives  both  events  param  event  the  text  changed  event
+this  method  called  instead  the text changing text changed  combination  when  the  entire  old  content  has  been  replaced  call styled text content set text  param  event  the  text  changed  event
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,2629 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Shell.java </DOCNO>
+<text>
+<class>
+ shell
+</class>
+<method>
+ shell
+ shell
+ shell
+ shell
+ shell
+ shell
+ shell
+win 32_new
+check style
+add shell listener
+call window proc
+ close
+create handle
+ dispose
+enable widget
+find brush
+find cursor
+find theme control
+fix shell
+force active
+force resize
+get bounds
+get enabled
+get ime input mode
+get location
+get minimum size
+get region
+get shell
+get size
+get shells
+layout deferred
+ enabled
+ visible
+hwnd mdi client
+ open
+release child
+release handle
+release shells
+release widget
+remove menu
+remove shell listener
+select palette
+set active
+set active control
+set bounds
+set enabled
+set ime input mode
+set minimum size
+set minimum size
+set item enabled
+set parent
+set region
+set tool tip text
+set tool tip text
+set tool tip text
+set visible
+translate accelerator
+traverse escape
+update modal
+widget create struct
+widget parent
+widget ext style
+window class
+window proc
+widget style
+ activate
+ command
+ destroy
+ enteridle
+ getminmaxinfo
+ mouseactivate
+ nchittest
+ nclbuttondown
+ palettechanged
+ querynewpalette
+ setcursor
+ settingchange
+ showwindow
+ syscommand
+ windowposchanging
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ events
+ shell
+ decorations
+ menu
+active menu
+ imc
+hwnd mdi client
+tool tip handle
+lpstr tip
+min width
+ swt
+ default
+min height
+ swt
+ default
+ brushes
+show with parent
+ control
+last active
+ shactivateinfo
+ psai
+ region
+ region
+dialog proc
+ tchar
+dialog class
+ tchar
+
+ win
+ wndclass
+wnd class
+ wndclass
+
+get class info
+dialog class
+wnd class
+dialog proc
+wnd class
+lpfn wnd proc
+ shell
+ display
+ shell
+ style
+ display
+ style
+ shell
+ display
+ display
+ display
+
+ win
+ swt
+ none
+ swt
+shell trim
+ shell
+ display
+ display
+ style
+ display
+ style
+ shell
+ display
+ display
+ shell
+ parent
+ style
+ handle
+check subclass
+ display
+ display
+ display
+get current
+ display
+ display
+ display
+get default
+ display
+valid thread
+ error
+ swt
+error thread invalid access
+ parent
+ parent
+ disposed
+ error
+ swt
+error invalid argument
+ style
+check style
+ style
+ parent
+ parent
+ display
+ display
+ handle
+ handle
+create widget
+ shell
+ shell
+ parent
+ parent
+
+ win
+ swt
+ none
+ swt
+dialog trim
+ shell
+ shell
+ parent
+ style
+ parent
+ parent
+ display
+ parent
+ style
+ shell
+win 32_new
+ display
+ display
+ handle
+ shell
+ display
+ swt
+ trim
+ handle
+check style
+ style
+ style
+ decorations
+check style
+ style
+ mask
+ swt
+system modal
+ swt
+application modal
+ swt
+primary modal
+ bits
+ style
+ mask
+ style
+ swt
+system modal
+ bits
+ swt
+system modal
+ style
+ swt
+application modal
+ bits
+ swt
+application modal
+ style
+ swt
+primary modal
+ bits
+ swt
+primary modal
+ bits
+add shell listener
+shell listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ close
+typed listener
+add listener
+ swt
+ iconify
+typed listener
+add listener
+ swt
+ deiconify
+typed listener
+add listener
+ swt
+ activate
+typed listener
+add listener
+ swt
+ deactivate
+typed listener
+call window proc
+ hwnd
+ msg
+ param
+ param
+ handle
+ style
+ swt
+ tool
+ trim
+ swt
+ title
+ swt
+ close
+ swt
+ min
+ swt
+ max
+ swt
+ border
+ swt
+ resize
+ style
+ trim
+
+def window proc
+ hwnd
+ msg
+ param
+ param
+ parent
+ msg
+
+ killfocus
+
+ setfocus
+
+def window proc
+ hwnd
+ msg
+ param
+ param
+
+call window proc
+dialog proc
+ hwnd
+ msg
+ param
+ param
+hwnd mdi client
+
+def frame proc
+ hwnd
+hwnd mdi client
+ msg
+ param
+ param
+
+def window proc
+ hwnd
+ msg
+ param
+ param
+ close
+check widget
+close widget
+create handle
+ embedded
+ handle
+create handle
+ embedded
+ bits
+
+get window long
+ handle
+
+gwl style
+ bits
+
+ overlapped
+
+ caption
+
+ win
+ bits
+
+ popup
+ style
+ swt
+ title
+ bits
+
+ caption
+ style
+ swt
+ trim
+ style
+ swt
+ border
+ swt
+ resize
+ bits
+
+ border
+
+set window long
+ handle
+
+gwl style
+ bits
+ flags
+
+swp drawframe
+
+swp nomove
+
+swp nosize
+
+swp nozorder
+
+swp noactivate
+set window pos
+ handle
+ flags
+
+ win
+set maximized
+
+ ppc
+ psai
+ shactivateinfo
+ psai
+ size
+ shactivateinfo
+ sizeof
+
+ locale
+ imc
+
+imm create context
+ imc
+
+imm associate context
+ handle
+ imc
+ dispose
+ dispose
+enable widget
+ enabled
+ enabled
+ state
+ disabled
+ state
+ disabled
+ display
+trim enabled
+ active
+set item enabled
+
+ close
+ enabled
+
+enable window
+ handle
+ enabled
+find brush
+ pixel
+ pixel
+
+get sys color
+
+color btnface
+
+get sys color brush
+
+color btnface
+ pixel
+
+get sys color
+
+color window
+
+get sys color brush
+
+color window
+ brushes
+ brushes
+ logbrush
+log brush
+ logbrush
+
+
+ brushes
+ length
+
+ brush
+ brushes
+
+ brush
+
+get object
+ brush
+ logbrush
+ sizeof
+log brush
+log brush
+ color
+ pixel
+ brush
+ length
+ brushes
+ length
+ brush
+ brushes
+ length
+ brush
+
+delete object
+ brush
+ system
+ arraycopy
+ brushes
+ brushes
+ length
+ brushes
+ brush
+
+create solid brush
+ pixel
+ brush
+ cursor
+find cursor
+ cursor
+ control
+find theme control
+fix shell
+ shell
+new shell
+ control
+ control
+new shell
+ control
+last active
+set active control
+tool tip handle
+set tool tip text
+ control
+ handle
+new shell
+set tool tip text
+ control
+ handle
+ control
+tool tip text
+force active
+check widget
+ visible
+
+set foreground window
+ handle
+force resize
+ rectangle
+get bounds
+check widget
+
+ win
+
+ iconic
+ handle
+get bounds
+ rect
+ rect
+ rect
+
+get window rect
+ handle
+ rect
+ width
+ rect
+ right
+ rect
+ left
+ height
+ rect
+ bottom
+ rect
+ top
+ rectangle
+ rect
+ left
+ rect
+ top
+ width
+ height
+get enabled
+check widget
+ state
+ disabled
+get ime input mode
+check widget
+
+ locale
+ imc
+
+imm get context
+ handle
+lpfdw conversion
+lpfdw sentence
+ open
+
+imm get open status
+ imc
+ open
+ open
+
+imm get conversion status
+ imc
+lpfdw conversion
+lpfdw sentence
+
+imm release context
+ handle
+ imc
+ open
+ swt
+ none
+ result
+lpfdw conversion
+
+ime cmode roman
+ result
+ swt
+ roman
+lpfdw conversion
+
+ime cmode fullshape
+ result
+ swt
+ dbcs
+lpfdw conversion
+
+ime cmode katakana
+ result
+ swt
+ phonetic
+lpfdw conversion
+
+ime cmode native
+ result
+ swt
+ native
+ result
+ swt
+ alpha
+ point
+get location
+check widget
+
+ win
+
+ iconic
+ handle
+get location
+ rect
+ rect
+ rect
+
+get window rect
+ handle
+ rect
+ point
+ rect
+ left
+ rect
+ top
+ point
+get minimum size
+check widget
+ width
+ math
+ max
+min width
+ trim
+ swt
+ title
+ swt
+ close
+ swt
+ min
+ swt
+ max
+ style
+ swt
+ trim
+ style
+ trim
+ width
+ math
+ max
+ width
+
+get system metrics
+
+ cxmintrack
+ height
+ math
+ max
+min height
+ style
+ swt
+ trim
+ style
+ trim
+ style
+ swt
+ resize
+ height
+ math
+ max
+ height
+
+get system metrics
+
+ cymintrack
+ rect
+ rect
+ rect
+ bits
+
+get window long
+ handle
+
+gwl style
+ bits
+
+get window long
+ handle
+
+gwl exstyle
+
+adjust window rect
+ rect
+ bits
+ bits
+ height
+ math
+ max
+ height
+ rect
+ bottom
+ rect
+ top
+ point
+ width
+ height
+ region
+get region
+check widget
+ region
+ shell
+get shell
+check widget
+ point
+get size
+check widget
+
+ win
+
+ iconic
+ handle
+get size
+ rect
+ rect
+ rect
+
+get window rect
+ handle
+ rect
+ width
+ rect
+ right
+ rect
+ left
+ height
+ rect
+ bottom
+ rect
+ top
+ point
+ width
+ height
+ shell
+get shells
+check widget
+ count
+ shell
+ shells
+ display
+get shells
+
+
+ shells
+ length
+
+ control
+ shell
+ shells
+
+ shell
+ shell
+ parent
+ shell
+ shell
+ shell
+ count
+ index
+ shell
+ result
+ shell
+ count
+
+
+ shells
+ length
+
+ control
+ shell
+ shells
+
+ shell
+ shell
+ parent
+ shell
+ shell
+ shell
+ result
+ index
+ shells
+
+ result
+layout deferred
+check widget
+layout count
+ enabled
+check widget
+get enabled
+ visible
+check widget
+get visible
+hwnd mdi client
+hwnd mdi client
+widget style
+
+mdis allchildstyles
+
+ child
+
+ clipchildren
+
+ clipsiblings
+hwnd mdi client
+
+create window
+ tchar
+widget style
+ handle
+
+get module handle
+ createstruct
+hwnd mdi client
+ open
+check widget
+bring top
+ disposed
+
+ win
+
+set foreground window
+ handle
+
+send message
+ handle
+
+ changeuistate
+
+uis initialize
+set visible
+ disposed
+ msg
+ msg
+ msg
+ flags
+
+ noremove
+
+ noyield
+
+ sendmessage
+
+peek message
+ msg
+ flags
+restore focus
+traverse group
+set focus
+release child
+release handle
+release handle
+hwnd mdi client
+release shells
+ shell
+ shells
+get shells
+
+
+ shells
+ length
+
+ shell
+ shell
+ shells
+
+ shell
+ disposed
+ shell
+release resources
+release widget
+release shells
+release widget
+active menu
+ display
+clear modal
+lpstr tip
+ heap
+
+get process heap
+
+heap free
+ heap
+lpstr tip
+lpstr tip
+tool tip handle
+ brushes
+
+
+ brushes
+ length
+
+ brush
+ brushes
+
+ brush
+
+delete object
+ brush
+ brushes
+
+ locale
+ imc
+
+imm destroy context
+ imc
+last active
+ region
+remove menu
+ menu
+ menu
+remove menu
+ menu
+ menu
+active menu
+active menu
+remove shell listener
+shell listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ close
+ listener
+event table
+ unhook
+ swt
+ iconify
+ listener
+event table
+ unhook
+ swt
+ deiconify
+ listener
+event table
+ unhook
+ swt
+ activate
+ listener
+event table
+ unhook
+ swt
+ deactivate
+ listener
+ lresult
+select palette
+ palette
+
+
+ get
+ handle
+ old
+
+select palette
+
+ palette
+ result
+
+realize palette
+
+ result
+
+invalidate rect
+ handle
+
+select palette
+
+ old
+
+realize palette
+
+
+ release
+ handle
+
+ result
+ lresult
+ one
+ lresult
+ zero
+set active
+check widget
+ visible
+bring top
+set active control
+ control
+ control
+ control
+ control
+ disposed
+ control
+last active
+last active
+ disposed
+last active
+last active
+ control
+ control
+ activate
+ control
+ control
+ control
+get path
+ control
+ deactivate
+last active
+ control
+last active
+get path
+last active
+ control
+ index
+ length
+ math
+ min
+ activate
+ length
+ deactivate
+ length
+ index
+ length
+ activate
+ index
+ deactivate
+ index
+ index
+
+ deactivate
+ length
+
+ index
+
+ deactivate
+
+ disposed
+ deactivate
+
+send event
+ swt
+ deactivate
+
+ activate
+ length
+
+ index
+
+ activate
+
+ disposed
+ activate
+
+send event
+ swt
+ activate
+set bounds
+
+
+ width
+ height
+ flags
+ defer
+set bounds
+
+
+ width
+ height
+ flags
+set enabled
+ enabled
+check widget
+ state
+ disabled
+ enabled
+set enabled
+ enabled
+ enabled
+ handle
+
+get active window
+restore focus
+traverse group
+set ime input mode
+ mode
+check widget
+
+ locale
+ ime
+ mode
+ swt
+ none
+ mode
+ swt
+ roman
+ imc
+
+imm get context
+ handle
+
+imm set open status
+ imc
+ ime
+ ime
+lpfdw conversion
+lpfdw sentence
+
+imm get conversion status
+ imc
+lpfdw conversion
+lpfdw sentence
+new bits
+old bits
+
+ime cmode native
+
+ime cmode katakana
+ mode
+ swt
+ phonetic
+new bits
+
+ime cmode katakana
+
+ime cmode native
+old bits
+ mode
+ swt
+ native
+new bits
+
+ime cmode native
+old bits
+
+ime cmode katakana
+ mode
+ swt
+ dbcs
+new bits
+
+ime cmode fullshape
+old bits
+
+ime cmode fullshape
+ mode
+ swt
+ roman
+new bits
+
+ime cmode roman
+old bits
+
+ime cmode roman
+lpfdw conversion
+new bits
+lpfdw conversion
+old bits
+
+imm set conversion status
+ imc
+lpfdw conversion
+lpfdw sentence
+
+imm release context
+ handle
+ imc
+set minimum size
+ width
+ height
+check widget
+width limit
+height limit
+ trim
+ swt
+ title
+ swt
+ close
+ swt
+ min
+ swt
+ max
+ style
+ swt
+ trim
+ style
+ trim
+width limit
+
+get system metrics
+
+ cxmintrack
+ style
+ swt
+ resize
+height limit
+
+get system metrics
+
+ cymintrack
+ rect
+ rect
+ rect
+ bits
+
+get window long
+ handle
+
+gwl style
+ bits
+
+get window long
+ handle
+
+gwl exstyle
+
+adjust window rect
+ rect
+ bits
+ bits
+height limit
+ rect
+ bottom
+ rect
+ top
+min width
+ math
+ max
+width limit
+ width
+min height
+ math
+ max
+height limit
+ height
+ point
+ size
+get size
+new width
+ math
+ max
+ size
+
+min width
+new height
+ math
+ max
+ size
+
+min height
+min width
+width limit
+min width
+ swt
+ default
+min height
+height limit
+min height
+ swt
+ default
+new width
+ size
+
+new height
+ size
+
+set size
+new width
+new height
+set minimum size
+ point
+ size
+check widget
+ size
+ error
+ swt
+error null argument
+set minimum size
+ size
+
+ size
+
+set item enabled
+ cmd
+ enabled
+ menu
+
+get system menu
+ handle
+ menu
+ flags
+
+ enabled
+ enabled
+ flags
+
+ disabled
+
+ grayed
+
+enable menu item
+ menu
+ cmd
+
+ bycommand
+ flags
+set parent
+set region
+ region
+ region
+check widget
+ style
+ swt
+ trim
+ region
+ region
+ disposed
+ error
+ swt
+error invalid argument
+ region
+ region
+ region
+
+create rect rgn
+
+combine rgn
+ region
+ region
+ handle
+ region
+
+ rgn
+
+set window rgn
+ handle
+ region
+ region
+ region
+set tool tip text
+ hwnd
+ string
+ text
+
+ win
+tool tip handle
+tool tip handle
+
+create window
+ tchar
+
+tooltips class
+
+tts alwaystip
+
+ usedefault
+
+ usedefault
+ handle
+
+get module handle
+tool tip handle
+ error
+ swt
+error handles
+
+send message
+tool tip handle
+
+ttm setmaxtipwidth
+ toolinfo
+ lpti
+ toolinfo
+ lpti
+ size
+ toolinfo
+ sizeof
+ lpti
+
+ hwnd
+ lpti
+ hwnd
+ handle
+ text
+
+send message
+tool tip handle
+
+ttm deltool
+ lpti
+
+send message
+tool tip handle
+
+ttm gettoolinfo
+ lpti
+
+send message
+tool tip handle
+
+ttm update
+ lpti
+ flags
+
+ttf idishwnd
+
+ttf subclass
+ lpti
+lpsz text
+
+lpstr textcallback
+
+send message
+tool tip handle
+
+ttm addtool
+ lpti
+set tool tip text
+ nmttdispinfo
+ lpnmtdi
+ buffer
+has cursor
+ heap
+
+get process heap
+lpstr tip
+
+heap free
+ heap
+lpstr tip
+byte count
+ buffer
+ length
+lpstr tip
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+lpstr tip
+ buffer
+byte count
+ lpnmtdi
+lpsz text
+lpstr tip
+set tool tip text
+ nmttdispinfo
+ lpnmtdi
+ buffer
+has cursor
+ heap
+
+get process heap
+lpstr tip
+
+heap free
+ heap
+lpstr tip
+byte count
+ buffer
+ length
+lpstr tip
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+lpstr tip
+ buffer
+byte count
+ lpnmtdi
+lpsz text
+lpstr tip
+set visible
+ visible
+check widget
+draw count
+ state
+ hidden
+ visible
+ visible
+
+window visible
+ handle
+ mask
+ swt
+primary modal
+ swt
+application modal
+ swt
+system modal
+ style
+ mask
+ visible
+ display
+set modal shell
+ control
+ control
+ display
+_get focus control
+ control
+ control
+ active
+bring top
+ disposed
+hwnd shell
+
+get active window
+hwnd shell
+ parent
+hwnd shell
+ parent
+ handle
+hwnd shell
+
+send message
+hwnd shell
+
+ cancelmode
+
+release capture
+ display
+clear modal
+update modal
+show with parent
+ visible
+
+ win
+
+show owned popups
+ handle
+set visible
+ visible
+ disposed
+show with parent
+ visible
+show with parent
+ visible
+ visible
+
+ win
+
+show owned popups
+ handle
+translate accelerator
+ msg
+ msg
+ enabled
+ active
+menu bar
+menu bar
+ enabled
+translate mdi accelerator
+ msg
+translate menu accelerator
+ msg
+traverse escape
+ parent
+ visible
+ enabled
+ close
+update modal
+ display
+trim enabled
+set item enabled
+
+ close
+ active
+
+enable window
+ handle
+ active
+ createstruct
+widget create struct
+widget parent
+ handle
+ handle
+ parent
+ parent
+ handle
+widget ext style
+ bits
+widget ext style
+
+ mdichild
+ style
+ swt
+ tool
+ bits
+
+ toolwindow
+
+ win
+ parent
+ style
+ swt
+ top
+ trim
+ swt
+ title
+ swt
+ close
+ swt
+ min
+ swt
+ max
+ style
+ swt
+ trim
+ style
+ trim
+ bits
+
+ toolwindow
+ parent
+
+ win
+ bits
+
+win 32_ version
+
+ version
+ bits
+ style
+ swt
+ top
+ bits
+
+ topmost
+ bits
+ tchar
+window class
+
+
+dialog class
+ style
+ swt
+ tool
+ trim
+ swt
+ title
+ swt
+ close
+ swt
+ min
+ swt
+ max
+ swt
+ border
+ swt
+ resize
+ style
+ trim
+ display
+window shadow class
+ parent
+dialog class
+window class
+window proc
+
+
+dialog proc
+ style
+ swt
+ tool
+ trim
+ swt
+ title
+ swt
+ close
+ swt
+ min
+ swt
+ max
+ swt
+ border
+ swt
+ resize
+ style
+ trim
+window proc
+ parent
+dialog proc
+window proc
+widget style
+ bits
+widget style
+ handle
+ bits
+
+ child
+ bits
+
+ child
+
+ win
+
+
+ bits
+
+ popup
+ parent
+ bits
+ bits
+
+ popup
+ bits
+
+ overlapped
+
+ caption
+ lresult
+ activate
+ param
+ param
+
+ ppc
+ hooks
+ swt
+hard key down
+ hooks
+ swt
+hard key
+ active
+ param
+ hwnd
+ active
+ handle
+
+
+ app
+
+
+ app
+
+
+set app key wnd assoc
+
+ hwnd
+ param
+
+sip preference
+ handle
+ psai
+ sip
+
+sip down
+
+ sip
+
+win 32_ version
+
+ version
+ param
+
+ locale
+ imc
+
+imm get open status
+ imc
+
+imm set open status
+ imc
+
+imm set open status
+ imc
+ lresult
+ result
+ activate
+ param
+ param
+ parent
+ lresult
+ zero
+ result
+ lresult
+ command
+ param
+ param
+
+ ppc
+ word
+ param
+ word
+
+ idok
+ param
+ param
+ handle
+
+post message
+ handle
+
+ close
+ lresult
+ zero
+
+ ppc
+
+
+menu bar
+ hwnd
+menu bar
+ hwnd
+ param
+ hwnd
+ param
+ hwnd
+ command
+ param
+hwnd child
+
+get window
+ hwnd
+
+ child
+ param
+hwnd child
+ command
+ param
+ command
+ param
+ param
+ lresult
+ destroy
+ param
+ param
+ lresult
+ result
+ destroy
+ param
+ param
+ bits
+
+get window long
+ handle
+
+gwl style
+ bits
+
+ child
+release child
+release resources
+ result
+ lresult
+ enteridle
+ param
+ param
+ lresult
+ result
+ enteridle
+ param
+ param
+ result
+ result
+
+ win
+ display
+run async messages
+ display
+wake thread
+ result
+ lresult
+ getminmaxinfo
+ param
+ param
+ lresult
+ result
+ getminmaxinfo
+ param
+ param
+ result
+ result
+min width
+ swt
+ default
+min height
+ swt
+ default
+ minmaxinfo
+ info
+ minmaxinfo
+
+move memory
+ info
+ param
+ minmaxinfo
+ sizeof
+min width
+ swt
+ default
+ info
+min track size
+min width
+min height
+ swt
+ default
+ info
+min track size
+min height
+
+move memory
+ param
+ info
+ minmaxinfo
+ sizeof
+ lresult
+ zero
+ result
+ lresult
+ mouseactivate
+ param
+ param
+ lresult
+ result
+ mouseactivate
+ param
+ param
+ result
+ result
+ hittest
+ param
+ hittest
+
+ hterror
+
+ httransparent
+
+ htnowhere
+ control
+ control
+ display
+_get focus control
+ control
+ decorations
+ decorations
+ control
+menu shell
+ decorations
+get shell
+ decorations
+ display
+ignore restore focus
+ display
+last hittest
+ hittest
+ display
+last hittest control
+ hittest
+
+ htmenu
+ hittest
+
+ htsysmenu
+ display
+last hittest control
+ control
+
+ win
+ hittest
+
+ htcaption
+ display
+last hittest control
+ control
+ lresult
+
+ noactivate
+ hittest
+
+ htmenu
+ point
+
+ point
+
+get cursor pos
+
+ pos
+
+get message pos
+
+
+ pos
+
+
+ pos
+ hwnd
+
+window from point
+
+ hwnd
+ control
+ control
+ display
+find control
+ hwnd
+ control
+ control
+ state
+ canvas
+ control
+ style
+ swt
+ focus
+ bits
+ swt
+ top
+ swt
+ focus
+ style
+ bits
+ bits
+ hittest
+
+ htborder
+ hittest
+
+ htclient
+ lresult
+
+ noactivate
+set active control
+ control
+ lresult
+ nchittest
+ param
+ param
+
+window enabled
+ handle
+ enabled
+ active
+ display
+trim enabled
+ lresult
+
+ htnowhere
+ hittest
+call window proc
+ handle
+
+ nchittest
+ param
+ param
+ hittest
+
+ htclient
+ hittest
+
+ htmenu
+ hittest
+
+ htborder
+ lresult
+ hittest
+menu bar
+menu bar
+get enabled
+ hittest
+call window proc
+ handle
+
+ nchittest
+ param
+ param
+ hittest
+
+ htmenu
+ hittest
+
+ htborder
+ lresult
+ hittest
+ lresult
+ nclbuttondown
+ param
+ param
+ lresult
+ result
+ nclbuttondown
+ param
+ param
+ result
+ result
+ display
+ignore restore focus
+ result
+ display
+ display
+ display
+hwnd active
+fix active
+
+ win
+ display
+last hittest
+
+ htcaption
+fix active
+hwnd active
+
+set active window
+ handle
+ display
+lock active window
+ code
+call window proc
+ handle
+
+ nclbuttondown
+ param
+ param
+ display
+lock active window
+fix active
+
+set active window
+hwnd active
+ control
+focus control
+ display
+last hittest control
+focus control
+focus control
+ disposed
+focus control
+set focus
+ display
+last hittest control
+ display
+ignore restore focus
+ lresult
+ code
+ lresult
+ palettechanged
+ param
+ param
+ param
+ handle
+ palette
+ display
+ palette
+ palette
+select palette
+ palette
+ palettechanged
+ param
+ param
+ lresult
+ querynewpalette
+ param
+ param
+ palette
+ display
+ palette
+ palette
+select palette
+ palette
+ querynewpalette
+ param
+ param
+ lresult
+ setcursor
+ param
+ param
+ msg
+ param
+ msg
+
+ lbuttondown
+ display
+trim enabled
+ shell
+modal shell
+ display
+get modal shell
+modal shell
+ active
+hwnd modal
+modal shell
+ handle
+
+window enabled
+hwnd modal
+
+set active window
+hwnd modal
+
+window enabled
+ handle
+
+ win
+hwnd popup
+
+get last active popup
+ handle
+hwnd popup
+hwnd popup
+ handle
+ display
+get control
+hwnd popup
+
+window enabled
+hwnd popup
+
+set active window
+hwnd popup
+hit test
+ param
+hit test
+
+ hterror
+get enabled
+ control
+ control
+ display
+get control
+ param
+ control
+ cursor
+ point
+
+ point
+
+get cursor pos
+
+
+screen client
+ handle
+
+ rect
+ rect
+ rect
+
+get client rect
+ handle
+ rect
+
+ rect
+ rect
+
+
+set cursor
+ cursor
+ handle
+ msg
+
+ lbuttondown
+
+ rbuttondown
+
+ mbuttondown
+
+ xbuttondown
+
+message beep
+
+
+ lresult
+ one
+ setcursor
+ param
+ param
+ lresult
+ settingchange
+ param
+ param
+ lresult
+ result
+ settingchange
+ param
+ param
+ result
+ result
+
+ ppc
+ param
+
+spi setsipinfo
+ style
+ swt
+ resize
+
+handle setting change
+ handle
+ param
+ param
+ psai
+ lresult
+ zero
+ sipinfo
+sip info
+ sipinfo
+sip info
+ size
+ sipinfo
+ sizeof
+
+sip get info
+sip info
+ psai
+ sip
+sip info
+fdw flags
+
+ sipf
+ result
+ lresult
+ showwindow
+ param
+ param
+ lresult
+ result
+ showwindow
+ param
+ param
+ result
+ result
+ param
+
+ parentopening
+ control
+ control
+ control
+ shell
+ shell
+ control
+get shell
+ shell
+show with parent
+ lresult
+ zero
+ control
+ control
+ parent
+ result
+ lresult
+ syscommand
+ param
+ param
+ lresult
+ result
+ syscommand
+ param
+ param
+ result
+ result
+
+ win
+ cmd
+ param
+ cmd
+
+ minimize
+ memory
+ runtime
+get runtime
+total memory
+ memory
+
+show window
+ handle
+
+ showminimized
+ lresult
+ zero
+ result
+ lresult
+ windowposchanging
+ param
+ param
+ lresult
+ result
+ windowposchanging
+ param
+ param
+ result
+ result
+ windowpos
+ lpwp
+ windowpos
+
+move memory
+ lpwp
+ param
+ windowpos
+ sizeof
+ lpwp
+ flags
+
+swp nosize
+ lpwp
+
+ math
+ max
+ lpwp
+
+min width
+ trim
+ swt
+ title
+ swt
+ close
+ swt
+ min
+ swt
+ max
+ style
+ swt
+ trim
+ style
+ trim
+ lpwp
+
+ math
+ max
+ lpwp
+
+
+get system metrics
+
+ cxmintrack
+ lpwp
+
+ math
+ max
+ lpwp
+
+min height
+ style
+ swt
+ trim
+ style
+ trim
+ style
+ swt
+ resize
+ lpwp
+
+ math
+ max
+ lpwp
+
+
+get system metrics
+
+ cymintrack
+ rect
+ rect
+ rect
+ bits
+
+get window long
+ handle
+
+gwl style
+ bits
+
+get window long
+ handle
+
+gwl exstyle
+
+adjust window rect
+ rect
+ bits
+ bits
+ lpwp
+
+ math
+ max
+ lpwp
+
+ rect
+ bottom
+ rect
+ top
+
+move memory
+ param
+ lpwp
+ windowpos
+ sizeof
+ result
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  represent  the  windows  which  the  desktop  window  manager  managing  instances  that  not  have  parent  that  they  are  built  using  the  constructor  which  takes  code  display  code  the  argument  are  described  top  level  shells  instances  that  have  parent  are  described  secondary  dialog  shells  instances  are  always  displayed  one  the  maximized  minimized  normal  states  when  instance  marked  maximized  the  window  manager  will  typically  resize  fill  the  entire  visible  area  the  display  and  the  instance  usually  put  state  where  can  not  resized  even  has  style  code  resize  code  until  longer  maximized  when  instance  the  normal  state  neither  maximized  minimized  its  appearance  controlled  the  style  constants  which  were  specified  when  was  created  and  the  restrictions  the  window  manager  see  below  when  instance  has  been  marked  minimized  its  contents  client  area  will  usually  not  visible  and  depending  the  window  manager  may  iconified  that  replaced  the  desktop  small  simplified  representation  itself  relocated  distinguished  area  the  screen  hidden  combinations  these  changes  are  also  possible  note  the  styles  supported  this  class  must  treated  hint  since  the  window  manager  for  the  desktop  which  the  instance  visible  has  ultimate  control  over  the  appearance  and  behavior  decorations  and  modality  for  example  some  window  managers  only  support  resizable  windows  and  will  always  assume  the  resize  style  even  not  set  addition  modality  style  not  supported  upgraded  more  restrictive  modality  style  that  supported  for  example  code  primary  modal  code  not  supported  would  upgraded  code  application  modal  code  styles  border  close  min  max  trim  resize  title  top  tool  application  modal  modeless  primary  modal  system  modal  events  activate  close  deactivate  deiconify  iconify  class  code  swt  code  provides  two  convenience  constants  for  the  most  commonly  required  style  combinations  code  shell  trim  code  the  result  combining  the  constants  which  are  required  produce  typical  application  top  level  shell  that  code  close  title  min  max  resize  code  code  dialog  trim  code  the  result  combining  the  constants  which  are  required  produce  typical  application  dialog  shell  that  code  title  close  border  code  note  only  one  the  styles  application  modal  modeless  primary  modal  and  system  modal  may  specified  important  this  class  not  intended  subclassed  see  decorations  see  swt
+constructs  new  instance  this  class  this  equivalent  calling  code  shell  display  null  code  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass 
+constructs  new  instance  this  class  given  only  the  style  value  describing  its  behavior  and  appearance  this  equivalent  calling  code  shell  display  null  style  code  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  style  the  style  control  construct  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  border  see  swt  close  see  swt  min  see  swt  max  see  swt  resize  see  swt  title  see  swt  trim  see  swt  shell  trim  see  swt  dialog  trim  see  swt  modeless  see  swt  primary  modal  see  swt  application  modal  see  swt  system  modal
+constructs  new  instance  this  class  given  only  the  display  create  created  with  style  code  swt  shell  trim  code  note  currently  null  can  passed  for  the  display  argument  this  has  the  effect  creating  the  shell  the  currently  active  display  there  one  there  current  display  the  shell  created  default  display  passing  null  the  display  argument  not  considered  good  coding  style  and  may  not  supported  future  release  swt  param  display  the  display  create  the  shell  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass 
+constructs  new  instance  this  class  given  the  display  create  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  note  currently  null  can  passed  for  the  display  argument  this  has  the  effect  creating  the  shell  the  currently  active  display  there  one  there  current  display  the  shell  created  default  display  passing  null  the  display  argument  not  considered  good  coding  style  and  may  not  supported  future  release  swt  param  display  the  display  create  the  shell  param  style  the  style  control  construct  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  border  see  swt  close  see  swt  min  see  swt  max  see  swt  resize  see  swt  title  see  swt  trim  see  swt  shell  trim  see  swt  dialog  trim  see  swt  modeless  see  swt  primary  modal  see  swt  application  modal  see  swt  system  modal
+constructs  new  instance  this  class  given  only  its  parent  created  with  style  code  swt  dialog  trim  code  note  currently  null  can  passed  for  the  parent  this  has  the  effect  creating  the  shell  the  currently  active  display  there  one  there  current  display  the  shell  created  default  display  passing  null  the  parent  not  considered  good  coding  style  and  may  not  supported  future  release  swt  param  parent  shell  which  will  the  parent  the  new  instance  exception illegal argument exception  error  invalid  argument  the  parent  disposed  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  note  currently  null  can  passed  for  the  parent  this  has  the  effect  creating  the  shell  the  currently  active  display  there  one  there  current  display  the  shell  created  default  display  passing  null  the  parent  not  considered  good  coding  style  and  may  not  supported  future  release  swt  param  parent  shell  which  will  the  parent  the  new  instance  param  style  the  style  control  construct  exception illegal argument exception  error  invalid  argument  the  parent  disposed  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  border  see  swt  close  see  swt  min  see  swt  max  see  swt  resize  see  swt  title  see  swt  trim  see  swt  shell  trim  see  swt  dialog  trim  see  swt  top  see  swt  tool  see  swt  modeless  see  swt  primary  modal  see  swt  application  modal  see  swt  system  modal
+invokes  platform  specific  functionality  allocate  new  shell  important  this  method  not  part  the  public  api  for  code  shell  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  display  the  display  for  the  shell  param  handle  the  handle  for  the  shell  return  new  shell  object  containing  the  specified  display  and  handle
+adds  the  listener  the  collection  listeners  who  will  notified  when  operations  are  performed  the  receiver  sending  the  listener  one  the  messages  defined  the  code shell listener  code  interface  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see shell listener  see remove shell listener
+requests  that  the  window  manager  close  the  receiver  the  same  way  would  closed  when  the  user  clicks  the  close  box  performs  some  other  platform  specific  key  mouse  combination  that  indicates  the  window  should  removed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  swt  close  see  dispose
+windows  and  setting  window  the  top  most  window  using  hwnd  topmost  can  result  parent  dialog  shell  being  moved  behind  its  parent  the  dialog  has  sibling  that  currently  top  this  only  occurs  using set window pos  not  when  the  handle  created
+the  following  code  intentionally  commented
+style  swt  top  display lock active window  true
+the  following  code  intentionally  commented
+style  swt  top  display lock active window  false
+bug  windows  when  the  caption  bits  are  cleared  using set window long  windows  does  not  resize  the  client  area  the  window  get  rid  the  caption  until  the  first  resize  the  fix  use set window pos  with  swp  drawframe  force  the  frame  redrawn  and  resized
+this  code  intentionally  commented  some  platforms  the  owner  window  repainted  right  away  when  dialog  window  exits  this  behavior  currently  unspecified
+
+note  valid  attempt  dispose  widget
+more  than  once  this  happens  fail  silently
+
+valid widget  return
+valid thread  error  swt  error  thread  invalid  access
+display old display  display
+widget  disposed  this  point
+old display  null old display  update
+the  receiver  visible  moves  the  top  the  drawing  order  for  the  display  which  was  created  that  all  other  shells  that  display  which  are  not  the  receiver  children  will  drawn  behind  and  forces  the  window  manager  make  the  shell  active  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since  see  control move above  see  control set focus  see  control set visible  see  display get active shell  see  decorations set default button  see  shell  open  see  shell set active
+  nothing
+returns  the  receiver  input  method  editor  mode  this  will  the  result  bitwise  ing  together  one  more  the  following  constants  defined  class  code  swt  code  code  none  code  code  roman  code  code  dbcs  code  code  phonetic  code  code  native  code  code  alpha  code  return  the  ime  mode  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  swt
+returns  point  describing  the  minimum  receiver  size  the  coordinate  the  result  the  minimum  width  the  receiver  the  coordinate  the  result  the  minimum  height  the  receiver  return  the  receiver  size  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  the  region  that  defines  the  shape  the  shell  null  the  shell  has  the  default  shape  return  the  region  that  defines  the  shape  the  shell  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  array  containing  all  shells  which  are  descendents  the  receiver  return  the  dialog  shells  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+show window hwnd mdi client  show
+moves  the  receiver  the  top  the  drawing  order  for  the  display  which  was  created  that  all  other  shells  that  display  which  are  not  the  receiver  children  will  drawn  behind  marks  visible  sets  the  focus  and  asks  the  window  manager  make  the  shell  active  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  control move above  see  control set focus  see  control set visible  see  display get active shell  see  decorations set default button  see  shell set active  see  shell force active
+feature  win  ppc  new  application  becomes  the  foreground  application  only  has  least  one  visible  window  before  the  event  loop  started  the  workaround  explicitely  force  the  shell  the  foreground  window
+bug  windows  despite  the  fact  that  icon  has  been  set  for  window  the  task  bar  displays  the  wrong  icon  the  first  time  the  window  made  visible  with show window  after  call bring top  when  long  time  elapses  between  the show window  and  the  time  the  event  queue  read  the  icon  the  window  trimming  correct  but  the  one  the  task  bar  does  not  get  updated  the  fix  call peek message  with  the  flag  noremove  and  sendmessage  respond  cross  thread  geticon  note  this  allows  other  cross  thread  messages  delivered  most  notably  activate
+  nothing
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  operations  are  performed  the  receiver  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see shell listener  see add shell listener
+the  receiver  visible  moves  the  top  the  drawing  order  for  the  display  which  was  created  that  all  other  shells  that  display  which  are  not  the  receiver  children  will  drawn  behind  and  asks  the  window  manager  make  the  shell  active  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since  see  control move above  see  control set focus  see  control set visible  see  display get active shell  see  decorations set default button  see  shell  open  see  shell set active
+widget  could  disposed  this  point
+compute  the  list  controls  activated  and  deactivated  finding  the  first  common  parent  control
+possible  but  unlikely  that  application  code  could  have  destroyed  some  the  widgets  this  happens  keep  processing  those  widgets  that  are  not  disposed
+sets  the  input  method  editor  mode  the  argument  which  should  the  result  bitwise  ing  together  one  more  the  following  constants  defined  class  code  swt  code  code  none  code  code  roman  code  code  dbcs  code  code  phonetic  code  code  native  code  code  alpha  code  param  mode  the  new  ime  mode  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  swt
+sets  the  receiver  minimum  size  the  size  specified  the  arguments  the  new  minimum  size  larger  than  the  current  size  the  receiver  the  receiver  resized  the  new  minimum  size  param  width  the  new  minimum  width  for  the  receiver  param  height  the  new  minimum  height  for  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+sets  the  receiver  minimum  size  the  size  specified  the  argument  the  new  minimum  size  larger  than  the  current  size  the  receiver  the  receiver  resized  the  new  minimum  size  param  size  the  new  minimum  size  for  the  receiver  exception illegal argument exception  error  null  argument  the  point  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+nothing  not  necessary  for  shells
+sets  the  shape  the  shell  the  region  specified  the  argument  when  the  argument  null  the  default  shape  the  shell  restored  the  shell  must  created  with  the  style  swt  trim  order  specify  region  param  region  the  region  that  defines  the  shape  the  shell  null  exception illegal argument exception  error  invalid  argument  the  region  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+feature  windows  despite  the  fact  that  the  tool  tip  text  contains  the  tooltip  will  not  honour  the  new  line  unless  ttm  setmaxtipwidth  set  the  fix  set  ttm  setmaxtipwidth  large  value
+ensure  that  the  current  position  the  mouse  inside  the  client  area  the  shell  this  prevents  tool  tips  from  popping  over  the  shell  trimmings
+ensure  that  the  current  position  the  mouse  inside  the  client  area  the  shell  this  prevents  tool  tips  from  popping  over  the  shell  trimmings
+feature  windows  when show window  called  used  hide  window  windows  attempts  give  focus  the  parent  the  parent  disabled enable window  focus  assigned  another  windows  the  desktop  this  means  that  you  hide  modal  window  before  the  parent  enabled  the  parent  will  not  come  the  front  the  fix  change  the  modal  state  before  hiding  showing  window  that  this  does  not  occur
+bug  windows  calling show owned popups  hide  the  child  windows  hidden  window  causes  the  application  deactivated  the  fix  call show owned popups  hide  children  before  hiding  the  parent
+feature  windows  when  window  that  does  not  have  parent  created  automatically  added  the  windows  task  bar  even  when  has  title  the  fix  use  toolwindow  which  does  not  cause  the  window  appear  the  task  bar
+bug  windows  and  creating  window  with  the  topmost  extended  style  can  result  dialog  shell  being  moved  behind  its  parent  the  exact  case  where  this  happens  shell  with  two  dialog  shell  children  where  each  dialog  child  has  another  hidden  dialog  child  with  the  topmost  extended  style  clicking  either  the  visible  dialogs  causes  them  become  active  but  move  the  back  behind  the  parent  shell  the  fix  disallow  the  topmost  extended  style  windows  and 
+feature  win  calling create window  with  overlapped  and  parent  window  causes  the  new  window  become  child  the  parent  instead  dialog  child  the  fix  use  popup  for  window  with  parent  feature  win  ppc  window  without  parent  with  popup  always  shows  top  the  pocket  today  screen  the  fix  not  set  popup  for  window  without  parent  win  devices  note  popup  causes create window  ignore  usedefault  and  causes  the  default  window  location  and  size  zero
+use  overlapped  for  all  windows  either  dialog  top  level  that create window  will  respect  usedefault  and  set  the  default  window  location  and  size  note  when  overlapped  window  created  windows  gives  the  new  window  caption  style  bits  these  two  constants  are  follows  overlapped  caption  border  dlgframe
+note  this  does  not  work  when  get  activate  prior  adding  listener
+restore  sip  state  when  window  activated
+bug  windows  when  shell  deactivated  the  ime  composition  window  does  not  away  this  causes  repaint  issues  the  fix  close  the  ime  cause  the  composition  string  committed  note  the  ime  needs  reopened  order  preserve  the  input  method  status
+note  win  ppc  close  the  shell  when  the  done  button  has  been  pressed  param  either  pocket  2002  the  handle  the  shell  pocket
+feature  windows  ppc  the  menu  not  actually  hmenu  observation  tool  bar  that  configured  look  like  menu  therefore  when  the  ppc  menu  sends  command  messages  param  not  zero  because  the  command  was  not  sent  from  menu  sub  menu  item  events  originate  from  the  menu  bar  top  menu  items  events  originate  from  tool  bar  the  fix  detect  the  source  the  command  and  set  param  zero  pretend  that  the  message  came  from  real  windows  menu  not  tool  bar
+when  the  shell  child  window  non  swt  window  the  destroy  code  does  not  get  called  because  the  non  swt  window  does  not  call  dispose  instead  the  destroy  code  called  here  destroy
+check  for  mouseactivate  when  mdi  shell  active  and  stop  the  normal  shell  activation  but  allow  the  mouse  down  delivered
+get  the  current  location  the  cursor  not  the  location  the  cursor  when  the  mouseactivate  was  generated  this  strictly  incorrect  but  necessary  order  support  activate  and  deactivate  events  for  embedded  widgets  that  have  their  own  event  loop  that  case  the  cursor  location  reported get message pos  the  one  for  our  event  loop  not  the  embedded  widget  event  loop
+when  shell  created  with  swt  top  and  swt  focus  not  activate  the  shell  when  the  user  clicks  the  the  client  area  the  border  control  within  the  shell  that  does  not  take  focus
+when  the  normal  activation  was  interruped  mouseactivate  because  the  active  shell  was  mdi  shell  set  the  active  window  the  top  level  shell  but  lock  the  active  window  and  stop  focus  changes  this  allows  the  user  interact  the  top  level  shell  the  normal  manner
+feature  windows  when  the  shell  disabled  windows  standard  dialog  like message box file dialog  clicking  the  shell  does  not  bring  the  shell  the  dialog  the  front  the  fix  detect  this  case  and  bring  the  shell  forward
+when  the  shell  that  contains  cursor  disabled  setcursor  called  with  hterror  normally  when  control  disabled  the  parent  will  get  mouse  and  cursor  events  the  case  disabled  shell  there  enabled  parent  order  show  the  cursor  when  shell  disabled  necessary  override  setcursor  when  called  with  hterror  set  the  cursor  but  only  when  the  mouse  the  client  area  the  shell
+the  sip  new  state  cache  its  new  value  resize  the  shell  has  the  style  swt  resize  note  that handle setting change  resizes  the  shell  and  also  updates  the  cached  state
+bug  windows  the  shell  hidden  while  the  parent  iconic  windows  shows  the  shell  when  the  parent  deiconified  this  does  not  happen  the  shell  hidden  while  the  parent  not  icon  the  fix  track  visible  state  for  the  shell  and  refuse  show  the  shell  when  the  parent  shown
+feature  windows  when  the  last  visible  window  process  minimized  windows  swaps  out  the  memory  for  the  process  the  assumption  that  the  user  can  longer  interact  with  the  window  the  memory  can  released  other  applications  however  for  programs  that  use  lot  memory  swapping  the  memory  back  can  take  long  time  sometimes  minutes  the  fix  intercept  syscommand  looking  for  minimize  and  use show window  with  showminimized  minimize  the  window  rather  than  running  the  default  window  proc  note  the  default  window  proc  activates  the  next  top  level  window  the  order  while show window  with  showminimized  does  not  there  fix  for  this  this  time
+</comments>
+</text>
+</DOC>

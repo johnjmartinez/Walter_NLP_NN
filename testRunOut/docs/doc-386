@@ -1,0 +1,284 @@
+<DOC>
+<DOCNO>org.eclipse.swt.dnd.OleEnumFORMATETC.java </DOCNO>
+<text>
+<class>
+ole enum formatetc
+</class>
+<method>
+ole enum formatetc
+add ref
+create com interfaces
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+dispose com interfaces
+get address
+get next items
+ next
+query interface
+ release
+ reset
+set formats
+ skip
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ dnd
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ole enum formatetc
+com object
+ unknown
+com object
+enum formatetc
+ref count
+ index
+ formatetc
+ formats
+ole enum formatetc
+create com interfaces
+add ref
+ref count
+ref count
+create com interfaces
+ unknown
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+enum formatetc
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+ next
+ args
+ args
+ args
+ method
+ args
+ skip
+ args
+ method
+ args
+ reset
+dispose com interfaces
+ unknown
+ unknown
+ dispose
+ unknown
+enum formatetc
+enum formatetc
+ dispose
+enum formatetc
+get address
+enum formatetc
+get address
+ formatetc
+get next items
+num items
+ formats
+num items
+end index
+ index
+num items
+end index
+ formats
+ length
+end index
+ formats
+ length
+ index
+end index
+ formatetc
+ items
+ formatetc
+end index
+ index
+
+
+ items
+ length
+
+ items
+
+ formats
+ index
+ index
+ items
+ next
+ celt
+ rgelt
+pcelt fetched
+ rgelt
+ com
+ invalidarg
+pcelt fetched
+ celt
+ com
+ invalidarg
+ formatetc
+next items
+get next items
+ celt
+next items
+
+
+next items
+ length
+
+ com
+move memory
+ rgelt
+
+ formatetc
+ sizeof
+next items
+
+ formatetc
+ sizeof
+pcelt fetched
+ com
+move memory
+pcelt fetched
+next items
+ length
+next items
+ length
+ celt
+ com
+
+pcelt fetched
+ com
+move memory
+pcelt fetched
+ com
+move memory
+ rgelt
+ formatetc
+ formatetc
+ sizeof
+ com
+ false
+query interface
+ riid
+ppv object
+ riid
+ppv object
+ com
+ nointerface
+ guid
+ guid
+ guid
+ com
+move memory
+ guid
+ riid
+ guid
+ sizeof
+ com
+equal guid
+ guid
+ com
+iidi unknown
+ com
+move memory
+ppv object
+ unknown
+get address
+add ref
+ com
+
+ com
+equal guid
+ guid
+ com
+iidi enum formatetc
+ com
+move memory
+ppv object
+enum formatetc
+get address
+add ref
+ com
+
+ com
+move memory
+ppv object
+ com
+ nointerface
+ release
+ref count
+ref count
+dispose com interfaces
+ com
+free unused libraries
+ref count
+ reset
+ index
+ com
+
+set formats
+ formatetc
+new formats
+ formats
+new formats
+ index
+ skip
+ celt
+ celt
+ com
+ invalidarg
+ index
+ celt
+ index
+ formats
+ length
+ index
+ formats
+ length
+ com
+ false
+ com
+
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+register  each  the  interfaces  that  this  object  implements
+method  clone  not  implemented
+retrieves  the  next  celt  items  the  enumeration  sequence  there  are  fewer  than  the  requested  number  elements  left  the  sequence  retrieves  the  remaining  elements  the  number  elements  actually  retrieved  returned  through pcelt fetched  unless  the  caller  passed  null  for  that  parameter
+resets  the  enumeration  sequence  the  beginning
+skips  over  the  next  specified  number  elements  the  enumeration  sequence
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,925 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.ImageList.java </DOCNO>
+<text>
+<class>
+image list
+</class>
+<method>
+image list
+ add
+add ref
+copy bitmap
+copy icon
+copy with alpha
+create mask
+ dispose
+ get
+get style
+get handle
+get image size
+ index
+ put
+ remove
+remove ref
+ set
+ size
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+image list
+ handle
+ style
+ref count
+ image
+ images
+color flags
+
+ win
+color flags
+
+ilc color
+ flags
+
+comctl 32_ major
+
+app themed
+ flags
+
+ilc color
+
+
+ get
+ bits
+
+get device caps
+
+
+ bitspixel
+ planes
+
+get device caps
+
+
+ planes
+
+ release
+
+ depth
+ bits
+ planes
+ depth
+ flags
+
+ilc color
+ flags
+
+ilc color
+ flags
+
+ilc color
+ flags
+
+ilc color
+ flags
+
+ilc color
+ flags
+
+ilc color
+color flags
+ flags
+image list
+ style
+ style
+ style
+ flags
+color flags
+
+ilc mask
+ style
+ swt
+right left
+ flags
+
+ilc mirror
+ handle
+
+image list create
+ flags
+ images
+ image
+ add
+ image
+ image
+ count
+
+image list get image count
+ handle
+ index
+ index
+ count
+ images
+ index
+ images
+ index
+ disposed
+ images
+ index
+ images
+ index
+ index
+ count
+ rectangle
+ rect
+ image
+get bounds
+
+image list set icon size
+ handle
+ rect
+ width
+ rect
+ height
+ set
+ index
+ image
+ count
+ index
+ images
+ length
+ image
+new images
+ image
+ images
+ length
+ system
+ arraycopy
+ images
+new images
+ images
+ length
+ images
+new images
+ images
+ index
+ image
+ index
+add ref
+ref count
+copy bitmap
+ image
+ width
+ height
+ bitmap
+
+ bitmap
+
+get object
+ image
+ bitmap
+ sizeof
+
+
+
+ get
+ hdc
+
+create compatible
+
+
+select object
+ hdc
+ image
+ hdc
+
+create compatible
+
+ bitmap
+
+create compatible bitmap
+
+ width
+ height
+
+select object
+ hdc
+ bitmap
+ width
+
+ width
+ height
+
+ height
+
+ win
+
+set stretch blt mode
+ hdc
+
+ coloroncolor
+
+stretch blt
+ hdc
+ width
+ height
+ hdc
+
+ width
+
+ height
+
+ srccopy
+
+bit blt
+ hdc
+ width
+ height
+ hdc
+
+ srccopy
+
+ delete
+ hdc
+
+ delete
+ hdc
+
+ release
+
+ bitmap
+copy icon
+ image
+ width
+ height
+
+ win
+ swt
+ error
+ swt
+error not implemented
+ icon
+
+copy image
+ image
+
+image icon
+ width
+ height
+ icon
+ icon
+ image
+copy with alpha
+ bitmap
+ background
+alpha data
+dest width
+dest height
+ bitmap
+
+ bitmap
+
+get object
+ bitmap
+ bitmap
+ sizeof
+
+src width
+
+ width
+src height
+
+ height
+ hdc
+
+ get
+src hdc
+
+create compatible
+ hdc
+old src bitmap
+
+select object
+src hdc
+ bitmap
+mem hdc
+
+create compatible
+ hdc
+ bitmapinfoheader
+bmi header
+ bitmapinfoheader
+bmi header
+ size
+ bitmapinfoheader
+ sizeof
+bmi header
+ width
+ math
+ max
+src width
+dest width
+bmi header
+ height
+ math
+ max
+src height
+dest height
+bmi header
+ planes
+bmi header
+bit count
+bmi header
+ compression
+
+ rgb
+ bmi
+ bitmapinfoheader
+ sizeof
+
+move memory
+ bmi
+bmi header
+ bitmapinfoheader
+ sizeof
+ bits
+mem dib
+
+create dib section
+ bmi
+
+dib rgb colors
+ bits
+mem dib
+ swt
+ error
+ swt
+error handles
+old mem bitmap
+
+select object
+mem hdc
+mem dib
+ bitmap
+ dib
+ bitmap
+
+get object
+mem dib
+ bitmap
+ sizeof
+ dib
+size bytes
+ dib
+width bytes
+ dib
+ height
+
+bit blt
+mem hdc
+src width
+src height
+src hdc
+
+ srccopy
+src data
+size bytes
+
+move memory
+src data
+ dib
+ bits
+size bytes
+alpha data
+ spinc
+ dib
+width bytes
+src width
+
+
+
+
+src height
+
+
+
+src width
+
+src data
+
+alpha data
+
+
+
+ spinc
+trans red
+ background
+trans green
+ background
+trans blue
+ background
+ spinc
+ dib
+width bytes
+src width
+
+
+
+src height
+
+
+
+src width
+
+src data
+
+src data
+
+trans red
+src data
+
+trans green
+src data
+
+trans blue
+
+
+ spinc
+
+move memory
+ dib
+ bits
+src data
+size bytes
+src width
+dest width
+src height
+dest height
+
+set stretch blt mode
+mem hdc
+
+ coloroncolor
+
+stretch blt
+mem hdc
+dest width
+dest height
+mem hdc
+src width
+src height
+
+ srccopy
+
+select object
+mem hdc
+old mem bitmap
+
+ delete
+mem hdc
+
+select object
+src hdc
+old src bitmap
+
+ delete
+src hdc
+
+ release
+ hdc
+mem dib
+create mask
+ bitmap
+dest width
+dest height
+ background
+transparent pixel
+ bitmap
+
+ bitmap
+
+get object
+ bitmap
+ bitmap
+ sizeof
+
+src width
+
+ width
+src height
+
+ height
+ mask
+
+create bitmap
+dest width
+dest height
+
+
+ get
+ hdc
+
+create compatible
+
+ background
+
+select object
+ hdc
+ bitmap
+ dib
+
+ bits
+original colors
+
+ win
+transparent pixel
+ dib
+
+bits pixel
+max colors
+
+bits pixel
+old colors
+max colors
+
+get dib color table
+ hdc
+max colors
+old colors
+ offset
+transparent pixel
+new colors
+old colors
+ length
+new colors
+ offset
+new colors
+ offset
+new colors
+ offset
+
+set dib color table
+ hdc
+max colors
+new colors
+original colors
+old colors
+
+set color
+ hdc
+
+set color
+ hdc
+ background
+ hdc
+
+create compatible
+
+
+select object
+ hdc
+ mask
+dest width
+src width
+dest height
+src height
+
+ win
+
+set stretch blt mode
+ hdc
+
+ coloroncolor
+
+stretch blt
+ hdc
+dest width
+dest height
+ hdc
+src width
+src height
+
+ srccopy
+
+bit blt
+ hdc
+dest width
+dest height
+ hdc
+
+ srccopy
+
+ delete
+ hdc
+original colors
+
+set dib color table
+ hdc
+
+bits pixel
+original colors
+old bitmap
+
+select object
+ hdc
+ mask
+
+pat blt
+ hdc
+dest width
+dest height
+
+ blackness
+
+select object
+ hdc
+old bitmap
+
+ release
+
+
+ delete
+ hdc
+ mask
+ dispose
+ handle
+
+image list destroy
+ handle
+ handle
+ images
+ image
+ get
+ index
+ images
+ index
+get style
+ style
+get handle
+ handle
+ point
+get image size
+
+
+
+image list get icon size
+ handle
+
+
+ point
+
+
+ index
+ image
+ image
+ count
+
+image list get image count
+ handle
+
+
+ count
+
+ images
+
+ images
+
+ disposed
+ images
+
+ images
+
+ images
+
+ equals
+ image
+
+ put
+ index
+ image
+ image
+ count
+
+image list get image count
+ handle
+ index
+ index
+ count
+ image
+ set
+ index
+ image
+ count
+ images
+ index
+ image
+ remove
+ index
+ count
+
+image list get image count
+ handle
+ index
+ index
+ count
+
+image list remove
+ handle
+ index
+ system
+ arraycopy
+ images
+ index
+ images
+ index
+ count
+ index
+ images
+ index
+remove ref
+ref count
+ set
+ index
+ image
+ image
+ count
+ image
+ image
+ handle
+
+
+
+image list get icon size
+ handle
+
+
+ image
+ type
+ swt
+ bitmap
+ bitmap
+ mask
+image data
+ data
+ image
+get image data
+ data
+get transparency type
+ swt
+transparency alpha
+
+comctl 32_ major
+ bitmap
+copy with alpha
+ image
+ data
+alpha data
+
+
+ bitmap
+copy bitmap
+ image
+
+
+ mask
+ display
+create mask from alpha
+ data
+
+
+ swt
+transparency pixel
+ background
+ color
+ color
+ image
+get background
+ color
+ background
+ color
+ handle
+ bitmap
+copy bitmap
+ image
+
+
+ mask
+create mask
+ image
+
+
+ background
+ data
+transparent pixel
+ swt
+transparency none
+ bitmap
+copy bitmap
+ image
+
+
+ index
+ count
+ mask
+create mask
+ image
+
+
+ index
+ count
+
+image list add
+ handle
+ bitmap
+ mask
+
+image list replace
+ handle
+ index
+ bitmap
+ mask
+ mask
+
+delete object
+ mask
+ bitmap
+ image
+
+delete object
+ bitmap
+ swt
+ icon
+
+ win
+
+image list replace icon
+ handle
+ index
+ count
+ index
+ image
+ icon
+copy icon
+ image
+
+
+
+image list replace icon
+ handle
+ index
+ count
+ index
+ icon
+
+destroy icon
+ icon
+ size
+ result
+ count
+
+image list get image count
+ handle
+
+
+ count
+
+ images
+
+ images
+
+ disposed
+ images
+
+ images
+
+ result
+ result
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+create  resources
+get  the  foreground  pixels
+merge  the  alpha  channel  place
+  stretch
+free  resources
+the  image  has  palette  with  multiple  entries  having  the  same  color  and  one  those  entries  the transparent pixel  only  the  first  entry  becomes  transparent  avoid  this  problem  temporarily  change  the  image  palette  palette  where  the transparent pixel  white  and  everything  else  black
+put  back  the  original  palette
+note  that  the  image  size  has  match  the  image  list  icon  size
+note  that  the  mask  must  always  replaced  even  for  transparency  none
+</comments>
+</text>
+</DOC>

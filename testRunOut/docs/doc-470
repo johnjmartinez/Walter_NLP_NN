@@ -1,0 +1,585 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.FileDialog.java </DOCNO>
+<text>
+<class>
+file dialog
+</class>
+<method>
+file dialog
+file dialog
+get file name
+get file names
+get filter extensions
+get filter names
+get filter path
+ open
+set file name
+set filter extensions
+set filter names
+set filter path
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+file dialog
+ dialog
+ string
+filter names
+ string
+ string
+filter extensions
+ string
+ string
+file names
+ string
+ string
+filter path
+file name
+ string
+ filter
+buffer size
+file dialog
+ shell
+ parent
+ parent
+ swt
+primary modal
+file dialog
+ shell
+ parent
+ style
+ parent
+ style
+check subclass
+ string
+get file name
+file name
+ string
+get file names
+file names
+ string
+get filter extensions
+filter extensions
+ string
+get filter names
+filter names
+ string
+get filter path
+filter path
+ string
+ open
+ heap
+
+get process heap
+hwnd owner
+ parent
+hwnd owner
+ parent
+ handle
+ title
+ title
+ tchar
+ buffer
+ tchar
+ title
+byte count
+ buffer
+ length
+ tchar
+ sizeof
+lpstr title
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+lpstr title
+ buffer
+byte count
+ string
+str filter
+filter names
+filter names
+ string
+filter extensions
+filter extensions
+ string
+
+
+filter extensions
+ length
+
+ string
+filter name
+filter extensions
+
+
+filter names
+ length
+filter name
+filter names
+
+str filter
+str filter
+filter name
+filter extensions
+
+filter extensions
+ length
+str filter
+str filter
+ filter
+ filter
+ tchar
+ buffer
+ tchar
+str filter
+byte count
+ buffer
+ length
+ tchar
+ sizeof
+lpstr filter
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+
+move memory
+lpstr filter
+ buffer
+byte count
+file name
+file name
+ tchar
+ name
+ tchar
+file name
+max file
+
+max path
+ style
+ swt
+ multi
+max file
+ math
+ max
+max file
+buffer size
+byte count
+max file
+ tchar
+ sizeof
+lpstr file
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+byte count file
+ math
+ min
+ name
+ length
+ tchar
+ sizeof
+byte count
+ tchar
+ sizeof
+
+move memory
+lpstr file
+ name
+byte count file
+filter path
+filter path
+ tchar
+ path
+ tchar
+filter path
+ replace
+byte count
+
+max path
+ tchar
+ sizeof
+lpstr initial dir
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+byte count dir
+ math
+ min
+ path
+ length
+ tchar
+ sizeof
+byte count
+ tchar
+ sizeof
+
+move memory
+lpstr initial dir
+ path
+byte count dir
+ openfilename
+ struct
+ openfilename
+ struct
+struct size
+ openfilename
+ sizeof
+ struct
+ flags
+
+ofn hidereadonly
+
+ofn nochangedir
+ style
+ swt
+ multi
+ struct
+ flags
+
+ofn allowmultiselect
+
+ofn explorer
+ struct
+hwnd owner
+hwnd owner
+ struct
+lpstr title
+lpstr title
+ struct
+lpstr file
+lpstr file
+ struct
+max file
+max file
+ struct
+lpstr initial dir
+lpstr initial dir
+ struct
+lpstr filter
+lpstr filter
+ struct
+filter index
+lpstr def ext
+ save
+ style
+ swt
+ save
+ save
+lpstr def ext
+
+heap alloc
+ heap
+
+heap zero memory
+ tchar
+ sizeof
+ struct
+lpstr def ext
+lpstr def ext
+ shell
+old modal
+ display
+ display
+ style
+ swt
+application modal
+ swt
+system modal
+ display
+ parent
+get display
+old modal
+ display
+get modal dialog shell
+ display
+set modal dialog shell
+ parent
+ success
+ save
+
+get save file name
+ struct
+
+get open file name
+ struct
+
+comm dlg extended error
+
+fnerr invalidfilename
+
+move memory
+lpstr file
+ tchar
+ tchar
+ sizeof
+ success
+ save
+
+get save file name
+ struct
+
+get open file name
+ struct
+ style
+ swt
+application modal
+ swt
+system modal
+ display
+set modal dialog shell
+old modal
+file names
+ string
+ string
+full path
+ success
+ tchar
+ buffer
+ tchar
+ struct
+max file
+byte count
+ buffer
+ length
+ tchar
+ sizeof
+
+move memory
+ buffer
+lpstr file
+byte count
+file offset
+ struct
+file offset
+
+ win
+file offset
+ index
+ index
+ buffer
+ length
+
+ buffer
+ tchar
+ index
+
+
+file offset
+ index
+ index
+file offset
+ tchar
+ prefix
+ tchar
+file offset
+byte count
+ prefix
+ length
+ tchar
+ sizeof
+
+move memory
+ prefix
+lpstr file
+byte count
+filter path
+ prefix
+ string
+ prefix
+ length
+ count
+file names
+ string
+ style
+ swt
+ multi
+ start
+file offset
+ end
+ start
+ end
+ buffer
+ length
+ buffer
+ tchar
+ end
+ end
+ string
+ string
+ buffer
+ string
+ start
+ end
+ start
+ start
+ end
+ count
+file names
+ length
+ string
+new file names
+ string
+file names
+ length
+ system
+ arraycopy
+file names
+new file names
+file names
+ length
+file names
+new file names
+file names
+ count
+ string
+ style
+ swt
+ multi
+ start
+ start
+ buffer
+ length
+ buffer
+ tchar
+ start
+file names
+ length
+file name
+file names
+ string
+ separator
+ length
+filter path
+ length
+ length
+filter path
+ char
+ length
+ separator
+full path
+filter path
+ separator
+file name
+ count
+file names
+ length
+ string
+new file names
+ string
+ count
+ system
+ arraycopy
+file names
+new file names
+ count
+file names
+new file names
+
+heap free
+ heap
+lpstr file
+
+heap free
+ heap
+lpstr filter
+
+heap free
+ heap
+lpstr initial dir
+
+heap free
+ heap
+lpstr title
+lpstr def ext
+
+heap free
+ heap
+lpstr def ext
+full path
+set file name
+ string
+ string
+file name
+ string
+set filter extensions
+ string
+ extensions
+filter extensions
+ extensions
+set filter names
+ string
+ names
+filter names
+ names
+set filter path
+ string
+ string
+filter path
+ string
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  allow  the  user  navigate  the  file  system  and  select  enter  file  name  styles  save  open  multi  events  none  note  only  one  the  styles  save  and  open  may  specified  important  this  class  intended  subclassed  only  within  the  swt  implementation 
+constructs  new  instance  this  class  given  only  its  parent  param  parent  shell  which  will  the  parent  the  new  instance  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  shell  which  will  the  parent  the  new  instance  param  style  the  style  dialog  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass 
+returns  the  path  the  first  file  that  was  selected  the  dialog  relative  the  filter  path  empty  string  such  file  has  been  selected  return  the  relative  path  the  file
+returns  possibly  empty  array  with  the  paths  all  files  that  were  selected  the  dialog  relative  the  filter  path  return  the  relative  paths  the  files
+returns  the  file  extensions  which  the  dialog  will  use  filter  the  files  shows  return  the  file  extensions  filter
+returns  the  names  that  describe  the  filter  extensions  which  the  dialog  will  use  filter  the  files  shows  return  the  list  filter  names
+returns  the  directory  path  that  the  dialog  will  use  empty  string  this  not  set  file  names  this  path  will  appear  the  dialog  filtered  according  the  filter  extensions  return  the  directory  path  string  see set filter extensions
+makes  the  dialog  visible  and  brings  the  front  the  display  return  string  describing  the  absolute  path  the  first  selected  file  null  the  dialog  was  cancelled  error  occurred  exception swt exception  error  widget  disposed  the  dialog  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  dialog 
+get  the  owner  hwnd  for  the  dialog
+convert  the  title  and  copy  into lpstr title
+use  the  character  encoding  for  the  default  locale
+compute  filters  and  copy  into lpstr filter
+use  the  character  encoding  for  the  default  locale
+convert  the file name  and filter name  strings
+use  the  character  encoding  for  the  default  locale
+copy  the  name  into lpstr file  and  ensure  that  the  last  byte  null  and  the  buffer  does  not  overrun
+copy  the  path  into lpstr initial dir  and  ensure  that  the  last  byte  null  and  the  buffer  does  not  overrun
+use  the  character  encoding  for  the  default  locale
+create  the  file  dialog  struct
+set  the  default  extension  empty  string  the  user  fails  type  extension  and  this  extension  empty  windows  uses  the  current  value  the  filter  extension  the  time  that  the  dialog  closed
+make  the  parent  shell  temporary  modal
+open  the  dialog  the  open  fails  due  invalid  file  name  use  empty  file  name  and  open  again
+clear  the  temporary  dialog  modal  parent
+set  the  new  path  file  name  and  filter
+use  the  character  encoding  for  the  default  locale
+bug  win  for  some  reason file offset  and file extension  are  always  zero  win  hpc file offset  always  zero  win  ppc  when  using get save file name file offset  correctly  set  win  ppc  when  using open file name  the  fix  parse lpstr file  calculate file offset  note  win  does  not  support  multi  select  file  dialogs
+use  the  character  encoding  for  the  default  locale
+get  each  file  from  the  buffer  files  are  delimited  null  character  with  null  characters  the  end
+free  the  memory  that  was  allocated
+this  code  intentionally  commented  some  platforms  the  owner  window  repainted  right  away  when  dialog  window  exits  this  behavior  currently  unspecified
+hwnd owner update window hwnd owner
+answer  the  full  path  null
+set  the  initial  filename  which  the  dialog  will  select  default  when  opened  the  argument  which  may  null  the  name  will  prefixed  with  the  filter  path  when  one  supplied  param  string  the  file  name
+set  the  file  extensions  which  the  dialog  will  use  filter  the  files  shows  the  argument  which  may  null  the  strings  are  platform  specific  for  example  windows  extension  filter  string  typically  the  form  extension  where  matches  all  files  param  extensions  the  file  extension  filter
+sets  the  the  names  that  describe  the  filter  extensions  which  the  dialog  will  use  filter  the  files  shows  the  argument  which  may  null  param  names  the  list  filter  names
+sets  the  directory  path  that  the  dialog  will  use  the  argument  which  may  null  file  names  this  path  will  appear  the  dialog  filtered  according  the  filter  extensions  the  string  null  then  the  operating  system  default  filter  path  will  used  note  that  the  path  string  platform  dependent  for  convenience  either  can  used  path  separator  param  string  the  directory  path  see set filter extensions
+</comments>
+</text>
+</DOC>

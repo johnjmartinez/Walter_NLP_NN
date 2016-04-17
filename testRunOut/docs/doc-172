@@ -1,0 +1,58 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.ole.win32.IViewObject2.java </DOCNO>
+<text>
+<class>
+view object
+</class>
+<method>
+view object
+get extent
+set advise
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ internal
+ win
+view object
+ unknown
+view object
+ address
+ address
+get extent
+ aspect
+ lindex
+ dvtargetdevice
+ ptd
+ size
+ lpsizel
+ com
+vtbl call
+ address
+ aspect
+ lindex
+ ptd
+ lpsizel
+set advise
+ aspects
+ advf
+advise sink
+ com
+vtbl call
+ address
+ aspects
+ advf
+advise sink
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

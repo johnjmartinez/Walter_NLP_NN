@@ -1,0 +1,2007 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.ToolBar.java </DOCNO>
+<text>
+<class>
+tool bar
+</class>
+<method>
+tool bar
+call window proc
+check style
+check subclass
+compute size
+compute trim
+create handle
+create item
+create widget
+default background
+destroy item
+enable widget
+get disabled image list
+get hot image list
+get image list
+get item
+get item
+get item count
+get items
+get row count
+ index
+layout items
+mnemonic hit
+mnemonic match
+release widget
+remove control
+set background pixel
+set bounds
+set default font
+set disabled image list
+set font
+set hot image list
+set image list
+set parent
+set row count
+set tab item focus
+tool tip text
+widget style
+window class
+window proc
+ capturechanged
+ char
+ command
+ getdlgcode
+ keydown
+ killfocus
+ lbuttondown
+ lbuttonup
+ notify
+ setfocus
+ size
+ windowposchanging
+command child
+notify child
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+tool bar
+ composite
+last focus
+tool item
+ items
+ignore resize
+ignore mouse
+image list
+image list
+disabled image list
+hot image list
+tool bar proc
+ tchar
+tool bar class
+ tchar
+
+ toolbarclassname
+ wndclass
+wnd class
+ wndclass
+
+get class info
+tool bar class
+wnd class
+tool bar proc
+wnd class
+lpfn wnd proc
+default width
+default height
+tool bar
+ composite
+ parent
+ style
+ parent
+check style
+ style
+ style
+ swt
+ vertical
+ style
+ swt
+ vertical
+ bits
+
+get window long
+ handle
+
+gwl style
+
+set window long
+ handle
+
+gwl style
+ bits
+
+ccs vert
+ style
+ swt
+ horizontal
+call window proc
+ hwnd
+ msg
+ param
+ param
+ handle
+ msg
+
+ syschar
+
+def window proc
+ hwnd
+ msg
+ param
+ param
+
+call window proc
+tool bar proc
+ hwnd
+ msg
+ param
+ param
+check style
+ style
+ style
+ swt
+ flat
+ style
+ swt
+ focus
+ style
+ swt
+ vertical
+ style
+ swt
+ wrap
+ style
+ swt
+ scroll
+ swt
+ scroll
+check subclass
+valid subclass
+ error
+ swt
+error invalid subclass
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+ width
+ height
+ style
+ swt
+ vertical
+ rect
+ rect
+ rect
+ tbbutton
+ button
+ tbbutton
+ count
+
+send message
+ handle
+
+ buttoncount
+
+
+ count
+
+
+send message
+ handle
+
+ getitemrect
+
+ rect
+ height
+ math
+ max
+ height
+ rect
+ bottom
+
+send message
+ handle
+
+ getbutton
+
+ button
+ button
+ style
+
+btns sep
+ tbbuttoninfo
+ info
+ tbbuttoninfo
+ info
+ size
+ tbbuttoninfo
+ sizeof
+ info
+ mask
+
+tbif size
+
+send message
+ handle
+
+ getbuttoninfo
+ button
+ command
+ info
+ width
+ math
+ max
+ width
+ info
+
+ width
+ math
+ max
+ width
+ rect
+ right
+ rect
+old rect
+ rect
+
+get window rect
+ handle
+old rect
+old width
+old rect
+ right
+old rect
+ left
+old height
+old rect
+ bottom
+old rect
+ top
+ border
+get border width
+new width
+ hint
+ swt
+ default
+ hint
+ border
+new height
+ hint
+ swt
+ default
+ hint
+ border
+ redraw
+draw count
+
+window visible
+ handle
+ignore resize
+ redraw
+
+update window
+ handle
+ flags
+
+swp noactivate
+
+swp nomove
+
+swp noredraw
+
+swp nozorder
+set window pos
+ handle
+new width
+new height
+ flags
+ count
+
+send message
+ handle
+
+ buttoncount
+ count
+ rect
+ rect
+ rect
+
+send message
+ handle
+
+ getitemrect
+ count
+ rect
+ width
+ math
+ max
+ width
+ rect
+ right
+ height
+ math
+ max
+ height
+ rect
+ bottom
+set window pos
+ handle
+old width
+old height
+ flags
+ redraw
+
+validate rect
+ handle
+ignore resize
+ width
+ width
+default width
+ height
+ height
+default height
+ hint
+ swt
+ default
+ width
+ hint
+ hint
+ swt
+ default
+ height
+ hint
+ rectangle
+ trim
+compute trim
+ width
+ height
+ width
+ trim
+ width
+ height
+ trim
+ height
+ point
+ width
+ height
+ rectangle
+compute trim
+
+
+ width
+ height
+check widget
+ rectangle
+ trim
+compute trim
+
+
+ width
+ height
+ bits
+
+get window long
+ handle
+
+gwl style
+ bits
+
+ccs nodivider
+ trim
+ height
+ trim
+create handle
+create handle
+ state
+ canvas
+ style
+ swt
+ flat
+
+comctl 32_ major
+
+app themed
+ bits
+
+get window long
+ handle
+
+gwl style
+ bits
+
+tbstyle transparent
+
+set window long
+ handle
+
+gwl style
+ bits
+ font
+
+get stock object
+
+system font
+
+send message
+ handle
+
+ setfont
+ font
+
+send message
+ handle
+
+ buttonstructsize
+ tbbutton
+ sizeof
+
+send message
+ handle
+
+ setbitmapsize
+
+send message
+ handle
+
+ setbuttonsize
+ bits
+
+tbstyle drawddarrows
+
+tbstyle mixedbuttons
+
+tbstyle hideclippedbuttons
+
+comctl 32_ major
+ bits
+
+tbstyle doublebuffer
+
+send message
+ handle
+
+ setextendedstyle
+ bits
+create item
+tool item
+ item
+ index
+ count
+
+send message
+ handle
+
+ buttoncount
+ index
+ index
+ count
+ error
+ swt
+error invalid range
+
+
+ items
+ length
+ items
+
+
+
+ items
+ length
+tool item
+new items
+tool item
+ items
+ length
+ system
+ arraycopy
+ items
+new items
+ items
+ length
+ items
+new items
+ bits
+ item
+widget style
+ tbbutton
+ button
+ tbbutton
+ button
+ command
+
+ button
+ style
+ bits
+ button
+ state
+
+tbstate enabled
+ bits
+
+btns sep
+ button
+ bitmap
+
+ imagenone
+
+send message
+ handle
+
+ insertbutton
+ index
+ button
+ error
+ swt
+error item not added
+ items
+ item
+
+
+ item
+ style
+ swt
+ vertical
+set row count
+ count
+layout items
+create widget
+create widget
+ items
+tool item
+last focus
+default background
+
+ win
+
+get sys color
+
+color btnface
+default background
+destroy item
+tool item
+ item
+ tbbuttoninfo
+ info
+ tbbuttoninfo
+ info
+ size
+ tbbuttoninfo
+ sizeof
+ info
+ mask
+
+tbif image
+
+tbif style
+ index
+
+send message
+ handle
+
+ getbuttoninfo
+ item
+
+ info
+ info
+ style
+
+btns sep
+ info
+ image
+
+ imagenone
+image list
+image list
+ put
+ info
+ image
+hot image list
+hot image list
+ put
+ info
+ image
+disabled image list
+disabled image list
+ put
+ info
+ image
+
+send message
+ handle
+
+ deletebutton
+ index
+ item
+
+last focus
+last focus
+ items
+ item
+
+ item
+
+ count
+
+send message
+ handle
+
+ buttoncount
+ count
+image list
+
+send message
+ handle
+
+ setimagelist
+ display
+release tool image list
+image list
+hot image list
+
+send message
+ handle
+
+ sethotimagelist
+ display
+release tool hot image list
+hot image list
+disabled image list
+
+send message
+ handle
+
+ setdisabledimagelist
+ display
+release tool disabled image list
+disabled image list
+image list
+hot image list
+disabled image list
+ items
+tool item
+ style
+ swt
+ vertical
+set row count
+ count
+layout items
+enable widget
+ enabled
+enable widget
+ enabled
+
+
+ items
+ length
+
+tool item
+ item
+ items
+
+ item
+ item
+ style
+ swt
+ check
+ swt
+ radio
+ item
+update images
+ enabled
+ item
+get enabled
+image list
+get disabled image list
+disabled image list
+image list
+get hot image list
+hot image list
+image list
+get image list
+image list
+tool item
+get item
+ index
+check widget
+ count
+
+send message
+ handle
+
+ buttoncount
+ index
+ index
+ count
+ error
+ swt
+error invalid range
+ tbbutton
+ button
+ tbbutton
+ result
+
+send message
+ handle
+
+ getbutton
+ index
+ button
+ result
+ error
+ swt
+error cannot get item
+ items
+ button
+ command
+tool item
+get item
+ point
+ point
+check widget
+ point
+ error
+ swt
+error null argument
+tool item
+ items
+get items
+
+
+ items
+ length
+
+ rectangle
+ rect
+ items
+
+get bounds
+ rect
+ contains
+ point
+ items
+
+get item count
+check widget
+
+send message
+ handle
+
+ buttoncount
+tool item
+get items
+check widget
+ count
+
+send message
+ handle
+
+ buttoncount
+ tbbutton
+ button
+ tbbutton
+tool item
+ result
+tool item
+ count
+
+
+ count
+
+
+send message
+ handle
+
+ getbutton
+
+ button
+ result
+
+ items
+ button
+ command
+ result
+get row count
+check widget
+ style
+ swt
+ vertical
+
+send message
+ handle
+
+ buttoncount
+
+send message
+ handle
+
+ getrows
+ index
+tool item
+ item
+check widget
+ item
+ error
+ swt
+error null argument
+ item
+ disposed
+ error
+ swt
+error invalid argument
+
+send message
+ handle
+
+ commandtoindex
+ item
+
+layout items
+ style
+ swt
+ wrap
+
+send message
+ handle
+
+ autosize
+ style
+ swt
+ vertical
+ tbbuttoninfo
+ info
+ tbbuttoninfo
+ info
+ size
+ tbbuttoninfo
+ sizeof
+ info
+ mask
+
+tbif size
+ size
+
+send message
+ handle
+
+ getbuttonsize
+ info
+
+ size
+ index
+ index
+ items
+ length
+tool item
+ item
+ items
+ index
+ item
+ item
+ style
+ swt
+drop down
+ index
+ index
+ items
+ length
+ padding
+
+send message
+ handle
+
+ getpadding
+ info
+
+ padding
+
+
+ items
+ length
+
+tool item
+ item
+ items
+
+ item
+ item
+ style
+ swt
+ separator
+
+send message
+ handle
+
+ setbuttoninfo
+ item
+
+ info
+
+
+ items
+ length
+
+tool item
+ item
+ items
+
+ item
+ item
+resize control
+mnemonic hit
+
+ key
+ display
+wcs mbcs
+
+
+
+send message
+ handle
+
+ mapaccelerator
+ key
+
+ style
+ swt
+ flat
+set tab group focus
+ index
+
+send message
+ handle
+
+ commandtoindex
+
+ index
+
+send message
+ handle
+
+ sethotitem
+ index
+ items
+
+ click
+mnemonic match
+
+ key
+ display
+wcs mbcs
+
+
+
+send message
+ handle
+
+ mapaccelerator
+ key
+
+ index
+
+send message
+ handle
+
+ commandtoindex
+
+ index
+find mnemonic
+ items
+
+ text
+release widget
+
+
+ items
+ length
+
+tool item
+ item
+ items
+
+ item
+ item
+ disposed
+ item
+release images
+ item
+release resources
+ items
+image list
+
+send message
+ handle
+
+ setimagelist
+ display
+release tool image list
+image list
+hot image list
+
+send message
+ handle
+
+ sethotimagelist
+ display
+release tool hot image list
+hot image list
+disabled image list
+
+send message
+ handle
+
+ setdisabledimagelist
+ display
+release tool disabled image list
+disabled image list
+image list
+hot image list
+disabled image list
+release widget
+remove control
+ control
+ control
+remove control
+ control
+
+
+ items
+ length
+
+tool item
+ item
+ items
+
+ item
+ item
+ control
+ control
+ item
+set control
+set background pixel
+ pixel
+set background pixel
+ pixel
+ style
+ swt
+ flat
+
+comctl 32_ major
+
+app themed
+ bits
+
+get window long
+ handle
+
+gwl style
+ pixel
+ bits
+
+tbstyle transparent
+ bits
+
+tbstyle transparent
+
+set window long
+ handle
+
+gwl style
+ bits
+set bounds
+
+
+ width
+ height
+ flags
+ parent
+ lpwp
+draw count
+
+window visible
+ handle
+ parent
+set resize children
+ parent
+set resize children
+set bounds
+
+
+ width
+ height
+ flags
+set default font
+set default font
+
+send message
+ handle
+
+ setbitmapsize
+
+send message
+ handle
+
+ setbuttonsize
+set disabled image list
+image list
+image list
+disabled image list
+image list
+image list
+disabled image list
+image list
+image list
+disabled image list
+get handle
+
+send message
+ handle
+
+ setdisabledimagelist
+image list
+set font
+ font
+ font
+check widget
+set font
+ font
+ index
+ mask
+ swt
+ push
+ swt
+ check
+ swt
+ radio
+ swt
+drop down
+ index
+ items
+ length
+tool item
+ item
+ items
+ index
+ item
+ item
+ style
+ mask
+ index
+ index
+ items
+ length
+
+send message
+ handle
+
+ setbitmapsize
+
+send message
+ handle
+
+ setbuttonsize
+layout items
+set hot image list
+image list
+image list
+hot image list
+image list
+image list
+hot image list
+image list
+image list
+hot image list
+get handle
+
+send message
+ handle
+
+ sethotimagelist
+image list
+set image list
+image list
+image list
+image list
+image list
+image list
+image list
+image list
+image list
+image list
+get handle
+
+send message
+ handle
+
+ setimagelist
+image list
+set parent
+ composite
+ parent
+check widget
+set parent
+ parent
+
+send message
+ handle
+
+ setparent
+ parent
+ handle
+set row count
+ count
+ style
+ swt
+ vertical
+ rect
+ rect
+ rect
+
+get window rect
+ handle
+ rect
+
+map window points
+ parent
+ handle
+ rect
+ignore resize
+ count
+
+send message
+ handle
+
+ setrows
+ count
+ flags
+
+swp noactivate
+
+swp nomove
+
+swp nozorder
+set window pos
+ handle
+ rect
+ right
+ rect
+ left
+ rect
+ bottom
+ rect
+ top
+ flags
+ignore resize
+set tab item focus
+ index
+ index
+ items
+ length
+tool item
+ item
+ items
+ index
+ item
+ item
+ style
+ swt
+ separator
+ item
+get enabled
+ index
+ index
+ items
+ length
+set tab item focus
+ string
+tool tip text
+ nmttdispinfo
+ hdr
+ hdr
+ flags
+
+ttf idishwnd
+has cursor
+ index
+ hdr
+ from
+hwnd tool tip
+
+send message
+ handle
+
+ gettooltips
+hwnd tool tip
+ hdr
+hwnd from
+tool tip text
+ index
+ index
+ items
+ length
+tool item
+ item
+ items
+ index
+ item
+ item
+tool tip text
+tool tip text
+ hdr
+widget style
+ bits
+widget style
+
+ccs noresize
+
+tbstyle tooltips
+
+tbstyle customerase
+ style
+ swt
+shadow out
+ bits
+
+ccs nodivider
+ style
+ swt
+ wrap
+ bits
+
+tbstyle wrapable
+ style
+ swt
+ flat
+ bits
+
+tbstyle flat
+ style
+ swt
+ right
+ bits
+
+tbstyle list
+ bits
+ tchar
+window class
+tool bar class
+window proc
+tool bar proc
+ lresult
+ capturechanged
+ param
+ param
+ lresult
+ result
+ capturechanged
+ param
+ param
+ result
+ result
+
+get key state
+
+ lbutton
+
+
+ items
+ length
+
+tool item
+ item
+ items
+
+ item
+ state
+
+send message
+ handle
+
+ getstate
+ item
+
+ state
+
+tbstate pressed
+ state
+
+tbstate pressed
+
+send message
+ handle
+
+ setstate
+ item
+
+ state
+ lresult
+ char
+ param
+ param
+ lresult
+ result
+ char
+ param
+ param
+ result
+ result
+ param
+ index
+
+send message
+ handle
+
+ gethotitem
+ index
+ tbbutton
+ button
+ tbbutton
+ code
+
+send message
+ handle
+
+ getbutton
+ index
+ button
+ code
+ items
+ button
+ command
+ click
+ lresult
+ zero
+ result
+ lresult
+ command
+ param
+ param
+ lresult
+ result
+ command
+ param
+ param
+ result
+ result
+ lresult
+ zero
+ lresult
+ getdlgcode
+ param
+ param
+ lresult
+ result
+ getdlgcode
+ param
+ param
+ result
+ result
+ lresult
+
+dlgc button
+ lresult
+ keydown
+ param
+ param
+ lresult
+ result
+ keydown
+ param
+ param
+ result
+ result
+ param
+
+ space
+ lresult
+ zero
+ result
+ lresult
+ killfocus
+ param
+ param
+ index
+
+send message
+ handle
+
+ gethotitem
+ tbbutton
+ button
+ tbbutton
+ code
+
+send message
+ handle
+
+ getbutton
+ index
+ button
+ code
+last focus
+ button
+ command
+ killfocus
+ param
+ param
+ lresult
+ lbuttondown
+ param
+ param
+ignore mouse
+ lbuttondown
+ param
+ param
+ lresult
+ lbuttonup
+ param
+ param
+ignore mouse
+ lbuttonup
+ param
+ param
+ lresult
+ notify
+ param
+ param
+ lresult
+ result
+ notify
+ param
+ param
+ result
+ result
+ lresult
+ zero
+ lresult
+ setfocus
+ param
+ param
+ lresult
+ result
+ setfocus
+ param
+ param
+last focus
+ handle
+
+get focus
+ index
+
+send message
+ handle
+
+ commandtoindex
+last focus
+
+send message
+ handle
+
+ sethotitem
+ index
+ result
+ lresult
+ size
+ param
+ param
+ignore resize
+ code
+call window proc
+ handle
+
+ size
+ param
+ param
+ code
+ lresult
+ zero
+ lresult
+ code
+ lresult
+ result
+ size
+ param
+ param
+ disposed
+ result
+ style
+ swt
+ border
+ style
+ swt
+ wrap
+ rect
+window rect
+ rect
+
+get window rect
+ handle
+window rect
+ index
+ border
+get border width
+ rect
+ rect
+ rect
+ count
+
+send message
+ handle
+
+ buttoncount
+ index
+ count
+
+send message
+ handle
+
+ getitemrect
+ index
+ rect
+
+map window points
+ handle
+ rect
+ rect
+ right
+window rect
+ right
+ border
+ index
+ bits
+
+send message
+ handle
+
+ getextendedstyle
+ index
+ count
+ bits
+
+tbstyle hideclippedbuttons
+ bits
+
+tbstyle hideclippedbuttons
+
+send message
+ handle
+
+ setextendedstyle
+ bits
+layout items
+ result
+ lresult
+ windowposchanging
+ param
+ param
+ lresult
+ result
+ windowposchanging
+ param
+ param
+ result
+ result
+ignore resize
+ result
+draw count
+ result
+ style
+ swt
+ wrap
+ result
+
+window visible
+ handle
+ result
+
+send message
+ handle
+
+ getrows
+ result
+ windowpos
+ lpwp
+ windowpos
+
+move memory
+ lpwp
+ param
+ windowpos
+ sizeof
+ lpwp
+ flags
+
+swp nosize
+
+swp noredraw
+ result
+ rect
+old rect
+ rect
+
+get client rect
+ handle
+old rect
+ rect
+new rect
+ rect
+
+set rect
+new rect
+ lpwp
+
+ lpwp
+
+
+send message
+ handle
+
+ nccalcsize
+new rect
+old width
+old rect
+ right
+old rect
+ left
+new width
+new rect
+ right
+new rect
+ left
+new width
+old width
+ rect
+ rect
+ rect
+new height
+new rect
+ bottom
+new rect
+ top
+
+set rect
+ rect
+old width
+old width
+new height
+
+invalidate rect
+ handle
+ rect
+ result
+ lresult
+command child
+ param
+ param
+tool item
+ child
+ items
+ param
+ child
+ child
+command child
+ param
+ param
+ lresult
+notify child
+ param
+ param
+ nmhdr
+ hdr
+ nmhdr
+
+move memory
+ hdr
+ param
+ nmhdr
+ sizeof
+ hdr
+ code
+
+tbn dropdown
+ nmtoolbar
+ lpnmtb
+ nmtoolbar
+
+move memory
+ lpnmtb
+ param
+ nmtoolbar
+ sizeof
+tool item
+ child
+ items
+ lpnmtb
+ item
+ child
+ event
+ event
+ event
+ event
+ detail
+ swt
+ arrow
+ index
+
+send message
+ handle
+
+ commandtoindex
+ lpnmtb
+ item
+ rect
+ rect
+ rect
+
+send message
+ handle
+
+ getitemrect
+ index
+ rect
+ event
+
+ rect
+ left
+ event
+
+ rect
+ bottom
+ child
+post event
+ swt
+ selection
+ event
+
+ customdraw
+find theme control
+ background
+ nmcustomdraw
+ nmcd
+ nmcustomdraw
+
+move memory
+ nmcd
+ param
+ nmcustomdraw
+ sizeof
+ nmcd
+draw stage
+
+cdds preerase
+ lresult
+
+cdrf notifyposterase
+
+cdds posterase
+draw background
+ nmcd
+ hdc
+
+tbn hotitemchange
+
+ win
+ nmtbhotitem
+ lpnmhi
+ nmtbhotitem
+
+move memory
+ lpnmhi
+ param
+ nmtbhotitem
+ sizeof
+ lpnmhi
+ flags
+
+hicf arrowkeys
+ rect
+ client
+ rect
+
+get client rect
+ handle
+ client
+ index
+
+send message
+ handle
+
+ commandtoindex
+ lpnmhi
+ new
+ rect
+ rect
+ rect
+
+send message
+ handle
+
+ getitemrect
+ index
+ rect
+ rect
+ right
+ client
+ right
+ rect
+ bottom
+ client
+ bottom
+ lresult
+ one
+notify child
+ param
+ param
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  support  the  layout  selectable  tool  bar  items  the  item  children  that  may  added  instances  this  class  must  type  code tool item  code  note  that  although  this  class  subclass  code  composite  code  does  not  make  sense  add  code  control  code  children  set  layout  styles  flat  wrap  right  horizontal  vertical  shadow  out  events  none  note  only  one  the  styles  horizontal  and  vertical  may  specified  important  this  class  not  intended  subclassed 
+from  the  windows  sdk  for  setbuttonsize  application  does  not  explicitly  set  the  button  size  the  size  defaults  pixels
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  flat  see  swt  wrap  see  swt  right  see  swt  horizontal  see  swt  shadow  out  see  swt  vertical  see  widget check subclass  see  widget get style
+ensure  that  either  horizontal  vertical  set  note  horizontal  and  vertical  have  the  same  values  scroll  and  scroll  necessary  first  clear  these  bits  avoid  scroll  bars  and  then  reset  the  bits  using  the  original  style  supplied  the  programmer  note  the  ccs  vert  style  cannot  applied  when  the  widget  created  because  this  conflict
+bug  windows  for  some  reason  during  the  processing  syschar  the  tool  bar  window  proc  does  not  call  the  default  window  proc  causing  mnemonics  for  the  menu  bar  ignored  the  fix  always  call  the  default  window  proc  for  syschar
+windows  only  flat  tool  bars  can  traversed
+vertical  tool  bar  cannot  wrap  because  setrows  fails  when  the  toobar  has  tbstyle  wrapable
+even  though  legal  create  this  widget  with  scroll  bars  they  serve  useful  purpose  because  they  not  automatically  scroll  the  widget  client  area  the  fix  clear  the  swt  style
+from  the  windows  sdk  for  setbuttonsize  application  does  not  explicitly  set  the  button  size  the  size  defaults  pixels
+feature  windows  when  tbstyle  flat  used  create  flat  toolbar  for  some  reason  tbstyle  transparent  also  set  this  causes  the  toolbar  flicker  when  moved  resized  the  fix  clear  tbstyle  transparent  note  this  work  around  unnecessary  there  flickering  and  clearing  the  tbstyle  transparent  interferes  with  the  theme
+feature  windows  despite  the  fact  that  the  tool  tip  text  contains  the  tooltip  will  not  honour  the  new  line  unless  ttm  setmaxtipwidth  set  the  fix  set  ttm  setmaxtipwidth  large  value
+these  lines  are  intentionally  commented  the  tool  bar  currently  sets  this  value  300  not  necessary  set  ttm  setmaxtipwidth
+int hwnd tool tip send message  handle  gettooltips 
+send message hwnd tool tip  ttm  setmaxtipwidth  fff
+feature  windows  when  the  control  created  does  not  use  the  default  system  font  new  hfont  created  and  destroyed  when  the  control  destroyed  this  means  that  program  that  queries  the  font  from  this  control  uses  the  font  another  control  and  then  destroys  this  control  will  have  the  font  unexpectedly  destroyed  the  other  control  the  fix  assign  the  font  ourselves  each  time  the  control  created  the  control  will  not  destroy  font  that  did  not  create
+set  the  button  struct  bitmap  and  button  sizes
+set  the  extended  style  bits
+bug  windows  despite  the  fact  that  the  image  list  index  has  never  been  set  for  the  item  windows  always  assumes  that  the  image  index  for  the  item  valid  when  item  inserted  the  image  index  zero  therefore  when  the  first  image  inserted  and  assigned  image  index  zero  every  item  draws  with  this  image  the  fix  set  the  image  index  none  when  the  item  created  this  not  necessary  the  case  when  the  item  has  the  btns  sep  style  because  separators  cannot  show  images
+feature  windows  for  some  reason  tool  item  that  has  the  style  btns  sep  does  not  return  imagenone  when  queried  for  image  index  despite  the  fact  that  attempt  has  been  made  assign  image  the  item  result  operations  image  list  that  use  the  wrong  index  cause  random  results  the  fix  ensure  that  the  tool  item  not  separator  before  using  the  image  index  since  separators  cannot  have  image  and  one  never  assigned  this  not  problem
+bug  windows  when  tool  item  with  the  style  btns  check  btns  checkgroup  selected  and  then  disabled  the  item  does  not  draw  using  the  disabled  image  the  fix  use  the  disabled  image  all  image  lists
+returns  the  item  the  given  zero  relative  index  the  receiver  throws  exception  the  index  out  range  param  index  the  index  the  item  return  return  the  item  the  given  index  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  item  the  given  point  the  receiver  null  such  item  exists  the  point  the  coordinate  system  the  receiver  param  point  the  point  used  locate  the  item  return  the  item  the  given  point  exception illegal argument exception  error  null  argument  the  point  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  number  items  contained  the  receiver  return  the  number  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  array  code tool item  code  which  are  the  items  the  receiver  note  this  not  the  actual  structure  used  the  receiver  maintain  its  list  items  modifying  the  array  will  not  affect  the  receiver  return  the  items  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  number  rows  the  receiver  when  the  receiver  has  the  code  wrap  code  style  the  number  rows  can  greater  than  one  otherwise  the  number  rows  always  one  return  the  number  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+searches  the  receiver  list  starting  the  first  item  index  until  item  found  that  equal  the  argument  and  returns  the  index  that  item  item  found  returns  param  item  the  search  item  return  the  index  the  item  exception illegal argument exception  error  null  argument  the  tool  item  null  error  invalid  argument  the  tool  item  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+when  the  tool  bar  vertical  make  the  width  each  button  the  width  the  widest  button  the  tool  bar  note  that  when  the  tool  bar  contains  drop  down  item  needs  take  into  account  extra  padding
+feature  windows  mapaccelerator  matches  either  the  mnemonic  character  the  first  character  tool  item  this  behavior  undocumented  and  unwanted  the  fix  ensure  that  the  tool  item  contains  mnemonic  when  mapaccelerator  returns  true
+feature  windows  when  tbstyle  transparent  set  tool  bar  that  drawing  background  image  the  image  list  that  include  transparency  information  not  draw  correctly  the  fix  clear  and  set  tbstyle  transparent  depending  the  background  color  note  this  work  around  unnecessary  the  tbstyle  transparent  style  never  cleared  that  platform
+feature  windows  for  some  reason  when  tool  bar  repositioned  more  than  once  using defer window pos  into  the  same  hdwp  the  toolbar  redraws  more  than  once  defeating  the  puropse defer window pos  the  fix  end  the  defered  positioning  before  the  next  tool  bar  added  ensuring  that  only  one  tool  bar  position  deferred  any  given  time
+bug  windows  when  setfont  sent  tool  bar  that  contains  only  separators  causes  the  bitmap  and  button  sizes  set  the  fix  reset  these  sizes  after  the  font  has  been  changed  when  the  tool  bar  contains  only  separators
+feature  windows  when  the  setrows  used  set  the  number  rows  tool  bar  the  tool  bar  resized  show  the  items  this  unexpected  the  fix  save  and  restore  the  current  size  the  tool  bar
+feature  windows  when  the  last  button  tool  bar  has  the  style  btns  sep  and  setrows  used  set  the  number  rows  the  tool  bar  depending  the  number  buttons  the  toolbar  will  wrap  items  with  the  style  btns  check  even  when  the  larger  flags  used  force  the  number  rows  larger  than  the  number  items  the  fix  set  the  number  rows  two  larger  than  the  actual  number  rows  the  tool  bar  when  items  are  being  added  long  the  number  rows  least  one  item  larger  than  the  count  the  tool  bar  laid  out  properly  when  items  are  being  removed  setting  the  number  rows  one  more  than  the  item  count  has  effect  the  number  rows  already  one  more  causing  setrows  nothing  therefore  choosing  two  instead  one  the  row  increment  fixes  both  cases
+bug  windows  windows  when  sethotitem  used  set  the  hot  item  the  tool  bar  control  attempts  display  the  tool  tip  even  when  the  cursor  not  the  hot  item  the  fix  detect  this  case  and  fail  provide  the  string  causing  tool  tip  displayed
+non  nls 
+non  nls 
+bug  windows  when  the  tool  bar  loses  capture  while  item  pressed  lbuttondown  the  item  remains  pressed  the  fix  unpress  the  item  using  setstate
+feature  windows  when  the  toolbar  window  proc  processes  command  forwards  this  message  its  parent  this  done  that  children  this  control  that  send  this  message  type  their  parent  will  notify  not  only  this  control  but  also  the  parent  this  control  which  typically  the  application  window  and  the  window  that  looking  for  the  message  the  control  did  not  forward  the  message  applications  would  have  subclass  the  control  window  see  the  message  because  the  control  window  subclassed  swt  the  message  delivered  twice  once  swt  and  once  when  the  message  forwarded  the  window  proc  the  fix  avoid  calling  the  window  proc  for  this  control
+return  dlgc  button  that  mnemonics  will  processed  without  needing  press  the  alt  key  when  the  widget  has  focus
+ensure  that  the  window  proc  does  not  process  space  that  can  handled  char  this  allows  the  application  the  opportunity  cancel  the  operation
+feature  windows  when  the  toolbar  window  proc  processes  notify  forwards  this  message  its  parent  this  done  that  children  this  control  that  send  this  message  type  their  parent  will  notify  not  only  this  control  but  also  the  parent  this  control  which  typically  the  application  window  and  the  window  that  looking  for  the  message  the  control  did  not  forward  the  message  applications  would  have  subclass  the  control  window  see  the  message  because  the  control  window  subclassed  swt  the  message  delivered  twice  once  swt  and  once  when  the  message  forwarded  the  window  proc  the  fix  avoid  calling  the  window  proc  for  this  control
+bug  windows  the  code  windows  that  determines  when  tool  items  should  wrap  seems  use  the  window  bounds  rather  than  the  client  area  unfortunately  tool  bars  with  the  style  tbstyle  hideclippedbuttons  use  the  client  area  this  means  that  buttons  which  overlap  the  border  are  hidden  before  they  are  wrapped  the  fix  compute  tbstyle  hideclippedbuttons  and  set  each  time  the  tool  bar  resized
+bug  windows  when  flat  tool  bar  wrapped  windows  draws  horizontal  separator  between  the  rows  the  tool  bar  does  not  draw  the  first  the  last  two  pixels  this  separator  when  the  toolbar  resized  bigger  only  the  new  area  drawn  and  the  last  two  pixels  which  are  blank  are  drawn  over  separator  this  leaves  garbage  the  screen  the  fix  damage  the  pixels
+</comments>
+</text>
+</DOC>

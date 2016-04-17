@@ -1,0 +1,75 @@
+<DOC>
+<DOCNO>org.eclipse.swt.dnd.DragSourceEvent.java </DOCNO>
+<text>
+<class>
+drag source event
+</class>
+<method>
+drag source event
+update event
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ dnd
+ org
+ eclipse
+ swt
+ events
+typed event
+drag source event
+typed event
+ detail
+ doit
+transfer data
+data type
+serial version uid
+drag source event
+dnd event
+
+
+ data
+
+ data
+ detail
+
+ detail
+ doit
+
+ doit
+data type
+
+data type
+update event
+dnd event
+
+
+ widget
+ widget
+
+ time
+ time
+
+ data
+ data
+
+ detail
+ detail
+
+ doit
+ doit
+
+data type
+data type
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+the drag source event  contains  the  event  information  passed  the  methods  the drag source listener  see drag source listener
+the  operation  that  was  performed  see  dnd  drop  none  see  dnd  drop  move  see  dnd  drop  copy  see  dnd  drop  link  see  dnd  drop  target  move
+drag start  the  doit  field  determines  the  drag  and  drop  operation  should  proceed drag finished  the  doit  field  indicates  whether  the  operation  was  performed  successfully drag start  flag  determine  the  drag  and  drop  operation  should  proceed  the  application  can  set  this  value  false  prevent  the  drag  from  starting  set  true  default drag finished  flag  indicate  the  operation  was  performed  successfully  true  the  operation  was  performed  successfully 
+the  type  data  requested  data  provided  the  data  field  must  the  same  type
+constructs  new  instance  this  class  based  the  information  the  given  untyped  event  param  the  untyped  event  containing  the  information
+</comments>
+</text>
+</DOC>

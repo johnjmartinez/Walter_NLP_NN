@@ -1,0 +1,34 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.ole.win32.IFont.java </DOCNO>
+<text>
+<class>
+ font
+</class>
+<method>
+ font
+get font
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ font
+ unknown
+ font
+ address
+ address
+get font
+ phfont
+ com
+vtbl call
+ address
+ phfont
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

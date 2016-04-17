@@ -1,0 +1,41 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.win32.TEXTMETRIC.java </DOCNO>
+<text>
+<class>
+ textmetric
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ win
+ textmetric
+ height
+ ascent
+ descent
+internal leading
+external leading
+ave char width
+max char width
+ weight
+ overhang
+digitized aspect
+digitized aspect
+ italic
+ underlined
+struck out
+pitch and family
+char set
+ sizeof
+
+ unicode
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

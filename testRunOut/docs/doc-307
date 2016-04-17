@@ -1,0 +1,37 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.TreeListener.java </DOCNO>
+<text>
+<class>
+tree listener
+</class>
+<method>
+tree collapsed
+tree expanded
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+tree listener
+swt event listener
+tree collapsed
+tree event
+
+tree expanded
+tree event
+
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+classes  which  implement  this  interface  provide  methods  that  deal  with  the  expanding  and  collapsing  tree  branches  after  creating  instance  class  that  implements  this  interface  can  added  tree  control  using  the  code add tree listener  code  method  and  removed  using  the  code remove tree listener  code  method  when  branch  the  tree  expanded  collapsed  the  appropriate  method  will  invoked  see tree adapter  see tree event
+sent  when  tree  branch  collapsed  param  event  containing  information  about  the  tree  operation
+sent  when  tree  branch  expanded  param  event  containing  information  about  the  tree  operation
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,727 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.LZWCodec.java </DOCNO>
+<text>
+<class>
+lzw codec
+</class>
+<method>
+ decode
+ decode
+ encode
+ encode
+encode loop
+initialize for decoding
+initialize for encoding
+next code
+next pixel
+next pixels
+next put code
+next put pixels
+copy row
+read block
+write block
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+lzw codec
+bits per pixel
+block size
+block index
+current byte
+bits left
+code size
+clear code
+end code
+new codes
+top slot
+current slot
+image width
+image height
+ image
+ image
+ pass
+ line
+code mask
+ block
+line array
+ stack
+ suffix
+ prefix
+lzw node
+node stack
+data input stream
+input stream
+data output stream
+output stream
+image data
+ image
+image loader
+ loader
+ interlaced
+mask table
+ decode
+ code
+
+
+ buf
+image width
+stack index
+buf index
+
+
+next code
+end code
+
+clear code
+code size
+bits per pixel
+code mask
+mask table
+bits per pixel
+current slot
+new codes
+top slot
+code size
+
+next code
+clear code
+
+end code
+
+
+
+ buf
+buf index
+
+buf index
+buf index
+image width
+next put pixels
+ buf
+buf index
+ code
+
+ code
+current slot
+ code
+current slot
+ swt
+ error
+ swt
+error invalid image
+ code
+
+ stack
+stack index
+
+stack index
+ code
+new codes
+ stack
+stack index
+ suffix
+ code
+stack index
+ code
+ prefix
+ code
+ stack
+stack index
+ code
+stack index
+current slot
+top slot
+
+ code
+ suffix
+current slot
+
+ prefix
+current slot
+
+current slot
+
+
+current slot
+top slot
+code size
+code mask
+mask table
+code size
+code size
+top slot
+top slot
+top slot
+stack index
+stack index
+ buf
+buf index
+ stack
+stack index
+buf index
+buf index
+image width
+next put pixels
+ buf
+buf index
+buf index
+ line
+image height
+next put pixels
+ buf
+ decode
+data input stream
+input stream
+image loader
+ loader
+image data
+ image
+ interlaced
+ depth
+input stream
+input stream
+ loader
+ loader
+ image
+ image
+ interlaced
+ interlaced
+bits per pixel
+ depth
+initialize for decoding
+ decode
+ encode
+next put code
+clear code
+last prefix
+encode loop
+next put code
+last prefix
+next put code
+end code
+bits left
+ block
+block index
+ block
+block index
+write block
+ block
+ block
+write block
+ encode
+data output stream
+byte stream
+image data
+ image
+output stream
+byte stream
+ image
+ image
+initialize for encoding
+ encode
+encode loop
+ pixel
+next pixel
+ found
+lzw node
+ node
+current prefix
+ pixel
+ node
+node stack
+current prefix
+ found
+ pixel
+next pixel
+ pixel
+current prefix
+ found
+ node
+ children
+ node
+ node
+ children
+ found
+ node
+ suffix
+ pixel
+ pixel
+ node
+ suffix
+ node
+ left
+ node
+ left
+lzw node
+ found
+ node
+ node
+ left
+ node
+ right
+ node
+ right
+lzw node
+ found
+ node
+ node
+ right
+ found
+current prefix
+ node
+ code
+ pixel
+next pixel
+ pixel
+current prefix
+ found
+ node
+ children
+lzw node
+ node
+ node
+ children
+ node
+ children
+ node
+ left
+ node
+ right
+ node
+ code
+current slot
+ node
+ prefix
+current prefix
+ node
+ suffix
+ pixel
+next put code
+current prefix
+current slot
+current slot
+current slot
+top slot
+code size
+code mask
+mask table
+code size
+top slot
+next put code
+clear code
+
+
+node stack
+ length
+
+node stack
+
+ children
+code size
+bits per pixel
+code mask
+mask table
+code size
+current slot
+new codes
+top slot
+code size
+initialize for decoding
+ pass
+ line
+code size
+bits per pixel
+top slot
+code size
+clear code
+bits per pixel
+end code
+clear code
+new codes
+current slot
+end code
+current byte
+block size
+bits left
+block index
+code mask
+mask table
+code size
+ stack
+ suffix
+ prefix
+ block
+image width
+ image
+ width
+image height
+ image
+ height
+initialize for encoding
+ interlaced
+bits per pixel
+ image
+ depth
+code size
+bits per pixel
+top slot
+code size
+clear code
+bits per pixel
+end code
+clear code
+new codes
+current slot
+end code
+bits left
+current byte
+block index
+block size
+ block
+block size
+ block
+block size
+node stack
+lzw node
+bits per pixel
+
+
+node stack
+ length
+
+lzw node
+ node
+lzw node
+ node
+ code
+
+ node
+ prefix
+ node
+ suffix
+
+node stack
+
+ node
+image width
+ image
+ width
+image height
+ image
+ height
+ image
+line array
+image width
+ image
+image width
+next code
+ code
+bits left
+block index
+block size
+block size
+read block
+block index
+block size
+end code
+block index
+current byte
+ block
+block index
+bits left
+ code
+current byte
+ shift
+bits left
+ shift
+ code
+current byte
+ shift
+ code
+current byte
+ shift
+code size
+bits left
+block index
+block size
+block size
+read block
+block index
+block size
+end code
+block index
+current byte
+ block
+block index
+ code
+current byte
+bits left
+bits left
+bits left
+code size
+ code
+code mask
+next pixel
+ image
+ image
+image width
+ image
+ image
+image height
+next pixels
+line array
+image width
+ image
+line array
+ image
+next pixels
+ buf
+line width
+ image
+ depth
+ system
+ arraycopy
+ image
+ data
+ image
+ image
+bytes per line
+ buf
+line width
+ image
+get pixels
+ image
+line width
+ buf
+next put code
+ code
+ code
+ code
+code bits
+code size
+
+ code
+mask table
+bits left
+current byte
+current byte
+
+bits left
+ block
+block index
+current byte
+code bits
+bits left
+code bits
+bits left
+code size
+bits left
+bits left
+block index
+block index
+block size
+write block
+block index
+current byte
+ code
+ code
+bits left
+block index
+block index
+block size
+write block
+block index
+code bits
+current byte
+ code
+ block
+block index
+current byte
+ code
+ code
+code bits
+block index
+block index
+block size
+write block
+block index
+bits left
+code bits
+current byte
+ code
+ block
+block index
+current byte
+next put pixels
+ buf
+ image
+ depth
+ start
+ line
+ image
+bytes per line
+
+
+image width
+
+ image
+ data
+ start
+
+ buf
+
+ image
+set pixels
+ line
+image width
+ buf
+ interlaced
+ pass
+copy row
+ buf
+ line
+ pass
+copy row
+ buf
+ line
+ pass
+copy row
+ buf
+ line
+ pass
+ line
+ pass
+ line
+ line
+image height
+ pass
+ pass
+ line
+ pass
+ line
+ pass
+ line
+ pass
+ line
+ pass
+ loader
+has listeners
+image data
+image copy
+image data
+ image
+ clone
+ loader
+notify listeners
+image loader event
+ loader
+image copy
+ pass
+ line
+image height
+ line
+ line
+copy row
+ buf
+ copies
+
+
+ copies
+
+ line
+
+image height
+ image
+set pixels
+ line
+
+image width
+ buf
+read block
+ size
+ size
+input stream
+ read
+ size
+ swt
+ error
+ swt
+error invalid image
+ block
+ size
+ size
+input stream
+ read
+ block
+ size
+ size
+ swt
+ error
+ swt
+error invalid image
+ exception
+
+ swt
+ error
+ swt
+ error
+
+ size
+write block
+output stream
+ write
+ block
+ block
+ exception
+
+ swt
+ error
+ swt
+ error
+
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+decode  the  input
+decode  the  lzw  encoded  bytes  the  given  byte  stream  into  the  given device independent image
+encode  the  image
+write  out  last  partial  block
+nothing  last  byte
+last  byte  has  data
+write  out  empty  block  indicate  the  end  needed
+encode  the  bytes  into  the  given  byte  stream  from  the  given device independent image
+encoding  loop  broken  out  allow  early  return
+off  one
+initialize  the  receiver  for  decoding  the  given  byte  array
+initialize  the  receiver  for  encoding  the  given  byte  array
+force  read
+answer  the  next  code  from  the  input  byte  array
+answer  the  next  pixel  encode  the  image
+copy  row  pixel  values  from  the  image
+output  code  the  output  stream
+fill  the  remainder  the  current  byte  with  the
+high  order  bits  the  code
+the  whole  code  fit  the  first  byte  are  done
+used  the  whole  last  byte  get  ready
+for  the  next  one
+fill  any  remaining  whole  bytes  not  the  last  one
+fill  the  low  order  bits  the  last  byte  with  the  remainder
+copy  row  pixel  values  the  image
+slight  optimization  for  depth 
+copy  duplicate  rows  pixel  values  the  image  this  fill  rows  the  image  interlaced
+read  block  from  the  byte  stream  return  the  number  bytes  read  throw  exception  the  block  could  not  read
+write  block  the  byte  stream  throw  exception  the  block  could  not  written
+</comments>
+</text>
+</DOC>

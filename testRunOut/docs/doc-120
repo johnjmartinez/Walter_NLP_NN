@@ -1,0 +1,362 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.JPEGFrameHeader.java </DOCNO>
+<text>
+<class>
+jpeg frame header
+</class>
+<method>
+jpeg frame header
+jpeg frame header
+get sample precision
+get number lines
+get samples per line
+get number image components
+set sample precision
+set number lines
+set samples per line
+set number image components
+get max factor
+get max factor
+set max factor
+set max factor
+initialize component parameters
+initialize contents
+round multiple
+ verify
+ progressive
+arithmetic coding
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+ org
+ eclipse
+ swt
+jpeg frame header
+jpeg variable size segment
+max factor
+max factor
+component identifiers
+component parameters
+jpeg frame header
+ reference
+ reference
+jpeg frame header
+data input stream
+byte stream
+byte stream
+initialize component parameters
+get sample precision
+ reference
+get number lines
+ reference
+ reference
+get samples per line
+ reference
+ reference
+get number image components
+ reference
+set sample precision
+ precision
+ reference
+ precision
+set number lines
+ integer
+ reference
+ integer
+ reference
+ integer
+set samples per line
+ samples
+ reference
+ samples
+ reference
+ samples
+set number image components
+ integer
+ reference
+ integer
+get max factor
+max factor
+get max factor
+max factor
+set max factor
+ integer
+max factor
+ integer
+set max factor
+ integer
+max factor
+ integer
+initialize component parameters
+
+get number image components
+component identifiers
+
+comp spec params
+ hmax
+ vmax
+
+
+
+
+ ofs
+
+
+ reference
+ ofs
+component identifiers
+
+
+
+ reference
+ ofs
+
+ reference
+ ofs
+ tqi
+ reference
+ ofs
+
+ hmax
+ hmax
+
+
+ vmax
+ vmax
+
+comp param
+comp param
+ tqi
+comp param
+
+comp param
+
+comp spec params
+ length
+
+new params
+
+ system
+ arraycopy
+comp spec params
+new params
+comp spec params
+ length
+comp spec params
+new params
+comp spec params
+
+comp param
+
+get samples per line
+
+get number lines
+ multiples
+
+
+
+
+comp param
+comp spec params
+component identifiers
+
+
+comp param
+
+comp param
+comp width
+
+
+ hmax
+ hmax
+comp height
+
+
+ vmax
+ vmax
+ width
+round multiple
+comp width
+ multiples
+
+ height
+round multiple
+comp height
+ multiples
+
+comp param
+ width
+comp param
+ height
+set max factor
+ hmax
+set max factor
+ vmax
+component parameters
+comp spec params
+initialize contents
+
+get number image components
+
+
+component parameters
+ length
+ swt
+ error
+ swt
+error invalid image
+ hmax
+ vmax
+comp spec params
+component parameters
+
+
+
+
+ ofs
+
+comp param
+comp spec params
+component identifiers
+
+
+comp param
+
+comp param
+
+
+ swt
+ error
+ swt
+error invalid image
+ reference
+ ofs
+
+ reference
+ ofs
+
+
+ reference
+ ofs
+comp param
+
+ hmax
+ hmax
+
+
+ vmax
+ vmax
+
+
+get samples per line
+
+get number lines
+ multiples
+
+
+
+
+comp param
+comp spec params
+component identifiers
+
+
+comp param
+
+comp param
+comp width
+
+
+ hmax
+ hmax
+comp height
+
+
+ vmax
+ vmax
+ width
+round multiple
+comp width
+ multiples
+
+ height
+round multiple
+comp height
+ multiples
+
+comp param
+ width
+comp param
+ height
+set max factor
+ hmax
+set max factor
+ vmax
+round multiple
+ integer
+ integer
+
+ integer
+ integer
+
+
+ integer
+ verify
+ marker
+get segment marker
+ marker
+jpeg file format
+ sof
+ marker
+jpeg file format
+ sof
+ marker
+jpeg file format
+ sof
+ marker
+jpeg file format
+ sof
+ marker
+jpeg file format
+ sof
+ marker
+jpeg file format
+ sof
+ marker
+jpeg file format
+ sof
+ marker
+jpeg file format
+ sof
+ progressive
+ marker
+get segment marker
+ marker
+jpeg file format
+ sof
+ marker
+jpeg file format
+ sof
+ marker
+jpeg file format
+ sof
+ marker
+jpeg file format
+ sof
+arithmetic coding
+get segment marker
+jpeg file format
+ sof
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+used  when  decoding
+used  when  encoding
+verify  the  information  contained  the  receiver  correct  answer  true  the  header  contains  valid  marker  otherwise  answer  false  valid  start  frame  markers  are  sof  baseline  dct  huffman  coding  sof  extended  sequential  dct  huffman  coding  sof  progressive  dct  huffman  coding  sof  lossless  sequential  huffman  coding  sof  differential  sequential  huffman  coding  sof  differential  progressive  huffman  coding  sof  differential  lossless  huffman  coding  sof  extended  sequential  dct  arithmetic  coding  sof  progressive  dct  arithmetic  coding  sof  lossless  sequential  arithmetic  coding  sof  differential  sequential  arithmetic  coding  sof  differential  progressive  arithmetic  coding  sof  differential  lossless  arithmetic  coding
+</comments>
+</text>
+</DOC>

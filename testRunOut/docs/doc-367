@@ -1,0 +1,1603 @@
+<DOC>
+<DOCNO>org.eclipse.swt.layout.GridLayout.java </DOCNO>
+<text>
+<class>
+grid layout
+</class>
+<method>
+grid layout
+grid layout
+compute size
+flush cache
+get data
+ layout
+ layout
+get name
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ layout
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+grid layout
+ layout
+num columns
+make columns equal width
+margin width
+margin height
+margin left
+margin top
+margin right
+margin bottom
+horizontal spacing
+vertical spacing
+grid layout
+grid layout
+num columns
+make columns equal width
+num columns
+num columns
+make columns equal width
+make columns equal width
+ point
+compute size
+ composite
+ composite
+ hint
+ hint
+flush cache
+ point
+ size
+ layout
+ composite
+ hint
+ hint
+flush cache
+ hint
+ swt
+ default
+ size
+
+ hint
+ hint
+ swt
+ default
+ size
+
+ hint
+ size
+flush cache
+ control
+ control
+ object
+ data
+ control
+get layout data
+ data
+grid data
+ data
+flush cache
+grid data
+get data
+ control
+ grid
+ row
+ column
+row count
+column count
+ first
+ control
+ control
+ grid
+ row
+ column
+ control
+grid data
+ data
+grid data
+ control
+get layout data
+ span
+ math
+ max
+ math
+ min
+ data
+horizontal span
+column count
+ span
+ math
+ max
+ data
+vertical span
+
+ first
+ row
+ span
+ row
+ span
+
+ first
+ column
+ span
+ column
+ span
+
+
+row count
+
+
+column count
+ control
+ grid
+
+
+ data
+ layout
+ composite
+ composite
+flush cache
+ rectangle
+ rect
+ composite
+get client area
+ layout
+ composite
+ rect
+
+ rect
+
+ rect
+ width
+ rect
+ height
+flush cache
+ point
+ layout
+ composite
+ composite
+ move
+
+
+ width
+ height
+flush cache
+num columns
+ point
+margin left
+margin width
+margin right
+margin top
+margin height
+margin bottom
+ count
+ control
+ children
+ composite
+get children
+
+
+ children
+ length
+
+ control
+ control
+ children
+
+grid data
+ data
+grid data
+ control
+get layout data
+ data
+ data
+ exclude
+ children
+ count
+ children
+
+
+
+ count
+
+ control
+ child
+ children
+
+grid data
+ data
+grid data
+ child
+get layout data
+ data
+ child
+set layout data
+ data
+grid data
+flush cache
+ data
+flush cache
+ data
+compute size
+ child
+ data
+width hint
+ data
+height hint
+flush cache
+ data
+grab excess horizontal space
+ data
+minimum width
+ data
+cache width
+ data
+minimum width
+ trim
+ child
+ scrollable
+ rectangle
+ rect
+ scrollable
+ child
+compute trim
+ trim
+ rect
+ width
+ trim
+ child
+get border width
+ data
+cache width
+ data
+cache height
+ swt
+ default
+ data
+compute size
+ child
+ math
+ max
+ data
+minimum width
+ trim
+ data
+height hint
+ data
+grab excess vertical space
+ data
+minimum height
+ data
+cache height
+ math
+ max
+ data
+cache height
+ data
+minimum height
+ row
+ column
+row count
+column count
+num columns
+ control
+ grid
+ control
+column count
+
+
+ count
+
+ control
+ child
+ children
+
+grid data
+ data
+grid data
+ child
+get layout data
+ span
+ math
+ max
+ math
+ min
+ data
+horizontal span
+column count
+ span
+ math
+ max
+ data
+vertical span
+last row
+ row
+ span
+last row
+ grid
+ length
+ control
+new grid
+ control
+last row
+column count
+ system
+ arraycopy
+ grid
+new grid
+ grid
+ length
+ grid
+new grid
+ grid
+ row
+ grid
+ row
+ control
+column count
+ column
+column count
+ grid
+ row
+ column
+ column
+end count
+ column
+ span
+end count
+column count
+ index
+ column
+ index
+end count
+ grid
+ row
+ index
+ index
+ index
+end count
+ column
+ index
+ column
+ span
+column count
+ column
+ row
+
+
+ span
+
+ grid
+ row
+
+ grid
+ row
+
+ control
+column count
+
+
+ span
+
+ grid
+ row
+
+ column
+
+ child
+row count
+ math
+ max
+row count
+ row
+ span
+ column
+ span
+available width
+ width
+horizontal spacing
+column count
+margin left
+margin width
+margin right
+expand count
+ widths
+column count
+min widths
+column count
+expand column
+column count
+
+
+column count
+
+
+
+row count
+
+grid data
+ data
+get data
+ grid
+
+
+row count
+column count
+ data
+ span
+ math
+ max
+ math
+ min
+ data
+horizontal span
+column count
+ span
+
+ data
+cache width
+ data
+horizontal indent
+ widths
+
+ math
+ max
+ widths
+
+
+ data
+grab excess horizontal space
+expand column
+
+expand count
+expand column
+
+ data
+grab excess horizontal space
+ data
+minimum width
+
+ data
+grab excess horizontal space
+ data
+minimum width
+ swt
+ default
+ data
+cache width
+ data
+minimum width
+
+ data
+horizontal indent
+min widths
+
+ math
+ max
+min widths
+
+
+
+
+row count
+
+grid data
+ data
+get data
+ grid
+
+
+row count
+column count
+ data
+ span
+ math
+ max
+ math
+ min
+ data
+horizontal span
+column count
+ span
+span width
+span min width
+span expand count
+
+
+ span
+
+span width
+ widths
+
+
+span min width
+min widths
+
+
+expand column
+
+
+span expand count
+ data
+grab excess horizontal space
+span expand count
+expand count
+expand column
+
+
+ data
+cache width
+ data
+horizontal indent
+span width
+ span
+horizontal spacing
+
+span expand count
+ widths
+
+
+ delta
+
+span expand count
+ remainder
+
+span expand count
+ last
+
+
+ span
+
+expand column
+
+
+ widths
+ last
+
+
+ delta
+ last
+ widths
+ last
+ remainder
+ data
+grab excess horizontal space
+ data
+minimum width
+
+ data
+grab excess horizontal space
+ data
+minimum width
+ swt
+ default
+ data
+cache width
+ data
+minimum width
+
+ data
+horizontal indent
+span min width
+ span
+horizontal spacing
+
+span expand count
+min widths
+
+
+ delta
+
+span expand count
+ remainder
+
+span expand count
+ last
+
+
+ span
+
+expand column
+
+
+min widths
+ last
+
+
+ delta
+ last
+min widths
+ last
+ remainder
+make columns equal width
+min column width
+column width
+
+
+column count
+
+min column width
+ math
+ max
+min column width
+min widths
+
+column width
+ math
+ max
+column width
+ widths
+
+column width
+ width
+ swt
+ default
+expand count
+column width
+ math
+ max
+min column width
+available width
+column count
+
+
+column count
+
+expand column
+
+expand count
+ widths
+
+column width
+ width
+ swt
+ default
+expand count
+total width
+
+
+column count
+
+total width
+ widths
+
+
+expand count
+ delta
+available width
+total width
+
+ remainder
+available width
+total width
+
+ last
+total width
+available width
+
+
+column count
+
+expand column
+
+ widths
+
+ delta
+min widths
+
+ widths
+ last
+
+ widths
+
+ delta
+ widths
+
+min widths
+
+expand column
+
+
+ last
+ widths
+ last
+ remainder
+
+
+column count
+
+
+
+row count
+
+grid data
+ data
+get data
+ grid
+
+
+row count
+column count
+ data
+ span
+ math
+ max
+ math
+ min
+ data
+horizontal span
+column count
+ span
+ data
+grab excess horizontal space
+ data
+minimum width
+span width
+span expand count
+
+
+ span
+
+span width
+ widths
+
+
+expand column
+
+
+span expand count
+
+ data
+grab excess horizontal space
+ data
+minimum width
+ swt
+ default
+ data
+cache width
+ data
+minimum width
+
+ data
+horizontal indent
+span width
+ span
+horizontal spacing
+
+span expand count
+ widths
+
+
+ delta
+
+span expand count
+ remainder
+
+span expand count
+ last
+
+
+ span
+
+expand column
+
+
+ widths
+ last
+
+
+ delta
+ last
+ widths
+ last
+ remainder
+
+total width
+
+
+column count
+
+total width
+ widths
+
+ delta
+available width
+total width
+
+ remainder
+available width
+total width
+
+ last
+grid data
+ flush
+flush length
+ width
+ swt
+ default
+
+
+column count
+
+
+
+row count
+
+grid data
+ data
+get data
+ grid
+
+
+row count
+column count
+ data
+ data
+height hint
+ swt
+ default
+ control
+ child
+ grid
+
+
+ span
+ math
+ max
+ math
+ min
+ data
+horizontal span
+column count
+current width
+
+
+ span
+
+current width
+ widths
+
+
+current width
+ span
+horizontal spacing
+ data
+horizontal indent
+current width
+ data
+cache width
+ data
+horizontal alignment
+ swt
+ fill
+ data
+cache width
+current width
+ trim
+ child
+ scrollable
+ rectangle
+ rect
+ scrollable
+ child
+compute trim
+ trim
+ rect
+ width
+ trim
+ child
+get border width
+ data
+cache width
+ data
+cache height
+ swt
+ default
+ data
+compute size
+ child
+ math
+ max
+current width
+ trim
+ data
+height hint
+ data
+grab excess vertical space
+ data
+minimum height
+ data
+cache height
+ math
+ max
+ data
+cache height
+ data
+minimum height
+ flush
+ flush
+grid data
+ count
+ flush
+flush length
+ data
+available height
+ height
+vertical spacing
+row count
+margin top
+margin height
+margin bottom
+expand count
+ heights
+row count
+min heights
+row count
+expand row
+row count
+
+
+row count
+
+
+
+column count
+
+grid data
+ data
+get data
+ grid
+
+
+row count
+column count
+ data
+ span
+ math
+ max
+ math
+ min
+ data
+vertical span
+row count
+ span
+
+ data
+cache height
+ data
+vertical indent
+ heights
+
+ math
+ max
+ heights
+
+
+ data
+grab excess vertical space
+expand row
+
+expand count
+expand row
+
+ data
+grab excess vertical space
+ data
+minimum height
+
+ data
+grab excess vertical space
+ data
+minimum height
+ swt
+ default
+ data
+cache height
+ data
+minimum height
+
+ data
+vertical indent
+min heights
+
+ math
+ max
+min heights
+
+
+
+
+column count
+
+grid data
+ data
+get data
+ grid
+
+
+row count
+column count
+ data
+ span
+ math
+ max
+ math
+ min
+ data
+vertical span
+row count
+ span
+span height
+span min height
+span expand count
+
+
+ span
+
+span height
+ heights
+
+
+span min height
+min heights
+
+
+expand row
+
+
+span expand count
+ data
+grab excess vertical space
+span expand count
+expand count
+expand row
+
+
+ data
+cache height
+ data
+vertical indent
+span height
+ span
+vertical spacing
+
+span expand count
+ heights
+
+
+ delta
+
+span expand count
+ remainder
+
+span expand count
+ last
+
+
+ span
+
+expand row
+
+
+ heights
+ last
+
+
+ delta
+ last
+ heights
+ last
+ remainder
+ data
+grab excess vertical space
+ data
+minimum height
+
+ data
+grab excess vertical space
+ data
+minimum height
+ swt
+ default
+ data
+cache height
+ data
+minimum height
+
+ data
+vertical indent
+span min height
+ span
+vertical spacing
+
+span expand count
+min heights
+
+
+ delta
+
+span expand count
+ remainder
+
+span expand count
+ last
+
+
+ span
+
+expand row
+
+
+min heights
+ last
+
+
+ delta
+ last
+min heights
+ last
+ remainder
+ height
+ swt
+ default
+expand count
+total height
+
+
+row count
+
+total height
+ heights
+
+
+expand count
+ delta
+available height
+total height
+
+ remainder
+available height
+total height
+
+ last
+total height
+available height
+
+
+row count
+
+expand row
+
+ heights
+
+ delta
+min heights
+
+ heights
+ last
+
+ heights
+
+ delta
+ heights
+
+min heights
+
+expand row
+
+
+ last
+ heights
+ last
+ remainder
+
+
+row count
+
+
+
+column count
+
+grid data
+ data
+get data
+ grid
+
+
+row count
+column count
+ data
+ span
+ math
+ max
+ math
+ min
+ data
+vertical span
+row count
+ span
+ data
+grab excess vertical space
+ data
+minimum height
+span height
+span expand count
+
+
+ span
+
+span height
+ heights
+
+
+expand row
+
+
+span expand count
+
+ data
+grab excess vertical space
+ data
+minimum height
+ swt
+ default
+ data
+cache height
+ data
+minimum height
+
+ data
+vertical indent
+span height
+ span
+vertical spacing
+
+span expand count
+ heights
+
+
+ delta
+
+span expand count
+ remainder
+
+span expand count
+ last
+
+
+ span
+
+expand row
+
+
+ heights
+ last
+
+
+ delta
+ last
+ heights
+ last
+ remainder
+
+total height
+
+
+row count
+
+total height
+ heights
+
+ delta
+available height
+total height
+
+ remainder
+available height
+total height
+
+ last
+ move
+ grid
+
+margin top
+margin height
+
+
+row count
+
+ grid
+
+margin left
+margin width
+
+
+column count
+
+grid data
+ data
+get data
+ grid
+
+
+row count
+column count
+ data
+ span
+ math
+ max
+ math
+ min
+ data
+horizontal span
+column count
+ span
+ math
+ max
+ data
+vertical span
+cell width
+cell height
+
+
+ span
+
+cell width
+ widths
+
+
+
+
+ span
+
+cell height
+ heights
+
+
+cell width
+horizontal spacing
+ span
+ child
+ grid
+ data
+horizontal indent
+child width
+ math
+ min
+ data
+cache width
+cell width
+ data
+horizontal alignment
+ swt
+ center
+grid data
+ center
+ child
+ math
+ max
+cell width
+ data
+horizontal indent
+child width
+ swt
+ right
+ swt
+ end
+grid data
+ end
+ child
+ math
+ max
+cell width
+ data
+horizontal indent
+child width
+ swt
+ fill
+child width
+cell width
+ data
+horizontal indent
+cell height
+vertical spacing
+ span
+ child
+ grid
+ data
+vertical indent
+child height
+ math
+ min
+ data
+cache height
+cell height
+ data
+vertical alignment
+ swt
+ center
+grid data
+ center
+ child
+ math
+ max
+cell height
+ data
+vertical indent
+child height
+ swt
+ bottom
+ swt
+ end
+grid data
+ end
+ child
+ math
+ max
+cell height
+ data
+vertical indent
+child height
+ swt
+ fill
+child height
+cell height
+ data
+vertical indent
+ control
+ child
+ grid
+
+
+ child
+ child
+set bounds
+ child
+ child
+child width
+child height
+ grid
+ widths
+
+horizontal spacing
+ grid
+ heights
+
+vertical spacing
+
+
+flush length
+
+ flush
+
+cache width
+ flush
+
+cache height
+total default width
+total default height
+
+
+column count
+
+total default width
+ widths
+
+
+
+row count
+
+total default height
+ heights
+
+total default width
+horizontal spacing
+column count
+margin left
+margin width
+margin right
+total default height
+vertical spacing
+row count
+margin top
+margin height
+margin bottom
+ point
+total default width
+total default height
+ string
+get name
+ string
+ string
+get class
+get name
+ index
+ string
+last index
+ index
+ string
+ string
+ substring
+ index
+ string
+ length
+ string
+ string
+ string
+ string
+get name
+num columns
+ string
+num columns
+make columns equal width
+ string
+make columns equal width
+margin width
+ string
+margin width
+margin height
+ string
+margin height
+margin left
+ string
+margin left
+margin right
+ string
+margin right
+margin top
+ string
+margin top
+margin bottom
+ string
+margin bottom
+horizontal spacing
+ string
+horizontal spacing
+vertical spacing
+ string
+vertical spacing
+ string
+ string
+ trim
+ string
+ string
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  lay  out  the  control  children  code  composite  code  grid  code grid layout  code  has  number  configuration  fields  and  the  controls  lays  out  can  have  associated  layout  data  object  called  code grid data  code  the  power  code grid layout  code  lies  the  ability  configure  code grid data  code  for  each  control  the  layout  the  following  code  creates  shell  managed  code grid layout  code  with  columns  pre  display  display  new  display  shell  shell  new  shell  display grid layout grid layout  new grid layout grid layout num columns  shell set layout grid layout  pre  the  code num columns  code  field  the  most  important  field  code grid layout  code  widgets  are  laid  out  columns  from  left  right  and  new  row  created  when  code num columns  code  controls  are  added  the  code  composite  code  see grid data
+num columns  specifies  the  number  cell  columns  the  layout  the  default  value 
+make columns equal width  specifies  whether  all  columns  the  layout  will  forced  have  the  same  width  the  default  value  false
+margin width  specifies  the  number  pixels  horizontal  margin  that  will  placed  along  the  left  and  right  edges  the  layout  the  default  value 
+margin height  specifies  the  number  pixels  vertical  margin  that  will  placed  along  the  top  and  bottom  edges  the  layout  the  default  value 
+margin left  specifies  the  number  pixels  horizontal  margin  that  will  placed  along  the  left  edge  the  layout  the  default  value  since 
+margin top  specifies  the  number  pixels  vertical  margin  that  will  placed  along  the  top  edge  the  layout  the  default  value  since 
+margin right  specifies  the  number  pixels  horizontal  margin  that  will  placed  along  the  right  edge  the  layout  the  default  value  since 
+margin bottom  specifies  the  number  pixels  vertical  margin  that  will  placed  along  the  bottom  edge  the  layout  the  default  value  since 
+horizontal spacing  specifies  the  number  pixels  between  the  right  edge  one  cell  and  the  left  edge  its  neighbouring  cell  the  right  the  default  value 
+vertical spacing  specifies  the  number  pixels  between  the  bottom  edge  one  cell  and  the  top  edge  its  neighbouring  cell  underneath  the  default  value 
+constructs  new  instance  this  class
+constructs  new  instance  this  class  given  the  number  columns  and  whether  not  the  columns  should  forced  have  the  same  width  param num columns  the  number  columns  the  grid  param make columns equal width  whether  not  the  columns  will  have  equal  width  since 
+temporary  code
+build  the  grid
+column  widths
+  wrapping
+temporary  code
+row  heights
+position  the  controls
+clean  cache
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
+</comments>
+</text>
+</DOC>

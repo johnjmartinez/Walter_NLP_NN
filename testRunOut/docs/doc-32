@@ -1,0 +1,913 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.TableTreeItem.java </DOCNO>
+<text>
+<class>
+table tree item
+</class>
+<method>
+table tree item
+table tree item
+table tree item
+table tree item
+table tree item
+add check
+add item
+get background
+get bounds
+get checked
+get grayed
+get expanded
+get font
+get foreground
+get image
+get image
+get indent
+get item
+get item count
+get items
+get item
+get parent
+get parent item
+get text
+get text
+get visible
+ index
+expand all
+expanded index
+visible children count
+ dispose
+remove item
+set background
+set checked
+set grayed
+set expanded
+set font
+set foreground
+set image
+set image
+set text
+set text
+set visible
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+table tree item
+ item
+table item
+table item
+table tree
+ parent
+table tree item
+parent item
+table tree item
+ items
+table tree
+empty items
+ string
+ texts
+table tree
+empty texts
+ image
+ images
+table tree
+empty images
+ color
+ background
+ color
+ foreground
+ font
+ font
+ expanded
+ checked
+ grayed
+table tree item
+table tree
+ parent
+ style
+ parent
+ style
+ parent
+get item count
+table tree item
+table tree
+ parent
+ style
+ index
+ parent
+ style
+ index
+table tree item
+table tree item
+ parent
+ style
+ parent
+ style
+ parent
+get item count
+table tree item
+table tree item
+ parent
+ style
+ index
+ parent
+get parent
+ parent
+ style
+ index
+table tree item
+table tree
+ parent
+table tree item
+parent item
+ style
+ index
+ parent
+ style
+ parent
+ parent
+parent item
+parent item
+parent item
+table index
+ parent
+add item
+ index
+table item
+table item
+ parent
+get table
+ style
+table index
+table item
+set data
+table tree
+ itemid
+add check
+ parent
+size image
+item height
+ parent
+get item height
+ parent
+size image
+ image
+item height
+item height
+
+
+
+ parent
+size image
+
+set background
+ parent
+get background
+
+fill rectangle
+item height
+item height
+
+ dispose
+table item
+set image
+ parent
+size image
+parent item
+add item
+ index
+add check
+ table
+ table
+ parent
+get table
+ table
+get style
+ swt
+ check
+table item
+set checked
+ checked
+table item
+set grayed
+ grayed
+add item
+table tree item
+ item
+ index
+ item
+ swt
+ error
+ swt
+error null argument
+ index
+ index
+ items
+ length
+ swt
+ error
+ swt
+error invalid argument
+ items
+ length
+ index
+table item
+ image
+ image
+ expanded
+ parent
+get minus image
+ parent
+get plus image
+table item
+set image
+ image
+table tree item
+new items
+table tree item
+ items
+ length
+ system
+ arraycopy
+ items
+new items
+ index
+new items
+ index
+ item
+ system
+ arraycopy
+ items
+ index
+new items
+ index
+ items
+ length
+ index
+ items
+new items
+ expanded
+ item
+set visible
+ color
+get background
+check widget
+ background
+ parent
+get background
+ background
+ rectangle
+get bounds
+ index
+check widget
+table item
+table item
+get bounds
+ index
+ rectangle
+get checked
+check widget
+table item
+ checked
+table item
+get checked
+get grayed
+check widget
+table item
+ grayed
+table item
+get grayed
+get expanded
+ expanded
+ font
+get font
+check widget
+ font
+ parent
+get font
+ font
+ color
+get foreground
+check widget
+ foreground
+ parent
+get foreground
+ foreground
+ image
+get image
+check widget
+get image
+ image
+get image
+ index
+ index
+ index
+ images
+ length
+ images
+ index
+get indent
+parent item
+parent item
+get indent
+table tree item
+get item
+ index
+check widget
+ count
+ items
+ length
+ index
+ index
+ count
+ swt
+ error
+ swt
+error invalid range
+ items
+ index
+get item count
+ items
+ length
+table tree item
+get items
+table tree item
+new items
+table tree item
+ items
+ length
+ system
+ arraycopy
+ items
+new items
+ items
+ length
+new items
+table tree item
+get item
+table item
+table item
+table item
+table item
+table item
+
+
+ items
+ length
+
+table tree item
+ item
+ items
+
+get item
+table item
+ item
+ item
+table tree
+get parent
+ parent
+table tree item
+get parent item
+parent item
+ string
+get text
+check widget
+get text
+ string
+get text
+ index
+ index
+ index
+ texts
+ length
+ texts
+ index
+get visible
+table item
+ index
+table tree item
+ item
+
+
+ items
+ length
+
+ items
+
+ item
+
+expand all
+ notify
+ items
+ length
+ expanded
+set expanded
+ notify
+ event
+ event
+ event
+ event
+ item
+ parent
+notify listeners
+ swt
+ expand
+ event
+
+
+ items
+ length
+
+ items
+
+expand all
+ notify
+expanded index
+table tree item
+ item
+ index
+
+
+ items
+ length
+
+ items
+
+ item
+ index
+ items
+
+ expanded
+ index
+ items
+
+visible children count
+ index
+visible children count
+ count
+
+
+ items
+ length
+
+ items
+
+get visible
+ count
+ items
+
+visible children count
+ count
+ dispose
+ disposed
+
+ items
+ length
+
+
+ items
+
+ dispose
+ dispose
+ parent
+ dispose
+parent item
+parent item
+remove item
+ parent
+remove item
+table item
+table item
+ dispose
+ items
+parent item
+ parent
+ images
+ texts
+table item
+ foreground
+ background
+ font
+remove item
+table tree item
+ item
+ index
+ index
+ items
+ length
+ items
+ index
+ item
+ index
+ index
+ items
+ length
+table tree item
+new items
+table tree item
+ items
+ length
+ system
+ arraycopy
+ items
+new items
+ index
+ system
+ arraycopy
+ items
+ index
+new items
+ index
+ items
+ length
+ index
+ items
+new items
+ items
+ length
+table item
+table item
+set image
+set background
+ color
+ color
+check widget
+ color
+ color
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+table item
+table item
+set background
+ color
+ background
+ color
+set checked
+ checked
+check widget
+ table
+ table
+ parent
+get table
+ table
+get style
+ swt
+ check
+table item
+table item
+set checked
+ checked
+ checked
+ checked
+set grayed
+ grayed
+check widget
+ table
+ table
+ parent
+get table
+ table
+get style
+ swt
+ check
+table item
+table item
+set grayed
+ grayed
+ grayed
+ grayed
+set expanded
+ expanded
+check widget
+ items
+ length
+ expanded
+ expanded
+ expanded
+ expanded
+table item
+ parent
+set redraw
+
+
+ items
+ length
+
+ items
+
+set visible
+ expanded
+ image
+ image
+ expanded
+ parent
+get minus image
+ parent
+get plus image
+table item
+set image
+ image
+ parent
+set redraw
+set font
+ font
+ font
+check widget
+ font
+ font
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+table item
+table item
+set font
+ font
+ font
+ font
+set foreground
+ color
+ color
+check widget
+ color
+ color
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+table item
+table item
+set foreground
+ color
+ foreground
+ color
+set image
+ index
+ image
+ image
+check widget
+column count
+ math
+ max
+ parent
+get table
+get column count
+ index
+ index
+column count
+ images
+ length
+column count
+ image
+new images
+ image
+column count
+ system
+ arraycopy
+ images
+new images
+ images
+ length
+ images
+new images
+ images
+ index
+ image
+table item
+table item
+set image
+ index
+ image
+set image
+ image
+ image
+set image
+ image
+set text
+ index
+ string
+ text
+check widget
+ text
+ swt
+ error
+ swt
+error null argument
+column count
+ math
+ max
+ parent
+get table
+get column count
+ index
+ index
+column count
+ texts
+ length
+column count
+ string
+new texts
+ string
+column count
+ system
+ arraycopy
+ texts
+new texts
+ texts
+ length
+ texts
+new texts
+ texts
+ index
+ text
+table item
+table item
+set text
+ index
+ text
+set text
+ string
+ string
+set text
+ string
+set visible
+ show
+parent item
+get visible
+ show
+ show
+parent item
+get visible
+ table
+ table
+ parent
+get table
+parent index
+ table
+ index
+parent item
+table item
+ index
+parent item
+expanded index
+parent index
+ index
+table item
+table item
+ table
+get style
+ index
+table item
+set data
+table tree
+ itemid
+table item
+set image indent
+get indent
+ background
+table item
+set background
+ background
+ foreground
+table item
+set foreground
+ foreground
+ font
+table item
+set font
+ font
+add check
+column count
+ math
+ max
+ table
+get column count
+
+
+column count
+
+
+ texts
+ length
+ texts
+
+set text
+
+ texts
+
+
+ images
+ length
+ images
+
+set image
+
+ images
+
+ items
+ length
+ expanded
+table item
+set image
+ parent
+get minus image
+
+ length
+ items
+ length
+
+ length
+
+ items
+
+set visible
+table item
+set image
+ parent
+get plus image
+
+ length
+ items
+ length
+
+ length
+
+ items
+
+set visible
+table item
+ dispose
+table item
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+table tree item  selectable  user  interface  object  that  represents  item  heirarchy  items table tree  deprecated  use  tree tree item  and tree column
+constructs  new  instance  this  class  given  its  parent  which  must  code table tree  code  and  style  value  describing  its  behavior  and  appearance  the  item  added  the  end  the  items  maintained  its  parent  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  see  widget get style
+constructs  new  instance  this  class  given  its  parent  which  must  code table tree  code  style  value  describing  its  behavior  and  appearance  and  the  index  which  place  the  items  maintained  its  parent  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  param  index  the  index  store  the  receiver  its  parent  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  see  widget get style
+constructs  new  instance  this  class  given  its  parent  which  must  code table tree item  code  and  style  value  describing  its  behavior  and  appearance  the  item  added  the  end  the  items  maintained  its  parent  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  see  widget get style
+constructs  new  instance  this  class  given  its  parent  which  must  code table tree item  code  style  value  describing  its  behavior  and  appearance  and  the  index  which  place  the  items  maintained  its  parent  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  param  index  the  index  store  the  receiver  its  parent  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  see  widget get style
+root  items  are  visible  immediately
+feature  the  table  the  table  uses  the  first  image  that  inserted  into  the  table  size  the  table  rows  the  user  allowed  insert  the  first  image  this  will  cause  the  images  scaled  the  fix  insert  dummy  image  force  the  size
+now  that  item  has  sub  node  must  indicate  that  can  expanded
+put  the  item  the  items  list
+returns  the  receiver  background  color  return  the  background  color  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  rectangle  describing  the  receiver  size  and  location  relative  its  parent  return  the  receiver  bounding  rectangle  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  true  code  the  receiver  checked  and  false  otherwise  when  the  parent  does  not  have  the  code  check  style  return  false  return  the  checked  state  the  checkbox  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  true  code  the  receiver  grayed  and  false  otherwise  when  the  parent  does  not  have  the  code  check  code  style  return  false  return  the  grayed  state  the  checkbox  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  code  true  code  the  receiver  expanded  and  false  otherwise  return  the  expanded  state
+ check widget
+returns  the  font  that  the  receiver  will  use  paint  textual  information  for  this  item  return  the  receiver  font  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  the  foreground  color  that  the  receiver  will  use  draw  return  the  receiver  foreground  color  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+gets  the  first  image  the  image  column  reserved  for  the  and  images  the  tree  therefore get image  will  return  null  return  the  image  index  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+gets  the  image  the  specified  index  indexing  zero  based  the  image  can  null  the  image  column  reserved  for  the  and  images  the  tree  therefore get image  will  return  null  return  null  the  index  out  range  param  index  the  index  the  image  return  the  image  the  specified  index  null
+ check widget
+returns  the  item  the  given  zero  relative  index  the  receiver  throws  exception  the  index  out  range  param  index  the  index  the  item  return  return  the  item  the  given  index  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  the  number  items  contained  the  receiver  that  are  direct  item  children  the  receiver  return  the  number  items
+ check widget
+returns  array  code table tree item  code  which  are  the  direct  item  children  the  receiver  note  this  not  the  actual  structure  used  the  receiver  maintain  its  list  items  modifying  the  array  will  not  affect  the  receiver  return  the  receiver  items
+ check widget
+returns  the  receiver  parent  which  must  code table tree  code  return  the  receiver  parent
+ check widget
+returns  the  receiver  parent  item  which  must  code table tree item  code  null  when  the  receiver  root  return  the  receiver  parent  item
+ check widget
+gets  the  item  text  the  specified  index  indexing  zero  based  this  operation  will  fail  when  the  index  out  range  item  could  not  queried  from  the  param  index  the  index  the  item  return  the  item  text  the  specified  index  which  can  null
+ check widget
+gets  the  index  the  specified  item  the  widget  searched  starting  until  item  found  that  equal  the  search  item  item  found  returned  indexing  zero  based  this  index  relative  the  parent  only  param  item  the  search  item  return  the  index  the  item  the  item  not  found
+ check widget
+sets  the  receiver  background  color  the  color  specified  the  argument  the  default  system  color  for  the  item  the  argument  null  param  color  the  new  color  null  exception illegal argument exception  error  invalid  argument  the  argument  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+sets  the  checked  state  the  checkbox  for  this  item  this  state  change  only  applies  the  table  was  created  with  the  swt  check  style  param  checked  the  new  checked  state  the  checkbox  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  grayed  state  the  checkbox  for  this  item  this  state  change  only  applies  the  table  was  created  with  the  swt  check  style  param  grayed  the  new  grayed  state  the  checkbox  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+sets  the  expanded  state  param  expanded  the  new  expanded  state  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+sets  the  font  that  the  receiver  will  use  paint  textual  information  for  this  item  the  font  specified  the  argument  the  default  font  for  that  kind  control  the  argument  null  param  font  the  new  font  null  exception illegal argument exception  error  invalid  argument  the  argument  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+sets  the  receiver  foreground  color  the  color  specified  the  argument  the  default  system  color  for  the  item  the  argument  null  param  color  the  new  color  null  since  exception illegal argument exception  error  invalid  argument  the  argument  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+sets  the  image  index  the  image  can  null  the  image  column  reserved  for  the  and  images  the  tree  therefore  nothing  index  param  image  the  new  image  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+sets  the  first  image  the  image  can  null  the  image  column  reserved  for  the  and  images  the  tree  therefore  nothing  param  image  the  new  image  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+sets  the  widget  text  the  widget  text  for  item  the  label  the  item  the  label  the  text  specified  column  number  param  index  the  column  number  param  text  the  new  text  exception illegal argument exception  error  null  argument  the  text  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+this  root  and  can  not  toggled  between  visible  and  hidden
+parent item  must  already  visible
+create  underlying  table  item  and  set  data  table  item  stored  data
+restore  fields  item
+ignore  any  images  the  first  column
+display  the  children  and  the  appropriate  symbol  required
+remove  row  from  table
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,29 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.win32.BUTTON_IMAGELIST.java </DOCNO>
+<text>
+<class>
+button imagelist
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ win
+button imagelist
+ himl
+margin _left
+margin _top
+margin _right
+margin _bottom
+ align
+ sizeof
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,1275 @@
+<DOC>
+<DOCNO>org.eclipse.swt.ole.win32.OleFrame.java </DOCNO>
+<text>
+<class>
+ole frame
+</class>
+<method>
+ole frame
+handle event
+init check focus
+ run
+init msg hook
+ run
+get msg proc
+add ref
+context sensitive help
+create com interfaces
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+dispose com interfaces
+get border
+get container menus
+get file menus
+get ole place frame
+get menu item
+get window
+get window menus
+insert menus
+ dispose
+ resize
+query interface
+ release
+release object interfaces
+remove menus
+request border space
+set active object
+set border space
+set container menus
+get current document
+set current document
+set file menus
+set menu
+set window menus
+translate ole accelerator
+translate accelerator
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ ole
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ internal
+ java
+ util
+ vector
+ole frame
+ composite
+com object
+ unknown
+com object
+ole place frame
+ole place active object
+obj ole place active object
+ole client site
+ currentdoc
+ref count
+menu item
+file menu items
+menu item
+container menu items
+menu item
+window menu items
+ listener
+ listener
+ string
+check focus
+ string
+ hhook
+ string
+ hhookmsg
+ole frame
+ composite
+ parent
+ style
+ parent
+ style
+ swt
+clip children
+ swt
+clip siblings
+create com interfaces
+ listener
+ listener
+handle event
+ event
+
+
+ type
+ swt
+ dispose
+ dispose
+
+ swt
+ resize
+ swt
+ move
+ resize
+
+ ole
+ error
+ swt
+error not implemented
+add listener
+ swt
+ dispose
+ listener
+add listener
+ swt
+ resize
+ listener
+add listener
+ swt
+ move
+ listener
+add ref
+ display
+ display
+get display
+init check focus
+ display
+init msg hook
+ display
+init check focus
+ display
+ display
+ display
+get data
+check focus
+ display
+set data
+check focus
+check focus
+ time
+ runnable
+ timer
+ runnable
+ control
+last focus
+ control
+ timer
+ runnable
+ run
+last focus
+ole client site
+last focus
+ disposed
+ hwnd
+
+get focus
+ hwnd
+owner hwnd
+
+get window
+ hwnd
+
+ owner
+owner hwnd
+ display
+timer exec
+ time
+ timer
+ hwnd
+
+get parent
+ hwnd
+last focus
+last focus
+ disposed
+last focus
+focus control
+ control
+current focus
+ display
+get focus control
+current focus
+ole frame
+ole frame
+ frame
+ole frame
+current focus
+current focus
+ frame
+get current document
+last focus
+current focus
+ event
+ event
+ event
+last focus
+ole client site
+last focus
+ disposed
+last focus
+notify listeners
+ swt
+focus out
+ event
+current focus
+ole client site
+current focus
+ disposed
+current focus
+notify listeners
+ swt
+ focus
+ event
+last focus
+current focus
+ display
+timer exec
+ time
+ timer
+ display
+timer exec
+ time
+ timer
+init msg hook
+ display
+ display
+ display
+get data
+ hhook
+ callback
+ callback
+ callback
+ole frame
+ address
+ callback
+get address
+ address
+ swt
+ error
+ swt
+error more callbacks
+ thread
+
+get current thread
+ hook
+
+set windows hook
+
+ getmessage
+ address
+ thread
+ hook
+ callback
+ dispose
+ display
+set data
+ hhook
+ integer
+ hook
+ display
+set data
+ hhookmsg
+ msg
+ display
+dispose exec
+ runnable
+ run
+ hook
+
+unhook windows hook
+ hook
+ callback
+ callback
+ dispose
+get msg proc
+ code
+ param
+ param
+ display
+ display
+ display
+get current
+ display
+ integer
+ hook
+ integer
+ display
+get data
+ hhook
+ hook
+ code
+
+call next hook
+ hook
+int value
+ code
+ param
+ param
+ msg
+ msg
+ msg
+ display
+get data
+ hhookmsg
+
+move memory
+ msg
+ param
+ msg
+ sizeof
+ message
+ msg
+ message
+
+ keyfirst
+ message
+ message
+
+ keylast
+ display
+ widget
+ widget
+ hwnd
+ msg
+ hwnd
+ hwnd
+ widget
+ display
+find widget
+ hwnd
+ widget
+ hwnd
+
+get parent
+ hwnd
+ widget
+ widget
+ole client site
+ole client site
+ site
+ole client site
+ widget
+ site
+ handle
+ hwnd
+ consumed
+ thread
+
+get window thread process
+ msg
+ hwnd
+ guithreadinfo
+ lpgui
+ guithreadinfo
+ lpgui
+ size
+ guithreadinfo
+ sizeof
+
+
+get gui thread info
+ thread
+ lpgui
+ mask
+
+gui inmenumode
+
+gui inmovesize
+
+gui popupmenumode
+
+gui systemmenumode
+
+ lpgui
+ flags
+ mask
+ole frame
+ frame
+ site
+ frame
+ consumed
+ frame
+translate ole accelerator
+ msg
+ consumed
+hwnd old
+ msg
+ hwnd
+ msg
+ hwnd
+ site
+ handle
+ consumed
+
+dispatch message
+ msg
+ msg
+ hwnd
+hwnd old
+ consumed
+ msg
+ message
+
+ null
+ msg
+ param
+ msg
+ param
+
+move memory
+ param
+ msg
+ msg
+ sizeof
+
+call next hook
+ hook
+int value
+ code
+ param
+ param
+add ref
+ref count
+ref count
+context sensitive help
+enter mode
+ com
+
+create com interfaces
+ unknown
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ole place frame
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+get window
+ args
+ method
+ args
+context sensitive help
+ args
+ method
+ args
+get border
+ args
+ method
+ args
+request border space
+ args
+ method
+ args
+set border space
+ args
+ method
+ args
+set active object
+ args
+ args
+ method
+ args
+insert menus
+ args
+ args
+ method
+ args
+set menu
+ args
+ args
+ args
+ method
+ args
+remove menus
+ args
+ method
+ args
+translate accelerator
+ args
+ args
+dispose com interfaces
+ unknown
+ unknown
+ dispose
+ unknown
+ole place frame
+ole place frame
+ dispose
+ole place frame
+get border
+lprect border
+lprect border
+ com
+ invalidarg
+ rect
+rect border
+ rect
+
+get client rect
+ handle
+rect border
+
+move memory
+lprect border
+rect border
+ rect
+ sizeof
+ com
+
+menu item
+get container menus
+container menu items
+menu item
+get file menus
+file menu items
+get ole place frame
+ole place frame
+get address
+get menu item
+ menu
+ index
+
+ menuiteminfo
+ lpmii
+ menuiteminfo
+ lpmii
+ size
+ menuiteminfo
+ sizeof
+ lpmii
+ mask
+
+miim state
+
+miim submenu
+
+ miim
+
+get menu item info
+ menu
+ index
+ lpmii
+ lpmii
+ state
+
+ popup
+
+ popup
+
+ lpmii
+sub menu
+
+ lpmii
+
+
+get window
+ phwnd
+ phwnd
+ com
+move memory
+ phwnd
+ handle
+ com
+
+menu item
+get window menus
+window menu items
+insert menus
+hmenu shared
+menu widths
+ menu
+ menubar
+get shell
+get menu bar
+ menubar
+ menubar
+ disposed
+ com
+move memory
+menu widths
+ com
+
+ menu
+ menubar
+ handle
+ menuiteminfo
+ lpmii
+ menuiteminfo
+ heap
+
+get process heap
+ cch
+byte count
+ cch
+ tchar
+ sizeof
+psz text
+
+heap alloc
+ heap
+
+heap zero memory
+byte count
+ lpmii
+ size
+ menuiteminfo
+ sizeof
+ lpmii
+ mask
+
+miim state
+
+ miim
+
+miim type
+
+miim submenu
+
+miim data
+ lpmii
+type data
+psz text
+ lpmii
+ cch
+ cch
+file menu count
+ newindex
+file menu items
+
+
+file menu items
+ length
+
+menu item
+ item
+file menu items
+
+ item
+ index
+ item
+get parent
+ index
+ item
+ lpmii
+ cch
+ cch
+
+get menu item info
+ menu
+ index
+ lpmii
+
+insert menu item
+hmenu shared
+ newindex
+ lpmii
+file menu count
+ newindex
+ com
+move memory
+menu widths
+file menu count
+container menu count
+container menu items
+
+
+container menu items
+ length
+
+menu item
+ item
+container menu items
+
+ item
+ index
+ item
+get parent
+ index
+ item
+ lpmii
+ cch
+ cch
+
+get menu item info
+ menu
+ index
+ lpmii
+
+insert menu item
+hmenu shared
+ newindex
+ lpmii
+container menu count
+ newindex
+ com
+move memory
+menu widths
+container menu count
+window menu count
+window menu items
+
+
+window menu items
+ length
+
+menu item
+ item
+window menu items
+
+ item
+ index
+ item
+get parent
+ index
+ item
+ lpmii
+ cch
+ cch
+
+get menu item info
+ menu
+ index
+ lpmii
+
+insert menu item
+hmenu shared
+ newindex
+ lpmii
+window menu count
+ newindex
+ com
+move memory
+menu widths
+window menu count
+psz text
+
+heap free
+ heap
+psz text
+ com
+
+ dispose
+ event
+
+release object interfaces
+ currentdoc
+ release
+remove listener
+ swt
+ dispose
+ listener
+remove listener
+ swt
+ resize
+ listener
+remove listener
+ swt
+ move
+ listener
+ resize
+ event
+
+obj ole place active object
+ rect
+ rect
+ rect
+
+get client rect
+ handle
+ rect
+obj ole place active object
+resize border
+ rect
+ole place frame
+get address
+query interface
+ riid
+ppv object
+ riid
+ppv object
+ com
+ invalidarg
+ guid
+ guid
+ guid
+ com
+move memory
+ guid
+ riid
+ guid
+ sizeof
+ com
+equal guid
+ guid
+ com
+iidi unknown
+ com
+equal guid
+ guid
+ com
+iidi ole place frame
+ com
+move memory
+ppv object
+ole place frame
+get address
+add ref
+ com
+
+ com
+move memory
+ppv object
+ com
+ nointerface
+ release
+ref count
+ref count
+dispose com interfaces
+ com
+free unused libraries
+ref count
+release object interfaces
+obj ole place active object
+obj ole place active object
+ release
+obj ole place active object
+remove menus
+hmenu shared
+ menu
+ menubar
+get shell
+get menu bar
+ menubar
+ menubar
+ disposed
+ com
+ false
+ menu
+ menubar
+ handle
+ vector
+ ids
+ vector
+file menu items
+
+
+file menu items
+ length
+
+menu item
+ item
+file menu items
+
+ item
+ item
+ disposed
+ index
+ item
+get parent
+ index
+ item
+
+get menu item
+ menu
+ index
+ ids
+add element
+ integer
+
+container menu items
+
+
+container menu items
+ length
+
+menu item
+ item
+container menu items
+
+ item
+ item
+ disposed
+ index
+ item
+get parent
+ index
+ item
+
+get menu item
+ menu
+ index
+ ids
+add element
+ integer
+
+window menu items
+
+
+window menu items
+ length
+
+menu item
+ item
+window menu items
+
+ item
+ item
+ disposed
+ index
+ item
+get parent
+ index
+ item
+
+get menu item
+ menu
+ index
+ ids
+add element
+ integer
+
+ index
+
+get menu item count
+hmenu shared
+
+ index
+
+
+
+get menu item
+hmenu shared
+
+ ids
+ contains
+ integer
+
+
+remove menu
+hmenu shared
+
+
+ byposition
+ com
+
+request border space
+ pborderwidths
+ com
+
+set active object
+active object
+psz obj name
+obj ole place active object
+obj ole place active object
+ release
+obj ole place active object
+active object
+obj ole place active object
+ole place active object
+active object
+obj ole place active object
+add ref
+ com
+
+set border space
+ pborderwidths
+obj ole place active object
+ com
+
+ rect
+ borderwidth
+ rect
+ pborderwidths
+ currentdoc
+ com
+
+ com
+move memory
+ borderwidth
+ pborderwidths
+ rect
+ sizeof
+ currentdoc
+set border space
+ borderwidth
+ com
+
+set container menus
+menu item
+container menus
+container menu items
+container menus
+ole client site
+get current document
+ currentdoc
+set current document
+ole client site
+ doc
+ currentdoc
+ doc
+ currentdoc
+obj ole place active object
+ rect
+ rect
+ rect
+
+get client rect
+ handle
+ rect
+obj ole place active object
+resize border
+ rect
+ole place frame
+get address
+set file menus
+menu item
+file menus
+file menu items
+file menus
+set menu
+hmenu shared
+ holemenu
+hwnd active object
+place active object
+obj ole place active object
+place active object
+obj ole place active object
+get address
+ menu
+ menubar
+get shell
+get menu bar
+ menubar
+ menubar
+ disposed
+ com
+ole set menu descriptor
+get shell
+ handle
+hwnd active object
+ole place frame
+get address
+place active object
+ handle
+ menubar
+get shell
+ handle
+hmenu shared
+ holemenu
+hmenu shared
+ menubar
+ handle
+hmenu shared
+ com
+ fail
+
+set menu
+ handle
+hmenu shared
+
+draw menu bar
+ handle
+ com
+ole set menu descriptor
+ holemenu
+ handle
+hwnd active object
+ole place frame
+get address
+place active object
+set window menus
+menu item
+window menus
+window menu items
+window menus
+translate ole accelerator
+ msg
+ msg
+obj ole place active object
+ result
+obj ole place active object
+translate accelerator
+ msg
+ result
+ com
+ false
+ result
+ com
+ notimpl
+translate accelerator
+ lpmsg
+
+ menu
+ menubar
+get shell
+get menu bar
+ menubar
+ menubar
+ disposed
+ menubar
+ enabled
+ com
+ false
+
+ com
+ false
+ shell
+ shell
+ menubar
+get shell
+ hwnd
+ shell
+ handle
+ accel
+
+send message
+ hwnd
+
+ app
+ accel
+ com
+ false
+ msg
+ msg
+ msg
+
+move memory
+ msg
+ lpmsg
+ msg
+ sizeof
+ result
+
+translate accelerator
+ hwnd
+ accel
+ msg
+ result
+ com
+ false
+ com
+
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+ole frame  ole  container  top  level  frame  this  object  implements  the  ole  interfaces  unknown  and ole place frame ole frame  allows  the  container  the  following  position  and  size  the  active  control  ole  document  within  the  application  insert  menu  items  from  the  application  into  the  ole  document  menu  activate  and  deactivate  the  ole  document  menus  position  the  ole  document  menu  the  application  translate  accelerator  keystrokes  intended  for  the  container  frame  styles  border  events  dispose  move  resize 
+interfaces  for  this  ole  client  container
+access  the  embedded  linked  ole  object
+non  nls 
+non  nls 
+non  nls 
+create ole frame  child  widget  using  style  bits  select  particular  look  set  properties  param  parent  composite  widget  cannot  null  param  style  the  bitwise  ing  widget  styles  exception illegal argument exception  error  null  argument  when  the  parent  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread 
+set  widget  attributes
+setup  cleanup  proc
+inform  inplaceactiveobject  whenever  frame  resizes
+inform  inplaceactiveobject  whenever  frame  moves
+maintain  reference  yourself  that  when
+client sites  close  they  don  take  the  frame  away
+with  them
+check  for  focus  change
+ignore  popup  menus  and  dialogs
+non  nls 
+allow  active  control  translate  accelerators  except  when  menu  active
+allow ole client site  process  key  events  before  active  control
+order  prevent  this  message  from  also  being  processed
+the  application  zero  out  message  param  and  param
+increment  the  count  references  this  instance  return  the  current  reference  count
+create  each  the  interfaces  that  this  object  implements
+method set status text  not  implemented
+method enable modeless  not  implemented
+the ole place window get border  function  when  called  document  frame  window  object  returns  the  outer  rectangle  relative  the  window  where  the  object  can  put  toolbars  similar  controls
+coordinates  must  relative  the  window
+returns  the  application  menu  items  that  will  appear  the  container  location  when  ole  document  place  activated  when  ole  document  place  active  the  document  provides  its  own  menus  but  the  application  given  the  opportunity  merge  some  its  menus  into  the  menubar  the  application  allowed  insert  its  menus  three  locations  file  far  left  container  middle  and  window  far  right  just  before  help  the  ole  document  retains  control  the  edit  object  and  help  menu  locations  note  that  application  can  insert  more  than  one  menu  into  single  location  return  the  application  menu  items  that  will  appear  the  container  location  when  ole  document  place  activated
+returns  the  application  menu  items  that  will  appear  the  file  location  when  ole  document  place  activated  when  ole  document  place  active  the  document  provides  its  own  menus  but  the  application  given  the  opportunity  merge  some  its  menus  into  the  menubar  the  application  allowed  insert  its  menus  three  locations  file  far  left  container  middle  and  window  far  right  just  before  help  the  ole  document  retains  control  the  edit  object  and  help  menu  locations  note  that  application  can  insert  more  than  one  menu  into  single  location  return  the  application  menu  items  that  will  appear  the  file  location  when  ole  document  place  activated
+returns  the  application  menu  items  that  will  appear  the  window  location  when  ole  document  place  activated  when  ole  document  place  active  the  document  provides  its  own  menus  but  the  application  given  the  opportunity  merge  some  its  menus  into  the  menubar  the  application  allowed  insert  its  menus  three  locations  file  far  left  container  middle  and  window  far  right  just  before  help  the  ole  document  retains  control  the  edit  object  and  help  menu  locations  note  that  application  can  insert  more  than  one  menu  into  single  location  return  the  application  menu  items  that  will  appear  the  window  location  when  ole  document  place  activated
+locate  menu  bar
+create  holder  for  menu  information  this  will  passed  down 
+the  and  the  will  fill  the  requested  information  for  each  menu
+loop  over  all  file  like  menus  the  menubar  and  get  information  about  the
+item  from  the 
+lpmii  cch  gets  updated get menu item info  indicate  the
+exact  number  characters  name  reset  our  max  size
+before  each  call
+keep  track  the  number  items
+copy  the  menu  item  count  information  the  pointer
+loop  over  all  container  like  menus  the  menubar  and  get  information  about  the
+item  from  the 
+lpmii  cch  gets  updated get menu item info  indicate  the
+exact  nuber  characters  name  reset  large  number
+before  each  call
+keep  track  the  number  items
+copy  the  menu  item  count  information  the  pointer
+loop  over  all  window  like  menus  the  menubar  and  get  information  about  the
+item  from  the 
+lpmii  cch  gets  updated get menu item info  indicate  the
+exact  nuber  characters  name  reset  large  number
+before  each  call
+keep  track  the  number  items
+copy  the  menu  item  count  information  the  pointer
+free  resources  used  querying  the 
+implements  unknown ole place frame ole container ole place window
+decrement  the  count  references  this  instance  return  the  current  reference  count
+get  from  original  menubar
+control  document  can
+use  its  own  toolbars  requesting  border  space  specific  size 
+use  toolbars  but  force  the  container  remove  its  toolbars  passing 
+valid  borderwidths  structure  containing  nothing  but  zeros  the  pborderwidths  parameter 
+use  toolbars  but  allow  the  place  container  leave  its  toolbars 
+passing  null  the  pborderwidths  parameter
+specify  the  menu  items  that  should  appear  the  container  location  when  ole  document  place  activated  when  ole  document  place  active  the  document  provides  its  own  menus  but  the  application  given  the  opportunity  merge  some  its  menus  into  the  menubar  the  application  allowed  insert  its  menus  three  locations  file  far  left  container  middle  and  window  far  right  just  before  help  the  ole  document  retains  control  the  edit  object  and  help  menu  locations  note  that  application  can  insert  more  than  one  menu  into  single  location  this  method  must  called  before  place  activation  the  ole  document  after  the  document  activated  the  menu  bar  will  not  modified  until  subsequent  activation  param container menus  array  top  level menu items  inserted  into  the  container  location  the  menubar
+specify  the  menu  items  that  should  appear  the  file  location  when  ole  document  place  activated  when  ole  document  place  active  the  document  provides  its  own  menus  but  the  application  given  the  opportunity  merge  some  its  menus  into  the  menubar  the  application  allowed  insert  its  menus  three  locations  file  far  left  container  middle  and  window  far  right  just  before  help  the  ole  document  retains  control  the  edit  object  and  help  menu  locations  note  that  application  can  insert  more  than  one  menu  into  single  location  this  method  must  called  before  place  activation  the  ole  document  after  the  document  activated  the  menu  bar  will  not  modified  until  subsequent  activation  param file menus  array  top  level menu items  inserted  into  the  flie  location  the  menubar
+instate  the  original  menu  this  occurs  deactivation
+set  the  menu  items  that  should  appear  the  window  location  when  ole  document  place  activated  when  ole  document  place  active  the  document  provides  its  own  menus  but  the  application  given  the  opportunity  merge  some  its  menus  into  the  menubar  the  application  allowed  insert  its  menus  three  locations  file  far  left  container  middle  and  window  far  right  just  before  help  the  ole  document  retains  control  the  edit  object  and  help  menu  locations  note  that  application  can  insert  more  than  one  menu  into  single  location  this  method  must  called  before  place  activation  the  ole  document  after  the  document  activated  the  menu  bar  will  not  modified  until  subsequent  activation  param window menus  array  top  level menu items  inserted  into  the  window  location  the  menubar
+</comments>
+</text>
+</DOC>

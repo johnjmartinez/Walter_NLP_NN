@@ -1,0 +1,77 @@
+<DOC>
+<DOCNO>org.eclipse.swt.accessibility.AccessibleControlAdapter.java </DOCNO>
+<text>
+<class>
+accessible control adapter
+</class>
+<method>
+get child point
+get location
+get child
+get child count
+get default action
+get focus
+get role
+get selection
+get state
+get value
+get children
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ accessibility
+accessible control adapter
+accessible control listener
+get child point
+accessible control event
+
+get location
+accessible control event
+
+get child
+accessible control event
+
+get child count
+accessible control event
+
+get default action
+accessible control event
+
+get focus
+accessible control event
+
+get role
+accessible control event
+
+get selection
+accessible control event
+
+get state
+accessible control event
+
+get value
+accessible control event
+
+get children
+accessible control event
+
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  adapter  class  provides  default  implementations  for  the  methods  described  the  code accessible control listener  code  interface  classes  that  wish  deal  with  code accessible control event  code  can  extend  this  class  and  override  only  the  methods  that  they  are  interested  note  accessibility  clients  use  child  identifiers  specify  whether  they  want  information  about  control  one  its  children  child  identifiers  are  increasing  integers  beginning  with  the  identifier  childid  self  represents  the  control  itself  when  returning  child  identifier  client  you  may  use  childid  none  indicate  that  child  control  has  the  required  information  note  this  adapter  typically  used  implementors  custom  control  provide  very  detailed  information  about  the  control  instance  accessibility  clients  see accessible control listener  see accessible control event  since 
+sent  when  accessibility  client  requests  the  identifier  the  control  child  the  specified  display  coordinates  the  default  behavior  nothing  return  the  identifier  the  child  display  point  the  code  child  code  field  the  event  object  return  childid  self  point  the  control  itself  and  not  any  child  return  childid  none  point  not  contained  either  the  control  any  its  children  param  event  object  containing  the  following  fields  the  specified  point  display  coordinates  child  typical  out  the  the  child  point  childid  self  childid  none  accessible  optional  out  the  accessible  object  for  the  control  child  may  returned  instead  the  child 
+sent  when  accessibility  client  requests  the  location  the  control  the  location  child  the  control  the  default  behavior  nothing  return  rectangle  describing  the  location  the  specified  control  child  the  code  width  and  height  code  fields  the  event  object  param  event  object  containing  the  following  fields  child  identifier  specifying  the  control  one  its  children  width  height  out  the  control  child  location  display  coordinates 
+sent  when  accessibility  client  requests  the  accessible  object  for  child  the  control  the  default  behavior  nothing  return  code  accessible  code  for  the  specified  control  child  the  code  accessible  code  field  the  event  object  return  null  the  specified  child  does  not  have  its  own  code  accessible  code  param  event  object  containing  the  following  fields  child  identifier  specifying  child  the  control  accessible  out  accessible  for  the  specified  child  null  one  does  not  exist 
+sent  when  accessibility  client  requests  the  number  children  the  control  the  default  behavior  nothing  return  the  number  child  items  the  code  detail  code  field  the  event  object  param  event  object  containing  the  following  fields  detail  out  the  number  child  items  this  control 
+sent  when  accessibility  client  requests  the  default  action  the  control  the  default  action  child  the  control  the  default  behavior  nothing  this  string  typically  verb  describing  what  the  user  does  for  example  push  button  default  action  press  check  button  check  check  and  list  items  have  the  default  action  double  click  return  string  describing  the  default  action  the  specified  control  child  the  code  result  code  field  the  event  object  returning  null  tells  the  client  use  the  platform  default  action  string  param  event  object  containing  the  following  fields  child  identifier  specifying  the  control  one  its  children  result  out  the  requested  default  action  string  null 
+sent  when  accessibility  client  requests  the  identity  the  child  control  that  has  keyboard  focus  the  default  behavior  nothing  return  the  identifier  the  child  that  has  focus  the  code  child  code  field  the  event  object  return  childid  self  the  control  itself  has  keyboard  focus  return  childid  none  neither  the  control  nor  any  its  children  has  focus  param  event  object  containing  the  following  fields  child  typical  out  the  the  child  with  focus  childid  self  childid  none  accessible  optional  out  the  accessible  object  for  child  may  returned  instead  its  child 
+sent  when  accessibility  client  requests  the  role  the  control  the  role  child  the  control  the  default  behavior  nothing  return  role  constant  constant  defined  acc  beginning  with  role  that  describes  the  role  the  specified  control  child  the  code  detail  code  field  the  event  object  param  event  object  containing  the  following  fields  child  identifier  specifying  the  control  one  its  children  detail  out  role  constant  describing  the  role  the  control  child 
+sent  when  accessibility  client  requests  the  identity  the  child  control  that  currently  selected  the  default  behavior  nothing  return  the  identifier  the  selected  child  the  code  child  code  field  the  event  object  return  childid  self  the  control  itself  selected  return  childid  multiple  multiple  children  are  selected  and  return  array  child  the  code  children  code  field  return  childid  none  neither  the  control  nor  any  its  children  are  selected  param  event  object  containing  the  following  fields  child  typical  out  the  the  selected  child  childid  self  childid  multiple  childid  none  accessible  optional  out  the  accessible  object  for  the  control  child  may  returned  instead  the  child 
+sent  when  accessibility  client  requests  the  state  the  control  the  state  child  the  control  the  default  behavior  nothing  return  state  constant  constant  defined  acc  beginning  with  state  that  describes  the  current  state  the  specified  control  child  the  code  detail  code  field  the  event  object  param  event  object  containing  the  following  fields  child  identifier  specifying  the  control  one  its  children  detail  out  state  constant  describing  the  current  state  the  control  child 
+sent  when  accessibility  client  requests  the  value  the  control  the  value  child  the  control  the  default  behavior  nothing  many  controls  not  return  value  examples  controls  that  are  combo  returns  the  text  string  text  returns  its  contents progress bar  returns  string  representing  percentage  and  tree  items  return  string  representing  their  level  the  tree  return  string  describing  the  value  the  specified  control  child  the  code  result  code  field  the  event  object  returning  null  tells  the  client  use  the  platform  value  string  param  event  object  containing  the  following  fields  child  identifier  specifying  the  control  one  its  children  result  out  the  requested  value  string  null 
+sent  when  accessibility  client  requests  the  children  the  control  the  default  behavior  nothing  return  the  children  array  child  the  code  children  code  field  the  event  object  param  event  object  containing  the  following  fields  children  typical  out  array  child  accessible  optional  out  array  accessible  objects  for  the  children  may  returned  instead  the  child 
+</comments>
+</text>
+</DOC>

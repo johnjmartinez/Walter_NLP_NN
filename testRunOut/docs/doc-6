@@ -1,0 +1,1091 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.DefaultLineStyler.java </DOCNO>
+<text>
+<class>
+default line styler
+</class>
+<method>
+default line styler
+insert style
+insert styles
+insert merge style
+merge style before
+merge style after
+clear style
+expand lines
+delete style
+delete styles
+get style ranges
+line get background
+line get style
+search for style
+set line background
+set style range
+replace style ranges
+set style ranges
+text changing
+lines changing
+text changing
+get overlapping styles
+get line background
+get style range offset
+get style ranges for
+ release
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+ compatibility
+ java
+ util
+ vector
+default line styler
+line style listener
+line background listener
+styled text content
+ content
+style range
+ styles
+style range
+style count
+line expand exp
+line count
+ color
+line backgrounds
+default line styler
+styled text content
+ content
+ content
+ content
+line count
+ content
+get line count
+line backgrounds
+ color
+line count
+insert style
+style range
+ style
+ index
+insert styles
+style range
+ style
+ index
+insert styles
+style range
+insert styles
+ index
+ size
+ styles
+ length
+insert count
+insert styles
+ length
+space needed
+style count
+insert count
+ size
+space needed
+style range
+new styles
+style range
+ size
+space needed
+ system
+ arraycopy
+ styles
+new styles
+ size
+ styles
+new styles
+ system
+ arraycopy
+ styles
+ index
+ styles
+ index
+insert count
+style count
+ index
+ system
+ arraycopy
+insert styles
+ styles
+ index
+insert count
+style count
+style count
+insert count
+insert merge style
+style range
+ style
+ index
+merge style before
+ style
+ index
+merge style after
+ style
+ index
+insert style
+ style
+ index
+merge style before
+style range
+ style
+ index
+ index
+style range
+ previous
+ styles
+ index
+ style
+ similar
+ previous
+previous end
+ previous
+ start
+ previous
+ length
+ style
+ start
+previous end
+ style
+ start
+ previous
+ start
+style end
+ style
+ start
+ style
+ length
+ index
+style count
+style end
+ styles
+ index
+ start
+ previous
+ length
+ style
+ start
+ style
+ length
+ previous
+ start
+merge style after
+style range
+ style
+ index
+ index
+style count
+style range
+ next
+ styles
+ index
+ style
+ similar
+ next
+style end
+ style
+ start
+ style
+ length
+next end
+ next
+ start
+ next
+ length
+style end
+next end
+style end
+ next
+ start
+ index
+ style
+ start
+ styles
+ index
+ start
+ styles
+ index
+ length
+ next
+ length
+ next
+ start
+ next
+ length
+ style
+ start
+ next
+ start
+ style
+ start
+clear style
+style range
+clear style
+ point
+
+get overlapping styles
+clear style
+ start
+clear style
+ length
+clear style end
+clear style
+ start
+clear style
+ length
+
+
+
+ count
+delete style
+delete count
+
+
+
+ count
+
+
+
+style range
+ overlap
+ styles
+
+overlap end
+ overlap
+ start
+ overlap
+ length
+ overlap
+ start
+clear style
+ start
+overlap end
+clear style end
+ overlap
+ length
+clear style
+ start
+ overlap
+ start
+style range
+end style
+style range
+ overlap
+ clone
+end style
+ start
+clear style end
+end style
+ length
+overlap end
+clear style end
+ overlap
+ length
+clear style
+ start
+ overlap
+ start
+insert style
+end style
+
+overlap end
+clear style end
+delete style
+delete style
+
+delete count
+ overlap
+ start
+clear style end
+ overlap
+ length
+overlap end
+ overlap
+ start
+ count
+delete styles
+delete style
+delete count
+expand lines
+num lines
+ size
+line backgrounds
+ length
+ size
+line count
+num lines
+ color
+new lines
+ color
+ size
+ math
+ max
+ compatibility
+ pow
+line expand exp
+num lines
+ system
+ arraycopy
+line backgrounds
+new lines
+ size
+line backgrounds
+new lines
+line expand exp
+delete style
+ index
+delete styles
+ index
+delete styles
+ index
+ count
+ count
+ index
+ system
+ arraycopy
+ styles
+ index
+ count
+ styles
+ index
+style count
+ index
+ count
+
+
+ count
+
+ styles
+style count
+
+style count
+style count
+ count
+style range
+get style ranges
+style range
+new styles
+style range
+style count
+ system
+ arraycopy
+ styles
+new styles
+style count
+new styles
+line get background
+line background event
+ event
+line index
+ content
+get line offset
+ event
+line offset
+ event
+line background
+line backgrounds
+line index
+line get style
+line style event
+ event
+line start
+ event
+line offset
+line end
+line start
+ event
+line text
+ length
+ high
+search for style
+line start
+line end
+style range
+ style
+ vector
+line styles
+ vector
+ index
+ high
+ index
+style count
+ index
+ style
+ styles
+ index
+ style
+ start
+line end
+style end
+ style
+ start
+ style
+ length
+style end
+line start
+line styles
+add element
+ style
+ event
+ styles
+style range
+line styles
+ size
+line styles
+copy into
+ event
+ styles
+search for style
+ start
+ end
+ high
+style count
+ low
+ index
+ high
+ high
+ low
+ index
+ high
+ low
+style range
+ style
+ styles
+ index
+style end
+ style
+ start
+ style
+ length
+ start
+ style
+ start
+ end
+style end
+ start
+ style
+ start
+style end
+ start
+style end
+ end
+ high
+ index
+ low
+ index
+ high
+set line background
+start line
+ count
+ color
+ background
+
+start line
+
+start line
+ count
+
+line backgrounds
+
+ background
+set style range
+style range
+new style
+new style
+ styles
+style range
+style count
+new style
+ length
+new style
+ unstyled
+clear style
+new style
+ point
+
+get overlapping styles
+new style
+ start
+new style
+ length
+new style end
+new style
+ start
+new style
+ length
+
+insert style
+new style
+
+
+insert merge style
+new style
+
+
+ added
+ count
+
+
+
+ count
+
+
+
+style range
+ overlap
+ styles
+
+overlap end
+ overlap
+ start
+ overlap
+ length
+ overlap
+ start
+new style
+ start
+overlap end
+new style end
+new style
+ similar
+ overlap
+ overlap
+ length
+new style
+ start
+new style
+ length
+ overlap
+ start
+ overlap
+ length
+new style
+ start
+ overlap
+ start
+merge style after
+new style
+
+insert style
+new style
+
+
+ added
+new style
+ similar
+ overlap
+style range
+end style
+style range
+ overlap
+ clone
+end style
+ start
+new style end
+end style
+ length
+overlap end
+new style end
+ overlap
+ length
+new style
+ start
+ overlap
+ start
+insert style
+new style
+
+
+insert style
+end style
+
+overlap end
+new style end
+ added
+ styles
+
+new style
+ added
+delete style
+
+
+ overlap
+ start
+new style end
+ overlap
+ length
+overlap end
+ overlap
+ start
+ added
+insert merge style
+new style
+
+ count
+replace style ranges
+ start
+ length
+style range
+ ranges
+clear style
+style range
+ start
+ length
+ high
+style count
+ low
+ index
+ high
+ high
+ low
+ index
+ high
+ low
+style range
+ style
+ styles
+ index
+ start
+ style
+ start
+ high
+ index
+ low
+ index
+insert styles
+ ranges
+ high
+set style ranges
+style range
+ styles
+ styles
+style range
+ styles
+ length
+ system
+ arraycopy
+ styles
+ styles
+ styles
+ length
+style count
+ styles
+ length
+text changing
+text changing event
+ event
+start line
+ content
+get line offset
+ event
+ start
+start line offset
+ content
+get offset line
+start line
+text changing
+ event
+ start
+ event
+replace char count
+text changing
+ event
+ start
+ event
+new char count
+ event
+replace char count
+ content
+get char count
+lines changing
+line count
+lines changing
+ content
+get line count
+ event
+replace line count
+ event
+new line count
+ event
+ start
+start line offset
+start line
+start line
+lines changing
+start line
+ event
+replace line count
+lines changing
+start line
+ event
+new line count
+lines changing
+ start
+ delta
+ delta
+ inserting
+ delta
+ inserting
+expand lines
+ delta
+
+line count
+
+ start
+
+line backgrounds
+
+ delta
+line backgrounds
+
+
+ start
+
+ start
+ delta
+
+line backgrounds
+
+
+ start
+ delta
+
+line count
+
+line backgrounds
+
+ delta
+line backgrounds
+
+line count
+ delta
+text changing
+ start
+ delta
+ delta
+style range
+ style
+ end
+delete start
+delete count
+ inserting
+ delta
+ inserting
+ end
+ start
+ delta
+ end
+ start
+ delta
+ high
+search for style
+ start
+ end
+ index
+ index
+ high
+ index
+style count
+ index
+ style
+ styles
+ index
+ inserting
+ style
+ start
+ start
+style range
+before style
+style range
+ style
+ clone
+before style
+ length
+ start
+ style
+ start
+ style
+ start
+ start
+ style
+ length
+ style
+ length
+before style
+ length
+before style
+ length
+insert style
+before style
+ index
+ index
+style end
+ style
+ start
+ style
+ length
+ style
+ start
+ end
+ style
+ start
+ start
+style end
+ end
+ style
+ length
+ start
+ style
+ start
+ style
+ length
+ style
+ length
+ delta
+ index
+style end
+ end
+delete start
+delete start
+ index
+delete count
+ style
+ start
+ start
+ style
+ length
+style end
+ end
+ index
+delete styles
+delete start
+delete count
+
+ index
+delete count
+
+style count
+
+ style
+ styles
+
+ style
+ start
+ style
+ start
+ delta
+ point
+get overlapping styles
+ start
+ length
+style range
+ style
+style count
+ end
+ start
+ length
+ high
+search for style
+ start
+ end
+ count
+ index
+ high
+ index
+style count
+ index
+ style
+ styles
+ index
+style end
+ style
+ start
+ style
+ length
+ style
+ start
+ end
+style end
+ start
+ count
+ point
+ high
+ count
+ color
+get line background
+ index
+line backgrounds
+ index
+style range
+get style range offset
+ offset
+style count
+ point
+
+get overlapping styles
+ offset
+
+
+
+style range
+new style
+style range
+ styles
+
+
+ clone
+new style
+ start
+ offset
+new style
+ length
+new style
+style range
+get style ranges for
+ offset
+ length
+style count
+ point
+
+get overlapping styles
+ offset
+ length
+
+
+
+style range
+ ranges
+style range
+
+
+
+
+
+
+
+style range
+new style
+ styles
+
+
+
+ ranges
+
+new style
+ ranges
+ release
+ styles
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+the  number  styles
+the  expansion  exponent  used  increase  the  lines  array  exponentially
+creates  new  default  line  styler  param  content  the  text  which  the  styles  apply
+inserts  style  the  given  location  param  style  the  new  style  param  index  the  index  which  insert  the  style  the  new  style  will  reside  this  index
+insert  the  styles  the  given  location  param insert styles  the  new  styles  param  index  the  index  which  insert  the  styles  the  first  new  style  will  reside  this  index
+shift  the  styles  down  make  room  for  the  new  styles
+add  the  new  styles
+inserts  style  merging  with  adjacent  styles  possible  param  style  the  new  style  param  index  the  index  which  insert  the  style  the  new  style  will  reside  this  index  return  true  the  style  was  inserted  false  the  style  was  merged  with  adjacent  style
+merges  the  style  with  the  style  before  possible  param  style  the  new  style  param  index  the  index  which  attempt  the  merge  return  true  the  style  was  merged  false  otherwise
+see  the  style  similar  the  style  before  and  merge  the
+styles  possible
+the  start  style  needs  the  range  the  previous  style
+and  the  end  style  needs  the  start  the  next  style
+merges  the  style  with  the  style  after  possible  param  style  the  new  style  param  index  the  index  which  attempt  the  merge  return  true  the  style  was  merged  false  otherwise
+see  the  style  similar  the  style  that  will  after  and
+merge  the  styles  possible
+the  end  style  needs  the  range  the  next  style  and
+the  start  style  needs  the  end  the  previous  style
+removes  style  information  that  defined  for  the  range  text  code clear style  code  param clear style  the  style  information  use  for  clearing
+overlapped  styles  exist
+the new style  overlaps  one  more  the  existing  styles
+the  index  the  first  overlapped  style  the  number  overlapped
+  styles
+the  end  overlap  needs  cleared
+middle  overlap  needs  cleared  this  will
+cause  overlap  broken  into  two
+entire  overlap  needs  cleared
+beginning  overlap  needs  cleared
+increases  the  code  linebackgrounds  code  array  accomodate  new  line  background  information  param num lines  the  number  increase  the  array 
+deletes  the  style  code  index  code  param  index  the  index  the  style  deleted
+delete  count  styles  starting  code  index  code  param  index  the  index  the  style  deleted  param  count  the  number  styles  deleted
+shift  the  styles 
+returns  the  styles  that  are  defined  return  the  copied  array  styles
+handles  the  get  line  background  color  callback  param  event  the line offset  line  number  input line text  line  text  input  and  background  line  background  color  output
+handles  the  get  line  style  information  callback  param  event  the line offset  line  number  input line text  line  text  input  and  styles  array style ranges  need  order  output
+index  will  represent  style  that
+starts  after  the  line  end  processing
+ends  before  the  line  continue  processing
+starts  before  the  line  ends  the  line  add  range
+starts  the  line  ends  the  line  add  range
+starts  the  line  ends  after  the  line  add  range
+starts  before  the  line  ends  after  the  line  add  range
+style  starts  after  the  line  end  looping
+searches  for  the  first  style  the  code  start  code  code  end  code  range  return  the  index  the  first  style  that  overlaps  the  input  range
+find  the  index  the  first  style  for  the  given  range  use  binary  search
+updates  the  line  background  colors  reflect  new  color  called styled text  param start line  index  the  first  line  color  param  count  number  lines  color  starting start line  param  background  the  background  color  for  the  lines
+update  the  styles  reflect  the  new  style  code new style  code  will  replace  any  old  style  for  the  range  when  this  method  called  the default line styler  may  merge  the  new  style  with  existing  style  possible  called styled text  when  style  added  called styled text  param new style  the  new  style  information
+styles  exist
+new style  does  not  overlap  any  other  styles
+the new style  overlaps  one  more  the  existing  styles
+indicates  whether  not  the  new  style  has  been  added
+the  index  the  first  overlapped  style  the  number  overlapped
+  styles
+the  end  overlap  needs  replaced new style
+update  overlap  accomodate  the  new  style
+see new style  can  merged  with  the  style  after  overlap 
+processing  done
+otherwise  insert  the new style new style  may  still  overlap  other
+styles  after  continue  processing
+middle  overlap  needs  replaced new style  this  will
+cause  overlap  broken  into  two
+when new style  overlaps  the  middle  style  this  implies  that
+processing  done  more  overlapped  styles
+overlap  will  replaced  the new style  make  sure new style
+hasn  already  been  added  has  just  delete  overlap
+beginning  overlap  needs  replaced new style
+when new style  overlaps  only  the  beginning  style  this  implies
+that  processing  done  more  overlapped  styles
+replace  the  styles  for  the  given  range  param  start  the  initial  style  range  replace  param  length  the  number  ranges  replace  param  ranges  the  new  styles  must  order  and  non  overlapping
+find  insert  point
+sets  the  array  styles  and  discards  old  styles  called styled text  param  styles  the  new  styles  must  order  and  non  overlapping
+updates  the  style  ranges  and  line  backgrounds  reflect  pending  text  change  called styled text  when text changing event  received  param  event  the  event  with  the  text  change  information
+all  text  going  replaced  clear  line  backgrounds
+updates  the  line  backgrounds  reflect  pending  text  change  param  start  the  starting  line  the  change  that  about  take  place  param  delta  the  number  lines  the  change  indicates  lines  inserted  indicates  lines  deleted
+shift  the  lines  down  make  room  for  new  lines
+shift  the  lines
+updates  the  style  ranges  reflect  text  change  param  start  the  starting  offset  the  change  that  about  take  place  param  delta  the  length  the  change  indicates  text  inserted  indicates  text  deleted
+find  the  index  the  first  style  for  the  given  offset  use  binary  search
+find  the  index
+update  the  styles  that  are  the  affected  range
+the  insert  case  only  one  style  range  will  directly  affected
+will  need  split  into  two  and  then  the new style  inserted
+the  delete  case  any  style  that  overlaps  the  change  range  will 
+  affected
+style  starts  before  change  range  ends  change  range
+style  starts  before  change  range  ends  after  change  range
+style  starts  change  range  ends  change  range
+style  starts  change  range  ends  after  change  range
+change  the  offsets  the  styles  after  the  affected  styles
+returns  the  indexes  the  styles  that  overlap  the  given  range  styles  that  partially  fully  overlap  the  range  will  returned  return  point  where  the  index  the  starting  overlap  style  the  number  styles  that  overlap  the  range
+find  the  index  the  first  style  for  the  given  offset  use  binary  search
+find  the  index
+returns  the  background  color  line  called styled text  safe  return  the  existing  color  object  since  the  colors  are  set  and  managed  the  client  param  index  the  line  index  return  the  background  color  the  line  the  given  index
+returns  the  style  for  the  character  code  offset  code  called styled text  returns  new  style  does  not  return  the  existing  style  param  offset  the  character  position  the  text  return  cloned style range  with  start  offset  and  length  style  specified  null  style  specified
+returns  the  styles  for  the  given  range  returns  the  existing  styles  careful  not  modify  the  return  value  styles  are  not  cloned  order  make  this  method  efficient  possible  param  offset  the  start  position  the  text  range  param  length  the  length  the  text  range  return style range  array  null  styles  are  specified  for  the  text  range
+</comments>
+</text>
+</DOC>

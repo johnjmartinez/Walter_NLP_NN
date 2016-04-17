@@ -1,0 +1,427 @@
+<DOC>
+<DOCNO>org.eclipse.swt.graphics.Rectangle.java </DOCNO>
+<text>
+<class>
+ rectangle
+</class>
+<method>
+ rectangle
+ add
+ contains
+ contains
+ equals
+hash code
+ intersect
+ intersection
+ intersects
+ intersects
+ empty
+ string
+ union
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ internal
+serializable compatibility
+ org
+ eclipse
+ swt
+ rectangle
+serializable compatibility
+
+
+ width
+ height
+serial version uid
+ rectangle
+
+
+ width
+ height
+
+
+
+
+ width
+ width
+ height
+ height
+ add
+ rectangle
+ rect
+ rect
+ swt
+ error
+ swt
+error null argument
+ left
+
+ rect
+
+
+ rect
+
+ top
+
+ rect
+
+
+ rect
+
+ lhs
+
+ width
+ rhs
+ rect
+
+ rect
+ width
+ right
+ lhs
+ rhs
+ lhs
+ rhs
+ lhs
+
+ height
+ rhs
+ rect
+
+ rect
+ height
+ bottom
+ lhs
+ rhs
+ lhs
+ rhs
+
+ left
+
+ top
+ width
+ right
+ left
+ height
+ bottom
+ top
+ contains
+
+
+
+
+
+
+
+
+ width
+
+
+ height
+ contains
+ point
+
+
+ swt
+ error
+ swt
+error null argument
+ contains
+
+
+
+
+ equals
+ object
+ object
+ object
+ object
+ rectangle
+ rectangle
+
+ rectangle
+ object
+
+
+
+
+
+
+
+ width
+ width
+
+ height
+ height
+hash code
+
+
+ width
+ height
+ intersect
+ rectangle
+ rect
+ rect
+ swt
+ error
+ swt
+error null argument
+ rect
+ left
+
+ rect
+
+
+ rect
+
+ top
+
+ rect
+
+
+ rect
+
+ lhs
+
+ width
+ rhs
+ rect
+
+ rect
+ width
+ right
+ lhs
+ rhs
+ lhs
+ rhs
+ lhs
+
+ height
+ rhs
+ rect
+
+ rect
+ height
+ bottom
+ lhs
+ rhs
+ lhs
+ rhs
+
+ right
+ left
+ left
+
+ bottom
+ top
+ top
+ width
+ right
+ left
+ right
+ left
+ height
+ bottom
+ top
+ bottom
+ top
+ rectangle
+ intersection
+ rectangle
+ rect
+ rect
+ swt
+ error
+ swt
+error null argument
+ rect
+ rectangle
+
+
+ width
+ height
+ left
+
+ rect
+
+
+ rect
+
+ top
+
+ rect
+
+
+ rect
+
+ lhs
+
+ width
+ rhs
+ rect
+
+ rect
+ width
+ right
+ lhs
+ rhs
+ lhs
+ rhs
+ lhs
+
+ height
+ rhs
+ rect
+
+ rect
+ height
+ bottom
+ lhs
+ rhs
+ lhs
+ rhs
+ rectangle
+ right
+ left
+ left
+ bottom
+ top
+ top
+ right
+ left
+ right
+ left
+ bottom
+ top
+ bottom
+ top
+ intersects
+
+
+ width
+ height
+
+
+ width
+
+
+ height
+
+ width
+
+
+ height
+
+ intersects
+ rectangle
+ rect
+ rect
+ swt
+ error
+ swt
+error null argument
+ rect
+ intersects
+ rect
+
+ rect
+
+ rect
+ width
+ rect
+ height
+ empty
+ width
+ height
+ string
+ string
+
+
+ width
+ height
+ rectangle
+ union
+ rectangle
+ rect
+ rect
+ swt
+ error
+ swt
+error null argument
+ left
+
+ rect
+
+
+ rect
+
+ top
+
+ rect
+
+
+ rect
+
+ lhs
+
+ width
+ rhs
+ rect
+
+ rect
+ width
+ right
+ lhs
+ rhs
+ lhs
+ rhs
+ lhs
+
+ height
+ rhs
+ rect
+
+ rect
+ height
+ bottom
+ lhs
+ rhs
+ lhs
+ rhs
+ rectangle
+ left
+ top
+ right
+ left
+ bottom
+ top
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  represent  rectangular  areas  coordinate  system  the  top  left  corner  the  rectangle  specified  its  and  values  and  the  extent  the  rectangle  specified  its  width  and  height  the  coordinate  space  for  rectangles  and  points  considered  have  increasing  values  downward  and  the  right  from  its  origin  making  this  the  normal  computer  graphics  oriented  notion  coordinates  rather  than  the  strict  mathematical  one  the hash code  method  this  class  uses  the  values  the  public  fields  compute  the  hash  value  when  storing  instances  the  class  hashed  collections  not  modify  these  fields  after  the  object  has  been  inserted  application  code  does  not  need  explicitly  release  the  resources  managed  each  instance  when  those  instances  are  longer  required  and  thus  code  dispose  code  method  provided  see  point
+the  coordinate  the  rectangle
+the  coordinate  the  rectangle
+the  width  the  rectangle
+the  height  the  rectangle
+construct  new  instance  this  class  given  the  width  and  height  values  param  the  coordinate  the  origin  the  rectangle  param  the  coordinate  the  origin  the  rectangle  param  width  the  width  the  rectangle  param  height  the  height  the  rectangle
+destructively  replaces  the  width  and  height  values  the  receiver  with  ones  which  represent  the  union  the  rectangles  specified  the  receiver  and  the  given  rectangle  the  union  two  rectangles  the  smallest  single  rectangle  that  completely  covers  both  the  areas  covered  the  two  given  rectangles  param  rect  the  rectangle  merge  with  the  receiver  exception illegal argument exception  error  null  argument  the  argument  null 
+returns  code  true  code  the  point  specified  the  arguments  inside  the  area  specified  the  receiver  and  code  false  code  otherwise  param  the  coordinate  the  point  test  for  containment  param  the  coordinate  the  point  test  for  containment  return  code  true  code  the  rectangle  contains  the  point  and  code  false  code  otherwise
+returns  code  true  code  the  given  point  inside  the  area  specified  the  receiver  and  code  false  code  otherwise  param  the  point  test  for  containment  return  code  true  code  the  rectangle  contains  the  point  and  code  false  code  otherwise  exception illegal argument exception  error  null  argument  the  argument  null 
+compares  the  argument  the  receiver  and  returns  true  they  represent  the  same  object  using  class  specific  comparison  param  object  the  object  compare  with  this  object  return  code  true  code  the  object  the  same  this  object  and  code  false  code  otherwise  see hash code
+returns  integer  hash  code  for  the  receiver  any  two  objects  that  return  code  true  code  when  passed  code  equals  code  must  return  the  same  value  for  this  method  return  the  receiver  hash  see  equals  object
+destructively  replaces  the  width  and  height  values  the  receiver  with  ones  which  represent  the  intersection  the  rectangles  specified  the  receiver  and  the  given  rectangle  param  rect  the  rectangle  intersect  with  the  receiver  exception illegal argument exception  error  null  argument  the  argument  null  since 
+returns  new  rectangle  which  represents  the  intersection  the  receiver  and  the  given  rectangle  the  intersection  two  rectangles  the  rectangle  that  covers  the  area  which  contained  within  both  rectangles  param  rect  the  rectangle  intersect  with  the  receiver  return  the  intersection  the  receiver  and  the  argument  exception illegal argument exception  error  null  argument  the  argument  null 
+returns  code  true  code  the  rectangle  described  the  arguments  intersects  with  the  receiver  and  code  false  code  otherwise  two  rectangles  intersect  the  area  the  rectangle  representing  their  intersection  not  empty  param  the  coordinate  the  origin  the  rectangle  param  the  coordinate  the  origin  the  rectangle  param  width  the  width  the  rectangle  param  height  the  height  the  rectangle  return  code  true  code  the  rectangle  intersects  with  the  receiver  and  code  false  code  otherwise  exception illegal argument exception  error  null  argument  the  argument  null  see  intersection  rectangle  see  empty  since 
+returns  code  true  code  the  given  rectangle  intersects  with  the  receiver  and  code  false  code  otherwise  two  rectangles  intersect  the  area  the  rectangle  representing  their  intersection  not  empty  param  rect  the  rectangle  test  for  intersection  return  code  true  code  the  rectangle  intersects  with  the  receiver  and  code  false  code  otherwise  exception illegal argument exception  error  null  argument  the  argument  null  see  intersection  rectangle  see  empty
+returns  code  true  code  the  receiver  does  not  cover  any  area  the  coordinate  plane  and  code  false  code  the  receiver  does  cover  some  area  the  plane  rectangle  considered  cover  area  the  coordinate  plane  both  its  width  and  height  are  non  zero  return  code  true  code  the  receiver  empty  and  code  false  code  otherwise
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  rectangle
+non  nls  non  nls  non  nls  non  nls  non  nls 
+returns  new  rectangle  which  represents  the  union  the  receiver  and  the  given  rectangle  the  union  two  rectangles  the  smallest  single  rectangle  that  completely  covers  both  the  areas  covered  the  two  given  rectangles  param  rect  the  rectangle  perform  union  with  return  the  union  the  receiver  and  the  argument  exception illegal argument exception  error  null  argument  the  argument  null  see  add  rectangle
+</comments>
+</text>
+</DOC>

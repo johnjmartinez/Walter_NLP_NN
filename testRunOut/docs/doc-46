@@ -1,0 +1,31 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.LineStyleListener.java </DOCNO>
+<text>
+<class>
+line style listener
+</class>
+<method>
+line get style
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+line style listener
+swt event listener
+line get style
+line style event
+ event
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  method  called  when  line  about  drawn  order  get  the  line  style  information  the  following  event  fields  are  used  event line offset  line  start  offset  input  event line text  line  text  input  event  styles  array style ranges  need  order  output  param  event  the  given  event  see line style event
+</comments>
+</text>
+</DOC>

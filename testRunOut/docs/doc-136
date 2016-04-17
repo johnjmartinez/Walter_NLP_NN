@@ -1,0 +1,374 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.ole.win32.ITypeInfo.java </DOCNO>
+<text>
+<class>
+type info
+</class>
+<method>
+type info
+get documentation
+get func desc
+get names
+get impl type flags
+get names
+get ref type info
+get ref type impl type
+get type attr
+get var desc
+release func desc
+release type attr
+release var desc
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ internal
+ win
+
+type info
+ unknown
+type info
+ address
+ address
+get documentation
+ index
+ string
+ name
+ string
+doc string
+pdw help context
+ string
+help file
+bstr name
+ name
+bstr name
+bstr doc string
+doc string
+bstr doc string
+bstr help file
+help file
+bstr help file
+
+ com
+vtbl call
+ address
+ index
+bstr name
+bstr doc string
+pdw help context
+bstr help file
+ name
+bstr name
+ size
+ com
+sys string byte len
+bstr name
+ size
+ buffer
+ size
+ com
+move memory
+ buffer
+bstr name
+ size
+ name
+ string
+ buffer
+ subindex
+ name
+ index
+ subindex
+ name
+ name
+ substring
+ subindex
+ com
+sys free string
+bstr name
+doc string
+bstr doc string
+ size
+ com
+sys string byte len
+bstr doc string
+ size
+ buffer
+ size
+ com
+move memory
+ buffer
+bstr doc string
+ size
+doc string
+ string
+ buffer
+ subindex
+doc string
+ index
+ subindex
+doc string
+doc string
+ substring
+ subindex
+ com
+sys free string
+bstr doc string
+help file
+bstr help file
+ size
+ com
+sys string byte len
+bstr help file
+ size
+ buffer
+ size
+ com
+move memory
+ buffer
+bstr help file
+ size
+help file
+ string
+ buffer
+ subindex
+help file
+ index
+ subindex
+help file
+help file
+ substring
+ subindex
+ com
+sys free string
+bstr help file
+
+get func desc
+ index
+func desc
+ com
+vtbl call
+ address
+ index
+func desc
+get names
+ string
+rgsz names
+ names
+ mem
+ buffer
+ size
+rgsz names
+ length
+ heap
+
+get process heap
+ names
+
+heap alloc
+ heap
+
+heap zero memory
+ size
+mem tracker
+ size
+
+
+ size
+
+name size
+rgsz names
+
+ length
+ buffer
+name size
+rgsz names
+
+get chars
+name size
+ buffer
+ name
+
+heap alloc
+ heap
+
+heap zero memory
+ buffer
+ length
+
+move memory
+ name
+ buffer
+ buffer
+ length
+ com
+move memory
+ names
+
+ name
+mem tracker
+
+ name
+ com
+vtbl call
+ address
+ names
+ names
+ mem
+
+
+mem tracker
+ length
+
+
+heap free
+ heap
+mem tracker
+
+
+heap free
+ heap
+ names
+get impl type flags
+ index
+impl type flags
+ com
+vtbl call
+ address
+ index
+impl type flags
+get names
+ memid
+ string
+ names
+max names
+ names
+name size
+ names
+ length
+bstr names
+name size
+
+ com
+vtbl call
+ address
+ memid
+bstr names
+name size
+ names
+
+ com
+
+
+
+ names
+
+ size
+ com
+sys string byte len
+bstr names
+
+ size
+ buffer
+ size
+ com
+move memory
+ buffer
+bstr names
+
+ size
+ names
+
+ string
+ buffer
+ subindex
+ names
+
+ index
+ subindex
+ names
+
+ names
+
+ substring
+ subindex
+ com
+sys free string
+bstr names
+
+
+get ref type info
+ref type
+ info
+ com
+vtbl call
+ address
+ref type
+ info
+get ref type impl type
+ index
+ref type
+ com
+vtbl call
+ address
+ index
+ref type
+get type attr
+type attr
+ com
+vtbl call
+ address
+type attr
+get var desc
+ index
+var desc
+ com
+vtbl call
+ address
+ index
+var desc
+release func desc
+func desc
+ com
+vtbl call
+ address
+func desc
+release type attr
+type attr
+ com
+vtbl call
+ address
+type attr
+release var desc
+var desc
+ com
+vtbl call
+ address
+var desc
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+get  the  unicode  character  array  from  the  global  memory  and  create  string
+add  one  avoid  rounding  errors
+get  the  unicode  character  array  from  the  global  memory  and  create  string
+add  one  avoid  rounding  errors
+get  the  unicode  character  array  from  the  global  memory  and  create  string
+add  one  avoid  rounding  errors
+create  array  hold  the  addresses
+add  the  address  each  string  the  array
+create  null  terminated  array  char  for  each  string
+get  the  address  the  start  the  array  char
+copy  the  address  the  array  addresses
+keep  track  the  global  memory  can  free 
+free  the  memory
+get  the  unicode  character  array  from  the  global  memory  and  create  string
+add  one  avoid  rounding  errors
+</comments>
+</text>
+</DOC>

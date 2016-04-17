@@ -1,0 +1,141 @@
+<DOC>
+<DOCNO>org.eclipse.swt.ole.win32.OleEventTable.java </DOCNO>
+<text>
+<class>
+ole event table
+</class>
+<method>
+ hook
+ hooks
+send event
+ unhook
+has entries
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ ole
+ win
+ole event table
+ types
+ole listener
+ handlers
+ hook
+event type
+ole listener
+ handler
+ types
+ types
+ handlers
+ handlers
+ole listener
+
+
+ types
+ length
+
+ types
+
+ types
+
+event type
+ handlers
+
+ handler
+ size
+ types
+ length
+new types
+ size
+ole listener
+new handlers
+ole listener
+ size
+ system
+ arraycopy
+ types
+new types
+ size
+ system
+ arraycopy
+ handlers
+new handlers
+ size
+ types
+new types
+ handlers
+new handlers
+ types
+ size
+event type
+ handlers
+ size
+ handler
+ hooks
+event type
+ handlers
+
+
+ types
+ length
+
+ types
+
+event type
+send event
+ole event
+ event
+ handlers
+
+
+ types
+ length
+
+ types
+
+ event
+ type
+ole listener
+ listener
+ handlers
+
+ listener
+ listener
+handle event
+ event
+ unhook
+event type
+ole listener
+ handler
+ handlers
+
+
+ types
+ length
+
+ types
+
+event type
+ handlers
+
+ handler
+ types
+
+ handlers
+
+has entries
+
+
+ types
+ length
+
+ types
+
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+the ole event table  class  implements  simple  look  mechanism  that  maps  event  type  listener  muliple  listeners  for  the  same  event  type  are  supported
+</comments>
+</text>
+</DOC>

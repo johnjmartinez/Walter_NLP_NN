@@ -1,0 +1,2449 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.List.java </DOCNO>
+<text>
+<class>
+ list
+</class>
+<method>
+ list
+ add
+ add
+add selection listener
+call window proc
+check style
+compute size
+default background
+ deselect
+ deselect
+ deselect
+deselect all
+get focus index
+get item
+get item count
+get item height
+get items
+get selection
+get selection count
+get selection index
+get selection indices
+get top index
+ index
+ index
+ selected
+ remove
+ remove
+ remove
+ remove
+remove all
+remove selection listener
+ select
+ select
+ select
+ select
+ select
+ select
+select all
+set bounds
+set focus index
+set font
+set item
+set items
+set scroll width
+set scroll width
+set scroll width
+set selection
+set selection
+set selection
+set selection
+set top index
+show selection
+widget style
+window class
+window proc
+command child
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ events
+ list
+ scrollable
+list proc
+ tchar
+list class
+ tchar
+ wndclass
+wnd class
+ wndclass
+
+get class info
+list class
+wnd class
+list proc
+wnd class
+lpfn wnd proc
+ list
+ composite
+ parent
+ style
+ parent
+check style
+ style
+ add
+ string
+ string
+check widget
+ string
+ error
+ swt
+error null argument
+ tchar
+ buffer
+ tchar
+get code page
+ string
+ result
+
+send message
+ handle
+
+ addstring
+ buffer
+ result
+
+ err
+ error
+ swt
+error item not added
+ result
+
+ errspace
+ error
+ swt
+error item not added
+ style
+ swt
+ scroll
+set scroll width
+ buffer
+ add
+ string
+ string
+ index
+check widget
+ string
+ error
+ swt
+error null argument
+ index
+ error
+ swt
+error invalid range
+ tchar
+ buffer
+ tchar
+get code page
+ string
+ result
+
+send message
+ handle
+
+ insertstring
+ index
+ buffer
+ result
+
+ errspace
+ error
+ swt
+error item not added
+ result
+
+ err
+ count
+
+send message
+ handle
+
+ getcount
+ index
+ index
+ count
+ error
+ swt
+error item not added
+ error
+ swt
+error invalid range
+ style
+ swt
+ scroll
+set scroll width
+ buffer
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+call window proc
+ hwnd
+ msg
+ param
+ param
+ handle
+
+call window proc
+list proc
+ hwnd
+ msg
+ param
+ param
+check style
+ style
+check bits
+ style
+ swt
+ single
+ swt
+ multi
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+ width
+ height
+ hint
+ swt
+ default
+ style
+ swt
+ scroll
+ width
+
+send message
+ handle
+
+ gethorizontalextent
+ count
+
+send message
+ handle
+
+ getcount
+new font
+old font
+
+
+ get
+ handle
+new font
+
+send message
+ handle
+
+ getfont
+new font
+old font
+
+select object
+
+new font
+ rect
+ rect
+ rect
+ flags
+
+ calcrect
+
+ singleline
+
+ noprefix
+
+get code page
+ tchar
+ buffer
+ tchar
+
+
+
+ count
+
+ length
+
+send message
+ handle
+
+ gettextlen
+
+ length
+
+ err
+ length
+ buffer
+ length
+ buffer
+ tchar
+
+ length
+ result
+
+send message
+ handle
+
+ gettext
+
+ buffer
+ result
+
+ err
+
+draw text
+
+ buffer
+ length
+ rect
+ flags
+ width
+ math
+ max
+ width
+ rect
+ right
+ rect
+ left
+new font
+
+select object
+
+old font
+
+ release
+ handle
+
+ hint
+ swt
+ default
+ count
+
+send message
+ handle
+
+ getcount
+item height
+
+send message
+ handle
+
+ getitemheight
+ height
+ count
+item height
+ width
+ width
+default width
+ height
+ height
+default height
+ hint
+ swt
+ default
+ width
+ hint
+ hint
+ swt
+ default
+ height
+ hint
+ border
+get border width
+ width
+ border
+ height
+ border
+ style
+ swt
+ scroll
+ width
+
+get system metrics
+
+ cxvscroll
+ style
+ swt
+ scroll
+ height
+
+get system metrics
+
+ cyhscroll
+ point
+ width
+ height
+default background
+
+get sys color
+
+color window
+ deselect
+ indices
+check widget
+ indices
+ error
+ swt
+error null argument
+ indices
+ length
+ style
+ swt
+ single
+old index
+
+send message
+ handle
+
+ getcursel
+old index
+
+ err
+
+
+ indices
+ length
+
+old index
+ indices
+
+
+send message
+ handle
+
+ setcursel
+
+
+ indices
+ length
+
+ index
+ indices
+
+ index
+
+send message
+ handle
+
+ setsel
+ index
+ deselect
+ index
+check widget
+ index
+ style
+ swt
+ single
+old index
+
+send message
+ handle
+
+ getcursel
+old index
+
+ err
+old index
+ index
+
+send message
+ handle
+
+ setcursel
+
+send message
+ handle
+
+ setsel
+ index
+ deselect
+ start
+ end
+check widget
+ start
+ end
+ style
+ swt
+ single
+old index
+
+send message
+ handle
+
+ getcursel
+old index
+
+ err
+ start
+old index
+old index
+ end
+
+send message
+ handle
+
+ setcursel
+ count
+
+send message
+ handle
+
+ getcount
+ start
+ end
+ start
+ count
+ end
+ count
+ start
+ math
+ min
+ count
+ math
+ max
+ start
+ end
+ math
+ min
+ count
+ math
+ max
+ end
+
+send message
+ handle
+
+ selitemrangeex
+ end
+ start
+deselect all
+check widget
+ style
+ swt
+ single
+
+send message
+ handle
+
+ setcursel
+
+send message
+ handle
+
+ setsel
+get focus index
+check widget
+ result
+
+send message
+ handle
+
+ getcaretindex
+ result
+ count
+
+send message
+ handle
+
+ getcount
+ count
+ result
+ string
+get item
+ index
+check widget
+ length
+
+send message
+ handle
+
+ gettextlen
+ index
+ length
+
+ err
+ tchar
+ buffer
+ tchar
+get code page
+ length
+ result
+
+send message
+ handle
+
+ gettext
+ index
+ buffer
+ result
+
+ err
+ buffer
+ string
+ length
+ count
+
+send message
+ handle
+
+ getcount
+ index
+ index
+ count
+ error
+ swt
+error cannot get item
+ error
+ swt
+error invalid range
+get item count
+check widget
+ result
+
+send message
+ handle
+
+ getcount
+ result
+
+ err
+ error
+ swt
+error cannot get count
+ result
+get item height
+check widget
+ result
+
+send message
+ handle
+
+ getitemheight
+ result
+
+ err
+ error
+ swt
+error cannot get item height
+ result
+ string
+get items
+check widget
+ count
+get item count
+ string
+ result
+ string
+ count
+
+
+ count
+
+ result
+
+get item
+
+ result
+ string
+get selection
+check widget
+ indices
+get selection indices
+ string
+ result
+ string
+ indices
+ length
+
+
+ indices
+ length
+
+ result
+
+get item
+ indices
+
+ result
+get selection count
+check widget
+ style
+ swt
+ single
+ result
+
+send message
+ handle
+
+ getcursel
+ result
+
+ err
+ result
+
+send message
+ handle
+
+ getselcount
+ result
+
+ err
+ error
+ swt
+error cannot get count
+ result
+get selection index
+check widget
+ style
+ swt
+ single
+
+send message
+ handle
+
+ getcursel
+ count
+
+send message
+ handle
+
+ getselcount
+ count
+
+ err
+ error
+ swt
+error cannot get selection
+ count
+ index
+
+send message
+ handle
+
+ getcaretindex
+ result
+
+send message
+ handle
+
+ getsel
+ index
+ result
+
+ err
+ error
+ swt
+error cannot get selection
+ result
+ index
+ buffer
+ result
+
+send message
+ handle
+
+ getselitems
+ buffer
+ result
+ error
+ swt
+error cannot get selection
+ buffer
+get selection indices
+check widget
+ style
+ swt
+ single
+ result
+
+send message
+ handle
+
+ getcursel
+ result
+
+ err
+ result
+ length
+
+send message
+ handle
+
+ getselcount
+ length
+
+ err
+ error
+ swt
+error cannot get selection
+ indices
+ length
+ result
+
+send message
+ handle
+
+ getselitems
+ length
+ indices
+ result
+ length
+ error
+ swt
+error cannot get selection
+ indices
+get top index
+check widget
+
+send message
+ handle
+
+ gettopindex
+ index
+ string
+ string
+ index
+ string
+ index
+ string
+ string
+ start
+check widget
+ string
+ error
+ swt
+error null argument
+ string
+ length
+ count
+get item count
+
+ start
+
+ count
+
+ string
+ equals
+get item
+
+
+ count
+
+send message
+ handle
+
+ getcount
+ start
+ start
+ count
+ index
+ start
+ last
+ tchar
+ buffer
+ tchar
+get code page
+ string
+ index
+
+send message
+ handle
+
+ findstringexact
+ last
+ index
+ buffer
+ index
+
+ err
+ index
+ last
+ string
+ equals
+get item
+ index
+ index
+ selected
+ index
+check widget
+ result
+
+send message
+ handle
+
+ getsel
+ index
+ result
+ result
+
+ err
+ remove
+ indices
+check widget
+ indices
+ error
+ swt
+error null argument
+ indices
+ length
+new indices
+ indices
+ length
+ system
+ arraycopy
+ indices
+new indices
+ indices
+ length
+ sort
+new indices
+ start
+new indices
+new indices
+ length
+ end
+new indices
+ count
+
+send message
+ handle
+
+ getcount
+ start
+ start
+ end
+ end
+ count
+ error
+ swt
+error invalid range
+top index
+
+send message
+ handle
+
+ gettopindex
+ rect
+ rect
+
+old font
+new font
+new width
+ style
+ swt
+ scroll
+ rect
+ rect
+
+
+ get
+ handle
+new font
+
+send message
+ handle
+
+ getfont
+new font
+old font
+
+select object
+
+new font
+
+get code page
+
+top count
+ last
+
+new indices
+ length
+ index
+new indices
+
+ index
+ last
+ tchar
+ buffer
+ style
+ swt
+ scroll
+ length
+
+send message
+ handle
+
+ gettextlen
+ index
+ length
+
+ err
+ buffer
+ tchar
+
+ length
+ result
+
+send message
+ handle
+
+ gettext
+ index
+ buffer
+ result
+
+ err
+ result
+
+send message
+ handle
+
+ deletestring
+ index
+ result
+
+ err
+ style
+ swt
+ scroll
+ flags
+
+ calcrect
+
+ singleline
+
+ noprefix
+
+draw text
+
+ buffer
+ rect
+ flags
+new width
+ math
+ max
+new width
+ rect
+ right
+ rect
+ left
+ index
+top index
+top count
+ last
+ index
+
+ style
+ swt
+ scroll
+new font
+
+select object
+
+old font
+
+ release
+ handle
+
+set scroll width
+new width
+top count
+top index
+top count
+
+send message
+ handle
+
+ settopindex
+top index
+
+new indices
+ length
+ error
+ swt
+error item not removed
+ remove
+ index
+check widget
+ tchar
+ buffer
+ style
+ swt
+ scroll
+ length
+
+send message
+ handle
+
+ gettextlen
+ index
+ length
+
+ err
+ error
+ swt
+error item not removed
+ buffer
+ tchar
+get code page
+ length
+ result
+
+send message
+ handle
+
+ gettext
+ index
+ buffer
+ result
+
+ err
+ error
+ swt
+error item not removed
+top index
+
+send message
+ handle
+
+ gettopindex
+ result
+
+send message
+ handle
+
+ deletestring
+ index
+ result
+
+ err
+ count
+
+send message
+ handle
+
+ getcount
+ index
+ index
+ count
+ error
+ swt
+error item not removed
+ error
+ swt
+error invalid range
+ style
+ swt
+ scroll
+set scroll width
+ buffer
+ index
+top index
+
+send message
+ handle
+
+ settopindex
+top index
+ remove
+ start
+ end
+check widget
+ start
+ end
+ count
+
+send message
+ handle
+
+ getcount
+ start
+ start
+ end
+ end
+ count
+ error
+ swt
+error invalid range
+ start
+ end
+ count
+remove all
+top index
+
+send message
+ handle
+
+ gettopindex
+ rect
+ rect
+
+old font
+new font
+new width
+ style
+ swt
+ scroll
+ rect
+ rect
+
+
+ get
+ handle
+new font
+
+send message
+ handle
+
+ getfont
+new font
+old font
+
+select object
+
+new font
+
+get code page
+ index
+ start
+ flags
+
+ calcrect
+
+ singleline
+
+ noprefix
+ index
+ end
+ tchar
+ buffer
+ style
+ swt
+ scroll
+ length
+
+send message
+ handle
+
+ gettextlen
+ start
+ length
+
+ err
+ buffer
+ tchar
+
+ length
+ result
+
+send message
+ handle
+
+ gettext
+ start
+ buffer
+ result
+
+ err
+ result
+
+send message
+ handle
+
+ deletestring
+ start
+ result
+
+ err
+ style
+ swt
+ scroll
+
+draw text
+
+ buffer
+ rect
+ flags
+new width
+ math
+ max
+new width
+ rect
+ right
+ rect
+ left
+ index
+ style
+ swt
+ scroll
+new font
+
+select object
+
+old font
+
+ release
+ handle
+
+set scroll width
+new width
+ end
+top index
+top index
+ end
+ start
+
+send message
+ handle
+
+ settopindex
+top index
+ index
+ end
+ error
+ swt
+error item not removed
+ remove
+ string
+ string
+check widget
+ string
+ error
+ swt
+error null argument
+ index
+ index
+ string
+ index
+ error
+ swt
+error invalid argument
+ remove
+ index
+remove all
+check widget
+
+send message
+ handle
+
+ resetcontent
+ style
+ swt
+ scroll
+
+send message
+ handle
+
+ sethorizontalextent
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ selection
+ listener
+event table
+ unhook
+ swt
+default selection
+ listener
+ select
+ indices
+check widget
+ indices
+ error
+ swt
+error null argument
+ length
+ indices
+ length
+ length
+ style
+ swt
+ single
+ length
+ select
+ indices
+ select
+ indices
+ scroll
+
+
+ indices
+ length
+ index
+ indices
+
+ index
+ select
+ index
+
+ scroll
+show selection
+ select
+ index
+check widget
+ select
+ index
+ select
+ index
+ scroll
+ index
+ count
+
+send message
+ handle
+
+ getcount
+ index
+ count
+ scroll
+ style
+ swt
+ single
+
+send message
+ handle
+
+ setcursel
+ index
+
+send message
+ handle
+
+ setsel
+ index
+top index
+
+send message
+ handle
+
+ gettopindex
+ rect
+item rect
+ rect
+selected rect
+
+send message
+ handle
+
+ getitemrect
+ index
+item rect
+ redraw
+draw count
+
+window visible
+ handle
+ redraw
+
+update window
+ handle
+
+send message
+ handle
+
+ setredraw
+focus index
+ style
+ swt
+ single
+old index
+
+send message
+ handle
+
+ getcursel
+old index
+selected rect
+ rect
+
+send message
+ handle
+
+ getitemrect
+old index
+selected rect
+
+send message
+ handle
+
+ setcursel
+ index
+focus index
+
+send message
+ handle
+
+ getcaretindex
+
+send message
+ handle
+
+ setsel
+ index
+ style
+ swt
+ multi
+focus index
+
+send message
+ handle
+
+ setcaretindex
+focus index
+
+send message
+ handle
+
+ settopindex
+top index
+ redraw
+
+send message
+ handle
+
+ setredraw
+
+validate rect
+ handle
+
+invalidate rect
+ handle
+item rect
+selected rect
+
+invalidate rect
+ handle
+selected rect
+ select
+ start
+ end
+check widget
+ end
+ start
+ end
+ style
+ swt
+ single
+ start
+ end
+ count
+
+send message
+ handle
+
+ getcount
+ count
+ start
+ count
+ start
+ math
+ max
+ start
+ end
+ math
+ min
+ end
+ count
+ style
+ swt
+ single
+ select
+ start
+ select
+ start
+ end
+ select
+ start
+ end
+ scroll
+ start
+ end
+ select
+ start
+ scroll
+
+send message
+ handle
+
+ selitemrangeex
+ start
+ end
+ scroll
+show selection
+select all
+check widget
+ style
+ swt
+ single
+
+send message
+ handle
+
+ setsel
+set bounds
+
+
+ width
+ height
+ flags
+ parent
+ lpwp
+ flags
+
+swp nosize
+set bounds
+
+
+ width
+ height
+ flags
+ rect
+ rect
+ rect
+
+get window rect
+ handle
+ rect
+old width
+ rect
+ right
+ rect
+ left
+old height
+ rect
+ bottom
+ rect
+ top
+set bounds
+
+
+ width
+ height
+ flags
+old width
+ width
+old height
+ height
+ scrollinfo
+ info
+ scrollinfo
+ info
+ size
+ scrollinfo
+ sizeof
+ info
+ mask
+
+sif pos
+
+get scroll info
+ handle
+
+ horz
+ info
+ info
+ pos
+
+invalidate rect
+ handle
+set focus index
+ index
+ count
+
+send message
+ handle
+
+ getcount
+ index
+ index
+ count
+
+send message
+ handle
+
+ setcaretindex
+ index
+set font
+ font
+ font
+check widget
+set font
+ font
+ style
+ swt
+ scroll
+set scroll width
+set item
+ index
+ string
+ string
+check widget
+ string
+ error
+ swt
+error null argument
+top index
+get top index
+ selected
+ selected
+ index
+ remove
+ index
+ add
+ string
+ index
+ selected
+ select
+ index
+set top index
+top index
+set items
+ string
+ items
+check widget
+ items
+ error
+ swt
+error null argument
+
+
+ items
+ length
+
+ items
+
+ error
+ swt
+error invalid argument
+old proc
+
+get window long
+ handle
+
+gwl wndproc
+
+set window long
+ handle
+
+gwl wndproc
+list proc
+ redraw
+draw count
+
+window visible
+ handle
+ redraw
+
+send message
+ handle
+
+ setredraw
+ rect
+ rect
+
+old font
+new font
+new width
+ style
+ swt
+ scroll
+ rect
+ rect
+
+
+ get
+ handle
+new font
+
+send message
+ handle
+
+ getfont
+new font
+old font
+
+select object
+
+new font
+
+send message
+ handle
+
+ sethorizontalextent
+ length
+ items
+ length
+
+send message
+ handle
+
+ resetcontent
+
+send message
+ handle
+
+ initstorage
+ length
+ length
+ index
+
+get code page
+ index
+ length
+ string
+ string
+ items
+ index
+ tchar
+ buffer
+ tchar
+
+ string
+ result
+
+send message
+ handle
+
+ addstring
+ buffer
+ result
+
+ err
+ result
+
+ errspace
+ style
+ swt
+ scroll
+ flags
+
+ calcrect
+
+ singleline
+
+ noprefix
+
+draw text
+
+ buffer
+ buffer
+ length
+ rect
+ flags
+new width
+ math
+ max
+new width
+ rect
+ right
+ rect
+ left
+ index
+ style
+ swt
+ scroll
+new font
+
+select object
+
+old font
+
+ release
+ handle
+
+
+send message
+ handle
+
+ sethorizontalextent
+new width
+ redraw
+
+send message
+ handle
+
+ setredraw
+
+set window long
+ handle
+
+gwl wndproc
+old proc
+ index
+ items
+ length
+ error
+ swt
+error item not added
+set scroll width
+new width
+ rect
+ rect
+ rect
+new font
+old font
+
+
+ get
+ handle
+new font
+
+send message
+ handle
+
+ getfont
+new font
+old font
+
+select object
+
+new font
+
+get code page
+ count
+
+send message
+ handle
+
+ getcount
+ flags
+
+ calcrect
+
+ singleline
+
+ noprefix
+
+
+ count
+
+ length
+
+send message
+ handle
+
+ gettextlen
+
+ length
+
+ err
+ tchar
+ buffer
+ tchar
+
+ length
+ result
+
+send message
+ handle
+
+ gettext
+
+ buffer
+ result
+
+ err
+
+draw text
+
+ buffer
+ rect
+ flags
+new width
+ math
+ max
+new width
+ rect
+ right
+ rect
+ left
+new font
+
+select object
+
+old font
+
+ release
+ handle
+
+
+send message
+ handle
+
+ sethorizontalextent
+new width
+set scroll width
+ tchar
+ buffer
+ grow
+ rect
+ rect
+ rect
+new font
+old font
+
+
+ get
+ handle
+new font
+
+send message
+ handle
+
+ getfont
+new font
+old font
+
+select object
+
+new font
+ flags
+
+ calcrect
+
+ singleline
+
+ noprefix
+
+draw text
+
+ buffer
+ rect
+ flags
+new font
+
+select object
+
+old font
+
+ release
+ handle
+
+set scroll width
+ rect
+ right
+ rect
+ left
+ grow
+set scroll width
+new width
+ grow
+ width
+
+send message
+ handle
+
+ gethorizontalextent
+ grow
+new width
+ width
+
+send message
+ handle
+
+ sethorizontalextent
+new width
+new width
+ width
+set scroll width
+set selection
+ indices
+check widget
+ indices
+ error
+ swt
+error null argument
+deselect all
+ length
+ indices
+ length
+ length
+ style
+ swt
+ single
+ length
+ select
+ indices
+ style
+ swt
+ multi
+focus index
+ indices
+focus index
+set focus index
+focus index
+set selection
+ string
+ items
+check widget
+ items
+ error
+ swt
+error null argument
+deselect all
+ length
+ items
+ length
+ length
+ style
+ swt
+ single
+ length
+focus index
+
+ length
+
+
+ string
+ string
+ items
+
+ index
+ string
+local focus
+ index
+ index
+ string
+ index
+local focus
+local focus
+ index
+ select
+ index
+ style
+ swt
+ single
+ selected
+ index
+show selection
+ index
+local focus
+focus index
+local focus
+ style
+ swt
+ multi
+focus index
+set focus index
+focus index
+set selection
+ index
+check widget
+deselect all
+ select
+ index
+ style
+ swt
+ multi
+ index
+set focus index
+ index
+set selection
+ start
+ end
+check widget
+deselect all
+ end
+ start
+ end
+ style
+ swt
+ single
+ start
+ end
+ count
+
+send message
+ handle
+
+ getcount
+ count
+ start
+ count
+ start
+ math
+ max
+ start
+ end
+ math
+ min
+ end
+ count
+ style
+ swt
+ single
+ select
+ start
+ select
+ start
+ end
+set focus index
+ start
+set top index
+ index
+check widget
+ result
+
+send message
+ handle
+
+ settopindex
+ index
+ result
+
+ err
+ count
+
+send message
+ handle
+
+ getcount
+ index
+ math
+ min
+ count
+ math
+ max
+ index
+
+send message
+ handle
+
+ settopindex
+ index
+show selection
+check widget
+ index
+ style
+ swt
+ single
+ index
+
+send message
+ handle
+
+ getcursel
+ indices
+ result
+
+send message
+ handle
+
+ getselitems
+ indices
+ index
+ indices
+ result
+ index
+ index
+ count
+
+send message
+ handle
+
+ getcount
+ count
+ height
+
+send message
+ handle
+
+ getitemheight
+force resize
+ rect
+ rect
+ rect
+
+get client rect
+ handle
+ rect
+top index
+
+send message
+ handle
+
+ gettopindex
+visible count
+ math
+ max
+ rect
+ bottom
+ height
+bottom index
+ math
+ min
+top index
+visible count
+ count
+top index
+ index
+ index
+bottom index
+new top
+ math
+ min
+ math
+ max
+ index
+visible count
+ count
+
+send message
+ handle
+
+ settopindex
+new top
+widget style
+ bits
+widget style
+
+lbs notify
+
+lbs nointegralheight
+ style
+ swt
+ single
+ bits
+ style
+ swt
+ multi
+ style
+ swt
+ simple
+ bits
+
+lbs multiplesel
+ bits
+
+lbs extendedsel
+ bits
+ tchar
+window class
+list class
+window proc
+list proc
+ lresult
+command child
+ param
+ param
+ code
+ param
+ code
+
+lbn selchange
+post event
+ swt
+ selection
+
+lbn dblclk
+post event
+ swt
+default selection
+command child
+ param
+ param
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  represent  selectable  user  interface  object  that  displays  list  strings  and  issues  notification  when  string  selected  list  may  single  multi  select  styles  single  multi  events  selection default selection  note  only  one  single  and  multi  may  specified  important  this  class  not  intended  subclassed 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  single  see  swt  multi  see  widget check subclass  see  widget get style
+adds  the  argument  the  end  the  receiver  list  param  string  the  new  item  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  add  string  int
+adds  the  argument  the  receiver  list  the  given  zero  relative  index  note  add  item  the  end  the  list  use  the  result  calling  code get item count  code  the  index  use  code  add  string  code  param  string  the  new  item  param  index  the  index  for  the  item  exception illegal argument exception  error  null  argument  the  string  null  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  add  string
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  receiver  selection  changes  sending  one  the  messages  defined  the  code selection listener  code  interface  code widget selected  code  called  when  the  selection  changes  code widget default selected  code  typically  called  when  item  double  clicked  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener  see selection event
+deselects  the  items  the  given  zero  relative  indices  the  receiver  the  item  the  given  zero  relative  index  the  receiver  selected  deselected  the  item  the  index  was  not  selected  remains  deselected  indices  that  are  out  range  and  duplicate  indices  are  ignored  param  indices  the  array  indices  for  the  items  deselect  exception illegal argument exception  error  null  argument  the  set  indices  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+deselects  the  item  the  given  zero  relative  index  the  receiver  the  item  the  index  was  already  deselected  remains  deselected  indices  that  are  out  range  are  ignored  param  index  the  index  the  item  deselect  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+deselects  the  items  the  given  zero  relative  indices  the  receiver  the  item  the  given  zero  relative  index  the  receiver  selected  deselected  the  item  the  index  was  not  selected  remains  deselected  the  range  the  indices  inclusive  indices  that  are  out  range  are  ignored  param  start  the  start  index  the  items  deselect  param  end  the  end  index  the  items  deselect  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+ensure  that  least  one  item  contained  the  range  from  start  end  note  that  when  start  end  selitemrangeex  deselects  the  item
+deselects  all  selected  items  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  zero  relative  index  the  item  which  currently  has  the  focus  the  receiver  item  has  focus  return  the  index  the  selected  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  item  the  given  zero  relative  index  the  receiver  throws  exception  the  index  out  range  param  index  the  index  the  item  return  return  the  item  the  given  index  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  number  items  contained  the  receiver  return  the  number  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  height  the  area  which  would  used  display  one  the  items  the  list  return  the  height  one  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  possibly  empty  array  code  string  code  which  are  the  items  the  receiver  note  this  not  the  actual  structure  used  the  receiver  maintain  its  list  items  modifying  the  array  will  not  affect  the  receiver  return  the  items  the  receiver  list  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  array  code  string  code  that  are  currently  selected  the  receiver  the  order  the  items  unspecified  empty  array  indicates  that  items  are  selected  note  this  not  the  actual  structure  used  the  receiver  maintain  its  selection  modifying  the  array  will  not  affect  the  receiver  return  array  representing  the  selection  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  number  selected  items  contained  the  receiver  return  the  number  selected  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  zero  relative  index  the  item  which  currently  selected  the  receiver  item  selected  return  the  index  the  selected  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  zero  relative  indices  the  items  which  are  currently  selected  the  receiver  the  order  the  indices  unspecified  the  array  empty  items  are  selected  note  this  not  the  actual  structure  used  the  receiver  maintain  its  selection  modifying  the  array  will  not  affect  the  receiver  return  the  array  indices  the  selected  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  zero  relative  index  the  item  which  currently  the  top  the  receiver  this  index  can  change  when  items  are  scrolled  new  items  are  added  removed  return  the  index  the  top  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+gets  the  index  item  the  list  searched  starting  until  item  found  that  equal  the  search  item  item  found  returned  indexing  zero  based  param  string  the  search  item  return  the  index  the  item  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+searches  the  receiver  list  starting  the  given  zero  relative  index  until  item  found  that  equal  the  argument  and  returns  the  index  that  item  item  found  the  starting  index  out  range  returns  param  string  the  search  item  param  start  the  zero  relative  index  which  start  the  search  return  the  index  the  item  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  windows  for  some  reason  findstringexact  will  not  find  empty  strings  even  though  legal  insert  empty  string  into  list  the  fix  search  the  list  item  time
+use  findstringexact  search  for  the  item
+returns  code  true  code  the  item  selected  and  code  false  code  otherwise  indices  out  range  are  ignored  param  index  the  index  the  item  return  the  visibility  state  the  item  the  index  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+removes  the  items  from  the  receiver  the  given  zero  relative  indices  param  indices  the  array  indices  the  items  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  error  null  argument  the  indices  array  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+removes  the  item  from  the  receiver  the  given  zero  relative  index  param  index  the  index  for  the  item  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+removes  the  items  from  the  receiver  which  are  between  the  given  zero  relative  start  and  end  indices  inclusive  param  start  the  start  the  range  param  end  the  end  the  range  exception illegal argument exception  error  invalid  range  either  the  start  end  are  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+searches  the  receiver  list  starting  the  first  item  until  item  found  that  equal  the  argument  and  removes  that  item  from  the  list  param  string  the  item  remove  exception illegal argument exception  error  null  argument  the  string  null  error  invalid  argument  the  string  not  found  the  list  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+removes  all  the  items  from  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  receiver  selection  changes  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener
+selects  the  items  the  given  zero  relative  indices  the  receiver  the  current  selection  not  cleared  before  the  new  items  are  selected  the  item  given  index  not  selected  selected  the  item  given  index  was  already  selected  remains  selected  indices  that  are  out  range  and  duplicate  indices  are  ignored  the  receiver  single  select  and  multiple  indices  are  specified  then  all  indices  are  ignored  param  indices  the  array  indices  for  the  items  select  exception illegal argument exception  error  null  argument  the  array  indices  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  list set selection  int
+selects  the  item  the  given  zero  relative  index  the  receiver  list  the  item  the  index  was  already  selected  remains  selected  indices  that  are  out  range  are  ignored  param  index  the  index  the  item  select  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+selects  the  items  the  range  specified  the  given  zero  relative  indices  the  receiver  the  range  indices  inclusive  the  current  selection  not  cleared  before  the  new  items  are  selected  item  the  given  range  not  selected  selected  item  the  given  range  was  already  selected  remains  selected  indices  that  are  out  range  are  ignored  and  items  will  selected  start  greater  than  end  the  receiver  single  select  and  there  more  than  one  item  the  given  range  then  all  indices  are  ignored  param  start  the  start  the  range  param  end  the  end  the  range  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  list set selection  int  int
+note  that  when  start  end  selitemrangeex  deselects  the  item
+selects  all  the  items  the  receiver  the  receiver  single  select  nothing  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  windows  the  receiver  scrolled  horizontally  and  resized  the  list  does  not  redraw  properly  the  fix  redraw  the  control  when  resizing  not  deferred  and  the  new  size  different  from  the  previous  size
+ check widget
+sets  the  text  the  item  the  receiver  list  the  given  zero  relative  index  the  string  argument  this  equivalent  code  remove  code  ing  the  old  item  the  index  and  then  code  add  code  ing  the  new  item  that  index  param  index  the  index  for  the  item  param  string  the  new  text  for  the  item  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  receiver  items  the  given  array  items  param  items  the  array  items  exception illegal argument exception  error  null  argument  the  items  array  null  error  invalid  argument  item  the  items  array  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+this  code  intentionally  commented  the  window  proc  for  the  list  box  implements  setredraw  invalidate  and  erase  the  widget  this  undocumented  behavior  the  commented  code  below  shows  what  actually  happening  and  reminds  that  are  relying  this  undocumented  behavior
+int  flags  rdw  erase  rdw  frame  rdw  invalidate
+redraw window  handle  null  flags
+selects  the  items  the  given  zero  relative  indices  the  receiver  the  current  selection  cleared  before  the  new  items  are  selected  indices  that  are  out  range  and  duplicate  indices  are  ignored  the  receiver  single  select  and  multiple  indices  are  specified  then  all  indices  are  ignored  param  indices  the  indices  the  items  select  exception illegal argument exception  error  null  argument  the  array  indices  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  list deselect all  see  list  select  int
+sets  the  receiver  selection  the  given  array  items  the  current  selection  cleared  before  the  new  items  are  selected  items  that  are  not  the  receiver  are  ignored  the  receiver  single  select  and  multiple  items  are  specified  then  all  items  are  ignored  param  items  the  array  items  exception illegal argument exception  error  null  argument  the  array  items  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  list deselect all  see  list  select  int  see  list set selection  int
+selects  the  item  the  given  zero  relative  index  the  receiver  the  item  the  index  was  already  selected  remains  selected  the  current  selection  first  cleared  then  the  new  item  selected  indices  that  are  out  range  are  ignored  param  index  the  index  the  item  select  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  list deselect all  see  list  select  int
+selects  the  items  the  range  specified  the  given  zero  relative  indices  the  receiver  the  range  indices  inclusive  the  current  selection  cleared  before  the  new  items  are  selected  indices  that  are  out  range  are  ignored  and  items  will  selected  start  greater  than  end  the  receiver  single  select  and  there  more  than  one  item  the  given  range  then  all  indices  are  ignored  param  start  the  start  index  the  items  select  param  end  the  end  index  the  items  select  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  list deselect all  see  list  select  int  int
+sets  the  zero  relative  index  the  item  which  currently  the  top  the  receiver  this  index  can  change  when  items  are  scrolled  new  items  are  added  and  removed  param  index  the  index  the  top  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+shows  the  selection  the  selection  already  showing  the  receiver  this  method  simply  returns  otherwise  the  items  are  scrolled  until  the  selection  visible  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+</comments>
+</text>
+</DOC>

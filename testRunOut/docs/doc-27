@@ -1,0 +1,241 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.ScrolledCompositeLayout.java </DOCNO>
+<text>
+<class>
+scrolled composite layout
+</class>
+<method>
+compute size
+flush cache
+ layout
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+scrolled composite layout
+ layout
+ layout
+default width
+default height
+ point
+compute size
+ composite
+ composite
+ hint
+ hint
+flush cache
+scrolled composite
+
+scrolled composite
+ composite
+
+ content
+
+ hint
+ swt
+ default
+ hint
+default width
+
+ hint
+ swt
+ default
+ hint
+default height
+ point
+
+
+ point
+ size
+
+ content
+compute size
+ hint
+ hint
+flush cache
+
+always show scroll
+scroll bar
+ bar
+
+get horizontal bar
+scroll bar
+ bar
+
+get vertical bar
+ bar
+ size
+
+ bar
+get size
+
+ bar
+ size
+
+ bar
+get size
+
+ size
+flush cache
+ control
+ control
+ layout
+ composite
+ composite
+flush cache
+ layout
+scrolled composite
+
+scrolled composite
+ composite
+
+ content
+ layout
+ rectangle
+content rect
+
+ content
+get bounds
+scroll bar
+ bar
+
+get horizontal bar
+scroll bar
+ bar
+
+get vertical bar
+
+always show scroll
+ visible
+
+need scroll
+content rect
+ visible
+
+need scroll
+content rect
+ visible
+ visible
+ visible
+ visible
+
+need scroll
+content rect
+ visible
+ bar
+ bar
+set visible
+ visible
+ bar
+ bar
+set visible
+ visible
+ rectangle
+host rect
+
+get client area
+
+expand horizontal
+content rect
+ width
+ math
+ max
+
+min width
+host rect
+ width
+
+expand vertical
+content rect
+ height
+ math
+ max
+
+min height
+host rect
+ height
+ bar
+ bar
+set maximum
+content rect
+ width
+ bar
+set thumb
+ math
+ min
+content rect
+ width
+host rect
+ width
+ page
+content rect
+ width
+host rect
+ width
+ selection
+ bar
+get selection
+ selection
+ page
+ page
+ selection
+ bar
+set selection
+content rect
+
+ selection
+ bar
+ bar
+set maximum
+content rect
+ height
+ bar
+set thumb
+ math
+ min
+content rect
+ height
+host rect
+ height
+ page
+content rect
+ height
+host rect
+ height
+ selection
+ bar
+get selection
+ selection
+ page
+ page
+ selection
+ bar
+set selection
+content rect
+
+ selection
+
+ content
+set bounds
+content rect
+ layout
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  class  provides  the  layout  for scrolled composite  see scrolled composite
+</comments>
+</text>
+</DOC>

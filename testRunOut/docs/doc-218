@@ -1,0 +1,30 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.win32.EXTLOGPEN.java </DOCNO>
+<text>
+<class>
+ extlogpen
+</class>
+<method>
+NONE
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ win
+ extlogpen
+elp pen style
+elp width
+elp brush style
+elp color
+elp hatch
+elp num entries
+elp style entry
+ sizeof
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+</comments>
+</text>
+</DOC>

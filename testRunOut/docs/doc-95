@@ -1,0 +1,3969 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.image.JPEGFileFormat.java </DOCNO>
+<text>
+<class>
+jpeg file format
+</class>
+<method>
+ compress
+convert bit rgb
+convert bit rgb
+convert cmyk rgb
+convert image
+convert multi rgb
+convert rgb
+convert rgb
+convert yiq rgb
+decode coefficients
+decode first coefficients
+decode refine coefficients
+ refine
+decode coefficient
+ dequantize
+decode image components
+decode mcu and
+decode scan
+decode using table
+ emit
+emit byte
+encode coefficients
+encode coefficients
+encode mcu and
+encode scan
+expand image components
+ extend
+extract data
+forward dct
+get app
+get com
+get dac
+get dht
+get dnl
+get dqt
+get dri
+ initialize
+initialize bit count table
+initialize rgby tables
+initialize rgb tables
+inverse dct
+file format
+zero column
+zero row
+load from byte stream
+create image data
+next bit
+process restart interval
+process tables
+quantize data
+ receive
+reset input buffer
+reset output buffer
+seek unspecified marker
+set palette
+skip segment from
+store data
+unload into byte stream
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ image
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ java
+
+jpeg file format
+file format
+restart interval
+jpeg frame header
+frame header
+image width
+image height
+interleaved mcu cols
+interleaved mcu rows
+ max
+ max
+ progressive
+sample precision
+ components
+frame components
+component ids
+image components
+data unit
+data units
+ preceding
+jpeg scan header
+scan header
+data buffer
+current bit count
+buffer current position
+ restarts
+next restart number
+jpeg huffman table
+huffman tables
+jpeg huffman table
+huffman tables
+quantization tables
+current byte
+encoder factor
+ eobrun
+ dctsize
+ dctsizesqr
+fix _0_899976223
+fix _1_961570560
+fix _2_053119869
+fix _0_298631336
+fix _1_847759065
+fix _1_175875602
+fix _3_072711026
+fix _0_765366865
+fix _2_562915447
+fix _0_541196100
+fix _0_390180644
+fix _1_501321110
+ app
+ app
+ com
+ dac
+ dhp
+ dht
+ dnl
+ dri
+ dqt
+ eoi
+ exp
+ jpg
+ jpg
+ jpg
+ rst
+ rst
+ rst
+ rst
+ rst
+ rst
+ rst
+ rst
+ sof
+ sof
+ sof
+ sof
+ sof
+ sof
+ sof
+ sof
+ sof
+ sof
+ sof
+ sof
+ sof
+ soi
+ sos
+ tem
+ tqi
+
+
+
+
+
+
+
+
+
+extend test
+extend offset
+zig zag
+ table
+ table
+ table
+ table
+ table
+ table
+ table
+ table
+ table
+ table
+ table
+ table
+ table
+bits table
+ initialize
+ compress
+image data
+ image
+data comp
+data comp
+data comp
+src width
+ image
+ width
+src height
+ image
+ height
+ factor
+ max
+ max
+frame component
+image components
+ components
+
+
+ components
+
+frame component
+frame components
+component ids
+
+image components
+
+frame component
+
+frame component
+
+frame component
+frame components
+component ids
+
+ pos
+ pos
+src height
+ pos
+src ofs
+ pos
+src width
+dst ofs
+ pos
+frame component
+
+ system
+ arraycopy
+data comp
+src ofs
+image components
+
+dst ofs
+src width
+frame component
+frame components
+component ids
+
+ pos
+ pos
+src height
+ max
+ pos
+dest row index
+ pos
+frame component
+
+ pos
+ pos
+src width
+ max
+ pos
+ sum
+
+
+ max
+
+src index
+ pos
+ max
+
+src width
+ pos
+ max
+
+
+ max
+
+ sum
+data comp
+src index
+
+image components
+
+dest row index
+ pos
+ sum
+ factor
+frame component
+frame components
+component ids
+
+ pos
+ pos
+src height
+ max
+ pos
+dest row index
+ pos
+frame component
+
+ pos
+ pos
+src width
+ max
+ pos
+ sum
+
+
+ max
+
+src index
+ pos
+ max
+
+src width
+ pos
+ max
+
+
+ max
+
+ sum
+data comp
+src index
+
+image components
+
+dest row index
+ pos
+ sum
+ factor
+ comp
+ comp
+ components
+ comp
+image component
+image components
+ comp
+frame component
+frame components
+component ids
+ comp
+ factor
+frame component
+
+ factor
+frame component
+
+component width
+frame component
+
+component height
+frame component
+
+compressed width
+src width
+ max
+ factor
+compressed height
+src height
+ max
+ factor
+compressed width
+component width
+ delta
+component width
+compressed width
+ pos
+ pos
+compressed height
+ pos
+dst ofs
+ pos
+component width
+ delta
+data value
+image component
+dst ofs
+
+
+ delta
+
+image component
+dst ofs
+
+data value
+compressed height
+component height
+src ofs
+compressed height
+component width
+ pos
+compressed height
+ pos
+component height
+ pos
+dst ofs
+ pos
+component width
+ system
+ arraycopy
+image component
+src ofs
+image component
+dst ofs
+component width
+convert bit rgb
+image data
+ image
+ rgb
+ rgbs
+ image
+ get
+palette size
+ rgbs
+ length
+ comp
+palette size
+ comp
+palette size
+ comp
+palette size
+src width
+ image
+ width
+src height
+ image
+ height
+
+
+palette size
+
+ rgb
+ color
+ rgbs
+
+
+ color
+ red
+
+ color
+ green
+
+ color
+ blue
+
+ table
+
+ table
+
+ table
+
+ comp
+
+
+
+
+ comp
+
+
+ table
+
+ table
+
+ table
+
+ comp
+
+
+
+
+ comp
+
+
+ table
+
+ table
+
+ table
+
+ comp
+
+
+
+
+ comp
+
+ size
+src width
+src height
+data comp
+ size
+data comp
+ size
+data comp
+ size
+orig data
+ image
+ data
+bytes per line
+ image
+bytes per line
+max scanline byte
+src width
+ pos
+ pos
+src height
+ pos
+ pos
+ pos
+max scanline byte
+ pos
+src index
+ pos
+bytes per line
+ pos
+dst index
+ pos
+src width
+ pos
+ value
+orig data
+src index
+ value
+ value
+ value
+ value
+data comp
+dst index
+ comp
+ value
+data comp
+dst index
+ comp
+ value
+data comp
+dst index
+ comp
+ value
+data comp
+dst index
+ comp
+ value
+data comp
+dst index
+ comp
+ value
+data comp
+dst index
+ comp
+ value
+ compress
+ image
+data comp
+data comp
+data comp
+convert bit rgb
+image data
+ image
+ rgb
+ rgbs
+ image
+ get
+palette size
+ rgbs
+ length
+ comp
+palette size
+ comp
+palette size
+ comp
+palette size
+src width
+ image
+ width
+src height
+ image
+ height
+
+
+palette size
+
+ rgb
+ color
+ rgbs
+
+
+ color
+ red
+
+ color
+ green
+
+ color
+ blue
+
+ table
+
+ table
+
+ table
+
+ comp
+
+
+
+
+ comp
+
+
+ table
+
+ table
+
+ table
+
+ comp
+
+
+
+
+ comp
+
+
+ table
+
+ table
+
+ table
+
+ comp
+
+
+
+
+ comp
+
+dst width
+ image
+ width
+dst height
+src height
+ stride
+src width
+ size
+dst width
+dst height
+data comp
+ size
+data comp
+ size
+data comp
+ size
+orig data
+ image
+ data
+ pos
+ pos
+src height
+ pos
+src row index
+ pos
+ stride
+dst row index
+ pos
+dst width
+ pos
+ pos
+src width
+ pos
+ value
+orig data
+src row index
+ pos
+dst index
+dst row index
+ pos
+data comp
+dst index
+ comp
+ value
+data comp
+dst index
+ comp
+ value
+data comp
+dst index
+ comp
+ value
+ compress
+ image
+data comp
+data comp
+data comp
+convert cmyk rgb
+convert image
+image data
+ image
+ image
+ depth
+convert bit rgb
+ image
+convert bit rgb
+ image
+convert multi rgb
+ image
+ swt
+ error
+ swt
+error unsupported depth
+convert multi rgb
+image data
+ image
+src width
+ image
+ width
+src height
+ image
+ height
+ size
+src width
+src height
+data comp
+ size
+data comp
+ size
+data comp
+ size
+palette data
+ palette
+ image
+ palette
+ buffer
+src width
+ palette
+ direct
+red mask
+ palette
+red mask
+green mask
+ palette
+green mask
+blue mask
+ palette
+blue mask
+red shift
+ palette
+red shift
+green shift
+ palette
+green shift
+blue shift
+ palette
+blue shift
+ pos
+ pos
+src height
+ pos
+ image
+get pixels
+ pos
+src width
+ buffer
+dst row index
+ pos
+src width
+ pos
+ pos
+src width
+ pos
+ pixel
+ buffer
+ pos
+dst data index
+dst row index
+ pos
+
+ pixel
+red mask
+
+red shift
+
+red shift
+
+red shift
+
+ pixel
+green mask
+
+green shift
+
+green shift
+
+green shift
+
+ pixel
+blue mask
+
+blue shift
+
+blue shift
+
+blue shift
+data comp
+dst data index
+ table
+
+ table
+
+ table
+
+data comp
+dst data index
+ table
+
+ table
+
+ table
+
+data comp
+dst data index
+ table
+
+ table
+
+ table
+
+ pos
+ pos
+src height
+ pos
+ image
+get pixels
+ pos
+src width
+ buffer
+dst row index
+ pos
+src width
+ pos
+ pos
+src width
+ pos
+ pixel
+ buffer
+ pos
+dst data index
+dst row index
+ pos
+ rgb
+ rgb
+ palette
+get rgb
+ pixel
+
+ rgb
+ red
+
+ rgb
+ green
+
+ rgb
+ blue
+data comp
+dst data index
+ table
+
+ table
+
+ table
+
+data comp
+dst data index
+ table
+
+ table
+
+ table
+
+data comp
+dst data index
+ table
+
+ table
+
+ table
+
+ compress
+ image
+data comp
+data comp
+data comp
+convert rgb
+comp width
+frame components
+component ids
+
+
+bytes per line
+image width
+ data
+bytes per line
+image height
+ comp
+image components
+
+dest index
+
+
+image height
+
+src index
+
+comp width
+
+
+bytes per line
+
+
+ comp
+src index
+
+
+
+
+
+image width
+
+ data
+dest index
+
+src index
+dest index
+ data
+convert rgb
+ size
+image width
+image height
+ components
+rgb data
+ size
+dest index
+expand image components
+ comp
+image components
+
+ comp
+image components
+
+ comp
+image components
+
+comp width
+frame components
+component ids
+
+
+
+
+image height
+
+src index
+
+comp width
+
+
+image width
+
+
+ comp
+src index
+
+ comp
+src index
+
+ comp
+src index
+
+
+ table
+
+
+
+ table
+
+ table
+
+
+
+ table
+
+
+
+
+
+
+
+
+
+
+
+
+
+rgb data
+dest index
+
+rgb data
+dest index
+
+rgb data
+dest index
+
+dest index
+src index
+rgb data
+convert yiq rgb
+decode coefficients
+data unit
+ comp
+ params
+scan header
+component parameters
+component ids
+ comp
+jpeg huffman table
+ table
+huffman tables
+ params
+
+
+
+
+decode using table
+ table
+
+
+
+
+
+
+
+
+
+ bits
+ receive
+
+data unit
+zig zag
+
+ extend
+ bits
+
+
+decode first coefficients
+data unit
+ comp
+ start
+ end
+approx bit
+ eobrun
+ eobrun
+ params
+scan header
+component parameters
+component ids
+ comp
+jpeg huffman table
+ table
+huffman tables
+ params
+
+
+ start
+
+ end
+
+decode using table
+ table
+
+
+
+
+
+
+
+ eobrun
+
+ receive
+
+
+
+ bits
+ receive
+
+data unit
+zig zag
+
+ extend
+ bits
+
+approx bit
+
+decode refine coefficients
+data unit
+ comp
+ start
+ end
+approx bit
+ params
+scan header
+component parameters
+component ids
+ comp
+jpeg huffman table
+ table
+huffman tables
+ params
+
+
+ start
+
+ end
+ eobrun
+
+ end
+ index
+zig zag
+
+data unit
+ index
+data unit
+ index
+ refine
+data unit
+ index
+approx bit
+
+ eobrun
+
+decode using table
+ table
+
+
+
+
+
+
+ zeros
+ zeros
+
+ end
+ index
+zig zag
+
+data unit
+ index
+data unit
+ index
+ refine
+data unit
+ index
+approx bit
+ zeros
+
+ eobrun
+
+ receive
+
+ bit
+ receive
+
+ zeros
+ index
+zig zag
+
+ zeros
+
+data unit
+ index
+
+ end
+data unit
+ index
+data unit
+ index
+ refine
+data unit
+ index
+approx bit
+ zeros
+
+ index
+zig zag
+
+ bit
+data unit
+ index
+approx bit
+data unit
+ index
+approx bit
+
+ refine
+
+approx bit
+
+ bit
+next bit
+ bit
+
+
+approx bit
+
+ bit
+next bit
+ bit
+
+
+approx bit
+
+decode coefficient
+data unit
+ comp
+ first
+approx bit
+ params
+scan header
+component parameters
+component ids
+ comp
+jpeg huffman table
+ table
+huffman tables
+ params
+
+ last
+ progressive
+ first
+ bit
+next bit
+ last
+data unit
+ bit
+approx bit
+ last
+ preceding
+ comp
+ bits
+decode using table
+ table
+ bits
+ bits
+ receive
+ bits
+ diff
+ extend
+ bits
+ bits
+ last
+ last
+ diff
+ preceding
+ comp
+ last
+ progressive
+ last
+ last
+approx bit
+data unit
+ last
+ dequantize
+data unit
+ comp
+ table
+quantization tables
+frame components
+component ids
+ comp
+ tqi
+
+
+data unit
+ length
+
+ index
+zig zag
+
+data unit
+ index
+data unit
+ index
+ table
+
+decode image components
+comp ids
+ components
+comp ids index
+
+
+ components
+
+comp ids
+comp ids index
+
+comp ids index
+comp ids
+ length
+comp ids
+comp ids
+comp ids
+convert rgb
+comp ids
+ length
+comp ids
+comp ids
+comp ids
+convert yiq rgb
+comp ids
+ length
+convert cmyk rgb
+convert rgb
+decode mcu and
+ xmcu
+ ymcu
+components scan
+ first
+ start
+ end
+approx bit
+ comp
+ comp
+components scan
+ comp
+scan component
+ comp
+scan header
+component parameters
+component ids
+scan component
+scan component
+frame component
+frame components
+component ids
+scan component
+
+frame component
+
+
+frame component
+
+components scan
+
+
+comp width
+frame component
+
+ ivi
+ ivi
+
+ ivi
+ ihi
+ ihi
+
+ ihi
+ progressive
+ index
+ ymcu
+
+ ivi
+comp width
+ xmcu
+
+ ihi
+data unit
+data units
+scan component
+ index
+data unit
+data unit
+data units
+scan component
+ index
+data unit
+
+
+data unit
+ length
+
+data unit
+
+ progressive
+scan header
+progressive scan
+decode coefficient
+data unit
+scan component
+ first
+approx bit
+ progressive
+decode coefficients
+data unit
+scan component
+scan header
+progressive scan
+ first
+decode first coefficients
+data unit
+scan component
+ start
+ end
+approx bit
+decode refine coefficients
+data unit
+scan component
+ start
+ end
+approx bit
+ loader
+has listeners
+ temp
+data unit
+data unit
+ system
+ arraycopy
+ temp
+data unit
+ progressive
+ progressive
+ loader
+has listeners
+ dequantize
+data unit
+scan component
+inverse dct
+data unit
+store data
+data unit
+scan component
+ xmcu
+ ymcu
+
+ ihi
+
+ ivi
+decode scan
+ progressive
+scan header
+verify progressive scan
+ swt
+ error
+ swt
+error invalid image
+components scan
+scan header
+get number image components
+mcu rows scan
+interleaved mcu rows
+mcus per row
+interleaved mcu cols
+components scan
+scan component
+scan header
+component parameters
+component ids
+scan component
+scan component
+frame component
+frame components
+component ids
+scan component
+
+frame component
+
+
+frame component
+
+mcu width
+ dctsize
+ max
+
+mcu height
+ dctsize
+ max
+
+mcus per row
+image width
+mcu width
+mcu width
+mcu rows scan
+image height
+mcu height
+mcu height
+ first
+scan header
+first scan
+ start
+scan header
+get start spectral selection
+ end
+scan header
+get end spectral selection
+approx bit
+scan header
+get approx bit position low
+ restarts
+restart interval
+next restart number
+ ymcu
+ ymcu
+mcu rows scan
+ ymcu
+ xmcu
+ xmcu
+mcus per row
+ xmcu
+restart interval
+ restarts
+process restart interval
+ restarts
+decode mcu and
+ xmcu
+ ymcu
+components scan
+ first
+ start
+ end
+approx bit
+decode using table
+jpeg huffman table
+huffman table
+
+max codes
+huffman table
+get max codes
+min codes
+huffman table
+get min codes
+val ptrs
+huffman table
+get val ptrs
+huff vals
+huffman table
+get values
+ code
+next bit
+ code
+max codes
+
+ code
+ code
+next bit
+
+
+val ptrs
+
+
+
+ code
+min codes
+
+huff vals
+
+ emit
+huff code
+ bits
+ bits
+ swt
+ error
+ swt
+error invalid image
+ power
+ code
+huff code
+ power
+ bits
+ bits
+current bit count
+code buffer
+code buffer
+ code
+code buffer
+ code
+code buffer
+ code
+code buffer
+ code
+ abs
+ bits
+current bit count
+ abs
+ abs
+ abs
+ abs
+current byte
+code buffer
+emit byte
+current byte
+emit byte
+code buffer
+current byte
+code buffer
+current bit count
+ bits
+current bit count
+ bits
+current bit count
+current byte
+code buffer
+emit byte
+current byte
+current byte
+code buffer
+current bit count
+current byte
+code buffer
+emit byte
+byte value
+buffer current position
+reset output buffer
+data buffer
+buffer current position
+byte value
+buffer current position
+byte value
+emit byte
+encode coefficients
+data unit
+ comp
+ params
+scan header
+component parameters
+ comp
+jpeg huffman table
+ table
+huffman tables
+ params
+
+ codes
+ table
+ codes
+ sizes
+ table
+code lengths
+
+
+
+
+ value
+data unit
+zig zag
+
+ value
+
+ emit
+ codes
+ sizes
+
+
+ emit
+ codes
+ sizes
+
+ value
+abs value
+ value
+abs value
+abs value
+abs value
+ bits
+bits table
+abs value
+
+
+ bits
+ emit
+ codes
+
+ sizes
+
+ emit
+abs value
+ bits
+ bits
+bits table
+ value
+
+
+ bits
+ emit
+ codes
+
+ sizes
+
+ emit
+ value
+ bits
+
+encode coefficients
+data unit
+ comp
+ params
+scan header
+component parameters
+ comp
+jpeg huffman table
+ table
+huffman tables
+ params
+
+ last
+ preceding
+ comp
+ value
+data unit
+ diff
+ value
+ last
+ preceding
+ comp
+ value
+ diff
+abs diff
+ diff
+ bits
+bits table
+abs diff
+ emit
+ table
+ codes
+ bits
+ table
+code lengths
+ bits
+ emit
+abs diff
+ bits
+ bits
+bits table
+ diff
+ emit
+ table
+ codes
+ bits
+ table
+code lengths
+ bits
+ bits
+ emit
+ diff
+ bits
+encode mcu and
+ xmcu
+ ymcu
+components scan
+scan header
+get number image components
+data unit
+ comp
+ comp
+components scan
+ comp
+frame component
+frame components
+component ids
+ comp
+
+frame component
+
+
+frame component
+
+ ivi
+ ivi
+
+ ivi
+ ihi
+ ihi
+
+ ihi
+extract data
+data unit
+ comp
+ xmcu
+ ymcu
+ ihi
+ ivi
+forward dct
+data unit
+quantize data
+data unit
+ comp
+encode coefficients
+data unit
+ comp
+encode coefficients
+data unit
+ comp
+encode scan
+ ymcu
+ ymcu
+interleaved mcu rows
+ ymcu
+ xmcu
+ xmcu
+interleaved mcu cols
+ xmcu
+encode mcu and
+ xmcu
+ ymcu
+current bit count
+emit byte
+current byte
+reset output buffer
+expand image components
+ comp
+ comp
+ components
+ comp
+frame component
+frame components
+component ids
+ comp
+
+frame component
+
+
+frame component
+
+
+ max
+
+
+ max
+
+
+
+ component
+image components
+ comp
+comp width
+frame component
+
+comp height
+frame component
+
+comp width
+comp width
+
+comp height
+comp height
+
+ rgb
+ rgbs
+ rgb
+ rgb
+ rgb
+ rgb
+ rgb
+ rgb
+ rgb
+ rgb
+ rgb
+ rgb
+ rgb
+ rgb
+ rgb
+ rgb
+ rgb
+ rgb
+ rgb
+image data
+ src
+image data
+comp width
+comp height
+palette data
+ rgbs
+ component
+image data
+ dest
+ src
+ scaled
+comp width
+comp height
+image components
+ comp
+ dest
+ data
+ extend
+ diff
+
+ diff
+extend test
+
+ diff
+extend offset
+
+ diff
+extract data
+data unit
+ comp
+ xmcu
+ ymcu
+ ihi
+ ivi
+comp image
+image components
+ comp
+frame component
+frame components
+component ids
+ comp
+
+frame component
+
+
+frame component
+
+comp width
+frame component
+
+src index
+ ymcu
+
+ ivi
+comp width
+ dctsize
+ xmcu
+
+ ihi
+ dctsize
+dest index
+
+
+ dctsize
+
+ col
+ col
+ dctsize
+ col
+data unit
+dest index
+comp image
+src index
+ col
+dest index
+src index
+comp width
+forward dct
+data unit
+ row
+ row
+ row
+ index
+ row
+ dctsize
+ tmp
+data unit
+ index
+data unit
+ index
+ tmp
+data unit
+ index
+data unit
+ index
+ tmp
+data unit
+ index
+data unit
+ index
+ tmp
+data unit
+ index
+data unit
+ index
+ tmp
+data unit
+ index
+data unit
+ index
+ tmp
+data unit
+ index
+data unit
+ index
+ tmp
+data unit
+ index
+data unit
+ index
+ tmp
+data unit
+ index
+data unit
+ index
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+data unit
+ index
+ tmp
+ tmp
+data unit
+ index
+ tmp
+ tmp
+
+ tmp
+ tmp
+fix _0_541196100
+scale factor
+extend test
+scale factor
+extend test
+
+
+ tmp
+fix _0_765366865
+scale factor
+data unit
+ index
+
+scale factor
+
+
+scale factor
+data unit
+ index
+
+
+ tmp
+fix _1_847759065
+scale factor
+data unit
+ index
+
+scale factor
+
+
+scale factor
+data unit
+ index
+
+ tmp
+ tmp
+
+ tmp
+ tmp
+
+ tmp
+ tmp
+
+ tmp
+ tmp
+
+
+
+fix _1_175875602
+ tmp
+ tmp
+fix _0_298631336
+ tmp
+ tmp
+fix _2_053119869
+ tmp
+ tmp
+fix _3_072711026
+ tmp
+ tmp
+fix _1_501321110
+
+
+fix _0_899976223
+
+
+fix _2_562915447
+
+
+fix _1_961570560
+
+
+fix _0_390180644
+
+
+
+
+
+
+
+ tmp
+
+
+scale factor
+data unit
+ index
+
+scale factor
+
+
+scale factor
+data unit
+ index
+
+ tmp
+
+
+scale factor
+data unit
+ index
+
+scale factor
+
+
+scale factor
+data unit
+ index
+
+ tmp
+
+
+scale factor
+data unit
+ index
+
+scale factor
+
+
+scale factor
+data unit
+ index
+
+ tmp
+
+
+scale factor
+data unit
+ index
+
+scale factor
+
+
+scale factor
+data unit
+ index
+ col
+ col
+ col
+
+ col
+
+ col
+
+ col
+
+ col
+
+ col
+
+ col
+
+ col
+
+ col
+ tmp
+data unit
+
+data unit
+
+ tmp
+data unit
+
+data unit
+
+ tmp
+data unit
+
+data unit
+
+ tmp
+data unit
+
+data unit
+
+ tmp
+data unit
+
+data unit
+
+ tmp
+data unit
+
+data unit
+
+ tmp
+data unit
+
+data unit
+
+ tmp
+data unit
+
+data unit
+
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+scale factor
+extend test
+scale factor
+extend test
+
+ tmp
+ tmp
+scale factor
+data unit
+
+
+scale factor
+
+
+scale factor
+data unit
+
+
+ tmp
+ tmp
+scale factor
+data unit
+
+
+scale factor
+
+
+scale factor
+data unit
+
+
+ tmp
+ tmp
+fix _0_541196100
+scale factor
+extend test
+scale factor
+extend test
+
+
+ tmp
+fix _0_765366865
+scale factor
+data unit
+
+
+scale factor
+
+
+scale factor
+data unit
+
+
+
+ tmp
+fix _1_847759065
+scale factor
+data unit
+
+
+scale factor
+
+
+scale factor
+data unit
+
+
+ tmp
+ tmp
+
+ tmp
+ tmp
+
+ tmp
+ tmp
+
+ tmp
+ tmp
+
+
+
+fix _1_175875602
+ tmp
+ tmp
+fix _0_298631336
+ tmp
+ tmp
+fix _2_053119869
+ tmp
+ tmp
+fix _3_072711026
+ tmp
+ tmp
+fix _1_501321110
+
+
+fix _0_899976223
+
+
+fix _2_562915447
+
+
+fix _1_961570560
+
+
+fix _0_390180644
+
+
+
+
+
+
+
+ tmp
+
+
+scale factor
+data unit
+
+
+scale factor
+
+
+scale factor
+data unit
+
+
+ tmp
+
+
+scale factor
+data unit
+
+
+scale factor
+
+
+scale factor
+data unit
+
+
+ tmp
+
+
+scale factor
+data unit
+
+
+scale factor
+
+
+scale factor
+data unit
+
+
+ tmp
+
+
+scale factor
+data unit
+
+
+scale factor
+
+
+scale factor
+data unit
+
+get app
+jpeg appn
+ appn
+jpeg appn
+input stream
+ appn
+ verify
+ swt
+ error
+ swt
+error invalid image
+get com
+jpeg comment
+input stream
+get dac
+jpeg arithmetic conditioning table
+input stream
+get dht
+jpeg huffman table
+ dht
+jpeg huffman table
+input stream
+ dht
+ verify
+ swt
+ error
+ swt
+error invalid image
+huffman tables
+huffman tables
+jpeg huffman table
+huffman tables
+huffman tables
+jpeg huffman table
+jpeg huffman table
+dht tables
+ dht
+get all tables
+
+
+dht tables
+ length
+
+jpeg huffman table
+dht table
+dht tables
+
+dht table
+get table class
+huffman tables
+dht table
+get table identifier
+dht table
+huffman tables
+dht table
+get table identifier
+dht table
+get dnl
+jpeg restart interval
+input stream
+get dqt
+jpeg quantization table
+ dqt
+jpeg quantization table
+input stream
+current tables
+quantization tables
+current tables
+current tables
+dqt tables keys
+ dqt
+get quantization tables keys
+dqt tables values
+ dqt
+get quantization tables values
+
+
+dqt tables keys
+ length
+
+ index
+dqt tables keys
+
+current tables
+ index
+dqt tables values
+
+quantization tables
+current tables
+get dri
+jpeg restart interval
+ dri
+jpeg restart interval
+input stream
+ dri
+ verify
+ swt
+ error
+ swt
+error invalid image
+restart interval
+ dri
+get restart interval
+ initialize
+initialize rgby tables
+initialize rgb tables
+initialize bit count table
+initialize bit count table
+ bits
+ power
+bits table
+bits table
+
+
+bits table
+ length
+
+
+ power
+ bits
+ power
+bits table
+
+ bits
+initialize rgby tables
+ table
+ table
+ table
+ table
+ table
+ table
+ table
+ table
+ table
+ table
+
+
+
+ table
+
+
+ table
+
+
+ table
+
+
+ table
+
+
+ table
+
+
+ table
+
+
+ table
+
+
+ table
+
+
+initialize rgb tables
+ table
+ table
+ table
+ table
+
+
+
+
+
+ table
+
+
+ table
+
+
+ table
+
+
+ table
+
+
+inverse dct
+data unit
+ row
+ row
+ row
+ index
+ row
+ dctsize
+zero row
+data unit
+ index
+ val
+data unit
+ index
+
+ index
+
+ index
+
+data unit
+
+ val
+
+data unit
+ index
+
+data unit
+ index
+
+
+
+fix _0_541196100
+ tmp
+
+
+fix _1_847759065
+ tmp
+
+
+fix _0_765366865
+ tmp
+data unit
+ index
+data unit
+ index
+ tmp
+data unit
+ index
+data unit
+ index
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+data unit
+ index
+ tmp
+data unit
+ index
+ tmp
+data unit
+ index
+ tmp
+data unit
+ index
+
+ tmp
+ tmp
+
+ tmp
+ tmp
+
+ tmp
+ tmp
+
+ tmp
+ tmp
+
+
+
+fix _1_175875602
+ tmp
+ tmp
+fix _0_298631336
+ tmp
+ tmp
+fix _2_053119869
+ tmp
+ tmp
+fix _3_072711026
+ tmp
+ tmp
+fix _1_501321110
+
+
+fix _0_899976223
+
+
+fix _2_562915447
+
+
+fix _1_961570560
+
+
+fix _0_390180644
+
+
+
+
+
+
+ tmp
+ tmp
+
+
+ tmp
+ tmp
+
+
+ tmp
+ tmp
+
+
+ tmp
+ tmp
+
+
+descale factor
+extend test
+descale factor
+extend test
+data unit
+ index
+ tmp
+ tmp
+descale factor
+descale factor
+data unit
+ index
+ tmp
+ tmp
+descale factor
+descale factor
+data unit
+ index
+ tmp
+ tmp
+descale factor
+descale factor
+data unit
+ index
+ tmp
+ tmp
+descale factor
+descale factor
+data unit
+ index
+ tmp
+ tmp
+descale factor
+descale factor
+data unit
+ index
+ tmp
+ tmp
+descale factor
+descale factor
+data unit
+ index
+ tmp
+ tmp
+descale factor
+descale factor
+data unit
+ index
+ tmp
+ tmp
+descale factor
+descale factor
+ col
+ col
+ col
+
+ col
+
+ col
+
+ col
+
+ col
+
+ col
+
+ col
+
+ col
+
+ col
+zero column
+data unit
+ col
+ val
+data unit
+
+data unit
+
+ val
+data unit
+
+ val
+data unit
+
+ val
+data unit
+
+ val
+data unit
+
+ val
+data unit
+
+ val
+data unit
+
+ val
+data unit
+
+ val
+
+data unit
+
+
+data unit
+
+
+
+
+fix _0_541196100
+ tmp
+
+
+fix _1_847759065
+ tmp
+
+
+fix _0_765366865
+ tmp
+data unit
+
+data unit
+
+ tmp
+data unit
+
+data unit
+
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+ tmp
+data unit
+
+ tmp
+data unit
+
+ tmp
+data unit
+
+ tmp
+data unit
+
+
+ tmp
+ tmp
+
+ tmp
+ tmp
+
+ tmp
+ tmp
+
+ tmp
+ tmp
+
+
+
+fix _1_175875602
+ tmp
+ tmp
+fix _0_298631336
+ tmp
+ tmp
+fix _2_053119869
+ tmp
+ tmp
+fix _3_072711026
+ tmp
+ tmp
+fix _1_501321110
+
+
+fix _0_899976223
+
+
+fix _2_562915447
+
+
+fix _1_961570560
+
+
+fix _0_390180644
+
+
+
+
+
+
+ tmp
+ tmp
+
+
+ tmp
+ tmp
+
+
+ tmp
+ tmp
+
+
+ tmp
+ tmp
+
+
+descale factor
+extend test
+descale factor
+extend test
+data unit
+
+ tmp
+ tmp
+descale factor
+descale factor
+data unit
+
+ tmp
+ tmp
+descale factor
+descale factor
+data unit
+
+ tmp
+ tmp
+descale factor
+descale factor
+data unit
+
+ tmp
+ tmp
+descale factor
+descale factor
+data unit
+
+ tmp
+ tmp
+descale factor
+descale factor
+data unit
+
+ tmp
+ tmp
+descale factor
+descale factor
+data unit
+
+ tmp
+ tmp
+descale factor
+descale factor
+data unit
+
+ tmp
+ tmp
+descale factor
+descale factor
+file format
+data input stream
+ stream
+jpeg start image
+ soi
+jpeg start image
+ stream
+ stream
+ unread
+ soi
+ reference
+ soi
+ verify
+ exception
+
+zero column
+data unit
+ col
+data unit
+ col
+data unit
+ col
+data unit
+ col
+data unit
+ col
+data unit
+ col
+data unit
+ col
+data unit
+ col
+zero row
+data unit
+ index
+data unit
+ index
+data unit
+ index
+data unit
+ index
+data unit
+ index
+data unit
+ index
+data unit
+ index
+data unit
+ index
+image data
+load from byte stream
+jpeg start image
+ soi
+jpeg start image
+input stream
+ soi
+ verify
+ swt
+ error
+ swt
+error invalid image
+restart interval
+process tables
+frame header
+jpeg frame header
+input stream
+frame header
+ verify
+ swt
+ error
+ swt
+error invalid image
+image width
+frame header
+get samples per line
+image height
+frame header
+get number lines
+ max
+frame header
+get max factor
+ max
+frame header
+get max factor
+mcu width
+ max
+ dctsize
+mcu height
+ max
+ dctsize
+interleaved mcu cols
+image width
+mcu width
+mcu width
+interleaved mcu rows
+image height
+mcu height
+mcu height
+ progressive
+frame header
+ progressive
+sample precision
+frame header
+get sample precision
+ components
+frame header
+get number image components
+frame components
+frame header
+component parameters
+component ids
+frame header
+component identifiers
+image components
+ components
+ progressive
+data units
+ components
+data unit
+
+
+ components
+
+frame component
+frame components
+component ids
+
+buffer size
+frame component
+
+frame component
+
+image components
+
+buffer size
+ progressive
+data units
+
+buffer size
+process tables
+scan header
+jpeg scan header
+input stream
+scan header
+ verify
+ swt
+ error
+ swt
+error invalid image
+progressive scan count
+ done
+ done
+reset input buffer
+ preceding
+decode scan
+ progressive
+ loader
+has listeners
+image data
+image data
+create image data
+ loader
+notify listeners
+image loader event
+ loader
+image data
+progressive scan count
+progressive scan count
+ delta
+buffer current position
+ delta
+unread buffer
+ delta
+ system
+ arraycopy
+data buffer
+buffer current position
+unread buffer
+ delta
+input stream
+ unread
+unread buffer
+ exception
+
+ swt
+ error
+ swt
+ error
+
+jpeg segment
+jpeg segment
+process tables
+jpeg segment
+jpeg segment
+get segment marker
+ eoi
+ done
+scan header
+jpeg scan header
+input stream
+scan header
+ verify
+ swt
+ error
+ swt
+error invalid image
+ progressive
+ ymcu
+ ymcu
+interleaved mcu rows
+ ymcu
+ xmcu
+ xmcu
+interleaved mcu cols
+ xmcu
+ comp
+ comp
+ components
+ comp
+frame component
+frame components
+component ids
+ comp
+
+frame component
+
+
+frame component
+
+comp width
+frame component
+
+ ivi
+ ivi
+
+ ivi
+ ihi
+ ihi
+
+ ihi
+ index
+ ymcu
+
+ ivi
+comp width
+ xmcu
+
+ ihi
+data unit
+data units
+ comp
+ index
+ dequantize
+data unit
+ comp
+inverse dct
+data unit
+store data
+data unit
+ comp
+ xmcu
+ ymcu
+
+ ihi
+
+ ivi
+image data
+image data
+create image data
+ progressive
+ loader
+has listeners
+ loader
+notify listeners
+image loader event
+ loader
+image data
+progressive scan count
+image data
+image data
+image data
+create image data
+image data
+internal _new
+image width
+image height
+ components
+sample precision
+set palette
+ components
+decode image components
+ swt
+image jpeg
+next bit
+current bit count
+current bit count
+current byte
+current byte
+current byte
+buffer current position
+buffer current position
+reset input buffer
+buffer current position
+current byte
+data buffer
+buffer current position
+current bit count
+next byte
+buffer current position
+reset input buffer
+current bit count
+next byte
+data buffer
+next byte
+data buffer
+buffer current position
+current byte
+next byte
+buffer current position
+current bit count
+current byte
+current byte
+current byte
+next byte
+ dnl
+get dnl
+ swt
+ error
+ swt
+error invalid image
+current bit count
+current byte
+current byte
+current byte
+process restart interval
+buffer current position
+buffer current position
+reset input buffer
+buffer current position
+current byte
+data buffer
+buffer current position
+current byte
+current byte
+buffer current position
+buffer current position
+reset input buffer
+buffer current position
+current byte
+data buffer
+buffer current position
+current byte
+ rst
+next restart number
+ swt
+ error
+ swt
+error invalid image
+buffer current position
+buffer current position
+reset input buffer
+buffer current position
+current byte
+data buffer
+buffer current position
+current bit count
+ restarts
+restart interval
+next restart number
+next restart number
+ preceding
+ eobrun
+jpeg segment
+process tables
+jpeg segment
+jpeg segment
+seek unspecified marker
+input stream
+jpeg segment
+jpeg frame header
+ sof
+jpeg frame header
+jpeg segment
+ reference
+ sof
+ verify
+jpeg segment
+ marker
+jpeg segment
+get segment marker
+ marker
+ soi
+ swt
+ error
+ swt
+error invalid image
+ eoi
+ sos
+jpeg segment
+ dqt
+get dqt
+ dht
+get dht
+ dac
+get dac
+ dri
+get dri
+ app
+get app
+ com
+get com
+skip segment from
+input stream
+quantize data
+data unit
+ comp
+ table
+quantization tables
+frame components
+component ids
+ comp
+ tqi
+
+
+data unit
+ length
+
+ index
+zig zag
+
+ data
+data unit
+ index
+abs data
+ data
+ data
+ data
+ value
+ table
+
+
+ value
+abs data
+
+abs data
+ value
+data unit
+ index
+abs data
+ value
+ data
+data unit
+ index
+abs data
+data unit
+ index
+abs data
+ receive
+ bits
+
+
+
+ bits
+
+
+
+next bit
+
+reset input buffer
+data buffer
+data buffer
+input stream
+ read
+data buffer
+ exception
+
+ swt
+ error
+ swt
+ error
+
+current bit count
+buffer current position
+reset output buffer
+data buffer
+data buffer
+output stream
+ write
+data buffer
+buffer current position
+ exception
+
+ swt
+ error
+ swt
+ error
+
+buffer current position
+jpeg segment
+seek unspecified marker
+data input stream
+byte stream
+byte array
+byte stream
+ read
+byte array
+byte array
+byte stream
+ read
+byte array
+byte array
+byte array
+byte stream
+ unread
+byte array
+jpeg segment
+byte array
+ exception
+
+ swt
+ error
+ swt
+ error
+
+palette data
+set palette
+ components
+ rgb
+ entries
+ rgb
+
+
+
+ entries
+
+ rgb
+
+
+
+palette data
+ entries
+palette data
+skip segment from
+data input stream
+byte stream
+byte array
+jpeg segment
+jpeg segment
+jpeg segment
+byte array
+byte stream
+ read
+byte array
+byte array
+ length
+ swt
+ error
+ swt
+error invalid image
+byte array
+byte array
+byte array
+ swt
+ error
+ swt
+error invalid image
+ delta
+jpeg segment
+get segment length
+byte stream
+ skip
+ delta
+ exception
+
+ swt
+ error
+ swt
+ error
+
+store data
+data unit
+ comp
+ xmcu
+ ymcu
+
+ ihi
+
+ ivi
+comp image
+image components
+ comp
+frame component
+frame components
+component ids
+ comp
+comp width
+frame component
+
+dest index
+ ymcu
+
+ ivi
+comp width
+ dctsize
+ xmcu
+
+ ihi
+ dctsize
+src index
+
+
+ dctsize
+
+ col
+ col
+ dctsize
+ col
+
+data unit
+src index
+
+
+
+
+comp image
+dest index
+ col
+
+src index
+dest index
+comp width
+unload into byte stream
+image data
+ image
+jpeg start image
+write stream
+output stream
+ swt
+ error
+ swt
+ error
+jpeg appn
+ appn
+jpeg appn
+ appn
+write stream
+output stream
+ swt
+ error
+ swt
+ error
+quantization tables
+jpeg quantization table
+chrom dqt
+jpeg quantization table
+default chrominance table
+chrom dqt
+ scale
+encoder factor
+jpeg dqt keys
+chrom dqt
+get quantization tables keys
+jpeg dqt values
+chrom dqt
+get quantization tables values
+
+
+jpeg dqt keys
+ length
+
+quantization tables
+jpeg dqt keys
+
+jpeg dqt values
+
+jpeg quantization table
+lum dqt
+jpeg quantization table
+default luminance table
+lum dqt
+ scale
+encoder factor
+jpeg dqt keys
+lum dqt
+get quantization tables keys
+jpeg dqt values
+lum dqt
+get quantization tables values
+
+
+jpeg dqt keys
+ length
+
+quantization tables
+jpeg dqt keys
+
+jpeg dqt values
+
+lum dqt
+write stream
+output stream
+ swt
+ error
+ swt
+ error
+chrom dqt
+write stream
+output stream
+ swt
+ error
+ swt
+ error
+frame length
+scan length
+ precision
+frame params
+scan params
+ image
+ depth
+frame length
+frame params
+frame params
+scan params
+scan params
+scan length
+ components
+ precision
+frame length
+frame params
+frame params
+frame params
+frame params
+scan params
+scan params
+scan params
+scan params
+scan length
+ components
+ precision
+image width
+ image
+ width
+image height
+ image
+ height
+frame header
+jpeg frame header
+frame header
+set segment marker
+ sof
+frame header
+set segment length
+frame length
+frame header
+set sample precision
+ precision
+frame header
+set samples per line
+image width
+frame header
+set number lines
+image height
+frame header
+set number image components
+ components
+frame header
+component parameters
+frame params
+frame header
+component identifiers
+frame header
+initialize contents
+frame header
+write stream
+output stream
+ swt
+ error
+ swt
+ error
+frame components
+frame params
+component ids
+frame header
+component identifiers
+ max
+frame header
+get max factor
+ max
+frame header
+get max factor
+mcu width
+ max
+ dctsize
+mcu height
+ max
+ dctsize
+interleaved mcu cols
+image width
+mcu width
+mcu width
+interleaved mcu rows
+image height
+mcu height
+mcu height
+huffman tables
+jpeg huffman table
+huffman tables
+jpeg huffman table
+jpeg huffman table
+dht tables
+jpeg huffman table
+jpeg huffman table
+get default luminance table
+jpeg huffman table
+get default chrominance table
+jpeg huffman table
+get default luminance table
+jpeg huffman table
+get default chrominance table
+
+
+dht tables
+ length
+
+jpeg huffman table
+dht table
+dht tables
+
+dht table
+write stream
+output stream
+ swt
+ error
+ swt
+ error
+jpeg huffman table
+all tables
+dht table
+get all tables
+
+
+all tables
+ length
+
+jpeg huffman table
+huffman table
+all tables
+
+huffman table
+get table class
+huffman tables
+huffman table
+get table identifier
+huffman table
+huffman tables
+huffman table
+get table identifier
+huffman table
+ preceding
+scan header
+jpeg scan header
+scan header
+set segment marker
+ sos
+scan header
+set segment length
+scan length
+scan header
+set number image components
+ components
+scan header
+set start spectral selection
+scan header
+set end spectral selection
+scan header
+component parameters
+scan params
+scan header
+initialize contents
+scan header
+write stream
+output stream
+ swt
+ error
+ swt
+ error
+convert image
+ image
+reset output buffer
+current byte
+current bit count
+encode scan
+jpeg end image
+write stream
+output stream
+ swt
+ error
+ swt
+ error
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+ jpeg constants
+ jpeg fixed point constants
+ jpeg marker codes
+ jpeg frame component parameter constants
+ jpeg scan component parameter constants
+jfif  component  constants
+unsupported  cmyk  format  answer  empty  byte  array
+convert  existing  image  components  into  rgb  format  defined  per  ccir  601  except  that  and  are  normalized  the  range  maxjsample  rather  than  the  conversion  equations  implemented  are  therefore  40200  34414  71414  77200  where  and  represent  the  incoming  values  less  maxjsample  these  numbers  are  derived  from  tiff  section  dated  june  avoid  floating  point  arithmetic  represent  the  fractional  constants  integers  scaled  about  digits  precision  have  divide  the  products  with  appropriate  rounding  get  the  correct  answer  notice  that  being  integral  input  does  not  contribute  any  fraction  need  not  participate  the  rounding  for  even  more  speed  avoid  doing  any  multiplications  the  inner  loop  precalculating  the  constants  times  and  for  all  possible  values  for  bit  jsampl  this  very  reasonable  only  256  entries  per  table  for  bit  samples  still  acceptable  not  very  reasonable  for  bit  samples  but  you  want  lossless  storage  you  shouldn  changing  colorspace  anyway  the  and  values  can  rounded  integers  advance  the  values  for  the  calculation  are  left  scaled  since  must  add  them  together  before  rounding
+unsupported  cmyk  format  answer  empty  byte  array
+progressive  first  scan  create  new  data  unit
+subsequent  scans  refine  the  existing  data  unit
+sequential  clear  and  reuse  the  data  unit  buffer
+dequantization  idct  sampling  and  color  conversion
+are  done  copy  the  coefficient  data  order 
+display  the  image  incrementally
+non  interleaved
+even  part  per  figure  note  that  published  figure  faulty  rotator  sqrt  should  sqrt 
+odd  part  per  figure  note  paper  omits  factor  sqrt  represents  cos  the  paper  are  tmp  tmp  here
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+pass  process  columns  note  that  must  descale  the  results  factor  and  also  undo  the  pass  bits  scaling
+even  part  per  figure  note  that  published  figure  faulty  rotator  sqrt  should  sqrt 
+odd  part  per  figure  note  paper  omits  factor  sqrt  represents  cos  the  paper  are  tmp  tmp  here
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+due  quantization  will  usually  find  that  many  the  input  coefficients  are  zero  especially  the  terms  can  exploit  this  short  circuiting  the  idct  calculation  for  any  row  which  all  the  terms  are  zero  that  case  each  output  equal  the  coefficient  with  scale  factor  needed  with  typical  images  and  quantization  tables  half  more  the  row  dct  calculations  can  simplified  this  way
+even  part  reverse  the  even  part  the  forward  dct  the  rotator  sqrt 
+odd  part  per  figure  the  matrix  unitary  and  hence  its  transpose  its  inverse  are  respectively
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+pass  process  columns  note  that  must  descale  the  results  factor  and  also  undo  the  pass  bits  scaling
+even  part  reverse  the  even  part  the  forward  dct  the  rotator  sqrt 
+odd  part  per  figure  the  matrix  unitary  and  hence  its  transpose  its  inverse  are  respectively
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+sqrt 
+final  output  stage  inputs  are  tmp  tmp  tmp  tmp
+longer  check  for  app
+process  the  tables  preceding  the  frame  header
+start  frame
+progressive  jpeg  need  keep  all  the  data  units
+sequential  jpeg  only  need  one  data  unit
+process  the  tables  preceding  the  scan  header
+start  scan
+process  scan  and  further  tables  until  eoi
+unread  any  buffered  data  before  looking  for  tables  again
+process  the  tables  preceding  the  next  scan  header
+process  all  markers  until  frame  header  scan  header  eoi  found
+there  should  only  one  soi  per  file
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,91 @@
+<DOC>
+<DOCNO>org.eclipse.swt.SWTException.java </DOCNO>
+<text>
+<class>
+swt exception
+</class>
+<method>
+swt exception
+swt exception
+swt exception
+swt exception
+get cause
+get message
+print stack trace
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ internal
+swt exception
+runtime exception
+ code
+ throwable
+ throwable
+serial version uid
+swt exception
+ swt
+error unspecified
+swt exception
+ string
+ message
+ swt
+error unspecified
+ message
+swt exception
+ code
+ code
+ swt
+find error text
+ code
+swt exception
+ code
+ string
+ message
+ message
+ code
+ code
+ throwable
+get cause
+ throwable
+ string
+get message
+ throwable
+get message
+get message
+ throwable
+ string
+print stack trace
+print stack trace
+ library
+java version
+ library
+java version
+ throwable
+ system
+ err
+ println
+ throwable
+print stack trace
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  runtime  exception  thrown  whenever  recoverable  error  occurs  internally  swt  the  message  text  and  error  code  provide  further  description  the  problem  the  exception  has  code  throwable  code  field  which  holds  the  underlying  exception  that  caused  the  problem  this  information  available  may  null swt exceptions  are  thrown  when  something  fails  internally  but  swt  left  known  stable  state  widget  call  was  made  from  non  thread  there  failure  while  reading  image  because  the  source  file  was  corrupt  see swt error
+the  swt  error  code  one  swt  error
+the  underlying  throwable  that  caused  the  problem  null  this  information  not  available
+constructs  new  instance  this  class  with  its  stack  trace  filled  the  error  code  set  unspecified  value
+constructs  new  instance  this  class  with  its  stack  trace  and  message  filled  the  error  code  set  unspecified  value  specifying  code  null  code  the  message  equivalent  specifying  empty  string  param  message  the  detail  message  for  the  exception
+constructs  new  instance  this  class  with  its  stack  trace  and  error  code  filled  param  code  the  swt  error  code
+constructs  new  instance  this  class  with  its  stack  trace  error  code  and  message  filled  specifying  code  null  code  the  message  equivalent  specifying  empty  string  param  code  the  swt  error  code  param  message  the  detail  message  for  the  exception
+returns  the  underlying  throwable  that  caused  the  problem  null  this  information  not  available  note  this  method  overrides  throwable get cause  that  was  added  jdk  necessary  override  this  method  order  for  inherited print stack trace  methods  work  return  the  underlying  throwable  since 
+returns  the  string  describing  this swt exception  object  combined  with  the  message  string  the  throwable  which  caused  this swt exception  this  information  available  return  the  error  message  string  this swt exception  object
+non  nls  non  nls 
+outputs  printable  representation  this  exception  stack  trace  the  standard  error  stream  note print stack trace print stream  and print stack trace print writer  are  not  provided  order  maintain  compatibility  with  cldc 
+non  nls 
+</comments>
+</text>
+</DOC>

@@ -1,0 +1,70 @@
+<DOC>
+<DOCNO>org.eclipse.swt.internal.ole.win32.IStream.java </DOCNO>
+<text>
+<class>
+ stream
+</class>
+<method>
+ stream
+ clone
+ commit
+ read
+ revert
+ write
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ stream
+ unknown
+ stream
+ address
+ address
+ clone
+ ppstm
+ com
+vtbl call
+ address
+ ppstm
+ commit
+grf commit flags
+ com
+vtbl call
+ address
+grf commit flags
+ read
+
+
+pcb written
+ com
+vtbl call
+ address
+
+
+pcb written
+ revert
+ com
+vtbl call
+ address
+ write
+
+
+pcb written
+ com
+vtbl call
+ address
+
+
+pcb written
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+pointer  location  for  pointer  the  new  stream  object
+specifies  how  changes  are  committed
+</comments>
+</text>
+</DOC>

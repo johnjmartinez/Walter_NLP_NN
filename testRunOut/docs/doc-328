@@ -1,0 +1,94 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.TypedEvent.java </DOCNO>
+<text>
+<class>
+typed event
+</class>
+<method>
+typed event
+typed event
+get name
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+swt event object
+typed event
+swt event object
+ display
+ display
+ widget
+ widget
+ time
+ object
+ data
+serial version uid
+typed event
+ object
+ object
+ object
+typed event
+ event
+
+
+ widget
+ display
+
+ display
+ widget
+
+ widget
+ time
+
+ time
+ data
+
+ data
+ string
+get name
+ string
+ string
+get class
+get name
+ index
+ string
+last index
+ index
+ string
+ string
+ substring
+ index
+ string
+ length
+ string
+ string
+get name
+ widget
+ time
+ data
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  the  super  class  for  all  typed  event  classes  provided  swt  typed  events  contain  particular  information  which  applicable  the  event  occurance  see  org  eclipse  swt  widgets  event
+the  display  where  the  event  occurred  since 
+the  widget  that  issued  the  event
+the  time  that  the  event  occurred  note  this  field  unsigned  integer  and  should  and  with  ffffffffl  that  can  treated  signed  long
+field  for  application  use
+constructs  new  instance  this  class  param  object  the  object  that  fired  the  event
+constructs  new  instance  this  class  based  the  information  the  argument  param  the  low  level  event  initialize  the  receiver  with
+returns  the  name  the  event  this  the  name  the  class  without  the  package  name  return  the  name  the  event
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
+</comments>
+</text>
+</DOC>

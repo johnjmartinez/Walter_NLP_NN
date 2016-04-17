@@ -1,0 +1,109 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Event.java </DOCNO>
+<text>
+<class>
+ event
+</class>
+<method>
+get bounds
+set bounds
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ graphics
+ event
+ display
+ display
+ widget
+ widget
+ type
+ detail
+ widget
+ item
+
+
+
+
+ width
+ height
+ count
+ time
+ button
+ character
+key code
+state mask
+ start
+ end
+ string
+ text
+ doit
+ object
+ data
+ rectangle
+get bounds
+ rectangle
+
+
+ width
+ height
+set bounds
+ rectangle
+ rect
+
+ rect
+
+
+ rect
+
+ width
+ rect
+ width
+ height
+ rect
+ height
+ string
+ string
+ type
+ widget
+
+
+ width
+ height
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  provide  description  particular  event  which  occurred  within  swt  the  swt  untyped  listener  api  uses  these  instances  for  all  event  dispatching  note  for  given  event  only  the  fields  which  are  appropriate  will  filled  the  contents  the  fields  which  are  not  used  the  event  are  unspecified  see  listener  see  org  eclipse  swt  events typed event
+the  display  where  the  event  occurred  since 
+the  widget  that  issued  the  event
+the  type  event  defined  the  event  type  constants  class  code  swt  code  see  org  eclipse  swt  swt
+the  event  specific  detail  field  defined  the  detail  constants  class  code  swt  code  see  org  eclipse  swt  swt
+the  item  that  the  event  occurred  can  null
+the  graphics  context  use  when  painting  that  configured  use  the  colors  font  and  damaged  region  the  control  valid  only  during  the  paint  and  must  not  disposed
+depending  the  event  type  the  offset  the  bounding  rectangle  the  region  that  requires  painting  the  widget  relative  coordinate  the  pointer  the  time  the  mouse  button  was  pressed  released
+depending  the  event  type  the  offset  the  bounding  rectangle  the  region  that  requires  painting  the  widget  relative  coordinate  the  pointer  the  time  the  mouse  button  was  pressed  released
+the  width  the  bounding  rectangle  the  region  that  requires  painting
+the  height  the  bounding  rectangle  the  region  that  requires  painting
+depending  the  event  type  the  number  following  paint  events  which  are  pending  which  may  always  zero  some  platforms  the  number  lines  pages  scroll  using  the  mouse  wheel
+the  time  that  the  event  occurred  note  this  field  unsigned  integer  and  should  and  with  ffffffffl  that  can  treated  signed  long
+the  button  that  was  pressed  released  for  the  first  button  for  the  second  button  and  for  the  third  button  etc
+depending  the  event  the  character  represented  the  key  that  was  typed  this  the  final  character  that  results  after  all  modifiers  have  been  applied  for  example  when  the  user  types  ctrl  the  character  value  ascii  soh  important  that  applications  not  attempt  modify  the  character  value  based state mask  such  swt  ctrl  the  resulting  character  will  not  correct
+depending  the  event  the  key  code  the  key  that  was  typed  defined  the  key  code  constants  class  code  swt  code  when  the  character  field  the  event  ambiguous  this  field  contains  the  unaffected  value  the  original  character  for  example  typing  ctrl  enter  both  result  the  character  but  the key code  field  will  also  contain  when  enter  was  typed  and  when  ctrl  was  typed  see  org  eclipse  swt  swt
+depending  the  event  the  state  the  keyboard  modifier  keys  and  mouse  masks  the  time  the  event  was  generated  see  org  eclipse  swt  swt
+depending  the  event  the  range  text  being  modified  setting  these  fields  has  effect
+depending  the  event  the  new  text  that  will  inserted  setting  this  field  will  change  the  text  that  about  inserted  deleted
+depending  the  event  flag  indicating  whether  the  operation  should  allowed  setting  this  field  false  will  cancel  the  operation
+field  for  application  use
+gets  the  bounds  return  rectangle  that  the  bounds
+sets  the  bounds  param  rect  the  new  rectangle
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
+non  nls  non  nls  non  nls  non  nls  non  nls  non  nls  non  nls 
+</comments>
+</text>
+</DOC>

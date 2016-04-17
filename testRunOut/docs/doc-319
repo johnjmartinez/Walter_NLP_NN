@@ -1,0 +1,32 @@
+<DOC>
+<DOCNO>org.eclipse.swt.events.TreeAdapter.java </DOCNO>
+<text>
+<class>
+tree adapter
+</class>
+<method>
+tree collapsed
+tree expanded
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ events
+tree adapter
+tree listener
+tree collapsed
+tree event
+
+tree expanded
+tree event
+
+</identifier>
+<comments>
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  adapter  class  provides  default  implementations  for  the  methods  described  the  code tree listener  code  interface  classes  that  wish  deal  with  code tree event  code  can  extend  this  class  and  override  only  the  methods  which  they  are  interested  see tree listener  see tree event
+sent  when  tree  branch  collapsed  the  default  behavior  nothing  param  event  containing  information  about  the  tree  operation
+sent  when  tree  branch  expanded  the  default  behavior  nothing  param  event  containing  information  about  the  tree  operation
+</comments>
+</text>
+</DOC>

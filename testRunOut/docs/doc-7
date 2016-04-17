@@ -1,0 +1,1694 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.CTabItem.java </DOCNO>
+<text>
+<class>
+tab item
+</class>
+<method>
+tab item
+tab item
+check style
+shorten text
+ dispose
+draw close
+draw selected
+draw unselected
+get bounds
+get control
+get disabled image
+get font
+get parent
+get tool tip text
+ showing
+ paint
+preferred height
+preferred width
+set control
+set disabled image
+set font
+set image
+set text
+set tool tip text
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+tab item
+ item
+tab folder
+ parent
+
+
+ width
+ height
+ control
+ control
+ string
+tool tip text
+ string
+shortened text
+shortened text width
+ font
+ font
+ image
+disabled image
+ rectangle
+close rect
+ rectangle
+close image state
+tab folder
+ none
+show close
+ showing
+top margin
+bottom margin
+left margin
+right margin
+internal spacing
+ flags
+ swt
+draw transparent
+ swt
+draw mnemonic
+ string
+ ellipsis
+tab item
+tab folder
+ parent
+ style
+ parent
+ style
+ parent
+get item count
+tab item
+tab folder
+ parent
+ style
+ index
+ parent
+check style
+ style
+show close
+ style
+ swt
+ close
+ parent
+create item
+ index
+check style
+ style
+ swt
+ none
+ string
+shorten text
+
+
+ string
+ text
+ width
+
+text extent
+ text
+ flags
+
+ width
+ text
+ellipse width
+
+text extent
+ ellipsis
+ flags
+
+ length
+ text
+ length
+ end
+ length
+ end
+ text
+ text
+ substring
+ end
+
+
+text extent
+ text
+ flags
+
+
+ellipse width
+ width
+ text
+ ellipsis
+ end
+ text
+ substring
+ dispose
+ disposed
+ parent
+destroy item
+ dispose
+ parent
+ control
+tool tip text
+shortened text
+ font
+draw close
+
+
+close rect
+ width
+close rect
+ height
+ display
+ display
+get display
+ indent
+ math
+ max
+tab folder
+button size
+
+close rect
+
+ indent
+
+close rect
+
+ indent
+
+ parent
+ bottom
+ color
+close border
+ display
+get system color
+tab folder
+button border
+close image state
+tab folder
+ normal
+ shape
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+set background
+ display
+get system color
+tab folder
+button fill
+
+fill polygon
+ shape
+
+set foreground
+close border
+
+draw polygon
+ shape
+tab folder
+ hot
+ shape
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ color
+ fill
+ color
+ display
+tab folder
+close fill
+
+set background
+ fill
+
+fill polygon
+ shape
+ fill
+ dispose
+
+set foreground
+close border
+
+draw polygon
+ shape
+tab folder
+ selected
+ shape
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ color
+ fill
+ color
+ display
+tab folder
+close fill
+
+set background
+ fill
+
+fill polygon
+ shape
+ fill
+ dispose
+
+set foreground
+close border
+
+draw polygon
+ shape
+tab folder
+ none
+ shape
+
+
+
+
+
+
+
+
+ parent
+gradient colors
+ parent
+gradient vertical
+ parent
+draw background
+
+ shape
+ color
+default background
+ parent
+get background
+ image
+ image
+ parent
+ image
+ color
+ colors
+ parent
+gradient colors
+ percents
+ parent
+gradient percents
+ vertical
+ parent
+gradient vertical
+ parent
+draw background
+
+ shape
+
+
+default background
+ image
+ colors
+ percents
+ vertical
+draw selected
+
+
+ point
+ size
+ parent
+get size
+right edge
+ math
+ min
+
+ width
+ parent
+get right item edge
+
+ parent
+border left
+
+ parent
+ bottom
+ size
+
+ parent
+border bottom
+ parent
+tab height
+ parent
+highlight _header
+ parent
+border top
+ parent
+tab height
+
+ size
+
+ parent
+border left
+ parent
+border right
+
+ parent
+highlight _header
+ shape
+
+
+
+
+
+
+
+
+
+
+
+
+ parent
+selection gradient colors
+ parent
+selection gradient vertical
+ parent
+draw background
+
+ shape
+
+set background
+ parent
+selection background
+
+fill rectangle
+
+
+
+
+ parent
+ single
+ showing
+ showing
+
+ math
+ max
+ parent
+border left
+
+ parent
+ bottom
+
+
+ height
+
+ size
+
+ parent
+border right
+
+set foreground
+tab folder
+border color
+
+draw line
+
+
+
+
+ shape
+ parent
+ bottom
+ left
+ parent
+ simple
+tab folder
+simple bottom left corner
+tab folder
+bottom left corner
+ right
+ parent
+ simple
+tab folder
+simple bottom right corner
+ parent
+ curve
+ parent
+border left
+ parent
+ index
+ parent
+first index
+ left
+
+
+ height
+ shape
+ left
+ length
+ right
+ length
+ index
+ shape
+ index
+
+ shape
+ index
+
+ shape
+ index
+
+ shape
+ index
+
+
+
+ left
+ length
+
+ shape
+ index
+
+ left
+
+ shape
+ index
+
+ height
+ left
+
+
+
+ right
+ length
+
+ shape
+ index
+ parent
+ simple
+right edge
+ right
+
+right edge
+ parent
+curve indent
+ right
+
+ shape
+ index
+ parent
+ simple
+
+ height
+ right
+
+
+ right
+
+ shape
+ index
+ parent
+ simple
+right edge
+right edge
+ parent
+curve width
+ parent
+curve indent
+ shape
+ index
+
+ shape
+ index
+ parent
+ simple
+right edge
+right edge
+ parent
+curve width
+ parent
+curve indent
+ shape
+ index
+
+ left
+ parent
+ simple
+tab folder
+simple top left corner
+tab folder
+top left corner
+ right
+ parent
+ simple
+tab folder
+simple top right corner
+ parent
+ curve
+ parent
+border left
+ parent
+ index
+ parent
+first index
+ left
+
+
+ shape
+ left
+ length
+ right
+ length
+ index
+ shape
+ index
+
+ shape
+ index
+
+ height
+ shape
+ index
+
+ shape
+ index
+
+ height
+
+
+ left
+ length
+
+ shape
+ index
+
+ left
+
+ shape
+ index
+
+ left
+
+
+
+ right
+ length
+
+ shape
+ index
+ parent
+ simple
+right edge
+ right
+
+right edge
+ parent
+curve indent
+ right
+
+ shape
+ index
+
+ right
+
+ shape
+ index
+ parent
+ simple
+right edge
+right edge
+ parent
+curve width
+ parent
+curve indent
+ shape
+ index
+
+ height
+ shape
+ index
+ parent
+ simple
+right edge
+right edge
+ parent
+curve width
+ parent
+curve indent
+ shape
+ index
+
+ height
+ rectangle
+ clipping
+
+get clipping
+ rectangle
+ bounds
+get bounds
+ bounds
+ height
+ parent
+ bottom
+ bounds
+
+tab paint
+ clipping
+ intersects
+ bounds
+tab paint
+ parent
+selection gradient colors
+ parent
+selection gradient vertical
+ parent
+draw background
+
+ shape
+ color
+default background
+ parent
+selection background
+ image
+ image
+ parent
+selection image
+ color
+ colors
+ parent
+selection gradient colors
+ percents
+ parent
+selection gradient percents
+ vertical
+ parent
+selection gradient vertical
+
+
+
+ parent
+ bottom
+
+
+
+ width
+
+ height
+ parent
+ single
+ parent
+ simple
+
+ parent
+curve width
+ parent
+curve indent
+ parent
+draw background
+
+ shape
+
+
+
+
+default background
+ image
+ colors
+ percents
+ vertical
+ shape
+ math
+ max
+ parent
+border left
+ parent
+border left
+ parent
+ index
+ parent
+first index
+ shape
+ parent
+ bottom
+
+ height
+
+ shape
+ shape
+ shape
+ shape
+ shape
+ length
+ size
+
+ parent
+border right
+
+
+ shape
+ length
+
+ shape
+
+
+ height
+ shape
+
+ rgb
+ inside
+ parent
+selection background
+get rgb
+ parent
+selection image
+ parent
+selection gradient colors
+ parent
+selection gradient colors
+ length
+ inside
+ rgb
+ outside
+ parent
+get background
+get rgb
+ parent
+ image
+ parent
+gradient colors
+ parent
+gradient colors
+ length
+ outside
+ parent
+ antialias
+ shape
+tab folder
+border color
+get rgb
+ inside
+ outside
+
+
+set foreground
+tab folder
+border color
+
+draw polyline
+ shape
+tab paint
+ draw
+
+left margin
+ parent
+ single
+ parent
+show close
+show close
+ draw
+tab folder
+button size
+ image
+ image
+get image
+ image
+ rectangle
+image bounds
+ image
+get bounds
+max image width
+right edge
+ draw
+right margin
+ parent
+ single
+close rect
+ width
+max image width
+close rect
+ width
+internal spacing
+image bounds
+ width
+max image width
+ image
+ draw
+image height
+image bounds
+ height
+ image
+
+ height
+image height
+ image
+ parent
+ bottom
+image width
+image bounds
+ width
+image height
+image bounds
+ height
+
+draw image
+ image
+image bounds
+
+image bounds
+
+image bounds
+ width
+image bounds
+ height
+ image
+ image
+image width
+image height
+ draw
+image width
+internal spacing
+text width
+right edge
+ draw
+right margin
+ parent
+ single
+close rect
+ width
+text width
+close rect
+ width
+internal spacing
+text width
+ font
+ font
+
+get font
+
+set font
+ font
+ parent
+get font
+ font
+shortened text
+shortened text width
+text width
+shortened text
+shorten text
+
+get text
+text width
+shortened text width
+text width
+ point
+ extent
+
+text extent
+shortened text
+ flags
+ text
+
+ height
+ extent
+
+ text
+ parent
+ bottom
+
+set foreground
+ parent
+selection foreground
+
+draw text
+shortened text
+ draw
+ text
+ flags
+
+set font
+ font
+ parent
+focus control
+ display
+ display
+get display
+ parent
+ simple
+ parent
+ single
+
+set background
+ display
+get system color
+ swt
+color black
+
+set foreground
+ display
+get system color
+ swt
+color white
+
+draw focus
+ draw
+ text
+ extent
+
+ extent
+
+
+set foreground
+ display
+get system color
+tab folder
+button border
+
+draw line
+ draw
+ text
+ extent
+
+ draw
+ extent
+
+ text
+ extent
+
+ parent
+show close
+show close
+draw close
+
+draw unselected
+
+
+ showing
+ rectangle
+ clipping
+
+get clipping
+ rectangle
+ bounds
+get bounds
+ clipping
+ intersects
+ bounds
+next visible
+
+ parent
+ index
+
+ parent
+ items
+ length
+
+ parent
+ items
+
+ showing
+next visible
+
+next visible
+next visible
+ parent
+selected index
+
+set foreground
+tab folder
+border color
+
+draw line
+
+ width
+
+
+ width
+
+ height
+ draw
+
+left margin
+ image
+ image
+get image
+ image
+ parent
+show unselected image
+ rectangle
+image bounds
+ image
+get bounds
+max image width
+
+ width
+ draw
+right margin
+ parent
+show unselected close
+ parent
+show close
+show close
+max image width
+close rect
+ width
+internal spacing
+image bounds
+ width
+max image width
+ image
+ draw
+image height
+image bounds
+ height
+ image
+
+ height
+image height
+ image
+ parent
+ bottom
+image width
+image bounds
+ width
+image height
+image bounds
+ height
+
+draw image
+ image
+image bounds
+
+image bounds
+
+image bounds
+ width
+image bounds
+ height
+ image
+ image
+image width
+image height
+ draw
+image width
+internal spacing
+text width
+
+ width
+ draw
+right margin
+ parent
+show unselected close
+ parent
+show close
+show close
+text width
+close rect
+ width
+internal spacing
+text width
+ font
+ font
+
+get font
+
+set font
+ font
+ parent
+get font
+ font
+shortened text
+shortened text width
+text width
+shortened text
+shorten text
+
+get text
+text width
+shortened text width
+text width
+ point
+ extent
+
+text extent
+shortened text
+ flags
+ text
+
+ height
+ extent
+
+ text
+ parent
+ bottom
+
+set foreground
+ parent
+get foreground
+
+draw text
+shortened text
+ draw
+ text
+ flags
+
+set font
+ font
+ parent
+show unselected close
+ parent
+show close
+show close
+draw close
+
+ rectangle
+get bounds
+
+ width
+ parent
+ simple
+ parent
+ single
+ parent
+ index
+ parent
+selected index
+
+ parent
+curve width
+ parent
+curve indent
+ rectangle
+
+
+
+ height
+ control
+get control
+check widget
+ control
+ image
+get disabled image
+check widget
+disabled image
+ font
+get font
+check widget
+ font
+ font
+ parent
+get font
+tab folder
+get parent
+ parent
+ string
+get tool tip text
+check widget
+tool tip text
+shortened text
+ string
+ text
+get text
+shortened text
+ equals
+ text
+ text
+tool tip text
+ showing
+check widget
+ showing
+ paint
+
+
+ selected
+ width
+ height
+ selected
+draw selected
+
+draw unselected
+
+preferred height
+
+
+ image
+ image
+get image
+
+ image
+ image
+get bounds
+ height
+ string
+ text
+get text
+ font
+
+ math
+ max
+
+
+text extent
+ text
+ flags
+
+ font
+ font
+
+get font
+
+set font
+ font
+
+ math
+ max
+
+
+text extent
+ text
+ flags
+
+
+set font
+ font
+
+top margin
+bottom margin
+preferred width
+
+
+ selected
+ minimum
+ disposed
+
+ image
+ image
+get image
+ image
+ selected
+ parent
+show unselected image
+
+ image
+get bounds
+ width
+ string
+ text
+ minimum
+min chars
+ parent
+min chars
+ text
+min chars
+get text
+ text
+ text
+ length
+min chars
+ end
+min chars
+ ellipsis
+ length
+min chars
+min chars
+ ellipsis
+ length
+ text
+ text
+ substring
+ end
+min chars
+ ellipsis
+ length
+ text
+ ellipsis
+ text
+get text
+ text
+
+
+internal spacing
+ font
+
+
+text extent
+ text
+ flags
+
+ font
+ font
+
+get font
+
+set font
+ font
+
+
+text extent
+ text
+ flags
+
+
+set font
+ font
+ parent
+show close
+show close
+ selected
+ parent
+show unselected close
+
+
+internal spacing
+
+tab folder
+button size
+
+left margin
+right margin
+set control
+ control
+ control
+check widget
+ control
+ control
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ control
+get parent
+ parent
+ swt
+ error
+ swt
+error invalid parent
+ control
+ control
+ disposed
+ control
+set visible
+ control
+ control
+ control
+ index
+ parent
+ index
+ index
+ parent
+get selection index
+ control
+set bounds
+ parent
+get client area
+ control
+set visible
+ control
+set visible
+set disabled image
+ image
+ image
+check widget
+ image
+ image
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+disabled image
+ image
+set font
+ font
+ font
+check widget
+ font
+ font
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ font
+ font
+ font
+ font
+ equals
+ font
+ font
+ font
+ parent
+update tab height
+ parent
+update items
+ parent
+redraw tabs
+set image
+ image
+ image
+check widget
+ image
+ image
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ image
+old image
+get image
+ image
+old image
+ image
+ image
+ equals
+old image
+set image
+ image
+ parent
+update tab height
+old image
+ image
+ rectangle
+old bounds
+old image
+get bounds
+ rectangle
+ bounds
+ image
+get bounds
+ bounds
+ width
+old bounds
+ width
+ bounds
+ height
+old bounds
+ height
+ showing
+ parent
+ redraw
+
+
+ width
+ height
+ parent
+update items
+ parent
+redraw tabs
+set text
+ string
+ string
+check widget
+ string
+ swt
+ error
+ swt
+error null argument
+ string
+ equals
+get text
+set text
+ string
+shortened text
+shortened text width
+ parent
+update tab height
+ parent
+update items
+ parent
+redraw tabs
+set tool tip text
+ string
+ string
+check widget
+tool tip text
+ string
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  represent  selectable  user  interface  object  that  represent  page  notebook  widget  styles  swt  close  events  none  important  this  class  not  intended  subclassed 
+the  tab  page
+  appearance
+internal  constants
+non  nls  could  use  the  ellipsis  glyph  some  platforms  2026
+constructs  new  instance  this  class  given  its  parent  which  must  code tab folder  code  and  style  value  describing  its  behavior  and  appearance  the  item  added  the  end  the  items  maintained  its  parent  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent tab folder  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  see  widget get style
+constructs  new  instance  this  class  given  its  parent  which  must  code tab folder  code  style  value  describing  its  behavior  and  appearance  and  the  index  which  place  the  items  maintained  its  parent  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent tab folder  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  param  index  the  index  store  the  receiver  its  parent  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  see  widget get style
+valid thread  error  swt  error  thread  invalid  access
+draw 
+draw  selection  border  across  all  tabs
+selected  tab  scrolled  out  view  partially  out  view
+just  draw  bottom  line
+draw  selected  tab  background  and  outline
+first  point  repeated  here  because  below  reuse  shape  draw  outline
+first  point  repeated  here  because  below  reuse  shape  draw  outline
+fill  tab  background
+draw  outline
+draw  image
+only  draw  image  won  overlap  with  close  button
+draw  text
+draw  focus  rectangle
+not  draw  partial  items
+draw  border
+draw  image
+only  draw  image  won  overlap  with  close  button
+draw  text
+draw  close
+returns  rectangle  describing  the  receiver  size  and  location  relative  its  parent  return  the  receiver  bounding  column  rectangle  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+ check widget
+gets  the  control  that  displayed  the  content  are  the  tab  item  return  the  control  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+get  the  image  displayed  the  tab  the  tab  disabled  return  the  disabled  image  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  deprecated  the  disabled  image  not  used
+returns  the  font  that  the  receiver  will  use  paint  textual  information  return  the  receiver  font  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  the  receiver  parent  which  must  code tab folder  code  return  the  receiver  parent  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+ check widget
+returns  the  receiver  tool  tip  text  null  has  not  been  set  return  the  receiver  tool  tip  text  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  true  code  the  item  will  rendered  the  visible  area  the tab folder  returns  false  otherwise  return  code  true  code  the  item  will  rendered  the  visible  area  the tab folder  returns  false  otherwise  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+note  preferred  width  does  not  include  the  dead  space  caused
+the  curve
+sets  the  control  that  used  fill  the  client  area  the  tab  folder  when  the  user  selects  the  tab  item  param  control  the  new  control  null  exception illegal argument exception  error  invalid  argument  the  control  has  been  disposed  error  invalid  parent  the  control  not  the  same  widget  tree  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  image  that  displayed  the  tab  item  disabled  null  will  clear  the  image  param  image  the  image  displayed  when  the  item  disabled  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  deprecated  this  image  not  used
+sets  the  font  that  the  receiver  will  use  paint  textual  information  for  this  item  the  font  specified  the  argument  the  default  font  for  that  kind  control  the  argument  null  param  font  the  new  font  null  exception illegal argument exception  error  invalid  argument  the  argument  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+image  the  same  size  before
+redraw  only  the  image
+sets  the  receiver  tool  tip  text  the  argument  which  may  null  indicating  that  tool  tip  text  should  shown  param  string  the  new  tool  tip  text  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+</comments>
+</text>
+</DOC>

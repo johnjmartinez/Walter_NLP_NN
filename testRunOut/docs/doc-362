@@ -1,0 +1,403 @@
+<DOC>
+<DOCNO>org.eclipse.swt.layout.GridData.java </DOCNO>
+<text>
+<class>
+grid data
+</class>
+<method>
+grid data
+grid data
+grid data
+grid data
+grid data
+compute size
+flush cache
+get name
+ string
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ layout
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ widgets
+grid data
+vertical alignment
+ center
+horizontal alignment
+ beginning
+width hint
+ swt
+ default
+height hint
+ swt
+ default
+horizontal indent
+vertical indent
+horizontal span
+vertical span
+grab excess horizontal space
+grab excess vertical space
+minimum width
+minimum height
+ exclude
+ beginning
+ swt
+ beginning
+ center
+ end
+ fill
+ swt
+ fill
+vertical align beginning
+vertical align center
+vertical align end
+vertical align fill
+horizontal align beginning
+horizontal align center
+horizontal align end
+horizontal align fill
+grab horizontal
+grab vertical
+fill vertical
+vertical align fill
+grab vertical
+fill horizontal
+horizontal align fill
+grab horizontal
+fill both
+fill vertical
+fill horizontal
+cache width
+cache height
+default whint
+default hhint
+default width
+default height
+current whint
+current hhint
+current width
+current height
+grid data
+grid data
+ style
+ style
+vertical align beginning
+vertical alignment
+ beginning
+ style
+vertical align center
+vertical alignment
+ center
+ style
+vertical align fill
+vertical alignment
+ fill
+ style
+vertical align end
+vertical alignment
+ end
+ style
+horizontal align beginning
+horizontal alignment
+ beginning
+ style
+horizontal align center
+horizontal alignment
+ center
+ style
+horizontal align fill
+horizontal alignment
+ fill
+ style
+horizontal align end
+horizontal alignment
+ end
+grab excess horizontal space
+ style
+grab horizontal
+grab excess vertical space
+ style
+grab vertical
+grid data
+horizontal alignment
+vertical alignment
+grab excess horizontal space
+grab excess vertical space
+horizontal alignment
+vertical alignment
+grab excess horizontal space
+grab excess vertical space
+grid data
+horizontal alignment
+vertical alignment
+grab excess horizontal space
+grab excess vertical space
+horizontal span
+vertical span
+horizontal alignment
+horizontal alignment
+vertical alignment
+vertical alignment
+grab excess horizontal space
+grab excess horizontal space
+grab excess vertical space
+grab excess vertical space
+horizontal span
+horizontal span
+vertical span
+vertical span
+grid data
+ width
+ height
+width hint
+ width
+height hint
+ height
+compute size
+ control
+ control
+ hint
+ hint
+flush cache
+cache width
+cache height
+ hint
+width hint
+ hint
+height hint
+default width
+default height
+ hint
+default whint
+ hint
+default hhint
+ point
+ size
+ control
+compute size
+ hint
+ hint
+flush cache
+default whint
+ hint
+default hhint
+ hint
+default width
+ size
+
+default height
+ size
+
+cache width
+default width
+cache height
+default height
+current width
+current height
+ hint
+current whint
+ hint
+current hhint
+ point
+ size
+ control
+compute size
+ hint
+ hint
+flush cache
+current whint
+ hint
+current hhint
+ hint
+current width
+ size
+
+current height
+ size
+
+cache width
+current width
+cache height
+current height
+flush cache
+cache width
+cache height
+default width
+default height
+current width
+current height
+ string
+get name
+ string
+ string
+get class
+get name
+ index
+ string
+last index
+ index
+ string
+ string
+ substring
+ index
+ string
+ length
+ string
+ string
+ string
+ align
+horizontal alignment
+ swt
+ fill
+ align
+ swt
+ beginning
+ align
+ swt
+ left
+ align
+ swt
+ end
+ align
+ end
+ align
+ swt
+ right
+ align
+ swt
+ center
+ align
+ center
+ align
+ align
+horizontal alignment
+ string
+ align
+vertical alignment
+ swt
+ fill
+ align
+ swt
+ beginning
+ align
+ swt
+ top
+ align
+ swt
+ end
+ align
+ end
+ align
+ swt
+ bottom
+ align
+ swt
+ center
+ align
+ center
+ align
+ align
+vertical alignment
+ string
+ string
+get name
+ string
+ align
+horizontal indent
+ string
+horizontal indent
+horizontal span
+ string
+horizontal span
+grab excess horizontal space
+ string
+grab excess horizontal space
+width hint
+ swt
+ default
+ string
+width hint
+minimum width
+ string
+minimum width
+ string
+ align
+vertical indent
+ string
+vertical indent
+vertical span
+ string
+vertical span
+grab excess vertical space
+ string
+grab excess vertical space
+height hint
+ swt
+ default
+ string
+height hint
+minimum height
+ string
+minimum height
+ exclude
+ string
+ exclude
+ string
+ string
+ trim
+ string
+ string
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+code grid data  code  the  layout  data  object  associated  with  code grid layout  code  set  code grid data  code  object  into  control  you  use  the  code  control set layout data  object  code  method  there  are  two  ways  create  code grid data  code  object  with  certain  fields  set  the  first  set  the  fields  directly  like  this  pre grid data grid data  new grid data grid data horizontal alignment grid data  fill grid data grab excess horizontal space  true  button set layout data grid data  pre  the  second  take  advantage  convenience  style  bits  defined  code grid data  code  pre  button set layout data  new grid data grid data  horizontal  align  fill grid data  grab  horizontal  pre  note  not  reuse  code grid data  code  objects  every  control  code  composite  code  that  managed  code grid layout  code  must  have  unique  code grid data  code  object  the  layout  data  for  control  code grid layout  code  null  layout  time  unique  code grid data  code  object  created  for  see grid layout  see  control set layout data
+vertical alignment  specifies  how  controls  will  positioned  vertically  within  cell  the  default  value  center  possible  values  are  swt  beginning  swt  top  position  the  control  the  top  the  cell  swt  center  position  the  control  the  vertical  center  the  cell  swt  end  swt  bottom  position  the  control  the  bottom  the  cell  swt  fill  resize  the  control  fill  the  cell  vertically 
+horizontal alignment  specifies  how  controls  will  positioned  horizontally  within  cell  the  default  value  beginning  possible  values  are  swt  beginning  swt  left  position  the  control  the  left  the  cell  swt  center  position  the  control  the  horizontal  center  the  cell  swt  end  swt  right  position  the  control  the  right  the  cell  swt  fill  resize  the  control  fill  the  cell  horizontally 
+width hint  specifies  the  preferred  width  pixels  this  value  the  hint  passed  into  control compute size  int  int  boolean  determine  the  preferred  size  the  control  the  default  value  swt  default  see  control compute size  int  int  boolean
+height hint  specifies  the  preferred  height  pixels  this  value  the  hint  passed  into  control compute size  int  int  boolean  determine  the  preferred  size  the  control  the  default  value  swt  default  see  control compute size  int  int  boolean
+horizontal indent  specifies  the  number  pixels  indentation  that  will  placed  along  the  left  side  the  cell  the  default  value 
+vertical indent  specifies  the  number  pixels  indentation  that  will  placed  along  the  top  side  the  cell  the  default  value  since 
+horizontal span  specifies  the  number  column  cells  that  the  control  will  take  the  default  value 
+vertical span  specifies  the  number  row  cells  that  the  control  will  take  the  default  value 
+grab excess horizontal space  specifies  whether  the  width  the  cell  changes  depending  the  size  the  parent  composite grab excess horizontal space  code  true  code  the  following  rules  apply  the  width  the  cell  extra  horizontal  space  available  the  parent  the  cell  will  grow  wider  than  its  preferred  width  the  new  width  will  preferred  width  delta  where  delta  the  extra  horizontal  space  divided  the  number  grabbing  columns  there  not  enough  horizontal  space  available  the  parent  the  cell  will  shrink  until  reaches  its  minimum  width  specified grid data minimum width  the  new  width  will  the  maximum minimum width  and  preferred  width  delta  where  delta  the  amount  space  missing  divided  the  number  grabbing  columns  the  parent  packed  the  cell  will  its  preferred  width  specified grid data width hint  the  control  spans  multiple  columns  and  there  are  other  grabbing  controls  any  the  spanned  columns  the  last  column  the  span  will  grab  the  extra  space  there  least  one  other  grabbing  control  the  span  the  grabbing  will  spread  over  the  columns  already  marked grab excess horizontal space  the  default  value  false  see grid data minimum width  see grid data width hint
+grab excess vertical space  specifies  whether  the  height  the  cell  changes  depending  the  size  the  parent  composite grab excess vertical space  code  true  code  the  following  rules  apply  the  height  the  cell  extra  vertical  space  available  the  parent  the  cell  will  grow  taller  than  its  preferred  height  the  new  height  will  preferred  height  delta  where  delta  the  extra  vertical  space  divided  the  number  grabbing  rows  there  not  enough  vertical  space  available  the  parent  the  cell  will  shrink  until  reaches  its  minimum  height  specified grid data minimum height  the  new  height  will  the  maximum minimum height  and  preferred  height  delta  where  delta  the  amount  space  missing  divided  the  number  grabbing  rows  the  parent  packed  the  cell  will  its  preferred  height  specified grid data height hint  the  control  spans  multiple  rows  and  there  are  other  grabbing  controls  any  the  spanned  rows  the  last  row  the  span  will  grab  the  extra  space  there  least  one  other  grabbing  control  the  span  the  grabbing  will  spread  over  the  rows  already  marked grab excess vertical space  the  default  value  false  see grid data minimum height  see grid data height hint
+minimum width  specifies  the  minimum  width  pixels  this  value  applies  only grab excess horizontal space  true  value  swt  default  means  that  the  minimum  width  will  the  result  control compute size  int  int  boolean  where  hint  determined grid data width hint  the  default  value  since  see  control compute size  int  int  boolean  see grid data width hint
+minimum height  specifies  the  minimum  height  pixels  this  value  applies  only grab excess vertical space  true  value  swt  default  means  that  the  minimum  height  will  the  result  control compute size  int  int  boolean  where  hint  determined grid data height hint  the  default  value  since  see  control compute size  int  int  boolean  see grid data height hint
+exclude  informs  the  layout  ignore  this  control  when  sizing  and  positioning  controls  this  value  code  true  code  the  size  and  position  the  control  will  not  managed  the  layout  this  value  code  false  code  the  size  and  position  the  control  will  computed  and  assigned  the  default  value  code  false  code  since 
+value  for horizontal alignment vertical alignment  position  the  control  the  top  left  the  cell  not  recommended  use  swt  beginning  swt  top  swt  left  instead
+value  for horizontal alignment vertical alignment  position  the  control  the  vertical  horizontal  center  the  cell  not  recommended  use  swt  center  instead
+value  for horizontal alignment vertical alignment  position  the  control  the  bottom  right  the  cell  not  recommended  use  swt  end  swt  bottom  swt  right  instead
+value  for horizontal alignment vertical alignment  resize  the  control  fill  the  cell  horizontally  vertically  not  recommended  use  swt  fill  instead
+style  bit  for  code  new grid data  int  code  position  the  control  the  top  the  cell  not  recommended  use  code  new grid data  int  swt  beginning  boolean  boolean  code  instead
+style  bit  for  code  new grid data  int  code  position  the  control  the  vertical  center  the  cell  not  recommended  use  code  new grid data  int  swt  center  boolean  boolean  code  instead
+style  bit  for  code  new grid data  int  code  position  the  control  the  bottom  the  cell  not  recommended  use  code  new grid data  int  swt  end  boolean  boolean  code  instead
+style  bit  for  code  new grid data  int  code  resize  the  control  fill  the  cell  vertically  not  recommended  use  code  new grid data  int  swt  fill  boolean  boolean  code  instead
+style  bit  for  code  new grid data  int  code  position  the  control  the  left  the  cell  not  recommended  use  code  new grid data  swt  beginning  int  boolean  boolean  code  instead
+style  bit  for  code  new grid data  int  code  position  the  control  the  horizontal  center  the  cell  not  recommended  use  code  new grid data  swt  center  int  boolean  boolean  code  instead
+style  bit  for  code  new grid data  int  code  position  the  control  the  right  the  cell  not  recommended  use  code  new grid data  swt  end  int  boolean  boolean  code  instead
+style  bit  for  code  new grid data  int  code  resize  the  control  fill  the  cell  horizontally  not  recommended  use  code  new grid data  swt  fill  int  boolean  boolean  code  instead
+style  bit  for  code  new grid data  int  code  resize  the  control  fit  the  remaining  horizontal  space  not  recommended  use  code  new grid data  int  int  true  boolean  code  instead
+style  bit  for  code  new grid data  int  code  resize  the  control  fit  the  remaining  vertical  space  not  recommended  use  code  new grid data  int  int  boolean  true  code  instead
+style  bit  for  code  new grid data  int  code  resize  the  control  fill  the  cell  vertically  and  fit  the  remaining  vertical  space  fill  vertical  vertical  align  fill  grab  vertical  not  recommended  use  code  new grid data  int  swt  fill  boolean  true  code  instead
+style  bit  for  code  new grid data  int  code  resize  the  control  fill  the  cell  horizontally  and  fit  the  remaining  horizontal  space  fill  horizontal  horizontal  align  fill  grab  horizontal  not  recommended  use  code  new grid data  swt  fill  int  true  boolean  code  instead
+style  bit  for  code  new grid data  int  code  resize  the  control  fill  the  cell  horizontally  and  vertically  and  fit  the  remaining  horizontal  and  vertical  space  fill  both  fill  vertical  fill  horizontal  not  recommended  use  code  new grid data  swt  fill  swt  fill  true  true  code  instead
+constructs  new  instance grid data  using  default  values
+constructs  new  instance  based  the grid data  style  this  constructor  not  recommended  param  style  the grid data  style
+constructs  new  instance grid data  according  the  parameters  param horizontal alignment  how  control  will  positioned  horizontally  within  cell  param vertical alignment  how  control  will  positioned  vertically  within  cell  param grab excess horizontal space  whether  cell  will  made  wide  enough  fit  the  remaining  horizontal  space  param grab excess vertical space  whether  cell  will  made  high  enough  fit  the  remaining  vertical  space  since 
+constructs  new  instance grid data  according  the  parameters  param horizontal alignment  how  control  will  positioned  horizontally  within  cell  param vertical alignment  how  control  will  positioned  vertically  within  cell  param grab excess horizontal space  whether  cell  will  made  wide  enough  fit  the  remaining  horizontal  space  param grab excess vertical space  whether  cell  will  made  high  enough  fit  the  remaining  vertical  space  param horizontal span  the  number  column  cells  that  the  control  will  take  param vertical span  the  number  row  cells  that  the  control  will  take  since 
+constructs  new  instance grid data  according  the  parameters  value  swt  default  indicates  that  minimum  width  minumum  height  specified  param  width  minimum  width  for  the  column  param  height  minimum  height  for  the  row  since 
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
+</comments>
+</text>
+</DOC>

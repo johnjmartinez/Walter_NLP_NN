@@ -1,0 +1,45 @@
+<DOC>
+<DOCNO>org.eclipse.swt.custom.BidiSegmentEvent.java </DOCNO>
+<text>
+<class>
+bidi segment event
+</class>
+<method>
+bidi segment event
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ events
+bidi segment event
+typed event
+line offset
+ string
+line text
+ segments
+serial version uid
+bidi segment event
+styled text event
+
+
+line offset
+
+ detail
+line text
+
+ text
+</identifier>
+<comments>
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+this  event  sent bidi segment listeners  when  line  measured  rendered  bidi  locale  the  segments  field  used  specify  text  ranges  the  line  that  should  treated  separate  segments  for  bidi  reordering  each  segment  will  reordered  and  rendered  separately  the  elements  the  segments  field  specify  the  start  offset  segment  relative  the  start  the  line  they  must  follow  the  following  rules  first  element  must  elements  must  ascending  order  and  must  not  have  duplicates  elements  must  not  exceed  the  line  length  addition  the  last  element  may  set  the  end  the  line  but  this  not  required  the  segments  field  may  left  null  the  entire  line  should  reordered bidi segment listener  may  used  when  adjacent  segments  right  left  text  should  not  reordered  relative  each  other  for  example  within  java  editor  you  may  wish  multiple  right  left  string  literals  reordered  differently  than  the  bidi  algorithm  specifies  example  pre  stored  line  are  right  left  characters  the  quotation  marks  are  part  the  line  text  the  line  characters  long  segments  null  entire  line  will  reordered  and  thus  the  two  segments  swapped  per  the  bidi  algorithm  visual  line  rendered  screen  segments  will  reordered  followed  blank  blank  and  visual  line  pre
+line  start  offset
+line  text
+bidi  segments  see  above
+</comments>
+</text>
+</DOC>

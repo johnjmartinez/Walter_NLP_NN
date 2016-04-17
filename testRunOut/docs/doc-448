@@ -1,0 +1,74 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Monitor.java </DOCNO>
+<text>
+<class>
+ monitor
+</class>
+<method>
+ monitor
+ equals
+get bounds
+get client area
+hash code
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ graphics
+ monitor
+ handle
+
+
+ width
+ height
+ client
+ client
+client width
+client height
+ monitor
+ equals
+ object
+ object
+ object
+ object
+ monitor
+ monitor
+ monitor
+ monitor
+ object
+ handle
+ monitor
+ handle
+ rectangle
+get bounds
+ rectangle
+
+
+ width
+ height
+ rectangle
+get client area
+ rectangle
+ client
+ client
+client width
+client height
+hash code
+ handle
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  descriptions  monitors  see  display  since 
+prevents  uninitialized  instances  from  being  created  outside  the  package
+compares  the  argument  the  receiver  and  returns  true  they  represent  the  same  object  using  class  specific  comparison  param  object  the  object  compare  with  this  object  return  code  true  code  the  object  the  same  this  object  and  code  false  code  otherwise  see hash code
+returns  rectangle  describing  the  receiver  size  and  location  relative  its  device  return  the  receiver  bounding  rectangle
+returns  rectangle  which  describes  the  area  the  receiver  which  capable  displaying  data  return  the  client  area
+returns  integer  hash  code  for  the  receiver  any  two  objects  that  return  code  true  code  when  passed  code  equals  code  must  return  the  same  value  for  this  method  return  the  receiver  hash  see  equals  object
+</comments>
+</text>
+</DOC>

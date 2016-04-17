@@ -1,0 +1,875 @@
+<DOC>
+<DOCNO>org.eclipse.swt.widgets.Sash.java </DOCNO>
+<text>
+<class>
+ sash
+</class>
+<method>
+ sash
+add selection listener
+call window proc
+check style
+compute size
+draw band
+remove selection listener
+window class
+window proc
+ erasebkgnd
+ keydown
+ getdlgcode
+ lbuttondown
+ lbuttonup
+ mousemove
+ setcursor
+</method>
+<identifier>
+ org
+ eclipse
+ swt
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ graphics
+ org
+ eclipse
+ swt
+ events
+ sash
+ control
+ dragging
+ start
+ start
+ last
+ last
+ increment
+page increment
+ sash
+ composite
+ parent
+ style
+ parent
+check style
+ style
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+call window proc
+ hwnd
+ msg
+ param
+ param
+ handle
+
+def window proc
+ hwnd
+ msg
+ param
+ param
+check style
+ style
+check bits
+ style
+ swt
+ horizontal
+ swt
+ vertical
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+ border
+get border width
+ width
+ border
+ height
+ border
+ style
+ swt
+ horizontal
+ width
+default width
+ height
+ width
+ height
+default height
+ hint
+ swt
+ default
+ width
+ hint
+ border
+ hint
+ swt
+ default
+ height
+ hint
+ border
+ point
+ width
+ height
+draw band
+
+
+ width
+ height
+ style
+ swt
+ smooth
+hwnd track
+ parent
+ handle
+ bits
+stipple bitmap
+
+create bitmap
+ bits
+stipple brush
+
+create pattern brush
+stipple bitmap
+
+
+ get
+hwnd track
+
+dcx cache
+old brush
+
+select object
+
+stipple brush
+
+pat blt
+
+
+
+ width
+ height
+
+ patinvert
+
+select object
+
+old brush
+
+ release
+hwnd track
+
+
+delete object
+stipple brush
+
+delete object
+stipple bitmap
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ error
+ swt
+error null argument
+event table
+event table
+ unhook
+ swt
+ selection
+ listener
+event table
+ unhook
+ swt
+default selection
+ listener
+ tchar
+window class
+ display
+window class
+window proc
+ display
+window proc
+ lresult
+ erasebkgnd
+ param
+ param
+ lresult
+ result
+ erasebkgnd
+ param
+ param
+ result
+ result
+draw background
+ param
+ lresult
+ one
+ lresult
+ keydown
+ param
+ param
+ lresult
+ result
+ keydown
+ param
+ param
+ result
+ result
+ param
+
+ left
+
+ right
+
+
+
+ down
+
+get key state
+
+ lbutton
+ result
+ step
+
+get key state
+
+ control
+ increment
+page increment
+ point
+
+ point
+ style
+ swt
+ vertical
+ param
+
+
+ param
+
+ down
+
+
+ param
+
+ left
+ step
+ step
+ param
+
+ left
+ param
+
+ right
+
+
+ param
+
+
+ step
+ step
+hwnd track
+ parent
+ handle
+
+map window points
+ handle
+hwnd track
+
+ rect
+ rect
+ rect
+client rect
+ rect
+
+get window rect
+ handle
+ rect
+ width
+ rect
+ right
+ rect
+ left
+ height
+ rect
+ bottom
+ rect
+ top
+
+get client rect
+hwnd track
+client rect
+client width
+client rect
+ right
+client rect
+ left
+client height
+client rect
+ bottom
+client rect
+ top
+ new
+ last
+ new
+ last
+ style
+ swt
+ vertical
+ new
+ math
+ min
+ math
+ max
+
+
+ start
+client width
+ width
+ new
+ math
+ min
+ math
+ max
+
+
+ start
+client height
+ height
+ new
+ last
+ new
+ last
+ result
+ point
+ cursor
+ point
+ cursor
+
+
+
+ cursor
+
+
+
+
+client screen
+hwnd track
+ cursor
+ style
+ swt
+ vertical
+ cursor
+
+ height
+ cursor
+
+ width
+
+set cursor pos
+ cursor
+
+ cursor
+
+ event
+ event
+ event
+ event
+
+ new
+ event
+
+ new
+ event
+ width
+ width
+ event
+ height
+ height
+send event
+ swt
+ selection
+ event
+ disposed
+ lresult
+ zero
+ event
+ doit
+ style
+ swt
+ smooth
+set bounds
+ event
+
+ event
+
+ width
+ height
+ result
+ result
+ lresult
+ getdlgcode
+ param
+ param
+ lresult
+
+dlgc static
+ lresult
+ lbuttondown
+ param
+ param
+ lresult
+ result
+ lbuttondown
+ param
+ param
+hwnd track
+ parent
+ handle
+ point
+
+ point
+
+
+ param
+
+
+ param
+ rect
+ rect
+ rect
+
+get window rect
+ handle
+ rect
+
+map window points
+ handle
+
+ start
+
+
+ rect
+ left
+ start
+
+
+ rect
+ top
+
+map window points
+hwnd track
+ rect
+ last
+ rect
+ left
+ last
+ rect
+ top
+ width
+ rect
+ right
+ rect
+ left
+ height
+ rect
+ bottom
+ rect
+ top
+ event
+ event
+ event
+ event
+
+ last
+ event
+
+ last
+ event
+ width
+ width
+ event
+ height
+ height
+ style
+ swt
+ smooth
+ event
+ detail
+ swt
+ drag
+send event
+ swt
+ selection
+ event
+ disposed
+ lresult
+ zero
+ event
+ doit
+ dragging
+ last
+ event
+
+ last
+ event
+
+menu shell
+bring top
+ disposed
+ lresult
+ zero
+
+ win
+
+update window
+hwnd track
+ flags
+
+rdw updatenow
+
+rdw allchildren
+
+redraw window
+hwnd track
+ flags
+draw band
+ event
+
+ event
+
+ width
+ height
+ style
+ swt
+ smooth
+set bounds
+ event
+
+ event
+
+ width
+ height
+ result
+ lresult
+ lbuttonup
+ param
+ param
+ lresult
+ result
+ lbuttonup
+ param
+ param
+ dragging
+ result
+ dragging
+ rect
+ rect
+ rect
+
+get window rect
+ handle
+ rect
+ width
+ rect
+ right
+ rect
+ left
+ height
+ rect
+ bottom
+ rect
+ top
+ event
+ event
+ event
+ event
+
+ last
+ event
+
+ last
+ event
+ width
+ width
+ event
+ height
+ height
+draw band
+ event
+
+ event
+
+ width
+ height
+send event
+ swt
+ selection
+ event
+ disposed
+ result
+ event
+ doit
+ style
+ swt
+ smooth
+set bounds
+ event
+
+ event
+
+ width
+ height
+ result
+ lresult
+ mousemove
+ param
+ param
+ lresult
+ result
+ mousemove
+ param
+ param
+ result
+ result
+ dragging
+ param
+
+ lbutton
+ result
+ point
+
+ point
+
+
+ param
+
+
+ param
+hwnd track
+ parent
+ handle
+
+map window points
+ handle
+hwnd track
+
+ rect
+ rect
+ rect
+client rect
+ rect
+
+get window rect
+ handle
+ rect
+ width
+ rect
+ right
+ rect
+ left
+ height
+ rect
+ bottom
+ rect
+ top
+
+get client rect
+hwnd track
+client rect
+ new
+ last
+ new
+ last
+ style
+ swt
+ vertical
+client width
+client rect
+ right
+client rect
+ left
+ new
+ math
+ min
+ math
+ max
+
+
+ start
+client width
+ width
+client height
+client rect
+ bottom
+client rect
+ top
+ new
+ math
+ min
+ math
+ max
+
+
+ start
+client height
+ height
+ new
+ last
+ new
+ last
+ result
+draw band
+ last
+ last
+ width
+ height
+ event
+ event
+ event
+ event
+
+ new
+ event
+
+ new
+ event
+ width
+ width
+ event
+ height
+ height
+ style
+ swt
+ smooth
+ event
+ detail
+ swt
+ drag
+send event
+ swt
+ selection
+ event
+ disposed
+ lresult
+ zero
+ event
+ doit
+ last
+ event
+
+ last
+ event
+
+
+ win
+
+update window
+hwnd track
+ flags
+
+rdw updatenow
+
+rdw allchildren
+
+redraw window
+hwnd track
+ flags
+draw band
+ last
+ last
+ width
+ height
+ style
+ swt
+ smooth
+set bounds
+ last
+ last
+ width
+ height
+ result
+ lresult
+ setcursor
+ param
+ param
+ lresult
+ result
+ setcursor
+ param
+ param
+ result
+ result
+hit test
+ param
+hit test
+
+ htclient
+ cursor
+ style
+ swt
+ horizontal
+ cursor
+
+load cursor
+
+idc sizens
+ cursor
+
+load cursor
+
+idc sizewe
+
+set cursor
+ cursor
+ lresult
+ one
+ result
+</identifier>
+<comments>
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  the  receiver  represent  selectable  user  interface  object  that  allows  the  user  drag  rubber  banded  outline  the  sash  within  the  parent  control  styles  horizontal  vertical  smooth  events  selection  note  only  one  the  styles  horizontal  and  vertical  may  specified  important  this  class  intended  subclassed  only  within  the  swt  implementation 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  horizontal  see  swt  vertical  see  widget check subclass  see  widget get style
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  control  selected  sending  one  the  messages  defined  the  code selection listener  code  interface  when  code widget selected  code  called  the  width  and  height  fields  the  event  object  are  valid  the  reciever  being  dragged  the  event  object  detail  field  contains  the  value  code  swt  drag  code  code widget default selected  code  not  called  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener  see selection event
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  control  selected  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener
+calculate  the  new  position
+update  the  pointer  position
+compute  the  banding  rectangle
+the  event  must  sent  because  doit  flag  used
+draw  the  banding  rectangle
+widget  could  disposed  this  point
+compute  the  banding  rectangle
+the  event  must  sent  because  doit  flag  used
+widget  could  disposed  this  point
+compute  the  banding  rectangle
+the  event  must  sent  because  doit  flag  used
+widget  could  disposed  this  point
+</comments>
+</text>
+</DOC>
