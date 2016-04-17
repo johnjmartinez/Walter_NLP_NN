@@ -1,0 +1,32 @@
+#!/bin/bash
+set -x
+
+jBLUiR='java -jar BLUiR/BLUiR.jar '
+proj=`pwd -P`
+bugRepo=${proj}/SWTBugRepository.xml 
+srcRepo=${proj}/src_code
+outDir=${proj}/testRunOut #or whatever you wanna call it
+cd BLUiR
+
+mkdir $outDir
+
+#create query from XML Bug Repository
+$jBLUiR -task='createquery' \
+ -bugRepoLocation=${bugRepo} \
+ -queryFilePath=${outDir}/query
+
+#construct a structured document collection from source code files 
+$jBLUiR -task='createdocs' \
+ -codeLocation=${srcRepo} \
+ -docLocation=${outDir}/docs
+
+#index document collection
+$jBLUiR -task='index' \
+ -indexLocation=${outDir}/index \
+ -docLocation=${outDir}/docs
+
+#perform retrieval to identify buggy files
+$jBLUiR -task='retrieve' \
+ -queryFilePath=${outDir}/query \
+ -indexLocation=${outDir}/index \
+ -resultPath=${outDir}/results.txt

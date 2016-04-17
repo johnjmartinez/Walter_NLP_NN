@@ -1,0 +1,1 @@
+indripath=/home/johnjmar/uni/spring16/final_proj/indri-5.3/
