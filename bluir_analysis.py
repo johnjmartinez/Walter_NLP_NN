@@ -42,7 +42,7 @@ def createBugReportResultsMap(resultsFilePath):
         for resultLine in resultsFile:
             match = resultLineRE.match(resultLine)
             if match:
-                bugReportID = match.group('bugReportID')
+                bugReportID = int(match.group('bugReportID'))
 
                 if bugReportID not in bugReportResultsMap:
                     bugReportResultsMap[bugReportID] = Result(bugReportID, match.group('queryID'))
@@ -63,7 +63,7 @@ def createBugReportSourceFileMap(bugRepositoryFilePath):
 
     bugReportSourceFileMap = {}
     for (bugReportID, bugReportWords, bugReportFiles) in bugReportContentHandler.bugReportInformation:
-        bugReportSourceFileMap[bugReportID] = bugReportFiles
+        bugReportSourceFileMap[int(bugReportID)] = bugReportFiles
 
     return bugReportSourceFileMap
 
@@ -84,17 +84,11 @@ class BLUiRAnalysis():
         reciprocalRankSum = 0.0
 
         for bugReportID in bugReportResultsMap:
-            reciprocalRankSum += \
-                self.calculateReciprocalRank(bugReportResultsMap[bugReportID], self.bugReportSourceFileMap[bugReportID])
+            bestRank = self.calculateBestRankForBuggySourceFiles(bugReportResultsMap[bugReportID], self.bugReportSourceFileMap[bugReportID])
+            if bestRank:
+                reciprocalRankSum += (1.0 / bestRank)
 
         return reciprocalRankSum / len(bugReportResultsMap)
-
-    def calculateReciprocalRank(self, result, bugReportSourceFiles):
-        for (sourceFile, rank) in result.getFilesWithRank():
-            if sourceFile in bugReportSourceFiles:
-                return (1.0 / rank)
-
-        return 0.0
 
     def calculateMeanAveragePrecision(self, bugReportResultsMap):
         averagePrecisionSum = 0.0
@@ -118,6 +112,20 @@ class BLUiRAnalysis():
             averagePrecision += (change * precision)
         return averagePrecision
 
+    def calculateBestRanks(self, bugReportResultsMap):
+        bugReportBestRankMap = {}
+        for bugReportID in bugReportResultsMap:
+            bugReportBestRankMap[bugReportID] = \
+                self.calculateBestRankForBuggySourceFiles(bugReportResultsMap[bugReportID], self.bugReportSourceFileMap[bugReportID])
+        return bugReportBestRankMap
+
+    def calculateBestRankForBuggySourceFiles(self, result, bugReportSourceFiles):
+        for (sourceFile, rank) in result.getFilesWithRank():
+            if sourceFile in bugReportSourceFiles:
+                return rank
+
+        return None
+
 if __name__ == '__main__':
     resultsFilePath = sys.argv[1]
     bugReportResultsMap = createBugReportResultsMap(resultsFilePath)
@@ -135,3 +143,8 @@ if __name__ == '__main__':
     print "Top 10: %d" % bluirAnalysis.calculateRecallAtTopN(bugReportResultsMap, 10)
     print "MRR: %f" % bluirAnalysis.calculateMeanReciprocalRank(bugReportResultsMap)
     print "MAP: %f" % bluirAnalysis.calculateMeanAveragePrecision(bugReportResultsMap)
+    print "Best Ranks:"
+    bugReportBestRankMap = bluirAnalysis.calculateBestRanks(bugReportResultsMap)
+    for bugReportID in sorted(bugReportBestRankMap.iterkeys()):
+        print "\t%s: %s" % (bugReportID, bugReportBestRankMap[bugReportID])
+
