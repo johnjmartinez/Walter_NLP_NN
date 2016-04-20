@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.SCRIPT_PROPERTIES.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.NONCLIENTMETRICSA.java </DOCNO>
 <text>
 <class>
-script properties
+ nonclientmetricsa
 </class>
 <method>
 NONE
@@ -13,26 +13,27 @@ NONE
  swt
  internal
  win
-script properties
- langid
- numeric
- complex
-needs word breaking
-needs caret info
-char set
- control
-private use area
-needs character justify
-invalid glyph
-invalid log attr
- cdm
-ambiguous char set
-cluster size varies
-reject invalid
+ nonclientmetricsa
+ nonclientmetrics
+ logfonta
+caption font
+ logfonta
+ logfonta
+caption font
+ logfonta
+ logfonta
+menu font
+ logfonta
+ logfonta
+status font
+ logfonta
+ logfonta
+message font
+ logfonta
  sizeof
 </identifier>
 <comments>
-copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
 </comments>
 </text>
 </DOC>

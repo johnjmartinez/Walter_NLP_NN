@@ -1,37 +1,64 @@
 <DOC>
-<DOCNO>org.eclipse.swt.printing.Printer.java </DOCNO>
+<DOCNO>org.eclipse.swt.widgets.Button.java </DOCNO>
 <text>
 <class>
- printer
+ button
 </class>
 <method>
-get printer list
-get default printer data
-check null
- printer
- printer
- create
-internal _new
-internal _dispose
-start job
-end job
-cancel job
-start page
-end page
-get dpi
-get bounds
-get client area
-compute trim
-get printer data
-check device
- release
- destroy
+ button
+_set image
+add selection listener
+call window proc
+check style
+ click
+compute size
+default background
+default foreground
+enable widget
+get alignment
+get default
+get image
+get name text
+get selection
+get text
+tab item
+mnemonic hit
+mnemonic match
+release widget
+remove selection listener
+select radio
+set alignment
+set default
+set fixed focus
+set image
+set radio focus
+set radio selection
+set saved focus
+set selection
+set text
+widget style
+window class
+window proc
+ getdlgcode
+ killfocus
+ lbuttondown
+ lbuttonup
+ setfocus
+ syscolorchange
+color child
+command child
+draw child
 </method>
 <identifier>
  org
  eclipse
  swt
- printing
+ widgets
+ org
+ eclipse
+ swt
+ internal
+ win
  org
  eclipse
  swt
@@ -42,607 +69,1725 @@ check device
  org
  eclipse
  swt
- internal
+ events
+ button
+ control
+ string
+ text
+ image
+ image
+ image
+image list
+image list
+ignore mouse
+button proc
+ tchar
+button class
+ tchar
+ scrollbar
+check width
+check height
+icon width
+icon height
+ bitmap
+
+load bitmap
+
+obm checkboxes
+ bitmap
+check width
+
+get system metrics
+
  win
- printer
- device
+
+ cxsmicon
+
+ cxvscroll
+check height
+
+get system metrics
+
+ win
+
+ cysmicon
+
+ cyvscroll
+ bitmap
+ bitmap
+ bitmap
+
+get object
+ bitmap
+ bitmap
+ sizeof
+ bitmap
+
+delete object
+ bitmap
+check width
+ bitmap
+ width
+check height
+ bitmap
+ height
+ wndclass
+wnd class
+ wndclass
+
+get class info
+button class
+wnd class
+button proc
+wnd class
+lpfn wnd proc
+ button
+ composite
+ parent
+ style
+ parent
+check style
+ style
+_set image
+ image
+ image
+
+comctl 32_ major
+
+app themed
+
+send message
  handle
-printer data
- data
- created
- tchar
- profile
- tchar
-app name
- tchar
-key name
- profile
- tchar
-app name
- tchar
-key name
- tchar
-printer data
-get printer list
- length
- tchar
- buf
- tchar
- length
- tchar
-null buf
- tchar
 
-
-get profile string
- profile
-null buf
- buf
- length
-
-printer data
- string
-device names
- string
-name count
- index
-
-
-
-
- buf
- tchar
-
-name count
-device names
- length
- string
-new names
- string
-device names
- length
- system
- arraycopy
-device names
-new names
-device names
- length
-device names
-new names
-device names
-name count
- buf
- string
- index
-
- index
-name count
- index
-
-printer data
-printer list
-printer data
-name count
-
-
-name count
-
- string
- device
-device names
-
- string
- driver
-
-get profile string
- profile
- tchar
- device
-null buf
- buf
- length
-comma index
- buf
- tchar
-comma index
-comma index
- length
-comma index
-comma index
- length
- driver
- buf
- string
-comma index
-printer list
-
-printer data
- driver
- device
-printer list
-printer data
-get default printer data
- string
-device name
- length
- tchar
- buf
- tchar
- length
- tchar
-null buf
- tchar
-
-
-get profile string
-app name
-key name
-null buf
- buf
- length
-
-comma index
- buf
- tchar
-comma index
-comma index
- length
-comma index
-comma index
- length
-device name
- buf
- string
-comma index
- string
- driver
-
-get profile string
- profile
- tchar
-device name
-null buf
- buf
- length
-comma index
- buf
- tchar
-comma index
-comma index
- length
-comma index
-comma index
- length
- driver
- buf
- string
-comma index
-printer data
- driver
-device name
-device data
-check null
-printer data
- data
- data
- data
-printer data
- data
- driver
- data
- name
-printer data
-default printer
-get default printer data
-default printer
+bcm setimagelist
+image list
+image list
+ dispose
+image list
+ image
+image list
+image list
+ style
  swt
+right left
+image list
+ add
+ image
+button imagelist
+button image list
+button imagelist
+button image list
+ himl
+image list
+get handle
+ style
+ swt
+ left
+button image list
+ align
+
+button imagelist align left
+ style
+ swt
+ center
+button image list
+ align
+
+button imagelist align center
+ style
+ swt
+ right
+button image list
+ align
+
+button imagelist align right
+ tchar
+ buffer
+ tchar
+get code page
+
+set window text
+ handle
+ buffer
+
+send message
+ handle
+
+bcm setimagelist
+button image list
+ tchar
+ buffer
+ tchar
+get code page
+ text
+
+set window text
+ handle
+ buffer
+
+send message
+ handle
+
+bcm setimagelist
+ image
+ image
+ dispose
+ image
+ image
+image bits
+image type
+ image
+ image
+ type
+ swt
+ bitmap
+ rectangle
+ rect
+ image
+get bounds
+image data
+ data
+ image
+get image data
+ data
+get transparency type
+ swt
+transparency pixel
+ rect
+ width
+icon width
+ rect
+ height
+icon height
+ image
+ image
+ display
+ data
+ data
+get transparency mask
+ image
+ image
+ handle
+image bits
+
+ icon
+image type
+
+image icon
+ swt
+transparency alpha
+ image
+ image
+ display
+ rect
+ width
+ rect
+ height
+
+
+
+ image
+
+set background
+get background
+
+fill rectangle
+ rect
+
+draw image
+ image
+
+ dispose
+ image
+ image
+ handle
+image bits
+
+ bitmap
+image type
+
+image bitmap
+ swt
+transparency none
+ image
+ image
+ handle
+image bits
+
+ bitmap
+image type
+
+image bitmap
+ swt
+ icon
+ image
+ image
+ handle
+image bits
+
+ icon
+image type
+
+image icon
+ style
+ swt
+right left
+
+ win
+
+win 32_ version
+
+ version
+ rectangle
+ rect
+ image
+get bounds
+
+
+ get
+ handle
+dst hdc
+
+create compatible
+
+ bitmap
+
+create compatible bitmap
+
+ rect
+ width
+ rect
+ height
+old bitmap
+
+select object
+dst hdc
+ bitmap
+
+set layout
+dst hdc
+
+layout rtl
+image type
+
+image bitmap
+src hdc
+
+create compatible
+
+old src bitmap
+
+select object
+src hdc
+ image
+
+set layout
+dst hdc
+
+bit blt
+dst hdc
+ rect
+ width
+ rect
+ height
+src hdc
+
+ srccopy
+
+select object
+src hdc
+old src bitmap
+
+ delete
+src hdc
+new brush
+
+create solid brush
+get background pixel
+old brush
+
+select object
+dst hdc
+new brush
+
+pat blt
+dst hdc
+ rect
+ width
+ rect
+ height
+
+ patcopy
+
+draw icon
+dst hdc
+ image
+
+ normal
+
+select object
+dst hdc
+old brush
+
+delete object
+new brush
+
+select object
+dst hdc
+old bitmap
+
+ delete
+dst hdc
+
+ release
+ handle
+
+ image
+ image
+ dispose
+ image
+ image
+win 32_new
+ display
+ swt
+ bitmap
+ bitmap
+image bits
+
+ bitmap
+image type
+
+image bitmap
+ image
+ bitmap
+new bits
+
+get window long
+ handle
+
+gwl style
+old bits
+new bits
+new bits
+
+ bitmap
+
+ icon
+new bits
+image bits
+new bits
+old bits
+
+set window long
+ handle
+
+gwl style
+new bits
+
+send message
+ handle
+
+ setimage
+image type
+ image
+add selection listener
+selection listener
+ listener
+check widget
+ listener
  error
  swt
-error handles
- data
- driver
-default printer
- driver
- data
- name
-default printer
- name
- data
- printer
- printer
-printer data
- data
-check null
- data
- create
-device data
-device data
- data
-printer data
-device data
- tchar
- driver
- tchar
- data
- driver
- tchar
- device
- tchar
- data
- name
-init data
- buffer
- data
-other data
- heap
-
-get process heap
- buffer
- buffer
- length
-init data
-
-heap alloc
- heap
-
-heap zero memory
- buffer
- length
-
-move memory
-init data
- buffer
- buffer
- length
- handle
-
- create
- driver
- device
-init data
-init data
-
-heap free
- heap
-init data
- handle
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
  swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+call window proc
+ hwnd
+ msg
+ param
+ param
+ handle
+
+call window proc
+button proc
+ hwnd
+ msg
+ param
+ param
+check style
+ style
+ style
+check bits
+ style
+ swt
+ push
+ swt
+ arrow
+ swt
+ check
+ swt
+ radio
+ swt
+ toggle
+ style
+ swt
+ push
+ swt
+ toggle
+check bits
+ style
+ swt
+ center
+ swt
+ left
+ swt
+ right
+ style
+ swt
+ check
+ swt
+ radio
+check bits
+ style
+ swt
+ left
+ swt
+ right
+ swt
+ center
+ style
+ swt
+ arrow
+ style
+ swt
+ focus
+check bits
+ style
+ swt
+
+ swt
+ down
+ swt
+ left
+ swt
+ right
+ style
+ click
+ignore mouse
+
+send message
+ handle
+
+ click
+ignore mouse
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+ border
+get border width
+ width
+ height
+ style
+ swt
+ arrow
+ style
+ swt
+
+ swt
+ down
+ width
+
+get system metrics
+
+ cxvscroll
+ height
+
+get system metrics
+
+ cyvscroll
+ width
+
+get system metrics
+
+ cxhscroll
+ height
+
+get system metrics
+
+ cyhscroll
+ hint
+ swt
+ default
+ width
+ hint
+ hint
+ swt
+ default
+ height
+ hint
+ width
+ border
+ height
+ border
+ point
+ width
+ height
+ extra
+has image
+
+comctl 32_ major
+
+app themed
+button imagelist
+button image list
+button imagelist
+
+send message
+ handle
+
+bcm getimagelist
+button image list
+has image
+button image list
+ himl
+ bits
+
+get window long
+ handle
+
+gwl style
+has image
+ bits
+
+ bitmap
+
+ icon
+has image
+old font
+
+
+ get
+ handle
+new font
+
+send message
+ handle
+
+ getfont
+new font
+old font
+
+select object
+
+new font
+ textmetric
+ lptm
+
+ unicode
+ textmetric
+ textmetricw
+ textmetrica
+
+get text metrics
+
+ lptm
+ length
+ text
+ length
+ length
+ height
+ lptm
+ height
+ extra
+ math
+ max
+ lptm
+ave char width
+ tchar
+ buffer
+ tchar
+get code page
+ text
+ rect
+ rect
+ rect
+ flags
+
+ calcrect
+
+ singleline
+
+draw text
+
+ buffer
+ rect
+ flags
+ width
+ rect
+ right
+ rect
+ left
+ height
+ rect
+ bottom
+ rect
+ top
+new font
+
+select object
+
+old font
+
+ release
+ handle
+
+ image
+ rectangle
+ rect
+ image
+get bounds
+ width
+ rect
+ width
+ height
+ rect
+ height
+ extra
+ style
+ swt
+ check
+ swt
+ radio
+ width
+check width
+ extra
+ height
+ math
+ max
+ height
+check height
+ style
+ swt
+ push
+ swt
+ toggle
+ width
+ height
+ hint
+ swt
+ default
+ width
+ hint
+ hint
+ swt
+ default
+ height
+ hint
+ width
+ border
+ height
+ border
+ point
+ width
+ height
+default background
+ style
+ swt
+ push
+ swt
+ toggle
+
+get sys color
+
+color btnface
+default background
+default foreground
+
+get sys color
+
+color btntext
+enable widget
+ enabled
+enable widget
+ enabled
+ style
+ swt
+right left
+
+comctl 32_ major
+
+app themed
+ bits
+
+get window long
+ handle
+
+gwl style
+has image
+ bits
+
+ bitmap
+
+ icon
+has image
+ string
+ string
+ enabled
+ text
+ text
+ tchar
+ buffer
+ tchar
+get code page
+ string
+
+set window text
+ handle
+ buffer
+get alignment
+check widget
+ style
+ swt
+ arrow
+ style
+ swt
+
+ swt
+
+ style
+ swt
+ down
+ swt
+ down
+ style
+ swt
+ left
+ swt
+ left
+ style
+ swt
+ right
+ swt
+ right
+ swt
+
+ style
+ swt
+ left
+ swt
+ left
+ style
+ swt
+ center
+ swt
+ center
+ style
+ swt
+ right
+ swt
+ right
+ swt
+ left
+get default
+ style
+ swt
+ push
+ bits
+
+get window long
+ handle
+
+gwl style
+ bits
+
+ defpushbutton
+ image
+get image
+check widget
+ image
+ string
+get name text
+get text
+get selection
+check widget
+ style
+ swt
+ check
+ swt
+ radio
+ swt
+ toggle
+ state
+
+send message
+ handle
+
+ getcheck
+ state
+
+bst checked
+ string
+get text
+check widget
+ style
+ swt
+ arrow
+ text
+tab item
+tab item
+mnemonic hit
+
+set focus
+ style
+ swt
+ radio
+ click
+mnemonic match
+ key
+ mnemonic
+find mnemonic
+get text
+ mnemonic
+ character
+upper case
+ key
+ character
+upper case
+ mnemonic
+release widget
+release widget
+image list
+image list
+ dispose
+image list
+ image
+ image
+ dispose
+ image
+ text
+ image
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
  error
  swt
-error handles
-internal _new
- data
- data
+error null argument
+event table
+event table
+ unhook
+ swt
+ selection
+ listener
+event table
+ unhook
+ swt
+default selection
+ listener
+select radio
+ control
+ children
+ parent
+_get children
+
+
+ children
+ length
+
+ control
+ child
+ children
+
+ child
+ child
+set radio selection
+set selection
+set alignment
+ alignment
+check widget
+ style
+ swt
+ arrow
+ style
+ swt
+
+ swt
+ down
+ swt
+ left
+ swt
+ right
+ style
+ swt
+
+ swt
+ down
+ swt
+ left
+ swt
+ right
+ style
+ alignment
+ swt
+
+ swt
+ down
+ swt
+ left
+ swt
+ right
+
+invalidate rect
  handle
+ alignment
  swt
- error
+ left
  swt
-error handles
- data
- created
+ right
  swt
+ center
+ style
+ swt
+ left
+ swt
+ right
+ swt
+ center
+ style
+ alignment
+ swt
+ left
+ swt
+ right
+ swt
+ center
+ bits
+
+get window long
+ handle
+
+gwl style
+ bits
+
+ left
+
+ center
+
+ right
+ style
+ swt
+ left
+ bits
+
+ left
+ style
+ swt
+ center
+ bits
+
+ center
+ style
+ swt
+ right
+ bits
+
+ right
+
+set window long
+ handle
+
+gwl style
+ bits
+
+comctl 32_ major
+
+app themed
+image list
+button imagelist
+button image list
+button imagelist
+button image list
+ himl
+image list
+get handle
+ style
+ swt
+ left
+button image list
+ align
+
+button imagelist align left
+ style
+ swt
+ center
+button image list
+ align
+
+button imagelist align center
+ style
+ swt
+ right
+button image list
+ align
+
+button imagelist align right
+
+send message
+ handle
+
+bcm setimagelist
+button image list
+
+invalidate rect
+ handle
+set default
+ value
+ style
+ swt
+ push
+hwnd shell
+menu shell
+ handle
+ bits
+
+get window long
+ handle
+
+gwl style
+ value
+ bits
+
+ defpushbutton
+
+send message
+hwnd shell
+
+ setdefid
+ handle
+ bits
+
+ defpushbutton
+
+send message
+hwnd shell
+
+ setdefid
+
+send message
+ handle
+
+ setstyle
+ bits
+set fixed focus
+ style
+ swt
+ radio
+get selection
+set fixed focus
+set image
+ image
+ image
+check widget
+ image
+ image
+ disposed
  error
  swt
 error invalid argument
- mask
- swt
-left right
- swt
-right left
- data
- style
- mask
- data
- layout
- data
+_set image
+ image
+ image
+set radio focus
  style
  swt
-right left
+ radio
+get selection
+set focus
+set radio selection
+ value
+ style
+ swt
+ radio
+get selection
+ value
+set selection
+ value
+post event
+ swt
+ selection
+set saved focus
+ style
+ swt
+ radio
+get selection
+set saved focus
+set selection
+ selected
+check widget
+ style
+ swt
+ check
+ swt
+ radio
+ swt
+ toggle
+ flags
+ selected
 
-layout rtl
- data
- style
- swt
-left right
- data
- device
- data
- font
+bst checked
 
-get current object
+bst unchecked
+ bits
+
+get window long
  handle
 
-obj font
- created
- handle
-internal _dispose
+gwl style
 
- data
- data
- data
- created
-start job
+send message
+ handle
+
+ setcheck
+ flags
+
+set window long
+ handle
+
+gwl style
+ bits
+set text
  string
-job name
-check device
- docinfo
-
- docinfo
-
- size
- docinfo
- sizeof
- heap
-
-get process heap
-lpsz doc name
-job name
-job name
- length
- tchar
- buffer
- tchar
-job name
-byte count
- buffer
- length
- tchar
- sizeof
-lpsz doc name
-
-heap alloc
- heap
-
-heap zero memory
-byte count
-
-move memory
-lpsz doc name
- buffer
-byte count
-
-lpsz doc name
-lpsz doc name
-lpsz output
- data
-print file
- data
-file name
- tchar
- buffer
- tchar
- data
-file name
-byte count
- buffer
- length
- tchar
- sizeof
-lpsz output
-
-heap alloc
- heap
-
-heap zero memory
-byte count
-
-move memory
-lpsz output
- buffer
-byte count
-
-lpsz output
-lpsz output
-
-
-start doc
- handle
-
-lpsz doc name
-
-heap free
- heap
-lpsz doc name
-lpsz output
-
-heap free
- heap
-lpsz output
-
-end job
-check device
-
-end doc
- handle
-cancel job
-check device
-
-abort doc
- handle
-start page
-check device
-
-
-start page
- handle
-
-
-abort doc
- handle
-
-end page
-check device
-
-end page
- handle
- point
-get dpi
-check device
- dpi
-
-get device caps
- handle
-
- logpixelsx
- dpi
-
-get device caps
- handle
-
- logpixelsy
- point
- dpi
- dpi
- rectangle
-get bounds
-check device
- width
-
-get device caps
- handle
-
- physicalwidth
- height
-
-get device caps
- handle
-
- physicalheight
- rectangle
- width
- height
- rectangle
-get client area
-check device
- width
-
-get device caps
- handle
-
- horzres
- height
-
-get device caps
- handle
-
- vertres
- rectangle
- width
- height
- rectangle
-compute trim
-
-
- width
- height
-check device
- print
-
-get device caps
- handle
-
- physicaloffsetx
- print
-
-get device caps
- handle
-
- physicaloffsety
-print width
-
-get device caps
- handle
-
- horzres
-print height
-
-get device caps
- handle
-
- vertres
-paper width
-
-get device caps
- handle
-
- physicalwidth
-paper height
-
-get device caps
- handle
-
- physicalheight
- trim
-paper width
-print width
- trim
-paper height
-print height
- rectangle
-
- print
-
- print
- width
- trim
- height
- trim
-printer data
-get printer data
- data
-check device
- handle
- swt
+ string
+check widget
+ string
  error
  swt
-error device disposed
- release
- release
- data
- destroy
+error null argument
+ style
+ swt
+ arrow
+
+comctl 32_ major
+
+app themed
+
+send message
  handle
 
- delete
+bcm setimagelist
+image list
+image list
+ dispose
+image list
+new bits
+
+get window long
+ handle
+
+gwl style
+old bits
+new bits
+new bits
+
+ bitmap
+
+ icon
+new bits
+old bits
+
+set window long
+ handle
+
+gwl style
+new bits
+ text
+ string
+ style
+ swt
+right left
+
+comctl 32_ major
+
+app themed
+ string
+
+window enabled
+ handle
+ text
+ text
+ tchar
+ buffer
+ tchar
+get code page
+ string
+
+set window text
+ handle
+ buffer
+widget style
+ bits
+widget style
+ style
+ swt
+ flat
+ bits
+
+ flat
+ style
+ swt
+ arrow
+ bits
+
+ ownerdraw
+ style
+ swt
+ left
+ bits
+
+ left
+ style
+ swt
+ center
+ bits
+
+ center
+ style
+ swt
+ right
+ bits
+
+ right
+ style
+ swt
+ push
+ bits
+
+ pushbutton
+
+ tabstop
+ style
+ swt
+ check
+ bits
+
+ checkbox
+
+ tabstop
+ style
+ swt
+ radio
+ bits
+
+ radiobutton
+ style
+ swt
+ toggle
+ bits
+
+ pushlike
+
+ checkbox
+
+ tabstop
+ bits
+
+ pushbutton
+
+ tabstop
+ tchar
+window class
+button class
+window proc
+button proc
+ lresult
+ getdlgcode
+ param
+ param
+ lresult
+ result
+ getdlgcode
+ param
+ param
+ result
+ result
+ style
+ swt
+ arrow
+ lresult
+
+dlgc static
+ result
+ lresult
+ killfocus
+ param
+ param
+ lresult
+ result
+ killfocus
+ param
+ param
+ style
+ swt
+ push
+get default
+menu shell
+set default button
+ result
+ lresult
+ lbuttondown
+ param
+ param
+ignore mouse
+ lbuttondown
+ param
+ param
+ lresult
+ lbuttonup
+ param
+ param
+ignore mouse
+ lbuttonup
+ param
+ param
+ lresult
+ setfocus
+ param
+ param
+ bits
+ style
+ swt
+ radio
+ bits
+
+get window long
+ handle
+
+gwl style
+ lresult
+ result
+ setfocus
+ param
+ param
+ style
+ swt
+ radio
+
+set window long
+ handle
+
+gwl style
+ bits
+ style
+ swt
+ push
+menu shell
+set default button
+ result
+ lresult
+ syscolorchange
+ param
+ param
+ lresult
+ result
+ syscolorchange
+ param
+ param
+ result
+ result
+ image
+_set image
+ image
+ result
+ lresult
+color child
+ param
+ param
+ lresult
+ result
+color child
+ param
+ param
+
+comctl 32_ major
+
+app themed
+ control
+ control
+find theme control
+ control
+
+set mode
+ param
+
+ transparent
+ rect
+ rect
+ rect
+
+get client rect
+ control
+ handle
+ rect
+
+map window points
+ control
  handle
  handle
+ rect
+ control
+draw theme background
+ param
+ rect
+ lresult
+
+get stock object
+
+null brush
+ result
+ lresult
+command child
+ param
+ param
+ code
+ param
+ code
+
+ clicked
+
+ doubleclicked
+ style
+ swt
+ check
+ swt
+ toggle
+set selection
+get selection
+ style
+ swt
+ radio
+ parent
+get style
+ swt
+radio group
+set selection
+get selection
+select radio
+post event
+ swt
+ selection
+command child
+ param
+ param
+ lresult
+draw child
+ param
+ param
+ style
+ swt
+ arrow
+draw child
+ param
+ param
+ drawitemstruct
+ struct
+ drawitemstruct
+
+move memory
+ struct
+ param
+ drawitemstruct
+ sizeof
+ rect
+ rect
+ rect
+
+set rect
+ rect
+ struct
+ left
+ struct
+ top
+ struct
+ right
+ struct
+ bottom
+
+comctl 32_ major
+
+app themed
+ theme
+
+open theme data
+ handle
+ scrollbar
+ state
+
+abs leftnormal
+ style
+ swt
+
+ swt
+ down
+ swt
+ left
+ swt
+ right
+ swt
+
+ state
+
+abs upnormal
+ swt
+ down
+ state
+
+abs downnormal
+ swt
+ left
+ state
+
+abs leftnormal
+ swt
+ right
+ state
+
+abs rightnormal
+get enabled
+ state
+
+abs updisabled
+
+abs upnormal
+ struct
+item state
+
+ods selected
+ state
+
+abs uppressed
+
+abs upnormal
+
+draw theme background
+ theme
+ struct
+
+
+sbp arrowbtn
+ state
+ rect
+
+close theme data
+ theme
+ state
+
+dfcs scrollleft
+ style
+ swt
+
+ swt
+ down
+ swt
+ left
+ swt
+ right
+ swt
+
+ state
+
+dfcs scrollup
+ swt
+ down
+ state
+
+dfcs scrolldown
+ swt
+ left
+ state
+
+dfcs scrollleft
+ swt
+ right
+ state
+
+dfcs scrollright
+get enabled
+ state
+
+dfcs inactive
+ style
+ swt
+ flat
+ swt
+ flat
+ state
+
+dfcs flat
+ struct
+item state
+
+ods selected
+ state
+
+dfcs pushed
+
+draw frame control
+ struct
+
+ rect
+
+dfc scroll
+ state
 </identifier>
 <comments>
 copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-instances  this  class  are  used  print  printer  applications  create  printer  using  code  new  printer  code  and  then  draw  the  printer  using  the  usual  graphics  calls  code  printer  code  object  may  constructed  providing  code printer data  code  object  which  identifies  the  printer  code print dialog  code  presents  print  dialog  the  user  and  returns  initialized  instance  code printer data  code  alternatively  calling  code  new  printer  code  will  construct  printer  object  for  the  user  default  printer  application  code  must  explicitly  invoke  the  code  printer  dispose  code  method  release  the  operating  system  resources  managed  each  instance  when  those  instances  are  longer  required  see printer data  see print dialog
-the  handle  the  printer  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code 
-the  printer  data  describing  this  printer
-whether  not  was  created  for  this  printer
-strings  used  access  the  windows  registry
-non  nls 
-non  nls 
-non  nls 
-returns  array  code printer data  code  objects  representing  all  available  printers  return  the  list  available  printers
-use  the  character  encoding  for  the  default  locale
-non  nls 
-returns  code printer data  code  object  representing  the  default  printer  code  null  code  there  printer  available  the  system  return  the  default  printer  data  null  since 
-use  the  character  encoding  for  the  default  locale
-non  nls 
-constructs  new  printer  representing  the  default  printer  you  must  dispose  the  printer  when  longer  required  exception swt error  error  handles  there  are  valid  printers  see  device  dispose
-constructs  new  printer  given  code printer data  code  object  representing  the  desired  printer  you  must  dispose  the  printer  when  longer  required  param  data  the  printer  data  for  the  specified  printer  exception illegal argument exception  error  invalid  argument  the  specified  printer  data  does  not  represent  valid  printer  exception swt error  error  handles  there  are  valid  printers  see  device  dispose
-creates  the  printer  handle  this  method  called  internally  the  instance  creation  mechanism  the  code  device  code  class  param device data  the  device  data
-use  the  character  encoding  for  the  default  locale
-invokes  platform  specific  functionality  allocate  new  handle  important  this  method  not  part  the  public  api  for  code  printer  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  data  the  platform  specific  data  return  the  platform  specific  handle
-invokes  platform  specific  functionality  dispose  handle  important  this  method  not  part  the  public  api  for  code  printer  code  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  called  from  application  code  param  the  platform  specific  handle  param  data  the  platform  specific  data
-starts  print  job  and  returns  true  the  job  started  successfully  and  false  otherwise  this  must  the  first  method  called  initiate  print  job  followed  any  number start page end page  calls  followed end job  calling start page end page end job  before start job  will  result  undefined  behavior  param job name  the  name  the  print  job  start  return  true  the  job  started  successfully  and  false  otherwise  exception swt exception  error  device  disposed  the  receiver  has  been  disposed  see start page  see end page  see end job
-use  the  character  encoding  for  the  default  locale
-use  the  character  encoding  for  the  default  locale
-ends  the  current  print  job  exception swt exception  error  device  disposed  the  receiver  has  been  disposed  see start job  see start page  see end page
-cancels  print  job  progress  exception swt exception  error  device  disposed  the  receiver  has  been  disposed 
-starts  page  and  returns  true  the  page  started  successfully  and  false  otherwise  after  calling start job  this  method  may  called  any  number  times  along  with  matching end page  return  true  the  page  started  successfully  and  false  otherwise  exception swt exception  error  device  disposed  the  receiver  has  been  disposed  see end page  see start job  see end job
-ends  the  current  page  exception swt exception  error  device  disposed  the  receiver  has  been  disposed  see start page  see start job  see end job
-returns  point  whose  coordinate  the  horizontal  dots  per  inch  the  printer  and  whose  coordinate  the  vertical  dots  per  inch  the  printer  return  the  horizontal  and  vertical  dpi  exception swt exception  error  device  disposed  the  receiver  has  been  disposed 
-returns  rectangle  describing  the  receiver  size  and  location  for  printer  this  the  size  page  pixels  return  the  bounding  rectangle  exception swt exception  error  device  disposed  the  receiver  has  been  disposed  see get client area  see compute trim
-returns  rectangle  which  describes  the  area  the  receiver  which  capable  displaying  data  for  printer  this  the  size  the  printable  area  page  pixels  return  the  client  area  exception swt exception  error  device  disposed  the  receiver  has  been  disposed  see get bounds  see compute trim
-given  desired  client  area  for  the  receiver  described  the  arguments  returns  the  bounding  rectangle  which  would  required  produce  that  client  area  other  words  returns  rectangle  such  that  the  receiver  bounds  were  set  that  rectangle  the  area  the  receiver  which  capable  displaying  data  that  not  covered  the  trimmings  would  the  rectangle  described  the  arguments  relative  the  receiver  parent  note  that  there set bounds  for  printer  this  method  usually  used  passing  the  client  area  the  printable  area  the  printer  can  also  useful  pass  param  the  desired  coordinate  the  client  area  param  the  desired  coordinate  the  client  area  param  width  the  desired  width  the  client  area  param  height  the  desired  height  the  client  area  return  the  required  bounds  produce  the  given  client  area  exception swt exception  error  device  disposed  the  receiver  has  been  disposed  see get bounds  see get client area
-returns  code printer data  code  object  representing  the  target  printer  for  this  print  job  return printer data  object  describing  the  receiver
-checks  the  validity  this  device  exception swt exception  error  device  disposed  the  receiver  has  been  disposed 
-releases  any  internal  state  prior  destroying  this  printer  this  method  called  internally  the  dispose  mechanism  the  code  device  code  class
-destroys  the  printer  handle  this  method  called  internally  the  dispose  mechanism  the  code  device  code  class
+instances  this  class  represent  selectable  user  interface  object  that  issues  notification  when  pressed  and  released  styles  arrow  check  push  radio  toggle  flat  down  left  right  center  events  selection  note  only  one  the  styles  arrow  check  push  radio  and  toggle  may  specified  note  only  one  the  styles  left  right  and  center  may  specified  note  only  one  the  styles  down  left  and  right  may  specified  when  the  arrow  style  specified  important  this  class  intended  subclassed  only  within  the  swt  implementation 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  arrow  see  swt  check  see  swt  push  see  swt  radio  see  swt  toggle  see  swt  flat  see  swt  left  see  swt  right  see  swt  center  see  widget check subclass  see  widget get style
+fall  through
+feature  windows  the  button  control  mirrors  its  image  when  the  flag  layoutrtl  set  this  behaviour  not  desirable  swt  the  fix  set  mirrored  version  real  image  the  button
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  control  selected  sending  one  the  messages  defined  the  code selection listener  code  interface  code widget selected  code  called  when  the  control  selected  code widget default selected  code  not  called  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener  see selection event
+feature  windows  click  sends  fake  lbuttondown  and  lbuttonup  order  click  the  button  this  causes  the  application  get  unexpected  mouse  events  the  fix  ignore  mouse  events  when  they  are  caused  click
+bug  windows  when  button  control  right  left  and  disabled  the  first  pixel  the  text  clipped  the  fix  append  space  the  text
+returns  value  which  describes  the  position  the  text  image  the  receiver  the  value  will  one  code  left  code  code  right  code  code  center  code  unless  the  receiver  code  arrow  code  button  which  case  the  alignment  will  indicate  the  direction  the  arrow  one  code  left  code  code  right  code  code  code  code  down  code  return  the  alignment  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  image  has  one  null  does  not  return  the  receiver  image  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  true  code  the  receiver  selected  and  false  otherwise  when  the  receiver  type  code  check  code  code  radio  code  selected  when  checked  when  type  code  toggle  code  selected  when  pushed  the  receiver  any  other  type  this  method  returns  false  return  the  selection  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  receiver  text  which  will  empty  string  has  never  been  set  the  receiver  code  arrow  code  button  return  the  receiver  text  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+temporary  code
+style  swt  push  return  true
+feature  windows  when  radio  button  gets  focus  selects  the  button  setfocus  therefore  not  necessary  click  the  button  send  events  because  this  has  already  happened  setfocus
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  control  selected  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener
+this  code  intentionally  commented  when  two  groups  radio  buttons  with  the  same  parent  are  separated  another  control  the  correct  behavior  should  that  the  two  groups  act  independently  this  consistent  with  radio  tool  and  menu  items  the  commented  code  implements  this  behavior
+int  index 
+control  children  parent get children
+while  index  children  length  children  index  this  index
+int  index 
+while  children set radio selection  false 
+int  index 
+while  children  length  children set radio selection  false 
+set selection  true
+controls  how  text  images  and  arrows  will  displayed  the  receiver  the  argument  should  one  code  left  code  code  right  code  code  center  code  unless  the  receiver  code  arrow  code  button  which  case  the  argument  indicates  the  direction  the  arrow  one  code  left  code  code  right  code  code  code  code  down  code  param  alignment  the  new  alignment  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  when  radio  button  gets  focus  selects  the  button  setfocus  the  fix  not  assign  focus  unselected  radio  button
+sets  the  receiver  image  the  argument  which  may  code  null  code  indicating  that  image  should  displayed  param  image  the  image  display  the  receiver  may  code  null  code  exception illegal argument exception  error  invalid  argument  the  image  has  been  disposed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  when  radio  button  gets  focus  selects  the  button  setfocus  the  previous  saved  focus  widget  was  radio  button  allowing  the  shell  automatically  restore  the  focus  the  previous  radio  button  will  unexpectedly  check  that  button  the  fix  not  assign  focus  unselected  radio  button
+sets  the  selection  state  the  receiver  type  code  check  code  code  radio  code  code  toggle  code  when  the  receiver  type  code  check  code  code  radio  code  selected  when  checked  when  type  code  toggle  code  selected  when  pushed  param  selected  the  new  selection  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+feature  windows  when  setcheck  used  set  the  checked  state  radio  check  button  sets  the  tabstop  style  this  undocumented  and  unwanted  the  fix  save  and  restore  the  window  style  bits
+sets  the  receiver  text  this  method  sets  the  button  label  the  label  may  include  the  mnemonic  character  but  must  not  contain  line  delimiters  mnemonics  are  indicated  amp  that  causes  the  next  character  the  mnemonic  when  the  user  presses  key  sequence  that  matches  the  mnemonic  selection  event  occurs  most  platforms  the  mnemonic  appears  underlined  but  may  emphasised  platform  specific  manner  the  mnemonic  indicator  character  amp  can  escaped  doubling  the  string  causing  single  amp  displayed  param  string  the  new  text  exception illegal argument exception  error  null  argument  the  text  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+bug  windows  when  button  control  right  left  and  disabled  the  first  pixel  the  text  clipped  the  fix  append  space  the  text
+feature  windows  when  windows  sets  focus  radio  button  sets  the  tabstop  style  this  undocumented  and  unwanted  the  fix  save  and  restore  the  window  style  bits
+note  the  normal  hot  pressed  and  disabled  state  computed  relying  the  fact  that  the  increment  between  the  direction  states  invariant  always  separated 
 </comments>
 </text>
 </DOC>

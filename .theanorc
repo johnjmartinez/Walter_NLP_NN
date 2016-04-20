@@ -1,0 +1,13 @@
+[blas]
+ldflags = -lopenblas -latlas -lgfortran
+
+[global]
+device = gpu
+floatX = float32
+
+[lib]
+cnmem = 0.333
+
+allow_gc=False
+exception_verbosity=high
+#openmp=True

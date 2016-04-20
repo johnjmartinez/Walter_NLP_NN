@@ -1,55 +1,45 @@
 <DOC>
-<DOCNO>org.eclipse.swt.custom.CLabel.java </DOCNO>
+<DOCNO>org.eclipse.swt.dnd.Clipboard.java </DOCNO>
 <text>
 <class>
- label
+ clipboard
 </class>
 <method>
- label
-paint control
-widget disposed
-key traversed
-check style
-compute size
-draw bevel rect
-_find mnemonic
-get alignment
-get image
-get total size
-get style
-get text
-get tool tip text
-init accessible
-get name
-get help
-get keyboard shortcut
-get child point
-get location
-get child count
-get role
-get state
-get value
+ clipboard
+check subclass
+check widget
+clear contents
+clear contents
  dispose
- mnemonic
- paint
-paint border
-set alignment
-set background
-set background
-set background
-set background
-set font
-set image
-set text
-set tool tip text
-shorten text
-split string
+get contents
+get contents
+ disposed
+set contents
+set contents
+add ref
+create com interfaces
+ method
+ method
+ method
+ method
+ method
+ method
+dispose com interfaces
+enum format etc
+get data
+query get data
+query interface
+ release
+get available types
+get available types
+get available type names
+_get available types
 </method>
 <identifier>
  org
  eclipse
  swt
- custom
+ dnd
  org
  eclipse
  swt
@@ -60,1330 +50,925 @@ split string
  org
  eclipse
  swt
- graphics
+ internal
+ win
  org
  eclipse
  swt
- events
- org
- eclipse
- swt
- accessibility
- label
- canvas
- gap
- indent
- string
- ellipsis
- align
- swt
- left
- indent
- indent
- indent
- indent
- string
- text
- image
- image
- string
-app tool tip text
- image
-background image
- color
-gradient colors
-gradient percents
-gradient vertical
-draw flags
- swt
-draw mnemonic
- swt
-draw tab
- swt
-draw transparent
- swt
-draw delimiter
- label
- composite
- parent
- style
- parent
-check style
- style
- style
- swt
- center
- swt
- right
- style
- swt
- left
- style
- swt
- center
- align
- swt
- center
- style
- swt
- right
- align
- swt
- right
- style
- swt
- left
- align
- swt
- left
-add paint listener
-paint listener
-paint control
-paint event
- event
- paint
- event
-add dispose listener
-dispose listener
-widget disposed
-dispose event
- event
- dispose
- event
-add traverse listener
-traverse listener
-key traversed
-traverse event
- event
- event
- detail
- swt
-traverse mnemonic
- mnemonic
- event
-init accessible
-check style
- style
- style
- swt
- border
- style
- swt
- shadow
- mask
- swt
- shadow
- swt
-shadow out
- swt
-shadow none
- swt
-left right
- swt
-right left
- style
- style
- mask
- style
- swt
- focus
- string
- platform
- swt
-get platform
- equals
- platform
- equals
- platform
- style
- style
- swt
- background
- point
-compute size
- hint
- hint
- changed
-check widget
- point
-
-get total size
- image
- text
- hint
- swt
- default
-
-
- indent
-
-
- hint
- hint
- swt
- default
-
-
- indent
-
-
- hint
-
-draw bevel rect
-
-
-
-
-
-
- color
- topleft
- color
- bottomright
-
-set foreground
- bottomright
-
-draw line
-
-
-
-
-
-
-
-
-draw line
-
-
-
-
-
-
-
-
-set foreground
- topleft
-
-draw line
-
-
-
-
-
-
-draw line
-
-
-
-
-
-_find mnemonic
- string
- string
- string
- index
- length
- string
- length
- index
- length
- string
- char
- index
- index
- index
- length
- string
- char
- index
- string
- char
- index
- index
- index
- length
-get alignment
- align
- image
-get image
- image
- point
-get total size
- image
- image
- string
- text
- point
- size
- point
- image
- rectangle
-
- image
-get bounds
- size
-
-
- width
- size
-
-
- height
-
-
-
- text
- text
- length
- point
-
-
-text extent
- text
-draw flags
- size
-
-
-
- size
-
- math
- max
- size
-
-
-
- image
- size
-
- gap
- size
-
- math
- max
- size
-
-
-get font metrics
-get height
-
- dispose
- size
-get style
- style
-get style
- align
- swt
- right
- style
- swt
- right
- swt
- center
- style
- swt
- center
- swt
- left
- style
- swt
- left
- style
- string
-get text
- text
- string
-get tool tip text
-check widget
-app tool tip text
-init accessible
- accessible
- accessible
-get accessible
- accessible
-add accessible listener
-accessible adapter
-get name
-accessible event
-
-
- result
-get text
-get help
-accessible event
-
-
- result
-get tool tip text
-get keyboard shortcut
-accessible event
-
- mnemonic
-_find mnemonic
- label
- text
- mnemonic
-
- result
- mnemonic
- accessible
-add accessible control listener
-accessible control adapter
-get child point
-accessible control event
-
-
- child
- acc
-childid self
-get location
-accessible control event
-
- rectangle
- rect
-get display
- map
-get parent
-get bounds
-
-
- rect
-
-
-
- rect
-
-
- width
- rect
- width
-
- height
- rect
- height
-get child count
-accessible control event
-
-
- detail
-get role
-accessible control event
-
-
- detail
- acc
-role label
-get state
-accessible control event
-
-
- detail
- acc
-state readonly
-get value
-accessible control event
-
-
- result
-get text
- dispose
-dispose event
- event
-gradient colors
-gradient percents
-background image
- text
- image
-app tool tip text
- mnemonic
-traverse event
- event
- mnemonic
-_find mnemonic
- text
- mnemonic
- character
-upper case
- event
- character
- character
-upper case
- mnemonic
- composite
- control
-get parent
- control
- control
- children
- control
-get children
- index
- index
- children
- length
- children
- index
- index
- index
- index
- children
- length
- children
- index
-set focus
- event
- doit
- event
- detail
- swt
-traverse none
- control
- control
-get parent
- paint
-paint event
- event
- rectangle
- rect
-get client area
- rect
- width
- rect
- height
-shorten text
- string
-
- text
- image
- img
- image
-available width
- math
- max
- rect
- width
- indent
- point
- extent
-get total size
- img
-
- extent
-
-available width
- img
- extent
-get total size
- img
-
- extent
-
-available width
-shorten text
-
-
- event
-
- string
- lines
- text
-split string
- text
-shorten text
- extent
-
-
-
- lines
- length
-
- point
-
-
-text extent
- lines
-
-draw flags
-
-
-available width
- lines
-
-shorten text
-
- lines
-
-available width
- extent
-
- math
- max
- extent
-
-get total size
- lines
-
-
- extent
-
- math
- max
- extent
-
-
-
-app tool tip text
-set tool tip text
- text
-set tool tip text
-app tool tip text
-
- rect
-
- indent
- align
- swt
- center
-
- rect
- width
- extent
-
- align
- swt
- right
-
- rect
- width
- indent
- extent
-
-background image
- rectangle
-image rect
-background image
-get bounds
-
-set background
-get background
-
-fill rectangle
- rect
- pos
- pos
- rect
- width
- pos
- pos
- rect
- height
-
-draw image
-background image
- pos
- pos
- pos
-image rect
- height
- pos
-image rect
- width
-gradient colors
- color
-old background
-
-get background
-gradient colors
- length
-gradient colors
-
-set background
-gradient colors
-
-fill rectangle
- rect
- width
- rect
- height
- color
-old foreground
-
-get foreground
- color
-last color
-gradient colors
-last color
-last color
-old background
- pos
-
-
-gradient percents
- length
-
-
-set foreground
-last color
-last color
-gradient colors
-
-last color
-last color
-old background
-
-set background
-last color
-gradient vertical
-gradient height
-gradient percents
-
- rect
- height
- pos
-
-fill gradient rectangle
- pos
- rect
- width
-gradient height
- pos
-gradient height
-gradient width
-gradient percents
-
- rect
- width
- pos
-
-fill gradient rectangle
- pos
-gradient width
- rect
- height
- pos
-gradient width
-gradient vertical
- pos
- rect
- height
-
-set background
-get background
-
-fill rectangle
- pos
- rect
- width
- rect
- height
- pos
-gradient vertical
- pos
- rect
- width
-
-set background
-get background
-
-fill rectangle
- pos
- rect
- width
- pos
- rect
- height
-
-set foreground
-old foreground
-
-set background
-old background
-get style
- swt
- background
-
-set background
-get background
-
-fill rectangle
- rect
-swt exception
-
-get style
- swt
- background
-
-set background
-get background
-
-fill rectangle
- rect
- style
-get style
- style
- swt
- shadow
- style
- swt
-shadow out
-paint border
-
- rect
- img
- rectangle
-image rect
- img
-get bounds
-
-draw image
- img
-image rect
- width
-image rect
- height
-
- rect
- height
-image rect
- height
-image rect
- width
-image rect
- height
-
-image rect
- width
- gap
- extent
-
-image rect
- width
- gap
- lines
-line height
-
-get font metrics
-get height
-text height
- lines
- length
-line height
- line
- math
- max
- indent
- rect
-
- rect
- height
-text height
-
-set foreground
-get foreground
-
-
- lines
- length
-
- line
-
- lines
- length
- align
- swt
- center
-line width
-
-text extent
- lines
-
-draw flags
-
- line
-
- math
- max
- extent
-
-line width
- align
- swt
- right
-line width
-
-text extent
- lines
-
-draw flags
-
- line
- math
- max
-
- rect
-
- rect
- width
- indent
-line width
-
-draw text
- lines
-
- line
- line
-draw flags
- line
-line height
-paint border
-
-
- rectangle
-
+ internal
+ ole
+ win
+ clipboard
  display
- disp
-get display
- color
-
- color
-
- style
-get style
- style
- swt
- shadow
-
- disp
-get system color
- swt
-color widget normal shadow
-
- disp
-get system color
- swt
-color widget highlight shadow
- style
- swt
-shadow out
-
- disp
-get system color
- swt
-color widget light shadow
-
- disp
-get system color
- swt
-color widget normal shadow
-
-
-
-set line width
-draw bevel rect
-
-
-
-
-
-
- width
-
- height
-
-
-set alignment
- align
-check widget
- align
- swt
- left
- align
- swt
- right
- align
- swt
- center
- swt
+ display
+com object
+data object
+ref count
+ transfer
+transfer agents
+ transfer
+ object
+ data
+ object
+cfstr preferreddropeffect
+ clipboard
+ display
+ display
+check subclass
+ display
+ display
+ display
+get current
+ display
+ display
+ display
+get default
+ display
+get thread
+ thread
+current thread
+ dnd
  error
  swt
-error invalid argument
- align
- align
- align
- align
- redraw
-set background
- color
- color
-set background
- color
- color
-background image
-gradient colors
-gradient percents
- color
- background
-get background
- color
+error thread invalid access
+ display
+ display
+ tchar
+format name
+ tchar
+cfstr preferreddropeffect
+
+register clipboard format
+format name
+create com interfaces
+add ref
+check subclass
+ string
+ name
+get class
+get name
+ string
+valid name
+ clipboard
+get name
+valid name
  equals
- background
-background image
-gradient colors
-gradient percents
- redraw
-set background
- color
- colors
- percents
-set background
- colors
- percents
-set background
- color
- colors
- percents
- vertical
-check widget
- colors
- percents
- percents
- length
- colors
- length
+ name
+ dnd
+ error
  swt
+error invalid subclass
+check widget
+ display
+ display
+ display
+ display
+ dnd
+ error
+ swt
+error widget disposed
+ display
+get thread
+ thread
+current thread
+ dnd
+ error
+ swt
+error thread invalid access
+ display
+ disposed
+ dnd
+ error
+ swt
+error widget disposed
+clear contents
+clear contents
+ dnd
+ clipboard
+clear contents
+ clipboards
+check widget
+ clipboards
+ dnd
+ clipboard
+ com
+ole current clipboard
+data object
+get address
+ com
+
+ com
+ole set clipboard
+ dispose
+ disposed
+ display
+get thread
+ thread
+current thread
+ dnd
+ error
+ swt
+error thread invalid access
+ com
+ole current clipboard
+data object
+get address
+ com
+
+ com
+ole flush clipboard
+ release
+ display
+ object
+get contents
+ transfer
+ transfer
+get contents
+ transfer
+ dnd
+ clipboard
+ object
+get contents
+ transfer
+ transfer
+ clipboards
+check widget
+ transfer
+ dnd
+ error
+ swt
+error null argument
+ clipboards
+ dnd
+ clipboard
+ ppv
+retry count
+ result
+ com
+ole get clipboard
+ ppv
+ result
+ com
+
+retry count
+ thread
+ sleep
+ throwable
+
+ msg
+ msg
+ msg
+
+peek message
+ msg
+
+ noremove
+
+ noyield
+ result
+ com
+ole get clipboard
+ ppv
+ result
+ com
+
+data object
+data object
+data object
+ ppv
+transfer data
+ allowed
+ transfer
+get supported types
+
+
+ allowed
+ length
+
+data object
+query get data
+ allowed
+
+ formatetc
+ com
+
+transfer data
+ data
+ allowed
+
+ data
+data object
+ ppv
+ transfer
+native java
+ data
+data object
+ release
+ disposed
+ display
+set contents
+ object
+ data
+ transfer
+data types
+set contents
+ data
+data types
+ dnd
+ clipboard
+set contents
+ object
+ data
+ transfer
+data types
+ clipboards
+check widget
+ data
+data types
+ data
+ length
+data types
+ length
+ data
+ length
+ dnd
  error
  swt
 error invalid argument
-get display
-get depth
- colors
- color
- colors
- colors
- length
- percents
 
 
- percents
+ data
  length
 
- percents
+ data
 
- percents
+data types
 
- swt
+data types
+
+ validate
+ data
+
+ dnd
  error
  swt
 error invalid argument
+ clipboards
+ dnd
+ clipboard
+ data
+ data
+transfer agents
+data types
+ result
+ com
+ole set clipboard
+data object
+get address
+retry count
+ result
+ com
 
- percents
+retry count
+ thread
+ sleep
+ throwable
 
- percents
+ msg
+ msg
+ msg
 
- swt
+peek message
+ msg
+
+ noremove
+
+ noyield
+ result
+ com
+ole set clipboard
+data object
+get address
+ result
+ com
+
+ dnd
  error
- swt
-error invalid argument
- color
- background
-get background
-background image
-gradient colors
- colors
-gradient colors
- length
- colors
- length
- same
+ dnd
+error cannot set clipboard
+add ref
+ref count
+ref count
+create com interfaces
+data object
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+get data
+ args
+ args
+ method
+ args
+query get data
+ args
+ method
+ args
+enum format etc
+ args
+ args
+dispose com interfaces
+data object
+data object
+ dispose
+data object
+enum format etc
+ direction
+ppenum formatetc
+ direction
+ com
+datadir set
+ com
+ notimpl
+transfer data
+allowed data types
+transfer data
 
 
-gradient colors
- length
-
- same
-gradient colors
-
- colors
-
-gradient colors
-
- colors
-
- background
-gradient colors
-
- background
- colors
-
- same
- same
-
-
-gradient percents
- length
-
- same
-gradient percents
-
- percents
-
- same
- same
-gradient vertical
- vertical
-background image
- colors
-gradient colors
-gradient percents
-gradient vertical
-gradient colors
- color
- colors
+transfer agents
  length
 
+transfer data
+ formats
+transfer agents
 
- colors
+get supported types
+transfer data
+new allowed data types
+transfer data
+allowed data types
  length
-
-gradient colors
-
- colors
-
- colors
-
- background
-gradient percents
- percents
- length
-
-
- percents
- length
-
-gradient percents
-
- percents
-
-gradient vertical
- vertical
- redraw
-set background
- image
- image
-check widget
- image
-background image
- image
-gradient colors
-gradient percents
-background image
- image
- redraw
-set font
- font
- font
-set font
- font
- redraw
-set image
- image
- image
-check widget
- image
- image
- image
- image
- redraw
-set text
- string
- text
-check widget
- text
- text
- text
- equals
- text
- text
- text
- redraw
-set tool tip text
- string
- string
-set tool tip text
- string
-app tool tip text
-get tool tip text
- string
-shorten text
-
-
- string
-
- width
-
-
-
-text extent
- ellipsis
-draw flags
-
-
-
- length
- pivot
-
-
- pivot
-
- pivot
-
-
-
- string
-
-
- substring
-
- string
-
-
- substring
-
-
-
-
-text extent
-
-draw flags
-
-
-
-text extent
-
-draw flags
-
-
-
-
- width
-
-
- ellipsis
-
-
-
-
- string
-split string
- string
- text
- string
- lines
- string
- start
- pos
- pos
- text
- index
- start
- pos
- lines
- lines
- length
- text
- substring
- start
- crlf
- pos
- text
- char
- pos
- lines
- lines
- length
- text
- substring
- start
- pos
- crlf
- start
- pos
- string
-new lines
- string
- lines
+ formats
  length
  system
  arraycopy
- lines
-new lines
- lines
+allowed data types
+new allowed data types
+allowed data types
  length
- lines
-new lines
- pos
- lines
+ system
+ arraycopy
+ formats
+new allowed data types
+allowed data types
+ length
+ formats
+ length
+allowed data types
+new allowed data types
+ole enum formatetc
+enum formatetc
+ole enum formatetc
+enum formatetc
+add ref
+ formatetc
+ formats
+ formatetc
+allowed data types
+ length
+
+
+allowed data types
+ length
+
+ formats
+
+allowed data types
+
+ formatetc
+ formatetc
+ dropeffect
+ formatetc
+ dropeffect
+ format
+cfstr preferreddropeffect
+ dropeffect
+ aspect
+ com
+dvaspect content
+ dropeffect
+ lindex
+ dropeffect
+ tymed
+ com
+tymed hglobal
+ formats
+ formats
+ length
+ dropeffect
+enum formatetc
+set formats
+ formats
+
+move memory
+ppenum formatetc
+enum formatetc
+get address
+ com
+
+get data
+ formatetc
+ pmedium
+ formatetc
+ pmedium
+ com
+ invalidarg
+query get data
+ formatetc
+ com
+
+ com
+ formatetc
+transfer data
+transfer data
+transfer data
+transfer data
+ formatetc
+ formatetc
+ com
+move memory
+transfer data
+ formatetc
+ formatetc
+ formatetc
+ sizeof
+transfer data
+ type
+transfer data
+ formatetc
+ format
+transfer data
+ stgmedium
+ stgmedium
+transfer data
+ result
+ com
+ fail
+transfer data
+ type
+cfstr preferreddropeffect
+ stgmedium
+ stgmedium
+ stgmedium
+ stgmedium
+ tymed
+ com
+tymed hglobal
+ stgmedium
+union field
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+
+move memory
+ stgmedium
+union field
+ com
+dropeffect copy
+ stgmedium
+unk for release
+ com
+move memory
+ pmedium
+ stgmedium
+ stgmedium
+ sizeof
+ com
+
+transfer index
+
+
+transfer agents
+ length
+
+transfer agents
+
+supported type
+transfer data
+transfer index
+
+transfer index
+ com
+ formatetc
+transfer agents
+transfer index
+java native
+ data
+transfer index
+transfer data
+ com
+move memory
+ pmedium
+transfer data
+ stgmedium
+ stgmedium
+ sizeof
+transfer data
+ result
+query get data
+ formatetc
+transfer agents
+ com
+ fail
+transfer data
+transfer data
+transfer data
+transfer data
+ formatetc
+ formatetc
+ com
+move memory
+transfer data
+ formatetc
+ formatetc
+ formatetc
+ sizeof
+transfer data
+ type
+transfer data
+ formatetc
+ format
+transfer data
+ type
+cfstr preferreddropeffect
+ com
+
+
+
+transfer agents
+ length
+
+transfer agents
+
+supported type
+transfer data
+ com
+
+ com
+ formatetc
+query interface
+ riid
+ppv object
+ riid
+ppv object
+ com
+ invalidarg
+ guid
+ guid
+ guid
+ com
+move memory
+ guid
+ riid
+ guid
+ sizeof
+ com
+equal guid
+ guid
+ com
+iidi unknown
+ com
+equal guid
+ guid
+ com
+iidi data object
+
+move memory
+ppv object
+data object
+get address
+add ref
+ com
+
+
+move memory
+ppv object
+ com
+ nointerface
+ release
+ref count
+ref count
+ data
+ object
+transfer agents
+ transfer
+dispose com interfaces
+ com
+free unused libraries
+ref count
+transfer data
+get available types
+get available types
+ dnd
+ clipboard
+transfer data
+get available types
+ clipboards
+check widget
+ clipboards
+ dnd
+ clipboard
+transfer data
+ formatetc
+ types
+_get available types
+transfer data
+ data
+transfer data
+ types
+ length
+
+
+ types
+ length
+
+ data
+
+transfer data
+ data
+
+ type
+ types
+
+ format
+ data
+
+ formatetc
+ types
+
+ data
+ string
+get available type names
+check widget
+ formatetc
+ types
+_get available types
+ string
+ names
+ string
+ types
+ length
+max size
+
+
+ types
+ length
+
+ tchar
+ buffer
+ tchar
+max size
+ size
+
+get clipboard format name
+ types
+
+ format
+ buffer
+max size
+ size
+ names
+
+ buffer
+ string
+ size
+ types
+
+ format
+ com
+ hdrop
+ names
+
+ com
+ text
+ names
+
+ com
+ bitmap
+ names
+
+ com
+ metafilepict
+ names
+
+ com
+ sylk
+ names
+
+ com
+ dif
+ names
+
+ com
+ tiff
+ names
+
+ com
+ oemtext
+ names
+
+ com
+ dib
+ names
+
+ com
+ palette
+ names
+
+ com
+ pendata
+ names
+
+ com
+ riff
+ names
+
+ com
+ wave
+ names
+
+ com
+ unicodetext
+ names
+
+ com
+ enhmetafile
+ names
+
+ com
+ locale
+ names
+
+ com
+ max
+ names
+
+ names
+
+ names
+ formatetc
+_get available types
+ formatetc
+ types
+ formatetc
+ ppv
+ com
+ole get clipboard
+ ppv
+ com
+
+ types
+data object
+data object
+data object
+ ppv
+ formatetc
+
+data object
+enum format etc
+ com
+datadir get
+ formatetc
+data object
+ release
+
+ com
+
+ types
+enum formatetc
+enum formatetc
+enum formatetc
+ formatetc
+ rgelt
+
+global alloc
+
+gmem fixed
+
+gmem zeroinit
+ formatetc
+ sizeof
+pcelt fetched
+enum formatetc
+ reset
+enum formatetc
+ next
+ rgelt
+pcelt fetched
+ com
+
+pcelt fetched
+ formatetc
+ formatetc
+ formatetc
+ com
+move memory
+ formatetc
+ rgelt
+ formatetc
+ sizeof
+ formatetc
+new types
+ formatetc
+ types
+ length
+ system
+ arraycopy
+ types
+new types
+ types
+ length
+new types
+ types
+ length
+ formatetc
+ types
+new types
+
+global free
+ rgelt
+enum formatetc
+ release
+ types
 </identifier>
 <comments>
-copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-label  which  supports  aligned  text  and  image  and  different  border  styles  there  not  enough  space  label  uses  the  following  strategy  fit  the  information  into  the  available  space  pre  ignores  the  indent  left  align  mode  ignores  the  image  and  the  gap  shortens  the  text  replacing  the  center  portion  the  label  with  ellipsis  shortens  the  text  removing  the  center  portion  the  label  pre  styles  left  right  center  shadow  shadow  out  shadow  none  events  important  this  class  not  intended  subclassed 
-gap  between  icon  and  text
-left  and  right  margins
-string  inserted  the  middle  text  that  has  been  shortened
-non  nls  could  use  the  ellipsis  glyph  some  platforms  2026
-the  alignment  either  center  right  left  default  left
-the  current  text
-the  current  icon
-the  tooltip  used  for  two  purposes  the  application  can  set
-tooltip  the  tooltip  can  used  display  the  full  text  when  the
-the  text  has  been  truncated  due  the  label  being  too  short
-the app tool tip  stores  the  tooltip  set  the  application  control  tooltiptext
-contains  whatever  tooltip  currently  being  displayed
-constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  widget  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  widget  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  left  see  swt  right  see  swt  center  see  swt  shadow  see  swt  shadow  out  see  swt  shadow  none  see get style
-check  the  style  bits  ensure  that  invalid  styles  are  applied
-temporary  code
-the  default  background  carbon  and  some  gtk  themes  not  solid  color  but  texture  show  the  correct  default  background  must  allow  the  operating  system  draw  and  therefore  can  not  use  the  background  style  the  background  style  not  required  platforms  that  use  double  buffering  which  true  both  these  cases
-non  nls  non  nls 
-protected  void check subclass
-string  name get class get name
-string valid name  label  class get name
-valid name  equals  name
-swt  error  swt  error  invalid  subclass
-
-
-draw  rectangle  the  given  colors
-returns  the  alignment  the  alignment  style  left  center  right  returned  return  swt  left  swt  right  swt  center
- check widget
-return  the  label  image  code  null  code  return  the  image  the  label  null
- check widget
-compute  the  minimum  size
-return  the  label  text  return  the  text  the  label  null
- check widget
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+the  code  clipboard  code  provides  mechanism  for  transferring  data  from  one  application  another  within  application  important  this  class  not  intended  subclassed 
+ole  interfaces
+constructs  new  instance  this  class  creating  instance  clipboard  may  cause  system  resources  allocated  depending  the  platform  therefore  mandatory  that  the  clipboard  instance  disposed  when  longer  required  param  display  the  display  which  allocate  the  clipboard  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  clipboard  dispose  see  clipboard check subclass
 non  nls 
-shorten  the  text
-determine  horizontal  position
-draw  background  image  behind  the  text
-draw  background  image  behind  the  text
-tile  image  fill  space
-draw  gradient  behind  the  text
-draw  border
-draw  the  image
-draw  the  text
-paint  the  label  border
-set  the  alignment  the  label  use  the  values  left  center  and  right  align  image  and  text  within  the  available  space  param  align  the  alignment  style  left  right  center  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  value  align  not  one  swt  left  swt  right  swt  center 
-are  these  settings  the  same  before
-specify  gradient  colours  drawn  the  background  the  label  for  example  draw  gradient  that  varies  from  dark  blue  blue  and  then  white  and  stays  white  for  the  right  half  the  label  use  the  following  call set background  pre  clabel set background  new  color  display get system color  swt  color  dark  blue  display get system color  swt  color  blue  display get system color  swt  color  white  display get system color  swt  color  white  new  int  100  pre  param  colors  array  color  that  specifies  the  colors  appear  the  gradient  order  appearance  from  left  right  the  value  code  null  code  clears  the  background  gradient  the  value  code  null  code  can  used  inside  the  array  color  specify  the  background  color  param  percents  array  integers  between  and  100  specifying  the  percent  the  width  the  widget  which  the  color  should  change  the  size  the  percents  array  must  one  less  than  the  size  the  colors  array  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  values  colors  and  percents  are  not  consistent 
-specify  gradient  colours  drawn  the  background  the  label  for  example  draw  gradient  that  varies  from  dark  blue  white  the  vertical  direction  use  the  following  call set background  pre  clabel set background  new  color  display get system color  swt  color  dark  blue  display get system color  swt  color  white  new  int  100  true  pre  param  colors  array  color  that  specifies  the  colors  appear  the  gradient  order  appearance  from  left  top  right  bottom  the  value  code  null  code  clears  the  background  gradient  the  value  code  null  code  can  used  inside  the  array  color  specify  the  background  color  param  percents  array  integers  between  and  100  specifying  the  percent  the  width  height  the  widget  which  the  color  should  change  the  size  the  percents  array  must  one  less  than  the  size  the  colors  array  param  vertical  indicate  the  direction  the  gradient  true  vertical  and  false  horizontal  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  values  colors  and  percents  are  not  consistent  since 
-don  use  gradients  low  color  displays
-are  these  settings  the  same  before
-store  the  new  settings
-refresh  with  the  new  settings
-set  the  image  drawn  the  background  the  label  param  image  the  image  drawn  the  background  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
-set  the  label  image  the  value  code  null  code  clears  param  image  the  image  displayed  the  label  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
-set  the  label  text  the  value  code  null  code  clears  param  text  the  text  displayed  the  label  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+checks  that  this  class  can  subclassed  the  swt  class  library  intended  subclassed  only  specific  controlled  points  this  method  enforces  this  rule  unless  overridden  important  providing  implementation  this  method  that  allows  subclass  class  which  does  not  normally  allow  subclassing  created  the  implementer  agrees  fully  responsible  for  the  fact  that  any  such  subclass  will  likely  fail  between  swt  releases  and  will  strongly  platform  specific  support  provided  for  user  written  classes  which  are  implemented  this  fashion  the  ability  subclass  outside  the  allowed  swt  classes  intended  purely  enable  those  not  the  swt  development  team  implement  patches  order  get  around  specific  limitations  advance  when  those  limitations  can  addressed  the  team  subclassing  should  not  attempted  without  intimate  and  detailed  understanding  the  hierarchy  exception swt exception  error  invalid  subclass  this  class  not  allowed  subclass 
+throws  code swt exception  code  the  receiver  can  not  accessed  the  caller  this  may  include  both  checks  the  state  the  receiver  and  more  generally  the  entire  execution  context  this  method  should  called  widget  implementors  enforce  the  standard  swt  invariants  currently  error  invoke  any  method  other  than  code  disposed  code  widget  that  has  had  its  code  dispose  code  method  called  also  error  call  widget  methods  from  any  thread  that  different  from  the  thread  that  created  the  widget  future  releases  swt  there  may  more  fewer  error  checks  and  exceptions  may  thrown  for  different  reasons  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+this  clipboard  currently  the  owner  the  data  the  system  clipboard  clear  the  contents  this  clipboard  not  the  owner  then  nothing  done  note  that  there  are  clipboard  assistant  applications  that  take  ownership  data  make  copies  data  when  placed  the  clipboard  these  cases  may  not  possible  clear  the  clipboard  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+this  clipboard  currently  the  owner  the  data  the  specified  clipboard  clear  the  contents  this  clipboard  not  the  owner  then  nothing  done  note  that  there  are  clipboard  assistant  applications  that  take  ownership  data  make  copies  data  when  placed  the  clipboard  these  cases  may  not  possible  clear  the  clipboard  the  clipboards  value  either  one  the  clipboard  constants  defined  class  code  dnd  code  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  dnd  code  clipboard  constants  param  clipboards  cleared  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  dnd  clipboard  see  dnd  selection  clipboard  since 
+disposes  the  operating  system  resources  associated  with  the  clipboard  the  data  will  still  available  the  system  clipboard  after  the  dispose  method  called  note  some  platforms  the  data  will  not  available  once  the  application  has  exited  the  display  has  been  disposed  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent 
+retrieve  the  data  the  specified  type  currently  available  the  system  clipboard  refer  the  specific  subclass  code  transfer  code  determine  the  type  object  returned  the  following  snippet  shows  text  and  rtf  text  being  retrieved  from  the  clipboard  code  pre  clipboard  clipboard  new  clipboard  display text transfer text transfer text transfer get instance  string text data  string  clipboard get contents text transfer text data  null  system  out  println  text text data rtf transfer rtf transfer rtf transfer get instance  string rtf data  string  clipboard get contents rtf transfer rtf data  null  system  out  println  rtf  text rtf data  clipboard  dispose  code  pre  param  transfer  the  transfer  agent  for  the  type  data  being  requested  return  the  data  obtained  from  the  clipboard  null  data  this  type  available  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  exception illegal argument exception  error  null  argument  transfer  null  see  transfer
+retrieve  the  data  the  specified  type  currently  available  the  specified  clipboard  refer  the  specific  subclass  code  transfer  code  determine  the  type  object  returned  the  following  snippet  shows  text  and  rtf  text  being  retrieved  from  the  clipboard  code  pre  clipboard  clipboard  new  clipboard  display text transfer text transfer text transfer get instance  string text data  string  clipboard get contents text transfer text data  null  system  out  println  text text data rtf transfer rtf transfer rtf transfer get instance  string rtf data  string  clipboard get contents rtf transfer  dnd  clipboard rtf data  null  system  out  println  rtf  text rtf data  clipboard  dispose  code  pre  the  clipboards  value  either  one  the  clipboard  constants  defined  class  code  dnd  code  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  dnd  code  clipboard  constants  param  transfer  the  transfer  agent  for  the  type  data  being  requested  param  clipboards  which  look  for  data  return  the  data  obtained  from  the  clipboard  null  data  this  type  available  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  exception illegal argument exception  error  null  argument  transfer  null  see  transfer  see  dnd  clipboard  see  dnd  selection  clipboard  since 
+bug  windows  when  new  application  takes  control  the  clipboard  other  applications  may  open  the  clipboard  determine  they  want  record  the  clipoard  updates  when  this  happens  the  clipboard  can  not  accessed  until  the  other  application  finished  allow  the  other  applications  release  the  clipboard  use peek message  enable  cross  thread  message  sends
+data  available  for  this  transfer
+returns  code  true  code  the  clipboard  has  been  disposed  and  code  false  code  otherwise  this  method  gets  the  dispose  state  for  the  clipboard  when  clipboard  has  been  disposed  error  invoke  any  other  method  using  the  clipboard  return  code  true  code  when  the  widget  disposed  and  code  false  code  otherwise  since 
+place  data  the  specified  type  the  system  clipboard  more  than  one  type  data  can  placed  the  system  clipboard  the  same  time  setting  the  data  clears  any  previous  data  from  the  system  clipboard  regardless  type  note  some  platforms  the  data  immediately  copied  the  system  clipboard  but  other  platforms  provided  upon  request  result  the  application  modifes  the  data  object  has  set  the  clipboard  that  modification  may  may  not  available  when  the  data  subsequently  requested  the  following  snippet  shows  text  and  rtf  text  being  set  the  copy  paste  clipboard  code  pre  clipboard  clipboard  new  clipboard  display  string text data  hello  world  string rtf data  rtf  hello  world text transfer text transfer text transfer get instance rtf transfer rtf transfer rtf transfer get instance  transfer  transfers  new  transfer text transfer rtf transfer  object  data  new  object text data rtf data  clipboard set contents  data  transfers  clipboard  dispose  code  pre  param  data  the  data  set  the  clipboard  param data types  the  transfer  agents  that  will  convert  the  data  its  platform  specific  format  each  entry  the  data  array  must  have  corresponding data type  exception illegal argument exception  error  invalid  argument  data  null  datatypes  null  the  length  data  not  the  same  the  length data types  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  exception swt error  error  cannot  set  clipboard  the  clipboard  locked  otherwise  unavailable  note  error  cannot  set  clipboard  should swt exception  since  recoverable  error  but  can  not  changed  due  backward  compatability 
+place  data  the  specified  type  the  specified  clipboard  more  than  one  type  data  can  placed  the  specified  clipboard  the  same  time  setting  the  data  clears  any  previous  data  from  the  specified  clipboard  regardless  type  note  some  platforms  the  data  immediately  copied  the  specified  clipboard  but  other  platforms  provided  upon  request  result  the  application  modifes  the  data  object  has  set  the  clipboard  that  modification  may  may  not  available  when  the  data  subsequently  requested  the  clipboards  value  either  one  the  clipboard  constants  defined  class  code  dnd  code  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  dnd  code  clipboard  constants  the  following  snippet  shows  text  and  rtf  text  being  set  the  copy  paste  clipboard  code  pre  clipboard  clipboard  new  clipboard  display  string text data  hello  world  string rtf data  rtf  hello  world text transfer text transfer text transfer get instance rtf transfer rtf transfer rtf transfer get instance  transfer  transfers  new  transfer text transfer rtf transfer  object  data  new  object text data rtf data  clipboard set contents  data  transfers  dnd  clipboard  clipboard  dispose  code  pre  param  data  the  data  set  the  clipboard  param data types  the  transfer  agents  that  will  convert  the  data  its  platform  specific  format  each  entry  the  data  array  must  have  corresponding data type  param  clipboards  which  set  the  data  exception illegal argument exception  error  invalid  argument  data  null  datatypes  null  the  length  data  not  the  same  the  length data types  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  exception swt error  error  cannot  set  clipboard  the  clipboard  locked  otherwise  unavailable  note  error  cannot  set  clipboard  should swt exception  since  recoverable  error  but  can  not  changed  due  backward  compatability  see  dnd  clipboard  see  dnd  selection  clipboard  since 
+bug  windows  when  new  application  takes  control  the  clipboard  other  applications  may  open  the  clipboard  determine  they  want  record  the  clipoard  updates  when  this  happens  the  clipboard  can  not  flushed  until  the  other  application  finished  allow  other  applications  get  the  data  use peek message  enable  cross  thread  message  sends
+register  each  the  interfaces  that  this  object  implements
+method get data here  not  implemented
+method get canonical format etc  not  implemented
+method set data  not  implemented
+method  advise  not  implemented
+method  unadvise  not  implemented
+method enum advise  not  implemented
+only  allow  getting  data set data  not  currently  supported
+what  types  have  been  registered
+include  the  drop  effect  format  specify  copy  operation
+called  data  consumer  obtain  data  from  source  data  object  the get data  method  renders  the  data  described  the  specified  formatetc  structure  and  transfers  through  the  specified  stgmedium  structure  the  caller  then  assumes  responsibility  for  releasing  the  stgmedium  structure
+specify  that  copy  operation  performed
+get  matching  transfer  agent  perform  conversion
+this  type  supported  the  transfer  agent
+returns  array  the  data  types  currently  available  the  system  clipboard  use  with  transfer supported type  return  array  data  types  currently  available  the  system  clipboard  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  transfer supported type  since 
+returns  array  the  data  types  currently  available  the  specified  clipboard  use  with  transfer supported type  the  clipboards  value  either  one  the  clipboard  constants  defined  class  code  dnd  code  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  dnd  code  clipboard  constants  param  clipboards  from  which  get  the  data  types  return  array  data  types  currently  available  the  specified  clipboard  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  transfer supported type  see  dnd  clipboard  see  dnd  selection  clipboard  since 
+returns  platform  specific  list  the  data  types  currently  available  the  system  clipboard  note  code get available type names  code  utility  for  writing  transfer  sub  class  should  not  used  within  application  because  provides  platform  specific  information  return  platform  specific  list  the  data  types  currently  available  the  system  clipboard  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
 non  nls 
-shorten  the  given  text  code  code  that  its  length  doesn  exceed  the  given  width  the  default  implementation  replaces  characters  the  center  the  original  string  with  ellipsis  override  you  need  different  strategy  param  the  use  for  text  measurement  param  the  text  shorten  param  width  the  width  shorten  the  text  pixels  return  the  shortened  text
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+loop  over  enumerator  and  save  any  types  that  match  what  are  looking  for
 </comments>
 </text>
 </DOC>

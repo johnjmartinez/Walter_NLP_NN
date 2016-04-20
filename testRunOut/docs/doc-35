@@ -1,15 +1,29 @@
 <DOC>
-<DOCNO>org.eclipse.swt.custom.ViewFormLayout.java </DOCNO>
+<DOCNO>org.eclipse.swt.custom.PopupList.java </DOCNO>
 <text>
 <class>
-view form layout
+popup list
 </class>
 <method>
-compute size
-compute child size
-compute trim
-flush cache
- layout
+popup list
+popup list
+handle event
+control moved
+control resized
+mouse double click
+mouse down
+ mouse
+key released
+key pressed
+check style
+get font
+get items
+get minimum width
+ open
+ select
+set font
+set items
+set minimum width
 </method>
 <identifier>
  org
@@ -22,670 +36,302 @@ flush cache
  org
  eclipse
  swt
+ events
+ org
+ eclipse
+ swt
  graphics
  org
  eclipse
  swt
  widgets
-view form layout
- layout
- point
-compute size
- composite
- composite
- hint
- hint
-flush cache
-view form
- form
-view form
- composite
- control
- left
- form
-top left
- control
- center
- form
-top center
- control
- right
- form
-top right
- control
- content
- form
- content
- point
-left size
- point
- left
-left size
-compute child size
- left
+popup list
+ shell
+ shell
+ list
+ list
+minimum width
+popup list
+ shell
+ parent
+ parent
+popup list
+ shell
+ parent
+ style
+ shell
+ shell
+ parent
+check style
+ style
+ list
+ list
+ shell
  swt
- default
+ single
  swt
- default
-flush cache
- point
-center size
- point
- center
-center size
-compute child size
- center
+ scroll
+ shell
+add listener
  swt
- default
- swt
- default
-flush cache
- point
-right size
- point
- right
-right size
-compute child size
- right
- swt
- default
- swt
- default
-flush cache
- point
- size
- point
- form
-separate top center
- hint
- swt
- default
-left size
+ deactivate
+ listener
+handle event
+ event
 
-center size
+ shell
+set visible
+ shell
+add control listener
+control listener
+control moved
+control event
 
-right size
+control resized
+control event
 
- hint
- size
-
-left size
-
-right size
-
-left size
-
-right size
-
- size
-
- form
-horizontal spacing
- size
-
- math
- max
-center size
-
- size
-
- size
-
- math
- max
-left size
-
-right size
-
- center
- size
-
-center size
-
- left
- right
- size
-
- form
-vertical spacing
- size
-
-left size
-
-center size
-
-right size
-
- count
-left size
-
- count
-center size
-
- count
-right size
-
- count
- count
- size
-
- count
- form
-horizontal spacing
- size
-
- math
- max
-left size
-
- math
- max
-center size
-
-right size
-
- content
- left
- right
- center
- size
-
- point
-content size
- point
-content size
-compute child size
- content
- swt
- default
- swt
- default
-flush cache
- size
-
- math
- max
- size
-
-content size
-
- size
-
-content size
-
- size
-
-content size
-
- size
-
- form
-vertical spacing
- size
-
- form
-margin width
- size
-
- form
-margin height
- hint
- swt
- default
- size
-
- hint
- hint
- swt
- default
- size
-
- hint
- size
- point
-compute child size
- control
- control
- hint
- hint
-flush cache
- object
- data
- control
-get layout data
- data
- data
-layout data
- data
-layout data
- control
-set layout data
- data
-layout data
- data
-compute size
- control
- hint
- hint
-flush cache
-compute trim
- control
-
-
- scrollable
  rectangle
- rect
- scrollable
-
-compute trim
- rect
- width
-
-get border width
-flush cache
- control
- control
- object
- data
- control
-get layout data
- data
- data
-layout data
-layout data
- data
-flush cache
- layout
- composite
- composite
-flush cache
-view form
- form
-view form
- composite
- control
- left
- form
-top left
- control
- center
- form
-top center
- control
- right
- form
-top right
- control
- content
- form
- content
- rectangle
- rect
- composite
+shell size
+ shell
 get client area
- point
-left size
- point
- left
- left
- disposed
-left size
-compute child size
- left
- swt
- default
- swt
- default
-flush cache
- point
-center size
- point
- center
- center
- disposed
-center size
-compute child size
- center
- swt
- default
- swt
- default
-flush cache
- point
-right size
- point
- right
- right
- disposed
-right size
-compute child size
- right
- swt
- default
- swt
- default
-flush cache
-min top width
-left size
-
-center size
-
-right size
-
- form
-margin width
- form
- highlight
- count
-left size
-
- count
-center size
-
- count
-right size
-
- count
- count
-min top width
- count
- form
-horizontal spacing
-
- rect
-
- rect
+ list
+set size
+shell size
  width
- form
-margin width
- form
- highlight
-
- rect
-
- form
-margin height
- form
- highlight
- top
- form
-separate top center
-min top width
- rect
- width
-top height
- math
- max
-right size
-
-left size
-
- right
- right
- disposed
- top
-
-right size
-
- right
-set bounds
-
-
-right size
-
-top height
-
- form
-horizontal spacing
- left
- left
- disposed
- top
- trim
-compute trim
- left
- left
-
- rect
-
- form
-margin width
- form
- highlight
- trim
-left size
-compute child size
- left
- left
- swt
- default
- left
-set bounds
- rect
-
- form
-margin width
- form
- highlight
-
-left size
-
-top height
- top
-
-top height
- form
-vertical spacing
- center
- center
- disposed
- top
- trim
-compute trim
- center
-
- rect
- width
- form
-margin width
- form
- highlight
- trim
-center size
-compute child size
- center
-
- swt
- default
- center
-set bounds
- rect
-
- rect
- width
- form
-margin width
- form
- highlight
-center size
-
-
-center size
-
-center size
-
-
-center size
-
- form
-vertical spacing
-top height
- math
- max
-right size
-
- math
- max
-center size
-
-left size
-
- right
- right
- disposed
- top
-
-right size
-
- right
-set bounds
-
-
-right size
-
-top height
-
- form
-horizontal spacing
- center
- center
- disposed
- top
-
-center size
-
- center
-set bounds
-
-
-center size
-
-top height
-
- form
-horizontal spacing
- left
- left
- disposed
- top
- rectangle
- trim
- left
- composite
- composite
- left
-compute trim
- rectangle
-
-
- rect
-
- form
-margin width
- form
- highlight
- trim
- width
-
-top height
- trim
+shell size
  height
-left size
-compute child size
- left
+ list
+add mouse listener
+mouse listener
+mouse double click
+mouse event
+
+mouse down
+mouse event
+
+ mouse
+mouse event
+
+ shell
+set visible
+ list
+add key listener
+key listener
+key released
+key event
+
+key pressed
+key event
 
 
- left
-set bounds
+ character
+ shell
+set visible
+check style
+ style
+ mask
+ swt
+left right
+ swt
+right left
+ style
+ mask
+ font
+get font
+ list
+get font
+ string
+get items
+ list
+get items
+get minimum width
+minimum width
+ string
+ open
+ rectangle
  rect
-
- form
-margin width
- form
- highlight
-
-left size
-
-top height
- top
-
-top height
- form
-vertical spacing
-old seperator
- form
- separator
- form
- separator
- content
- content
- disposed
- left
- right
- center
- form
- separator
-
-
- content
-set bounds
- rect
-
- form
-margin width
- form
- highlight
-
+ point
+list size
+ list
+compute size
  rect
  width
- form
-margin width
- form
- highlight
+ swt
+ default
+ rectangle
+screen size
+ shell
+get display
+get bounds
+space below
+screen size
+ height
  rect
 
  rect
  height
-
- form
-margin height
- form
- highlight
-old seperator
- form
- separator
-
- math
- min
- form
- separator
-old seperator
-
- math
- max
- form
- separator
-old seperator
- form
- redraw
- form
-border left
-
- form
-get size
-
- form
-border left
- form
-border right
+space above
+ rect
 
 
+space above
+space below
+list size
+
+space below
+list size
+
+space above
+list size
+
+space above
+list size
+
+
+ rect
+
+list size
+
+list size
+
+space below
+list size
+
+space below
+list size
+
+
+ rect
+
+ rect
+ height
+list size
+
+ rect
+ width
+list size
+
+minimum width
+list size
+
+minimum width
+
+ rect
+
+ rect
+ width
+list size
+
+ shell
+set bounds
+
+
+list size
+
+list size
+
+ shell
+ open
+ list
+set focus
+ display
+ display
+ shell
+get display
+ shell
+ disposed
+ shell
+ visible
+ display
+read and dispatch
+ display
+ sleep
+ string
+ result
+ shell
+ disposed
+ string
+ strings
+ list
+get selection
+ shell
+ dispose
+ strings
+ length
+ result
+ strings
+ result
+ select
+ string
+ string
+ string
+ items
+ list
+get items
+ string
+
+
+ items
+ length
+
+ items
+
+starts with
+ string
+ index
+ list
+ index
+ items
+
+ list
+ select
+ index
+set font
+ font
+ font
+ list
+set font
+ font
+set items
+ string
+ strings
+ list
+set items
+ strings
+set minimum width
+ width
+ width
+ swt
+ error
+ swt
+error invalid argument
+minimum width
+ width
 </identifier>
 <comments>
-copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-this  class  provides  the  layout  for view form  see view form
-calculate  width  title  bar
-allow  space  for  vertical  separator
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+popup list  list  selectable  items  that  appears  its  own  shell  positioned  above  its  parent  shell  used  for  selecting  items  when  editing  table  cell  similar  the  list  that  appears  when  you  open  combo  box  the  list  will  positioned  that  does  not  run  off  the  screen  and  the  largest  number  items  are  visible  may  appear  above  the  current  cursor  location  below  depending  how  close  you  are  the  edge  the  screen
+creates popup list  above  the  specified  shell  param  parent  shell  control  which  will  the  parent  the  new  instance  cannot  null
+creates popup list  above  the  specified  shell  param  parent  widget  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  widget  construct  since 
+close  dialog  user  selects  outside  the  shell
+resize  shell  when  list  resizes
+return  list  selection  mouse  carriage  return
+gets  the  widget  font  return  the  widget  font  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+gets  the  items  this  operation  will  fail  the  items  cannot  queried  from  the  return  the  items  the  widget  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+gets  the  minimum  width  the  list  return  the  minimum  width  the  list
+launches  the  popup  list  waits  for  item  selected  and  then  closes popup list  param  rect  the  initial  size  and  location  the popup list  the  dialog  will  positioned  that  does  not  run  off  the  screen  and  the  largest  number  items  are  visible  return  the  text  the  selected  item  null  item  selected
+position  the  dialog  that  does  not  run  off  the  screen  and  the  largest  number  items  are  visible
+place  popup  list  above  table  cell
+place  popup  list  below  table  cell
+make  dialog  wide  the  cell
+dialog  width  should  not  les  than  minimumwidth
+align  right  side  dialog  with  right  side  cell
+selects  item  with  text  that  starts  with  specified  string  the  item  not  currently  selected  selected  the  item  index  selected  remains  selected  the  string  not  matched  ignored  param  string  the  text  the  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+find  the  first  entry  the  list  that  starts  with  the
+specified  string
+sets  the  widget  font  when  new  font  null  the  font  reverts  the  default  system  font  for  the  widget  param  font  the  new  font  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  all  items  the  previous  selection  cleared  the  previous  items  are  deleted  the  new  items  are  added  the  top  index  set  param  strings  the  array  items  this  operation  will  fail  when  item  null  could  not  added  the  exception illegal argument exception  error  null  argument  the  items  array  null  error  invalid  argument  item  the  items  array  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  minimum  width  the  list  param  width  the  minimum  width  the  list
 </comments>
 </text>
 </DOC>

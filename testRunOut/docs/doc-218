@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.EXTLOGPEN.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.PRINTDLG.java </DOCNO>
 <text>
 <class>
- extlogpen
+ printdlg
 </class>
 <method>
 NONE
@@ -13,18 +13,49 @@ NONE
  swt
  internal
  win
- extlogpen
-elp pen style
-elp width
-elp brush style
-elp color
-elp hatch
-elp num entries
-elp style entry
+ printdlg
+struct size
+hwnd owner
+dev mode
+dev names
+
+ flags
+from page
+ page
+min page
+max page
+ copies
+ instance
+cust data
+lpfn print hook
+lpfn setup hook
+print template name
+setup template name
+print template
+setup template
  sizeof
 </identifier>
 <comments>
-copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+  dword
+  hwnd
+  hglobal
+  hglobal
+  hdc
+  dword
+  word
+  word
+  word
+  word
+  word
+  hinstance
+  lparam
+  lpprinthookproc
+  lpsetuphookproc
+  lpctstr
+  lpctstr
+  hglobal
+  hglobal
 </comments>
 </text>
 </DOC>

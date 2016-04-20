@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.gdip.GdiplusStartupInput.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.WNDCLASS.java </DOCNO>
 <text>
 <class>
-gdiplus startup input
+ wndclass
 </class>
 <method>
 NONE
@@ -12,16 +12,22 @@ NONE
  eclipse
  swt
  internal
- gdip
-gdiplus startup input
-gdiplus version
-debug event callback
-suppress background thread
-suppress external codecs
+ win
+ wndclass
+ style
+lpfn wnd proc
+cls extra
+wnd extra
+ instance
+ icon
+ cursor
+hbr background
+lpsz menu name
+lpsz class name
  sizeof
 </identifier>
 <comments>
-copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
 </comments>
 </text>
 </DOC>

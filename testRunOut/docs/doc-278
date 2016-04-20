@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.HDLAYOUT.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.NONCLIENTMETRICS.java </DOCNO>
 <text>
 <class>
- hdlayout
+ nonclientmetrics
 </class>
 <method>
 NONE
@@ -13,13 +13,23 @@ NONE
  swt
  internal
  win
- hdlayout
- prc
- pwpos
+ nonclientmetrics
+ size
+border width
+scroll width
+scroll height
+caption width
+caption height
+caption width
+caption height
+menu width
+menu height
  sizeof
+
+ unicode
 </identifier>
 <comments>
-copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
 </comments>
 </text>
 </DOC>

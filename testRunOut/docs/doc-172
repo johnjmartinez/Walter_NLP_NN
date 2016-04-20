@@ -1,55 +1,110 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.ole.win32.IViewObject2.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.image.PngChunkReader.java </DOCNO>
 <text>
 <class>
-view object
+png chunk reader
 </class>
 <method>
-view object
-get extent
-set advise
+png chunk reader
+get ihdr chunk
+read next chunk
+read pixel data
+has more chunks
 </method>
 <identifier>
  org
  eclipse
  swt
  internal
- ole
- win
+ image
  org
  eclipse
  swt
- internal
- win
-view object
- unknown
-view object
- address
- address
-get extent
- aspect
- lindex
- dvtargetdevice
- ptd
- size
- lpsizel
- com
-vtbl call
- address
- aspect
- lindex
- ptd
- lpsizel
-set advise
- aspects
- advf
-advise sink
- com
-vtbl call
- address
- aspects
- advf
-advise sink
+png chunk reader
+data input stream
+input stream
+png file read state
+read state
+png ihdr chunk
+header chunk
+png plte chunk
+palette chunk
+png chunk reader
+data input stream
+input stream
+input stream
+input stream
+read state
+png file read state
+header chunk
+png ihdr chunk
+get ihdr chunk
+header chunk
+png chunk
+ chunk
+png chunk
+read next from stream
+input stream
+header chunk
+png ihdr chunk
+ chunk
+header chunk
+ validate
+read state
+class cast exception
+
+ swt
+ error
+ swt
+error invalid image
+header chunk
+png chunk
+read next chunk
+header chunk
+get ihdr chunk
+png chunk
+ chunk
+png chunk
+read next from stream
+input stream
+ chunk
+get chunk type
+png chunk
+chunk rns
+png trns chunk
+ chunk
+ validate
+read state
+header chunk
+palette chunk
+png chunk
+chunk plte
+ chunk
+ validate
+read state
+header chunk
+palette chunk
+png plte chunk
+ chunk
+ chunk
+ validate
+read state
+header chunk
+read state
+read idat
+ chunk
+get chunk type
+png chunk
+chunk idat
+read state
+read pixel data
+ chunk
+read pixel data
+read state
+read pixel data
+has more chunks
+read state
+read iend
 </identifier>
 <comments>
 copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation

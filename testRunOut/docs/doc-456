@@ -1,15 +1,17 @@
 <DOC>
-<DOCNO>org.eclipse.swt.widgets.TypedListener.java </DOCNO>
+<DOCNO>org.eclipse.swt.browser.WindowEvent.java </DOCNO>
 <text>
 <class>
-typed listener
+window event
 </class>
 <method>
-typed listener
-get event listener
-handle event
+window event
 </method>
 <identifier>
+ org
+ eclipse
+ swt
+ browser
  org
  eclipse
  swt
@@ -17,327 +19,41 @@ handle event
  org
  eclipse
  swt
- internal
-swt event listener
- org
- eclipse
- swt
- org
- eclipse
- swt
  events
-typed listener
- listener
-swt event listener
-event listener
-typed listener
-swt event listener
- listener
-event listener
- listener
-swt event listener
-get event listener
-event listener
-handle event
- event
-
-
- type
+ org
+ eclipse
  swt
- paint
-paint event
- event
-paint event
-
-paint listener
-event listener
-paint control
- event
-
-
- event
-
- swt
- selection
-selection event
- event
-selection event
-
-selection listener
-event listener
-widget selected
- event
+ graphics
+window event
+typed event
+ required
+ browser
+ browser
+ point
+ location
+ point
+ size
+address bar
+menu bar
+status bar
+tool bar
+serial version uid
+window event
+ widget
 
 
- event
-
-
-
- event
-
-
- doit
- event
- doit
- swt
-default selection
-selection listener
-event listener
-widget default selected
-selection event
-
- swt
- dispose
-dispose listener
-event listener
-widget disposed
-dispose event
-
- swt
- focus
-focus listener
-event listener
-focus gained
-focus event
-
- swt
-focus out
-focus listener
-event listener
-focus lost
-focus event
-
- swt
- hide
-menu listener
-event listener
-menu hidden
-menu event
-
- swt
- show
-menu listener
-event listener
-menu shown
-menu event
-
- swt
-key down
-key event
- event
-key event
-
-key listener
-event listener
-key pressed
- event
-
- doit
- event
- doit
- swt
- key
-key event
- event
-key event
-
-key listener
-event listener
-key released
- event
-
- doit
- event
- doit
- swt
-mouse down
-mouse listener
-event listener
-mouse down
-mouse event
-
- swt
- mouse
-mouse listener
-event listener
- mouse
-mouse event
-
- swt
-mouse double click
-mouse listener
-event listener
-mouse double click
-mouse event
-
- swt
-mouse move
-mouse move listener
-event listener
-mouse move
-mouse event
-
- swt
- resize
-control listener
-event listener
-control resized
-control event
-
- swt
- move
-control listener
-event listener
-control moved
-control event
-
- swt
- close
-shell event
- event
-shell event
-
-shell listener
-event listener
-shell closed
- event
-
- doit
- event
- doit
- swt
- activate
-shell listener
-event listener
-shell activated
-shell event
-
- swt
- deactivate
-shell listener
-event listener
-shell deactivated
-shell event
-
- swt
- iconify
-shell listener
-event listener
-shell iconified
-shell event
-
- swt
- deiconify
-shell listener
-event listener
-shell deiconified
-shell event
-
- swt
- expand
-tree listener
-event listener
-tree expanded
-tree event
-
- swt
- collapse
-tree listener
-event listener
-tree collapsed
-tree event
-
- swt
- modify
-modify listener
-event listener
-modify text
-modify event
-
- swt
- verify
-verify event
- event
-verify event
-
-verify listener
-event listener
-verify text
- event
-
- text
- event
- text
-
- doit
- event
- doit
- swt
- help
-help listener
-event listener
-help requested
-help event
-
- swt
- arm
-arm listener
-event listener
-widget armed
-arm event
-
- swt
-mouse exit
-mouse track listener
-event listener
-mouse exit
-mouse event
-
- swt
-mouse enter
-mouse track listener
-event listener
-mouse enter
-mouse event
-
- swt
-mouse hover
-mouse track listener
-event listener
-mouse hover
-mouse event
-
- swt
- traverse
-traverse event
- event
-traverse event
-
-traverse listener
-event listener
-key traversed
- event
-
- detail
- event
- detail
-
- doit
- event
- doit
 </identifier>
 <comments>
-copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-instances  this  class  are  internal  swt  implementation  objects  which  provide  mapping  between  the  typed  and  untyped  listener  mechanisms  that  swt  supports  important  this  class  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  should  never  referenced  from  application  code  see  listener
-the  receiver  event  listener
-constructs  new  instance  this  class  for  the  given  event  listener  important  this  method  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  should  never  referenced  from  application  code  param  listener  the  event  listener  store  the  receiver
-returns  the  receiver  event  listener  important  this  method  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  should  never  referenced  from  application  code  return  the  receiver  event  listener
-handles  the  given  event  important  this  method  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  should  never  referenced  from  application  code  param  the  event  handle
-field  set  control
-fields  set  sash
-fields  set  decorations
-fields  set  text rich text
-fields  set  control
+copyright  2003  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+code window event  code  sent  link  browser  when  new  window  needs  created  when  existing  window  needs  closed  this  notification  occurs  when  javascript  command  such  code  window  open  code  code  window  close  code  gets  executed  code  browser  code  the  following  example  shows  how  code window event  code  are  typically  handled  code  pre  public  static  void  main  string  args  display  display  new  display  shell  shell  new  shell  display  shell set text  main  window  shell set layout  new fill layout  browser  browser  new  browser  shell  swt  none  initialize  display  browser  shell  open  browser set url  http  www  eclipse  org  while  shell  disposed  display read and dispatch  display  sleep  display  dispose  static  void  initialize  final  display  display  browser  browser  browser add open window listener  new open window listener  public  void  open window event  event  certain  platforms  can  provide  default  full  browser  simply  return  that  case  the  application  prefers  the  default  full  browser  the  embedded  one  set  below  event  required  return  embed  the  new  window  shell  shell  new  shell  display  shell set text  new  window  shell set layout  new fill layout  browser  browser  new  browser  shell  swt  none  initialize  display  browser  event  browser  browser  browser add visibility window listener  new visibility window listener  public  void  hide window event  event  browser  browser  browser  event  widget  shell  shell  browser get shell  shell set visible  false  public  void  show window event  event  browser  browser  browser  event  widget  shell  shell  browser get shell  event  location  null  shell set location  event  location  event  size  null  point  size  event  size  shell set size  shell compute size  size  size  event address bar  event menu bar  event status bar  event tool bar  create  widgets  for  the  address  bar  menu  bar  status  bar  and  tool  bar  leave  enough  space  the  shell  accomodate  browser  the  size  given  event  size  shell  open  browser add close window listener  new close window listener  public  void  close window event  event  browser  browser  browser  event  widget  shell  shell  browser get shell  shell  close  pre  code  the  following  notifications  are  emitted  when  the  user  selects  hyperlink  that  targets  new  window  the  result  javascript  that  executes  window  open  main  browser  user  selects  link  that  opens  new  window  javascript  requests  new  window open window listener  open  notified  application  creates  new  shell  and  second  browser  inside  that  shell  application  registers window listener  that  second  browser  such visibility window listener  application  returns  the  second  browser  the  host  for  the  new  window  content  second  browser visibility window listener  show  notified  application  sets  navigation  tool  bar  status  bar  menu  bar  and  shell  size  application  makes  the  shell  hosting  the  second  browser  visible  user  now  sees  the  new  window  see close window listener  see open window listener  see visibility window listener  since 
+specifies  whether  the  platform  requires  the  user  provide  code  browser  code  handle  the  new  window  since 
+code  browser  code  provided  the  application
+requested  location  for  the  code  shell  code  hosting  the  code  browser  code  code  null  code  location  has  been  requested
+requested  code  browser  code  size  the  client  area  the  code  shell  code  hosting  the  code  browser  code  should  large  enough  accomodate  that  size  code  null  code  size  has  been  requested
+specifies  whether  the  code  shell  code  hosting  the  code  browser  code  should  display  address  bar  since 
+specifies  whether  the  code  shell  code  hosting  the  code  browser  code  should  display  menu  bar  since 
+specifies  whether  the  code  shell  code  hosting  the  code  browser  code  should  display  status  bar  since 
+specifies  whether  the  code  shell  code  hosting  the  code  browser  code  should  display  tool  bar  since 
 </comments>
 </text>
 </DOC>

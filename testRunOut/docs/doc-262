@@ -1,20 +1,11 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.TCHAR.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.MENUINFO.java </DOCNO>
 <text>
 <class>
- tchar
+ menuinfo
 </class>
 <method>
- tchar
- tchar
- tchar
- tchar
-get chars
- length
- strlen
- tchar
- string
- string
+NONE
 </method>
 <identifier>
  org
@@ -22,197 +13,18 @@ get chars
  swt
  internal
  win
- tchar
-code page
- chars
- bytes
-byte count
+ menuinfo
+ size
+ mask
+ style
+ max
+hbr back
+context help
+menu data
  sizeof
-
- unicode
- tchar
-code page
- length
-code page
-code page
-
- unicode
- chars
- length
- bytes
-byte count
- length
- tchar
-code page
-
- terminate
-code page
- terminate
-
-
- tchar
-code page
- chars
- terminate
-code page
-code page
-char count
- chars
- length
-
- unicode
- terminate
-char count
-char count
- chars
-char count
-new chars
-char count
- system
- arraycopy
- chars
-new chars
-char count
- chars
-new chars
- chars
- chars
-
-code page
-code page
-
- acp
- bytes
-byte count
-char count
- terminate
-byte count
-
-wide char multi byte
-
- chars
-char count
- bytes
-byte count
- terminate
-byte count
- tchar
-code page
- string
- string
- terminate
-code page
-get chars
- string
- terminate
-get chars
- string
- string
- terminate
- length
- string
- length
- chars
- length
- terminate
- string
-get chars
- length
- chars
- chars
- length
-
- unicode
- chars
- length
-byte count
- strlen
-
- unicode
-
-
- chars
- length
-
- chars
-
-
- chars
- length
-
-
-byte count
-
- bytes
-
-
-byte count
- tchar
- index
-
- unicode
- chars
- index
-
- bytes
- index
-
-dbcs lead byte
-
-
-
- bytes
- index
-
- string
- string
- string
- length
- string
- string
- start
- length
-
- unicode
- string
- chars
- start
- length
- bytes
- bytes
- start
- bytes
- length
- system
- arraycopy
- bytes
- start
- bytes
- length
- chars
- length
-
-code page
-code page
-
- acp
-char count
-
-multi byte wide char
-
-
- precomposed
- bytes
- length
- chars
- length
- string
- chars
-char count
 </identifier>
 <comments>
-copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-this  class  implements  the  conversions  between  unicode  characters  and  the  platform  supported  representation  for  characters  note  that  unicode  characters  which  can  not  found  the  platform  encoding  will  converted  arbitrary  platform  specific  character 
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
 </comments>
 </text>
 </DOC>

@@ -1,15 +1,14 @@
 #!/bin/bash
 set -x
+proj=`pwd -P`
 
-cd BLUiR
 jBLUiR='java -jar BLUiR.jar '
-proj=`pwd -P`/..
 bugRepo=${proj}/SWTBugRepository.xml 
 srcRepo=${proj}/src_code
 outDir=${proj}/testRunOut #or whatever you wanna call it
-cd BLUiR
 
 mkdir $outDir
+cd BLUiR
 
 #create query from XML Bug Repository
 $jBLUiR -task='createquery' \

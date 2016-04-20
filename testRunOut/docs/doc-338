@@ -1,32 +1,72 @@
 <DOC>
-<DOCNO>org.eclipse.swt.events.HelpListener.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.ole.win32.IOleCommandTarget.java </DOCNO>
 <text>
 <class>
-help listener
+ole command target
 </class>
 <method>
-help requested
+ole command target
+ exec
+query status
 </method>
 <identifier>
  org
  eclipse
  swt
- events
- org
- eclipse
- swt
  internal
-swt event listener
-help listener
-swt event listener
-help requested
-help event
-
+ ole
+ win
+ole command target
+ unknown
+ole command target
+ address
+ address
+ exec
+ guid
+pguid cmd group
+ cmd
+cmd exec opt
+ pva
+pva out
+ com
+vtbl call
+ address
+pguid cmd group
+ cmd
+cmd exec opt
+ pva
+pva out
+query status
+ guid
+pguid cmd group
+ cmds
+ olecmd
+prg cmds
+ olecmdtext
+cmd text
+ cmds
+ com
+ invalidarg
+ com
+vtbl call
+ address
+pguid cmd group
+ cmds
+prg cmds
+cmd text
 </identifier>
 <comments>
 copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-classes  which  implement  this  interface  provide  method  that  deals  with  the  event  that  generated  when  help  requested  for  control  typically  when  the  user  presses  after  creating  instance  class  that  implements  this  interface  can  added  control  using  the  code add help listener  code  method  and  removed  using  the  code remove help listener  code  method  when  help  requested  for  control  the help requested  method  will  invoked  see help event
-sent  when  help  requested  for  control  typically  when  the  user  presses  param  event  containing  information  about  the  help
+pointer  command  group
+identifier  command  execute
+options  for  executing  the  command
+pointer  input  arguments
+pointer  command  output
+pointer  command  group
+number  commands prg cmds  array
+array  commands
+pointer  name  status  command
+only  support  querying  for  one  command  time
 </comments>
 </text>
 </DOC>

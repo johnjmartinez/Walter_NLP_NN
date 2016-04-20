@@ -1,31 +1,62 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.ole.win32.IOleControl.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.image.JPEGSegment.java </DOCNO>
 <text>
 <class>
-ole control
+jpeg segment
 </class>
 <method>
-ole control
-get control info
+jpeg segment
+jpeg segment
+ signature
+ verify
+get segment marker
+set segment marker
+get segment length
+set segment length
+write stream
 </method>
 <identifier>
  org
  eclipse
  swt
  internal
- ole
- win
-ole control
- unknown
-ole control
- address
- address
-get control info
- controlinfo
-
- com
-vtbl call
- address
+ image
+jpeg segment
+ reference
+jpeg segment
+jpeg segment
+ reference
+ reference
+ reference
+ signature
+ verify
+get segment marker
+ signature
+get segment marker
+ reference
+ reference
+set segment marker
+ marker
+ reference
+ marker
+ reference
+ marker
+get segment length
+ reference
+ reference
+set segment length
+ length
+ reference
+ length
+ reference
+ length
+write stream
+data output stream
+byte stream
+byte stream
+ write
+ reference
+ exception
 
 </identifier>
 <comments>

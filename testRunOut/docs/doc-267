@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.NMTTDISPINFOA.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.DIBSECTION.java </DOCNO>
 <text>
 <class>
- nmttdispinfoa
+ dibsection
 </class>
 <method>
 NONE
@@ -13,9 +13,24 @@ NONE
  swt
  internal
  win
- nmttdispinfoa
- nmttdispinfo
- text
+ dibsection
+ bitmap
+ size
+ width
+ height
+ planes
+bit count
+ compression
+size image
+pels per meter
+pels per meter
+clr used
+clr important
+ bitfields
+ bitfields
+ bitfields
+dsh section
+ offset
  sizeof
 </identifier>
 <comments>

@@ -1,64 +1,32 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.image.PngIendChunk.java </DOCNO>
+<DOCNO>org.eclipse.swt.events.ControlAdapter.java </DOCNO>
 <text>
 <class>
-png iend chunk
+control adapter
 </class>
 <method>
-png iend chunk
- validate
+control moved
+control resized
 </method>
 <identifier>
  org
  eclipse
  swt
- internal
- image
- org
- eclipse
- swt
-png iend chunk
-png chunk
-png iend chunk
- reference
- reference
- validate
-png file read state
-read state
-png ihdr chunk
-header chunk
-read state
-read ihdr
-header chunk
-get must have palette
-read state
-read plte
-read state
-read idat
-read state
-read iend
- swt
- error
- swt
-error invalid image
-read state
-read iend
- validate
-read state
-header chunk
-get length
- swt
- error
- swt
-error invalid image
+ events
+control adapter
+control listener
+control moved
+control event
+
+control resized
+control event
+
 </identifier>
 <comments>
 copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-answer  whether  the  chunk  valid  iend  chunk
-iend  chunk  invalid  ihdr  has  been  read
-palette  required  and  has  not  been  read
-idat  chunk  has  been  read
-iend  chunks  are  not  allowed  have  any  data
+this  adapter  class  provides  default  implementations  for  the  methods  described  the  code control listener  code  interface  classes  that  wish  deal  with  code control event  code  can  extend  this  class  and  override  only  the  methods  which  they  are  interested  see control listener  see control event
+sent  when  the  location  control  changes  relative  its  parent  relative  the  display  for  code  shell  code  the  default  behavior  nothing  param  event  containing  information  about  the  move
+sent  when  the  size  width  height  control  changes  the  default  behavior  nothing  param  event  containing  information  about  the  resize
 </comments>
 </text>
 </DOC>

@@ -1,31 +1,34 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.image.JPEGArithmeticConditioningTable.java </DOCNO>
+<DOCNO>org.eclipse.swt.events.ArmEvent.java </DOCNO>
 <text>
 <class>
-jpeg arithmetic conditioning table
+arm event
 </class>
 <method>
-jpeg arithmetic conditioning table
- signature
+arm event
 </method>
 <identifier>
  org
  eclipse
  swt
- internal
- image
-jpeg arithmetic conditioning table
-jpeg variable size segment
-jpeg arithmetic conditioning table
-data input stream
-byte stream
-byte stream
- signature
-jpeg file format
- dac
+ events
+ org
+ eclipse
+ swt
+ widgets
+ event
+arm event
+typed event
+serial version uid
+arm event
+ event
+
+
 </identifier>
 <comments>
-copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  sent  result  widget  such  menu  item  being  armed  see arm listener
+constructs  new  instance  this  class  based  the  information  the  given  untyped  event  param  the  untyped  event  containing  the  information
 </comments>
 </text>
 </DOC>

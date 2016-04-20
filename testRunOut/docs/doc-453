@@ -1,56 +1,107 @@
 <DOC>
-<DOCNO>org.eclipse.swt.widgets.Link.java </DOCNO>
+<DOCNO>org.eclipse.swt.browser.WebSite.java </DOCNO>
 <text>
 <class>
- link
+web site
 </class>
 <method>
- link
-add selection listener
-call window proc
-compute size
-create handle
-create widget
-draw widget
-enable widget
-init accessible
-get name
-get child point
-get location
-get child count
-get role
-get state
-get default action
-get selection
-get focus
-get name text
-get rectangles
-get text
- parse
-parse mnemonics
-release widget
-remove selection listener
-set text
-widget style
-window class
-window proc
- char
- getdlgcode
- getfont
- keydown
- killfocus
- lbuttondown
- lbuttonup
- mousemove
- paint
- printclient
- setfocus
- setfont
- size
-color child
-notify child
+web site
+create com interfaces
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+dispose com interfaces
+add ref
+query interface
+enable modeless
+filter data object
+get drop target
+get external
+get host info
+get option key path
+ hide
+doc window activate
+frame window activate
+ release
+resize border
+show context menu
+ show
+translate accelerator
+translate url
+ update
+show message
+show help
+query service
+set security site
+get security site
+map url zone
+get security
+process url action
+query custom policy
+set zone mapping
+get zone mappings
+query status
+ exec
 </method>
 <identifier>
+ org
+ eclipse
+ swt
+ browser
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ ole
+ win
  org
  eclipse
  swt
@@ -60,1687 +111,949 @@ notify child
  swt
  internal
  win
- org
- eclipse
- swt
- org
- eclipse
- swt
- graphics
- org
- eclipse
- swt
- events
- org
- eclipse
- swt
- accessibility
- link
- control
- string
- text
-text layout
- layout
- color
-link color
-link disabled color
- point
- offsets
- point
- selection
- string
- ids
- mnemonics
-focus index
- font
- rgb
-link foreground
- rgb
-link proc
- tchar
-link class
- tchar
-
- link
-
-comctl 32_ major
- wndclass
-wnd class
- wndclass
-
-get class info
-link class
-wnd class
-link proc
-wnd class
-lpfn wnd proc
-link proc
- link
+web site
+ole control site
+com object
+doc host handler
+com object
+doc host show
+com object
+service provider
+com object
+internet security manager
+com object
+ole command target
+olecmdid showscripterror
+web site
  composite
  parent
  style
+ string
+ prog
  parent
  style
-add selection listener
-selection listener
- listener
-check widget
- listener
- error
- swt
-error null argument
-typed listener
-typed listener
-typed listener
- listener
-add listener
- swt
- selection
-typed listener
-add listener
- swt
-default selection
-typed listener
-call window proc
- hwnd
- msg
- param
- param
- handle
-link proc
-
-call window proc
-link proc
- hwnd
- msg
- param
- param
-
-def window proc
- hwnd
- msg
- param
- param
- point
-compute size
- hint
- hint
- changed
-check widget
- hint
- swt
- default
- hint
- hint
- hint
- swt
- default
- hint
- hint
- width
- height
-
-comctl 32_ major
-
-
- get
- handle
-new font
-
-send message
- handle
-
- getfont
-old font
-
-select object
-
-new font
- tchar
- buffer
- tchar
-get code page
- parse
- text
- rect
- rect
- rect
- flags
-
- calcrect
- hint
- swt
- default
- flags
-
- wordbreak
- rect
- right
- hint
-
-draw text
-
- buffer
- buffer
- length
- rect
- flags
- width
- rect
- right
- rect
- left
- height
- rect
- bottom
-new font
-
-select object
-
-old font
-
+ prog
+create com interfaces
+create com interfaces
+doc host handler
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
  release
- handle
-
-layout width
- layout
-get width
- hint
- layout
-set width
- rectangle
- rect
- layout
-get bounds
- width
- height
- rect
- height
- layout
-set width
- hint
- rectangle
- rect
- layout
-get bounds
- width
- rect
- width
- height
- rect
- height
- layout
-set width
-layout width
- hint
- swt
- default
- width
- hint
- hint
- swt
- default
- height
- hint
- border
-get border width
- width
- border
- height
- border
- point
- width
- height
-create handle
-create handle
-
-comctl 32_ major
- layout
-text layout
- display
-link color
- color
- display
-link foreground
-link disabled color
- color
-win 32_new
- display
-
-get sys color
-
-color graytext
- offsets
- point
- ids
- string
- mnemonics
- selection
- point
-focus index
-create widget
-create widget
- text
-
-comctl 32_ major
- style
- swt
- mirrored
- layout
-set orientation
- swt
-right left
-init accessible
-draw widget
-
-
- rect
- rect
-draw background
-
- handle
- rect
-sel start
- selection
-
-sel end
- selection
-
-sel start
-sel end
-sel start
- selection
-
-sel end
- selection
-
-sel start
-sel end
- layout
- draw
-
-sel start
-sel end
-has focus
-focus index
- rectangle
- rects
-get rectangles
-focus index
-
-
- rects
- length
-
- rectangle
- rectangle
- rects
-
-
-draw focus
- rectangle
-
- rectangle
-
- rectangle
- width
- rectangle
- height
- hooks
- swt
- paint
- filters
- swt
- paint
- event
- event
- event
- event
-
-
- event
-
- rect
- left
- event
-
- rect
- top
- event
- width
- rect
- right
- rect
- left
- event
- height
- rect
- bottom
- rect
- top
-send event
- swt
- paint
- event
- event
-
-enable widget
- enabled
-
-comctl 32_ major
- litem
- item
- litem
- item
- mask
-
-lif itemindex
-
-lif state
- item
-state mask
-
-lis enabled
- item
- state
- enabled
-
-lis enabled
-
-send message
- handle
-
- setitem
- item
- item
- link
-text style
-link style
-text style
- enabled
-link color
-link disabled color
-link style
- underline
-
-
- offsets
- length
-
- point
- point
- offsets
-
- layout
-set style
-link style
- point
-
- point
-
- redraw
-enable widget
- enabled
-init accessible
- accessible
- accessible
-get accessible
- accessible
-add accessible listener
-accessible adapter
-get name
-accessible event
-
+ method
+ args
+show context menu
+ args
+ args
+ args
+ args
+ method
+ args
+get host info
+ args
+ method
+ args
+ show
+ args
+ args
+ args
+ args
+ args
+ method
+ args
+ hide
+ method
+ args
+ update
+ method
+ args
+enable modeless
+ args
+ method
+ args
+doc window activate
+ args
+ method
+ args
+frame window activate
+ args
+ method
+ args
+resize border
+ args
+ args
+ args
+ method
+ args
+translate accelerator
+ args
+ args
+ args
+ method
+ args
+get option key path
+ args
+ args
+ method
+ args
+get drop target
+ args
+ args
+ method
+ args
+get external
+ args
+ method
+ args
+translate url
+ args
+ args
+ args
+ method
+ args
+filter data object
+ args
+ args
+doc host show
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+show message
+ args
+ args
+ args
+ args
+ args
+ args
+ args
+ method
+ args
+show help
+ args
+ args
+ args
+ args
+ args
+ args
+ args
+service provider
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+query service
+ args
+ args
+ args
+internet security manager
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+set security site
+ args
+ method
+ args
+get security site
+ args
+ method
+ args
+map url zone
+ args
+ args
+ args
+ method
+ args
+get security
+ args
+ args
+ args
+ args
+ method
+ args
+process url action
+ args
+ args
+ args
+ args
+ args
+ args
+ args
+ args
+ method
+ args
+query custom policy
+ args
+ args
+ args
+ args
+ args
+ args
+ args
+ method
+ args
+set zone mapping
+ args
+ args
+ args
+ method
+ args
+get zone mappings
+ args
+ args
+ args
+ole command target
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+query status
+ args
+ args
+ args
+ args
+ method
+ args
+ exec
+ args
+ args
+ args
+ args
+ args
+dispose com interfaces
+dispose com interfaces
+doc host handler
+doc host handler
+ dispose
+doc host handler
+doc host show
+doc host show
+ dispose
+doc host show
+service provider
+service provider
+ dispose
+service provider
+internet security manager
+internet security manager
+ dispose
+internet security manager
+ole command target
+ole command target
+ dispose
+ole command target
+add ref
+add ref
+query interface
+ riid
+ppv object
+ result
+query interface
+ riid
+ppv object
+ result
+ com
 
  result
- parse
- text
- accessible
-add accessible control listener
-accessible control adapter
-get child point
-accessible control event
+ riid
+ppv object
+ com
+ invalidarg
+ guid
+ guid
+ guid
+ com
+move memory
+ guid
+ riid
+ guid
+ sizeof
+ com
+equal guid
+ guid
+ com
+iidi doc host handler
+ com
+move memory
+ppv object
+doc host handler
+get address
+add ref
+ com
 
+ com
+equal guid
+ guid
+ com
+iidi doc host show
+ com
+move memory
+ppv object
+doc host show
+get address
+add ref
+ com
 
- child
- acc
-childid self
-get location
-accessible control event
+ com
+equal guid
+ guid
+ com
+iidi service provider
+ com
+move memory
+ppv object
+service provider
+get address
+add ref
+ com
 
- rectangle
- rect
- display
- map
+ com
+equal guid
+ guid
+ com
+iidi ole command target
+ com
+move memory
+ppv object
+ole command target
+get address
+add ref
+ com
+
+ com
+move memory
+ppv object
+ com
+ nointerface
+enable modeless
+enable modeless
+ com
+ notimpl
+filter data object
+
+ ret
+ com
+ notimpl
+get drop target
+drop target
+drop target
+ com
+ notimpl
+get external
+ dispatch
+ com
+ notimpl
+get host info
+ info
+ browser
+ browser
+ browser
 get parent
-get bounds
+get parent
+
+move memory
+ info
+ browser
+ info
+ com
+
+get option key path
+pch key
+
+ com
+ notimpl
+ hide
+ com
+ notimpl
+doc window activate
+ activate
+ com
+ notimpl
+frame window activate
+ activate
+ com
+ notimpl
+ release
+ release
+resize border
+prc border
+ window
+frame window
+ com
+ notimpl
+show context menu
+
+ ppt
+pcmdt reserved
+pdisp reserved
+ browser
+ browser
+ browser
+get parent
+get parent
+ event
+ event
+ event
+ point
+
+ point
+
+move memory
+
+ ppt
+ point
+ sizeof
+ event
 
 
- rect
+
+ event
 
 
 
- rect
-
-
- width
- rect
- width
-
- height
- rect
- height
-get child count
-accessible control event
-
-
- detail
-get role
-accessible control event
-
-
- detail
- acc
-role link
-get state
-accessible control event
-
-
- detail
- acc
-state focusable
-has focus
-
- detail
- acc
-state focused
-get default action
-accessible control event
-
-
- result
+ browser
+notify listeners
  swt
-get message
-get selection
-accessible control event
+menu detect
+ event
+ event
+ doit
+ com
 
-has focus
+ menu
+ menu
+ browser
+get menu
+ menu
+ menu
+ disposed
 
- child
- acc
-childid self
-get focus
-accessible control event
 
-has focus
+ event
 
- child
- acc
-childid self
- string
-get name text
-get text
- rectangle
-get rectangles
-link index
-line count
- layout
-get line count
- rectangle
- rects
- rectangle
-line count
-line offsets
- layout
-get line offsets
- point
- point
- offsets
-link index
-line start
- point
 
-line offsets
-line start
-line start
-line end
- point
 
-line offsets
-line end
-line end
- index
-line start
-line end
- rects
- index
- layout
-get bounds
- point
+ event
 
- point
+ menu
+set location
+ event
 
- rects
- index
- layout
-get bounds
- point
+ event
 
-line offsets
-line start
- rects
- index
- layout
-get bounds
-line offsets
-line end
- point
+ menu
+set visible
+ com
 
-line end
-line start
+ com
+ false
+ show
 
-line start
-
-line end
-
- rects
- index
- layout
-get line bounds
-
- rects
- length
- index
- rectangle
- tmp
- rectangle
- index
- system
- arraycopy
- rects
- tmp
- index
- rects
- tmp
- rects
- string
-get text
-check widget
- text
- string
- parse
- string
- string
- length
- string
- length
- offsets
- point
- length
- ids
- string
- length
- mnemonics
- length
-string buffer
- result
-string buffer
- buffer
- length
- string
-get chars
- string
- length
- buffer
- index
- state
-link index
- start
-tag start
-link start
-endtag start
-ref start
- index
- length
-
- character
-lower case
- buffer
- index
- state
-
-tag start
- index
- state
-
- state
-
- state
-link start
- index
- state
- character
- whitespace
-
- state
-
-endtag start
- index
- state
- state
-
- state
- state
-
- state
-
- mnemonics
-link index
-parse mnemonics
- buffer
- start
-tag start
- result
- offset
- result
- length
-parse mnemonics
- buffer
-link start
-endtag start
- result
- offsets
-link index
- point
- offset
- result
- length
- ids
-link index
- ids
-link index
- string
- buffer
-link start
-endtag start
-link start
-link index
- start
-tag start
-link start
-endtag start
-ref start
- index
- state
- state
- state
-
- state
- state
-
- state
- state
-
- state
- state
-
- state
-
- state
-ref start
- index
- state
-
- ids
-link index
- string
- buffer
-ref start
- index
-ref start
- state
- character
- whitespace
-
- state
-
- state
- state
-
- state
-
- state
- state
- index
- start
- length
- tmp
-parse mnemonics
- buffer
- start
-tag start
- result
- mnemonic
-parse mnemonics
- buffer
-link start
- index
- result
- mnemonic
- mnemonic
- tmp
- mnemonics
-link index
- mnemonic
- mnemonics
-link index
- offsets
- length
-link index
- point
-new offsets
- point
-link index
- system
- arraycopy
- offsets
-new offsets
-link index
- offsets
-new offsets
- string
- new
- string
-link index
- system
- arraycopy
- ids
- new
-link index
- ids
- new
-new mnemonics
-link index
- system
- arraycopy
- mnemonics
-new mnemonics
-link index
- mnemonics
-new mnemonics
- result
- string
-parse mnemonics
- buffer
- start
- end
-string buffer
- result
- mnemonic
- index
- start
- index
- end
- buffer
- index
- index
- end
- buffer
- index
- result
- append
- buffer
- index
- index
- mnemonic
- result
- length
- result
- append
- buffer
- index
- index
- mnemonic
-release widget
-release widget
- layout
- layout
- dispose
- layout
-link color
-link color
- dispose
-link color
-link disabled color
- offsets
- ids
- mnemonics
- text
-remove selection listener
-selection listener
- listener
-check widget
- listener
- error
- swt
-error null argument
-event table
-event table
- unhook
- swt
- selection
- listener
-event table
- unhook
- swt
-default selection
- listener
-set text
- string
- string
-check widget
- string
- error
- swt
-error null argument
- string
- equals
- text
- text
- string
-
-comctl 32_ major
- tchar
- buffer
- tchar
-get code page
- string
-
-set window text
- handle
- buffer
- parse
- string
- layout
-set text
- parse
- string
-focus index
- offsets
- length
- selection
-
- selection
-
- bits
-
-get window long
- handle
-
-gwl style
- offsets
- length
- bits
-
- tabstop
- bits
-
- tabstop
-
-set window long
- handle
-
-gwl style
- bits
+active object
+command target
+ frame
+ doc
+ com
+ notimpl
+translate accelerator
+ msg
+pguid cmd group
+ cmd
+ menu
+ menubar
+get shell
+get menu bar
+ menubar
+ menubar
+ disposed
+ menubar
  enabled
-
-window enabled
+ shell
+ shell
+ menubar
+get shell
+ hwnd
+ shell
  handle
-text style
-link style
-text style
- enabled
-link color
-link disabled color
-link style
- underline
-
-
- offsets
- length
-
- point
- point
- offsets
-
- layout
-set style
-link style
- point
-
- point
-
-text style
-mnemonic style
-text style
-mnemonic style
- underline
-
-
- mnemonics
- length
-
- mnemonic
- mnemonics
-
- mnemonic
- layout
-set style
-mnemonic style
- mnemonic
- mnemonic
- redraw
-widget style
- bits
-widget style
- bits
-
- tabstop
- tchar
-window class
-
-comctl 32_ major
-link class
- display
-window class
-window proc
-link proc
-link proc
- display
-window proc
- lresult
- char
- param
- param
- lresult
- result
- char
- param
- param
- result
- result
-
-comctl 32_ major
-focus index
- result
- param
- swt
-
- event
- event
- event
- event
- text
- ids
-focus index
-send event
- swt
- selection
- event
- swt
- tab
- next
-
-get key state
-
- shift
- next
-focus index
- offsets
- length
-focus index
- redraw
-focus index
-focus index
- redraw
- param
- swt
-
- swt
- tab
- code
-call window proc
- handle
-
- keydown
- param
- param
- lresult
- code
- result
- lresult
- getdlgcode
- param
- param
- lresult
- result
- getdlgcode
- param
- param
- result
- result
- index
- count
- code
-
-comctl 32_ major
- litem
- item
- litem
- item
- mask
-
-lif itemindex
-
-lif state
- item
-state mask
-
-lis focused
- index
+ accel
 
 send message
- handle
-
- getitem
- item
- item
- state
-
-lis focused
- index
- item
- link
- item
- link
- count
- item
- link
- code
-call window proc
- handle
-
- getdlgcode
- param
- param
- index
-focus index
- count
- offsets
- length
- count
- lresult
- code
-
-dlgc static
- next
-
-get key state
-
- shift
- next
- index
- count
- lresult
- code
-
-dlgc wanttab
- next
- index
- lresult
- code
-
-dlgc wanttab
- result
- lresult
- getfont
- param
- param
- lresult
- result
- getfont
- param
- param
- result
- result
- code
-call window proc
- handle
-
- getfont
- param
- param
- code
- lresult
- code
- font
- font
-default font
- lresult
- font
- lresult
- keydown
- param
- param
- lresult
- result
- keydown
- param
- param
- result
- result
-
-comctl 32_ major
- param
-
- space
-
- return
-
- tab
- lresult
- zero
- result
- lresult
- killfocus
- param
- param
- lresult
- result
- killfocus
- param
- param
-
-comctl 32_ major
- redraw
- result
- lresult
- lbuttondown
- param
- param
- lresult
- result
- lbuttondown
- param
- param
-
-comctl 32_ major
-focus index
-set focus
-
- param
-
- param
- offset
- layout
-get offset
-
-
-old selection
- selection
-
-old selection
- selection
-
- selection
-
- offset
- selection
-
-old selection
-old selection
-old selection
-old selection
- temp
-old selection
-old selection
-old selection
-old selection
- temp
- rectangle
- rect
- layout
-get bounds
-old selection
-old selection
- redraw
- rect
-
- rect
-
- rect
- width
- rect
- height
-
-
- offsets
- length
-
- rectangle
- rects
-get rectangles
-
-
-
- rects
- length
-
- rectangle
- rect
- rects
-
- rect
- contains
-
-
-
-focus index
-focus index
-
- redraw
- result
- result
- lresult
- lbuttonup
- param
- param
- lresult
- result
- lbuttonup
- param
- param
-
-comctl 32_ major
-focus index
- result
-
- param
-
- param
- rectangle
- rects
-get rectangles
-focus index
-
-
- rects
- length
-
- rectangle
- rect
- rects
-
- rect
- contains
-
-
- event
- event
- event
- event
- text
- ids
-focus index
-send event
- swt
- selection
- event
- result
- result
- lresult
- mousemove
- param
- param
- lresult
- result
- mousemove
- param
- param
-
-comctl 32_ major
-
- param
-
- param
-
-get key state
-
- lbutton
-old selection
- selection
-
- selection
-
- layout
-get offset
-
-
- selection
-
-old selection
-new selection
- selection
-
-old selection
-new selection
- temp
-old selection
-old selection
-new selection
-new selection
- temp
- rectangle
- rect
- layout
-get bounds
-old selection
-new selection
- redraw
- rect
-
- rect
-
- rect
- width
- rect
- height
-
-
- offsets
- length
-
- rectangle
- rects
-get rectangles
-
-
-
- rects
- length
-
- rectangle
- rect
- rects
-
- rect
- contains
-
-
-set cursor
- display
-get system cursor
- swt
-cursor hand
- result
-set cursor
- result
- lresult
- paint
- param
- param
-
-comctl 32_ major
- paint
- param
- param
- paintstruct
-
- paintstruct
- data
- data
- data
- data
-
-
- data
  hwnd
- handle
 
-
- new
- data
-
- width
-
- right
-
- left
- height
-
- bottom
-
- top
- width
- height
- rect
- rect
- rect
-
-set rect
- rect
-
- left
-
- top
-
- right
-
- bottom
-draw widget
-
- rect
-
- dispose
- lresult
- zero
- lresult
- printclient
- param
- param
- lresult
- result
- printclient
- param
- param
-
-comctl 32_ major
- rect
- rect
- rect
-
-get client rect
- handle
- rect
- data
- data
- data
- data
- device
- display
-
-
-
-win 32_new
- param
- data
-draw widget
-
- rect
-
- dispose
- result
- lresult
- setfocus
- param
- param
- lresult
- result
- setfocus
- param
- param
-
-comctl 32_ major
- redraw
- result
- lresult
- setfont
- param
- param
-
-comctl 32_ major
- layout
-set font
- font
-win 32_new
- display
- param
- setfont
- font
- param
- param
- lresult
- size
- param
- param
- lresult
- result
- size
- param
- param
-
-comctl 32_ major
- rect
- rect
- rect
-
-get client rect
- handle
- rect
- layout
-set width
- rect
- right
- rect
- right
- redraw
- result
- lresult
-color child
- param
- param
- lresult
- result
-color child
- param
- param
-
-comctl 32_ major
-
-app themed
- control
- control
-find theme control
- control
-
-set mode
- param
-
- transparent
- rect
- rect
- rect
-
-get client rect
- control
- handle
- rect
-
-map window points
- control
- handle
- handle
- rect
- control
-draw theme background
- param
- rect
- lresult
-
-get stock object
-
-null brush
- result
- lresult
-notify child
- param
- param
-
-comctl 32_ major
- nmhdr
- hdr
- nmhdr
+ app
+ accel
+ msg
+ msg
+ msg
 
 move memory
- hdr
- param
- nmhdr
+ msg
+ msg
+ msg
  sizeof
- hdr
- code
 
- return
+translate accelerator
+ hwnd
+ accel
+ msg
+ com
 
- click
- nmlink
- item
- nmlink
+ole automation
+ auto
+ole automation
+ rgdispid
+ auto
+get names
+ string
+ variant
+var result
+ auto
+get property
+ rgdispid
+ auto
+ dispose
+ result
+ com
+ false
+var result
+var result
+get type
+ ole
+ bstr
+ string
+ url
+var result
+get string
+ url
+ equals
+ browser
+about blank
+ msg
+ msg
+ msg
 
 move memory
- item
- param
- nmlink
+ msg
+ msg
+ msg
  sizeof
- event
- event
- event
- event
+ msg
+ message
+
+ keydown
+ msg
+ param
+
+
+ result
+ com
+
+ msg
+ message
+
+ keydown
+ msg
+ param
+
+
+
+get key state
+
+ control
+ result
+ com
+
+var result
+ dispose
+ result
+translate url
+ translate
+pch url
+ppch url out
+ com
+ notimpl
+ update
+ com
+ notimpl
+show message
+ hwnd
+lpstr text
+lpstr caption
+ type
+lpstr help file
+help context
+ result
+ids message box caption
+lpstr text
+ tchar
+lib file name
+ tchar
+ module
+
+load library
+lib file name
+ module
+ cnt
+
+ wcslen
+lpstr text
+ buffer
+ cnt
+
+move memory
+ buffer
+lpstr text
+ cnt
+ string
  text
- ids
- item
- link
-send event
- swt
- selection
+ string
+ buffer
+ length
+
+ unicode
+ cnt
+
+wide char multi byte
+
+ acp
+ buffer
+ cnt
+ tchar
+ buffer
+ tchar
+ length
+ result
+
+load string
+ module
+ids message box caption
+ buffer
+ length
+
+free library
+ module
+ result
+ text
+ equals
+ buffer
+ string
+ result
+ com
+
+ com
+ false
+ com
+ false
+show help
+ hwnd
+psz help file
+ command
+ data
+ mouse
+ mouse
+dispatch object hit
+ browser
+ browser
+ browser
+get parent
+get parent
  event
-notify child
- param
- param
+ event
+ event
+ event
+ type
+ swt
+ help
+ event
+ display
+get display
+ event
+ widget
+ browser
+ shell
+ shell
+ browser
+get shell
+ control
+ control
+ browser
+ control
+ listening
+ swt
+ help
+ control
+notify listeners
+ swt
+ help
+ event
+ control
+ shell
+ control
+ control
+get parent
+ com
+
+query service
+guid service
+ riid
+ppv object
+ riid
+ppv object
+ com
+ invalidarg
+ guid
+ guid
+ guid
+ com
+move memory
+ guid
+ riid
+ guid
+ sizeof
+ com
+equal guid
+ guid
+ com
+iidi internet security manager
+ com
+move memory
+ppv object
+internet security manager
+get address
+add ref
+ com
+
+ com
+move memory
+ppv object
+ com
+ nointerface
+set security site
+ site
+ browser
+inet default action
+get security site
+ site
+ browser
+inet default action
+map url zone
+pwsz url
+pdw zone
+ flags
+ com
+move memory
+pdw zone
+ browser
+urlzone intranet
+ com
+
+get security
+pwsz url
+ security
+pcb security
+ reserved
+ browser
+inet default action
+process url action
+pwsz url
+ action
+ policy
+ policy
+ context
+ context
+ flags
+ reserved
+ policy
+ browser
+urlpolicy allow
+ action
+ browser
+urlaction java min
+ action
+ browser
+urlaction java max
+ policy
+ browser
+urlpolicy java low
+ action
+ browser
+urlaction activex run
+ guid
+ guid
+ guid
+ com
+move memory
+ guid
+ context
+ guid
+ sizeof
+ com
+equal guid
+ guid
+ com
+iid java beans bridge
+ com
+equal guid
+ guid
+ com
+iid shockwave active control
+ policy
+ browser
+urlpolicy disallow
+ policy
+ com
+move memory
+ policy
+ policy
+ com
+
+query custom policy
+pwsz url
+guid key
+ policy
+pcb policy
+ context
+ context
+ reserved
+ browser
+inet default action
+set zone mapping
+ zone
+lpsz pattern
+ flags
+ browser
+inet default action
+get zone mappings
+ zone
+ppenum string
+ flags
+ com
+ notimpl
+query status
+pguid cmd group
+ cmds
+prg cmds
+cmd text
+ com
+ notsupported
+ exec
+pguid cmd group
+ cmd
+cmd exec opt
+ pva
+pva out
+pguid cmd group
+ guid
+ guid
+ guid
+ com
+move memory
+ guid
+pguid cmd group
+ guid
+ sizeof
+ com
+equal guid
+ guid
+ com
+cgid doc host command handler
+ cmd
+olecmdid showscripterror
+ com
+
+ cmd
+ com
+equal guid
+ guid
+ com
+cgid explorer
+cmd exec opt
+ browser
+ browser
+ browser
+get parent
+get parent
+ browser
+tool bar
+cmd exec opt
+ com
+ notsupported
 </identifier>
 <comments>
 copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-instances  this  class  represent  selectable  user  interface  object  that  displays  text  with  links  styles  none  events  selection  important  this  class  not  intended  subclassed  since 
-constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  widget check subclass  see  widget get style
-adds  the  listener  the  collection  listeners  who  will  notified  when  the  control  selected  sending  one  the  messages  defined  the  code selection listener  code  interface  code widget selected  code  called  when  the  control  selected  code widget default selected  code  not  called  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener  see selection event
-temporary  code
-temporary  code  disable  text  selection
-feature  windows  for  some  reason  setting  lis  enabled  state  using  setitem  causes  the sys link  become  enabled  specific  calling window enabled  returns  true  the  fix  disable  the sys link  after  setitem
+workaround  for  javac  bug
+ doc host handler
+workaround  for  javac  bug
+show  default  popup  menu
+feature  internet  explorer  default  the  embedded  internet  explorer  control  runs  the  internet  explorer  shortcuts  for  refresh  this  overrides  the  shortcuts  defined  swt  the  workaround  forward  the  accelerator  keys  the  parent  window  and  have  internet  explorer  ignore  the  ones  handled  the  parent  window
+feature  internet  explorer  default  the  embedded  internet  explorer  control  runs  the  internet  explorer  shortcuts  causes  refresh  ctrl  opens  standalone  internet  explorer  these  behaviours  are  undesired  when  rendering  html  memory  the  workaround  block  the  default  ctrl  and  handling  when  the  url  about  blank
 non  nls 
-returns  the  receiver  text  which  will  empty  string  has  never  been  set  the  receiver  code  separator  code  label  return  the  receiver  text  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
-removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  control  selected  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener
-sets  the  receiver  text  the  string  can  contain  both  regular  text  and  hyperlinks  hyperlink  delimited  anchor  tag  and  within  anchor  single  href  attribute  supported  when  hyperlink  selected  the  text  field  the  selection  event  contains  either  the  text  the  hyperlink  the  value  its  href  one  was  specified  the  rare  case  identical  hyperlinks  within  the  same  string  the  href  tag  can  used  distinguish  between  them  the  string  may  include  the  mnemonic  character  and  line  delimiters  param  string  the  new  text  exception illegal argument exception  error  null  argument  the  text  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
-note  call  the  window  proc  with  keydown  rather  than  char  that  the  key  that  was  ignored  during  keydown  processed  this  allows  the  application  cancel  operation  that  normally  performed  keydown  from  char
-ensure  that  the  window  proc  does  not  process  space  return  tab  that  can  handled  char  this  allows  the  application  cancel  operation  that  normally  performed  keydown  from  char
+ doc host show
+feature  when  navigates  website  that  contains  active  that  prevented  from  being  executed  displays  message  your  current  security  settings  prohibit  running  active  controls  this  page  the  workaround  selectively  block  this  alert  indicated  the  msdn  article web browser  customization
+resource  identifier  shdoclc  dll  for  window  caption  your  current  security  settings  prohibit  running  active  controls  this  page
+non  nls 
+note lpstr text  lpolestr  null  terminated  unicode  string  lpwstr  wchar  not  bstr  bstr  null  terminated  unicode  string  that  contains  its  length  the  beginning
+note lpstr text  unicode  both  unicode  and  ansi  platforms  the  nbr  chars  multiplied  the  constant  and  not  tchar  sizeof  since  tchar  sizeof  returns  ansi  platforms
+provide  buffer  large  enough  hold  the  string  compare  and  null  terminated  character
+note  one  the  arguments show help  point  struct  and  not  pointer  point  struct  because  the  way  callback  gets  int  parameters  from  list  arguments  integer  arguments  must  declared  mouse  and  mouse  otherwise  the  browser  crashes  when  the  user  presses  invoke  the  help
+ service provider
+ internet security manager
+feature  html  rendered  memory  does  not  enable  local  links  but  the  exact  same  html  document  loaded  through  local  file  permitted  follow  local  links  the  workaround  return  urlzone  intranet  instead  the  default  value  urlzone  local  machine
+feature  html  rendered  memory  containing  object  tag  referring  local  file  brings  warning  dialog  asking  the  user  whether  should  proceed  not  the  workaround  set  the  policy  urlpolicy  allow  this  case  action  value  1406  feature  security  patches  and  user  settings  affect  the  way  the  embedded  web  control  behaves  the  current  approach  consider  the  content  trusted  and  allow  all  default
+note  the  urlaction  java  flags  refer  the  applet  tag  that  normally  resolve  the  microsoft  not  the  java  object  tag  that  resolves  the  sun  plugin  return  urlpolicy  java  low  authorize  applets  instead  urlpolicy  allow  that  interpreted  urlpolicy  java  prohibit  this  context
+note  some  active  plugins  crash  when  executing  inside  the  embedded  explorer  itself  running  into  jvm  the  current  workaround  detect  when  such  active  about  started  and  refuse  execute 
+ ole command target
+javascript  error  occurred  then  suppress  default  script  error  dialog
+bug  internet  explorer tool bar  true  also  fired  when  any  the  address  bar  menu  bar  are  requested  but  not  the  tool  bar  workaround  has  been  posted  microsoft  developer  the  public  webbrowser  ctl  newsgroup  the  workaround  implement  the ole command target  interface  test  the  argument  undocumented  command
 </comments>
 </text>
 </DOC>

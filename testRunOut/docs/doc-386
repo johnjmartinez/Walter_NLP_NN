@@ -1,284 +1,42 @@
 <DOC>
-<DOCNO>org.eclipse.swt.dnd.OleEnumFORMATETC.java </DOCNO>
+<DOCNO>org.eclipse.swt.accessibility.AccessibleAdapter.java </DOCNO>
 <text>
 <class>
-ole enum formatetc
+accessible adapter
 </class>
 <method>
-ole enum formatetc
-add ref
-create com interfaces
- method
- method
- method
- method
- method
- method
- method
- method
- method
-dispose com interfaces
-get address
-get next items
- next
-query interface
- release
- reset
-set formats
- skip
+get name
+get help
+get keyboard shortcut
+get description
 </method>
 <identifier>
  org
  eclipse
  swt
- dnd
- org
- eclipse
- swt
- internal
- ole
- win
-ole enum formatetc
-com object
- unknown
-com object
-enum formatetc
-ref count
- index
- formatetc
- formats
-ole enum formatetc
-create com interfaces
-add ref
-ref count
-ref count
-create com interfaces
- unknown
-com object
- method
- args
-query interface
- args
- args
- method
- args
-add ref
- method
- args
- release
-enum formatetc
-com object
- method
- args
-query interface
- args
- args
- method
- args
-add ref
- method
- args
- release
- method
- args
- next
- args
- args
- args
- method
- args
- skip
- args
- method
- args
- reset
-dispose com interfaces
- unknown
- unknown
- dispose
- unknown
-enum formatetc
-enum formatetc
- dispose
-enum formatetc
-get address
-enum formatetc
-get address
- formatetc
-get next items
-num items
- formats
-num items
-end index
- index
-num items
-end index
- formats
- length
-end index
- formats
- length
- index
-end index
- formatetc
- items
- formatetc
-end index
- index
+ accessibility
+accessible adapter
+accessible listener
+get name
+accessible event
 
+get help
+accessible event
 
- items
- length
+get keyboard shortcut
+accessible event
 
- items
-
- formats
- index
- index
- items
- next
- celt
- rgelt
-pcelt fetched
- rgelt
- com
- invalidarg
-pcelt fetched
- celt
- com
- invalidarg
- formatetc
-next items
-get next items
- celt
-next items
-
-
-next items
- length
-
- com
-move memory
- rgelt
-
- formatetc
- sizeof
-next items
-
- formatetc
- sizeof
-pcelt fetched
- com
-move memory
-pcelt fetched
-next items
- length
-next items
- length
- celt
- com
-
-pcelt fetched
- com
-move memory
-pcelt fetched
- com
-move memory
- rgelt
- formatetc
- formatetc
- sizeof
- com
- false
-query interface
- riid
-ppv object
- riid
-ppv object
- com
- nointerface
- guid
- guid
- guid
- com
-move memory
- guid
- riid
- guid
- sizeof
- com
-equal guid
- guid
- com
-iidi unknown
- com
-move memory
-ppv object
- unknown
-get address
-add ref
- com
-
- com
-equal guid
- guid
- com
-iidi enum formatetc
- com
-move memory
-ppv object
-enum formatetc
-get address
-add ref
- com
-
- com
-move memory
-ppv object
- com
- nointerface
- release
-ref count
-ref count
-dispose com interfaces
- com
-free unused libraries
-ref count
- reset
- index
- com
-
-set formats
- formatetc
-new formats
- formats
-new formats
- index
- skip
- celt
- celt
- com
- invalidarg
- index
- celt
- index
- formats
- length
- index
- formats
- length
- com
- false
- com
+get description
+accessible event
 
 </identifier>
 <comments>
 copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-register  each  the  interfaces  that  this  object  implements
-method  clone  not  implemented
-retrieves  the  next  celt  items  the  enumeration  sequence  there  are  fewer  than  the  requested  number  elements  left  the  sequence  retrieves  the  remaining  elements  the  number  elements  actually  retrieved  returned  through pcelt fetched  unless  the  caller  passed  null  for  that  parameter
-resets  the  enumeration  sequence  the  beginning
-skips  over  the  next  specified  number  elements  the  enumeration  sequence
+this  adapter  class  provides  default  implementations  for  the  methods  described  the  code accessible listener  code  interface  classes  that  wish  deal  with  code accessible event  code  can  extend  this  class  and  override  only  the  methods  that  they  are  interested  note  accessibility  clients  use  child  identifiers  specify  whether  they  want  information  about  control  one  its  children  child  identifiers  are  increasing  integers  beginning  with  the  identifier  childid  self  represents  the  control  itself  see accessible listener  see accessible event  since 
+sent  when  accessibility  client  requests  the  name  the  control  the  name  child  the  control  the  default  behavior  nothing  return  the  name  the  control  specified  child  the  code  result  code  field  the  event  object  returning  empty  string  tells  the  client  that  the  control  child  does  not  have  name  and  returning  null  tells  the  client  use  the  platform  name  param  event  object  containing  the  following  fields  child  identifier  specifying  the  control  one  its  children  result  out  the  requested  name  string  null 
+sent  when  accessibility  client  requests  the  help  string  the  control  the  help  string  child  the  control  the  default  behavior  nothing  the  information  this  property  should  similar  the  help  provided tool tip text  describes  what  the  control  child  does  how  use  opposed get description  which  describes  appearance  return  the  help  string  the  control  specified  child  the  code  result  code  field  the  event  object  returning  empty  string  tells  the  client  that  the  control  child  does  not  have  help  string  and  returning  null  tells  the  client  use  the  platform  help  string  param  event  object  containing  the  following  fields  child  identifier  specifying  the  control  one  its  children  result  out  the  requested  help  string  null 
+sent  when  accessibility  client  requests  the  keyboard  shortcut  the  control  the  keyboard  shortcut  child  the  control  the  default  behavior  nothing  keyboard  shortcut  can  either  mnemonic  accelerator  general  rule  the  control  child  can  receive  keyboard  focus  then  you  should  expose  its  mnemonic  and  cannot  receive  keyboard  focus  then  you  should  expose  its  accelerator  return  the  keyboard  shortcut  string  the  control  specified  child  the  code  result  code  field  the  event  object  returning  empty  string  tells  the  client  that  the  control  child  does  not  have  keyboard  shortcut  string  and  returning  null  tells  the  client  use  the  platform  keyboard  shortcut  string  param  event  object  containing  the  following  fields  child  identifier  specifying  the  control  one  its  children  result  out  the  requested  keyboard  shortcut  string  example  alt  null 
+sent  when  accessibility  client  requests  description  the  control  description  child  the  control  the  default  behavior  nothing  this  textual  description  the  control  child  visual  appearance  which  typically  only  necessary  cannot  determined  from  other  properties  such  role  return  the  description  the  control  specified  child  the  code  result  code  field  the  event  object  returning  empty  string  tells  the  client  that  the  control  child  does  not  have  description  and  returning  null  tells  the  client  use  the  platform  description  param  event  object  containing  the  following  fields  child  identifier  specifying  the  control  one  its  children  result  out  the  requested  description  string  null 
 </comments>
 </text>
 </DOC>

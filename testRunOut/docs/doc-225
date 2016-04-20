@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.BROWSEINFO.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.TEXTMETRICA.java </DOCNO>
 <text>
 <class>
- browseinfo
+ textmetrica
 </class>
 <method>
 NONE
@@ -13,15 +13,12 @@ NONE
  swt
  internal
  win
- browseinfo
-hwnd owner
-pidl root
-psz display name
-lpsz title
- flags
- lpfn
- param
- image
+ textmetrica
+ textmetric
+first char
+last char
+default char
+break char
  sizeof
 </identifier>
 <comments>

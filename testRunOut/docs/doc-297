@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.DROPFILES.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.MARGINS.java </DOCNO>
 <text>
 <class>
- dropfiles
+ margins
 </class>
 <method>
 NONE
@@ -13,24 +13,15 @@ NONE
  swt
  internal
  win
- dropfiles
- files
-
-
-
- wide
+ margins
+left width
+right width
+top height
+bottom height
  sizeof
 </identifier>
 <comments>
-copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-offset  the  file  list  from  the  beginning  this  structure  bytes
-point  drop  point  the  coordinates  depend 
-nonclient  area  flag  this  member  true  specifies  the  screen
-coordinates  point  window  nonclient  area  false
-specifies  the  client  coordinates  point  the  client  area
-value  that  indicates  whether  the  file  contains  ansi  unicode
-characters  zero  contains  ansi  characters  otherwise 
-contains  unicode  characters
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
 </comments>
 </text>
 </DOC>

@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.SCRIPT_STATE.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.OSVERSIONINFOW.java </DOCNO>
 <text>
 <class>
-script state
+ osversioninfow
 </class>
 <method>
 NONE
@@ -13,22 +13,13 @@ NONE
  swt
  internal
  win
-script state
-bidi level
-override direction
-inhibit sym swap
-char shape
-digit substitute
-inhibit ligate
-display zwg
-arabic num context
-gcp clusters
- reserved
-engine reserved
+ osversioninfow
+ osversioninfo
+csd version
  sizeof
 </identifier>
 <comments>
-copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
 </comments>
 </text>
 </DOC>

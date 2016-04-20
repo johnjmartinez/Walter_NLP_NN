@@ -1,16 +1,34 @@
 <DOC>
-<DOCNO>org.eclipse.swt.graphics.RGB.java </DOCNO>
+<DOCNO>org.eclipse.swt.custom.TableEditor.java </DOCNO>
 <text>
 <class>
- rgb
+table editor
 </class>
 <method>
- rgb
- equals
-hash code
- string
+table editor
+control moved
+control resized
+compute bounds
+ dispose
+get column
+get item
+set column
+set item
+set editor
+ resize
 </method>
 <identifier>
+ org
+ eclipse
+ swt
+ custom
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ events
  org
  eclipse
  swt
@@ -18,77 +36,258 @@ hash code
  org
  eclipse
  swt
- internal
-serializable compatibility
- org
- eclipse
+ widgets
+table editor
+control editor
+ table
+ table
+table item
+ item
+ column
+control listener
+column listener
+table editor
+ table
+ table
+ table
+ table
+ table
+column listener
+control listener
+control moved
+control event
+
+ resize
+control resized
+control event
+
+ resize
+grab vertical
+ rectangle
+compute bounds
+ item
+ column
+ item
+ disposed
+ rectangle
+ rectangle
+ cell
+ item
+get bounds
+ column
+ rectangle
+ rect
+ item
+get image bounds
+ column
+ cell
+
+ rect
+
+ rect
+ width
+ cell
+ width
+ rect
+ width
+ rectangle
+ area
+ table
+get client area
+ cell
+
+ area
+
+ area
+ width
+ cell
+
+ cell
+ width
+ area
+
+ area
+ width
+ cell
+ width
+ area
+
+ area
+ width
+ cell
+
+ rectangle
+editor rect
+ rectangle
+ cell
+
+ cell
+
+minimum width
+minimum height
+grab horizontal
+editor rect
+ width
+ math
+ max
+ cell
+ width
+minimum width
+grab vertical
+editor rect
+ height
+ math
+ max
+ cell
+ height
+minimum height
+horizontal alignment
  swt
- rgb
-serializable compatibility
- red
- green
- blue
-serial version uid
- rgb
- red
- green
- blue
- red
- red
- green
- green
- blue
- blue
+ right
+editor rect
+
+ cell
+ width
+editor rect
+ width
+horizontal alignment
  swt
- error
+ left
+editor rect
+
+ cell
+ width
+editor rect
+ width
+vertical alignment
  swt
-error invalid argument
- red
- red
- green
- green
- blue
- blue
- equals
- object
- object
- object
- object
- rgb
- rgb
- rgb
- rgb
- object
- rgb
- red
- red
- rgb
- green
- green
- rgb
- blue
- blue
-hash code
- blue
- green
- red
- string
- string
- red
- green
- blue
+ bottom
+editor rect
+
+ cell
+ height
+editor rect
+ height
+vertical alignment
+ swt
+ top
+editor rect
+
+ cell
+ height
+editor rect
+ height
+editor rect
+ dispose
+ column
+ column
+ table
+get column count
+table column
+table column
+ table
+get column
+ column
+table column
+remove control listener
+column listener
+column listener
+ table
+ item
+ column
+ dispose
+get column
+ column
+table item
+get item
+ item
+set column
+ column
+column count
+ table
+get column count
+column count
+ column
+ column
+ resize
+ column
+ column
+column count
+table column
+table column
+ table
+get column
+ column
+table column
+remove control listener
+column listener
+ column
+ column
+ column
+ table
+get column count
+ column
+ column
+table column
+table column
+ table
+get column
+ column
+table column
+add control listener
+column listener
+ resize
+set item
+table item
+ item
+ item
+ item
+ resize
+set editor
+ control
+ editor
+table item
+ item
+ column
+set item
+ item
+set column
+ column
+set editor
+ editor
+ resize
+ table
+ disposed
+ item
+ item
+ disposed
+column count
+ table
+get column count
+column count
+ column
+column count
+ column
+ column
+column count
+ resize
 </identifier>
 <comments>
 copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-instances  this  class  are  descriptions  colors  terms  the  primary  additive  color  model  red  green  and  blue  color  may  described  terms  the  relative  intensities  these  three  primary  colors  the  brightness  each  color  specified  value  the  range  255  where  indicates  color  blackness  and  255  indicates  maximum  intensity  the hash code  method  this  class  uses  the  values  the  public  fields  compute  the  hash  value  when  storing  instances  the  class  hashed  collections  not  modify  these  fields  after  the  object  has  been  inserted  application  code  does  not  need  explicitly  release  the  resources  managed  each  instance  when  those  instances  are  longer  required  and  thus  code  dispose  code  method  provided  see  color
-the  red  component  the  rgb
-the  green  component  the  rgb
-the  blue  component  the  rgb
-constructs  instance  this  class  with  the  given  red  green  and  blue  values  param  red  the  red  component  the  new  instance  param  green  the  green  component  the  new  instance  param  blue  the  blue  component  the  new  instance  exception illegal argument exception  error  invalid  argument  the  red  green  blue  argument  not  between  and  255 
-compares  the  argument  the  receiver  and  returns  true  they  represent  the  same  object  using  class  specific  comparison  param  object  the  object  compare  with  this  object  return  code  true  code  the  object  the  same  this  object  and  code  false  code  otherwise  see hash code
-returns  integer  hash  code  for  the  receiver  any  two  objects  that  return  code  true  code  when  passed  code  equals  code  must  return  the  same  value  for  this  method  return  the  receiver  hash  see  equals  object
-returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  code  rgb  code
-non  nls  non  nls  non  nls  non  nls 
+table editor  manager  for  control  that  appears  above  cell  table  and  tracks  with  the  moving  and  resizing  that  cell  can  used  display  text  widget  above  cell  table  that  the  user  can  edit  the  contents  that  cell  can  also  used  display  button  that  can  launch  dialog  for  modifying  the  contents  the  associated  cell  here  example  using table editor  code  pre  final  table  table  new  table  shell  swt  full  selection  swt  hide  selection table column  column  new table column  table  swt  none table column  column  new table column  table  swt  none  for  int table item  item  new table item  table  swt  none  item set text  new  string  item  edit  this  value  column  pack  column  pack  final table editor  editor  new table editor  table  the  editor  must  have  the  same  size  the  cell  and  must  not  any  smaller  than  pixels  editor horizontal alignment  swt  left  editor grab horizontal  true  editor minimum width  editing  the  second  column  final  int  editablecolumn  table add selection listener  new selection adapter  public  void widget selected selection event  clean  any  previous  editor  control  control old editor  editor get editor old editor  null old editor  dispose  identify  the  selected  row table item  item table item  item  item  null  return  the  control  that  will  the  editor  must  child  the  table  text new editor  new  text  table  swt  none new editor set text  item get text  editablecolumn new editor add modify listener  new modify listener  public  void modify text modify event  text  text  text  editor get editor  editor get item set text  editablecolumn  text get text new editor select all new editor set focus  editor set editor new editor  item  editablecolumn  pre  code
+creates table editor  for  the  specified  table  param  table  the  table  control  above  which  this  editor  will  displayed
+consistent  with  older  versions  swt grab vertical  defaults  true
+nothing  cell  the  right  answer
+default  center
+nothing  cell  the  right  answer
+default  center
+removes  all  associations  between  the table editor  and  the  cell  the  table  the  table  and  the  editor  control  are  not  disposed
+returns  the  zero  based  index  the  column  the  cell  being  tracked  this  editor  return  the  zero  based  index  the  column  the  cell  being  tracked  this  editor
+returns  the table item  for  the  row  the  cell  being  tracked  this  editor  return  the table item  for  the  row  the  cell  being  tracked  this  editor
+sets  the  zero  based  index  the  column  the  cell  being  tracked  this  editor  param  column  the  zero  based  index  the  column  the  cell  being  tracked  this  editor
+separately  handle  the  case  where  the  table  has table columns
+this  situation  there  single  default  column
+specify  the  control  that  displayed  and  the  cell  the  table  that  positioned  above  note  the  control  provided  the  editor  must  created  with  its  parent  being  the  table  control  specified  the table editor  constructor  param  editor  the  control  that  displayed  above  the  cell  being  edited  param  item  the table item  for  the  row  the  cell  being  tracked  this  editor  param  column  the  zero  based  index  the  column  the  cell  being  tracked  this  editor
 </comments>
 </text>
 </DOC>

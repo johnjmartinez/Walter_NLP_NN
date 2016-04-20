@@ -1,216 +1,122 @@
 <DOC>
-<DOCNO>org.eclipse.swt.custom.CTabFolderLayout.java </DOCNO>
+<DOCNO>org.eclipse.swt.dnd.DropTargetEvent.java </DOCNO>
 <text>
 <class>
-tab folder layout
+drop target event
 </class>
 <method>
-compute size
-flush cache
- layout
+drop target event
+update event
 </method>
 <identifier>
  org
  eclipse
  swt
- custom
+ dnd
  org
  eclipse
  swt
- org
- eclipse
- swt
- graphics
+ events
+typed event
  org
  eclipse
  swt
  widgets
-tab folder layout
- layout
- point
-compute size
- composite
- composite
- hint
- hint
-flush cache
-tab folder
- folder
-tab folder
- composite
-tab item
- items
- folder
- items
- tab
+ widget
+drop target event
+typed event
+
+
+ detail
+ operations
+ feedback
+ widget
+ item
+transfer data
+current data type
+transfer data
+data types
+serial version uid
+drop target event
+dnd event
+
+
+ data
+
+ data
 
 
 
- folder
 
 
- items
- length
 
- folder
- single
- tab
- math
- max
- tab
- items
+ detail
 
-preferred width
+ detail
+current data type
 
- tab
- items
+data type
+data types
 
-preferred width
+data types
+ operations
 
+ operations
+ feedback
 
- folder
-selected index
+ feedback
+ item
 
- dispose
- tab
- folder
-show max
- tab
-tab folder
-button size
- folder
-show min
- tab
-tab folder
-button size
- folder
- single
- tab
-tab folder
-button size
- folder
-top right
- point
-
- folder
-top right
-compute size
- swt
- default
- folder
-tab height
-flush cache
- tab
+ item
+update event
+dnd event
 
 
- folder
- single
- folder
- simple
- tab
- folder
-curve width
- folder
-curve indent
- control
- control
+ widget
+ widget
+
+ time
+ time
+
+ data
+ data
 
 
- items
- length
 
- control
- control
- items
 
-get control
- control
- control
- disposed
- point
- size
- control
-compute size
- hint
- hint
-flush cache
- control
- math
- max
- control
- size
 
- control
- math
- max
- control
- size
 
-min width
- math
- max
- tab
- control
-min height
- folder
- minimized
- control
-min width
-min width
-tab folder
-default width
-min height
-min height
-tab folder
-default height
- hint
- swt
- default
-min width
- hint
- hint
- swt
- default
-min height
- hint
- point
-min width
-min height
-flush cache
- control
- control
- layout
- composite
- composite
-flush cache
-tab folder
- folder
-tab folder
- composite
- folder
-selected index
- control
- control
- folder
- items
- folder
-selected index
-get control
- control
- control
- disposed
- control
-set bounds
- folder
-get client area
+
+ detail
+ detail
+
+data type
+current data type
+
+data types
+data types
+
+ operations
+ operations
+
+ feedback
+ feedback
+
+ item
+ item
 </identifier>
 <comments>
-copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-this  class  provides  the  layout  for tab folder  see tab folder
-preferred  width  tab  area  show  all  tabs
-  chevron
-preferred  size  controls  tab  items
-resize  content
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+the drop target event  contains  the  event  information  passed  the  methods  the drop target listener
+the  cordinate  the  cursor  relative  the  code  display  code
+the  cordinate  the  cursor  relative  the  code  display  code
+the  operation  being  performed  see  dnd  drop  none  see  dnd  drop  move  see  dnd  drop  copy  see  dnd  drop  link
+bitwise  ing  the  operations  that  the drag source  can  support  dnd  drop  move  dnd  drop  copy  dnd  drop  link  the  detail  value  must  member  this  list  dnd  drop  none  see  dnd  drop  none  see  dnd  drop  move  see  dnd  drop  copy  see  dnd  drop  link
+bitwise  ing  the  drag  under  effect  feedback  displayed  the  user  dnd  feedback  select  dnd  feedback  scroll  dnd  feedback  expand  value  dnd  feedback  none  indicates  that  drag  under  effect  will  displayed  feedback  effects  will  only  applied  they  are  applicable  the  default  value  dnd  feedback  select  see  dnd  feedback  select  see  dnd  feedback  insert  before  see  dnd  feedback  insert  after  see  dnd  feedback  scroll  see  dnd  feedback  expand
+the  associated  control  table  tree  this  field  contains  the  item  located  the  cursor  coordinates
+the  type  data  that  will  dropped
+list  the  types  data  that  the drag source  capable  providing  the current data type  must  member  this  list
+constructs  new  instance  this  class  based  the  information  the  given  untyped  event  param  the  untyped  event  containing  the  information
 </comments>
 </text>
 </DOC>

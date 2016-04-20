@@ -1,374 +1,312 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.ole.win32.ITypeInfo.java </DOCNO>
+<DOCNO>org.eclipse.swt.graphics.Transform.java </DOCNO>
 <text>
 <class>
-type info
+ transform
 </class>
 <method>
-type info
-get documentation
-get func desc
-get names
-get impl type flags
-get names
-get ref type info
-get ref type impl type
-get type attr
-get var desc
-release func desc
-release type attr
-release var desc
+ transform
+ transform
+ transform
+check transform
+ dispose
+get elements
+ invert
+ disposed
+ identity
+ multiply
+ rotate
+ scale
+set elements
+ transform
+ translate
+ string
 </method>
 <identifier>
  org
  eclipse
  swt
- internal
- ole
- win
+ graphics
+ org
+ eclipse
+ swt
  org
  eclipse
  swt
  internal
- win
+ gdip
+ transform
+ resource
+ handle
+ transform
+ device
+ device
+ device
+ transform
+ device
+ device
+ elements
+ device
+check transform
+ elements
+ elements
+ elements
+ elements
+ elements
+ elements
+ transform
+ device
+ device
 
-type info
- unknown
-type info
- address
- address
-get documentation
- index
- string
- name
- string
-doc string
-pdw help context
- string
-help file
-bstr name
- name
-bstr name
-bstr doc string
-doc string
-bstr doc string
-bstr help file
-help file
-bstr help file
 
- com
-vtbl call
- address
- index
-bstr name
-bstr doc string
-pdw help context
-bstr help file
- name
-bstr name
- size
- com
-sys string byte len
-bstr name
- size
- buffer
- size
- com
-move memory
- buffer
-bstr name
- size
- name
- string
- buffer
- subindex
- name
- index
- subindex
- name
- name
- substring
- subindex
- com
-sys free string
-bstr name
-doc string
-bstr doc string
- size
- com
-sys string byte len
-bstr doc string
- size
- buffer
- size
- com
-move memory
- buffer
-bstr doc string
- size
-doc string
- string
- buffer
- subindex
-doc string
- index
- subindex
-doc string
-doc string
- substring
- subindex
- com
-sys free string
-bstr doc string
-help file
-bstr help file
- size
- com
-sys string byte len
-bstr help file
- size
- buffer
- size
- com
-move memory
- buffer
-bstr help file
- size
-help file
- string
- buffer
- subindex
-help file
- index
- subindex
-help file
-help file
- substring
- subindex
- com
-sys free string
-bstr help file
 
-get func desc
- index
-func desc
- com
-vtbl call
- address
- index
-func desc
-get names
- string
-rgsz names
- names
- mem
- buffer
- size
-rgsz names
+
+
+
+ device
+ device
+ device
+get device
+ device
+ swt
+ error
+ swt
+error null argument
+ device
+ device
+ device
+check gdip
+ handle
+ gdip
+matrix _new
+
+
+
+
+
+
+ handle
+ swt
+ error
+ swt
+error handles
+ device
+ tracking
+ device
+new object
+check transform
+ elements
+ elements
+ swt
+ error
+ swt
+error null argument
+ elements
  length
- heap
-
-get process heap
- names
-
-heap alloc
- heap
-
-heap zero memory
- size
-mem tracker
- size
-
-
- size
-
-name size
-rgsz names
-
+ swt
+ error
+ swt
+error invalid argument
+ elements
+ dispose
+ handle
+ device
+ disposed
+ gdip
+matrix _delete
+ handle
+ handle
+ device
+ tracking
+ device
+dispose object
+ device
+get elements
+ elements
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ elements
+ swt
+ error
+ swt
+error null argument
+ elements
  length
- buffer
-name size
-rgsz names
+ swt
+ error
+ swt
+error invalid argument
+ gdip
+matrix get elements
+ handle
+ elements
+ invert
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ gdip
+matrix invert
+ handle
+ swt
+ error
+ swt
+error cannot invert matrix
+ disposed
+ handle
+ identity
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ gdip
+matrix identity
+ handle
+ multiply
+ transform
+ matrix
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ matrix
+ swt
+ error
+ swt
+error null argument
+ matrix
+ disposed
+ swt
+ error
+ swt
+error invalid argument
+ gdip
+matrix multiply
+ handle
+ matrix
+ handle
+ gdip
+matrix order prepend
+ rotate
+ angle
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ gdip
+matrix rotate
+ handle
+ angle
+ gdip
+matrix order prepend
+ scale
+ scale
+ scale
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ gdip
+matrix scale
+ handle
+ scale
+ scale
+ gdip
+matrix order prepend
+set elements
 
-get chars
-name size
- buffer
- name
 
-heap alloc
- heap
 
-heap zero memory
- buffer
+
+
+
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ gdip
+matrix set elements
+ handle
+
+
+
+
+
+
+ transform
+point array
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+point array
+ swt
+ error
+ swt
+error null argument
+ gdip
+matrix transform points
+ handle
+point array
+point array
  length
-
-move memory
- name
- buffer
- buffer
- length
- com
-move memory
- names
-
- name
-mem tracker
-
- name
- com
-vtbl call
- address
- names
- names
- mem
-
-
-mem tracker
- length
-
-
-heap free
- heap
-mem tracker
-
-
-heap free
- heap
- names
-get impl type flags
- index
-impl type flags
- com
-vtbl call
- address
- index
-impl type flags
-get names
- memid
+ translate
+ offset
+ offset
+ disposed
+ swt
+ error
+ swt
+error graphic disposed
+ gdip
+matrix translate
+ handle
+ offset
+ offset
+ gdip
+matrix order prepend
  string
- names
-max names
- names
-name size
- names
- length
-bstr names
-name size
-
- com
-vtbl call
- address
- memid
-bstr names
-name size
- names
-
- com
-
-
-
- names
-
- size
- com
-sys string byte len
-bstr names
-
- size
- buffer
- size
- com
-move memory
- buffer
-bstr names
-
- size
- names
-
  string
- buffer
- subindex
- names
-
- index
- subindex
- names
-
- names
-
- substring
- subindex
- com
-sys free string
-bstr names
-
-
-get ref type info
-ref type
- info
- com
-vtbl call
- address
-ref type
- info
-get ref type impl type
- index
-ref type
- com
-vtbl call
- address
- index
-ref type
-get type attr
-type attr
- com
-vtbl call
- address
-type attr
-get var desc
- index
-var desc
- com
-vtbl call
- address
- index
-var desc
-release func desc
-func desc
- com
-vtbl call
- address
-func desc
-release type attr
-type attr
- com
-vtbl call
- address
-type attr
-release var desc
-var desc
- com
-vtbl call
- address
-var desc
+ disposed
+ elements
+get elements
+ elements
+ elements
+ elements
+ elements
+ elements
+ elements
+ elements
 </identifier>
 <comments>
-copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-get  the  unicode  character  array  from  the  global  memory  and  create  string
-add  one  avoid  rounding  errors
-get  the  unicode  character  array  from  the  global  memory  and  create  string
-add  one  avoid  rounding  errors
-get  the  unicode  character  array  from  the  global  memory  and  create  string
-add  one  avoid  rounding  errors
-create  array  hold  the  addresses
-add  the  address  each  string  the  array
-create  null  terminated  array  char  for  each  string
-get  the  address  the  start  the  array  char
-copy  the  address  the  array  addresses
-keep  track  the  global  memory  can  free 
-free  the  memory
-get  the  unicode  character  array  from  the  global  memory  and  create  string
-add  one  avoid  rounding  errors
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  represent  transformation  matrices  for  points  expressed  pairs  floating  point  numbers  application  code  must  explicitly  invoke  the  code  transform  dispose  code  method  release  the  operating  system  resources  managed  each  instance  when  those  instances  are  longer  required  since 
+the  resource  for  the  transform  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code 
+constructs  new  identity  transform  param  device  the  device  which  allocate  the  transform  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  exception swt error  error  handles  handle  for  the  transform  could  not  obtained  see  dispose
+constructs  new  transform  given  array  elements  that  represent  the  matrix  that  describes  the  transformation  param  device  the  device  which  allocate  the  transform  param  elements  array  floats  that  describe  the  transformation  matrix  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  the  elements  array  null  error  invalid  argument  the  elements  array  too  small  hold  the  matrix  values  exception swt error  error  handles  handle  for  the  transform  could  not  obtained  see  dispose
+constructs  new  transform  given  all  the  elements  that  represent  the  matrix  that  describes  the  transformation  param  device  the  device  which  allocate  the  transform  param  the  first  element  the  first  row  the  matrix  param  the  second  element  the  first  row  the  matrix  param  the  first  element  the  second  row  the  matrix  param  the  second  element  the  second  row  the  matrix  param  the  third  element  the  first  row  the  matrix  param  the  third  element  the  second  row  the  matrix  exception illegal argument exception  error  null  argument  device  null  and  there  current  device  exception swt error  error  handles  handle  for  the  transform  could  not  obtained  see  dispose
+disposes  the  operating  system  resources  associated  with  the  transform  applications  must  dispose  all  transforms  that  they  allocate
+fills  the  parameter  with  the  values  the  transformation  matrix  that  the  receiver  represents  the  order  param  elements  array  hold  the  matrix  values  return  elements  array  the  transformation  matrix  represented  the  receiver  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  exception illegal argument exception  error  null  argument  the  parameter  null  error  invalid  argument  the  parameter  too  small  hold  the  matrix  values 
+modifies  the  receiver  such  that  the  matrix  represents  becomes  the  the  mathematical  inverse  the  matrix  previously  represented  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  error  cannot  invert  matrix  the  matrix  not  invertable 
+returns  code  true  code  the  transform  has  been  disposed  and  code  false  code  otherwise  this  method  gets  the  dispose  state  for  the  transform  when  transform  has  been  disposed  error  invoke  any  other  method  using  the  transform  return  code  true  code  when  the  transform  disposed  and  code  false  code  otherwise
+returns  code  true  code  the  transform  represents  the  identity  matrix  and  false  otherwise  return  code  true  code  the  receiver  identity  transform  and  code  false  code  otherwise
+modifies  the  receiver  such  that  the  matrix  represents  becomes  the  the  result  multiplying  the  matrix  previously  represented  the  argument  param  matrix  the  matrix  multiply  the  receiver  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed  exception illegal argument exception  error  null  argument  the  parameter  null  error  invalid  argument  the  parameter  has  been  disposed 
+modifies  the  receiver  that  represents  transformation  that  equivalent  its  previous  transformation  rotated  the  specified  angle  the  angle  specified  degrees  and  for  the  identity  transform  degrees  the  clock  position  positive  value  indicates  clockwise  rotation  while  negative  value  indicates  counter  clockwise  rotation  param  angle  the  angle  rotate  the  transformation  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+modifies  the  receiver  that  represents  transformation  that  equivalent  its  previous  transformation  scaled  scale  scale  param  scale  the  amount  scale  the  direction  param  scale  the  amount  scale  the  direction  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+modifies  the  receiver  represent  new  transformation  given  all  the  elements  that  represent  the  matrix  that  describes  that  transformation  param  the  first  element  the  first  row  the  matrix  param  the  second  element  the  first  row  the  matrix  param  the  first  element  the  second  row  the  matrix  param  the  second  element  the  second  row  the  matrix  param  the  third  element  the  first  row  the  matrix  param  the  third  element  the  second  row  the  matrix  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+given  array  containing  points  described  alternating  and  values  modify  that  array  such  that  each  point  has  been  replaced  with  the  result  applying  the  transformation  represented  the  receiver  that  point  param point array  array  alternating  and  values  transformed  exception illegal argument exception  error  null  argument  the  point  array  null  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+modifies  the  receiver  that  represents  transformation  that  equivalent  its  previous  transformation  translated  offset  offset  param  offset  the  distance  translate  the  direction  param  offset  the  distance  translate  the  direction  exception swt exception  error  graphic  disposed  the  receiver  has  been  disposed 
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  receiver
 </comments>
 </text>
 </DOC>

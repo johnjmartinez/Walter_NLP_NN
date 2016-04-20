@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.DIBSECTION.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.LITEM.java </DOCNO>
 <text>
 <class>
- dibsection
+ litem
 </class>
 <method>
 NONE
@@ -13,28 +13,21 @@ NONE
  swt
  internal
  win
- dibsection
- bitmap
- size
- width
- height
- planes
-bit count
- compression
-size image
-pels per meter
-pels per meter
-clr used
-clr important
- bitfields
- bitfields
- bitfields
-dsh section
- offset
+ litem
+ mask
+ link
+ state
+state mask
+
+
+max linkid text
+ url
+
+max url length
  sizeof
 </identifier>
 <comments>
-copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
 </comments>
 </text>
 </DOC>

@@ -1,43 +1,44 @@
 <DOC>
-<DOCNO>org.eclipse.swt.widgets.ProgressBar.java </DOCNO>
+<DOCNO>org.eclipse.swt.ole.win32.Variant.java </DOCNO>
 <text>
 <class>
-progress bar
+ variant
 </class>
 <method>
-progress bar
-call window proc
-check style
-compute size
-create handle
-default foreground
-get maximum
-get minimum
-get selection
-release widget
-start timer
-stop timer
-set background pixel
-set foreground pixel
-set maximum
-set minimum
-set selection
-widget style
-window class
-window proc
- getdlgcode
- size
- timer
+ variant
+ variant
+ variant
+ variant
+ variant
+ variant
+ variant
+ variant
+ variant
+ variant
+ dispose
+get automation
+get dispatch
+get boolean
+get ref
+get data
+get float
+get int
+get short
+get string
+get type
+get unknown
+set ref
+set ref
+set ref
+set ref
+set data
+ string
 </method>
 <identifier>
  org
  eclipse
  swt
- widgets
- org
- eclipse
- swt
- internal
+ ole
  win
  org
  eclipse
@@ -45,453 +46,1122 @@ window proc
  org
  eclipse
  swt
- graphics
-progress bar
- control
- delay
- timer
-minimum width
-progress bar proc
- tchar
-progress bar class
- tchar
-
-progress class
- wndclass
-wnd class
- wndclass
-
-get class info
-progress bar class
-wnd class
-progress bar proc
-wnd class
-lpfn wnd proc
- instance
-
-get module handle
- heap
-
-get process heap
-wnd class
- instance
- instance
-wnd class
- style
-
- globalclass
-wnd class
- style
-
- dblclks
-byte count
-progress bar class
- length
- tchar
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ internal
+ win
+ variant
  sizeof
-lpsz class name
+ type
+boolean data
+float data
+int data
+short data
+ string
+string data
+ref ptr
+ dispatch
+dispatch data
+ unknown
+unknown data
+ variant
+ type
+ com
+ empty
+ variant
+ val
+ type
+ com
 
-heap alloc
- heap
+float data
+ val
+ variant
+ val
+ type
+ com
 
-heap zero memory
-byte count
+int data
+ val
+ variant
+ ptr
+ref type
+ type
+ref type
+ref ptr
+ ptr
+ variant
+ole automation
+ automation
+ type
+ com
+ dispatch
+dispatch data
+ dispatch
+ automation
+get address
+ variant
+ dispatch
+ idispatch
+ type
+ com
+ dispatch
+dispatch data
+ idispatch
+ variant
+ unknown
+ unknown
+ type
+ com
+ unknown
+unknown data
+ unknown
+ variant
+ string
+ string
+ type
+ com
+ bstr
+string data
+ string
+ variant
+ val
+ type
+ com
+
+short data
+ val
+ variant
+ val
+ type
+ com
+ bool
+boolean data
+ val
+ dispose
+ type
+ com
+ byref
+ com
+ byref
+ type
+ com
+ empty
+ com
+ bool
+ com
+
+ com
+
+ com
+
+ com
+ bstr
+ com
+ dispatch
+dispatch data
+ release
+ com
+ unknown
+unknown data
+ release
+ole automation
+get automation
+ type
+ com
+ empty
+ ole
+ error
+ ole
+error cannot change variant type
+ type
+ com
+ dispatch
+ole automation
+dispatch data
+old ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+new ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+get data
+old ptr
+ result
+ com
+variant change type
+new ptr
+old ptr
+ com
+ dispatch
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot change variant type
+ result
+ variant
+auto var
+ variant
+auto var
+set data
+new ptr
+auto var
+get automation
+ com
+variant clear
+old ptr
+
+global free
+old ptr
+ com
+variant clear
+new ptr
+
+global free
+new ptr
+ dispatch
+get dispatch
+ type
+ com
+ empty
+ ole
+ error
+ ole
+error cannot change variant type
+ type
+ com
+ dispatch
+dispatch data
+old ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+new ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+get data
+old ptr
+ result
+ com
+variant change type
+new ptr
+old ptr
+ com
+ dispatch
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot change variant type
+ result
+ variant
+auto var
+ variant
+auto var
+set data
+new ptr
+auto var
+get dispatch
+ com
+variant clear
+old ptr
+
+global free
+old ptr
+ com
+variant clear
+new ptr
+
+global free
+new ptr
+get boolean
+ type
+ com
+ empty
+ ole
+ error
+ ole
+error cannot change variant type
+ type
+ com
+ bool
+boolean data
+old ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+new ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+get data
+old ptr
+ result
+ com
+variant change type
+new ptr
+old ptr
+ com
+ bool
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot change variant type
+ result
+ variant
+bool var
+ variant
+bool var
+set data
+new ptr
+bool var
+get boolean
+ com
+variant clear
+old ptr
+
+global free
+old ptr
+ com
+variant clear
+new ptr
+
+global free
+new ptr
+get ref
+ type
+ com
+ empty
+ ole
+ error
+ ole
+error cannot change variant type
+ type
+ com
+ byref
+ com
+ byref
+ref ptr
+get data
+ data
+ data
+ ole
+ error
+ ole
+error out memory
+ com
+variant init
+ data
+ type
+ com
+ byref
+ com
+ byref
+ com
+move memory
+ data
+ type
+ com
+move memory
+ data
+ref ptr
+ type
+ com
+ empty
+ com
+ bool
+ com
+move memory
+ data
+ type
+ com
+move memory
+ data
+boolean data
+ com
+variant true
+ com
+variant false
+ com
+
+ com
+move memory
+ data
+ type
+ com
+move memory
+ data
+float data
+ com
+
+ com
+move memory
+ data
+ type
+ com
+move memory
+ data
+int data
+ com
+ dispatch
+dispatch data
+add ref
+ com
+move memory
+ data
+ type
+ com
+move memory
+ data
+dispatch data
+get address
+ com
+ unknown
+unknown data
+add ref
+ com
+move memory
+ data
+ type
+ com
+move memory
+ data
+unknown data
+get address
+ com
+
+ com
+move memory
+ data
+ type
+ com
+move memory
+ data
+short data
+ com
+ bstr
+ com
+move memory
+ data
+ type
+ data
+string data
+char array
+ ptr
+ com
+sys alloc string
+ data
+ com
+move memory
+ data
+ ptr
+ ole
+ error
+ swt
+error not implemented
+get float
+ type
+ com
+ empty
+ ole
+ error
+ ole
+error cannot change variant type
+ type
+ com
+
+float data
+old ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+new ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+get data
+old ptr
+ result
+ com
+variant change type
+new ptr
+old ptr
+ com
+
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot change variant type
+ result
+ variant
+float var
+ variant
+float var
+set data
+new ptr
+float var
+get float
+ com
+variant clear
+old ptr
+
+global free
+old ptr
+ com
+variant clear
+new ptr
+
+global free
+new ptr
+get int
+ type
+ com
+ empty
+ ole
+ error
+ ole
+error cannot change variant type
+ type
+ com
+
+int data
+old ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+new ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+get data
+old ptr
+ result
+ com
+variant change type
+new ptr
+old ptr
+ com
+
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot change variant type
+ result
+ variant
+int var
+ variant
+int var
+set data
+new ptr
+int var
+get int
+ com
+variant clear
+old ptr
+
+global free
+old ptr
+ com
+variant clear
+new ptr
+
+global free
+new ptr
+get short
+ type
+ com
+ empty
+ ole
+ error
+ ole
+error cannot change variant type
+ type
+ com
+
+short data
+old ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+new ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+get data
+old ptr
+ result
+ com
+variant change type
+new ptr
+old ptr
+ com
+
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot change variant type
+ result
+ variant
+short var
+ variant
+short var
+set data
+new ptr
+short var
+get short
+ com
+variant clear
+old ptr
+
+global free
+old ptr
+ com
+variant clear
+new ptr
+
+global free
+new ptr
+ string
+get string
+ type
+ com
+ empty
+ ole
+ error
+ ole
+error cannot change variant type
+ type
+ com
+ bstr
+string data
+old ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+new ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+get data
+old ptr
+ result
+ com
+variant change type
+new ptr
+old ptr
+ com
+ bstr
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot change variant type
+ result
+ variant
+string var
+ variant
+string var
+set data
+new ptr
+string var
+get string
+ com
+variant clear
+old ptr
+
+global free
+old ptr
+ com
+variant clear
+new ptr
+
+global free
+new ptr
+get type
+ type
+ unknown
+get unknown
+ type
+ com
+ empty
+ ole
+ error
+ ole
+error cannot change variant type
+ type
+ com
+ unknown
+unknown data
+old ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+new ptr
+
+global alloc
+ com
+gmem fixed
+ com
+gmem zeroinit
+ sizeof
+get data
+old ptr
+ result
+ com
+variant change type
+new ptr
+old ptr
+ com
+ unknown
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot change variant type
+ result
+ variant
+unknown var
+ variant
+unknown var
+set data
+new ptr
+unknown var
+get unknown
+ com
+variant clear
+old ptr
+
+global free
+old ptr
+ com
+variant clear
+new ptr
+
+global free
+new ptr
+set ref
+ val
+ type
+ com
+ byref
+ type
+ com
+ bool
+ ole
+ error
+ ole
+error cannot change variant type
+ com
+move memory
+ref ptr
+ val
+ com
+variant true
+ com
+variant false
+set ref
+ val
+ type
+ com
+ byref
+ type
+ com
+
+ ole
+ error
+ ole
+error cannot change variant type
+ com
+move memory
+ref ptr
+ val
+set ref
+ val
+ type
+ com
+ byref
+ type
+ com
+
+ ole
+ error
+ ole
+error cannot change variant type
+ com
+move memory
+ref ptr
+ val
+set ref
+ val
+ type
+ com
+ byref
+ type
+ com
+
+ ole
+ error
+ ole
+error cannot change variant type
+ com
+move memory
+ref ptr
+ val
+set data
+ data
+ data
+ ole
+ error
+ ole
+error invalid argument
+data type
+ com
+move memory
+data type
+ data
+ type
+data type
+ type
+ com
+ byref
+ com
+ byref
+new ref ptr
 
 move memory
-lpsz class name
-progress bar class
-byte count
-wnd class
-lpsz class name
-lpsz class name
+new ref ptr
+ data
+ref ptr
+new ref ptr
+ type
+ com
+ empty
+ com
+ bool
+new boolean data
+ com
+move memory
+new boolean data
+ data
+boolean data
+new boolean data
+ com
+variant false
+ com
 
-register class
-wnd class
-progress bar
- composite
- parent
- style
- parent
-check style
- style
-call window proc
- hwnd
- msg
- param
- param
- handle
+new float data
+ com
+move memory
+new float data
+ data
+float data
+new float data
+ com
 
-call window proc
-progress bar proc
- hwnd
- msg
- param
- param
-check style
- style
- style
- swt
- focus
-check bits
- style
- swt
- horizontal
- swt
- vertical
- point
-compute size
- hint
- hint
- changed
-check widget
- border
-get border width
- width
- border
- height
- border
- style
- swt
- horizontal
- width
+new int data
 
-get system metrics
+move memory
+new int data
+ data
+int data
+new int data
+ com
+ dispatch
+ppv object
 
- cxhscroll
- height
+move memory
+ppv object
+ data
+ppv object
+ type
+ com
+ empty
+dispatch data
+ dispatch
+ppv object
+dispatch data
+add ref
+ com
+ unknown
+ppv object
 
-get system metrics
+move memory
+ppv object
+ data
+ppv object
+ type
+ com
+ empty
+unknown data
+ unknown
+ppv object
+unknown data
+add ref
+ com
 
- cyhscroll
- width
+new short data
+ com
+move memory
+new short data
+ data
+short data
+new short data
+ com
+ bstr
+ mem
 
-get system metrics
-
- cxvscroll
- height
-
-get system metrics
-
- cyvscroll
- hint
- swt
- default
- width
- hint
- border
- hint
- swt
- default
- height
- hint
- border
- point
- width
- height
-create handle
-create handle
-start timer
-default foreground
-
-get sys color
-
-color highlight
-get maximum
-check widget
-
-send message
- handle
-
-pbm getrange
-get minimum
-check widget
-
-send message
- handle
-
-pbm getrange
-get selection
-check widget
-
-send message
- handle
-
-pbm getpos
-release widget
-release widget
-stop timer
-start timer
- style
- swt
- indeterminate
- bits
-
-get window long
- handle
-
-gwl style
-
-comctl 32_ major
- bits
-
-pbs marquee
-
-set timer
- handle
- timer
- delay
-
-send message
- handle
-
-pbm setmarquee
- delay
-stop timer
- style
- swt
- indeterminate
- bits
-
-get window long
- handle
-
-gwl style
-
-comctl 32_ major
- bits
-
-pbs marquee
-
-kill timer
- handle
- timer
-
-send message
- handle
-
-pbm setmarquee
-set background pixel
- pixel
- background
- pixel
- background
- pixel
- pixel
- pixel
-
-clr default
-
-send message
- handle
-
-pbm setbkcolor
- pixel
-set foreground pixel
- pixel
- foreground
- pixel
- foreground
- pixel
- pixel
- pixel
-
-clr default
-
-send message
- handle
-
-pbm setbarcolor
- pixel
-set maximum
- value
-check widget
- minimum
-
-send message
- handle
-
-pbm getrange
- minimum
- minimum
- value
-
-send message
- handle
-
-pbm setrange
- minimum
- value
-set minimum
- value
-check widget
- maximum
-
-send message
- handle
-
-pbm getrange
- value
- value
- maximum
-
-send message
- handle
-
-pbm setrange
- value
- maximum
-set selection
- value
-check widget
-
-send message
- handle
-
-pbm setpos
- value
-widget style
- bits
-widget style
- style
- swt
- smooth
- bits
-
-pbs smooth
- style
- swt
- vertical
- bits
-
-pbs vertical
- style
- swt
- indeterminate
- bits
-
-pbs marquee
- bits
- tchar
-window class
-progress bar class
-window proc
-progress bar proc
- lresult
- getdlgcode
- param
- param
- lresult
- result
- getdlgcode
- param
- param
- result
- result
- lresult
-
-dlgc static
- lresult
+move memory
+ mem
+ data
+ mem
+ type
+ com
+ empty
  size
- param
- param
- lresult
- result
+ com
+sys string byte len
+ mem
  size
- param
- param
- result
- result
- style
- swt
- indeterminate
+ buffer
+ size
+ com
+move memory
+ buffer
+ mem
+ size
+string data
+ string
+ buffer
+string data
+new data
 
-comctl 32_ major
-force resize
- rect
- rect
- rect
+global alloc
 
-get client rect
- handle
- rect
-old bits
+gmem fixed
 
-get window long
- handle
+gmem zeroinit
+ variant
+ sizeof
+ com
+variant change type
+new data
+ data
+ com
 
-gwl style
-new bits
-old bits
- rect
- right
- rect
- left
-minimum width
-new bits
+ com
 
-pbs marquee
-new bits
+set data
+new data
+ com
+variant change type
+new data
+ data
+ com
 
-pbs marquee
-new bits
-old bits
-stop timer
+ com
 
-set window long
- handle
+set data
+new data
+ com
+variant change type
+new data
+ data
+ com
+ bstr
+ com
 
-gwl style
-new bits
-start timer
- result
- lresult
- timer
- param
- param
- lresult
- result
- timer
- param
- param
- result
- result
- style
- swt
- indeterminate
- bits
+set data
+new data
+ com
+variant clear
+new data
 
-get window long
- handle
+global free
+new data
+ string
+ string
+ type
+ com
+ bool
+boolean data
+ com
 
-gwl style
+short data
+ com
 
-comctl 32_ major
- bits
+int data
+ com
 
-pbs marquee
- param
- timer
-
-send message
- handle
-
-pbm stepit
- result
+float data
+ com
+ bstr
+string data
+ com
+ dispatch
+dispatch data
+dispatch data
+get address
+ com
+ unknown
+unknown data
+unknown data
+get address
+ com
+ empty
+ type
+ com
+ byref
+ type
+ com
+ byref
+ref ptr
+ type
 </identifier>
 <comments>
 copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-instances  the  receiver  represent  unselectable  user  interface  object  that  used  display  progress  typically  the  form  bar  styles  smooth  horizontal  vertical  indeterminate  events  none  note  only  one  the  styles  horizontal  and  vertical  may  specified  important  this  class  intended  subclassed  only  within  the  swt  implementation 
-feature  windows  the  progress  bar  window  class  does  not  include  dblclks  this  mean  that  these  controls  will  not  get  double  click  messages  such  lbuttondblclk  the  fix  register  new  window  class  with  dblclks  note  screen  readers  look  for  the  exact  class  name  the  control  order  provide  the  correct  kind  assistance  therefore  critical  that  the  new  window  class  have  the  same  name  possible  register  local  window  class  with  the  same  name  global  class  since  bits  that  affect  the  class  are  being  changed  possible  that  other  native  code  other  than  swt  could  create  control  with  this  class  name  and  fail  unexpectedly
-heap free  heap lpsz class name
-constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  composite  control  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  control  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  error  invalid  subclass  this  class  not  allowed  subclass  see  swt  smooth  see  swt  horizontal  see  swt  vertical  see  widget check subclass  see  widget get style
-returns  the  maximum  value  which  the  receiver  will  allow  return  the  maximum  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
-returns  the  minimum  value  which  the  receiver  will  allow  return  the  minimum  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
-returns  the  single  selection  that  the  receiver  position  return  the  selection  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
-sets  the  maximum  value  that  the  receiver  will  allow  this  new  value  will  ignored  not  greater  than  the  receiver  current  minimum  value  the  new  maximum  applied  then  the  receiver  selection  value  will  adjusted  necessary  fall  within  its  new  range  param  value  the  new  maximum  which  must  greater  than  the  current  minimum  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
-sets  the  minimum  value  that  the  receiver  will  allow  this  new  value  will  ignored  negative  not  less  than  the  receiver  current  maximum  value  the  new  minimum  applied  then  the  receiver  selection  value  will  adjusted  necessary  fall  within  its  new  range  param  value  the  new  minimum  which  must  nonnegative  and  less  than  the  current  maximum  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
-sets  the  single  selection  that  the  receiver  position  the  argument  which  must  greater  than  equal  zero  param  value  the  new  selection  must  zero  greater  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
-feature  windows  the  progress  bar  does  not  implement  getdlgcode  result  progress  bar  takes  focus  and  takes  part  tab  traversal  this  behavior  while  unspecified  unwanted  the  fix  implement  getdlgcode  behave  like  static  control
-feature  windows  when  progress  bar  with  the  style  pbs  marquee  becomes  too  small  the  animation  currently  small  bar  moving  from  right  left  does  not  have  enough  space  draw  the  result  that  the  progress  bar  does  not  appear  moving  the  fix  detect  this  case  clear  the  pbs  marquee  style  and  emulate  the  animation  using  pbm  stepit  note  this  only  happens  window 
+variant  generic  ole  mechanism  for  passing  data  different  types  via  common  interface  used  within  the ole automation  object  for  getting  property  setting  property  invoking  method  ole  control  ole  document
+variant  always  takes  bytes  matter  what  you  store  objects  strings  and  arrays  are  not  physically  stored  the  variant  these  cases  four  bytes  the  variant  are  used  hold  either  object  reference  pointer  the  string  array  the  actual  data  are  stored  elsewhere
+ole  type
+create  empty  variant  object  with  type  empty  since 
+create  variant  object  which  represents  java  float  param  val  the  java  float  value  that  this  variant  represents
+create  variant  object  which  represents  java  int  param  val  the  java  int  value  that  this  variant  represents
+create  variant  object  which  contains  reference  the  data  being  transferred  when  creating  byref  variant  you  must  give  the  full  variant  type  including  byref  such  pre  code  short ref type  ole  bstr  ole  byref  code  pre  param  ptr  pointer  the  data  being  transferred  param ref type  the  type  the  data  being  transferred  such  ole  bstr  ole  byref
+create  variant  object  which  represents  dispatch  interface  dispatch  param  automation  the ole automation  object  that  this  variant  represents
+create  variant  object  which  represents  dispatch  interface  dispatch  the  caller  expected  have  appropriately  invoked  unknown add ref  before  creating  this  variant  since  param  idispatch  the  dispatch  object  that  this  variant  represents
+create  variant  object  which  represents  unknown  interface  unknown  the  caller  expected  have  appropriately  invoked  unknown add ref  before  creating  this  variant  param  unknown  the  unknown  object  that  this  variant  represents
+create  variant  object  which  represents  java  string  bstr  param  string  the  java  string  value  that  this  variant  represents
+create  variant  object  which  represents  java  short  param  val  the  java  short  value  that  this  variant  represents
+create  variant  object  which  represents  java  boolean  bool  param  val  the  java  boolean  value  that  this  variant  represents
+calling  dispose  will  release  resources  associated  with  this  variant  the  resource  dispatch  unknown  interface  release  will  called  the  resource  ref  pointer  nothing  released  since 
+returns  the ole automation  object  represented  this  variant  this  variant  does  not  contain ole automation  object  attempt  made  coerce  the  variant  type  into ole automation  object  this  fails  error  thrown  note  that ole automation  objects  must  disposed  when  longer  needed  return  the ole automation  object  represented  this  variant  exception swt exception  error  cannot  change  variant  type  when  type  variant  can  not  coerced  into ole automation  object 
+try  coerce  the  value  the  desired  type
+note  this  must  absolutely  done  after  the
+ole automation  object  created  variant  clear
+will  result  release  being  performed  the
+dispatch  object
+returns  the  dispatch  object  represented  this  variant  this  variant  does  not  contain  dispatch  object  attempt  made  coerce  the  variant  type  into  ispatch  object  this  fails  error  thrown  since  return  the  dispatch  object  represented  this  variant  exception swt exception  error  cannot  change  variant  type  when  type  variant  can  not  coerced  into  dispatch  object 
+try  coerce  the  value  the  desired  type
+note  this  must  absolutely  done  after  the
+ole automation  object  created  variant  clear
+will  result  release  being  performed  the
+dispatch  object
+returns  the  java  boolean  represented  this  variant  this  variant  does  not  contain  java  boolean  attempt  made  coerce  the  variant  type  into  java  boolean  this  fails  error  thrown  return  the  java  boolean  represented  this  variant  exception swt exception  error  cannot  change  variant  type  when  type  variant  can  not  coerced  into  boolean 
+try  coerce  the  value  the  desired  type
+returns  pointer  the  referenced  data  represented  this  variant  this  variant  does  not  contain  reference  data  zero  returned  return  pointer  the  referenced  data  represented  this  variant 
+returns  the  java  float  represented  this  variant  this  variant  does  not  contain  java  float  attempt  made  coerce  the  variant  type  into  java  float  this  fails  error  thrown  return  the  java  float  represented  this  variant  exception swt exception  error  cannot  change  variant  type  when  type  variant  can  not  coerced  into  float 
+try  coerce  the  value  the  desired  type
+returns  the  java  int  represented  this  variant  this  variant  does  not  contain  java  int  attempt  made  coerce  the  variant  type  into  java  int  this  fails  error  thrown  return  the  java  int  represented  this  variant  exception swt exception  error  cannot  change  variant  type  when  type  variant  can  not  coerced  into  int 
+try  coerce  the  value  the  desired  type
+returns  the  java  short  represented  this  variant  this  variant  does  not  contain  java  short  attempt  made  coerce  the  variant  type  into  java  short  this  fails  error  thrown  return  the  java  short  represented  this  variant  exception swt exception  error  cannot  change  variant  type  when  type  variant  can  not  coerced  into  short 
+try  coerce  the  value  the  desired  type
+returns  the  java  string  represented  this  variant  this  variant  does  not  contain  java  string  attempt  made  coerce  the  variant  type  into  java  string  this  fails  error  thrown  return  the  java  string  represented  this  variant  exception swt exception  error  cannot  change  variant  type  when  type  variant  can  not  coerced  into  string 
+try  coerce  the  value  the  desired  type
+returns  the  type  the  variant  type  this  will  ole  value  bitwise  combination  ole  values  the  case  ole  bstr  ole  byref  return  the  type  the  variant  data  since 
+returns  the  unknown  object  represented  this  variant  this  variant  does  not  contain  unknown  object  attempt  made  coerce  the  variant  type  into  unknown  object  this  fails  error  thrown  return  the  unknown  object  represented  this  variant  exception swt exception  error  cannot  change  variant  type  when  type  variant  can  not  coerced  into  unknown  object 
+try  coerce  the  value  the  desired  type
+note  this  must  absolutely  done  after  the
+unknown  object  created  variant  clear
+will  result  release  being  performed  the
+dispatch  object
+update  the  reference  value  this  variant  with  new  boolean  value  param  val  the  new  boolean  value  exception swt exception  error  cannot  change  variant  type  when  type  variant  not  byref  bool  object  since 
+update  the  reference  value  this  variant  with  new  float  value  param  val  the  new  float  value  exception swt exception  error  cannot  change  variant  type  when  type  variant  not  byref  object  since 
+update  the  reference  value  this  variant  with  new  integer  value  param  val  the  new  integer  value  exception swt exception  error  cannot  change  variant  type  when  type  variant  not  byref  object  since 
+update  the  reference  value  this  variant  with  new  short  value  param  val  the  new  short  value  exception swt exception  error  cannot  change  variant  type  when  type  variant  not  byref  object  since 
+get  the  address  the  memory  which  the  string  resides
+get  the  size  the  string  from  the  the  size  expressed  number
+bytes  each  unicode  character  bytes
+get  the  unicode  character  array  from  the  global  memory  and  create  string
+add  one  avoid  rounding  errors
+non  nls 
+try  coercing  into  one  the  known  forms
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
 </comments>
 </text>
 </DOC>

@@ -1,10 +1,10 @@
+#from theanets import Autoencoder
 from theanets import Network
-from theanets import Autoencoder
 from theanets.losses import Loss
-import numpy as np
 from os import path
 
 import theano.tensor as TT
+import numpy as np
 
 
 def simpleTranslate(sentences, translationMap):
@@ -102,7 +102,7 @@ class BOWLoss(Loss):
     def __call__(self, outputs):
         output = outputs[self.output_name]
         target = self._target
-        xe = target * TT.log(output) + (1 - target) * TT.log(1 - output)
+        xe = target * TT.log(output) + (1 - target) * TT.log(1 - output) # Cross-entropy
         return -xe.sum()
 
 
@@ -114,7 +114,7 @@ ae = Network(
     ],
     loss='bowloss'
 )
-
+ 
 modelPath = "./bow-autoencoder.mod"
 
 # if path.isfile(modelPath):
@@ -123,19 +123,20 @@ modelPath = "./bow-autoencoder.mod"
 # ae.train([np.asarray(englishCorpus.wordVectors), np.asarray(alieneseCorpus.wordVectors)], algo='sgd')
 #	ae.save(modelPath)
 
-for train, valid in ae.itertrain([np.asarray(englishCorpus.wordVectors), np.asarray(alieneseCorpus.wordVectors)],
-                                 algo='nag', momentum=1):
+for train, valid in ae.itertrain([np.asarray(englishCorpus.wordVectors,  dtype=np.float32), 
+                                  np.asarray(alieneseCorpus.wordVectors, dtype=np.float32)], 
+                                algo='nag', momentum=1):
     if train['loss'] < 0.001:
         break
-    # print('training loss:', train['loss'])
-    # print('most recent validation loss:', valid['loss'])
+    #print('training loss:', train['loss'])
+    #print('most recent validation loss:', valid['loss'])
 
 # for wordVector in englishCorpus.wordVectors:
 #	print alieneseCorpus.convertFromWordVector(ae.predict(np.asarray([wordVector]))[0].tolist())
 
-for word in englishCorpus.vocabulary:
+for word in englishCorpus.vocabulary: 
     englishWordVector = englishCorpus.convertToWordVector([word])
-    alienWordVector = ae.predict(np.asarray([englishWordVector]))[0]
+    alienWordVector = ae.predict(np.asarray([englishWordVector], dtype=np.float32))[0]
     # highestProbabilityIndex = np.argmax(alienWordVector)
     sortedIndices = np.argsort(alienWordVector)[::-1]
     print "%s: %s" % (word, np.asarray(alieneseCorpus.vocabulary)[sortedIndices[0:2]])

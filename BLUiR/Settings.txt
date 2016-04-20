@@ -1,1 +1,1 @@
-indripath=../indri-5.3/
+indripath=../../indri-5.3/

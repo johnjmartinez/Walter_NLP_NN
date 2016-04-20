@@ -1,32 +1,60 @@
 <DOC>
-<DOCNO>org.eclipse.swt.events.ControlAdapter.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.ole.win32.IClassFactory2.java </DOCNO>
 <text>
 <class>
-control adapter
+class factory
 </class>
 <method>
-control moved
-control resized
+class factory
+create instance lic
+get lic info
+request lic key
 </method>
 <identifier>
  org
  eclipse
  swt
- events
-control adapter
-control listener
-control moved
-control event
-
-control resized
-control event
-
+ internal
+ ole
+ win
+class factory
+ unknown
+class factory
+ address
+ address
+create instance lic
+unk outer
+unk reserved
+ guid
+ riid
+bstr key
+ppv object
+ com
+vtbl call
+ address
+unk outer
+unk reserved
+ riid
+bstr key
+ppv object
+get lic info
+ licinfo
+lic info
+ com
+vtbl call
+ address
+lic info
+request lic key
+ reserved
+bstr key
+ com
+vtbl call
+ address
+ reserved
+bstr key
 </identifier>
 <comments>
 copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-this  adapter  class  provides  default  implementations  for  the  methods  described  the  code control listener  code  interface  classes  that  wish  deal  with  code control event  code  can  extend  this  class  and  override  only  the  methods  which  they  are  interested  see control listener  see control event
-sent  when  the  location  control  changes  relative  its  parent  relative  the  display  for  code  shell  code  the  default  behavior  nothing  param  event  containing  information  about  the  move
-sent  when  the  size  width  height  control  changes  the  default  behavior  nothing  param  event  containing  information  about  the  resize
 </comments>
 </text>
 </DOC>

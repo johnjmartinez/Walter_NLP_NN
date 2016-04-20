@@ -1,34 +1,28 @@
 <DOC>
-<DOCNO>org.eclipse.swt.events.FocusEvent.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.KEYBDINPUT.java </DOCNO>
 <text>
 <class>
-focus event
+ keybdinput
 </class>
 <method>
-focus event
+NONE
 </method>
 <identifier>
  org
  eclipse
  swt
- events
- org
- eclipse
- swt
- widgets
- event
-focus event
-typed event
-serial version uid
-focus event
- event
+ internal
+ win
+ keybdinput
 
-
+ scan
+ flags
+ time
+extra info
+ sizeof
 </identifier>
 <comments>
 copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-instances  this  class  are  sent  result  widgets  gaining  and  losing  focus  see focus listener
-constructs  new  instance  this  class  based  the  information  the  given  untyped  event  param  the  untyped  event  containing  the  information
 </comments>
 </text>
 </DOC>

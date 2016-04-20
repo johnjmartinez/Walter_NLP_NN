@@ -1,37 +1,245 @@
 <DOC>
-<DOCNO>org.eclipse.swt.dnd.DragSourceAdapter.java </DOCNO>
+<DOCNO>org.eclipse.swt.widgets.EventTable.java </DOCNO>
 <text>
 <class>
-drag source adapter
+event table
 </class>
 <method>
-drag start
-drag finished
-drag set data
+ hook
+ hooks
+send event
+ size
+ remove
+ unhook
+ unhook
 </method>
 <identifier>
  org
  eclipse
  swt
- dnd
-drag source adapter
-drag source listener
-drag start
-drag source event
+ widgets
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ internal
+swt event listener
+event table
+ types
+ listener
+ listeners
+ level
+ hook
+event type
+ listener
+ listener
+ types
+ types
+ listeners
+ listeners
+ listener
+ length
+ types
+ length
+ index
+ length
+ index
+ types
+ index
+ index
+ index
+ index
+ length
+new types
+ length
+ system
+ arraycopy
+ types
+new types
+ length
+ types
+new types
+ listener
+new listeners
+ listener
+ length
+ system
+ arraycopy
+ listeners
+new listeners
+ length
+ listeners
+new listeners
+ types
+ index
+event type
+ listeners
+ index
+ listener
+ hooks
+event type
+ types
+
+
+ types
+ length
+
+ types
+
+event type
+send event
  event
-drag finished
-drag source event
  event
-drag set data
-drag source event
+ types
+ level
+ level
+
+
+ types
+ length
+
  event
+ type
+ swt
+ none
+ types
+
+ event
+ type
+ listener
+ listener
+ listeners
+
+ listener
+ listener
+handle event
+ event
+ compact
+ level
+ level
+ level
+ compact
+ level
+ index
+
+
+ types
+ length
+
+ types
+
+ types
+ index
+ types
+
+ listeners
+ index
+ listeners
+
+ index
+
+ index
+
+ types
+ length
+
+ types
+
+ listeners
+
+ size
+ types
+ count
+
+
+ types
+ length
+
+ types
+
+ count
+ count
+ remove
+ index
+ level
+ end
+ types
+ length
+ system
+ arraycopy
+ types
+ index
+ types
+ index
+ end
+ index
+ system
+ arraycopy
+ listeners
+ index
+ listeners
+ index
+ end
+ index
+ index
+ end
+ level
+ level
+ level
+ types
+ index
+ listeners
+ index
+ unhook
+event type
+ listener
+ listener
+ types
+
+
+ types
+ length
+
+ types
+
+event type
+ listeners
+
+ listener
+ remove
+
+ unhook
+event type
+swt event listener
+ listener
+ types
+
+
+ types
+ length
+
+ types
+
+event type
+ listeners
+
+typed listener
+typed listener
+typed listener
+typed listener
+ listeners
+
+typed listener
+get event listener
+ listener
+ remove
+
 </identifier>
 <comments>
-copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-this  adapter  class  provides  default  implementations  for  the  methods  described  the  code drag source listener  code  interface  classes  that  wish  deal  with  code drag source event  code  can  extend  this  class  and  override  only  the  methods  which  they  are  interested  see drag source listener  see drag source event
-this  implementation  code drag start  code  permits  the  drag  operation  start  for  additional  information  see  code drag source listener drag start  code
-this  implementation  code drag finished  code  does  nothing  for  additional  information  see  code drag source listener drag finished  code
-this  implementation  code drag set data  code  does  nothing  for  additional  information  see  code drag source listener drag set data  code
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  implement  simple  look  mechanism  that  maps  event  type  listener  muliple  listeners  for  the  same  event  type  are  supported
 </comments>
 </text>
 </DOC>

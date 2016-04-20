@@ -1,64 +1,37 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.image.JPEGVariableSizeSegment.java </DOCNO>
+<DOCNO>org.eclipse.swt.events.KeyListener.java </DOCNO>
 <text>
 <class>
-jpeg variable size segment
+key listener
 </class>
 <method>
-jpeg variable size segment
-jpeg variable size segment
+key pressed
+key released
 </method>
 <identifier>
  org
  eclipse
  swt
- internal
- image
+ events
  org
  eclipse
  swt
-jpeg variable size segment
-jpeg segment
-jpeg variable size segment
- reference
- reference
-jpeg variable size segment
-data input stream
-byte stream
- header
-byte stream
- read
- header
- reference
- header
- contents
-get segment length
- contents
- header
- contents
- header
- contents
- header
- contents
- header
-byte stream
- read
- contents
- contents
- length
- reference
- contents
- exception
+ internal
+swt event listener
+key listener
+swt event listener
+key pressed
+key event
 
- swt
- error
- swt
- error
+key released
+key event
 
 </identifier>
 <comments>
 copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-use get segment length
+classes  which  implement  this  interface  provide  methods  that  deal  with  the  events  that  are  generated  keys  are  pressed  the  system  keyboard  after  creating  instance  class  that  implements  this  interface  can  added  control  using  the  code add key listener  code  method  and  removed  using  the  code remove key listener  code  method  when  key  pressed  released  the  appropriate  method  will  invoked  see key adapter  see key event
+sent  when  key  pressed  the  system  keyboard  param  event  containing  information  about  the  key  press
+sent  when  key  released  the  system  keyboard  param  event  containing  information  about  the  key  release
 </comments>
 </text>
 </DOC>

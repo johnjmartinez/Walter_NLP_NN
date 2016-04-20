@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.MOUSEINPUT.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.DRAWITEMSTRUCT.java </DOCNO>
 <text>
 <class>
- mouseinput
+ drawitemstruct
 </class>
 <method>
 NONE
@@ -13,17 +13,24 @@ NONE
  swt
  internal
  win
- mouseinput
+ drawitemstruct
+ctl type
+ ctl
+ item
+item action
+item state
+hwnd item
 
-
-mouse data
- flags
- time
-extra info
+ left
+ top
+ bottom
+ right
+item data
  sizeof
 </identifier>
 <comments>
-copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+rect  item
 </comments>
 </text>
 </DOC>

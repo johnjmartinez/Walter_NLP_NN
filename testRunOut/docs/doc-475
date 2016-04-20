@@ -1,69 +1,75 @@
 <DOC>
-<DOCNO>org.eclipse.swt.widgets.Composite.java </DOCNO>
+<DOCNO>org.eclipse.swt.ole.win32.OleControlSite.java </DOCNO>
 <text>
 <class>
- composite
+ole control site
 </class>
 <method>
- composite
- composite
-_get children
-_get tab list
- changed
-check buffered
-check subclass
-compute tab list
-compute size
-create handle
-find menus
-fix children
-fix tab list
-get children
-get children count
-get layout
-get tab list
-hooks keys
-get layout deferred
-layout deferred
- layout
- layout
- layout
- layout
-mark layout
-minimum size
-release children
-release widget
-remove control
-resize children
-resize children
-resize embedded handle
-set fixed focus
-set focus
-set layout
-set layout deferred
-set tab list
-set resize children
-set tab group focus
-tool tip text
-translate mnemonic
-translate traversal
-update font
-update layout
-widget style
- erasebkgnd
- getdlgcode
- getfont
- lbuttondown
- notify
- parentnotify
- paint
- printclient
- setfont
- size
- syscolorchange
- syscommand
+ole control site
+add event listener
+get default event sink guid
+add event listener
+add event listener
+add object references
+add property listener
+connect property change sink
+create com interfaces
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+ method
+disconnect event sinks
+disconnect property change sink
+dispose com interfaces
+get background
+get font
+get foreground
+get license info
+get site property
+get window
+ invoke
+control info changed
+ focus
+focus out
+ focus
+ deactivate
+query interface
+ release
+release object interfaces
+remove event listener
+remove event listener
+remove event listener
+remove event listener
+remove property listener
+set background
+set font
+set foreground
+set site property
 </method>
 <identifier>
+ org
+ eclipse
+ swt
+ ole
+ win
+ org
+ eclipse
+ swt
+ org
+ eclipse
+ swt
+ internal
+ ole
+ win
+ org
+ eclipse
+ swt
+ graphics
  org
  eclipse
  swt
@@ -72,2168 +78,1437 @@ widget style
  eclipse
  swt
  internal
- org
- eclipse
- swt
- internal
  win
- org
- eclipse
- swt
- org
- eclipse
- swt
- graphics
- composite
- scrollable
- layout
- layout
- font
- windowpos
- lpwp
- control
-tab list
-layout count
- composite
- composite
+ole control site
+ole client site
+com object
+ole control site
+com object
+ dispatch
+ole property change sink
+ole property change sink
+ole event sink
+ole event sink
+ole event sink
+ guid
+ole event sink guid
+ guid
+ole event sink unknown
+ controlinfo
+current control info
+site property ids
+ variant
+site property values
+ variant
+ole control site
  composite
  parent
  style
+ string
+ prog
  parent
  style
- control
-_get children
- count
-hwnd child
-
-get window
- handle
-
- child
-hwnd child
- control
-hwnd child
- count
-hwnd child
-
-get window
-hwnd child
-
- hwndnext
- control
- children
- control
- count
- index
-hwnd child
-
-get window
- handle
-
- child
-hwnd child
- control
- control
- display
-get control
-hwnd child
- control
- control
- children
- index
- control
-hwnd child
-
-get window
-hwnd child
-
- hwndnext
- count
- index
- children
- control
-new children
- control
- index
- system
- arraycopy
- children
-new children
- index
-new children
- control
-_get tab list
-tab list
-tab list
- count
-
-
-tab list
- length
-
-tab list
-
- disposed
- count
- count
-tab list
- length
-tab list
- control
-new list
- control
- count
- index
-
-
-tab list
- length
-
-tab list
-
- disposed
-new list
- index
-tab list
-
-tab list
-new list
-tab list
- changed
- control
- changed
-check widget
- changed
+app clsid
+get class
+ prog
+app clsid
+ ole
  error
- swt
-error invalid argument
-
-
- changed
- length
-
- control
- control
- changed
-
- control
- error
- swt
-error invalid argument
- control
- disposed
- error
- swt
-error invalid argument
- ancestor
- composite
- composite
- control
- parent
- composite
- ancestor
- composite
- ancestor
- composite
- composite
- parent
- ancestor
- error
- swt
-error invalid parent
-
-
- changed
- length
-
- control
- child
- changed
-
- composite
- composite
- child
- parent
- child
- composite
- layout
- composite
- layout
-flush cache
- child
- composite
- state
-layout changed
- child
- composite
- composite
- child
- parent
-check buffered
-
- win
- state
- canvas
-check buffered
-check subclass
- control
-compute tab list
- control
+ ole
+error invalid classid
+ licinfo
+get license info
+app clsid
+ licinfo
+temp storage
+create temp storage
+ address
  result
-compute tab list
- result
- length
- result
- control
- list
-tab list
-_get tab list
-_get children
-
-
- list
- length
-
- control
- child
- list
-
- control
-child list
- child
-compute tab list
-child list
- length
- control
-new result
- control
- result
- length
-child list
- length
- system
- arraycopy
- result
-new result
- result
- length
- system
- arraycopy
-child list
-new result
- result
- length
-child list
- length
- result
-new result
- result
- point
-compute size
- hint
- hint
- changed
-check widget
- point
- size
- layout
- hint
- swt
- default
- hint
- swt
- default
- changed
- state
-layout changed
- state
-layout changed
- size
- layout
-compute size
- hint
- hint
- changed
- size
- point
- hint
- hint
- size
-minimum size
- hint
- hint
- changed
- size
-
- size
-
-default width
- size
-
- size
-
-default height
- hint
- swt
- default
- size
-
- hint
- hint
- swt
- default
- size
-
- hint
- rectangle
- trim
-compute trim
- size
-
- size
-
- point
- trim
- width
- trim
- height
-create handle
-create handle
- state
- canvas
- menu
-find menus
- control
- control
- control
- menu
- menu
- result
-find menus
- control
- control
- children
-_get children
-
-
- children
- length
-
- control
- child
- children
-
- menu
-menu list
- child
-find menus
- control
-menu list
- length
- menu
-new result
- menu
- result
- length
-menu list
- length
- system
- arraycopy
- result
-new result
- result
- length
- system
- arraycopy
-menu list
-new result
- result
- length
-menu list
- length
- result
-new result
- result
-fix children
- shell
-new shell
- shell
-old shell
- decorations
-new decorations
- decorations
-old decorations
- menu
- menus
-fix children
-new shell
-old shell
-new decorations
-old decorations
- menus
- control
- children
-_get children
-
-
- children
- length
-
- children
-
-fix children
-new shell
-old shell
-new decorations
-old decorations
- menus
-fix tab list
- control
- control
-tab list
- count
-
-
-tab list
- length
-
-tab list
-
- control
- count
- count
- control
-new list
- length
-tab list
- length
- count
- length
-new list
- control
- length
- index
-
-
-tab list
- length
-
-tab list
-
- control
-new list
- index
-tab list
-
-tab list
-new list
- control
-get children
-check widget
-_get children
-get children count
- count
-hwnd child
-
-get window
- handle
-
- child
-hwnd child
- count
-hwnd child
-
-get window
-hwnd child
-
- hwndnext
- count
- layout
-get layout
-check widget
- layout
- control
-get tab list
-check widget
- control
-tab list
-_get tab list
-tab list
- count
- control
- list
-_get children
-
-
- list
- length
-
- list
-
-tab group
- count
-tab list
- control
- count
- index
-
-
- list
- length
-
- list
-
-tab group
-tab list
- index
- list
-
-tab list
-hooks keys
- hooks
- swt
-key down
- hooks
- swt
- key
-get layout deferred
-check widget
-layout count
-layout deferred
-check widget
-layout count
- parent
-layout deferred
- layout
-check widget
- layout
- layout
- changed
-check widget
- layout
- layout
- changed
- layout
- changed
- all
-check widget
- layout
- all
-mark layout
- changed
- all
-update layout
- all
- layout
- control
- changed
-check widget
- changed
- error
- swt
-error invalid argument
-
-
- changed
- length
-
- control
- control
- changed
-
- control
- error
- swt
-error invalid argument
- control
- disposed
- error
- swt
-error invalid argument
- ancestor
- composite
- composite
- control
- parent
- composite
- ancestor
- composite
- ancestor
- composite
- composite
- parent
- ancestor
- error
- swt
-error invalid parent
-update count
- composite
- update
- composite
-
-
- changed
- length
-
- control
- child
- changed
-
- composite
- composite
- child
- parent
- child
- composite
- layout
- composite
- state
-layout needed
- composite
- layout
-flush cache
- child
- composite
- state
-layout changed
-update count
- update
- length
- composite
-new update
- composite
- update
- length
- system
- arraycopy
- update
-new update
- update
- length
- update
-new update
- child
- update
-update count
- composite
- composite
- child
- parent
-
-update count
-
-
- update
-
-update layout
-mark layout
- changed
- all
- layout
- state
-layout needed
- changed
- state
-layout changed
- all
- control
- children
-_get children
-
-
- children
- length
-
- children
-
-mark layout
- changed
- all
- point
-minimum size
- hint
- hint
- changed
- control
- children
-_get children
- width
- height
-
-
- children
- length
-
- rectangle
- rect
- children
-
-get bounds
- width
- math
- max
- width
- rect
-
- rect
- width
- height
- math
- max
- height
- rect
-
- rect
- height
- point
- width
- height
-release children
- control
- children
-_get children
-
-
- children
- length
-
- control
- child
- children
-
- child
- disposed
- child
-release resources
-release widget
-release children
-release widget
- state
- canvas
- style
- swt
- embedded
-hwnd child
-
-get window
- handle
-
- child
-hwnd child
- thread
-
-get window thread process
-hwnd child
- thread
-
-get current thread
-
-set parent
-hwnd child
- layout
-tab list
- lpwp
-remove control
- control
- control
-fix tab list
- control
-resize children
-resize children
- lpwp
- windowpos
-current lpwp
- lpwp
- lpwp
-resize children
-current lpwp
-resize children
-current lpwp
- lpwp
-resize children
- defer
- windowpos
- pwp
- pwp
- hdwp
- defer
- hdwp
-
-begin defer window pos
- pwp
- length
- hdwp
-
-
- pwp
- length
-
- windowpos
-
- pwp
-
-
- defer
- hdwp
-defer window pos
- hdwp
-
- hwnd
-
-
-
-
-
-
-
-
-
- flags
- hdwp
-set window pos
-
- hwnd
-
-
-
-
-
-
-
-
-
- flags
- defer
-
-end defer window pos
- hdwp
-resize embedded handle
-embedded handle
- width
- height
-embedded handle
- process
- thread
-
-get window thread process
-embedded handle
- process
- thread
-
-get current thread
- process
-
-get current process
- display
-msg hook
-
- win
- display
-get msg callback
- callback
- display
- display
-get msg proc
- display
-get msg callback
+ com
+ole create
+app clsid
+ com
+iidi unknown
+ com
+olerender draw
+temp storage
 get address
- display
-get msg proc
+ address
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot create object
+ result
+obj unknown
+ unknown
+ address
+ppv object
+ result
+ com
+get class object
+app clsid
+ com
+clsctx inproc handler
+ com
+clsctx inproc server
+ com
+iidi class factory
+ppv object
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot access classfactory
+ result
+class factory
+class factory
+class factory
+ppv object
+ppv object
+ result
+class factory
+create instance lic
+ com
+iidi unknown
+ licinfo
+ppv object
+class factory
+ release
+ result
+ com
+
+ ole
+ error
+ ole
+error cannot create licensed object
+ result
+ com
+sys free string
+ licinfo
+obj unknown
+ unknown
+ppv object
+ppv object
+obj unknown
+query interface
+ com
+iidi persist storage
+ppv object
+ com
+
+persist storage
+ persist
+persist storage
+ppv object
+temp storage
+create temp storage
+ persist
+init new
+temp storage
+get address
+ persist
+ release
+add object references
+set site property
+ com
+dispid ambient usermode
+ variant
+set site property
+ com
+dispid ambient uidead
+ variant
+ com
+ole run
+obj unknown
+get address
+ ole
+
+ state
+state running
+swt error
+
+ dispose
+dispose com interfaces
+
+add event listener
+ event
+ole listener
+ listener
+ listener
+ ole
  error
  swt
-error more callbacks
- display
-msg hook
+error null argument
+ guid
+ riid
+get default event sink guid
+obj unknown
+ riid
+add event listener
+obj unknown
+get address
+ riid
+ event
+ listener
+ guid
+get default event sink guid
+ unknown
+ unknown
+ppv object
+ unknown
+query interface
+ com
+iidi provide class info
+ppv object
+ com
 
-set windows hook
+provide class info
+ pci
+provide class info
+ppv object
+ guid
+ riid
+ guid
+ result
+ pci
+get guid
+ com
+guidkind default source disp iid
+ riid
+ pci
+ release
+ result
+ com
 
- getmessage
- display
-get msg proc
+ riid
+ unknown
+query interface
+ com
+iidi provide class info
+ppv object
+ com
 
-get library handle
- thread
-
-post thread message
- thread
-
- null
- flags
-
-swp nozorder
-
-swp drawframe
-
-swp noactivate
-
-swp asyncwindowpos
-
-set window pos
-embedded handle
- width
- height
- flags
-set fixed focus
-check widget
- control
- children
-_get children
-
-
- children
- length
-
- control
- child
- children
-
- child
-set radio focus
-
-
- children
- length
-
- control
- child
- children
-
- child
-set fixed focus
-set fixed focus
-set focus
-check widget
- control
- children
-_get children
+provide class info
+ pci
+provide class info
+ppv object
 
 
- children
- length
+ result
+ pci
+get class info
 
- control
- child
- children
-
- child
-set radio focus
-
-
- children
- length
-
- control
- child
- children
-
- child
-set focus
-set focus
-set layout
- layout
- layout
-check widget
- layout
- layout
-set layout deferred
- defer
- defer
-layout count
-layout deferred
-update layout
-layout count
-set tab list
- control
-tab list
-check widget
-tab list
+ pci
+ release
+ result
+ com
 
 
-tab list
- length
+type info
+class info
+type info
 
- control
- control
-tab list
+type attr
+ result
+class info
+get type attr
+type attr
+ result
+ com
 
- control
+type attr
+ typeattr
+type attribute
+ typeattr
+ com
+move memory
+type attribute
+type attr
+ typeattr
+ sizeof
+class info
+release type attr
+type attr
+impl mask
+ com
+impltypeflag fdefault
+ com
+impltypeflag fsource
+ com
+impltypeflag frestricted
+impl bits
+ com
+impltypeflag fdefault
+ com
+impltypeflag fsource
+
+
+type attribute
+impl types
+
+impl type flags
+class info
+get impl type flags
+
+impl type flags
+ com
+
+impl type flags
+impl mask
+impl bits
+ref type
+class info
+get ref type impl type
+
+ref type
+ com
+
+class info
+get ref type info
+ref type
+
+class info
+ release
+
+type info
+event info
+type info
+
+type attr
+ result
+event info
+get type attr
+type attr
+ guid
+ riid
+ result
+ com
+
+type attr
+ riid
+ guid
+ com
+move memory
+ riid
+type attr
+ guid
+ sizeof
+event info
+release type attr
+type attr
+event info
+ release
+ riid
+add event listener
+ole automation
+ automation
+ event
+ole listener
+ listener
+ listener
+ automation
+ ole
  error
  swt
-error invalid argument
- control
- disposed
+error null argument
+ address
+ automation
+get address
+ unknown
+ unknown
+ unknown
+ address
+ guid
+ riid
+get default event sink guid
+ unknown
+ riid
+add event listener
+ address
+ riid
+ event
+ listener
+add event listener
+ iunknown
+ guid
+ guid
+ event
+ole listener
+ listener
+ listener
+ iunknown
+ guid
+ ole
  error
  swt
-error invalid argument
- control
- parent
- error
- swt
-error invalid parent
- control
-new list
- control
-tab list
+error null argument
+ index
+
+
+ole event sink guid
  length
+
+ com
+equal guid
+ole event sink guid
+
+ guid
+ iunknown
+ole event sink unknown
+
+ index
+
+ index
+ole event sink
+ index
+add listener
+ event
+ listener
+old length
+ole event sink
+ length
+ole event sink
+new ole event sink
+ole event sink
+old length
+ guid
+new ole event sink guid
+ guid
+old length
+new ole event sink unknown
+old length
  system
  arraycopy
-tab list
-new list
-tab list
- length
-tab list
-new list
-tab list
-tab list
-set resize children
- resize
- resize
-resize children
- count
-get children count
- count
- lpwp
- lpwp
- windowpos
- count
-set tab group focus
-tab item
-set tab item focus
-take focus
- style
+ole event sink
+new ole event sink
+old length
+ system
+ arraycopy
+ole event sink guid
+new ole event sink guid
+old length
+ system
+ arraycopy
+ole event sink unknown
+new ole event sink unknown
+old length
+ole event sink
+new ole event sink
+ole event sink guid
+new ole event sink guid
+ole event sink unknown
+new ole event sink unknown
+ole event sink
+old length
+ole event sink
+ iunknown
+ guid
+ole event sink guid
+old length
+ guid
+ole event sink unknown
+old length
+ iunknown
+ole event sink
+old length
+add ref
+ole event sink
+old length
+ connect
+ole event sink
+old length
+add listener
+ event
+ listener
+add object references
+add object references
+connect property change sink
+ppv object
+obj unknown
+query interface
+ com
+iidi ole control
+ppv object
+ com
+
+ole control
+obj ole control
+ole control
+ppv object
+current control info
+ controlinfo
+obj ole control
+get control info
+current control info
+obj ole control
+ release
+add property listener
+ property
+ole listener
+ listener
+ listener
  swt
+ error
+ swt
+error null argument
+ole property change sink
+add listener
+ property
+ listener
+connect property change sink
+ole property change sink
+ole property change sink
+ole property change sink
+add ref
+ole property change sink
+ connect
+obj unknown
+create com interfaces
+create com interfaces
+ole control site
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+control info changed
+ method
+ args
  focus
- state
- canvas
-take focus
-hooks keys
- style
- swt
- embedded
-take focus
-take focus
-set tab item focus
- control
- children
-_get children
+ args
+ dispatch
+com object
+ method
+ args
+query interface
+ args
+ args
+ method
+ args
+add ref
+ method
+ args
+ release
+ method
+ args
+ invoke
+ args
+ args
+ args
+ args
+ args
+ args
+ args
+ args
+disconnect event sinks
 
 
- children
+ole event sink
  length
 
- control
- child
- children
+ole event sink
+ sink
+ole event sink
 
- child
-tab item
- child
-set radio focus
+ sink
+ disconnect
+ sink
+ release
+ole event sink
+ole event sink
+ole event sink guid
+ guid
+ole event sink unknown
+disconnect property change sink
+ole property change sink
+ole property change sink
+ disconnect
+obj unknown
+ole property change sink
+ release
+ole property change sink
+dispose com interfaces
+dispose com interfaces
+ole control site
+ole control site
+ dispose
+ole control site
+ dispatch
+ dispatch
+ dispose
+ dispatch
+ color
+get background
+obj unknown
+ole automation
+ole object
+ole automation
+ variant
+var back color
+ole object
+get property
+ com
+dispid backcolor
+ole object
+ dispose
+var back color
+color ref
+ com
+ole translate color
+var back color
+get int
+get display
+ palette
+color ref
+ com
 
-
- children
- length
-
- control
- child
- children
-
- child
-tab item
- child
-set tab item focus
- string
-tool tip text
- nmttdispinfo
- hdr
- hdr
- flags
-
-ttf idishwnd
- hwnd
- hdr
- from
- hwnd
- control
- control
- display
-get control
- hwnd
- control
- control
-tool tip text
-translate mnemonic
- event
- event
- control
- control
-translate mnemonic
- event
- control
- control
- control
- children
-_get children
-
-
- children
- length
-
- control
- child
- children
-
- child
-translate mnemonic
- event
- control
-translate traversal
- msg
- msg
- state
- canvas
+ color
+win 32_new
+get display
+color ref
+get background
+ font
+get font
+obj unknown
+ole automation
+ole object
+ole automation
+ variant
+var disp font
+ole object
+get property
+ com
+dispid font
+ole object
+ dispose
+var disp font
+ole automation
+disp font
+var disp font
+get automation
+ variant
+face name
+disp font
+get property
+ com
+dispid font name
+ variant
+ height
+disp font
+get property
+ com
+dispid font size
+ variant
+ italic
+disp font
+get property
+ com
+dispid font italic
+ variant
+ bold
+disp font
+get property
+ com
+dispid font bold
+disp font
+ dispose
+face name
+ height
+ italic
+ bold
  style
- swt
- embedded
-translate traversal
- msg
-update font
- font
-old font
- font
-new font
- control
- children
-_get children
-
-
- children
- length
-
- control
- control
- children
-
- control
- disposed
- control
-update font
-old font
-new font
- changed
-update font
-old font
-new font
- changed
- layout
- changed
-update layout
- resize
- all
-layout deferred
- state
-layout needed
- changed
- state
-layout changed
- state
-layout needed
-layout changed
- resize
-set resize children
- layout
- layout
- changed
- resize
-set resize children
- all
- control
- children
-_get children
-
-
- children
- length
-
- children
-
-update layout
- resize
- all
-widget style
-widget style
-
- clipchildren
- lresult
- erasebkgnd
- param
- param
- lresult
- result
- erasebkgnd
- param
- param
- result
- result
- state
- canvas
- style
- swt
- background
- lresult
- zero
- result
- lresult
- getdlgcode
- param
- param
- lresult
- result
- getdlgcode
- param
- param
- result
- result
- state
- canvas
- flags
-hooks keys
- flags
-
-dlgc wantallkeys
-
-dlgc wantarrows
-
-dlgc wanttab
- style
- swt
- focus
- flags
-
-dlgc static
-
-get window
- handle
-
- child
- flags
-
-dlgc static
- flags
- lresult
- flags
- result
- lresult
- getfont
- param
- param
- lresult
- result
- getfont
- param
- param
- result
- result
- code
-call window proc
- handle
-
- getfont
- param
- param
- code
- lresult
- code
+ bold
+get int
+ italic
+get int
  font
  font
-default font
- lresult
  font
- lresult
- lbuttondown
- param
- param
- lresult
- result
- lbuttondown
- param
- param
- state
- canvas
- style
- swt
- focus
-hooks keys
-
-get window
- handle
-
- child
-set focus
- result
- lresult
- notify
- param
- param
-
- win
- nmhdr
- hdr
- nmhdr
-
-move memory
- hdr
- param
- nmhdr
- sizeof
- hdr
- code
-
-ttn show
-
-ttn pop
-hwnd parent
- hdr
-hwnd from
-hwnd parent
-
-get parent
-hwnd parent
-hwnd parent
- bits
-
-get window long
-hwnd parent
-
-gwl exstyle
- bits
-
- topmost
-hwnd parent
- display
-lock active window
- flags
-
-swp noactivate
-
-swp nomove
-
-swp nosize
-hwnd insert after
- hdr
- code
-
-ttn show
-
-hwnd topmost
-
-hwnd notopmost
-set window pos
- hdr
-hwnd from
-hwnd insert after
- flags
- display
-lock active window
-
-ttn getdispinfoa
-
-ttn getdispinfow
- nmttdispinfo
- lpnmtdi
- hdr
- code
-
-ttn getdispinfoa
- lpnmtdi
- nmttdispinfoa
-
-move memory
- nmttdispinfoa
- lpnmtdi
- param
- nmttdispinfoa
- sizeof
- lpnmtdi
- nmttdispinfow
-
-move memory
- nmttdispinfow
- lpnmtdi
- param
- nmttdispinfow
- sizeof
- string
- string
-tool tip text
- lpnmtdi
- string
- shell
- shell
 get shell
- string
- display
- with
- string
- length
- string
- length
- chars
- length
- string
-get chars
- length
- chars
- hwnd
- hdr
- from
- hwnd
- lpnmtdi
- flags
+get display
+face name
+get string
+ height
+get int
+ style
+ font
+get font
+ color
+get foreground
+obj unknown
+ole automation
+ole object
+ole automation
+ variant
+var fore color
+ole object
+get property
+ com
+dispid forecolor
+ole object
+ dispose
+var fore color
+color ref
+ com
+ole translate color
+var fore color
+get int
+get display
+ palette
+color ref
+ com
 
-ttf idishwnd
- control
- control
- display
-get control
- hwnd
- control
- control
+ color
+win 32_new
+get display
+color ref
+get foreground
+get license info
+ guid
+ clsid
+ppv object
+ com
+get class object
+ clsid
+ com
+clsctx inproc handler
+ com
+clsctx inproc server
+ com
+iidi class factory
+ppv object
+ com
+
+class factory
+class factory
+class factory
+ppv object
+ licinfo
+ licinfo
+ licinfo
+class factory
+get lic info
+ licinfo
+ com
+
+class factory
+ release
+bstr key
+ licinfo
+ licinfo
+runtime key avail
+class factory
+request lic key
+bstr key
+ com
+
+class factory
+ release
+bstr key
+class factory
+ release
+ variant
+get site property
+ disp
+
+
+site property ids
+ length
+
+site property ids
+
+ disp
+site property values
+
+get window
+ phwnd
+ phwnd
+ com
+ invalidarg
+ frame
+ com
+move memory
+ phwnd
+ com
+ notimpl
+ com
+move memory
+ phwnd
+ handle
+ com
+
+ invoke
+disp member
+ riid
+ lcid
+ flags
+disp params
+var result
+excep info
+arg err
+var result
+ flags
+ com
+dispatch propertyget
+excep info
+ com
+move memory
+excep info
+arg err
+ com
+move memory
+arg err
+ com
+disp membernotfound
+ variant
+ result
+get site property
+disp member
+ result
+var result
+ result
+get data
+var result
+ com
+
+disp member
+ com
+dispid ambient supportsmnemonics
+ com
+dispid ambient showgrabhandles
+ com
+dispid ambient showhatching
+var result
+ com
+move memory
+var result
+excep info
+ com
+move memory
+excep info
+arg err
+ com
+move memory
+arg err
+ com
+ false
+ com
+dispid ambient offlineifnotconnected
+ com
+dispid ambient backcolor
+ com
+dispid ambient forecolor
+ com
+dispid ambient font
+ com
+dispid ambient localeid
+ com
+dispid ambient silent
+ com
+dispid ambient messagereflect
+var result
+ com
+move memory
+var result
+excep info
+ com
+move memory
+excep info
+arg err
+ com
+move memory
+arg err
+ com
+ notimpl
+var result
+ com
+move memory
+var result
+excep info
+ com
+move memory
+excep info
+arg err
+ com
+move memory
+arg err
+ com
+disp membernotfound
+control info changed
+ppv object
+obj unknown
+query interface
+ com
+iidi ole control
+ppv object
+ com
+
+ole control
+obj ole control
+ole control
+ppv object
+current control info
+ controlinfo
+obj ole control
+get control info
+current control info
+obj ole control
+ release
+ com
+
+ focus
+ event
+
+obj ole place object
+ verb
+ ole
+oleiverb uiactivate
+focus control
+ phwnd
+obj ole place object
+get window
+ phwnd
+ phwnd
+
+set focus
+ phwnd
+focus out
+ event
+
+obj ole place object
+obj ole place object
+ deactivate
+ focus
+got focus
+ com
+
+ deactivate
+ undoable
+ state
+state inplaceactive
+ com
+
+query interface
+ riid
+ppv object
+ result
+query interface
+ riid
+ppv object
+ result
+ com
+
+ result
+ riid
+ppv object
+ com
+ invalidarg
+ guid
+ guid
+ guid
+ com
+move memory
+ guid
+ riid
+ guid
+ sizeof
+ com
+equal guid
+ guid
+ com
+iidi ole control site
+ com
+move memory
+ppv object
+ole control site
+get address
+add ref
+ com
+
+ com
+equal guid
+ guid
+ com
+iidi dispatch
+ com
+move memory
+ppv object
+ dispatch
+get address
+add ref
+ com
+
+ com
+move memory
+ppv object
+ com
+ nointerface
+ release
+ result
+ release
+ result
+
+
+site property ids
+ length
+
+site property values
+
+ dispose
+site property ids
+site property values
+ variant
+ result
+release object interfaces
+disconnect event sinks
+disconnect property change sink
+release object interfaces
+remove event listener
+ event
+ole listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+ guid
+ riid
+get default event sink guid
+obj unknown
+ riid
+remove event listener
+obj unknown
+get address
+ riid
+ event
+ listener
+remove event listener
+ole automation
+ automation
+ guid
+ guid
+ event
+ole listener
+ listener
+check widget
+ automation
+ listener
+ guid
+ swt
+ error
+ swt
+error null argument
+remove event listener
+ automation
+get address
+ guid
+ event
+ listener
+remove event listener
+ole automation
+ automation
+ event
+ole listener
+ listener
+check widget
+ automation
+ listener
+ swt
+ error
+ swt
+error null argument
+ address
+ automation
+get address
+ unknown
+ unknown
+ unknown
+ address
+ guid
+ riid
+get default event sink guid
+ unknown
+ riid
+remove event listener
+ address
+ riid
+ event
+ listener
+remove event listener
+ iunknown
+ guid
+ guid
+ event
+ole listener
+ listener
+ listener
+ guid
+ swt
+ error
+ swt
+error null argument
+
+
+ole event sink
+ length
+
+ com
+equal guid
+ole event sink guid
+
+ guid
+ iunknown
+ole event sink unknown
+
+ole event sink
+
+remove listener
+ event
+ listener
+ole event sink
+
+has listeners
+ole event sink
+
+ disconnect
+ole event sink
+
+ release
+old length
+ole event sink
+ length
+old length
+ole event sink
+ole event sink
+ole event sink guid
+ guid
+ole event sink unknown
+ole event sink
+new ole event sink
+ole event sink
+old length
+ system
+ arraycopy
+ole event sink
+new ole event sink
+
+ system
+ arraycopy
+ole event sink
+
+new ole event sink
+
+old length
+
+ole event sink
+new ole event sink
+ guid
+new ole event sink guid
+ guid
+old length
+ system
+ arraycopy
+ole event sink guid
+new ole event sink guid
+
+ system
+ arraycopy
+ole event sink guid
+
+new ole event sink guid
+
+old length
+
+ole event sink guid
+new ole event sink guid
+new ole event sink unknown
+old length
+ system
+ arraycopy
+ole event sink unknown
+new ole event sink unknown
+
+ system
+ arraycopy
+ole event sink unknown
+
+new ole event sink unknown
+
+old length
+
+ole event sink unknown
+new ole event sink unknown
+remove property listener
+ property
+ole listener
+ listener
+ listener
+ swt
+ error
+ swt
+error null argument
+ole property change sink
+remove listener
+ property
+ listener
+set background
+ color
+ color
+set background
+ color
+obj unknown
+ole automation
+ole object
+ole automation
+ole object
+set property
+ com
+dispid backcolor
+ variant
+ color
+ handle
+ole object
+ dispose
+set font
+ font
+ font
+set font
+ font
+obj unknown
+ole automation
+ole object
+ole automation
+ variant
+var disp font
+ole object
+get property
+ com
+dispid font
+ole object
+ dispose
+var disp font
+ole automation
+disp font
+var disp font
+get automation
+font data
+ fdata
+ font
+get font data
+disp font
+set property
+ com
+dispid font name
+ variant
+ fdata
+get name
+disp font
+set property
+ com
+dispid font size
+ variant
+ fdata
+get height
+disp font
+set property
+ com
+dispid font italic
+ variant
+ fdata
 get style
  swt
-right left
- lpnmtdi
- flags
-
-ttf rtlreading
- lpnmtdi
- flags
-
-ttf rtlreading
- hdr
- code
-
-ttn getdispinfoa
- bytes
- chars
- length
-
-wide char multi byte
-
- acp
- chars
- chars
- length
- bytes
- bytes
- length
- shell
-set tool tip text
- lpnmtdi
- bytes
-
-move memory
- param
- nmttdispinfoa
- lpnmtdi
- nmttdispinfoa
- sizeof
- shell
-set tool tip text
- lpnmtdi
- chars
-
-move memory
- param
- nmttdispinfow
- lpnmtdi
- nmttdispinfow
- sizeof
- lresult
- zero
- notify
- param
- param
- lresult
- parentnotify
- param
- param
- state
- canvas
- style
+ italic
+disp font
+set property
+ com
+dispid font bold
+ variant
+ fdata
+get style
  swt
- embedded
- param
-
- create
- rect
- rect
- rect
-
-get client rect
- handle
- rect
-resize embedded handle
- param
- rect
- right
- rect
- left
- rect
- bottom
- rect
- top
- parentnotify
- param
- param
- lresult
- paint
- param
- param
- state
- canvas
- paint
- param
- param
-old bits
-new bits
-
- win
-old bits
-
-get window long
- handle
-
-gwl style
-new bits
-old bits
-
- clipsiblings
-
- clipchildren
-new bits
-old bits
-
-set window long
- handle
-
-gwl style
-new bits
- paintstruct
-
- paintstruct
- hooks
- swt
- paint
-rgn data
- complex
-expose region
- rgn
- style
- swt
-merge paints
- swt
-double buffered
- rgn
-
-create rect rgn
- complex
-
-get update rgn
- handle
- rgn
-
- complexregion
- style
- swt
-merge paints
- complex
- bytes
-
-get region data
- rgn
-rgn data
- bytes
-expose region
-
-get region data
- rgn
- bytes
-rgn data
- data
- data
- data
- data
-
-
- data
- hwnd
- handle
-
-
-
-win 32_new
- data
- width
-
- right
-
- left
- height
-
- bottom
-
- top
- width
- height
-
- paint
- image
- image
- style
- swt
-double buffered
- image
- image
- display
- width
- height
- paint
-
-
-
- image
- style
- swt
-right left
-
+ bold
+disp font
+ dispose
 set foreground
-get foreground
-
-set background
-get background
-
-set font
-get font
- style
- swt
- background
- paint
-copy area
- image
-
- left
-
- top
-
-fill rectangle
- width
- height
-
-offset rgn
- rgn
-
- left
-
- top
-
-select clip rgn
-
+ color
+ color
+set foreground
+ color
+obj unknown
+ole automation
+ole object
+ole automation
+ole object
+set property
+ com
+dispid forecolor
+ variant
+ color
  handle
- rgn
-
-set meta rgn
-
- handle
-
-set window org
-
- handle
-
- left
-
- top
- event
- event
- event
- event
+ole object
+ dispose
+set site property
+ disp
+ variant
+ value
 
 
- complex
-expose region
- rect
- rect
- rect
- count
-rgn data
+site property ids
+ length
 
+site property ids
 
- count
+ disp
+site property values
 
-
-set rect
- rect
-rgn data
-
-rgn data
-
-rgn data
-
-rgn data
-
- style
- swt
-double buffered
- swt
- background
-draw background
-
- handle
- rect
- event
-
- rect
- left
- event
-
- rect
- top
- event
- width
- rect
- right
- rect
- left
- event
- height
- rect
- bottom
- rect
- top
- event
- count
- count
-
-send event
- swt
- paint
- event
- disposed
- style
- swt
-double buffered
- swt
- background
- rect
- rect
- rect
-
-set rect
- rect
-
- left
-
- top
-
- right
-
- bottom
-draw background
-
- handle
- rect
- event
-
-
- left
- event
-
-
- top
- event
- width
- width
- event
- height
- height
-send event
- swt
- paint
- event
- event
-
- style
- swt
-double buffered
+site property values
 
  dispose
- disposed
- paint
-draw image
- image
+ value
+site property values
 
- left
+ value
+old length
+site property ids
+ length
+new site property ids
+old length
+ variant
+new site property values
+ variant
+old length
+ system
+ arraycopy
+site property ids
+new site property ids
 
- top
- image
- dispose
+ system
+ arraycopy
+site property ids
 
- paint
+new site property ids
 
- dispose
- rgn
+old length
 
-delete object
- rgn
+ system
+ arraycopy
+site property values
+new site property values
 
+ system
+ arraycopy
+site property values
 
-begin paint
- handle
+new site property values
 
- style
- swt
- background
- rect
- rect
- rect
+old length
 
-set rect
- rect
-
- left
-
- top
-
- right
-
- bottom
-draw background
-
- rect
-
-end paint
- handle
-
-
- win
-new bits
-old bits
- disposed
-
-set window long
- handle
-
-gwl style
-old bits
- lresult
- zero
- lresult
- printclient
- param
- param
- lresult
- result
- printclient
- param
- param
- result
- result
- state
- canvas
-force resize
- saved
-
- save
- param
- rect
- rect
- rect
-
-get client rect
- handle
- rect
- style
- swt
- background
-draw background
- param
- rect
- hooks
- swt
- paint
- filters
- swt
- paint
- data
- data
- data
- data
- device
- display
-
-
-
-win 32_new
- param
- data
- event
- event
- event
- event
-
-
- event
-
- rect
- left
- event
-
- rect
- top
- event
- width
- rect
- right
- rect
- left
- event
- height
- rect
- bottom
- rect
- top
-send event
- swt
- paint
- event
- event
-
-
- dispose
-
- restore
- param
- saved
- result
- lresult
- setfont
- param
- param
- setfont
- font
- param
- param
- lresult
- size
- param
- param
-set resize children
- lresult
- result
- size
- param
- param
- disposed
- result
- layout
-mark layout
-update layout
-set resize children
-
-window visible
- handle
- state
- canvas
- style
- swt
-redraw resize
- hooks
- swt
- paint
-
-invalidate rect
- handle
-
-comctl 32_ major
-
-app themed
-find theme control
-hwnd child
-
-get window
- handle
-
- child
-hwnd child
- flags
-
-rdw erase
-
-rdw invalidate
-
-rdw allchildren
-
-redraw window
-hwnd child
- flags
-hwnd child
-
-get window
-hwnd child
-
- hwndnext
- state
- canvas
- style
- swt
- embedded
-resize embedded handle
-
-get window
- handle
-
- child
- param
- param
- result
- lresult
- syscolorchange
- param
- param
-hwnd child
-
-get window
- handle
-
- child
-hwnd child
-
-send message
-hwnd child
-
- syscolorchange
-hwnd child
-
-get window
-hwnd child
-
- hwndnext
- lresult
- syscommand
- param
- param
- lresult
- result
- syscommand
- param
- param
- result
- result
- param
- result
-
- win
- cmd
- param
- cmd
-
- hscroll
-
- vscroll
-show bar
-horizontal bar
-horizontal bar
-get visible
-show bar
-vertical bar
-vertical bar
-get visible
- code
-call window proc
- handle
-
- syscommand
- param
- param
-show bar
-horizontal bar
-horizontal bar
-get visible
-show bar
-vertical bar
-vertical bar
-get visible
- flags
-
-rdw frame
-
-rdw invalidate
-
-rdw updatenow
-
-redraw window
- handle
- flags
- code
- lresult
- zero
- lresult
- code
- result
+site property ids
+new site property ids
+site property values
+new site property values
+old length
+site property ids
+ length
+new site property ids
+old length
+ variant
+new site property values
+ variant
+old length
+ system
+ arraycopy
+site property ids
+new site property ids
+old length
+ system
+ arraycopy
+site property values
+new site property values
+old length
+new site property ids
+old length
+ disp
+new site property values
+old length
+ value
+site property ids
+new site property ids
+site property values
+new site property values
 </identifier>
 <comments>
 copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-instances  this  class  are  controls  which  are  capable  containing  other  controls  styles  background  focus  merge  paints  redraw  resize  radio  group  embedded  double  buffered  events  none  note  the  code  background  code  code  focus  code  code  merge  paints  code  and  code  redraw  resize  code  styles  are  intended  for  use  with  code  canvas  code  they  can  used  with  code  composite  code  you  are  drawing  your  own  but  their  behavior  undefined  they  are  used  with  subclasses  code  composite  code  other  than  code  canvas  code  this  class  may  subclassed  custom  control  implementors  who  are  building  controls  that  are  constructed  from  aggregates  other  controls  see  canvas
-prevents  uninitialized  instances  from  being  created  outside  the  package
-constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  widget  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  widget  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  background  see  swt  focus  see  swt  merge  paints  see  swt  redraw  resize  see  swt  radio  group  see  widget get style
-clears  any  data  that  has  been  cached  layout  for  all  widgets  that  are  the  parent  hierarchy  the  changed  control  and  including  the  receiver  ancestor  does  not  have  layout  skipped  param  changed  array  controls  that  changed  state  and  require  recalculation  size  exception illegal argument exception  error  invalid  argument  the  changed  array  null  any  its  controls  are  null  have  been  disposed  error  invalid  parent  any  control  changed  not  the  widget  tree  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
-nothing  subclassing  allowed
-returns  possibly  empty  array  containing  the  receiver  children  children  are  returned  the  order  that  they  are  drawn  note  this  not  the  actual  structure  used  the  receiver  maintain  its  list  children  modifying  the  array  will  not  affect  the  receiver  return  array  children  see  control move above  see  control move below  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
-note  the  current  implementation  will  count  non  registered  children
-returns  layout  which  associated  with  the  receiver  null  one  has  not  been  set  return  the  receiver  layout  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
-gets  the  possibly  empty  tabbing  order  for  the  control  return tab list  the  ordered  list  controls  representing  the  tab  order  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see set tab list
-returns  code  true  code  the  receiver  has  deferred  the  performing  layout  and  code  false  code  otherwise  return  the  receiver  deferred  layout  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see set layout deferred  boolean  see layout deferred  since 
-returns  code  true  code  the  receiver  any  ancestor  and  including  the  receiver  nearest  ancestor  shell  has  deferred  the  performing  layouts  otherwise  code  false  code  returned  return  the  receiver  deferred  layout  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see set layout deferred  boolean  see get layout deferred  since 
-the  receiver  has  layout  asks  the  layout  lay  out  that  set  the  size  and  location  the  receiver  children  the  receiver  does  not  have  layout  nothing  this  equivalent  calling  code  layout  true  code  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
-the  receiver  has  layout  asks  the  layout  lay  out  that  set  the  size  and  location  the  receiver  children  the  argument  code  true  code  the  layout  must  not  rely  any  information  has  cached  about  the  immediate  children  code  false  code  the  layout  may  potentially  optimize  the  work  doing  assuming  that  none  the  receiver  children  has  changed  state  since  the  last  layout  the  receiver  does  not  have  layout  nothing  child  resized  result  call  layout  the  resize  event  will  invoke  the  layout  the  child  the  layout  will  cascade  down  through  all  child  widgets  the  receiver  widget  tree  until  child  encountered  that  does  not  resize  note  that  layout  due  resize  will  not  flush  any  cached  information  same  code  layout  false  code  param  changed  code  true  code  the  layout  must  flush  its  caches  and  code  false  code  otherwise  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
-the  receiver  has  layout  asks  the  layout  lay  out  that  set  the  size  and  location  the  receiver  children  the  changed  argument  code  true  code  the  layout  must  not  rely  any  information  has  cached  about  its  children  code  false  code  the  layout  may  potentially  optimize  the  work  doing  assuming  that  none  the  receiver  children  has  changed  state  since  the  last  layout  the  all  argument  code  true  code  the  layout  will  cascade  down  through  all  child  widgets  the  receiver  widget  tree  regardless  whether  the  child  has  changed  size  the  changed  argument  applied  all  layouts  the  all  argument  code  false  code  the  layout  will  not  cascade  down  through  all  child  widgets  the  receiver  widget  tree  however  child  resized  result  call  layout  the  resize  event  will  invoke  the  layout  the  child  note  that  layout  due  resize  will  not  flush  any  cached  information  same  code  layout  false  code  param  changed  code  true  code  the  layout  must  flush  its  caches  and  code  false  code  otherwise  param  all  code  true  code  all  children  the  receiver  widget  tree  should  laid  out  and  code  false  code  otherwise  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
-forces  lay  out  that  sets  the  size  and  location  all  widgets  that  are  the  parent  hierarchy  the  changed  control  and  including  the  receiver  the  layouts  the  hierarchy  must  not  rely  any  information  cached  about  the  changed  control  any  its  ancestors  the  layout  may  potentially  optimize  the  work  doing  assuming  that  none  the  peers  the  changed  control  have  changed  state  since  the  last  layout  ancestor  does  not  have  layout  skip  param  changed  control  that  has  had  state  change  which  requires  recalculation  its  size  exception illegal argument exception  error  invalid  argument  the  changed  array  null  any  its  controls  are  null  have  been  disposed  error  invalid  parent  any  control  changed  not  the  widget  tree  the  receiver  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
-this  code  intentionally  commented  all  widgets  that  are  created  swt  have  clipsiblings  ensure  that  application  code  does  not  draw  outside  the  control
-int  count  parent get children count
-count 
-int  bits get window long  handle  gwl  style
-bits  clipsiblings  flags  swp  nocopybits
-
-sets  the  layout  which  associated  with  the  receiver  the  argument  which  may  null  param  layout  the  receiver  new  layout  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
-the  argument  code  true  code  causes  subsequent  layout  operations  the  receiver  any  its  children  ignored  layout  any  kind  can  occur  the  receiver  any  its  children  until  the  flag  set  false  layout  operations  that  occurred  while  the  flag  was  code  true  code  are  remembered  and  when  the  flag  set  code  false  code  the  layout  operations  are  performed  optimized  manner  nested  calls  this  method  are  stacked  param  defer  the  new  defer  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  layout  boolean  see  layout  control  since 
-sets  the  tabbing  order  for  the  specified  controls  match  the  order  that  they  occur  the  argument  list  param tab list  the  ordered  list  controls  representing  the  tab  order  null  exception illegal argument exception  error  invalid  argument  widget  the tab list  null  has  been  disposed  error  invalid  parent  widget  the tab list  not  the  same  widget  tree  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
-call  layout  directly  that  subclasses  that  reimplement  this  method  instead  using  layout  will  set  the  size  and  location  their  children  when  the  font  changes
-force  clipping  children  setting  clipchildren
-return  zero  indicate  that  the  background  was  not  erased
-set  focus  for  canvas  with  children
-feature  windows  when  the  tool  tip  control  created  the  parent  the  tool  tip  the  shell set parent  used  reparent  the  tool  bar  into  new  shell  the  tool  tip  not  reparented  and  pops  underneath  the  new  shell  the  fix  make  sure  the  tool  tip  topmost  window
-bug  windows  and  setting  the  tool  tip  the  top  most  window  using  hwnd  topmost  can  result  parent  dialog  shell  being  moved  behind  its  parent  the  dialog  has  sibling  that  currently  top  the  fix  lock  the  order  the  active  window  feature  windows  using set window pos  with  hwnd  notopmost  clear  the  topmost  state  window  whose  parent  already  topmost  clears  the  topmost  state  the  parent  the  fix  check  the  parent  already  top  and  neither  set  clear  the  topmost  status  the  tool  tip
-bug  windows  for  some  reason  the  tool  bar  control  sends  both  ttn  getdispinfow  and  ttn  getdispinfoa  get  the  tool  tip  text  and  the  tab  folder  control  sends  only  ttn  getdispinfow  the  fix  handle  only  ttn  getdispinfow  even  though  should  never  sent  windows  note  because  the  size  nmttdispinfo  differs  between  windows  and  guard  against  the  case  where  the  wrong  kind  message  occurs  inlining  the  memory  moves  and  the  unicode  conversion  code
-ensure  that  the  orientation  the  tool  tip  matches  the  orientation  the  control
-set  the  clipping  bits
-paint  the  control  and  the  background
-get  the  damage
-create  the  paint 
-send  the  paint  event
-possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  paint  event  this  happens  attempt  give  back  the  paint  anyways  because  this  scarce  windows  resource
-widget  could  disposed  this  point
-dispose  the  paint 
-restore  the  clipping  bits
-possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  paint  event  this  happens  don  attempt  restore  the  style
-begin  deferred  window  positioning
-resize  and  layout
-possible  but  unlikely  that  application  code  could  have  disposed  the  widget  the  resize  event  this  happens  end  the  processing  the  windows  message  returning  the  result  the  size  message
-end  deferred  window  positioning
-damage  the  widget  cause  repaint
-resize  the  embedded  window
-check  see  the  command  system  command  user  menu  item  that  was  added  the  system  menu
-bug  windows  when  vertical  horizontal  scroll  bar  hidden  shown  while  the  opposite  scroll  bar  being  scrolled  the  user  with  hscroll  code  linedown  the  scroll  bar  does  not  redraw  properly  the  fix  detect  this  case  and  redraw  the  non  client  area
-return  the  result
+ole control site  provides  site  manage  embedded  active  control  within  container  addition  the  behaviour  provided ole client site  this  object  provides  the  following  events  from  the  active  control  notification  property  changes  from  the  active  control  simplified  access  well  known  properties  the  active  control  font  background  color  expose  ambient  properties  the  container  the  active  control  this  object  implements  the  ole  interfaces ole control site  dispatch  and property notify sink  note  that  although  this  class  subclass  code  composite  code  does  not  make  sense  add  code  control  code  children  set  layout  styles  border  events  dispose  move  resize 
+interfaces  for  this  container
+supporting  property  change  attributes
+supporting  event  sink  attributes
+supporting  information  for  the  control  com  object
+create ole control site  child  widget  using  style  bits  select  particular  look  set  properties  param  parent  composite  widget  must ole frame  param  style  the  bitwise  ing  widget  styles  param  prog  the  unique  program  identifier  which  has  been  registered  for  this  active  control  the  value  the  prog  key  the  value  the version independent prog  key  specified  the  registry  for  this  control  for  example  the version independent prog  for  internet  explorer  shell  explorer  exception illegal argument exception  error  null  argument  when  the  parent  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  invalid  classid  when  the  prog  does  not  map  registered  clsid  error  cannot  create  object  when  failed  create  ole  object  error  cannot  access  classfactory  when  class  factory  could  not  found  error  cannot  create  licensed  object  when  failed  create  licensed  ole  object 
+check  for  licensing
+open  storage  object
+create  ole  object  with  storage  object
+prepare  the class factory
+create  com  object
+prepare  storage  medium
+init  sinks
+init  site  properties
+adds  the  listener  receive  events  param  event  the  the  event  param  listener  the  listener  exception illegal argument exception  error  null  argument  when  listener  null 
+get  event  sink  from provide class info
+get  event  sink  from provide class info
+adds  the  listener  receive  events  since  param  automation  the  automation  object  that  provides  the  event  notification  param  event  the  the  event  param  listener  the  listener  exception illegal argument exception  error  null  argument  when  listener  null 
+have  connected  this  kind  event  sink  before
+get  property  change  notification  from  control
+get  access  the  control  object
+ask  the  control  for  its  info  case  users
+need  act 
+adds  the  listener  receive  events  param  property  the  identifier  the  property  param  listener  the  listener  exception illegal argument exception  error  null  argument  when  listener  null 
+register  each  the  interfaces  that  this  object  implements
+method lock place active  not  implemented
+method get extended control  not  implemented
+method transform coords  not  implemented
+method  translate  accelerator  not  implemented
+method show property frame  not  implemented
+method get type info count  not  implemented
+method get type info  not  implemented
+method get names  not  implemented
+are  getting  the  ole  color  should  change  this  the  colorref  value
+variant char set disp font get property  com  dispid  font  charset
+are  getting  the  ole  color  should  change  this  the  colorref  value
+get  the  control  site  property  specified  the disp member  since 
+copy  the  window  handle  into  the  memory  passed 
+indicate  false  result
+not  implemented
+ask  the  control  for  its  info  case  users
+need  act 
+controls  don  need  anything  for
+border  space  menubars
+removes  the  listener  param  event  the  event  identifier  param  listener  the  listener  exception illegal argument exception  error  null  argument  when  listener  null 
+removes  the  listener  since  deprecated  use ole control site remove event listener ole automation  int ole listener  param  automation  the  automation  object  that  provides  the  event  notification  param  guid  the  identifier  the  events  com  interface  param  event  the  event  identifier  param  listener  the  listener  exception illegal argument exception  error  null  argument  when  listener  null 
+removes  the  listener  since  param  automation  the  automation  object  that  provides  the  event  notification  param  event  the  event  identifier  param  listener  the  listener  exception illegal argument exception  error  null  argument  when  listener  null 
+free  resources  associated  with  event  sink
+removes  the  listener  param  listener  the  listener  exception illegal argument exception  error  null  argument  when  listener  null 
+set  the  background  the  active  control
+set  the  font  the  active  control
+disp font set property  com  dispid  font  charset  new  variant  fdata get charset
+set  the  foreground  the  active  control
+sets  the  control  site  property  specified  the disp member  new  value  the  value  will  disposed  the  control  site  when  longer  required  using  variant  dispose  passing  value  null  will  clear  the  disp  value  param  disp  the  the  property  specified  the  idl  the  active  control  param  value  the  new  value  for  the  property  expressed  variant  since 
 </comments>
 </text>
 </DOC>

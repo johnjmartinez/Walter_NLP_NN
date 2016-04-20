@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.TVITEM.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.SCRIPT_ITEM.java </DOCNO>
 <text>
 <class>
- tvitem
+script item
 </class>
 <method>
 NONE
@@ -13,21 +13,15 @@ NONE
  swt
  internal
  win
- tvitem
- mask
- item
- state
-state mask
-psz text
-cch text max
- image
-selected image
- children
- param
+script item
+char pos
+script analysis
+
+script analysis
  sizeof
 </identifier>
 <comments>
-copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
 </comments>
 </text>
 </DOC>

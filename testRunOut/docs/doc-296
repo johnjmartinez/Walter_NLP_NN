@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.MEASUREITEMSTRUCT.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.LOGFONTA.java </DOCNO>
 <text>
 <class>
- measureitemstruct
+ logfonta
 </class>
 <method>
 NONE
@@ -13,13 +13,11 @@ NONE
  swt
  internal
  win
- measureitemstruct
-ctl type
- ctl
- item
-item width
-item height
-item data
+ logfonta
+ logfont
+face name
+
+ facesize
  sizeof
 </identifier>
 <comments>

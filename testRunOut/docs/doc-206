@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.ICONINFO.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.TVITEM.java </DOCNO>
 <text>
 <class>
- iconinfo
+ tvitem
 </class>
 <method>
 NONE
@@ -13,12 +13,17 @@ NONE
  swt
  internal
  win
- iconinfo
- icon
- hotspot
- hotspot
-hbm mask
-hbm color
+ tvitem
+ mask
+ item
+ state
+state mask
+psz text
+cch text max
+ image
+selected image
+ children
+ param
  sizeof
 </identifier>
 <comments>

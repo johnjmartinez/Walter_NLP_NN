@@ -1,43 +1,33 @@
 <DOC>
-<DOCNO>org.eclipse.swt.custom.StyledTextRenderer.java </DOCNO>
+<DOCNO>org.eclipse.swt.custom.ScrolledComposite.java </DOCNO>
 <text>
 <class>
-styled text renderer
+scrolled composite
 </class>
 <method>
-styled text renderer
-calculate line height
- dispose
- dispose
-draw line
-draw line break selection
-get client area
+scrolled composite
+handle event
+handle event
+handle event
+check style
+get always show scroll bars
 get content
-get device
-get baseline
-get bidi segments
-get font
-get font data
- get
-get horizontal pixel
-get left margin
-get line end space width
-get line background data
-get line height
-get line style data
-get line style data
-get orientation
-get right margin
-get selection foreground
-get selection background
-get selection
-get visual line style data
-get word wrap
-full line selection
-set tab length
-get text layout
-create text layout
-dispose text layout
+ scroll
+need scroll
+need scroll
+get origin
+set origin
+set origin
+set always show scroll bars
+set content
+set expand horizontal
+set expand vertical
+set layout
+set min height
+set min size
+set min size
+set min width
+ scroll
 </method>
 <identifier>
  org
@@ -47,686 +37,401 @@ dispose text layout
  org
  eclipse
  swt
- swt
  org
  eclipse
  swt
  graphics
-styled text renderer
- device
- device
- font
-regular font
-bold font
-italic font
-bold italic font
-tab width
- ascent
- descent
-line end space width
-styled text renderer
- device
- device
- font
-regular font
- device
- device
-regular font
-regular font
-calculate line height
-
-
- get
-line end space width
-
-string extent
-
- font
-original font
-
-get font
-font metrics
- metrics
-
-get font metrics
- ascent
- math
- max
- ascent
- metrics
-get ascent
- metrics
-get leading
- descent
- math
- max
- descent
- metrics
-get descent
-
-set font
-get font
+ org
+ eclipse
  swt
- bold
- metrics
-
-get font metrics
- ascent
- math
- max
- ascent
- metrics
-get ascent
- metrics
-get leading
- descent
- math
- max
- descent
- metrics
-get descent
-
-set font
-get font
+ widgets
+scrolled composite
+ composite
+ control
+ content
+ listener
+content listener
+min height
+min width
+expand horizontal
+expand vertical
+always show scroll
+scrolled composite
+ composite
+ parent
+ style
+ parent
+check style
+ style
+set layout
+scrolled composite layout
+scroll bar
+ bar
+get horizontal bar
+ bar
+ bar
+add listener
  swt
- italic
- metrics
+ selection
+ listener
+handle event
+ event
 
-get font metrics
- ascent
- math
- max
- ascent
- metrics
-get ascent
- metrics
-get leading
- descent
- math
- max
- descent
- metrics
-get descent
-
-set font
-get font
+ scroll
+scroll bar
+ bar
+get vertical bar
+ bar
+ bar
+add listener
  swt
- bold
+ selection
+ listener
+handle event
+ event
+
+ scroll
+content listener
+ listener
+handle event
+ event
+
+
+ type
  swt
- italic
- metrics
-
-get font metrics
- ascent
- math
- max
- ascent
- metrics
-get ascent
- metrics
-get leading
- descent
- math
- max
- descent
- metrics
-get descent
-
-set font
-original font
- dispose
-
-bold font
-bold font
- dispose
-italic font
-italic font
- dispose
-bold italic font
-bold italic font
- dispose
-bold font
-italic font
-bold italic font
- dispose
-bold font
-bold font
- dispose
-italic font
-italic font
- dispose
-bold italic font
-bold italic font
- dispose
-bold font
-italic font
-bold italic font
- dispose
-
-
-draw line
- string
- line
-line index
- paint
-
-
- color
-widget background
- color
-widget foreground
-clear background
-line offset
+ resize
+ layout
+check style
+ style
+ mask
+ swt
+ scroll
+ swt
+ scroll
+ swt
+ border
+ swt
+left right
+ swt
+right left
+ style
+ mask
+get always show scroll bars
+always show scroll
+ control
 get content
-get offset line
-line index
-line length
- line
- length
+ content
+ scroll
+ content
  point
+ location
+ content
+get location
+scroll bar
+ bar
+get horizontal bar
  selection
+ bar
 get selection
-selection start
+ content
+set location
  selection
+ location
 
-selection end
- selection
-
-left margin
-get left margin
- color
-line background
-text layout
- layout
-get text layout
- line
-line offset
+need scroll
  rectangle
- client
-get client area
-styled text event
- event
-get line background data
-line offset
- line
- event
-line background
- event
-line background
-line background
-line background
-widget background
-clear background
-full line selection
-selection start
-line offset
-selection end
-line offset
-line length
-
-set background
-line background
-
-set foreground
-line background
-
-fill rectangle
- client
-
-left margin
- paint
- client
- width
- ascent
- descent
- paint
- client
-
-left margin
-get horizontal pixel
-selection start
-selection end
+content rect
+ visible
+scroll bar
+ bar
+get horizontal bar
+ bar
  rectangle
- rect
- layout
-get line bounds
-draw line break selection
- line
-line offset
- paint
- rect
-
- rect
+host rect
+get bounds
+ border
+get border width
+host rect
  width
- paint
+ border
+scroll bar
+ bar
+get vertical bar
+ visible
+ bar
+host rect
+ width
+ bar
+get size
+
+expand horizontal
+content rect
+ width
+host rect
+ width
+expand horizontal
+min width
+host rect
+ width
+need scroll
+ rectangle
+content rect
+ visible
+scroll bar
+ bar
+get vertical bar
+ bar
+ rectangle
+host rect
+get bounds
+ border
+get border width
+host rect
+ height
+ border
+scroll bar
+ bar
+get horizontal bar
+ visible
+ bar
+host rect
+ height
+ bar
+get size
+
+expand vertical
+content rect
+ height
+host rect
+ height
+expand vertical
+min height
+host rect
+ height
+ point
+get origin
+check widget
+ content
+ point
+ point
+ location
+ content
+get location
+ point
+ location
+
+ location
+
+set origin
+ point
+ origin
+set origin
+ origin
+
+ origin
+
+set origin
 
 
-set foreground
-widget foreground
+check widget
+ content
+scroll bar
+ bar
+get horizontal bar
+ bar
+ bar
+set selection
 
-set background
-line background
-selection start
-selection end
-selection end
-line offset
-selection start
-line offset
-line length
+
+ bar
+get selection
+
+scroll bar
+ bar
+get vertical bar
+ bar
+ bar
+set selection
+
+
+ bar
+get selection
+
+ content
+set location
+
+
+set always show scroll bars
+ show
+check widget
+ show
+always show scroll
+always show scroll
+ show
+scroll bar
+ bar
+get horizontal bar
+ bar
+always show scroll
+ bar
+set visible
+scroll bar
+ bar
+get vertical bar
+ bar
+always show scroll
+ bar
+set visible
  layout
- draw
+set content
+ control
+ content
+check widget
+ content
+ content
+ disposed
+ content
+remove listener
+ swt
+ resize
+content listener
+ content
+set bounds
+ rectangle
+ content
+ content
+scroll bar
+ bar
+get vertical bar
+scroll bar
+ bar
+get horizontal bar
+ content
+ bar
+ bar
+set maximum
+ bar
+set thumb
+ bar
+set selection
+ bar
+ bar
+set maximum
+ bar
+set thumb
+ bar
+set selection
+ content
+set location
+ layout
+ content
+add listener
+ swt
+ resize
+content listener
+ bar
+ bar
+set visible
+always show scroll
+ bar
+ bar
+set visible
+always show scroll
+set expand horizontal
+ expand
+check widget
+ expand
+expand horizontal
+expand horizontal
+ expand
+ layout
+set expand vertical
+ expand
+check widget
+ expand
+expand vertical
+expand vertical
+ expand
+ layout
+set layout
+ layout
+ layout
+check widget
+set min height
+ height
+set min size
+min width
+ height
+set min size
+ point
+ size
+ size
+set min size
+set min size
+ size
 
- paint
- paint
- start
+ size
+
+set min size
+ width
+ height
+check widget
+ width
+min width
+ height
+min height
+min width
  math
  max
-selection start
-line offset
- end
- math
- min
-line length
-selection end
-line offset
- layout
- draw
-
- paint
- paint
- start
- end
-get selection foreground
-get selection background
-dispose text layout
- layout
-draw line break selection
- string
- line
-line offset
- paint
- paint
-
-
- rectangle
-get client area
-styled text content
-get content
- device
-get device
- device
-get baseline
- ascent
-get bidi segments
-line offset
- string
-line text
- font
-get font
- style
- style
- swt
- bold
-bold font
-bold font
-bold font
- font
- device
-get font data
- style
- swt
- italic
-italic font
-italic font
-italic font
- font
- device
-get font data
- style
- swt
- bold
- swt
- italic
-bold italic font
-bold italic font
-bold italic font
- font
- device
-get font data
- style
-regular font
-font data
-get font data
- style
-font data
-font datas
-regular font
-get font data
-
-
-font datas
- length
-
-font datas
-
-set style
- style
-font datas
-
- get
-get horizontal pixel
-get left margin
-get line end space width
-line end space width
-styled text event
-get line background data
-line offset
- string
- line
-get line height
- ascent
- descent
-styled text event
-get line style data
-styled text event
- event
-line offset
- string
- line
-line length
- line
- length
- event
- styles
-get word wrap
- event
- styles
-get visual line style data
- event
- styles
-line offset
-line length
- event
- styles
- event
- styles
-style range
- event
-styled text event
-get line style data
-line offset
- string
- line
-get orientation
-get right margin
- color
-get selection foreground
- color
-get selection background
- point
-get selection
-style range
-get visual line style data
-style range
-logical styles
-line offset
-line length
-line end
-line offset
-line length
-old style count
-logical styles
- length
-new style count
-
-
-old style count
-
-style range
- style
-logical styles
-
- style
- start
-line end
- style
- start
- style
- length
-line offset
-new style count
-new style count
-old style count
-style range
-new styles
-style range
-new style count
-
-
-
-old style count
-
-style range
- style
-logical styles
-
- style
- start
-line end
- style
- start
- style
- length
-line offset
-new styles
-
-logical styles
-
-logical styles
-new styles
-logical styles
-get word wrap
-full line selection
-set tab length
-tab length
-
-
- get
-string buffer
-tab buffer
-string buffer
-tab length
-
-
-tab length
-
-tab buffer
- append
-tab width
-
-string extent
-tab buffer
- string
-
- dispose
-
-text layout
-get text layout
- string
- line
-line offset
-text layout
- layout
-create text layout
-line offset
- layout
-set font
-regular font
- layout
-set ascent
- ascent
- layout
-set descent
- descent
- layout
-set text
- line
- layout
-set orientation
-get orientation
- layout
-set segments
-get bidi segments
-line offset
- line
- layout
-set tabs
-tab width
- length
- line
- length
-styled text event
- event
-get line style data
-line offset
- line
-style range
- styles
- event
- event
- styles
-last offset
- styles
-style index
-style index
- styles
- length
-style index
-style range
- style
- styles
-style index
- style
- unstyled
- start
- end
-line offset
- style
- start
- start
- end
- math
- min
- length
- style
- length
-line offset
- style
- start
- start
- style
- start
-line offset
- end
- math
- min
- length
- start
- style
- length
- start
- length
-last offset
- start
- layout
-set style
-last offset
- start
-text style
-text style
-text style
-get font
- style
-font style
- style
- foreground
- style
- background
-text style
- underline
- style
- underline
-text style
- strikeout
- style
- strikeout
- layout
-set style
-text style
- start
- end
-last offset
+ width
+min height
  math
  max
-last offset
- end
-last offset
- length
+ height
  layout
-set style
-last offset
- length
- layout
-text layout
-create text layout
-line offset
-text layout
- device
-dispose text layout
-text layout
- layout
- layout
- dispose
+set min width
+ width
+set min size
+ width
+min height
+ scroll
+ content
+ point
+ location
+ content
+get location
+scroll bar
+ bar
+get vertical bar
+ selection
+ bar
+get selection
+ content
+set location
+ location
+
+ selection
 </identifier>
 <comments>
 copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-styled text renderer  renders  the  content styled text  widget  subclasses  can  provide  different  device  display  printer  render  and  implement  abstract  methods  return  resources  created  that  device
-device  render 
-width  pixels  tab  character
-width  pixels  the  space  used  represent  line  delimiters
-creates  instance  class styled text renderer  class  param  device  device  render  param regular font  font  use  for  regular  text  param left margin  margin  the  left  the  text
-calculates  the  line  height  and  space  width
-don  assume  that  bold  and  normal  fonts  have  the  same  height
-fixes  bug  41773
-clear  the  font  cache
-disposes  the  resource  created  the  receiver
-dispose  the  specified  allows  subclasses  reuse  param  dispose
-draws  line  text  the  specified  location  param  line  the  line  draw  param line index  index  the  line  draw  param  paint  location  draw  param  draw  param widget background  the  widget  background  color  used  the  default  rendering  color  param widget foreground  the  widget  foreground  color  used  the  default  rendering  color  param clear background  true  the  line  background  should  drawn  explicitly
-draw  background  full  selection  off  line  not
-completely  selected
-draws  the  background  the  line  selection  implemented  subclasses  for  optional  selection  rendering  param  line  the  line  draw  param line offset  offset  the  first  character  the  line  relative  the  start  the  document  param  styles  line  styles  param  paint  location  draw  param  draw  param  bidi  the  bidi  object  use  for  measuring  and  rendering  text  bidi  locales  null  when  not  bidi  mode
-returns  the  visible  client  area  that  can  used  for  rendering  return  the  visible  client  area  that  can  used  for  rendering
-returns  the  class styled text content  class  use  for  line  offset  calculations  return  the  class styled text content  class  use  for  line  offset  calculations
-returns  the  device  that  being  rendered  return  the  device  that  being  rendered 
-returns  the  text  segments  that  should  treated  they  had  different  direction  than  the  surrounding  text  param line offset  offset  the  first  character  the  line  based  from  the  beginning  the  document  param  line  text  the  line  specify  bidi  segments  for  return  text  segments  that  should  treated  they  had  different  direction  than  the  surrounding  text  only  the  start  index  segment  specified  relative  the  start  the  line  always  starts  with  and  ends  with  the  line  length  exception illegal argument exception  error  invalid  argument  the  segment  indices  returned  the  listener  not  start  with  are  not  ascending  order  exceed  the  line  length  have  duplicates 
-returns  the  font  according  with  the  given  style
-returns  the  use  for  rendering  and  measuring  allows  subclasses  reuse  return  the  use  for  rendering  and  measuring
-returns  the  horizontal  scroll  position  return  the  horizontal  scroll  position
-returns  the  width  pixels  the  space  used  represent  line  delimiters  return  the  width  pixels  the  space  used  represent  line  delimiters
-returns  the  line  background  data  for  the  given  line  null  there  none  param line offset  offset  the  line  start  relative  the  start  the  content  param  line  line  get  line  background  data  for  return  line  background  data  for  the  given  line  may  return  null
-returns  the  height  pixels  line  return  the  height  pixels  line
-returns  the  line  style  data  for  the  specified  line  the line offset  and  line  may  specify  segment  logical  line  stored  the  class styled text content  class  the  widget  the  returned  styles  are  guaranteed  least  partially  the  segment  param  event  the  styles  for  the  logical  line  param line offset  offset  the  line  start  relative  the  start  the  content  param  line  line  get  line  styles  for  return  line  style  data  for  the  given  line  segment  styles  may  start  before  line  start  and  end  after  line  end  but  are  guaranteed  least  partially  the  line
-returns  the  line  style  data  for  the  given  line  null  there  none  there line style listener  but  does  not  set  any  styles  the styled text event  styles  field  will  initialized  empty  array  param line offset  offset  the  line  start  relative  the  start  the  content  param  line  line  get  line  styles  for  return  line  style  data  for  the  given  line  styles  may  start  before  line  start  and  end  after  line  end
-
-
-
-
-returns  the  widget  selection  implemented  subclasses  for  optional  selection  rendering  return  the  widget  selection
-returns  styles  for  the  specified  visual  wrapped  line  param logical styles  the  styles  for  logical  unwrapped  line  param line offset  offset  the  visual  line  param line length  length  the  visual  line  return  styles  the logical styles  array  that  are  least  partially  the  specified  visual  line
-returns  the  word  wrap  state  return  true  word  wrap  false  word  wrap  lines  may  extend  beyond  the  right  side  the  client  area
-returns  whether  the  widget  was  created  with  the  swt  full  selection  style  implemented  subclasses  for  optional  selection  rendering  return  true  the  widget  running  full  line  selection  mode  false  otherwise
-calculates  the  width  pixel  tab  character  param tab length  number  space  characters  represented  tab  character
-returns text layout  given  line  index  and  array  styles
+scrolled composite  provides  scrollbars  and  will  scroll  its  content  when  the  user  uses  the  scrollbars  there  are  two  ways  use  the scrolled composite  set  the  size  the  control  that  being  scrolled  and  the scrolled composite  will  show  scrollbars  when  the  contained  control  can  not  fully  seen  the  second  way  imitates  the  way  browser  would  work  set  the  minimum  size  the  control  and  the scrolled composite  will  show  scroll  bars  the  visible  area  less  than  the  minimum  size  the  control  and  will  expand  the  size  the  control  the  visible  area  greater  than  the  minimum  size  this  requires  invoking  both set min width set min height  and set expand horizontal set expand vertical  code  pre  public  static  void  main  string  args  display  display  new  display  color  red  display get system color  swt  color  red  color  blue  display get system color  swt  color  blue  shell  shell  new  shell  display  shell set layout  new fill layout  set  the  size  the  scrolled  content  method  final scrolled composite  new scrolled composite  shell  swt  scroll  swt  scroll  swt  border  final  composite  new  composite  swt  none set content set background  red grid layout  layout  new grid layout  layout num columns set layout  layout  button  new  button  swt  push set text  first  button set size compute size  swt  default  swt  default  set  the  minimum  width  and  height  the  scrolled  content  method  final scrolled composite  new scrolled composite  shell  swt  scroll  swt  scroll  swt  border set expand horizontal  true set expand vertical  true  final  composite  new  composite  swt  none set content set background  blue  layout  new grid layout  layout num columns set layout  layout  button  new  button  swt  push set text  first  button set min size compute size  swt  default  swt  default  button  add  new  button  shell  swt  push  add set text  add  children  final  int  index  new  int  add add listener  swt  selection  new  listener  public  void handle event  event  index  button  button  new  button  swt  push  button set text  button  index  reset  size  content  children  can  seen  method set size compute size  swt  default  swt  default  layout  button  new  button  swt  push  button set text  button  index  reset  the  minimum  width  and  height  children  can  seen  method set min size compute size  swt  default  swt  default  layout  shell  open  while  shell  disposed  display read and dispatch  display  sleep  display  dispose  pre  code  styles  scroll  scroll 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  widget  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  widget  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  scroll  see  swt  scroll  see get style
+returns  the  always  show  scrollbars  flag  true  the  scrollbars  are  always  shown  even  they  are  not  required  false  the  scrollbars  are  only  visible  when  some  part  the  composite  needs  scrolled  seen  the  scroll  and  scroll  style  bits  are  also  required  enable  scrollbars  the  horizontal  and  vertical  directions  return  the  always  show  scrollbars  flag  value
+ check widget
+get  the  content  that  being  scrolled  return  the  control  displayed  the  content  area
+ check widget
+return  the  point  the  content  that  currenly  appears  the  top  left  corner  the  scrolled  composite  return  the  point  the  content  that  currenly  appears  the  top  left  corner  the  scrolled  composite  content  has  been  set  this  returns  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+scrolls  the  content  that  the  specified  point  the  content  the  top  left  corner  content  has  been  set  nothing  will  occur  negative  values  will  ignored  values  greater  than  the  maximum  scroll  distance  will  result  scrolling  the  end  the  scrollbar  param  origin  the  point  the  content  appear  the  top  left  corner  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  value  origin  outside  content  since 
+scrolls  the  content  that  the  specified  point  the  content  the  top  left  corner  content  has  been  set  nothing  will  occur  negative  values  will  ignored  values  greater  than  the  maximum  scroll  distance  will  result  scrolling  the  end  the  scrollbar  param  the  coordinate  the  content  appear  the  top  left  corner  param  the  coordinate  the  content  appear  the  top  left  corner  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+set  the  always  show  scrollbars  flag  true  the  scrollbars  are  always  shown  even  they  are  not  required  false  the  scrollbars  are  only  visible  when  some  part  the  composite  needs  scrolled  seen  the  scroll  and  scroll  style  bits  are  also  required  enable  scrollbars  the  horizontal  and  vertical  directions  param  show  true  show  the  scrollbars  even  when  not  required  false  show  scrollbars  only  when  required  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+set  the  content  that  will  scrolled  param  content  the  control  displayed  the  content  area  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+configure  the scrolled composite  resize  the  content  object  wide  the scrolled composite  when  the  width  the scrolled composite  greater  than  the  minimum  width  specified set min width  the scrolled composite  less  than  the  minimum  width  the  content  will  not  resized  and  instead  the  horizontal  scroll  bar  will  used  view  the  entire  width  expand  false  this  behaviour  turned  off  default  this  behaviour  turned  off  param  expand  true  expand  the  content  control  fill  available  horizontal  space  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+configure  the scrolled composite  resize  the  content  object  tall  the scrolled composite  when  the  height  the scrolled composite  greater  than  the  minimum  height  specified set min height  the scrolled composite  less  than  the  minimum  height  the  content  will  not  resized  and  instead  the  vertical  scroll  bar  will  used  view  the  entire  height  expand  false  this  behaviour  turned  off  default  this  behaviour  turned  off  param  expand  true  expand  the  content  control  fill  available  vertical  space  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  layout  which  associated  with  the  receiver  the  argument  which  may  null  note  layout  can  set  this  control  because  already  manages  the  size  and  position  its  children  param  layout  the  receiver  new  layout  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+specify  the  minimum  height  which  the scrolled composite  will  begin  scrolling  the  content  with  the  vertical  scroll  bar  this  value  only  relevant set expand vertical  true  has  been  set  param  height  the  minimum  height  for  default  height  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+specify  the  minimum  width  and  height  which  the scrolled composite  will  begin  scrolling  the  content  with  the  horizontal  scroll  bar  this  value  only  relevant set expand horizontal  true  and set expand vertical  true  have  been  set  param  size  the  minimum  size  null  for  the  default  size  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+specify  the  minimum  width  and  height  which  the scrolled composite  will  begin  scrolling  the  content  with  the  horizontal  scroll  bar  this  value  only  relevant set expand horizontal  true  and set expand vertical  true  have  been  set  param  width  the  minimum  width  for  default  width  param  height  the  minimum  height  for  default  height  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+specify  the  minimum  width  which  the scrolled composite  will  begin  scrolling  the  content  with  the  horizontal  scroll  bar  this  value  only  relevant set expand horizontal  true  has  been  set  param  width  the  minimum  width  for  default  width  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
 </comments>
 </text>
 </DOC>

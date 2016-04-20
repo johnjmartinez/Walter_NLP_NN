@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.TRACKMOUSEEVENT.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.TRIVERTEX.java </DOCNO>
 <text>
 <class>
- trackmouseevent
+ trivertex
 </class>
 <method>
 NONE
@@ -13,11 +13,13 @@ NONE
  swt
  internal
  win
- trackmouseevent
- size
- flags
-hwnd track
-hover time
+ trivertex
+
+
+ red
+ green
+ blue
+ alpha
  sizeof
 </identifier>
 <comments>

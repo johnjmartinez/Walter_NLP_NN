@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.TBBUTTONINFO.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.OSVERSIONINFOA.java </DOCNO>
 <text>
 <class>
- tbbuttoninfo
+ osversioninfoa
 </class>
 <method>
 NONE
@@ -13,17 +13,9 @@ NONE
  swt
  internal
  win
- tbbuttoninfo
- size
- mask
- command
- image
- state
- style
-
- param
-psz text
-cch text
+ osversioninfoa
+ osversioninfo
+csd version
  sizeof
 </identifier>
 <comments>

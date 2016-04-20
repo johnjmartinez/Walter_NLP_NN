@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.NMTTDISPINFO.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.TVINSERTSTRUCT.java </DOCNO>
 <text>
 <class>
- nmttdispinfo
+ tvinsertstruct
 </class>
 <method>
 NONE
@@ -13,18 +13,24 @@ NONE
  swt
  internal
  win
- nmttdispinfo
- nmhdr
-lpsz text
- hinst
- flags
+ tvinsertstruct
+ parent
+insert after
+ mask
+ item
+ state
+state mask
+psz text
+cch text max
+ image
+selected image
+ children
  param
  sizeof
-
- unicode
 </identifier>
 <comments>
 copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+public  tvitem  item
 </comments>
 </text>
 </DOC>

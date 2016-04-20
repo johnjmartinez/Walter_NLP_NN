@@ -1,34 +1,40 @@
 <DOC>
-<DOCNO>org.eclipse.swt.events.MenuEvent.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.ole.win32.IOleDocument.java </DOCNO>
 <text>
 <class>
-menu event
+ole document
 </class>
 <method>
-menu event
+ole document
+create view
 </method>
 <identifier>
  org
  eclipse
  swt
- events
- org
- eclipse
- swt
- widgets
- event
-menu event
-typed event
-serial version uid
-menu event
- event
-
-
+ internal
+ ole
+ win
+ole document
+ unknown
+ole document
+ address
+ address
+create view
+ site
+ pstm
+ reserved
+ view
+ com
+vtbl call
+ address
+ site
+ pstm
+ reserved
+ view
 </identifier>
 <comments>
-copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-instances  this  class  are  sent  result  menus  being  shown  and  hidden  see menu listener
-constructs  new  instance  this  class  based  the  information  the  given  untyped  event  param  the  untyped  event  containing  the  information
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
 </comments>
 </text>
 </DOC>

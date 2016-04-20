@@ -1,32 +1,34 @@
 <DOC>
-<DOCNO>org.eclipse.swt.graphics.ImageLoaderListener.java </DOCNO>
+<DOCNO>org.eclipse.swt.events.ControlEvent.java </DOCNO>
 <text>
 <class>
-image loader listener
+control event
 </class>
 <method>
-image data loaded
+control event
 </method>
 <identifier>
  org
  eclipse
  swt
- graphics
+ events
  org
  eclipse
  swt
- internal
-swt event listener
-image loader listener
-swt event listener
-image data loaded
-image loader event
+ widgets
+ event
+control event
+typed event
+serial version uid
+control event
+ event
+
 
 </identifier>
 <comments>
-copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-classes  which  implement  this  interface  provide  methods  that  deal  with  the  incremental  loading  image  data  after  creating  instance  class  that  implements  this  interface  can  added  image  loader  using  the  code add image loader listener  code  method  and  removed  using  the  code remove image loader listener  code  method  when  image  data  either  partially  completely  loaded  this  method  will  invoked  see image loader  see image loader event
-sent  when  image  data  either  partially  completely  loaded  the  timing  when  this  method  called  varies  depending  the  format  the  image  being  loaded  param  event  containing  information  about  the  image  loading  operation
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  sent  result  controls  being  moved  resized  see control listener
+constructs  new  instance  this  class  based  the  information  the  given  untyped  event  param  the  untyped  event  containing  the  information
 </comments>
 </text>
 </DOC>

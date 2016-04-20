@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.MENUITEMINFO.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.HELPINFO.java </DOCNO>
 <text>
 <class>
- menuiteminfo
+ helpinfo
 </class>
 <method>
 NONE
@@ -13,29 +13,19 @@ NONE
  swt
  internal
  win
- menuiteminfo
+ helpinfo
  size
- mask
- type
- state
+context type
+ ctrl
+item handle
+ context
 
-sub menu
-hbmp checked
-hbmp unchecked
-item data
-type data
- cch
-hbmp item
+
  sizeof
- sizeof
-
-win 32_ version
-
- version
 </identifier>
 <comments>
-copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-feature  windows  the hbmp item  field  requires  windows  greater  windows  passing  larger  struct  size  the  size  field  does  nothing  windows  the  menuiteminfo  calls  fail  when  the  struct  size  too  large  the  fix  ensure  that  the  correct  struct  size  used  for  the  windows  platform
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+point mouse pos
 </comments>
 </text>
 </DOC>

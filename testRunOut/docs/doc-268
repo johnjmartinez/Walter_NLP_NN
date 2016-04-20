@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.POINT.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.GCP_RESULTS.java </DOCNO>
 <text>
 <class>
- point
+gcp results
 </class>
 <method>
 NONE
@@ -13,9 +13,16 @@ NONE
  swt
  internal
  win
- point
+gcp results
+struct size
+out string
+ order
 
-
+caret pos
+ class
+ glyphs
+ glyphs
+max fit
  sizeof
 </identifier>
 <comments>

@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.NOTIFYICONDATAA.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.NMTOOLBAR.java </DOCNO>
 <text>
 <class>
- notifyicondataa
+ nmtoolbar
 </class>
 <method>
 NONE
@@ -13,17 +13,30 @@ NONE
  swt
  internal
  win
- notifyicondataa
- notifyicondata
- tip
- info
-info title
+ nmtoolbar
+ nmhdr
+ item
+ bitmap
+ command
+ state
+ style
+ data
+ string
+cch text
+psz text
+ left
+ top
+ right
+ bottom
  sizeof
 
-notifyicondataa size
+ win
 </identifier>
 <comments>
-copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+tbbutton  button
+rect  button
+note  win  the  field  button  not  defined
 </comments>
 </text>
 </DOC>

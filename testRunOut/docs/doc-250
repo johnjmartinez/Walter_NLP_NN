@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.SCRIPT_LOGATTR.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.SCRIPT_ANALYSIS.java </DOCNO>
 <text>
 <class>
-script logattr
+script analysis
 </class>
 <method>
 NONE
@@ -13,13 +13,17 @@ NONE
  swt
  internal
  win
-script logattr
-soft break
-white space
-char stop
-word stop
- invalid
- reserved
+script analysis
+ script
+ rtl
+layout rtl
+link before
+link after
+logical order
+glyph index
+script state
+
+script state
  sizeof
 </identifier>
 <comments>

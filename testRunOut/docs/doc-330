@@ -1,34 +1,28 @@
 <DOC>
-<DOCNO>org.eclipse.swt.events.TreeEvent.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.ole.win32.DISPPARAMS.java </DOCNO>
 <text>
 <class>
-tree event
+ dispparams
 </class>
 <method>
-tree event
+NONE
 </method>
 <identifier>
  org
  eclipse
  swt
- events
- org
- eclipse
- swt
- widgets
- event
-tree event
-selection event
-serial version uid
-tree event
- event
-
-
+ internal
+ ole
+ win
+ dispparams
+ rgvarg
+rgdispid named args
+ args
+named args
+ sizeof
 </identifier>
 <comments>
 copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-instances  this  class  are  sent  result  trees  being  expanded  and  collapsed  see tree listener
-constructs  new  instance  this  class  based  the  information  the  given  untyped  event  param  the  untyped  event  containing  the  information
 </comments>
 </text>
 </DOC>

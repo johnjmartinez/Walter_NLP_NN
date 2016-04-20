@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.PAINTSTRUCT.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.MINMAXINFO.java </DOCNO>
 <text>
 <class>
- paintstruct
+ minmaxinfo
 </class>
 <method>
 NONE
@@ -13,21 +13,26 @@ NONE
  swt
  internal
  win
- paintstruct
- hdc
- erase
- left
- top
- right
- bottom
- restore
-inc update
-rgb reserved
+ minmaxinfo
+ reserved
+ reserved
+max size
+max size
+max position
+max position
+min track size
+min track size
+max track size
+max track size
  sizeof
 </identifier>
 <comments>
-copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-public  rect  paint
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+point  reserved
+point max size
+point max position
+point min track size
+point max track size
 </comments>
 </text>
 </DOC>

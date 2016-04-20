@@ -1,42 +1,91 @@
 <DOC>
-<DOCNO>org.eclipse.swt.custom.DefaultContent.java </DOCNO>
+<DOCNO>org.eclipse.swt.custom.CCombo.java </DOCNO>
 <text>
 <class>
-default content
+ combo
 </class>
 <method>
-default content
-add line index
-add line index
-add text change listener
-adjust gap
-index lines
- delimiter
-valid replace
-index lines
- insert
-move and resize gap
-line count
-line count
-get char count
-get line
-get line delimiter
-get full line
-get physical line
-get line count
-get line offset
-get line physical offset
-get offset line
-expand lines
- error
-gap exists
-get physical text
-get text range
-remove text change listener
-replace text range
-send text event
+ combo
+handle event
+handle event
+check style
+ add
+ add
+add modify listener
+add selection listener
+arrow event
+clear selection
+combo event
+compute size
+create popup
+ deselect
+deselect all
+drop down
+get associated label
+get children
+get editable
+get item
+get item count
+get item height
+get items
+get mnemonic
+get selection
+get selection index
+get style
+get text
+get text height
+get text limit
+get visible item count
+handle focus
+ index
+ index
+init accessible
+get name
+get keyboard shortcut
+get help
+get name
+get keyboard shortcut
+get help
+get caret offset
+get child point
+get location
+get child count
+get role
+get state
+get value
+get role
+get default action
+ dropped
+focus control
+internal layout
+list event
+popup event
+ redraw
+ redraw
+ remove
+ remove
+ remove
+remove all
+remove modify listener
+remove selection listener
+ select
+set background
+set editable
+set enabled
+set focus
+set font
+set foreground
+set item
+set items
+set layout
+set selection
 set text
- delete
+set text limit
+set tool tip text
+set visible
+set visible item count
+strip mnemonic
+text event
 </method>
 <identifier>
  org
@@ -49,1287 +98,1979 @@ set text
  org
  eclipse
  swt
- internal
- compatibility
+ graphics
+ org
+ eclipse
+ swt
+ events
  org
  eclipse
  swt
  widgets
- java
- util
- vector
-default content
-styled text content
- string
-line delimiter
- system
-get property
- vector
-text listeners
- vector
-text store
-gap start
-gap end
-gap line
-high watermark
-low watermark
- lines
-line count
-expand exp
-replace expand exp
-default content
-set text
-add line index
- start
- length
- size
- lines
- length
-line count
- size
-new lines
- size
- compatibility
- pow
-expand exp
- system
- arraycopy
- lines
-new lines
- size
- lines
-new lines
-expand exp
- range
- start
- length
- lines
-line count
- range
-line count
-add line index
- start
- length
-lines array
- count
- size
-lines array
- length
-new lines
-lines array
- count
- size
-new lines
- size
- compatibility
- pow
-replace expand exp
-replace expand exp
- system
- arraycopy
-lines array
-new lines
- size
- range
- start
- length
-new lines
- count
- range
-new lines
-add text change listener
-text change listener
+ org
+ eclipse
+ swt
+ accessibility
+ combo
+ composite
+ text
+ text
+ list
+ list
+visible item count
+ shell
+ popup
+ button
+ arrow
+has focus
  listener
  listener
- error
+ filter
+ color
+ foreground
+ background
+ font
+ font
+ combo
+ composite
+ parent
+ style
+ parent
+ style
+check style
+ style
+text style
  swt
-error null argument
-styled text listener
-typed listener
-styled text listener
- listener
-text listeners
-add element
-typed listener
-adjust gap
- position
-size hint
- line
- position
-gap start
- size
-gap end
-gap start
-size hint
-low watermark
- size
- size
-high watermark
- position
-size hint
-gap start
-size hint
- size
-gap end
-gap start
-size hint
-low watermark
- size
- size
-high watermark
-move and resize gap
- position
-size hint
- line
-index lines
- start
-line count
-text length
-text store
- length
-
-
- start
-
-text length
-
-
-text store
-
-
+ single
+ style
  swt
-
-
-text length
-
-text store
-
-
+read only
+text style
  swt
-
-
-add line index
- start
-
- start
- start
-
-
+read only
+ style
  swt
-
-add line index
- start
-
- start
- start
-
-add line index
- start
-
- start
- delimiter
-
-
+ flat
+text style
  swt
-
-
- swt
-
-valid replace
- start
-replace length
- string
-new text
-replace length
- start
- start
-get char count
- before
-get text range
- start
- char
- before
- after
-get text range
- start
- char
- after
-start char
-get text range
- start
- char
-start char
- start
- before
-get text range
- start
- char
- before
-end char
-get text range
- start
-replace length
- char
-end char
- start
-replace length
-get char count
- after
-get text range
- start
-replace length
- char
- after
-index lines
- offset
- length
-num lines
-indexed lines
-num lines
- start
-line cnt
-
-replace expand exp
-
- start
-
- length
-
- location
-
- offset
- location
-gap start
- location
-gap end
-
-text store
- location
-
- swt
-
- location
-text store
- length
-
-text store
- location
-
- swt
-
-
-indexed lines
-add line index
- start
-
- start
-indexed lines
-line cnt
-line cnt
- start
-
-
- swt
-
-indexed lines
-add line index
- start
-
- start
-indexed lines
-line cnt
-line cnt
- start
-
-new lines
-line cnt
- system
- arraycopy
-indexed lines
-new lines
-line cnt
- range
- start
-
- start
-new lines
-line cnt
- range
-new lines
- insert
- position
- string
+ flat
  text
  text
- length
-start line
-get line offset
- position
- change
- text
- length
-end insert
- position
-get char count
-adjust gap
- position
- change
-start line
-start line offset
-get offset line
-start line
-start line length
-get physical line
-start line
- length
- change
-gap start
- change
-
-
- text
- length
-
-text store
- position
-
- text
- char
-
-new lines
-index lines
-start line offset
-start line length
-num new lines
-new lines
- length
-new lines
-num new lines
-end insert
-num new lines
-num new lines
-expand lines
-num new lines
-
-line count
-
-start line
-
- lines
-
-num new lines
- lines
-
-
-
-num new lines
-
-new lines
-
-start line offset
- lines
-start line
-
-new lines
-
-num new lines
-new lines
- length
-new lines
-num new lines
-start line offset
- lines
-start line
-num new lines
-new lines
-num new lines
-line count
-num new lines
-gap line
-get line physical offset
-gap start
-move and resize gap
- position
- size
-new gap line
- content
-old size
-gap end
-gap start
-new size
- size
-new size
-high watermark
- size
-new size
-low watermark
- size
-gap exists
- lines
-gap line
- lines
-gap line
-old size
-
-gap line
-
-line count
-
- lines
-
- lines
-
-old size
-new size
-old size
- content
-text store
- length
-old size
- system
- arraycopy
-text store
- content
-gap start
- system
- arraycopy
-text store
-gap end
- content
-gap start
- content
- length
-gap start
-text store
- content
-gap start
-gap end
- position
- content
-text store
- length
-new size
-old size
-new gap start
- position
-new gap end
-new gap start
-new size
-old size
- system
- arraycopy
-text store
- content
-new gap start
- system
- arraycopy
-text store
-new gap start
- content
-new gap end
- content
- length
-new gap end
-new gap start
-gap start
- delta
-gap start
-new gap start
- system
- arraycopy
-text store
- content
-new gap start
- system
- arraycopy
-text store
-new gap start
- content
-new gap end
- delta
- system
- arraycopy
-text store
-gap end
- content
-new gap end
- delta
-text store
- length
-gap end
- delta
-new gap start
-gap start
- system
- arraycopy
-text store
- content
-gap start
- system
- arraycopy
-text store
-gap end
- content
-gap start
- delta
- system
- arraycopy
-text store
-gap end
- delta
- content
-new gap end
- content
- length
-new gap end
-text store
- content
-gap start
-new gap start
-gap end
-new gap end
-gap exists
-gap line
-new gap line
-gap length
-gap end
-gap start
- lines
-gap line
- lines
-gap line
-gap length
-
-gap line
-
-line count
-
- lines
-
- lines
-
-gap length
-line count
-start offset
- length
- length
-line cnt
- count
-
-start offset
-
-gap start
-
-gap end
-gap start
- count
- length
-
-gap start
-
-gap end
-
-text store
-
-
+text style
+arrow style
  swt
-
-
-text store
- length
-
-text store
-
-
+ arrow
  swt
-
-
- count
-line cnt
-
+ down
+ style
  swt
-
-line cnt
- count
-
-line cnt
-line count
- string
- text
-line count
- length
- text
- length
-
-
- length
-
-
- text
- char
-
-
+ flat
+arrow style
  swt
-
-
- length
- text
- char
-
- swt
-
-
-line count
-
- swt
-
-line count
-line count
-get char count
- length
-gap end
-gap start
-text store
- length
- length
- string
-get line
- index
- index
-line count
- index
- error
- swt
-error invalid argument
- start
- lines
- index
- length
- lines
- index
- end
- start
- length
-gap exists
- end
-gap start
- start
-gap end
- length
- delimiter
-text store
- start
- length
- length
- string
-text store
- start
- length
-string buffer
- buf
-string buffer
-gap length
-gap end
-gap start
- buf
- append
-text store
- start
-gap start
- start
- buf
- append
-text store
-gap end
- length
-gap length
-gap start
- start
- length
- buf
- length
- length
- delimiter
- buf
- char
- length
- length
- buf
- string
- substring
- length
- string
-get line delimiter
-line delimiter
- string
-get full line
- index
- start
- lines
- index
- length
- lines
- index
- end
- start
- length
-gap exists
- end
-gap start
- start
-gap end
- string
-text store
- start
- length
-string buffer
- buf
-string buffer
-gap length
-gap end
-gap start
- buf
- append
-text store
- start
-gap start
- start
- buf
- append
-text store
-gap end
- length
-gap length
-gap start
- start
- buf
- string
- string
-get physical line
- index
- start
- lines
- index
- length
- lines
- index
-get physical text
- start
- length
-get line count
-line count
-get line offset
-char position
- position
-char position
-get char count
-char position
- error
- swt
-error invalid argument
-char position
-gap start
- position
-char position
- position
-char position
-gap end
-gap start
-line count
-last line
-line count
- position
- lines
-last line
- lines
-last line
-last line
- high
-line count
- low
- index
-line count
- high
- low
- index
- high
- low
-line start
- lines
- index
-line end
-line start
- lines
- index
- position
-line start
- high
- index
- position
-line end
- high
- index
- low
- index
- high
-get line physical offset
- position
- high
-line count
- low
- index
-line count
- high
- low
- index
- high
- low
-line start
- lines
- index
-line end
-line start
- lines
- index
- position
-line start
- high
- index
- position
-line end
- high
- index
- low
- index
- high
-get offset line
-line index
-line index
-line index
-line count
-line index
- error
- swt
-error invalid argument
- start
- lines
-line index
- start
-gap end
- start
-gap end
-gap start
- start
-expand lines
-num lines
- size
- lines
- length
- size
-line count
-num lines
-new lines
- size
- math
- max
-num lines
- system
- arraycopy
- lines
-new lines
- size
- lines
-new lines
- error
- code
- swt
- error
- code
-gap exists
-gap start
-gap end
- string
-get physical text
- start
- length
- string
-text store
- start
- length
- string
-get text range
- start
- length
-text store
- length
- end
- start
- length
-gap exists
- end
-gap start
- string
-text store
- start
- length
-gap start
- start
-gap length
-gap end
-gap start
- string
-text store
- start
-gap length
- length
-string buffer
- buf
-string buffer
- buf
- append
-text store
- start
-gap start
- start
- buf
- append
-text store
-gap end
- end
-gap start
- buf
- string
-remove text change listener
-text change listener
+ flat
+ arrow
+ button
+arrow style
  listener
  listener
- error
- swt
-error null argument
-
-
-text listeners
- size
-
-typed listener
-typed listener
-typed listener
-text listeners
- element
-
-typed listener
-get event listener
- listener
-text listeners
-remove element
-
-replace text range
- start
-replace length
- string
-new text
-valid replace
- start
-replace length
-new text
- swt
- error
- swt
-error invalid argument
-styled text event
- event
-styled text event
- event
- type
-styled text
-text changing
- event
- start
- start
- event
-replace line count
-line count
- start
-replace length
- event
- text
-new text
- event
-new line count
-line count
-new text
- event
-replace char count
-replace length
- event
-new char count
-new text
- length
-send text event
- event
- delete
- start
-replace length
- event
-replace line count
- insert
- start
-new text
- event
-styled text event
- event
- type
-styled text
-text changed
-send text event
- event
-send text event
-styled text event
- event
-
-
-text listeners
- size
-
-styled text listener
-text listeners
- element
-
 handle event
  event
+ event
+ popup
+ event
+ widget
+popup event
+ event
+ text
+ event
+ widget
+text event
+ event
+ list
+ event
+ widget
+list event
+ event
+ arrow
+ event
+ widget
+arrow event
+ event
+ combo
+ event
+ widget
+combo event
+ event
+get shell
+ event
+ widget
+handle focus
+ swt
+focus out
+ filter
+ listener
+handle event
+ event
+ event
+ shell
+ shell
+ control
+ event
+ widget
+get shell
+ shell
+ combo
+get shell
+handle focus
+ swt
+focus out
+combo events
+ swt
+ dispose
+ swt
+ move
+ swt
+ resize
+
+
+combo events
+ length
+
+add listener
+combo events
+
+ listener
+text events
+ swt
+key down
+ swt
+ key
+ swt
+ modify
+ swt
+mouse down
+ swt
+ mouse
+ swt
+ traverse
+ swt
+ focus
+
+
+text events
+ length
+
+ text
+add listener
+text events
+
+ listener
+arrow events
+ swt
+ selection
+ swt
+ focus
+
+
+arrow events
+ length
+
+ arrow
+add listener
+arrow events
+
+ listener
+create popup
+init accessible
+check style
+ style
+ mask
+ swt
+ border
+ swt
+read only
+ swt
+ flat
+ swt
+left right
+ swt
+right left
+ style
+ mask
+ add
+ string
+ string
+check widget
+ string
+ swt
+ error
+ swt
+error null argument
+ list
+ add
+ string
+ add
+ string
+ string
+ index
+check widget
+ string
+ swt
+ error
+ swt
+error null argument
+ list
+ add
+ string
+ index
+add modify listener
+modify listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ modify
+typed listener
+add selection listener
+selection listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+typed listener
+typed listener
+typed listener
+ listener
+add listener
+ swt
+ selection
+typed listener
+add listener
+ swt
+default selection
+typed listener
+arrow event
+ event
+ event
+ event
+ type
+ swt
+ focus
+handle focus
+ swt
+ focus
+ swt
+ selection
+drop down
+ dropped
+clear selection
+check widget
+ text
+clear selection
+ list
+deselect all
+combo event
+ event
+ event
+ event
+ type
+ swt
+ dispose
+ popup
+ popup
+ disposed
+ list
+remove listener
+ swt
+ dispose
+ listener
+ popup
+ dispose
+ shell
+ shell
+get shell
+ shell
+remove listener
+ swt
+ deactivate
+ listener
+ display
+ display
+get display
+ display
+remove filter
+ swt
+ focus
+ filter
+ popup
+ text
+ list
+ arrow
+ swt
+ move
+drop down
+ swt
+ resize
+internal layout
+ point
+compute size
+ hint
+ hint
+ changed
+check widget
+ width
+ height
+ string
+ items
+ list
+get items
+text width
+
+
+
+ text
+ spacer
+
+string extent
+
+
+
+ items
+ length
+
+text width
+ math
+ max
+
+string extent
+ items
+
+
+text width
+
+ dispose
+ point
+text size
+ text
+compute size
+ swt
+ default
+ swt
+ default
+ changed
+ point
+arrow size
+ arrow
+compute size
+ swt
+ default
+ swt
+ default
+ changed
+ point
+list size
+ list
+compute size
+ hint
+ swt
+ default
+ changed
+border width
+get border width
+ height
+ math
+ max
+ hint
+ math
+ max
+text size
+
+arrow size
+
+border width
+ width
+ math
+ max
+ hint
+ math
+ max
+text width
+ spacer
+arrow size
+
+border width
+list size
+
+ point
+ width
+ height
+create popup
+ string
+ items
+selection index
+ popup
+ shell
+get shell
+ swt
+ trim
+ swt
+ top
+ style
+get style
+list style
+ swt
+ single
+ swt
+ scroll
+ style
+ swt
+ flat
+list style
+ swt
+ flat
+ style
+ swt
+right left
+list style
+ swt
+right left
+ style
+ swt
+left right
+list style
+ swt
+left right
+ list
+ list
+ popup
+list style
+ font
+ list
+set font
+ font
+ foreground
+ list
+set foreground
+ foreground
+ background
+ list
+set background
+ background
+popup events
+ swt
+ close
+ swt
+ paint
+ swt
+ deactivate
+
+
+popup events
+ length
+
+ popup
+add listener
+popup events
+
+ listener
+list events
+ swt
+ mouse
+ swt
+ selection
+ swt
+ traverse
+ swt
+key down
+ swt
+ key
+ swt
+ focus
+ swt
+ dispose
+
+
+list events
+ length
+
+ list
+add listener
+list events
+
+ listener
+ items
+ list
+set items
+ items
+selection index
+ list
+set selection
+selection index
+ deselect
+ index
+check widget
+ list
+ deselect
+ index
+deselect all
+check widget
+ list
+deselect all
+drop down
+ drop
+ drop
+ dropped
+ drop
+ popup
+set visible
+ disposed
+ arrow
+focus control
+ text
+set focus
+get shell
+ popup
+get parent
+ string
+ items
+ list
+get items
+selection index
+ list
+get selection index
+ list
+remove listener
+ swt
+ dispose
+ listener
+ popup
+ dispose
+ popup
+ list
+create popup
+ items
+selection index
+ point
+ size
+get size
+item count
+ list
+get item count
+item count
+item count
+visible item count
+ math
+ min
+visible item count
+item count
+item height
+ list
+get item height
+item count
+ point
+list size
+ list
+compute size
+ swt
+ default
+item height
+ list
+set bounds
+ math
+ max
+ size
+
+list size
+
+list size
+
+ index
+ list
+get selection index
+ index
+ list
+set top index
+ index
+ display
+ display
+get display
+ rectangle
+list rect
+ list
+get bounds
+ rectangle
+parent rect
+ display
+ map
+get parent
+get bounds
+ point
+combo size
+get size
+ rectangle
+display rect
+get monitor
+get client area
+ width
+ math
+ max
+combo size
+
+list rect
+ width
+ height
+list rect
+ height
+
+parent rect
+
+
+parent rect
+
+combo size
+
+
+ height
+display rect
+
+display rect
+ height
+
+parent rect
+
+ height
+ popup
+set bounds
+
+
+ width
+ height
+ popup
+set visible
+ list
+set focus
+ label
+get associated label
+ control
+ siblings
+get parent
+get children
+
+
+ siblings
+ length
+
+ siblings
+
+ combo
+
+ siblings
+
+ label
+ label
+ siblings
+
+ control
+get children
+check widget
+ control
+get editable
+check widget
+ text
+get editable
+ string
+get item
+ index
+check widget
+ list
+get item
+ index
+get item count
+check widget
+ list
+get item count
+get item height
+check widget
+ list
+get item height
+ string
+get items
+check widget
+ list
+get items
+get mnemonic
+ string
+ string
+ index
+ length
+ string
+ length
+ index
+ length
+ string
+ char
+ index
+ index
+ index
+ length
+ string
+ char
+ index
+ string
+ char
+ index
+ index
+ index
+ length
+ point
+get selection
+check widget
+ text
+get selection
+get selection index
+check widget
+ list
+get selection index
+get style
+ style
+get style
+ style
+ swt
+read only
+ text
+get editable
+ style
+ swt
+read only
+ style
+ string
+get text
+check widget
+ text
+get text
+get text height
+check widget
+ text
+get line height
+get text limit
+check widget
+ text
+get text limit
+get visible item count
+check widget
+visible item count
+handle focus
+ type
+ disposed
+ type
+ swt
+ focus
+has focus
+get editable
+ text
+select all
+has focus
+ shell
+ shell
+get shell
+ shell
+remove listener
+ swt
+ deactivate
+ listener
+ shell
+add listener
+ swt
+ deactivate
+ listener
+ display
+ display
+get display
+ display
+remove filter
+ swt
+ focus
+ filter
+ display
+add filter
+ swt
+ focus
+ filter
+ event
+
+ event
+notify listeners
+ swt
+ focus
+
+ swt
+focus out
+has focus
+ control
+focus control
+get display
+get focus control
+focus control
+ arrow
+focus control
+ list
+focus control
+ text
+has focus
+ shell
+ shell
+get shell
+ shell
+remove listener
+ swt
+ deactivate
+ listener
+ display
+ display
+get display
+ display
+remove filter
+ swt
+ focus
+ filter
+ event
+
+ event
+notify listeners
+ swt
+focus out
+
+ index
+ string
+ string
+check widget
+ string
+ swt
+ error
+ swt
+error null argument
+ list
+ index
+ string
+ index
+ string
+ string
+ start
+check widget
+ string
+ swt
+ error
+ swt
+error null argument
+ list
+ index
+ string
+ start
+init accessible
+accessible adapter
+accessible adapter
+accessible adapter
+get name
+accessible event
+
+ string
+ name
+ label
+ label
+get associated label
+ label
+ name
+strip mnemonic
+ label
+get text
+
+ result
+ name
+get keyboard shortcut
+accessible event
+
+ string
+ shortcut
+ label
+ label
+get associated label
+ label
+ string
+ text
+ label
+get text
+ text
+ mnemonic
+get mnemonic
+ text
+ mnemonic
+ shortcut
+ mnemonic
+
+ result
+ shortcut
+get help
+accessible event
+
+
+ result
+get tool tip text
+get accessible
+add accessible listener
+accessible adapter
+ text
+get accessible
+add accessible listener
+accessible adapter
+ list
+get accessible
+add accessible listener
+accessible adapter
+ arrow
+get accessible
+add accessible listener
+accessible adapter
+get name
+accessible event
+
+
+ result
+ dropped
+ swt
+get message
+ swt
+get message
+get keyboard shortcut
+accessible event
+
+
+ result
+get help
+accessible event
+
+
+ result
+get tool tip text
+get accessible
+add accessible text listener
+accessible text adapter
+get caret offset
+accessible text event
+
+
+ offset
+ text
+get caret position
+get accessible
+add accessible control listener
+accessible control adapter
+get child point
+accessible control event
+
+ point
+test point
+ control
+
+
+
+
+get bounds
+ contains
+test point
+
+ child
+ acc
+childid self
+get location
+accessible control event
+
+ rectangle
+ location
+get bounds
+ point
+
+ display
+ location
+
+ location
+
+
+
+
+
+
+
+
+
+
+ width
+ location
+ width
+
+ height
+ location
+ height
+get child count
+accessible control event
+
+
+ detail
+get role
+accessible control event
+
+
+ detail
+ acc
+role combobox
+get state
+accessible control event
+
+
+ detail
+ acc
+state normal
+get value
+accessible control event
+
+
+ result
+get text
+ text
+get accessible
+add accessible control listener
+accessible control adapter
+get role
+accessible control event
+
+
+ detail
+ text
+get editable
+ acc
+role text
+ acc
+role label
+ arrow
+get accessible
+add accessible control listener
+accessible control adapter
+get default action
+accessible control event
+
+
+ result
+ dropped
+ swt
+get message
+ swt
+get message
+ dropped
+ popup
+get visible
+focus control
+check widget
+ text
+focus control
+ arrow
+focus control
+ list
+focus control
+ popup
+focus control
+focus control
+internal layout
+ changed
+ dropped
+drop down
+ rectangle
+ rect
+get client area
+ width
+ rect
+ width
+ height
+ rect
+ height
+ point
+arrow size
+ arrow
+compute size
+ swt
+ default
+ height
+ changed
+ text
+set bounds
+ width
+arrow size
+
+ height
+ arrow
+set bounds
+ width
+arrow size
+
+arrow size
+
+arrow size
+
+list event
+ event
+ event
+ event
+ type
+ swt
+ dispose
+get shell
+ popup
+get parent
+ string
+ items
+ list
+get items
+selection index
+ list
+get selection index
+ popup
+ list
+create popup
+ items
+selection index
+ swt
+ focus
+handle focus
+ swt
+ focus
+ swt
+ mouse
+ event
+ button
+drop down
+ swt
+ selection
+ index
+ list
+get selection index
+ index
+ text
+set text
+ list
+get item
+ index
+ text
+select all
+ list
+set selection
+ index
+ event
+
+ event
+
+ time
+ event
+ time
+
+state mask
+ event
+state mask
+
+ doit
+ event
+ doit
+notify listeners
+ swt
+ selection
+
+ event
+ doit
+
+ doit
+ swt
+ traverse
+ event
+ detail
+ swt
+traverse return
+ swt
+traverse escape
+ swt
+traverse arrow previous
+ swt
+traverse arrow next
+ event
+ doit
+ event
+
+ event
+
+ time
+ event
+ time
+
+ detail
+ event
+ detail
+
+ doit
+ event
+ doit
+
+ character
+ event
+ character
+
+key code
+ event
+key code
+notify listeners
+ swt
+ traverse
+
+ event
+ doit
+
+ doit
+ event
+ detail
+
+ detail
+ swt
+ key
+ event
+
+ event
+
+ time
+ event
+ time
+
+ character
+ event
+ character
+
+key code
+ event
+key code
+
+state mask
+ event
+state mask
+notify listeners
+ swt
+ key
+
+ swt
+key down
+ event
+ character
+ swt
+ esc
+drop down
+ event
+state mask
+ swt
+ alt
+ event
+key code
+ swt
+ arrow
+ event
+key code
+ swt
+arrow down
+drop down
+ event
+ character
+ swt
+
+drop down
+ event
+
+ event
+
+ time
+ event
+ time
+
+state mask
+ event
+state mask
+notify listeners
+ swt
+default selection
+
+ disposed
+ event
+
+ event
+
+ time
+ event
+ time
+
+ character
+ event
+ character
+
+key code
+ event
+key code
+
+state mask
+ event
+state mask
+notify listeners
+ swt
+key down
+
+popup event
+ event
+ event
+ event
+ type
+ swt
+ paint
+ rectangle
+list rect
+ list
+get bounds
+ color
+ black
+get display
+get system color
+ swt
+color black
+ event
+
+set foreground
+ black
+ event
+
+draw rectangle
+list rect
+ width
+list rect
+ height
+ swt
+ close
+ event
+ doit
+drop down
+ swt
+ deactivate
+drop down
+ redraw
+ redraw
+ text
+ redraw
+ arrow
+ redraw
+ popup
+ visible
+ list
+ redraw
+ redraw
+
+
+ width
+ height
+ all
+ redraw
+
+
+ width
+ height
+ remove
+ index
+check widget
+ list
+ remove
+ index
+ remove
+ start
+ end
+check widget
+ list
+ remove
+ start
+ end
+ remove
+ string
+ string
+check widget
+ string
+ swt
+ error
+ swt
+error null argument
+ list
+ remove
+ string
+remove all
+check widget
+ text
+set text
+ list
+remove all
+remove modify listener
+modify listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+remove listener
+ swt
+ modify
+ listener
+remove selection listener
+selection listener
+ listener
+check widget
+ listener
+ swt
+ error
+ swt
+error null argument
+remove listener
+ swt
+ selection
+ listener
+remove listener
+ swt
+default selection
+ listener
+ select
+ index
+check widget
+ index
+ list
+deselect all
+ text
+set text
+ index
+ index
+ list
+get item count
+ index
+get selection index
+ text
+set text
+ list
+get item
+ index
+ text
+select all
+ list
+ select
+ index
+ list
+show selection
+set background
+ color
+ color
+set background
+ color
+ background
+ color
+ text
+ text
+set background
+ color
+ list
+ list
+set background
+ color
+ arrow
+ arrow
+set background
+ color
+set editable
+ editable
+check widget
+ text
+set editable
+ editable
+set enabled
+ enabled
+set enabled
+ enabled
+ popup
+ popup
+set visible
+ text
+ text
+set enabled
+ enabled
+ arrow
+ arrow
+set enabled
+ enabled
+set focus
+check widget
+ text
+set focus
+set font
+ font
+ font
+set font
+ font
+ font
+ font
+ text
+set font
+ font
+ list
+set font
+ font
+internal layout
+set foreground
+ color
+ color
+set foreground
+ color
+ foreground
+ color
+ text
+ text
+set foreground
+ color
+ list
+ list
+set foreground
+ color
+ arrow
+ arrow
+set foreground
+ color
+set item
+ index
+ string
+ string
+check widget
+ list
+set item
+ index
+ string
+set items
+ string
+ items
+check widget
+ list
+set items
+ items
+ text
+get editable
+ text
+set text
+set layout
+ layout
+ layout
+check widget
+set selection
+ point
+ selection
+check widget
+ selection
+ swt
+ error
+ swt
+error null argument
+ text
+set selection
+ selection
+
+ selection
+
+set text
+ string
+ string
+check widget
+ string
+ swt
+ error
+ swt
+error null argument
+ index
+ list
+ index
+ string
+ index
+ list
+deselect all
+ text
 set text
  string
  text
-text store
+set text
+ string
  text
-char array
-gap start
-gap end
-expand exp
-index lines
-styled text event
- event
-styled text event
- event
- type
-styled text
-text set
- event
+select all
+ list
+set selection
+ index
+ list
+show selection
+set text limit
+ limit
+check widget
  text
-send text event
- event
- delete
- position
- length
-num lines
- length
-start line
-get line offset
- position
-start line offset
-get offset line
-start line
-end line
-get line offset
- position
+set text limit
+ limit
+set tool tip text
+ string
+ string
+check widget
+set tool tip text
+ string
+ arrow
+set tool tip text
+ string
+ text
+set tool tip text
+ string
+set visible
+ visible
+set visible
+ visible
+ visible
+ popup
+set visible
+set visible item count
+ count
+check widget
+ count
+visible item count
+ count
+ string
+strip mnemonic
+ string
+ string
+ index
  length
  string
-end text
-splitting delimiter
- position
  length
-get char count
-end text
-get text range
- position
+ index
  length
-end text
+ string
  char
- swt
-
-end text
+ index
+ index
+ index
+ length
+ string
+ string
  char
+ index
+ string
+ substring
+ index
+ string
+ substring
+ index
+ length
+ index
+ index
+ length
+ string
+text event
+ event
+ event
+ event
+ type
+ swt
+ focus
+handle focus
+ swt
+ focus
+ swt
+key down
+ event
+ character
  swt
 
-splitting delimiter
-adjust gap
- position
- length
- length
-start line
-old lines
-index lines
- position
- length
-gap end
-gap start
-num lines
- position
- length
-gap start
-gap start
- length
-gap end
- length
+drop down
+ event
 
- position
- eol
+ event
 
-text store
- length
- eol
+ time
+ event
+ time
 
-gap start
+state mask
+ event
+state mask
+notify listeners
+ swt
+default selection
 
-gap end
+ disposed
+ event
+key code
+ swt
+ arrow
+ event
+key code
+ swt
+arrow down
+ event
+ doit
+ event
+state mask
+ swt
+ alt
+ dropped
+ dropped
+ text
+select all
+ dropped
+set focus
+drop down
+ dropped
+old index
+get selection index
+ event
+key code
+ swt
+ arrow
+ select
+ math
+ max
+old index
+ select
+ math
+ min
+old index
+get item count
+old index
+get selection index
+ event
 
-text store
+ event
 
- delimiter
+ time
+ event
+ time
 
+state mask
+ event
+state mask
+notify listeners
+ swt
+ selection
 
-text store
- length
+ disposed
+ event
+
+ event
+
+ time
+ event
+ time
+
+ character
+ event
+ character
+
+key code
+ event
+key code
+
+state mask
+ event
+state mask
+notify listeners
+ swt
+key down
 
  swt
+ key
+ event
 
-text store
+ event
+
+ time
+ event
+ time
+
+ character
+ event
+ character
+
+key code
+ event
+key code
+
+state mask
+ event
+state mask
+notify listeners
+ swt
+ key
 
  swt
+ modify
+ list
+deselect all
+ event
 
+ event
 
- eol
+ time
+ event
+ time
+notify listeners
+ swt
+ modify
 
- lines
-start line
- position
-start line offset
+ swt
+mouse down
+ event
+ button
+ text
+get editable
+ dropped
+ dropped
+ text
+select all
+ dropped
+set focus
+drop down
+ dropped
+ swt
+ mouse
+ event
+ button
+ text
+get editable
+ text
+select all
+ swt
+ traverse
+ event
+ detail
+ swt
+traverse return
+ swt
+traverse arrow previous
+ swt
+traverse arrow next
+ event
+ doit
+ event
 
- position
-num old lines
-old lines
- length
-splitting delimiter
-num old lines
+ event
 
-end line
+ time
+ event
+ time
 
-line count
+ detail
+ event
+ detail
 
- lines
+ doit
+ event
+ doit
 
-num old lines
- lines
+ character
+ event
+ character
 
-line count
-num old lines
-gap line
-get line physical offset
-gap start
+key code
+ event
+key code
+notify listeners
+ swt
+ traverse
+
+ event
+ doit
+
+ doit
+ event
+ detail
+
+ detail
 </identifier>
 <comments>
 copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-stores  text  listeners  for  event  sending
-stores  the  actual  text
-the  character  position  start  the  gap
-the  character  position  after  the  end  the  gap
-the  line  which  the  gap  exists  the  gap  will  always  associated
-with  one  line
-array  character  positions  and  lengths  representing
-the  lines  text
-the  number  lines  text
-the  expansion  exponent  used  increase  the  lines  array  exponentially
-the  expansion  exponent  used  increase  the  lines  array  exponentially
-creates  new default content  and  initializes  code styled text content  will  always  have  least  one  empty  line
-adds  line  the  end  the  line  indexes  array  increases  the  size  the  array  necessary  code line count  code  updated  reflect  the  new  entry  param  start  the  start  the  line  param  length  the  length  the  line
-expand  the  lines  powers 
-adds  line  index  the  end  code lines array  code  increases  the  size  the  array  necessary  and  returns  new  array  param  start  the  start  the  line  param  length  the  length  the  line  param lines array  the  array  which  add  the  line  index  param  count  the  position  which  add  the  line  return  new  array  line  indexes
-adds  code text change listener  code  listening  for  code text changing event  code  and  code text changed event  code  code text changing event  code  sent  before  changes  the  text  occur  code text changed event  code  sent  after  changes  the  text  occured  param  listener  the  listener  exception illegal argument exception  error  null  argument  when  listener  null 
-adjusts  the  gap  accomodate  text  change  that  occurring  param  position  the  position  which  change  occurring  param size hint  the  size  the  change  param  line  the  line  where  the  gap  will 
-text  being  inserted  the  gap  position
-text  being  deleted  the  gap  position
-calculates  the  indexes  each  line  the  text  store  assumes  gap  exists  optimized  less  checking
-see  the  next  character 
-returns  whether  not  the  given  character  line  delimiter  both  and  are  valid  line  delimiters  param  the  character  test  return  true  delimiter  false  otherwise
-determine  whether  not  the  replace  operation  valid default content  will  not  allow  the  line  delimiter  split  partially  deleted  param  start  start  offset  text  replace  param replace length  start  offset  text  replace  param new text  start  offset  text  replace  return  boolean  specifying  whether  not  the  replace  operation  valid
-inserting  text  see  the  line  delimiter  being  split
-deleting  text  see  part  line  delimiter  being  deleted
-see  char  before  delete  position 
-see  char  after  delete  position 
-calculates  the  indexes  each  line  text  the  given  range  param  offset  the  logical  start  offset  the  text  lineate  param  length  the  length  the  text  lineate  includes  gap  param num lines  the  number  lines  initially  allocate  for  the  line  index  array  passed  for  efficiency  the  exact  number  lines  may  known  return  line  indexes  array  where  each  line  identified  start  offset  and  length
-ignore  the  gap
-see  the  next  character 
-inserts  text  param  position  the  position  which  insert  the  text  param  text  the  text  insert
-during  insert  the  gap  will  adjusted  start 
-position  and  will  associated  with  startline  the
-inserted  text  will  placed  the  gap
-this  point start line length  will  include  the  start  line
-and  all  the  newly  inserted  text
-shrink  gap
-figure  out  the  number  new  lines  that  have  been  inserted
-only  insert  empty  line  the  last  line  the  text
-last  inserted  line  new  line
-insert  happening  end  the  text  leave num new lines 
-since  the  last  new  line  will  not  concatenated  with  another
-  line
-make  room  for  the  new  lines
-shift  down  the  lines  after  the  replace  line
-insert  the  new  lines
-update  the  last  inserted  line
-moves  the  gap  and  adjusts  its  size  anticipation  text  change  the  gap  resized  actual  size  the  specified  size  and  moved  the  given  position  param  position  the  position  which  change  occurring  param  size  the  size  the  change  param new gap line  the  line  where  the  gap  should  put
-remove  the  old  gap  from  the  lines  information
-adjust  the  line  length
-adjust  the  offsets  the  lines  after  the gap line
-removing  the  gap
-add  the  new  gap  the  lines  information
-adjust  the  line  length
-adjust  the  offsets  the  lines  after  the gap line
-returns  the  number  lines  that  are  the  specified  text  param start offset  the  start  the  text  lineate  param  length  the  length  the  text  lineate  return  number  lines
-ignore  the  gap
-see  the  next  character 
-returns  the  number  lines  that  are  the  specified  text  param  text  the  text  lineate  return  number  lines  the  text
-return  the  logical  length  the  text  store
-returns  the  line  code  index  code  without  delimiters  param  index  the  index  the  line  return  return  the  logical  line  text  without  the  gap  exception illegal argument exception  error  invalid  argument  when  index  out  range 
-line  before  after  the  gap
-gap  the  specified  range  strip  out  the  gap
-returns  the  line  delimiter  that  should  used  the styled text  widget  when  inserting  new  lines  this  delimiter  may  different  than  the  delimiter  that  used  the  code styled text content  code  interface  return  the  platform  line  delimiter  specified  the  line  separator  system  property
-returns  the  line  the  given  index  with  delimiters  param  index  the  index  the  line  return  return  the  logical  line  text  without  the  gap  with  delimiters
-line  before  after  the  gap
-gap  the  specified  range  strip  out  the  gap
-returns  the  physical  line  the  given  index  with  delimiters  and  the  gap  param  index  the  line  index  return  the  physical  line
-return  the  number  lines  the  text  store
-returns  the  line  the  given  offset  param char position  logical  character  offset  does  not  include  gap  return  the  line  index  exception illegal argument exception  error  invalid  argument  when char position  out  range 
-position  before  the  gap
-position  includes  the  gap
-last  line  and  the  line  not  empty  you  can  ask  for
-position  that  doesn  exist  the  one  the  right  the
-last  character  for  inserting
-returns  the  line  index  the  given  physical  offset  param  position  physical  character  offset  includes  gap  return  the  line  index
-returns  the  logical  offset  the  given  line  param line index  index  line  return  the  logical  starting  offset  the  line  when  there  are  not  any  lines get offset line  valid  call  that  should  answer  exception illegal argument exception  error  invalid  argument  when line index  out  range 
-increases  the  line  indexes  array  accomodate  more  lines  param num lines  the  number  increase  the  array 
-reports  swt  error  param  code  the  error  code
-returns  whether  not  gap  exists  the  text  store  return  true  gap  exists  false  otherwise
-returns  string  representing  the  continous  content  the  text  store  param  start  the  physical  start  offset  the  text  return  param  length  the  physical  length  the  text  return  return  the  text
-returns  string  representing  the  logical  content  the  text  store  gap  stripped  out  param  start  the  logical  start  offset  the  text  return  param  length  the  logical  length  the  text  return  return  the  text
-removes  the  specified  code text change listener  code  param  listener  the  listener  exception illegal argument exception  error  null  argument  when  listener  null 
-replaces  the  text  with  code new text  code  starting  position  code  start  code  for  length  code replace length  code  notifies  the  appropriate  listeners  when  sending  the text changing event  code new line count  code  the  number  lines  that  are  going  inserted  and  code replace line count  code  the  number  lines  that  are  going  deleted  based  the  change  that  occurs  visually  for  example replace text new text replace line count new line count  param  start  start  offset  text  replace  param replace length  start  offset  text  replace  param new text  start  offset  text  replace  exception swt exception  error  invalid  argument  when  the  text  change  results  multi  byte  line  delimiter  being  split  partially  deleted  splitting  line  delimiter  inserting  text  between  the  and  characters  the  delimiter  deleting  part  this  line  delimiter  not  supported 
-check  for  invalid  replace  operations
-inform  listeners
-first  delete  the  text  replaced
-then  insert  the  new  text
-inform  listeners
- print lines
-sends  the  text  listeners  the text changed  event
-sets  the  content  text  and  removes  the  gap  since  there  are  sensible  predictions  about  where  the  next  change  will  occur  param  text  the  text
-deletes  text  param  position  the  position  which  the  text  delete  starts  param  length  the  length  the  text  delete  param num lines  the  number  lines  that  are  being  deleted
-enlarge  the  gap  the  gap  can  enlarged  either  the
-right  left
-figure  out  the  length  the  new  concatenated  line 
-finding  the  first  line  delmiter  after  position
-update  the  line  where  the  deletion  started
-figure  out  the  number  lines  that  have  been  deleted
-shift  the  lines  after  the  last  deleted  line  need  update
-the  offset  length  the  lines
+the  combo  class  represents  selectable  user  interface  object  that  combines  text  field  and  list  and  issues  notification  when  item  selected  from  the  list  note  that  although  this  class  subclass  code  composite  code  does  not  make  sense  add  children  set  layout  styles  border  read  only  flat  events  selection 
+constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  widget  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  widget  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  border  see  swt  read  only  see  swt  flat  see  widget get style
+adds  the  argument  the  end  the  receiver  list  param  string  the  new  item  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  add  string  int
+adds  the  argument  the  receiver  list  the  given  zero  relative  index  note  add  item  the  end  the  list  use  the  result  calling  code get item count  code  the  index  use  code  add  string  code  param  string  the  new  item  param  index  the  index  for  the  item  exception illegal argument exception  error  null  argument  the  string  null  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see  add  string
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  receiver  text  modified  sending  one  the  messages  defined  the  code modify listener  code  interface  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see modify listener  see remove modify listener
+adds  the  listener  the  collection  listeners  who  will  notified  when  the  receiver  selection  changes  sending  one  the  messages  defined  the  code selection listener  code  interface  code widget selected  code  called  when  the  combo  list  selection  changes  code widget default selected  code  typically  called  when  enter  pressed  the  combo  text  area  param  listener  the  listener  which  should  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see remove selection listener  see selection event
+sets  the  selection  the  receiver  text  field  empty  selection  starting  just  before  the  first  character  the  text  field  editable  this  has  the  effect  placing  the  beam  the  start  the  text  note  clear  the  selected  items  the  receiver  list  use  code deselect all  code  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see deselect all
+non  nls 
+create  shell  and  list
+deselects  the  item  the  given  zero  relative  index  the  receiver  list  the  item  the  index  was  already  deselected  remains  deselected  indices  that  are  out  range  are  ignored  param  index  the  index  the  item  deselect  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+deselects  all  selected  items  the  receiver  list  note  clear  the  selection  the  receiver  text  field  use  code clear selection  code  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see clear selection
+return  the  label  immediately  preceding  the  receiver  the  order  null  none
+gets  the  editable  state  return  whether  not  the  reciever  editable  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+returns  the  item  the  given  zero  relative  index  the  receiver  list  throws  exception  the  index  out  range  param  index  the  index  the  item  return  return  the  item  the  given  index  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  number  items  contained  the  receiver  list  return  the  number  items  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  height  the  area  which  would  used  display  one  the  items  the  receiver  list  return  the  height  one  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  array  code  string  code  which  are  the  items  the  receiver  list  note  this  not  the  actual  structure  used  the  receiver  maintain  its  list  items  modifying  the  array  will  not  affect  the  receiver  return  the  items  the  receiver  list  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  code  point  code  whose  coordinate  the  start  the  selection  the  receiver  text  field  and  whose  coordinate  the  end  the  selection  the  returned  values  are  zero  relative  empty  selection  indicated  the  the  and  coordinates  having  the  same  value  return  point  representing  the  selection  start  and  end  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  zero  relative  index  the  item  which  currently  selected  the  receiver  list  item  selected  return  the  index  the  selected  item  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  string  containing  copy  the  contents  the  receiver  text  field  return  the  receiver  text  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  height  the  receivers  text  field  return  the  text  height  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+returns  the  maximum  number  characters  that  the  receiver  text  field  capable  holding  this  has  not  been  changed  code set text limit  code  will  the  constant  code  combo  limit  code  return  the  text  limit  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+gets  the  number  items  that  are  visible  the  drop  down  portion  the  receiver  list  return  the  number  items  that  are  visible  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+searches  the  receiver  list  starting  the  first  item  index  until  item  found  that  equal  the  argument  and  returns  the  index  that  item  item  found  returns  param  string  the  search  item  return  the  index  the  item  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+searches  the  receiver  list  starting  the  given  zero  relative  index  until  item  found  that  equal  the  argument  and  returns  the  index  that  item  item  found  the  starting  index  out  range  returns  param  string  the  search  item  param  start  the  zero  relative  index  which  begin  the  search  return  the  index  the  item  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+non  nls 
+non  nls  non  nls 
+non  nls 
+non  nls  non  nls 
+escape  key  cancels  popup  list
+enter  causes  default  selection
+this  point  the  widget  may  have  been  disposed
+not  continue
+draw  black  rectangle  around  list
+removes  the  item  from  the  receiver  list  the  given  zero  relative  index  param  index  the  index  for  the  item  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+removes  the  items  from  the  receiver  list  which  are  between  the  given  zero  relative  start  and  end  indices  inclusive  param  start  the  start  the  range  param  end  the  end  the  range  exception illegal argument exception  error  invalid  range  either  the  start  end  are  not  between  and  the  number  elements  the  list  minus  inclusive  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+searches  the  receiver  list  starting  the  first  item  until  item  found  that  equal  the  argument  and  removes  that  item  from  the  list  param  string  the  item  remove  exception illegal argument exception  error  null  argument  the  string  null  error  invalid  argument  the  string  not  found  the  list  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+removes  all  the  items  from  the  receiver  list  and  clear  the  contents  receiver  text  field  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+non  nls 
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  receiver  text  modified  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see modify listener  see add modify listener
+removes  the  listener  from  the  collection  listeners  who  will  notified  when  the  receiver  selection  changes  param  listener  the  listener  which  should  longer  notified  exception illegal argument exception  error  null  argument  the  listener  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  see selection listener  see add selection listener
+selects  the  item  the  given  zero  relative  index  the  receiver  list  the  item  the  index  was  already  selected  remains  selected  indices  that  are  out  range  are  ignored  param  index  the  index  the  item  select  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+non  nls 
+sets  the  editable  state  param  editable  the  new  editable  state  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+sets  the  text  the  item  the  receiver  list  the  given  zero  relative  index  the  string  argument  this  equivalent  code  remove  code  ing  the  old  item  the  index  and  then  code  add  code  ing  the  new  item  that  index  param  index  the  index  for  the  item  param  string  the  new  text  for  the  item  exception illegal argument exception  error  invalid  range  the  index  not  between  and  the  number  elements  the  list  minus  inclusive  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  receiver  list  the  given  array  items  param  items  the  array  items  exception illegal argument exception  error  null  argument  the  items  array  null  error  invalid  argument  item  the  items  array  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+non  nls 
+sets  the  layout  which  associated  with  the  receiver  the  argument  which  may  null  note  layout  can  set  this  control  because  already  manages  the  size  and  position  its  children  param  layout  the  receiver  new  layout  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  selection  the  receiver  text  field  the  range  specified  the  argument  whose  coordinate  the  start  the  selection  and  whose  coordinate  the  end  the  selection  param  selection  point  representing  the  new  selection  start  and  end  exception illegal argument exception  error  null  argument  the  point  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  contents  the  receiver  text  field  the  given  string  note  the  text  field  code  combo  code  typically  only  capable  displaying  single  line  text  thus  setting  the  text  string  containing  line  breaks  other  special  characters  will  probably  cause  display  incorrectly  param  string  the  new  text  exception illegal argument exception  error  null  argument  the  string  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  maximum  number  characters  that  the  receiver  text  field  capable  holding  the  argument  param  limit  new  text  limit  exception illegal argument exception  error  cannot  zero  the  limit  zero  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+sets  the  number  items  that  are  visible  the  drop  down  portion  the  receiver  list  param  count  the  new  number  items  visible  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  since 
+this  point  the  widget  may  have  been  disposed
+not  continue
+this  point  the  widget  may  have  been  disposed
+not  continue
+further  work  need  add  support  for  incremental  search 
+pop  list  characters  typed  text  widget
+the  enter  causes  default  selection  and
+the  arrow  keys  are  used  manipulate  the  list  contents 
+not  use  them  for  traversal
 </comments>
 </text>
 </DOC>

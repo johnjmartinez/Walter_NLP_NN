@@ -1,352 +1,284 @@
 <DOC>
-<DOCNO>org.eclipse.swt.ole.win32.OleEventSink.java </DOCNO>
+<DOCNO>org.eclipse.swt.layout.FormAttachment.java </DOCNO>
 <text>
 <class>
-ole event sink
+form attachment
 </class>
 <method>
-ole event sink
- connect
-add listener
-add ref
-create com interfaces
- method
- method
- method
- method
- disconnect
-dispose com interfaces
- invoke
-notify listener
-query interface
- release
-remove listener
-has listeners
+form attachment
+form attachment
+form attachment
+form attachment
+form attachment
+form attachment
+form attachment
+ divide
+ gcd
+ minus
+ minus
+ plus
+ plus
+ solve
+ solve
+ string
 </method>
 <identifier>
  org
  eclipse
  swt
- ole
- win
+ layout
  org
  eclipse
  swt
  org
  eclipse
  swt
- internal
- ole
- win
-ole event sink
-ole control site
- widget
-com object
- dispatch
-ref count
- unknown
-obj unknown
-event cookie
- guid
-event guid
-ole event table
-event table
-ole event sink
-ole control site
- widget
- unknown
- guid
- riid
- widget
- widget
-event guid
- riid
-obj unknown
- unknown
- unknown
-create com interfaces
- connect
-ppv object
-obj unknown
-query interface
- com
-iidi connection point container
-ppv object
- com
-
-connection point container
- cpc
-connection point container
-ppv object
-
- cpc
-find connection point
-event guid
-
- com
-
-connection point
-
-connection point
-
- cookie
-
- advise
- dispatch
-get address
- cookie
- com
-
-event cookie
- cookie
-
- release
- cpc
- release
-add listener
- event
-ole listener
- listener
- listener
- ole
+ widgets
+form attachment
+ numerator
+ denominator
+ offset
+ control
+ control
+ alignment
+form attachment
+form attachment
+ numerator
+ numerator
+form attachment
+ numerator
+ offset
+ numerator
+ offset
+form attachment
+ numerator
+ denominator
+ offset
+ denominator
+ swt
  error
  swt
-error null argument
-event table
-event table
-ole event table
-event table
- hook
- event
- listener
-add ref
-ref count
-ref count
-create com interfaces
- dispatch
-com object
- method
- args
-query interface
- args
- args
- method
- args
-add ref
- method
- args
- release
- method
- args
- invoke
- args
- args
- args
- args
- args
- args
- args
- args
- disconnect
-event cookie
-obj unknown
-ppv object
-obj unknown
-query interface
- com
-iidi connection point container
-ppv object
- com
-
-connection point container
- cpc
-connection point container
-ppv object
- cpc
-find connection point
-event guid
-ppv object
- com
-
-connection point
-
-connection point
-ppv object
-
- unadvise
-event cookie
- com
-
-event cookie
-
- release
- cpc
- release
-dispose com interfaces
- dispatch
- dispatch
- dispose
- dispatch
- invoke
-disp member
- riid
- lcid
- flags
-disp params
-var result
-excep info
-arg err
-event table
-event table
- hooks
-disp member
- com
-
- variant
-event info
-disp params
- dispparams
-disp params
- dispparams
- com
-move memory
-disp params
-disp params
- dispparams
- sizeof
-event info
- variant
-disp params
- args
- size
- variant
- sizeof
- offset
-disp params
- args
- size
-
-
-disp params
- args
-
-event info
-
- variant
-event info
-
-set data
-disp params
- rgvarg
+error cannot zero
+ numerator
+ numerator
+ denominator
+ denominator
  offset
  offset
+form attachment
+ control
+ control
+ control
+ swt
+ default
+form attachment
+ control
+ control
  offset
- size
-ole event
- event
-ole event
- event
- arguments
-event info
-notify listener
-disp member
- event
- com
+ control
+ offset
+ swt
+ default
+form attachment
+ control
+ control
+ offset
+ alignment
+ control
+ control
+ offset
+ offset
+ alignment
+ alignment
+form attachment
+ divide
+ value
+form attachment
+ numerator
+ denominator
+ value
+ offset
+ value
+ gcd
 
-notify listener
-event type
-ole event
- event
- event
- ole
+
+ temp
+
+ math
+ abs
+
+
+ math
+ abs
+
+
+
+ temp
+
+
+
+
+ temp
+
+ temp
+
+
+
+
+ temp
+
+
+form attachment
+ minus
+form attachment
+ attachment
+form attachment
+ solution
+form attachment
+ solution
+ numerator
+ numerator
+ attachment
+ denominator
+ denominator
+ attachment
+ numerator
+ solution
+ denominator
+ denominator
+ attachment
+ denominator
+ gcd
+ gcd
+ solution
+ denominator
+ solution
+ numerator
+ solution
+ numerator
+ solution
+ numerator
+ gcd
+ solution
+ denominator
+ solution
+ denominator
+ gcd
+ solution
+ offset
+ offset
+ attachment
+ offset
+ solution
+form attachment
+ minus
+ value
+form attachment
+ numerator
+ denominator
+ offset
+ value
+form attachment
+ plus
+form attachment
+ attachment
+form attachment
+ solution
+form attachment
+ solution
+ numerator
+ numerator
+ attachment
+ denominator
+ denominator
+ attachment
+ numerator
+ solution
+ denominator
+ denominator
+ attachment
+ denominator
+ gcd
+ gcd
+ solution
+ denominator
+ solution
+ numerator
+ solution
+ numerator
+ solution
+ numerator
+ gcd
+ solution
+ denominator
+ solution
+ denominator
+ gcd
+ solution
+ offset
+ offset
+ attachment
+ offset
+ solution
+form attachment
+ plus
+ value
+form attachment
+ numerator
+ denominator
+ offset
+ value
+ solve
+ value
+ denominator
+ swt
  error
  swt
-error null argument
-event table
- event
- type
-event type
- event
- widget
- widget
-event table
-send event
- event
-query interface
- riid
-ppv object
- riid
-ppv object
- com
- invalidarg
- guid
- guid
- guid
- com
-move memory
- guid
- riid
- guid
- sizeof
- com
-equal guid
- guid
- com
-iidi unknown
- com
-equal guid
- guid
- com
-iidi dispatch
- com
-equal guid
- guid
-event guid
- com
-move memory
-ppv object
- dispatch
-get address
-add ref
- ole
-
- com
-move memory
-ppv object
- com
- nointerface
- release
-ref count
-ref count
-dispose com interfaces
-ref count
-remove listener
- event
-ole listener
- listener
- listener
- ole
+error cannot zero
+ numerator
+ value
+ denominator
+ offset
+ solve
+ value
+ numerator
+ swt
  error
  swt
-error null argument
-event table
-event table
- unhook
- event
- listener
-has listeners
-event table
-has entries
+error cannot zero
+ value
+ offset
+ denominator
+ numerator
+ string
+ string
+ string
+ string
+ control
+ control
+ string
+ numerator
+ denominator
+ string
+ offset
+ offset
+ offset
 </identifier>
 <comments>
-copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-method get type info count  not  implemented
-method get type info  not  implemented
-method get names  not  implemented
-disconnect  event  sink
-construct  array  the  parameters  that  are  passed 
-note  parameters  are  passed  reverse  order  here  will  correct  the  order
-notify  listeners  event  this  method  notifies  all  listeners  that  event  has  occurred  param event type  the  desired  swt  event  param  event  the  event  data  exception illegal argument exception  error  null  argument  when  handler  null  exception swt exception  error  thread  invalid  access  when  called  from  the  wrong  thread  error  widget  disposed  when  the  widget  has  been  disposed 
+copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+instances  this  class  are  used  define  the  edges  control  within  code form layout  code  code form attachments  code  are  set  into  the  top  bottom  left  and  right  fields  the  code form data  code  for  control  for  example  pre form data  data  new form data  data  top  new form attachment  data  bottom  new form attachment  100  data  left  new form attachment  data  right  new form attachment  100  button set layout data  data  pre  code form attachment  code  defines  where  attach  the  side  control  using  the  equation  the  term  represents  fraction  the  parent  composite  width  from  the  left  height  from  the  top  can  defined  using  numerator  and  denominator  just  percentage  value  percentage  used  the  denominator  set  100  the  term  the  equation  represents  offset  pixels  from  the  attachment  position  for  example  pre form attachment  attach  new form attachment  pre  specifies  that  the  side  which  the  code form attachment  code  object  belongs  will  lie  the  parent  composite  minus  pixels  control  sides  can  also  attached  another  control  for  example  pre form attachment  attach  new form attachment  button  pre  specifies  that  the  side  which  the  code form attachment  code  object  belongs  will  lie  the  same  position  the  adjacent  side  the  code  button  code  control  plus  pixels  the  control  side  can  also  attached  the  opposite  side  the  specified  control  for  example  pre form data  data  new form data  data  left  new form attachment  button  swt  left  pre  specifies  that  the  left  side  the  control  will  lie  the  same  position  the  left  side  the  code  button  code  control  the  control  can  also  attached  position  that  will  center  the  control  the  specified  control  for  example  pre  data  left  new form attachment  button  swt  center  pre  specifies  that  the  left  side  the  control  will  positioned  that  centered  between  the  left  and  right  sides  the  code  button  code  control  the  alignment  not  specified  the  default  attach  the  adjacent  side  see form layout  see form data  since 
+numerator  specifies  the  numerator  the  term  the  equation  which  defines  the  attachment
+denominator  specifies  the  denominator  the  term  the  equation  which  defines  the  attachment  the  default  value  100
+offset  specifies  the  offset  pixels  the  control  side  from  the  attachment  position  the  offset  positive  then  the  control  side  offset  the  right  below  the  attachment  position  negative  then  the  control  side  offset  the  left  above  the  attachment  position  this  equivalent  the  term  the  equation  the  default  value 
+control  specifies  the  control  which  the  control  side  attached
+alignment  specifies  the  alignment  the  control  side  that  attached  control  for  top  and  bottom  attachments  top  bottom  and  center  are  used  for  left  and  right  attachments  left  right  and  center  are  used  any  other  case  occurs  the  default  will  used  instead  possible  values  are  top  attach  the  side  the  top  side  the  specified  control  bottom  attach  the  side  the  bottom  side  the  specified  control  left  attach  the  side  the  left  side  the  specified  control  right  attach  the  side  the  right  side  the  specified  control  center  attach  the  side  position  which  will  center  the  control  the  specified  control  default  attach  the  side  the  adjacent  side  the  specified  control 
+constructs  new  instance  this  class  given  numerator  since  denominator  offset  specified  the  default  treat  the  numerator  percentage  the  form  with  denominator  100  the  offset  zero  param  numerator  the  percentage  the  position  since 
+constructs  new  instance  this  class  given  numerator  and  offset  since  denominator  specified  the  default  treat  the  numerator  percentage  the  form  with  denominator  100  param  numerator  the  percentage  the  position  param  offset  the  offset  the  side  from  the  position
+constructs  new  instance  this  class  given  numerator  and  denominator  and  offset  the  position  the  side  given  the  fraction  the  form  defined  the  numerator  and  denominator  param  numerator  the  numerator  the  position  param  denominator  the  denominator  the  position  param  offset  the  offset  the  side  from  the  position
+constructs  new  instance  this  class  given  control  since  alignment  specified  the  default  alignment  attach  the  side  the  adjacent  side  the  specified  control  since  offset  specified  offset  used  param  control  the  control  the  side  attached 
+constructs  new  instance  this  class  given  control  and  offset  since  alignment  specified  the  default  alignment  attach  the  side  the  adjacent  side  the  specified  control  param  control  the  control  the  side  attached  param  offset  the  offset  the  side  from  the  control
+constructs  new  instance  this  class  given  control  offset  and  alignment  param  control  the  control  the  side  attached  param  offset  the  offset  the  side  from  the  control  param  alignment  the  alignment  the  side  the  control  attached 
+returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
 </comments>
 </text>
 </DOC>

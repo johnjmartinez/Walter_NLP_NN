@@ -1,32 +1,35 @@
 <DOC>
-<DOCNO>org.eclipse.swt.events.MouseMoveListener.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.ole.win32.IPersist.java </DOCNO>
 <text>
 <class>
-mouse move listener
+ persist
 </class>
 <method>
-mouse move
+ persist
+get class
 </method>
 <identifier>
  org
  eclipse
  swt
- events
- org
- eclipse
- swt
  internal
-swt event listener
-mouse move listener
-swt event listener
-mouse move
-mouse event
-
+ ole
+ win
+ persist
+ unknown
+ persist
+ address
+ address
+get class
+ guid
+ class
+ com
+vtbl call
+ address
+ class
 </identifier>
 <comments>
 copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-classes  which  implement  this  interface  provide  method  that  deals  with  the  events  that  are  generated  the  mouse  pointer  moves  after  creating  instance  class  that  implements  this  interface  can  added  control  using  the  code add mouse move listener  code  method  and  removed  using  the  code remove mouse move listener  code  method  the  mouse  moves  the mouse move  method  will  invoked  see mouse event
-sent  when  the  mouse  moves  param  event  containing  information  about  the  mouse  move
 </comments>
 </text>
 </DOC>

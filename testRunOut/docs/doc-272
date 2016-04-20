@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.TCITEM.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.LVITEM.java </DOCNO>
 <text>
 <class>
- tcitem
+ lvitem
 </class>
 <method>
 NONE
@@ -13,14 +13,17 @@ NONE
  swt
  internal
  win
- tcitem
+ lvitem
  mask
+ item
+sub item
  state
 state mask
 psz text
 cch text max
  image
  param
+ indent
  sizeof
 </identifier>
 <comments>

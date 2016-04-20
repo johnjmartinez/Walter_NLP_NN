@@ -1,34 +1,36 @@
 <DOC>
-<DOCNO>org.eclipse.swt.events.ModifyEvent.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.ole.win32.VARDESC.java </DOCNO>
 <text>
 <class>
-modify event
+ vardesc
 </class>
 <method>
-modify event
+NONE
 </method>
 <identifier>
  org
  eclipse
  swt
- events
- org
- eclipse
- swt
- widgets
- event
-modify event
-typed event
-serial version uid
-modify event
- event
-
-
+ internal
+ ole
+ win
+ vardesc
+ memid
+lpstr schema
+ inst
+elemdesc var _tdesc _union
+elemdesc var _tdesc _vt
+elemdesc var _paramdesc _pparamdescex
+elemdesc var _paramdesc param flags
+var flags
+ varkind
+ sizeof
 </identifier>
 <comments>
 copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-instances  this  class  are  sent  result  text  being  modified  see modify listener
-constructs  new  instance  this  class  based  the  information  the  given  untyped  event  param  the  untyped  event  containing  the  information
+elemdesc elemdesc var
+typedesc elemdesc var  tdesc
+paramdesc elemdesc func  paramdesc
 </comments>
 </text>
 </DOC>

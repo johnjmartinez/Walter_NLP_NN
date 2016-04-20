@@ -1,377 +1,159 @@
 <DOC>
-<DOCNO>org.eclipse.swt.custom.TreeEditor.java </DOCNO>
+<DOCNO>org.eclipse.swt.dnd.DND.java </DOCNO>
 <text>
 <class>
-tree editor
+ dnd
 </class>
 <method>
-tree editor
-control moved
-control resized
- run
-tree collapsed
-tree expanded
-compute bounds
- dispose
-get column
-get item
-set column
-set item
-set editor
-set editor
- resize
+ error
+ error
 </method>
 <identifier>
  org
  eclipse
  swt
- custom
+ dnd
  org
  eclipse
  swt
- org
- eclipse
+ dnd
+ clipboard
+selection clipboard
+drop none
+drop copy
+drop move
+drop link
+drop target move
+drop default
+drag end
+drag set data
+drag enter
+drag leave
+drag over
+drag operation changed
+ drop
+drop accept
+drag start
+feedback none
+feedback select
+feedback insert before
+feedback insert after
+feedback scroll
+feedback expand
+error cannot init drag
+error cannot init drop
+error cannot set clipboard
+error invalid data
+ string
+init drag message
+ string
+init drop message
+ string
+cannot set clipboard message
+ string
+invalid data message
+ error
+ code
+ error
+ code
+ error
+ code
+ hresult
+ code
+ dnd
+error cannot init drag
+ string
+ msg
+ dnd
+init drag message
+ hresult
+ msg
+ hresult
+swt error
+ code
+ msg
+ dnd
+error cannot init drop
+ string
+ msg
+ dnd
+init drop message
+ hresult
+ msg
+ hresult
+swt error
+ code
+ msg
+ dnd
+error cannot set clipboard
+ string
+ msg
+ dnd
+cannot set clipboard message
+ hresult
+ msg
+ hresult
+swt error
+ code
+ msg
+ dnd
+error invalid data
+ string
+ msg
+ dnd
+invalid data message
+ hresult
+ msg
+ hresult
+swt exception
+ code
+ msg
  swt
- events
- org
- eclipse
- swt
- graphics
- org
- eclipse
- swt
- widgets
-tree editor
-control editor
- tree
- tree
-tree item
- item
- column
-control listener
-column listener
-tree listener
-tree listener
-tree editor
- tree
- tree
- tree
- tree
- tree
-column listener
-control listener
-control moved
-control event
-
- resize
-control resized
-control event
-
- resize
-tree listener
-tree listener
- runnable
- runnable
- runnable
- run
- editor
- editor
- disposed
-tree editor
- tree
- disposed
- resize
- editor
-set visible
-tree collapsed
-tree event
-
- editor
- editor
- disposed
- editor
-set visible
-
- display
-async exec
- runnable
-tree expanded
-tree event
-
- editor
- editor
- disposed
- editor
-set visible
-
- display
-async exec
- runnable
- tree
-add tree listener
-tree listener
-grab vertical
- rectangle
-compute bounds
- item
- column
- item
- disposed
- rectangle
- rectangle
- cell
- item
-get bounds
- column
- rectangle
- rect
- item
-get image bounds
- column
- cell
-
- rect
-
- rect
- width
- cell
- width
- rect
- width
- rectangle
- area
- tree
-get client area
- cell
-
- area
-
- area
- width
- cell
-
- cell
- width
- area
-
- area
- width
- cell
- width
- area
-
- area
- width
- cell
-
- rectangle
-editor rect
- rectangle
- cell
-
- cell
-
-minimum width
-minimum height
-grab horizontal
- tree
-get column count
- cell
- width
- area
-
- area
- width
- cell
-
-editor rect
- width
- math
- max
- cell
- width
-minimum width
-grab vertical
-editor rect
- height
- math
- max
- cell
- height
-minimum height
-horizontal alignment
- swt
- right
-editor rect
-
- cell
- width
-editor rect
- width
-horizontal alignment
- swt
- left
-editor rect
-
- cell
- width
-editor rect
- width
-editor rect
-
- math
- max
- cell
-
-editor rect
-
-vertical alignment
- swt
- bottom
-editor rect
-
- cell
- height
-editor rect
- height
-vertical alignment
- swt
- top
-editor rect
-
- cell
- height
-editor rect
- height
-editor rect
- dispose
- column
- column
- tree
-get column count
-tree column
-tree column
- tree
-get column
- column
-tree column
-remove control listener
-column listener
-column listener
-tree listener
- tree
-remove tree listener
-tree listener
-tree listener
- tree
- item
- column
- dispose
-get column
- column
-tree item
-get item
- item
-set column
- column
-column count
- tree
-get column count
-column count
- column
- column
- resize
- column
- column
-column count
-tree column
-tree column
- tree
-get column
- column
-tree column
-remove control listener
-column listener
- column
- column
- column
- tree
-get column count
- column
- column
-tree column
-tree column
- tree
-get column
- column
-tree column
-add control listener
-column listener
- resize
-set item
-tree item
- item
- item
- item
- resize
-set editor
- control
- editor
-tree item
- item
- column
-set item
- item
-set column
- column
-set editor
- editor
-set editor
- control
- editor
-tree item
- item
-set item
- item
-set editor
- editor
- resize
- tree
- disposed
- item
- item
- disposed
-column count
- tree
-get column count
-column count
- column
-column count
- column
- column
-column count
- resize
+ error
+ code
 </identifier>
 <comments>
 copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-tree editor  manager  for  control  that  appears  above  cell  tree  and  tracks  with  the  moving  and  resizing  that  cell  can  used  display  text  widget  above  cell  tree  that  the  user  can  edit  the  contents  that  cell  can  also  used  display  button  that  can  launch  dialog  for  modifying  the  contents  the  associated  cell  here  example  using tree editor  code  pre  final  tree  tree  new  tree  shell  swt  border  for  int tree item  item  new tree item  tree  swt  none  item set text  item  for  int tree item sub item  new tree item  item  swt  none sub item set text  item  final tree editor  editor  new tree editor  tree  the  editor  must  have  the  same  size  the  cell  and  must  not  any  smaller  than  pixels  editor horizontal alignment  swt  left  editor grab horizontal  true  editor minimum width  tree add selection listener  new selection adapter  public  void widget selected selection event  clean  any  previous  editor  control  control old editor  editor get editor old editor  null old editor  dispose  identify  the  selected  row tree item  item tree item  item  item  null  return  the  control  that  will  the  editor  must  child  the  tree  text new editor  new  text  tree  swt  none new editor set text  item get text new editor add modify listener  new modify listener  public  void modify text modify event  text  text  text  editor get editor  editor get item set text  text get text new editor select all new editor set focus  editor set editor new editor  item  pre  code
-creates tree editor  for  the  specified  tree  param  tree  the  tree  control  above  which  this  editor  will  displayed
-consistent  with  older  versions  swt grab vertical  defaults  true
-bounds  tree  item  only  include  the  text  area  stretch  out  include
-entire  client  area
-nothing  cell  the  right  answer
-default  center
-don  let  the  editor  overlap  with  the  the  tree
-nothing  cell  the  right  answer
-default  center
-removes  all  associations  between  the tree editor  and  the  row  the  tree  the  tree  and  the  editor  control  are  not  disposed
-returns  the  zero  based  index  the  column  the  cell  being  tracked  this  editor  return  the  zero  based  index  the  column  the  cell  being  tracked  this  editor  since 
-returns  the tree item  for  the  row  the  cell  being  tracked  this  editor  return  the tree item  for  the  row  the  cell  being  tracked  this  editor
-sets  the  zero  based  index  the  column  the  cell  being  tracked  this  editor  param  column  the  zero  based  index  the  column  the  cell  being  tracked  this  editor  since 
-separately  handle  the  case  where  the  tree  has tree columns
-this  situation  there  single  default  column
-specify  the  control  that  displayed  and  the  cell  the  tree  that  positioned  above  note  the  control  provided  the  editor  must  created  with  its  parent  being  the  tree  control  specified  the tree editor  constructor  param  editor  the  control  that  displayed  above  the  cell  being  edited  param  item  the tree item  for  the  row  the  cell  being  tracked  this  editor  param  column  the  zero  based  index  the  column  the  cell  being  tracked  this  editor  since 
-specify  the  control  that  displayed  and  the  cell  the  tree  that  positioned  above  note  the  control  provided  the  editor  must  created  with  its  parent  being  the  tree  control  specified  the tree editor  constructor  param  editor  the  control  that  displayed  above  the  cell  being  edited  param  item  the tree item  for  the  row  the  cell  being  tracked  this  editor
+class  dnd  contains  all  the  constants  used  defining drag source drop target
+the  transfer  mechanism  for  data  that  being  cut  and  then  pasted  copied  and  then  pasted  value  see  clipboard  since 
+the  transfer  mechanism  for  clients  that  use  the  selection  mechanism  value  see  clipboard  since 
+drag  and  drop  operation  drag  drop  operation  performed  value 
+drag  and  drop  operation  copy  the  data  the  drag  source  added  the  drop  target  value 
+drag  and  drop  operation  copy  the  data  added  the  drop  target  and  the  original  data  removed  from  the  drag  source  value 
+drag  and  drop  operation  the  drop  target  makes  link  the  data  the  drag  source  value 
+drag  and  drop  operation  the  drop  target  moves  the  data  and  the  drag  source  removes  any  references  the  data  and  updates  its  display  this  not  available  all  platforms  and  only  used  when  non  swt  application  the  drop  target  this  case  the  swt  drag  source  informed  the drag finished  event  that  the  drop  target  has  moved  the  data  value  see drag source listener drag finished
+drag  and  drop  operation  during drag enter  event drag operation changed  modifier  keys  are  pressed  the  operation  set  drop  default  the  application  can  choose  what  the  default  operation  should  setting  new  value  the  operation  field  value  choosen  the  default  operation  for  the  platform  will  selected  value  see drop target listener drag enter  see drop target listener drag operation changed  since 
+drag source  event  the  drop  has  successfully  completed  has  been  terminated  such  hitting  the  esc  key  perform  cleanup  such  removing  data  move  operation  value  2000
+drag source  event  the  data  dropped  required  from  the  drag  source  value  2001
+drop target  event  the  cursor  has  entered  the  drop  target  boundaries  value  2002
+drop target  event  the  cursor  has  left  the  drop  target  boundaries  the  drop  operation  has  been  cancelled  such  hitting  ecs  the  drop  about  happen  user  has  released  the  mous  ebutotn  over  this  target  value  2003
+drop target  event  the  cursor  over  the  drop  target  value  2004
+drop target  event  the  operation  being  performed  has  changed  usually  due  the  user  changing  the  selected  modifier  keys  while  dragging  value  2005
+drop target  event  the  data  has  been  dropped  value  2006
+drop target  event  the  drop  target  given  last  chance  modify  the  drop  value  2007
+drag source  event  drag  about  begin  value  2008
+drop target  drag  under  effect  effect  shown  value 
+drop target  drag  under  effect  the  item  under  the  cursor  selected  applies  tables  and  trees  value 
+drop target  drag  under  effect  insertion  mark  shown  before  the  item  under  the  cursor  applies  trees  value 
+drop target  drag  under  effect  insertion  mark  shown  after  the  item  under  the  cursor  applies  trees  value 
+drop target  drag  under  effect  the  widget  scrolled  down  allow  the  user  drop  items  that  are  not  currently  visible  applies  tables  and  trees  value 
+drop target  drag  under  effect  the  item  currently  under  the  cursor  expanded  allow  the  user  select  drop  target  from  sub  item  applies  trees  value 
+error  code  drag  source  can  not  initialized  value  2000
+error  code  drop  target  cannot  initialized  value  2001
+error  code  data  can  not  set  system  clipboard  value  2002
+error  code  data  does  not  have  correct  format  for  type  value  2003  since 
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+throws  appropriate  exception  based  the  passed  error  code  param  code  the  dnd  error  code
+throws  appropriate  exception  based  the  passed  error  code  the  code  hresult  code  argument  should  either  the  platform  specific  error  code  dnd  errors  are  reported  throwing  one  three  exceptions  java  lang illegal argument exception  thrown  whenever  one  the  api  methods  invoked  with  illegal  argument  org  eclipse  swt swt exception  extends  java  lang runtime exception  thrown  whenever  recoverable  error  happens  internally  swt  org  eclipse  swt swt error  extends  java  lang  error  thrown  whenever  non  recoverable  error  happens  internally  swt  this  method  provides  the  logic  which  maps  between  error  codes  and  one  the  above  exceptions  param  code  the  dnd  error  code  param  hresult  the  platform  specific  error  code  see swt error  see swt exception  see illegal argument exception
+failure  limit  fatal  may  occur  only  some  platforms
+non  nls 
+non  nls 
+non  nls 
+non  nls 
+unknown  undefined  error
 </comments>
 </text>
 </DOC>

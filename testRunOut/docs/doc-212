@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.MSG.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.UDACCEL.java </DOCNO>
 <text>
 <class>
- msg
+ udaccel
 </class>
 <method>
 NONE
@@ -13,19 +13,13 @@ NONE
  swt
  internal
  win
- msg
- hwnd
- message
- param
- param
- time
-
-
+ udaccel
+ sec
+ inc
  sizeof
 </identifier>
 <comments>
-copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-point 
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
 </comments>
 </text>
 </DOC>

@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.LITEM.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.gdip.GdiplusStartupInput.java </DOCNO>
 <text>
 <class>
- litem
+gdiplus startup input
 </class>
 <method>
 NONE
@@ -12,18 +12,12 @@ NONE
  eclipse
  swt
  internal
- win
- litem
- mask
- link
- state
-state mask
-
-
-max linkid text
- url
-
-max url length
+ gdip
+gdiplus startup input
+gdiplus version
+debug event callback
+suppress background thread
+suppress external codecs
  sizeof
 </identifier>
 <comments>

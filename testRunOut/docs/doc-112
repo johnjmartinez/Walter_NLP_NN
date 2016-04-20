@@ -1,230 +1,32 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.image.TIFFModifiedHuffmanCodec.java </DOCNO>
+<DOCNO>org.eclipse.swt.events.KeyAdapter.java </DOCNO>
 <text>
 <class>
-tiff modified huffman codec
+key adapter
 </class>
 <method>
- decode
-decode row
-decode run length
-get next bit
-get next bits
-set next bits
+key pressed
+key released
 </method>
 <identifier>
  org
  eclipse
  swt
- internal
- image
- org
- eclipse
- swt
-tiff modified huffman codec
-black code
-white code
-black min bits
-white min bits
- white
-white value
-black value
- src
- dest
-byte offset src
-bit offset src
-byte offset dest
-bit offset dest
- code
-nbr bits
-row size
- decode
- src
- dest
-offset dest
-row size
- rows
- src
- src
- dest
- dest
-row size
-row size
-byte offset src
-bit offset src
-byte offset dest
-offset dest
-bit offset dest
- cnt
- cnt
- rows
-decode row
- cnt
-bit offset dest
-byte offset dest
-bit offset dest
-byte offset dest
-offset dest
-decode row
- white
+ events
+key adapter
+key listener
+key pressed
+key event
 
+key released
+key event
 
-row size
-run length
-decode run length
-run length
-
-run length
-set next bits
- white
-white value
-black value
-run length
- white
- white
-decode run length
-run length
-partial run
-huffman code
- white
-white code
-black code
- found
-nbr bits
- white
-white min bits
-black min bits
- code
-get next bits
-nbr bits
-
-
-huffman code
- length
-
-
-
-huffman code
-
- length
-
-huffman code
-
-
- code
- found
-partial run
-huffman code
-
-
-partial run
-byte offset src
- src
- length
-run length
-partial run
-partial run
-run length
- found
- code
- code
-get next bit
- found
- swt
- error
- swt
-error invalid image
-get next bit
- value
- src
-byte offset src
-bit offset src
-bit offset src
-bit offset src
-byte offset src
-bit offset src
- value
-get next bits
- cnt
- value
-
-
- cnt
-
- value
- value
-get next bit
- value
-set next bits
- value
- cnt
-
- cnt
-bit offset dest
-bit offset dest
-
- dest
-byte offset dest
- value
- dest
-byte offset dest
-bit offset dest
- dest
-byte offset dest
-bit offset dest
-
-bit offset dest
-bit offset dest
-byte offset dest
-bit offset dest
-
- dest
-byte offset dest
- value
-
-
- dest
-byte offset dest
- value
- dest
-byte offset dest
-bit offset dest
- dest
-byte offset dest
-bit offset dest
-
-bit offset dest
 </identifier>
 <comments>
 copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-decoder  for  ccitt  group  dimensional  modified  huffman  run  length  encoding  tiff  compression  type  ccitt  level  encoding  tiff  compression  type  option 
-  bits
-  bits
-  bits
-  bits
-  bits
-  bits
-  bits
-  bits
-  bits
-  bits
-  eol
-  bits
-  bits
-  bits
-  bits
-  bits
-  bits
-  bits
-  bits
-  bits
-  bits
-  bits
-  eol
-nbr  bytes  per  row
-byte  aligned
-stop  when  reaching  final  eol  last  byte
-group  starts  each  row  with  eol  ignore 
+this  adapter  class  provides  default  implementations  for  the  methods  described  the  code key listener  code  interface  classes  that  wish  deal  with  code key event  code  can  extend  this  class  and  override  only  the  methods  which  they  are  interested  see key listener  see key event
+sent  when  key  pressed  the  system  keyboard  the  default  behavior  nothing  param  event  containing  information  about  the  key  press
+sent  when  key  released  the  system  keyboard  the  default  behavior  nothing  param  event  containing  information  about  the  key  release
 </comments>
 </text>
 </DOC>

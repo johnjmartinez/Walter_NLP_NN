@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.SIZE.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.NMTTDISPINFOA.java </DOCNO>
 <text>
 <class>
- size
+ nmttdispinfoa
 </class>
 <method>
 NONE
@@ -13,9 +13,9 @@ NONE
  swt
  internal
  win
- size
-
-
+ nmttdispinfoa
+ nmttdispinfo
+ text
  sizeof
 </identifier>
 <comments>

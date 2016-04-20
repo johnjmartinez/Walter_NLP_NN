@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.SCRIPT_CONTROL.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.RECT.java </DOCNO>
 <text>
 <class>
-script control
+ rect
 </class>
 <method>
 NONE
@@ -13,21 +13,15 @@ NONE
  swt
  internal
  win
-script control
-default language
-context digits
-invert pre bound dir
-invert post bound dir
-link string before
-link string after
-neutral override
-numeric override
-legacy bidi class
- reserved
+ rect
+ left
+ top
+ right
+ bottom
  sizeof
 </identifier>
 <comments>
-copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
 </comments>
 </text>
 </DOC>

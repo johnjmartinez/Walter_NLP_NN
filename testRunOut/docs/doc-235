@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.SHELLEXECUTEINFO.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.NOTIFYICONDATAW.java </DOCNO>
 <text>
 <class>
- shellexecuteinfo
+ notifyicondataw
 </class>
 <method>
 NONE
@@ -13,31 +13,17 @@ NONE
  swt
  internal
  win
- shellexecuteinfo
- size
- mask
- hwnd
- verb
- file
- parameters
- directory
- show
-inst app
- list
- class
-hkey class
-hot key
- icon
- process
+ notifyicondataw
+ notifyicondata
+ tip
+ info
+info title
  sizeof
+
+notifyicondataw size
 </identifier>
 <comments>
-copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-optional  members
-  union
-handle  icon
-handle  monitor
-
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
 </comments>
 </text>
 </DOC>

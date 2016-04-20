@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.SCRIPT_ANALYSIS.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.ACCEL.java </DOCNO>
 <text>
 <class>
-script analysis
+ accel
 </class>
 <method>
 NONE
@@ -13,21 +13,16 @@ NONE
  swt
  internal
  win
-script analysis
- script
- rtl
-layout rtl
-link before
-link after
-logical order
-glyph index
-script state
-
-script state
+ accel
+ virt
+ key
+ cmd
  sizeof
+
+ win
 </identifier>
 <comments>
-copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
 </comments>
 </text>
 </DOC>

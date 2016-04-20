@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.BITMAPINFOHEADER.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.GRADIENT_RECT.java </DOCNO>
 <text>
 <class>
- bitmapinfoheader
+gradient rect
 </class>
 <method>
 NONE
@@ -13,18 +13,9 @@ NONE
  swt
  internal
  win
- bitmapinfoheader
- size
- width
- height
- planes
-bit count
- compression
-size image
-pels per meter
-pels per meter
-clr used
-clr important
+gradient rect
+upper left
+lower right
  sizeof
 </identifier>
 <comments>

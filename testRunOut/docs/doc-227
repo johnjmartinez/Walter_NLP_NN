@@ -1,11 +1,11 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.LRESULT.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.NMHDR.java </DOCNO>
 <text>
 <class>
- lresult
+ nmhdr
 </class>
 <method>
- lresult
+NONE
 </method>
 <identifier>
  org
@@ -13,18 +13,11 @@
  swt
  internal
  win
- lresult
- value
- lresult
- one
- lresult
- lresult
- zero
- lresult
- lresult
- value
- value
- value
+ nmhdr
+hwnd from
+ from
+ code
+ sizeof
 </identifier>
 <comments>
 copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation

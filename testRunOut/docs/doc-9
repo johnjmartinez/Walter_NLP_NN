@@ -1,31 +1,73 @@
 <DOC>
-<DOCNO>org.eclipse.swt.custom.CTabFolderListener.java </DOCNO>
+<DOCNO>org.eclipse.swt.dnd.TransferData.java </DOCNO>
 <text>
 <class>
-tab folder listener
+transfer data
 </class>
 <method>
-item closed
+same type
 </method>
 <identifier>
  org
  eclipse
  swt
- custom
+ dnd
  org
  eclipse
  swt
  internal
-tab folder listener
-swt event listener
-item closed
-tab folder event
- event
+ ole
+ win
+transfer data
+ type
+ formatetc
+ formatetc
+ stgmedium
+ stgmedium
+ result
+ com
+ fail
+data object
+same type
+transfer data
+ data
+transfer data
+ data
+ data
+ data
+ data
+ data
+ data
+ type
+ data
+ type
+ data
+ formatetc
+ format
+ data
+ formatetc
+ format
+ data
+ formatetc
+ aspect
+ data
+ formatetc
+ aspect
+ data
+ formatetc
+ tymed
+ data
+ formatetc
+ tymed
 </identifier>
 <comments>
-copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-classes  which  implement  this  interface  provide  method  that  deals  with  events  generated  the tab folder  after  creating  instance  class  that  implements  this  interface  can  added tab folder  using  the  code add tab folder listener  code  method  and  removed  using  the  code remove tab folder listener  code  method  when  tab  item  closed  the item closed  method  will  invoked  see tab folder event
-sent  when  the  user  clicks  the  close  button  item  the tab folder  the  item  being  closed  specified  the  event  item  field  setting  the  event  doit  field  false  will  stop  the tab item  from  closing  when  the tab item  closed  disposed  the  contents  the tab item  see tab item set control  will  made  not  visible  when  the tab item  closed  param  event  event  indicating  the  item  being  closed  see tab item set control
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+the  code transfer data  code  class  platform  specific  data  structure  for  describing  the  type  and  the  contents  data  being  converted  transfer  agent  application  writer  you  not  need  know  the  specifics transfer data transfer data  instances  are  passed  subclass  transfer  and  the  transfer  object  manages  the  platform  specific  issues  you  can  ask  transfer  subclass  can  handle  this  data  calling  transfer supported type transfer data  you  should  only  need  become  familiar  with  the  fields  this  class  you  are  implementing  transfer  subclass  and  you  are  unable  subclass  the byte array transfer  class 
+the  type  unique  identifier  system  format  user  defined  format  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code 
+the  formatetc  structure  generalized  data  transfer  format  enhanced  encompass  target  device  the  aspect  view  the  data  and  storage  medium  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code 
+the  stgmedium  structure  generalized  global  memory  handle  used  for  data  transfer  operations  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code 
+the  result  field  contains  the  result  converting  java  data  type  into  platform  specific  value  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code  the  value  result  the  conversion  was  successful  the  value  result  the  conversion  failed 
+the data object  the  address data object  ole  interface  which  provides  access  the  data  associated  with  the  transfer  warning  this  field  platform  dependent  important  this  field  not  part  the  swt  public  api  marked  public  only  that  can  shared  within  the  packages  provided  swt  not  available  all  platforms  and  should  never  accessed  from  application  code 
 </comments>
 </text>
 </DOC>

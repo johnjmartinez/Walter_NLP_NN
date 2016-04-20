@@ -1,30 +1,43 @@
 <DOC>
-<DOCNO>org.eclipse.swt.custom.ViewForm.java </DOCNO>
+<DOCNO>org.eclipse.swt.custom.StyledTextRenderer.java </DOCNO>
 <text>
 <class>
-view form
+styled text renderer
 </class>
 <method>
-view form
-handle event
-check style
-compute trim
+styled text renderer
+calculate line height
+ dispose
+ dispose
+draw line
+draw line break selection
 get client area
 get content
-get top center
-get top left
-get top right
- dispose
- paint
- resize
-set content
-set layout
-set selection background
-set top center
-set top left
-set top right
-set border visible
-set top center separate
+get device
+get baseline
+get bidi segments
+get font
+get font data
+ get
+get horizontal pixel
+get left margin
+get line end space width
+get line background data
+get line height
+get line style data
+get line style data
+get orientation
+get right margin
+get selection foreground
+get selection background
+get selection
+get visual line style data
+get word wrap
+full line selection
+set tab length
+get text layout
+create text layout
+dispose text layout
 </method>
 <identifier>
  org
@@ -34,537 +47,686 @@ set top center separate
  org
  eclipse
  swt
+ swt
+ org
+ eclipse
+ swt
  graphics
- org
- eclipse
- swt
- widgets
- org
- eclipse
- swt
-view form
- composite
-margin width
-margin height
-horizontal spacing
-vertical spacing
- rgb
-border inside rgb
- rgb
- rgb
-border middle rgb
- rgb
- rgb
-border outside rgb
- rgb
- control
-top left
- control
-top center
- control
-top right
- control
- content
-separate top center
-show border
- separator
-border top
-border bottom
-border left
-border right
- highlight
- point
-old size
- color
-selection background
- offscreen
-border color
- swt
-color widget normal shadow
-selection background
- swt
-color list background
-view form
- composite
- parent
- style
- parent
-check style
- style
-set layout
-view form layout
-set border visible
- style
- swt
- border
- listener
- listener
- listener
-handle event
- event
+styled text renderer
+ device
+ device
+ font
+regular font
+bold font
+italic font
+bold italic font
+tab width
+ ascent
+ descent
+line end space width
+styled text renderer
+ device
+ device
+ font
+regular font
+ device
+ device
+regular font
+regular font
+calculate line height
 
 
- type
+ get
+line end space width
+
+string extent
+
+ font
+original font
+
+get font
+font metrics
+ metrics
+
+get font metrics
+ ascent
+ math
+ max
+ ascent
+ metrics
+get ascent
+ metrics
+get leading
+ descent
+ math
+ max
+ descent
+ metrics
+get descent
+
+set font
+get font
  swt
+ bold
+ metrics
+
+get font metrics
+ ascent
+ math
+ max
+ ascent
+ metrics
+get ascent
+ metrics
+get leading
+ descent
+ math
+ max
+ descent
+ metrics
+get descent
+
+set font
+get font
+ swt
+ italic
+ metrics
+
+get font metrics
+ ascent
+ math
+ max
+ ascent
+ metrics
+get ascent
+ metrics
+get leading
+ descent
+ math
+ max
+ descent
+ metrics
+get descent
+
+set font
+get font
+ swt
+ bold
+ swt
+ italic
+ metrics
+
+get font metrics
+ ascent
+ math
+ max
+ ascent
+ metrics
+get ascent
+ metrics
+get leading
+ descent
+ math
+ max
+ descent
+ metrics
+get descent
+
+set font
+original font
  dispose
+
+bold font
+bold font
  dispose
- swt
- paint
- paint
-
-
- swt
- resize
- resize
- events
- swt
+italic font
+italic font
  dispose
- swt
- paint
- swt
- resize
-
-
- events
- length
-
-add listener
- events
-
- listener
-check style
- style
- mask
- swt
- flat
- swt
-left right
- swt
-right left
- style
- mask
- swt
-redraw resize
- rectangle
-compute trim
-
-
- width
- height
-check widget
- trim
-
-border left
- highlight
- trim
-
-border top
- highlight
-trim width
- width
-border left
-border right
- highlight
-trim height
- height
-border top
-border bottom
- highlight
- rectangle
- trim
- trim
-trim width
-trim height
- rectangle
-get client area
-check widget
- rectangle
-client area
-get client area
-client area
-
-border left
-client area
-
-border top
-client area
- width
-border left
-border right
-client area
- height
-border top
-border bottom
-client area
- control
-get content
- content
- control
-get top center
-top center
- control
-get top left
-top left
- control
-get top right
-top right
+bold italic font
+bold italic font
  dispose
-top left
-top center
-top right
- content
-old size
-selection background
- paint
+bold font
+italic font
+bold italic font
+ dispose
+bold font
+bold font
+ dispose
+italic font
+italic font
+ dispose
+bold italic font
+bold italic font
+ dispose
+bold font
+italic font
+bold italic font
+ dispose
 
-
- color
- foreground
-
-get foreground
- point
- size
-get size
- color
- border
-get display
-get system color
-border color
-show border
-
-set foreground
- border
-
-draw rectangle
- size
-
- size
-
- highlight
-
-
-
- size
-
-
- size
-
- shape
-
-
-
-
-
-
-
-
-
-
- highlight
-
- highlight
-
- highlight
-
- highlight
-
- highlight
-
- highlight
-
- highlight
-
- highlight
-
- highlight
-
-
- highlight
- color
-highlight color
-get display
-get system color
- swt
-color list selection
-
-set background
-highlight color
-
-fill polygon
- shape
- separator
-
-set foreground
- border
 
 draw line
-border left
- highlight
- separator
- size
+ string
+ line
+line index
+ paint
 
-border left
-border right
- highlight
- separator
+
+ color
+widget background
+ color
+widget foreground
+clear background
+line offset
+get content
+get offset line
+line index
+line length
+ line
+ length
+ point
+ selection
+get selection
+selection start
+ selection
+
+selection end
+ selection
+
+left margin
+get left margin
+ color
+line background
+text layout
+ layout
+get text layout
+ line
+line offset
+ rectangle
+ client
+get client area
+styled text event
+ event
+get line background data
+line offset
+ line
+ event
+line background
+ event
+line background
+line background
+line background
+widget background
+clear background
+full line selection
+selection start
+line offset
+selection end
+line offset
+line length
+
+set background
+line background
 
 set foreground
+line background
+
+fill rectangle
+ client
+
+left margin
+ paint
+ client
+ width
+ ascent
+ descent
+ paint
+ client
+
+left margin
+get horizontal pixel
+selection start
+selection end
+ rectangle
+ rect
+ layout
+get line bounds
+draw line break selection
+ line
+line offset
+ paint
+ rect
+
+ rect
+ width
+ paint
+
+
+set foreground
+widget foreground
+
+set background
+line background
+selection start
+selection end
+selection end
+line offset
+selection start
+line offset
+line length
+ layout
+ draw
+
+ paint
+ paint
+ start
+ math
+ max
+selection start
+line offset
+ end
+ math
+ min
+line length
+selection end
+line offset
+ layout
+ draw
+
+ paint
+ paint
+ start
+ end
+get selection foreground
+get selection background
+dispose text layout
+ layout
+draw line break selection
+ string
+ line
+line offset
+ paint
+ paint
+
+
+ rectangle
+get client area
+styled text content
+get content
+ device
+get device
+ device
+get baseline
+ ascent
+get bidi segments
+line offset
+ string
+line text
+ font
+get font
+ style
+ style
+ swt
+ bold
+bold font
+bold font
+bold font
+ font
+ device
+get font data
+ style
+ swt
+ italic
+italic font
+italic font
+italic font
+ font
+ device
+get font data
+ style
+ swt
+ bold
+ swt
+ italic
+bold italic font
+bold italic font
+bold italic font
+ font
+ device
+get font data
+ style
+regular font
+font data
+get font data
+ style
+font data
+font datas
+regular font
+get font data
+
+
+font datas
+ length
+
+font datas
+
+set style
+ style
+font datas
+
+ get
+get horizontal pixel
+get left margin
+get line end space width
+line end space width
+styled text event
+get line background data
+line offset
+ string
+ line
+get line height
+ ascent
+ descent
+styled text event
+get line style data
+styled text event
+ event
+line offset
+ string
+ line
+line length
+ line
+ length
+ event
+ styles
+get word wrap
+ event
+ styles
+get visual line style data
+ event
+ styles
+line offset
+line length
+ event
+ styles
+ event
+ styles
+style range
+ event
+styled text event
+get line style data
+line offset
+ string
+ line
+get orientation
+get right margin
+ color
+get selection foreground
+ color
+get selection background
+ point
+get selection
+style range
+get visual line style data
+style range
+logical styles
+line offset
+line length
+line end
+line offset
+line length
+old style count
+logical styles
+ length
+new style count
+
+
+old style count
+
+style range
+ style
+logical styles
+
+ style
+ start
+line end
+ style
+ start
+ style
+ length
+line offset
+new style count
+new style count
+old style count
+style range
+new styles
+style range
+new style count
+
+
+
+old style count
+
+style range
+ style
+logical styles
+
+ style
+ start
+line end
+ style
+ start
+ style
+ length
+line offset
+new styles
+
+logical styles
+
+logical styles
+new styles
+logical styles
+get word wrap
+full line selection
+set tab length
+tab length
+
+
+ get
+string buffer
+tab buffer
+string buffer
+tab length
+
+
+tab length
+
+tab buffer
+ append
+tab width
+
+string extent
+tab buffer
+ string
+
+ dispose
+
+text layout
+get text layout
+ string
+ line
+line offset
+text layout
+ layout
+create text layout
+line offset
+ layout
+set font
+regular font
+ layout
+set ascent
+ ascent
+ layout
+set descent
+ descent
+ layout
+set text
+ line
+ layout
+set orientation
+get orientation
+ layout
+set segments
+get bidi segments
+line offset
+ line
+ layout
+set tabs
+tab width
+ length
+ line
+ length
+styled text event
+ event
+get line style data
+line offset
+ line
+style range
+ styles
+ event
+ event
+ styles
+last offset
+ styles
+style index
+style index
+ styles
+ length
+style index
+style range
+ style
+ styles
+style index
+ style
+ unstyled
+ start
+ end
+line offset
+ style
+ start
+ start
+ end
+ math
+ min
+ length
+ style
+ length
+line offset
+ style
+ start
+ start
+ style
+ start
+line offset
+ end
+ math
+ min
+ length
+ start
+ style
+ length
+ start
+ length
+last offset
+ start
+ layout
+set style
+last offset
+ start
+text style
+text style
+text style
+get font
+ style
+font style
+ style
  foreground
- resize
- point
- size
-get size
-old size
-old size
-
-old size
-
- redraw
- width
-old size
-
- size
-
- width
- size
-
-old size
-
-border right
- highlight
-old size
-
- size
-
- width
-border right
- highlight
- redraw
- size
-
- width
- width
- size
-
- height
-old size
-
- size
-
- height
- size
-
-old size
-
-border bottom
- highlight
-old size
-
- size
-
- height
-border bottom
- highlight
- redraw
- size
-
- height
- size
-
- height
-old size
- size
-set content
- control
- content
-check widget
- content
- content
-get parent
- swt
- error
- swt
-error invalid argument
- content
- content
- disposed
- content
-set bounds
- offscreen
- offscreen
- content
- content
+ style
+ background
+text style
+ underline
+ style
+ underline
+text style
+ strikeout
+ style
+ strikeout
  layout
-set layout
+set style
+text style
+ start
+ end
+last offset
+ math
+ max
+last offset
+ end
+last offset
+ length
+ layout
+set style
+last offset
+ length
+ layout
+text layout
+create text layout
+line offset
+text layout
+ device
+dispose text layout
+text layout
  layout
  layout
-check widget
-set selection background
- color
- color
-check widget
-selection background
- color
- color
- color
-get display
-get system color
-selection background
-selection background
- color
- redraw
-set top center
- control
-top center
-check widget
-top center
-top center
-get parent
- swt
- error
- swt
-error invalid argument
-top center
-top center
- disposed
- point
- size
-top center
-get size
-top center
-set location
- offscreen
- size
-
- offscreen
- size
-
-top center
-top center
- layout
-set top left
- control
-
-check widget
-
-
-get parent
- swt
- error
- swt
-error invalid argument
-top left
-top left
- disposed
- point
- size
-top left
-get size
-top left
-set location
- offscreen
- size
-
- offscreen
- size
-
-top left
-
- layout
-set top right
- control
-
-check widget
-
-
-get parent
- swt
- error
- swt
-error invalid argument
-top right
-top right
- disposed
- point
- size
-top right
-get size
-top right
-set location
- offscreen
- size
-
- offscreen
- size
-
-top right
-
- layout
-set border visible
- show
-check widget
-show border
- show
-show border
- show
-show border
-border left
-border top
-border right
-border bottom
-get style
- swt
- flat
- highlight
-border bottom
-border top
-border left
-border right
- highlight
- layout
- redraw
-set top center separate
- show
-check widget
-separate top center
- show
- layout
+ dispose
 </identifier>
 <comments>
-copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-instances  this  class  implement  composite  that  positions  and  sizes  children  and  allows  programmatic  control  layout  and  border  parameters view form  used  the  workbench  lay  out  view  label  menu  toolbar  local  bar  note  that  although  this  class  subclass  code  composite  code  does  not  make  sense  set  layout  styles  border  flat  events  none  important  this  class  not  intended  subclassed 
-margin width  specifies  the  number  pixels  horizontal  margin  that  will  placed  along  the  left  and  right  edges  the  form  the  default  value 
-margin height  specifies  the  number  pixels  vertical  margin  that  will  placed  along  the  top  and  bottom  edges  the  form  the  default  value 
-horizontal spacing  specifies  the  number  pixels  between  the  right  edge  one  cell  and  the  left  edge  its  neighbouring  cell  the  right  the  default  value 
-vertical spacing  specifies  the  number  pixels  between  the  bottom  edge  one  cell  and  the  top  edge  its  neighbouring  cell  underneath  the  default  value 
-color  innermost  line  drop  shadow  border  note  this  field  badly  named  and  can  not  fixed  for  backwards  compatability  should  capitalized  deprecated
-color  middle  line  drop  shadow  border  note  this  field  badly  named  and  can  not  fixed  for  backwards  compatability  should  capitalized  deprecated
-color  outermost  line  drop  shadow  border  note  this  field  badly  named  and  can  not  fixed  for  backwards  compatability  should  capitalized  deprecated
-swt  widgets
-configuration  and  state  info
-constructs  new  instance  this  class  given  its  parent  and  style  value  describing  its  behavior  and  appearance  the  style  value  either  one  the  style  constants  defined  class  code  swt  code  which  applicable  instances  this  class  must  built  bitwise  ing  together  that  using  the  code  int  code  operator  two  more  those  code  swt  code  style  constants  the  class  description  lists  the  style  constants  that  are  applicable  the  class  style  bits  are  also  inherited  from  superclasses  param  parent  widget  which  will  the  parent  the  new  instance  cannot  null  param  style  the  style  widget  construct  exception illegal argument exception  error  null  argument  the  parent  null  exception swt exception  error  thread  invalid  access  not  called  from  the  thread  that  created  the  parent  see  swt  border  see  swt  flat  see get style
-protected  void check subclass
-string  name get class get name
-string valid name view form  class get name
-valid name  equals  name
-swt  error  swt  error  invalid  subclass
+copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+styled text renderer  renders  the  content styled text  widget  subclasses  can  provide  different  device  display  printer  render  and  implement  abstract  methods  return  resources  created  that  device
+device  render 
+width  pixels  tab  character
+width  pixels  the  space  used  represent  line  delimiters
+creates  instance  class styled text renderer  class  param  device  device  render  param regular font  font  use  for  regular  text  param left margin  margin  the  left  the  text
+calculates  the  line  height  and  space  width
+don  assume  that  bold  and  normal  fonts  have  the  same  height
+fixes  bug  41773
+clear  the  font  cache
+disposes  the  resource  created  the  receiver
+dispose  the  specified  allows  subclasses  reuse  param  dispose
+draws  line  text  the  specified  location  param  line  the  line  draw  param line index  index  the  line  draw  param  paint  location  draw  param  draw  param widget background  the  widget  background  color  used  the  default  rendering  color  param widget foreground  the  widget  foreground  color  used  the  default  rendering  color  param clear background  true  the  line  background  should  drawn  explicitly
+draw  background  full  selection  off  line  not
+completely  selected
+draws  the  background  the  line  selection  implemented  subclasses  for  optional  selection  rendering  param  line  the  line  draw  param line offset  offset  the  first  character  the  line  relative  the  start  the  document  param  styles  line  styles  param  paint  location  draw  param  draw  param  bidi  the  bidi  object  use  for  measuring  and  rendering  text  bidi  locales  null  when  not  bidi  mode
+returns  the  visible  client  area  that  can  used  for  rendering  return  the  visible  client  area  that  can  used  for  rendering
+returns  the  class styled text content  class  use  for  line  offset  calculations  return  the  class styled text content  class  use  for  line  offset  calculations
+returns  the  device  that  being  rendered  return  the  device  that  being  rendered 
+returns  the  text  segments  that  should  treated  they  had  different  direction  than  the  surrounding  text  param line offset  offset  the  first  character  the  line  based  from  the  beginning  the  document  param  line  text  the  line  specify  bidi  segments  for  return  text  segments  that  should  treated  they  had  different  direction  than  the  surrounding  text  only  the  start  index  segment  specified  relative  the  start  the  line  always  starts  with  and  ends  with  the  line  length  exception illegal argument exception  error  invalid  argument  the  segment  indices  returned  the  listener  not  start  with  are  not  ascending  order  exceed  the  line  length  have  duplicates 
+returns  the  font  according  with  the  given  style
+returns  the  use  for  rendering  and  measuring  allows  subclasses  reuse  return  the  use  for  rendering  and  measuring
+returns  the  horizontal  scroll  position  return  the  horizontal  scroll  position
+returns  the  width  pixels  the  space  used  represent  line  delimiters  return  the  width  pixels  the  space  used  represent  line  delimiters
+returns  the  line  background  data  for  the  given  line  null  there  none  param line offset  offset  the  line  start  relative  the  start  the  content  param  line  line  get  line  background  data  for  return  line  background  data  for  the  given  line  may  return  null
+returns  the  height  pixels  line  return  the  height  pixels  line
+returns  the  line  style  data  for  the  specified  line  the line offset  and  line  may  specify  segment  logical  line  stored  the  class styled text content  class  the  widget  the  returned  styles  are  guaranteed  least  partially  the  segment  param  event  the  styles  for  the  logical  line  param line offset  offset  the  line  start  relative  the  start  the  content  param  line  line  get  line  styles  for  return  line  style  data  for  the  given  line  segment  styles  may  start  before  line  start  and  end  after  line  end  but  are  guaranteed  least  partially  the  line
+returns  the  line  style  data  for  the  given  line  null  there  none  there line style listener  but  does  not  set  any  styles  the styled text event  styles  field  will  initialized  empty  array  param line offset  offset  the  line  start  relative  the  start  the  content  param  line  line  get  line  styles  for  return  line  style  data  for  the  given  line  styles  may  start  before  line  start  and  end  after  line  end
 
 
-returns  the  content  area  return  the  control  the  content  area  the  pane  null
- check widget
-returns  control  that  appears  the  top  center  the  pane  typically  this  toolbar  return  the  control  the  top  center  the  pane  null
- check widget
-returns  the  control  that  appears  the  top  left  corner  the  pane  typically  this  label  such  label  return  the  control  the  top  left  corner  the  pane  null
- check widget
-returns  the  control  the  top  right  corner  the  pane  typically  this  close  button  composite  with  menu  and  close  button  return  the  control  the  top  right  corner  the  pane  null
- check widget
-sets  the  content  setting  the  content  null  will  remove  from  the  pane  however  the  creator  the  content  must  dispose  the  content  param  content  the  control  displayed  the  content  area  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  control  not  child  this view form 
-sets  the  layout  which  associated  with  the  receiver  the  argument  which  may  null  note  layout  can  set  this  control  because  already  manages  the  size  and  position  its  children  param  layout  the  receiver  new  layout  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
-set  the  control  that  appears  the  top  center  the  pane  typically  this  toolbar  the top center  optional  setting  the top center  null  will  remove  from  the  pane  however  the  creator  the top center  must  dispose  the top center  param top center  the  control  displayed  the  top  center  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  control  not  child  this view form 
-set  the  control  that  appears  the  top  left  corner  the  pane  typically  this  label  such  label  the top left  optional  setting  the  top  left  control  null  will  remove  from  the  pane  however  the  creator  the  control  must  dispose  the  control  param  the  control  displayed  the  top  left  corner  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  control  not  child  this view form 
-set  the  control  that  appears  the  top  right  corner  the  pane  typically  this  close  button  composite  with  menu  and  close  button  the top right  optional  setting  the  top  right  control  null  will  remove  from  the  pane  however  the  creator  the  control  must  dispose  the  control  param  the  control  displayed  the  top  right  corner  null  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver  error  invalid  argument  the  control  not  child  this view form 
-specify  whether  the  border  should  displayed  not  param  show  true  the  border  should  displayed  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
-true  the top center  will  always  appear  separate  line  itself  otherwise  the top center  will  appear  the  top  row  there  room  and  will  moved  the  second  row  required  param  show  true  the top center  will  always  appear  separate  line  itself  exception swt exception  error  widget  disposed  the  receiver  has  been  disposed  error  thread  invalid  access  not  called  from  the  thread  that  created  the  receiver 
+
+
+returns  the  widget  selection  implemented  subclasses  for  optional  selection  rendering  return  the  widget  selection
+returns  styles  for  the  specified  visual  wrapped  line  param logical styles  the  styles  for  logical  unwrapped  line  param line offset  offset  the  visual  line  param line length  length  the  visual  line  return  styles  the logical styles  array  that  are  least  partially  the  specified  visual  line
+returns  the  word  wrap  state  return  true  word  wrap  false  word  wrap  lines  may  extend  beyond  the  right  side  the  client  area
+returns  whether  the  widget  was  created  with  the  swt  full  selection  style  implemented  subclasses  for  optional  selection  rendering  return  true  the  widget  running  full  line  selection  mode  false  otherwise
+calculates  the  width  pixel  tab  character  param tab length  number  space  characters  represented  tab  character
+returns text layout  given  line  index  and  array  styles
 </comments>
 </text>
 </DOC>

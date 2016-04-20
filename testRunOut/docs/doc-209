@@ -1,8 +1,8 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.win32.LVCOLUMN.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.win32.TRACKMOUSEEVENT.java </DOCNO>
 <text>
 <class>
- lvcolumn
+ trackmouseevent
 </class>
 <method>
 NONE
@@ -13,15 +13,11 @@ NONE
  swt
  internal
  win
- lvcolumn
- mask
- fmt
-
-psz text
-cch text max
-sub item
- image
- order
+ trackmouseevent
+ size
+ flags
+hwnd track
+hover time
  sizeof
 </identifier>
 <comments>

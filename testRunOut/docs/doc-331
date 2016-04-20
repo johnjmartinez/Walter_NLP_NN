@@ -1,71 +1,134 @@
 <DOC>
-<DOCNO>org.eclipse.swt.events.KeyEvent.java </DOCNO>
+<DOCNO>org.eclipse.swt.internal.ole.win32.IOleObject.java </DOCNO>
 <text>
 <class>
-key event
+ole object
 </class>
 <method>
-key event
- string
+ole object
+ advise
+ close
+ verb
+get extent
+set client site
+set extent
+set host names
+ update
 </method>
 <identifier>
  org
  eclipse
  swt
- events
+ internal
+ ole
+ win
  org
  eclipse
  swt
- widgets
- event
-key event
-typed event
- character
-key code
-state mask
- doit
-serial version uid
-key event
- event
-
-
- character
-
- character
-key code
-
-key code
-state mask
-
-state mask
- doit
-
- doit
+ internal
+ win
+ole object
+ unknown
+ole object
+ address
+ address
+ advise
+adv sink
+pdw connection
+ com
+vtbl call
+ address
+adv sink
+pdw connection
+ close
+save option
+ com
+vtbl call
+ address
+save option
+ verb
+ verb
+ msg
+ lpmsg
+active site
+ lindex
+hwnd parent
+ rect
+lprc pos rect
+ com
+vtbl call
+ address
+ verb
+ lpmsg
+active site
+ lindex
+hwnd parent
+lprc pos rect
+get extent
+draw aspect
+ size
+ sizel
+ com
+vtbl call
+ address
+draw aspect
+ sizel
+set client site
+client site
+ com
+vtbl call
+ address
+client site
+set extent
+draw aspect
+ size
+ sizel
+ com
+vtbl call
+ address
+draw aspect
+ sizel
+set host names
  string
+container app
  string
- string
- string
- string
- string
- substring
- string
+container obj
+ buffer
+container app
+ count
+container app
  length
- character
- character
-key code
-state mask
- doit
+ buffer
+ count
+container app
+get chars
+ count
+ buffer
+ buffer
+container obj
+ count
+container obj
+ length
+ buffer
+ count
+container obj
+get chars
+ count
+ buffer
+ com
+vtbl call
+ address
+ buffer
+ buffer
+ update
+ com
+vtbl call
+ address
 </identifier>
 <comments>
-copyright  2000  2005  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-instances  this  class  are  sent  result  keys  being  pressed  and  released  the  keyboard  see key listener
-the  character  represented  the  key  that  was  typed  this  the  final  character  that  results  after  all  modifiers  have  been  applied  for  example  when  the  user  types  ctrl  the  character  value  important  that  applications  not  attempt  modify  the  character  value  based state mask  such  swt  ctrl  the  resulting  character  will  not  correct
-the  key  code  the  key  that  was  typed  defined  the  key  code  constants  class  code  swt  code  when  the  character  field  the  event  ambiguous  this  field  contains  the  unicode  value  the  original  character  for  example  typing  ctrl  return  both  result  the  character  but  the key code  field  will  also  contain  when  return  was  typed  see  org  eclipse  swt  swt
-the  state  the  keyboard  modifier  keys  the  time  the  event  was  generated  defined  the  key  code  constants  class  code  swt  code  see  org  eclipse  swt  swt
-flag  indicating  whether  the  operation  should  allowed  setting  this  field  code  false  code  will  cancel  the  operation
-constructs  new  instance  this  class  based  the  information  the  given  untyped  event  param  the  untyped  event  containing  the  information
-returns  string  containing  concise  human  readable  description  the  receiver  return  string  representation  the  event
-remove  trailing
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+create  null  terminated  array  char
+create  null  terminated  array  char
 </comments>
 </text>
 </DOC>

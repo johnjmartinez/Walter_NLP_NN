@@ -1,146 +1,32 @@
 <DOC>
-<DOCNO>org.eclipse.swt.internal.image.PngPlteChunk.java </DOCNO>
+<DOCNO>org.eclipse.swt.events.MouseMoveListener.java </DOCNO>
 <text>
 <class>
-png plte chunk
+mouse move listener
 </class>
 <method>
-png plte chunk
-get palette size
-get palette data
- validate
-contribute string
+mouse move
 </method>
 <identifier>
  org
  eclipse
  swt
- internal
- image
- org
- eclipse
- swt
- org
- eclipse
- swt
- graphics
+ events
  org
  eclipse
  swt
  internal
- compatibility
-png plte chunk
-png chunk
-png plte chunk
- reference
- reference
-get palette size
-get length
-palette data
-get palette data
- rgb
- rgbs
- rgb
-get palette size
+swt event listener
+mouse move listener
+swt event listener
+mouse move
+mouse event
 
-
- rgbs
- length
-
- offset
-data offset
-
- red
- reference
- offset
- green
- reference
- offset
- blue
- reference
- offset
- rgbs
-
- rgb
- red
- green
- blue
-palette data
- rgbs
- validate
-png file read state
-read state
-png ihdr chunk
-header chunk
-read state
-read ihdr
-read state
-read plte
-read state
-read trns
-read state
-read idat
-read state
-read iend
- swt
- error
- swt
-error invalid image
-read state
-read plte
- validate
-read state
-header chunk
-header chunk
-get can have palette
- swt
- error
- swt
-error invalid image
-get length
- swt
- error
- swt
-error invalid image
- compatibility
- pow
-header chunk
-get bit depth
-get palette size
- swt
- error
- swt
-error invalid image
-get palette size
- swt
- error
- swt
-error invalid image
-contribute string
-string buffer
- buffer
- buffer
- append
- buffer
- append
-get palette size
 </identifier>
 <comments>
-copyright  2000  2004  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
-get  the  number  colors  this  palette
-get palette data  object  representing  the  colors  stored  this  plte  chunk  the  result  should  cached  the  plte  chunk  does  not  store  the  palette  data  created
-int  start  data  offset
-int  end  data  offset get length
-answer  whether  the  chunk  valid  plte  chunk
-plte  chunk  invalid  ihdr  has  been  read  any  plte
-idat  iend  chunk  has  been  read
-palettes  cannot  included  grayscale  images
-palette  chunks  data  fields  must  event  multiples
-each  byte  group  represents  rgb  value
-palettes  cannot  have  more  entries  than bit depth
-where bit depth  the  bit  depth  the  image  given
-the  ihdr  chunk
-palettes  cannot  have  more  than  256  entries
+copyright  2000  2003  ibm  corporation  and  others  all  rights  reserved  this  program  and  the  accompanying  materials  are  made  available  under  the  terms  the  eclipse  public  license  which  accompanies  this  distribution  and  available  http  www  eclipse  org  legal  epl  html  contributors  ibm  corporation  initial  api  and  implementation
+classes  which  implement  this  interface  provide  method  that  deals  with  the  events  that  are  generated  the  mouse  pointer  moves  after  creating  instance  class  that  implements  this  interface  can  added  control  using  the  code add mouse move listener  code  method  and  removed  using  the  code remove mouse move listener  code  method  the  mouse  moves  the mouse move  method  will  invoked  see mouse event
+sent  when  the  mouse  moves  param  event  containing  information  about  the  mouse  move
 </comments>
 </text>
 </DOC>
