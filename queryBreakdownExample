@@ -1,0 +1,37 @@
+#bash
+	<query>
+		<number>108792</number>
+		<text> #weight(
+#.class
+        1.0 horizontal.(c) 1.0 caret.(c) 1.0 position.(c) 1.0 lost.(c) 1.0 due.(c) 1.0 styled.(c) 1.0 text.(c) 1.0 replace.(c) 1.0 style.(c) 1.0 ranges.(c)  1.0 Horizontal.(c) 1.0 caret.(c) 1.0 position.(c) 1.0 lost.(c) 1.0 due.(c) 1.0 StyledText.(c) 1.0 replaceStyleRanges.(c)  1.0 20050830.(c) 1.0 0800.(c) 1.0 enable.(c) 1.0 mark.(c) 1.0 occurences.(c) 1.0 disable.(c) 1.0 sticky.(c) 1.0 occurences.(c) 1.0 the.(c) 1.0 following.(c) 1.0 place.(c) 1.0 the.(c) 1.0 caret.(c) 1.0 instead.(c) 1.0 class.(c) 1.0 foo.(c) 1.0 press.(c) 1.0 arrow.(c) 1.0 down.(c) 1.0 wait.(c) 1.0 for.(c) 1.0 occurences.(c) 1.0 updated.(c) 1.0 press.(c) 1.0 arrow.(c) 1.0 caret.(c) 1.0 position.(c) 1.0 lass.(c) 1.0 foo.(c)  1.0 I20050830.(c) 1.0 0800.(c) 1.0 enable.(c) 1.0 Mark.(c) 1.0 Occurences.(c) 1.0 disable.(c) 1.0 sticky.(c) 1.0 occurences.(c) 1.0 the.(c) 1.0 following.(c) 1.0 place.(c) 1.0 the.(c) 1.0 caret.(c) 1.0 instead.(c) 1.0 class.(c) 1.0 Foo.(c) 1.0 press.(c) 1.0 arrow.(c) 1.0 down.(c) 1.0 wait.(c) 1.0 for.(c) 1.0 occurences.(c) 1.0 updated.(c) 1.0 press.(c) 1.0 arrow.(c) 1.0 caret.(c) 1.0 position.(c) 1.0 lass.(c) 1.0 Foo.(c)  
+#.method
+        1.0 horizontal.(m) 1.0 caret.(m) 1.0 position.(m) 1.0 lost.(m) 1.0 due.(m) 1.0 styled.(m) 1.0 text.(m) 1.0 replace.(m) 1.0 style.(m) 1.0 ranges.(m)  1.0 Horizontal.(m) 1.0 caret.(m) 1.0 position.(m) 1.0 lost.(m) 1.0 due.(m) 1.0 StyledText.(m) 1.0 replaceStyleRanges.(m)  1.0 20050830.(m) 1.0 0800.(m) 1.0 enable.(m) 1.0 mark.(m) 1.0 occurences.(m) 1.0 disable.(m) 1.0 sticky.(m) 1.0 occurences.(m) 1.0 the.(m) 1.0 following.(m) 1.0 place.(m) 1.0 the.(m) 1.0 caret.(m) 1.0 instead.(m) 1.0 class.(m) 1.0 foo.(m) 1.0 press.(m) 1.0 arrow.(m) 1.0 down.(m) 1.0 wait.(m) 1.0 for.(m) 1.0 occurences.(m) 1.0 updated.(m) 1.0 press.(m) 1.0 arrow.(m) 1.0 caret.(m) 1.0 position.(m) 1.0 lass.(m) 1.0 foo.(m)  1.0 I20050830.(m) 1.0 0800.(m) 1.0 enable.(m) 1.0 Mark.(m) 1.0 Occurences.(m) 1.0 disable.(m) 1.0 sticky.(m) 1.0 occurences.(m) 1.0 the.(m) 1.0 following.(m) 1.0 place.(m) 1.0 the.(m) 1.0 caret.(m) 1.0 instead.(m) 1.0 class.(m) 1.0 Foo.(m) 1.0 press.(m) 1.0 arrow.(m) 1.0 down.(m) 1.0 wait.(m) 1.0 for.(m) 1.0 occurences.(m) 1.0 updated.(m) 1.0 press.(m) 1.0 arrow.(m) 1.0 caret.(m) 1.0 position.(m) 1.0 lass.(m) 1.0 Foo.(m)  
+#.identifier
+        1.0 horizontal.(i) 1.0 caret.(i) 1.0 position.(i) 1.0 lost.(i) 1.0 due.(i) 1.0 styled.(i) 1.0 text.(i) 1.0 replace.(i) 1.0 style.(i) 1.0 ranges.(i)  1.0 Horizontal.(i) 1.0 caret.(i) 1.0 position.(i) 1.0 lost.(i) 1.0 due.(i) 1.0 StyledText.(i) 1.0 replaceStyleRanges.(i)  1.0 20050830.(i) 1.0 0800.(i) 1.0 enable.(i) 1.0 mark.(i) 1.0 occurences.(i) 1.0 disable.(i) 1.0 sticky.(i) 1.0 occurences.(i) 1.0 the.(i) 1.0 following.(i) 1.0 place.(i) 1.0 the.(i) 1.0 caret.(i) 1.0 instead.(i) 1.0 class.(i) 1.0 foo.(i) 1.0 press.(i) 1.0 arrow.(i) 1.0 down.(i) 1.0 wait.(i) 1.0 for.(i) 1.0 occurences.(i) 1.0 updated.(i) 1.0 press.(i) 1.0 arrow.(i) 1.0 caret.(i) 1.0 position.(i) 1.0 lass.(i) 1.0 foo.(i)  1.0 I20050830.(i) 1.0 0800.(i) 1.0 enable.(i) 1.0 Mark.(i) 1.0 Occurences.(i) 1.0 disable.(i) 1.0 sticky.(i) 1.0 occurences.(i) 1.0 the.(i) 1.0 following.(i) 1.0 place.(i) 1.0 the.(i) 1.0 caret.(i) 1.0 instead.(i) 1.0 class.(i) 1.0 Foo.(i) 1.0 press.(i) 1.0 arrow.(i) 1.0 down.(i) 1.0 wait.(i) 1.0 for.(i) 1.0 occurences.(i) 1.0 updated.(i) 1.0 press.(i) 1.0 arrow.(i) 1.0 caret.(i) 1.0 position.(i) 1.0 lass.(i) 1.0 Foo.(i)  
+#.comment       
+        1.0 horizontal.(t) 1.0 caret.(t) 1.0 position.(t) 1.0 lost.(t) 1.0 due.(t) 1.0 styled.(t) 1.0 text.(t) 1.0 replace.(t) 1.0 style.(t) 1.0 ranges.(t)  1.0 20050830.(t) 1.0 0800.(t) 1.0 enable.(t) 1.0 mark.(t) 1.0 occurences.(t) 1.0 disable.(t) 1.0 sticky.(t) 1.0 occurences.(t) 1.0 the.(t) 1.0 following.(t) 1.0 place.(t) 1.0 the.(t) 1.0 caret.(t) 1.0 instead.(t) 1.0 class.(t) 1.0 foo.(t) 1.0 press.(t) 1.0 arrow.(t) 1.0 down.(t) 1.0 wait.(t) 1.0 for.(t) 1.0 occurences.(t) 1.0 updated.(t) 1.0 press.(t) 1.0 arrow.(t) 1.0 caret.(t) 1.0 position.(t) 1.0 lass.(t) 1.0 foo.(t)  
+        )</text>
+	</query>
+
+
+#need to refer back to XMLbugReport to map to fixed file (target)
+  </bug>
+  <bug id="108792" opendate="2005-09-05 08:43:00" fixdate="2010-04-28 04:37:00"> #same as query number
+
+ #The shit that gets parsed/broken down and split evenly among .class, .method, .identifier   
+    <buginformation>
+      <summary>Horizontal caret position lost due to StyledText.replaceStyleRanges</summary>
+      <description>I20050830-0800 - enable Mark Occurences, disable 'sticky' occurences - in the following CU place the caret instead of '|': class |Foo { } - press arrow down - wait for occurences to be updated - press arrow up -&amp;gt; caret position is: c|lass Foo {...</description>
+    </buginformation>
+    
+ #Ze target java file    
+    <fixedFiles>
+      <file>org.eclipse.swt.custom.StyledText.java</file>
+    </fixedFiles>
+  </bug>
+
+
+# grep -l org.eclipse.swt.custom.StyledText.java testRunOut/docs/doc-* ===> testRunOut/docs/doc-34
+<DOCNO>org.eclipse.swt.custom.StyledText.java </DOCNO>
+
+
