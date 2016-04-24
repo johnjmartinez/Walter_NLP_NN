@@ -146,7 +146,7 @@ modelPath = "./bowloss_nag_mmntm1_loss001_gpu.mod"
 #	ae.save(modelPath)
 
 print "Training ae model %s" % modelPath
-print " - start time: %s", getTime()
+print " - start time: %s" % getTime()
 x=1
 target_loss =  0.001
 while x > target_loss:
@@ -156,12 +156,12 @@ while x > target_loss:
                                     
         if train['loss'] < target_loss: break # NOT RELIABLE ... MAY STOP TRAINING WAY BEFORE TARGET LOSS
     
-    print "  time: %s", getTime()
-    print "  training loss: %s", train['loss']
-    print "  validation loss: %s\n", valid['loss']
+    print "  time: %s" % getTime()
+    print "  training loss: %s" % train['loss']
+    print "  validation loss: %s\n" % valid['loss']
     x = train['loss']
 
-print " - stop time: %s\n", getTime()     
+print " - stop time: %s\n" % getTime()     
 print "Saving ae model"       
 ae.save(modelPath)
 # for wordVector in englishCorpus.wordVectors:
