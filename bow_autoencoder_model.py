@@ -5,7 +5,7 @@ from os import path
 
 import theano.tensor as TT
 import numpy as np
-import json
+import json, time
 
 
 class BOWLoss(Loss):
@@ -58,7 +58,6 @@ class Corpus:
         print
         print
 
-"""
 def simpleTranslate(sentences, translationMap):
     translatedSentences = []
     for sentence in sentences:
@@ -67,7 +66,12 @@ def simpleTranslate(sentences, translationMap):
         translatedSentences.append(" ".join(sentence.split()))
     return translatedSentences
 
+def getTime():
+     localtime = time.asctime( time.localtime(time.time()) )
+     return localtime
 
+
+"""
 englishToAlieneseTranslationMap = {
     'the': '',  # goes away
     'dog': 'dog',
@@ -102,22 +106,29 @@ alieneseCorpus = Corpus(alieneseSentences)
 
 englishCorpus.printToConsole()
 alieneseCorpus.printToConsole()
+
 """
 
-#REAL DATA
+#REAL DATA 
+print "Opening 2_query2doc_map"
 with open('2_query2doc_map.txt') as data_file:    
     data = json.load(data_file)
-    
+
+print "Creating source nodes corpus"   
 englishCorpus = Corpus(data.keys())
+print " .... %s words" % englishCorpus.wordCount()
 #alieneseCorpus = Corpus(data.values()) #pukes
 
 alien = []
+print "Creating target nodes corpus"   
 for val in data.values():
     a = ' '.join(ln.replace(' ',':') for ln in list(set(val)))
     alien.append(a) # had to concat all elements in list
 alieneseCorpus = Corpus(alien)
+print " .... %s words" % alieneseCorpus.wordCount()
 
 #HERE GOES NOTHING
+print "Creating ae model"   
 ae = Network(
     [
         englishCorpus.wordCount(),
@@ -127,24 +138,36 @@ ae = Network(
     loss='bowloss'
 )
  
-modelPath = "./bow-autoencoder.mod"
+modelPath = "./bowloss_nag_mmntm1_loss001_gpu.mod"
 # if path.isfile(modelPath):
 #	ae.load(modelPath)
 # else:
 # ae.train([np.asarray(englishCorpus.wordVectors), np.asarray(alieneseCorpus.wordVectors)], algo='sgd')
 #	ae.save(modelPath)
 
-for train, valid in ae.itertrain([np.asarray(englishCorpus.wordVectors,  dtype=np.float32), 
-                                  np.asarray(alieneseCorpus.wordVectors, dtype=np.float32)], 
-                                  algo='nag', momentum=1):
-    if train['loss'] < 0.001:
-        break
-    #print('training loss:', train['loss'])
-    #print('most recent validation loss:', valid['loss'])
+print "Training ae model %s" % modelPath
+print " - start time: %s", getTime()
+x=1
+target_loss =  0.001
+while x > target_loss:
+    for train, valid in ae.itertrain([np.asarray(englishCorpus.wordVectors,  dtype=np.float32), 
+                                      np.asarray(alieneseCorpus.wordVectors, dtype=np.float32)], 
+                                      algo='nag', momentum=1):
+                                    
+        if train['loss'] < target_loss: break # NOT RELIABLE ... MAY STOP TRAINING WAY BEFORE TARGET LOSS
+    
+    print "  time: %s", getTime()
+    print "  training loss: %s", train['loss']
+    print "  validation loss: %s\n", valid['loss']
+    x = train['loss']
 
+print " - stop time: %s\n", getTime()     
+print "Saving ae model"       
+ae.save(modelPath)
 # for wordVector in englishCorpus.wordVectors:
 #	print alieneseCorpus.convertFromWordVector(ae.predict(np.asarray([wordVector]))[0].tolist())
 
+print "Testing ae model"   
 for word in englishCorpus.vocabulary: 
     englishWordVector = englishCorpus.convertToWordVector([word])
     alienWordVector = ae.predict(np.asarray([englishWordVector], dtype=np.float32))[0]
