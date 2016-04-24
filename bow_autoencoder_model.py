@@ -5,8 +5,60 @@ from os import path
 
 import theano.tensor as TT
 import numpy as np
+import json
 
 
+class BOWLoss(Loss):
+    def __call__(self, outputs):
+        output = outputs[self.output_name]
+        target = self._target
+        xe = target * TT.log(output) + (1 - target) * TT.log(1 - output) # Cross-entropy
+        return -xe.sum()
+
+class Corpus:
+    def __init__(self, sentences):
+        self.sentences = sentences
+
+        bagsOfWords = self.convertToBagsOfWords(self.sentences)
+        self.vocabulary = self.makeVocabulary(bagsOfWords)
+        self.wordVectors = [self.convertToWordVector(bagOfWords) for bagOfWords in bagsOfWords]
+
+    def convertToBagsOfWords(self, sentences):
+        return [sentence.split() for sentence in sentences]
+
+    def makeVocabulary(self, bagsOfWords):
+        vocabulary = set()
+
+        for bagOfWords in bagsOfWords:
+            vocabulary.update(bagOfWords)
+
+        return list(vocabulary)
+
+    def convertToWordVector(self, bagOfWords):
+        return [1 if word in bagOfWords else 0 for word in self.vocabulary]
+
+    def convertFromWordVector(self, wordVector):
+        #print wordVector
+        bagOfWords = []
+        for (wordExists, word) in zip(wordVector, self.vocabulary):
+            if wordExists:
+                bagOfWords.append(word)
+        return bagOfWords
+
+    def wordCount(self):
+        return len(self.vocabulary)
+
+    def printToConsole(self):
+        print "Vocabulary: %s" % self.vocabulary
+        print
+        print "Vocabulary Size: %s" % self.wordCount()
+        print "Sentences:\n%s" % self.sentences
+        print
+        print "Word Vectors:\n%s" % self.wordVectors
+        print
+        print
+
+"""
 def simpleTranslate(sentences, translationMap):
     translatedSentences = []
     for sentence in sentences:
@@ -44,68 +96,28 @@ englishSentences = [
     'the dog is dead'
 ]
 
-alieneseSentences = simpleTranslate(englishSentences, englishToAlieneseTranslationMap)
-
-
-class Corpus:
-    def __init__(self, sentences):
-        self.sentences = sentences
-
-        bagsOfWords = self.convertToBagsOfWords(self.sentences)
-        self.vocabulary = self.makeVocabulary(bagsOfWords)
-        self.wordVectors = [self.convertToWordVector(bagOfWords) for bagOfWords in bagsOfWords]
-
-    def convertToBagsOfWords(self, sentences):
-        return [sentence.split() for sentence in sentences]
-
-    def makeVocabulary(self, bagsOfWords):
-        vocabulary = set()
-
-        for bagOfWords in bagsOfWords:
-            vocabulary.update(bagOfWords)
-
-        return list(vocabulary)
-
-    def convertToWordVector(self, bagOfWords):
-        return [1 if word in bagOfWords else 0 for word in self.vocabulary]
-
-    def convertFromWordVector(self, wordVector):
-        print wordVector
-        bagOfWords = []
-        for (wordExists, word) in zip(wordVector, self.vocabulary):
-            if wordExists:
-                bagOfWords.append(word)
-        return bagOfWords
-
-    def wordCount(self):
-        return len(self.vocabulary)
-
-    def printToConsole(self):
-        print "Vocabulary: %s" % self.vocabulary
-        print
-        print "Vocabulary Size: %s" % self.wordCount()
-        print "Sentences:\n%s" % self.sentences
-        print
-        print "Word Vectors:\n%s" % self.wordVectors
-        print
-        print
-
-
 englishCorpus = Corpus(englishSentences)
+alieneseSentences = simpleTranslate(englishSentences, englishToAlieneseTranslationMap)
 alieneseCorpus = Corpus(alieneseSentences)
 
 englishCorpus.printToConsole()
 alieneseCorpus.printToConsole()
+"""
 
+#REAL DATA
+with open('2_query2doc_map.txt') as data_file:    
+    data = json.load(data_file)
+    
+englishCorpus = Corpus(data.keys())
+#alieneseCorpus = Corpus(data.values()) #pukes
 
-class BOWLoss(Loss):
-    def __call__(self, outputs):
-        output = outputs[self.output_name]
-        target = self._target
-        xe = target * TT.log(output) + (1 - target) * TT.log(1 - output) # Cross-entropy
-        return -xe.sum()
+alien = []
+for val in data.values():
+    a = ' '.join(ln.replace(' ',':') for ln in list(set(val)))
+    alien.append(a) # had to concat all elements in list
+alieneseCorpus = Corpus(alien)
 
-
+#HERE GOES NOTHING
 ae = Network(
     [
         englishCorpus.wordCount(),
@@ -116,7 +128,6 @@ ae = Network(
 )
  
 modelPath = "./bow-autoencoder.mod"
-
 # if path.isfile(modelPath):
 #	ae.load(modelPath)
 # else:
@@ -125,7 +136,7 @@ modelPath = "./bow-autoencoder.mod"
 
 for train, valid in ae.itertrain([np.asarray(englishCorpus.wordVectors,  dtype=np.float32), 
                                   np.asarray(alieneseCorpus.wordVectors, dtype=np.float32)], 
-                                algo='nag', momentum=1):
+                                  algo='nag', momentum=1):
     if train['loss'] < 0.001:
         break
     #print('training loss:', train['loss'])
