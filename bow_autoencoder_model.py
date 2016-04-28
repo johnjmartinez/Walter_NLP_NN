@@ -29,8 +29,8 @@ class Corpus:
     def makeVocabulary(self, bagsOfWords):
         vocabulary = set()
 
-        for bagOfWords in bagsOfWords:
-            vocabulary.update(bagOfWords)
+        for bw in bagsOfWords:
+            vocabulary.update(bw)
 
         return list(vocabulary)
 
@@ -104,36 +104,47 @@ englishCorpus = Corpus(englishSentences)
 alieneseSentences = simpleTranslate(englishSentences, englishToAlieneseTranslationMap)
 alieneseCorpus = Corpus(alieneseSentences)
 
-englishCorpus.printToConsole()
-alieneseCorpus.printToConsole()
+englishCorpus[0].printToConsole()
+alieneseCorpus[0].printToConsole()
 
 """
 
+
 #REAL DATA 
-print "Opening 2_query2doc_map"
-with open('2_query2doc_map.txt') as data_file:    
+englishCorpus = []
+alieneseCorpus = []
+field = []
+print "Opening map"
+with open('query2doc2field_map.txt') as data_file:    
     data = json.load(data_file)
 
-print "Creating source nodes corpus"   
-englishCorpus = Corpus(data.keys())
-print " .... %s words" % englishCorpus.wordCount()
-#alieneseCorpus = Corpus(data.values()) #pukes
+for f in data.keys():
+	
+	field.append(f)
 
-alien = []
-print "Creating target nodes corpus"   
-for val in data.values():
-    a = ' '.join(ln.replace(' ',':') for ln in list(set(val)))
-    alien.append(a) # had to concat all elements in list
-alieneseCorpus = Corpus(alien)
-print " .... %s words" % alieneseCorpus.wordCount()
+	print "Creating source nodes corpus for %s"%f
+	x=Corpus(data[f].keys())
+	englishCorpus.append(x)
+	print " .... %s words" % x.wordCount()
 
+	print "Creating target nodes corpus for %s"%f 
+	alien = []   
+	for val in data[f].values():
+		a = ' '.join(list(set(val)))
+		alien.append(a)
+	y=Corpus(alien)
+	alieneseCorpus.append(y)
+	print " .... %s words" % y.wordCount()
+
+exit
 #HERE GOES NOTHING
+ae = []
 print "Creating ae model"   
-ae = Network(
+ae[0] = Network(
     [
-        englishCorpus.wordCount(),
-        ((englishCorpus.wordCount() + alieneseCorpus.wordCount())) / 2,
-        (alieneseCorpus.wordCount(), 'sigmoid')
+        englishCorpus[0].wordCount(),
+        ((englishCorpus[0].wordCount() + alieneseCorpus[0].wordCount())) / 2,
+        (alieneseCorpus[0].wordCount(), 'sigmoid')
     ],
     loss='bowloss'
 )
@@ -142,7 +153,7 @@ modelPath = "./bowloss_nag_mmntm1_loss001_gpu.mod"
 # if path.isfile(modelPath):
 #	ae.load(modelPath)
 # else:
-# ae.train([np.asarray(englishCorpus.wordVectors), np.asarray(alieneseCorpus.wordVectors)], algo='sgd')
+# ae.train([np.asarray(englishCorpus[0].wordVectors), np.asarray(alieneseCorpus[0].wordVectors)], algo='sgd')
 #	ae.save(modelPath)
 
 print "Training ae model %s" % modelPath
@@ -150,8 +161,8 @@ print " - start time: %s" % getTime()
 x=1
 target_loss =  0.001
 while x > target_loss:
-    for train, valid in ae.itertrain([np.asarray(englishCorpus.wordVectors,  dtype=np.float32), 
-                                      np.asarray(alieneseCorpus.wordVectors, dtype=np.float32)], 
+    for train, valid in ae.itertrain([np.asarray(englishCorpus[0].wordVectors,  dtype=np.float32), 
+                                      np.asarray(alieneseCorpus[0].wordVectors, dtype=np.float32)], 
                                       algo='nag', momentum=1):
                                     
         if train['loss'] < target_loss: break # NOT RELIABLE ... MAY STOP TRAINING WAY BEFORE TARGET LOSS
@@ -164,14 +175,14 @@ while x > target_loss:
 print " - stop time: %s\n" % getTime()     
 print "Saving ae model"       
 ae.save(modelPath)
-# for wordVector in englishCorpus.wordVectors:
-#	print alieneseCorpus.convertFromWordVector(ae.predict(np.asarray([wordVector]))[0].tolist())
+# for wordVector in englishCorpus[0].wordVectors:
+#	print alieneseCorpus[0].convertFromWordVector(ae.predict(np.asarray([wordVector]))[0].tolist())
 
 print "Testing ae model"   
-for word in englishCorpus.vocabulary: 
-    englishWordVector = englishCorpus.convertToWordVector([word])
+for word in englishCorpus[0].vocabulary: 
+    englishWordVector = englishCorpus[0].convertToWordVector([word])
     alienWordVector = ae.predict(np.asarray([englishWordVector], dtype=np.float32))[0]
     # highestProbabilityIndex = np.argmax(alienWordVector)
     sortedIndices = np.argsort(alienWordVector)[::-1]
-    print "%s: %s" % (word, np.asarray(alieneseCorpus.vocabulary)[sortedIndices[0:2]])
-    # print "%s: %s" % (word, alieneseCorpus.vocabulary[highestProbabilityIndex])
+    print "%s: %s" % (word, np.asarray(alieneseCorpus[0].vocabulary)[sortedIndices[0:2]])
+    # print "%s: %s" % (word, alieneseCorpus[0].vocabulary[highestProbabilityIndex])
