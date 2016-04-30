@@ -31,10 +31,10 @@ for b in bugs_d['bugrepository']['bug']:
 #json.dumps(bug_map)
 
 query_map = {}
-c = re.compile(r"(\S+)\..class.")
-m = re.compile(r"(\S+)\..method.")
-i = re.compile(r"(\S+)\..identifier.") 
-o = re.compile(r"(\S+)\..comments.")
+c = re.compile(r"(\S+)\.\(class\)")
+m = re.compile(r"(\S+)\.\(method\)")
+i = re.compile(r"(\S+)\.\(identifier\)") 
+o = re.compile(r"(\S+)\.\(comments\)")
 for q in queries_d['parameters']['query']:
     text = q['text']
     c_l = list(set(c.findall(text)))
@@ -51,35 +51,31 @@ for _id in docs_d:
     c = docs_d[_id]['DOC']['text']['class'] #WTF ... org.eclipse.swt.internal.win32.OS.java <class> is empty
     if c is None: c = ''
     
-    c_l = list(set(c.split('\n')))
-    m_l = list(set(docs_d[_id]['DOC']['text']['method'].split('\n')))
-    i_l = list(set(docs_d[_id]['DOC']['text']['identifier'].split('\n')))
-    o_l = list(set(docs_d[_id]['DOC']['text']['comments'].split('\n'))) 
-    docs_map[_file] = {'class':c_l, 'method':m_l, 'identifier':i_l, 'comments':o_l} #'id':_id,
+    c_l = list(set(c.split()))
+    m_l = list(set(docs_d[_id]['DOC']['text']['method'].split()))
+    i_l = list(set(docs_d[_id]['DOC']['text']['identifier'].split()))
+    o_l = list(set(docs_d[_id]['DOC']['text']['comments'].split())) 
+    docs_map[_file] = {'class':c_l, 'method':m_l, 'identifier':i_l, 'comments':o_l}
+
+
 #json.dumps(docs_map)       
 
+bug_report_sentences = {'class': [], 'method': [], 'identifier': [], 'comments': []}
+fixed_file_sentences = {'class': [], 'method': [], 'identifier': [], 'comments': []}
 
-#THE REAL MAPPING BEGINS
-query2doc_map = {}
-for num in bug_map:
-    for _file in bug_map[num]: 
-        for field in docs_map[_file]:
-            for q_line in query_map[num][field]:
-                for d_line in docs_map[_file][field]:
-                    if not d_line.strip(): continue #if blank or empty skip
-                
-                    if q_line in query2doc_map:
-                        query2doc_map[q_line].append(d_line)
-                    else:
-                        query2doc_map[q_line] = [d_line]
+for bug_id in bug_map:
+    for fixed_file in bug_map[bug_id]:
+        for field in docs_map[fixed_file]:
+            bug_report_sentences[field].append(query_map[bug_id][field])
+            fixed_file_sentences[field].append(docs_map[fixed_file][field])
 
-for line in query2doc_map:
-    temp = list(set(query2doc_map[line]))
-    query2doc_map[line] = temp
 
 #save as json file                
-with open('query2doc_map.txt', 'w') as outfile:
-     json.dump(query2doc_map, outfile, sort_keys = True, indent = 4, ensure_ascii=False)
+with open('bug_report_sentences.txt', 'w') as outfile:
+     json.dump(bug_report_sentences, outfile, sort_keys = True, indent = 4, ensure_ascii=False)
+     
+with open('fixed_file_sentences.txt', 'w') as outfile:
+     json.dump(fixed_file_sentences, outfile, sort_keys = True, indent = 4, ensure_ascii=False)
 
 
 
