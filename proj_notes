@@ -1,0 +1,126 @@
+for f in range(4):
+    print "Creating ae %s model" % field[f]
+    ae.append(Network([
+        englishCorpus[f].wordCount(),
+        ((englishCorpus[f].wordCount() + alieneseCorpus[f].wordCount())) * 3,
+        (alieneseCorpus[f].wordCount(), 'sigmoid')
+    ], loss='bowloss'))
+
+
+OMP_NUM_THREADS=8 python bow_autoencoder_model.py
+Opening map
+
+Creating source nodes corpus for identifier
+ .... 2891 words
+Creating target nodes corpus for identifier
+ .... 2922 words
+
+Creating source nodes corpus for class
+ .... 2852 words
+Creating target nodes corpus for class
+ .... 111 words
+
+Creating source nodes corpus for comments
+ .... 2037 words
+Creating target nodes corpus for comments
+ .... 3811 words
+
+Creating source nodes corpus for method
+ .... 2891 words
+Creating target nodes corpus for method
+ .... 902 words
+
+Creating ae identifier model
+Creating ae class model
+Creating ae comments model
+Creating ae method model
+
+Training ae model ./bow_nag_m1_loss001.comments.mod
+ - start time: Thu Apr 28 11:40:56 2016
+
+  time: Thu Apr 28 13:37:58 2016
+  training loss: 62932.1288298
+  validation loss: 65277.0511722
+.........
+  time: Thu Apr 28 21:11:53 2016
+  training loss: 59934.2306614
+  validation loss: 59673.9705528
+  Saving ae comments model
+
+~~~~~~~~~~~~~~~~~~
+Training ae model ./bow_nag_m1_loss001.class.mod
+ - start time: Thu Apr 28 21:16:22 2016
+
+  time: Thu Apr 28 22:04:02 2016
+  training loss: 1671.67492451
+  validation loss: 1139.38422775
+  Saving ae class model
+..........
+  time: Fri Apr 29 08:19:54 2016
+  training loss: 207.754462318
+  validation loss: 184.988490379
+  Saving ae class model
+
+for f in range(4):
+    print "Creating ae %s model" % field[f]
+    ae.append(Network([
+        englishCorpus[f].wordCount(),
+        ((englishCorpus[f].wordCount() + alieneseCorpus[f].wordCount())) * 5,
+        (alieneseCorpus[f].wordCount(), 'sigmoid')
+    ], loss='bowloss'))
+
+OMP_NUM_THREADS=8 python bow_autoencoder_model.py
+Opening map
+
+Creating source nodes corpus for identifier
+ .... 2891 words
+Creating target nodes corpus for identifier
+ .... 2922 words
+
+Creating source nodes corpus for class
+ .... 2852 words
+Creating target nodes corpus for class
+ .... 111 words
+
+Creating source nodes corpus for comments
+ .... 2037 words
+Creating target nodes corpus for comments
+ .... 3811 words
+
+Creating source nodes corpus for method
+ .... 2891 words
+Creating target nodes corpus for method
+ .... 902 words
+
+Creating ae identifier model
+Creating ae class model
+Creating ae comments model
+Creating ae method model
+
+Training ae model ./bow_nag_m1_loss001.class.mod
+ - start time: Fri Apr 29 08:48:46 2016
+
+  time: Fri Apr 29 10:01:48 2016
+  training loss: 2437.67394622
+  validation loss: 936.638667744
+  Saving ae class model
+.......
+  time: Fri Apr 29 14:33:06 2016
+  training loss: 977.911040493
+  validation loss: 467.855317211
+  Saving ae class model
+
+`````````````````````````````````````````````
+    ae.append(Network([
+        englishCorpus[f].wordCount(),
+        ((englishCorpus[f].wordCount() + alieneseCorpus[f].wordCount())) * 10,
+        (alieneseCorpus[f].wordCount(), 'sigmoid')
+    ], loss='bowloss'))
+
+Training ae model ./bow_nag_m1_loss001.class.mod
+ - start time: Fri Apr 29 15:58:23 2016
+
+  time: Fri Apr 29 18:25:31 2016
+  training loss: 2471.6225737
+  validation loss: 996.431893691
+  Saving ae class model
