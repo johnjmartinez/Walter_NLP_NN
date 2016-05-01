@@ -1,82 +1,163 @@
-
 import re, xmltodict, json
-from os import listdir
-from os.path import isfile, join
+from os import listdir, makedirs
+from os.path import isfile, join, dirname
 
-#READ THE GOODNESS
-queries = open("testRunOut/query", "r").read()
-queries_d = xmltodict.parse(queries)
+from tfidf import TFIDF
 
-bugs = open("SWTBugRepository.xml", "r").read()
-bugs_d = xmltodict.parse(bugs)
-
-docs_path = "testRunOut/docs/"
-docs_files = [f for f in listdir(docs_path) if isfile(join(docs_path, f))]
-docs_str_d = { d : open("testRunOut/docs/"+d, "r").read() for d in docs_files }
-docs_d = { d : xmltodict.parse(docs_str_d[d]) for d in docs_files }
-
-#CHECK THOSE TURDS
-#json.dumps(bugs_d)
-#json.dumps(queries_d)
-#json.dumps(docs_d)
-
-#CLEAN THAT SHITE
-bug_map = {}
-for b in bugs_d['bugrepository']['bug']:
-    if type(b['fixedFiles']['file']) is not list:
-        file_list = [b['fixedFiles']['file']]
-    else:
-        file_list = b['fixedFiles']['file']
-    bug_map[b['@id']] =  file_list #number -> files
-#json.dumps(bug_map)
-
-query_map = {}
-c = re.compile(r"(\S+)\.\(class\)")
-m = re.compile(r"(\S+)\.\(method\)")
-i = re.compile(r"(\S+)\.\(identifier\)") 
-o = re.compile(r"(\S+)\.\(comments\)")
-for q in queries_d['parameters']['query']:
-    text = q['text']
-    c_l = list(set(c.findall(text)))
-    m_l = list(set(m.findall(text)))
-    i_l = list(set(i.findall(text)))
-    o_l = list(set(o.findall(text)))
-    query_map[q['number']] = {'class':c_l, 'method':m_l, 'identifier':i_l, 'comments':o_l}
-#json.dumps(query_map)   
-
-docs_map = {}
-for _id in docs_d:
-    _file = docs_d[_id]['DOC']['DOCNO']
-    
-    c = docs_d[_id]['DOC']['text']['class'] #WTF ... org.eclipse.swt.internal.win32.OS.java <class> is empty
-    if c is None: c = ''
-    
-    c_l = list(set(c.split()))
-    m_l = list(set(docs_d[_id]['DOC']['text']['method'].split()))
-    i_l = list(set(docs_d[_id]['DOC']['text']['identifier'].split()))
-    o_l = list(set(docs_d[_id]['DOC']['text']['comments'].split())) 
-    docs_map[_file] = {'class':c_l, 'method':m_l, 'identifier':i_l, 'comments':o_l}
+from global_constants import *
 
 
-#json.dumps(docs_map)       
+class Document:
+    '''This is a document in the sense of a corpus, not in the sense of Indri'''
 
-bug_report_sentences = {'class': [], 'method': [], 'identifier': [], 'comments': []}
-fixed_file_sentences = {'class': [], 'method': [], 'identifier': [], 'comments': []}
+    def __init__(self, structuredText):
+        self.structuredText = {
+            CLASS: self._coerceNoneToEmptyString(structuredText[CLASS]),
+            METHOD: self._coerceNoneToEmptyString(structuredText[METHOD]),
+            IDENT: self._coerceNoneToEmptyString(structuredText[IDENT]),
+            COMMENTS: self._coerceNoneToEmptyString(structuredText[COMMENTS])
+        }
 
-for bug_id in bug_map:
-    for fixed_file in bug_map[bug_id]:
-        for field in docs_map[fixed_file]:
-            bug_report_sentences[field].append(query_map[bug_id][field])
-            fixed_file_sentences[field].append(docs_map[fixed_file][field])
+    def getFlattenedText(self, categories=[CLASS, METHOD, IDENT]):
+        ''' By default, we exclude the comments category because it makes learning harder '''
+        return "\n".join([self.structuredText[category] for category in categories])
+
+    def getWords(self, categories=[CLASS, METHOD, IDENT], camelCasifyJava=True, filterWords=[]):
+        ''' By default, we exclude the comments category because it makes learning harder '''
+        words = []
+        for category in categories:
+            if camelCasifyJava == False or category == COMMENTS: # Don't camelCasifyJava comments
+                words.extend(self.structuredText[category].split())
+            else:
+                words.extend([self._camelCasify(line.split()) for line in self.structuredText[category].split('\n')])
+
+        return filter(lambda x: x and x not in filterWords, words) # filter empty strings and words in filterWords
+
+    def _coerceNoneToEmptyString(self, string):
+        return '' if string == None else string
+
+    def _camelCasify(self, wordList):
+        if len(wordList) == 0:
+            return ''
+
+        elif len(wordList) == 1:
+            return wordList[0]
+
+        return wordList[0] + "".join([word.title() for word in wordList[1:]])
+
+def createBugFixedFileMap(bugRepositoryFilePath):
+    parsedBugData = xmltodict.parse(open(bugRepositoryFilePath, 'r').read())
+
+    # { bugId (string) : fixedFiles (list of string) }
+    bugFixedFileMap = {}
+    for bug in parsedBugData['bugrepository']['bug']:
+        fixedFiles = bug['fixedFiles']['file']
+
+        if type(fixedFiles) is not list:
+            fixedFiles = [fixedFiles]
+
+        bugFixedFileMap[bug['@id']] = fixedFiles
+
+    return bugFixedFileMap
+
+def createBugMap(indriQueryPath):
+    parsedIndriQueryData = xmltodict.parse(open(indriQueryPath, "r").read())
+
+    structurePatterns = {
+        CLASS: re.compile(r"(\S+)\.\(class\)"),
+        METHOD: re.compile(r"(\S+)\.\(method\)"),
+        IDENT: re.compile(r"(\S+)\.\(identifier\)"),
+        COMMENTS: re.compile(r"(\S+)\.\(comments\)")
+    }
+
+    bugMap = {}
+    for query in parsedIndriQueryData['parameters']['query']:
+        bugMap[query['number']] = \
+            Document({ structure : " ".join(pattern.findall(query['text'])) for (structure, pattern) in structurePatterns.iteritems() })
+
+    return bugMap
+
+def createFixedFileMap(indriDocumentsPath):
+    indriDocuments = [ file for file in listdir(indriDocumentsPath) if isfile(join(indriDocumentsPath, file)) ]
+    indriDocumentStrings = { document : open(join(indriDocumentsPath, document), 'r').read() for document in indriDocuments }
+    parsedIndriDocumentData = { document : xmltodict.parse(indriDocumentStrings[document]) for document in indriDocumentStrings }
+
+    # { fixedFileName (string) : Document }
+    fixedFileMap = {}
+    for documentId in parsedIndriDocumentData:
+        indriDocument = parsedIndriDocumentData[documentId]['DOC']
+        fixedFile = indriDocument['DOCNO']
+        fixedFileMap[fixedFile] = Document(indriDocument['text'])
+
+    return fixedFileMap
 
 
-#save as json file                
-with open('bug_report_sentences.txt', 'w') as outfile:
-     json.dump(bug_report_sentences, outfile, sort_keys = True, indent = 4, ensure_ascii=False)
-     
-with open('fixed_file_sentences.txt', 'w') as outfile:
-     json.dump(fixed_file_sentences, outfile, sort_keys = True, indent = 4, ensure_ascii=False)
+def computeFilterWordsUsingTfIdf(documentMap, cutoff=0.0):
+    documentWordScores = TFIDF(documentMap).compute()
+
+    return \
+        {
+            documentName : map(lambda x: x[0], filter(lambda x: x[1] <= cutoff, documentWordScores[documentName].items()))
+            for documentName in documentWordScores
+        }
+
+def dumpToFileAsJSON(filePath, data):
+    with open(filePath, 'w') as outfile:
+         json.dump(data, outfile, sort_keys = True, indent = 4, ensure_ascii=False)
 
 
+if __name__ == "__main__":
+    # READ THE GOODNESS
 
 
+    bugFixedFileMap = createBugFixedFileMap(bugRepositoryFilePath)
+
+    bugMap = createBugMap(indriQueryPath)
+
+    fixedFileMap = createFixedFileMap(indriDocumentsPath)
+
+    BUG_REPORTS_TFIDF_CUTOFF = .1
+    FIXED_FILES_TFIDF_CUTOFF = .1
+
+    bugReportFilterWords = computeFilterWordsUsingTfIdf(
+        { bugId : bugMap[bugId].getFlattenedText([CLASS]) for bugId in bugMap }, # We only need the words for one structure
+        cutoff=BUG_REPORTS_TFIDF_CUTOFF
+    )
+
+    fixedFileFilterWords = computeFilterWordsUsingTfIdf(
+        { fixedFileName : "\n".join(fixedFileMap[fixedFileName].getWords()) for fixedFileName in fixedFileMap },
+        cutoff=BUG_REPORTS_TFIDF_CUTOFF
+    )
+
+
+    dumpToFileAsJSON(bugReportFilterWordsPath, bugReportFilterWords)
+    dumpToFileAsJSON(fixedFileFilterWordsPath, fixedFileFilterWords)
+
+    # Check filter words
+    '''
+    for bugId in bugMap:
+        print "Getting words for: %s" % bugId
+        bugReport = bugMap[bugId]
+        print "--count before filter: %d" % len(bugReport.getWords([CLASS], camelCasifyJava=False))
+        print "--count after filter: %d" % len(bugReport.getWords([CLASS], camelCasifyJava=False, filterWords=bugReportFilterWords[bugId]))
+
+    for fixedFileName in fixedFileMap:
+        print "Getting words for: %s" % fixedFileName
+        fixedFile = fixedFileMap[fixedFileName]
+        print "--count before filter: %d" % len(fixedFile.getWords())
+        print "--count after filter: %d" % len(fixedFile.getWords(filterWords=fixedFileFilterWords[fixedFileName]))
+    '''
+
+    # { structure : [[bagOfWordsList]] }
+    bugReportBOWs = []
+    fixedFileBOWs = []
+
+    for bugId in bugFixedFileMap:
+        for fixedFile in bugFixedFileMap[bugId]:
+            bugReportBOWs.append(list(set(bugMap[bugId].getWords(filterWords=bugReportFilterWords[bugId], camelCasifyJava=False))))
+            fixedFileBOWs.append(list(set(fixedFileMap[fixedFile].getWords(filterWords=fixedFileFilterWords[fixedFile]))))
+
+    #save as json file
+
+    dumpToFileAsJSON(bugReportBOWsPath, bugReportBOWs)
+    dumpToFileAsJSON(fixedFileBOWsPath, fixedFileBOWs)

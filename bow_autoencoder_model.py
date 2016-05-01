@@ -1,4 +1,3 @@
-#from theanets import Autoencoder
 from theanets import Network
 from theanets.losses import Loss
 from os import path
@@ -7,6 +6,10 @@ import theano.tensor as TT
 import numpy as np
 import json
 import time
+import sys
+
+from corpus import Corpus
+from global_constants import *
 
 class BOWLoss(Loss):
 
@@ -16,49 +19,6 @@ class BOWLoss(Loss):
         xe = target * TT.log(output) + (1 - target) * \
             TT.log(1 - output)  # Cross-entropy
         return -xe.sum()
-
-class Corpus:
-
-    def __init__(self, sentences):
-        self.sentences = sentences
-
-        bagsOfWords = self.convertToBagsOfWords(self.sentences)
-        self.vocabulary = self.makeVocabulary(bagsOfWords)
-        self.wordVectors = [self.convertToWordVector(
-            bagOfWords) for bagOfWords in bagsOfWords]
-
-    def convertToBagsOfWords(self, sentences):
-        return [sentence.split() for sentence in sentences]
-
-    def makeVocabulary(self, bagsOfWords):
-        vocabulary = set()
-        for bw in bagsOfWords:
-            vocabulary.update(bw)
-        return list(vocabulary)
-
-    def convertToWordVector(self, bagOfWords):
-        return [1 if word in bagOfWords else 0 for word in self.vocabulary]
-
-    def convertFromWordVector(self, wordVector):
-        # print wordVector
-        bagOfWords = []
-        for (wordExists, word) in zip(wordVector, self.vocabulary):
-            if wordExists:
-                bagOfWords.append(word)
-        return bagOfWords
-
-    def wordCount(self):
-        return len(self.vocabulary)
-
-    def printToConsole(self):
-        print "Vocabulary: %s" % self.vocabulary
-        print
-        print "Vocabulary Size: %s" % self.wordCount()
-        print "Sentences:\n%s" % self.sentences
-        print
-        print "Word Vectors:\n%s" % self.wordVectors
-        print
-        print
 
 def simpleTranslate(sentences, translationMap):
     translatedSentences = []
@@ -99,90 +59,92 @@ englishSentences = [
     'the store is dead',
     'the dog is dead'
 ]
-englishCorpus = Corpus(englishSentences)
+sourceCorpus = Corpus(englishSentences)
 alieneseSentences = simpleTranslate(englishSentences, englishToAlieneseTranslationMap)
-alieneseCorpus = Corpus(alieneseSentences)
+targetCorpus = Corpus(alieneseSentences)
 """
 
+usage = "USAGE: [create | analyze] modelPath"
+if len(sys.argv) >= 3:
+    command = sys.argv[1]
+    modelPath = sys.argv[2]
+else:
+    print usage
+    sys.exit(1)
+
+
 # REAL DATA
-englishCorpus = []
-alieneseCorpus = []
-field = []
-print "Opening map\n"
-with open('query2doc2field_map.txt') as data_file:
-    data = json.load(data_file)
+fields = ['identifier'] #, 'method', 'identifier', 'comments']
 
-for f in data.keys():
+print "Loading bags-of-words for bug reports"
 
-    field.append(f)
+with open(bugReportBOWsPath) as data_file:
+    bugReportSentences = json.load(data_file)
 
-    print "Creating source nodes corpus for %s" % f
-    x = Corpus(data[f].keys())
-    englishCorpus.append(x)
-    print " .... %s words" % x.wordCount()
+print "Creating source corpus from bug reports"
+sourceCorpus = Corpus(bugReportSentences, True)
+print " .... %s words" % sourceCorpus.wordCount()
 
-    print "Creating target nodes corpus for %s" % f
-    alien = []
-    for val in data[f].values():
-        # reduce common lines and join them all in L
-        a = ' '.join(list(set(val)))
-        a = ' '.join(list(set(a.split())))  # reduce common words in L
-        alien.append(a)
-    y = Corpus(alien)
-    alieneseCorpus.append(y)
-    print " .... %s words\n" % y.wordCount()
+print len(bugReportSentences)
 
-# HERE GOES NOTHING
-ae = []
-# field=[field[0]] #temp solution to out of mem error
-for f in range(4):
-    print "Creating ae %s model" % field[f]
-    ae.append(Network([
-        englishCorpus[f].wordCount(),
-        ((englishCorpus[f].wordCount() + alieneseCorpus[f].wordCount())) * 10,
-        (alieneseCorpus[f].wordCount(), 'sigmoid')
-    ], loss='bowloss'))
 
-model_path = "./bow_nag_m1_loss001.%s.mod" % field[1]
-# if path.isfile(model_path):
-#    ae[0].load(model_path)
-# else:
-# ae[0].train([np.asarray(englishCorpus[0].wordVectors), np.asarray(alieneseCorpus[0].wordVectors)], algo='sgd')
-#    ae[0].save(model_path)
-print "\nTraining ae model %s" % model_path
-print " - start time: %s\n" % getTime()
-curr_loss = 1
-target_loss = 0.001
-while curr_loss > target_loss:
-    for train, valid in ae[1].itertrain([np.asarray(englishCorpus[1].wordVectors),  # , dtype=np.float32),
-                                         np.asarray(alieneseCorpus[1].wordVectors)],  # , dtype=np.float32)],
-                                        algo='nag', momentum=1):
+print "Loading bags-of-words for fixed files"
 
-        if train['loss'] < target_loss:
-            break
-        # NOT RELIABLE ... MAY STOP TRAINING WAY BEFORE TARGET LOSS
+with open(fixedFileBOWsPath) as data_file:
+    fixedFileSentences = json.load(data_file)
 
-    print "  time: %s" % getTime()
-    print "  training loss: %s" % train['loss']
-    print "  validation loss: %s" % valid['loss']
-    print "  Saving ae %s model" % field[1]
-    ae[1].save(model_path)
-    curr_loss = train['loss']
+print "Creating target corpus from fixed files"
+targetCorpus = Corpus(fixedFileSentences, True)
+print " .... %s words\n" % targetCorpus.wordCount()
 
-print " - stop time: %s" % getTime()
-print "Saving ae %s model" % field[1]
-ae[1].save(model_path)
-# for wordVector in englishCorpus[0].wordVectors:
-# print
-# alieneseCorpus[0].convertFromWordVector(ae[0].predict(np.asarray([wordVector]))[0].tolist())
 
-print "Testing ae model"
-for word in englishCorpus[1].vocabulary:
-    englishWordVector = englishCorpus[1].convertToWordVector([word])
-    alienWordVector = ae[1].predict(np.asarray([englishWordVector]))[
-        0]  # , dtype=np.float32))[0]
-    # highestProbabilityIndex = np.argmax(alienWordVector)
-    sortedIndices = np.argsort(alienWordVector)[::-1]
-    print "%s: %s" % (word, np.asarray(alieneseCorpus[0].vocabulary)[sortedIndices[0:2]])
-    # print "%s: %s" % (word,
-    # alieneseCorpus[0].vocabulary[highestProbabilityIndex])
+if command == "create":
+    for field in fields:
+        print "Creating model %s" % field
+        ae[field] = \
+            Network(
+                [
+                    sourceCorpus.wordCount(),
+                    int(((sourceCorpus.wordCount() + targetCorpus.wordCount())) * 0.05),
+                    (targetCorpus.wordCount(), 'sigmoid')
+                ], 
+                loss='bowloss'
+            )
+
+        model_path = "./bow_nag_m1_loss001.%s.mod" % field
+
+        print "\nTraining model %s" % modelPath
+        print " - start time: %s\n" % getTime()
+
+        target_loss = 0.001
+        data = [np.asarray(sourceCorpus.wordVectors, dtype=np.float32), np.asarray(targetCorpus.wordVectors, dtype=np.float32)]
+
+        for train, valid in ae[field].itertrain(data, algo='adadelta', validate_every=1, patience=5):
+            if train['loss'] < target_loss:
+                break
+            # NOT RELIABLE ... MAY STOP TRAINING WAY BEFORE TARGET LOSS
+
+            print "  time: %s" % getTime()
+            print "  training loss: %s" % train['loss']
+            print "  validation loss: %s" % valid['loss']
+
+        print " - stop time: %s" % getTime()
+        print "Saving model %s" % modelPath
+        ae[field].save(modelPath)
+
+elif command == "analyze":
+    print "Loading model %s" % modelPath
+    ae = Network.load(modelPath)
+
+    for word in sourceCorpus.vocabulary:
+        sourceWordVector = sourceCorpus.convertToWordVector([word])
+        targetWordVector = ae.predict(np.asarray([sourceWordVector], dtype=np.float32))[0]
+        sortedIndices = np.argsort(targetWordVector)[::-1]
+
+        mappedWords = zip(np.asarray(targetCorpus.vocabulary)[sortedIndices[0:5]], targetWordVector[sortedIndices[0:5]])
+        print "%s: %s" % (word, filter(lambda x: x[1] > 0.75, mappedWords))
+else:
+    print "Unknown command: %s" % command
+    print usage
+    sys.exit(1)
+

@@ -1,0 +1,55 @@
+input word: display
+mapped word: _getFocusControl
+
+
+  <bug id="108591" opendate="2005-09-01 11:50:00" fixdate="2007-08-31 16:56:00">
+    <buginformation>
+      <summary>SWT StyledText does not support inline Input method</summary>
+      <description>On MacOS X, When the user turns on Japanese Input Method and types japanese characters on SWT StyledText, the floating Input Window shows up. Since the inline IM window shows up on SWT Text widget, SWT StyledText widget should also display the inline IM on the widget. This happens also on Chinese and Korean Input method.</description>
+    </buginformation>
+    <fixedFiles>
+      <file>org.eclipse.swt.SWT.java</file>
+      <file>org.eclipse.swt.custom.StyleRange.java</file>
+      <file>org.eclipse.swt.custom.StyledText.java</file>
+      <file>org.eclipse.swt.custom.StyledTextRenderer.java</file>
+      <file>org.eclipse.swt.graphics.TextLayout.java</file>
+      <file>org.eclipse.swt.graphics.TextStyle.java</file>
+      <file>org.eclipse.swt.internal.ole.win32.COM.java</file>
+      <file>org.eclipse.swt.internal.win32.OS.java</file>
+      <file>org.eclipse.swt.widgets.Canvas.java</file>
+      <file>org.eclipse.swt.widgets.Caret.java</file>
+      <file>org.eclipse.swt.widgets.Control.java</file>
+      <file>org.eclipse.swt.widgets.Display.java</file>
+      <file>org.eclipse.swt.widgets.Event.java</file>
+      <file>org.eclipse.swt.widgets.Shell.java</file>
+      <file>org.eclipse.swt.widgets.Widget.java</file>
+    </fixedFiles>
+  </bug>
+
+  108591 Q0 org.eclipse.swt.widgets.Shell.java 1 0.375366 indri
+108591 Q0 org.eclipse.swt.widgets.Text.java 2 0.373226 indri
+108591 Q0 org.eclipse.swt.widgets.Widget.java 3 0.368409 indri
+108591 Q0 org.eclipse.swt.internal.win32.OS.java 4 0.315869 indri
+108591 Q0 org.eclipse.swt.widgets.Combo.java 5 0.313908 indri
+108591 Q0 org.eclipse.swt.widgets.Tree.java 6 0.30268 indri
+108591 Q0 org.eclipse.swt.widgets.Table.java 7 0.291151 indri
+108591 Q0 org.eclipse.swt.widgets.Control.java 8 0.281213 indri
+108591 Q0 org.eclipse.swt.ole.win32.OleClientSite.java 9 0.28111 indri
+108591 Q0 org.eclipse.swt.widgets.Display.java 10 0.275952 indri
+
+org.eclipse.swt.widgets.Display.java
+doc 407
+
+
+
+
+doc 410
+org.eclipse.swt.widgets.Shell.java
+
+
+doc 426
+org.eclipse.swt.widgets.Decorations.java
+
+
+doc 445
+org.eclipse.swt.widgets.Control.java

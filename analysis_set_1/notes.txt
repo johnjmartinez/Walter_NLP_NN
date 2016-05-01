@@ -1,0 +1,5 @@
+used following parameters for TFIDF cutoff:
+    BUG_REPORTS_TFIDF_CUTOFF = .1
+    FIXED_FILES_TFIDF_CUTOFF = .1
+
+This helped a lot with learning, but it also removed a ton of important words. We need to lower these cutoffs some.
