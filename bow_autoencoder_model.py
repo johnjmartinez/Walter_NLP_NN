@@ -7,6 +7,7 @@ import theano.tensor as TT
 import numpy as np
 import json
 import time
+import re
 
 class BOWLoss(Loss):
 
@@ -112,6 +113,9 @@ print "Opening map\n"
 with open('query2doc2field_map.txt') as data_file:
     data = json.load(data_file)
 
+ignores = ['eclipse', 'org', 'swt', 'internal']
+ignore_str = "|".join(ignores)  # ; print ignore_str
+filter_out = re.compile('r' + ignore_str, re.I)
 for f in data.keys():
 
     field.append(f)
@@ -124,62 +128,72 @@ for f in data.keys():
     print "Creating target nodes corpus for %s" % f
     alien = []
     for val in data[f].values():
-        # reduce common lines and join them all in L
+        # reduce common lines and join them all in a
         a = ' '.join(list(set(val)))
-        a = ' '.join(list(set(a.split())))  # reduce common words in L
+        a = ' '.join(list(set(a.split())))  # reduce common words in a
+        a = filter_out.sub("", a)
         alien.append(a)
     y = Corpus(alien)
     alieneseCorpus.append(y)
     print " .... %s words\n" % y.wordCount()
+#print val, a
+#exit()
 
 # HERE GOES NOTHING
-ae = []
-# field=[field[0]] #temp solution to out of mem error
+#ae = []
+#field=[field[0]] #temp solution to out of mem error
 for f in range(4):
     print "Creating ae %s model" % field[f]
-    ae.append(Network([
+    #ae.append(Network([
+    ae = Network([
         englishCorpus[f].wordCount(),
-        ((englishCorpus[f].wordCount() + alieneseCorpus[f].wordCount())) * 10,
+        ((englishCorpus[f].wordCount() + alieneseCorpus[f].wordCount())) * 20,
         (alieneseCorpus[f].wordCount(), 'sigmoid')
-    ], loss='bowloss'))
+    ], loss='bowloss') # )
 
-model_path = "./bow_nag_m1_loss001.%s.mod" % field[1]
+    model_path = "./bowx20_nag_m1_loss001.%s.mod" % field[f]
+    print "\nTraining ae model %s" % model_path
+    print " - start time: %s\n" % getTime()
+    curr_loss = 1
+    target_loss = 0.001
+    counter = 0
+    while curr_loss > target_loss:
+        for train, valid in ae.itertrain([np.asarray(englishCorpus[f].wordVectors),  # , dtype=np.float32),
+                                         np.asarray(alieneseCorpus[f].wordVectors)], # , dtype=np.float32)],
+                                        algo='nag', momentum=1):
+
+            if train['loss'] < target_loss:
+                break
+            # NOT RELIABLE ... MAY STOP TRAINING WAY BEFORE TARGET LOSS
+
+        print "  time: %s" % getTime()
+        print "  training loss: %s" % train['loss']
+        print "  validation loss: %s" % valid['loss']
+        print "  Saving ae %s model\n" % field[f]
+        ae.save(model_path)
+        curr_loss = train['loss']
+        counter += 1
+        if counter > 5 : break
+
+    print " - stop time: %s" % getTime()
+    print "Saving ae %s model" % field[f]
+    ae.save(model_path)
+    
+    
+# for wordVector in englishCorpus[0].wordVectors:
+# print
+# alieneseCorpus[0].convertFromWordVector(ae[0].predict(np.asarray([wordVector]))[0].tolist())
+
 # if path.isfile(model_path):
 #    ae[0].load(model_path)
 # else:
 # ae[0].train([np.asarray(englishCorpus[0].wordVectors), np.asarray(alieneseCorpus[0].wordVectors)], algo='sgd')
 #    ae[0].save(model_path)
-print "\nTraining ae model %s" % model_path
-print " - start time: %s\n" % getTime()
-curr_loss = 1
-target_loss = 0.001
-while curr_loss > target_loss:
-    for train, valid in ae[1].itertrain([np.asarray(englishCorpus[1].wordVectors),  # , dtype=np.float32),
-                                         np.asarray(alieneseCorpus[1].wordVectors)],  # , dtype=np.float32)],
-                                        algo='nag', momentum=1):
-
-        if train['loss'] < target_loss:
-            break
-        # NOT RELIABLE ... MAY STOP TRAINING WAY BEFORE TARGET LOSS
-
-    print "  time: %s" % getTime()
-    print "  training loss: %s" % train['loss']
-    print "  validation loss: %s" % valid['loss']
-    print "  Saving ae %s model" % field[1]
-    ae[1].save(model_path)
-    curr_loss = train['loss']
-
-print " - stop time: %s" % getTime()
-print "Saving ae %s model" % field[1]
-ae[1].save(model_path)
-# for wordVector in englishCorpus[0].wordVectors:
-# print
-# alieneseCorpus[0].convertFromWordVector(ae[0].predict(np.asarray([wordVector]))[0].tolist())
 
 print "Testing ae model"
-for word in englishCorpus[1].vocabulary:
-    englishWordVector = englishCorpus[1].convertToWordVector([word])
-    alienWordVector = ae[1].predict(np.asarray([englishWordVector]))[
+for word in englishCorpus[2].vocabulary:
+    englishWordVector = englishCorpus[2].convertToWordVector([word])
+    alienWordVector = ae[2].predict(np.asarray([englishWordVector]))[
         0]  # , dtype=np.float32))[0]
     # highestProbabilityIndex = np.argmax(alienWordVector)
     sortedIndices = np.argsort(alienWordVector)[::-1]
