@@ -116,8 +116,8 @@ if __name__ == "__main__":
 
     fixedFileMap = createFixedFileMap(indriDocumentsPath)
 
-    BUG_REPORTS_TFIDF_CUTOFF = .1
-    FIXED_FILES_TFIDF_CUTOFF = .1
+    BUG_REPORTS_TFIDF_CUTOFF = .001
+    FIXED_FILES_TFIDF_CUTOFF = .001
 
     bugReportFilterWords = computeFilterWordsUsingTfIdf(
         { bugId : bugMap[bugId].getFlattenedText([CLASS]) for bugId in bugMap }, # We only need the words for one structure

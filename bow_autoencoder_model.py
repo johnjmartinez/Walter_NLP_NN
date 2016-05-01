@@ -64,6 +64,7 @@ alieneseSentences = simpleTranslate(englishSentences, englishToAlieneseTranslati
 targetCorpus = Corpus(alieneseSentences)
 """
 
+# Parse command-line args
 usage = "USAGE: [create | analyze] modelPath"
 if len(sys.argv) >= 3:
     command = sys.argv[1]
@@ -72,10 +73,7 @@ else:
     print usage
     sys.exit(1)
 
-
-# REAL DATA
-fields = ['identifier'] #, 'method', 'identifier', 'comments']
-
+# Load bags-of-words and create corpuses
 print "Loading bags-of-words for bug reports"
 
 with open(bugReportBOWsPath) as data_file:
@@ -84,9 +82,6 @@ with open(bugReportBOWsPath) as data_file:
 print "Creating source corpus from bug reports"
 sourceCorpus = Corpus(bugReportSentences, True)
 print " .... %s words" % sourceCorpus.wordCount()
-
-print len(bugReportSentences)
-
 
 print "Loading bags-of-words for fixed files"
 
@@ -97,11 +92,11 @@ print "Creating target corpus from fixed files"
 targetCorpus = Corpus(fixedFileSentences, True)
 print " .... %s words\n" % targetCorpus.wordCount()
 
+print "Number of training instances: %d" % len(bugReportSentences)
 
 if command == "create":
-    for field in fields:
-        print "Creating model %s" % field
-        ae[field] = \
+        print "Creating model %s" % modelPath
+        ae = \
             Network(
                 [
                     sourceCorpus.wordCount(),
@@ -111,26 +106,19 @@ if command == "create":
                 loss='bowloss'
             )
 
-        model_path = "./bow_nag_m1_loss001.%s.mod" % field
-
-        print "\nTraining model %s" % modelPath
+        print "Training model %s" % modelPath
         print " - start time: %s\n" % getTime()
 
-        target_loss = 0.001
         data = [np.asarray(sourceCorpus.wordVectors, dtype=np.float32), np.asarray(targetCorpus.wordVectors, dtype=np.float32)]
 
-        for train, valid in ae[field].itertrain(data, algo='adadelta', validate_every=1, patience=5):
-            if train['loss'] < target_loss:
-                break
-            # NOT RELIABLE ... MAY STOP TRAINING WAY BEFORE TARGET LOSS
-
+        for train, valid in ae.itertrain(data, algo='adadelta', validate_every=1, patience=5):
             print "  time: %s" % getTime()
             print "  training loss: %s" % train['loss']
             print "  validation loss: %s" % valid['loss']
 
         print " - stop time: %s" % getTime()
         print "Saving model %s" % modelPath
-        ae[field].save(modelPath)
+        ae.save(modelPath)
 
 elif command == "analyze":
     print "Loading model %s" % modelPath
@@ -147,4 +135,3 @@ else:
     print "Unknown command: %s" % command
     print usage
     sys.exit(1)
-
