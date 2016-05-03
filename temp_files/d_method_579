@@ -1,0 +1,1 @@
+trim scrolled mousewheel size style area create vscroll window call proc widget handle vertical get bar horizontal class scrollable compute ext client hscroll release scroll

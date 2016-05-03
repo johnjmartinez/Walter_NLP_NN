@@ -1,0 +1,1 @@
+selection set getdlgcode minimum check size style create start window call progress proc pixel foreground widget handle get stop background compute class bar default maximum timer release

@@ -1,0 +1,1 @@
+caret setfocus canvas set windowposchanging windowposchanged get clear area widget killfocus size release font scroll inputlangchange

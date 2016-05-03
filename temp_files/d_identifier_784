@@ -1,0 +1,1 @@
+set text styled replace char range index delimiter custom content start add swt string get listener offset org line change count eclipse remove length
