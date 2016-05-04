@@ -3,7 +3,7 @@ set -x
 proj=`pwd -P`
 
 jBLUiR='java -jar BLUiR.jar '
-bugRepo=${proj}/SWTBugRepository.xml 
+bugRepo=${proj}/SWTBugRepository.xml
 srcRepo=${proj}/src_code
 outDir=${proj}/testRunOut #or whatever you wanna call it
 
@@ -15,7 +15,7 @@ $jBLUiR -task='createquery' \
  -bugRepoLocation=${bugRepo} \
  -queryFilePath=${outDir}/query
 
-#construct a structured document collection from source code files 
+#construct a structured document collection from source code files
 $jBLUiR -task='createdocs' \
  -codeLocation=${srcRepo} \
  -docLocation=${outDir}/docs

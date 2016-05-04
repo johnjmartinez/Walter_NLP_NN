@@ -1,20 +1,5 @@
 import xml
-from xml.sax.handler import ContentHandler
-
-def normalizeWhitespace(text):
-        "Remove redundant whitespace from a string"
-        return ' '.join(text.split())
-
-class AutoContentHandler(ContentHandler):
-    def startElement(self, name, attrs):
-        startElementHandler = getattr(self, "start_" + name, None)
-        if callable(startElementHandler):
-            startElementHandler(name, attrs)
-
-    def endElement(self, name):
-        endElementHandler = getattr(self, "end_" + name, None)
-        if callable(endElementHandler):
-            endElementHandler(name)
+import utils
 
 '''
 Example
@@ -30,7 +15,7 @@ Example
   </bug>
 </bugrepository>
 '''
-class BugReportContentHandler(AutoContentHandler):
+class BugReportContentHandler(utils.AutoContentHandler):
     def __init__(self):
         self.bugRepositoryName = None
         self.currentBugReportId = None
@@ -41,10 +26,10 @@ class BugReportContentHandler(AutoContentHandler):
         self.capturingFile = False
 
     def start_bugrepository(self, name, attrs):
-        self.bugRepositoryName = normalizeWhitespace(attrs.get("name"))
+        self.bugRepositoryName = utils.normalizeWhitespace(attrs.get("name"))
 
     def start_bug(self, name, attrs):
-        self.currentBugReportId = normalizeWhitespace(attrs.get("id"))
+        self.currentBugReportId = utils.normalizeWhitespace(attrs.get("id"))
 
     def start_buginformation(self, name, attrs):
         self.capturingBugInformation = True
@@ -88,7 +73,7 @@ class BugReportContentHandler(AutoContentHandler):
         if self.capturingBugInformation:
             self.currentBugReportWords.extend(self.parseWords(content))
         elif self.capturingFile:
-            self.currentFiles.append(normalizeWhitespace(content))
+            self.currentFiles.append(utils.normalizeWhitespace(content))
 
     def parseWords(self, content):
         return content.split()
