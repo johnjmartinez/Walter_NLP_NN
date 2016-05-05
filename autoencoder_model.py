@@ -12,6 +12,7 @@ parser = argparse.ArgumentParser(description='Creates a bag-of-words auto encode
 parser.add_argument('command', choices=['create', 'analyze'], help='Path to script-specific configuration file.')
 parser.add_argument('-s', '--structure', help='The structure to analyze (applies only when command=analyze).')
 parser.add_argument('-n', '--top-n', help='The top N words to display in the analysis (applies only when command=analyze).')
+parser.add_argument('-c', '--confidence-threshold', help='The threshold for determining whether to display a target word in the analysis (applies only when command=analyze.')
 parser.add_argument('-g', '--config', help='Path to script-specific configuration file.')
 
 args = parser.parse_args()
@@ -66,6 +67,8 @@ if args.command == "create":
 elif args.command == "analyze":
     structure = args.structure
     modelLoadPath = utils.addSuffixToPath(config.get('Model', 'ModelPath'), structure)
+    confidenceThreshold = float(args.confidence_threshold)
+
     print "Loading model %s" % modelLoadPath
     model = Network.load(modelLoadPath)
 
@@ -74,7 +77,11 @@ elif args.command == "analyze":
         targetWordVector = model.predict(np.asarray([sourceWordVector], dtype=np.float32))[0]
         topNIndices = np.argsort(targetWordVector)[::-1][0:int(args.top_n)]
 
-        mappedWords = zip(np.asarray(targetCorpus.getVocabulary(structure))[topNIndices], targetWordVector[topNIndices])
+        mappedWords = \
+            filter(
+                lambda x: x[1] >= confidenceThreshold,
+                zip(np.asarray(targetCorpus.getVocabulary(structure))[topNIndices], targetWordVector[topNIndices])
+            )
         print "%s: %s" % (word, mappedWords)
 else:
     pass # handled by argparse

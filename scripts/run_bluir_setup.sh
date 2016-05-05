@@ -3,7 +3,7 @@ set -x
 
 PROJECT_ROOT_DIR=`git rev-parse --show-toplevel`
 
-source ${PROJECT_ROOT_DIR}/bluir_paths.sh
+source ${PROJECT_ROOT_DIR}/scripts/bluir_paths.sh
 
 mkdir -p ${bluirOutDir}
 
@@ -24,3 +24,5 @@ $jBLUiR -task='index' \
  -indexLocation=${bluirOutDir}/index \
  -docLocation=${bluirOutDir}/docs
 
+# Example Usage
+# ./scripts/run_bluir_setup.sh

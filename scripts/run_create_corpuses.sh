@@ -15,5 +15,5 @@ python $PROJECT_ROOT_DIR/create_corpuses.py \
     -d $indriDocumentsFolderPath \
     -g $configPath \
 
-# Example
-# for i in `seq 1 6`; do ./run_create_corpuses.sh corpus_data/configs/corpus_config_$i.txt; done
+# Example Usage
+# for i in `seq 1 6`; do ./scripts/run_create_corpuses.sh corpus_data/configs/corpus_config_$i.txt; done
