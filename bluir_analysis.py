@@ -146,11 +146,11 @@ if __name__ == '__main__':
     print "Results File Path: %s" % resultsFilePath
     print "Bug Repository File Path: %s" % bugRepositoryFilePath
     print
-    print "Top 1: %d" % bluirAnalysis.calculateRecallAtTopN(bugReportResultsMap, 1)
-    print "Top 5: %d" % bluirAnalysis.calculateRecallAtTopN(bugReportResultsMap, 5)
-    print "Top 10: %d" % bluirAnalysis.calculateRecallAtTopN(bugReportResultsMap, 10)
-    print "MRR: %f" % bluirAnalysis.calculateMeanReciprocalRank(bugReportResultsMap)
-    print "MAP: %f" % bluirAnalysis.calculateMeanAveragePrecision(bugReportResultsMap)
+    print "Top 1  : %d" % bluirAnalysis.calculateRecallAtTopN(bugReportResultsMap, 1)
+    print "Top 5  : %d" % bluirAnalysis.calculateRecallAtTopN(bugReportResultsMap, 5)
+    print "Top 10 : %d" % bluirAnalysis.calculateRecallAtTopN(bugReportResultsMap, 10)
+    print "MRR    : %f" % bluirAnalysis.calculateMeanReciprocalRank(bugReportResultsMap)
+    print "MAP    : %f" % bluirAnalysis.calculateMeanAveragePrecision(bugReportResultsMap)
     print "Best Ranks:"
     bugReportBestRankMap = bluirAnalysis.calculateBestRanks(bugReportResultsMap)
     for bugReportID in sorted(bugReportBestRankMap.iterkeys()):

@@ -1,11 +1,11 @@
 Results File Path: results/results_8_0.85.txt
 Bug Repository File Path: /home/clemons/Development/Walter_NLP_NN/SWTBugRepository.xml
 
-Top 1: 54
-Top 5: 71
-Top 10: 85
-MRR: 0.644776
-MAP: 0.549612
+Top 1  : 54
+Top 5  : 71
+Top 10 : 85
+MRR    : 0.644776
+MAP    : 0.549612
 Best Ranks:
 	14654: 1
 	58185: 1
