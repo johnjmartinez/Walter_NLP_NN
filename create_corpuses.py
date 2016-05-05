@@ -80,12 +80,12 @@ if __name__ == "__main__":
     config.read(args.config)
 
     bugReportsTFIDFCutoff = float(config.get('BugReports', 'TFIDFCutoff'))
-    bugReportsFilterWordsSavePath = config.get('BugReports', 'FilterWordsSavePath')
-    bugReportsCorpusSavePath = config.get('BugReports', 'CorpusSavePath')
+    bugReportsFilterWordsSavePath = config.get('BugReports', 'FilterWordsPath')
+    bugReportsCorpusSavePath = config.get('BugReports', 'CorpusPath')
 
     fixedFilesTFIDFCutoff = float(config.get('FixedFiles', 'TFIDFCutoff'))
-    fixedFilesFilterWordsSavePath = config.get('FixedFiles', 'FilterWordsSavePath')
-    fixedFilesCorpusSavePath = config.get('FixedFiles', 'CorpusSavePath')
+    fixedFilesFilterWordsSavePath = config.get('FixedFiles', 'FilterWordsPath')
+    fixedFilesCorpusSavePath = config.get('FixedFiles', 'CorpusPath')
 
     # READ THE GOODNESS
     bugFixedFileMap = createBugFixedFileMap(args.bug_repository)
@@ -110,8 +110,8 @@ if __name__ == "__main__":
             fixedFilesTFIDFCutoff
         )
 
-        utils.dumpToJSONFile(("%s_" + structure + "%s") % splitext(bugReportsFilterWordsSavePath), bugReportFilterWords)
-        utils.dumpToJSONFile(("%s_" + structure + "%s") % splitext(fixedFilesFilterWordsSavePath), fixedFileFilterWords)
+        utils.dumpToJSONFile(utils.addSuffixToPath(bugReportsFilterWordsSavePath, structure), bugReportFilterWords)
+        utils.dumpToJSONFile(utils.addSuffixToPath(fixedFilesFilterWordsSavePath, structure), fixedFileFilterWords)
 
         for bugId in bugFixedFileMap:
             for fixedFile in bugFixedFileMap[bugId]:

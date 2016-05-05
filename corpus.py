@@ -1,4 +1,4 @@
-import pickle
+import utils
 
 class Corpus:
 
@@ -34,6 +34,12 @@ class Corpus:
     def wordCount(self, context):
         return len(self.contextedVocabulary[context])
 
+    def getWordVectors(self, context):
+        return self.contextedWordVectors[context]
+
+    def getVocabulary(self, context):
+        return self.contextedVocabulary[context]
+
     def printToConsole(self):
         for context in self.contextedVocabulary:
             print "Context: %s" % context
@@ -42,10 +48,8 @@ class Corpus:
 
     @staticmethod
     def fromFile(filePath):
-        with open(filePath, 'r') as corpusFile:
-            return pickle.load(corpusFile)
+        return utils.readFromPickleFile(filePath)
 
     def toFile(self, filePath):
-        with open(filePath, 'w') as corpusFile:
-            pickle.dump(self, corpusFile)
+        return utils.dumpToPickleFile(filePath, self)
 

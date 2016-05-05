@@ -1,0 +1,9 @@
+[BugReports]
+CorpusPath=corpus_data/corpuses/corpus_5_bug_reports.pkl
+
+[FixedFiles]
+CorpusPath=corpus_data/corpuses/corpus_5_fixed_files.pkl
+
+[Model]
+ModelPath=model_data/models/model_11.mod
+HiddenLayerSizeProportion=0.50

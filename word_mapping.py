@@ -3,8 +3,9 @@ import sys
 import xml
 import utils
 import re
+import numpy as np
 
-Word = namedtuple('WordWithConfidence', ['word', 'confidence'])
+Word = namedtuple('Word', ['word', 'confidence'])
 
 class QueryContentHandler(utils.AutoContentHandler):
     '''
@@ -18,79 +19,83 @@ class QueryContentHandler(utils.AutoContentHandler):
     '''
     queryWordPattern = r"\d+\.\d+\s+(.+?)\.\((.+?)\)"
 
-    def __init__(self, wordMapper, confidenceThreshold):
-        self.bugRepositoryName = None
-        self.currentBugReportId = None
-        self.currentBugReportWords = []
-        self.currentFiles = []
-        self.bugReportInformation = []
+    def __init__(self, wordMapper, translatedQueryFile):
         self.lastTag = None
         self.wordMapper = wordMapper
-        self.confidenceThreshold = confidenceThreshold
+        self.translatedQueryFile = translatedQueryFile
 
     def start_parameters(self, name, attrs):
-        sys.stdout.write("<parameters>\n")
+        self.translatedQueryFile.write("<parameters>\n")
 
     def start_query(self, name, attrs):
-        sys.stdout.write("\t<query>\n")
+        self.translatedQueryFile.write("\t<query>\n")
 
     def start_number(self, name, attrs):
         self.lastTag = name
-        sys.stdout.write("\t\t<number>")
+        self.translatedQueryFile.write("\t\t<number>")
 
     def start_text(self, name, attrs):
         self.lastTag = name
-        sys.stdout.write("\t\t<text> #weight(")
+        self.translatedQueryFile.write("\t\t<text> #weight(")
 
     def end_parameters(self, name):
-        sys.stdout.write("</parameters>\n")
+        self.translatedQueryFile.write("</parameters>\n")
 
     def end_query(self, name):
-        sys.stdout.write("\t</query>\n")
+        self.translatedQueryFile.write("\t</query>\n")
 
     def end_number(self, name):
-        sys.stdout.write("</number>\n")
+        self.translatedQueryFile.write("</number>\n")
 
     def end_text(self, name):
-        sys.stdout.write(") </text>\n")
+        self.translatedQueryFile.write(") </text>\n")
 
     def characters(self, content):
         if self.lastTag == "number":
-            sys.stdout.write(content)
+            self.translatedQueryFile.write(content)
         elif self.lastTag == "text":
-            sys.stdout.write(self.mapWords(content))
+            self.mapWords(content)
 
     def mapWords(self, wordContent):
-        return \
-            " ".join(
-                [
-                    "1.0 %s.(%s)" % (word, match.group(2))
-                    for match in re.finditer(QueryContentHandler.queryWordPattern, wordContent)
-                    for word in self.wordMapper.mapWord(match.group(1), match.group(2), self.confidenceThreshold)
-                ]
-            )
+        for match in re.finditer(QueryContentHandler.queryWordPattern, wordContent):
+            sourceWord = match.group(1)
+            context = match.group(2)
+
+            self.translatedQueryFile.write("1.0 %s.(%s) " % (sourceWord, context))
+
+            for targetWord in self.wordMapper.mapWord(sourceWord, context):
+                self.translatedQueryFile.write("1.0 %s.(%s) " % (targetWord, context))
 
 class WordMapper:
-    def __init__(self, wordMappingsInContext):
-        self.wordMappingsInContext = wordMappingsInContext
+    def __init__(self, contextedWordMappings, confidenceThreshold):
+        self.contextedWordMappings = {}
+        for context in contextedWordMappings:
+            self.contextedWordMappings[context] = {}
 
-    def mapWord(self, word, context, confidenceThreshold):
-        return [word] if word not in self.wordMappingsInContext[context] else \
-            map(
-                lambda x: x.word,
-                filter(lambda x: x.confidence > confidenceThreshold, self.wordMappingsInContext[context][word])
-            )
+            for sourceWord in contextedWordMappings[context]:
+                self.contextedWordMappings[context][sourceWord] = []
+                for (targetWord, confidence) in contextedWordMappings[context][sourceWord]:
+                    if confidence >= confidenceThreshold:
+                        self.contextedWordMappings[context][sourceWord].append(targetWord)
+                    else:
+                        break # we assume the input word mappings are sorted by confidence
 
-def createWordMappingFromModel(contextToWordModelMap, sourceCorpus, targetCorpus):
-    wordMapping = { context : {} for context in contextToWordModelMap }
+    def mapWord(self, word, context):
+        if not (context in self.contextedWordMappings and word in self.contextedWordMappings[context]):
+            return []
+        else:
+            return self.contextedWordMappings[context][word]
 
-    for context in contextToWordModelMap:
-        for sourceWord in sourceCorpus.vocabulary:
-            sourceWordVector = sourceCorpus.convertToWordVector([sourceWord])
-            targetWordVector = ae.predict(np.asarray([sourceWordVector], dtype=np.float32))[0]
+def createWordMappingFromContextedModels(contextedWordModels, sourceCorpus, targetCorpus):
+    wordMapping = { context : {} for context in contextedWordModels }
+
+    for context in contextedWordModels:
+        for sourceWord in sourceCorpus.getVocabulary(context):
+            sourceWordVector = sourceCorpus.convertToWordVector([sourceWord], context)
+            targetWordVector = contextedWordModels[context].predict(np.asarray([sourceWordVector], dtype=np.float32))[0]
             sortedIndices = np.argsort(targetWordVector)[::-1] # high confidence to low confidence
 
-            targetWords = map(lambda x: Word(x), zip(np.asarray(targetCorpus.vocabulary)[sortedIndices], targetWordVector[sortedIndices]))
+            targetWords = map(lambda x: Word(x[0], x[1]), zip(np.asarray(targetCorpus.getVocabulary(context))[sortedIndices], targetWordVector[sortedIndices]))
             wordMapping[context][sourceWord] = targetWords
 
     return wordMapping

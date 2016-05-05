@@ -1,9 +1,0 @@
-[BugReports]
-TFIDFCutoff=0.002
-FilterWordsSavePath=./filter_words/corpus_3_bug_reports_filter_words.json
-CorpusSavePath=./corpuses/corpus_3_bug_reports.pkl
-
-[FixedFiles]
-TFIDFCutoff=0.002
-FilterWordsSavePath=./filter_words/corpus_3_fixed_files_filter_words.json
-CorpusSavePath=./corpuses/corpus_3_fixed_files.pkl

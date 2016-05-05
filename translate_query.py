@@ -1,44 +1,52 @@
 import argparse
-import pickle
+import ConfigParser
 import theanets
+import xml
 
-import global_constants
+from global_constants import *
 import word_mapping
 import corpus
-from losses import CrossEntropyLoss
+import utils
+from losses import CrossEntropyLoss # needed to load the network
 
 parser = argparse.ArgumentParser(description='Translates the words in BLUiR\'s generated Indri query according to the word mapping dictated by the given model(s).')
-parser.add_argument('-c', '--class-structure-model', help='Path to the Theanets model corresponding to the class structure in BLUiR')
-parser.add_argument('-m', '--method-structure-model', help='Path to the Theanets model corresponding to the method structure in BLUiR')
-parser.add_argument('-i', '--identifier-structure-model', help='Path to the Theanets model corresponding to the identifier class structure in BLUiR')
-parser.add_argument('-n', '--comments-structure-model', help='Path to the Theanets model corresponding to the comments structure in BLUiR')
-parser.add_argument('-s', '--source-corpus', help='Path to the pickled Corpus object for the source corpus (the bug reports)')
-parser.add_argument('-t', '--target-corpus', help='Path to the pickled Corpus object for the target corpus (the fixed source code files)')
-parser.add_argument('-q', '--query', help='Path to the BLUiR-generated Indri query XML file')
+parser.add_argument('-i', '--input-query', help='Path to the BLUiR-generated Indri query XML file')
+parser.add_argument('-t', '--translated-query', help='Path to the translated Indri query XML file')
+parser.add_argument('-g', '--config', help='Path to script-specific configuration file.')
+parser.add_argument('-c', '--confidence-threshold', nargs='+', help='Mapped words with a confidence level less than this value will not be used in the translation.')
 
 args = parser.parse_args()
 
+config = ConfigParser.ConfigParser()
+config.read(args.config)
+
+print "Loading models"
+structures = [CLASS, METHOD, IDENTIFIER]
 structuredModels = {
-    CLASS: theanets.Network.load(args.class_structure_model),
-    METHOD: theanets.Network.load(args.method_structure_model),
-    IDENTIFIER: theanets.Network.load(args.identifier_structure_model),
-    COMMENTS: theanets.Network.load(args.comments_structure_model)
+    structure : theanets.Network.load(utils.addSuffixToPath(config.get('Model', 'ModelPath'), structure))
+    for structure in structures
 }
 
-structuredWordMappings = {
-   structure : word_mapping.createWordMappingFromModel(structuredModels[structure], sourceCorpus, targetCorpus)
-   for structure in structuredModels
-}
+print "Creating structured word mappings"
+structuredWordMappings = \
+    word_mapping.createWordMappingFromContextedModels(
+        structuredModels,
+        corpus.Corpus.fromFile(config.get('BugReports', 'CorpusPath')),
+        corpus.Corpus.fromFile(config.get('FixedFiles', 'CorpusPath'))
+    )
 
-sourceCorpus = corpus.Corpus.fromFile(args.source_corpus)
-targetCorpus = corpus.Corpus.fromFile(args.target_corpus)
 
-wordMapper = word_mapping.WordMapper(structuredWordMappings, sourceCorpus, targetCorpus)
+print "Translating query..."
+for confidenceThreshold in args.confidence_threshold:
+    print "...confidence threshold: %s" % confidenceThreshold
 
-queryContentHandler = word_mapping.QueryContentHandler(wordMapper)
+    with open(args.input_query, "r") as queryFile:
+        wordMapper = word_mapping.WordMapper(structuredWordMappings, float(confidenceThreshold))
 
-queryParser = xml.sax.make_parser()
-queryParser.setContentHandler(queryContentHandler)
+        with open(utils.addSuffixToPath(args.translated_query, confidenceThreshold), 'w') as translatedQueryFile:
+            queryContentHandler = word_mapping.QueryContentHandler(wordMapper, translatedQueryFile)
 
-with open(args.query, "r") as queryFile:
-    queryParser.parse(queryFile) # this will simultaneously parse and print the translated query to stdout, so capture it with redirection
+            queryParser = xml.sax.make_parser()
+            queryParser.setContentHandler(queryContentHandler)
+
+            queryParser.parse(queryFile)

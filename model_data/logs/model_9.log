@@ -1,0 +1,869 @@
+Loading source corpus (bug reports)
+Context: identifier
+--Vocabulary Size: 2787
+
+Context: class
+--Vocabulary Size: 2787
+
+Context: method
+--Vocabulary Size: 2787
+
+Loading target corpus (fixed files)
+Context: identifier
+--Vocabulary Size: 6028
+
+Context: class
+--Vocabulary Size: 120
+
+Context: method
+--Vocabulary Size: 2092
+
+Creating model model_data/models/model_9_class.mod
+Training model model_data/models/model_9_class.mod
+ - start time: Wed May  4 17:03:13 2016
+
+  time: Wed May  4 17:03:15 2016
+  training loss: 2162.48
+  validation loss: 3525.3
+  time: Wed May  4 17:03:15 2016
+  training loss: 729.379
+  validation loss: 1025.66
+  time: Wed May  4 17:03:16 2016
+  training loss: 396.157
+  validation loss: 469.8
+  time: Wed May  4 17:03:17 2016
+  training loss: 293.381
+  validation loss: 319.453
+  time: Wed May  4 17:03:17 2016
+  training loss: 248.267
+  validation loss: 260.474
+  time: Wed May  4 17:03:18 2016
+  training loss: 223.575
+  validation loss: 229.746
+  time: Wed May  4 17:03:19 2016
+  training loss: 207.546
+  validation loss: 210.974
+  time: Wed May  4 17:03:19 2016
+  training loss: 196.057
+  validation loss: 198.002
+  time: Wed May  4 17:03:20 2016
+  training loss: 187.269
+  validation loss: 188.262
+  time: Wed May  4 17:03:21 2016
+  training loss: 179.866
+  validation loss: 180.075
+  time: Wed May  4 17:03:21 2016
+  training loss: 173.376
+  validation loss: 173.225
+  time: Wed May  4 17:03:22 2016
+  training loss: 167.539
+  validation loss: 167.19
+  time: Wed May  4 17:03:23 2016
+  training loss: 162.537
+  validation loss: 161.755
+  time: Wed May  4 17:03:23 2016
+  training loss: 157.617
+  validation loss: 156.586
+  time: Wed May  4 17:03:24 2016
+  training loss: 153.045
+  validation loss: 151.896
+  time: Wed May  4 17:03:25 2016
+  training loss: 148.768
+  validation loss: 147.514
+  time: Wed May  4 17:03:25 2016
+  training loss: 144.801
+  validation loss: 143.469
+  time: Wed May  4 17:03:26 2016
+  training loss: 140.916
+  validation loss: 139.592
+  time: Wed May  4 17:03:26 2016
+  training loss: 137.536
+  validation loss: 135.89
+  time: Wed May  4 17:03:27 2016
+  training loss: 134.01
+  validation loss: 132.502
+  time: Wed May  4 17:03:28 2016
+  training loss: 130.892
+  validation loss: 129.273
+  time: Wed May  4 17:03:28 2016
+  training loss: 127.673
+  validation loss: 126.041
+  time: Wed May  4 17:03:29 2016
+  training loss: 124.807
+  validation loss: 123.157
+  time: Wed May  4 17:03:30 2016
+  training loss: 121.835
+  validation loss: 120.291
+  time: Wed May  4 17:03:30 2016
+  training loss: 119.415
+  validation loss: 117.763
+  time: Wed May  4 17:03:31 2016
+  training loss: 116.832
+  validation loss: 115.198
+  time: Wed May  4 17:03:32 2016
+  training loss: 114.523
+  validation loss: 112.924
+  time: Wed May  4 17:03:32 2016
+  training loss: 112.576
+  validation loss: 110.875
+  time: Wed May  4 17:03:33 2016
+  training loss: 110.251
+  validation loss: 108.704
+  time: Wed May  4 17:03:34 2016
+  training loss: 108.676
+  validation loss: 107.055
+  time: Wed May  4 17:03:34 2016
+  training loss: 106.501
+  validation loss: 104.936
+  time: Wed May  4 17:03:35 2016
+  training loss: 104.995
+  validation loss: 103.404
+  time: Wed May  4 17:03:36 2016
+  training loss: 103.085
+  validation loss: 101.587
+  time: Wed May  4 17:03:36 2016
+  training loss: 101.786
+  validation loss: 100.338
+  time: Wed May  4 17:03:37 2016
+  training loss: 100.125
+  validation loss: 98.8061
+  time: Wed May  4 17:03:37 2016
+  training loss: 99.2426
+  validation loss: 97.7327
+  time: Wed May  4 17:03:38 2016
+  training loss: 97.5092
+  validation loss: 96.0815
+  time: Wed May  4 17:03:39 2016
+  training loss: 96.6414
+  validation loss: 95.1453
+  time: Wed May  4 17:03:39 2016
+  training loss: 95.312
+  validation loss: 93.7666
+  time: Wed May  4 17:03:40 2016
+  training loss: 94.654
+  validation loss: 93.1641
+  time: Wed May  4 17:03:41 2016
+  training loss: 93.2556
+  validation loss: 91.9341
+  time: Wed May  4 17:03:41 2016
+  training loss: 92.8603
+  validation loss: 91.4446
+  time: Wed May  4 17:03:42 2016
+  training loss: 91.6219
+  validation loss: 90.2676
+  time: Wed May  4 17:03:43 2016
+  training loss: 91.2168
+  validation loss: 89.7952
+  time: Wed May  4 17:03:43 2016
+  training loss: 90.2337
+  validation loss: 88.8055
+  time: Wed May  4 17:03:44 2016
+  training loss: 89.5978
+  validation loss: 88.3319
+  time: Wed May  4 17:03:45 2016
+  training loss: 88.874
+  validation loss: 87.5759
+  time: Wed May  4 17:03:45 2016
+  training loss: 88.5752
+  validation loss: 87.4144
+  time: Wed May  4 17:03:46 2016
+  training loss: 87.7885
+  validation loss: 86.4279
+  time: Wed May  4 17:03:46 2016
+  training loss: 87.5725
+  validation loss: 86.3281
+  time: Wed May  4 17:03:47 2016
+  training loss: 86.8185
+  validation loss: 85.6164
+  time: Wed May  4 17:03:48 2016
+  training loss: 86.6567
+  validation loss: 85.4138
+  time: Wed May  4 17:03:48 2016
+  training loss: 85.9733
+  validation loss: 84.7684
+  time: Wed May  4 17:03:49 2016
+  training loss: 85.6849
+  validation loss: 84.6662
+  time: Wed May  4 17:03:50 2016
+  training loss: 85.3402
+  validation loss: 83.9779
+  time: Wed May  4 17:03:50 2016
+  training loss: 85.057
+  validation loss: 84.0647
+  time: Wed May  4 17:03:51 2016
+  training loss: 84.6822
+  validation loss: 83.3831
+  time: Wed May  4 17:03:52 2016
+  training loss: 84.4506
+  validation loss: 83.3765
+  time: Wed May  4 17:03:52 2016
+  training loss: 83.7771
+  validation loss: 82.7663
+  time: Wed May  4 17:03:53 2016
+  training loss: 83.8931
+  validation loss: 82.7698
+  time: Wed May  4 17:03:54 2016
+  training loss: 83.3721
+  validation loss: 82.5441
+  time: Wed May  4 17:03:54 2016
+  training loss: 83.6142
+  validation loss: 82.4635
+  time: Wed May  4 17:03:55 2016
+  training loss: 82.9932
+  validation loss: 81.9499
+  time: Wed May  4 17:03:56 2016
+  training loss: 83.1781
+  validation loss: 82.0154
+  time: Wed May  4 17:03:56 2016
+  training loss: 82.6232
+  validation loss: 81.7825
+  time: Wed May  4 17:03:57 2016
+  training loss: 82.6892
+  validation loss: 81.8355
+  time: Wed May  4 17:03:58 2016
+  training loss: 82.3709
+  validation loss: 81.5174
+  time: Wed May  4 17:03:58 2016
+  training loss: 82.3874
+  validation loss: 81.6941
+  time: Wed May  4 17:03:59 2016
+  training loss: 82.0608
+  validation loss: 81.2634
+  time: Wed May  4 17:04:00 2016
+  training loss: 82.3326
+  validation loss: 81.2236
+  time: Wed May  4 17:04:00 2016
+  training loss: 81.994
+  validation loss: 81.249
+  time: Wed May  4 17:04:01 2016
+  training loss: 81.9098
+  validation loss: 81.0124
+  time: Wed May  4 17:04:02 2016
+  training loss: 81.616
+  validation loss: 80.6013
+  time: Wed May  4 17:04:02 2016
+  training loss: 81.71
+  validation loss: 80.9991
+  time: Wed May  4 17:04:03 2016
+  training loss: 81.3386
+  validation loss: 80.2694
+  time: Wed May  4 17:04:04 2016
+  training loss: 81.757
+  validation loss: 80.5515
+  time: Wed May  4 17:04:04 2016
+  training loss: 81.0676
+  validation loss: 80.3917
+  time: Wed May  4 17:04:05 2016
+  training loss: 81.7417
+  validation loss: 80.6035
+  time: Wed May  4 17:04:05 2016
+  training loss: 81.0401
+  validation loss: 80.0408
+  time: Wed May  4 17:04:06 2016
+  training loss: 81.3755
+  validation loss: 80.4368
+  time: Wed May  4 17:04:07 2016
+  training loss: 80.917
+  validation loss: 80.045
+  time: Wed May  4 17:04:07 2016
+  training loss: 81.2483
+  validation loss: 80.1534
+  time: Wed May  4 17:04:08 2016
+  training loss: 80.9291
+  validation loss: 79.9905
+  time: Wed May  4 17:04:09 2016
+  training loss: 81.1067
+  validation loss: 80.4974
+  time: Wed May  4 17:04:09 2016
+  training loss: 81.1048
+  validation loss: 80.2654
+  time: Wed May  4 17:04:10 2016
+  training loss: 81.2404
+  validation loss: 80.134
+  time: Wed May  4 17:04:11 2016
+  training loss: 80.5246
+  validation loss: 79.7653
+  time: Wed May  4 17:04:11 2016
+  training loss: 80.9124
+  validation loss: 79.8929
+  time: Wed May  4 17:04:12 2016
+  training loss: 80.5534
+  validation loss: 79.6441
+  time: Wed May  4 17:04:12 2016
+  training loss: 80.6425
+  validation loss: 79.7259
+  time: Wed May  4 17:04:13 2016
+  training loss: 80.5134
+  validation loss: 79.607
+  time: Wed May  4 17:04:14 2016
+  training loss: 80.8676
+  validation loss: 79.8997
+  time: Wed May  4 17:04:14 2016
+  training loss: 80.6593
+  validation loss: 79.6927
+  time: Wed May  4 17:04:15 2016
+  training loss: 80.6833
+  validation loss: 79.8784
+  time: Wed May  4 17:04:16 2016
+  training loss: 80.4124
+  validation loss: 79.339
+  time: Wed May  4 17:04:16 2016
+  training loss: 80.3533
+  validation loss: 79.473
+  time: Wed May  4 17:04:17 2016
+  training loss: 80.4227
+  validation loss: 79.5262
+  time: Wed May  4 17:04:18 2016
+  training loss: 80.6768
+  validation loss: 79.6846
+  time: Wed May  4 17:04:18 2016
+  training loss: 80.2898
+  validation loss: 79.4265
+  time: Wed May  4 17:04:19 2016
+  training loss: 80.6275
+  validation loss: 79.812
+  time: Wed May  4 17:04:19 2016
+  training loss: 80.2663
+  validation loss: 79.2967
+  time: Wed May  4 17:04:20 2016
+  training loss: 80.6422
+  validation loss: 79.5458
+  time: Wed May  4 17:04:21 2016
+  training loss: 80.2417
+  validation loss: 79.4374
+  time: Wed May  4 17:04:21 2016
+  training loss: 80.6123
+  validation loss: 79.7008
+  time: Wed May  4 17:04:22 2016
+  training loss: 80.0797
+  validation loss: 79.1896
+  time: Wed May  4 17:04:23 2016
+  training loss: 80.2686
+  validation loss: 79.4961
+  time: Wed May  4 17:04:23 2016
+  training loss: 80.0811
+  validation loss: 79.3502
+  time: Wed May  4 17:04:24 2016
+  training loss: 80.4185
+  validation loss: 79.5488
+  time: Wed May  4 17:04:24 2016
+  training loss: 80.1413
+  validation loss: 79.3399
+  time: Wed May  4 17:04:25 2016
+  training loss: 80.4394
+  validation loss: 79.5462
+  time: Wed May  4 17:04:26 2016
+  training loss: 80.0995
+  validation loss: 79.1434
+  time: Wed May  4 17:04:26 2016
+  training loss: 80.5862
+  validation loss: 79.571
+  time: Wed May  4 17:04:27 2016
+  training loss: 80.036
+  validation loss: 79.2216
+  time: Wed May  4 17:04:28 2016
+  training loss: 80.4934
+  validation loss: 79.5554
+  time: Wed May  4 17:04:28 2016
+  training loss: 80.101
+  validation loss: 79.202
+  time: Wed May  4 17:04:29 2016
+  training loss: 80.361
+  validation loss: 79.4305
+ - stop time: Wed May  4 17:04:29 2016
+Saving model model_data/models/model_9_class.mod
+Creating model model_data/models/model_9_method.mod
+Training model model_data/models/model_9_method.mod
+ - start time: Wed May  4 17:04:30 2016
+
+  time: Wed May  4 17:04:32 2016
+  training loss: 26037.3
+  validation loss: 52552.6
+  time: Wed May  4 17:04:34 2016
+  training loss: 9360.98
+  validation loss: 10948.4
+  time: Wed May  4 17:04:36 2016
+  training loss: 7733.3
+  validation loss: 8000.31
+  time: Wed May  4 17:04:38 2016
+  training loss: 7329.64
+  validation loss: 7408.88
+  time: Wed May  4 17:04:40 2016
+  training loss: 7117.05
+  validation loss: 7143.82
+  time: Wed May  4 17:04:42 2016
+  training loss: 6953.13
+  validation loss: 6934.23
+  time: Wed May  4 17:04:44 2016
+  training loss: 6810.21
+  validation loss: 6778.88
+  time: Wed May  4 17:04:46 2016
+  training loss: 6615.68
+  validation loss: 6581.13
+  time: Wed May  4 17:04:48 2016
+  training loss: 6447.4
+  validation loss: 6417.68
+  time: Wed May  4 17:04:50 2016
+  training loss: 6276.44
+  validation loss: 6228.85
+  time: Wed May  4 17:04:52 2016
+  training loss: 6088.72
+  validation loss: 6052.83
+  time: Wed May  4 17:04:54 2016
+  training loss: 5907.77
+  validation loss: 5885.62
+  time: Wed May  4 17:04:56 2016
+  training loss: 5745.43
+  validation loss: 5710.98
+  time: Wed May  4 17:04:58 2016
+  training loss: 5555.2
+  validation loss: 5521.93
+  time: Wed May  4 17:05:00 2016
+  training loss: 5376.08
+  validation loss: 5342.23
+  time: Wed May  4 17:05:02 2016
+  training loss: 5204.83
+  validation loss: 5166.69
+  time: Wed May  4 17:05:04 2016
+  training loss: 5032.74
+  validation loss: 4998.48
+  time: Wed May  4 17:05:06 2016
+  training loss: 4870.25
+  validation loss: 4842.98
+  time: Wed May  4 17:05:08 2016
+  training loss: 4739.73
+  validation loss: 4701.64
+  time: Wed May  4 17:05:09 2016
+  training loss: 4596.46
+  validation loss: 4548.59
+  time: Wed May  4 17:05:11 2016
+  training loss: 4473.76
+  validation loss: 4421.79
+  time: Wed May  4 17:05:13 2016
+  training loss: 4366.78
+  validation loss: 4316.45
+  time: Wed May  4 17:05:15 2016
+  training loss: 4264.73
+  validation loss: 4212.02
+  time: Wed May  4 17:05:17 2016
+  training loss: 4172.13
+  validation loss: 4117.19
+  time: Wed May  4 17:05:19 2016
+  training loss: 4078.22
+  validation loss: 4028.38
+  time: Wed May  4 17:05:21 2016
+  training loss: 3994.13
+  validation loss: 3937.13
+  time: Wed May  4 17:05:23 2016
+  training loss: 3905.39
+  validation loss: 3854.35
+  time: Wed May  4 17:05:25 2016
+  training loss: 3852.07
+  validation loss: 3797.04
+  time: Wed May  4 17:05:27 2016
+  training loss: 3765.89
+  validation loss: 3716.57
+  time: Wed May  4 17:05:29 2016
+  training loss: 3724.26
+  validation loss: 3681.73
+  time: Wed May  4 17:05:31 2016
+  training loss: 3664.07
+  validation loss: 3613.7
+  time: Wed May  4 17:05:33 2016
+  training loss: 3614.7
+  validation loss: 3559.93
+  time: Wed May  4 17:05:35 2016
+  training loss: 3545.27
+  validation loss: 3508.5
+  time: Wed May  4 17:05:37 2016
+  training loss: 3511.51
+  validation loss: 3475.71
+  time: Wed May  4 17:05:39 2016
+  training loss: 3468.22
+  validation loss: 3441.82
+  time: Wed May  4 17:05:41 2016
+  training loss: 3468.59
+  validation loss: 3426.07
+  time: Wed May  4 17:05:43 2016
+  training loss: 3387.87
+  validation loss: 3342.86
+  time: Wed May  4 17:05:44 2016
+  training loss: 3364.03
+  validation loss: 3305.14
+  time: Wed May  4 17:05:46 2016
+  training loss: 3339.28
+  validation loss: 3283.56
+  time: Wed May  4 17:05:48 2016
+  training loss: 3314.51
+  validation loss: 3265.04
+  time: Wed May  4 17:05:50 2016
+  training loss: 3269.93
+  validation loss: 3229.05
+  time: Wed May  4 17:05:52 2016
+  training loss: 3266.76
+  validation loss: 3218.22
+  time: Wed May  4 17:05:54 2016
+  training loss: 3236.07
+  validation loss: 3187.18
+  time: Wed May  4 17:05:56 2016
+  training loss: 3224.65
+  validation loss: 3174.93
+  time: Wed May  4 17:05:58 2016
+  training loss: 3193.29
+  validation loss: 3140.87
+  time: Wed May  4 17:06:00 2016
+  training loss: 3168.05
+  validation loss: 3127.55
+  time: Wed May  4 17:06:02 2016
+  training loss: 3149.95
+  validation loss: 3123.17
+  time: Wed May  4 17:06:04 2016
+  training loss: 3151.97
+  validation loss: 3119.85
+  time: Wed May  4 17:06:06 2016
+  training loss: 3123.3
+  validation loss: 3081.44
+  time: Wed May  4 17:06:08 2016
+  training loss: 3114.59
+  validation loss: 3077.93
+  time: Wed May  4 17:06:10 2016
+  training loss: 3093.39
+  validation loss: 3073.79
+  time: Wed May  4 17:06:12 2016
+  training loss: 3106.87
+  validation loss: 3092.24
+  time: Wed May  4 17:06:14 2016
+  training loss: 3072.62
+  validation loss: 3039.21
+  time: Wed May  4 17:06:16 2016
+  training loss: 3067.13
+  validation loss: 3031.39
+  time: Wed May  4 17:06:18 2016
+  training loss: 3059.92
+  validation loss: 3002.2
+  time: Wed May  4 17:06:19 2016
+  training loss: 3063.54
+  validation loss: 3044.59
+  time: Wed May  4 17:06:21 2016
+  training loss: 3039.17
+  validation loss: 2995.06
+  time: Wed May  4 17:06:23 2016
+  training loss: 3013.72
+  validation loss: 2990.24
+  time: Wed May  4 17:06:25 2016
+  training loss: 3007.69
+  validation loss: 2968.61
+  time: Wed May  4 17:06:27 2016
+  training loss: 3006.79
+  validation loss: 2974.72
+  time: Wed May  4 17:06:29 2016
+  training loss: 2995.76
+  validation loss: 2980.51
+  time: Wed May  4 17:06:31 2016
+  training loss: 3011.21
+  validation loss: 2970.82
+  time: Wed May  4 17:06:33 2016
+  training loss: 2977.2
+  validation loss: 2955.6
+  time: Wed May  4 17:06:35 2016
+  training loss: 2979.1
+  validation loss: 2948.91
+  time: Wed May  4 17:06:37 2016
+  training loss: 2960.15
+  validation loss: 2946.15
+  time: Wed May  4 17:06:39 2016
+  training loss: 2974.83
+  validation loss: 2963.87
+  time: Wed May  4 17:06:41 2016
+  training loss: 2970.41
+  validation loss: 2950.85
+  time: Wed May  4 17:06:43 2016
+  training loss: 2961.19
+  validation loss: 2937.37
+  time: Wed May  4 17:06:45 2016
+  training loss: 2942.63
+  validation loss: 2936.09
+  time: Wed May  4 17:06:47 2016
+  training loss: 2977.18
+  validation loss: 2937.58
+  time: Wed May  4 17:06:48 2016
+  training loss: 2949.84
+  validation loss: 2921.41
+  time: Wed May  4 17:06:50 2016
+  training loss: 2927.36
+  validation loss: 2896.63
+  time: Wed May  4 17:06:52 2016
+  training loss: 2939.0
+  validation loss: 2900.2
+  time: Wed May  4 17:06:54 2016
+  training loss: 2942.01
+  validation loss: 2910.23
+  time: Wed May  4 17:06:56 2016
+  training loss: 2921.66
+  validation loss: 2895.41
+  time: Wed May  4 17:06:58 2016
+  training loss: 2940.64
+  validation loss: 2907.99
+  time: Wed May  4 17:07:00 2016
+  training loss: 2917.21
+  validation loss: 2897.75
+  time: Wed May  4 17:07:02 2016
+  training loss: 2943.0
+  validation loss: 2904.39
+  time: Wed May  4 17:07:04 2016
+  training loss: 2920.36
+  validation loss: 2882.27
+  time: Wed May  4 17:07:06 2016
+  training loss: 2932.64
+  validation loss: 2910.93
+  time: Wed May  4 17:07:08 2016
+  training loss: 2905.35
+  validation loss: 2889.45
+  time: Wed May  4 17:07:10 2016
+  training loss: 2919.31
+  validation loss: 2887.84
+  time: Wed May  4 17:07:12 2016
+  training loss: 2898.58
+  validation loss: 2892.22
+  time: Wed May  4 17:07:14 2016
+  training loss: 2921.06
+  validation loss: 2915.39
+ - stop time: Wed May  4 17:07:14 2016
+Saving model model_data/models/model_9_method.mod
+Creating model model_data/models/model_9_identifier.mod
+Training model model_data/models/model_9_identifier.mod
+ - start time: Wed May  4 17:07:16 2016
+
+  time: Wed May  4 17:07:24 2016
+  training loss: 56255.9
+  validation loss: 148170.0
+  time: Wed May  4 17:07:31 2016
+  training loss: 22787.8
+  validation loss: 23929.7
+  time: Wed May  4 17:07:38 2016
+  training loss: 21107.3
+  validation loss: 21409.1
+  time: Wed May  4 17:07:44 2016
+  training loss: 20668.6
+  validation loss: 20659.9
+  time: Wed May  4 17:07:52 2016
+  training loss: 20317.2
+  validation loss: 20290.4
+  time: Wed May  4 17:07:59 2016
+  training loss: 20017.8
+  validation loss: 19930.4
+  time: Wed May  4 17:08:06 2016
+  training loss: 19656.5
+  validation loss: 19498.9
+  time: Wed May  4 17:08:14 2016
+  training loss: 19042.3
+  validation loss: 18889.3
+  time: Wed May  4 17:08:21 2016
+  training loss: 18588.6
+  validation loss: 18482.5
+  time: Wed May  4 17:08:29 2016
+  training loss: 18033.9
+  validation loss: 17824.1
+  time: Wed May  4 17:08:36 2016
+  training loss: 17484.0
+  validation loss: 17295.9
+  time: Wed May  4 17:08:43 2016
+  training loss: 16868.4
+  validation loss: 16714.5
+  time: Wed May  4 17:08:50 2016
+  training loss: 16348.7
+  validation loss: 16180.2
+  time: Wed May  4 17:08:57 2016
+  training loss: 15739.5
+  validation loss: 15583.2
+  time: Wed May  4 17:09:03 2016
+  training loss: 15250.4
+  validation loss: 15064.5
+  time: Wed May  4 17:09:10 2016
+  training loss: 14756.8
+  validation loss: 14528.6
+  time: Wed May  4 17:09:16 2016
+  training loss: 14262.1
+  validation loss: 14076.9
+  time: Wed May  4 17:09:23 2016
+  training loss: 13817.4
+  validation loss: 13656.1
+  time: Wed May  4 17:09:29 2016
+  training loss: 13410.7
+  validation loss: 13251.6
+  time: Wed May  4 17:09:36 2016
+  training loss: 13021.2
+  validation loss: 12830.1
+  time: Wed May  4 17:09:42 2016
+  training loss: 12685.8
+  validation loss: 12492.7
+  time: Wed May  4 17:09:49 2016
+  training loss: 12511.7
+  validation loss: 12329.0
+  time: Wed May  4 17:09:56 2016
+  training loss: 12191.9
+  validation loss: 12010.9
+  time: Wed May  4 17:10:02 2016
+  training loss: 12054.1
+  validation loss: 11832.4
+  time: Wed May  4 17:10:09 2016
+  training loss: 11793.8
+  validation loss: 11595.0
+  time: Wed May  4 17:10:16 2016
+  training loss: 11627.7
+  validation loss: 11369.5
+  time: Wed May  4 17:10:22 2016
+  training loss: 11323.6
+  validation loss: 11098.8
+  time: Wed May  4 17:10:29 2016
+  training loss: 11190.7
+  validation loss: 11033.4
+  time: Wed May  4 17:10:35 2016
+  training loss: 11006.9
+  validation loss: 10795.5
+  time: Wed May  4 17:10:42 2016
+  training loss: 10993.8
+  validation loss: 10767.5
+  time: Wed May  4 17:10:48 2016
+  training loss: 10820.2
+  validation loss: 10572.4
+  time: Wed May  4 17:10:55 2016
+  training loss: 10649.3
+  validation loss: 10490.0
+  time: Wed May  4 17:11:02 2016
+  training loss: 10497.5
+  validation loss: 10398.7
+  time: Wed May  4 17:11:09 2016
+  training loss: 10415.4
+  validation loss: 10361.4
+  time: Wed May  4 17:11:16 2016
+  training loss: 10324.8
+  validation loss: 10225.6
+  time: Wed May  4 17:11:23 2016
+  training loss: 10341.7
+  validation loss: 10211.9
+  time: Wed May  4 17:11:29 2016
+  training loss: 10127.4
+  validation loss: 9930.5
+  time: Wed May  4 17:11:36 2016
+  training loss: 10069.0
+  validation loss: 9910.63
+  time: Wed May  4 17:11:43 2016
+  training loss: 10015.2
+  validation loss: 9817.4
+  time: Wed May  4 17:11:50 2016
+  training loss: 9988.52
+  validation loss: 9820.75
+  time: Wed May  4 17:11:57 2016
+  training loss: 9882.35
+  validation loss: 9775.73
+  time: Wed May  4 17:12:04 2016
+  training loss: 9904.17
+  validation loss: 9764.91
+  time: Wed May  4 17:12:11 2016
+  training loss: 9764.66
+  validation loss: 9631.15
+  time: Wed May  4 17:12:18 2016
+  training loss: 9791.53
+  validation loss: 9640.54
+  time: Wed May  4 17:12:25 2016
+  training loss: 9654.06
+  validation loss: 9523.14
+  time: Wed May  4 17:12:32 2016
+  training loss: 9633.02
+  validation loss: 9494.65
+  time: Wed May  4 17:12:39 2016
+  training loss: 9610.81
+  validation loss: 9576.21
+  time: Wed May  4 17:12:46 2016
+  training loss: 9596.59
+  validation loss: 9541.26
+  time: Wed May  4 17:12:53 2016
+  training loss: 9527.91
+  validation loss: 9390.17
+  time: Wed May  4 17:13:00 2016
+  training loss: 9544.34
+  validation loss: 9449.11
+  time: Wed May  4 17:13:06 2016
+  training loss: 9451.93
+  validation loss: 9399.1
+  time: Wed May  4 17:13:13 2016
+  training loss: 9583.42
+  validation loss: 9510.7
+  time: Wed May  4 17:13:19 2016
+  training loss: 9398.01
+  validation loss: 9305.53
+  time: Wed May  4 17:13:26 2016
+  training loss: 9398.2
+  validation loss: 9319.39
+  time: Wed May  4 17:13:32 2016
+  training loss: 9400.37
+  validation loss: 9306.54
+  time: Wed May  4 17:13:39 2016
+  training loss: 9430.98
+  validation loss: 9415.47
+  time: Wed May  4 17:13:45 2016
+  training loss: 9326.8
+  validation loss: 9219.65
+  time: Wed May  4 17:13:52 2016
+  training loss: 9272.33
+  validation loss: 9231.11
+  time: Wed May  4 17:13:59 2016
+  training loss: 9216.12
+  validation loss: 9153.68
+  time: Wed May  4 17:14:06 2016
+  training loss: 9256.3
+  validation loss: 9197.92
+  time: Wed May  4 17:14:12 2016
+  training loss: 9236.88
+  validation loss: 9207.29
+  time: Wed May  4 17:14:19 2016
+  training loss: 9324.02
+  validation loss: 9230.63
+  time: Wed May  4 17:14:26 2016
+  training loss: 9190.31
+  validation loss: 9137.06
+  time: Wed May  4 17:14:33 2016
+  training loss: 9167.71
+  validation loss: 9144.39
+  time: Wed May  4 17:14:39 2016
+  training loss: 9183.54
+  validation loss: 9132.88
+  time: Wed May  4 17:14:46 2016
+  training loss: 9261.39
+  validation loss: 9266.62
+  time: Wed May  4 17:14:52 2016
+  training loss: 9232.58
+  validation loss: 9158.78
+  time: Wed May  4 17:14:59 2016
+  training loss: 9142.47
+  validation loss: 9046.63
+  time: Wed May  4 17:15:06 2016
+  training loss: 9114.19
+  validation loss: 9103.58
+  time: Wed May  4 17:15:14 2016
+  training loss: 9282.41
+  validation loss: 9163.83
+  time: Wed May  4 17:15:20 2016
+  training loss: 9171.84
+  validation loss: 9065.69
+  time: Wed May  4 17:15:27 2016
+  training loss: 9120.2
+  validation loss: 9012.51
+  time: Wed May  4 17:15:33 2016
+  training loss: 9105.99
+  validation loss: 9018.52
+  time: Wed May  4 17:15:40 2016
+  training loss: 9127.7
+  validation loss: 9086.45
+  time: Wed May  4 17:15:46 2016
+  training loss: 9100.49
+  validation loss: 9036.16
+  time: Wed May  4 17:15:53 2016
+  training loss: 9164.25
+  validation loss: 9122.99
+  time: Wed May  4 17:16:00 2016
+  training loss: 9092.84
+  validation loss: 9095.38
+ - stop time: Wed May  4 17:16:00 2016
+Saving model model_data/models/model_9_identifier.mod

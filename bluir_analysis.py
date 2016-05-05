@@ -1,7 +1,9 @@
-from bug_repository import BugReportContentHandler
 import re
 import sys
 import xml
+import argparse
+
+from bug_repository import BugReportContentHandler
 
 # run me with:
 #   python bluir_analysis.py testRunOut\results.txt SWTBugRepository.xml
@@ -33,7 +35,7 @@ def createBugReportResultsMap(resultsFilePath):
     75739 Q0 org.eclipse.swt.ole.win32.Variant.java 1 0.931489 indri
     '''
     resultLinePattern = \
-        r'''^(?P<bugReportID>\d+?)\s+?(?P<queryID>\S+?)\s+?(?P<file>\S+?)\s+?(?P<rank>\d+)\s+?(?P<relevance>\d+?\.\d+)\s+?(?P<irMethod>\S+)$'''
+        r'''^(?P<bugReportID>\d+?)\s+?(?P<queryID>\S+?)\s+?(?P<file>\S+?)\s+?(?P<rank>\d+)\s+?(?P<relevance>\d+?\.\d+?(e-?\d+)?)\s+?(?P<irMethod>\S+)$'''
     resultLineRE = re.compile(resultLinePattern)
 
     bugReportResultsMap = {}
@@ -127,17 +129,23 @@ class BLUiRAnalysis():
         return None
 
 if __name__ == '__main__':
-    resultsFilePath = sys.argv[1]
+    parser = argparse.ArgumentParser(description='Analyzes the results file from BLUiR.')
+    parser.add_argument('-r', '--results-file', help='Path to a BLUiR results file.')
+    parser.add_argument('-b', '--bug-repository', help='Path to bug repository XML file.')
+
+    args = parser.parse_args()
+
+    resultsFilePath = args.results_file
     bugReportResultsMap = createBugReportResultsMap(resultsFilePath)
 
-    bugRepositoryFilePath = sys.argv[2]
+    bugRepositoryFilePath = args.bug_repository
     bugReportSourceFileMap = createBugReportSourceFileMap(bugRepositoryFilePath)
 
     bluirAnalysis = BLUiRAnalysis(bugReportSourceFileMap)
 
     print "Results File Path: %s" % resultsFilePath
     print "Bug Repository File Path: %s" % bugRepositoryFilePath
-    print 
+    print
     print "Top 1: %d" % bluirAnalysis.calculateRecallAtTopN(bugReportResultsMap, 1)
     print "Top 5: %d" % bluirAnalysis.calculateRecallAtTopN(bugReportResultsMap, 5)
     print "Top 10: %d" % bluirAnalysis.calculateRecallAtTopN(bugReportResultsMap, 10)

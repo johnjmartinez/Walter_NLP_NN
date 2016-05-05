@@ -1,0 +1,9 @@
+[BugReports]
+TFIDFCutoff=0.001
+FilterWordsPath=corpus_data/filter_words/corpus_2_bug_reports_filter_words.json
+CorpusPath=corpus_data/corpuses/corpus_2_bug_reports.pkl
+
+[FixedFiles]
+TFIDFCutoff=0.001
+FilterWordsPath=corpus_data/filter_words/corpus_2_fixed_files_filter_words.json
+CorpusPath=corpus_data/corpuses/corpus_2_fixed_files.pkl
