@@ -1,5 +1,5 @@
 # Walter_NLP_NN
-Slides: https://drive.google.com/open?id=1KwdqqBDJW9v9HWZNlTEmnAs2ub6aqriNEdREih7B2iU
+Slides: https://goo.gl/s3E7CZ
 
 Main links:.
 [Theano: Multi cores support](http://deeplearning.net/software/theano/tutorial/multi_cores.html).
